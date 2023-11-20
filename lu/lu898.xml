@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="déclenchement.n" ID="898" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Actor"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Actor"/>
+                <annoSet ID="22448"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cause"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="4651"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="3139"/>
+                <annoSet ID="8379"/>
+                <annoSet ID="21738"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Effect"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="3139"/>
+                <annoSet ID="4651"/>
+                <annoSet ID="8379"/>
+                <annoSet ID="21738"/>
+                <annoSet ID="22448"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2404">
+            <text>Le déclenchement de l' affaire</text>
+            <annotationSet status="MANUAL" ID="3139">
+                <layer rank="1" name="FE">
+                    <label end="29" start="17" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3478">
+            <text>Un argument qui a du mal à convaincre mais qui illustre à quel point les facteurs psychologiques sont jugés importants pour le déclenchement de la reprise au cours de ces prochains mois .</text>
+            <annotationSet status="MANUAL" ID="4651">
+                <layer rank="1" name="FE">
+                    <label end="95" start="69" name="Cause"/>
+                    <label end="153" start="144" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5703">
+            <text>Les touristes français qui se rendent aux Etats - Unis en ce moment ne peuvent que se réjouir : à moins de 5 , 10 francs , le dollar est retombé à son plus bas cours depuis six mois et se rapproche même des 4 , 95 francs qu' il toucha vers le début de 1991 , peu avant le déclenchement de la guerre du Golfe .</text>
+            <annotationSet status="MANUAL" ID="8379">
+                <layer rank="1" name="FE">
+                    <label end="306" start="289" name="Effect"/>
+                    <label itype="ENI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="284" start="272" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17694">
+            <text>Des processus de consultation et de concertation de longue haleine sont inconciliables avec les exigences des marchés financiers qui attendent des banques centrales des réactions rapides et flexibles , comme cela a été le cas , par exemple , lors du déclenchement de la crise de l' endettement en 1982 ou après le krach d' octobre 1987 .</text>
+            <annotationSet status="MANUAL" ID="21738">
+                <layer rank="1" name="FE">
+                    <label end="292" start="267" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="262" start="250" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18334">
+            <text>Mais , constate l' ancien ministre des transports , " alors que les conditions d' un tel débat semblaient progresser , le déclenchement de la campagne actuelle aboutit à y faire obstacle " .</text>
+            <annotationSet status="MANUAL" ID="22448">
+                <layer rank="1" name="FE">
+                    <label end="158" start="139" name="Effect"/>
+                    <label itype="DNI" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

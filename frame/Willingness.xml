@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Willingness" ID="1632" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; would engage in an &lt;fen&gt;Activity&lt;/fen&gt; if asked or otherwise prompted to do so.
+
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;The court&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;t&gt;willing&lt;/t&gt; &lt;fex name="Activity"&gt;to depart from the usual range of sentencing&lt;/fex&gt; .&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;The Nicaraguan National Assembly&lt;/fex&gt; has &lt;m&gt;been&lt;/m&gt; &lt;t&gt;reluctant&lt;/t&gt; &lt;fex name="Activity"&gt;to destroy the remaining stockpile&lt;/fex&gt;. &lt;/ex&gt;
+
+&lt;ex&gt;The Turks are in &lt;t&gt;grudging&lt;/t&gt; &lt;fex name="act"&gt;acceptance&lt;/fex&gt; of terms set by EU.&lt;/ex&gt;
+
+&lt;ex&gt;Would &lt;fex name="Cognizer"&gt;you&lt;/fex&gt; &lt;m&gt;be&lt;/m&gt; &lt;t&gt;prepared&lt;/t&gt;&lt;fex name="Activity"&gt;to give up some of your privacy to industry to help improve customer service&lt;/fex&gt;?&lt;/ex&gt;
+
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt; : 
+
+&lt;ex&gt;&lt;/ex&gt;
+≠ &lt;frframe&gt;FR_Agree_or_refuse_to_act&lt;/frframe&gt;: in the Willingness frame, the Cognizer would engage in an Activity if prompted to do so, whereas FR_Agree_or_refuse_to_act is the situation in which the Cognizer communicates their willingness to engage in a Proposed_action.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+
+≠  &lt;frframe&gt;Purpose&lt;/frframe&gt;: in the Willingness frame, the Cognizer is willing to engage in an activity if prompted to do so, but they haven't made a decision, whereas with Purpose, the Agent definitely wants to achieve the Goal.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="10/12/2005 01:49:31 PDT Wed" abbrev="Cog" name="Cognizer" ID="9096">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; is the individual that is willing to engage in the &lt;fen&gt;Activity&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Cog"&gt;My mom&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; very &lt;t&gt;loath&lt;/t&gt; to take any drugs without medical supervision.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="10/12/2005 01:49:31 PDT Wed" abbrev="act" name="Activity" ID="9097">
+        <definition>&lt;def-root&gt;
+The &lt;fen&gt;Activity&lt;/fen&gt; is what the &lt;fen&gt;Cognizer&lt;/fen&gt; would do under certain circumstances.
+
+&lt;ex&gt;Does biology really matter more than a &lt;t&gt;willingness&lt;/t&gt; &lt;fex name="act"&gt;to take an active role in a child's life&lt;/fex&gt;? &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Activity" ID="9097"/>
+        <memberFE name="Cognizer" ID="9096"/>
+    </FEcoreSet>
+    <frameRelation type="Is Communicated by">
+        <relatedFrame>FR_Agree_or_refuse_to_act</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="adv" name="d'accord.adv" ID="2582" nbocc="18" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="2602" annotatedsent="3"/>
+        <otherlexUnit framename="Other_sense" ID="100502" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="88" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="870" annotatedsent="2"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="75" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="a" name="disposé.a" ID="2583" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="100581" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="prêt.a" ID="2584" nbocc="112" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="40"/>
+        <otherlexUnit framename="Other_sense" ID="101511" annotatedsent="64"/>
+    </lexUnit>
+    <lexUnit POS="a" name="réticent.a" ID="2585" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101688" annotatedsent="0"/>
+    </lexUnit>
+</frame>

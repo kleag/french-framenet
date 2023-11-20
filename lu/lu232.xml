@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="par la faute de.prep" ID="232" frame="Causation" frameID="5" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Actor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="14113"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cause"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Effect"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="14113"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10050">
+            <text>L' Uruguay round dans l' impasse et le plan d' action communautaire en faveur de la télévision haute définition ( TVHD ) ou , du moins , du développement des programmes adaptés aux écrans en 16 / 9 , complètement bloqué par la faute des Anglais , car disent -ils , la TVHD numérique sera bientôt disponible .</text>
+            <annotationSet status="MANUAL" ID="14113">
+                <layer rank="1" name="FE">
+                    <label end="218" start="140" name="Effect"/>
+                    <label end="243" start="237" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="235" start="220" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

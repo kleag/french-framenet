@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="motivation.n" ID="2297" frame="FR_Reason" frameID="10083" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="21787"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="21787"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="State_of_Affairs"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="21787"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="17731">
+            <text>Mais , cela va sans dire , je respecte la décision prise par les chefs d' état et de gouvernement , et je comprends les motivations politiques sous - jacentes .</text>
+            <annotationSet status="MANUAL" ID="21787">
+                <layer rank="1" name="FE">
+                    <label end="96" start="39" name="Action"/>
+                    <label end="96" start="61" name="Agent"/>
+                    <label end="157" start="116" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="120" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

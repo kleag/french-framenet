@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="conviction.n" ID="802" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="17" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="17">
+            <FE name="Cognizer"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2625"/>
+                <annoSet ID="3548"/>
+                <annoSet ID="8291"/>
+                <annoSet ID="8717"/>
+                <annoSet ID="12039"/>
+                <annoSet ID="12921"/>
+                <annoSet ID="13523"/>
+                <annoSet ID="14678"/>
+                <annoSet ID="16844"/>
+                <annoSet ID="17350"/>
+                <annoSet ID="20027"/>
+                <annoSet ID="21697"/>
+                <annoSet ID="21873"/>
+                <annoSet ID="22415"/>
+                <annoSet ID="23298"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="22631"/>
+                <annoSet ID="23772"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Content"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="3548"/>
+                <annoSet ID="8291"/>
+                <annoSet ID="8717"/>
+                <annoSet ID="12921"/>
+                <annoSet ID="13523"/>
+                <annoSet ID="14678"/>
+                <annoSet ID="16844"/>
+                <annoSet ID="17350"/>
+                <annoSet ID="20027"/>
+                <annoSet ID="21697"/>
+                <annoSet ID="21873"/>
+                <annoSet ID="22415"/>
+                <annoSet ID="22631"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Content"/>
+                <annoSet ID="2625"/>
+                <annoSet ID="12039"/>
+                <annoSet ID="23298"/>
+                <annoSet ID="23772"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2033">
+            <text>Je vous remercie , Monsieur le Président , de nous avoir parlé avec force , conviction et franchise .</text>
+            <annotationSet status="MANUAL" ID="2625">
+                <layer rank="1" name="FE">
+                    <label end="39" start="19" name="Cognizer"/>
+                    <label itype="UNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2713">
+            <text>- Été 1994 : une information judiciaire est ouverte : le juge Éric Halphen acquiert vite la conviction que Jean-Claude Méry est l' un des hommes clefs du système .</text>
+            <annotationSet status="MANUAL" ID="3548">
+                <layer rank="1" name="FE">
+                    <label end="160" start="107" name="Content"/>
+                    <label end="73" start="54" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5652">
+            <text>Le gouverneur - que d' aucuns auraient voulu voir dans le nouveau gouvernement de M. Giuliano Amato - ne s' est en effet pas limité à présenter une analyse de la situation économique , jugée cette année d' " une urgence préoccupante " , mais il a développé , ce qui était une grande première , les grands thèmes de ce qui pourrait justement être un programme de gouvernement : maintien d' une politique monétaire encore plus restrictive et stabilité de la lire ( pour répondre sans doute au " parti de la dévaluation " qui s' est pas mal agité ) ; impulsion à la concurrence , assainissement , etc. Bref , ce que toute l' Italie sait déjà et feint d' applaudir des deux mains pour conforter sa conviction européenne .</text>
+            <annotationSet status="MANUAL" ID="8291">
+                <layer rank="1" name="FE">
+                    <label end="714" start="705" name="Content"/>
+                    <label end="627" start="613" name="Cognizer"/>
+                    <label end="692" start="691" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="703" start="694" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5893">
+            <text>M. Jurgen Mllemann , ministre allemand de l' économie , qui partage mes convictions , a organisé la réunion de Münster .</text>
+            <annotationSet status="MANUAL" ID="8717">
+                <layer rank="1" name="FE">
+                    <label end="82" start="68" name="Content"/>
+                    <label end="70" start="68" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8428">
+            <text>Les employeurs le défendent mais sans toujours beaucoup de conviction .</text>
+            <annotationSet status="MANUAL" ID="12039">
+                <layer rank="1" name="FE">
+                    <label end="13" start="0" name="Cognizer"/>
+                    <label itype="UNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9024">
+            <text>En juin 1988 , il devient secrétaire d' Etat chargé de la prévention des risques technologiques et naturels majeurs au sein du gouvernement de M. Michel Rocard , et , en mars 1989 , à l' occasion d' un remaniement , il accède au poste de secrétaire d' Etat à la défense , au côté de M. Chevènement , dont il a , du temps du CERES , partagé certaines des convictions .</text>
+            <annotationSet status="MANUAL" ID="12921">
+                <layer rank="1" name="FE">
+                    <label end="364" start="354" name="Content"/>
+                    <label end="364" start="283" name="Cognizer"/>
+                    <label end="303" start="300" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="364" start="354" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9556">
+            <text>Première conviction forte des experts du Plan : pour lutter contre le chômage , il ne faudra pas trop compter , au cours des cinq années à venir , sur la croissance .</text>
+            <annotationSet status="MANUAL" ID="13523">
+                <layer rank="1" name="FE">
+                    <label end="163" start="48" name="Content"/>
+                    <label end="44" start="30" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10480">
+            <text>Peu connu du grand public , cet énarque ( promotion Léon Blum ) , inspecteur des finances aux fortes convictions de gauche , a en fait joué depuis la fin des années 70 un rôle clé dans la vie économique et politique française .</text>
+            <annotationSet status="MANUAL" ID="14678">
+                <layer rank="1" name="FE">
+                    <label end="121" start="94" name="Content"/>
+                    <label end="92" start="28" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12499">
+            <text>La chute du gouvernement de centre droit entraînerait le retour aux affaires des sociaux - démocrates , dont le leader , M. Poul Nyrup Rasmussen , n' a pas intérêt à clamer trop fort ses convictions européennes :</text>
+            <annotationSet status="MANUAL" ID="16844">
+                <layer rank="1" name="FE">
+                    <label end="209" start="199" name="Content"/>
+                    <label end="143" start="109" name="Cognizer"/>
+                    <label end="185" start="183" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12993">
+            <text>En donnant l' impression de fixer de nouvelles conditions à un éventuel retour de la livre au sein d' un système de taux de change semi- fixes , le premier ministre renforce les doutes des partenaires de la Grande - Bretagne quant aux convictions européennes de Londres , et accrédite de facto la perspective d' une " Europe à deux vitesses " .</text>
+            <annotationSet status="MANUAL" ID="17350">
+                <layer rank="1" name="FE">
+                    <label end="257" start="247" name="Content"/>
+                    <label end="268" start="262" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="245" start="235" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15852">
+            <text>Un temps , M. Ménage avait espéré la présidence de Total non sans le soutien de la cousine rivale , Elf , dont le président , connu pour ses convictions socialistes , voyait là l' occasion d' un rapprochement .</text>
+            <annotationSet status="MANUAL" ID="20027">
+                <layer rank="1" name="FE">
+                    <label end="163" start="153" name="Content"/>
+                    <label end="135" start="111" name="Cognizer"/>
+                    <label end="139" start="137" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17660">
+            <text>Dans le cas contraire le prestige de Mr Lalonde et la sincérité des convictions écologiques du gouvernement en seraient inévitablement affectés .</text>
+            <annotationSet status="MANUAL" ID="21697">
+                <layer rank="1" name="FE">
+                    <label end="90" start="80" name="Content"/>
+                    <label end="106" start="95" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17795">
+            <text>Entre gens qui ont des vraies convictions , il peut y avoir convergences " , remarquait Mr Poperen .</text>
+            <annotationSet status="MANUAL" ID="21873">
+                <layer rank="1" name="FE">
+                    <label end="40" start="19" name="Content"/>
+                    <label end="13" start="11" name="Cognizer"/>
+                    <label end="40" start="6" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18315">
+            <text>Il arrive un moment où il faut mettre ses actes au service de ses convictions .</text>
+            <annotationSet status="MANUAL" ID="22415">
+                <layer rank="1" name="FE">
+                    <label end="76" start="62" name="Content"/>
+                    <label end="64" start="62" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18521">
+            <text>Ces chiffres s' expliquent certes par la nécessité de survivre plus que par la conviction .</text>
+            <annotationSet status="MANUAL" ID="22631">
+                <layer rank="1" name="FE">
+                    <label end="88" start="76" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19342">
+            <text>Toujours pro soviétique , ce parti minuscule , qui a été brejnévien avec plus de conviction qu' il n' est aujourd' hui gorbatchévien , ne recueille que quelques dizaines de milliers de voix lors des élections et n' a aucun député .</text>
+            <annotationSet status="MANUAL" ID="23298">
+                <layer rank="1" name="FE">
+                    <label end="49" start="47" name="Cognizer"/>
+                    <label end="131" start="26" name="Cognizer"/>
+                    <label itype="UNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20025">
+            <text>Mais , quand on se rappelle la conviction avec laquelle les idées aujourd' hui rejetées étaient professées , on ne peut s' empêcher de se poser la question : quels sont les thèmes développés aujourd' hui avec une assurance apparemment aussi affirmée ( l' arrogance en moins ) dont on est en droit de se méfier ?</text>
+            <annotationSet status="MANUAL" ID="23772">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="exhorter.v" ID="766" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Action"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="16439"/>
+                <annoSet ID="23270"/>
+                <annoSet ID="23304"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="16439"/>
+                <annoSet ID="23270"/>
+                <annoSet ID="23304"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Persuader"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="16439"/>
+                <annoSet ID="23270"/>
+                <annoSet ID="23304"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="12112">
+            <text>" Tout en exhortant les députés - qui ont adopté , mardi 22 décembre , le projet de la loi de finances pour 1993 - à poursuivre l' effort d' assainissement budgétaire entrepris depuis juillet 1992 , le chef du gouvernement italien , M. Giuliano Amato , n' a pas manqué , mardi 22 décembre , de s' adresser à ses compatriotes pour faire appel au " devoir de solidarité envers les plus faibles " .</text>
+            <annotationSet status="MANUAL" ID="16439">
+                <layer rank="1" name="FE">
+                    <label end="195" start="117" name="Action"/>
+                    <label end="113" start="20" name="Cognizer"/>
+                    <label end="249" start="199" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19309">
+            <text>Les assaillants ont fait descendre tous les passagers , leur ont réclamé de l' argent et les ont exhortés à soutenir la guérilla .</text>
+            <annotationSet status="MANUAL" ID="23270">
+                <layer rank="1" name="FE">
+                    <label end="127" start="108" name="Action"/>
+                    <label end="52" start="35" name="Cognizer"/>
+                    <label end="91" start="89" name="Cognizer"/>
+                    <label end="14" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19355">
+            <text>À Bagdad , le ministère irakien de l' agriculture a exhorté les agriculteurs à se rationner en eau dans l' irrigation de leurs terres .</text>
+            <annotationSet status="MANUAL" ID="23304">
+                <layer rank="1" name="FE">
+                    <label end="132" start="79" name="Action"/>
+                    <label end="75" start="60" name="Cognizer"/>
+                    <label end="48" start="11" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

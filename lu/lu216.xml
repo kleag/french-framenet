@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="impact.n" ID="216" frame="Causation" frameID="5" totalAnnotated="14" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Affected"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="1030"/>
+                <annoSet ID="4643"/>
+                <annoSet ID="9416"/>
+                <annoSet ID="9604"/>
+                <annoSet ID="10392"/>
+                <annoSet ID="20158"/>
+                <annoSet ID="24165"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Cause"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="1030"/>
+                <annoSet ID="4643"/>
+                <annoSet ID="9416"/>
+                <annoSet ID="9604"/>
+                <annoSet ID="9972"/>
+                <annoSet ID="10392"/>
+                <annoSet ID="11574"/>
+                <annoSet ID="15177"/>
+                <annoSet ID="17010"/>
+                <annoSet ID="20158"/>
+                <annoSet ID="22227"/>
+                <annoSet ID="24165"/>
+                <annoSet ID="24169"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="2905"/>
+                <annoSet ID="24169"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Effect"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="1030"/>
+                <annoSet ID="2905"/>
+                <annoSet ID="4643"/>
+                <annoSet ID="9416"/>
+                <annoSet ID="9604"/>
+                <annoSet ID="9972"/>
+                <annoSet ID="10392"/>
+                <annoSet ID="11574"/>
+                <annoSet ID="15177"/>
+                <annoSet ID="17010"/>
+                <annoSet ID="20158"/>
+                <annoSet ID="22227"/>
+                <annoSet ID="24165"/>
+                <annoSet ID="24169"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="937">
+            <text>Quand de nouvelles informations reçues peuvent avoir un impact sur le profil de sécurité , le plan de pharmacovigilance ou les activités de minimisation du risque .</text>
+            <annotationSet status="MANUAL" ID="1030">
+                <layer rank="1" name="FE">
+                    <label end="37" start="6" name="Cause"/>
+                    <label end="161" start="67" name="Affected"/>
+                    <label end="161" start="53" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2217">
+            <text>- ( fr ) L' Humanité , 10 juin 1993 , analyse de l' impact médiatique [ 2 ]</text>
+            <annotationSet status="MANUAL" ID="2905">
+                <layer rank="1" name="FE">
+                    <label end="68" start="49" name="Effect"/>
+                    <label itype="UNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3477">
+            <text>Un succès des négociations commerciales internationales , entamées il y a plus de cinq ans , aurait un impact suffisamment fort sur les acteurs économiques pour dynamiser l' activité ...</text>
+            <annotationSet status="MANUAL" ID="4643">
+                <layer rank="1" name="FE">
+                    <label end="89" start="0" name="Cause"/>
+                    <label end="154" start="132" name="Affected"/>
+                    <label end="154" start="100" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6307">
+            <text>Le succès de ces négociations , compte tenu de leur impact sur les échanges mondiaux , ferait plus en faveur des pays en voie de développement que la totalité du budget de l' aide extérieure de la Communauté .</text>
+            <annotationSet status="MANUAL" ID="9416">
+                <layer rank="1" name="FE">
+                    <label end="28" start="13" name="Cause"/>
+                    <label end="83" start="63" name="Affected"/>
+                    <label end="83" start="47" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6420">
+            <text>Motifs avancés par l' agence : " l' impact , à long terme , des changements structurels du système bancaire français sur la rentabilité de la Société générale , ses risques d' achats et ses fonds propres " .</text>
+            <annotationSet status="MANUAL" ID="9604">
+                <layer rank="1" name="FE">
+                    <label end="115" start="64" name="Cause"/>
+                    <label end="157" start="121" name="Affected"/>
+                    <label end="204" start="161" name="Affected"/>
+                    <label end="204" start="33" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6695">
+            <text>Elles ont une portée économique et un impact politique considérables .</text>
+            <annotationSet status="MANUAL" ID="9972">
+                <layer rank="1" name="FE">
+                    <label end="4" start="0" name="Cause"/>
+                    <label end="53" start="35" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7010">
+            <text>Le gain est sensiblement meilleur ( un peu plus de 2 % ) pour les employés comme pour les cadres : les premiers enregistrent l' impact des revalorisations accordées aux fonctionnaires alors que les seconds bénéficient du produit de leurs placements .</text>
+            <annotationSet status="MANUAL" ID="10392">
+                <layer rank="1" name="FE">
+                    <label end="182" start="139" name="Cause"/>
+                    <label end="110" start="99" name="Affected"/>
+                    <label end="73" start="62" name="Affected"/>
+                    <label end="182" start="125" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8047">
+            <text>Professionnellement , les exigences des employeurs s' élèvent pour tenir compte de la modernisation des formes du tourisme et de l' impact européen .</text>
+            <annotationSet status="MANUAL" ID="11574">
+                <layer rank="1" name="FE">
+                    <label end="146" start="139" name="Cause"/>
+                    <label end="146" start="129" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10931">
+            <text>En 1991 , elle a été l' une des rares entreprises de ce secteur à dégager un bénéfice malgré l' impact de la guerre du Golfe , de l' effondrement du COMECON et de la réunification allemande qui l' a privée de l' un de ses plus importants marchés .</text>
+            <annotationSet status="MANUAL" ID="15177">
+                <layer rank="1" name="FE">
+                    <label end="125" start="106" name="Cause"/>
+                    <label end="158" start="130" name="Cause"/>
+                    <label end="244" start="163" name="Cause"/>
+                    <label end="244" start="93" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12659">
+            <text>Les deux cent huit réponses analysées ( sur sept cents questionnaires ) , venant de tous les types de presse écrite , montrent une profession désireuse avant tout d' expliquer et analyser , soucieuse des réactions de ses lecteurs , consciente de l' impact de ses articles , mais qui manque de temps et de moyens face à des entreprises qui ont structuré leurs messages .</text>
+            <annotationSet status="MANUAL" ID="17010">
+                <layer rank="1" name="FE">
+                    <label end="270" start="259" name="Cause"/>
+                    <label end="270" start="246" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="254" start="249" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15994">
+            <text>" d' autre part , les commissaires aux comptes ont certifié les comptes de l' entreprise après avoir émis des réserves à hauteur de 85 millions sur les comptes sociaux , dont l' impact est de 50 millions sur les comptes consolidés ( en perte de 204 , 2 millions part du groupe ) .</text>
+            <annotationSet status="MANUAL" ID="20158">
+                <layer rank="1" name="FE">
+                    <label end="229" start="208" name="Affected"/>
+                    <label end="117" start="106" name="Cause"/>
+                    <label end="202" start="192" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="183" start="178" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18201">
+            <text>Par ailleurs , ne peuvent bénéficier de l' exonération des trois quarts que les forêts soumises à un engagement d' exploitation normale pendant trente ans et à un plan de gestion , lequel ne donne pas lieu à étude d' impact .</text>
+            <annotationSet status="MANUAL" ID="22227">
+                <layer rank="1" name="FE">
+                    <label end="177" start="171" name="Cause"/>
+                    <label end="222" start="217" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="222" start="217" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20456">
+            <text>Toutefois , force est de reconnaître le faible montant des sommes considérées , qui ne représentent que 13 % du montant total de l' aide publique au développement des Etats européens , sans parler de l' absence d' impact significatif du " modèle de Lomé " sur l' insertion internationale des pays membres .</text>
+            <annotationSet status="MANUAL" ID="24165">
+                <layer rank="1" name="FE">
+                    <label end="303" start="260" name="Affected"/>
+                    <label end="254" start="237" name="Cause"/>
+                    <label end="303" start="214" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="219" start="214" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20459">
+            <text>Les concessions industrielles et les dispositions concernant les transferts de technologie ou la promotion des investissements privés dans les ACP n' ont eu qu' un impact marginal .</text>
+            <annotationSet status="MANUAL" ID="24169">
+                <layer rank="1" name="FE">
+                    <label end="145" start="0" name="Cause"/>
+                    <label end="178" start="161" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="169" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="entrevoir.v" ID="111" frame="FR_Becoming_aware" frameID="10086" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="ins" name="Instrument"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="3284"/>
+                <annoSet ID="9632"/>
+                <annoSet ID="14954"/>
+                <annoSet ID="16962"/>
+                <annoSet ID="19994"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="13990"/>
+                <annoSet ID="20283"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Instrument"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Phenomenon"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="3284"/>
+                <annoSet ID="9632"/>
+                <annoSet ID="13990"/>
+                <annoSet ID="14954"/>
+                <annoSet ID="16962"/>
+                <annoSet ID="19994"/>
+                <annoSet ID="20283"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2486">
+            <text>Peu avant de quitter le groupe , en raison de désaccords persistants avec son PDG , Jean-François Briand bloqua le paiement du réseau C , derrière lequel il entrevoyait " le financement d' un parti politique " , ce que l' un de ses collaborateurs , Alain Fribourg , interpréta comme le soupçon d' un " financement du PS " , le Parti socialiste français .</text>
+            <annotationSet status="MANUAL" ID="3284">
+                <layer rank="1" name="FE">
+                    <label end="155" start="154" name="Cognizer"/>
+                    <label end="208" start="169" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6441">
+            <text>Si le marché n' entrevoit pas encore ses prix d' il y a deux ans ( 472 dollars l' once , en moyenne , pendant l' année 1990 ) , il semble que le creux de la vague soit oublié .</text>
+            <annotationSet status="MANUAL" ID="9632">
+                <layer rank="1" name="FE">
+                    <label end="11" start="3" name="Cognizer"/>
+                    <label end="124" start="37" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9959">
+            <text>Bien qu' il prenne soin de justifier longuement cette approche analytique dans ses articles méthodologiques , il n' en est pas moins soupçonné d' allonger l' espérance de vie du capitalisme en laissant entrevoir la possibilité de pulsations récurrentes .</text>
+            <annotationSet status="MANUAL" ID="13990">
+                <layer rank="1" name="FE">
+                    <label end="251" start="212" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="210" start="202" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10702">
+            <text>Du coup , les marchés ont frémi , entrevoyant la possibilité d' une détente des taux d' intérêt plus rapide que prévu et d' un changement d' attitude des dirigeants de la Bundesbank .</text>
+            <annotationSet status="MANUAL" ID="14954">
+                <layer rank="1" name="FE">
+                    <label end="20" start="10" name="Cognizer"/>
+                    <label end="180" start="46" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12602">
+            <text>Dans ce climat de " désespérance " , M. Girard ose entrevoir des lueurs d' embellie , avec la relance des grands chantiers de l' autoroute de Maurienne et surtout de la construction d' un tunnel de 50 kilomètres de la future ligne TGV transalpine Lyon - Turin , dont Modane pourrait être le centre des galeries de percement .</text>
+            <annotationSet status="MANUAL" ID="16962">
+                <layer rank="1" name="FE">
+                    <label end="45" start="37" name="Cognizer"/>
+                    <label end="82" start="61" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15808">
+            <text>Lui - même l' avait laissé entrevoir et M. Tapie avait paru l' exiger par la voix de sa représentante au conseil de surveillance , Mme Gilberte Beaux .</text>
+            <annotationSet status="MANUAL" ID="19994">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Cognizer"/>
+                    <label end="12" start="11" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16127">
+            <text>La séquence gagnante amorcée à la fin de 1991 pouvait laisser entrevoir une période plus sereine : le mois boursier de janvier s' acheva sur une liquidation quasi historique avec un gain de 13 , 4 % .</text>
+            <annotationSet status="MANUAL" ID="20283">
+                <layer rank="1" name="FE">
+                    <label end="95" start="72" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

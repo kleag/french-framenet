@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="contrôler.v" ID="990" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Dependent"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="5972"/>
+                <annoSet ID="7959"/>
+                <annoSet ID="13642"/>
+                <annoSet ID="23164"/>
+                <annoSet ID="23727"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Influencer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="5972"/>
+                <annoSet ID="7959"/>
+                <annoSet ID="13642"/>
+                <annoSet ID="23164"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Influencer"/>
+                <annoSet ID="23727"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4266">
+            <text>Les politiques , enfin , comprennent , mais un peu tard , qu' ils sont manipulés par la télévision plus qu' ils ne la contrôlent .</text>
+            <annotationSet status="MANUAL" ID="5972">
+                <layer rank="1" name="FE">
+                    <label end="97" start="85" name="Dependent"/>
+                    <label end="116" start="115" name="Dependent"/>
+                    <label end="110" start="108" name="Influencer"/>
+                    <label end="13" start="0" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5471">
+            <text>Dans un entretien publié mercredi 1 juillet par la Croix , M. Jacques Chirac , président du RPR , accuse les socialistes de " s' acharner à contrôler de manière autoritaire le volume de la consommation médicale , alors que les Français doivent être libres de dépenser le fruit de leurs efforts " .</text>
+            <annotationSet status="MANUAL" ID="7959">
+                <layer rank="1" name="FE">
+                    <label end="209" start="173" name="Dependent"/>
+                    <label end="119" start="105" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="148" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6699">
+            <text>La rigueur monétaire , nécessaire pour contrôler l' inflation , se heurte au risque d' une paralysie complète des entreprises publiques .</text>
+            <annotationSet status="MANUAL" ID="9975">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9673">
+            <text>Par comparaison avec les résineux que , traditionnellement , on décore pour la fin de l' année , les pétroliers appellent en effet " arbre de Noël " la structure complexe de tubes , de vannes et de soupapes située en tête de puits , et destinée à contrôler le débit d' huile ou de gaz à haute pression .</text>
+            <annotationSet status="MANUAL" ID="13642">
+                <layer rank="1" name="FE">
+                    <label end="300" start="257" name="Dependent"/>
+                    <label end="245" start="149" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="255" start="247" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19169">
+            <text>Filmé en même temps par la télévision , qu' il contrôle , le général a exprimé son " admiration " aux manifestants et qualifié leur initiative de " véritable acte de résistance contre l' occupation et ses agents " .</text>
+            <annotationSet status="MANUAL" ID="23164">
+                <layer rank="1" name="FE">
+                    <label end="54" start="24" name="Dependent"/>
+                    <label end="42" start="40" name="Dependent"/>
+                    <label end="45" start="44" name="Influencer"/>
+                    <label end="67" start="58" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19991">
+            <text>De même , le ralentissement contrôlé de l' économie japonaise est l' accompagnement naturel des mesures habiles qui ont été prises pour dégonfler progressivement la baudruche des prix excessivement élevés qu' avaient atteints les actifs mobiliers et immobiliers .</text>
+            <annotationSet status="MANUAL" ID="23727">
+                <layer rank="1" name="FE">
+                    <label end="26" start="10" name="Dependent"/>
+                    <label end="60" start="37" name="Dependent"/>
+                    <label itype="UNI" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

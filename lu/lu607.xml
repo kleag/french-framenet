@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="vu que.conj" ID="607" frame="Evidence" frameID="25" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposition"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="2113"/>
+                <annoSet ID="2128"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Support"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="2113"/>
+                <annoSet ID="2128"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1806">
+            <text>Il est fort probable , vu qu' ils sont accusés d' espionnage en faveur des États-Unis et d' Israël - lesquels ont par ailleurs démenti tout lien avec ces personnes - qu' ils soient condamnés à la peine capitale .</text>
+            <annotationSet status="MANUAL" ID="2113">
+                <layer rank="1" name="FE">
+                    <label end="164" start="30" name="Support"/>
+                    <label end="21" start="0" name="Proposition"/>
+                    <label end="211" start="166" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1809">
+            <text>Je suis contraint de vous redemander d' intervenir , à vous et à la Commission , pour que ce procès se déroule dans le respect total des droits de l' homme , pour qu' on ne condamne pas à mort treize personnes sans connaître tous les tenants et aboutissants , vu que cette Assemblée s' est exprimée à plus d' une reprise contre la peine capitale .</text>
+            <annotationSet status="MANUAL" ID="2128">
+                <layer rank="1" name="FE">
+                    <label end="344" start="267" name="Support"/>
+                    <label end="256" start="167" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="265" start="260" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

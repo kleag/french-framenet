@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="facteur.n" ID="209" frame="Causation" frameID="5" totalAnnotated="24" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Actor"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="9123"/>
+                <annoSet ID="9154"/>
+                <annoSet ID="24175"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="21">
+            <FE name="Cause"/>
+            <pattern total="21">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="1247"/>
+                <annoSet ID="1298"/>
+                <annoSet ID="1323"/>
+                <annoSet ID="4645"/>
+                <annoSet ID="5414"/>
+                <annoSet ID="6402"/>
+                <annoSet ID="8636"/>
+                <annoSet ID="10338"/>
+                <annoSet ID="10372"/>
+                <annoSet ID="11848"/>
+                <annoSet ID="13103"/>
+                <annoSet ID="13112"/>
+                <annoSet ID="15543"/>
+                <annoSet ID="17019"/>
+                <annoSet ID="17832"/>
+                <annoSet ID="18410"/>
+                <annoSet ID="19805"/>
+                <annoSet ID="23595"/>
+                <annoSet ID="23625"/>
+                <annoSet ID="23832"/>
+                <annoSet ID="23833"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="24">
+            <FE name="Effect"/>
+            <pattern total="19">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="1247"/>
+                <annoSet ID="1298"/>
+                <annoSet ID="1323"/>
+                <annoSet ID="4645"/>
+                <annoSet ID="5414"/>
+                <annoSet ID="6402"/>
+                <annoSet ID="9123"/>
+                <annoSet ID="9154"/>
+                <annoSet ID="10338"/>
+                <annoSet ID="10372"/>
+                <annoSet ID="13103"/>
+                <annoSet ID="13112"/>
+                <annoSet ID="17019"/>
+                <annoSet ID="17832"/>
+                <annoSet ID="18410"/>
+                <annoSet ID="19805"/>
+                <annoSet ID="23625"/>
+                <annoSet ID="23832"/>
+                <annoSet ID="24175"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Effect"/>
+                <annoSet ID="8636"/>
+                <annoSet ID="11848"/>
+                <annoSet ID="15543"/>
+                <annoSet ID="23595"/>
+                <annoSet ID="23833"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1228">
+            <text>Un examen dentaire avec des soins dentaires préventifs appropriés devra être pris en considération avant l' instauration d' un traitement par bisphosphonates chez des patients présentant des facteurs de risque associés ( par exemple : cancer , chimiothérapie , corticoïdes ou mauvaise hygiène buccale ) .</text>
+            <annotationSet status="MANUAL" ID="1247">
+                <layer rank="1" name="FE">
+                    <label end="301" start="187" name="Cause"/>
+                    <label end="208" start="203" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="191" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1268">
+            <text>Une insuffisance rénale a été observée après l' administration d' acide zolédronique , en particulier chez les patients présentant une altération rénale préexistante ou des facteurs de risque supplémentaires ( par exemple , chimiothérapie anticancéreuse , médicaments néphrotoxiques concomitants , déshydratation sévère , etc. ) .</text>
+            <annotationSet status="MANUAL" ID="1298">
+                <layer rank="1" name="FE">
+                    <label end="327" start="169" name="Cause"/>
+                    <label end="190" start="185" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="180" start="173" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1286">
+            <text>L' ostéonécrose de la mâchoire présente de multiples facteurs de risque bien documentés incluant le diagnostic d' un cancer , les traitements associés ( par exemple : chimiothérapie , radiothérapie , corticothérapie ) et des affections associées ( par exemple : anémie , troubles de la coagulation , infection , maladie buccale préexistante ) .</text>
+            <annotationSet status="MANUAL" ID="1323">
+                <layer rank="1" name="FE">
+                    <label end="341" start="40" name="Cause"/>
+                    <label end="70" start="65" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3478">
+            <text>Un argument qui a du mal à convaincre mais qui illustre à quel point les facteurs psychologiques sont jugés importants pour le déclenchement de la reprise au cours de ces prochains mois .</text>
+            <annotationSet status="MANUAL" ID="4645">
+                <layer rank="1" name="FE">
+                    <label end="95" start="69" name="Cause"/>
+                    <label end="184" start="124" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3921">
+            <text>Sans être factice , le mouvement de reprise de ces dernières séances est dû , en partie , au facteur technique de fin d' année et à l' élan impulsé par la place new - yorkaise à la suite de l' abaissement d' un point du taux d' escompte , le 20 décembre dernier .</text>
+            <annotationSet status="MANUAL" ID="5414">
+                <layer rank="1" name="FE">
+                    <label end="109" start="93" name="Cause"/>
+                    <label end="125" start="114" name="Cause"/>
+                    <label end="67" start="20" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4530">
+            <text>Deux facteurs - clés expliquent en partie ce changement .</text>
+            <annotationSet status="MANUAL" ID="6402">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Cause"/>
+                    <label end="54" start="42" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5854">
+            <text>Dans les deux cas , l' explication , outre le facteur conjoncturel d' une récente remontée des taux hypothécaires , est essentiellement démographique .</text>
+            <annotationSet status="MANUAL" ID="8636">
+                <layer rank="1" name="FE">
+                    <label end="52" start="43" name="Cause"/>
+                    <label end="112" start="70" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6137">
+            <text>Avant l' ouverture à Bruxelles du sommet du dialogue social européen , les partenaires sociaux affirment leur attachement à " la promotion d' une Europe facteur de progrès et de prospérité économique et sociale , constituant une zone de stabilité et de référence dans le monde " .</text>
+            <annotationSet status="MANUAL" ID="9123">
+                <layer rank="1" name="FE">
+                    <label end="173" start="164" name="Effect"/>
+                    <label end="209" start="178" name="Effect"/>
+                    <label end="151" start="146" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="153" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6159">
+            <text>économies d' échelle obligent , les moyens techniques seront mis en commun , la budgétisation des opérations d' information organisée et les journalistes spécialisés en société , culture , sciences pourraient travailler indifféremment pour les deux chaînes alors que les présentateurs et les reporters - facteurs d' identité - demeureront attachés à leur antenne .</text>
+            <annotationSet status="MANUAL" ID="9154">
+                <layer rank="1" name="FE">
+                    <label end="323" start="316" name="Effect"/>
+                    <label end="302" start="267" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="311" start="304" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6979">
+            <text>Elle cherche une voie médiane entre " un libéralisme sauvage , facteur de concentration " et le dirigisme .</text>
+            <annotationSet status="MANUAL" ID="10338">
+                <layer rank="1" name="FE">
+                    <label end="59" start="36" name="Cause"/>
+                    <label end="86" start="74" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6999">
+            <text>" L' accroissement des effectifs de retraités - en raison de l' allongement de l' espérance de vie - constitue le principal facteur d' augmentation de la masse des retraites " , rappelle le CERC qui souligne que " les revalorisations des retraites complémentaires ont effacé les pertes de pouvoir d' achat des retraites de base " .</text>
+            <annotationSet status="MANUAL" ID="10372">
+                <layer rank="1" name="FE">
+                    <label end="174" start="111" name="Cause"/>
+                    <label end="174" start="135" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8242">
+            <text>" Un facteur psychologique important pour l' expatrié , note l' étude , et que les entreprises ne veulent absolument pas négliger . "</text>
+            <annotationSet status="MANUAL" ID="11848">
+                <layer rank="1" name="FE">
+                    <label end="52" start="2" name="Cause"/>
+                    <label itype="UNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9181">
+            <text>Deux facteurs essentiels concourent depuis de nombreux mois à une décélération de l' inflation en France et aux bons indices obtenus en la matière par rapport aux autres pays occidentaux : la bonne tenue du franc et la maîtrise des coûts salariaux des entreprises .</text>
+            <annotationSet status="MANUAL" ID="13103">
+                <layer rank="1" name="FE">
+                    <label end="23" start="0" name="Cause"/>
+                    <label end="106" start="62" name="Effect"/>
+                    <label end="185" start="112" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9187">
+            <text>Ces facteurs , qui ont permis de réduire l' inflation française à un niveau inférieur à celui de la plupart de ses partenaires depuis près de dix - huit mois , jouent encore pleinement leur rôle , et les ignorer serait alimenter abusivement le pessimisme ambiant .</text>
+            <annotationSet status="MANUAL" ID="13112">
+                <layer rank="1" name="FE">
+                    <label end="156" start="0" name="Cause"/>
+                    <label end="156" start="33" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11264">
+            <text>La conjonction de ces trois facteurs négatifs explique que la croissance déja faible en Europe se soit encore ralentie sous l' effet de politiques monétaires sévères ( taux d' intérêt très élevés ) : + 1 , 1 % dans la Communauté européenne après + 1 , 5 % en 1991 et + 2 , 9 % en 1990 .</text>
+            <annotationSet status="MANUAL" ID="15543">
+                <layer rank="1" name="FE">
+                    <label end="44" start="18" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12667">
+            <text>les trois quarts des sondés considèrent que leurs relations avec les entreprises ont changé depuis cinq ans , et ils citent comme premier facteur de ces changements l' ambiguïté du rôle de journaliste , plus sollicité qu' il n' est demandeur .</text>
+            <annotationSet status="MANUAL" ID="17019">
+                <layer rank="1" name="FE">
+                    <label end="163" start="130" name="Cause"/>
+                    <label end="163" start="149" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13510">
+            <text>Un bon exemple de libre analyse , quoique menée dans un cadre officiel en liaison avec des professionnels de l' agriculture et des industries concernées , est le séminaire organisé par l' OCDE il y a quelques mois sur le thème " Acteurs et facteurs de changement : technologies et pratiques d' une agriculture durable " .</text>
+            <annotationSet status="MANUAL" ID="17832">
+                <layer rank="1" name="FE">
+                    <label end="247" start="240" name="Cause"/>
+                    <label end="261" start="252" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="247" start="240" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14076">
+            <text>Chacun des trois plus puissants facteurs de sous - emploi aura été , indirectement , renforcé par la politique symbolisée par le franc fort , et le climat qu' elle a contribué à créer dans la vie économique et financière .</text>
+            <annotationSet status="MANUAL" ID="18410">
+                <layer rank="1" name="FE">
+                    <label end="56" start="11" name="Cause"/>
+                    <label end="56" start="44" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15595">
+            <text>Autre facteur de tension : " Il n' est pas normal que d' anciens responsables du parti aient aujourd' hui gardé de hautes fonctions dans l' usine " , lâche Peter , un ouvrier .</text>
+            <annotationSet status="MANUAL" ID="19805">
+                <layer rank="1" name="FE">
+                    <label end="146" start="29" name="Cause"/>
+                    <label end="23" start="17" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19851">
+            <text>Dernier facteur aggravant , la reprise économique s' est avant tout traduite par une augmentation des constructions pavillonnaires et individuelles , très difficilement contrôlables par les 480 sections d' inspecteurs du travail .</text>
+            <annotationSet status="MANUAL" ID="23595">
+                <layer rank="1" name="FE">
+                    <label end="227" start="28" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19875">
+            <text>Deux facteurs de la prévention des accidents du travail demeurent mal maîtrisés : l' analyse encore insuffisante des risques et la nécessaire coordination de la sécurité entre les multiples intervenants d' un chantier .</text>
+            <annotationSet status="MANUAL" ID="23625">
+                <layer rank="1" name="FE">
+                    <label end="54" start="0" name="Cause"/>
+                    <label end="54" start="17" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20096">
+            <text>En tout cas , ils ne devraient pas inciter la Réserve fédérale à abaisser à nouveau son taux d' escompte , tout au moins dans l' immédiat , ce qui contribue à raffermir le billet vert , sans toutefois éliminer tous les facteurs négatifs qui le handicapent .</text>
+            <annotationSet status="MANUAL" ID="23832">
+                <layer rank="1" name="FE">
+                    <label end="254" start="210" name="Cause"/>
+                    <label end="254" start="237" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="226" start="219" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20097">
+            <text>Parmi les facteurs figure , bien entendu , l' écart " historique " de 5 , 5 % entre les taux courts américains ( 3 , 80 % ) et allemands ( 9 , 30 % ) qui , pourtant , n' est pas aussi ravageur que celui en vigueur en février 1991 ( 1 , 75 % ) , lorsque le dollar était tombé au plus bas de 1 , 44 deutschemark .</text>
+            <annotationSet status="MANUAL" ID="23833">
+                <layer rank="1" name="FE">
+                    <label end="17" start="6" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20468">
+            <text>Il ne faut toutefois pas se leurrer : le substrat monétaire commun qui découlerait d' une zone écu euro- africaine ne sera pas nécessairement un facteur d' intensification du commerce intrarégional .</text>
+            <annotationSet status="MANUAL" ID="24175">
+                <layer rank="1" name="FE">
+                    <label end="196" start="156" name="Effect"/>
+                    <label end="113" start="38" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

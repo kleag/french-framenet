@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="protester.v" ID="386" frame="Complaining" frameID="1621" totalAnnotated="27" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cmplnr" name="Complainer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="com" name="Complaint"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Complainer"/>
+            <pattern total="22">
+                <valenceUnit PT="filled" FE="Complainer"/>
+                <annoSet ID="358"/>
+                <annoSet ID="2747"/>
+                <annoSet ID="4104"/>
+                <annoSet ID="4962"/>
+                <annoSet ID="4969"/>
+                <annoSet ID="6084"/>
+                <annoSet ID="7169"/>
+                <annoSet ID="9448"/>
+                <annoSet ID="9462"/>
+                <annoSet ID="10626"/>
+                <annoSet ID="12286"/>
+                <annoSet ID="14207"/>
+                <annoSet ID="15285"/>
+                <annoSet ID="15746"/>
+                <annoSet ID="15843"/>
+                <annoSet ID="16639"/>
+                <annoSet ID="18868"/>
+                <annoSet ID="20590"/>
+                <annoSet ID="22436"/>
+                <annoSet ID="23070"/>
+                <annoSet ID="23173"/>
+                <annoSet ID="24893"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Complainer"/>
+                <annoSet ID="14210"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Complaint"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="12286"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="27">
+            <FE name="Topic"/>
+            <pattern total="27">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="358"/>
+                <annoSet ID="2747"/>
+                <annoSet ID="4104"/>
+                <annoSet ID="4962"/>
+                <annoSet ID="4969"/>
+                <annoSet ID="6084"/>
+                <annoSet ID="7169"/>
+                <annoSet ID="9448"/>
+                <annoSet ID="9462"/>
+                <annoSet ID="10626"/>
+                <annoSet ID="12286"/>
+                <annoSet ID="14207"/>
+                <annoSet ID="14210"/>
+                <annoSet ID="15285"/>
+                <annoSet ID="15313"/>
+                <annoSet ID="15746"/>
+                <annoSet ID="15843"/>
+                <annoSet ID="16639"/>
+                <annoSet ID="18863"/>
+                <annoSet ID="18868"/>
+                <annoSet ID="20590"/>
+                <annoSet ID="22436"/>
+                <annoSet ID="23070"/>
+                <annoSet ID="23173"/>
+                <annoSet ID="23283"/>
+                <annoSet ID="23959"/>
+                <annoSet ID="24893"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="279">
+            <text>Un groupe de travail , constitué par le secrétaire d' Etat aux anciens combattants Jacques Floch , s' est réuni une première fois pour analyser les propositions et revendications des associations qui protestent contre le décret du 13 juillet 2000 instituant une indemnité spécifique versée , sous certaines conditions , aux orphelins de déportés juifs .</text>
+            <annotationSet status="MANUAL" ID="358">
+                <layer rank="1" name="FE">
+                    <label end="350" start="218" name="Topic"/>
+                    <label end="350" start="183" name="Complainer"/>
+                    <label end="198" start="196" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2082">
+            <text>L' affaire concerne une manifestation organisée par M. Brie et des partisans en Septembre 1998 , quand lui et huit autres personnes ont déroulé et exhibé une affiche de la Porte de Brandebourg à Berlin pour protester contre le fossé qui existe dans la société entre les riches et les pauvres .</text>
+            <annotationSet status="MANUAL" ID="2747">
+                <layer rank="1" name="FE">
+                    <label end="290" start="224" name="Topic"/>
+                    <label end="130" start="103" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="215" start="207" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3180">
+            <text>Alors que le syndicat national de l' édition phonographique ( SNEP ) apporte son soutien à Virgin , plusieurs syndicats protestent contre l' ouverture du magasin , le dimanche 29 décembre .</text>
+            <annotationSet status="MANUAL" ID="4104">
+                <layer rank="1" name="FE">
+                    <label end="186" start="138" name="Topic"/>
+                    <label end="118" start="100" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="120" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3647">
+            <text>Ce syndicat proteste contre les accords salariaux signés entre la direction et les autres organisations syndicales .</text>
+            <annotationSet status="MANUAL" ID="4962">
+                <layer rank="1" name="FE">
+                    <label end="113" start="28" name="Topic"/>
+                    <label end="10" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3653">
+            <text>- A peine terminé le réveillon , les dockers ont entamé , jeudi 2 janvier , leur onzième action de grève en moins de trois mois , à l' appel de la CGT , pour protester contre le projet de réforme de leur statut .</text>
+            <annotationSet status="MANUAL" ID="4969">
+                <layer rank="1" name="FE">
+                    <label end="209" start="175" name="Topic"/>
+                    <label end="43" start="33" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4338">
+            <text>Les syndicats protestent aussi contre le blocage , " depuis deux ans " , des revendications statutaires de tous les corps du personnel et réclament l' ouverture de négociations ainsi que la création de postes techniques et administratifs .</text>
+            <annotationSet status="MANUAL" ID="6084">
+                <layer rank="1" name="FE">
+                    <label end="133" start="38" name="Topic"/>
+                    <label end="12" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4974">
+            <text>Les postiers de Lille ont décidé , mercredi 15 janvier , de poursuivre leur mouvement de grève pour protester contre le plan de restructuration de leur direction départementale .</text>
+            <annotationSet status="MANUAL" ID="7169">
+                <layer rank="1" name="FE">
+                    <label end="175" start="117" name="Topic"/>
+                    <label end="20" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6325">
+            <text>Environ cent mille métallurgistes ont déclenché une grève surprise , vendredi 3 juillet , pour protester contre le projet gouvernemental d' instaurer un jour de carence dans le remboursement des arrêts pour maladie .</text>
+            <annotationSet status="MANUAL" ID="9448">
+                <layer rank="1" name="FE">
+                    <label end="213" start="112" name="Topic"/>
+                    <label end="32" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6333">
+            <text>Le syndicat IG - Metall avait immédiatement protesté contre ce projet et il a déclenché la grève .</text>
+            <annotationSet status="MANUAL" ID="9462">
+                <layer rank="1" name="FE">
+                    <label end="68" start="60" name="Topic"/>
+                    <label end="22" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7208">
+            <text>Les syndicats agricoles protestent le 30 juin contre la nouvelle PAC ( politique agricole commune ) .</text>
+            <annotationSet status="MANUAL" ID="10626">
+                <layer rank="1" name="FE">
+                    <label end="98" start="53" name="Topic"/>
+                    <label end="22" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8622">
+            <text>La fédération FO de l' électricité et du gaz a protesté , dans un communiqué , contre cette mesure qui " ne règle qu' en apparence la situation du chômage en France et qui n' a que des préoccupations statistiques .</text>
+            <annotationSet status="MANUAL" ID="12286">
+                <layer rank="1" name="FE">
+                    <label end="211" start="86" name="Topic"/>
+                    <label end="75" start="63" name="Medium"/>
+                    <label end="43" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10115">
+            <text>Ces syndicats ont appelé à une grève de 3 heures 40 minutes pour protester contre le plan social de la compagnie .</text>
+            <annotationSet status="MANUAL" ID="14207">
+                <layer rank="1" name="FE">
+                    <label end="111" start="82" name="Topic"/>
+                    <label end="12" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10117">
+            <text>Deux grèves avaient eu lieu , les 23 novembre et 15 décembre , pour protester contre des suppressions de postes et la perspective des premiers licenciements .</text>
+            <annotationSet status="MANUAL" ID="14210">
+                <layer rank="1" name="FE">
+                    <label end="155" start="85" name="Topic"/>
+                    <label itype="ENI" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11028">
+            <text>Quant au projet d' écotaxe sur l' énergie , lui aussi poussé par le secrétaire général de la conférence - et par le commissaire européen à l' environnement , Carlo Ripa di Meana , qui a renoncé au déplacement de Rio pour protester contre son abandon , - il a fait l' objet d' âpres discussions dans les couloirs .</text>
+            <annotationSet status="MANUAL" ID="15285">
+                <layer rank="1" name="FE">
+                    <label end="248" start="238" name="Topic"/>
+                    <label end="248" start="113" name="Complainer"/>
+                    <label end="182" start="180" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="229" start="221" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11060">
+            <text>Toutefois , les deux points culminants de l' agitation se sont situés le 24 novembre , à Paris - avec des échauffourées violentes au moment où les députés débattaient du volet agricole du GATT - et le 1er décembre , à Strasbourg - afin de protester contre la volonté américaine d' hégémonie sur le marché alimentaire mondial .</text>
+            <annotationSet status="MANUAL" ID="15313">
+                <layer rank="1" name="FE">
+                    <label end="323" start="256" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="247" start="239" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11428">
+            <text>- Les administrateurs CGT du groupe public Thomson SA ont protesté contre la vente de la filiale Thomson Electroménager ( TEM ) au groupe italien Elfi .</text>
+            <annotationSet status="MANUAL" ID="15746">
+                <layer rank="1" name="FE">
+                    <label end="149" start="74" name="Topic"/>
+                    <label end="52" start="2" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11519">
+            <text>Pour protester contre la vente de Mirage à Taïwan , le gouvernement chinois a interdit à la municipalité de Canton de faire appel à des sociétés françaises pour la construction de son métro .</text>
+            <annotationSet status="MANUAL" ID="15843">
+                <layer rank="1" name="FE">
+                    <label end="48" start="22" name="Topic"/>
+                    <label end="74" start="52" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12289">
+            <text>En tout cas , M. Kaske a dû s' employer , tout au long de la journée , face à une véritable fronde de petits actionnaires protestant contre le manque de clarté de l' opération de vente de la Bf.G.</text>
+            <annotationSet status="MANUAL" ID="16639">
+                <layer rank="1" name="FE">
+                    <label end="195" start="140" name="Topic"/>
+                    <label end="120" start="102" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14555">
+            <text>- Les syndicats CFDT , CFE - CGC , CGT , FO et SNA ( Autonome ) de la Banque de France appellent le personnel de la Banque de France à cesser le travail mardi 8 juin , afin de protester contre le projet de réforme du statut préparé par le gouvernement .</text>
+            <annotationSet status="MANUAL" ID="18863">
+                <layer rank="1" name="FE">
+                    <label end="250" start="193" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14558">
+            <text>Les syndicats ( CFDT , CGT , FMC , FGAAC et FO ) entendent ainsi protester contre la fermeture , envisagée pour juin 1994 , de la gare de triage d' Ambérieu ( Ain ) , l' un des plus importants noeuds ferroviaires de la région pour le trafic à destination de la Suisse , de l' Italie et de Lyon .</text>
+            <annotationSet status="MANUAL" ID="18868">
+                <layer rank="1" name="FE">
+                    <label end="292" start="82" name="Topic"/>
+                    <label end="47" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16391">
+            <text>Il fait entendre une autre voix que celle du CNPF , qui a protesté contre l' amendement récent qui oblige les entreprises à prendre des " mesures tendant au reclassement " des salariés licenciés ...</text>
+            <annotationSet status="MANUAL" ID="20590">
+                <layer rank="1" name="FE">
+                    <label end="193" start="74" name="Topic"/>
+                    <label end="48" start="45" name="Complainer"/>
+                    <label end="54" start="52" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18330">
+            <text>Faisant référence à un éditorial et à un article publiés récemment dans l' organe central du PCF ( Le Monde du 9 janvier ) dans lesquels , écrit l' ancien ministre d' état , " mon nom est cité à deux reprises en liaison avec les attaques dont le parti , sa direction , et plus particulièrement Georges marchais , sont l' objet en ce moment " , Mr Fiterman " proteste avec émotion et indignation contre ce qui apparaît à l' évidence , même si le procédé utilisé est oblique , comme une tentative d' accréditer l' idée que je serais partie prenante de cette campagne " .</text>
+            <annotationSet status="MANUAL" ID="22436">
+                <layer rank="1" name="FE">
+                    <label end="563" start="402" name="Topic"/>
+                    <label end="354" start="344" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="365" start="358" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19009">
+            <text>Des milliers de chrétiens ont manifesté pacifiquement , jeudi 11 janvier , dans quatre Etats du nord du Nigéria pour protester contre le " processus d' islamisation " du pays .</text>
+            <annotationSet status="MANUAL" ID="23070">
+                <layer rank="1" name="FE">
+                    <label end="173" start="134" name="Topic"/>
+                    <label end="24" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19173">
+            <text>Les partisans du général Aoun occupent , depuis jeudi , les locaux de l' ambassade pour protester contre un mouvement diplomatique décidé par le gouvernement de Mr Salim Hoss , que le général Aoun refuse de reconnaître .</text>
+            <annotationSet status="MANUAL" ID="23173">
+                <layer rank="1" name="FE">
+                    <label end="217" start="105" name="Topic"/>
+                    <label end="28" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19326">
+            <text>Un rassemblement a été organisé , dimanche 14 janvier à Oran , pour protester contre l' intervention des forces de l' ordre la semaine dernière contre des étudiants qui manifestaient pour dénoncer la réduction de leurs bourses d' étude décidée récemment par les autorités .</text>
+            <annotationSet status="MANUAL" ID="23283">
+                <layer rank="1" name="FE">
+                    <label end="270" start="85" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20230">
+            <text>Vendredi 17 janvier , une initiative semblable sera prise dans les ateliers de la Société nationale des poudres et explosifs pour protester contre la suppression de 655 emplois , dont près de la moitié sont des licenciements " secs " .</text>
+            <annotationSet status="MANUAL" ID="23959">
+                <layer rank="1" name="FE">
+                    <label end="232" start="147" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21562">
+            <text>- MANIFESTATIONS : Le 13 à Nantes , les professionnels de la filière bois manifestent pour protester contre la concurrence des importations scandinaves ; le 14 , à Paris , 10 000 salariés et patrons de l' industrie de l' habillement défilent ensemble pour dénoncer les excès du libre - échange ( 16.17 , 18 ) .</text>
+            <annotationSet status="MANUAL" ID="24893">
+                <layer rank="1" name="FE">
+                    <label end="150" start="108" name="Topic"/>
+                    <label end="72" start="36" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

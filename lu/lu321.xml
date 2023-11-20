@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="rémunération.n" ID="321" frame="Commerce_pay" frameID="180" totalAnnotated="40" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Way_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="40">
+            <FE name="Buyer"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="8407"/>
+                <annoSet ID="8408"/>
+                <annoSet ID="9440"/>
+                <annoSet ID="10402"/>
+                <annoSet ID="11657"/>
+                <annoSet ID="11916"/>
+                <annoSet ID="19473"/>
+                <annoSet ID="19769"/>
+                <annoSet ID="24070"/>
+            </pattern>
+            <pattern total="31">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="3220"/>
+                <annoSet ID="5181"/>
+                <annoSet ID="6808"/>
+                <annoSet ID="6925"/>
+                <annoSet ID="8239"/>
+                <annoSet ID="8542"/>
+                <annoSet ID="9733"/>
+                <annoSet ID="10389"/>
+                <annoSet ID="10396"/>
+                <annoSet ID="10401"/>
+                <annoSet ID="10405"/>
+                <annoSet ID="11830"/>
+                <annoSet ID="11832"/>
+                <annoSet ID="11834"/>
+                <annoSet ID="11913"/>
+                <annoSet ID="11952"/>
+                <annoSet ID="11954"/>
+                <annoSet ID="12004"/>
+                <annoSet ID="12731"/>
+                <annoSet ID="13873"/>
+                <annoSet ID="13944"/>
+                <annoSet ID="15219"/>
+                <annoSet ID="17433"/>
+                <annoSet ID="18895"/>
+                <annoSet ID="19723"/>
+                <annoSet ID="19773"/>
+                <annoSet ID="19774"/>
+                <annoSet ID="20424"/>
+                <annoSet ID="24234"/>
+                <annoSet ID="24262"/>
+                <annoSet ID="24743"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="40">
+            <FE name="Goods"/>
+            <pattern total="40">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="3220"/>
+                <annoSet ID="5181"/>
+                <annoSet ID="6808"/>
+                <annoSet ID="6925"/>
+                <annoSet ID="8239"/>
+                <annoSet ID="8407"/>
+                <annoSet ID="8408"/>
+                <annoSet ID="8542"/>
+                <annoSet ID="9440"/>
+                <annoSet ID="9733"/>
+                <annoSet ID="10389"/>
+                <annoSet ID="10396"/>
+                <annoSet ID="10401"/>
+                <annoSet ID="10402"/>
+                <annoSet ID="10405"/>
+                <annoSet ID="11657"/>
+                <annoSet ID="11830"/>
+                <annoSet ID="11832"/>
+                <annoSet ID="11834"/>
+                <annoSet ID="11913"/>
+                <annoSet ID="11916"/>
+                <annoSet ID="11952"/>
+                <annoSet ID="11954"/>
+                <annoSet ID="12004"/>
+                <annoSet ID="12731"/>
+                <annoSet ID="13873"/>
+                <annoSet ID="13944"/>
+                <annoSet ID="15219"/>
+                <annoSet ID="17433"/>
+                <annoSet ID="18895"/>
+                <annoSet ID="19473"/>
+                <annoSet ID="19723"/>
+                <annoSet ID="19769"/>
+                <annoSet ID="19773"/>
+                <annoSet ID="19774"/>
+                <annoSet ID="20424"/>
+                <annoSet ID="24070"/>
+                <annoSet ID="24234"/>
+                <annoSet ID="24262"/>
+                <annoSet ID="24743"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="40">
+            <FE name="Money"/>
+            <pattern total="33">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="3220"/>
+                <annoSet ID="5181"/>
+                <annoSet ID="6808"/>
+                <annoSet ID="8239"/>
+                <annoSet ID="8407"/>
+                <annoSet ID="8408"/>
+                <annoSet ID="8542"/>
+                <annoSet ID="9733"/>
+                <annoSet ID="10396"/>
+                <annoSet ID="10401"/>
+                <annoSet ID="10402"/>
+                <annoSet ID="10405"/>
+                <annoSet ID="11657"/>
+                <annoSet ID="11830"/>
+                <annoSet ID="11832"/>
+                <annoSet ID="11952"/>
+                <annoSet ID="11954"/>
+                <annoSet ID="12004"/>
+                <annoSet ID="12731"/>
+                <annoSet ID="13873"/>
+                <annoSet ID="13944"/>
+                <annoSet ID="15219"/>
+                <annoSet ID="17433"/>
+                <annoSet ID="18895"/>
+                <annoSet ID="19473"/>
+                <annoSet ID="19769"/>
+                <annoSet ID="19773"/>
+                <annoSet ID="19774"/>
+                <annoSet ID="20424"/>
+                <annoSet ID="24070"/>
+                <annoSet ID="24234"/>
+                <annoSet ID="24262"/>
+                <annoSet ID="24743"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="6925"/>
+                <annoSet ID="9440"/>
+                <annoSet ID="10389"/>
+                <annoSet ID="11834"/>
+                <annoSet ID="11913"/>
+                <annoSet ID="11916"/>
+                <annoSet ID="19723"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Rate"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Rate"/>
+                <annoSet ID="19723"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="40">
+            <FE name="Seller"/>
+            <pattern total="20">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="3220"/>
+                <annoSet ID="6808"/>
+                <annoSet ID="6925"/>
+                <annoSet ID="8407"/>
+                <annoSet ID="8408"/>
+                <annoSet ID="9440"/>
+                <annoSet ID="10396"/>
+                <annoSet ID="10401"/>
+                <annoSet ID="10405"/>
+                <annoSet ID="11913"/>
+                <annoSet ID="11952"/>
+                <annoSet ID="12004"/>
+                <annoSet ID="12731"/>
+                <annoSet ID="13873"/>
+                <annoSet ID="19769"/>
+                <annoSet ID="19773"/>
+                <annoSet ID="19774"/>
+                <annoSet ID="20424"/>
+                <annoSet ID="24070"/>
+                <annoSet ID="24234"/>
+            </pattern>
+            <pattern total="20">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="5181"/>
+                <annoSet ID="8239"/>
+                <annoSet ID="8542"/>
+                <annoSet ID="9733"/>
+                <annoSet ID="10389"/>
+                <annoSet ID="10402"/>
+                <annoSet ID="11657"/>
+                <annoSet ID="11830"/>
+                <annoSet ID="11832"/>
+                <annoSet ID="11834"/>
+                <annoSet ID="11916"/>
+                <annoSet ID="11954"/>
+                <annoSet ID="13944"/>
+                <annoSet ID="15219"/>
+                <annoSet ID="17433"/>
+                <annoSet ID="18895"/>
+                <annoSet ID="19473"/>
+                <annoSet ID="19723"/>
+                <annoSet ID="24262"/>
+                <annoSet ID="24743"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2451">
+            <text>Soumis à l' " autorisation de transfert " du 17 septembre 1991 de la part de la direction générale des douanes du ministère du Budget , alors dirigé par le socialiste Michel Charasse , les " rémunérations " consenties se montèrent à près de 3 milliards de francs pour le réseau A et à quelque 80 millions de francs pour le réseau B , selon les informations confiées en 1998 à la brigade financière par l' ancien directeur de Thomson pour l' Asie , Alain Fribourg .</text>
+            <annotationSet status="MANUAL" ID="3220">
+                <layer rank="1" name="FE">
+                    <label end="216" start="185" name="Money"/>
+                    <label end="281" start="268" name="Seller"/>
+                    <label end="330" start="320" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="203" start="191" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3784">
+            <text>La prime versée fin janvier passe de 8 % à 12 % de la rémunération de décembre , le minimum étant porté de 700 francs à 1 300 francs .</text>
+            <annotationSet status="MANUAL" ID="5181">
+                <layer rank="1" name="FE">
+                    <label end="77" start="51" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4787">
+            <text>En revanche , calculer la pension à partir du salaire moyen des vingt - cinq meilleures années - au lieu des dix meilleures - aurait peu d' effet sur les cadres ( dont la rémunération se situe au - dessus du plafond de la sécurité sociale ) mais serait préjudiciable aux autres salariés .</text>
+            <annotationSet status="MANUAL" ID="6808">
+                <layer rank="1" name="FE">
+                    <label end="182" start="168" name="Money"/>
+                    <label end="166" start="163" name="Seller"/>
+                    <label end="237" start="150" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="182" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4856">
+            <text>FO relève des " éléments positifs " et des " améliorations importantes " , notamment en matière de rémunération des apprentis .</text>
+            <annotationSet status="MANUAL" ID="6925">
+                <layer rank="1" name="FE">
+                    <label end="124" start="116" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5634">
+            <text>Encore que là aussi quelques progrès aient été accomplis : le principe de la modification , pour ne pas dire l' abandon , du système de " l' échelle mobile " - la " scala mobile " , - qui indexait les hausses des salaires sur celles des prix , semble enfin acquis ; comme semble également accepté par des partenaires sociaux conscients des sacrifices à accomplir la volonté , exprimée dans le budget 1992 , de limiter l' augmentation des rémunérations dans le secteur public à 4 , 5 % , soit à un niveau légèrement inférieur à l' inflation .</text>
+            <annotationSet status="MANUAL" ID="8239">
+                <layer rank="1" name="FE">
+                    <label end="473" start="438" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="450" start="438" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5717">
+            <text>Comment les détenteurs de capitaux flottants pourraient -ils rester insensibles à une situation dans laquelle le marché financier allemand leur offre une rémunération de près de 10 % à trois mois contre un peu moins de 4 % sur le marché américain ou plutôt sur les placements en dollars , où qu' ils se trouvent dans le monde ?</text>
+            <annotationSet status="MANUAL" ID="8407">
+                <layer rank="1" name="FE">
+                    <label end="137" start="110" name="Buyer"/>
+                    <label end="181" start="170" name="Money"/>
+                    <label end="142" start="139" name="Seller"/>
+                    <label end="43" start="8" name="Seller"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5717">
+            <text>Comment les détenteurs de capitaux flottants pourraient -ils rester insensibles à une situation dans laquelle le marché financier allemand leur offre une rémunération de près de 10 % à trois mois contre un peu moins de 4 % sur le marché américain ou plutôt sur les placements en dollars , où qu' ils se trouvent dans le monde ?</text>
+            <annotationSet status="MANUAL" ID="8408">
+                <layer rank="1" name="FE">
+                    <label end="245" start="227" name="Buyer"/>
+                    <label end="221" start="203" name="Money"/>
+                    <label end="142" start="139" name="Seller"/>
+                    <label end="43" start="8" name="Seller"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5806">
+            <text>On pourrait aussi considérer que cette forme de rémunération supplémentaire , qui récompense le maintien dans un poste et qui est censée indiquer la reconnaissance d' un savoir - faire , intervient désormais , compte tenu des mutations technologiques , au mieux comme un frein à l' adaptation professionnelle , au pire comme un élément de blocage sur les situations acquises .</text>
+            <annotationSet status="MANUAL" ID="8542">
+                <layer rank="1" name="FE">
+                    <label end="74" start="48" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6320">
+            <text>La direction d' American Telephone and Telegraph ( ATT ) , le géant américain des télécommunications , et les deux syndicats de l' entreprise - regroupant 100 000 salariés d' une part et 27 000 de l' autre - ont signé , jeudi 2 juillet , une nouvelle convention collective qui prévoit notamment une augmentation de salaires de 12 % , étalée sur trois ans , et des garanties de reclassification et de rémunération pour le personnel qui serait contraint de quitter le groupe .</text>
+            <annotationSet status="MANUAL" ID="9440">
+                <layer rank="1" name="FE">
+                    <label end="99" start="0" name="Buyer"/>
+                    <label end="471" start="418" name="Seller"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="411" start="400" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6514">
+            <text>Au contraire : plus les prix augmentaient et plus les rémunérations progressaient .</text>
+            <annotationSet status="MANUAL" ID="9733">
+                <layer rank="1" name="FE">
+                    <label end="66" start="50" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7008">
+            <text>Enfin , si l'on prend en compte les salaires et la rémunération du patrimoine , mais aussi l' évolution de l' emploi , notamment féminin , la croissance du pouvoir d' achat des ménages ouvriers se situe autour de 1 , 5 % par an entre 1988 et 1991 .</text>
+            <annotationSet status="MANUAL" ID="10389">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7012">
+            <text>En octobre 1991 , la rémunération mensuelle moyenne brute des salariés était de 10 422 francs , selon une enquête du ministère du travail publiée le 29 juin .</text>
+            <annotationSet status="MANUAL" ID="10396">
+                <layer rank="1" name="FE">
+                    <label end="69" start="18" name="Money"/>
+                    <label end="69" start="62" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7014">
+            <text>Un cadre a donc gagné , en moyenne , 2 , 7 fois plus qu' un ouvrier alors qu' un employé aura perçu un peu plus que les ouvriers , excepté dans des secteurs tels que la chimie de base , où les conditions de travail et les primes augmentent les rémunérations ouvrières .</text>
+            <annotationSet status="MANUAL" ID="10401">
+                <layer rank="1" name="FE">
+                    <label end="266" start="240" name="Money"/>
+                    <label end="266" start="258" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="256" start="244" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7015">
+            <text>D' autre part , les salaires des hommes ont dépassé ceux des femmes de 29 , 2 % alors que les rémunérations versées dans les grands établissements ( plus de 500 salariés ) ont été supérieures de 15 , 6 % à celles versées dans les entreprises de 10 à 49 salariés .</text>
+            <annotationSet status="MANUAL" ID="10402">
+                <layer rank="1" name="FE">
+                    <label end="170" start="121" name="Buyer"/>
+                    <label end="170" start="90" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7016">
+            <text>Les primes mensuelles ( 6 , 8 % de la rémunération brute ) ont été plus importantes pour les ouvriers ( 8 , 8 % ) que pour les cadres ( 3 , 8 % ) .</text>
+            <annotationSet status="MANUAL" ID="10405">
+                <layer rank="1" name="FE">
+                    <label end="55" start="35" name="Money"/>
+                    <label end="100" start="89" name="Seller"/>
+                    <label end="132" start="123" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8110">
+            <text>Mais il faut également dire que l' interminable conflit entre le patronat de grands hôtels parisiens et les syndicats , à propos de la suppression de la rémunération indexée en pourcentage sur le chiffre d' affaires , ne donne pas forcément une bonne image de ces métiers .</text>
+            <annotationSet status="MANUAL" ID="11657">
+                <layer rank="1" name="FE">
+                    <label end="99" start="62" name="Buyer"/>
+                    <label end="214" start="150" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="153" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8221">
+            <text>Si l'on s' intéresse à la rémunération , il faut absolument raisonner en termes de rémunération globale , compte tenu de l' importance des avantages annexes .</text>
+            <annotationSet status="MANUAL" ID="11830">
+                <layer rank="1" name="FE">
+                    <label end="37" start="23" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8221">
+            <text>Si l'on s' intéresse à la rémunération , il faut absolument raisonner en termes de rémunération globale , compte tenu de l' importance des avantages annexes .</text>
+            <annotationSet status="MANUAL" ID="11832">
+                <layer rank="1" name="FE">
+                    <label end="102" start="83" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8223">
+            <text>" Une approche efficace mais coûteuse , note l' étude , car elle prend en compte l' intégralité de l' impôt sur le revenu , y compris l' impôt généré par les différentiels de rémunération .</text>
+            <annotationSet status="MANUAL" ID="11834">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="175" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8302">
+            <text>C' est lui qui , inspiré par les beaux yeux d' une femme de chambre , avait fait adopter en 1936 une loi sur la rémunération au pourcentage du personnel hôtelier " ayant contact avec la clientèle " , qui se partageait ainsi 15 % du chiffre d' affaires , les autres salariés étant payés au fixe .</text>
+            <annotationSet status="MANUAL" ID="11913">
+                <layer rank="1" name="FE">
+                    <label end="250" start="143" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8304">
+            <text>Ce mode de rémunération , variable selon le chiffre d' affaires et l' évolution des prix , est devenu insupportable pour les employeurs des grands hôtels parisiens qui ont décidé de remplacer ce système par des salaires fixes .</text>
+            <annotationSet status="MANUAL" ID="11916">
+                <layer rank="1" name="FE">
+                    <label end="224" start="121" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8331">
+            <text>Ailleurs , les salariés dénoncent d' autres pratiques destinées à réduire au minimum les futures rémunérations au fixe .</text>
+            <annotationSet status="MANUAL" ID="11952">
+                <layer rank="1" name="FE">
+                    <label end="117" start="85" name="Money"/>
+                    <label end="22" start="11" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8332">
+            <text>Elles consistent soit à augmenter le nombre de bénéficiaires par des embauches , soit à diminuer volontairement le chiffre d' affaires qui sert d' assiette au calcul des rémunérations par un refus de clientèle .</text>
+            <annotationSet status="MANUAL" ID="11954">
+                <layer rank="1" name="FE">
+                    <label end="182" start="170" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="182" start="170" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8392">
+            <text>A bac + 2 , on entre en général comme billettiste ou agent de comptoir avec une rémunération voisine du SMIC .</text>
+            <annotationSet status="MANUAL" ID="12004">
+                <layer rank="1" name="FE">
+                    <label end="107" start="76" name="Money"/>
+                    <label end="13" start="12" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8907">
+            <text>Les agents concernés toucheront , sur une durée maximale d' un an , une rémunération égale à 100 % de leur traitement brut .</text>
+            <annotationSet status="MANUAL" ID="12731">
+                <layer rank="1" name="FE">
+                    <label end="121" start="68" name="Money"/>
+                    <label end="19" start="0" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9868">
+            <text>Elle lèse les salariés dont les rémunérations suivent toujours avec quelque retard la hausse du coût de la vie , ce qui multiplie les conflits sociaux .</text>
+            <annotationSet status="MANUAL" ID="13873">
+                <layer rank="1" name="FE">
+                    <label end="44" start="28" name="Money"/>
+                    <label end="26" start="23" name="Seller"/>
+                    <label end="149" start="10" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9910">
+            <text>Dans un contexte implacablement concurrentiel , les opérateurs cherchent à produire là où les conditions sont les plus avantageuses - au Maghreb , dans le Sud - Est asiatique , en Europe centrale , pays dont les lois sociales , les régimes de solidarité et les niveaux de rémunération n' ont rien de commun avec les nôtres - pour commercialiser sur les places où existe encore un réel pouvoir d' achat .</text>
+            <annotationSet status="MANUAL" ID="13944">
+                <layer rank="1" name="FE">
+                    <label end="283" start="272" name="Money"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="283" start="272" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10969">
+            <text>Chaque année , ils doivent mener un " entretien d' écoute " avec les ouvriers placés sous leur responsabilité et l' accord de juillet 1992 sur la mise en place du " complément de rémunération " leur confie également l' attribution d' une prime individuelle " au mérite " .</text>
+            <annotationSet status="MANUAL" ID="15219">
+                <layer rank="1" name="FE">
+                    <label end="190" start="179" name="Money"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="190" start="179" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13065">
+            <text>Ces derniers temps , l' opération de revalorisation des déroulements de carrière avait accéléré la progression des rémunérations de ce secteur .</text>
+            <annotationSet status="MANUAL" ID="17433">
+                <layer rank="1" name="FE">
+                    <label end="141" start="115" name="Money"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14583">
+            <text>Sans effet rétroactif , l' Etat prendra à sa charge 50 % de la baisse de rémunération dès lors que celle - ci sera supérieure à 5 % .</text>
+            <annotationSet status="MANUAL" ID="18895">
+                <layer rank="1" name="FE">
+                    <label end="84" start="73" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15225">
+            <text>Interrogé sur la compensation salariale partielle au profit des entreprises introduisant une baisse des rémunérations , M. Balladur a avoué un certain scepticisme à l' égard de cette mesure , précisant que le gouvernement s' attachait actuellement à " en définir le mécanisme " et qu' elle ne pourrait intervenir qu' " à titre provisoire et en cas d' urgence grave " .</text>
+            <annotationSet status="MANUAL" ID="19473">
+                <layer rank="1" name="FE">
+                    <label end="102" start="64" name="Buyer"/>
+                    <label end="116" start="104" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15452">
+            <text>Particulièrement " tordu " , ce système de rémunération anticipée est né , dans l' esprit des directeurs de ressources humaines , de la nécessité de contourner une difficulté , due à l' extrême rigidité de certaines grilles salariales .</text>
+            <annotationSet status="MANUAL" ID="19723">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="UNI" name="Rate"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15522">
+            <text>" Les entreprises ont institué la prime d' ancienneté à l' époque du plein emploi pour fidéliser les salariés et les dissuader de se faire engager ailleurs à la recherche de rémunérations intéressantes , estime Chantal Cumunel , déléguée nationale de la CGC .</text>
+            <annotationSet status="MANUAL" ID="19769">
+                <layer rank="1" name="FE">
+                    <label end="16" start="2" name="Buyer"/>
+                    <label end="200" start="174" name="Money"/>
+                    <label end="115" start="113" name="Seller"/>
+                    <label end="108" start="97" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="174" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15530">
+            <text>A quarante ans , il avait sept ans d' ancienneté et sa rémunération avoisinait 240 000 francs .</text>
+            <annotationSet status="MANUAL" ID="19773">
+                <layer rank="1" name="FE">
+                    <label end="66" start="52" name="Money"/>
+                    <label end="53" start="52" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15534">
+            <text>Les cadres , aujourd' hui , négocient un salaire annuel brut , sans faire de détail , et en y intégrant tous les éléments de leur rémunération .</text>
+            <annotationSet status="MANUAL" ID="19774">
+                <layer rank="1" name="FE">
+                    <label end="141" start="125" name="Money"/>
+                    <label end="128" start="125" name="Seller"/>
+                    <label end="9" start="0" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16261">
+            <text>La direction a annoncé la suppression de cinq emplois dans les services parisiens avec des reclassements dans le groupe et cinq licenciements à Lyon , parmi la rédaction et les services commerciaux , qui ont dû accepter des baisses de rémunération .</text>
+            <annotationSet status="MANUAL" ID="20424">
+                <layer rank="1" name="FE">
+                    <label end="246" start="235" name="Money"/>
+                    <label end="202" start="200" name="Seller"/>
+                    <label end="246" start="157" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="246" start="235" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20346">
+            <text>La loi de finances pour 1992 prévoit en revanche des avantages supplémentaires pour les salariés ayant contracté des emprunts pour acquérir une partie du capital de l' entreprise à racheter : les intérêts pourront être déduits du montant des rémunérations versées par l' entreprise dans la limite de 100 000 francs par an et cela pendant l' année d' acquisition et les cinq années suivantes .</text>
+            <annotationSet status="MANUAL" ID="24070">
+                <layer rank="1" name="FE">
+                    <label end="280" start="268" name="Buyer"/>
+                    <label end="280" start="242" name="Money"/>
+                    <label end="188" start="84" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="254" start="242" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20535">
+            <text>Cinq piliers de " sagesse " sont proposés pour un nouveau modèle de développement : le renforcement de l' incitation à accumuler ( notamment par l' attribution de distinctions honorifiques aux entreprises performantes , avec reconnaissance des chefs , comme chez les Bamiléké du Cameroun ) ; l' individualisation des rémunérations par le biais d' actionnariat salarié et d' intéressement du personnel ; l' utilisation des valeurs traditionnelles pour régler les conflits au sein de l' entreprise ( appel à la famille pour obtenir un compromis entre supérieurs et subordonnés ) ; le recours au formalisme et au rituel - qui fondent la pression du groupe - pour renforcer les liens contractuels ; le développement de la dynamique de groupe par les cercles de qualité , comme l' a expérimenté le Burkina - Faso , " avec succès " .</text>
+            <annotationSet status="MANUAL" ID="24234">
+                <layer rank="1" name="FE">
+                    <label end="329" start="317" name="Money"/>
+                    <label end="399" start="391" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="329" start="317" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20563">
+            <text>Selon M. Jean - Pierre Tirouflet , directeur financier du groupe chimique , l' Etat , dans un premier temps , récupérera le privilège attaché aux CIP qui donnaient droit chaque année à une rémunération supplémentaire de 5 francs net .</text>
+            <annotationSet status="MANUAL" ID="24262">
+                <layer rank="1" name="FE">
+                    <label end="231" start="185" name="Money"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="200" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21343">
+            <text>Un regret : les auteurs auraient dû insister sur la question de la hiérarchie des rémunérations .</text>
+            <annotationSet status="MANUAL" ID="24743">
+                <layer rank="1" name="FE">
+                    <label end="94" start="82" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

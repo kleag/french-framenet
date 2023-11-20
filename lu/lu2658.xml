@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="stimulation.n" ID="2658" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Dependent"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="14418"/>
+                <annoSet ID="18750"/>
+                <annoSet ID="21734"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Dependent"/>
+                <annoSet ID="23741"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Influencer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="18750"/>
+                <annoSet ID="23741"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Influencer"/>
+                <annoSet ID="14418"/>
+                <annoSet ID="21734"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10262">
+            <text>Conjuguées au plan de stimulation de l' économie adopté cet été ( 10 000 milliards de yens ) , ces augmentations des dépenses en travaux publics devraient contribuer à stimuler les investissements et la consommation .</text>
+            <annotationSet status="MANUAL" ID="14418">
+                <layer rank="1" name="FE">
+                    <label end="47" start="37" name="Dependent"/>
+                    <label itype="UNI" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14437">
+            <text>En clair , la récession ne va -t-elle pas s' aggraver , le chômage augmenter plus rapidement , l' inflation réapparaître , forçant les pays participant encore au système monétaire européen à reprendre leur liberté de change pour bénéficier - comme les Britanniques , comme les Espagnols , comme les Italiens - d' une forte stimulation de leurs exportations ?</text>
+            <annotationSet status="MANUAL" ID="18750">
+                <layer rank="1" name="FE">
+                    <label end="355" start="338" name="Dependent"/>
+                    <label end="187" start="131" name="Influencer"/>
+                    <label end="311" start="191" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="333" start="323" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17692">
+            <text>De même , seule une institution indépendante est en mesure de résister aux tentatives , en pratique toujours réitérées par les hommes politiques , d' imprimer à la politique monétaire des objectifs souvent incompatibles avec celui de la stabilité , comme la stabilisation des changes , la stimulation de la croissance et de l' emploi ou la réduction des déséquilibres régionaux .</text>
+            <annotationSet status="MANUAL" ID="21734">
+                <layer rank="1" name="FE">
+                    <label end="316" start="304" name="Dependent"/>
+                    <label itype="UNI" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="299" start="289" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20001">
+            <text>Les moyens qu' elles employaient pour éliminer les périodes de basse conjoncture - la stimulation par le déficit - ont eu pour conséquence d' accumuler les déséquilibres .</text>
+            <annotationSet status="MANUAL" ID="23741">
+                <layer rank="1" name="FE">
+                    <label end="111" start="102" name="Influencer"/>
+                    <label itype="ENI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

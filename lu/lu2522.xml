@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="alerter.v" ID="2522" frame="FR_Telling" frameID="10088" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Addressee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="134"/>
+                <annoSet ID="466"/>
+                <annoSet ID="497"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="134"/>
+                <annoSet ID="466"/>
+                <annoSet ID="497"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="134"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="466"/>
+                <annoSet ID="497"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="107">
+            <text>Il est à noter que le couple a eu la chance que son accident soit vu par des témoins qui ont alerté les secours .</text>
+            <annotationSet status="MANUAL" ID="134">
+                <layer rank="1" name="FE">
+                    <label end="59" start="48" name="Topic"/>
+                    <label end="110" start="100" name="Addressee"/>
+                    <label end="87" start="85" name="Speaker"/>
+                    <label end="110" start="73" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="354">
+            <text>En charge du dossier de la parité , au groupe RPR puis à celui de l' UMP , depuis son élection à l' Assemblée en 1998 , elle a alerté le gouvernement et Alain Juppé dès qu' il a été question de revoir les modes de scrutin , en juillet dernier .</text>
+            <annotationSet status="MANUAL" ID="466">
+                <layer rank="1" name="FE">
+                    <label end="163" start="134" name="Addressee"/>
+                    <label end="123" start="120" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="381">
+            <text>Hier matin , ils alertaient la gendarmerie en charge du secteur de Courcelles .</text>
+            <annotationSet status="MANUAL" ID="497">
+                <layer rank="1" name="FE">
+                    <label end="76" start="28" name="Addressee"/>
+                    <label end="15" start="13" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="solde.n" ID="337" frame="Commerce_sell" frameID="172" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Buyer"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="6829"/>
+                <annoSet ID="16442"/>
+                <annoSet ID="16659"/>
+                <annoSet ID="16666"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Goods"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="6829"/>
+                <annoSet ID="16442"/>
+                <annoSet ID="16659"/>
+                <annoSet ID="16666"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Money"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Seller"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="6829"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="16442"/>
+                <annoSet ID="16659"/>
+                <annoSet ID="16666"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4802">
+            <text>Pour les experts , la baisse de décembre est d' autant plus inquiétante qu' elle est intervenue malgré les soldes consenties dès la mi - décembre par les magasins , bien avant la période habituelle de rabais sur les prix .</text>
+            <annotationSet status="MANUAL" ID="6829">
+                <layer rank="1" name="FE">
+                    <label end="161" start="150" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12114">
+            <text>Ce n' est pas la chute verticale des achats de cette période de fêtes - en dépit de l' allongement de la durée des soldes - qui va contredire le chef du gouvernement .</text>
+            <annotationSet status="MANUAL" ID="16442">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12324">
+            <text>Alors que s' ouvre la période officielle des soldes ( depuis le 26 décembre à Paris ) , des secteurs affichent de plus en plus souvent des rabais permanents , tout au long de l' année .</text>
+            <annotationSet status="MANUAL" ID="16659">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12329">
+            <text>Depuis des jours ( le 26 décembre à Paris ) , les soldes officielles - réglementées dans la forme et dans le temps - ont débuté pour deux mois .</text>
+            <annotationSet status="MANUAL" ID="16666">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

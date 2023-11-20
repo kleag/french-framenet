@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Cognizer_affecting.to_do" ID="10058" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;Some &lt;fen&gt;Evidence&lt;/fen&gt; persuades a &lt;fen&gt;Cognizer&lt;/fen&gt; to perform (or not to perform) an action, or a &lt;fen&gt;Persuader&lt;/fen&gt; expresses , through language or otherwise, his wish to get the &lt;fen&gt;Cognizer&lt;/fen&gt; to act. As a result, the &lt;fen&gt;Cognizer&lt;/fen&gt; forms an intention do so, although it is not entailed that he/she acts.
+&lt;ex&gt;&lt;fex name="Evidence"&gt;The divorce&lt;/fex&gt; &lt;t&gt;convinced&lt;/t&gt; &lt;fex name="Cognizer"&gt;him&lt;/fex&gt; &lt;fex name="Action"&gt;to get help&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Evidence"&gt;The price of a factory reconditioned tool&lt;/fex&gt; &lt;t&gt;decided&lt;/t&gt; &lt;fex name="Action"&gt;it&lt;/fex&gt; &lt;fex name="Cognizer"&gt;for me&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+This frame differs from Attempt_suasion in that the &lt;fen&gt;Cognizer&lt;/fen&gt; has actually changed their mind.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Results from the merge
+of Suasion and Eventive_cognizer_affecting, and the splitting into .to_do, .veracity and .legitimacy, based on 
+whether the &lt;fen&gt;Cognizer&lt;/fen&gt; is convinced to perform an action or that some content is true or legitimate.&lt;/def-root&gt;</definition>
+
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/02/2001 09:53:45 PST Fri" abbrev="Add" name="Cognizer" ID="411">
+        <definition>&lt;def-root&gt;The person that the &lt;fen&gt;Persuader&lt;/fen&gt; seeks to influence to act.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/02/2001 09:54:43 PST Fri" abbrev="Spkr" name="Persuader" ID="412">
+        <definition>&lt;def-root&gt;The person who intends through the use of language or otherwise to get another person to act.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/02/2001 09:55:37 PST Fri" abbrev="Action" name="Action" ID="413">
+        <definition>&lt;def-root&gt;The wish for action on the &lt;fen&gt;Cognizer&lt;/fen&gt;'s part that the &lt;fen&gt;Persuader&lt;/fen&gt; expresses.&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+    </FE>
+    <FE bgColor="FFFF00" fgColor="006400" coreType="Core" cBy="605" cDate="03/08/2001 01:15:35 PST Thu" abbrev="Med" name="Medium" ID="424">
+        <definition>&lt;def-root&gt;A piece of written or spoken material that changes the mind of the &lt;fen&gt;Cognizer&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Text"&gt;His speech&lt;/fex&gt; &lt;t&gt;convinced&lt;/t&gt; me to join the Peace Corps.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="09/03/2002 02:10:33 PDT Tue" abbrev="" name="Evidence" ID="3684">
+        <definition>&lt;def-root&gt;The eventuality or mental content whichs serves as Evidence for the &lt;fen&gt;Cognizer&lt;/fen&gt; that he should perform the &lt;fen&gt;Action&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Evidence"&gt;The accident&lt;/fex&gt; &lt;t&gt;convinced&lt;/t&gt; him to drive slower.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="424"/>
+        <memberFE name="Persuader" ID="412"/>
+	<memberFE name="Evidence" ID="3684"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Cognizer_affecting</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Eventive_cognizer_affecting</relatedFrame>
+        <relatedFrame>Suasion</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="convaincre.v" ID="1072" nbocc="43" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="100440" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Cognizer_affecting.veracity" ID="1080" annotatedsent="26"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dissuader.v" ID="1073" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100587" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dissuasion.n" ID="1074" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100588" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="décider.v" ID="1075" nbocc="210" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100645" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Deciding" ID="413" annotatedsent="182"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2600" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="persuader.v" ID="1076" nbocc="13" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101373" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Cognizer_affecting.veracity" ID="1081" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="persuasion.n" ID="1077" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101375" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Cognizer_affecting.veracity" ID="1082" annotatedsent="2"/>
+    </lexUnit>
+</frame>

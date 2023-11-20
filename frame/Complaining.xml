@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Complaining" ID="1621" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Complainer&lt;/fen&gt; communicates their negative emotional reaction to some state of affairs in a &lt;fen&gt;Complaint&lt;/fen&gt;. As an alternative to the specific &lt;fen&gt;Complaint&lt;/fen&gt;, the &lt;fen&gt;Topic&lt;/fen&gt; of the speaker's &lt;fen&gt;Complaint&lt;/fen&gt; may be specified.
+
+
+&lt;ex&gt;The &lt;fex name="Complainer"&gt;top US commander in Iraq&lt;/fex&gt; &lt;t&gt;complained&lt;/t&gt; &lt;fex name="Add"&gt;to the Pentagon&lt;/fex&gt; &lt;fex name="Time"&gt;last winter&lt;/fex&gt; &lt;fex name="Complaint"&gt;that his supply situation was so poor that it threatened Army troops' ability to fight&lt;/fex&gt;.&lt;/ex&gt;
+
+
+&lt;ex&gt;He said &lt;fex name="Complainer"&gt;he&lt;/fex&gt; will &lt;m&gt;lodge&lt;/m&gt; a &lt;t&gt;complaint&lt;/t&gt; &lt;fex name="Add"&gt;with the ACCC&lt;/fex&gt;. &lt;fex name="Complaint"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Time"&gt;On the rare occasions&lt;/fex&gt; &lt;fex name="Complainer"&gt;I&lt;/fex&gt; &lt;t&gt;complained&lt;/t&gt; &lt;fex name="Add"&gt;to him&lt;/fex&gt; &lt;fex name="Topic"&gt;about media bias&lt;/fex&gt;, Peter immediately ordered up a story that included conservative objections to mainstream reports .&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt;: 
+
+&lt;ex&gt; ≠ &lt;frframe&gt;FR_Judgment_communication&lt;/frframe&gt;/&lt;frframe&gt;FR_Judgment_communication_no_reason&lt;/frframe&gt;: The FR_Judgment_communication and FR_Judgment_communication_no_reason frames are about assessing and verbalizing the Evaluee's value as positive or negative, whereas Complaining is about expressing one's discontent with a state of affairs.&lt;/ex&gt; 
+
+&lt;ex&gt; ≠ &lt;frframe&gt;FR_Taking_sides&lt;/frframe&gt;: Complaining's LUs all imply that the Complainer verbally communicates their point of view whereas FR_Taking_sides' LUs do not. Moreover, Complaining's LUs all imply that the Complainer's point of view is negative  whereas in FR_Taking_sides, the point of view can be either positive or negative.
+&lt;/ex&gt; 
+
+&lt;ex&gt; ≠ &lt;frframe&gt;FR_Expressing_side&lt;/frframe&gt;: Complaining's LUs polarity is always negative, and always implied by the LU itself, whereas FR_Expressing_side LUs can express either a positive or negative point of view, depending on the Polarity role filler which is expressed separately from the LU.
+&lt;/ex&gt; 
+
+
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/25/2005 02:46:33 PDT Thu" abbrev="cmplnr" name="Complainer" ID="8975">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Complainer&lt;/fen&gt; is the sentient entity that produces the &lt;fen&gt;Complaint&lt;/fen&gt; (whether spoken or written).  
+
+
+&lt;ex&gt;&lt;fex name="Complainer"&gt;Peter&lt;/fex&gt; has &lt;t&gt;moaned&lt;/t&gt; about it on another thread but it sure must be nice for him to wallow
+again.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="08/25/2005 02:46:33 PDT Thu" abbrev="Add" name="Addressee" ID="8976">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is the person to whom the &lt;fen&gt;Complaint&lt;/fen&gt; is communicated. 
+
+&lt;ex&gt;Fresh out of prison, Martin &lt;t&gt;whinged&lt;/t&gt; &lt;fex name="Add"&gt;to Sonia&lt;/fex&gt; about his life.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/25/2005 02:46:33 PDT Thu" abbrev="com" name="Complaint" ID="8977">
+        <definition>&lt;def-root&gt;The lamentable situation that the &lt;fen&gt;Complainer&lt;/fen&gt; is communicating to the &lt;fen&gt;Addressee&lt;/fen&gt;.  
+
+&lt;ex&gt;One observer &lt;t&gt;groused&lt;/t&gt; &lt;fex name="com"&gt;that Skagway was "little better than hell on earth."&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/25/2005 02:46:33 PDT Thu" abbrev="Top" name="Topic" ID="8978">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is the subject matter to which the &lt;fen&gt;Complaint&lt;/fen&gt; pertains. 
+
+&lt;ex&gt;Ferdinand attended the reception at the city hall and &lt;t&gt;complained&lt;/t&gt; vociferously &lt;fex name="Topic"&gt;about his reception at the city&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/25/2005 02:46:33 PDT Thu" abbrev="Medium" name="Medium" ID="8983">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; is the physical entity or channel used by the &lt;fen&gt;Complainer&lt;/fen&gt; to transmit the &lt;fen&gt;Complaint&lt;/fen&gt;.
+
+
+&lt;ex&gt;I don't mean to discount any of what he has &lt;t&gt;bitched&lt;/t&gt; about &lt;fex name="Medium"&gt;in his article&lt;/fex&gt;, because most of his points are actually valid. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Complaint" ID="8977"/>
+        <memberFE name="Topic" ID="8978"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="8983"/>
+        <memberFE name="Complainer" ID="8975"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Statement-manner-noise</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="geindre.v" ID="378" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="gémir.v" ID="379" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100962" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="jérémiade.n" ID="380" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="lamentation.n" ID="381" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="maugréer.v" ID="382" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="pester.v" ID="383" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="plainte.n" ID="384" nbocc="27" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="protestation.n" ID="385" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="101469" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="protester.v" ID="386" nbocc="27" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="27"/>
+        <otherlexUnit framename="Other_sense" ID="101470" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="ronchonner.v" ID="387" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101638" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rouspéter.v" ID="388" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="râler.v" ID="389" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101648" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="râlerie.n" ID="390" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="récrimination.n" ID="391" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101660" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="récriminer.v" ID="392" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se lamenter.v" ID="395" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101774" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se plaindre.v" ID="396" nbocc="13" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="101781" annotatedsent="0"/>
+    </lexUnit>
+</frame>

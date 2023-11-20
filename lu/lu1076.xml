@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="persuader.v" ID="1076" frame="FR_Cognizer_affecting.to_do" frameID="10058" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Action" name="Action"/>
+            <FE fgColor="006400" bgColor="FFFF00" type="Core" abbrev="Med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Evidence"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Action"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="4362"/>
+                <annoSet ID="15163"/>
+                <annoSet ID="17698"/>
+                <annoSet ID="23596"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4362"/>
+                <annoSet ID="15163"/>
+                <annoSet ID="17698"/>
+                <annoSet ID="23596"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Evidence"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Evidence"/>
+                <annoSet ID="15163"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Persuader"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="4362"/>
+                <annoSet ID="23596"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="17698"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3315">
+            <text>" par tous les moyens , en expliquant que les journaux télévisés faisaient la contre - publicité de la chaîne , ils ont essayé de les persuader de bouleverser leurs " plans média .</text>
+            <annotationSet status="MANUAL" ID="4362">
+                <layer rank="1" name="FE">
+                    <label end="177" start="147" name="Action"/>
+                    <label end="132" start="130" name="Cognizer"/>
+                    <label end="114" start="112" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="134" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10922">
+            <text>Le ministre a précisé que le capital des entreprises privatisables était ouvert " à tous les investisseurs nationaux et étrangers " , ajoutant qu' une " vaste campagne " allait être également déclenchée à travers le pays pour persuader les salariés et les épargnants de devenir en partie propriétaires de ces entreprises .</text>
+            <annotationSet status="MANUAL" ID="15163">
+                <layer rank="1" name="FE">
+                    <label end="319" start="270" name="Action"/>
+                    <label end="265" start="236" name="Cognizer"/>
+                    <label end="168" start="147" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="234" start="226" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13333">
+            <text>Michel Gilet renchérit : " Les affaires sont tellement mauvaises en ce moment qu' il est difficile de persuader les cuisinistes , par ailleurs peu syndicalisés , de ne pas faire n' importe quoi pour vendre .</text>
+            <annotationSet status="MANUAL" ID="17698">
+                <layer rank="1" name="FE">
+                    <label end="204" start="165" name="Action"/>
+                    <label end="158" start="112" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19854">
+            <text>La publication de ces derniers résultats a conforté le gouvernement dans sa volonté de persuader les professionnels de mieux prendre en compte la sécurité .</text>
+            <annotationSet status="MANUAL" ID="23596">
+                <layer rank="1" name="FE">
+                    <label end="153" start="119" name="Action"/>
+                    <label end="114" start="97" name="Cognizer"/>
+                    <label end="74" start="73" name="Persuader"/>
+                    <label end="66" start="52" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

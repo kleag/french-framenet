@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="projeter.v" ID="2232" frame="FR_Purpose" frameID="10070" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="0099CC" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Agent"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="10281"/>
+                <annoSet ID="14209"/>
+                <annoSet ID="21466"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Goal"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="10281"/>
+                <annoSet ID="14209"/>
+                <annoSet ID="21466"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Means"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="21466"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Time_of_Eventuality"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Time_of_Eventuality"/>
+                <annoSet ID="14209"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6929">
+            <text>Quel que soit le contexte , la FNSEA projette d' obtenir " pour tous ceux qu' elle représente un revenu équivalant à celui des autres catégories socioprofessionnelles " .</text>
+            <annotationSet status="MANUAL" ID="10281">
+                <layer rank="1" name="FE">
+                    <label end="167" start="49" name="Goal"/>
+                    <label end="35" start="28" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10116">
+            <text>Air France projette de supprimer 4 000 emplois en 1992 et 1993 .</text>
+            <annotationSet status="MANUAL" ID="14209">
+                <layer rank="1" name="FE">
+                    <label end="61" start="47" name="Time_of_Eventuality"/>
+                    <label end="61" start="23" name="Goal"/>
+                    <label end="9" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17397">
+            <text>On projetait de " réinventer le Parlement " par une rationalisation moins contraignante de ses techniques , un élargissement de ses compétences , une meilleure organisation des questions orales , un fonctionnement mieux agencé des commissions , une règle simplifiée et mieux adaptée du cumul des mandats (8) .</text>
+            <annotationSet status="MANUAL" ID="21466">
+                <layer rank="1" name="FE">
+                    <label end="306" start="16" name="Goal"/>
+                    <label end="1" start="0" name="Agent"/>
+                    <label end="306" start="48" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="remerciement.n" ID="1999" frame="Judgment_direct_address" frameID="711" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Core" abbrev="" name="Expressor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Addressee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="51"/>
+                <annoSet ID="2233"/>
+                <annoSet ID="2235"/>
+                <annoSet ID="2236"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Communicator"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="51"/>
+                <annoSet ID="2233"/>
+                <annoSet ID="2236"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Reason"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="51"/>
+                <annoSet ID="2233"/>
+                <annoSet ID="2235"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="34">
+            <text>M. Soyer a adressé ses remerciements aux collectivités participantes , et en particulier à l' inspecteur d' académie , pour la création , en 1998 , d' une cinquième classe et la nomination de deux aides-éducateurs et la mise à disposition à la rentrée 1999 d' un titulaire mobile .</text>
+            <annotationSet status="MANUAL" ID="51">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Communicator"/>
+                    <label end="278" start="124" name="Reason"/>
+                    <label end="87" start="41" name="Addressee"/>
+                    <label end="115" start="91" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1846">
+            <text>Je terminerai en exprimant mes remerciements à la présidence portugaise , et en particulier à M. Da Costa pour la collaboration que nous avons eue , au commissaire , M. Barnier , à vous et à tous les collègues et , bien sûr , au corapporteur , M. Leinen , pour le rude mais très bon travail que nous avons accompli de concert , ainsi qu' aux membres du secrétariat du Parlement qui nous ont assistés et aux interprètes qui ont bien souvent dépassé l' horaire pour nous permettre de mener les négociations difficiles que vous concevez .</text>
+            <annotationSet status="MANUAL" ID="2233">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Communicator"/>
+                    <label end="145" start="111" name="Reason"/>
+                    <label end="104" start="94" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1846">
+            <text>Je terminerai en exprimant mes remerciements à la présidence portugaise , et en particulier à M. Da Costa pour la collaboration que nous avons eue , au commissaire , M. Barnier , à vous et à tous les collègues et , bien sûr , au corapporteur , M. Leinen , pour le rude mais très bon travail que nous avons accompli de concert , ainsi qu' aux membres du secrétariat du Parlement qui nous ont assistés et aux interprètes qui ont bien souvent dépassé l' horaire pour nous permettre de mener les négociations difficiles que vous concevez .</text>
+            <annotationSet status="MANUAL" ID="2235">
+                <layer rank="1" name="FE">
+                    <label end="324" start="261" name="Reason"/>
+                    <label end="252" start="229" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1846">
+            <text>Je terminerai en exprimant mes remerciements à la présidence portugaise , et en particulier à M. Da Costa pour la collaboration que nous avons eue , au commissaire , M. Barnier , à vous et à tous les collègues et , bien sûr , au corapporteur , M. Leinen , pour le rude mais très bon travail que nous avons accompli de concert , ainsi qu' aux membres du secrétariat du Parlement qui nous ont assistés et aux interprètes qui ont bien souvent dépassé l' horaire pour nous permettre de mener les négociations difficiles que vous concevez .</text>
+            <annotationSet status="MANUAL" ID="2236">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Communicator"/>
+                    <label end="70" start="47" name="Addressee"/>
+                    <label end="90" start="74" name="Addressee"/>
+                    <label end="104" start="94" name="Addressee"/>
+                    <label end="147" start="147" name="Addressee"/>
+                    <label end="177" start="152" name="Addressee"/>
+                    <label end="187" start="181" name="Addressee"/>
+                    <label end="224" start="191" name="Addressee"/>
+                    <label end="252" start="229" name="Addressee"/>
+                    <label end="336" start="328" name="Addressee"/>
+                    <label end="401" start="342" name="Addressee"/>
+                    <label end="532" start="407" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

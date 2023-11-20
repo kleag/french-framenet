@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="merci.n" ID="1997" frame="Judgment_direct_address" frameID="711" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Core" abbrev="" name="Expressor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Addressee"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="2244"/>
+                <annoSet ID="2246"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="2637"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Communicator"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="2244"/>
+                <annoSet ID="2246"/>
+                <annoSet ID="2637"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Reason"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="2244"/>
+                <annoSet ID="2246"/>
+                <annoSet ID="2637"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1849">
+            <text>Un grand merci également au commissaire Barnier pour sa compréhension et merci également à notre collègue Vitorino , en particulier pour un point que je souhaiterais exposer à présent .</text>
+            <annotationSet status="MANUAL" ID="2244">
+                <layer rank="1" name="FE">
+                    <label end="68" start="53" name="Reason"/>
+                    <label end="46" start="28" name="Addressee"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1849">
+            <text>Un grand merci également au commissaire Barnier pour sa compréhension et merci également à notre collègue Vitorino , en particulier pour un point que je souhaiterais exposer à présent .</text>
+            <annotationSet status="MANUAL" ID="2246">
+                <layer rank="1" name="FE">
+                    <label end="182" start="137" name="Reason"/>
+                    <label end="113" start="91" name="Addressee"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2036">
+            <text>Merci aussi d' avoir évoqué la visite que j' ai effectuée il y a quelques semaines à Lubljana .</text>
+            <annotationSet status="MANUAL" ID="2637">
+                <layer rank="1" name="FE">
+                    <label end="92" start="15" name="Reason"/>
+                    <label itype="DNI" name="Communicator"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

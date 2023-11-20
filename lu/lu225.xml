@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="motif.n" ID="225" frame="Causation" frameID="5" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cause"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="14462"/>
+                <annoSet ID="17595"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Effect"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="14462"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Effect"/>
+                <annoSet ID="17595"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10301">
+            <text>L' ennui est qu' on ne voit pas très bien en cette fin 1992 pour quels motifs le climat pourrait s' améliorer sensiblement .</text>
+            <annotationSet status="MANUAL" ID="14462">
+                <layer rank="1" name="FE">
+                    <label end="76" start="65" name="Cause"/>
+                    <label end="63" start="60" name="Effect"/>
+                    <label end="121" start="78" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13223">
+            <text>Motif : les liens économiques étroits noués avec l' arrière - pays chinois , en plein boom</text>
+            <annotationSet status="MANUAL" ID="17595">
+                <layer rank="1" name="FE">
+                    <label end="89" start="0" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

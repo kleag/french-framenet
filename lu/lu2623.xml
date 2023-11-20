@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="faire.v" ID="2623" frame="Causation" frameID="5" totalAnnotated="24" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="17">
+            <FE name="Actor"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="15"/>
+                <annoSet ID="70"/>
+                <annoSet ID="74"/>
+                <annoSet ID="130"/>
+                <annoSet ID="255"/>
+                <annoSet ID="263"/>
+                <annoSet ID="532"/>
+                <annoSet ID="547"/>
+                <annoSet ID="677"/>
+                <annoSet ID="682"/>
+                <annoSet ID="2026"/>
+                <annoSet ID="2886"/>
+                <annoSet ID="2949"/>
+                <annoSet ID="3116"/>
+                <annoSet ID="3154"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Actor"/>
+                <annoSet ID="182"/>
+                <annoSet ID="2225"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Cause"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="74"/>
+                <annoSet ID="185"/>
+                <annoSet ID="373"/>
+                <annoSet ID="636"/>
+                <annoSet ID="1564"/>
+                <annoSet ID="2177"/>
+                <annoSet ID="2367"/>
+                <annoSet ID="3009"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Effect"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="15"/>
+                <annoSet ID="70"/>
+                <annoSet ID="130"/>
+                <annoSet ID="182"/>
+                <annoSet ID="185"/>
+                <annoSet ID="255"/>
+                <annoSet ID="263"/>
+                <annoSet ID="373"/>
+                <annoSet ID="532"/>
+                <annoSet ID="547"/>
+                <annoSet ID="636"/>
+                <annoSet ID="677"/>
+                <annoSet ID="682"/>
+                <annoSet ID="1564"/>
+                <annoSet ID="2026"/>
+                <annoSet ID="2177"/>
+                <annoSet ID="2225"/>
+                <annoSet ID="2367"/>
+                <annoSet ID="2886"/>
+                <annoSet ID="2949"/>
+                <annoSet ID="3009"/>
+                <annoSet ID="3116"/>
+                <annoSet ID="3154"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="11">
+            <text>En délibérant , l' assemblée a accepté la proposition du maire et l' a chargé de faire établir par les services de la DDE un dossier de demande de subvention dans le cadre de la répartition des amendes de police 1999 .</text>
+            <annotationSet status="MANUAL" ID="15">
+                <layer rank="1" name="FE">
+                    <label end="215" start="87" name="Effect"/>
+                    <label end="61" start="57" name="Actor"/>
+                    <label end="67" start="66" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="44">
+            <text>Peut-être a -t-elle eu le tort , la veille , de faire installer des poubelles fixes , synonymes , à priori , de propreté , ce qui a eu probablement pour effet d' inciter les gens à rester à domicile .</text>
+            <annotationSet status="MANUAL" ID="70">
+                <layer rank="1" name="FE">
+                    <label end="197" start="54" name="Effect"/>
+                    <label end="18" start="12" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="48">
+            <text>Ceux d' Ancerville ont participé à l' événement en faisant découvrir leur savoir-faire et leurs recettes .</text>
+            <annotationSet status="MANUAL" ID="74">
+                <layer rank="1" name="FE">
+                    <label end="103" start="59" name="Cause"/>
+                    <label end="17" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="105">
+            <text>Hier en début de soirée , la route reliant Danjoutin à Belfort était en partie neutralisée par la police , le temps qu' un dépanneur fasse tomber l' automobile , perchée juste au - dessus d' une fortification appartenant à l' ancienne ceinture de Belfort .</text>
+            <annotationSet status="MANUAL" ID="130">
+                <layer rank="1" name="FE">
+                    <label end="253" start="139" name="Effect"/>
+                    <label end="131" start="120" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="148">
+            <text>Faire s' exprimer les enfants à travers cette activité , c' est important .</text>
+            <annotationSet status="MANUAL" ID="182">
+                <layer rank="1" name="FE">
+                    <label end="53" start="6" name="Effect"/>
+                    <label itype="DNI" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="153">
+            <text>Plus simplement , les hasards du calendrier du Comité départemental d' action touristique a fait coïncider la promotion de l' Office de tourisme avec le nouveau classement de l' hôtel-restaurant Le Relais à Arc-et-Senans .</text>
+            <annotationSet status="MANUAL" ID="185">
+                <layer rank="1" name="FE">
+                    <label end="88" start="18" name="Cause"/>
+                    <label end="219" start="97" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="215">
+            <text>Pour ce premier rendez-vous , l' animateur a pu faire partager sa passion et présenter quelques " oeuvres " pour mettre en bouche les participants .</text>
+            <annotationSet status="MANUAL" ID="255">
+                <layer rank="1" name="FE">
+                    <label end="145" start="54" name="Effect"/>
+                    <label end="41" start="30" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="218">
+            <text>En effet , parmi les adhérents à cette activité , plusieurs manient déjà avec brio différentes techniques artistiques , qu' ils pourront faire partager à l' ensemble du groupe .</text>
+            <annotationSet status="MANUAL" ID="263">
+                <layer rank="1" name="FE">
+                    <label end="122" start="120" name="Effect"/>
+                    <label end="174" start="143" name="Effect"/>
+                    <label end="58" start="50" name="Actor"/>
+                    <label end="126" start="124" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="285">
+            <text>Lionel Jospin note que la mission de ce groupe est " de ne pas méconnaître les justes revendications des autres orphelins de victimes du nazisme " et de " trouver collectivement la meilleure façon de faire reconnaître par la Nation l' ampleur des souffrances subies " .</text>
+            <annotationSet status="MANUAL" ID="373">
+                <layer rank="1" name="FE">
+                    <label end="198" start="178" name="Cause"/>
+                    <label end="264" start="206" name="Cause"/>
+                    <label end="264" start="206" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="204" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="420">
+            <text>Le conteur a fait jouer les enfants .</text>
+            <annotationSet status="MANUAL" ID="532">
+                <layer rank="1" name="FE">
+                    <label end="34" start="18" name="Effect"/>
+                    <label end="9" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="437">
+            <text>Le comédien a fait participer les enfants au spectacle .</text>
+            <annotationSet status="MANUAL" ID="547">
+                <layer rank="1" name="FE">
+                    <label end="53" start="19" name="Effect"/>
+                    <label end="10" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="490">
+            <text>L' état de ces dernières a fait dépêcher sur place des ambulances des pompiers de Montreux-Château , d' Alkirch et de Dannemarie ainsi que les Samu du Haut-Rhin et du Territoire de Belfort .</text>
+            <annotationSet status="MANUAL" ID="636">
+                <layer rank="1" name="FE">
+                    <label end="23" start="0" name="Cause"/>
+                    <label end="187" start="32" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="518">
+            <text>à son retour et jusqu' en 1980 , il se fait apprécier à GFD avant de devenir pensionnaire à Bavilliers de " La Charmeuse " .</text>
+            <annotationSet status="MANUAL" ID="677">
+                <layer rank="1" name="FE">
+                    <label end="37" start="0" name="Effect"/>
+                    <label end="123" start="44" name="Effect"/>
+                    <label end="34" start="33" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="524">
+            <text>à la maison Belot , elle s' est très vite fait remarquer par sa coquetterie , son envie de participer aux " Jeux olympiques inter-établissements " et bien sûr à l' incontournable belote .</text>
+            <annotationSet status="MANUAL" ID="682">
+                <layer rank="1" name="FE">
+                    <label end="40" start="0" name="Effect"/>
+                    <label end="186" start="47" name="Effect"/>
+                    <label end="23" start="20" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1546">
+            <text>Je voudrais demander quelles nouvelles initiatives peut prendre le Conseil pour préserver les intérêts de ces agriculteurs dans le cadre des prochaines négociations sur le commerce mondial , en particulier face à la production à grande échelle et de style industriel des États-Unis et de la Nouvelle-Zélande , où les économies d' échelle font qu' il est extrêmement difficile pour les exploitations familiales européennes de rester compétitives et où , bien sûr , les normes européennes en matière de sécurité alimentaire ne s' appliquent pas .</text>
+            <annotationSet status="MANUAL" ID="1564">
+                <layer rank="1" name="FE">
+                    <label end="336" start="313" name="Cause"/>
+                    <label end="443" start="347" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="341" start="338" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1774">
+            <text>Les inspecteurs de l' ONU pour le désarmement de l' Irak ont détruit ou fait détruire les stocks d' armements , de matériels ou de produits pouvant conduire à la fabrication d' armes de destruction massive .</text>
+            <annotationSet status="MANUAL" ID="2026">
+                <layer rank="1" name="FE">
+                    <label end="204" start="77" name="Effect"/>
+                    <label end="55" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1827">
+            <text>C' est un lieu commun de dire que l' Union européenne , telle qu' elle fonctionne aujourd' hui , face à tous ces défis , appelle absolument certaines transformations , des transformations qui auront comme but principal de la faire encore évoluer sur la base de tout ce que nous tous , nous avons admis jusqu' à ce jour .</text>
+            <annotationSet status="MANUAL" ID="2177">
+                <layer rank="1" name="FE">
+                    <label end="190" start="188" name="Cause"/>
+                    <label end="317" start="168" name="Cause"/>
+                    <label end="223" start="222" name="Effect"/>
+                    <label end="317" start="231" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="229" start="225" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1845">
+            <text>Pour me faire mieux comprendre , je dirai que la coopération renforcée est une procédure communautaire dans laquelle doivent s' inscrire les questions de la politique étrangère et de défense commune , car il existe ainsi des mécanismes de contrôle .</text>
+            <annotationSet status="MANUAL" ID="2225">
+                <layer rank="1" name="FE">
+                    <label end="6" start="5" name="Effect"/>
+                    <label end="29" start="14" name="Effect"/>
+                    <label itype="DNI" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1909">
+            <text>Je suis convaincu que la mise en route d' ONG locales est nécessaire pour renforcer la qualité des programmes , mais aussi pour mieux faire connaître le pacte de stabilité dans cette région , ce que nous sommes précisément en train de faire .</text>
+            <annotationSet status="MANUAL" ID="2367">
+                <layer rank="1" name="FE">
+                    <label end="52" start="22" name="Cause"/>
+                    <label end="132" start="128" name="Effect"/>
+                    <label end="188" start="140" name="Effect"/>
+                    <label end="239" start="192" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="134" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2199">
+            <text>Ils lui ont fait subir des chocs électriques sur les parties sensibles de son corps .</text>
+            <annotationSet status="MANUAL" ID="2886">
+                <layer rank="1" name="FE">
+                    <label end="6" start="4" name="Effect"/>
+                    <label end="82" start="17" name="Effect"/>
+                    <label end="2" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2252">
+            <text>Il contestera son appartenance supposée à l' extrême droite affirmée par VGE dans son livre et le fera condamner à un franc de dommages et intérêts pour diffamation en 1991 .</text>
+            <annotationSet status="MANUAL" ID="2949">
+                <layer rank="1" name="FE">
+                    <label end="96" start="95" name="Effect"/>
+                    <label end="171" start="103" name="Effect"/>
+                    <label end="1" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2309">
+            <text>Dans une ordonnance rendue en avril 1999 , le Procureur de la République de Nanterre , Yves Bot , explique que cette lettre fait peser à l' encontre de Jacques Chirac de fortes présomptions sur sa participation " aux faits de prise illégale d' intérêt et de recel d' abus de biens sociaux " .</text>
+            <annotationSet status="MANUAL" ID="3009">
+                <layer rank="1" name="FE">
+                    <label end="122" start="111" name="Cause"/>
+                    <label end="289" start="129" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2396">
+            <text>Dans la pratique , la direction du G.O. ( le Conseil de l' Ordre ) fait passer une circulaire aux vénérables maîtres ( présidents ) de chaque loge de cette obédience pour leur demander de rassembler à leur niveau le plus d' informations possibles sur les officiers des garnisons de leurs villes ou départements .</text>
+            <annotationSet status="MANUAL" ID="3116">
+                <layer rank="1" name="FE">
+                    <label end="164" start="72" name="Effect"/>
+                    <label end="65" start="19" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2408">
+            <text>Les fonctionnaires n' ayant pas à l' époque de statut protecteur et étant considérés comme des agents du gouvernement d' une part , les militaires ayant un rôle et un statut très particulier sous la Troisième République d' autre part ( ils ne votent pas et n' ont pas le droit d' exprimer publiquement des opinions politiques - du moins pas au sens de factions - durant leur service actif ) , le général André avait paradoxalement le droit - du moins dans l' idée des prérogatives politiques de l' époque - du gouvernement sur ses agents , bien qu' il soit ici tout de même aux limites de la légalité de faire surveiller ses officiers , y compris dans leur vie privée , au nom de l' intérêt supérieur de l' État .</text>
+            <annotationSet status="MANUAL" ID="3154">
+                <layer rank="1" name="FE">
+                    <label end="710" start="610" name="Effect"/>
+                    <label end="408" start="393" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="608" start="604" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

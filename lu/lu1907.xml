@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="désapprouver.v" ID="1907" frame="Judgment" frameID="28" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="3121"/>
+                <annoSet ID="8584"/>
+                <annoSet ID="11957"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="13895"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Evaluee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="3121"/>
+                <annoSet ID="8584"/>
+                <annoSet ID="11957"/>
+                <annoSet ID="13895"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2397">
+            <text>Si de nombreux vénérables ( généralement ceux des loges bourgeoises modérées qui désapprouvent les excès du combisme ) ne donnent pas suite , ne voulant se compromettre dans une opération de " basse politique " , d' autres , surtout ceux des ateliers les plus extrémistes ( radicaux ou socialistes ) , se lancent avec enthousiasme dans l' opération par haine du clergé , de la religion ou même de l' armée .</text>
+            <annotationSet status="MANUAL" ID="3121">
+                <layer rank="1" name="FE">
+                    <label end="79" start="77" name="Cognizer"/>
+                    <label end="115" start="95" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5832">
+            <text>A la fin juin , à quelques jours du sommet de Munich où il devra affronter les six autres chefs d' état et de gouvernement des principaux pays industrialisés , 78 % de ses compatriotes désapprouvaient la façon dont M. George Bush gère l' économie .</text>
+            <annotationSet status="MANUAL" ID="8584">
+                <layer rank="1" name="FE">
+                    <label end="183" start="160" name="Cognizer"/>
+                    <label end="245" start="201" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="199" start="185" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8333">
+            <text>Le syndicat patronal ( SFH ) reconnaît l' existence de ces méthodes et les désapprouve .</text>
+            <annotationSet status="MANUAL" ID="11957">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Cognizer"/>
+                    <label end="73" start="71" name="Evaluee"/>
+                    <label end="66" start="55" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9876">
+            <text>A quoi je réponds que les prétendus remèdes ici désapprouvés ne feraient , après peut - être une courte période d' euphorie , qu' aggraver le mal .</text>
+            <annotationSet status="MANUAL" ID="13895">
+                <layer rank="1" name="FE">
+                    <label end="42" start="22" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="avaliser.v" ID="2617" frame="Ratification" frameID="1351" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="rat" name="Ratifier"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Proposal"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="11731"/>
+                <annoSet ID="16265"/>
+                <annoSet ID="18847"/>
+                <annoSet ID="20896"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Ratifier"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Ratifier"/>
+                <annoSet ID="11731"/>
+                <annoSet ID="16265"/>
+                <annoSet ID="18847"/>
+                <annoSet ID="20896"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8143">
+            <text>Le groupe s' y employait depuis plusieurs jours , à en croire les spécialistes du secteur ( le Monde du 4 juillet ) et il a jusqu' au 30 juillet pour faire admettre un éventuel nouveau projet par les autorités américaines avant de le faire avaliser par le tribunal des faillites .</text>
+            <annotationSet status="MANUAL" ID="11731">
+                <layer rank="1" name="FE">
+                    <label end="277" start="253" name="Ratifier"/>
+                    <label end="190" start="165" name="Proposal"/>
+                    <label end="232" start="231" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="247" start="240" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11925">
+            <text>Préalablement à la fusion , les actionnaires d' Hachette ont avalisé la filialisation des deux branches encore mélangées dans cette société : l' activité " distribution " et " services " ( 11 , 67 milliards de francs de chiffre d' affaires en 1991 , 6 300 salariés , premier distributeur mondial de presse ) et l' activité " livre " ( 6 , 76 milliards et un effectif de 13 000 salariés , en baisse depuis deux ans ) .</text>
+            <annotationSet status="MANUAL" ID="16265">
+                <layer rank="1" name="FE">
+                    <label end="55" start="28" name="Ratifier"/>
+                    <label end="138" start="69" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14542">
+            <text>L' assemblée générale a avalisé l' entrée de ces trois nouveaux partenaires , réalisée par le biais d' une augmentation de capital réservée au cours de 266 francs l' action .</text>
+            <annotationSet status="MANUAL" ID="18847">
+                <layer rank="1" name="FE">
+                    <label end="20" start="0" name="Ratifier"/>
+                    <label end="171" start="32" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16734">
+            <text>- Les régions n' ont -elles pas le sentiment d' être mises devant le fait accompli , de devoir avaliser les décisions de l' administration ?</text>
+            <annotationSet status="MANUAL" ID="20896">
+                <layer rank="1" name="FE">
+                    <label end="12" start="2" name="Ratifier"/>
+                    <label end="137" start="104" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="féliciter.v" ID="1992" frame="Judgment_direct_address" frameID="711" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Core" abbrev="" name="Expressor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Addressee"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="2422"/>
+                <annoSet ID="2507"/>
+                <annoSet ID="2550"/>
+                <annoSet ID="2611"/>
+                <annoSet ID="20985"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Communicator"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="2422"/>
+                <annoSet ID="2507"/>
+                <annoSet ID="2550"/>
+                <annoSet ID="2611"/>
+                <annoSet ID="20985"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Reason"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="2422"/>
+                <annoSet ID="2507"/>
+                <annoSet ID="2550"/>
+                <annoSet ID="2611"/>
+                <annoSet ID="20985"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="2422"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1936">
+            <text>En ce qui concerne le rapport Kuckelkorn , je dois féliciter son auteur pour la ténacité avec laquelle il plaide pour les retraites complémentaires , pour que celles-ci soient effectivement un second pilier de l' assurance vieillesse .</text>
+            <annotationSet status="MANUAL" ID="2422">
+                <layer rank="1" name="FE">
+                    <label end="39" start="19" name="Topic"/>
+                    <label end="44" start="43" name="Communicator"/>
+                    <label end="232" start="77" name="Reason"/>
+                    <label end="70" start="61" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1968">
+            <text>C' est pourquoi nous soutenons le rapport Hatzidakis , et je tiens à féliciter le rapporteur pour sa clarté , malgré la technicité de ce dossier .</text>
+            <annotationSet status="MANUAL" ID="2507">
+                <layer rank="1" name="FE">
+                    <label end="59" start="58" name="Communicator"/>
+                    <label end="106" start="98" name="Reason"/>
+                    <label end="91" start="79" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1985">
+            <text>Je désire également féliciter ma collègue Roth-Behrendt pour son rapport .</text>
+            <annotationSet status="MANUAL" ID="2550">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Communicator"/>
+                    <label end="71" start="61" name="Reason"/>
+                    <label end="54" start="30" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2019">
+            <text>Monsieur le Président , bien que je félicite Konstantinos Alyssandrakis pour son rapport complet , je dois dire que la Commission et le rapport final ne sont pas allés assez loin en ce qui concerne l' initiative européenne relative à la recherche spatiale .</text>
+            <annotationSet status="MANUAL" ID="2611">
+                <layer rank="1" name="FE">
+                    <label end="34" start="33" name="Communicator"/>
+                    <label end="95" start="77" name="Reason"/>
+                    <label end="70" start="45" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16876">
+            <text>S' il y parvient avant l' été , il pourra se féliciter d' avoir contribué à rendre un avenir aux péniches françaises , qui réalisent péniblement 3 , 6 % des tonnes - kilomètres enregistrées en France contre 19 , 3 % pour les péniches allemandes en RFA .</text>
+            <annotationSet status="MANUAL" ID="20985">
+                <layer rank="1" name="FE">
+                    <label end="33" start="32" name="Communicator"/>
+                    <label end="33" start="32" name="Reason"/>
+                    <label end="250" start="58" name="Reason"/>
+                    <label end="33" start="32" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

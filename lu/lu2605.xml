@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="tolérer.v" ID="2605" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="19283"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="8209"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="8209"/>
+                <annoSet ID="19283"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5610">
+            <text>Une ressource inespérée , ou tout du moins un " petit appel d' air " unanimement toléré , pour jongler entre la lourdeur des charges sociales et les pesanteurs bureaucratiques , amortir le chômage ( stabilisé autour de 10 % et déjà partiellement relativisé par cette espèce de " réserve " de main - d' oeuvre surnuméraire qu' est la cassa integrazione , mécanisme interprofessionnel cautionné par l' Etat ) , voire l' immigration , et fournir ce " deuxième " emploi , si courant en Italie .</text>
+            <annotationSet status="MANUAL" ID="8209">
+                <layer rank="1" name="FE">
+                    <label end="67" start="43" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14996">
+            <text>N' ont -ils pas , au début , toléré la création de sicav court terme - puisqu' elles pouvaient souscrire les 100 milliards de francs d' obligations créées pour l' indemnisation des nationalisations de 1982 - provoquant ainsi le plus formidable transfert de capitaux jamais observé en France ?</text>
+            <annotationSet status="MANUAL" ID="19283">
+                <layer rank="1" name="FE">
+                    <label end="67" start="36" name="Content"/>
+                    <label end="10" start="7" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

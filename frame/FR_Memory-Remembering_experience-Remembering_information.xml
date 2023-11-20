@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Memory-Remembering_experience-Remembering_information" ID="10043" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;This frame is concerned with &lt;fen&gt;Cognizer&lt;/fen&gt;s remembering and forgetting &lt;fen&gt;Mental_content&lt;/fen&gt;, or a &lt;fen&gt;Salient_entity&lt;/fen&gt;. If this  &lt;fen&gt;Salient_entity&lt;/fen&gt; is remembered in a specific state or performing some action, both the &lt;fen&gt;Salient_entity&lt;/fen&gt; and the action/state are included in the &lt;fen&gt;Mental_content&lt;/fen&gt;'s span. A &lt;fen&gt;Cognizer&lt;/fen&gt; retains facts or experiences in memory and is able to retrieve them. The &lt;fen&gt;Mental_content&lt;/fen&gt; may be presented in clearly propositional form as a finite clause. It may also take the form of an embedded question or be a concealed question in the form of a simple NP.
+
+
+&lt;ex&gt;&lt;fex name="cog"&gt;Je&lt;/fex&gt; me &lt;t&gt;rappelle&lt;/t&gt; &lt;fex name="sal"&gt;Marie&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="cog"&gt;Je&lt;/fex&gt; me &lt;t&gt;rappelle&lt;/t&gt; &lt;fex name="men"&gt; &lt;fex name="sal"&gt;Marie&lt;/fex&gt; descendant les escaliers&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt; I was impressed that &lt;fex name="cog"&gt;she&lt;/fex&gt; 'd actually &lt;t&gt;remembered&lt;/t&gt; &lt;fex name="men"&gt;Radish 's name&lt;/fex&gt; (= what Radish's name is) &lt;/ex&gt; 
+
+
+&lt;ex&gt;Oh, and for those who like to continually whinge about how the French are 'surrender monkeys' - &lt;t&gt;remember&lt;/t&gt; &lt;fex name="men"&gt;Napoleon&lt;/fex&gt; (= who Napoleon was)?&lt;/ex&gt;
+
+&lt;ex&gt; &lt;fex name="cog"&gt;I&lt;/fex&gt; ca n't &lt;t&gt;remember&lt;/t&gt; &lt;fex name="men"&gt;what  DSP stands for&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;And &lt;fex name="cog"&gt;Bill&lt;/fex&gt; can &lt;fex name="tim"&gt;still&lt;/fex&gt; &lt;t&gt;remember&lt;/t&gt; &lt;fex name="men"&gt;the pattern&lt;/fex&gt; (= what the pattern is). &lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="men"&gt;What&lt;/fex&gt; do &lt;fex name="cog"&gt;you&lt;/fex&gt; &lt;t&gt;remember&lt;/t&gt; &lt;fex name="top"&gt;about your grandma&lt;/fex&gt;?&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Notice that this frame is very general. It can be used to talk about detailed reports of past experience.
+
+&lt;ex&gt;I don't know if I lost consciousness for a while. But I &lt;t&gt;remember&lt;/t&gt; &lt;fex name="men"&gt;that I was lying in the middle of the road with people trying to assist me&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;Remembering_to_do&lt;/frframe&gt;: This frame differs from Remembering_to_do in that this frame is strictly talking about a fact, whereas the Remembering_to_do frame is strictly about tasks which the &lt;fen&gt;Cognizer&lt;/fen&gt; would be expected to do. Remembering_to_do uses normally occur with infinitival complements.&lt;/def-root&gt;
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : fusion of Memory, Remembering_experience and Remembering_information. All the FEs from Memory and Remembering_information remain the same except that Memory's Experience and Remembering_information's Context are understood to be the same thing and merged into &lt;fen&gt;Context&lt;/fen&gt;. &lt;fen&gt;Topic&lt;/fen&gt; is here core and in a core set with &lt;fen&gt;Mental_content&lt;/fen&gt; as it is in Memory. Remembering_Experience's &lt;fen&gt;Salient_entity&lt;/fen&gt; is kept in this merging, and its FEs Experience, State and Impression are all considered to be part of this frame's Mental_content.
+
+</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/22/2004 02:35:52 PDT Wed" abbrev="cog" name="Cognizer" ID="7100">
+        <definition>&lt;def-root&gt;The person who retains and retrieves information.
+
+&lt;ex&gt;I bet &lt;fex name="cog"&gt;Johno&lt;/fex&gt; can &lt;t&gt;remember&lt;/t&gt; the name of the Ramones' drummer.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/22/2004 02:42:01 PDT Wed" abbrev="men" name="Mental_content" ID="7101">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Mental_content&lt;/fen&gt; stored by and accessible to the &lt;fen&gt;Cognizer&lt;/fen&gt;. It may derive from experience or activity or simply from being informed of it.
+
+&lt;ex&gt;Do you &lt;t&gt;remember&lt;/t&gt; &lt;fex name="men"&gt;how to spell cupboard ?&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0099FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/22/2004 02:42:01 PDT Wed" abbrev="sal" name="Salient_entity" ID="7101">
+        <definition>&lt;def-root&gt;A person or thing that the &lt;fen&gt;Cognizer&lt;/fen&gt; remembers as being involved in some state or event or as having some property.
+
+&lt;ex&gt;today I saw my sister's exclassmate, and didn't recognise him, I &lt;t&gt;remember&lt;/t&gt; &lt;fex name="men"&gt;him&lt;/fex&gt;taller&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/28/2004 04:13:24 PDT Tue" abbrev="top" name="Topic" ID="7154">
+        <definition>&lt;def-root&gt;An entity, concrete or abstract, or an event that the remembered &lt;fen&gt;Mental_content&lt;/fen&gt; is about.
+
+
+&lt;ex&gt;The boy who suffered brain damage when he was hit by a vehicle while walking into school testified Friday he &lt;t&gt;remembers&lt;/t&gt; nothing &lt;fex name="top"&gt;about being hit&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="09/28/2004 05:08:39 PDT Tue" abbrev="con" name="Context" ID="7155">
+        <definition>&lt;def-root&gt;A situation/event (or period of time standing in for events) or a text from which the &lt;fen&gt;Mental_content&lt;/fen&gt; was acquired.
+		
+		
+&lt;ex&gt;You will &lt;t&gt;remember&lt;/t&gt; &lt;fex name="con"&gt;from grade school&lt;/fex&gt; that you do not want to make the nuns impatient.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Content" ID="875"/>
+        <memberFE name="Topic" ID="876"/>
+        <memberFE name="Salient_entity" ID="7101"/>
+    </FEcoreSet>
+    
+    <frameRelation type="Caused by">
+        <relatedFrame>Evoking</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Remembering</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Merged from">
+        <relatedFrame>Memory</relatedFrame>
+        <relatedFrame>Remembering_experience</relatedFrame>
+        <relatedFrame>Remembering_information</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="oubli.n" ID="1336" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101309" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="oublier.v" ID="1337" nbocc="64" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="50"/>
+        <otherlexUnit framename="Other_sense" ID="101310" annotatedsent="0"/>
+        <otherlexUnit framename="Remembering_to_do" ID="2330" annotatedsent="13"/>
+    </lexUnit>
+    <lexUnit POS="v" name="remettre.v" ID="1338" nbocc="73" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101594" annotatedsent="66"/>
+    </lexUnit>
+    <lexUnit POS="v" name="revoir.v" ID="1339" nbocc="29" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se rappeler.v" ID="1340" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="101790" annotatedsent="1"/>
+        <otherlexUnit framename="Remembering_to_do" ID="2332" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se remémorer.v" ID="1341" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se ressouvenir.v" ID="1342" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se souvenir.v" ID="1343" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101804" annotatedsent="0"/>
+        <otherlexUnit framename="Remembering_to_do" ID="2333" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="souvenir.n" ID="1344" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="Other_sense" ID="101855" annotatedsent="4"/>
+    </lexUnit>
+</frame>

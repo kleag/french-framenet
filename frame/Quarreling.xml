@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Quarreling" ID="710" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A group of &lt;fen&gt;Arguers&lt;/fen&gt; (also expressible as &lt;fen&gt;Arguer1&lt;/fen&gt; and &lt;fen&gt;Arguer2&lt;/fen&gt;) express incompatible opinions or beliefs about an &lt;fen&gt;Issue&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="06/24/2003 01:12:23 PDT Tue" abbrev="Args" name="Arguers" ID="4662">
+        <definition>&lt;def-root&gt;A group of people in an argument.
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="06/24/2003 01:14:50 PDT Tue" abbrev="Arg1" name="Arguer1" ID="4663">
+        <definition>&lt;def-root&gt;A person who is arguing with Arguer2.&lt;/def-root&gt;</definition>
+        <requiresFE name="Arguer2" ID="4664"/>
+        <excludesFE name="Arguers" ID="4662"/>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="06/24/2003 01:17:53 PDT Tue" abbrev="Arg2" name="Arguer2" ID="4664">
+        <definition>&lt;def-root&gt;The person who is being argued with by &lt;fen&gt;Arguer1&lt;/fen&gt;.
+
+&lt;ex&gt;Why are you &lt;t&gt;arguing&lt;/t&gt; &lt;fex name="Arg2"&gt;with us&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <requiresFE name="Arguer1" ID="4663"/>
+        <excludesFE name="Arguers" ID="4662"/>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="06/24/2003 01:20:01 PDT Tue" abbrev="Iss" name="Issue" ID="4665">
+        <definition>&lt;def-root&gt;The the thing the the &lt;fen&gt;Arguers&lt;/fen&gt; are arguing over or about.&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Communicates">
+        <relatedFrame>Be_in_agreement_on_assessment</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Chatting-Discussion</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="altercation.n" ID="2237" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="brouille.n" ID="2238" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100288" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="chamaillerie.n" ID="2239" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="clash.n" ID="2240" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dispute.n" ID="2241" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100582" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="engueulade.n" ID="2741" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Judgment_direct_address" ID="1986" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="100801" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="explication.n" ID="2242" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100852" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1559" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1479" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Attributing_cause" ID="1133" annotatedsent="0"/>
+        <otherlexUnit framename="Explaining_the_facts" ID="688" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="ferrailler.v" ID="2243" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100895" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="joute.n" ID="2244" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="jouter.v" ID="2245" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="polémique.n" ID="2246" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="101396" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="polémiquer.v" ID="2247" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="querelle.n" ID="2248" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101528" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'accrocher.v" ID="2249" nbocc="5" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'expliquer.v" ID="2250" nbocc="28" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101717" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1500" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Justifying" ID="1207" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se brouiller.v" ID="2251" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se chamailler.v" ID="2252" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se disputer.v" ID="2253" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101758" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se quereller.v" ID="2254" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

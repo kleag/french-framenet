@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="import.n" ID="1885" frame="Importing" frameID="1567" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Agt" name="Importer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Goods" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Goal" name="Importing_area"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Src" name="Exporting_area"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Exporting_area"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Exporting_area"/>
+                <annoSet ID="12524"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Goods"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="12524"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Importer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Importer"/>
+                <annoSet ID="12524"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Importing_area"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Importing_area"/>
+                <annoSet ID="12524"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8773">
+            <text>Formé en 1939 à Liverpool par son père , Benco Rubin , Pentland comprend une trentaine de sociétés organisées en six divisions : l' import - export , les chausseurs ( Adidas , Pony ) , les vêtements de sport ( maillots Speedo ) , la papeterie , l' électroménager , le textile .</text>
+            <annotationSet status="MANUAL" ID="12524">
+                <layer rank="1" name="FE">
+                    <label end="62" start="55" name="Importer"/>
+                    <label itype="UNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Importing_area"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

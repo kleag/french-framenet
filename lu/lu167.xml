@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="C" name="car.c" ID="167" frame="Causation" frameID="5" totalAnnotated="36" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="36">
+            <FE name="Cause"/>
+            <pattern total="35">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="348"/>
+                <annoSet ID="615"/>
+                <annoSet ID="962"/>
+                <annoSet ID="1412"/>
+                <annoSet ID="1703"/>
+                <annoSet ID="2274"/>
+                <annoSet ID="2290"/>
+                <annoSet ID="2753"/>
+                <annoSet ID="3291"/>
+                <annoSet ID="4680"/>
+                <annoSet ID="4780"/>
+                <annoSet ID="6181"/>
+                <annoSet ID="6880"/>
+                <annoSet ID="7286"/>
+                <annoSet ID="7581"/>
+                <annoSet ID="7839"/>
+                <annoSet ID="8479"/>
+                <annoSet ID="9022"/>
+                <annoSet ID="9511"/>
+                <annoSet ID="10219"/>
+                <annoSet ID="10976"/>
+                <annoSet ID="11835"/>
+                <annoSet ID="11963"/>
+                <annoSet ID="13268"/>
+                <annoSet ID="13976"/>
+                <annoSet ID="14112"/>
+                <annoSet ID="14873"/>
+                <annoSet ID="14881"/>
+                <annoSet ID="14986"/>
+                <annoSet ID="15183"/>
+                <annoSet ID="15263"/>
+                <annoSet ID="15656"/>
+                <annoSet ID="16634"/>
+                <annoSet ID="16697"/>
+                <annoSet ID="17163"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="13633"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="36">
+            <FE name="Effect"/>
+            <pattern total="29">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="615"/>
+                <annoSet ID="962"/>
+                <annoSet ID="1412"/>
+                <annoSet ID="1703"/>
+                <annoSet ID="2274"/>
+                <annoSet ID="2290"/>
+                <annoSet ID="2753"/>
+                <annoSet ID="3291"/>
+                <annoSet ID="6181"/>
+                <annoSet ID="6880"/>
+                <annoSet ID="7286"/>
+                <annoSet ID="7581"/>
+                <annoSet ID="7839"/>
+                <annoSet ID="8479"/>
+                <annoSet ID="9022"/>
+                <annoSet ID="9511"/>
+                <annoSet ID="10219"/>
+                <annoSet ID="11835"/>
+                <annoSet ID="13268"/>
+                <annoSet ID="13976"/>
+                <annoSet ID="14112"/>
+                <annoSet ID="14873"/>
+                <annoSet ID="14881"/>
+                <annoSet ID="14986"/>
+                <annoSet ID="15183"/>
+                <annoSet ID="15263"/>
+                <annoSet ID="15656"/>
+                <annoSet ID="16697"/>
+                <annoSet ID="17163"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Effect"/>
+                <annoSet ID="348"/>
+                <annoSet ID="4680"/>
+                <annoSet ID="4780"/>
+                <annoSet ID="10976"/>
+                <annoSet ID="11963"/>
+                <annoSet ID="13633"/>
+                <annoSet ID="16634"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="274">
+            <text>Car EFI , mise en redressement judiciaire en 1998 avec un plan de continuation de dix ans , devait déjà impérativement régler une partie des sommes dues à ses créanciers en juin dernier .</text>
+            <annotationSet status="MANUAL" ID="348">
+                <layer rank="1" name="FE">
+                    <label end="184" start="4" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="474">
+            <text>J' étais prêt à partir , malgré mon attachement à l' ASNL et à la ville , car à 32 ans , il s' agissait sans doute de ma dernière chance de signer un nouveau contrat " .</text>
+            <annotationSet status="MANUAL" ID="615">
+                <layer rank="1" name="FE">
+                    <label end="164" start="78" name="Cause"/>
+                    <label end="72" start="0" name="Effect"/>
+                    <label end="168" start="166" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="868">
+            <text>La pharmacocinétique de la bivalirudine n' a pas été étudiée chez les patients atteints d' insuffisance hépatique , mais on ne s' attend pas à ce qu' elle soit modifiée , car la bivalirudine n' est pas métabolisée par les enzymes hépatiques telles que les isoenzymes du cytochrome P-450 .</text>
+            <annotationSet status="MANUAL" ID="962">
+                <layer rank="1" name="FE">
+                    <label end="285" start="175" name="Cause"/>
+                    <label end="169" start="121" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1408">
+            <text>De nombreux patients atteints d' ostéoporose n' ont aucun symptôme , mais ils présentent néanmoins un risque de fracture osseuse car l' ostéoporose a fragilisé leurs os .</text>
+            <annotationSet status="MANUAL" ID="1412">
+                <layer rank="1" name="FE">
+                    <label end="167" start="133" name="Cause"/>
+                    <label end="127" start="74" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1607">
+            <text>( EN ) J' ai voté en faveur du rapport de Mme Stenzel sur l' initiative EQUAL car je pense qu' il est essentiel de poursuivre le travail qui a été entamé avec les précédentes composantes NOW , Horizon , Youthstart et Integra des initiatives ADAPT et Employment .</text>
+            <annotationSet status="MANUAL" ID="1703">
+                <layer rank="1" name="FE">
+                    <label end="259" start="82" name="Cause"/>
+                    <label end="76" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1873">
+            <text>Cependant , dans une région déchirée par un conflit d' arrière-garde , ce drame laisse un goût particulièrement amer , car chaque prix payé pour acheter un fusil , une balle , contribue à aggraver une situation économique , sociale et alimentaire déjà précaire .</text>
+            <annotationSet status="MANUAL" ID="2274">
+                <layer rank="1" name="FE">
+                    <label end="259" start="123" name="Cause"/>
+                    <label end="117" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1878">
+            <text>Monsieur le Président , je voudrais surtout discuter , pendant le temps qui m' est imparti , de la conférence sur le financement du pacte de stabilité qui vient de se dérouler , car j' estime qu' il est bien plus judicieux de diriger son attention sur celui-ci que sur le texte de mon rapport qui a bien sûr été écrit pour cette conférence .</text>
+            <annotationSet status="MANUAL" ID="2290">
+                <layer rank="1" name="FE">
+                    <label end="338" start="182" name="Cause"/>
+                    <label end="176" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="180" start="178" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2084">
+            <text>Le procureur local a qualifié cela d' infraction à l' article 26 ( 2 ) de la loi allemande sur les rassemblements car cette manifestation a été considérée comme une réunion ayant eu lieu sans autorisation préalable des autorités compétentes , ou sans qu' elles aient été informées .</text>
+            <annotationSet status="MANUAL" ID="2753">
+                <layer rank="1" name="FE">
+                    <label end="279" start="118" name="Cause"/>
+                    <label end="112" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2491">
+            <text>Peu après la signature , Alain Gomez , PDG du Thomson CSF , refuse de le payer car il a des doutes sur la destination finale des 160 millions de francs de commissions .</text>
+            <annotationSet status="MANUAL" ID="3291">
+                <layer rank="1" name="FE">
+                    <label end="165" start="83" name="Cause"/>
+                    <label end="77" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3503">
+            <text>Car il s' agit d' abord d' un important marché de consommateurs dont le niveau de vie dépasse de beaucoup celui de Maurice , de Madagascar , des Seychelles ou du Mozambique .</text>
+            <annotationSet status="MANUAL" ID="4680">
+                <layer rank="1" name="FE">
+                    <label end="171" start="4" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3561">
+            <text>Car les concessionnaires ( 4 000 en France ) sont tenus , par le contrat qui les lie à un constructeur , de posséder d' importants stocks de pièces détachées afin d' assurer notamment le service après - vente gratuit compris dans la garantie des véhicules .</text>
+            <annotationSet status="MANUAL" ID="4780">
+                <layer rank="1" name="FE">
+                    <label end="254" start="4" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4392">
+            <text>Du côté d' Air France , on se frotte les mains de trouver un allié de qualité au coeur de l' Europe de l' Est , car CSA gagne bon an mal an de 20 à 30 millions de dollars ( 100 à 150 millions de francs ) et transporte 1 , 5 million de passagers chaque année vers une quarantaine de pays .</text>
+            <annotationSet status="MANUAL" ID="6181">
+                <layer rank="1" name="FE">
+                    <label end="285" start="116" name="Cause"/>
+                    <label end="110" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4827">
+            <text>Cependant , l' organisme chargé de la réglementation boursière , le CBV , vient de refuser d' accorder une dérogation au lancement d' une OPA en raison non seulement des textes mais aussi car " elle s' est estimée ne pas être en possession d' une information suffisante sur l' ensemble des circonstances de l' opération " .</text>
+            <annotationSet status="MANUAL" ID="6880">
+                <layer rank="1" name="FE">
+                    <label end="320" start="192" name="Cause"/>
+                    <label end="175" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="190" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5056">
+            <text>Ça obligeait à des calculs supplémentaires , car jusqu' ici ces chiffres n' apparaissaient nulle part , puisque les versements trimestriels à l' URSSAF comprenaient , indistinctes , les cotisations patronales et salariales .</text>
+            <annotationSet status="MANUAL" ID="7286">
+                <layer rank="1" name="FE">
+                    <label end="221" start="49" name="Cause"/>
+                    <label end="43" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5230">
+            <text>La solution Besnier , apparemment la plus efficace , faisait peur , celle de Bongrain , plus coûteuse pour les banques , rassure car elle devrait moins secouer les 17 000 producteurs de lait de l' ULN .</text>
+            <annotationSet status="MANUAL" ID="7581">
+                <layer rank="1" name="FE">
+                    <label end="199" start="133" name="Cause"/>
+                    <label end="127" start="68" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5409">
+            <text>Les acteurs économiques sont en train de prendre conscience que le " tout camion " est extrêmement dangereux , car les professionnels de la route n' en finissent pas de barrer les routes : contre les délais de paiement et les bas prix pratiqués à l' automne 1991 ; contre le permis à points menaçant , selon eux , de leur retirer leur outil de travail aujourd' hui .</text>
+            <annotationSet status="MANUAL" ID="7839">
+                <layer rank="1" name="FE">
+                    <label end="185" start="115" name="Cause"/>
+                    <label end="109" start="0" name="Effect"/>
+                    <label end="365" start="187" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5761">
+            <text>" l' objectif de la journée d' action que nous avions organisée le 30 juin a été atteint car tous les agriculteurs se sont mobilisés .</text>
+            <annotationSet status="MANUAL" ID="8479">
+                <layer rank="1" name="FE">
+                    <label end="131" start="93" name="Cause"/>
+                    <label end="87" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6072">
+            <text>D' ici à 1995 , Northern Telecom bénéficiera néanmoins des mêmes pouvoirs que si elle détenait dès aujourd' hui 39 % du capital de Matra Communication , car le prêt est affecté non pas à Matra Communication directement mais à une société en commandite par actions , détenue conjointement avec Matra .</text>
+            <annotationSet status="MANUAL" ID="9022">
+                <layer rank="1" name="FE">
+                    <label end="297" start="157" name="Cause"/>
+                    <label end="151" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="153" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6362">
+            <text>Paribas s' est apprécié car il a décidé de vendre sa participation de 18 % dans Matra Communication .</text>
+            <annotationSet status="MANUAL" ID="9511">
+                <layer rank="1" name="FE">
+                    <label end="98" start="28" name="Cause"/>
+                    <label end="22" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6875">
+            <text>Tout d' abord , l' écart de taux entre la France et l' Allemagne , très important il y a quelques années , car il traduisait les inquiétudes des milieux internationaux sur la santé du franc , s' est très fortement réduit , revenant de trois points au début de 1988 à 0 , 7 point en ce moment , et même 0 , 4 point il y a quatre mois sur le long terme ( échéance à dix ans ) .</text>
+            <annotationSet status="MANUAL" ID="10219">
+                <layer rank="1" name="FE">
+                    <label end="188" start="111" name="Cause"/>
+                    <label end="103" start="16" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7527">
+            <text>Car si la mise en forme a été " industrialisée " , la coloration , la décoration et le contrôle de qualité relèvent encore de méthodes artisanales .</text>
+            <annotationSet status="MANUAL" ID="10976">
+                <layer rank="1" name="FE">
+                    <label end="145" start="51" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8223">
+            <text>" Une approche efficace mais coûteuse , note l' étude , car elle prend en compte l' intégralité de l' impôt sur le revenu , y compris l' impôt généré par les différentiels de rémunération .</text>
+            <annotationSet status="MANUAL" ID="11835">
+                <layer rank="1" name="FE">
+                    <label end="186" start="60" name="Cause"/>
+                    <label end="36" start="2" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8339">
+            <text>Car si les syndicats de salariés ne s' opposent pas au passage à un salaire fixe , ils estiment , à la CGT comme à la CFDT , que cela ne peut se faire que si le maintien des niveaux de salaires est assuré .</text>
+            <annotationSet status="MANUAL" ID="11963">
+                <layer rank="1" name="FE">
+                    <label end="203" start="83" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9374">
+            <text>Cette dernière est peu économique à l' achat , car sa chair ne peut être valorisée comme celle du canard , de plus en plus vendu en magrets .</text>
+            <annotationSet status="MANUAL" ID="13268">
+                <layer rank="1" name="FE">
+                    <label end="138" start="51" name="Cause"/>
+                    <label end="45" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9662">
+            <text>Car les industriels , pas fous , sont tous à la recherche du gadget qui va prendre , qui va passionner , enchanter , ensorceler les jeunes .</text>
+            <annotationSet status="MANUAL" ID="13633">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9949">
+            <text>D' emblée le lecteur est convié à exercer sa critique ; car les traducteurs ont eu l' intelligence de juxtaposer aux travaux de Kondratieff les commentaires de ses détracteurs , au premier rang desquels figure le minutieux contre - rapport de D. I. Oparine .</text>
+            <annotationSet status="MANUAL" ID="13976">
+                <layer rank="1" name="FE">
+                    <label end="255" start="60" name="Cause"/>
+                    <label end="54" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10050">
+            <text>L' Uruguay round dans l' impasse et le plan d' action communautaire en faveur de la télévision haute définition ( TVHD ) ou , du moins , du développement des programmes adaptés aux écrans en 16 / 9 , complètement bloqué par la faute des Anglais , car disent -ils , la TVHD numérique sera bientôt disponible .</text>
+            <annotationSet status="MANUAL" ID="14112">
+                <layer rank="1" name="FE">
+                    <label end="305" start="251" name="Cause"/>
+                    <label end="243" start="36" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="249" start="247" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10642">
+            <text>[ né le 29 avril 1936 à Rome , M. Pierre - Etienne Fournier a accompli la majeure part de sa carrière à la banque de France , où il est considéré comme un " M. Europe " , car il a été responsable de la mission spécialisée de l' institut d' émission , de 1989 à 1992 .</text>
+            <annotationSet status="MANUAL" ID="14873">
+                <layer rank="1" name="FE">
+                    <label end="264" start="175" name="Cause"/>
+                    <label end="167" start="126" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10652">
+            <text>Ils ont pu le faire car ils y étaient préparés , ils s' étaient déjà rapprochés de ces échéances lors de précédentes transactions .</text>
+            <annotationSet status="MANUAL" ID="14881">
+                <layer rank="1" name="FE">
+                    <label end="45" start="24" name="Cause"/>
+                    <label end="18" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10732">
+            <text>Motif : violant le principe fondamental de libre - échange du GATT , les européens ont contingenté leurs exportations de déchets de cuivre recyclables , car ils redoutent un assèchement du marché .</text>
+            <annotationSet status="MANUAL" ID="14986">
+                <layer rank="1" name="FE">
+                    <label end="194" start="157" name="Cause"/>
+                    <label end="151" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="153" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10935">
+            <text>La société italienne a finalement été retenue , car " elle s' est présentée autant comme un investisseur que comme un partenaire stratégique " , affirme M. Péter Karasz , porte - parole de Malev .</text>
+            <annotationSet status="MANUAL" ID="15183">
+                <layer rank="1" name="FE">
+                    <label end="139" start="54" name="Cause"/>
+                    <label end="44" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11010">
+            <text>En revanche , celle sur le changement climatique global , a été finalement ratifiée par tout le monde , y compris les Etats - Unis , car on s' est arrangé pour en supprimer toute contrainte chiffrée et tout calendrier .</text>
+            <annotationSet status="MANUAL" ID="15263">
+                <layer rank="1" name="FE">
+                    <label end="216" start="137" name="Cause"/>
+                    <label end="131" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11348">
+            <text>L' ensemble du système financier mondial subit aussi une crise immobilière bien plus grave que les précédentes car alimentée par la déréglementation des années 80 .</text>
+            <annotationSet status="MANUAL" ID="15656">
+                <layer rank="1" name="FE">
+                    <label end="161" start="53" name="Cause"/>
+                    <label end="109" start="53" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12284">
+            <text>Car la Fondiaria a , pour des raisons peu évidentes , laissé passer le délai d' inscription à l' assemblée générale .</text>
+            <annotationSet status="MANUAL" ID="16634">
+                <layer rank="1" name="FE">
+                    <label end="114" start="4" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12357">
+            <text>" A priori , je n' y suis pas favorable [ aux prix nets ] car cela rend la communication plus compliquée .</text>
+            <annotationSet status="MANUAL" ID="16697">
+                <layer rank="1" name="FE">
+                    <label end="103" start="62" name="Cause"/>
+                    <label end="56" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12797">
+            <text>Certes , cette année -là avait été exceptionnelle car les emprunteurs japonais débordaient d' activité , jusqu' à représenter , grâce à leurs seules opérations débouchant sur des actions , environ 30 % de toutes les transactions nouvelles .</text>
+            <annotationSet status="MANUAL" ID="17163">
+                <layer rank="1" name="FE">
+                    <label end="237" start="54" name="Cause"/>
+                    <label end="48" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

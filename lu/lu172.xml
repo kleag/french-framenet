@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="comme.conj" ID="172" frame="Causation" frameID="5" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cause"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="353"/>
+                <annoSet ID="608"/>
+                <annoSet ID="1147"/>
+                <annoSet ID="1450"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Effect"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="608"/>
+                <annoSet ID="1147"/>
+                <annoSet ID="1450"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Effect"/>
+                <annoSet ID="353"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="277">
+            <text>Et comme le plan de résorption des dettes prévoyait un autre versement de près de deux millions d' euros en juin prochain ...</text>
+            <annotationSet status="MANUAL" ID="353">
+                <layer rank="1" name="FE">
+                    <label end="120" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="473">
+            <text>Comme l' attaquant tenait encore à jouer , il refusa et examina d' autres possibilités : " Le Mans , Valence , Sedan et un quatrième club dont je dois taire le nom , me faisaient des offres intéressantes .</text>
+            <annotationSet status="MANUAL" ID="608">
+                <layer rank="1" name="FE">
+                    <label end="39" start="6" name="Cause"/>
+                    <label end="85" start="43" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1129">
+            <text>Comme Aclasta contient le même principe actif que Zometa , certaines données présentées pour Zometa ont été prises en compte lors de l' évaluation d' Aclasta .</text>
+            <annotationSet status="MANUAL" ID="1147">
+                <layer rank="1" name="FE">
+                    <label end="55" start="6" name="Cause"/>
+                    <label end="158" start="57" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1458">
+            <text>Comme Aclasta a une longue durée d' action , vous n' aurez pas besoin de recevoir une autre dose d' Aclasta pendant un an ou plus .</text>
+            <annotationSet status="MANUAL" ID="1450">
+                <layer rank="1" name="FE">
+                    <label end="41" start="6" name="Cause"/>
+                    <label end="130" start="43" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

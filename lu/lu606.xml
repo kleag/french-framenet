@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="VPP" name="vu.vpp" ID="606" frame="Evidence" frameID="25" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Proposition"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="2978"/>
+                <annoSet ID="8299"/>
+                <annoSet ID="22616"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Support"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="2978"/>
+                <annoSet ID="8299"/>
+                <annoSet ID="22616"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2273">
+            <text>Cependant , ces responsables , vu leurs fonctions au sein du gouvernement , seront dispensés de peine , et reprendront leur activité normale , en toute quiétude .</text>
+            <annotationSet status="MANUAL" ID="2978">
+                <layer rank="1" name="FE">
+                    <label end="72" start="34" name="Support"/>
+                    <label end="29" start="0" name="Proposition"/>
+                    <label end="161" start="74" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5654">
+            <text>Ce qui , vu l' état de la majorité sortante , fortement écornée aux législatives d' avril dernier , semble dans l' immédiat peu probable .</text>
+            <annotationSet status="MANUAL" ID="8299">
+                <layer rank="1" name="FE">
+                    <label end="96" start="12" name="Support"/>
+                    <label end="7" start="3" name="Proposition"/>
+                    <label end="135" start="98" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18510">
+            <text>Dernière à s' être mise en mouvement - mais c' est bien compréhensible vu la terreur que faisait régner le régime de Ceausescu , - elle est aussi la première à déclarer le parti communiste " hors la loi " .</text>
+            <annotationSet status="MANUAL" ID="22616">
+                <layer rank="1" name="FE">
+                    <label end="125" start="74" name="Support"/>
+                    <label end="69" start="44" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

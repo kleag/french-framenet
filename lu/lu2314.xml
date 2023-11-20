@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="estime.n" ID="2314" frame="Judgment" frameID="28" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="22482"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="24191"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Evaluee"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="22482"/>
+                <annoSet ID="24191"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18354">
+            <text>Ses succès d' estrade et l' estime unanime dont il jouissait parmi les fidèles du général ne lui évitèrent pas la déconfiture .</text>
+            <annotationSet status="MANUAL" ID="22482">
+                <layer rank="1" name="FE">
+                    <label end="88" start="67" name="Cognizer"/>
+                    <label end="49" start="48" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20482">
+            <text>Malgré le succès d' estime dont peuvent se prévaloir les prestations élyséennes lors des sommets franco- africains , l' inadéquation des moyens mis en oeuvre pour répondre aux attentes n' en est devenue que plus criante depuis le sommet de Casablanca .</text>
+            <annotationSet status="MANUAL" ID="24191">
+                <layer rank="1" name="FE">
+                    <label end="78" start="53" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

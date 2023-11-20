@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="écriture.n" ID="2577" frame="Text_creation" frameID="278" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Author" name="Author"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="text" name="Text"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Extra-Thematic" abbrev="Addressee" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Author"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Author"/>
+                <annoSet ID="5645"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Text"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Text"/>
+                <annoSet ID="5645"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4056">
+            <text>Au fil des pages , le lecteur de cette bible apprenait que le délai d' écriture du synopsis devrait être de " cinq jours pleins ( week - end inclus ) " .</text>
+            <annotationSet status="MANUAL" ID="5645">
+                <layer rank="1" name="FE">
+                    <label end="90" start="83" name="Text"/>
+                    <label itype="UNI" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

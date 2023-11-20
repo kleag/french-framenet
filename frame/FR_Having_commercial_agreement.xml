@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Having_commercial_agreement" ID="10034" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions,Cognitive_positions">
+    <definition> 
+    &lt;def-root&gt;Two (or more) people (the &lt;fen&gt;Parties&lt;/fen&gt;, also encodable as &lt;fen&gt;Party_1&lt;/fen&gt; and
+&lt;fen&gt;Party_2&lt;/fen&gt;, or &lt;fen&gt;Buyer&lt;/fen&gt; and &lt;fen&gt;Seller&lt;/fen&gt;) have a commercial agreement. Both sides are construed as having a commitment concerning a commercial transaction, or a series of commercial transactions. The &lt;fen&gt;Seller&lt;/fen&gt; is committed to an &lt;fen&gt;Obligation&lt;/fen&gt; in exchange of which &lt;fen&gt;Buyer&lt;/fen&gt; is committed to paying them &lt;fen&gt;Money&lt;/fen&gt;. Instead of a specific mention of the &lt;fen&gt;Obligation&lt;/fen&gt;, a &lt;fen&gt;Topic&lt;/fen&gt; expression may be used to indicate the domain covered.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : lexicalized version of fndata-1.5's Having_commercial_agreement. Roles Money, Buyer and Seller were added.
+
+    &lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/19/2005 08:17:11 PDT Tue" abbrev="par1" name="Party_1" ID="8643">
+        <definition>&lt;def-root&gt;The individual or individuals that form the more prominent (i.e. agentive) party of the commercial agreement, as compared with &lt;fen&gt;Party_2&lt;/fen&gt;. That is, &lt;fen&gt;Party_1&lt;/fen&gt; is generally encoded as the External Argument of verbs, and peripheral FEs that do not make reference to the event itself generally make reference to &lt;fen&gt;Party_1&lt;/fen&gt;. Thus manner expressions are construed to apply to &lt;fen&gt;Party_1&lt;/fen&gt;, not necessarily to &lt;fen&gt;Party_2&lt;/fen&gt; or the group of &lt;fen&gt;Parties&lt;/fen&gt; as a whole.
+
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+        <requiresFE name="Party_2" ID="8644"/>
+        <excludesFE name="Parties" ID="8648"/>
+        <excludesFE name="Buyer" ID="1380"/>
+        <excludesFE name="Seller" ID="1385"/>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="Byr" name="Buyer" ID="1380">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Buyer&lt;/fen&gt; is committed to paying &lt;fen&gt;Money&lt;/fen&gt; to the &lt;fen&gt;Seller&lt;/fen&gt; in exchange for their commitment to the &lt;fen&gt;Obligation&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <excludesFE name="Party_1" ID="8643"/>
+        <excludesFE name="Party_2" ID="8644"/>
+        <excludesFE name="Parties" ID="8648"/>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="Slr" name="Seller" ID="1385">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Seller&lt;/fen&gt; is committed to an &lt;fen&gt;Obligation&lt;/fen&gt; in exchange of which the &lt;fen&gt;Buyer&lt;/fen&gt; is committed to paying them &lt;fen&gt;Money&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <excludesFE name="Party_1" ID="8643"/>
+        <excludesFE name="Party_2" ID="8644"/>
+        <excludesFE name="Parties" ID="8648"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/19/2005 08:17:12 PDT Tue" abbrev="par2" name="Party_2" ID="8644">
+        <definition>&lt;def-root&gt;The semantically (and grammatically) less prominent participant (or group of participants) in the agreement. It is generally encoded within a prepositional phrase (e.g. headed by with).
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+        <requiresFE name="Party_1" ID="8643"/>
+        <excludesFE name="Parties" ID="8648"/>
+        <excludesFE name="Buyer" ID="1380"/>
+        <excludesFE name="Seller" ID="1385"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/19/2005 08:17:12 PDT Tue" abbrev="obl" name="Obligation" ID="8645">
+        <definition>&lt;def-root&gt;An expression of the commitment which the &lt;fen&gt;Parties&lt;/fen&gt; have to engage in a commercial transaction.
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/19/2005 08:17:12 PDT Tue" abbrev="top" name="Topic" ID="8646">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Topic&lt;/fen&gt; is a description of the domain covered by the commercial agreement.
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="Mny" name="Money" ID="1383">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Money&lt;/fen&gt; is the thing given in exchange for fulfilling the &lt;fen&gt;Obligation&lt;/fen&gt; in a commercial agreement.
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="07/19/2005 08:17:12 PDT Tue" abbrev="med" name="Medium" ID="8647">
+        <definition>&lt;def-root&gt;As with other frames in the Communication domain, the &lt;fen&gt;Medium&lt;/fen&gt; of communication may be expressed. &lt;fen&gt;Medium&lt;/fen&gt; is the physical entity or channel used to record or negotiate the &lt;fen&gt;Obligation&lt;/fen&gt;. 
+
+
+&lt;ex&gt;The parties have a &lt;fex name="med"&gt;written&lt;/fex&gt; &lt;t&gt;agreement&lt;/t&gt; to arbitrate disputes arising in connection with the contract.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/19/2005 08:17:12 PDT Tue" abbrev="pars" name="Parties" ID="8648">
+        <definition>&lt;def-root&gt;The group of individuals portrayed as equally involved in having a commercial agreement.
+&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>Be_in_agreement_on_action</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Having_commercial_agreement</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Subframe of">
+        <relatedFrame>FR_Commerce_scenario</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="contrat.n" ID="1158" nbocc="133" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="102"/>
+        <otherlexUnit framename="Other_sense" ID="100429" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="73" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="n" name="marché.n" ID="1159" nbocc="580" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="30"/>
+        <otherlexUnit framename="Other_sense" ID="101201" annotatedsent="75"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="80" annotatedsent="0"/>
+    </lexUnit>
+</frame>

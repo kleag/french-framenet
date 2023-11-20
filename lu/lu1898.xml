@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="apprécier.v" ID="1898" frame="Judgment" frameID="28" totalAnnotated="16" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="16">
+            <FE name="Cognizer"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="60"/>
+                <annoSet ID="678"/>
+                <annoSet ID="2303"/>
+                <annoSet ID="4868"/>
+                <annoSet ID="6751"/>
+                <annoSet ID="7493"/>
+                <annoSet ID="13395"/>
+                <annoSet ID="14687"/>
+                <annoSet ID="16871"/>
+                <annoSet ID="19710"/>
+                <annoSet ID="21519"/>
+                <annoSet ID="22867"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="5965"/>
+                <annoSet ID="7344"/>
+                <annoSet ID="7353"/>
+                <annoSet ID="14691"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Evaluee"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="60"/>
+                <annoSet ID="678"/>
+                <annoSet ID="2303"/>
+                <annoSet ID="4868"/>
+                <annoSet ID="5965"/>
+                <annoSet ID="6751"/>
+                <annoSet ID="7344"/>
+                <annoSet ID="7353"/>
+                <annoSet ID="7493"/>
+                <annoSet ID="13395"/>
+                <annoSet ID="14687"/>
+                <annoSet ID="14691"/>
+                <annoSet ID="16871"/>
+                <annoSet ID="19710"/>
+                <annoSet ID="21519"/>
+                <annoSet ID="22867"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Reason"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="14691"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="37">
+            <text>Quant au sous-préfet , il apprécie l' énergie dépensée pour une telle réalisation .</text>
+            <annotationSet status="MANUAL" ID="60">
+                <layer rank="1" name="FE">
+                    <label end="24" start="23" name="Cognizer"/>
+                    <label end="19" start="9" name="Cognizer"/>
+                    <label end="80" start="35" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="518">
+            <text>à son retour et jusqu' en 1980 , il se fait apprécier à GFD avant de devenir pensionnaire à Bavilliers de " La Charmeuse " .</text>
+            <annotationSet status="MANUAL" ID="678">
+                <layer rank="1" name="FE">
+                    <label end="58" start="56" name="Cognizer"/>
+                    <label end="34" start="33" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1882">
+            <text>J' ai apprécié de voir qu' à cette conférence l' enthousiasme était bien présent à toutes les tables de travail .</text>
+            <annotationSet status="MANUAL" ID="2303">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Cognizer"/>
+                    <label end="1" start="0" name="Evaluee"/>
+                    <label end="110" start="18" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3605">
+            <text>Les industriels qui apprécient d' être livrés à l' heure dite et dans la qualité souhaitée le lui délèguent bien volontiers .</text>
+            <annotationSet status="MANUAL" ID="4868">
+                <layer rank="1" name="FE">
+                    <label end="18" start="16" name="Cognizer"/>
+                    <label end="89" start="0" name="Cognizer"/>
+                    <label end="18" start="16" name="Evaluee"/>
+                    <label end="89" start="34" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4255">
+            <text>Car pour en apprécier tous les atouts , la TVHD doit être regardée de près , ou sur un grand écran .</text>
+            <annotationSet status="MANUAL" ID="5965">
+                <layer rank="1" name="FE">
+                    <label end="36" start="22" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4753">
+            <text>On n' y apprécierait guère cet énarque , inspecteur des finances , qui fut le directeur de cabinet de M. Laurent Fabius de 1981 à 1986 .</text>
+            <annotationSet status="MANUAL" ID="6751">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Cognizer"/>
+                    <label end="133" start="27" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5091">
+            <text>Dans la galaxie Thomson , comme dans beaucoup de grandes entreprises , cela est un peu devenu une recette miracle , différemment appréciée suivant le poste occupé dans le groupe .</text>
+            <annotationSet status="MANUAL" ID="7344">
+                <layer rank="1" name="FE">
+                    <label end="114" start="94" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5095">
+            <text>Dans un groupe dont les unités sont très autonomes , il faut désormais que les hommes puissent circuler de l' une à l' autre en fonction de leurs propres désirs et des besoins des différents services sans qu' un supérieur hiérarchique puisse y faire obstacle parce qu' il tient à garder un collaborateur apprécié .</text>
+            <annotationSet status="MANUAL" ID="7353">
+                <layer rank="1" name="FE">
+                    <label end="302" start="287" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="311" start="304" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5173">
+            <text>D' une vive intelligence , très apprécié au Trésor parce qu' il décidait vite et bien , M. Lebègue n' en faisait pas moins l' objet de critiques assez vives au sein de la banque .</text>
+            <annotationSet status="MANUAL" ID="7493">
+                <layer rank="1" name="FE">
+                    <label end="49" start="44" name="Cognizer"/>
+                    <label end="62" start="61" name="Evaluee"/>
+                    <label end="97" start="88" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9485">
+            <text>Visiblement , Hyundai est déjà connu et apprécié des professionnels de l' auto " , se réjouit Daniel Vauvilliers .</text>
+            <annotationSet status="MANUAL" ID="13395">
+                <layer rank="1" name="FE">
+                    <label end="79" start="53" name="Cognizer"/>
+                    <label end="20" start="14" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10489">
+            <text>Très apprécié de M. François Mitterrand , il sera l' un des relecteurs de la Lettre à tous les Français .</text>
+            <annotationSet status="MANUAL" ID="14687">
+                <layer rank="1" name="FE">
+                    <label end="38" start="17" name="Cognizer"/>
+                    <label end="43" start="42" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10493">
+            <text>Apprécié pour son intégrité et son dévouement à la gauche , " H. H. " déteste la contradiction .</text>
+            <annotationSet status="MANUAL" ID="14691">
+                <layer rank="1" name="FE">
+                    <label end="56" start="14" name="Reason"/>
+                    <label end="68" start="60" name="Evaluee"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12513">
+            <text>Les titulaires d' un contrat emploi - solidarité ( CES ) apprécieront d' être ainsi traités comme une menace financière , et les futurs bénéficiaires d' une allocation de formation - reclassement seront sûrement rassurés de savoir que leur nombre doit être augmenté pour des raisons de trésorerie et pas forcément pour réussir leur retour à la vie professionnelle .</text>
+            <annotationSet status="MANUAL" ID="16871">
+                <layer rank="1" name="FE">
+                    <label end="55" start="0" name="Cognizer"/>
+                    <label end="55" start="0" name="Evaluee"/>
+                    <label end="118" start="73" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15443">
+            <text>L' action du directeur général , et c' est cela qu' on n' apprécie guère en France , a abouti à réintroduire l' agriculture dans le dispositif du GATT .</text>
+            <annotationSet status="MANUAL" ID="19710">
+                <layer rank="1" name="FE">
+                    <label end="53" start="52" name="Cognizer"/>
+                    <label end="50" start="48" name="Evaluee"/>
+                    <label end="29" start="0" name="Evaluee"/>
+                    <label end="149" start="85" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17467">
+            <text>Les préparatifs de ce voyage ont fourni l' occasion au chef de l' état d' une " reprise en main " de certains ministres dont la " ruée vers l' est " et la publicité personnelle qui l' entoure ne sont appréciées ni au quai d' Orsay ni à l' Elysée .</text>
+            <annotationSet status="MANUAL" ID="21519">
+                <layer rank="1" name="FE">
+                    <label end="212" start="211" name="Cognizer"/>
+                    <label end="232" start="217" name="Cognizer"/>
+                    <label end="244" start="236" name="Cognizer"/>
+                    <label end="190" start="120" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18769">
+            <text>Le marché y gagne en transparence , ce que les investisseurs institutionnels apprécient tout particulièrement et qui , en fin de compte , fait bénéficier les meilleurs débiteurs des meilleures conditions .</text>
+            <annotationSet status="MANUAL" ID="22867">
+                <layer rank="1" name="FE">
+                    <label end="75" start="43" name="Cognizer"/>
+                    <label end="41" start="39" name="Evaluee"/>
+                    <label end="32" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

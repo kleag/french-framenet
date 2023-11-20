@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Evoking" ID="1012" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;Some &lt;fen&gt;Stimulus&lt;/fen&gt; causes a &lt;fen&gt;Cognizer&lt;/fen&gt; to think of a prior &lt;fen&gt;Phenomenon&lt;/fen&gt; due to its perceived similarity.
+
+&lt;ex&gt;I burned down the malt shop where we used to go just because &lt;fex name="Stim"&gt;it&lt;/fex&gt; &lt;t&gt;reminds&lt;/t&gt; me &lt;fex name="Phen"&gt;of you&lt;/fex&gt;&lt;/ex&gt;
+
+
+
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/04/2004 04:39:30 PST Thu" abbrev="Cognizer" name="Cognizer" ID="6002">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt;is the person who remembers the &lt;fen&gt;Phenomenon&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/04/2004 04:39:30 PST Thu" abbrev="Phen" name="Phenomenon" ID="6003">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Phenomenon&lt;/fen&gt; is the mental content that a &lt;fen&gt;Cognizer&lt;/fen&gt; remembers.
+
+&lt;ex&gt;You &lt;t&gt;remind&lt;/t&gt; me &lt;fex name="Phen"&gt;of my uncle Jerry&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/04/2004 05:02:22 PST Thu" abbrev="Stim" name="Stimulus" ID="6016">
+        <definition>&lt;def-root&gt;The entity or situation that causes the &lt;fen&gt;Cognizer&lt;/fen&gt; to think of the &lt;fen&gt;Phenomenon&lt;/fen&gt;.
+
+&lt;ex&gt; &lt;fex name="Stimulus"&gt;Internationalization&lt;/fex&gt; &lt;t&gt;conjures&lt;/t&gt; up a world of diplomatic exchanges and international agencies in which the interests of ex-colonial and great powers still linger&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Is Causative of">
+        <relatedFrame>FR_Memory-Remembering_experience-Remembering_information</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="rappeler.v" ID="613" nbocc="102" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="Other_sense" ID="101553" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1593" annotatedsent="78"/>
+    </lexUnit>
+    <lexUnit POS="v" name="remémorer.v" ID="614" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Telling" ID="2539" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="101598" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="évocation.n" ID="615" nbocc="4" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="102099" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1502" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="évoquer.v" ID="616" nbocc="65" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="102100" annotatedsent="0"/>
+        <otherlexUnit framename="Adducing" ID="11" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1503" annotatedsent="58"/>
+        <otherlexUnit framename="Evidence" ID="612" annotatedsent="0"/>
+    </lexUnit>
+</frame>

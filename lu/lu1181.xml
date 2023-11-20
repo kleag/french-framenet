@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="inspirer.v" ID="1181" frame="FR_Influence_of_event_on_cognizer-Subjective_influence" frameID="10035" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="sit" name="Situation"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ent" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="act" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="beh" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="22188"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Activity"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="22188"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Entity"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Entity"/>
+                <annoSet ID="22188"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Situation"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18156">
+            <text>De nos jours , les économistes idéologues , inspirés par Milton Friedman , préconisent à la suite de leur maitre la suppression pure et simple des banques centrales , sources premières , selon eux , des désordres monétaires .</text>
+            <annotationSet status="MANUAL" ID="22188">
+                <layer rank="1" name="FE">
+                    <label end="42" start="0" name="Action"/>
+                    <label end="224" start="73" name="Action"/>
+                    <label end="42" start="15" name="Cognizer"/>
+                    <label end="71" start="57" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

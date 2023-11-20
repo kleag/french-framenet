@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="prise de conscience.n" ID="118" frame="FR_Becoming_aware" frameID="10086" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="ins" name="Instrument"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="12150"/>
+                <annoSet ID="16760"/>
+                <annoSet ID="17696"/>
+                <annoSet ID="24494"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="14054"/>
+                <annoSet ID="21400"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Instrument"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Phenomenon"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="12150"/>
+                <annoSet ID="14054"/>
+                <annoSet ID="16760"/>
+                <annoSet ID="17696"/>
+                <annoSet ID="21400"/>
+                <annoSet ID="24494"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8531">
+            <text>Cela a développé chez un nombre important de laïcs une prise de conscience de leur responsabilité dans la communauté catholique locale .</text>
+            <annotationSet status="MANUAL" ID="12150">
+                <layer rank="1" name="FE">
+                    <label end="49" start="22" name="Cognizer"/>
+                    <label end="133" start="78" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10004">
+            <text>Le pessimisme avec lequel a été accueilli l' indice des prix de novembre - inflation 0 par rapport au mois précédent - montre qu' une prise de conscience a eu lieu .</text>
+            <annotationSet status="MANUAL" ID="14054">
+                <layer rank="1" name="FE">
+                    <label end="152" start="130" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="152" start="134" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12422">
+            <text>La récession actuelle provoque , avec un an de retard , une prise de conscience des syndicats et des partis politiques .</text>
+            <annotationSet status="MANUAL" ID="16760">
+                <layer rank="1" name="FE">
+                    <label end="95" start="84" name="Cognizer"/>
+                    <label end="117" start="101" name="Cognizer"/>
+                    <label end="117" start="56" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13332">
+            <text>Mais on est loin d' une prise de conscience généralisée " , dit -il .</text>
+            <annotationSet status="MANUAL" ID="17696">
+                <layer rank="1" name="FE">
+                    <label end="54" start="44" name="Cognizer"/>
+                    <label end="54" start="20" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17328">
+            <text>Les efforts évidents montrent une prise de conscience de l' énormité des problèmes .</text>
+            <annotationSet status="MANUAL" ID="21400">
+                <layer rank="1" name="FE">
+                    <label end="81" start="57" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20962">
+            <text>" La prise de conscience de la nécessité de protéger la ressource est acquise chez les politiques , et elle est en train de se faire chez les responsables professionnels .</text>
+            <annotationSet status="MANUAL" ID="24494">
+                <layer rank="1" name="FE">
+                    <label end="96" start="83" name="Cognizer"/>
+                    <label end="64" start="28" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

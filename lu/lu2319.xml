@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="penser.v" ID="2319" frame="Regard" frameID="1400" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="eva" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="rea" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="rol" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="jud" name="Judgment"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="21405"/>
+                <annoSet ID="21407"/>
+                <annoSet ID="21409"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Evaluee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="21405"/>
+                <annoSet ID="21407"/>
+                <annoSet ID="21409"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Judgment"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Judgment"/>
+                <annoSet ID="21405"/>
+                <annoSet ID="21407"/>
+                <annoSet ID="21409"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="17337">
+            <text>Que penser d' une société qui admet des universités dans un tel état de délabrement contre les efforts , et souvent les succès , de ses personnels ?</text>
+            <annotationSet status="MANUAL" ID="21405">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Judgment"/>
+                    <label end="145" start="14" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17338">
+            <text>Que penser d' une société dont les " formations d' élite " supposées former des ingénieurs d' haut niveau ou de production nous pourvoient en financiers , gestionnaires ?</text>
+            <annotationSet status="MANUAL" ID="21407">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Judgment"/>
+                    <label end="167" start="14" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17340">
+            <text>Que penser d' une société dont les formations technologiques supérieures acceptent si mal les bacheliers du technique ?</text>
+            <annotationSet status="MANUAL" ID="21409">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Judgment"/>
+                    <label end="116" start="14" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

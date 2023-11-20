@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="régler.v" ID="320" frame="Commerce_pay" frameID="180" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Way_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Buyer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="349"/>
+                <annoSet ID="3538"/>
+                <annoSet ID="3541"/>
+                <annoSet ID="18574"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="345"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Goods"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Money"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="345"/>
+                <annoSet ID="349"/>
+                <annoSet ID="3538"/>
+                <annoSet ID="3541"/>
+                <annoSet ID="18574"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Seller"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="349"/>
+                <annoSet ID="3538"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="345"/>
+                <annoSet ID="3541"/>
+                <annoSet ID="18574"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="272">
+            <text>Plus exactement , cet argent a servi à régler une partie ( 30 % ) des salaires de janvier .</text>
+            <annotationSet status="MANUAL" ID="345">
+                <layer rank="1" name="FE">
+                    <label end="88" start="46" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="274">
+            <text>Car EFI , mise en redressement judiciaire en 1998 avec un plan de continuation de dix ans , devait déjà impérativement régler une partie des sommes dues à ses créanciers en juin dernier .</text>
+            <annotationSet status="MANUAL" ID="349">
+                <layer rank="1" name="FE">
+                    <label end="88" start="4" name="Buyer"/>
+                    <label end="168" start="126" name="Money"/>
+                    <label end="168" start="155" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2707">
+            <text>Le fisc apprend que la SAR règle d' autres factures fictives à deux chefs d' entreprise : Jean-Claude Méry , homme d' affaires réputé être l' un des financiers occultes du RPR , et Jacky Chaisaz , ingénieur , animateur d' une société spécialisée dans les travaux d' isolement .</text>
+            <annotationSet status="MANUAL" ID="3538">
+                <layer rank="1" name="FE">
+                    <label end="25" start="20" name="Buyer"/>
+                    <label end="59" start="33" name="Money"/>
+                    <label end="274" start="63" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2708">
+            <text>- 20 janvier 1994 : la Direction générale des impôts ( DGI ) transmet au parquet de Créteil une enquête sur une entreprise appartenant à Francis Poullain , soupçonné d' avoir réglé des fausses factures par l' intermédiaire de ses sociétés , lesquelles auraient bénéficié de marchés passés par l' OPAC ( Office public d' aménagement et de construction de la ville de Paris ) .</text>
+            <annotationSet status="MANUAL" ID="3541">
+                <layer rank="1" name="FE">
+                    <label end="167" start="137" name="Buyer"/>
+                    <label end="200" start="181" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="179" start="175" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14239">
+            <text>Côté cour , les laissés - pour - compte : des millions d' anonymes pour qui l' approvisionnement en eau dépend de camions - citernes ; côté jardin , les privilégiés , qui tiennent pour quantité négligeable leurs factures d' eau parce qu' ils sont suffisamment riches - en témoigne la profusion de piscines privées dans les quartiers résidentiels de la capitale - ou parce qu' ils ne les règlent pas ( le tiers des factures restent impayées ) .</text>
+            <annotationSet status="MANUAL" ID="18574">
+                <layer rank="1" name="FE">
+                    <label end="378" start="376" name="Buyer"/>
+                    <label end="440" start="149" name="Buyer"/>
+                    <label end="385" start="383" name="Money"/>
+                    <label end="226" start="206" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="393" start="387" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

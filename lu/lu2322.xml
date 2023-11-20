@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="miser.v" ID="2322" frame="FR_Reliance_on_expectation" frameID="10051" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Expectation"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="8172"/>
+                <annoSet ID="13247"/>
+                <annoSet ID="19509"/>
+                <annoSet ID="23462"/>
+                <annoSet ID="23936"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Expectation"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Expectation"/>
+                <annoSet ID="8172"/>
+                <annoSet ID="13247"/>
+                <annoSet ID="19509"/>
+                <annoSet ID="23462"/>
+                <annoSet ID="23936"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5594">
+            <text>Conscients toutefois que l' Europe sans l' Italie n' aurait pas de sens , ses partenaires , las des atermoiements et des expédients des gouvernements qui se sont succédé à Rome , en viennent à miser plus sûrement sur les pressions extérieures et l' effet " correcteur " de Maastricht pour que l' Italie retrouve une croissance forte et durable .</text>
+            <annotationSet status="MANUAL" ID="8172">
+                <layer rank="1" name="FE">
+                    <label end="88" start="74" name="Cognizer"/>
+                    <label end="282" start="217" name="Expectation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9355">
+            <text>Après avoir raté son incursion dans la cigarette , Guy Azoulay mise désormais sur le parfum ( licence confiée au groupe Jacques Bogart ) et le lancement d' une ligne d' équitation ( vêtements et sellerie ) .</text>
+            <annotationSet status="MANUAL" ID="13247">
+                <layer rank="1" name="FE">
+                    <label end="61" start="51" name="Cognizer"/>
+                    <label end="204" start="82" name="Expectation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15255">
+            <text>Désormais , les employeurs privilégient la promotion interne de salariés qui n' avaient pas le statut et misent davantage sur des renouvellements de personnels .</text>
+            <annotationSet status="MANUAL" ID="19509">
+                <layer rank="1" name="FE">
+                    <label end="25" start="12" name="Cognizer"/>
+                    <label end="158" start="126" name="Expectation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19562">
+            <text>Pour faire la différence aujourd' hui , une émission de variétés doit miser sur la lumière , la mise en scène , le lieu .</text>
+            <annotationSet status="MANUAL" ID="23462">
+                <layer rank="1" name="FE">
+                    <label end="63" start="40" name="Cognizer"/>
+                    <label end="118" start="80" name="Expectation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20194">
+            <text>Le 19 décembre , M. Isautier ne pouvait que constater l' échec du pari de la télévision haute définition ( TVHD ) européenne sur lequel son groupe a beaucoup misé .</text>
+            <annotationSet status="MANUAL" ID="23936">
+                <layer rank="1" name="FE">
+                    <label end="145" start="136" name="Cognizer"/>
+                    <label end="161" start="66" name="Expectation"/>
+                    <label end="134" start="129" name="Expectation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="161" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

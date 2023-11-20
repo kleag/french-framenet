@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="convertir.v" ID="1620" frame="FR_Suasion.legitimacy" frameID="10057" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="006400" bgColor="FFFF00" type="Core" abbrev="Text" name="Text"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="13690"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="13690"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Persuader"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="13690"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Text"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="13580">
+            <text>A la fin de la guerre elles comptaient 56000 camions , 23000 automobiles et 55000 avions ... sans compter les navires de la flotte britannique , convertie dès 1911 au pétrole par Winston Churchill ...</text>
+            <annotationSet status="MANUAL" ID="13690">
+                <layer rank="1" name="FE">
+                    <label end="173" start="167" name="Content"/>
+                    <label end="195" start="121" name="Cognizer"/>
+                    <label end="195" start="179" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

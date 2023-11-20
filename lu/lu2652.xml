@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="selon.prep" ID="2652" frame="Evidence" frameID="25" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Proposition"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Support"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1895">
+            <text>Quelle est sa réaction face aux opinions de plus en plus nombreuses et intenses , provenant par exemple du Conseil ou encore des États membres , selon lesquelles ces 5,5 milliards sont bien trop élevés pour les Balkans occidentaux , dans le cadre du soutien de pré-adhésion pour la Bulgarie et la Roumanie , et selon lesquelles , comme il en va par exemple de la capacité d' absorption , un montant bien inférieur pourrait être beaucoup plus réaliste ?</text>
+            <annotationSet status="MANUAL" ID="2332">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="315" start="311" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

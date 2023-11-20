@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Response" ID="1302" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Causality">
+    <definition>&lt;def-root&gt;An &lt;fen&gt;Agent&lt;/fen&gt; performs a &lt;fen&gt;Response&lt;/fen&gt; action in consequence of a &lt;fen&gt;Trigger&lt;/fen&gt; event. In many cases, a non-agentive &lt;fen&gt;Responding_entity&lt;/fen&gt; causes the &lt;fen&gt;Response&lt;/fen&gt; after the &lt;fen&gt;Trigger&lt;/fen&gt; occurs.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt;: A &lt;fen&gt;Sentient_trigger&lt;/fen&gt; was added to include LUs expressing that the trigger event is a sentient requesting the Agent to perform the Response.
+
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core-Unexpressed" cBy="605" cDate="12/15/2004 11:29:23 PST Wed" abbrev="res" name="Response" ID="7376">
+        <definition>&lt;def-root&gt;The means action whereby the &lt;fen&gt;Agent&lt;/fen&gt; responds to the Trigger.
+
+&lt;ex&gt;The diocese &lt;t&gt;responded&lt;/t&gt; &lt;fex name="res"&gt;by taking the property&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="12/15/2004 11:31:34 PST Wed" abbrev="res_e" name="Responding_entity" ID="7377">
+        <definition>&lt;def-root&gt;A non-agentive entity that is impinged upon by a &lt;fen&gt;Trigger&lt;/fen&gt; event to which they respond.
+
+&lt;ex&gt;&lt;fex name="res_e"&gt;This plastic&lt;/fex&gt; &lt;t&gt;responds&lt;/t&gt; well to pressure.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <excludesFE name="Agent" ID="7833"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="12/15/2004 11:33:06 PST Wed" abbrev="tri" name="Trigger" ID="7378">
+        <definition>&lt;def-root&gt;An event that impinges upon the &lt;fen&gt;Agent&lt;/fen&gt; or &lt;fen&gt;Responding_entity&lt;/fen&gt; and produces a &lt;fen&gt;Response&lt;/fen&gt; from it.
+
+&lt;ex&gt; How has the modern welfare state &lt;t&gt;responded&lt;/t&gt; &lt;fex name="tri"&gt;to the needs of working class women&lt;/fex&gt;, and why? &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="04/20/2005 01:44:00 PDT Wed" abbrev="age" name="Agent" ID="7833">
+        <definition>&lt;def-root&gt;The intentional &lt;fen&gt;Agent&lt;/fen&gt; that is impinged upon by a &lt;fen&gt;Trigger&lt;/fen&gt; event to which they respond.
+
+&lt;ex&gt;Once again &lt;fex name="age"&gt;the Government&lt;/fex&gt; is &lt;t&gt;responding&lt;/t&gt; to a crisis with measures that will only harm patients&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="04/20/2005 01:44:00 PDT Wed" abbrev="stt" name="Sentient_trigger" ID="7834">
+        <definition>&lt;def-root&gt;The sentient having asked the Agent to perform the Response.
+
+&lt;ex&gt;FR-EX: La destruction a été bloquée &lt;t&gt;à la demande du&lt;/t&gt; &lt;fex name="Sentient_trigger" &gt;préfet&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Trigger" ID="7833"/>
+        <memberFE name="Sentient_trigger" ID="7834"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Reason</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Communication_response</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="broncher.v" ID="2430" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="contre-attaque.n" ID="2431" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100430" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="contre-attaquer.v" ID="2432" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="contrer.v" ID="2433" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100436" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="en retour.adv" ID="2434" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100781" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="payer de retour.v" ID="2435" nbocc="0" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rendre la pareille.v" ID="2436" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="renvoyer la balle.v" ID="2437" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101609" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="riposte.n" ID="2438" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101633" annotatedsent="0"/>
+        <otherlexUnit framename="Communication_response" ID="371" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="riposter.v" ID="2439" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101634" annotatedsent="0"/>
+        <otherlexUnit framename="Communication_response" ID="372" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="réaction.n" ID="2440" nbocc="72" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="69"/>
+        <otherlexUnit framename="Other_sense" ID="101651" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="réagir.v" ID="2441" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="25"/>
+        <otherlexUnit framename="Other_sense" ID="101652" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="réflexe.n" ID="2442" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101665" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="réplique.n" ID="2443" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101673" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2767" annotatedsent="2"/>
+        <otherlexUnit framename="Communication_response" ID="373" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="répliquer.v" ID="2444" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101674" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Request" ID="2403" annotatedsent="0"/>
+        <otherlexUnit framename="Communication_response" ID="374" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="répondre.v" ID="2445" nbocc="84" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="42"/>
+        <otherlexUnit framename="Other_sense" ID="101675" annotatedsent="17"/>
+        <otherlexUnit framename="FR_Request" ID="2404" annotatedsent="0"/>
+        <otherlexUnit framename="Communication_response" ID="375" annotatedsent="26"/>
+    </lexUnit>
+    <lexUnit POS="n" name="réponse.n" ID="2446" nbocc="73" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="22"/>
+        <otherlexUnit framename="Other_sense" ID="101676" annotatedsent="0"/>
+        <otherlexUnit framename="Communication_response" ID="376" annotatedsent="51"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="sur l'injonction de.prep" ID="2730" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="sur la demande de.prep" ID="2717" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="sur ordre de.prep" ID="2775" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à la demande de.prep" ID="2716" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="à sa demande.adv" ID="2777" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+</frame>

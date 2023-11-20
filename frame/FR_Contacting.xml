@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Contacting" ID="10014" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Communicator&lt;/fen&gt; directs a communication to an &lt;fen&gt;Addressee&lt;/fen&gt; and/or at a particular &lt;fen&gt;Address&lt;/fen&gt;, for a particular &lt;fen&gt;Purpose&lt;/fen&gt; and/or about a particular &lt;fen&gt;Topic&lt;/fen&gt;. A &lt;fen&gt;Location_of_communicator&lt;/fen&gt; can be expressed.
+&lt;ex&gt;&lt;fex name="Com"&gt;She&lt;/fex&gt; tried to &lt;t&gt;call&lt;/t&gt; &lt;fex name="Src"&gt;from the payphone down the street&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Close to the Contacting frame, but without the Communication FE (cf. not possible to express locally for the French triggers).
+
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames&lt;/asf&gt;:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Telling&lt;/frframe&gt;: in FR_Contacting, the emphasis is on the attempt to establish contact with the Addressee, and the message cannot be realized locally to the LUs.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/19/2002 02:28:24 PST Tue" abbrev="Com" name="Communicator" ID="2481">
+        <definition>&lt;def-root&gt;The person who uses language in the written or spoken modality to convey a message to another person.&lt;ex&gt;&lt;fex name="Com"&gt;He&lt;/fex&gt;  &lt;t&gt;wrote&lt;/t&gt; &lt;fex name="Addressee"&gt;to John&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/19/2002 02:28:30 PST Tue" abbrev="Add" name="Addressee" ID="2483">
+        <definition>&lt;def-root&gt;The person that receives the message from the &lt;fen&gt;Communicator&lt;/fen&gt;.&lt;ex&gt;&lt;fex name="Communicator"&gt;The company&lt;/fex&gt; must be able to &lt;t&gt;call&lt;/t&gt; &lt;fex name="Add"&gt; potential customers&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/19/2002 02:39:58 PST Tue" abbrev="Address" name="Address" ID="2485">
+        <definition>&lt;def-root&gt;This FE is used for a (metaphorical) place in a system of communication where &lt;fen&gt;Communicator&lt;/fen&gt;s and &lt;fen&gt;Addressee&lt;/fen&gt;s can access the system.
+&lt;ex&gt;&lt;fex name="Communicator"&gt;You&lt;/fex&gt; can &lt;t&gt;telephone&lt;/t&gt; &lt;fex name="Addressee"&gt;your senator&lt;/fex&gt; &lt;fex name="Address"&gt;at 555-5555&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+<!--
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/19/2002 02:40:03 PST Tue" abbrev="Communication" name="Communication" ID="2486">
+        <definition>&lt;def-root&gt;The information that the &lt;fen&gt;Communicator&lt;/fen&gt; wishes to impart to the &lt;fen&gt;Addressee&lt;/fen&gt;, often to get a particular response. In this frame the &lt;fen&gt;Communication&lt;/fen&gt; is not necessarily received by the &lt;fen&gt;Addressee&lt;/fen&gt;. &lt;ex&gt;&lt;fex name="Communicator"&gt;Patients&lt;/fex&gt; continually &lt;t&gt;call&lt;/t&gt; &lt;t&gt;in&lt;/t&gt; &lt;fex name="Communication"&gt;with questions&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+-->
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/19/2002 02:40:08 PST Tue" abbrev="Purp" name="Purpose" ID="2487">
+        <definition>&lt;def-root&gt;This FE identifies the &lt;fen&gt;Purpose&lt;/fen&gt; of the &lt;fen&gt;Communicator&lt;/fen&gt; contacting the &lt;fen&gt;Addressee&lt;/fen&gt;.
+The purpose is generally either a communication act, or refers to an informational content that the &lt;fen&gt;Communicator&lt;/fen&gt; is attempting to obtain.
+&lt;ex&gt;FR-EX:La présidente a &lt;t&gt;écrit&lt;/t&gt; aux maires pour &lt;fex name="Purp"&gt;leur proposer de créer un observatoire&lt;/fex&gt;.
+&lt;/ex&gt;
+&lt;ex&gt;FR-EX: Pour &lt;fex name="Purpose"&gt;plus d'informations&lt;/fex&gt;, appelez &lt;fex name="Address"&gt;le 7800&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/19/2002 02:40:13 PST Tue" abbrev="Topic" name="Topic" ID="2488">
+        <definition>&lt;def-root&gt;This is the subject matter to which the message pertains. It is typically expressed as a PP Complement headed by "about".
+&lt;ex&gt;&lt;t&gt;Call&lt;/t&gt; &lt;fex name="Addressee"&gt;John&lt;/fex&gt; &lt;fex name="Topic"&gt;about the party&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="03/19/2002 03:26:23 PST Tue" abbrev="Src" name="Location_of_communicator" ID="2489">
+        <definition>&lt;def-root&gt;The location occupied by the &lt;fen&gt;Communicator&lt;/fen&gt;.&lt;ex&gt;Does anyone &lt;t&gt;call&lt;/t&gt; the office &lt;fex name="Src"&gt;from a phone booth&lt;/fex&gt;?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Topic" ID="2488"/>
+<!--        <memberFE name="Communication" ID="2486"/>-->
+        <memberFE name="Purpose" ID="2487"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Addressee" ID="2483"/>
+        <memberFE name="Address" ID="2485"/>
+    </FEcoreSet>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Contacting</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="appel téléphonique.n" ID="968" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100106" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="appel.n" ID="969" nbocc="77" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100107" annotatedsent="72"/>
+        <otherlexUnit framename="FR_Hail" ID="1152" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="754" annotatedsent="21"/>
+    </lexUnit>
+    <lexUnit POS="v" name="appeler.v" ID="970" nbocc="105" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100108" annotatedsent="18"/>
+        <otherlexUnit framename="Name_conferral" ID="2114" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Hail" ID="1153" annotatedsent="1"/>
+        <otherlexUnit framename="Referring_by_name" ID="2310" annotatedsent="44"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="755" annotatedsent="27"/>
+    </lexUnit>
+    <lexUnit POS="n" name="contact.n" ID="971" nbocc="19" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="Other_sense" ID="100417" annotatedsent="6"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="2761" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="contacter.v" ID="972" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100418" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="coup de fil.n" ID="973" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100464" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="coup de téléphone.n" ID="974" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="joindre.v" ID="975" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101130" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="toucher.v" ID="978" nbocc="112" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101928" annotatedsent="31"/>
+        <otherlexUnit framename="FR_Getting_money" ID="1132" annotatedsent="11"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="1008" annotatedsent="64"/>
+    </lexUnit>
+    <lexUnit POS="v" name="téléphoner.v" ID="979" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="FR_Telling" ID="367" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="101945" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Request" ID="2417" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="écrire.v" ID="980" nbocc="67" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="102056" annotatedsent="3"/>
+        <otherlexUnit framename="Spelling_and_pronouncing" ID="2520" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1619" annotatedsent="43"/>
+        <otherlexUnit framename="FR_Request" ID="2419" annotatedsent="0"/>
+        <otherlexUnit framename="Text_creation" ID="2576" annotatedsent="15"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="refuser.v" ID="430" frame="FR_Grant_permission-Permitting" frameID="10068" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gro" name="Grantor"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Prin" name="Principle"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Gre" name="Grantee"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Act" name="Action"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Action"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="22096"/>
+                <annoSet ID="22986"/>
+                <annoSet ID="23339"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Grantee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Grantee"/>
+                <annoSet ID="22096"/>
+                <annoSet ID="22986"/>
+                <annoSet ID="23339"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Grantor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Grantor"/>
+                <annoSet ID="22096"/>
+                <annoSet ID="23339"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Grantor"/>
+                <annoSet ID="22986"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Principle"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18045">
+            <text>Qui s' étonnera dès lors que quand un Etat refuse accès à un navire dans ses ports , les autres Etats de la région ne lui emboîtent immédiatement le pas ?</text>
+            <annotationSet status="MANUAL" ID="22096">
+                <layer rank="1" name="FE">
+                    <label end="81" start="50" name="Action"/>
+                    <label end="66" start="58" name="Grantee"/>
+                    <label end="41" start="35" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18917">
+            <text>Et , devaient déclarer les juges en 1949 , pendant que la société Renault se voyait refuser toute fabrication de véhicules de tourisme et contrainte à fabriquer des véhicules qui désorganisaient ses chaînes de montage , d' autres constructeurs plus favorisés poursuivaient leur fabrication : Citroën 11 CV , Peugeot 202 , Simca .</text>
+            <annotationSet status="MANUAL" ID="22986">
+                <layer rank="1" name="FE">
+                    <label end="133" start="92" name="Action"/>
+                    <label end="72" start="55" name="Grantee"/>
+                    <label itype="DNI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19382">
+            <text>L' ancien rapporteur de la commission des droits de l' homme des nations unies , qui a eu les pires ennuis pour avoir tenté d' en dénoncer les violations dans son pays , y est accusé d' avoir été colonel de la Securitate - il reconnaît avoir dirigé " moins d' un an " l' école du ministère de l' intérieur , en 1964 - 1965 , - d' avoir tué une personne dans un accident de voiture , d' avoir plagié des travaux universitaires et de s' être découvert dissident lorsqu' on lui refusa de sortir de Roumanie pour aller " toucher des devises " .</text>
+            <annotationSet status="MANUAL" ID="23339">
+                <layer rank="1" name="FE">
+                    <label end="537" start="485" name="Action"/>
+                    <label end="473" start="471" name="Grantee"/>
+                    <label end="166" start="0" name="Grantee"/>
+                    <label end="469" start="468" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="480" start="475" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

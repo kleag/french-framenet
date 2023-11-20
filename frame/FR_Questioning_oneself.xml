@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Questioning_oneself" ID="10087" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;The words in this frame have to do with a Cognizer having in mind a Question (as opposed to formulating the Question to an Addressee), potentially on a Topic.
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; :New in Asfalda. Internal cognitive version of the communicative Questioning frame.
+
+ &lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:03 PST Wed" abbrev="Cog" name="Cognizer" ID="167">
+        <definition>&lt;def-root&gt;The person having a question in mind. It is often underspecified or it appears as subject of a support verb:
+&lt;ex&gt;FR-EX:&lt;fex name="Cognizer"&gt;Pat&lt;/fex&gt; avait beaucoup de &lt;t&gt;questions&lt;/t&gt; sur &lt;fex name="Topic"&gt;le déroulé de la soirée&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;FR-EX:&lt;fex name="Cognizer"&gt;Pat&lt;/fex&gt; &lt;t&gt;se demande&lt;/t&gt; &lt;fex name="Question"&gt;qui est arrivé&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:03 PST Wed" abbrev="Qst" name="Question" ID="169">
+        <definition>&lt;def-root&gt;The content of the Question
+&lt;ex&gt;FR-EX:&lt;fex name="Question"&gt;"Que fait-il?"&lt;/fex&gt; &lt;t&gt;s'interrogeait&lt;/t&gt; Pierre.&lt;/ex&gt;
+&lt;ex&gt;FR-EX:Kim &lt;t&gt;se demanda&lt;/t&gt; &lt;fex name="Question"&gt;ce que Pierre faisait&lt;/fex&gt;.&lt;/ex&gt;
+With noun targets, Message is not common (as Topic occurs more  frequently).  However, Message does occur in a PP Complement with the noun &lt;ment&gt;question&lt;/ment&gt;: 
+&lt;ex&gt;FR-EX:The answer to your &lt;t&gt;question&lt;/t&gt; &lt;fex name="Message"&gt;of how the company makes money&lt;/fex&gt; is simply that it doesn't. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:03 PST Wed" abbrev="Top" name="Topic" ID="170">
+        <definition>&lt;def-root&gt;Topic of the interrogation.
+&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Topic" ID="170"/>
+        <memberFE name="Question" ID="169"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses">
+        <relatedFrame>Communication</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Used by">
+        <relatedFrame>Court_examination</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="n" name="question.n" ID="2731" nbocc="186" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'interroger.v" ID="2743" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se demander.v" ID="2746" nbocc="24" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

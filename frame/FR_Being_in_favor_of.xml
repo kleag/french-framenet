@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Being_in_favor_of" ID="10007" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; has a relatively fixed positive or negative point of view towards a &lt;fen&gt;Content&lt;/fen&gt;. A &lt;fen&gt;Side&lt;/fen&gt; in a debate concerning the &lt;fen&gt;Content&lt;/fen&gt; may stand in for the &lt;fen&gt;Content&lt;/fen&gt;. Unlike FR_Taking_sides, this frame only includes FEEs that can never include the meaning of this point of view being communicated to an interlocutor.
+
+&lt;ex&gt;In interviews , it seems like &lt;fex name="cog"&gt;everyone&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; &lt;fex completely &lt;t&gt;against&lt;/t&gt; &lt;fex name="cont"&gt;this expenditure&lt;/fex&gt; .&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;FR_Taking_sides&lt;/frframe&gt;: FR_Being_in_favor_of only includes FEEs that can never include the meaning of this point of view being communicated to an interlocutor whereas all of FR_Taking_sides' FEEs include this possible meaning.
+&lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;FR_Awareness-opinion-certainty&lt;/frframe&gt;: the difference lies in the Cognizer believing in some content's truth (FR_Awareness-opinion-certainty) versus believing his (dis)agreement with some content (FR_Being_in_favor_of).
+    &lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;Be_in_agreement_on_assessment&lt;/frframe&gt;: in Be_in_agreement_on_assessment, two agreeing parties are necessarily locally expressed, and can be expressed as a single plural NP, whereas the FR_Taking_sides and FR_Being_in_favor_of frames are used for occurrences in which either only one party is expressed.
+    &lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;Judgment&lt;/frframe&gt;: the Judgment frame contains a Reason FE, and evokes an evaluation whereas there is no subcategorized Reason in FR_Being_in_favor_of, and the LUs mark binary side (in favor or against) with respect to the Content (Evaluee in the Judment frame).
+
+
+    &lt;ex&gt; &lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : New in ASFALDA. Close to FR_Taking_sides, but without the idea of potential communication of the (dis)approval.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="01/19/2005 01:32:20 PST Wed" abbrev="cog" name="Cognizer" ID="7433">
+        <definition>&lt;def-root&gt;The individual that holds an opinion on a &lt;fen&gt;Content&lt;/fen&gt; or Side.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="01/19/2005 01:33:21 PST Wed" abbrev="cont" name="Content" ID="7434">
+        <definition>&lt;def-root&gt;The matter, usually concerning a course of action, which the &lt;fen&gt;Cognizer&lt;/fen&gt; has a positive or negative opinion about.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="01/19/2005 01:35:33 PST Wed" abbrev="sid" name="Side" ID="7435">
+        <definition>&lt;def-root&gt;The party or individual (generally associated with a particular position on a &lt;fen&gt;Content&lt;/fen&gt;) that the &lt;fen&gt;Cognizer&lt;/fen&gt; sides with.&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Side" ID="7435"/>
+        <memberFE name="Content" ID="7434"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Personal_stance</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Communicated by">
+        <relatedFrame>FR_Taking_sides</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="accord.n" ID="2702" nbocc="292" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100015" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="84" annotatedsent="3"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="68" annotatedsent="104"/>
+    </lexUnit>
+    <lexUnit POS="v" name="adhérer.v" ID="863" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100035" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="n" name="adhésion.n" ID="864" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="100036" annotatedsent="13"/>
+    </lexUnit>
+    <lexUnit POS="v" name="admettre.v" ID="1634" nbocc="44" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="782" annotatedsent="13"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="731" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="100038" annotatedsent="8"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1514" annotatedsent="15"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="contre.adv" ID="865" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100432" annotatedsent="106"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="contre.prep" ID="866" nbocc="486" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100433" annotatedsent="106"/>
+    </lexUnit>
+    <lexUnit POS="a" name="convaincu.a" ID="867" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="800" annotatedsent="10"/>
+        <otherlexUnit framename="Other_sense" ID="100441" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="conversion.n" ID="868" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100449" annotatedsent="8"/>
+    </lexUnit>
+    <lexUnit POS="v" name="croire.v" ID="869" nbocc="91" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="804" annotatedsent="78"/>
+        <otherlexUnit framename="Other_sense" ID="100489" annotatedsent="10"/>
+        <otherlexUnit framename="Religious_belief" ID="2326" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="d'accord.adv" ID="870" nbocc="18" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="2602" annotatedsent="3"/>
+        <otherlexUnit framename="Other_sense" ID="100502" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="88" annotatedsent="2"/>
+        <otherlexUnit framename="Willingness" ID="2582" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="75" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="a" name="défavorable.a" ID="871" nbocc="19" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="désaccord.n" ID="872" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100727" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="92" annotatedsent="5"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="77" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="en désaccord.adv" ID="873" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100770" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="93" annotatedsent="2"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="78" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="en faveur de.prep" ID="2596" nbocc="62" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="favorable.a" ID="874" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="18"/>
+        <otherlexUnit framename="Other_sense" ID="100891" annotatedsent="36"/>
+    </lexUnit>
+    <lexUnit POS="n" name="opposition.n" ID="1639" nbocc="64" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="21"/>
+        <otherlexUnit framename="Other_sense" ID="101303" annotatedsent="45"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="95" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="a" name="opposé.a" ID="875" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="101304" annotatedsent="4"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="2758" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="a" name="partisan.a" ID="876" nbocc="32" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="32"/>
+        <otherlexUnit framename="Other_sense" ID="101345" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="pour.prep" ID="877" nbocc="4094" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="2650" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="101407" annotatedsent="89"/>
+        <otherlexUnit framename="Causation" ID="2635" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Means_for_purpose" ID="2230" annotatedsent="19"/>
+    </lexUnit>
+    <lexUnit POS="n" name="ralliement.n" ID="878" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101542" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="rallié.a" ID="2765" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se convertir.v" ID="879" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101753" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se rallier.v" ID="880" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101789" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="soutenir.v" ID="1642" nbocc="77" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="24"/>
+        <otherlexUnit framename="Other_sense" ID="101850" annotatedsent="39"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1611" annotatedsent="6"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2734" annotatedsent="8"/>
+    </lexUnit>
+    <lexUnit POS="n" name="soutien.n" ID="1643" nbocc="76" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="26"/>
+        <otherlexUnit framename="Other_sense" ID="101853" annotatedsent="54"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1612" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="tolérer.v" ID="2605" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101923" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="voir d'un bon oeil.v" ID="881" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101980" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="voir d'un mauvais oeil.v" ID="882" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101981" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="voir d'un oeil bienveillant.v" ID="883" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101982" annotatedsent="0"/>
+    </lexUnit>
+</frame>

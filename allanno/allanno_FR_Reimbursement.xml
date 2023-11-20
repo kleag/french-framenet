@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="NA" name="All annotations of frame FR_Reimbursement" ID="FR_Reimbursement" frame="FR_Reimbursement" frameID="10050" totalAnnotated="20" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Non_financial_compensation"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Rec" name="Recipient"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="" name="Cause_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="20">
+            <FE name="Cause_of_expense"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Cause_of_expense"/>
+                <annoSet ID="8983"/>
+                <annoSet ID="9449"/>
+                <annoSet ID="16545"/>
+                <annoSet ID="20881"/>
+                <annoSet ID="1603"/>
+                <annoSet ID="21708"/>
+            </pattern>
+            <pattern total="14">
+                <valenceUnit PT="null instantiation" FE="Cause_of_expense"/>
+                <annoSet ID="3365"/>
+                <annoSet ID="6243"/>
+                <annoSet ID="8156"/>
+                <annoSet ID="11773"/>
+                <annoSet ID="14085"/>
+                <annoSet ID="17308"/>
+                <annoSet ID="20534"/>
+                <annoSet ID="20537"/>
+                <annoSet ID="20542"/>
+                <annoSet ID="3246"/>
+                <annoSet ID="3460"/>
+                <annoSet ID="3483"/>
+                <annoSet ID="19374"/>
+                <annoSet ID="21139"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Giver"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Giver"/>
+                <annoSet ID="3365"/>
+                <annoSet ID="6243"/>
+                <annoSet ID="8156"/>
+                <annoSet ID="8983"/>
+                <annoSet ID="11773"/>
+                <annoSet ID="14085"/>
+                <annoSet ID="17308"/>
+                <annoSet ID="20534"/>
+                <annoSet ID="20537"/>
+                <annoSet ID="20542"/>
+                <annoSet ID="3460"/>
+                <annoSet ID="3483"/>
+                <annoSet ID="19374"/>
+                <annoSet ID="21139"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Giver"/>
+                <annoSet ID="9449"/>
+                <annoSet ID="16545"/>
+                <annoSet ID="20881"/>
+                <annoSet ID="1603"/>
+                <annoSet ID="3246"/>
+                <annoSet ID="21708"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Money"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="3365"/>
+                <annoSet ID="11773"/>
+                <annoSet ID="20534"/>
+                <annoSet ID="20537"/>
+                <annoSet ID="3460"/>
+                <annoSet ID="3483"/>
+                <annoSet ID="21139"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="8156"/>
+                <annoSet ID="8983"/>
+                <annoSet ID="9449"/>
+                <annoSet ID="14085"/>
+                <annoSet ID="16545"/>
+                <annoSet ID="17308"/>
+                <annoSet ID="20542"/>
+                <annoSet ID="20881"/>
+                <annoSet ID="1603"/>
+                <annoSet ID="3246"/>
+                <annoSet ID="21708"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Non_financial_compensation"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Non_financial_compensation"/>
+                <annoSet ID="19374"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Recipient"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Recipient"/>
+                <annoSet ID="3365"/>
+                <annoSet ID="6243"/>
+                <annoSet ID="8156"/>
+                <annoSet ID="8983"/>
+                <annoSet ID="11773"/>
+                <annoSet ID="14085"/>
+                <annoSet ID="20534"/>
+                <annoSet ID="20537"/>
+                <annoSet ID="20542"/>
+                <annoSet ID="3246"/>
+                <annoSet ID="3460"/>
+                <annoSet ID="19374"/>
+                <annoSet ID="21139"/>
+                <annoSet ID="21708"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Recipient"/>
+                <annoSet ID="9449"/>
+                <annoSet ID="16545"/>
+                <annoSet ID="17308"/>
+                <annoSet ID="20881"/>
+                <annoSet ID="1603"/>
+                <annoSet ID="3483"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2536">
+            <text>- Une procédure arbitrale a été initiée en 2001 par Taïwan , qui réclame à la France le remboursement de 600 millions de dollars , le montant des commissions versées par Thomson-CSF .</text>
+            <annotationSet status="MANUAL" ID="3365">
+                <layer rank="1" name="FE">
+                    <label end="180" start="105" name="Money"/>
+                    <label end="180" start="52" name="Recipient"/>
+                    <label end="63" start="61" name="Recipient"/>
+                    <label end="83" start="75" name="Giver"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4435">
+            <text>Ce mécanisme ( le Monde du 25 décembre ) vise à limiter à 5 , 5 % en 1992 l' évolution des remboursements versés par la sécurité sociale aux établissements privés .</text>
+            <annotationSet status="MANUAL" ID="6243">
+                <layer rank="1" name="FE">
+                    <label end="161" start="141" name="Recipient"/>
+                    <label end="135" start="117" name="Giver"/>
+                    <label itype="ENI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5584">
+            <text>La Caisse nationale d' assurance - maladie vient d' ailleurs de mettre au point un dispositif retardant de quatre jours le délai de remboursement des assurés .</text>
+            <annotationSet status="MANUAL" ID="8156">
+                <layer rank="1" name="FE">
+                    <label end="156" start="150" name="Recipient"/>
+                    <label end="41" start="0" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6052">
+            <text>- Les trois caisses nationales d' assurance - maladie et trois syndicats des directeurs de laboratoires privés d' analyses médicales ( UBF , CNB , SNPB ) ont annoncé , jeudi 2 juillet , avoir signé un accord conventionnel fixant à 7 % l' objectif de croissance des remboursements de biologie , qui ont atteint 10 milliards de francs en 1991 .</text>
+            <annotationSet status="MANUAL" ID="8983">
+                <layer rank="1" name="FE">
+                    <label end="290" start="283" name="Cause_of_expense"/>
+                    <label end="131" start="91" name="Recipient"/>
+                    <label end="52" start="2" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="278" start="265" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6325">
+            <text>Environ cent mille métallurgistes ont déclenché une grève surprise , vendredi 3 juillet , pour protester contre le projet gouvernemental d' instaurer un jour de carence dans le remboursement des arrêts pour maladie .</text>
+            <annotationSet status="MANUAL" ID="9449">
+                <layer rank="1" name="FE">
+                    <label end="213" start="195" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Recipient"/>
+                    <label itype="ENI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="189" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8177">
+            <text>L' Etat prend 18 francs à sa charge , sous forme de remboursement à l' entreprise .</text>
+            <annotationSet status="MANUAL" ID="11773">
+                <layer rank="1" name="FE">
+                    <label end="22" start="14" name="Money"/>
+                    <label end="80" start="68" name="Recipient"/>
+                    <label end="6" start="0" name="Giver"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10024">
+            <text>La cause principale de leurs placements aventureux ( et parfois malhonnêtes ) est connue : l' état fédéral prenant en charge le remboursement des déposants en cas de besoin , les prétendus gestionnaires de l' épargne du public ont pris tous les risques pour l' emploi des actifs .</text>
+            <annotationSet status="MANUAL" ID="14085">
+                <layer rank="1" name="FE">
+                    <label end="154" start="146" name="Recipient"/>
+                    <label end="123" start="91" name="Giver"/>
+                    <label end="171" start="156" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12205">
+            <text>des - uns de ces dossiers iront peut - être en justice , à Luxembourg ou ailleurs , et il sera intéressant de suivre les raisonnements des juges , qui accepteront ou non les demandes de remboursement des dégâts causés par les routiers français .</text>
+            <annotationSet status="MANUAL" ID="16545">
+                <layer rank="1" name="FE">
+                    <label end="242" start="204" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12965">
+            <text>En dix ans , les socialistes n' ont pas su endiguer la baisse des remboursements de l' assurance - maladie et imposer une véritable discipline à la médecine libérale .</text>
+            <annotationSet status="MANUAL" ID="17308">
+                <layer rank="1" name="FE">
+                    <label end="105" start="84" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Cause_of_expense"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16357">
+            <text>Selon les militants du Syndicat Rhône - Alpes du travail , de l' emploi et de la formation ( SYRATEF - CFDT ) , rassemblant des adhérents du service public de l' emploi , l' ASSEDIC du Rhône vient de commencer à demander à certains chômeurs , à titre rétroactif , un remboursement du trop - perçu d' allocations versées du 1 août au 1 décembre .</text>
+            <annotationSet status="MANUAL" ID="20534">
+                <layer rank="1" name="FE">
+                    <label end="342" start="284" name="Money"/>
+                    <label end="189" start="171" name="Recipient"/>
+                    <label end="239" start="223" name="Giver"/>
+                    <label itype="UNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="279" start="267" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16360">
+            <text>La direction de l' ASSEDIC du Rhône ne précise pas le nombre des personnes concernées par ces demandes de remboursement et l' importance des sommes en jeu .</text>
+            <annotationSet status="MANUAL" ID="20537">
+                <layer rank="1" name="FE">
+                    <label end="153" start="141" name="Money"/>
+                    <label end="34" start="16" name="Recipient"/>
+                    <label end="104" start="65" name="Giver"/>
+                    <label itype="UNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16364">
+            <text>Dans son courrier , l' ASSEDIC du Rhône précise que l' allocataire peut demander un échelonnement des remboursements ou présenter un recours gracieux .</text>
+            <annotationSet status="MANUAL" ID="20542">
+                <layer rank="1" name="FE">
+                    <label end="38" start="20" name="Recipient"/>
+                    <label end="65" start="52" name="Giver"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="UNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16716">
+            <text>- Le gouvernement vient de prendre une décision très importante , qui est d' accorder aux collectivités locales la maîtrise d' ouvrage en matière universitaire , avec remboursement possible de la TVA .</text>
+            <annotationSet status="MANUAL" ID="20881">
+                <layer rank="1" name="FE">
+                    <label end="198" start="193" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="179" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1565">
+            <text>Nous avons souhaité obtenir des avantages économiques et nous avons souhaité , en adoptant une démarche progressive , ne pas accabler inutilement les consommateurs normaux avec des investissements qui ne peuvent être remboursés .</text>
+            <annotationSet status="MANUAL" ID="1603">
+                <layer rank="1" name="FE">
+                    <label end="199" start="197" name="Cause_of_expense"/>
+                    <label end="226" start="177" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="226" start="217" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2464">
+            <text>Taiwan engage une procédure pour se faire rembourser .</text>
+            <annotationSet status="MANUAL" ID="3246">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Recipient"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2599">
+            <text>L' argent pourrait alors servir au règlement du litige civil avec Taïwan qui exige que la France rembourse les commissions occultes que le contrat signé en 1991 interdisait formellement par son article 18 .</text>
+            <annotationSet status="MANUAL" ID="3460">
+                <layer rank="1" name="FE">
+                    <label end="203" start="107" name="Money"/>
+                    <label end="203" start="66" name="Recipient"/>
+                    <label end="75" start="73" name="Recipient"/>
+                    <label end="95" start="87" name="Giver"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2632">
+            <text>- L' armée française n' a pas besoin de ces frégates et le budget de la France ne peut rembourser 16 milliards de francs plus intérêts .</text>
+            <annotationSet status="MANUAL" ID="3483">
+                <layer rank="1" name="FE">
+                    <label end="133" start="98" name="Money"/>
+                    <label end="77" start="69" name="Giver"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15123">
+            <text>Si les gisements trouvés sont exploités , alors la firme d' Etat rembourse en pétrole l' opérateur à hauteur de sa quote - part .</text>
+            <annotationSet status="MANUAL" ID="19374">
+                <layer rank="1" name="FE">
+                    <label end="84" start="78" name="Non_financial_compensation"/>
+                    <label end="97" start="86" name="Recipient"/>
+                    <label end="63" start="48" name="Giver"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17021">
+            <text>Si le tribunal en décide , LVMH , le numéro un mondial du luxe , devra rembourser 5 milliards de francs d' OBSA ( obligations à bons de souscriptions d' actions ) à certains de ses actionnaires .</text>
+            <annotationSet status="MANUAL" ID="21139">
+                <layer rank="1" name="FE">
+                    <label end="161" start="82" name="Money"/>
+                    <label end="192" start="165" name="Recipient"/>
+                    <label end="61" start="27" name="Giver"/>
+                    <label itype="UNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17666">
+            <text>Cette annonce arrive à point nommé au moment où les autorités sanitaires de différents pays s' interrogent sur l' opportunité de recommander - et donc , dans un pays comme la France , de rembourser - la prise d' AZT à l' ensemble des personnes séropositives .</text>
+            <annotationSet status="MANUAL" ID="21708">
+                <layer rank="1" name="FE">
+                    <label end="214" start="200" name="Cause_of_expense"/>
+                    <label end="256" start="218" name="Recipient"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

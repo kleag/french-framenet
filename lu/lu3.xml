@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="alléguer.v" ID="3" frame="Adducing" frameID="1601" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="spe" name="Specified_entity"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="rol" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Role"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Role"/>
+                <annoSet ID="10286"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="10286"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Specified_entity"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Specified_entity"/>
+                <annoSet ID="10286"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6932">
+            <text>Henri Nallet , ministre de l' agriculture d' avril 1985 à mars 1986 , puis de mai 1988 à octobre 1990 , et son successeur , Louis Mermaz , ont eu beau alléguer que l' effondrement des cours " est compensé par les aides " , que le revenu est " au bout du compte préservé tout en contenant les dépenses " , la FNSEA continue à tempêter et dit ne pas en croire un mot .</text>
+            <annotationSet status="MANUAL" ID="10286">
+                <layer rank="1" name="FE">
+                    <label end="221" start="164" name="Specified_entity"/>
+                    <label end="301" start="227" name="Specified_entity"/>
+                    <label end="135" start="0" name="Speaker"/>
+                    <label itype="ENI" name="Role"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

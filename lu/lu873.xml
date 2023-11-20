@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="en désaccord.adv" ID="873" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="211"/>
+                <annoSet ID="3516"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="211"/>
+                <annoSet ID="3516"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="179">
+            <text>En mars dernier , son chef , Gérard Pizzetti , en désaccord avec le fonctionnement de l' association , démissionnait .</text>
+            <annotationSet status="MANUAL" ID="211">
+                <layer rank="1" name="FE">
+                    <label end="99" start="65" name="Content"/>
+                    <label end="43" start="18" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2688">
+            <text>M. Balkany est renvoyé par le juge d' instruction pour " complicité de trafic d' influence " , en désaccord avec le parquet , qui concluait à son innocence et au non- lieu .</text>
+            <annotationSet status="MANUAL" ID="3516">
+                <layer rank="1" name="FE">
+                    <label end="93" start="0" name="Content"/>
+                    <label end="170" start="113" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

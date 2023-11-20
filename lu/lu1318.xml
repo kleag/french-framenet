@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="proférer.v" ID="1318" frame="FR_Making_speech" frameID="10041" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="8070FF" type="Core" abbrev="" name="Speech"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="9794"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speech"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speech"/>
+                <annoSet ID="9794"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6560">
+            <text>On a oublié les anathèmes proférés contre l' argent et le grand capital pour mettre en oeuvre des vastes réformes .</text>
+            <annotationSet status="MANUAL" ID="9794">
+                <layer rank="1" name="FE">
+                    <label end="24" start="12" name="Speech"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

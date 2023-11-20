@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="explication.n" ID="1479" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Addressee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="4317"/>
+                <annoSet ID="21040"/>
+                <annoSet ID="23281"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="3931"/>
+                <annoSet ID="7299"/>
+                <annoSet ID="12157"/>
+                <annoSet ID="19543"/>
+                <annoSet ID="22931"/>
+                <annoSet ID="24245"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="7299"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Speaker"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3931"/>
+                <annoSet ID="4317"/>
+                <annoSet ID="19543"/>
+                <annoSet ID="21040"/>
+                <annoSet ID="22931"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="23281"/>
+                <annoSet ID="24245"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Topic"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="3931"/>
+                <annoSet ID="4317"/>
+                <annoSet ID="12157"/>
+                <annoSet ID="22931"/>
+                <annoSet ID="24245"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="7299"/>
+                <annoSet ID="19543"/>
+                <annoSet ID="21040"/>
+                <annoSet ID="23281"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3045">
+            <text>- ( fr ) " La guerre des images " ( avec une explication des modifications ) par Alain Korkos , La Boite à Images , 8 septembre 2006</text>
+            <annotationSet status="MANUAL" ID="3931">
+                <layer rank="1" name="FE">
+                    <label end="73" start="61" name="Topic"/>
+                    <label end="92" start="81" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3278">
+            <text>Ils écoutent les explications du PDG , sur l' intransigeance du CSA qui ne laissait d' autre issue que le dépôt de bilan , sur la procédure qui va être suivie , sur la prochaine nomination d' un administrateur judiciaire .</text>
+            <annotationSet status="MANUAL" ID="4317">
+                <layer rank="1" name="FE">
+                    <label end="121" start="43" name="Topic"/>
+                    <label end="159" start="127" name="Topic"/>
+                    <label end="219" start="165" name="Topic"/>
+                    <label end="2" start="0" name="Addressee"/>
+                    <label end="35" start="33" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5065">
+            <text>La simple absorption des feuilles d' explication m' a pris un bon moment , et j' ai eu un mal de chien à comprendre .</text>
+            <annotationSet status="MANUAL" ID="7299">
+                <layer rank="1" name="FE">
+                    <label end="35" start="25" name="Medium"/>
+                    <label itype="ENI" name="Topic"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8537">
+            <text>- que les idées des uns et des autres soient prises en compte , quitte , après explication , à être abandonnées ;</text>
+            <annotationSet status="MANUAL" ID="12157">
+                <layer rank="1" name="FE">
+                    <label end="36" start="6" name="Topic"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15279">
+            <text>Dans ses explications , le premier ministre a clairement indiqué " qu' il avait choisi une politique et qu' il n' en changerait point " , répondant ainsi par avance " à ceux qui attendraient autre chose " , sur la politique monétaire " ou que sais -je encore " .</text>
+            <annotationSet status="MANUAL" ID="19543">
+                <layer rank="1" name="FE">
+                    <label end="42" start="24" name="Speaker"/>
+                    <label end="7" start="5" name="Speaker"/>
+                    <label itype="DNI" name="Topic"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16923">
+            <text>Mais le maire de la commune demande des " explications " au ministre de l' environnement , et le député de la circonscription trouve la situation " inadmissible " .</text>
+            <annotationSet status="MANUAL" ID="21040">
+                <layer rank="1" name="FE">
+                    <label end="26" start="5" name="Addressee"/>
+                    <label end="87" start="60" name="Speaker"/>
+                    <label itype="DNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18865">
+            <text>Moscou ne fournit jamais d' explication sur cette décision brutale .</text>
+            <annotationSet status="MANUAL" ID="22931">
+                <layer rank="1" name="FE">
+                    <label end="65" start="44" name="Topic"/>
+                    <label end="5" start="0" name="Speaker"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19325">
+            <text>Plusieurs prêtres catholiques de Belfast - Ouest ont fait part de leur émotion et le gouvernement de la République d' Irlande a demandé des explications .</text>
+            <annotationSet status="MANUAL" ID="23281">
+                <layer rank="1" name="FE">
+                    <label end="124" start="82" name="Addressee"/>
+                    <label itype="DNI" name="Topic"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20543">
+            <text>Fâcheuse coïncidence ; plus encore , occasion toute trouvée pour remettre en avant les explications inlassablement répétées pour identifier l' origine d' un déséquilibre en passe de devenir le plus brûlant des brandons de discorde entre les deux pays .</text>
+            <annotationSet status="MANUAL" ID="24245">
+                <layer rank="1" name="FE">
+                    <label end="249" start="140" name="Topic"/>
+                    <label itype="UNI" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

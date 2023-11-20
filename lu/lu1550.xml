@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="crier.v" ID="1550" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Message"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="3871"/>
+                <annoSet ID="16532"/>
+                <annoSet ID="22121"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Message"/>
+                <annoSet ID="23319"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3871"/>
+                <annoSet ID="16532"/>
+                <annoSet ID="23319"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="22121"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2970">
+            <text>La droite crie au scandale et affirme que c' est Chirac que l' on cherche à atteindre au travers de son ministre de l' Intérieur de l' époque .</text>
+            <annotationSet status="MANUAL" ID="3871">
+                <layer rank="1" name="FE">
+                    <label end="25" start="18" name="Message"/>
+                    <label end="8" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12200">
+            <text>Que les axes routiers de France se bouchent , et les ouvriers belges des usines Renault sont menacés de chômage technique en raison de la pénurie de pièces ; les marchands des quatre saisons de Genève ne reçoivent plus les tomates et les pêches exigées par les chalands suisses ; les arboriculteurs de Castille crient leur désespoir de ne pouvoir exporter dans l' Europe entière leurs oranges et leurs primeurs .</text>
+            <annotationSet status="MANUAL" ID="16532">
+                <layer rank="1" name="FE">
+                    <label end="409" start="318" name="Message"/>
+                    <label end="309" start="280" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="316" start="311" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18069">
+            <text>Il ne suffit point de crier " liberté " , il faut se résoudre à en assumer le prix .</text>
+            <annotationSet status="MANUAL" ID="22121">
+                <layer rank="1" name="FE">
+                    <label end="38" start="28" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19368">
+            <text>Il avait encore la voix cassée d' avoir tant crié , lorsqu' il est apparu , tard samedi soir à la télévision , pour l' équivalent roumain de ce qu' on appellerait en France une " causerie au coin du feu " , en compagnie du président et du vice- président du CFSN , MM Ion Iliescu et Dumitru Mazilu .</text>
+            <annotationSet status="MANUAL" ID="23319">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Speaker"/>
+                    <label itype="ENI" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

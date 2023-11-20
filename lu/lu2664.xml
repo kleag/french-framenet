@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="C" name="car.c" ID="2664" frame="FR_Cause_enunciation" frameID="10074" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Eneff" name="Enunciative_effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Cause"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="327"/>
+                <annoSet ID="4754"/>
+                <annoSet ID="8457"/>
+                <annoSet ID="8524"/>
+                <annoSet ID="11524"/>
+                <annoSet ID="13620"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Enunciative_effect"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Enunciative_effect"/>
+                <annoSet ID="327"/>
+                <annoSet ID="8524"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Enunciative_effect"/>
+                <annoSet ID="4754"/>
+                <annoSet ID="8457"/>
+                <annoSet ID="11524"/>
+                <annoSet ID="13620"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="266">
+            <text>" Nous avions bon espoir d' obtenir d' elle un prêt-relais pour acheter les matières premières nécessaires au redémarrage de l' activité , car dans l' usine , les machines sont arrêtées depuis le 14 janvier dernier " explique le directeur d' EFI Michel Balandier .</text>
+            <annotationSet status="MANUAL" ID="327">
+                <layer rank="1" name="FE">
+                    <label end="135" start="110" name="Enunciative_effect"/>
+                    <label end="213" start="143" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3551">
+            <text>Car si la réglementation communautaire de 1985 ( règlement 123 - 85 ) autorisait les différents constructeurs à établir des réseaux de " distribution exclusive et sélective " dans les différents pays de la Communauté - concessions , agences , succursales , - elle autorisait aussi d' autres types d' activités en matière de distribution de voitures .</text>
+            <annotationSet status="MANUAL" ID="4754">
+                <layer rank="1" name="FE">
+                    <label end="347" start="4" name="Cause"/>
+                    <label itype="DNI" name="Enunciative_effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5749">
+            <text>Car les comptes de M. Waigel sont trompeurs à ce sujet , puisqu' il omet les différentes institutions publiques que l' Etat devra consolider , comme l' Office des privatisations ( Treuhandanstalt ) et la Poste ou même le Fonds pour l' unité allemande .</text>
+            <annotationSet status="MANUAL" ID="8457">
+                <layer rank="1" name="FE">
+                    <label end="249" start="4" name="Cause"/>
+                    <label itype="DNI" name="Enunciative_effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5798">
+            <text>Ou , plutôt , autorisait , car , sans que la discussion soit tranchée au fond , il semble bien qu' une évolution se fasse jour , insensiblement , à l' instar d' autres dossiers , tout aussi symboliques .</text>
+            <annotationSet status="MANUAL" ID="8524">
+                <layer rank="1" name="FE">
+                    <label end="23" start="14" name="Enunciative_effect"/>
+                    <label end="200" start="31" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7994">
+            <text>Car , comme pour les autres activités du gigantesque parc d' attractions de Marne - la - Vallée , les responsables d' Euro Disney ont dû trouver une réponse rapide pour la formation du personnel hôtelier .</text>
+            <annotationSet status="MANUAL" ID="11524">
+                <layer rank="1" name="FE">
+                    <label end="202" start="4" name="Cause"/>
+                    <label itype="DNI" name="Enunciative_effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9646">
+            <text>Car il paraît que ça fait des ravages chez les gamins .</text>
+            <annotationSet status="MANUAL" ID="13620">
+                <layer rank="1" name="FE">
+                    <label end="52" start="4" name="Cause"/>
+                    <label itype="DNI" name="Enunciative_effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="2" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

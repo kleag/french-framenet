@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="unanime.a" ID="100" frame="Be_in_agreement_on_assessment" frameID="1496" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cognizer_2"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cognizers"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizers"/>
+                <annoSet ID="22480"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizers"/>
+                <annoSet ID="13477"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Opinion"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Opinion"/>
+                <annoSet ID="13477"/>
+                <annoSet ID="22480"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="9534">
+            <text>Dans les allées ou aux sorties de l' usine , les commentaires sont presque unanimes : " Nous avons retrouvé la fierté de nos parents et de nos grands - parents .</text>
+            <annotationSet status="MANUAL" ID="13477">
+                <layer rank="1" name="FE">
+                    <label end="60" start="45" name="Opinion"/>
+                    <label itype="ENI" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18354">
+            <text>Ses succès d' estrade et l' estime unanime dont il jouissait parmi les fidèles du général ne lui évitèrent pas la déconfiture .</text>
+            <annotationSet status="MANUAL" ID="22480">
+                <layer rank="1" name="FE">
+                    <label end="88" start="67" name="Cognizers"/>
+                    <label end="33" start="25" name="Opinion"/>
+                    <label end="88" start="43" name="Opinion"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

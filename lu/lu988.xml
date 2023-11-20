@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="contrainte.n" ID="988" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Dependent"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="21431"/>
+                <annoSet ID="23871"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Influencer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="21431"/>
+                <annoSet ID="23871"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="17367">
+            <text>L' auteur met au jour l' ensemble des contraintes qui pèsent sur une entreprise de presse , insérée dans un contexte économique , juridique , socioculturel à chaque fois particulier .</text>
+            <annotationSet status="MANUAL" ID="21431">
+                <layer rank="1" name="FE">
+                    <label end="180" start="65" name="Dependent"/>
+                    <label end="36" start="22" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20141">
+            <text>La relative stabilité des prix du diamant brut tient aussi à la force de persuasion - et sans doute de contrainte - dont a fait preuve la De Beers envers les principaux producteurs de gemmes .</text>
+            <annotationSet status="MANUAL" ID="23871">
+                <layer rank="1" name="FE">
+                    <label end="189" start="154" name="Dependent"/>
+                    <label end="145" start="135" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

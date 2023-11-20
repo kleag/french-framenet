@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="sceptique.a" ID="841" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2712"/>
+                <annoSet ID="4468"/>
+                <annoSet ID="4590"/>
+                <annoSet ID="11631"/>
+                <annoSet ID="11976"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Content"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="2712"/>
+                <annoSet ID="4468"/>
+                <annoSet ID="4590"/>
+                <annoSet ID="11631"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Content"/>
+                <annoSet ID="11976"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2065">
+            <text>Je suis souvent sceptique vis - à - vis des exigences très sévères , par exemple en matière d' environnement , qui sont imposées aux pays candidats .</text>
+            <annotationSet status="MANUAL" ID="2712">
+                <layer rank="1" name="FE">
+                    <label end="146" start="44" name="Content"/>
+                    <label end="1" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3367">
+            <text>L' ambition affichée par M. Eltsine de parvenir dès le premier mois de 1992 à la convertibilité interne du rouble - la possibilité de l' échanger librement , à un cours suffisamment stable , contre des monnaies étrangères à l' intérieur du pays - laisse en revanche sceptiques la plupart des spécialistes .</text>
+            <annotationSet status="MANUAL" ID="4468">
+                <layer rank="1" name="FE">
+                    <label end="245" start="0" name="Content"/>
+                    <label end="303" start="277" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="275" start="266" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3450">
+            <text>Jusqu' alors sceptique , Wall Street s' est mise à y croire .</text>
+            <annotationSet status="MANUAL" ID="4590">
+                <layer rank="1" name="FE">
+                    <label end="51" start="51" name="Content"/>
+                    <label end="35" start="25" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8082">
+            <text>Les formations universitaires , en revanche , laissent le SNAV pour le moins sceptique bien qu' il ne commente pas le contenu des programmes .</text>
+            <annotationSet status="MANUAL" ID="11631">
+                <layer rank="1" name="FE">
+                    <label end="28" start="0" name="Content"/>
+                    <label end="61" start="55" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8349">
+            <text>La CGT se montre plus sceptique et évoque un climat " très tendu " .</text>
+            <annotationSet status="MANUAL" ID="11976">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Cognizer"/>
+                    <label itype="DNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

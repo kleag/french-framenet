@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="argumenter.v" ID="740" frame="FR_Attempt_suasion.veracity" frameID="10003" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="SoA" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Persuader" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Support" name="Support"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Addressee"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="1660"/>
+                <annoSet ID="2483"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Persuader"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="1660"/>
+                <annoSet ID="2483"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="State_of_affairs"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="State_of_affairs"/>
+                <annoSet ID="1660"/>
+                <annoSet ID="2483"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Support"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="1660"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Support"/>
+                <annoSet ID="2483"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1707">
+            <text>Je pense que nous devrions accorder de_l' importance aux arguments des deux parties : tant ceux émis par les organisations environnementales que ceux émis par le secteur industriel , car l' industrie n' a pas uniquement argumenté en termes économiques , mais également en termes écologiques .</text>
+            <annotationSet status="MANUAL" ID="1660">
+                <layer rank="1" name="FE">
+                    <label end="198" start="187" name="Persuader"/>
+                    <label end="289" start="230" name="Support"/>
+                    <label itype="UNI" name="Addressee"/>
+                    <label itype="UNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="228" start="220" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2098">
+            <text>Premièrement : pour ce qui est de la base légale , notre collègue Lechner a déjà suffisamment argumenté .</text>
+            <annotationSet status="MANUAL" ID="2483">
+                <layer rank="1" name="FE">
+                    <label end="72" start="51" name="Persuader"/>
+                    <label itype="UNI" name="Support"/>
+                    <label itype="UNI" name="Addressee"/>
+                    <label itype="ENI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

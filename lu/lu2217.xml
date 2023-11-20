@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="dans quel but.adv" ID="2217" frame="FR_Means_for_purpose" frameID="10049" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Goal"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Means"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="16560"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="12213">
+            <text>La spéculation , tant mise en cause lors des crises monétaires , prend tellement de formes qu' il est bien difficile de savoir d' où viennent les coups , par qui ils sont portés et dans quel but .</text>
+            <annotationSet status="MANUAL" ID="16560">
+                <layer rank="1" name="FE">
+                    <label end="150" start="142" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="appeler.v" ID="755" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="27" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="27">
+            <FE name="Action"/>
+            <pattern total="27">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="2058"/>
+                <annoSet ID="2066"/>
+                <annoSet ID="2762"/>
+                <annoSet ID="4959"/>
+                <annoSet ID="4975"/>
+                <annoSet ID="5130"/>
+                <annoSet ID="6952"/>
+                <annoSet ID="12139"/>
+                <annoSet ID="12166"/>
+                <annoSet ID="12786"/>
+                <annoSet ID="14208"/>
+                <annoSet ID="14653"/>
+                <annoSet ID="16256"/>
+                <annoSet ID="17703"/>
+                <annoSet ID="18707"/>
+                <annoSet ID="18864"/>
+                <annoSet ID="18874"/>
+                <annoSet ID="20552"/>
+                <annoSet ID="20778"/>
+                <annoSet ID="20993"/>
+                <annoSet ID="21383"/>
+                <annoSet ID="21387"/>
+                <annoSet ID="21533"/>
+                <annoSet ID="22459"/>
+                <annoSet ID="22759"/>
+                <annoSet ID="23945"/>
+                <annoSet ID="24618"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="27">
+            <FE name="Cognizer"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2762"/>
+                <annoSet ID="4959"/>
+                <annoSet ID="4975"/>
+                <annoSet ID="12139"/>
+                <annoSet ID="12166"/>
+                <annoSet ID="12786"/>
+                <annoSet ID="14653"/>
+                <annoSet ID="17703"/>
+                <annoSet ID="18864"/>
+                <annoSet ID="18874"/>
+                <annoSet ID="20552"/>
+                <annoSet ID="20778"/>
+                <annoSet ID="21387"/>
+                <annoSet ID="21533"/>
+                <annoSet ID="23945"/>
+                <annoSet ID="24618"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="2058"/>
+                <annoSet ID="2066"/>
+                <annoSet ID="5130"/>
+                <annoSet ID="6952"/>
+                <annoSet ID="14208"/>
+                <annoSet ID="16256"/>
+                <annoSet ID="18707"/>
+                <annoSet ID="20993"/>
+                <annoSet ID="21383"/>
+                <annoSet ID="22459"/>
+                <annoSet ID="22759"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Medium"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="2058"/>
+                <annoSet ID="2066"/>
+                <annoSet ID="21387"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="26">
+            <FE name="Persuader"/>
+            <pattern total="21">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="2058"/>
+                <annoSet ID="2066"/>
+                <annoSet ID="4959"/>
+                <annoSet ID="4975"/>
+                <annoSet ID="5130"/>
+                <annoSet ID="6952"/>
+                <annoSet ID="12166"/>
+                <annoSet ID="12786"/>
+                <annoSet ID="14208"/>
+                <annoSet ID="16256"/>
+                <annoSet ID="17703"/>
+                <annoSet ID="18707"/>
+                <annoSet ID="18864"/>
+                <annoSet ID="18874"/>
+                <annoSet ID="20552"/>
+                <annoSet ID="20778"/>
+                <annoSet ID="20993"/>
+                <annoSet ID="21383"/>
+                <annoSet ID="22459"/>
+                <annoSet ID="22759"/>
+                <annoSet ID="23945"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="2762"/>
+                <annoSet ID="12139"/>
+                <annoSet ID="14653"/>
+                <annoSet ID="21533"/>
+                <annoSet ID="24618"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1783">
+            <text>Pour la première fois depuis dix ans , une délégation américaine de conseillers et de parlementaires a publié hier 14 mars , au retour d' un voyage effectué en Irak , un rapport dans lequel elle appelle , pour des raisons humanitaires , à la levée de l' embargo .</text>
+            <annotationSet status="MANUAL" ID="2058">
+                <layer rank="1" name="FE">
+                    <label end="260" start="239" name="Action"/>
+                    <label end="193" start="190" name="Persuader"/>
+                    <label end="99" start="39" name="Persuader"/>
+                    <label end="188" start="183" name="Medium"/>
+                    <label end="260" start="167" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="201" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1786">
+            <text>Notre résolution appelle donc à mettre fin à cette situation .</text>
+            <annotationSet status="MANUAL" ID="2066">
+                <layer rank="1" name="FE">
+                    <label end="59" start="32" name="Action"/>
+                    <label end="4" start="0" name="Persuader"/>
+                    <label end="15" start="0" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2086">
+            <text>Selon l' article 46 ( 2 ) de la loi fondamentale de la république fédérale , les députés du Bundestag ne peuvent pas être appelés à témoigner ou être arrêtés pour une infraction , sauf si le Bundestag en donne la permission , à moins qu' ils ne soient arrêtés en flagrant délit ou le jour suivant le délit .</text>
+            <annotationSet status="MANUAL" ID="2762">
+                <layer rank="1" name="FE">
+                    <label end="140" start="132" name="Action"/>
+                    <label end="100" start="77" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="128" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3646">
+            <text>- Les chefs de train et le personnel d' accompagnement des chemins de fer italiens ( FS ) sont appelés par le syndicat autonome COBAS à cesser le travail , mercredi 8 janvier , de 9 heures à 18 heures .</text>
+            <annotationSet status="MANUAL" ID="4959">
+                <layer rank="1" name="FE">
+                    <label end="199" start="136" name="Action"/>
+                    <label end="88" start="2" name="Cognizer"/>
+                    <label end="132" start="107" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3656">
+            <text>La fédération CGT des ports et docks , unique et puissant syndicat de la profession , appelle les dockers à des arrêts de travail de quarante - huit heures chaque semaine .</text>
+            <annotationSet status="MANUAL" ID="4975">
+                <layer rank="1" name="FE">
+                    <label end="169" start="108" name="Action"/>
+                    <label end="104" start="94" name="Cognizer"/>
+                    <label end="82" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3757">
+            <text>Plusieurs syndicats de salariés ont appelé à la sauvegarde de l' emploi , notamment le SNJ , la CGC et le SNTPCT ( techniciens de la production ) .</text>
+            <annotationSet status="MANUAL" ID="5130">
+                <layer rank="1" name="FE">
+                    <label end="70" start="45" name="Action"/>
+                    <label end="30" start="0" name="Persuader"/>
+                    <label end="144" start="72" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4867">
+            <text>Le syndicat OPZZ , anciennement communiste , a appelé à un mouvement de grève jeudi 16 janvier .</text>
+            <annotationSet status="MANUAL" ID="6952">
+                <layer rank="1" name="FE">
+                    <label end="93" start="56" name="Action"/>
+                    <label end="41" start="0" name="Persuader"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8516">
+            <text>Il faut donc aller plus loin : - mettre en place une culture d' apprentissage de l' initiative ; - appeler les salariés à des tâches qu' ils jugent dans un premier temps hors de leur portée .</text>
+            <annotationSet status="MANUAL" ID="12139">
+                <layer rank="1" name="FE">
+                    <label end="188" start="122" name="Action"/>
+                    <label end="118" start="107" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8543">
+            <text>Appeler les salariés à des tâches qu' ils jugent dans un premier temps hors de leur portée UN souci permanent des responsables devant une tâche nouvelle à accomplir doit devenir non pas " c' est intéressant et je suis le mieux placé pour l' entreprendre " ou " Je vais la confier à untel parce qu' il sait bien faire " ( alors qu' il est déjà complètement surchargé ) mais " Qui cela peut -il faire progresser en prenant cette tâche en charge quitte à l' accompagner par moi - même ou par untel avec une évaluation a posteriori ensemble " .</text>
+            <annotationSet status="MANUAL" ID="12166">
+                <layer rank="1" name="FE">
+                    <label end="89" start="23" name="Action"/>
+                    <label end="19" start="8" name="Cognizer"/>
+                    <label end="125" start="114" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="6" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8934">
+            <text>Les deux principales organisations patronales de chauffeurs routiers appelaient , mercredi 8 juillet , à la reprise du travail et à la levée des barrages .</text>
+            <annotationSet status="MANUAL" ID="12786">
+                <layer rank="1" name="FE">
+                    <label end="128" start="105" name="Action"/>
+                    <label end="152" start="132" name="Action"/>
+                    <label end="67" start="49" name="Cognizer"/>
+                    <label end="67" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10115">
+            <text>Ces syndicats ont appelé à une grève de 3 heures 40 minutes pour protester contre le plan social de la compagnie .</text>
+            <annotationSet status="MANUAL" ID="14208">
+                <layer rank="1" name="FE">
+                    <label end="58" start="27" name="Action"/>
+                    <label end="12" start="0" name="Persuader"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10449">
+            <text>L' ex- premier ministre Takeshita sera en outre appelé à comparaître à nouveau , cette fois devant la commission budgétaire du Sénat .</text>
+            <annotationSet status="MANUAL" ID="14653">
+                <layer rank="1" name="FE">
+                    <label end="131" start="57" name="Action"/>
+                    <label end="32" start="0" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11921">
+            <text>M. Lagardère préfère d' ailleurs oublier le mini- raid d' Havas et appelle à une " normalisation " des relations , pour faire face à des concurrents étrangers tels que Bertelsmann .</text>
+            <annotationSet status="MANUAL" ID="16256">
+                <layer rank="1" name="FE">
+                    <label end="111" start="77" name="Action"/>
+                    <label end="11" start="0" name="Persuader"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13336">
+            <text>MANIFESTE des ENTREPRISES CONTRE L' EXCLUSION : trente patrons appellent le monde économique à lutter contre le chômage ( le Monde daté 27 - 28 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="17703">
+                <layer rank="1" name="FE">
+                    <label end="118" start="95" name="Action"/>
+                    <label end="91" start="73" name="Cognizer"/>
+                    <label end="61" start="48" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14404">
+            <text>Le ministère de la santé n' est pas en reste qui , constatant un excédent de lits inoccupés dans certains hôpitaux , appelle à davantage de " rationalisation " , c' est - à - dire , derrière cette appellation pudique , à des fermetures d' établissements .</text>
+            <annotationSet status="MANUAL" ID="18707">
+                <layer rank="1" name="FE">
+                    <label end="252" start="127" name="Action"/>
+                    <label end="23" start="0" name="Persuader"/>
+                    <label end="47" start="45" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14555">
+            <text>- Les syndicats CFDT , CFE - CGC , CGT , FO et SNA ( Autonome ) de la Banque de France appellent le personnel de la Banque de France à cesser le travail mardi 8 juin , afin de protester contre le projet de réforme du statut préparé par le gouvernement .</text>
+            <annotationSet status="MANUAL" ID="18864">
+                <layer rank="1" name="FE">
+                    <label end="250" start="135" name="Action"/>
+                    <label end="131" start="97" name="Cognizer"/>
+                    <label end="85" start="2" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14566">
+            <text>- Le principal syndicat de la compagnie aérienne British Airways a appelé ses adhérents à une grève de vingt - quatre heures le vendredi 4 juin , mais des négociations entre la direction de la compagnie et le syndicat Transport and General Workers Union , qui se dit fort de dix - sept mille adhérents au sein de la compagnie , se poursuivent .</text>
+            <annotationSet status="MANUAL" ID="18874">
+                <layer rank="1" name="FE">
+                    <label end="142" start="90" name="Action"/>
+                    <label end="86" start="74" name="Cognizer"/>
+                    <label end="63" start="2" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16370">
+            <text>Il appelle le monde économique à prendre ses responsabilités et à lutter contre le chômage .</text>
+            <annotationSet status="MANUAL" ID="20552">
+                <layer rank="1" name="FE">
+                    <label end="62" start="33" name="Action"/>
+                    <label end="89" start="66" name="Action"/>
+                    <label end="29" start="11" name="Cognizer"/>
+                    <label end="1" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16575">
+            <text>Du coup , la tentative du parti de remobiliser ses troupes en appelant à un front de lutte uni contre la montée de l' extrême droite s' est retournée contre lui .</text>
+            <annotationSet status="MANUAL" ID="20778">
+                <layer rank="1" name="FE">
+                    <label end="131" start="73" name="Action"/>
+                    <label end="57" start="47" name="Cognizer"/>
+                    <label end="30" start="26" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16888">
+            <text>Plusieurs associations pour la protection des animaux ont appelé mercredi 17 janvier au boycottage des produits de L' Oréal .</text>
+            <annotationSet status="MANUAL" ID="20993">
+                <layer rank="1" name="FE">
+                    <label end="122" start="88" name="Action"/>
+                    <label end="52" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17308">
+            <text>Divisé en courants totalement antagonistes , le front populaire d' Azerbaidjan a fini par envoyer ses dirigeants à la radio et à la télévision pour appeler au calme .</text>
+            <annotationSet status="MANUAL" ID="21383">
+                <layer rank="1" name="FE">
+                    <label end="163" start="159" name="Action"/>
+                    <label end="77" start="45" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="154" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17311">
+            <text>Tandis que des meetings appellent à l' armement de la population en vue d' une expédition sur le Haut - Karabakh , " trois cents camions au moins " ont déjà conduit des combattants tant aux frontières de la région autonome qu' à celles de l' Arménie .</text>
+            <annotationSet status="MANUAL" ID="21387">
+                <layer rank="1" name="FE">
+                    <label end="63" start="36" name="Action"/>
+                    <label end="63" start="51" name="Cognizer"/>
+                    <label end="22" start="11" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17486">
+            <text>À compter de la fin de cette semaine , quelque 80 000 gendarmes d' active en France vont être appelés à choisir , selon des procédures originales , les membres des structures de participation nouvellement créées pour donner un avis sur les conditions de vie et de travail dans cette arme dont la gestion relève du ministère de la défense .</text>
+            <annotationSet status="MANUAL" ID="21533">
+                <layer rank="1" name="FE">
+                    <label end="336" start="104" name="Action"/>
+                    <label end="82" start="39" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18335">
+            <text>Appelant à ne pas céder et à ne pas se prêter à " ce genre de manipulation à répétition " , Mr Fiterman conclut : " Je pense que rien ne doit nous conduire à renoncer à l' effort nécéssaire pour mettre le parti pleinement en mesure d' assurer son rôle et son avenir , et qu' assimiler toute démarche en ce sens même si elle comporte des aspects critiques - à du dénigrement , voire à un ralliement aux positions du grand capital , serait retomber dans les comportements dont le mouvement communiste ne connaît que trop les graves conséquences .</text>
+            <annotationSet status="MANUAL" ID="22459">
+                <layer rank="1" name="FE">
+                    <label end="25" start="11" name="Action"/>
+                    <label end="88" start="29" name="Action"/>
+                    <label end="102" start="92" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18650">
+            <text>Tass affirme aussi que les dirigeants du front populaire local ont appelé à expulser tous les Arméniens vivant encore à Bakou , la capitale azerbaidjanaise , et à lancer une " marche sur le Haut - Karabakh " .</text>
+            <annotationSet status="MANUAL" ID="22759">
+                <layer rank="1" name="FE">
+                    <label end="159" start="76" name="Action"/>
+                    <label end="206" start="163" name="Action"/>
+                    <label end="61" start="23" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20212">
+            <text>La fédération nationale des ports et docks CGT a appelé , vendredi 10 janvier , les dockers à une nouvelle grève de quarante - huit heures pour le lundi 13 et le mardi 14 janvier .</text>
+            <annotationSet status="MANUAL" ID="23945">
+                <layer rank="1" name="FE">
+                    <label end="177" start="94" name="Action"/>
+                    <label end="90" start="80" name="Cognizer"/>
+                    <label end="45" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21145">
+            <text>Et pourtant , les Nigérians sont intimement persuadés qu' ils ne seront finalement pas appelés à se rendre aux urnes .</text>
+            <annotationSet status="MANUAL" ID="24618">
+                <layer rank="1" name="FE">
+                    <label end="115" start="97" name="Action"/>
+                    <label end="60" start="58" name="Cognizer"/>
+                    <label end="26" start="14" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

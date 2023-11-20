@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="consentir.v" ID="733" frame="FR_Agree_or_refuse_to_act" frameID="10002" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposed_action"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="5291"/>
+                <annoSet ID="12891"/>
+                <annoSet ID="13610"/>
+                <annoSet ID="18074"/>
+                <annoSet ID="19870"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="21102"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Proposed_action"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Proposed_action"/>
+                <annoSet ID="5291"/>
+                <annoSet ID="12891"/>
+                <annoSet ID="13610"/>
+                <annoSet ID="18074"/>
+                <annoSet ID="19870"/>
+                <annoSet ID="21102"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3835">
+            <text>Mais les dockers n' entendent pas consentir d' autres " sacrifices " .</text>
+            <annotationSet status="MANUAL" ID="5291">
+                <layer rank="1" name="FE">
+                    <label end="67" start="44" name="Proposed_action"/>
+                    <label end="15" start="5" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9003">
+            <text>On ne connaissait pas mercredi matin les détails de l' accord à l' amiable , qui devrait rester théoriquement confidentiel , ni l' ampleur du sacrifice - sans doute important - consenti par les banques créancières des cinq marchands de biens en question : MM. Christian Schwartz , Yves Rohou , Eric Robelin , Patrick Isoré et Guy Bousquet .</text>
+            <annotationSet status="MANUAL" ID="12891">
+                <layer rank="1" name="FE">
+                    <label end="175" start="142" name="Proposed_action"/>
+                    <label end="337" start="190" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9631">
+            <text>Si les programmes d' économies sont respectés , la population devra consentir d' importants sacrifices en matière salariale et sociale ( le rapport de l' OCDE contient une étude spéciale du système de santé italien ) .</text>
+            <annotationSet status="MANUAL" ID="13610">
+                <layer rank="1" name="FE">
+                    <label end="133" start="78" name="Proposed_action"/>
+                    <label end="60" start="48" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13759">
+            <text>Au début du mois de novembre , les actionnaires ont consenti de gros sacrifices pour sauver Lucia , société de négoce international en Indochine reconvertie dans l' immobilier , dont C. Pellerin avait pris le contrôle en 1983 .</text>
+            <annotationSet status="MANUAL" ID="18074">
+                <layer rank="1" name="FE">
+                    <label end="78" start="61" name="Proposed_action"/>
+                    <label end="46" start="31" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15681">
+            <text>Elles consentent ainsi à accorder la primauté à la carrière de leur mari .</text>
+            <annotationSet status="MANUAL" ID="19870">
+                <layer rank="1" name="FE">
+                    <label end="71" start="25" name="Proposed_action"/>
+                    <label end="4" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16980">
+            <text>Un effort doit être consenti pour que ces normes prennent en compte les préoccupations des partenaires socio - économiques et reflètent la technologie et le savoir - faire des entreprises françaises .</text>
+            <annotationSet status="MANUAL" ID="21102">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Proposed_action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

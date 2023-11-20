@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="disposé.a" ID="2583" frame="Willingness" frameID="1632" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="act" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Activity"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Activity"/>
+                <annoSet ID="5682"/>
+                <annoSet ID="14334"/>
+                <annoSet ID="19482"/>
+                <annoSet ID="22359"/>
+                <annoSet ID="24648"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Activity"/>
+                <annoSet ID="23857"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Cognizer"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="5682"/>
+                <annoSet ID="9233"/>
+                <annoSet ID="14334"/>
+                <annoSet ID="19482"/>
+                <annoSet ID="22359"/>
+                <annoSet ID="23857"/>
+                <annoSet ID="24648"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4085">
+            <text>Pour sa part , M. Charles Pasqua , invité du " Grand Jury RTL - le Monde " du 5 janvier , a noté que " le Sénat est tout à fait disposé à examiner une réforme de fond de l' audiovisuel , mais le gouvernement ne nous propose que des replâtrages qui ne permettent pas de résoudre les problèmes " .</text>
+            <annotationSet status="MANUAL" ID="5682">
+                <layer rank="1" name="FE">
+                    <label end="110" start="103" name="Cognizer"/>
+                    <label end="183" start="138" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6203">
+            <text>La CFDT et la CFE - CGC paraissent les mieux disposées , FO comme la CFTC sont plus réticentes et la CGT reste résolument hostile .</text>
+            <annotationSet status="MANUAL" ID="9233">
+                <layer rank="1" name="FE">
+                    <label end="22" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10201">
+            <text>" s' agissant des vingt - neuf ex- salariés du comité d' établissement ( qui , privés de salaire depuis un mois , se sont retournés vers les prud' hommes ) , elle souhaite qu' une solution soit trouvée mais n' est pas disposée à les reprendre en totalité .</text>
+            <annotationSet status="MANUAL" ID="14334">
+                <layer rank="1" name="FE">
+                    <label end="161" start="158" name="Cognizer"/>
+                    <label end="253" start="229" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="225" start="218" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15228">
+            <text>" Nous avons vraiment décidé de nous attaquer tous ensemble aux problèmes du pays et de relancer la confiance " , a affirmé M. Perigot , disposé à " différer les licenciements " , ceux - ci ne devant intervenir qu' " en tout dernier recours " .</text>
+            <annotationSet status="MANUAL" ID="19482">
+                <layer rank="1" name="FE">
+                    <label end="135" start="124" name="Cognizer"/>
+                    <label end="241" start="147" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18282">
+            <text>Mme Lienemann et ses amis envisageaient , parallèlement , une entente avec Mr Poperen , le ministre des relations avec le Parlement étant disposé à étudier diverses propositions après avoir échoué dans sa tentative de rapprochement avec Mr Jean - Pierre Chevènement et le courant Socialisme et République .</text>
+            <annotationSet status="MANUAL" ID="22359">
+                <layer rank="1" name="FE">
+                    <label end="130" start="88" name="Cognizer"/>
+                    <label end="176" start="148" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20121">
+            <text>Sur le marché obligataire , très bien disposé , comme le montrent les performances du MATIF , les émissions se placent très facilement , après le très vif succès de l' adjudication mensuelle du Trésor la semaine dernière .</text>
+            <annotationSet status="MANUAL" ID="23857">
+                <layer rank="1" name="FE">
+                    <label end="26" start="4" name="Cognizer"/>
+                    <label itype="UNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21193">
+            <text>Le gouvernement civil de transition mis en place en janvier était disposé à entendre ces doléances .</text>
+            <annotationSet status="MANUAL" ID="24648">
+                <layer rank="1" name="FE">
+                    <label end="58" start="0" name="Cognizer"/>
+                    <label end="97" start="76" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

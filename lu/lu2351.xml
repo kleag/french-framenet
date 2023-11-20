@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="rembourser.v" ID="2351" frame="Repayment" frameID="2370" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Loaner"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Debtor"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Loan"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="10">
+            <FE name="Debtor"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Debtor"/>
+                <annoSet ID="8373"/>
+                <annoSet ID="20429"/>
+                <annoSet ID="24633"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Debtor"/>
+                <annoSet ID="3451"/>
+                <annoSet ID="5801"/>
+                <annoSet ID="5874"/>
+                <annoSet ID="9716"/>
+                <annoSet ID="19989"/>
+                <annoSet ID="22883"/>
+                <annoSet ID="23534"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Loan"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Loan"/>
+                <annoSet ID="3451"/>
+                <annoSet ID="5801"/>
+                <annoSet ID="5874"/>
+                <annoSet ID="8373"/>
+                <annoSet ID="9716"/>
+                <annoSet ID="19989"/>
+                <annoSet ID="22883"/>
+                <annoSet ID="23534"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Loan"/>
+                <annoSet ID="24633"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Loaner"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Loaner"/>
+                <annoSet ID="3451"/>
+                <annoSet ID="5801"/>
+                <annoSet ID="5874"/>
+                <annoSet ID="9716"/>
+                <annoSet ID="19989"/>
+                <annoSet ID="20429"/>
+                <annoSet ID="23534"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Loaner"/>
+                <annoSet ID="8373"/>
+                <annoSet ID="22883"/>
+                <annoSet ID="24633"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Money"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="8373"/>
+                <annoSet ID="19989"/>
+                <annoSet ID="20429"/>
+                <annoSet ID="22883"/>
+                <annoSet ID="24633"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="3451"/>
+                <annoSet ID="5874"/>
+                <annoSet ID="9716"/>
+                <annoSet ID="23534"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2593">
+            <text>Il aurait expliqué aux enquêteurs qu' il s' agissait d' un prêt personnel affirmant même l' avoir remboursé .</text>
+            <annotationSet status="MANUAL" ID="3451">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Loaner"/>
+                    <label end="90" start="89" name="Loan"/>
+                    <label end="72" start="56" name="Loan"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="UNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4145">
+            <text>Ceux - ci baissent en termes nominaux , ce qui valorise le patrimoine à revenu fixe et réduit d' autant l' effort d' épargne nouvelle nécessaire ; ils restent élevés en termes réels , voire augmentent avec les primes de risque , ce qui pousse les entreprises à rembourser au plus vite les emprunts passés .</text>
+            <annotationSet status="MANUAL" ID="5801">
+                <layer rank="1" name="FE">
+                    <label end="257" start="243" name="Loaner"/>
+                    <label end="303" start="285" name="Loan"/>
+                    <label itype="DNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="270" start="261" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4184">
+            <text>Le financement monétaire de la part automatique du déficit serait par définition une mesure temporaire ; car , en phase de haute conjoncture , l' Etat devrait utiliser son excédent pour rembourser les prêts et contribuer à prévenir la surchauffe en réduisant la liquidité .</text>
+            <annotationSet status="MANUAL" ID="5874">
+                <layer rank="1" name="FE">
+                    <label end="149" start="143" name="Loaner"/>
+                    <label end="205" start="197" name="Loan"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="195" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5701">
+            <text>La société a ainsi dû emprunter pour rembourser les intérêts de ses prêts .</text>
+            <annotationSet status="MANUAL" ID="8373">
+                <layer rank="1" name="FE">
+                    <label end="72" start="48" name="Money"/>
+                    <label end="9" start="0" name="Debtor"/>
+                    <label end="66" start="64" name="Debtor"/>
+                    <label end="72" start="64" name="Loan"/>
+                    <label itype="UNI" name="Loaner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6503">
+            <text>L' inflation favorisa les emprunteurs - particuliers , entreprises et Etat , - qui remboursèrent leurs dettes avec d' autant plus de facilité que les taux d' intérêt étaient extrêmement bas .</text>
+            <annotationSet status="MANUAL" ID="9716">
+                <layer rank="1" name="FE">
+                    <label end="81" start="79" name="Loaner"/>
+                    <label end="188" start="22" name="Loaner"/>
+                    <label end="108" start="97" name="Loan"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15803">
+            <text>Le produit prévisible de ces désinvestissements , combiné avec un emprunt à moyen terme , permettra , selon M. Fellous , de rembourser , " dans les prochains jours et par anticipation " , la dernière tranche de 615 millions de francs des emprunts contractés par BTF lors du rachat d' Adidas .</text>
+            <annotationSet status="MANUAL" ID="19989">
+                <layer rank="1" name="FE">
+                    <label end="289" start="188" name="Money"/>
+                    <label end="289" start="238" name="Loan"/>
+                    <label end="264" start="262" name="Loaner"/>
+                    <label itype="UNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16265">
+            <text>Si la crise monétaire de septembre a coûté à la banque de France l' équivalent de 160 milliards de francs , sous forme - essentiellement - de deutschemarks prêtés par la Banque fédérale d' Allemagne et remboursés intégralement lorsque la spéculation a dû racheter les francs vendus , la " fièvre rampante " qui ronge le franc depuis la mi - novembre est en train de saigner les réserves nettes de devises de la banque centrale .</text>
+            <annotationSet status="MANUAL" ID="20429">
+                <layer rank="1" name="FE">
+                    <label end="200" start="142" name="Money"/>
+                    <label end="280" start="213" name="Money"/>
+                    <label end="197" start="167" name="Debtor"/>
+                    <label end="63" start="45" name="Loaner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="211" start="202" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18788">
+            <text>La durée de l' emprunt est de dix ans , mais après cinq ans , les titres pourront être remboursés sur demande à 124 % du pair , ce qui correspond à un rendement de 9 , 48 % .</text>
+            <annotationSet status="MANUAL" ID="22883">
+                <layer rank="1" name="FE">
+                    <label end="71" start="62" name="Money"/>
+                    <label end="21" start="12" name="Loan"/>
+                    <label itype="DNI" name="Loaner"/>
+                    <label itype="DNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19676">
+            <text>Peu importe , même serveur de restaurant , afin de garder son appartement et de rembourser la dette que contracte tout jeune Suédois pour payer ses études .</text>
+            <annotationSet status="MANUAL" ID="23534">
+                <layer rank="1" name="FE">
+                    <label end="131" start="114" name="Loaner"/>
+                    <label end="153" start="91" name="Loan"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21169">
+            <text>(2) Officiellement , elle atteignait 27 , 6 milliards de dollars fin 1992 - dont 17 milliards auprès du Club de Paris , qui n' est plus remboursé depuis le deuxième semestre de l' année dernière .</text>
+            <annotationSet status="MANUAL" ID="24633">
+                <layer rank="1" name="FE">
+                    <label end="92" start="81" name="Money"/>
+                    <label end="122" start="120" name="Debtor"/>
+                    <label end="193" start="104" name="Debtor"/>
+                    <label itype="DNI" name="Loaner"/>
+                    <label itype="UNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

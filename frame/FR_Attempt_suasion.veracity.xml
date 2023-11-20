@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Attempt_suasion.veracity" ID="10003" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;
+    A &lt;fen&gt;Persuader&lt;/fen&gt; attempts through language to get an &lt;fen&gt;Addressee&lt;/fen&gt; to believe a &lt;fen&gt;State_of_affairs&lt;/fen&gt; is true. There is no implication that the &lt;fen&gt;Addressee&lt;/fen&gt; ends up believing the &lt;fen&gt;State_of_affairs&lt;/fen&gt; to be true.
+
+    &lt;ex&gt;&lt;/ex&gt;
+
+Distinctions with other frames:
+
+    &lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Attempt_suasion.legitimacy&lt;/frframe&gt;
+ in FR_Attempt_suasion.veracity, the Persuader wants the Cognizer to believe the State_of_affairs is true, whereas in FR_Attempt_suasion.legitimacy, the Persuader wants them to think it is legitimate.
+
+    &lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Attempt_suasion.to_do&lt;/frframe&gt;: in FR_Attempt_suasion.to_do, the Persuader wants the Cognizer to perform an Action, whereas in FR_Attempt_suasion.content, the Persuader wants the Arguee to think some State_of_affairs legitimate or true. Also, FR_Attempt_suasion.veracity is necessarily done through language whereas this is not the case for FR_Attempt_suasion.to_do.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Attempt_supported_suasion&lt;/frframe&gt;: LUs of Attempt_suasion.veracity do not allow any local realization of a Support for the Attempt_suasion, whereas in FR_Attempt_supported_suasion, all LUs do. In that frame, the semantics assigned to the supported State_of_affairs (state of affairs deemed legitimate or true, or even action to be performed) are also underspecified.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+
+≠ &lt;frframe&gt;FR_Proving&lt;/frframe&gt;: in FR_Proving, the Content is effectively shown to be true by the Persuader whereas this is not the case with the State_of_affairs in FR_Attempt_suasion.veracity. 
+
+≠ &lt;frframe&gt;FR_Commitment.veracity&lt;/frframe&gt;: In the latter, the Speaker commits himself with respect to the veracity of something, but the suasion attempt is not directly encoded in the LUs, contrary to FR_Attempt_suasion.veracity.
+    &lt;ex&gt;&lt;/ex&gt;
+    &lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Results from the splitting of Reasoning into two frames, &lt;frframe&gt;FR_Proving&lt;/frframe&gt; and  FR_Attempt_suasion.content, based on whether the Content/State_of_affairs has effectively been shown to be true by the Persuader. Also results from the splitting of Attempt_suasion into four frames, FR_Attempt_suasion.legitimacy, &lt;frframe&gt;FR_Attempt_suasion.to_do&lt;/frframe&gt;, &lt;frframe&gt;FR_Attempt_suasion.veracity&lt;/frframe&gt; and &lt;frframe&gt;FR_Attempt_supported_suasion&lt;/frframe&gt;. This four-way split is based on the nature of the &lt;fen&gt;Content&lt;/fen&gt; role and its semantics for the first three (respectively state of affairs to be thought legitimate, Action to be executed or Content to be thought true), and on the possibility of a locally realized Support for &lt;frframe&gt;FR_Attempt_supported_suasion&lt;/frframe&gt;.&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:57:45 PDT Tue" abbrev="SoA" name="State_of_affairs" ID="2635">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; wants the &lt;fen&gt;Addressee&lt;/fen&gt; to believe the &lt;fen&gt;State_of_affairs&lt;/fen&gt; is true.&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="04/16/2002 12:57:47 PDT Tue" abbrev="Medium" name="Medium" ID="2636">
+        <definition>&lt;def-root&gt;This FE identifies the physical or abstract setting in which the &lt;fen&gt;State_of_affairs&lt;/fen&gt; is conveyed. &lt;ex&gt;Jan &lt;t&gt;argued&lt;/t&gt; &lt;fex name="Medium"&gt;in writing&lt;/fex&gt; that the evidence was inadmissable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:57:49 PDT Tue" abbrev="Persuader" name="Persuader" ID="2637">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; presents the &lt;fen&gt;State_of_affairs&lt;/fen&gt; before the &lt;fen&gt;Addressee&lt;/fen&gt;.&lt;ex&gt;&lt;fex name="Persuader"&gt;Jan&lt;/fex&gt; &lt;t&gt;argued&lt;/t&gt; that the evidence was inadmissable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:58:03 PDT Tue" abbrev="Add" name="Addressee" ID="2638">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Addressee&lt;/fen&gt; is the entity before whom the &lt;fen&gt;Persuader&lt;/fen&gt; presents a &lt;fen&gt;State_of_affairs&lt;/fen&gt;. &lt;ex&gt;Jan &lt;t&gt;argued&lt;/t&gt; &lt;fex name="Addressee"&gt;to the court&lt;/fex&gt; that the evidence was inadmissable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Attempt_suasion</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Split of">
+        <relatedFrame>Attempt_suasion</relatedFrame>
+        <relatedFrame>Reasoning</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="accréditer.v" ID="2712" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100019" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="1870" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="2688" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="arguer.v" ID="737" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100129" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="528" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Justifying" ID="1198" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="donner à croire.v" ID="2629" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100606" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="2631" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="donner à penser.v" ID="2630" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100607" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="2632" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="illustration.n" ID="743" nbocc="7" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="illustrer.v" ID="744" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101002" annotatedsent="4"/>
+        <otherlexUnit framename="Evidence" ID="564" annotatedsent="12"/>
+    </lexUnit>
+    <lexUnit POS="v" name="étayer.v" ID="753" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="102085" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="611" annotatedsent="0"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="tant et si bien que.conj" ID="259" frame="Causation" frameID="5" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cause"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="18027"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="11563"/>
+                <annoSet ID="11578"/>
+                <annoSet ID="15456"/>
+                <annoSet ID="22182"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Effect"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="11563"/>
+                <annoSet ID="11578"/>
+                <annoSet ID="15456"/>
+                <annoSet ID="18027"/>
+                <annoSet ID="22182"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8029">
+            <text>Tant et si bien que Royan ne se prépara pas au développement du camping , réfugié dans l' arrière - pays , et subit plus qu' elle ne maîtrisa les mutations suivantes .</text>
+            <annotationSet status="MANUAL" ID="11563">
+                <layer rank="1" name="FE">
+                    <label end="164" start="20" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8049">
+            <text>Tant et si bien que , pour aborder les mutations actuelles , il faut s' appuyer sur les moins qualifiés et surtout sur ceux qui , par tradition de ville balnéaire , n' ont pas eu l' occasion de saisir l' importance que pouvait revêtir la formation pour l' exercice d' un métier .</text>
+            <annotationSet status="MANUAL" ID="11578">
+                <layer rank="1" name="FE">
+                    <label end="276" start="20" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11176">
+            <text>Tant et si bien que , apeurés , les gestionnaires paritaires de l' organisme en appelaient à l' aide de l' Etat à la fin de l' année , et qu' ils devront sans doute revoir le mode d' indemnisation .</text>
+            <annotationSet status="MANUAL" ID="15456">
+                <layer rank="1" name="FE">
+                    <label end="136" start="20" name="Effect"/>
+                    <label end="195" start="142" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13713">
+            <text>L' érosion continuait alors régulièrement tant et si bien que , lorsque le titre tomba sous la barre des 500 francs , Jean - René Fourtou mit en garde les spéculateurs : " Il y a une chance sur deux pour que la privatisation ne se fasse pas " , affirmait -il le 26 novembre pour tenter de stopper cette baisse .</text>
+            <annotationSet status="MANUAL" ID="18027">
+                <layer rank="1" name="FE">
+                    <label end="40" start="0" name="Cause"/>
+                    <label end="310" start="168" name="Cause"/>
+                    <label end="166" start="62" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18152">
+            <text>Tant et si bien qu' on en fonda une autre .</text>
+            <annotationSet status="MANUAL" ID="22182">
+                <layer rank="1" name="FE">
+                    <label end="40" start="20" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

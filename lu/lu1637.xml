@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="contestation.n" ID="1637" frame="FR_Taking_sides" frameID="10060" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="21164"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="6335"/>
+                <annoSet ID="16099"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="6335"/>
+                <annoSet ID="16099"/>
+                <annoSet ID="21164"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4481">
+            <text>La contestation est allée du faible prix payé à la crainte de voir le roquefort passer sous la coupe italienne .</text>
+            <annotationSet status="MANUAL" ID="6335">
+                <layer rank="1" name="FE">
+                    <label end="109" start="26" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11731">
+            <text>Le lien franc - mark continue à faire l' objet d' une contestation renouvelée sur le marché des changes , obligeant la Banque de France à intervenir et à user de ses réserves de change .</text>
+            <annotationSet status="MANUAL" ID="16099">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Content"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17047">
+            <text>Simultanément à la diminution des conflits sociaux , les salariés sont devenus plus procéduriers : contestation des contrats de travail ou des élections aux organismes de représentation du personnel , interprétation des conventions collectives , etc .</text>
+            <annotationSet status="MANUAL" ID="21164">
+                <layer rank="1" name="FE">
+                    <label end="137" start="116" name="Content"/>
+                    <label end="197" start="143" name="Content"/>
+                    <label end="64" start="53" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

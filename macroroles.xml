@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<macroroles>
+  <info>Hierarchy of macro-roles, grouping several macro-roles and/or several frame-specific roles.</info>
+  <macrorole name="All_addressees">
+    <submacrorole name="Co_addressee"/>
+    <submacrorole name="Addressee"/>
+  </macrorole>
+  <macrorole name="All_cognizers">
+    <submacrorole name="Cognizer"/>
+    <submacrorole name="Co_cognizer"/>
+  </macrorole>
+  <macrorole name="All_speakers">
+    <submacrorole name="Speaker"/>
+    <submacrorole name="Co_speaker"/>
+  </macrorole>
+  <macrorole name="Content_or_entity">
+    <submacrorole name="Action_entity"/>
+    <submacrorole name="True_content"/>
+    <submacrorole name="Legit_content"/>
+    <submacrorole name="Real_entity"/>
+    <submacrorole name="Action"/>
+    <submacrorole name="Legit_entity"/>
+    <subrole_main frame="FR_Attempt_supported_suasion" role="State_of_affairs" macro="Content_or_entity"/>
+  </macrorole>
+  <macrorole name="Action">
+    <subrole_main frame="Appointing" role="Function" macro="Action"/>
+    <subrole_main frame="Be_in_agreement_on_action" role="Obligation" macro="Action"/>
+    <subrole_main frame="FR_Agree_or_refuse_to_act" role="Proposed_action" macro="Action"/>
+    <subrole_main frame="FR_Agree_or_refuse_to_act_in_favor_of" role="Proposed_action" macro="Action"/>
+    <subrole_main frame="FR_Attempt_suasion" role="Action" macro="Action"/>
+    <subrole_main frame="FR_Attempt_suasion.to_do" role="Action" macro="Action"/>
+    <subrole_main frame="FR_Be_in_agreement" role="Obligation" macro="Action"/>
+    <subrole_main frame="FR_Cognizer_affecting" role="Action" macro="Action"/>
+    <subrole_main frame="FR_Cognizer_affecting.to_do" role="Action" macro="Action"/>
+    <subrole_main frame="FR_Commitment.to_do" role="Eventuality" macro="Action"/>
+    <subrole_main frame="FR_Deciding" role="Decision" macro="Action"/>
+    <subrole_main frame="FR_Expressing_stance" role="Action" macro="Action"/>
+    <subrole_main frame="FR_Having_commercial_agreement" role="Obligation" macro="Action"/>
+    <subrole_main frame="FR_Influence_of_event_on_cognizer-Subjective_influence" role="Action" macro="Action"/>
+    <subrole_main frame="FR_Influence_of_event_on_cognizer-Subjective_influence" role="Activity" macro="Action"/>
+    <subrole_main frame="FR_Make_agreement" role="Obligation" macro="Action"/>
+    <subrole_main frame="FR_Means_for_purpose" role="Goal" macro="Action"/>
+    <subrole_main frame="FR_Personal_stance" role="Action" macro="Action"/>
+    <subrole_main frame="FR_Purpose" role="Goal" macro="Action"/>
+    <subrole_main frame="FR_Remembering" role="Action" macro="Action"/>
+    <subrole_main frame="FR_Renunciation" role="Eventuality" macro="Action"/>
+    <subrole_main frame="FR_Request" role="Eventuality" macro="Action"/>
+    <subrole_main frame="Make_agreement_on_action" role="Obligation" macro="Action"/>
+    <subrole_main frame="Remembering_to_do" role="Action" macro="Action"/>
+    <subrole_main frame="Respond_to_proposal" role="Proposal" macro="Action"/>
+    <subrole_main frame="Willingness" role="Activity" macro="Action"/>
+  </macrorole>
+  <macrorole name="Action_entity">
+    <subrole_main frame="Appointing" role="Body" macro="Action_entity"/>
+    <subrole_main frame="Appointing" role="Role" macro="Action_entity"/>
+    <subrole_main frame="FR_Commitment.to_do" role="Entity" macro="Action_entity"/>
+    <subrole_main frame="FR_Renunciation" role="Benefit" macro="Action_entity"/>
+    <subrole_main frame="FR_Request" role="Requested_entity" macro="Action_entity"/>
+    <subrole_main frame="Remembering_to_do" role="Salient_entity" macro="Action_entity"/>
+  </macrorole>
+  <macrorole name="Addressee">
+    <subrole_main frame="Adducing" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Bragging" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Communication_response" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Complaining" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Convey_importance" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Attempt_suasion" role="Cognizer" macro="Addressee"/>
+    <subrole_main frame="FR_Attempt_suasion.legitimacy" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Attempt_suasion.to_do" role="Cognizer" macro="Addressee"/>
+    <subrole_main frame="FR_Attempt_suasion.veracity" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Attempt_supported_suasion" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Chatting-Discussion" role="Interlocutor_2" macro="Addressee"/>
+    <subrole_main frame="FR_Commitment" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Commitment.to_do" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Commitment.veracity" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Contacting" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Encoding" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Expressing_truth_of_proposition" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Grant_permission-Permitting" role="Grantee" macro="Addressee"/>
+    <subrole_main frame="FR_Hail" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Insult" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Judgment_communication" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Justifying" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Proving" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Quoting" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Request" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Speak_on_topic" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Statement-manner-noise" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="FR_Telling" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Judgment_direct_address" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Prevarication" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Quarreling" role="Arguer2" macro="Addressee"/>
+    <subrole_main frame="Questioning" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Reading_aloud" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Respond_to_proposal" role="Interlocutor" macro="Addressee"/>
+    <subrole_main frame="Reveal_secret" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Successfully_communicate_message" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Summarizing" role="Addressee" macro="Addressee"/>
+    <subrole_main frame="Text_creation" role="Addressee" macro="Addressee"/>
+    <subrole_secondary frame="FR_Chatting-Discussion" role="Interlocutors" macro="Addressee"/>
+    <subrole_secondary frame="Quarreling" role="Arguers" macro="Addressee"/>
+  </macrorole>
+  <macrorole name="Beneficiary">
+    <subrole_main frame="FR_Agree_or_refuse_to_act_in_favor_of" role="Beneficiary" macro="Beneficiary"/>
+  </macrorole>
+  <macrorole name="Cause">
+    <subrole_main frame="Causation" role="Cause" macro="Cause"/>
+    <subrole_main frame="Explaining_the_facts" role="Fact" macro="Cause"/>
+    <subrole_main frame="FR_Attributing_cause" role="Cause" macro="Cause"/>
+    <subrole_main frame="FR_Cause_enunciation" role="Cause" macro="Cause"/>
+    <subrole_main frame="FR_Cause_to_start-Launch_process" role="Cause" macro="Cause"/>
+    <subrole_main frame="FR_Reason" role="State_of_affairs" macro="Cause"/>
+    <subrole_main frame="Preventing" role="Preventing_cause" macro="Cause"/>
+    <subrole_main frame="Response" role="Trigger" macro="Cause"/>
+  </macrorole>
+  <macrorole name="Cause_actor">
+    <subrole_main frame="Causation" role="Actor" macro="Cause_actor"/>
+    <subrole_main frame="FR_Attributing_cause" role="Responsible_party" macro="Cause_actor"/>
+    <subrole_main frame="FR_Cause_to_start-Launch_process" role="Actor" macro="Cause_actor"/>
+    <subrole_main frame="FR_Reason" role="Actor" macro="Cause_actor"/>
+    <subrole_main frame="Preventing" role="Agent" macro="Cause_actor"/>
+    <subrole_main frame="Response" role="Sentient_trigger" macro="Cause_actor"/>
+  </macrorole>
+  <macrorole name="Co_addressee">
+    <subrole_secondary frame="FR_Chatting-Discussion" role="Interlocutor_1" macro="Co_addressee"/>
+    <subrole_secondary frame="Quarreling" role="Arguer1" macro="Co_addressee"/>
+  </macrorole>
+  <macrorole name="Co_cognizer">
+    <subrole_main frame="Be_in_agreement_on_action" role="Party_2" macro="Co_cognizer"/>
+    <subrole_main frame="Be_in_agreement_on_assessment" role="Cognizer_2" macro="Co_cognizer"/>
+    <subrole_main frame="FR_Be_in_agreement" role="Party_2" macro="Co_cognizer"/>
+    <subrole_main frame="FR_Having_commercial_agreement" role="Party_2" macro="Co_cognizer"/>
+    <subrole_main frame="FR_Make_agreement" role="Party_2" macro="Co_cognizer"/>
+    <subrole_main frame="FR_Make_agreement_on_assessment" role="Cognizer_2" macro="Co_cognizer"/>
+    <subrole_main frame="Make_agreement_on_action" role="Party_2" macro="Co_cognizer"/>
+    <subrole_secondary frame="FR_Having_commercial_agreement" role="Seller" macro="Co_cognizer"/>
+  </macrorole>
+  <macrorole name="Co_speaker">
+    <subrole_secondary frame="FR_Chatting-Discussion" role="Interlocutor_2" macro="Co_speaker"/>
+    <subrole_secondary frame="Quarreling" role="Arguer2" macro="Co_speaker"/>
+  </macrorole>
+  <macrorole name="Cognizer">
+    <subrole_main frame="Be_in_agreement_on_action" role="Parties" macro="Cognizer"/>
+    <subrole_main frame="Be_in_agreement_on_action" role="Party_1" macro="Cognizer"/>
+    <subrole_main frame="Be_in_agreement_on_assessment" role="Cognizer_1" macro="Cognizer"/>
+    <subrole_main frame="Be_in_agreement_on_assessment" role="Cognizers" macro="Cognizer"/>
+    <subrole_main frame="Categorization" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="Coming_to_believe" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="Evoking" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Agree_or_refuse_to_act" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Agree_or_refuse_to_act_in_favor_of" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Awareness-Certainty-Opinion" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Be_in_agreement" role="Parties" macro="Cognizer"/>
+    <subrole_main frame="FR_Be_in_agreement" role="Party_1" macro="Cognizer"/>
+    <subrole_main frame="FR_Becoming_aware" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Being_in_favor_of" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Cognizer_affecting" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Cognizer_affecting.legitimacy" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Cognizer_affecting.to_do" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Cognizer_affecting.veracity" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Deciding" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Expectation" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Having_commercial_agreement" role="Buyer" macro="Cognizer"/>
+    <subrole_main frame="FR_Having_commercial_agreement" role="Parties" macro="Cognizer"/>
+    <subrole_main frame="FR_Having_commercial_agreement" role="Party_1" macro="Cognizer"/>
+    <subrole_main frame="FR_Influence_of_event_on_cognizer-Subjective_influence" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Make_agreement" role="Parties" macro="Cognizer"/>
+    <subrole_main frame="FR_Make_agreement" role="Party_1" macro="Cognizer"/>
+    <subrole_main frame="FR_Make_agreement_on_assessment" role="Cognizer_1" macro="Cognizer"/>
+    <subrole_main frame="FR_Make_agreement_on_assessment" role="Cognizers" macro="Cognizer"/>
+    <subrole_main frame="FR_Memory-Remembering_experience-Remembering_information" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Personal_stance" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Purpose" role="Agent" macro="Cognizer"/>
+    <subrole_main frame="FR_Questioning_oneself" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Reliance_on_expectation" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Remembering" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Renunciation" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="FR_Taking_sides" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="Judgment" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="Make_agreement_on_action" role="Parties" macro="Cognizer"/>
+    <subrole_main frame="Make_agreement_on_action" role="Party_1" macro="Cognizer"/>
+    <subrole_main frame="Regard" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="Religious_belief" role="Believer" macro="Cognizer"/>
+    <subrole_main frame="Remembering_to_do" role="Cognizer" macro="Cognizer"/>
+    <subrole_main frame="Willingness" role="Cognizer" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Attempt_suasion" role="Cognizer" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Attempt_suasion.legitimacy" role="Addressee" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Attempt_suasion.to_do" role="Cognizer" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Attempt_suasion.veracity" role="Addressee" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Attempt_supported_suasion" role="Addressee" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Attributed_information" role="Source" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Attributing_cause" role="Attributor" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Expressing_side" role="Speaker" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Expressing_stance" role="Speaker" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Judgment_communication" role="Communicator" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Judgment_communication_no_reason" role="Communicator" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Justifying" role="Speaker" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Proving" role="Addressee" macro="Cognizer"/>
+    <subrole_secondary frame="FR_Request" role="Addressee" macro="Cognizer"/>
+    <subrole_secondary frame="Judgment_direct_address" role="Communicator" macro="Cognizer"/>
+    <subrole_secondary frame="Predicting" role="Speaker" macro="Cognizer"/>
+    <subrole_secondary frame="Respond_to_proposal" role="Speaker" macro="Cognizer"/>
+  </macrorole>
+  <macrorole name="Effect">
+    <subrole_main frame="Causation" role="Effect" macro="Effect"/>
+    <subrole_main frame="Explaining_the_facts" role="State_of_affairs" macro="Effect"/>
+    <subrole_main frame="FR_Attributing_cause" role="Known_state_of_affairs" macro="Effect"/>
+    <subrole_main frame="FR_Cause_enunciation" role="Enunciative_effect" macro="Effect"/>
+    <subrole_main frame="FR_Cause_to_start-Launch_process" role="Effect" macro="Effect"/>
+    <subrole_main frame="FR_Reason" role="Action" macro="Effect"/>
+    <subrole_main frame="Preventing" role="Event" macro="Effect"/>
+    <subrole_main frame="Response" role="Response" macro="Effect"/>
+  </macrorole>
+  <macrorole name="Entity_predicated_on">
+    <subrole_main frame="Categorization" role="Item" macro="Entity_predicated_on"/>
+  </macrorole>
+  <macrorole name="Evaluee">
+    <subrole_main frame="FR_Judgment_communication" role="Evaluee" macro="Evaluee"/>
+    <subrole_main frame="FR_Judgment_communication_no_reason" role="Evaluee" macro="Evaluee"/>
+    <subrole_main frame="Judgment" role="Evaluee" macro="Evaluee"/>
+    <subrole_main frame="Regard" role="Evaluee" macro="Evaluee"/>
+    <subrole_secondary frame="Judgment_direct_address" role="Addressee" macro="Evaluee"/>
+  </macrorole>
+  <macrorole name="Evidence">
+    <subrole_main frame="Coming_to_believe" role="Evidence" macro="Evidence"/>
+    <subrole_main frame="FR_Attempt_supported_suasion" role="Support" macro="Evidence"/>
+    <subrole_main frame="FR_Awareness-Certainty-Opinion" role="Evidence" macro="Evidence"/>
+    <subrole_main frame="FR_Becoming_aware" role="Evidence" macro="Evidence"/>
+    <subrole_main frame="FR_Cognizer_affecting" role="Evidence" macro="Evidence"/>
+    <subrole_main frame="FR_Cognizer_affecting.legitimacy" role="Evidence" macro="Evidence"/>
+    <subrole_main frame="FR_Cognizer_affecting.to_do" role="Evidence" macro="Evidence"/>
+    <subrole_main frame="FR_Cognizer_affecting.veracity" role="Evidence" macro="Evidence"/>
+    <subrole_main frame="FR_Expectation" role="Evidence" macro="Evidence"/>
+    <subrole_main frame="FR_Proving" role="Support" macro="Evidence"/>
+    <subrole_main frame="Predicting" role="Evidence" macro="Evidence"/>
+  </macrorole>
+  <macrorole name="Goods">
+    <subrole_main frame="Carry_goods" role="Goods" macro="Goods"/>
+    <subrole_main frame="Commerce_buy" role="Goods" macro="Goods"/>
+    <subrole_main frame="Commerce_collect" role="Goods" macro="Goods"/>
+    <subrole_main frame="Commerce_goods-transfer" role="Goods" macro="Goods"/>
+    <subrole_main frame="Commerce_money-transfer" role="Goods" macro="Goods"/>
+    <subrole_main frame="Commerce_pay" role="Goods" macro="Goods"/>
+    <subrole_main frame="Commerce_scenario" role="Goods" macro="Goods"/>
+    <subrole_main frame="Commerce_sell" role="Goods" macro="Goods"/>
+    <subrole_main frame="Commercial_transaction" role="Goods" macro="Goods"/>
+    <subrole_main frame="Earnings_and_losses" role="Goods" macro="Goods"/>
+    <subrole_main frame="Exporting" role="Goods" macro="Goods"/>
+    <subrole_main frame="FR_Getting_money" role="Goods" macro="Goods"/>
+    <subrole_main frame="FR_Giving_money" role="Goods" macro="Goods"/>
+    <subrole_main frame="FR_Spending" role="Goods" macro="Goods"/>
+    <subrole_main frame="Importing" role="Goods" macro="Goods"/>
+    <subrole_main frame="Renting" role="Goods" macro="Goods"/>
+    <subrole_main frame="Renting_out" role="Goods" macro="Goods"/>
+    <subrole_main frame="Repayment" role="Loan" macro="Goods"/>
+  </macrorole>
+  <macrorole name="Intrument">
+    <subrole_main frame="FR_Becoming_aware" role="Instrument" macro="Intrument"/>
+  </macrorole>
+  <macrorole name="Legit_content">
+    <subrole_main frame="FR_Attempt_suasion" role="Legitimate_content" macro="Legit_content"/>
+    <subrole_main frame="FR_Attempt_suasion.legitimacy" role="State_of_affairs" macro="Legit_content"/>
+    <subrole_main frame="FR_Being_in_favor_of" role="Content" macro="Legit_content"/>
+    <subrole_main frame="FR_Cognizer_affecting" role="Legitimate_content" macro="Legit_content"/>
+    <subrole_main frame="FR_Cognizer_affecting.legitimacy" role="Content" macro="Legit_content"/>
+    <subrole_main frame="FR_Deserving" role="Eventuality" macro="Legit_content"/>
+    <subrole_main frame="FR_Expressing_side" role="Content" macro="Legit_content"/>
+    <subrole_main frame="FR_Expressing_stance" role="Legitimate_content" macro="Legit_content"/>
+    <subrole_main frame="FR_Justifying" role="Eventuality" macro="Legit_content"/>
+    <subrole_main frame="FR_Personal_stance" role="Legitimate_content" macro="Legit_content"/>
+    <subrole_main frame="FR_Taking_sides" role="Content" macro="Legit_content"/>
+  </macrorole>
+  <macrorole name="Legit_entity">
+    <subrole_main frame="FR_Being_in_favor_of" role="Side" macro="Legit_entity"/>
+    <subrole_main frame="FR_Expressing_side" role="Side" macro="Legit_entity"/>
+    <subrole_main frame="FR_Justifying" role="Responsible_entity" macro="Legit_entity"/>
+    <subrole_main frame="FR_Taking_sides" role="Side" macro="Legit_entity"/>
+  </macrorole>
+  <macrorole name="Means">
+    <subrole_main frame="Coming_to_believe" role="Means" macro="Means"/>
+    <subrole_main frame="FR_Means_for_purpose" role="Means" macro="Means"/>
+    <subrole_main frame="FR_Purpose" role="Means" macro="Means"/>
+  </macrorole>
+  <macrorole name="Medium">
+    <subrole_main frame="Adducing" role="Medium" macro="Medium"/>
+    <subrole_main frame="Be_in_agreement_on_action" role="Medium" macro="Medium"/>
+    <subrole_main frame="Coming_to_believe" role="Medium" macro="Medium"/>
+    <subrole_main frame="Communication_response" role="Medium" macro="Medium"/>
+    <subrole_main frame="Complaining" role="Medium" macro="Medium"/>
+    <subrole_main frame="Convey_importance" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Attempt_suasion" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Attempt_suasion.legitimacy" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Attempt_suasion.to_do" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Attempt_suasion.veracity" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Attempt_supported_suasion" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Attributed_information" role="Informational_content" macro="Medium"/>
+    <subrole_main frame="FR_Cognizer_affecting" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Cognizer_affecting.legitimacy" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Cognizer_affecting.to_do" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Cognizer_affecting.veracity" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Commitment" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Commitment.to_do" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Commitment.veracity" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Deciding" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Encoding" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Expressing_decision" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Expressing_truth_of_proposition" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Grant_permission-Permitting" role="Principle" macro="Medium"/>
+    <subrole_main frame="FR_Hail" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Having_commercial_agreement" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Judgment_communication" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Judgment_communication_no_reason" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Justifying" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Proving" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Purpose" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Quoting" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Request" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Speak_on_topic" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Statement-manner-noise" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Taking_sides" role="Medium" macro="Medium"/>
+    <subrole_main frame="FR_Telling" role="Medium" macro="Medium"/>
+    <subrole_main frame="Judgment_direct_address" role="Medium" macro="Medium"/>
+    <subrole_main frame="Respond_to_proposal" role="Medium" macro="Medium"/>
+    <subrole_main frame="Reveal_secret" role="Medium" macro="Medium"/>
+    <subrole_main frame="Successfully_communicate_message" role="Medium" macro="Medium"/>
+    <subrole_main frame="Summarizing" role="Medium" macro="Medium"/>
+  </macrorole>
+  <macrorole name="Message">
+    <subrole_main frame="Bragging" role="Message" macro="Message"/>
+    <subrole_main frame="Communication_response" role="Message" macro="Message"/>
+    <subrole_main frame="Complaining" role="Complaint" macro="Message"/>
+    <subrole_main frame="Convey_importance" role="Message" macro="Message"/>
+    <subrole_main frame="FR_Attributed_information" role="Proposition" macro="Message"/>
+    <subrole_main frame="FR_Commitment" role="Message" macro="Message"/>
+    <subrole_main frame="FR_Commitment.veracity" role="Message" macro="Message"/>
+    <subrole_main frame="FR_Encoding" role="Formulation" macro="Message"/>
+    <subrole_main frame="FR_Expressing_truth_of_proposition" role="Message" macro="Message"/>
+    <subrole_main frame="FR_Judgment_communication" role="Message" macro="Message"/>
+    <subrole_main frame="FR_Judgment_communication_no_reason" role="Message" macro="Message"/>
+    <subrole_main frame="FR_Making_speech" role="Speech" macro="Message"/>
+    <subrole_main frame="FR_Proving" role="Content" macro="Message"/>
+    <subrole_main frame="FR_Quoting" role="Message" macro="Message"/>
+    <subrole_main frame="FR_Speak_on_topic" role="Message" macro="Message"/>
+    <subrole_main frame="FR_Statement-manner-noise" role="Message" macro="Message"/>
+    <subrole_main frame="FR_Telling" role="Message" macro="Message"/>
+    <subrole_main frame="Predicting" role="Eventuality" macro="Message"/>
+    <subrole_main frame="Questioning" role="Message" macro="Message"/>
+    <subrole_main frame="Reading_aloud" role="Speech" macro="Message"/>
+    <subrole_main frame="Reveal_secret" role="Information" macro="Message"/>
+    <subrole_main frame="Spelling_and_pronouncing" role="Formal_realization" macro="Message"/>
+    <subrole_main frame="Successfully_communicate_message" role="Message" macro="Message"/>
+    <subrole_main frame="Summarizing" role="Summary" macro="Message"/>
+    <subrole_main frame="Text_creation" role="Text" macro="Message"/>
+  </macrorole>
+  <macrorole name="Message_content">
+    <subrole_main frame="FR_Contacting" role="Purpose" macro="Message_content"/>
+    <subrole_main frame="FR_Encoding" role="Content" macro="Message_content"/>
+    <subrole_main frame="Reading_aloud" role="Text" macro="Message_content"/>
+    <subrole_main frame="Spelling_and_pronouncing" role="Sign" macro="Message_content"/>
+    <subrole_main frame="Summarizing" role="State_of_affairs" macro="Message_content"/>
+  </macrorole>
+  <macrorole name="Money">
+    <subrole_main frame="Commerce_buy" role="Money" macro="Money"/>
+    <subrole_main frame="Commerce_collect" role="Money" macro="Money"/>
+    <subrole_main frame="Commerce_goods-transfer" role="Money" macro="Money"/>
+    <subrole_main frame="Commerce_money-transfer" role="Money" macro="Money"/>
+    <subrole_main frame="Commerce_pay" role="Money" macro="Money"/>
+    <subrole_main frame="Commerce_scenario" role="Money" macro="Money"/>
+    <subrole_main frame="Commerce_sell" role="Money" macro="Money"/>
+    <subrole_main frame="Commercial_transaction" role="Money" macro="Money"/>
+    <subrole_main frame="Earnings_and_losses" role="Earnings" macro="Money"/>
+    <subrole_main frame="FR_Cause_earning" role="Money" macro="Money"/>
+    <subrole_main frame="FR_Getting_money" role="Money" macro="Money"/>
+    <subrole_main frame="FR_Giving_money" role="Money" macro="Money"/>
+    <subrole_main frame="FR_Having_commercial_agreement" role="Money" macro="Money"/>
+    <subrole_main frame="FR_Reimbursement" role="Money" macro="Money"/>
+    <subrole_main frame="FR_Spending" role="Money" macro="Money"/>
+    <subrole_main frame="Renting" role="Money" macro="Money"/>
+    <subrole_main frame="Renting_out" role="Money" macro="Money"/>
+    <subrole_main frame="Repayment" role="Money" macro="Money"/>
+  </macrorole>
+  <macrorole name="Money_giver">
+    <subrole_main frame="Commerce_buy" role="Buyer" macro="Money_giver"/>
+    <subrole_main frame="Commerce_collect" role="Buyer" macro="Money_giver"/>
+    <subrole_main frame="Commerce_goods-transfer" role="Buyer" macro="Money_giver"/>
+    <subrole_main frame="Commerce_money-transfer" role="Buyer" macro="Money_giver"/>
+    <subrole_main frame="Commerce_pay" role="Buyer" macro="Money_giver"/>
+    <subrole_main frame="Commerce_scenario" role="Buyer" macro="Money_giver"/>
+    <subrole_main frame="Commerce_sell" role="Buyer" macro="Money_giver"/>
+    <subrole_main frame="Commercial_transaction" role="Buyer" macro="Money_giver"/>
+    <subrole_main frame="Earnings_and_losses" role="Buyer" macro="Money_giver"/>
+    <subrole_main frame="Exporting" role="Importer" macro="Money_giver"/>
+    <subrole_main frame="FR_Getting_money" role="Giver" macro="Money_giver"/>
+    <subrole_main frame="FR_Giving_money" role="Giver" macro="Money_giver"/>
+    <subrole_main frame="FR_Reimbursement" role="Giver" macro="Money_giver"/>
+    <subrole_main frame="FR_Spending" role="Spender" macro="Money_giver"/>
+    <subrole_main frame="Importing" role="Importer" macro="Money_giver"/>
+    <subrole_main frame="Renting" role="Lessee" macro="Money_giver"/>
+    <subrole_main frame="Renting_out" role="Lessee" macro="Money_giver"/>
+    <subrole_main frame="Repayment" role="Debtor" macro="Money_giver"/>
+    <subrole_secondary frame="FR_Having_commercial_agreement" role="Buyer" macro="Money_giver"/>
+  </macrorole>
+  <macrorole name="Money_recipient">
+    <subrole_main frame="Commerce_buy" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="Commerce_collect" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="Commerce_goods-transfer" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="Commerce_money-transfer" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="Commerce_pay" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="Commerce_scenario" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="Commerce_sell" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="Commercial_transaction" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="Earnings_and_losses" role="Earner" macro="Money_recipient"/>
+    <subrole_main frame="Exporting" role="Exporter" macro="Money_recipient"/>
+    <subrole_main frame="FR_Cause_earning" role="Earner" macro="Money_recipient"/>
+    <subrole_main frame="FR_Getting_money" role="Getter" macro="Money_recipient"/>
+    <subrole_main frame="FR_Giving_money" role="Recipient" macro="Money_recipient"/>
+    <subrole_main frame="FR_Having_commercial_agreement" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="FR_Reimbursement" role="Recipient" macro="Money_recipient"/>
+    <subrole_main frame="FR_Spending" role="Seller" macro="Money_recipient"/>
+    <subrole_main frame="Importing" role="Exporter" macro="Money_recipient"/>
+    <subrole_main frame="Renting" role="Lessor" macro="Money_recipient"/>
+    <subrole_main frame="Renting_out" role="Lessor" macro="Money_recipient"/>
+    <subrole_main frame="Repayment" role="Loaner" macro="Money_recipient"/>
+  </macrorole>
+  <macrorole name="Name">
+    <subrole_main frame="FR_Being_named" role="Name" macro="Name"/>
+    <subrole_main frame="Name_conferral" role="Name" macro="Name"/>
+    <subrole_main frame="Referring_by_name" role="Name" macro="Name"/>
+  </macrorole>
+  <macrorole name="Named_entity">
+    <subrole_main frame="FR_Being_named" role="Entity" macro="Named_entity"/>
+    <subrole_main frame="Name_conferral" role="Entity" macro="Named_entity"/>
+    <subrole_main frame="Referring_by_name" role="Entity" macro="Named_entity"/>
+  </macrorole>
+  <macrorole name="Polarity">
+    <subrole_main frame="FR_Attempt_suasion.legitimacy" role="Polarity" macro="Polarity"/>
+    <subrole_main frame="FR_Attempt_supported_suasion" role="Polarity" macro="Polarity"/>
+    <subrole_main frame="FR_Expressing_side" role="Polarity" macro="Polarity"/>
+  </macrorole>
+  <macrorole name="Rate">
+    <subrole_main frame="Commerce_buy" role="Rate" macro="Rate"/>
+    <subrole_main frame="Commerce_collect" role="Rate" macro="Rate"/>
+    <subrole_main frame="Commerce_goods-transfer" role="Rate" macro="Rate"/>
+    <subrole_main frame="Commerce_money-transfer" role="Rate" macro="Rate"/>
+    <subrole_main frame="Commerce_pay" role="Rate" macro="Rate"/>
+    <subrole_main frame="Commerce_scenario" role="Rate" macro="Rate"/>
+    <subrole_main frame="Commerce_sell" role="Rate" macro="Rate"/>
+    <subrole_main frame="Commercial_transaction" role="Rate" macro="Rate"/>
+    <subrole_main frame="Earnings_and_losses" role="Rate" macro="Rate"/>
+    <subrole_main frame="FR_Getting_money" role="Rate" macro="Rate"/>
+    <subrole_main frame="FR_Giving_money" role="Rate" macro="Rate"/>
+    <subrole_main frame="FR_Spending" role="Rate" macro="Rate"/>
+    <subrole_main frame="Renting" role="Rate" macro="Rate"/>
+    <subrole_main frame="Renting_out" role="Rate" macro="Rate"/>
+  </macrorole>
+  <macrorole name="Real_entity">
+    <subrole_main frame="FR_Memory-Remembering_experience-Remembering_information" role="Salient_entity" macro="Real_entity"/>
+    <subrole_main frame="Religious_belief" role="Element" macro="Real_entity"/>
+  </macrorole>
+  <macrorole name="Reason_of_judgment">
+    <subrole_main frame="FR_Judgment_communication" role="Reason" macro="Reason_of_judgment"/>
+    <subrole_main frame="Judgment" role="Reason" macro="Reason_of_judgment"/>
+    <subrole_main frame="Judgment_direct_address" role="Reason" macro="Reason_of_judgment"/>
+    <subrole_main frame="Regard" role="Reason" macro="Reason_of_judgment"/>
+  </macrorole>
+  <macrorole name="Reason_of_legitimacy">
+    <subrole_main frame="FR_Deserving" role="Sufficient_reason" macro="Reason_of_legitimacy"/>
+    <subrole_main frame="FR_Justifying" role="Sufficient_reason" macro="Reason_of_legitimacy"/>
+  </macrorole>
+  <macrorole name="Speaker">
+    <subrole_main frame="Adducing" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Appointing" role="Selector" macro="Speaker"/>
+    <subrole_main frame="Bragging" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Communication_response" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Complaining" role="Complainer" macro="Speaker"/>
+    <subrole_main frame="Convey_importance" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Attempt_suasion" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Attempt_suasion.legitimacy" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Attempt_suasion.to_do" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Attempt_suasion.veracity" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Attempt_supported_suasion" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Attributed_information" role="Source" macro="Speaker"/>
+    <subrole_main frame="FR_Attributing_cause" role="Attributor" macro="Speaker"/>
+    <subrole_main frame="FR_Chatting-Discussion" role="Interlocutor_1" macro="Speaker"/>
+    <subrole_main frame="FR_Chatting-Discussion" role="Interlocutors" macro="Speaker"/>
+    <subrole_main frame="FR_Cognizer_affecting" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Cognizer_affecting.legitimacy" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Cognizer_affecting.to_do" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Cognizer_affecting.veracity" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Commitment" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Commitment.to_do" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Commitment.veracity" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Contacting" role="Communicator" macro="Speaker"/>
+    <subrole_main frame="FR_Encoding" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Expressing_decision" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Expressing_side" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Expressing_stance" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Expressing_truth_of_proposition" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Grant_permission-Permitting" role="Grantor" macro="Speaker"/>
+    <subrole_main frame="FR_Hail" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Insult" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Judgment_communication" role="Communicator" macro="Speaker"/>
+    <subrole_main frame="FR_Judgment_communication_no_reason" role="Communicator" macro="Speaker"/>
+    <subrole_main frame="FR_Justifying" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Making_speech" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Proving" role="Persuader" macro="Speaker"/>
+    <subrole_main frame="FR_Quoting" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Request" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Speak_on_topic" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Statement-manner-noise" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="FR_Telling" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Judgment_direct_address" role="Communicator" macro="Speaker"/>
+    <subrole_main frame="Name_conferral" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Predicting" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Prevarication" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Quarreling" role="Arguer1" macro="Speaker"/>
+    <subrole_main frame="Quarreling" role="Arguers" macro="Speaker"/>
+    <subrole_main frame="Questioning" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Ratification" role="Ratifier" macro="Speaker"/>
+    <subrole_main frame="Reading_aloud" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Referring_by_name" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Respond_to_proposal" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Reveal_secret" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Spelling_and_pronouncing" role="Speaker" macro="Speaker"/>
+    <subrole_main frame="Successfully_communicate_message" role="Communicator" macro="Speaker"/>
+    <subrole_main frame="Summarizing" role="Communicator" macro="Speaker"/>
+    <subrole_main frame="Text_creation" role="Author" macro="Speaker"/>
+  </macrorole>
+  <macrorole name="Time_of_eventuality">
+    <subrole_main frame="FR_Expectation" role="Time_of_eventuality" macro="Time_of_eventuality"/>
+    <subrole_main frame="FR_Means_for_purpose" role="Time_of_eventuality" macro="Time_of_eventuality"/>
+    <subrole_main frame="FR_Purpose" role="Time_of_eventuality" macro="Time_of_eventuality"/>
+    <subrole_main frame="FR_Reliance_on_expectation" role="Time_of_eventuality" macro="Time_of_eventuality"/>
+    <subrole_main frame="Predicting" role="Time_of_eventuality" macro="Time_of_eventuality"/>
+  </macrorole>
+  <macrorole name="Topic">
+    <subrole_main frame="Be_in_agreement_on_action" role="Topic" macro="Topic"/>
+    <subrole_main frame="Be_in_agreement_on_assessment" role="Topic" macro="Topic"/>
+    <subrole_main frame="Bragging" role="Topic" macro="Topic"/>
+    <subrole_main frame="Coming_to_believe" role="Topic" macro="Topic"/>
+    <subrole_main frame="Communication_response" role="Topic" macro="Topic"/>
+    <subrole_main frame="Complaining" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Attempt_suasion" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Attempt_suasion.legitimacy" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Attempt_suasion.to_do" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Attempt_suasion.veracity" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Attempt_supported_suasion" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Awareness-Certainty-Opinion" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Be_in_agreement" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Becoming_aware" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Chatting-Discussion" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Commitment.to_do" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Contacting" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Deciding" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Expectation" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Expressing_side" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Hail" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Having_commercial_agreement" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Insult" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Judgment_communication" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Judgment_communication_no_reason" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Make_agreement" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Make_agreement_on_assessment" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Memory-Remembering_experience-Remembering_information" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Questioning_oneself" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Request" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Speak_on_topic" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Statement-manner-noise" role="Topic" macro="Topic"/>
+    <subrole_main frame="FR_Telling" role="Topic" macro="Topic"/>
+    <subrole_main frame="Judgment" role="Topic" macro="Topic"/>
+    <subrole_main frame="Judgment_direct_address" role="Topic" macro="Topic"/>
+    <subrole_main frame="Make_agreement_on_action" role="Topic" macro="Topic"/>
+    <subrole_main frame="Prevarication" role="Topic" macro="Topic"/>
+    <subrole_main frame="Quarreling" role="Issue" macro="Topic"/>
+    <subrole_main frame="Questioning" role="Topic" macro="Topic"/>
+    <subrole_main frame="Reveal_secret" role="Topic" macro="Topic"/>
+  </macrorole>
+  <macrorole name="True_content">
+    <subrole_main frame="Be_in_agreement_on_assessment" role="Opinion" macro="True_content"/>
+    <subrole_main frame="Categorization" role="Category" macro="True_content"/>
+    <subrole_main frame="Coming_to_believe" role="Content" macro="True_content"/>
+    <subrole_main frame="Evoking" role="Phenomenon" macro="True_content"/>
+    <subrole_main frame="FR_Attempt_suasion" role="True_content" macro="True_content"/>
+    <subrole_main frame="FR_Attempt_suasion.veracity" role="State_of_affairs" macro="True_content"/>
+    <subrole_main frame="FR_Awareness-Certainty-Opinion" role="Content" macro="True_content"/>
+    <subrole_main frame="FR_Be_in_agreement" role="Opinion" macro="True_content"/>
+    <subrole_main frame="FR_Becoming_aware" role="Phenomenon" macro="True_content"/>
+    <subrole_main frame="FR_Cognizer_affecting" role="True_content" macro="True_content"/>
+    <subrole_main frame="FR_Cognizer_affecting.veracity" role="Content" macro="True_content"/>
+    <subrole_main frame="FR_Expectation" role="Phenomenon" macro="True_content"/>
+    <subrole_main frame="FR_Expressing_stance" role="True_content" macro="True_content"/>
+    <subrole_main frame="FR_Make_agreement" role="Opinion" macro="True_content"/>
+    <subrole_main frame="FR_Make_agreement_on_assessment" role="Opinion" macro="True_content"/>
+    <subrole_main frame="FR_Memory-Remembering_experience-Remembering_information" role="Mental_content" macro="True_content"/>
+    <subrole_main frame="FR_Personal_stance" role="True_content" macro="True_content"/>
+    <subrole_main frame="FR_Questioning_oneself" role="Question" macro="True_content"/>
+    <subrole_main frame="FR_Reliance_on_expectation" role="Expectation" macro="True_content"/>
+    <subrole_main frame="FR_Remembering" role="Content" macro="True_content"/>
+    <subrole_main frame="Religious_belief" role="Content" macro="True_content"/>
+    <subrole_secondary frame="FR_Attributed_information" role="Proposition" macro="True_content"/>
+    <subrole_secondary frame="FR_Proving" role="Content" macro="True_content"/>
+    <subrole_secondary frame="Predicting" role="Eventuality" macro="True_content"/>
+  </macrorole>
+  <macrorole name="Unit">
+    <subrole_main frame="Commerce_buy" role="Unit" macro="Unit"/>
+    <subrole_main frame="Commerce_collect" role="Unit" macro="Unit"/>
+    <subrole_main frame="Commerce_goods-transfer" role="Unit" macro="Unit"/>
+    <subrole_main frame="Commerce_money-transfer" role="Unit" macro="Unit"/>
+    <subrole_main frame="Commerce_pay" role="Unit" macro="Unit"/>
+    <subrole_main frame="Commerce_scenario" role="Unit" macro="Unit"/>
+    <subrole_main frame="Commerce_sell" role="Unit" macro="Unit"/>
+    <subrole_main frame="Commercial_transaction" role="Unit" macro="Unit"/>
+    <subrole_main frame="Earnings_and_losses" role="Unit" macro="Unit"/>
+    <subrole_main frame="FR_Getting_money" role="Unit" macro="Unit"/>
+    <subrole_main frame="FR_Spending" role="Unit" macro="Unit"/>
+    <subrole_main frame="Renting" role="Unit" macro="Unit"/>
+    <subrole_main frame="Renting_out" role="Unit" macro="Unit"/>
+  </macrorole>
+</macroroles>

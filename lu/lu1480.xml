@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="expliquer.v" ID="1480" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="11">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="7454"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="145"/>
+                <annoSet ID="151"/>
+                <annoSet ID="690"/>
+                <annoSet ID="3856"/>
+                <annoSet ID="6463"/>
+                <annoSet ID="6588"/>
+                <annoSet ID="7313"/>
+                <annoSet ID="11072"/>
+                <annoSet ID="11074"/>
+                <annoSet ID="11742"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Medium"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="151"/>
+                <annoSet ID="690"/>
+                <annoSet ID="3856"/>
+                <annoSet ID="11072"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Speaker"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3856"/>
+                <annoSet ID="6463"/>
+                <annoSet ID="6588"/>
+                <annoSet ID="7313"/>
+                <annoSet ID="7454"/>
+                <annoSet ID="11074"/>
+                <annoSet ID="11742"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="145"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Topic"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="145"/>
+                <annoSet ID="151"/>
+                <annoSet ID="690"/>
+                <annoSet ID="3856"/>
+                <annoSet ID="6588"/>
+                <annoSet ID="7313"/>
+                <annoSet ID="7454"/>
+                <annoSet ID="11072"/>
+                <annoSet ID="11074"/>
+                <annoSet ID="11742"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="6463"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="118">
+            <text>L' éclipse du 11 août expliquée au centre Marie-Marvingt</text>
+            <annotationSet status="MANUAL" ID="145">
+                <layer rank="1" name="FE">
+                    <label end="20" start="0" name="Topic"/>
+                    <label itype="UNI" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="125">
+            <text>Vingt-six tableaux pour expliquer ce qu' est une éclipse de soleil avec une quinzaine de définitions des mots-clefs tels : amas globulaire , amas ouvert , comètes , constellations , galaxie , mama ( machine automatique à mesurer l' astronomie ) .</text>
+            <annotationSet status="MANUAL" ID="151">
+                <layer rank="1" name="FE">
+                    <label end="65" start="34" name="Topic"/>
+                    <label end="17" start="0" name="Medium"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="531">
+            <text>Il explique comment le comité des médicaments à usage humain ( CHMP ) a évalué les études réalisées afin d' aboutir à ses recommandations relatives aux conditions d' utilisation du médicament .</text>
+            <annotationSet status="MANUAL" ID="690">
+                <layer rank="1" name="FE">
+                    <label end="190" start="12" name="Topic"/>
+                    <label end="1" start="0" name="Medium"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2962">
+            <text>Dans leur ouvrage intitulé Révélation $ , Denis Robert et Ernest Backes expliquent comment le gouvernement de Ronald Reagan avait versé en 1981 une rançon pour la libération des otages américains en Iran .</text>
+            <annotationSet status="MANUAL" ID="3856">
+                <layer rank="1" name="FE">
+                    <label end="202" start="83" name="Topic"/>
+                    <label end="38" start="5" name="Medium"/>
+                    <label end="70" start="42" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4575">
+            <text>" Encore faudrait -il que les adultes prennent le temps de pénétrer dans leur univers , s' intéressent aux personnages idéalisés , rassurent quand il y a lieu , expliquent , admirent " , estime Anne - Marie Meisonnier qui juge sévèrement la démission des parents et leur parfaite ignorance de l' univers des enfants construit par la télé .</text>
+            <annotationSet status="MANUAL" ID="6463">
+                <layer rank="1" name="FE">
+                    <label end="36" start="26" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="170" start="161" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4668">
+            <text>Personne n' a encore expliqué pourquoi la reprise inopinée des années 1986 à 1989 inspira vite une grande confiance .</text>
+            <annotationSet status="MANUAL" ID="6588">
+                <layer rank="1" name="FE">
+                    <label end="114" start="30" name="Topic"/>
+                    <label end="7" start="0" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5070">
+            <text>Quant à moi , je trouve qu' on se fiche du monde en n' expliquant pas les choses en langage courant .</text>
+            <annotationSet status="MANUAL" ID="7313">
+                <layer rank="1" name="FE">
+                    <label end="79" start="70" name="Topic"/>
+                    <label end="29" start="28" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5150">
+            <text>Je compte donc reprendre l' initiative en réunissant tous les protagonistes et en leur demandant de prendre leurs responsabilités afin de s' engager clairement dans cette voie : il faut qu' ils clarifient leurs positions , qu' ils fortifient leurs signatures et qu' ils expliquent l' accord à leurs mandants .</text>
+            <annotationSet status="MANUAL" ID="7454">
+                <layer rank="1" name="FE">
+                    <label end="289" start="281" name="Topic"/>
+                    <label end="306" start="293" name="Addressee"/>
+                    <label end="268" start="266" name="Speaker"/>
+                    <label end="74" start="53" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="279" start="270" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7618">
+            <text>L' intérêt de ce livre concis , outre sa lecture vivante , est d' apporter des éclairages sur les situations et les politiques suivies par les partenaires ( Portugal , Espagne ) ou les concurrents de la France ( Etats - Unis ) et d' expliquer les stratégies de ceux qui disposent de l' " arme de la faim " .</text>
+            <annotationSet status="MANUAL" ID="11072">
+                <layer rank="1" name="FE">
+                    <label end="304" start="243" name="Topic"/>
+                    <label end="28" start="14" name="Medium"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="241" start="233" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7619">
+            <text>Au début du siècle , Werner Sombart expliquait pourquoi la greffe socialiste n' avait jamais pu prendre aux Etats - Unis .</text>
+            <annotationSet status="MANUAL" ID="11074">
+                <layer rank="1" name="FE">
+                    <label end="119" start="47" name="Topic"/>
+                    <label end="34" start="21" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8147">
+            <text>Maintenant qu' il a été confirmé à la tête du groupe , il restera à M. Gomez à expliquer comment il a pu sous - estimer à ce point la capacité de défense du complexe militaro - industriel américain et la tradition protectionniste du Congrès .</text>
+            <annotationSet status="MANUAL" ID="11742">
+                <layer rank="1" name="FE">
+                    <label end="239" start="89" name="Topic"/>
+                    <label end="75" start="68" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

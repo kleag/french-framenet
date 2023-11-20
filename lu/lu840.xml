@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="scepticisme.n" ID="840" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4907"/>
+                <annoSet ID="19475"/>
+                <annoSet ID="22717"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="23932"/>
+                <annoSet ID="24620"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Content"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="4907"/>
+                <annoSet ID="19475"/>
+                <annoSet ID="22717"/>
+                <annoSet ID="23932"/>
+                <annoSet ID="24620"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3624">
+            <text>Et quelques points noirs expliquant le scepticisme des Français .</text>
+            <annotationSet status="MANUAL" ID="4907">
+                <layer rank="1" name="FE">
+                    <label end="62" start="36" name="Content"/>
+                    <label end="62" start="55" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15225">
+            <text>Interrogé sur la compensation salariale partielle au profit des entreprises introduisant une baisse des rémunérations , M. Balladur a avoué un certain scepticisme à l' égard de cette mesure , précisant que le gouvernement s' attachait actuellement à " en définir le mécanisme " et qu' elle ne pourrait intervenir qu' " à titre provisoire et en cas d' urgence grave " .</text>
+            <annotationSet status="MANUAL" ID="19475">
+                <layer rank="1" name="FE">
+                    <label end="188" start="177" name="Content"/>
+                    <label end="130" start="120" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="161" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18597">
+            <text>C' est avec un scepticisme marqué , presque avec hostilité , que les nationalistes lituaniens ont accueilli , vendredi 12 janvier , l' annonce faite la veille par Mr Mikhail Gorbatchev qu' un projet de loi sur les modalités du droit à la sécession pour les Républiques de l' URSS allait être soumis à un débat national .</text>
+            <annotationSet status="MANUAL" ID="22717">
+                <layer rank="1" name="FE">
+                    <label end="317" start="132" name="Content"/>
+                    <label end="92" start="65" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20189">
+            <text>Appelé par son prédécesseur , M. Pierre Garcin , cet ingénieur du corps des mines , spécialiste de l' énergie , avait été accueilli avec un certain scepticisme .</text>
+            <annotationSet status="MANUAL" ID="23932">
+                <layer rank="1" name="FE">
+                    <label end="108" start="49" name="Content"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21146">
+            <text>Un scepticisme nourri par l' expérience : la restitution du pouvoir aux civils , promise par le président Ibrahim Babangida dès son arrivée au pouvoir , en 1985 - à la suite d' un coup d' Etat , - a déjà été reportée trois fois !</text>
+            <annotationSet status="MANUAL" ID="24620">
+                <layer rank="1" name="FE">
+                    <label end="228" start="0" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

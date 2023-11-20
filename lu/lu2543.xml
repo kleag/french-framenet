@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="suggérer.v" ID="2543" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="7270"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Message"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="7270"/>
+                <annoSet ID="16073"/>
+                <annoSet ID="17939"/>
+                <annoSet ID="24163"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="16073"/>
+                <annoSet ID="17939"/>
+                <annoSet ID="24163"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5048">
+            <text>Ce que suggère au fond cet ouvrage , dépassant le clivage des lieux où le temps est gaspillé ( la famille ) et celui où il est rentabilisé ( l' entreprise ) , c' est la nécessité d' une nouvelle réflexion sur la division sociale du temps .</text>
+            <annotationSet status="MANUAL" ID="7270">
+                <layer rank="1" name="FE">
+                    <label end="5" start="3" name="Message"/>
+                    <label end="236" start="166" name="Message"/>
+                    <label end="33" start="23" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11704">
+            <text>Lorsqu' ils sentent un relâchement chez les Allemands , ils suggèrent , très discrètement certes , les conséquences catastrophiques pour l' Europe d' une rupture du lien franco - allemand .</text>
+            <annotationSet status="MANUAL" ID="16073">
+                <layer rank="1" name="FE">
+                    <label end="186" start="99" name="Message"/>
+                    <label end="58" start="56" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13613">
+            <text>Pour résoudre la crise , il faut permettre aux sociétés d' HLM de vendre en bloc des immeubles à des opérateurs privés qui s' engageraient à les céder en priorité à leurs occupants , suggère Pierre Lehalle , directeur d' une société spécialisée dans ce genre d' opérations .</text>
+            <annotationSet status="MANUAL" ID="17939">
+                <layer rank="1" name="FE">
+                    <label end="181" start="0" name="Message"/>
+                    <label end="271" start="191" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="189" start="183" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20454">
+            <text>Peut -on en conséquence suggérer que , dans un contexte d' essoufflement général des initiatives et programmes concernant l' Afrique , la constitution d' une zone monétaire écu , complétée par une institution bancaire à vocation supranationale , pourrait conjuguer rigueur , souplesse et cohérence dans le traitement des situations particulières d' un sous - continent dont l' Europe ne peut se désintéresser .</text>
+            <annotationSet status="MANUAL" ID="24163">
+                <layer rank="1" name="FE">
+                    <label end="407" start="37" name="Message"/>
+                    <label end="7" start="5" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

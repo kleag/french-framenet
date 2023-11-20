@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se flatter.v" ID="132" frame="Bragging" frameID="1624" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="mes" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Message"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="2706"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2706"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2060">
+            <text>Monsieur le Président , il est assez incroyable de se trouver dans cette salle - je ne puis guère parler d' assemblée à ce moment précis - et de devoir constater que la traite des esclaves est une réalité qui se poursuit , même dans l' Union européenne - ici , où nous nous flattons d' oeuvrer pour la paix , la liberté , la démocratie et les droits de l' homme .</text>
+            <annotationSet status="MANUAL" ID="2706">
+                <layer rank="1" name="FE">
+                    <label end="267" start="264" name="Message"/>
+                    <label end="360" start="286" name="Message"/>
+                    <label end="267" start="264" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="281" start="269" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

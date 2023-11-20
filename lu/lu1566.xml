@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="hurler.v" ID="1566" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Message"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="4354"/>
+                <annoSet ID="20949"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="4354"/>
+                <annoSet ID="20949"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3310">
+            <text>" vous êtes des charognards ! " , avait hurlé le PDG de la Cinq .</text>
+            <annotationSet status="MANUAL" ID="4354">
+                <layer rank="1" name="FE">
+                    <label end="30" start="0" name="Message"/>
+                    <label end="62" start="46" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16822">
+            <text>Quand mes gosses s' entaillaient le doigt ou le genou bien profond , je les plantais là immédiatement et je courais m' enfermer dans les toilettes en hurlant : Arrête de saigner tout de suite , ou je vais tourner de l' oeil et me noyer dans la cuvette !</text>
+            <annotationSet status="MANUAL" ID="20949">
+                <layer rank="1" name="FE">
+                    <label end="252" start="160" name="Message"/>
+                    <label end="106" start="105" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

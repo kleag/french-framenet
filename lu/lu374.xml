@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="répliquer.v" ID="374" frame="Communication_response" frameID="42" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Trig" name="Trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Addressee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="6051"/>
+                <annoSet ID="15058"/>
+                <annoSet ID="18912"/>
+                <annoSet ID="19558"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="19325"/>
+                <annoSet ID="20998"/>
+                <annoSet ID="23507"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="6051"/>
+                <annoSet ID="20998"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Message"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="6051"/>
+                <annoSet ID="15058"/>
+                <annoSet ID="19325"/>
+                <annoSet ID="19558"/>
+                <annoSet ID="20998"/>
+                <annoSet ID="23507"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Message"/>
+                <annoSet ID="18912"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Speaker"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="6051"/>
+                <annoSet ID="15058"/>
+                <annoSet ID="18912"/>
+                <annoSet ID="19325"/>
+                <annoSet ID="19558"/>
+                <annoSet ID="20998"/>
+                <annoSet ID="23507"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="19558"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Trigger"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Trigger"/>
+                <annoSet ID="6051"/>
+                <annoSet ID="18912"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="15058"/>
+                <annoSet ID="19325"/>
+                <annoSet ID="20998"/>
+                <annoSet ID="23507"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4321">
+            <text>Mis en cause par M. Pasqua , le Crédit lyonnais a répliqué , le 6 janvier dans un communiqué , que " quatre banques , dont le Crédit lyonnais et trois banques privées , sont entrées dans l' actionnariat de la Cinq aux côtés d' Hachette , ce qui était méritoire puisque la Cinq perd de l' argent depuis sa création au début de 1986 .</text>
+            <annotationSet status="MANUAL" ID="6051">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Trigger"/>
+                    <label end="46" start="29" name="Trigger"/>
+                    <label end="329" start="99" name="Message"/>
+                    <label end="25" start="17" name="Addressee"/>
+                    <label end="46" start="29" name="Speaker"/>
+                    <label end="91" start="79" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10807">
+            <text>" les écarts de compétitivité sont devenus intenables " , leur répliquent les allemands .</text>
+            <annotationSet status="MANUAL" ID="15058">
+                <layer rank="1" name="FE">
+                    <label end="56" start="0" name="Message"/>
+                    <label end="61" start="58" name="Addressee"/>
+                    <label end="86" start="74" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14598">
+            <text>Si le ministre allemand de l' économie , Günter Rexrodt , présent à la réunion de l' OCDE , n' a pas répliqué aux critiques américaines , la réponse est venue , à distance , du président de la banque centrale allemande , Helmut Schlesinger .</text>
+            <annotationSet status="MANUAL" ID="18912">
+                <layer rank="1" name="FE">
+                    <label end="134" start="114" name="Trigger"/>
+                    <label end="134" start="124" name="Addressee"/>
+                    <label end="90" start="3" name="Speaker"/>
+                    <label itype="UNI" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15060">
+            <text>Les financiers ne l' aiment pas , c' est leur problème " , réplique notre interlocuteur , le regard sévère .</text>
+            <annotationSet status="MANUAL" ID="19325">
+                <layer rank="1" name="FE">
+                    <label end="55" start="0" name="Message"/>
+                    <label end="86" start="68" name="Speaker"/>
+                    <label itype="ENI" name="Trigger"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15290">
+            <text>A ceux qui voudraient voir " des dissidences d' opinions " entre l' UIMM et M. Perigot , il réplique que Ce ne sont que " songes et maléfices " , fruit d' un " fâcheux amalgame " .</text>
+            <annotationSet status="MANUAL" ID="19558">
+                <layer rank="1" name="FE">
+                    <label end="55" start="29" name="Topic"/>
+                    <label end="85" start="59" name="Topic"/>
+                    <label end="177" start="105" name="Message"/>
+                    <label end="85" start="2" name="Addressee"/>
+                    <label end="90" start="89" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16891">
+            <text>L' Oréal , qui a réalisé un chiffre d' affaires de 24 , 45 milliards de francs en 1988 avec notamment les marques Vichy , Biotherm , Phas , les parfums Guy Laroche , Cacharel , etc . ; a répliqué dans un communiqué que 5 % seulement de ses produits étaient testés sur les animaux ... Contre 50 % , il y a cinq ans .</text>
+            <annotationSet status="MANUAL" ID="20998">
+                <layer rank="1" name="FE">
+                    <label end="278" start="219" name="Message"/>
+                    <label end="213" start="201" name="Medium"/>
+                    <label end="7" start="3" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19630">
+            <text>" Plus un sujet est fort , mieux il doit être traité , réplique ce conseiller de la présidence .</text>
+            <annotationSet status="MANUAL" ID="23507">
+                <layer rank="1" name="FE">
+                    <label end="53" start="0" name="Message"/>
+                    <label end="93" start="64" name="Speaker"/>
+                    <label itype="ENI" name="Trigger"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

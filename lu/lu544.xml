@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="dire.v" ID="544" frame="Evidence" frameID="25" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Proposition"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="8119"/>
+                <annoSet ID="11390"/>
+                <annoSet ID="12049"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Support"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="8119"/>
+                <annoSet ID="11390"/>
+                <annoSet ID="12049"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5570">
+            <text>Certes , rien ne dit qu' une seconde motion de censure sur son projet de loi , reprenant l' accord du 10 avril , n' aurait pas été la bonne mais cette probabilité , reconnaissent les socialistes , n' était pas la plus plausible .</text>
+            <annotationSet status="MANUAL" ID="8119">
+                <layer rank="1" name="FE">
+                    <label end="12" start="9" name="Support"/>
+                    <label end="138" start="25" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7885">
+            <text>Des essais de longue durée diront avant la fin de l' année si son exploitation est justifiée .</text>
+            <annotationSet status="MANUAL" ID="11390">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Support"/>
+                    <label end="91" start="59" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8436">
+            <text>Les critères , forcément flous , disent en gros que le cadre jouit de la confiance du patron et le remplace dans différentes occasions ...</text>
+            <annotationSet status="MANUAL" ID="12049">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Support"/>
+                    <label end="133" start="52" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

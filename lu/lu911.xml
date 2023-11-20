@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="initier.v" ID="911" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Actor"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="3363"/>
+                <annoSet ID="12608"/>
+                <annoSet ID="17134"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cause"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="12792"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Effect"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="3363"/>
+                <annoSet ID="12608"/>
+                <annoSet ID="12792"/>
+                <annoSet ID="17134"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2536">
+            <text>- Une procédure arbitrale a été initiée en 2001 par Taïwan , qui réclame à la France le remboursement de 600 millions de dollars , le montant des commissions versées par Thomson-CSF .</text>
+            <annotationSet status="MANUAL" ID="3363">
+                <layer rank="1" name="FE">
+                    <label end="24" start="2" name="Effect"/>
+                    <label end="180" start="52" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8833">
+            <text>Déçu que la majorité présidentielle , dont l' échec aux prochaines élections lui paraît programmé , n' ait pas su aller au bout de la décentralisation initiée par Gaston Deferre .</text>
+            <annotationSet status="MANUAL" ID="12608">
+                <layer rank="1" name="FE">
+                    <label end="149" start="131" name="Effect"/>
+                    <label end="176" start="163" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8939">
+            <text>La libéralisation tarifaire , initiée en 1986 , et un recours accru à la sous - traitance ont entraîné une guerre des prix anticoncurrentielle , estime l' UNOSTRA .</text>
+            <annotationSet status="MANUAL" ID="12792">
+                <layer rank="1" name="FE">
+                    <label end="28" start="0" name="Effect"/>
+                    <label end="88" start="46" name="Effect"/>
+                    <label itype="UNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12768">
+            <text>Cette OPR , initiée par Arjil , se fera au prix unitaire de 85 francs .</text>
+            <annotationSet status="MANUAL" ID="17134">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Effect"/>
+                    <label end="28" start="24" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

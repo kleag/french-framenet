@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="étant donné.prep" ID="610" frame="Evidence" frameID="25" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Proposition"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="5064"/>
+                <annoSet ID="14443"/>
+                <annoSet ID="18512"/>
+                <annoSet ID="22162"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Support"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="5064"/>
+                <annoSet ID="14443"/>
+                <annoSet ID="18512"/>
+                <annoSet ID="22162"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3718">
+            <text>Etant donné les vives réticences qui se sont manifestées parmi les personnels concernés , le gouvernement a décidé un plan d' accompagnement social en trois points :</text>
+            <annotationSet status="MANUAL" ID="5064">
+                <layer rank="1" name="FE">
+                    <label end="86" start="12" name="Support"/>
+                    <label end="164" start="88" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10286">
+            <text>Ce résultat était attendu ( le Monde du 2 juin ) , et n' occulte pas globalement les très médiocres perspectives financières du secteur , étant donné le niveau des investissements consentis ( 25 milliards de francs au moins d' ici à 1995 ) .</text>
+            <annotationSet status="MANUAL" ID="14443">
+                <layer rank="1" name="FE">
+                    <label end="238" start="150" name="Support"/>
+                    <label end="136" start="54" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="148" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14161">
+            <text>Etant donné ce que nous savons des pressions que subissent les banques centrales et de leurs modes de fonctionnement réels , il sera prudent que d' ici à 1997 ou 1999 l' indépendance de la future BCE fasse encore l' objet de quelques sérieuses réflexions .</text>
+            <annotationSet status="MANUAL" ID="18512">
+                <layer rank="1" name="FE">
+                    <label end="121" start="15" name="Support"/>
+                    <label end="255" start="123" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18134">
+            <text>En d' autres circonstances , de tels documents avaient toutes chances de n' intéresser que les spécialistes , en englobant toutefois dans ce groupe - étant donné l' intérêt exceptionnel du sujet - non seulement les historiens de la monnaie , mais aussi les économistes assez avisés pour inclure dans leur champ d' investigation habituel l' histoire des phénomènes dont ils se préoccupent .</text>
+            <annotationSet status="MANUAL" ID="22162">
+                <layer rank="1" name="FE">
+                    <label end="193" start="162" name="Support"/>
+                    <label end="148" start="113" name="Proposition"/>
+                    <label end="386" start="195" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

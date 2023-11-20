@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="appel.n" ID="754" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="21" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="21">
+            <FE name="Action"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="1751"/>
+                <annoSet ID="1769"/>
+                <annoSet ID="2283"/>
+                <annoSet ID="2349"/>
+                <annoSet ID="2358"/>
+                <annoSet ID="4288"/>
+                <annoSet ID="9005"/>
+                <annoSet ID="9052"/>
+                <annoSet ID="14204"/>
+                <annoSet ID="14389"/>
+                <annoSet ID="16437"/>
+                <annoSet ID="16856"/>
+                <annoSet ID="17318"/>
+                <annoSet ID="17481"/>
+                <annoSet ID="17482"/>
+                <annoSet ID="17501"/>
+                <annoSet ID="18272"/>
+                <annoSet ID="18988"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="4889"/>
+                <annoSet ID="18199"/>
+                <annoSet ID="18473"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Cognizer"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2283"/>
+                <annoSet ID="2349"/>
+                <annoSet ID="4889"/>
+                <annoSet ID="14204"/>
+                <annoSet ID="16437"/>
+                <annoSet ID="16856"/>
+                <annoSet ID="17501"/>
+                <annoSet ID="18199"/>
+                <annoSet ID="18272"/>
+                <annoSet ID="18473"/>
+                <annoSet ID="18988"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="1751"/>
+                <annoSet ID="1769"/>
+                <annoSet ID="2358"/>
+                <annoSet ID="4288"/>
+                <annoSet ID="9005"/>
+                <annoSet ID="9052"/>
+                <annoSet ID="17318"/>
+                <annoSet ID="17481"/>
+                <annoSet ID="17482"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="2358"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Persuader"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="1751"/>
+                <annoSet ID="2283"/>
+                <annoSet ID="2349"/>
+                <annoSet ID="4288"/>
+                <annoSet ID="4889"/>
+                <annoSet ID="9005"/>
+                <annoSet ID="9052"/>
+                <annoSet ID="14204"/>
+                <annoSet ID="14389"/>
+                <annoSet ID="16437"/>
+                <annoSet ID="16856"/>
+                <annoSet ID="17318"/>
+                <annoSet ID="17481"/>
+                <annoSet ID="17482"/>
+                <annoSet ID="17501"/>
+                <annoSet ID="18473"/>
+                <annoSet ID="18988"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="1769"/>
+                <annoSet ID="18199"/>
+                <annoSet ID="18272"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1640">
+            <text>Comme vous tous , j' entends les appels à l' aide des mères , des épouses et des soeurs des Kosovars albanais qui croupissent dans les geôles serbes .</text>
+            <annotationSet status="MANUAL" ID="1751">
+                <layer rank="1" name="FE">
+                    <label end="48" start="42" name="Action"/>
+                    <label end="60" start="54" name="Persuader"/>
+                    <label end="75" start="66" name="Persuader"/>
+                    <label end="147" start="81" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1653">
+            <text>Nous relayons les appels à l' aide et aucun de nos responsables ne les entend .</text>
+            <annotationSet status="MANUAL" ID="1769">
+                <layer rank="1" name="FE">
+                    <label end="33" start="27" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="DNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1876">
+            <text>C' est pourquoi nous devons lancer un appel à la raison aux dirigeants éthiopiens et érythréens pour que cesse le conflit , pour que , dans le cadre du plan de paix de l' O.U.A. , un accord rapide sur les arrangements techniques intervienne .</text>
+            <annotationSet status="MANUAL" ID="2283">
+                <layer rank="1" name="FE">
+                    <label end="54" start="46" name="Action"/>
+                    <label end="94" start="60" name="Cognizer"/>
+                    <label end="19" start="16" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1901">
+            <text>Je lance un appel à la Commission , cette même proportion se retrouvant approximativement dans l' engagement de l' Europe , à prendre sérieusement ces 3 à 4 % et à augmenter cette proportion .</text>
+            <annotationSet status="MANUAL" ID="2349">
+                <layer rank="1" name="FE">
+                    <label end="160" start="126" name="Action"/>
+                    <label end="189" start="164" name="Action"/>
+                    <label end="32" start="20" name="Cognizer"/>
+                    <label end="1" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1904">
+            <text>En troisième lieu vient l' appel lancé dans ce rapport , et appuyé par le Conseil " affaires générales " , pour que les limitations commerciales soient supprimées pour les pays de manière asymétrique et , si nécessaire , unilatérale , dans l' idée que le commerce devienne à terme aussi important que les subventions .</text>
+            <annotationSet status="MANUAL" ID="2358">
+                <layer rank="1" name="FE">
+                    <label end="315" start="116" name="Action"/>
+                    <label end="53" start="44" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3266">
+            <text>Pourquoi l' autorité de régulation a -t-elle autorisé Hachette à prendre les rênes de la chaîne , sans appel à candidatures , tout en soulignant que les prévisions de sa direction étaient irréalistes ?</text>
+            <annotationSet status="MANUAL" ID="4288">
+                <layer rank="1" name="FE">
+                    <label end="122" start="111" name="Action"/>
+                    <label end="61" start="54" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3619">
+            <text>Dans un communiqué publié en début de semaine , M. Joseph Thouvenel , président CFTC Bourse , lance un appel aux petits actionnaires d' Hachette .</text>
+            <annotationSet status="MANUAL" ID="4889">
+                <layer rank="1" name="FE">
+                    <label end="143" start="113" name="Cognizer"/>
+                    <label end="90" start="48" name="Persuader"/>
+                    <label itype="ENI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6064">
+            <text>Les volontés politiques en faveur d' une union économique et monétaire , les appels en provenance de Bruxelles pour la mise en place d' une politique industrielle , ne peuvent ainsi éviter que , en la matière , l' histoire ne se repète .</text>
+            <annotationSet status="MANUAL" ID="9005">
+                <layer rank="1" name="FE">
+                    <label end="161" start="116" name="Action"/>
+                    <label end="109" start="101" name="Persuader"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6096">
+            <text>Détaillant les conclusions d' un groupe technique confédéral , Mme Geneviève Lingesler , vice présidente de la CFTC , a mis l' accent sur des propositions qui se veulent " un appel à la responsabilité " .</text>
+            <annotationSet status="MANUAL" ID="9052">
+                <layer rank="1" name="FE">
+                    <label end="201" start="183" name="Action"/>
+                    <label end="59" start="30" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="179" start="175" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10114">
+            <text>La compagnie Air France a prévu d' assurer l' intégralité de ses vols , moyen et long - courriers , mercredi 23 décembre , en dépit d' un appel à la grève lancé par neuf syndicats du personnel au sol .</text>
+            <annotationSet status="MANUAL" ID="14204">
+                <layer rank="1" name="FE">
+                    <label end="153" start="146" name="Action"/>
+                    <label end="198" start="183" name="Cognizer"/>
+                    <label end="198" start="165" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10238">
+            <text>La presse officielle a donné une large publicité à une réunion de la haute direction sur la planification économique , du 14 au 20 décembre , qui s' est conclue sur un appel insistant du secrétaire général du Parti communiste , M. Jiang Zemin , et du premier ministre , M. Li Peng , pour que le taux de croissance de la production reste " compatible avec la progression de l' efficacité économique et le progrès de la restructuration " .</text>
+            <annotationSet status="MANUAL" ID="14389">
+                <layer rank="1" name="FE">
+                    <label end="434" start="292" name="Action"/>
+                    <label end="246" start="187" name="Persuader"/>
+                    <label end="279" start="251" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="172" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12112">
+            <text>" Tout en exhortant les députés - qui ont adopté , mardi 22 décembre , le projet de la loi de finances pour 1993 - à poursuivre l' effort d' assainissement budgétaire entrepris depuis juillet 1992 , le chef du gouvernement italien , M. Giuliano Amato , n' a pas manqué , mardi 22 décembre , de s' adresser à ses compatriotes pour faire appel au " devoir de solidarité envers les plus faibles " .</text>
+            <annotationSet status="MANUAL" ID="16437">
+                <layer rank="1" name="FE">
+                    <label end="392" start="345" name="Action"/>
+                    <label end="323" start="308" name="Cognizer"/>
+                    <label end="249" start="233" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="340" start="336" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12504">
+            <text>Si , après leur appel à l' aide adressé aux pouvoirs publics , les gestionnaires de l' assurance - chômage commencent à dire que " le compte n' y est pas " , c' est que , par l' effet mécanique de leurs propres décisions , ils entendaient provoquer un autre découpage entre ce qui relève de l' assurance , donc de la cotisation , et ce qui revient à la charge de la solidarité nationale , financée par le budget .</text>
+            <annotationSet status="MANUAL" ID="16856">
+                <layer rank="1" name="FE">
+                    <label end="30" start="24" name="Action"/>
+                    <label end="59" start="44" name="Cognizer"/>
+                    <label end="14" start="11" name="Persuader"/>
+                    <label end="105" start="63" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12972">
+            <text>Et , loin d' étouffer ces bruits , les responsables français ont multiplié les appels à la raison .</text>
+            <annotationSet status="MANUAL" ID="17318">
+                <layer rank="1" name="FE">
+                    <label end="96" start="88" name="Action"/>
+                    <label end="59" start="35" name="Persuader"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13105">
+            <text>Ce chiffre , calculé pour la première fois sur le produit intérieur brut et non sur le PNB , a conduit le bureau des statistiques à renouveler son appel à " la vigilance face au risque de surchauffe économique " , tout en affirmant sa confiance dans la modération des effets pervers qu' on pouvait en attendre .</text>
+            <annotationSet status="MANUAL" ID="17481">
+                <layer rank="1" name="FE">
+                    <label end="210" start="155" name="Action"/>
+                    <label end="145" start="143" name="Persuader"/>
+                    <label end="128" start="103" name="Persuader"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13108">
+            <text>Cependant , l' index du coût de la vie , comprenant les services et logements , a connu une croisance de 7 % en moyenne dans les villes , mais avec des disparités notables : 9 , 3 % à Pékin , mais 11 , 3 % à Shanghaï et 12 , 6 % à Canton , deux des villes où l' appel de M. Deng Xiaoping , le patriarche du régime , pour la relance des réformes , a été le prétexte à un début de redécollage économique rapide .</text>
+            <annotationSet status="MANUAL" ID="17482">
+                <layer rank="1" name="FE">
+                    <label end="343" start="321" name="Action"/>
+                    <label end="312" start="271" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="266" start="262" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13118">
+            <text>Au cours des derniers jours , les plus hauts dirigeants ont lancé de fermes appels à l' appareil du régime dans les campagnes , pour que les paysans soient l' objet de soins plus attentifs .</text>
+            <annotationSet status="MANUAL" ID="17501">
+                <layer rank="1" name="FE">
+                    <label end="187" start="137" name="Action"/>
+                    <label end="124" start="85" name="Cognizer"/>
+                    <label end="54" start="30" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13882">
+            <text>Sur le front des émissions , les augmentations de capital par appel au public ont à nouveau fléchi en raison du marasme de la Bourse , qui n' a guère incité les sociétés à solliciter leurs actionnaires .</text>
+            <annotationSet status="MANUAL" ID="18199">
+                <layer rank="1" name="FE">
+                    <label end="76" start="71" name="Cognizer"/>
+                    <label itype="ENI" name="Action"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13954">
+            <text>Entre les extrêmes , la loi a prévu " l' interdiction , à titre définitif ou pour une durée de cinq ans au plus , d' exercer une ou plusieurs activités professionnelles ou sociales " , l' interdiction de faire appel public à l' épargne , ou bien encore ( art. 131.39 ) " l' exclusion des marchés publics " .</text>
+            <annotationSet status="MANUAL" ID="18272">
+                <layer rank="1" name="FE">
+                    <label end="234" start="225" name="Action"/>
+                    <label end="221" start="216" name="Cognizer"/>
+                    <label itype="ENI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="214" start="210" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14138">
+            <text>Les hommes politiques sont d' autant plus sensibles à leurs appels qu' une vision naïve peut leur laisser croire que de faibles taux d' intérêt sont systématiquement bénéfiques comme moyen de lutte contre le chômage .</text>
+            <annotationSet status="MANUAL" ID="18473">
+                <layer rank="1" name="FE">
+                    <label end="20" start="0" name="Cognizer"/>
+                    <label end="58" start="54" name="Persuader"/>
+                    <label itype="DNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14679">
+            <text>- Sahel : après plusieurs années de sécheresse , six millions de personnes sont menacées de mort en Afrique occidentale , estime la FAO qui lance un appel à l' aide internationale .</text>
+            <annotationSet status="MANUAL" ID="18988">
+                <layer rank="1" name="FE">
+                    <label end="178" start="157" name="Action"/>
+                    <label end="178" start="165" name="Cognizer"/>
+                    <label end="138" start="136" name="Persuader"/>
+                    <label end="178" start="129" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="dialoguer.v" ID="938" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Interlocutor_1"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Interlocutor_1"/>
+                <annoSet ID="3886"/>
+                <annoSet ID="13121"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Interlocutor_2"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Interlocutor_2"/>
+                <annoSet ID="3886"/>
+                <annoSet ID="13121"/>
+                <annoSet ID="23263"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Interlocutors"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="23313"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="3886"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2985">
+            <text>Maître Vergès , plaide : l' opération paillote n' a été qu' une " manipulation barbouzarde " visant à " éliminer un préfet de Corse qui devenait gênant pour un gouvernement qui s' apprêtait à dialoguer avec les clandestins " .</text>
+            <annotationSet status="MANUAL" ID="3886">
+                <layer rank="1" name="FE">
+                    <label end="221" start="207" name="Interlocutor_2"/>
+                    <label end="175" start="173" name="Interlocutor_1"/>
+                    <label end="221" start="157" name="Interlocutor_1"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="200" start="192" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9193">
+            <text>" Pour dialoguer avec nos clients , nous avons touché le point sensible ! " , jubile le président d' Esprit , Isaac Stein .</text>
+            <annotationSet status="MANUAL" ID="13121">
+                <layer rank="1" name="FE">
+                    <label end="32" start="22" name="Interlocutor_2"/>
+                    <label end="39" start="36" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19292">
+            <text>La constitution d' une commission commune pour dialoguer avec les groupements régionaux - Conseil de coopération arabe et communauté européenne - est aussi envisagée .</text>
+            <annotationSet status="MANUAL" ID="23263">
+                <layer rank="1" name="FE">
+                    <label end="144" start="62" name="Interlocutor_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19364">
+            <text>On dirait que Ceausescu se venge , dit -il , lorsqu' on voit qu' après " ces longues années de monologue nous ne sommes plus capables de dialoguer .</text>
+            <annotationSet status="MANUAL" ID="23313">
+                <layer rank="1" name="FE">
+                    <label end="108" start="105" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

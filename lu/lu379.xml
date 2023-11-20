@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="gémir.v" ID="379" frame="Complaining" frameID="1621" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cmplnr" name="Complainer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="com" name="Complaint"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Complainer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Complainer"/>
+                <annoSet ID="7510"/>
+                <annoSet ID="12950"/>
+                <annoSet ID="24876"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Complaint"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Complaint"/>
+                <annoSet ID="7510"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="12950"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5180">
+            <text>C' est dire qu' il n' est pas réglé pour autant : " Nous sommes dans un cul - de - sac " , gémit -on à la BNP .</text>
+            <annotationSet status="MANUAL" ID="7510">
+                <layer rank="1" name="FE">
+                    <label end="89" start="0" name="Complaint"/>
+                    <label end="99" start="97" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9055">
+            <text>On se demande comment un gouvernement va pouvoir expliquer à ces mêmes PME , qui gémissent sous le poids de leurs frais financiers , que plus les affaires vont mal , plus il faut relever les taux d' intérêt ...</text>
+            <annotationSet status="MANUAL" ID="12950">
+                <layer rank="1" name="FE">
+                    <label end="129" start="61" name="Complainer"/>
+                    <label end="79" start="77" name="Complainer"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21523">
+            <text>Il est vrai qu' il y a cent ans déjà , la France , gémissant sous la crise , débattait de thèmes familiers : le protectionnisme et les étrangers voleurs d' emplois ...</text>
+            <annotationSet status="MANUAL" ID="24876">
+                <layer rank="1" name="FE">
+                    <label end="47" start="39" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

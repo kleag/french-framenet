@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="décliner.v" ID="2424" frame="Respond_to_proposal" frameID="1623" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="int" name="Interlocutor"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Interlocutor"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Interlocutor"/>
+                <annoSet ID="22608"/>
+                <annoSet ID="23060"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposal"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="22608"/>
+                <annoSet ID="23060"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="22608"/>
+                <annoSet ID="23060"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18477">
+            <text>Mr Jean Drucker , PDG de M6 , a indiqué vendredi 12 janvier à la Correspondance de la presse qu' il avait décliné l' offre qui lui avait été faite de se porter candidat à la présidence de l' agence France - Presse .</text>
+            <annotationSet status="MANUAL" ID="22608">
+                <layer rank="1" name="FE">
+                    <label end="212" start="114" name="Proposal"/>
+                    <label end="98" start="97" name="Speaker"/>
+                    <label itype="UNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19002">
+            <text>Ce qui revient en fait à laisser à l' ancien monarque le soin de décliner toute proposition contraire à sa stratégie d' intégration des khmers rouges , les protégés de Pékin .</text>
+            <annotationSet status="MANUAL" ID="23060">
+                <layer rank="1" name="FE">
+                    <label end="172" start="74" name="Proposal"/>
+                    <label end="52" start="35" name="Speaker"/>
+                    <label itype="UNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

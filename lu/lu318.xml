@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="règlement.n" ID="318" frame="Commerce_pay" frameID="180" totalAnnotated="14" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Way_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="14">
+            <FE name="Buyer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="3965"/>
+                <annoSet ID="10241"/>
+                <annoSet ID="17638"/>
+                <annoSet ID="19455"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="3679"/>
+                <annoSet ID="14835"/>
+                <annoSet ID="17135"/>
+                <annoSet ID="18069"/>
+                <annoSet ID="18187"/>
+                <annoSet ID="19628"/>
+                <annoSet ID="21825"/>
+                <annoSet ID="21984"/>
+                <annoSet ID="21985"/>
+                <annoSet ID="24522"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Goods"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="3965"/>
+                <annoSet ID="19455"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="17638"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Money"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="3679"/>
+                <annoSet ID="10241"/>
+                <annoSet ID="18187"/>
+                <annoSet ID="24522"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="3965"/>
+                <annoSet ID="14835"/>
+                <annoSet ID="17135"/>
+                <annoSet ID="17638"/>
+                <annoSet ID="18069"/>
+                <annoSet ID="19455"/>
+                <annoSet ID="19628"/>
+                <annoSet ID="21825"/>
+                <annoSet ID="21984"/>
+                <annoSet ID="21985"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Seller"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="3679"/>
+            </pattern>
+            <pattern total="12">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="3965"/>
+                <annoSet ID="10241"/>
+                <annoSet ID="14835"/>
+                <annoSet ID="17135"/>
+                <annoSet ID="18069"/>
+                <annoSet ID="18187"/>
+                <annoSet ID="19455"/>
+                <annoSet ID="19628"/>
+                <annoSet ID="21825"/>
+                <annoSet ID="21984"/>
+                <annoSet ID="21985"/>
+                <annoSet ID="24522"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2812">
+            <text>- L' enquête a montré que , pour cet appel d' offres , des commissions avaient été versées , via le règlement de factures d' " assistance commerciale " à l' une des sociétés de Jean-Claude Méry .</text>
+            <annotationSet status="MANUAL" ID="3679">
+                <layer rank="1" name="FE">
+                    <label end="150" start="113" name="Money"/>
+                    <label end="192" start="154" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3069">
+            <text>Le 12 février 1953 , l' OIC imposa aux banques le recours au crédit documentaire pour le règlement des importations provenant de l' Union française .</text>
+            <annotationSet status="MANUAL" ID="3965">
+                <layer rank="1" name="FE">
+                    <label end="45" start="39" name="Buyer"/>
+                    <label end="146" start="103" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6891">
+            <text>Il semble que , faute d' accord sur le règlement du passif , une partie des fournisseurs ait refusé tout crédit aux repreneurs du magazine .</text>
+            <annotationSet status="MANUAL" ID="10241">
+                <layer rank="1" name="FE">
+                    <label end="137" start="116" name="Buyer"/>
+                    <label end="57" start="52" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10608">
+            <text>Après la hausse sensible de la veille ( 1 , 49 % ) , la journée du 22 décembre fut la plus belle de cette brève semaine de quatre jours avec 2 , 13 % de hausse et un montant de transactions soutenu sur le marché à règlement mensuel avoisinant les 3 , 5 milliards de francs .</text>
+            <annotationSet status="MANUAL" ID="14835">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="222" start="214" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12769">
+            <text>Le 5 janvier , les actions MMB seront cotées au marché à règlement mensuel sous le nom de Lagardère Groupe .</text>
+            <annotationSet status="MANUAL" ID="17135">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13270">
+            <text>40 % du commerce extérieur de la Chine passe physiquement par Hongkong et sans doute 60 % de ses règlements commerciaux .</text>
+            <annotationSet status="MANUAL" ID="17638">
+                <layer rank="1" name="FE">
+                    <label end="95" start="93" name="Buyer"/>
+                    <label end="37" start="30" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13754">
+            <text>Les boursiers ne s' y sont pas trompés : avec une progression annuelle de ... 140 % , le titre CSEE est , de loin , la valeur du règlement mensuel qui a le plus progressé , passant de 192 , 10 francs , son cours du 31 décembre , à plus de 500 francs .</text>
+            <annotationSet status="MANUAL" ID="18069">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13877">
+            <text>L' un des plus grands perdants du secteur est cependant Eurotunnel , concessionnaire du tunnel sous la Manche , en conflit perpétuel avec ses constructeurs sur le règlement des surcoûts , dont le titre a chuté de près de 30 % sur 1992 .</text>
+            <annotationSet status="MANUAL" ID="18187">
+                <layer rank="1" name="FE">
+                    <label end="184" start="177" name="Money"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="171" start="163" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15209">
+            <text>En dehors des délais d' attente très longs aux postes de douane entre les deux pays , le règlement des achats par les détaillants slovaques constitue la principale angoisse de Pavel Maly .</text>
+            <annotationSet status="MANUAL" ID="19455">
+                <layer rank="1" name="FE">
+                    <label end="138" start="114" name="Buyer"/>
+                    <label end="108" start="103" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15371">
+            <text>Cette arrivée sur le second marché devrait être suivie d' un passage rapide au règlement mensuel , si possible " dès le printemps prochain " , selon Patrick Pariente , directeur général de la société .</text>
+            <annotationSet status="MANUAL" ID="19628">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17757">
+            <text>Les banques centrales nationales pourraient très bien réaliser - en conformité avec les directives et les instructions du système européen de banques centrales - les opérations de règlement , les opérations d' open market avec les banques et les opérations en commission effectuées pour le compte des institutions gouvernementales , etc .</text>
+            <annotationSet status="MANUAL" ID="21825">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="188" start="180" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17915">
+            <text>Les trente - et - une valeurs lilloises du règlement mensuel seront toutes traitées de cette manière avant la fin du premier trimestre .</text>
+            <annotationSet status="MANUAL" ID="21984">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17916">
+            <text>Dans un premier temps , la cotation en continu à Nancy concernera , pour le marché au comptant , la société Gantois , de Saint - Dié ( Vosges ) , les Aciéries et laminoirs de Beautor , de La Fère ( Aisne ) et les Cristalleries de Baccarat , et , pour les actions cotées au règlement mensuel , la SDR d' Alsace SADE , ainsi que l' immobilière Bâtibail de Metz , cotée au second marché .</text>
+            <annotationSet status="MANUAL" ID="21985">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="281" start="273" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20985">
+            <text>Ainsi sont en suspens les règlements dus au titre de l' allocation de formation - reclassement ( AFR ) , qui sont pris en charge à 80 % par l' Etat .</text>
+            <annotationSet status="MANUAL" ID="24522">
+                <layer rank="1" name="FE">
+                    <label end="146" start="22" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

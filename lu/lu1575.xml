@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="mettre en doute.v" ID="1575" frame="FR_Expressing_truth_of_proposition" frameID="10071" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prop" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Core" abbrev="pspkr" name="Past_speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="16421"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Past_speaker"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Proposition"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="14549"/>
+                <annoSet ID="16421"/>
+                <annoSet ID="19145"/>
+                <annoSet ID="22897"/>
+                <annoSet ID="23764"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="14549"/>
+                <annoSet ID="16421"/>
+                <annoSet ID="22897"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="19145"/>
+                <annoSet ID="23764"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10371">
+            <text>Mais l' ITC a estimé que ce consortium n' était pas en mesure d' assurer les programmes proposés pour les dix ans à venir et mis en doute la solidité de son financement .</text>
+            <annotationSet status="MANUAL" ID="14549">
+                <layer rank="1" name="FE">
+                    <label end="167" start="138" name="Proposition"/>
+                    <label end="10" start="5" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12097">
+            <text>Dans un communiqué publié le jour même , la représentante américaine pour le commerce , Mme Carla Hills , a mis en doute la détermination de Tokyo à ouvrir son marché .</text>
+            <annotationSet status="MANUAL" ID="16421">
+                <layer rank="1" name="FE">
+                    <label end="165" start="121" name="Proposition"/>
+                    <label end="102" start="41" name="Speaker"/>
+                    <label end="37" start="5" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14866">
+            <text>Une telle apathie collective inviterait presque à mettre en doute l' utilité de l' " alternance démocratique " .</text>
+            <annotationSet status="MANUAL" ID="19145">
+                <layer rank="1" name="FE">
+                    <label end="109" start="66" name="Proposition"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18810">
+            <text>Mais beaucoup d' opérateurs mettent en doute la capacité de l' Italie à mettre fin rapidement à ses errements antérieurs , faute de cohésion politique .</text>
+            <annotationSet status="MANUAL" ID="22897">
+                <layer rank="1" name="FE">
+                    <label end="119" start="45" name="Proposition"/>
+                    <label end="26" start="5" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20023">
+            <text>On n' a plus idée du climat d' intolérance intellectuelle qui régnait alors dans une maison aussi civilisée que l' OCDE : mettre en doute les bienfaits d' une relance par le déficit , parler des dangers de l' endettement et de l' inévitable venue d' une période de " liquidation " , ne pas rejeter entièrement la responsabilité des déséquilibres sur les pays excédentaires , douter qu' une bonne petite dose d' inflation fût une bonne chose pour l' emploi , c' était , encore en 1978 , anathème .</text>
+            <annotationSet status="MANUAL" ID="23764">
+                <layer rank="1" name="FE">
+                    <label end="180" start="138" name="Proposition"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

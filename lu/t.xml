@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="accusation.n" ID="1916" frame="Judgment_communication" frameID="219" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Communicator"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="2509"/>
+                <annoSet ID="12809"/>
+                <annoSet ID="19407"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="2492"/>
+                <annoSet ID="7912"/>
+                <annoSet ID="11902"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Evaluee"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="2492"/>
+                <annoSet ID="2509"/>
+                <annoSet ID="7912"/>
+                <annoSet ID="11902"/>
+                <annoSet ID="19407"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Evaluee"/>
+                <annoSet ID="12809"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Reason"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="7912"/>
+                <annoSet ID="11902"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2236">
+            <text>À_partir_de ce jour , Valéry Giscard d' Estaing ne lira plus Le Monde , blessé par les accusations fondées sur les seules informations du Canard enchaîné , et par la mise en_cause de son père et de ses cousins dans des activités liées à l' Afrique mais qui n' avaient rien à voir avec Bokassa et son cadeau .</text>
+            <annotationSet status="MANUAL" ID="2492">
+                <layer rank="1" name="FE">
+                    <label end="152" start="83" name="Message"/>
+                    <label end="46" start="22" name="Evaluee"/>
+                    <label itype="DNI" name="Communicator"/>
+                    <label itype="DNI" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2245">
+            <text>La piètre défense , teintée de mépris , de Valéry Giscard d' Estaing accrédite finalement aux yeux du public l' accusation portée par Le Canard enchaîné .</text>
+            <annotationSet status="MANUAL" ID="2509">
+                <layer rank="1" name="FE">
+                    <label end="151" start="134" name="Communicator"/>
+                    <label end="151" start="109" name="Message"/>
+                    <label end="67" start="43" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6271">
+            <text>Reports ou renvois qui n' empêchent pas M. Bérégovoy de juger " injuste " l' accusation d' immobilisme .</text>
+            <annotationSet status="MANUAL" ID="7912">
+                <layer rank="1" name="FE">
+                    <label end="101" start="91" name="Reason"/>
+                    <label end="51" start="40" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9957">
+            <text>De fait , la démarche de Kondratieff l' amène très tôt à être en butte à l' accusation d' apologie du capitalisme .</text>
+            <annotationSet status="MANUAL" ID="11902">
+                <layer rank="1" name="FE">
+                    <label end="112" start="90" name="Reason"/>
+                    <label end="38" start="37" name="Evaluee"/>
+                    <label end="35" start="25" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10850">
+            <text>C' est l' accusation que distille Londres et que reprend à plusieurs reprises le quotidien britannique des affaires , le Financial Times - rebaptisé Financial Sun dans les couloirs du Trésor parisien .</text>
+            <annotationSet status="MANUAL" ID="12809">
+                <layer rank="1" name="FE">
+                    <label end="40" start="34" name="Communicator"/>
+                    <label end="198" start="7" name="Message"/>
+                    <label itype="DNI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19146">
+            <text>Le nouveau ministre de l' intérieur , le général Abdel Halim Moussa , a démenti les accusations de l' organisation égyptienne .</text>
+            <annotationSet status="MANUAL" ID="19407">
+                <layer rank="1" name="FE">
+                    <label end="124" start="99" name="Communicator"/>
+                    <label end="124" start="80" name="Message"/>
+                    <label end="66" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

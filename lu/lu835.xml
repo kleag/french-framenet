@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="préjugé.n" ID="835" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="6378"/>
+                <annoSet ID="18431"/>
+                <annoSet ID="20576"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="18431"/>
+                <annoSet ID="20576"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4512">
+            <text>En abandonnant les préjugés simplificateurs et certains postulats d' une autre époque qui ne concèderont jamais aux outils audiovisuels la légitimité culturelle de l' écrit .</text>
+            <annotationSet status="MANUAL" ID="6378">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14101">
+            <text>En mettant exclusivement l' accent sur l' aspect " compétition " du marché , les socialistes sont allés à la rencontre des préjugés nationaux de nature élitiste .</text>
+            <annotationSet status="MANUAL" ID="18431">
+                <layer rank="1" name="FE">
+                    <label end="159" start="123" name="Content"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16385">
+            <text>On ne peut pas continuer à exiger " des compétences ou des diplômes supérieurs à la nature des postes offerts " ; on ne peut pas " demander systématiquement que des fonctions identiques aient été exercées antérieurement " , et il faut cesser de " se méfier par préjugé des demandeurs d' emploi se trouvant au chômage depuis un certain temps " .</text>
+            <annotationSet status="MANUAL" ID="20576">
+                <layer rank="1" name="FE">
+                    <label end="267" start="261" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="267" start="261" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

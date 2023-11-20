@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="prévention.n" ID="2653" frame="Preventing" frameID="516" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Pre" name="Preventing_cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Event" name="Event"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Age" name="Agent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Agent"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="12920"/>
+                <annoSet ID="23603"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Event"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Event"/>
+                <annoSet ID="1312"/>
+                <annoSet ID="12920"/>
+                <annoSet ID="23609"/>
+                <annoSet ID="23618"/>
+                <annoSet ID="23626"/>
+                <annoSet ID="23633"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Event"/>
+                <annoSet ID="1721"/>
+                <annoSet ID="23592"/>
+                <annoSet ID="23603"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Preventing_cause"/>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Preventing_cause"/>
+                <annoSet ID="1312"/>
+                <annoSet ID="1721"/>
+                <annoSet ID="23592"/>
+                <annoSet ID="23609"/>
+                <annoSet ID="23618"/>
+                <annoSet ID="23626"/>
+                <annoSet ID="23633"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1278">
+            <text>Tous les patients ont reçu une supplémentation en vitamine D et en calcium : dans l' étude menée sur l' ostéoporose post-ménopausique ( étude PFT ) , dans l' étude sur la prévention des fractures cliniques après fracture de hanche ( étude RFT ) ainsi que dans les études de la maladie de Paget ( voir également rubrique 4.2 ) .</text>
+            <annotationSet status="MANUAL" ID="1312">
+                <layer rank="1" name="FE">
+                    <label end="229" start="186" name="Event"/>
+                    <label itype="UNI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="180" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1621">
+            <text>J' ai également souligné le besoin de prévention .</text>
+            <annotationSet status="MANUAL" ID="1721">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Event"/>
+                    <label itype="UNI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9024">
+            <text>En juin 1988 , il devient secrétaire d' Etat chargé de la prévention des risques technologiques et naturels majeurs au sein du gouvernement de M. Michel Rocard , et , en mars 1989 , à l' occasion d' un remaniement , il accède au poste de secrétaire d' Etat à la défense , au côté de M. Chevènement , dont il a , du temps du CERES , partagé certaines des convictions .</text>
+            <annotationSet status="MANUAL" ID="12920">
+                <layer rank="1" name="FE">
+                    <label end="114" start="73" name="Event"/>
+                    <label end="53" start="26" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19840">
+            <text>( 2 ) Office professionnel de prévention du BTP .</text>
+            <annotationSet status="MANUAL" ID="23592">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Event"/>
+                    <label itype="ENI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19858">
+            <text>Elle instaure un système dispensant les entreprises faisant un effort en matière de prévention de payer pour les autres .</text>
+            <annotationSet status="MANUAL" ID="23603">
+                <layer rank="1" name="FE">
+                    <label end="82" start="36" name="Agent"/>
+                    <label itype="DNI" name="Event"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19864">
+            <text>Cette disposition , également suggérée par M. Querrien , a été introduite sous forme d' un amendement lors de l' examen en première lecture du projet de loi renforçant la prévention des risques professionnels .</text>
+            <annotationSet status="MANUAL" ID="23609">
+                <layer rank="1" name="FE">
+                    <label end="207" start="186" name="Event"/>
+                    <label itype="ENI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="180" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19869">
+            <text>Si , d' une façon générale , l' arsenal juridique et répressif en matière de prévention des accidents du travail est au point , il reste difficile à mettre en oeuvre dans le contexte actuel , reconnaît -on au ministère du travail .</text>
+            <annotationSet status="MANUAL" ID="23618">
+                <layer rank="1" name="FE">
+                    <label end="111" start="92" name="Event"/>
+                    <label itype="UNI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19875">
+            <text>Deux facteurs de la prévention des accidents du travail demeurent mal maîtrisés : l' analyse encore insuffisante des risques et la nécessaire coordination de la sécurité entre les multiples intervenants d' un chantier .</text>
+            <annotationSet status="MANUAL" ID="23626">
+                <layer rank="1" name="FE">
+                    <label end="54" start="35" name="Event"/>
+                    <label itype="UNI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19880">
+            <text>En matière de coordination des plans de sécurité , la principale réponse est , pour l' heure , proposée par les ministres européens des affaires sociales , qui viennent d' adopter une position commune sur le projet de directive relative à la prévention des accidents sur les chantiers mobiles et temporaires .</text>
+            <annotationSet status="MANUAL" ID="23633">
+                <layer rank="1" name="FE">
+                    <label end="265" start="253" name="Event"/>
+                    <label itype="UNI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="251" start="242" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="conception.n" ID="793" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="12" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="12">
+            <FE name="Cognizer"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="11147"/>
+                <annoSet ID="12097"/>
+                <annoSet ID="18481"/>
+                <annoSet ID="19893"/>
+                <annoSet ID="21636"/>
+                <annoSet ID="22500"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="2218"/>
+                <annoSet ID="3397"/>
+                <annoSet ID="10330"/>
+                <annoSet ID="14930"/>
+                <annoSet ID="23991"/>
+                <annoSet ID="24732"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Content"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="2218"/>
+                <annoSet ID="3397"/>
+                <annoSet ID="10330"/>
+                <annoSet ID="11147"/>
+                <annoSet ID="12097"/>
+                <annoSet ID="14930"/>
+                <annoSet ID="18481"/>
+                <annoSet ID="19893"/>
+                <annoSet ID="21636"/>
+                <annoSet ID="22500"/>
+                <annoSet ID="23991"/>
+                <annoSet ID="24732"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1842">
+            <text>Le deuxième élément est un surcroît de conception démocratique , ce qui signifie que si un ou plusieurs pays , quels qu' ils soient , pour une raison quelconque , souhaitent , du moins dans un premier temps , ne pas participer , cela ne peut être tenu pour une exclusion ni pour une limitation de leur présence au sein de l' Union .</text>
+            <annotationSet status="MANUAL" ID="2218">
+                <layer rank="1" name="FE">
+                    <label end="61" start="39" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2553">
+            <text>Dans leur courrier adressé à M. Fabius , les deux juges déploraient alors la " conception extensive " de la notion de secret défense qui représente selon eux dans cette affaire une entrave à la bonne marche de la justice .</text>
+            <annotationSet status="MANUAL" ID="3397">
+                <layer rank="1" name="FE">
+                    <label end="219" start="74" name="Content"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6972">
+            <text>Il a tenté de faire évoluer les conceptions " productivistes " .</text>
+            <annotationSet status="MANUAL" ID="10330">
+                <layer rank="1" name="FE">
+                    <label end="61" start="28" name="Content"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7676">
+            <text>Pour Michel Albert comme pour Alfred Grosser , le marché n' est sûrement pas le seul horizon pour l' Europe et ils se rangent derrière la conception de Jacques Delors pour qui l' Europe doit devenir " une zone de solidarité " .</text>
+            <annotationSet status="MANUAL" ID="11147">
+                <layer rank="1" name="FE">
+                    <label end="222" start="135" name="Content"/>
+                    <label end="222" start="152" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8476">
+            <text>" Le mode de communication ( pas ou peu de référence au contexte ) et leur conception du temps incitent les Allemands à faire un exposé détaillé , exhaustif du sujet de la conversation et à commencer cet exposé immédiatement (...) .</text>
+            <annotationSet status="MANUAL" ID="12097">
+                <layer rank="1" name="FE">
+                    <label end="93" start="70" name="Content"/>
+                    <label end="73" start="70" name="Cognizer"/>
+                    <label end="116" start="104" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10688">
+            <text>De son côté , et sans surprise , M. Raymond Barre , dans sa lettre mensuelle , a déclaré : " quand on entend et quand on lit les déclarations de personnalités politiques influentes françaises sur les dommages infligés à notre économie par la politique du franc fort , ou par le contrôle de la masse monétaire , quand on observe les prises de position de certains milieux patronaux en faveur de la dévaluation du franc ou de mesures protectionnistes , on est frappé de la résistance de certaines conceptions à la leçon des faits .</text>
+            <annotationSet status="MANUAL" ID="14930">
+                <layer rank="1" name="FE">
+                    <label end="505" start="485" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="505" start="495" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14142">
+            <text>Les influences des lobbies inflationnistes pourront s' exercer d' autant plus facilement que s' imposera la conception française de l' indépendance de la Banque centrale européenne .</text>
+            <annotationSet status="MANUAL" ID="18481">
+                <layer rank="1" name="FE">
+                    <label end="179" start="105" name="Content"/>
+                    <label end="127" start="119" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15704">
+            <text>Notre conception de la concurrence nous amène soit à provoquer des trêves dans nos relations commerciales soit , au contraire , à réaliser des accords avec nos concurrents ... même si cela ne plaît pas toujours à Bruxelles .</text>
+            <annotationSet status="MANUAL" ID="19893">
+                <layer rank="1" name="FE">
+                    <label end="33" start="0" name="Content"/>
+                    <label end="4" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17587">
+            <text>Annoncé par Mr Pfeiffer comme " très important " , le chapitre sur l' utilisation d' informations privilégiées s' attache d' abord à définir ce terme , en rejoignant en la matière la conception européenne , avant de recenser les personnes susceptibles d' être initiées et de définir leurs obligations .</text>
+            <annotationSet status="MANUAL" ID="21636">
+                <layer rank="1" name="FE">
+                    <label end="203" start="180" name="Content"/>
+                    <label end="203" start="194" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="192" start="183" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18371">
+            <text>Quoi de plus naturel , quand on milite quelque part et que l' on n' est pas d' accord avec les méthodes ou les orientations proposées par le secrétaire général de son mouvement , que de vouloir défendre sa propre conception des choses ?</text>
+            <annotationSet status="MANUAL" ID="22500">
+                <layer rank="1" name="FE">
+                    <label end="233" start="203" name="Content"/>
+                    <label end="204" start="203" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="222" start="213" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20268">
+            <text>Cette conception -là correspond assez à une politique nouvelle de l' Etat actionnaire , qui consiste à se dégager progressivement d' une activité pourtant stratégique , dite de souveraineté nationale , et à exiger des industriels qu' ils s' auto- financent davantage .</text>
+            <annotationSet status="MANUAL" ID="23991">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21323">
+            <text>A cette conception , les " modernes " opposent la compétitivité " hors coût " .</text>
+            <annotationSet status="MANUAL" ID="24732">
+                <layer rank="1" name="FE">
+                    <label end="17" start="2" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

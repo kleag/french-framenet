@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="NA" name="All annotations of frame Make_agreement_on_action" ID="Make_agreement_on_action" frame="Make_agreement_on_action" frameID="10039" totalAnnotated="21" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="par1" name="Party_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="par2" name="Party_2"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="obl" name="Obligation"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="pars" name="Parties"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="19">
+            <FE name="Obligation"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Obligation"/>
+                <annoSet ID="1608"/>
+                <annoSet ID="1675"/>
+                <annoSet ID="8325"/>
+                <annoSet ID="9430"/>
+                <annoSet ID="11778"/>
+                <annoSet ID="14721"/>
+                <annoSet ID="21577"/>
+                <annoSet ID="23914"/>
+                <annoSet ID="15261"/>
+                <annoSet ID="9807"/>
+                <annoSet ID="10083"/>
+                <annoSet ID="16762"/>
+                <annoSet ID="18914"/>
+                <annoSet ID="14303"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Obligation"/>
+                <annoSet ID="8193"/>
+                <annoSet ID="8989"/>
+                <annoSet ID="18063"/>
+                <annoSet ID="21863"/>
+                <annoSet ID="11982"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Parties"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Parties"/>
+                <annoSet ID="1608"/>
+                <annoSet ID="8325"/>
+                <annoSet ID="9430"/>
+                <annoSet ID="21577"/>
+                <annoSet ID="23914"/>
+                <annoSet ID="15261"/>
+                <annoSet ID="9807"/>
+                <annoSet ID="10083"/>
+                <annoSet ID="11982"/>
+                <annoSet ID="13702"/>
+                <annoSet ID="18914"/>
+                <annoSet ID="14303"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Parties"/>
+                <annoSet ID="1675"/>
+                <annoSet ID="14721"/>
+                <annoSet ID="16762"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Party_1"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Party_1"/>
+                <annoSet ID="11778"/>
+                <annoSet ID="8193"/>
+                <annoSet ID="8989"/>
+                <annoSet ID="14787"/>
+                <annoSet ID="18063"/>
+                <annoSet ID="21863"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Party_2"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Party_2"/>
+                <annoSet ID="8193"/>
+                <annoSet ID="8989"/>
+                <annoSet ID="14787"/>
+                <annoSet ID="18063"/>
+                <annoSet ID="21863"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Party_2"/>
+                <annoSet ID="11778"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Topic"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="8325"/>
+                <annoSet ID="13702"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1567">
+            <text>Il s' agit , en somme , d' une excellente proposition et je recommande - comme l' ont convenu les groupes - son soutien et son adoption par tous .</text>
+            <annotationSet status="MANUAL" ID="1608">
+                <layer rank="1" name="FE">
+                    <label end="80" start="79" name="Obligation"/>
+                    <label end="143" start="108" name="Obligation"/>
+                    <label end="104" start="94" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1593">
+            <text>L' UE doit aussi avancer dans son travail législatif conformément à ce qui a été convenu à l' OMPI .</text>
+            <annotationSet status="MANUAL" ID="1675">
+                <layer rank="1" name="FE">
+                    <label end="73" start="71" name="Obligation"/>
+                    <label itype="UNI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5670">
+            <text>- Le commissaire européen à la concurrence , sir Leon Brittan , et le président de Nestlé , M. Helmut Maucher , sont convenus , faute d' accord sur le fond , d' un " moratoire " jusqu' au 4 août concernant la reprise de Perrier par l' entreprise suisse , a déclaré mercredi 1 juillet un porte - parole de Nestlé à Vevey .</text>
+            <annotationSet status="MANUAL" ID="8325">
+                <layer rank="1" name="FE">
+                    <label end="251" start="206" name="Topic"/>
+                    <label end="193" start="161" name="Obligation"/>
+                    <label end="108" start="2" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6315">
+            <text>" Les deux parties (...) sont convenues que le Fonds ne déclarerait pas le programme suspendu et que la côte - d' ivoire s' abstiendrait de revendiquer ses droits de tirage , indiquait -on vendredi de même source .</text>
+            <annotationSet status="MANUAL" ID="9430">
+                <layer rank="1" name="FE">
+                    <label end="95" start="44" name="Obligation"/>
+                    <label end="171" start="101" name="Obligation"/>
+                    <label end="17" start="2" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8180">
+            <text>Comme convenu , l' ULN se sépare de la Générale ultra - frais ( GUF ) , cette filiale qui produit les yaourts Mamie Nova .</text>
+            <annotationSet status="MANUAL" ID="11778">
+                <layer rank="1" name="FE">
+                    <label end="119" start="16" name="Obligation"/>
+                    <label end="21" start="16" name="Party_1"/>
+                    <label itype="DNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10511">
+            <text>Comme convenu , pour financer ce rachat ( le Monde du 12 novembre ) , la banque du boulevard des Italiens procédera dans un premier temps à une augmentation de capital d' un montant de 1 , 785 milliard de francs réservée aux assurances générales de France ( AGF ) , faisant de l' assureur , avec 7 % du capital , le premier actionnaire de la banque après l' Etat .</text>
+            <annotationSet status="MANUAL" ID="14721">
+                <layer rank="1" name="FE">
+                    <label end="262" start="70" name="Obligation"/>
+                    <label itype="DNI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17534">
+            <text>Après une suspension de séance les deux parties ont ajourné la table ronde à jeudi matin , alors qu' il était initialement convenu de se rencontrer tous les jours .</text>
+            <annotationSet status="MANUAL" ID="21577">
+                <layer rank="1" name="FE">
+                    <label end="161" start="134" name="Obligation"/>
+                    <label end="46" start="31" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20174">
+            <text>" A l' issue de cette envolée , le président de Chrysler a toutefois indiqué que lui - même et ses homologues de General Motors ( M. Robert Stempel ) et de Ford ( M. Harold Poling ) étaient convenus de continuer aux Etats - Unis en février les " discussions " amorcées à Tokyo avec les patrons des cinq principaux constructeurs japonais .</text>
+            <annotationSet status="MANUAL" ID="23914">
+                <layer rank="1" name="FE">
+                    <label end="335" start="202" name="Obligation"/>
+                    <label end="180" start="81" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="190" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5605">
+            <text>Digital Equipment formait un joint - venture avec la Comau ( machines - outils ) ; Seiko et Canon s' alliaient avec Olivetti , et les Italiens - outre Fiat , pionniers des pionniers qui , il y a quelques semaines encore , a signé un important contrat pour la construction d' une usine de voitures en Pologne - n' étaient pas les derniers à regarder vers l' Est .</text>
+            <annotationSet status="MANUAL" ID="8193">
+                <layer rank="1" name="FE">
+                    <label end="123" start="116" name="Party_2"/>
+                    <label end="96" start="83" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6056">
+            <text>Aujourd' hui , c' est au tour de Matra de s' allier au canadien Northern Telecom .</text>
+            <annotationSet status="MANUAL" ID="8989">
+                <layer rank="1" name="FE">
+                    <label end="79" start="55" name="Party_2"/>
+                    <label end="37" start="33" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10574">
+            <text>Avec une diffusion en baisse - 14 000 exemplaires - due notamment à la concurrence de Charlie - hebdo relancé en juillet , l' éditeur de La grosse Bertha , M. Jean - Cyrille Godefroy , a préféré s' allier avec Hara - kiri .</text>
+            <annotationSet status="MANUAL" ID="14787">
+                <layer rank="1" name="FE">
+                    <label end="220" start="210" name="Party_2"/>
+                    <label end="183" start="123" name="Party_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="203" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13749">
+            <text>Mais cette solution a fait long feu , Sagem ayant choisi au mois d' octobre de s' allier au britannique Lucas .</text>
+            <annotationSet status="MANUAL" ID="18063">
+                <layer rank="1" name="FE">
+                    <label end="108" start="92" name="Party_2"/>
+                    <label end="42" start="38" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17786">
+            <text>Le gouvernement s' est donc allié , en quelque sorte , aux médecins grévistes .</text>
+            <annotationSet status="MANUAL" ID="21863">
+                <layer rank="1" name="FE">
+                    <label end="76" start="59" name="Party_2"/>
+                    <label end="14" start="0" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="16" name="Target"/>
+                    <label end="32" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11010">
+            <text>En revanche , celle sur le changement climatique global , a été finalement ratifiée par tout le monde , y compris les Etats - Unis , car on s' est arrangé pour en supprimer toute contrainte chiffrée et tout calendrier .</text>
+            <annotationSet status="MANUAL" ID="15261">
+                <layer rank="1" name="FE">
+                    <label end="216" start="160" name="Obligation"/>
+                    <label end="138" start="137" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="140" name="Target"/>
+                    <label end="153" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6575">
+            <text>L' Allemagne , puissance invitante , veut délivrer un message " de confiance et d' optimisme " et souhaite que les Sept s' entendent sur des mesures " concrètes " .</text>
+            <annotationSet status="MANUAL" ID="9807">
+                <layer rank="1" name="FE">
+                    <label end="161" start="137" name="Obligation"/>
+                    <label end="118" start="111" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="120" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6772">
+            <text>Dans l' application des accords , le management local et les syndicalistes peuvent s' entendre sur les voies à emprunter ( cercles de qualité , élargissement des qualifications , etc. ) pour atteindre les objectifs de l' entreprise .</text>
+            <annotationSet status="MANUAL" ID="10083">
+                <layer rank="1" name="FE">
+                    <label end="230" start="99" name="Obligation"/>
+                    <label end="73" start="34" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8355">
+            <text>Mais la négociation ouverte il y a trois ans est bloquée en raison de l' incapacité des six organisations patronales à s' entendre .</text>
+            <annotationSet status="MANUAL" ID="11982">
+                <layer rank="1" name="FE">
+                    <label end="115" start="88" name="Parties"/>
+                    <label itype="DNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12423">
+            <text>Reste à s' entendre concrètement sur les sacrifices .</text>
+            <annotationSet status="MANUAL" ID="16762">
+                <layer rank="1" name="FE">
+                    <label end="50" start="37" name="Obligation"/>
+                    <label itype="ENI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9720">
+            <text>Accords au sommet européen d' Edimbourg : les chefs d' état et de gouvernement de la CEE réunis à Edimbourg les 11 et 12 décembre ont décidé une " initiative européenne de croissance " et se sont mis d' accord sur le financement de la CEE dans les années à venir ( le Monde du 16 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="13702">
+                <layer rank="1" name="FE">
+                    <label end="261" start="214" name="Topic"/>
+                    <label end="128" start="42" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="189" start="188" name="Target"/>
+                    <label end="208" start="196" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14600">
+            <text>Les Douze se sont mis d' accord sur des mesures de rétorsion commerciales contre les Etats - Unis , après l' interdiction faite aux entreprises européennes de répondre à certains appels d' offres pour des marchés publics américains dans le domaine des télécommunications , selon des informations recueillies auprès de la présidence danoise de la CEE .</text>
+            <annotationSet status="MANUAL" ID="18914">
+                <layer rank="1" name="FE">
+                    <label end="96" start="36" name="Obligation"/>
+                    <label end="8" start="0" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="10" name="Target"/>
+                    <label end="30" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10170">
+            <text>- Le Koweït et l' Espagne sont tombés d' accord pour trouver une solution à l' affaire du groupe Torras , filiale de KIO ( Kuweit investment Office ) et fer de lance des investissements koweïtiens dans la péninsule ibérique , récemment mis en cessation de paiement .</text>
+            <annotationSet status="MANUAL" ID="14303">
+                <layer rank="1" name="FE">
+                    <label end="263" start="53" name="Obligation"/>
+                    <label end="24" start="2" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

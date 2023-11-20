@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'allier.v" ID="2012" frame="Make_agreement_on_action" frameID="10039" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="par1" name="Party_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="par2" name="Party_2"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="obl" name="Obligation"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="pars" name="Parties"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Obligation"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Obligation"/>
+                <annoSet ID="8193"/>
+                <annoSet ID="8989"/>
+                <annoSet ID="18063"/>
+                <annoSet ID="21863"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Parties"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Party_1"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Party_1"/>
+                <annoSet ID="8193"/>
+                <annoSet ID="8989"/>
+                <annoSet ID="14787"/>
+                <annoSet ID="18063"/>
+                <annoSet ID="21863"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Party_2"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Party_2"/>
+                <annoSet ID="8193"/>
+                <annoSet ID="8989"/>
+                <annoSet ID="14787"/>
+                <annoSet ID="18063"/>
+                <annoSet ID="21863"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5605">
+            <text>Digital Equipment formait un joint - venture avec la Comau ( machines - outils ) ; Seiko et Canon s' alliaient avec Olivetti , et les Italiens - outre Fiat , pionniers des pionniers qui , il y a quelques semaines encore , a signé un important contrat pour la construction d' une usine de voitures en Pologne - n' étaient pas les derniers à regarder vers l' Est .</text>
+            <annotationSet status="MANUAL" ID="8193">
+                <layer rank="1" name="FE">
+                    <label end="123" start="116" name="Party_2"/>
+                    <label end="96" start="83" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6056">
+            <text>Aujourd' hui , c' est au tour de Matra de s' allier au canadien Northern Telecom .</text>
+            <annotationSet status="MANUAL" ID="8989">
+                <layer rank="1" name="FE">
+                    <label end="79" start="55" name="Party_2"/>
+                    <label end="37" start="33" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10574">
+            <text>Avec une diffusion en baisse - 14 000 exemplaires - due notamment à la concurrence de Charlie - hebdo relancé en juillet , l' éditeur de La grosse Bertha , M. Jean - Cyrille Godefroy , a préféré s' allier avec Hara - kiri .</text>
+            <annotationSet status="MANUAL" ID="14787">
+                <layer rank="1" name="FE">
+                    <label end="220" start="210" name="Party_2"/>
+                    <label end="183" start="123" name="Party_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="203" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13749">
+            <text>Mais cette solution a fait long feu , Sagem ayant choisi au mois d' octobre de s' allier au britannique Lucas .</text>
+            <annotationSet status="MANUAL" ID="18063">
+                <layer rank="1" name="FE">
+                    <label end="108" start="92" name="Party_2"/>
+                    <label end="42" start="38" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17786">
+            <text>Le gouvernement s' est donc allié , en quelque sorte , aux médecins grévistes .</text>
+            <annotationSet status="MANUAL" ID="21863">
+                <layer rank="1" name="FE">
+                    <label end="76" start="59" name="Party_2"/>
+                    <label end="14" start="0" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="16" name="Target"/>
+                    <label end="32" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

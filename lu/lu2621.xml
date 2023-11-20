@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="confirmation.n" ID="2621" frame="Ratification" frameID="1351" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="rat" name="Ratifier"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Proposal"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="19570"/>
+                <annoSet ID="19698"/>
+                <annoSet ID="20227"/>
+                <annoSet ID="20408"/>
+                <annoSet ID="24501"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Ratifier"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Ratifier"/>
+                <annoSet ID="20408"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Ratifier"/>
+                <annoSet ID="19570"/>
+                <annoSet ID="19698"/>
+                <annoSet ID="24501"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15302">
+            <text>Une sorte de donnant - donnant franco - allemand avait été conclu : la France obtenait la confirmation de Strasbourg comme siège du Parlement et l' Allemagne abriterait la future banque centrale .</text>
+            <annotationSet status="MANUAL" ID="19570">
+                <layer rank="1" name="FE">
+                    <label end="140" start="106" name="Proposal"/>
+                    <label itype="ENI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15434">
+            <text>A l' annonce de cette décision , Catherine Trautmann , maire ( PS ) de Strasbourg , s' est " félicitée " de ce que " cette confirmation du transfert marque un respect des engagements pris " et " permet de mettre un terme aux derniers arguments jacobins qui liaient abusivement la qualité de l' enseignement de l' ENA à sa proximité avec les ministères " .</text>
+            <annotationSet status="MANUAL" ID="19698">
+                <layer rank="1" name="FE">
+                    <label end="147" start="139" name="Proposal"/>
+                    <label itype="ENI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16057">
+            <text>La confirmation de cette commande était attendue depuis août 1991 .</text>
+            <annotationSet status="MANUAL" ID="20227">
+                <layer rank="1" name="FE">
+                    <label end="32" start="19" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16245">
+            <text>Malgré tout , Euronews a pu faire état , avant le début de ses émissions , de la confirmation d' un prêt participatif de 15 millions de francs accordé par les collectivités locales ( région Rhône - Alpes , département du Rhône , communauté urbaine de Lyon ) et d' une aide annuelle de celles - ci fixée à 1 , 5 million d' écus en dix ans .</text>
+            <annotationSet status="MANUAL" ID="20408">
+                <layer rank="1" name="FE">
+                    <label end="256" start="155" name="Ratifier"/>
+                    <label end="256" start="97" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20966">
+            <text>Confirmation du " règlement de base "</text>
+            <annotationSet status="MANUAL" ID="24501">
+                <layer rank="1" name="FE">
+                    <label end="34" start="18" name="Proposal"/>
+                    <label itype="ENI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se rappeler.v" ID="1340" frame="FR_Memory-Remembering_experience-Remembering_information" frameID="10043" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="men" name="Mental_content"/>
+            <FE fgColor="FFFFFF" bgColor="0099FF" type="Core" abbrev="sal" name="Salient_entity"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="1596"/>
+                <annoSet ID="1668"/>
+                <annoSet ID="23577"/>
+                <annoSet ID="23771"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="18487"/>
+                <annoSet ID="18682"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Mental_content"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Mental_content"/>
+                <annoSet ID="1596"/>
+                <annoSet ID="1668"/>
+                <annoSet ID="18487"/>
+                <annoSet ID="18682"/>
+                <annoSet ID="23577"/>
+                <annoSet ID="23771"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Salient_entity"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1562">
+            <text>M. Turmes a abordé ce point et je me rappelle que les milieux industriels savent , en tout cas depuis 1992 , que les ballasts magnétiques seront plus ou moins interdits vers 2009 .</text>
+            <annotationSet status="MANUAL" ID="1596">
+                <layer rank="1" name="FE">
+                    <label end="32" start="31" name="Cognizer"/>
+                    <label end="177" start="50" name="Mental_content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1588">
+            <text>M. Wurtz devrait peut-être se rappeler qu' il n' y a pas si longtemps , des collègues de son parti , des maires communistes français , envoyaient des bulldozers contre des foyers d' immigrés en France .</text>
+            <annotationSet status="MANUAL" ID="1668">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cognizer"/>
+                    <label end="199" start="43" name="Mental_content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14147">
+            <text>Il faut se rappeler à ce propos que en prenant leurs charges à Bruxelles , les commissaires jurent de se montrer indépendants par rapport aux intérêts de leurs pays respectifs .</text>
+            <annotationSet status="MANUAL" ID="18487">
+                <layer rank="1" name="FE">
+                    <label end="174" start="36" name="Mental_content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14374">
+            <text>Si les partenaires sociaux doivent être associés , il faut se rappeler que 30 % des entreprises , seulement , comprennent des instances de représentation ou des syndicats .</text>
+            <annotationSet status="MANUAL" ID="18682">
+                <layer rank="1" name="FE">
+                    <label end="169" start="75" name="Mental_content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19803">
+            <text>Dans les années de récession du début 80 , " les banques les ont serrés à la gorge " : ils s' en rappellent et placent dorénavant leurs fonds .</text>
+            <annotationSet status="MANUAL" ID="23577">
+                <layer rank="1" name="FE">
+                    <label end="89" start="87" name="Cognizer"/>
+                    <label end="95" start="94" name="Mental_content"/>
+                    <label end="85" start="0" name="Mental_content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="91" name="Target"/>
+                    <label end="106" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20025">
+            <text>Mais , quand on se rappelle la conviction avec laquelle les idées aujourd' hui rejetées étaient professées , on ne peut s' empêcher de se poser la question : quels sont les thèmes développés aujourd' hui avec une assurance apparemment aussi affirmée ( l' arrogance en moins ) dont on est en droit de se méfier ?</text>
+            <annotationSet status="MANUAL" ID="23771">
+                <layer rank="1" name="FE">
+                    <label end="14" start="13" name="Cognizer"/>
+                    <label end="105" start="28" name="Mental_content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

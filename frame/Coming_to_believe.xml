@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Coming_to_believe" ID="23" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A person (the &lt;fen&gt;Cognizer&lt;/fen&gt;) comes to believe something (the &lt;fen&gt;Content&lt;/fen&gt;), sometimes after a process of reasoning. This change in belief is usually initiated by a person or piece of &lt;fen&gt;Evidence&lt;/fen&gt;. Occasionally words in this domain are accompanied by phrases expressing &lt;fen&gt;Topic&lt;/fen&gt;, i.e. that which the mental &lt;fen&gt;Content&lt;/fen&gt; is about. 
+
+&lt;ex&gt;&lt;fex name="Evidence"&gt;Based on the most recent census&lt;/fex&gt; &lt;fex name="Cognizer"&gt;I&lt;/fex&gt; have &lt;t&gt;concluded&lt;/t&gt; &lt;fex name="Content"&gt;that most Americans sleep too much&lt;/fex&gt;.&lt;/ex&gt;    
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt;: The reasoning from some Evidence or through some Means is the key aspect of that frame, to distinguish it from &lt;frframe&gt;FR_Becoming_aware&lt;/frframe&gt;. Contrary to the above definition, for the LUs of that frame, the change in belief cannot be initiated by another person (which is the case for &lt;frframe&gt;FR_Cognizer_affecting.veracity&lt;/frframe&gt;).
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;FR_Becoming_aware&lt;/frframe&gt;: Evidence is only a core role for Coming_to_believe: FR_Becoming_aware's LUs do not imply that the Cognizer's stance on the Content was based on anything, whereas Coming_to_believe's do.
+    
+    &lt;ex&gt;&lt;/ex&gt;
+≠ &lt;frframe&gt;FR_Cognizer_affecting.veracity&lt;/frframe&gt;: Coming_to_believe's Cognizer's stance cannot be initiated by a human volitional source, whereas FR_Cognizer_affecting.veracity's can.
+
+
+     &lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;FR_Awareness-Certainty-Opinion&lt;/frframe&gt;: Coming_to_believe is inchoative of FR_Awareness-Certainty-Opinion, which is a stative frame.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:54 PST Wed" abbrev="Cog" name="Cognizer" ID="98">
+        <definition>&lt;def-root&gt;Cognizer is the person who comes to believe something. &lt;fex name="Cognizer"&gt;Sue&lt;/fex&gt; &lt;t&gt;realized&lt;/t&gt; that Bob was lost. &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:54 PST Wed" abbrev="Evid" name="Evidence" ID="99">
+        <definition>&lt;def-root&gt;Words in this frame may occur with a PP headed by &lt;ment&gt;from&lt;/ment&gt; which expresses the Evidence on which knowledge or belief is based: I have &lt;t&gt;learned&lt;/t&gt; &lt;fex name="Evidence"&gt;from experience&lt;/fex&gt; that poison oak can be painful. &lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:54 PST Wed" abbrev="Cont" name="Content" ID="100">
+        <definition>&lt;def-root&gt;With a target verb, the Content is usually expressed as a finite clausal Complement or an Object NP, and may sometimes be expressed by a PP: The President &lt;t&gt;learned&lt;/t&gt; &lt;fex name="Content"&gt;that the reporters were hungry&lt;/fex&gt;. The children &lt;t&gt;determined&lt;/t&gt; &lt;fex name="Content"&gt;the answer&lt;/fex&gt;. &lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:54 PST Wed" abbrev="Top" name="Topic" ID="101">
+        <definition>&lt;def-root&gt;Some verbs in this frame may occur with postverbal Topic expressions: They &lt;t&gt;found out&lt;/t&gt; &lt;fex name="Topic"&gt;about us&lt;/fex&gt;! More generally verbs in this frame may occur with quantificational nouns followed by Topic expressions: The jury &lt;t&gt;learned&lt;/t&gt; something terrible &lt;fex name="Topic"&gt;about the suspect&lt;/fex&gt;. &lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="06/23/2001 06:24:54 PDT Sat" abbrev="Mns" name="Means" ID="993">
+        <definition>&lt;def-root&gt;An act performed by the &lt;fen&gt;Cognizer&lt;/fen&gt; which enables them to figure something out.
+&lt;ex&gt;&lt;fex name="Means"&gt;A post-mortem examination&lt;/fex&gt; was unable to &lt;t&gt;ascertain&lt;/t&gt; the cause of death.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="10/18/2005 04:20:19 PDT Tue" abbrev="med" name="Medium" ID="9141">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; is the text created by the &lt;fen&gt;Cognizer&lt;/fen&gt; to communicate that they came to believe a specified &lt;fen&gt;Content&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Content" ID="100"/>
+        <memberFE name="Topic" ID="101"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Cognizer" ID="98"/>
+        <memberFE name="Means" ID="993"/>
+        <memberFE name="Medium" ID="9141"/>
+    </FEcoreSet>
+
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Becoming_aware</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="conclure.v" ID="276" nbocc="105" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="FR_Support_verb" ID="1" annotatedsent="58"/>
+        <otherlexUnit framename="Other_sense" ID="100377" annotatedsent="8"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1536" annotatedsent="21"/>
+    </lexUnit>
+    <lexUnit POS="n" name="conclusion.n" ID="277" nbocc="42" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="28"/>
+        <otherlexUnit framename="Other_sense" ID="100378" annotatedsent="14"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1537" annotatedsent="0"/>
+        <otherlexUnit framename="Causation" ID="174" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="conjecture.n" ID="278" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="conjecturer.v" ID="279" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="deviner.v" ID="280" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100559" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="déduction.n" ID="281" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100668" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="déduire.v" ID="282" nbocc="13" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100669" annotatedsent="10"/>
+    </lexUnit>
+    <lexUnit POS="n" name="induction.n" ID="283" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101055" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="induire.v" ID="284" nbocc="14" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101056" annotatedsent="1"/>
+        <otherlexUnit framename="Causation" ID="218" annotatedsent="13"/>
+    </lexUnit>
+    <lexUnit POS="n" name="inférence.n" ID="285" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="inférer.v" ID="286" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

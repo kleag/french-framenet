@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="plaider.v" ID="2744" frame="FR_Attempt_suasion.legitimacy" frameID="10084" totalAnnotated="12" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="SoA" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Polarity"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Persuader" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="12">
+            <FE name="Addressee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="6346"/>
+                <annoSet ID="14991"/>
+                <annoSet ID="20352"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="2418"/>
+                <annoSet ID="4414"/>
+                <annoSet ID="6681"/>
+                <annoSet ID="8147"/>
+                <annoSet ID="10482"/>
+                <annoSet ID="10677"/>
+                <annoSet ID="19401"/>
+                <annoSet ID="21913"/>
+                <annoSet ID="22837"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="6346"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Persuader"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="2418"/>
+                <annoSet ID="4414"/>
+                <annoSet ID="6346"/>
+                <annoSet ID="6681"/>
+                <annoSet ID="8147"/>
+                <annoSet ID="10482"/>
+                <annoSet ID="10677"/>
+                <annoSet ID="14991"/>
+                <annoSet ID="19401"/>
+                <annoSet ID="21913"/>
+                <annoSet ID="22837"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="20352"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Polarity"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Polarity"/>
+                <annoSet ID="2418"/>
+                <annoSet ID="4414"/>
+                <annoSet ID="6681"/>
+                <annoSet ID="10482"/>
+                <annoSet ID="10677"/>
+                <annoSet ID="19401"/>
+                <annoSet ID="22837"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Polarity"/>
+                <annoSet ID="6346"/>
+                <annoSet ID="8147"/>
+                <annoSet ID="14991"/>
+                <annoSet ID="21913"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="State_of_affairs"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="State_of_affairs"/>
+                <annoSet ID="2418"/>
+                <annoSet ID="4414"/>
+                <annoSet ID="6346"/>
+                <annoSet ID="6681"/>
+                <annoSet ID="8147"/>
+                <annoSet ID="10482"/>
+                <annoSet ID="10677"/>
+                <annoSet ID="14991"/>
+                <annoSet ID="19401"/>
+                <annoSet ID="20352"/>
+                <annoSet ID="21913"/>
+                <annoSet ID="22837"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1936">
+            <text>En ce qui concerne le rapport Kuckelkorn , je dois féliciter son auteur pour la ténacité avec laquelle il plaide pour les retraites complémentaires , pour que celles-ci soient effectivement un second pilier de l' assurance vieillesse .</text>
+            <annotationSet status="MANUAL" ID="2418">
+                <layer rank="1" name="FE">
+                    <label end="116" start="113" name="Polarity"/>
+                    <label end="104" start="103" name="Persuader"/>
+                    <label end="70" start="61" name="Persuader"/>
+                    <label end="148" start="118" name="State_of_affairs"/>
+                    <label end="232" start="159" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3345">
+            <text>Cette thérapie de choc a été décidée par le gouvernement de M. Boris Eltsine , malgré les réserves de ceux qui plaidaient pour une démarche plus prudente et , surtout , plus solidaire avec les différentes Républiques de l' ex- URSS .</text>
+            <annotationSet status="MANUAL" ID="4414">
+                <layer rank="1" name="FE">
+                    <label end="125" start="122" name="Polarity"/>
+                    <label end="109" start="107" name="Persuader"/>
+                    <label end="230" start="127" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4494">
+            <text>" laissez -les regarder la télé " , s' écriait il y a trois ans un sociologue iconoclaste , en plaidant , dans un livre d' humeur à l' intention des parents , la cause du petit écran .</text>
+            <annotationSet status="MANUAL" ID="6346">
+                <layer rank="1" name="FE">
+                    <label end="88" start="64" name="Persuader"/>
+                    <label end="155" start="149" name="Addressee"/>
+                    <label end="155" start="111" name="Medium"/>
+                    <label end="181" start="159" name="State_of_affairs"/>
+                    <label itype="ENI" name="Polarity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4724">
+            <text>Cette solution se ferait " dans le respect du cahier des charges actuel " , même si , à terme , M. Pasqua plaide pour un assouplissement des contraintes légales .</text>
+            <annotationSet status="MANUAL" ID="6681">
+                <layer rank="1" name="FE">
+                    <label end="116" start="113" name="Polarity"/>
+                    <label end="104" start="96" name="Persuader"/>
+                    <label end="159" start="118" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5581">
+            <text>D' abord , parce que l' insistance de M. Teulade et de son prédécesseur , M. Jean - Louis Bianco , à plaider la cause de la rationalisation du système de santé commençait à porter ses fruits .</text>
+            <annotationSet status="MANUAL" ID="8147">
+                <layer rank="1" name="FE">
+                    <label end="50" start="38" name="Persuader"/>
+                    <label end="95" start="55" name="Persuader"/>
+                    <label end="158" start="109" name="State_of_affairs"/>
+                    <label itype="ENI" name="Polarity"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7087">
+            <text>Mais ailleurs , en dépit du courant qui , sous l' égide de la Commission économique des Nations unies pour l' Amérique latine ( CEPAL ) , plaide à la fois pour l' émancipation nationale et celle des paysans , la réforme tardera jusqu' à la révolution cubaine .</text>
+            <annotationSet status="MANUAL" ID="10482">
+                <layer rank="1" name="FE">
+                    <label end="158" start="155" name="Polarity"/>
+                    <label end="38" start="36" name="Persuader"/>
+                    <label end="205" start="28" name="Persuader"/>
+                    <label end="205" start="160" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7261">
+            <text>Prenant conscience de ces difficultés , les dirigeants de la filiale ont plaidé pour la réintégration dans leur administration d' origine des fonctionnaires détachés de La Poste ( environ la moitié des salariés ) .</text>
+            <annotationSet status="MANUAL" ID="10677">
+                <layer rank="1" name="FE">
+                    <label end="83" start="80" name="Polarity"/>
+                    <label end="67" start="40" name="Persuader"/>
+                    <label end="211" start="85" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10734">
+            <text>Dans une telle situation , deux recours s' offrent aux belligérants : se présenter à Washington et plaider soit leur cause , ce qui suppose des moyens importants pour rémunérer des avocats et éventuellement un groupe de pression , soit comparaître au GATT devant un panel , sorte de jury n' ayant en principe aucun lien avec les parties prenantes .</text>
+            <annotationSet status="MANUAL" ID="14991">
+                <layer rank="1" name="FE">
+                    <label end="66" start="55" name="Persuader"/>
+                    <label end="115" start="112" name="Persuader"/>
+                    <label end="94" start="85" name="Addressee"/>
+                    <label end="121" start="112" name="State_of_affairs"/>
+                    <label itype="ENI" name="Polarity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15162">
+            <text>Aussi , le premier ministre n' a -t-il pas hésité à rappeler à l' ordre ceux qui n' ont pu s' empêcher de profiter de l' occasion pour formuler des revendications ou plaider pour une " dévaluation compétitive " .</text>
+            <annotationSet status="MANUAL" ID="19401">
+                <layer rank="1" name="FE">
+                    <label end="177" start="174" name="Polarity"/>
+                    <label end="79" start="77" name="Persuader"/>
+                    <label end="209" start="179" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="172" start="166" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16196">
+            <text>Cette demande sera plaidée en référé le 7 janvier devant le président du tribunal de commerce .</text>
+            <annotationSet status="MANUAL" ID="20352">
+                <layer rank="1" name="FE">
+                    <label end="92" start="57" name="Addressee"/>
+                    <label end="12" start="0" name="State_of_affairs"/>
+                    <label itype="ENI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17835">
+            <text>" Nous avons un excellent dossier , qu' il nous faut plaider avec pugnacité " , a conclu le préfet maritime de Brest .</text>
+            <annotationSet status="MANUAL" ID="21913">
+                <layer rank="1" name="FE">
+                    <label end="46" start="43" name="Persuader"/>
+                    <label end="74" start="13" name="State_of_affairs"/>
+                    <label end="38" start="36" name="State_of_affairs"/>
+                    <label itype="ENI" name="Polarity"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18730">
+            <text>De son côté , Air - Inter plaide pour la spécificité - le transport de masse et bon marché - qui lui permet de se développer très rapidement ( + 15 % en 1989 ) .</text>
+            <annotationSet status="MANUAL" ID="22837">
+                <layer rank="1" name="FE">
+                    <label end="36" start="33" name="Polarity"/>
+                    <label end="24" start="14" name="Persuader"/>
+                    <label end="158" start="38" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

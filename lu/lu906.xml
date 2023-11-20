@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="générateur.n" ID="906" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cause"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="18194"/>
+                <annoSet ID="19186"/>
+                <annoSet ID="19216"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Effect"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="18194"/>
+                <annoSet ID="19186"/>
+                <annoSet ID="19216"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="13880">
+            <text>Très logiquement , ce sont les fonds d' Etat qui ont alimenté les quatre cinquièmes de ces transactions , en raison des mouvements de hausse et de baisse des cours , générateurs d' un très gros montant d' achats et de reventes .</text>
+            <annotationSet status="MANUAL" ID="18194">
+                <layer rank="1" name="FE">
+                    <label end="164" start="120" name="Cause"/>
+                    <label end="225" start="181" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="176" start="166" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14900">
+            <text>Elle aggrave les déficits sempiternels des comptes sociaux , que l'on trouve toujours un moyen de rééquilibrer - en fait , on ne fait que repousser les échéances , car , en comblant les déficits , on augmente , sous une forme ou sous une autre , l' emprise des prélèvements obligatoires , génératrice elle - même de chômage .</text>
+            <annotationSet status="MANUAL" ID="19186">
+                <layer rank="1" name="FE">
+                    <label end="287" start="246" name="Cause"/>
+                    <label end="322" start="316" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="299" start="289" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14931">
+            <text>MÉCANIQUE Ces derniers , jugeant à bon droit que le risque de hausse des taux générateurs de moins - values était nul , bourrèrent d' obligations à taux fixes certaines sicav dites sensibles .</text>
+            <annotationSet status="MANUAL" ID="19216">
+                <layer rank="1" name="FE">
+                    <label end="76" start="49" name="Cause"/>
+                    <label end="106" start="93" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

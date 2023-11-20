@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="jugement.n" ID="2316" frame="Regard" frameID="1400" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="eva" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="rea" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="rol" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="jud" name="Judgment"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="11">
+            <FE name="Cognizer"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2448"/>
+                <annoSet ID="7941"/>
+                <annoSet ID="10656"/>
+                <annoSet ID="12621"/>
+                <annoSet ID="12622"/>
+                <annoSet ID="21748"/>
+                <annoSet ID="23031"/>
+                <annoSet ID="23523"/>
+                <annoSet ID="24266"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="19925"/>
+                <annoSet ID="23035"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Evaluee"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="2448"/>
+                <annoSet ID="10656"/>
+                <annoSet ID="12621"/>
+                <annoSet ID="12622"/>
+                <annoSet ID="19925"/>
+                <annoSet ID="21748"/>
+                <annoSet ID="23523"/>
+                <annoSet ID="24266"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Evaluee"/>
+                <annoSet ID="7941"/>
+                <annoSet ID="23031"/>
+                <annoSet ID="23035"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Judgment"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Judgment"/>
+                <annoSet ID="2448"/>
+                <annoSet ID="7941"/>
+                <annoSet ID="10656"/>
+                <annoSet ID="12621"/>
+                <annoSet ID="12622"/>
+                <annoSet ID="19925"/>
+                <annoSet ID="21748"/>
+                <annoSet ID="23031"/>
+                <annoSet ID="23035"/>
+                <annoSet ID="23523"/>
+                <annoSet ID="24266"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1943">
+            <text>Toutefois , je me vois dans l' impossibilité de porter un jugement sur le style et le choix des mots m' amenant à émettre des censures , car alors je devrais le faire pour chaque exposé des motifs .</text>
+            <annotationSet status="MANUAL" ID="2448">
+                <layer rank="1" name="FE">
+                    <label end="13" start="12" name="Cognizer"/>
+                    <label end="133" start="55" name="Judgment"/>
+                    <label end="133" start="71" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5461">
+            <text>A l' heure où le gouvernement s' est résolu à des privatisations partielles , ce qui supposera de s' en remettre aussi au jugement des nouveaux actionnaires , où le Parti socialiste évoque dans son contrat de législature des éventuelles nationalisations , mais surtout des vraies privatisations , le maintien de la règle du mandat de trois ans demeure anachronique .</text>
+            <annotationSet status="MANUAL" ID="7941">
+                <layer rank="1" name="FE">
+                    <label end="155" start="135" name="Cognizer"/>
+                    <label end="155" start="122" name="Judgment"/>
+                    <label itype="ENI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7250">
+            <text>Les magistrats de la Cour des comptes , dans le rapport annuel 1992 ( le Monde du 26 juin ) , portent un jugement très sévère sur la création en 1987 par La Poste de la filiale spécialisée Sécuripost .</text>
+            <annotationSet status="MANUAL" ID="10656">
+                <layer rank="1" name="FE">
+                    <label end="36" start="0" name="Cognizer"/>
+                    <label end="124" start="102" name="Judgment"/>
+                    <label end="198" start="130" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8843">
+            <text>Le rapport de la cour des comptes sur les théâtres du Vieux - Colombier et de la gaîté - lyrique amalgame les remarques sur une mauvaise utilisation des deniers publics et des jugements de valeur sur le bien - fondé de l' utilisation de ces salles , jugements qui visiblement excèdent la compétence des auteurs du rapport .</text>
+            <annotationSet status="MANUAL" ID="12621">
+                <layer rank="1" name="FE">
+                    <label end="32" start="14" name="Cognizer"/>
+                    <label end="320" start="250" name="Judgment"/>
+                    <label end="246" start="200" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="258" start="250" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8843">
+            <text>Le rapport de la cour des comptes sur les théâtres du Vieux - Colombier et de la gaîté - lyrique amalgame les remarques sur une mauvaise utilisation des deniers publics et des jugements de valeur sur le bien - fondé de l' utilisation de ces salles , jugements qui visiblement excèdent la compétence des auteurs du rapport .</text>
+            <annotationSet status="MANUAL" ID="12622">
+                <layer rank="1" name="FE">
+                    <label end="32" start="14" name="Cognizer"/>
+                    <label end="320" start="172" name="Judgment"/>
+                    <label end="246" start="200" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15745">
+            <text>Le jugement positif sur la tolérance entre salariés décroît en fonction de la tranche de salaire et du niveau d' études .</text>
+            <annotationSet status="MANUAL" ID="19925">
+                <layer rank="1" name="FE">
+                    <label end="50" start="0" name="Judgment"/>
+                    <label end="50" start="24" name="Evaluee"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17708">
+            <text>Ils devraient en outre , cela va en quelque sorte de soi , être d' éminents spécialistes et ainsi être capables d' émettre un jugement impartial et objectif sur les questions abordées .</text>
+            <annotationSet status="MANUAL" ID="21748">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Cognizer"/>
+                    <label end="182" start="123" name="Judgment"/>
+                    <label end="182" start="161" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18979">
+            <text>Le gouvernement , écrit Combat , a porté un jugement moral qui est sans aucun recours .</text>
+            <annotationSet status="MANUAL" ID="23031">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Cognizer"/>
+                    <label end="84" start="41" name="Judgment"/>
+                    <label itype="ENI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18980">
+            <text>La nationalisation qui surviendra ne sera donc pas la conséquence d' un jugement , mais de la raison d' état .</text>
+            <annotationSet status="MANUAL" ID="23035">
+                <layer rank="1" name="FE">
+                    <label end="79" start="69" name="Judgment"/>
+                    <label itype="DNI" name="Cognizer"/>
+                    <label itype="ENI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19648">
+            <text>Pour les professionnels , le seul jugement vrai sur la télévision est porté par ceux qui la consomment .</text>
+            <annotationSet status="MANUAL" ID="23523">
+                <layer rank="1" name="FE">
+                    <label end="101" start="80" name="Cognizer"/>
+                    <label end="64" start="26" name="Judgment"/>
+                    <label end="64" start="52" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20568">
+            <text>Les jugements négatifs d' analystes financiers révisant à la baisse leurs prévisions de résultat sur BIS ont entraîné une chute du groupe de travail temporaire ( - 20 % ) .</text>
+            <annotationSet status="MANUAL" ID="24266">
+                <layer rank="1" name="FE">
+                    <label end="103" start="26" name="Cognizer"/>
+                    <label end="103" start="0" name="Judgment"/>
+                    <label end="103" start="88" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

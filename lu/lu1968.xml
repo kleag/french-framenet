@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="vanter.v" ID="1968" frame="FR_Judgment_communication" frameID="10080" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="13136"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Communicator"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="8507"/>
+                <annoSet ID="13136"/>
+                <annoSet ID="13625"/>
+                <annoSet ID="14104"/>
+                <annoSet ID="18722"/>
+                <annoSet ID="20659"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="6612"/>
+                <annoSet ID="18397"/>
+                <annoSet ID="24622"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Evaluee"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="6612"/>
+                <annoSet ID="8507"/>
+                <annoSet ID="13136"/>
+                <annoSet ID="13625"/>
+                <annoSet ID="14101"/>
+                <annoSet ID="14104"/>
+                <annoSet ID="18397"/>
+                <annoSet ID="18722"/>
+                <annoSet ID="20659"/>
+                <annoSet ID="24622"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="14101"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4697">
+            <text>Serait -on - malgré les audits tant vantés , les organismes de contrôle spécialisés , la vigilance supposée des banques centrales les plus vénérables , dont la Banque d' Angleterre elle - même - aussi désarmé qu' on l' était au XIX siècle devant l' imagination des chevaliers d' industrie , l' entregent des complices de la drogue et du crime ?</text>
+            <annotationSet status="MANUAL" ID="6612">
+                <layer rank="1" name="FE">
+                    <label end="29" start="20" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5784">
+            <text>Il y a aussi les producteurs d' énergie , notamment d' électricité , qui vantent de Londres à Tokyo leur propreté et le recyclage .</text>
+            <annotationSet status="MANUAL" ID="8507">
+                <layer rank="1" name="FE">
+                    <label end="128" start="13" name="Communicator"/>
+                    <label end="71" start="69" name="Communicator"/>
+                    <label end="128" start="100" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9207">
+            <text>Un " art de travailler " tant vanté auprès des clients que la firme en arrive à faire oublier les milliers de salariés suant dans des ateliers du Sud - Est asiatique pour des salaires de misère .</text>
+            <annotationSet status="MANUAL" ID="13136">
+                <layer rank="1" name="FE">
+                    <label end="66" start="59" name="Communicator"/>
+                    <label end="53" start="47" name="Addressee"/>
+                    <label end="23" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9649">
+            <text>Mais d' autres psychologues , tout aussi sérieux , vantent le caractère " actif " de ces jeux vidéo , par opposition à la passivité télévisuelle .</text>
+            <annotationSet status="MANUAL" ID="13625">
+                <layer rank="1" name="FE">
+                    <label end="47" start="5" name="Communicator"/>
+                    <label end="98" start="59" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10039">
+            <text>Pour les amateurs de vieilles choses , un recueil d' affiches vantant les mérites de promoteurs immobiliers , militant pour ou contre la hausse des loyers , recueil constitué par un administrateur de biens , Jean - Marc Levet , et une antiquaire , Annie de Montry .</text>
+            <annotationSet status="MANUAL" ID="14101">
+                <layer rank="1" name="FE">
+                    <label end="60" start="39" name="Medium"/>
+                    <label end="106" start="70" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10043">
+            <text>L' argumentaire des promoteurs n' a guère évolué , qui vous vante au début du siècle , " Le parc des ormeaux " , à Fontenay - aux - roses , " à 5 minutes de la gare de Fontenay , 25 minutes de Paris , nouvelle gare du Luxembourg " .</text>
+            <annotationSet status="MANUAL" ID="14104">
+                <layer rank="1" name="FE">
+                    <label end="29" start="20" name="Communicator"/>
+                    <label end="53" start="51" name="Communicator"/>
+                    <label end="229" start="89" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14066">
+            <text>A nous laisser sans moyens d' action propres , comme nous l' étions avant d' opérer le redressement tant vanté ?</text>
+            <annotationSet status="MANUAL" ID="18397">
+                <layer rank="1" name="FE">
+                    <label end="98" start="84" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14411">
+            <text>On a , à juste titre , vanté les talents des ingénieurs de la SNCF à l' occasion de la mise en service du TGV Nord - Europe .</text>
+            <annotationSet status="MANUAL" ID="18722">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Communicator"/>
+                    <label end="65" start="29" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16460">
+            <text>Oubliant temporairement leurs analyses politiques , les éditorialistes se sont lancés dans la bataille pour insulter leurs rivaux ou vanter leur produit .</text>
+            <annotationSet status="MANUAL" ID="20659">
+                <layer rank="1" name="FE">
+                    <label end="69" start="52" name="Communicator"/>
+                    <label end="151" start="140" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21147">
+            <text>Le " géant de l' Afrique " reste l' éternel " pays à gros potentiel " vanté depuis le " boom " du pétrole .</text>
+            <annotationSet status="MANUAL" ID="24622">
+                <layer rank="1" name="FE">
+                    <label end="68" start="33" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Quoting" ID="10074" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; verbally reports a &lt;fen&gt;Message&lt;/fen&gt; that some &lt;fen&gt;Source_speaker&lt;/fen&gt; has said. A &lt;fen&gt;Source_medium&lt;/fen&gt; can be expressed on top or instead of the &lt;fen&gt;Source_speaker&lt;/fen&gt;. 
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : New frame. The key aspect of this frame is that the LUs convey the idea that the Speaker only repeats other words.
+
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="sp" name="Speaker" ID="8178">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the individual repeating the words of the &lt;fen&gt;Source_speaker&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="ssp" name="Source_speaker" ID="8179">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Source_speaker&lt;/fen&gt; is the individual whose words are repeated.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="smd" name="Source_medium" ID="8180">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Source_medium&lt;/fen&gt; is the written or spoken material containing the message from the &lt;fen&gt;Source_speaker&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="med" name="Medium" ID="8181">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Medium&lt;/fen&gt; is the written or spoken material containing the message from the &lt;fen&gt;Speaker&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:05 PST Wed" abbrev="Msg" name="Message" ID="185">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Message&lt;/fen&gt; is the FE that identifies the content of what the &lt;fen&gt;Speaker&lt;/fen&gt; repeats from the Source_speaker or Source_medium.
+ &lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+
+       <FE bgColor="808080" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:12:05 PST Wed" abbrev="Add" name="Addressee" ID="184">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is the person to whom the &lt;fen&gt;Message&lt;/fen&gt; is communicated. &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+
+    <FEcoreSet>
+        <memberFE name="Source_speaker" ID="8188"/>
+        <memberFE name="Source_medium" ID="8178"/>
+        <memberFE name="Message" ID="8178"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Speaker" ID="8188"/>
+        <memberFE name="Medium" ID="8178"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses"/>
+        <frameRelation type="Is Attributive of"/>
+    <frameRelation type="Is Used by"/>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="n" name="citation.n" ID="2679" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100337" annotatedsent="0"/>
+        <otherlexUnit framename="Adducing" ID="4" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2066" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="citer.v" ID="2678" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="100338" annotatedsent="1"/>
+        <otherlexUnit framename="Adducing" ID="5" annotatedsent="20"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2067" annotatedsent="7"/>
+    </lexUnit>
+</frame>

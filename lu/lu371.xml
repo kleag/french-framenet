@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="riposte.n" ID="371" frame="Communication_response" frameID="42" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Trig" name="Trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="22431"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Message"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="22431"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="22431"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Trigger"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="22431"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18328">
+            <text>Selon Mr Le Pen , " le RPR est en train de se désintégrer " , tandis que de l' avis de Mr Gaudin , sénateur UDF des Bouches - du - Rhône , la riposte de l' état - major du RPR à MM Pasqua et Séguin a été " disproportionnée et très excessive " .</text>
+            <annotationSet status="MANUAL" ID="22431">
+                <layer rank="1" name="FE">
+                    <label end="174" start="139" name="Message"/>
+                    <label end="196" start="178" name="Addressee"/>
+                    <label end="174" start="153" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="148" start="142" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

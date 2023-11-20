@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="NA" name="All annotations of frame FR_Judgment_communication_no_reason" ID="FR_Judgment_communication_no_reason" frame="FR_Judgment_communication_no_reason" frameID="10081" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Communicator"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="3465"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Evaluee"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Evaluee"/>
+                <annoSet ID="3465"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2602">
+            <text>La malédiction des frégates</text>
+            <annotationSet status="MANUAL" ID="3465">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Communicator"/>
+                    <label itype="ENI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

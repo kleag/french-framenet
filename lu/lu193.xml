@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="de sorte que.conj" ID="193" frame="Causation" frameID="5" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cause"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="11125"/>
+                <annoSet ID="24126"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="12043"/>
+                <annoSet ID="15265"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Effect"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="11125"/>
+                <annoSet ID="12043"/>
+                <annoSet ID="15265"/>
+                <annoSet ID="24126"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7664">
+            <text>La voici : " Tous les éléments , écrit -il , qui ont jusqu' ici empêché le développement du socialisme aux Etats - Unis sont en voie de disparaître ou de se transformer en leur contraire , de sorte que le socialisme s' épanouira vraisemblablement pleinement dans l' Union au cours de la prochaine génération . "</text>
+            <annotationSet status="MANUAL" ID="11125">
+                <layer rank="1" name="FE">
+                    <label end="187" start="13" name="Cause"/>
+                    <label end="306" start="202" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="200" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8430">
+            <text>De sorte qu' il n' est sorti des discussions que peu de résultats concrets .</text>
+            <annotationSet status="MANUAL" ID="12043">
+                <layer rank="1" name="FE">
+                    <label end="73" start="13" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11015">
+            <text>De sorte que le sommet de Rio s' est borné à une simple déclaration sur la forêt .</text>
+            <annotationSet status="MANUAL" ID="15265">
+                <layer rank="1" name="FE">
+                    <label end="79" start="13" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20414">
+            <text>Alors que la croissance de la production agricole ne dépasse pas 2 % par an , la population croît à un rythme sans doute supérieur à 3 % , de sorte que le déficit alimentaire est aujourd' hui de l' ordre de 12 millions de tonnes de céréales et pourrait bien doubler d' ici à la fin de la décennie .</text>
+            <annotationSet status="MANUAL" ID="24126">
+                <layer rank="1" name="FE">
+                    <label end="137" start="0" name="Cause"/>
+                    <label end="295" start="152" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Adducing" ID="1601" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; mentions a &lt;fen&gt;Specified_entity&lt;/fen&gt; filling a &lt;fen&gt;Role&lt;/fen&gt;, thereby providing information which supports a point of the &lt;fen&gt;Speaker&lt;/fen&gt;.
+
+&lt;ex&gt;He cites &lt;fex name="Specified_entity"&gt;the chief original observations&lt;/fex&gt; &lt;t&gt;adduced&lt;/t&gt; &lt;fex name="Speaker"&gt;by Darwin&lt;/fex&gt; &lt;fex name="Role"&gt;as evidence for his theory&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Mexico&lt;/fex&gt; &lt;t&gt;cited&lt;/t&gt; &lt;fex name="Specified_entity"&gt;the drought&lt;/fex&gt;, now in its eighth year, &lt;fex name="Purpose"&gt;to avoid releasing Texas' full share of 110 billion gallons per year from the reservoirs&lt;/fex&gt;. &lt;fex name="Role"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;An objector&lt;/fex&gt; will &lt;fex name="Time"&gt;immediately&lt;/fex&gt; &lt;t&gt;point&lt;/t&gt; &lt;fex name="Specified_entity"&gt;to the lack of stability of this  simple, some will say simple-minded, hierarchy&lt;/fex&gt;. &lt;fex name="Role"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;She expected a restaurant as their meeting place, but instead &lt;fex name="Speaker"&gt;the lady&lt;/fex&gt; &lt;t&gt;named&lt;/t&gt; &lt;fex name="Specified_entity"&gt;the hotel where she was staying&lt;/fex&gt;.&lt;fex name="Role"&gt;DNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;Where is the second-order neural pattern located? &lt;fex name="Speaker"&gt;Damasio&lt;/fex&gt; already &lt;t&gt;pointed&lt;/t&gt; &lt;fex name="Specified_entity"&gt;to the cingulate cortex&lt;/fex&gt; &lt;fex name="Medium"&gt;in his 1994 book&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt;: The Specified_entity FE is too narrow: there are cases like 'X adduces that + sentence'.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/04/2005 05:59:12 PDT Thu" abbrev="Spkr" name="Speaker" ID="8793">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the person who specifies the &lt;fen&gt;Role&lt;/fen&gt; to be filled by the &lt;fen&gt;Specified_entity&lt;/fen&gt;.
+
+&lt;ex&gt;But&lt;fex name="Speaker"&gt;Arturo Boncato Jr., marketing manager of the Marco Polo Hotel,&lt;/fex&gt; &lt;t&gt;cited&lt;/t&gt; the high occupancy rates in the hotels as proof of increasing visitors' confidence.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="08/04/2005 05:59:12 PDT Thu" abbrev="Add" name="Addressee" ID="8794">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is the person to whom the &lt;fen&gt;Speaker&lt;/fen&gt; identifies the filler of a &lt;fen&gt;Role&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/04/2005 05:59:12 PDT Thu" abbrev="Medium" name="Medium" ID="8801">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; is the physical entity or channel used by the &lt;fen&gt;Speaker&lt;/fen&gt; to transmit the statement.
+
+&lt;ex&gt;&lt;fex name="Medium"&gt;In a subsequent paper&lt;/fex&gt; he &lt;t&gt;adduced&lt;/t&gt; further evidence.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/04/2005 06:02:35 PDT Thu" abbrev="spe" name="Specified_entity" ID="8807">
+        <definition>&lt;def-root&gt;The entity that the &lt;fen&gt;Speaker&lt;/fen&gt; identifies as filling a particular &lt;fen&gt;Role&lt;/fen&gt;.
+
+&lt;ex&gt;Reilly &lt;t&gt;pointed&lt;/t&gt; &lt;fex name="Specified_entity"&gt;to the high labor costs&lt;/fex&gt; as the
+main reason for the decision to close down the New Orleans facility.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/04/2005 06:03:48 PDT Thu" abbrev="rol" name="Role" ID="8808">
+        <definition>&lt;def-root&gt;A slot in a particular or generic event or relation whose filler the &lt;fen&gt;Speaker&lt;/fen&gt; identifies.
+
+&lt;ex&gt;TCI &lt;t&gt;named&lt;/t&gt; the overly expensive bid price &lt;fex name="Role"&gt;as the main reason for their strict opposition against a merger&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="8801"/>
+        <memberFE name="Speaker" ID="8793"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses">
+        <relatedFrame>Statement</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Used by"/>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="n" name="allégation.n" ID="2" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="alléguer.v" ID="3" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100081" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="citation.n" ID="4" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100337" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2066" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Quoting" ID="2679" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="citer.v" ID="5" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="20"/>
+        <otherlexUnit framename="Other_sense" ID="100338" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2067" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Quoting" ID="2678" annotatedsent="10"/>
+    </lexUnit>
+    <lexUnit POS="n" name="indication.n" ID="6" nbocc="10" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101051" annotatedsent="5"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1567" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="indiquer.v" ID="7" nbocc="145" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101053" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1568" annotatedsent="88"/>
+        <otherlexUnit framename="Evidence" ID="569" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="n" name="mention.n" ID="8" nbocc="8" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101215" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2069" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mentionner.v" ID="9" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101216" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2070" annotatedsent="11"/>
+    </lexUnit>
+    <lexUnit POS="v" name="nommer.v" ID="10" nbocc="74" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101271" annotatedsent="0"/>
+        <otherlexUnit framename="Name_conferral" ID="2116" annotatedsent="1"/>
+        <otherlexUnit framename="Referring_by_name" ID="2311" annotatedsent="2"/>
+        <otherlexUnit framename="Appointing" ID="2728" annotatedsent="73"/>
+    </lexUnit>
+    <lexUnit POS="v" name="évoquer.v" ID="11" nbocc="65" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="102100" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1503" annotatedsent="58"/>
+        <otherlexUnit framename="Evidence" ID="612" annotatedsent="0"/>
+        <otherlexUnit framename="Evoking" ID="616" annotatedsent="6"/>
+    </lexUnit>
+</frame>

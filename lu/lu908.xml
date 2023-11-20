@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="impulser.v" ID="908" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Actor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="5416"/>
+                <annoSet ID="24705"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cause"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Effect"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="5416"/>
+                <annoSet ID="24705"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3921">
+            <text>Sans être factice , le mouvement de reprise de ces dernières séances est dû , en partie , au facteur technique de fin d' année et à l' élan impulsé par la place new - yorkaise à la suite de l' abaissement d' un point du taux d' escompte , le 20 décembre dernier .</text>
+            <annotationSet status="MANUAL" ID="5416">
+                <layer rank="1" name="FE">
+                    <label end="138" start="132" name="Effect"/>
+                    <label end="174" start="152" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="146" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21275">
+            <text>L' APL , créée en 1977 , était un élément - clé de la nouvelle politique du logement impulsée par Raymond Barre , dont le but était de donner la priorité aux aides à la personne sur les aides à la pierre .</text>
+            <annotationSet status="MANUAL" ID="24705">
+                <layer rank="1" name="FE">
+                    <label end="83" start="51" name="Effect"/>
+                    <label end="202" start="112" name="Effect"/>
+                    <label end="110" start="98" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

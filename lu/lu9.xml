@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="mentionner.v" ID="9" frame="Adducing" frameID="1601" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="spe" name="Specified_entity"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="rol" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Role"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Role"/>
+                <annoSet ID="11874"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="11874"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Specified_entity"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Specified_entity"/>
+                <annoSet ID="11874"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8267">
+            <text>L' étude peut effectivement en témoigner : seulement 23 % des entreprises interrogées mentionnent les modalités de licenciement et seulement 19 % précisent les conditions de retour en cas de démission .</text>
+            <annotationSet status="MANUAL" ID="11874">
+                <layer rank="1" name="FE">
+                    <label end="126" start="98" name="Specified_entity"/>
+                    <label end="84" start="43" name="Speaker"/>
+                    <label itype="ENI" name="Role"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

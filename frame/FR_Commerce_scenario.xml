@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Commerce_scenario" ID="10097" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;Commerce is a situation in which a &lt;fen&gt;Buyer&lt;/fen&gt; and a &lt;fen&gt;Seller&lt;/fen&gt; have agreed upon an exchange of &lt;fen&gt;Money&lt;/fen&gt; and &lt;fen&gt;Goods&lt;/fen&gt; (possibly after a negotiation), and then perform the exchange, optionally carrying it out with various kinds of direct payment or financing or the giving of change.  
+&lt;ex&gt;&lt;/ex&gt;
+The &lt;fen&gt;Seller&lt;/fen&gt; indicates their willingness to give the &lt;fen&gt;Goods&lt;/fen&gt; in their possession to a &lt;fen&gt;Buyer&lt;/fen&gt; who would give them some amount of &lt;fen&gt;Money&lt;/fen&gt;.  The &lt;fen&gt;Seller&lt;/fen&gt; may have already decided on the amount of money that they would require, in which case it is called the Asking price.  
+&lt;ex&gt;&lt;/ex&gt;
+The &lt;fen&gt;Buyer&lt;/fen&gt; also indicates their willingness to give an amount of money called an Offer to a &lt;fen&gt;Seller&lt;/fen&gt; who would give them the &lt;fen&gt;Goods&lt;/fen&gt;.  
+&lt;ex&gt;&lt;/ex&gt;
+Normally the process is begun by the &lt;fen&gt;Seller&lt;/fen&gt;.  The means by which the &lt;fen&gt;Seller&lt;/fen&gt; indicates their wish to engage in an exchange are various, ranging from putting a price tag on an item on a store shelf, to advertizing, to communicating directly and specifically with a possible &lt;fen&gt;Buyer&lt;/fen&gt;.  In some cases, however, the process may be initiated by the &lt;fen&gt;Buyer&lt;/fen&gt; indicating to a possible &lt;fen&gt;Seller&lt;/fen&gt; that they would like to make an exchange.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Commerce_scenario with FE modifications: the French LUs in this frame do not syntactically mark which of the participants is the Seller and which is the Buyer, hence these FEs were replaced with Participant_1, Participant_2 and Participants.
+&lt;/def-root&gt;</definition>
+    <semType name="Non-perspectivalized_frame" ID="52"/>
+<!--    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:12:28 PST Wed" abbrev="Byr" name="Buyer" ID="376">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Buyer&lt;/fen&gt; has the &lt;fen&gt;Money&lt;/fen&gt; and wants the &lt;fen&gt;Goods&lt;/fen&gt;.
+&lt;ex&gt;She was considered a &lt;t&gt;&lt;fex name="Byr"&gt;purchaser&lt;/fex&gt;&lt;/t&gt; of the finest things&lt;/ex&gt;&lt;/def-root&gt;</definition>
+		<excludesFE name="Participant_1" ID="1387"/>
+        <excludesFE name="Participant_2" ID="1388"/>
+        <excludesFE name="Participants" ID="1389"/>
+    </FE>
+-->
+<!--    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:12:29 PST Wed" abbrev="Slr" name="Seller" ID="377">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Seller&lt;/fen&gt; has the &lt;fen&gt;Goods&lt;/fen&gt; and wants the &lt;fen&gt;Money&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Slr"&gt;My local grocery store&lt;/fex&gt; raised &lt;t&gt;prices&lt;/t&gt; on meat&lt;/ex&gt;&lt;/def-root&gt;</definition>
+		<excludesFE name="Participant_1" ID="1387"/>
+        <excludesFE name="Participant_2" ID="1388"/>
+        <excludesFE name="Participants" ID="1389"/>
+    </FE>
+-->
+    <FE bgColor="8181F7" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="P1" name="Participant_1" ID="1387">
+        <definition>&lt;def-root&gt;The most syntactically salient participant in a commercial transaction.
+        &lt;ex&gt;FR-EX: &lt;fex name="P1"&gt;L'amiral Miaoulis&lt;/fex&gt; a forcé le blocus de Nelson pour &lt;t&gt;commercer&lt;/t&gt; avec Marseille.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <excludesFE name="Participants" ID="1389"/>
+<!--        <excludesFE name="Seller" ID="377"/>
+        <excludesFE name="Buyer" ID="376"/>
+-->
+    </FE>
+    <FE bgColor="088A85" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="P2" name="Participant_2" ID="1388">
+        <definition>&lt;def-root&gt;The least syntactically salient participant in a commercial transaction.
+        &lt;ex&gt;FR-EX: L'amiral Miaoulis a forcé le blocus de Nelson pour &lt;t&gt;commercer&lt;/t&gt; avec &lt;fex name="P2"&gt;Marseille&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+         <excludesFE name="Participants" ID="1389"/>
+<!--        <excludesFE name="Seller" ID="377"/>
+        <excludesFE name="Buyer" ID="376"/>
+-->
+    </FE>
+    <FE bgColor="DBA901" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="Ps" name="Participants" ID="1389">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Participants&lt;/fen&gt; are exchanging &lt;fen&gt;Money&lt;/fen&gt; for &lt;fen&gt;Goods&lt;/fen&gt;, the information about who originally had the &lt;fen&gt;Goods&lt;/fen&gt; and the &lt;fen&gt;Money&lt;/fen&gt; is not known.&lt;/def-root&gt;</definition>
+         <excludesFE name="Participant_1" ID="1387"/>
+         <excludesFE name="Participant_2" ID="1388"/>
+<!--        <excludesFE name="Seller" ID="377"/>
+        <excludesFE name="Buyer" ID="376"/>
+-->
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:29 PST Wed" abbrev="Mny" name="Money" ID="378">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Money&lt;/fen&gt; is given in exchange for &lt;fen&gt;Goods&lt;/fen&gt; in a transaction. 
+&lt;ex&gt;The &lt;t&gt;price&lt;/t&gt; of the sweater &lt;m&gt;was&lt;/m&gt; &lt;fex name="Mny"&gt; $50&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:29 PST Wed" abbrev="Gds" name="Goods" ID="379">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Goods&lt;/fen&gt; is anything including labor or time, for example, which is exchanged for &lt;fen&gt;Money&lt;/fen&gt; in a transaction. 
+&lt;ex&gt;She was considered a &lt;t&gt;purchaser&lt;/t&gt; &lt;fex name="Gds"&gt;of the finest things&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:12:29 PST Wed" abbrev="Rate" name="Rate" ID="380">
+        <definition>&lt;def-root&gt;In some cases, price or payment is described per unit of Goods.
+&lt;ex&gt; The authorities cut tomato &lt;t&gt;prices&lt;/t&gt; &lt;fex name="Rate"&gt; to a dollar per pound&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:12:29 PST Wed" abbrev="Unit" name="Unit" ID="381">
+        <definition>&lt;def-root&gt;This FE is any unit in which goods or services can be measured. Generally, it occurs in a 	&lt;ment&gt;by&lt;/ment&gt;-PP. 
+&lt;ex&gt;The &lt;t&gt;price&lt;/t&gt; of Bob's peppers is determined &lt;fex name="Unit"&gt;by the pound&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Has Subframe">
+        <relatedFrame>FR_Commercial_transaction</relatedFrame>
+        <relatedFrame>FR_Having_commercial_agreement</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Commerce_scenario</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="commerce.n" ID="325" nbocc="179" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="179"/>
+        <otherlexUnit framename="Other_sense" ID="100358" annotatedsent="15"/>
+    </lexUnit>
+    <lexUnit POS="v" name="commercer.v" ID="326" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100359" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="négoce.n" ID="327" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="20"/>
+        <otherlexUnit framename="Other_sense" ID="101282" annotatedsent="0"/>
+    </lexUnit>
+</frame>

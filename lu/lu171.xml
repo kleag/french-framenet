@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="causer.v" ID="171" frame="Causation" frameID="5" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Actor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="16544"/>
+                <annoSet ID="20353"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Affected"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="2465"/>
+                <annoSet ID="20353"/>
+                <annoSet ID="23303"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cause"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="2465"/>
+                <annoSet ID="10910"/>
+                <annoSet ID="20285"/>
+                <annoSet ID="23303"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Effect"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="2465"/>
+                <annoSet ID="10910"/>
+                <annoSet ID="16544"/>
+                <annoSet ID="20285"/>
+                <annoSet ID="20353"/>
+                <annoSet ID="23303"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1949">
+            <text>Monsieur le Président , les nuisances acoustiques causées par les avions constituent principalement un problème pour les personnes qui habitent à proximité des aéroports .</text>
+            <annotationSet status="MANUAL" ID="2465">
+                <layer rank="1" name="FE">
+                    <label end="71" start="62" name="Cause"/>
+                    <label end="168" start="117" name="Affected"/>
+                    <label end="48" start="24" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7450">
+            <text>L' appauvrissement du monde agricole a causé de surcroît une forte décapitalisation :</text>
+            <annotationSet status="MANUAL" ID="10910">
+                <layer rank="1" name="FE">
+                    <label end="35" start="0" name="Cause"/>
+                    <label end="82" start="57" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12205">
+            <text>des - uns de ces dossiers iront peut - être en justice , à Luxembourg ou ailleurs , et il sera intéressant de suivre les raisonnements des juges , qui accepteront ou non les demandes de remboursement des dégâts causés par les routiers français .</text>
+            <annotationSet status="MANUAL" ID="16544">
+                <layer rank="1" name="FE">
+                    <label end="209" start="204" name="Effect"/>
+                    <label end="242" start="222" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="216" start="211" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16129">
+            <text>En seulement deux mois , les valeurs françaises venaient de s' apprécier , en moyenne , de près de 20 % et , par la même occasion , d' effacer les pertes causées par la crise du Golfe en août 1990 .</text>
+            <annotationSet status="MANUAL" ID="20285">
+                <layer rank="1" name="FE">
+                    <label end="182" start="166" name="Cause"/>
+                    <label end="152" start="143" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16197">
+            <text>" devant l' importance des préjudices qui lui ont déjà été causés par ses nouveaux actionnaires majoritaires et les menaces pour l' avenir que constituent les nouvelles mesures qu' ils ont prises " , le couturier demande d' autre part au tribunal de condamner les dirigeants d' Hermès et de Seibu à verser près de 200 millions de francs de dommages et intérêts " au bénéfice de la société elle - même " .</text>
+            <annotationSet status="MANUAL" ID="20353">
+                <layer rank="1" name="FE">
+                    <label end="44" start="42" name="Affected"/>
+                    <label end="211" start="200" name="Affected"/>
+                    <label end="107" start="27" name="Effect"/>
+                    <label end="40" start="38" name="Effect"/>
+                    <label end="107" start="70" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19353">
+            <text>Peu après l' interruption , samedi après - midi , du cours de l' Euphrate lors d' une cérémonie officielle en présence des principaux dirigeants de Turquie , le président Tugurt Ozal avait affirmé que cette mesure " technique " ne provoquerait " aucun problème " avec la Syrie et l' Irak et que " toutes les mesures avaient été prises pour ne pas causer de gêne aux pays voisins " .</text>
+            <annotationSet status="MANUAL" ID="23303">
+                <layer rank="1" name="FE">
+                    <label end="338" start="295" name="Cause"/>
+                    <label end="377" start="366" name="Affected"/>
+                    <label end="360" start="354" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="352" start="347" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="responsable.a" ID="245" frame="Causation" frameID="5" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="8">
+            <FE name="Actor"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="1143"/>
+                <annoSet ID="6358"/>
+                <annoSet ID="9163"/>
+                <annoSet ID="10619"/>
+                <annoSet ID="11090"/>
+                <annoSet ID="14496"/>
+                <annoSet ID="14647"/>
+                <annoSet ID="16548"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cause"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="9660"/>
+                <annoSet ID="12002"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Effect"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="1143"/>
+                <annoSet ID="6358"/>
+                <annoSet ID="9163"/>
+                <annoSet ID="9660"/>
+                <annoSet ID="10619"/>
+                <annoSet ID="11090"/>
+                <annoSet ID="12002"/>
+                <annoSet ID="14496"/>
+                <annoSet ID="14647"/>
+                <annoSet ID="16548"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1126">
+            <text>Le principe actif d' Aclasta , l' acide zolédronique , est un bisphosphonate qui inhibe l' action des ostéoclastes , les cellules de l' organisme qui sont responsables de la résorption du tissu osseux .</text>
+            <annotationSet status="MANUAL" ID="1143">
+                <layer rank="1" name="FE">
+                    <label end="199" start="171" name="Effect"/>
+                    <label end="144" start="117" name="Actor"/>
+                    <label end="148" start="146" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4502">
+            <text>Des psychologues l' ont tenue pour principale responsable de la baisse de capacité de concentration des élèves , lesquels zapperaient les cours comme ils zappent les images .</text>
+            <annotationSet status="MANUAL" ID="6358">
+                <layer rank="1" name="FE">
+                    <label end="171" start="61" name="Effect"/>
+                    <label end="18" start="17" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6163">
+            <text>En même temps que la baisse du lectorat et les coûts trop élevés de production ( le monde du 1 juillet ) , M. Miot en rend responsable le secteur du " hors - médias " ( publipostage , brochures , catalogues , marketing direct ... ) qui , avec 55 % du marché publicitaire global , est selon lui " le véritable ennemi de la presse " .</text>
+            <annotationSet status="MANUAL" ID="9163">
+                <layer rank="1" name="FE">
+                    <label end="116" start="115" name="Effect"/>
+                    <label end="329" start="135" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6457">
+            <text>Les adversaires de l' accord de libre - échange considèrent que le grand marché nord - américain est responsable de la sévérité de la récession et affirment que les bénéfices sont allés intégralement aux firmes des Etats - Unis , déjà restructurées sous la contrainte de l' appréciation du dollar jusqu' au milieu des années 80 .</text>
+            <annotationSet status="MANUAL" ID="9660">
+                <layer rank="1" name="FE">
+                    <label end="95" start="64" name="Cause"/>
+                    <label end="142" start="116" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7199">
+            <text>Un décret crée un brevet d' " animateur pour la formation des conducteurs responsables d' infractions " , qui sera délivré par le ministre chargé des transports ; seuls les titulaires du " brevet pour l' exercice de la profession d' enseignant de la conduite automobile et de la sécurité routière " pourront s' y présenter .</text>
+            <annotationSet status="MANUAL" ID="10619">
+                <layer rank="1" name="FE">
+                    <label end="100" start="90" name="Effect"/>
+                    <label end="72" start="62" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7639">
+            <text>Un renforcement des suffrages démocrates afin de faire échec au gouverneur républicain Peabody , responsable de l' attitude anti- ouvrière des autorités , qui ne fut pas réélu .</text>
+            <annotationSet status="MANUAL" ID="11090">
+                <layer rank="1" name="FE">
+                    <label end="151" start="112" name="Effect"/>
+                    <label end="93" start="64" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8388">
+            <text>Une mauvaise information sur le métier en est , en partie , responsable .</text>
+            <annotationSet status="MANUAL" ID="12002">
+                <layer rank="1" name="FE">
+                    <label end="37" start="0" name="Cause"/>
+                    <label end="40" start="39" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10326">
+            <text>Les autres mesures n' ont pu être appliquées , tant la direction a semblé paralysée : l' ensemble du personnel , cadres supérieurs compris , a même observé huit jours de grève , du 9 au 17 décembre , pour demander - et obtenir - le départ du PDG , jugé personnellement responsable de tous ces maux !</text>
+            <annotationSet status="MANUAL" ID="14496">
+                <layer rank="1" name="FE">
+                    <label end="296" start="284" name="Effect"/>
+                    <label end="244" start="242" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="279" start="269" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10441">
+            <text>Ces sanctions sont intervenues alors que la Libye se refusait à livrer deux de ses agents tenus pour responsables de l' attentat contre un Boeing de la Pan.Am qui a fait deux cent soixante - dix morts en décembre 1988 au - dessus de Lockerbie , en Ecosse .</text>
+            <annotationSet status="MANUAL" ID="14647">
+                <layer rank="1" name="FE">
+                    <label end="253" start="117" name="Effect"/>
+                    <label end="88" start="71" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12206">
+            <text>On verra alors mieux jusqu' à quel point un Etat demeure responsable des calamités " continentales " déclenchées par un conflit national .</text>
+            <annotationSet status="MANUAL" ID="16548">
+                <layer rank="1" name="FE">
+                    <label end="135" start="73" name="Effect"/>
+                    <label end="47" start="41" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

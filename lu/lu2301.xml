@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="puisque.conj" ID="2301" frame="FR_Reason" frameID="10083" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="12042"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="12042"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="State_of_Affairs"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="12042"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8429">
+            <text>Les syndicats s' y opposent puisqu' ils prétendent représenter l' ensemble des employés face au patronat .</text>
+            <annotationSet status="MANUAL" ID="12042">
+                <layer rank="1" name="FE">
+                    <label end="26" start="0" name="Action"/>
+                    <label end="103" start="36" name="State_of_Affairs"/>
+                    <label end="38" start="36" name="Agent"/>
+                    <label end="12" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="communication.n" ID="2529" frame="FR_Telling" frameID="10088" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="16606"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Message"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="16606"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="16606"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6072">
+            <text>D' ici à 1995 , Northern Telecom bénéficiera néanmoins des mêmes pouvoirs que si elle détenait dès aujourd' hui 39 % du capital de Matra Communication , car le prêt est affecté non pas à Matra Communication directement mais à une société en commandite par actions , détenue conjointement avec Matra .</text>
+            <annotationSet status="MANUAL" ID="9024">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="205" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12262">
+            <text>Dans ses attendus , le tribunal a constaté " le défaut de communication " aux représentants du personnel d' une étude concernant les coûts comparés des fabrications dans les différentes usines du groupe .</text>
+            <annotationSet status="MANUAL" ID="16606">
+                <layer rank="1" name="FE">
+                    <label end="201" start="108" name="Message"/>
+                    <label end="103" start="78" name="Addressee"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17058">
+            <text>C' est par exemple le cas des entreprises de travaux publics ou de Mr Robert Hersant qui a embauché Mr Bertrand Delcros , ancien directeur juridique de la commission nationale de la communication et des libertés ( CNCL ) et ancien membre du cabinet de Mme Catherine Tasca , secrétaire d' état chargé de la communication .</text>
+            <annotationSet status="MANUAL" ID="21174">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="318" start="306" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

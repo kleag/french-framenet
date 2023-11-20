@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="assurance.n" ID="2755" frame="FR_Commitment.to_do" frameID="10089" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Msg" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Addressee"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="5712"/>
+                <annoSet ID="12811"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Entity"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Eventuality"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="5712"/>
+                <annoSet ID="12811"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="5712"/>
+                <annoSet ID="12811"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4099">
+            <text>Reçu par les ministres du travail , du commerce , et de la culture , le président de Virgin France a eu l' assurance que la question de l' ouverture dominicale des entreprises vendant des biens culturels allait être étudiée sur le fond .</text>
+            <annotationSet status="MANUAL" ID="5712">
+                <layer rank="1" name="FE">
+                    <label end="97" start="69" name="Addressee"/>
+                    <label end="65" start="9" name="Speaker"/>
+                    <label end="234" start="121" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8949">
+            <text>" Nous avons obtenu l' assurance du premier ministre que la suppression du recours au chronotachygraphe pour le contrôle des vitesses allait faire l' objet d' une mesure réglementaire " , expliquait M. Hubert Ghigonis , délégué général de la FNTR .</text>
+            <annotationSet status="MANUAL" ID="12811">
+                <layer rank="1" name="FE">
+                    <label end="5" start="2" name="Addressee"/>
+                    <label end="51" start="36" name="Speaker"/>
+                    <label end="182" start="57" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

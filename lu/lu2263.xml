@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="acceptation.n" ID="2263" frame="Ratification" frameID="1351" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="rat" name="Ratifier"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Proposal"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="6289"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Ratifier"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Ratifier"/>
+                <annoSet ID="6289"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4454">
+            <text>Tokyo envisage différentes mesures destinées à faciliter les importations d' automobiles : une révision de la procédure d' homologation des véhicules ( acceptation des tests américains pour les freins et des normes internationales pour les appuis - tête ) .</text>
+            <annotationSet status="MANUAL" ID="6289">
+                <layer rank="1" name="FE">
+                    <label end="4" start="0" name="Ratifier"/>
+                    <label end="202" start="168" name="Proposal"/>
+                    <label end="252" start="208" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

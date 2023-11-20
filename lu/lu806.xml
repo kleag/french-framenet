@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="doute.n" ID="806" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="11">
+            <FE name="Cognizer"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="1050"/>
+                <annoSet ID="2005"/>
+                <annoSet ID="3264"/>
+                <annoSet ID="3280"/>
+                <annoSet ID="3294"/>
+                <annoSet ID="17352"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="12677"/>
+                <annoSet ID="13520"/>
+                <annoSet ID="14943"/>
+                <annoSet ID="14944"/>
+                <annoSet ID="21366"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Content"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="2005"/>
+                <annoSet ID="3294"/>
+                <annoSet ID="13520"/>
+                <annoSet ID="14944"/>
+                <annoSet ID="17352"/>
+                <annoSet ID="21366"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Content"/>
+                <annoSet ID="1050"/>
+                <annoSet ID="3264"/>
+                <annoSet ID="3280"/>
+                <annoSet ID="12677"/>
+                <annoSet ID="14943"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="988">
+            <text>- Si vous avez d' autres questions , si vous avez un doute , demandez plus d' informations à votre pharmacien</text>
+            <annotationSet status="MANUAL" ID="1050">
+                <layer rank="1" name="FE">
+                    <label end="43" start="40" name="Cognizer"/>
+                    <label itype="UNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1765">
+            <text>Cette solution équilibrée permettra peut-être de répondre de manière plus détendue et confiante à certaines réserves et à certains doutes politiques que certains députés du Parlement ont soulevés lors de ce débat .</text>
+            <annotationSet status="MANUAL" ID="2005">
+                <layer rank="1" name="FE">
+                    <label end="147" start="138" name="Content"/>
+                    <label end="181" start="153" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2481">
+            <text>" Mis en place ( ... ) par mesure d' assurance " et " dans des conditions non rigoureuses " , écrivait Jean-François Briand , l' ancien directeur général de Thomson-CSF , ce réseau suscitait plus de doutes que de certitudes chez les dirigeants d' Elf .</text>
+            <annotationSet status="MANUAL" ID="3264">
+                <layer rank="1" name="FE">
+                    <label end="249" start="229" name="Cognizer"/>
+                    <label itype="UNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="204" start="199" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2485">
+            <text>Après la conclusion du marché taïwanais , en août 1991 , les " doutes " du dirigeant de Thomson se changèrent en inquiétudes .</text>
+            <annotationSet status="MANUAL" ID="3280">
+                <layer rank="1" name="FE">
+                    <label end="94" start="75" name="Cognizer"/>
+                    <label itype="ENI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2491">
+            <text>Peu après la signature , Alain Gomez , PDG du Thomson CSF , refuse de le payer car il a des doutes sur la destination finale des 160 millions de francs de commissions .</text>
+            <annotationSet status="MANUAL" ID="3294">
+                <layer rank="1" name="FE">
+                    <label end="165" start="103" name="Content"/>
+                    <label end="56" start="25" name="Cognizer"/>
+                    <label end="84" start="83" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8874">
+            <text>En attendant que la justice se soit prononcée dans le sens qu' il espère , sa tactique est , apparemment , d' entretenir le doute .</text>
+            <annotationSet status="MANUAL" ID="12677">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="128" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9552">
+            <text>Les travaux réalisés par le Commissariat général du Plan dans le cadre de la préparation du XI Plan ( 1993 - 1997 ) et dont les premiers résultats ont été rendus publics jeudi 17 décembre par le commissaire au Plan , M. Jean - Baptiste de Foucauld , ne laissent à cet égard guère de doutes .</text>
+            <annotationSet status="MANUAL" ID="13520">
+                <layer rank="1" name="FE">
+                    <label end="272" start="262" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="288" start="283" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10694">
+            <text>Pour lui , néanmoins , tant que le rapprochement entre les deux monnaies , d' une façon ou d' une autre , ne sera pas effectué , le doute demeurera sur ce que sera la politique de change de la France , " un doute qui peut conduire les investisseurs à se préparer contre les incertitudes de demain " .</text>
+            <annotationSet status="MANUAL" ID="14943">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="211" start="207" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10694">
+            <text>Pour lui , néanmoins , tant que le rapprochement entre les deux monnaies , d' une façon ou d' une autre , ne sera pas effectué , le doute demeurera sur ce que sera la politique de change de la France , " un doute qui peut conduire les investisseurs à se préparer contre les incertitudes de demain " .</text>
+            <annotationSet status="MANUAL" ID="14944">
+                <layer rank="1" name="FE">
+                    <label end="198" start="152" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12993">
+            <text>En donnant l' impression de fixer de nouvelles conditions à un éventuel retour de la livre au sein d' un système de taux de change semi- fixes , le premier ministre renforce les doutes des partenaires de la Grande - Bretagne quant aux convictions européennes de Londres , et accrédite de facto la perspective d' une " Europe à deux vitesses " .</text>
+            <annotationSet status="MANUAL" ID="17352">
+                <layer rank="1" name="FE">
+                    <label end="268" start="235" name="Content"/>
+                    <label end="223" start="189" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="183" start="178" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17289">
+            <text>Lus d' une voix de circonstance , les communiqués de l' agence Tass - les " communiqués du Front " , dit -on - ne laissaient pas de doute sur la gravité de la situation .</text>
+            <annotationSet status="MANUAL" ID="21366">
+                <layer rank="1" name="FE">
+                    <label end="167" start="142" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

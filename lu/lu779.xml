@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="suggérer.v" ID="779" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="15">
+            <FE name="Action"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="2163"/>
+                <annoSet ID="5761"/>
+                <annoSet ID="7422"/>
+                <annoSet ID="13553"/>
+                <annoSet ID="13899"/>
+                <annoSet ID="17194"/>
+                <annoSet ID="17355"/>
+                <annoSet ID="17996"/>
+                <annoSet ID="21479"/>
+                <annoSet ID="22056"/>
+                <annoSet ID="22092"/>
+                <annoSet ID="22601"/>
+                <annoSet ID="22720"/>
+                <annoSet ID="23494"/>
+                <annoSet ID="23608"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2163"/>
+                <annoSet ID="7422"/>
+                <annoSet ID="22092"/>
+                <annoSet ID="22720"/>
+                <annoSet ID="23494"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="5761"/>
+                <annoSet ID="13553"/>
+                <annoSet ID="13899"/>
+                <annoSet ID="17194"/>
+                <annoSet ID="17355"/>
+                <annoSet ID="17996"/>
+                <annoSet ID="21479"/>
+                <annoSet ID="22056"/>
+                <annoSet ID="22601"/>
+                <annoSet ID="23608"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="22092"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Persuader"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="2163"/>
+                <annoSet ID="5761"/>
+                <annoSet ID="7422"/>
+                <annoSet ID="13553"/>
+                <annoSet ID="13899"/>
+                <annoSet ID="17194"/>
+                <annoSet ID="17355"/>
+                <annoSet ID="17996"/>
+                <annoSet ID="21479"/>
+                <annoSet ID="22056"/>
+                <annoSet ID="22601"/>
+                <annoSet ID="22720"/>
+                <annoSet ID="23494"/>
+                <annoSet ID="23608"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1820">
+            <text>J' espère que nous ne devrons pas avoir recours au type de mesures que vous suggérez , Monsieur le Député .</text>
+            <annotationSet status="MANUAL" ID="2163">
+                <layer rank="1" name="FE">
+                    <label end="69" start="67" name="Action"/>
+                    <label end="83" start="59" name="Action"/>
+                    <label end="17" start="14" name="Cognizer"/>
+                    <label end="74" start="71" name="Persuader"/>
+                    <label end="104" start="87" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4122">
+            <text>Ensuite , pourra -t-on suggérer ce que peuvent faire le budget et la monnaie pour hâter sans brusquerie la réalisation de ces objectifs .</text>
+            <annotationSet status="MANUAL" ID="5761">
+                <layer rank="1" name="FE">
+                    <label end="134" start="32" name="Action"/>
+                    <label end="21" start="17" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5137">
+            <text>- j' ai suggéré , en effet , au premier ministre , de ne pas prévoir la poursuite de l' examen de ce projet à l' occasion de la session extraordinaire .</text>
+            <annotationSet status="MANUAL" ID="7422">
+                <layer rank="1" name="FE">
+                    <label end="149" start="54" name="Action"/>
+                    <label end="47" start="32" name="Cognizer"/>
+                    <label end="3" start="2" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9590">
+            <text>Les experts suggèrent donc que soient favorisées " toutes les formules qui accroissent la sensibilité du salaire à la situation de l' entreprise " .</text>
+            <annotationSet status="MANUAL" ID="13553">
+                <layer rank="1" name="FE">
+                    <label end="145" start="31" name="Action"/>
+                    <label end="10" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9879">
+            <text>Pour ce faire , si l' on se refuse à modérer les hausses à venir du SMIC ou à le réduire quelque peu pour certaines catégories d' emplois , je suggère et soumets aux critiques deux mesures , parmi d' autres possibles .</text>
+            <annotationSet status="MANUAL" ID="13899">
+                <layer rank="1" name="FE">
+                    <label end="215" start="176" name="Action"/>
+                    <label end="141" start="140" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12831">
+            <text>Le vice- président de la Bundesbank , M. Hans Tietmeyer , a toutefois , dans des déclarations faites au Quotidien de Paris , estimé qu' " il n' y avait pas de raison de procéder à des modifications " des marges de fluctuation au sein du système monétaire européen , que certains suggèrent de ramener de 2 , 25 % à 1 % .</text>
+            <annotationSet status="MANUAL" ID="17194">
+                <layer rank="1" name="FE">
+                    <label end="268" start="266" name="Action"/>
+                    <label end="316" start="292" name="Action"/>
+                    <label end="277" start="270" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="287" start="279" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12994">
+            <text>Cette conclusion sera d' autant plus facilement tirée que la plupart des économistes doutent de la possibilité d' établir un lien entre les monnaies européennes d' une part , le dollar et le yen , d' autre part , comme le suggère M. Major , notamment parce qu' un tel mécanisme supposerait une large coopération économique entre ces trois ensembles .</text>
+            <annotationSet status="MANUAL" ID="17355">
+                <layer rank="1" name="FE">
+                    <label end="209" start="114" name="Action"/>
+                    <label end="220" start="219" name="Action"/>
+                    <label end="237" start="230" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="228" start="222" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13684">
+            <text>Je suggère qu' en l' état actuel de faiblesse de l' investissement immobilier , le taux de collecte ne soit plus modifié .</text>
+            <annotationSet status="MANUAL" ID="17996">
+                <layer rank="1" name="FE">
+                    <label end="119" start="15" name="Action"/>
+                    <label end="1" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17402">
+            <text>Dénonçant une présidentialisation qui a remis en question le caractère parlementaire de nos institutions , d' aucuns suggèrent de " rééquilibrer les pouvoirs " par la suppression pure et simple du principe et des procédures de responsabilité devant l' assemblée nationale et , par voie de conséquence , la fin du droit de dissolution (11) .</text>
+            <annotationSet status="MANUAL" ID="21479">
+                <layer rank="1" name="FE">
+                    <label end="337" start="130" name="Action"/>
+                    <label end="115" start="107" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17984">
+            <text>L' écrivain allemand Günther grass , défendant récemment l' idée est - allemande de " communauté contractuelle " , suggérait que RFA et RDA confient à une commission commune le soin de coordonner leurs politiques dans des domaines comme les transports , l' énergie , le service postal , la réduction des dépenses d' armement , l' aide au tiers - monde (4) .</text>
+            <annotationSet status="MANUAL" ID="22056">
+                <layer rank="1" name="FE">
+                    <label end="354" start="129" name="Action"/>
+                    <label end="111" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18044">
+            <text>Bien plus , le traité de 1982 sur le droit de la mer enjoint aujourd' hui aux Etats riverains d' une même mer de coopérer ; des accords régionaux leur imposent de s' informer , de s' assister en cas d' urgence , et leur suggèrent , par là , de se concerter .</text>
+            <annotationSet status="MANUAL" ID="22092">
+                <layer rank="1" name="FE">
+                    <label end="255" start="244" name="Action"/>
+                    <label end="218" start="215" name="Cognizer"/>
+                    <label end="108" start="78" name="Cognizer"/>
+                    <label end="144" start="124" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="228" start="220" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18471">
+            <text>Si les spécialistes ne vont pas jusque - là dans le raisonnement , plusieurs sociétés de bourse , telles Didier Philippe et James Capel , disent manquer de visibilité à court terme et suggèrent des allègements de positions .</text>
+            <annotationSet status="MANUAL" ID="22601">
+                <layer rank="1" name="FE">
+                    <label end="221" start="194" name="Action"/>
+                    <label end="134" start="67" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="192" start="184" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18599">
+            <text>" c' est un mensonge qui ne coûte pas cher , je ne sais pas si cela vient de lui ou si on le lui a suggéré .</text>
+            <annotationSet status="MANUAL" ID="22720">
+                <layer rank="1" name="FE">
+                    <label end="91" start="90" name="Action"/>
+                    <label end="41" start="9" name="Action"/>
+                    <label end="95" start="93" name="Cognizer"/>
+                    <label end="88" start="87" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19611">
+            <text>Marc Rivière se souvient encore de cette ancienne responsable d' Antenne 2 lui suggérant , après un téléfilm à succès , d' en réaliser une suite en six épisodes : " les chaînes sont tellement à l' affût de l' audience qu' elles en perdent toute réflexion et tout recul .</text>
+            <annotationSet status="MANUAL" ID="23494">
+                <layer rank="1" name="FE">
+                    <label end="159" start="123" name="Action"/>
+                    <label end="77" start="75" name="Cognizer"/>
+                    <label end="11" start="0" name="Cognizer"/>
+                    <label end="73" start="35" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19864">
+            <text>Cette disposition , également suggérée par M. Querrien , a été introduite sous forme d' un amendement lors de l' examen en première lecture du projet de loi renforçant la prévention des risques professionnels .</text>
+            <annotationSet status="MANUAL" ID="23608">
+                <layer rank="1" name="FE">
+                    <label end="16" start="0" name="Action"/>
+                    <label end="53" start="43" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

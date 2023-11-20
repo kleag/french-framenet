@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Agree_or_refuse_to_act_in_favor_of" ID="10065" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; either agrees to or refuses to engage in a &lt;fen&gt;Proposed_action&lt;/fen&gt; for the benefit of a &lt;fen&gt;Beneficiary&lt;/fen&gt; (who is also the person who proposed the &lt;fen&gt;Proposed_action&lt;/fen&gt;). This agreement/refusal may be communicated to an interlocutor who might or might not be the person who proposed the &lt;fen&gt;Proposed_action&lt;/fen&gt; (note though that neither the addressee nor the proposer can be realized locally if he is not the &lt;fen&gt;Beneficiary&lt;/fen&gt;).
+            &lt;ex&gt;&lt;/ex&gt;
+NB this frame can only be evoked by triggers that can be complemented with an action name (and not only an action result's name).
+    
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames&lt;/asf&gt;:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Agree_or_refuse_to_act&lt;/frframe&gt;: in the FR_Agree_or_refuse_to_act frame, there is no possible Beneficiary, whereas there is necessarily one in FR_Agree_or_refuse_to_act_in_favor_of.&lt;/ex&gt;
+
+        &lt;ex&gt;&lt;/ex&gt;
+        &lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : close to Agree_or_refuse_to_act, but there is now a Beneficiary. Like in FR_Agree_or_refuse_to_Act, the Interlocutor is no longer a Core frame element (although it can be conceptually present) since no LUs in the frame can be constructed with an explicit Interlocutor that is not the Beneficiary. Also, the Interlocutor and the &lt;fen&gt;Beneficiary&lt;/fen&gt; could be different.
+        &lt;ex&gt;&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/01/2005 04:44:44 PDT Thu" abbrev="cog" name="Cognizer" ID="9043">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the person to whom a particular action has been proposed and who responds to the request or offer made.
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="09/01/2005 04:44:46 PDT Thu" abbrev="int" name="Interlocutor" ID="9044">
+        <definition>&lt;def-root&gt;This is the person  to whom it is understood that the &lt;fen&gt;Proposer&lt;/fen&gt; communicates  his response. &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/01/2005 04:44:46 PDT Thu" abbrev="bnf" name="Beneficiary" ID="9044">
+        <definition>&lt;def-root&gt;This is the person who proposed the &lt;fen&gt;Proposed_action&lt;/fen&gt; to the &lt;fen&gt;Cognizer&lt;/fen&gt;, and who would benefit from this &lt;fen&gt;Proposed_action&lt;/fen&gt; being performed. &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="09/01/2005 04:44:46 PDT Thu" abbrev="Medium" name="Medium" ID="9045">
+        <definition>&lt;def-root&gt;As with &lt;fen&gt;Medium&lt;/fen&gt; in other communication frames, the physical entity or channel used to communicate can be expressed.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/01/2005 04:44:46 PDT Thu" abbrev="pro" name="Proposed_action" ID="9046">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Proposed_action&lt;/fen&gt; is an action that the &lt;fen&gt;Speaker&lt;/fen&gt; would perform if they were to accept or refuse the request or offer. The &lt;fen&gt;Proposed_action&lt;/fen&gt; being performed would benefit the &lt;fen&gt;Beneficiary&lt;/fen&gt;. &lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Agree_or_refuse_to_act</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Agree_or_refuse_to_act</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="consentement.n" ID="2589" nbocc="1" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="732" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="100405" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="1874" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="consentir.v" ID="2590" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="733" annotatedsent="6"/>
+        <otherlexUnit framename="Other_sense" ID="100406" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="1875" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="refus.n" ID="2591" nbocc="37" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="734" annotatedsent="28"/>
+        <otherlexUnit framename="Other_sense" ID="101579" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1644" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="429" annotatedsent="1"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2425" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="refuser.v" ID="2592" nbocc="99" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="735" annotatedsent="47"/>
+        <otherlexUnit framename="Other_sense" ID="101580" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1645" annotatedsent="18"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="430" annotatedsent="3"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2426" annotatedsent="8"/>
+    </lexUnit>
+</frame>

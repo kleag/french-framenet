@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Expressing_decision" ID="10027" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; expresses a certain &lt;fen&gt;Decision&lt;/fen&gt; they have made, causing it to become binding in a jurisdiction represented by the &lt;fen&gt;Speaker&lt;/fen&gt;. This &lt;fen&gt;Decision&lt;/fen&gt; may also consist in an &lt;fen&gt;Official_entity&lt;/fen&gt; (such as a government or a currency) made official or legitimate by the &lt;fen&gt;Speaker&lt;/fen&gt;'s authority in their jurisdiction.
+&lt;ex&gt;&lt;/ex&gt;
+This frames differs from the Ratification frame in that the &lt;fen&gt;Decision&lt;/fen&gt; is new, instead of priorily proposed by some other party. It also differs from the FR_Taking_sides frame in that in the FR_Expressing_decision frame, the &lt;fen&gt;Speaker&lt;/fen&gt; has the power to cause the &lt;fen&gt;Decision&lt;/fen&gt; to be binding.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : New frame, created for asfalda. The performative declarations which are encoded in the fndata-1.5 Statement frame are moved to this frame.
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;Ratification&lt;/frframe&gt;: The Ratification frame is a special case of FR_Expressing_decision, in which the decision is the validity of the ratified entity.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;FR_Taking_sides&lt;/frframe&gt;: The FR_Expressing_decision is a special case of FR_Taking_sides, in which the Speaker has authority over the approved content, which is thus a decision.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="243" cDate="09/13/2002 03:01:18 PDT Fri" abbrev="Dec" name="Decision" ID="3717">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Decision&lt;/fen&gt; identifies what is expressed and decided by the &lt;fen&gt;Speaker&lt;/fen&gt;. It can be referred to by decision names, or it can describe the content of the decision (often a future action to be performed).
+&lt;ex&gt; FR-EX: &lt;fex name="Dec"&gt;La saisie définitive&lt;/fex&gt; fut &lt;t&gt;prononcée&lt;/t&gt; le 1er septembre.&lt;/ex&gt;
+&lt;ex&gt;I now &lt;t&gt;declare&lt;/t&gt; &lt;fex name="Decision"&gt;you members of this Society&lt;/fex&gt; .&lt;/ex&gt; 
+&lt;ex&gt;FR-EX: &lt;fex name="Decision"&gt;Le juge&lt;/fex&gt; se &lt;t&gt;déclare&lt;/t&gt; &lt;fex name="Decision"&gt;incompétent&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;/def-root&gt;</definition>
+    </FE>
+     <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="243" cDate="09/13/2002 03:01:18 PDT Fri" abbrev="OffE" name="Official_entity" ID="3718">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Official_entity&lt;/fen&gt; identifies an entity (such as a government or a currency) made official or legitimate by the &lt;fen&gt;Speaker&lt;/fen&gt;'s authority in their jurisdiction.
+&lt;ex&gt; FR-EX: &lt;fex name="OffE"&gt;Les marchés concernés&lt;/fex&gt; ont été &lt;t&gt;reconnus&lt;/t&gt; par &lt;fex name="Spkr"&gt;le ministre de l' économie et des finances&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="Spkr" name="Speaker" ID="8179">
+        <definition>&lt;def-root&gt;The individual or body that expresses the &lt;fen&gt;Decision&lt;/fen&gt;, causing it to become binding in a jurisdiction represented by the &lt;fen&gt;Speaker&lt;/fen&gt;. 
+&lt;ex&gt;FR-EX: &lt;fex name="Speaker"&gt;La commission&lt;/fex&gt; &lt;t&gt;déclare&lt;/t&gt; &lt;fex name="Decision"&gt;le contrat nul et non avenu&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;/def-root&gt;</definition>
+	<semType name="Sentient" ID="5"/>
+    </FE>
+   
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/08/2001 02:42:22 PST Thu" abbrev="Med" name="Medium" ID="427">
+        <definition>&lt;def-root&gt;The written or spoken material that contains the &lt;fen&gt;Decision&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Speaker" ID="8179"/>
+        <memberFE name="Medium" ID="427"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Decision" ID="3717"/>
+        <memberFE name="Official_entity" ID="3718"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Taking_sides</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Ratification</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="déclaration.n" ID="2774" nbocc="66" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100650" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1552" annotatedsent="67"/>
+    </lexUnit>
+    <lexUnit POS="v" name="déclarer.v" ID="1087" nbocc="169" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="8"/>
+        <otherlexUnit framename="Other_sense" ID="100651" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1553" annotatedsent="94"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prononcer.v" ID="1088" nbocc="53" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101459" annotatedsent="1"/>
+        <otherlexUnit framename="Spelling_and_pronouncing" ID="2517" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Making_speech" ID="1319" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="n" name="reconnaissance.n" ID="2680" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101565" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="2682" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2458" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="reconnaître.v" ID="1089" nbocc="93" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="101566" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="2681" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1595" annotatedsent="74"/>
+    </lexUnit>
+</frame>

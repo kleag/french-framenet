@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="pronostic.n" ID="2179" frame="Predicting" frameID="425" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Speaker" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Eventuality" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="Evidence" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Time_of_Eventuality" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Eventuality"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="14743"/>
+                <annoSet ID="17214"/>
+                <annoSet ID="23830"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="14743"/>
+                <annoSet ID="17214"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="23830"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10525">
+            <text>M. Schlesinger ne donne aucune date pour la réalisation de son pronostic .</text>
+            <annotationSet status="MANUAL" ID="14743">
+                <layer rank="1" name="FE">
+                    <label end="61" start="59" name="Speaker"/>
+                    <label end="13" start="0" name="Speaker"/>
+                    <label end="71" start="59" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12847">
+            <text>Ils enregistrent avec intérêt les déclarations de grands patrons allemands sur la nécessité d' une diminution des taux et les pronostics du directeur général de la Commerzbank , selon lesquels les taux directeurs de la Bundesbank seraient diminués de 2 , 5 points en 1993 .</text>
+            <annotationSet status="MANUAL" ID="17214">
+                <layer rank="1" name="FE">
+                    <label end="174" start="140" name="Speaker"/>
+                    <label end="174" start="122" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20093">
+            <text>Mais 31 000 emplois non agricoles ont été créés après la perte de 265 000 emplois en novembre , alors que les pronostics portaient sur une perte de 70 000 emplois en décembre .</text>
+            <annotationSet status="MANUAL" ID="23830">
+                <layer rank="1" name="FE">
+                    <label end="173" start="135" name="Eventuality"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

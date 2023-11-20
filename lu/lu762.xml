@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="en appeler.v" ID="762" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Action"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="7079"/>
+                <annoSet ID="15457"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="7079"/>
+                <annoSet ID="15457"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Persuader"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="7079"/>
+                <annoSet ID="15457"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4936">
+            <text>A quelques heures d' intervalle , deux candidats se sont fait connaître pour aider la Cinq à survivre : M. Charles Pasqua , qui en appelle aux collectivités locales , et M. Silvio Berlusconi , désireux d' assurer dorénavant le rôle d' opérateur .</text>
+            <annotationSet status="MANUAL" ID="7079">
+                <layer rank="1" name="FE">
+                    <label end="100" start="77" name="Action"/>
+                    <label end="163" start="143" name="Cognizer"/>
+                    <label end="126" start="124" name="Persuader"/>
+                    <label end="243" start="104" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11176">
+            <text>Tant et si bien que , apeurés , les gestionnaires paritaires de l' organisme en appelaient à l' aide de l' Etat à la fin de l' année , et qu' ils devront sans doute revoir le mode d' indemnisation .</text>
+            <annotationSet status="MANUAL" ID="15457">
+                <layer rank="1" name="FE">
+                    <label end="110" start="93" name="Action"/>
+                    <label end="110" start="104" name="Cognizer"/>
+                    <label end="75" start="32" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

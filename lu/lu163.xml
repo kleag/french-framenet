@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="au point de.prep" ID="163" frame="Causation" frameID="5" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cause"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="11479"/>
+                <annoSet ID="13622"/>
+                <annoSet ID="16451"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Effect"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="11479"/>
+                <annoSet ID="13622"/>
+                <annoSet ID="16451"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7936">
+            <text>DOC AVEC UN GRAPHIQUE Les émissions obligataires en écus , qui avaient fortement progressé dans les mois qui suivirent l' adoption du traité de Maastricht , en décembre 1991 , au point de faire de l' écu la deuxième monnaie choisie pour ces émissions , ont subi un coup d' arrêt après le rejet danois du traité d' union européenne , le 2 juin .</text>
+            <annotationSet status="MANUAL" ID="11479">
+                <layer rank="1" name="FE">
+                    <label end="174" start="59" name="Cause"/>
+                    <label end="249" start="188" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9647">
+            <text>Les parents français , après les Britanniques , après les Américains , s' inquiètent des effets éventuellement nocifs sur l' esprit de leurs chers petits de ces jeux qui les fascinent au point de leur faire tout oublier .</text>
+            <annotationSet status="MANUAL" ID="13622">
+                <layer rank="1" name="FE">
+                    <label end="182" start="166" name="Cause"/>
+                    <label end="168" start="166" name="Effect"/>
+                    <label end="218" start="196" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="184" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12127">
+            <text>A partir de la fin 1991 , la dette publique s' est gonflée au point d' atteindre , à l' été 1992 , 106 % du produit intérieur brut ( PIB ) , " soit plus que la dette publique combinée de l' Allemagne , de la France et du Royaume - Uni " et l' équivalent de 40 % de la dette publique de la CEE , souligne l' OCDE .</text>
+            <annotationSet status="MANUAL" ID="16451">
+                <layer rank="1" name="FE">
+                    <label end="22" start="0" name="Cause"/>
+                    <label end="57" start="26" name="Cause"/>
+                    <label end="42" start="26" name="Effect"/>
+                    <label end="137" start="71" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

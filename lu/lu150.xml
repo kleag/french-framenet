@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="classification.n" ID="150" frame="Categorization" frameID="21" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Item" name="Item"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Cat" name="Category"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Crit" name="Criteria"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="8">
+            <FE name="Category"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Category"/>
+                <annoSet ID="8573"/>
+                <annoSet ID="10057"/>
+                <annoSet ID="10089"/>
+                <annoSet ID="10103"/>
+                <annoSet ID="13312"/>
+                <annoSet ID="18987"/>
+                <annoSet ID="19058"/>
+                <annoSet ID="19724"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="13312"/>
+                <annoSet ID="19058"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="8573"/>
+                <annoSet ID="10057"/>
+                <annoSet ID="10089"/>
+                <annoSet ID="10103"/>
+                <annoSet ID="18987"/>
+                <annoSet ID="19724"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Criteria"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Item"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Item"/>
+                <annoSet ID="8573"/>
+                <annoSet ID="10057"/>
+                <annoSet ID="10103"/>
+                <annoSet ID="13312"/>
+                <annoSet ID="18987"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Item"/>
+                <annoSet ID="10089"/>
+                <annoSet ID="19058"/>
+                <annoSet ID="19724"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5824">
+            <text>Les salariés y trouveront d' autres avantages , par le biais des classifications et de la motivation .</text>
+            <annotationSet status="MANUAL" ID="8573">
+                <layer rank="1" name="FE">
+                    <label end="79" start="65" name="Category"/>
+                    <label end="11" start="0" name="Item"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6762">
+            <text>Salaires horaires , échelons d' ancienneté , modalités de promotion , classification des postes ( 103 pour les OS ! ) et progression de la masse salariale relèvent des accords UAW - directions .</text>
+            <annotationSet status="MANUAL" ID="10057">
+                <layer rank="1" name="FE">
+                    <label end="116" start="70" name="Category"/>
+                    <label end="116" start="89" name="Item"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6773">
+            <text>Mais , pour des raisons historiques locales et une absence de confiance réciproque , l' interprétation des règles peut donner lieu à des conflits permanents autour des classifications , des modalités de promotion à l' ancienneté , de l' affectation au travail posté , etc .</text>
+            <annotationSet status="MANUAL" ID="10089">
+                <layer rank="1" name="FE">
+                    <label end="182" start="168" name="Category"/>
+                    <label itype="ENI" name="Cognizer"/>
+                    <label itype="ENI" name="Item"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="182" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6785">
+            <text>Dans cette usine , construite ex nihilo dans le Tennessee , avec sa grappe de fournisseurs comme à Toyota - City , les transformations sont assez radicales : il n' y a plus qu' une seule classification pour les OS , 80 % des ouvriers sont embauchés à vie , le groupe comme unité de travail a la responsabilité de son organisation , de ses moyens et de ses résultats .</text>
+            <annotationSet status="MANUAL" ID="10103">
+                <layer rank="1" name="FE">
+                    <label end="212" start="177" name="Category"/>
+                    <label end="212" start="207" name="Item"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="200" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9398">
+            <text>Comment se retrouver dans la géographie nouvelle du foie gras que la loi , par des classifications compliquées , rend encore plus impénétrable ?</text>
+            <annotationSet status="MANUAL" ID="13312">
+                <layer rank="1" name="FE">
+                    <label end="109" start="79" name="Category"/>
+                    <label end="71" start="66" name="Cognizer"/>
+                    <label end="60" start="52" name="Item"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14677">
+            <text>- Grève des O.S. : après plusieurs semaines de grève pour obtenir de nouvelles classifications et des hausses de salaire , 7 000 O.S. des usines Renault de Boulogne - Billancourt et ceux de la Saviem , à Blainville reprennent le travail .</text>
+            <annotationSet status="MANUAL" ID="18987">
+                <layer rank="1" name="FE">
+                    <label end="93" start="66" name="Category"/>
+                    <label end="15" start="12" name="Item"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14768">
+            <text>La Commission européenne , pour sa part , a décidé de publier cette année deux directives relatives à la sécurité des pétroliers , leurs caractéristiques techniques et le rôle des sociétés privées de classification , chargées de certifier que les navires respectent les normes internationales .</text>
+            <annotationSet status="MANUAL" ID="19058">
+                <layer rank="1" name="FE">
+                    <label end="213" start="200" name="Category"/>
+                    <label end="198" start="180" name="Cognizer"/>
+                    <label end="291" start="215" name="Cognizer"/>
+                    <label itype="UNI" name="Item"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="213" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15453">
+            <text>Lors de son recrutement , le prix d' un élève de grande école , ou de certains universitaires , ne correspond pas à la fourchette prévue dans la classification , et encore moins aux salaires de débutants .</text>
+            <annotationSet status="MANUAL" ID="19724">
+                <layer rank="1" name="FE">
+                    <label end="158" start="142" name="Category"/>
+                    <label itype="ENI" name="Cognizer"/>
+                    <label itype="ENI" name="Item"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

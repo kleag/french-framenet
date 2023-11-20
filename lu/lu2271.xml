@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="promulgation.n" ID="2271" frame="Ratification" frameID="1351" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="rat" name="Ratifier"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Proposal"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="10933"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Ratifier"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Ratifier"/>
+                <annoSet ID="10933"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7479">
+            <text>L' abondance de sable , d' argile , de fougères et de forêts sont autant d' atouts pour le développement dans cette région du travail du verre , qui acquiert une renommée internationale après la promulgation de la grande charte des verriers par René , duc d' Anjou et de Lorraine , en 1448 .</text>
+            <annotationSet status="MANUAL" ID="10933">
+                <layer rank="1" name="FE">
+                    <label end="278" start="245" name="Ratifier"/>
+                    <label end="239" start="211" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="206" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

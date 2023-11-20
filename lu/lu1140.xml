@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="mettre sur le compte de.v" ID="1140" frame="FR_Attributing_cause" frameID="10005" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cfac" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ksta" name="Known_state_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="exp" name="Attributor"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="resp" name="Responsible_party"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Attributor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Attributor"/>
+                <annoSet ID="15873"/>
+                <annoSet ID="17079"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Attributor"/>
+                <annoSet ID="11368"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cause"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="11368"/>
+                <annoSet ID="15873"/>
+                <annoSet ID="17079"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Known_state_of_affairs"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Known_state_of_affairs"/>
+                <annoSet ID="11368"/>
+                <annoSet ID="15873"/>
+                <annoSet ID="17079"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Responsible_party"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Responsible_party"/>
+                <annoSet ID="11368"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7863">
+            <text>L' envolée de la production , ces dernières années , est à mettre sur le compte des compagnies pétrolières occidentales , à nouveau autorisées au début de la décennie à explorer le sous - sol syrien .</text>
+            <annotationSet status="MANUAL" ID="11368">
+                <layer rank="1" name="FE">
+                    <label end="49" start="0" name="Known_state_of_affairs"/>
+                    <label end="197" start="84" name="Cause"/>
+                    <label end="197" start="84" name="Responsible_party"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11531">
+            <text>On peut s' attendre que Pékin mette sur le compte de ce différend tout nouveau refus d' acheter des équipements français ne provoquant pas son enthousiasme .</text>
+            <annotationSet status="MANUAL" ID="15873">
+                <layer rank="1" name="FE">
+                    <label end="154" start="66" name="Known_state_of_affairs"/>
+                    <label end="64" start="53" name="Cause"/>
+                    <label end="28" start="24" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12716">
+            <text>" Cette performance , explique cette dernière , est à mettre sur le compte de la reprise de la consommation de vêtements et de fournitures , liée à la meilleure tenue de l' environnement économique .</text>
+            <annotationSet status="MANUAL" ID="17079">
+                <layer rank="1" name="FE">
+                    <label end="18" start="2" name="Known_state_of_affairs"/>
+                    <label end="196" start="78" name="Cause"/>
+                    <label end="44" start="31" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

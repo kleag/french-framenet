@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="louange.n" ID="1951" frame="FR_Judgment_communication" frameID="10080" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Communicator"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="11628"/>
+                <annoSet ID="23351"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="11608"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Evaluee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="11608"/>
+                <annoSet ID="11628"/>
+                <annoSet ID="23351"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8067">
+            <text>Louanges D' un partenariat</text>
+            <annotationSet status="MANUAL" ID="11608">
+                <layer rank="1" name="FE">
+                    <label end="25" start="12" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8081">
+            <text>Fait suffisamment rare pour être souligné : le SNAV n' a aujourd' hui que louanges pour l' " excellent partenariat " qui s' est réalisé avec l' éducation nationale afin de mettre en place le nouveau BTS .</text>
+            <annotationSet status="MANUAL" ID="11628">
+                <layer rank="1" name="FE">
+                    <label end="50" start="44" name="Communicator"/>
+                    <label end="201" start="88" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19386">
+            <text>Autre point préoccupant : la manière dont les Roumains , et tout particulièrement à la télévision , chantent les louanges du président Iliescu .</text>
+            <annotationSet status="MANUAL" ID="23351">
+                <layer rank="1" name="FE">
+                    <label end="53" start="42" name="Communicator"/>
+                    <label end="141" start="125" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

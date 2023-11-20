@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="reverser.v" ID="1146" frame="FR_Giving_money" frameID="10032" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Rec" name="Recipient"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="Rep" name="Repository"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="8">
+            <FE name="Giver"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Giver"/>
+                <annoSet ID="3560"/>
+                <annoSet ID="3715"/>
+                <annoSet ID="3859"/>
+                <annoSet ID="6294"/>
+                <annoSet ID="14617"/>
+                <annoSet ID="19654"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Giver"/>
+                <annoSet ID="13753"/>
+                <annoSet ID="18375"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Goods"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Money"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="3560"/>
+                <annoSet ID="3715"/>
+                <annoSet ID="3859"/>
+                <annoSet ID="6294"/>
+                <annoSet ID="13753"/>
+                <annoSet ID="14617"/>
+                <annoSet ID="18375"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Rate"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Rate"/>
+                <annoSet ID="19654"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Recipient"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Recipient"/>
+                <annoSet ID="3560"/>
+                <annoSet ID="3715"/>
+                <annoSet ID="3859"/>
+                <annoSet ID="6294"/>
+                <annoSet ID="13753"/>
+                <annoSet ID="14617"/>
+                <annoSet ID="18375"/>
+                <annoSet ID="19654"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Repository"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2724">
+            <text>Ces secrétaires auraient parallèlement reçu des salaires de la part de la SAR , salaires ne correspondant à aucun travail effectif et reversés à Michel Giraud .</text>
+            <annotationSet status="MANUAL" ID="3560">
+                <layer rank="1" name="FE">
+                    <label end="132" start="80" name="Money"/>
+                    <label end="157" start="145" name="Recipient"/>
+                    <label end="76" start="71" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="134" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2834">
+            <text>Selon l' accusation , les entreprises qui se voyaient attribuer des marchés de construction des lycées d' Île-de-France devaient reverser 2 % de leurs montants aux partis : RPR , PS , Parti républicain .</text>
+            <annotationSet status="MANUAL" ID="3715">
+                <layer rank="1" name="FE">
+                    <label end="158" start="138" name="Money"/>
+                    <label end="200" start="164" name="Recipient"/>
+                    <label end="118" start="22" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2963">
+            <text>Celle-ci a été de 7 millions de dollars , sous la forme de valeurs mobilières ( 5 à prélever sur un compte de la Chase Manhattan Bank et 2 sur un compte de la Citibank ) et a été versée à la Banque nationale d' Algérie , qui centralisait la rançon pour la reverser ensuite à une banque iranienne à Téhéran .</text>
+            <annotationSet status="MANUAL" ID="3859">
+                <layer rank="1" name="FE">
+                    <label end="254" start="253" name="Money"/>
+                    <label end="246" start="238" name="Money"/>
+                    <label end="294" start="275" name="Recipient"/>
+                    <label end="223" start="221" name="Giver"/>
+                    <label end="304" start="188" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="263" start="256" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4455">
+            <text>Et le gouvernement japonais étudierait la possibilité d' introduire un système de subventions aux importations de voitures étrangères : à partir de 1992 , la taxe à la consommation sur les voitures sera ramenée de 6 % à 4 , 5 % et , selon le journal Mainishi , la différence pourrait être reversée en prime aux fabricants étrangers .</text>
+            <annotationSet status="MANUAL" ID="6294">
+                <layer rank="1" name="FE">
+                    <label end="273" start="261" name="Money"/>
+                    <label end="330" start="311" name="Recipient"/>
+                    <label end="26" start="3" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="296" start="289" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9773">
+            <text>Les donateurs ont été aussi nombreux que variés , mais le plus gros de l' effort a incontestablement été fourni par les Communautés européennes qui ont livré à cinq grandes villes ( Moscou , Saint - Pétersbourg , Nijni - Novgorod , Saratov , Tcheliabinsk , soit 17 millions d' habitants ) , entre décembre 1991 et le début de l' été de 1992 , 155 000 tonnes de vivres et de médicaments dont le produit de la vente a été reversé aux plus défavorisés sous forme d' allocations et de repas gratuits .</text>
+            <annotationSet status="MANUAL" ID="13753">
+                <layer rank="1" name="FE">
+                    <label end="412" start="391" name="Money"/>
+                    <label end="447" start="432" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="426" start="420" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10419">
+            <text>Mesure de financement complémentaire cependant , cette soudaine largesse de l' Etat à l' égard des régimes sociaux peut aussi être considérée comme un juste retour des choses puisque , depuis une demi - douzaine d' années , les augmentations successives du prix du tabac ont été " détournées " par l' Etat à son profit alors que leur produit devait , en principe , être reversé à la sécurité sociale .</text>
+            <annotationSet status="MANUAL" ID="14617">
+                <layer rank="1" name="FE">
+                    <label end="340" start="329" name="Money"/>
+                    <label end="398" start="380" name="Recipient"/>
+                    <label end="304" start="298" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="376" start="370" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14042">
+            <text>Les auteurs proposent de fiscaliser les matières premières écoulées par le continent pour lui reverser ensuite les sommes prélevées à titre d' aide .</text>
+            <annotationSet status="MANUAL" ID="18375">
+                <layer rank="1" name="FE">
+                    <label end="130" start="111" name="Money"/>
+                    <label end="92" start="90" name="Recipient"/>
+                    <label end="83" start="72" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15403">
+            <text>- La Redoute vient de signer avec Médecins sans frontières ( MSF ) une convention qui prévoit de reverser 50 francs à l' association sur la vente de chaque ourson en peluche dénommé " Baptiste " .</text>
+            <annotationSet status="MANUAL" ID="19654">
+                <layer rank="1" name="FE">
+                    <label end="114" start="106" name="Rate"/>
+                    <label end="193" start="133" name="Rate"/>
+                    <label end="131" start="118" name="Recipient"/>
+                    <label end="11" start="2" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

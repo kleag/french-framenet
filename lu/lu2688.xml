@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="accréditer.v" ID="2688" frame="Evidence" frameID="25" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2944"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Proposition"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="2944"/>
+                <annoSet ID="9372"/>
+                <annoSet ID="10916"/>
+                <annoSet ID="14734"/>
+                <annoSet ID="17351"/>
+                <annoSet ID="19977"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Support"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="2944"/>
+                <annoSet ID="9372"/>
+                <annoSet ID="10916"/>
+                <annoSet ID="14734"/>
+                <annoSet ID="17351"/>
+                <annoSet ID="19977"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2245">
+            <text>La piètre défense , teintée de mépris , de Valéry Giscard d' Estaing accrédite finalement aux yeux du public l' accusation portée par Le Canard enchaîné .</text>
+            <annotationSet status="MANUAL" ID="2944">
+                <layer rank="1" name="FE">
+                    <label end="107" start="102" name="Cognizer"/>
+                    <label end="67" start="0" name="Support"/>
+                    <label end="151" start="109" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6278">
+            <text>Plus globalement , la volonté de ne pas " brusquer les choses " risque d' accréditer l' idée que le gouvernement a déjà une faible marge de manoeuvre nationale au niveau de sa politique économique .</text>
+            <annotationSet status="MANUAL" ID="9372">
+                <layer rank="1" name="FE">
+                    <label end="62" start="19" name="Support"/>
+                    <label end="195" start="85" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7460">
+            <text>Si rien , faute d' archives , ne permet d' accréditer cette légende , il est en revanche établi que quatre familles de luthiers sont installées en 1673 dans la cité vosgienne .</text>
+            <annotationSet status="MANUAL" ID="10916">
+                <layer rank="1" name="FE">
+                    <label end="6" start="3" name="Support"/>
+                    <label end="66" start="54" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10520">
+            <text>rien ne permet d' accréditer une telle rumeur .</text>
+            <annotationSet status="MANUAL" ID="14734">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Support"/>
+                    <label end="44" start="29" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12993">
+            <text>En donnant l' impression de fixer de nouvelles conditions à un éventuel retour de la livre au sein d' un système de taux de change semi- fixes , le premier ministre renforce les doutes des partenaires de la Grande - Bretagne quant aux convictions européennes de Londres , et accrédite de facto la perspective d' une " Europe à deux vitesses " .</text>
+            <annotationSet status="MANUAL" ID="17351">
+                <layer rank="1" name="FE">
+                    <label end="163" start="145" name="Support"/>
+                    <label end="341" start="294" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="283" start="275" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15797">
+            <text>" Le président de BTF a franchi une nouvelle étape , lundi 29 juin , et accrédité un peu plus l' idée d' un désengagement complet du groupe de M. Bernard Tapie de toute activité industrielle .</text>
+            <annotationSet status="MANUAL" ID="19977">
+                <layer rank="1" name="FE">
+                    <label end="20" start="2" name="Support"/>
+                    <label end="189" start="94" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="trouver.v" ID="127" frame="Becoming_aware" frameID="20" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Mns" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="ins" name="Instrument"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="State"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Ground"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="3122"/>
+                <annoSet ID="5382"/>
+                <annoSet ID="7515"/>
+                <annoSet ID="9782"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="2483"/>
+                <annoSet ID="2487"/>
+                <annoSet ID="3365"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Instrument"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Means"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Phenomenon"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="2483"/>
+                <annoSet ID="2487"/>
+                <annoSet ID="3122"/>
+                <annoSet ID="3365"/>
+                <annoSet ID="5382"/>
+                <annoSet ID="7515"/>
+                <annoSet ID="9782"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="State"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="State"/>
+                <annoSet ID="3365"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Ground"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Ground"/>
+                <annoSet ID="2483"/>
+                <annoSet ID="2487"/>
+                <annoSet ID="3122"/>
+                <annoSet ID="5382"/>
+                <annoSet ID="5773"/>
+                <annoSet ID="7515"/>
+                <annoSet ID="9782"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2167">
+            <text>D'_abord de quelques centaines de morts annoncés , les télévisions ont annoncé quelques 70_000 morts quelques jours plus_tard , trouvés dans des charniers .</text>
+            <annotationSet status="MANUAL" ID="2483">
+                <layer rank="1" name="FE">
+                    <label end="99" start="79" name="Phenomenon"/>
+                    <label end="153" start="141" name="Ground"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2171">
+            <text>ils étaient issus du fonctionnement habituel de l' établissement , mais avaient été présentés comme trouvés dans des charniers résultant de tortures et de massacres du régime en_place .</text>
+            <annotationSet status="MANUAL" ID="2487">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Phenomenon"/>
+                    <label end="182" start="113" name="Ground"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2765">
+            <text>Sur Jean-Paul Schimpf , les enquêteurs trouvent un contrat de prêt de 1 million de francs destiné à l' achat de l' appartement de la compagne de Didier Schuller .</text>
+            <annotationSet status="MANUAL" ID="3122">
+                <layer rank="1" name="FE">
+                    <label end="37" start="24" name="Cognizer"/>
+                    <label end="159" start="48" name="Phenomenon"/>
+                    <label end="20" start="4" name="Ground"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2979">
+            <text>Après une enquête rapide , le 23 avril 1999 , certains objets appartenant à des gendarmes d' Ajaccio sont trouvés ensevelis dans le sable non loin_de l' incendie de la paillote Chez Francis .</text>
+            <annotationSet status="MANUAL" ID="3365">
+                <layer rank="1" name="FE">
+                    <label end="188" start="114" name="State"/>
+                    <label end="99" start="46" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4392">
+            <text>Du côté d' Air France , on se frotte les mains de trouver un allié de qualité au coeur de l' Europe de l' Est , car CSA gagne bon an mal an de 20 à 30 millions de dollars ( 100 à 150 millions de francs ) et transporte 1 , 5 million de passagers chaque année vers une quarantaine de pays .</text>
+            <annotationSet status="MANUAL" ID="5382">
+                <layer rank="1" name="FE">
+                    <label end="20" start="11" name="Cognizer"/>
+                    <label end="25" start="24" name="Cognizer"/>
+                    <label end="76" start="58" name="Phenomenon"/>
+                    <label end="108" start="78" name="Ground"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4698">
+            <text>Ces questions sont suffisamment graves pour qu' elles figurent dans un Bilan où le lecteur trouvera , commentées , les principales statistiques " macro- économiques " , ainsi que la description de l' état du monde et de la France , sous l' angle plus concret de la " vie des affaires " et des grands courants de la vie sociale .</text>
+            <annotationSet status="MANUAL" ID="5773">
+                <layer rank="1" name="FE">
+                    <label end="75" start="68" name="Ground"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5824">
+            <text>Les salariés y trouveront d' autres avantages , par le biais des classifications et de la motivation .</text>
+            <annotationSet status="MANUAL" ID="7515">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Cognizer"/>
+                    <label end="44" start="26" name="Phenomenon"/>
+                    <label end="13" start="13" name="Ground"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7686">
+            <text>Les amateurs de plongée dans le séraphisme et l' informatique trouveront dans ce livre une intéressante réflexion sur le télé- travail , l' entreprise " virtuelle " , la délocalisation , l' immigration masquée .</text>
+            <annotationSet status="MANUAL" ID="9782">
+                <layer rank="1" name="FE">
+                    <label end="60" start="0" name="Cognizer"/>
+                    <label end="208" start="87" name="Phenomenon"/>
+                    <label end="85" start="78" name="Ground"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

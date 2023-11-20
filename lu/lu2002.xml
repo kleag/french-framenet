@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="reproche.n" ID="2002" frame="Judgment_direct_address" frameID="711" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Core" abbrev="" name="Expressor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Addressee"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="2318"/>
+                <annoSet ID="7922"/>
+                <annoSet ID="8413"/>
+                <annoSet ID="9087"/>
+                <annoSet ID="17660"/>
+                <annoSet ID="21128"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="12645"/>
+                <annoSet ID="19484"/>
+                <annoSet ID="24529"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Communicator"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="12645"/>
+                <annoSet ID="21128"/>
+                <annoSet ID="24529"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="2318"/>
+                <annoSet ID="7922"/>
+                <annoSet ID="8413"/>
+                <annoSet ID="9087"/>
+                <annoSet ID="19484"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="9087"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Reason"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="7922"/>
+                <annoSet ID="12645"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Reason"/>
+                <annoSet ID="2318"/>
+                <annoSet ID="8413"/>
+                <annoSet ID="17660"/>
+                <annoSet ID="19484"/>
+                <annoSet ID="21128"/>
+                <annoSet ID="24529"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1891">
+            <text>Ceci n' est pas un reproche adressé à la Commission , mais c' est une constatation , constatation qui provoquera plus de frictions si l' on sait que la somme de 5,5 milliards serait disponible .</text>
+            <annotationSet status="MANUAL" ID="2318">
+                <layer rank="1" name="FE">
+                    <label end="50" start="38" name="Addressee"/>
+                    <label itype="DNI" name="Communicator"/>
+                    <label itype="DNI" name="Reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5452">
+            <text>Toutefois , les vieux démons n' ont pas totalement disparu et certaines nominations peuvent encourir le reproche d' être plus politiques que stratégiques .</text>
+            <annotationSet status="MANUAL" ID="7922">
+                <layer rank="1" name="FE">
+                    <label end="82" start="62" name="Reason"/>
+                    <label end="152" start="116" name="Reason"/>
+                    <label end="82" start="62" name="Addressee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5720">
+            <text>Le plus curieux , dans cette affaire , est que le glissement du dollar ne suscite aucune imprécation ni reproche .</text>
+            <annotationSet status="MANUAL" ID="8413">
+                <layer rank="1" name="FE">
+                    <label end="69" start="47" name="Addressee"/>
+                    <label itype="UNI" name="Communicator"/>
+                    <label itype="ENI" name="Reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6113">
+            <text>M. Gérard Dantin , secrétaire national de la CFDT , qui dirige pour la première fois la délégation de son organisation , a résumé le reproche commun quand , dans une déclaration , le 1 juillet , il a fustigé l' attitude des entreprises qui " continuent à se décharger massivement sur la collectivité nationale en matière de gestion des effectifs " et qui ne veulent pas en supporter les conséquences .</text>
+            <annotationSet status="MANUAL" ID="9087">
+                <layer rank="1" name="FE">
+                    <label end="398" start="224" name="Addressee"/>
+                    <label end="176" start="162" name="Medium"/>
+                    <label itype="DNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8855">
+            <text>Cependant , quand il s' agit de la gaîté - lyrique , on est étonné de ne pas lire sous la plume du rédacteur le reproche de " salle mal adaptée " .</text>
+            <annotationSet status="MANUAL" ID="12645">
+                <layer rank="1" name="FE">
+                    <label end="107" start="99" name="Communicator"/>
+                    <label end="144" start="124" name="Reason"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13294">
+            <text>Graphisme publicitaire ne convient pas pour ... désigner l' ensemble du travail de conception visant à la création d' objets et d' environnements à la fois esthétiques et fonctionnels , et esthétisme peut subir le même reproche .</text>
+            <annotationSet status="MANUAL" ID="17660">
+                <layer rank="1" name="FE">
+                    <label end="198" start="189" name="Addressee"/>
+                    <label itype="ENI" name="Reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="226" start="219" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15229">
+            <text>Le président du CNPF , qui a précisé que cette réunion s' est déroulée " sans passion et sans reproche " , " n' est pas entré dans le détail de dispositions " déja annoncées par le gouvernement et n' a " demandé aucun engagement " au premier ministre .</text>
+            <annotationSet status="MANUAL" ID="19484">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Communicator"/>
+                    <label itype="UNI" name="Reason"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17007">
+            <text>Mr Valéry Giscard d' Estaing a , lui aussi , adressé une série de reproches à la commission , le principal portant sur les contrôles fiscaux aux frontières entre les états membres .</text>
+            <annotationSet status="MANUAL" ID="21128">
+                <layer rank="1" name="FE">
+                    <label end="27" start="0" name="Communicator"/>
+                    <label end="90" start="78" name="Addressee"/>
+                    <label itype="UNI" name="Reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20991">
+            <text>au - delà de ces reproches , le bureau de l' UNEDIC voudrait aussi obtenir un soutien dans le traitement financier de sa dette et souhaiterait la bonification de ses emprunts , qui s' élèvent à 18 , 5 milliards .</text>
+            <annotationSet status="MANUAL" ID="24529">
+                <layer rank="1" name="FE">
+                    <label end="50" start="29" name="Communicator"/>
+                    <label itype="DNI" name="Reason"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

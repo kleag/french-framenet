@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="déceler.v" ID="106" frame="FR_Becoming_aware" frameID="10086" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="ins" name="Instrument"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="17519"/>
+                <annoSet ID="22776"/>
+                <annoSet ID="24320"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="2561"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Instrument"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Phenomenon"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="2561"/>
+                <annoSet ID="17519"/>
+                <annoSet ID="22776"/>
+                <annoSet ID="24320"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1994">
+            <text>Deuxièmement , il existe des tests qui permettent de poser un diagnostic rapide et de déceler l' ESB chez les bovins .</text>
+            <annotationSet status="MANUAL" ID="2561">
+                <layer rank="1" name="FE">
+                    <label end="99" start="94" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13131">
+            <text>Pour le moment , on ne décèle pas de " comportement anormal " chez les consommateurs .</text>
+            <annotationSet status="MANUAL" ID="17519">
+                <layer rank="1" name="FE">
+                    <label end="18" start="17" name="Cognizer"/>
+                    <label end="83" start="34" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18664">
+            <text>Des diplomates occidentaux croient cependant déceler un certain " ébranlement " de la position soviétique .</text>
+            <annotationSet status="MANUAL" ID="22776">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Cognizer"/>
+                    <label end="104" start="53" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20710">
+            <text>Signe avant - coureur d' un recul plus fort que prévu décelé par la confédération , la seule à disposer d' estimations fournies à partir de bureaux - tests ?</text>
+            <annotationSet status="MANUAL" ID="24320">
+                <layer rank="1" name="FE">
+                    <label end="154" start="65" name="Cognizer"/>
+                    <label end="52" start="25" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

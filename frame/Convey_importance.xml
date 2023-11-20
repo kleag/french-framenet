@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Convey_importance" ID="1543" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;Through a  &lt;fen&gt;Message&lt;/fen&gt;, a &lt;fen&gt;Speaker&lt;/fen&gt; (sometimes encoded metonymically by a &lt;fen&gt;Medium&lt;/fen&gt;) communicates the relative importance of the state of affairs denoted by the &lt;fen&gt;Message&lt;/fen&gt;.
+
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Reid&lt;/fex&gt; &lt;t&gt;emphasized&lt;/t&gt; &lt;fex name="Message"&gt;that he and Dean meet every month&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Above all , &lt;fex name="Speaker"&gt;Mr Tsongas&lt;/fex&gt; &lt;t&gt;stressed&lt;/t&gt; &lt;fex name="Message"&gt;the need for his message to be heard&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Speaker"&gt;Professor Perkin&lt;/fex&gt; has &lt;t&gt;stressed&lt;/t&gt; &lt;fex name="Message"&gt;how favourable Britain 's situation was&lt;/fex&gt; .&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Speaker"&gt;The courts&lt;/fex&gt; have &lt;fex name="Iteration"&gt;repeatedly&lt;/fex&gt; &lt;t&gt;stressed&lt;/t&gt; &lt;fex name="Message"&gt;that the making of an order is discretionary&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Message"&gt;"The whole Muslim society should respect these rights,"&lt;/fex&gt; &lt;fex name="Speaker"&gt;he&lt;/fex&gt; &lt;t&gt;stressed&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Speaker"&gt;The panelists&lt;/fex&gt; &lt;t&gt;stressed&lt;/t&gt; &lt;fex name="Addressee"&gt;to an audience of about 100 at North Dakota State University's Memorial Union&lt;/fex&gt; &lt;fex name="Message"&gt;that people of different religions in this community need to talk - and find out they're not all that different&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/07/2005 04:35:02 PDT Thu" abbrev="spe" name="Speaker" ID="8418">
+        <definition>&lt;def-root&gt;The person who uses language in the written or spoken modality to convey a &lt;fen&gt;Message&lt;/fen&gt; to another person. 
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Juhl&lt;/fex&gt; &lt;t&gt;emphasized&lt;/t&gt; the importance of UPMC System investments, stating that their contribution to the school's funds had tripled in recent years.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="07/07/2005 04:35:02 PDT Thu" abbrev="Add" name="Addressee" ID="8419">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is the audience to which the &lt;fen&gt;Speaker&lt;/fen&gt; communicates the &lt;fen&gt;Message&lt;/fen&gt;.
+
+&lt;ex&gt;Pastor Host &lt;t&gt;emphasized&lt;/t&gt; &lt;fex name="Add"&gt;to him&lt;/fex&gt; that as you study a passage, a theme develops from the text.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/07/2005 04:35:02 PDT Thu" abbrev="Msg" name="Message" ID="8420">
+        <definition>&lt;def-root&gt;The proposition whose denotation the Speaker presents as important.
+
+&lt;ex&gt;He &lt;t&gt;emphasized&lt;/t&gt; to me &lt;fex name="Message"&gt;that my words will go down in history and that this poem has made a difference in our world&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/07/2005 04:35:02 PDT Thu" abbrev="Medium" name="Medium" ID="8422">
+        <definition>&lt;def-root&gt;The physical or abstract setting in which the &lt;fen&gt;Message&lt;/fen&gt; is conveyed. 
+
+&lt;ex&gt;&lt;fex name="Medium"&gt;The report&lt;/fex&gt; &lt;t&gt;emphasized&lt;/t&gt; that Iraq's unwillingness to cooperate represents a serious problem for the progress of this work.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Statement-manner-noise</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="faire valoir.v" ID="405" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100882" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="insister.v" ID="407" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mettre en relief.v" ID="408" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mettre l'accent.v" ID="409" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="relever.v" ID="410" nbocc="112" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="22"/>
+        <otherlexUnit framename="Other_sense" ID="101586" annotatedsent="64"/>
+        <otherlexUnit framename="FR_Becoming_aware" ID="119" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'appesantir.v" ID="411" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="souligner.v" ID="412" nbocc="128" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="93"/>
+        <otherlexUnit framename="Other_sense" ID="101840" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="598" annotatedsent="7"/>
+    </lexUnit>
+</frame>

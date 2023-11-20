@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="si bien que.conj" ID="251" frame="Causation" frameID="5" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cause"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="13189"/>
+                <annoSet ID="15628"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Effect"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="13189"/>
+                <annoSet ID="15628"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="9292">
+            <text>Bref , le marché existe si bien que la société Who' s next a décidé de créer , en 1994 , un salon qui lui sera consacré .</text>
+            <annotationSet status="MANUAL" ID="13189">
+                <layer rank="1" name="FE">
+                    <label end="22" start="0" name="Cause"/>
+                    <label end="118" start="36" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11322">
+            <text>A signaler l' émergence , depuis cinq ans surtout , de la zone des pays asiatiques en développement rapide ( Chine , Corée , Hongkong , Taïwan , Philippines , Indonésie , Malaisie , Singapour , Thaïlande ) avec lesquels les échanges augmentent de 13 % par an en moyenne , si bien qu' ils représentent désormais 5 % des importations et 4 % des exportations françaises , ce qui les place à un rang proche des Etats - Unis et du Japon .</text>
+            <annotationSet status="MANUAL" ID="15628">
+                <layer rank="1" name="FE">
+                    <label end="270" start="206" name="Cause"/>
+                    <label end="430" start="284" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="282" start="272" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

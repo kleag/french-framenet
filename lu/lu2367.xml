@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="enjoindre.v" ID="2367" frame="FR_Request" frameID="10082" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Requested_entity"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Addressee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="6262"/>
+                <annoSet ID="9295"/>
+                <annoSet ID="9333"/>
+                <annoSet ID="22093"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Eventuality"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="6262"/>
+                <annoSet ID="9295"/>
+                <annoSet ID="9333"/>
+                <annoSet ID="22093"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="22093"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Requested_entity"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="6262"/>
+                <annoSet ID="9295"/>
+                <annoSet ID="9333"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4444">
+            <text>Répondant aux demandes du premier ministre , M. Miyazawa , qui la semaine dernière leur avait enjoint de " faire preuve de compassion " à l' égard de leurs homologues américains , les constructeurs nippons ont annoncé une série de concessions allant d' une augmentation des achats de pièces détachées à une aide à la distribution des véhicules américains au Japon .</text>
+            <annotationSet status="MANUAL" ID="6262">
+                <layer rank="1" name="FE">
+                    <label end="86" start="83" name="Addressee"/>
+                    <label end="204" start="180" name="Addressee"/>
+                    <label end="61" start="59" name="Speaker"/>
+                    <label end="176" start="26" name="Speaker"/>
+                    <label end="86" start="83" name="Eventuality"/>
+                    <label end="176" start="105" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6233">
+            <text>Le Conseil de la concurrence avait enjoint aux exploitants de réseaux de supprimer les clauses d' exclusivité thématique figurant dans les contrats avec les chaînes du câble .</text>
+            <annotationSet status="MANUAL" ID="9295">
+                <layer rank="1" name="FE">
+                    <label end="68" start="47" name="Addressee"/>
+                    <label end="27" start="0" name="Speaker"/>
+                    <label end="68" start="47" name="Eventuality"/>
+                    <label end="172" start="73" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6253">
+            <text>Le tribunal de Quimper , saisi en référé par le comité national contre le tabagisme ( CNT ) , a enjoint , vendredi 3 juillet , à TF 1 d' éviter la diffusion d' images des marques de cigarette lors des grands prix automobiles de formule 1 , sous peine d' une astreinte de 10 000 francs par plan séquence illégalement diffusé .</text>
+            <annotationSet status="MANUAL" ID="9333">
+                <layer rank="1" name="FE">
+                    <label end="132" start="129" name="Addressee"/>
+                    <label end="21" start="0" name="Speaker"/>
+                    <label end="132" start="129" name="Eventuality"/>
+                    <label end="322" start="137" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18044">
+            <text>Bien plus , le traité de 1982 sur le droit de la mer enjoint aujourd' hui aux Etats riverains d' une même mer de coopérer ; des accords régionaux leur imposent de s' informer , de s' assister en cas d' urgence , et leur suggèrent , par là , de se concerter .</text>
+            <annotationSet status="MANUAL" ID="22093">
+                <layer rank="1" name="FE">
+                    <label end="51" start="12" name="Medium"/>
+                    <label end="108" start="78" name="Eventuality"/>
+                    <label end="120" start="113" name="Eventuality"/>
+                    <label end="108" start="78" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

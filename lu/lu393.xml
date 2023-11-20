@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'insurger.v" ID="393" frame="FR_Taking_sides" frameID="10060" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4713"/>
+                <annoSet ID="9989"/>
+                <annoSet ID="11292"/>
+                <annoSet ID="13081"/>
+                <annoSet ID="19457"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Content"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="4713"/>
+                <annoSet ID="9989"/>
+                <annoSet ID="11292"/>
+                <annoSet ID="13081"/>
+                <annoSet ID="19457"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3523">
+            <text>" Aucune enquête annuelle sur l' emploi n' a été faite qui permettrait de suivre correctement l' évolution du marché du travail et d' orienter judicieusement les filières de formation " , s' insurge M. Tony Manglou , président du comité économique et social .</text>
+            <annotationSet status="MANUAL" ID="4713">
+                <layer rank="1" name="FE">
+                    <label end="184" start="0" name="Content"/>
+                    <label end="256" start="199" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6708">
+            <text>L' Union nationale des entrepreneurs publics s' insurge contre des mesures qui conduiraient à " brader " le secteur public au bénéfice d' intérêts privés , nationaux ou étrangers .</text>
+            <annotationSet status="MANUAL" ID="9989">
+                <layer rank="1" name="FE">
+                    <label end="177" start="63" name="Content"/>
+                    <label end="43" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7802">
+            <text>LARGE TRAFIC " L' argent va dans des dépenses non prioritaires , comme la construction d' Abuja ( la nouvelle capitale fédérale ) , ou malsaines , comme l' aciérie d' Adjaokuta ! " , s' insurge un journaliste .</text>
+            <annotationSet status="MANUAL" ID="11292">
+                <layer rank="1" name="FE">
+                    <label end="181" start="0" name="Content"/>
+                    <label end="207" start="194" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="192" start="183" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9161">
+            <text>Tout ça , c' est de la poudre aux yeux " , s' insurge l' économiste Hassep Drabu .</text>
+            <annotationSet status="MANUAL" ID="13081">
+                <layer rank="1" name="FE">
+                    <label end="41" start="0" name="Content"/>
+                    <label end="79" start="54" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15211">
+            <text>" La grande mode en ce moment à Bratislava , c' est de ne payer personne , s' insurge Pavel Maly .</text>
+            <annotationSet status="MANUAL" ID="19457">
+                <layer rank="1" name="FE">
+                    <label end="71" start="0" name="Content"/>
+                    <label end="95" start="86" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

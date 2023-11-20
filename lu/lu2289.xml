@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="en vertu de.prep" ID="2289" frame="FR_Reason" frameID="10083" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Action"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="2095"/>
+                <annoSet ID="3041"/>
+                <annoSet ID="4055"/>
+                <annoSet ID="14037"/>
+                <annoSet ID="14661"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Agent"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="2095"/>
+                <annoSet ID="3041"/>
+                <annoSet ID="4055"/>
+                <annoSet ID="14037"/>
+                <annoSet ID="14661"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="State_of_Affairs"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="2095"/>
+                <annoSet ID="3041"/>
+                <annoSet ID="4055"/>
+                <annoSet ID="14037"/>
+                <annoSet ID="14661"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1798">
+            <text>Il me semble qu' en vertu de la présente réglementation , le gouvernement central peut intégrer dans ses calculs la contribution de l' UE au financement structurel pour déterminer les budgets du gouvernement régional .</text>
+            <annotationSet status="MANUAL" ID="2095">
+                <layer rank="1" name="FE">
+                    <label end="215" start="56" name="Action"/>
+                    <label end="80" start="58" name="Agent"/>
+                    <label end="54" start="29" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2348">
+            <text>- 15 février 1989 : La Cour de cassation renvoie le dossier à Amiens en vertu du privilège de juridiction qui impose alors le dépaysement des dossiers mettant en cause des élus .</text>
+            <annotationSet status="MANUAL" ID="3041">
+                <layer rank="1" name="FE">
+                    <label end="67" start="0" name="Action"/>
+                    <label end="175" start="81" name="State_of_Affairs"/>
+                    <label end="39" start="20" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3154">
+            <text>En mars , le gouvernement péroniste de M. Carlos Menem avait fixé un système de parité de 10 000 australs pour 1 dollar , en vertu de la loi de convertibilité approuvée par le Congrès .</text>
+            <annotationSet status="MANUAL" ID="4055">
+                <layer rank="1" name="FE">
+                    <label end="120" start="0" name="Action"/>
+                    <label end="53" start="10" name="Agent"/>
+                    <label end="182" start="134" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9987">
+            <text>En vertu de cette vision des choses , ils niaient , en mars 1975 , que la France était entrée depuis plusieurs mois déjà dans ce qui devait se révéler comme la première grande récession de l' après - guerre ( connue abusivement sous le nom de " premier choc pétrolier " ) .</text>
+            <annotationSet status="MANUAL" ID="14037">
+                <layer rank="1" name="FE">
+                    <label end="272" start="36" name="Action"/>
+                    <label end="34" start="12" name="State_of_Affairs"/>
+                    <label end="40" start="38" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10455">
+            <text>Trente - deux millions de francs , investis pour moitié par le Centre National de la Recherche scientifique ( CNRS ) et pour moitié par la Max Planck Gesellschaft ( MPG ) : tel est le prix que paieront la France et l' Allemagne , en vertu de l' accord qui vient d' être signé à l' Observatoire européen austral ( ESO ) , pour la réalisation , attenante à celle du futur observatoire géant européen VLT ( Very large Telescope ) , d' un télescope de 1 , 80 mètre de diamètre .</text>
+            <annotationSet status="MANUAL" ID="14661">
+                <layer rank="1" name="FE">
+                    <label end="228" start="181" name="Action"/>
+                    <label end="471" start="242" name="State_of_Affairs"/>
+                    <label end="226" start="202" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="240" start="230" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

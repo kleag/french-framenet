@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prononcer.v" ID="2517" frame="Spelling_and_pronouncing" frameID="1081" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="sig" name="Sign"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="jud" name="Judgment"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="for" name="Formal_realization"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pof" name="Part_of_form"/>
+            <FE fgColor="FFFFFF" bgColor="FF69B4" type="Core" abbrev="man" name="Manner"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Formal_realization"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Formal_realization"/>
+                <annoSet ID="17646"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Judgment"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Manner"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Part_of_form"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Sign"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Sign"/>
+                <annoSet ID="17646"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="17646"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="13288">
+            <text>Peut être , si l'on considère le succès du nom masculin design - prononcé le plus souvent " dezaïgn " ou " dizaï' n " - et employé comme réduction d' industrial design .</text>
+            <annotationSet status="MANUAL" ID="17646">
+                <layer rank="1" name="FE">
+                    <label end="116" start="90" name="Formal_realization"/>
+                    <label end="63" start="56" name="Sign"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

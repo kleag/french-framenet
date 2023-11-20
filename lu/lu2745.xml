@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="plaidoirie.n" ID="2745" frame="FR_Attempt_suasion.legitimacy" frameID="10084" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="SoA" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Polarity"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Persuader" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="3663"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Persuader"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="3663"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Polarity"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Polarity"/>
+                <annoSet ID="3663"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="State_of_affairs"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="State_of_affairs"/>
+                <annoSet ID="3663"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2802">
+            <text>- 5 avril 2006 : dernier jour du procès des HLM de paris consacré aux plaidoiries .</text>
+            <annotationSet status="MANUAL" ID="3663">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Polarity"/>
+                    <label itype="ENI" name="Persuader"/>
+                    <label itype="ENI" name="Addressee"/>
+                    <label itype="UNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

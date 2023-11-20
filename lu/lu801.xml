@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="convenir.v" ID="801" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2203"/>
+                <annoSet ID="2208"/>
+                <annoSet ID="21230"/>
+                <annoSet ID="22528"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Content"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="2203"/>
+                <annoSet ID="2208"/>
+                <annoSet ID="17123"/>
+                <annoSet ID="21230"/>
+                <annoSet ID="22528"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1836">
+            <text>Mais je me dois de souligner qu' elle est nécessaire , indispensable , notamment parce qu' avant tout , nous en convenons tous , le réexamen actuel du mode de fonctionnement de l' Union européenne est directement lié au grand défi que constitue l' élargissement .</text>
+            <annotationSet status="MANUAL" ID="2203">
+                <layer rank="1" name="FE">
+                    <label end="110" start="109" name="Content"/>
+                    <label end="260" start="129" name="Content"/>
+                    <label end="107" start="104" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1837">
+            <text>Et il est très naturel , quand nous constatons et convenons tous que dans une Europe de quinze États membres il y a déjà des dysfonctionnements auxquels il convient de remédier , qu' il faille à plus forte raison le faire quand nous parlerons d' une Union de 18 , 20 , 25 et 27 membres .</text>
+            <annotationSet status="MANUAL" ID="2208">
+                <layer rank="1" name="FE">
+                    <label end="175" start="69" name="Content"/>
+                    <label end="34" start="31" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12751">
+            <text>Comme nombre d' analystes en conviennent , seule une baisse des taux sensible pourrait redonner un coup de fouet au marché .</text>
+            <annotationSet status="MANUAL" ID="17123">
+                <layer rank="1" name="FE">
+                    <label end="27" start="26" name="Content"/>
+                    <label end="121" start="43" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17107">
+            <text>Chefs - d' entreprise ou avocats conviennent en tout cas que cette incursion du juridique est révélatrice de l' âpreté plus grande qui règne dans les milieux économiques .</text>
+            <annotationSet status="MANUAL" ID="21230">
+                <layer rank="1" name="FE">
+                    <label end="168" start="61" name="Content"/>
+                    <label end="31" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18394">
+            <text>Ces précautions prises , on en conviendra : il s' en passe des choses en ce moment ...</text>
+            <annotationSet status="MANUAL" ID="22528">
+                <layer rank="1" name="FE">
+                    <label end="29" start="28" name="Content"/>
+                    <label end="81" start="44" name="Content"/>
+                    <label end="26" start="25" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

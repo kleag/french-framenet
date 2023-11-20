@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="protestation.n" ID="385" frame="Complaining" frameID="1621" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cmplnr" name="Complainer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="com" name="Complaint"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Addressee"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="2835"/>
+                <annoSet ID="8953"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Complainer"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Complainer"/>
+                <annoSet ID="4027"/>
+                <annoSet ID="8953"/>
+                <annoSet ID="10625"/>
+                <annoSet ID="16132"/>
+                <annoSet ID="20706"/>
+                <annoSet ID="22990"/>
+                <annoSet ID="23072"/>
+                <annoSet ID="23659"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Complaint"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Complaint"/>
+                <annoSet ID="16132"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="8953"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Topic"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="4027"/>
+                <annoSet ID="8953"/>
+                <annoSet ID="22680"/>
+                <annoSet ID="23659"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="2835"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2139">
+            <text>Il y eut de nombreuses signatures de motions , des protestations devant la chambre des députés , toutes demandant la réhabilitation des caporaux de Souain .</text>
+            <annotationSet status="MANUAL" ID="2835">
+                <layer rank="1" name="FE">
+                    <label end="93" start="87" name="Addressee"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3138">
+            <text>L' annonce de l' installation du poulailler géant suscite une vigoureuse protestation des syndicats d' exploitants agricoles , qui invoquent un risque de déséquilibre du marché européen .</text>
+            <annotationSet status="MANUAL" ID="4027">
+                <layer rank="1" name="FE">
+                    <label end="48" start="14" name="Topic"/>
+                    <label end="184" start="90" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3797">
+            <text>Un mouvement de protestation semble s' étendre à l' ensemble des grandes villes , signale l' agence de presse PAP qui cite Lodz ( centre ) , Bydgoszcz ( ouest ) , Wroclaw ( sud - ouest ) , Zielona - Gora ( ouest ) , Szczecin ( nord - ouest ) .</text>
+            <annotationSet status="MANUAL" ID="5208">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3800">
+            <text>La Fédération des retraités , qui regroupe plusieurs millions d' adhérents , s' est jointe au mouvement de protestation qui regroupe maintenant les syndicalistes de Solidarité .</text>
+            <annotationSet status="MANUAL" ID="5214">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6038">
+            <text>Pour l' heure , cinquante et un sénateurs , sur les cent que compte la chambre haute , ont adressé des lettres de protestation au président Bush pour s' opposer à l' opération .</text>
+            <annotationSet status="MANUAL" ID="8953">
+                <layer rank="1" name="FE">
+                    <label end="174" start="163" name="Topic"/>
+                    <label end="112" start="99" name="Medium"/>
+                    <label end="40" start="16" name="Complainer"/>
+                    <label end="143" start="130" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7207">
+            <text>PROTESTATION DES AGRICULTEURS ET DES ROUTIERS .</text>
+            <annotationSet status="MANUAL" ID="10625">
+                <layer rank="1" name="FE">
+                    <label end="31" start="17" name="Complainer"/>
+                    <label end="44" start="37" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11765">
+            <text>Les quatre centrales syndicales ( CFDT , FO , CFTC , CFE - CGC ) signataires du précédent accord , qui arrive à expiration le 31 décembre , devaient se réunir , mardi , afin d' élaborer " une protestation commune " .</text>
+            <annotationSet status="MANUAL" ID="16132">
+                <layer rank="1" name="FE">
+                    <label end="211" start="188" name="Complaint"/>
+                    <label end="136" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="203" start="192" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16530">
+            <text>Et une centaine de lettres de protestations d' associations , d' auditeurs portugais , espagnols et ... français sont parvenues à la station , qui disent " si vous ne faites rien , nous resterons seuls et notre voix va se taire " .</text>
+            <annotationSet status="MANUAL" ID="20706">
+                <layer rank="1" name="FE">
+                    <label end="60" start="47" name="Complainer"/>
+                    <label end="111" start="65" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18562">
+            <text>" Soucieuses d' empêcher des manifestations de protestation , les autorités albanaises ont mis en place des mesures extrêmement rigoureuses de contrôle de la situation dans le pays " , a ajouté l' agence , estimant que ces mesures " peuvent être qualifiées avec certitude d' état d' urgence " .</text>
+            <annotationSet status="MANUAL" ID="22667">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18569">
+            <text>Ce conseil , réuni depuis le 8 janvier , avait été créé à la suite des manifestations et des grèves de protestations contre la décision des nouvelles autorités de mettre un terme à la politique d' assimilation forcée de la minorité turque .</text>
+            <annotationSet status="MANUAL" ID="22680">
+                <layer rank="1" name="FE">
+                    <label end="237" start="124" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18919">
+            <text>Aucune protestation n' aboutit à un résultat .</text>
+            <annotationSet status="MANUAL" ID="22989">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18920">
+            <text>Ainsi , malgré les protestations de la direction , malgré de nombreux actes de sabotage , Renault , comme la plupart des entreprises françaises , travaillera pour l' Allemagne , et des camions Renault assureront des transports de troupes vers le front russe .</text>
+            <annotationSet status="MANUAL" ID="22990">
+                <layer rank="1" name="FE">
+                    <label end="47" start="36" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19011">
+            <text>À Jos et Kaduna , capitales des Etats du Plateau et de Kaduna , les manifestants ont rencontré les gouverneurs , qui ont promis de faire part de leurs protestations au président Ibrahim Babangida .</text>
+            <annotationSet status="MANUAL" ID="23072">
+                <layer rank="1" name="FE">
+                    <label end="79" start="64" name="Complainer"/>
+                    <label end="149" start="145" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="163" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19911">
+            <text>Ces mesures ont provoqué de vives protestations de la part des syndicats ( le Monde daté 5 - 6 janvier ) , mais le premier ministre , M. Jan Olszewski , a déclaré samedi au Parlement qu' il serait prêt à démissionner si Solidarité et l' OPZZ ( l' ancien syndicat communiste ) annonçaient des grèves de protestation .</text>
+            <annotationSet status="MANUAL" ID="23658">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="313" start="302" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19911">
+            <text>Ces mesures ont provoqué de vives protestations de la part des syndicats ( le Monde daté 5 - 6 janvier ) , mais le premier ministre , M. Jan Olszewski , a déclaré samedi au Parlement qu' il serait prêt à démissionner si Solidarité et l' OPZZ ( l' ancien syndicat communiste ) annonçaient des grèves de protestation .</text>
+            <annotationSet status="MANUAL" ID="23659">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Topic"/>
+                    <label end="71" start="63" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

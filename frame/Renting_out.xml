@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Renting_out" ID="1729" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Lessor&lt;/fen&gt; who owns some &lt;fen&gt;Goods&lt;/fen&gt; allows a &lt;fen&gt;Lessee&lt;/fen&gt; to use the &lt;fen&gt;Goods&lt;/fen&gt; temporarily in exchange for &lt;fen&gt;Money&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/29/2006 05:14:27 PST Wed" abbrev="Lee" name="Lessee" ID="10001">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Lessee&lt;/fen&gt; has &lt;fen&gt;Money&lt;/fen&gt; and wants the &lt;fen&gt;Goods&lt;/fen&gt;.
+&lt;ex&gt;Lee &lt;t&gt;rented&lt;/t&gt; a textbook &lt;fex name="Lessee"&gt;to Abby&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/29/2006 05:14:27 PST Wed" abbrev="Gds" name="Goods" ID="10002">
+        <definition>&lt;def-root&gt;The FE &lt;fen&gt;Goods&lt;/fen&gt; is the item which is temporarily exchanged for &lt;fen&gt;Money&lt;/fen&gt;. 
+&lt;ex&gt;Kim &lt;t&gt;rented&lt;/t&gt; &lt;fex name="Goods"&gt;the shed&lt;/fex&gt; out .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="03/29/2006 05:14:27 PST Wed" abbrev="Mny" name="Money" ID="10004">
+        <definition>&lt;def-root&gt;Money is the thing given in exchange for Goods in a transaction.
+&lt;ex&gt;The x-ray machine was &lt;t&gt;leased&lt;/t&gt; &lt;fex name="Money"&gt;for $12,000&lt;/fex&gt; to a small firm in Menlo Park .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="03/29/2006 05:14:27 PST Wed" abbrev="Rate" name="Rate" ID="10005">
+        <definition>&lt;def-root&gt;In some cases, price or payment is described per unit of &lt;fen&gt;Goods&lt;/fen&gt;.
+&lt;ex&gt; The hostel &lt;t&gt;rents&lt;/t&gt; a bunk &lt;fex name="Rate"&gt;for about 20 dollars a night&lt;/fex&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/29/2006 05:14:27 PST Wed" abbrev="Les" name="Lessor" ID="10006">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Lessor&lt;/fen&gt; has possession of the &lt;fen&gt;Goods&lt;/fen&gt; and temporarily exchanges them for &lt;fen&gt;Money&lt;/fen&gt; from a &lt;fen&gt;Lessee&lt;/fen&gt;.
+&lt;ex&gt;So far, &lt;fex name="Lessor"&gt;my company&lt;/fex&gt; has &lt;t&gt;rented&lt;/t&gt; the video more than three million times .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="03/29/2006 05:14:27 PST Wed" abbrev="Unit" name="Unit" ID="10007">
+        <definition>&lt;def-root&gt;This FE is any unit in which goods or services can be measured.
+Generally, it occurs in a &lt;ment&gt;by&lt;/ment&gt;-PP. 
+&lt;ex&gt;Bob &lt;t&gt;rents&lt;/t&gt; rooms &lt;fex name="Unit"&gt;by the hour&lt;/fex&gt;. &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+<!--    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="664" cDate="03/29/2006 05:14:27 PST Wed" abbrev="POG" name="Purpose_of_Goods" ID="10015">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Lessee&lt;/fen&gt;'s intended purpose for the &lt;fen&gt;Goods&lt;/fen&gt;.
+&lt;ex&gt;He &lt;t&gt;leased&lt;/t&gt; the filing robot to me &lt;fex name="POG"&gt;to organize all my legal documents&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>-->
+    <frameRelation type="Inherits from">
+        <relatedFrame>Commerce_sell</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="affermage.n" ID="2344" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="affermer.v" ID="2345" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="amodiation.n" ID="2346" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100090" annotatedsent="0"/>
+        <otherlexUnit framename="Renting" ID="2339" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="amodier.v" ID="2347" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="location.n" ID="2348" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101165" annotatedsent="0"/>
+        <otherlexUnit framename="Renting" ID="2341" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="louer.v" ID="2349" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101177" annotatedsent="0"/>
+        <otherlexUnit framename="Renting" ID="2342" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Judgment_communication" ID="1953" annotatedsent="2"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="justification.n" ID="1202" frame="FR_Justifying" frameID="10037" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Sufficient_reason"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Responsible_entity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Eventuality"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="1043"/>
+                <annoSet ID="1048"/>
+                <annoSet ID="14165"/>
+                <annoSet ID="16158"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responsible_entity"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="14165"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="1043"/>
+                <annoSet ID="1048"/>
+                <annoSet ID="16158"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Sufficient_reason"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Sufficient_reason"/>
+                <annoSet ID="1043"/>
+                <annoSet ID="1048"/>
+                <annoSet ID="16158"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Sufficient_reason"/>
+                <annoSet ID="14165"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="967">
+            <text>La justification pour ne pas inclure du braille a été acceptée .</text>
+            <annotationSet status="MANUAL" ID="1043">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Sufficient_reason"/>
+                    <label end="46" start="22" name="Eventuality"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="975">
+            <text>La justification pour ne pas inclure du braille a été acceptée .</text>
+            <annotationSet status="MANUAL" ID="1048">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Sufficient_reason"/>
+                    <label end="46" start="22" name="Eventuality"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10086">
+            <text>Enfin , la diffusion du Nouvel économiste , qui dépassait 110 000 exemplaires au milieu des années 80 , s' est étiolée depuis : en 1991 , la diffusion payée du Nouvel économiste s' établissait à 85 300 exemplaires selon l' Office de justification de la diffusion ( OJD ) , soit 8 000 exemplaires de moins qu' en 1990 .</text>
+            <annotationSet status="MANUAL" ID="14165">
+                <layer rank="1" name="FE">
+                    <label end="231" start="220" name="Speaker"/>
+                    <label end="269" start="263" name="Speaker"/>
+                    <label end="261" start="250" name="Eventuality"/>
+                    <label itype="UNI" name="Sufficient_reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="245" start="233" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11787">
+            <text>" Zenith Data Systems en a été informée officiellement la veille de Noël , expliquait , lundi 28 décembre , un porte - parole de Bull , mais on attendait les justifications de cette décision le 4 janvier pour réagir .</text>
+            <annotationSet status="MANUAL" ID="16158">
+                <layer rank="1" name="FE">
+                    <label end="189" start="154" name="Sufficient_reason"/>
+                    <label end="189" start="176" name="Eventuality"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="171" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

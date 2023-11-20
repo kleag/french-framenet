@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="contredire.v" ID="540" frame="Evidence" frameID="25" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Proposition"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="16441"/>
+                <annoSet ID="17488"/>
+                <annoSet ID="22578"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Support"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="16441"/>
+                <annoSet ID="17488"/>
+                <annoSet ID="22578"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="12114">
+            <text>Ce n' est pas la chute verticale des achats de cette période de fêtes - en dépit de l' allongement de la durée des soldes - qui va contredire le chef du gouvernement .</text>
+            <annotationSet status="MANUAL" ID="16441">
+                <layer rank="1" name="FE">
+                    <label end="126" start="124" name="Support"/>
+                    <label end="122" start="14" name="Support"/>
+                    <label end="164" start="142" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13114">
+            <text>A l' en croire , la proportion des entreprises perdant de l' argent a été ramenée de 34 % en 1991 à 29 , 9 % cette année ; mais le porte - parole a affirmé que les quatre domaines les plus sinistrés , représentant 90 % du total des pertes à l' échelle nationale , sont les industries de défense , le charbon , le pétrole et les industries du tabac , ce qui contredit les observations de nombre d' experts , qui considèrent l' industrie lourde comme également très affectée , si ce n' est plus encore .</text>
+            <annotationSet status="MANUAL" ID="17488">
+                <layer rank="1" name="FE">
+                    <label end="498" start="160" name="Support"/>
+                    <label end="355" start="353" name="Support"/>
+                    <label end="498" start="367" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="365" start="357" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18446">
+            <text>Ce sentiment allait cependant être contredit par les faits .</text>
+            <annotationSet status="MANUAL" ID="22578">
+                <layer rank="1" name="FE">
+                    <label end="57" start="49" name="Support"/>
+                    <label end="11" start="0" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

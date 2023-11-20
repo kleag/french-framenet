@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="motif.n" ID="2296" frame="FR_Reason" frameID="10083" totalAnnotated="17" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="17">
+            <FE name="Action"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="642"/>
+                <annoSet ID="712"/>
+                <annoSet ID="4910"/>
+                <annoSet ID="5335"/>
+                <annoSet ID="5977"/>
+                <annoSet ID="8312"/>
+                <annoSet ID="9646"/>
+                <annoSet ID="10037"/>
+                <annoSet ID="16959"/>
+                <annoSet ID="20011"/>
+                <annoSet ID="24103"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="2083"/>
+                <annoSet ID="2808"/>
+                <annoSet ID="9602"/>
+                <annoSet ID="14145"/>
+                <annoSet ID="14471"/>
+                <annoSet ID="14988"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Agent"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="2808"/>
+                <annoSet ID="5977"/>
+                <annoSet ID="8312"/>
+                <annoSet ID="9602"/>
+                <annoSet ID="14145"/>
+                <annoSet ID="16959"/>
+                <annoSet ID="20011"/>
+                <annoSet ID="24103"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="642"/>
+                <annoSet ID="712"/>
+                <annoSet ID="2083"/>
+                <annoSet ID="4910"/>
+                <annoSet ID="5335"/>
+                <annoSet ID="9646"/>
+                <annoSet ID="10037"/>
+                <annoSet ID="14471"/>
+                <annoSet ID="14988"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="State_of_Affairs"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="642"/>
+                <annoSet ID="712"/>
+                <annoSet ID="2083"/>
+                <annoSet ID="2808"/>
+                <annoSet ID="4910"/>
+                <annoSet ID="5335"/>
+                <annoSet ID="5977"/>
+                <annoSet ID="8312"/>
+                <annoSet ID="9602"/>
+                <annoSet ID="9646"/>
+                <annoSet ID="10037"/>
+                <annoSet ID="14145"/>
+                <annoSet ID="14471"/>
+                <annoSet ID="14988"/>
+                <annoSet ID="16959"/>
+                <annoSet ID="20011"/>
+                <annoSet ID="24103"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="497">
+            <text>Le motif de cette expédition est tout bonnement ... alimentaire .</text>
+            <annotationSet status="MANUAL" ID="642">
+                <layer rank="1" name="FE">
+                    <label end="27" start="12" name="Action"/>
+                    <label end="27" start="0" name="State_of_Affairs"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="546">
+            <text>La dose d' Angiox et la durée du traitement dépendent des motifs de son utilisation .</text>
+            <annotationSet status="MANUAL" ID="712">
+                <layer rank="1" name="FE">
+                    <label end="82" start="68" name="Action"/>
+                    <label end="82" start="58" name="State_of_Affairs"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1793">
+            <text>Puis -je savoir à la demande de qui et pour quels motifs ?</text>
+            <annotationSet status="MANUAL" ID="2083">
+                <layer rank="1" name="FE">
+                    <label end="55" start="44" name="State_of_Affairs"/>
+                    <label itype="DNI" name="Action"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2118">
+            <text>Le 16 mars , les inculpés comparaissent devant le Conseil de guerre de la 60e division demandé par le général Réveilhac avec le motif : " refus de bondir hors des tranchées " .</text>
+            <annotationSet status="MANUAL" ID="2808">
+                <layer rank="1" name="FE">
+                    <label end="173" start="136" name="State_of_Affairs"/>
+                    <label end="85" start="47" name="Agent"/>
+                    <label itype="ENI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3625">
+            <text>Le vrai motif de satisfaction réside dans un taux d' inflation supérieur aux prévisions de l' OCDE sans doute , mais qui classe la France parmi les meilleurs élèves de la communauté internationale .</text>
+            <annotationSet status="MANUAL" ID="4910">
+                <layer rank="1" name="FE">
+                    <label end="28" start="17" name="Action"/>
+                    <label end="28" start="0" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3871">
+            <text>Comme il est fréquent depuis une dizaine de mois , le bilan de santé du marché , établi à la fin du mois de décembre 1991 , comporte à la fois des signes encourageants et des motifs de préoccupation .</text>
+            <annotationSet status="MANUAL" ID="5335">
+                <layer rank="1" name="FE">
+                    <label end="197" start="185" name="Action"/>
+                    <label end="197" start="171" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="180" start="175" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4268">
+            <text>Le gouvernement s' est défendu , au XVIII contre le livre ; au XIX , contre le journal ; au XX , contre l' audiovisuel , selon des procédures à chaque fois différentes , mais pour les mêmes motifs .</text>
+            <annotationSet status="MANUAL" ID="5977">
+                <layer rank="1" name="FE">
+                    <label end="178" start="0" name="Action"/>
+                    <label end="195" start="180" name="State_of_Affairs"/>
+                    <label end="14" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="195" start="190" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5665">
+            <text>Dus à des motifs personnels et à une " reconversion " dans le commerce de l' art , le départ de M. Pierre Belfond est aussi lié à l' arrivée de M. Jean - Manuel Bourgois .</text>
+            <annotationSet status="MANUAL" ID="8312">
+                <layer rank="1" name="FE">
+                    <label end="112" start="83" name="Action"/>
+                    <label end="26" start="6" name="State_of_Affairs"/>
+                    <label end="112" start="99" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6420">
+            <text>Motifs avancés par l' agence : " l' impact , à long terme , des changements structurels du système bancaire français sur la rentabilité de la Société générale , ses risques d' achats et ses fonds propres " .</text>
+            <annotationSet status="MANUAL" ID="9602">
+                <layer rank="1" name="FE">
+                    <label end="204" start="33" name="State_of_Affairs"/>
+                    <label end="27" start="19" name="Agent"/>
+                    <label itype="DNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6450">
+            <text>Le principal motif d' inquiétude vient du Japon , actuellement le premier consommateur mondial de métal blanc , tant pour la joaillerie que pour les placements .</text>
+            <annotationSet status="MANUAL" ID="9646">
+                <layer rank="1" name="FE">
+                    <label end="31" start="22" name="Action"/>
+                    <label end="31" start="0" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6745">
+            <text>Le seul motif de satisfaction est venu des exportations qui , tirées ici comme ailleurs par la " locomotive " allemande , ont progressé l' an dernier , tant en nombre de paires ( 58 millions , soit 8 % ) qu' en chiffre d' affaires ( 4 , 8 milliards de francs , soit 10 % ) .</text>
+            <annotationSet status="MANUAL" ID="10037">
+                <layer rank="1" name="FE">
+                    <label end="28" start="17" name="Action"/>
+                    <label end="28" start="0" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10073">
+            <text>Au Printemps , les motifs sont un peu différents : le patron , M. Jean - Jacques Delort , et le nouveau propriétaire , M. François Pinault , ne sont pas d' accord sur l' art et la manière de réduire l' endettement du groupe .</text>
+            <annotationSet status="MANUAL" ID="14145">
+                <layer rank="1" name="FE">
+                    <label end="24" start="15" name="State_of_Affairs"/>
+                    <label end="137" start="93" name="Agent"/>
+                    <label itype="ENI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10310">
+            <text>Ce motif est probablement plus important que le haut niveau des taux d' intérêt .</text>
+            <annotationSet status="MANUAL" ID="14471">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="State_of_Affairs"/>
+                    <label itype="DNI" name="Action"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10732">
+            <text>Motif : violant le principe fondamental de libre - échange du GATT , les européens ont contingenté leurs exportations de déchets de cuivre recyclables , car ils redoutent un assèchement du marché .</text>
+            <annotationSet status="MANUAL" ID="14988">
+                <layer rank="1" name="FE">
+                    <label end="196" start="6" name="State_of_Affairs"/>
+                    <label itype="DNI" name="Action"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12599">
+            <text>" Sacrifiée sur l' autel de l' Europe " , comme l' indique Mme Bolatto , Modane connaît des autres motifs d' inquiétudes .</text>
+            <annotationSet status="MANUAL" ID="16959">
+                <layer rank="1" name="FE">
+                    <label end="119" start="109" name="Action"/>
+                    <label end="119" start="88" name="State_of_Affairs"/>
+                    <label end="78" start="73" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15831">
+            <text>Autre motif de fierté de M. Delaporte : le choix de Dunkerque par Pechiney à la recherche d' un site pour la dernière - née de ses usines .</text>
+            <annotationSet status="MANUAL" ID="20011">
+                <layer rank="1" name="FE">
+                    <label end="20" start="15" name="Action"/>
+                    <label end="138" start="0" name="State_of_Affairs"/>
+                    <label end="36" start="25" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20384">
+            <text>Mais le Conseil supérieur de l' audiovisuel ( CSA ) a refusé de revenir sur les promesses faites et le gouvernement a clairement montré qu' il n' entendait pas modifier la loi au seul motif des difficultés d' une entreprise privée .</text>
+            <annotationSet status="MANUAL" ID="24103">
+                <layer rank="1" name="FE">
+                    <label end="177" start="160" name="Action"/>
+                    <label end="229" start="194" name="State_of_Affairs"/>
+                    <label end="141" start="140" name="Agent"/>
+                    <label end="114" start="100" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="188" start="184" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

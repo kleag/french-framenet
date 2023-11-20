@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="présager.v" ID="639" frame="FR_Expectation" frameID="10025" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="16720"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="14712"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Evidence"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Evidence"/>
+                <annoSet ID="14712"/>
+                <annoSet ID="16720"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Phenomenon"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="14712"/>
+                <annoSet ID="16720"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10506">
+            <text>En annonçant son retrait du projet , British Airways ne fait , semble -t-il , qu' anticiper le refus formel des autorités américaines que laissait présager la rencontre entre le président américain , M. George Bush , et le premier ministre britannique , M. John Major , la semaine dernière .</text>
+            <annotationSet status="MANUAL" ID="14712">
+                <layer rank="1" name="FE">
+                    <label end="136" start="134" name="Phenomenon"/>
+                    <label end="288" start="92" name="Phenomenon"/>
+                    <label end="288" start="156" name="Evidence"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="154" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12375">
+            <text>Pour l' institut de statistiques qui , comme chaque mois , a interrogé trois mille chefs d' entreprise de l' industrie ( hors agroalimentaire ) , cette détérioration " laisse présager une baisse de l' activité au quatrième trimestre " .</text>
+            <annotationSet status="MANUAL" ID="16720">
+                <layer rank="1" name="FE">
+                    <label end="142" start="5" name="Cognizer"/>
+                    <label end="231" start="184" name="Phenomenon"/>
+                    <label end="164" start="146" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="182" start="175" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

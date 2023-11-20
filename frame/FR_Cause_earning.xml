@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Cause_earning" ID="10073" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;A  &lt;fen&gt;Cause_of_earning&lt;/fen&gt; is an action or entity that generates &lt;fen&gt;Money&lt;/fen&gt; for an &lt;fen&gt;Earner&lt;/fen&gt;. The &lt;fen&gt;Cause_of_earning&lt;/fen&gt; is not directly some goods exchanged in a transaction, but rather e.g. a tax, or a financial product or an action (a selling for instance).
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;FR-EX: &lt;fex name="Cause_of_earning"&gt;La cession de ces entreprises&lt;/fex&gt; devrait &lt;t&gt;rapporter&lt;/t&gt; au &lt;fex name="Earner"&gt;Trésor public marocain&lt;/fex&gt; &lt;fex name="Money"&gt;entre 30 et 35 milliards de dirhams&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;FR-EX: On estime que &lt;fex name="Cause_of_earning"&gt;la hausse de 1 %&lt;/fex&gt; a &lt;t&gt;rapporté&lt;/t&gt; &lt;fex name="Money"&gt;14 milliards&lt;/fex&gt; la première année.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="02/12/2007 06:32:35 PST Mon" abbrev="Slr" name="Earner" ID="11036">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Earner&lt;/fen&gt; is involved in a transaction or set of transactions as the party that receives payment.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="02/12/2007 06:32:35 PST Mon" abbrev="Mny" name="Money" ID="11037">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Money&lt;/fen&gt; are the money given to the &lt;fen&gt;Earner&lt;/fen&gt; in a transaction, generally in exchange for &lt;fen&gt;Goods&lt;/fen&gt;. 
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="02/12/2007 06:32:35 PST Mon" abbrev="" name="Cause_of_earning" ID="11035">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Cause_of_earning&lt;/fen&gt; is the source of the &lt;fen&gt;Money&lt;/fen&gt; earned by &lt;fen&gt;Earner&lt;/fen&gt; (which can be an entity like a financial product, or an event such as selling goods or increasing taxes).&lt;/def-root&gt;</definition>
+    </FE>
+
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses"/>
+    <frameRelation type="Is Used by"/>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of">
+        <relatedFrame>Earnings_and_losses</relatedFrame>
+    </frameRelation>
+    <frameRelation type="See also"/>
+    <lexUnit POS="n" name="rapport.n" ID="2655" nbocc="156" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="102106" annotatedsent="12"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2696" annotatedsent="53"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rapporter.v" ID="2634" nbocc="53" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="20"/>
+        <otherlexUnit framename="Other_sense" ID="101555" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1594" annotatedsent="31"/>
+    </lexUnit>
+</frame>

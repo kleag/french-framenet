@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="point de vue.n" ID="833" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="15">
+            <FE name="Cognizer"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4464"/>
+                <annoSet ID="5666"/>
+                <annoSet ID="8699"/>
+                <annoSet ID="9384"/>
+                <annoSet ID="19890"/>
+                <annoSet ID="19900"/>
+                <annoSet ID="22292"/>
+                <annoSet ID="23683"/>
+                <annoSet ID="24751"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="8521"/>
+                <annoSet ID="8794"/>
+                <annoSet ID="9757"/>
+                <annoSet ID="11170"/>
+                <annoSet ID="22593"/>
+                <annoSet ID="23996"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Content"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="4464"/>
+                <annoSet ID="5666"/>
+                <annoSet ID="8521"/>
+                <annoSet ID="8699"/>
+                <annoSet ID="8794"/>
+                <annoSet ID="9384"/>
+                <annoSet ID="9757"/>
+                <annoSet ID="11170"/>
+                <annoSet ID="19890"/>
+                <annoSet ID="19900"/>
+                <annoSet ID="22292"/>
+                <annoSet ID="22593"/>
+                <annoSet ID="23683"/>
+                <annoSet ID="23996"/>
+                <annoSet ID="24751"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Topic"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="8794"/>
+                <annoSet ID="22292"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3366">
+            <text>" ce point de vue d' un haut fonctionnaire international illustre bien le soutien dont dispose en Occident la nouvelle Russie .</text>
+            <annotationSet status="MANUAL" ID="4464">
+                <layer rank="1" name="FE">
+                    <label end="55" start="2" name="Content"/>
+                    <label end="55" start="21" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4079">
+            <text>Cette législation contraignante , notamment mise en cause par l' ex- PDG de la Cinq , M. Yves Sabouret ( dans son point de vue publié dans le Monde daté 5 - 6 janvier ) , a pourtant été assouplie , a indiqué vendredi 3 janvier au micro de RTL le ministre de la culture , M. Jack Lang .</text>
+            <annotationSet status="MANUAL" ID="5666">
+                <layer rank="1" name="FE">
+                    <label end="165" start="110" name="Content"/>
+                    <label end="101" start="62" name="Cognizer"/>
+                    <label end="112" start="110" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5797">
+            <text>Selon l' antique principe de la bouteille à moitié vide ou à moitié pleine , le lancinant débat sur la prime d' ancienneté autorise tous les points de vue .</text>
+            <annotationSet status="MANUAL" ID="8521">
+                <layer rank="1" name="FE">
+                    <label end="153" start="132" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5883">
+            <text>Après les points de vue de M. Jürgen Mllemann , ministre allemand de l' économie , et de M. Dominique Strauss - Kahn , ministre français de l' industrie et du commerce extérieur ( le monde du 30 juin ) , nous publions aujourd' hui l' opinion de M. Kozo Watanabe , ministre japonais du commerce international et de l' industrie , publiée également au Japon par le Nikkei Shinbun et le Nikkei Weekly .</text>
+            <annotationSet status="MANUAL" ID="8699">
+                <layer rank="1" name="FE">
+                    <label end="200" start="6" name="Content"/>
+                    <label end="79" start="27" name="Cognizer"/>
+                    <label end="84" start="83" name="Cognizer"/>
+                    <label end="176" start="89" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5938">
+            <text>" j' entends que le débat se traduise par une concertation ouverte , dense et suffisamment longue pour permettre l' expression des points de vue et le recul nécessaire à la réflexion sur un sujet qui engage durablement l' avenir du secteur postal " , a déclaré le ministre .</text>
+            <annotationSet status="MANUAL" ID="8794">
+                <layer rank="1" name="FE">
+                    <label end="143" start="131" name="Content"/>
+                    <label end="247" start="187" name="Topic"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6283">
+            <text>Après les points de vue de M. Jürgen Mllemann , ministre allemand de l' économie , de M. Dominique Strauss - Kahn , ministre français de l' industrie et du commerce extérieur ( le Monde du 30 juin ) , et de M. Kozo Watanabe , ministre japonais du commerce international et de l' industrie ( le Monde du 4 juillet ) , nous publions l' opinion de M. Michael Heseltine , ministre britannique du commerce et de l' industrie .</text>
+            <annotationSet status="MANUAL" ID="9384">
+                <layer rank="1" name="FE">
+                    <label end="313" start="6" name="Content"/>
+                    <label end="81" start="27" name="Cognizer"/>
+                    <label end="173" start="86" name="Cognizer"/>
+                    <label end="202" start="201" name="Cognizer"/>
+                    <label end="287" start="207" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6539">
+            <text>De ce point de vue , le recul de l' investissement productif enregistré depuis la fin de 1990 n' aura pas des conséquences graves s' il prend fin rapidement .</text>
+            <annotationSet status="MANUAL" ID="9757">
+                <layer rank="1" name="FE">
+                    <label end="17" start="3" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7703">
+            <text>De ce point de vue , les organismes d' intervention remplissent la fonction d' une banque d' émission sous un régime d' étalon - or .</text>
+            <annotationSet status="MANUAL" ID="11170">
+                <layer rank="1" name="FE">
+                    <label end="17" start="3" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15700">
+            <text>Les écoles développent leur propre personnalité , leurs connaissances spécifiques , leurs points de vue sont originaux .</text>
+            <annotationSet status="MANUAL" ID="19890">
+                <layer rank="1" name="FE">
+                    <label end="102" start="84" name="Content"/>
+                    <label end="88" start="84" name="Cognizer"/>
+                    <label end="9" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15712">
+            <text>Les écoles leaders changent d' objectif et adoptent des points de vue ésotériques et des attitudes frivoles .</text>
+            <annotationSet status="MANUAL" ID="19900">
+                <layer rank="1" name="FE">
+                    <label end="80" start="52" name="Content"/>
+                    <label end="17" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18249">
+            <text>Et les neuf contributions dites " nationales " issues du comité directeur d' octobre , leur ont fourni matière à confronter leurs points de vue sur l' action du parti comme sur celle du gouvernement de Michel Rocard .</text>
+            <annotationSet status="MANUAL" ID="22292">
+                <layer rank="1" name="FE">
+                    <label end="142" start="124" name="Content"/>
+                    <label end="171" start="148" name="Topic"/>
+                    <label end="214" start="177" name="Topic"/>
+                    <label end="128" start="124" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18462">
+            <text>Ce point de vue n' est évidemment pas très nouveau .</text>
+            <annotationSet status="MANUAL" ID="22593">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19940">
+            <text>Plus de la moitié ( 56 % ) de l' ensemble des personnes interrogées partagent ce point de vue .</text>
+            <annotationSet status="MANUAL" ID="23683">
+                <layer rank="1" name="FE">
+                    <label end="92" start="78" name="Content"/>
+                    <label end="66" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20273">
+            <text>De ce point de vue , il importe que la France choisisse de se rapprocher d' abord de ses alliés européens traditionnels - comme l' Allemagne avec laquelle Aérospatiale , par exemple , réalisera en 1994 jusqu' à 80 % de son activité - pour éviter qu' ils ne se tournent vers les Etats - Unis ou le Japon .</text>
+            <annotationSet status="MANUAL" ID="23996">
+                <layer rank="1" name="FE">
+                    <label end="17" start="3" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21351">
+            <text>Cependant , cet ouvrage qui défend " le point de vue de la Sécurité sociale " , se heurte à une ambiguïté fondamentale - la " Sécu " , théoriquement pilotée par les partenaires sociaux mais gérée de facto par les pouvoirs publics , n' a pas d' existence autonome .</text>
+            <annotationSet status="MANUAL" ID="24751">
+                <layer rank="1" name="FE">
+                    <label end="76" start="37" name="Content"/>
+                    <label end="74" start="56" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="acceptation.n" ID="780" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="1" xsi:schemaLocation="/Users/mcandito/Documents/PROJETS/ASFALDA/svn/Asfalda/src../framenet/fndata-asfalda/schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Expr" name="Expressor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="534"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="534"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1831">
+            <text>Et c' est précisément l' acceptation de ce principe qui l' a conduite aux succès dont nous pouvons faire état , comme nous le faisons tous assurément de_temps_à_autre .</text>
+            <annotationSet status="MANUAL" ID="534">
+                <layer rank="1" name="FE">
+                    <label end="50" start="40" name="Content"/>
+                    <label itype="UNI" name="Cognizer "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

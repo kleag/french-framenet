@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="constat.n" ID="1541" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Message"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="637"/>
+                <annoSet ID="4289"/>
+                <annoSet ID="7677"/>
+                <annoSet ID="7948"/>
+                <annoSet ID="11552"/>
+                <annoSet ID="16311"/>
+                <annoSet ID="19753"/>
+                <annoSet ID="23518"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Speaker"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="637"/>
+                <annoSet ID="4289"/>
+                <annoSet ID="7677"/>
+                <annoSet ID="7948"/>
+                <annoSet ID="10346"/>
+                <annoSet ID="16311"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="11552"/>
+                <annoSet ID="19753"/>
+                <annoSet ID="23518"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="10346"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="492">
+            <text>Quant à la gendarmerie de Dannemarie , elle a procédé au constat d' usage .</text>
+            <annotationSet status="MANUAL" ID="637">
+                <layer rank="1" name="FE">
+                    <label end="72" start="57" name="Message"/>
+                    <label end="35" start="8" name="Speaker"/>
+                    <label end="42" start="39" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3268">
+            <text>" nos interlocuteurs politiques n' ont à aucun moment compris les problèmes de l' audiovisuel ( ... ) ; ils portent une lourde responsabilité " : ce constat d' Yves Sabouret n' exonère pas sa propre responsabilité , mais souligne que cet échec est aussi celui de politiques audiovisuelles successives et incohérentes , et qu' il touche l' ensemble du secteur .</text>
+            <annotationSet status="MANUAL" ID="4289">
+                <layer rank="1" name="FE">
+                    <label end="172" start="146" name="Message"/>
+                    <label end="172" start="160" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5293">
+            <text>Ainsi que Mme Martine Aubry , ministre du travail , en a fait le " décourageant " constat devant l' association de la presse anglo - américaine , les chefs d' entreprise , non seulement n' embauchent pas , mais licencient , et , avec des taux d' intérêt élevés , l' environnement économique n' est toujours pas favorable .</text>
+            <annotationSet status="MANUAL" ID="7677">
+                <layer rank="1" name="FE">
+                    <label end="53" start="52" name="Message"/>
+                    <label end="319" start="146" name="Message"/>
+                    <label end="48" start="10" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5468">
+            <text>Partant d' un constat - " la croissance française ne créera pas suffisamment d' emplois " - , ils en déduisent que , " pour inverser cette tendance , il faut (...) une action solidaire de toute la société " , l' emploi étant " l' affaire de tous " .</text>
+            <annotationSet status="MANUAL" ID="7948">
+                <layer rank="1" name="FE">
+                    <label end="90" start="11" name="Message"/>
+                    <label end="96" start="94" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6987">
+            <text>( 1 ) : " Constat de l' évolution récente des revenus en France ( 1988 - 1991 ) . " documents du CERC , n 103 . .</text>
+            <annotationSet status="MANUAL" ID="10346">
+                <layer rank="1" name="FE">
+                    <label end="78" start="21" name="Topic"/>
+                    <label end="100" start="97" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8013">
+            <text>Le constat a pu en être dressé lors du premier colloque organisé sur ce thème de l' économie et de l' emploi dans les villes balnéaires ( avec pour sous - titre " La saison , et après ? " ) .</text>
+            <annotationSet status="MANUAL" ID="11552">
+                <layer rank="1" name="FE">
+                    <label end="17" start="16" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11981">
+            <text>Comment , dans ces conditions , ne pas donner quelque crédit au constat amer de M. Jacques Calvet lors de la présentation , le 16 décembre , de la nouvelle Xantia de Citroën ?</text>
+            <annotationSet status="MANUAL" ID="16311">
+                <layer rank="1" name="FE">
+                    <label end="172" start="64" name="Message"/>
+                    <label end="96" start="80" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15507">
+            <text>" Marie - Annick Garraud est d' autant plus consciente de cette situation que le constat prévisionnel de la branche estime globalement à 400 000 personnes ( commerce et réparation ) les besoins pour 1994 .</text>
+            <annotationSet status="MANUAL" ID="19753">
+                <layer rank="1" name="FE">
+                    <label end="114" start="78" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19640">
+            <text>Elles ressassent le constat , mille fois fait , qu' un ministre de l' équipement ne s' avise pas de dire comment construire un pont , alors que son collègue de la communication , parce qu' il côtoie comédiens ou artistes , croit tout connaître de la télévision .</text>
+            <annotationSet status="MANUAL" ID="23518">
+                <layer rank="1" name="FE">
+                    <label end="259" start="52" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

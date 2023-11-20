@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Remembering" ID="10095" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; remembers some &lt;fen&gt;Content&lt;/fen&gt; or the necessity of performing some &lt;fen&gt;Action&lt;/fen&gt;.
+    
+     &lt;ex&gt; &lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : New in ASFALDA. 
+
+&lt;/def-root&gt;</definition>
+    <semType name="Non-Lexical Frame" ID="16"/>
+
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:51 PST Wed" abbrev="Cog" name="Cognizer" ID="83">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; is the person who remembers. &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:52 PST Wed" abbrev="Cont" name="Content" ID="84">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Content&lt;/fen&gt; is the object of the &lt;fen&gt;Cognizer&lt;/fen&gt;'s remembering. &lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+        <excludesFE name="Action" ID="413"/>
+
+    </FE>
+        <FE bgColor="cc00cc" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/02/2001 09:55:37 PST Fri" abbrev="Action" name="Action" ID="413">
+        <definition>&lt;def-root&gt;The action whose necessity the &lt;fen&gt;Cognizer&lt;/fen&gt; remembers.&lt;/def-root&gt;</definition>
+        <semType name="Human_act" ID="69"/>
+        <excludesFE name="Content" ID="84"/>
+
+    </FE>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Memory-Remembering_experience-Remembering_information</relatedFrame>
+        <relatedFrame>Remembering_to_do</relatedFrame>
+    </frameRelation>
+</frame>

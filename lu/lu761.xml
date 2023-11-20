@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="décourager.v" ID="761" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="12962"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="22077"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="12962"/>
+                <annoSet ID="22077"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Persuader"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="12962"/>
+                <annoSet ID="22077"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="9061">
+            <text>Ce faisant , elle espère décourager les spéculateurs d' emprunter du franc sur le marché domestique pour le vendre sur le marché des changes .</text>
+            <annotationSet status="MANUAL" ID="12962">
+                <layer rank="1" name="FE">
+                    <label end="139" start="56" name="Action"/>
+                    <label end="51" start="36" name="Cognizer"/>
+                    <label end="16" start="13" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18009">
+            <text>L' employée a tout tenté pour le décourager .</text>
+            <annotationSet status="MANUAL" ID="22077">
+                <layer rank="1" name="FE">
+                    <label end="31" start="30" name="Cognizer"/>
+                    <label end="10" start="0" name="Persuader"/>
+                    <label itype="DNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

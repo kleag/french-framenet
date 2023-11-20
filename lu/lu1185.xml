@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="motiver.v" ID="1185" frame="FR_Influence_of_event_on_cognizer-Subjective_influence" frameID="10035" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="sit" name="Situation"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ent" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="act" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="beh" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="23006"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Activity"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Activity"/>
+                <annoSet ID="12080"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="12080"/>
+                <annoSet ID="23006"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Entity"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Entity"/>
+                <annoSet ID="12080"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Situation"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Situation"/>
+                <annoSet ID="23006"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Situation"/>
+                <annoSet ID="12080"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8467">
+            <text>Cet ancien élève de l' INSEAD , qui a travaillé aux Etats - Unis , ajoute à ses talents de gestionnaire , un sens inné du contact humain et une imagination sans limites pour motiver ses troupes : des esthéticiennes qu' il amène en stage à Paris au journal consacré à la France qu' il distribue gratuitement à ses parfumeurs .</text>
+            <annotationSet status="MANUAL" ID="12080">
+                <layer rank="1" name="FE">
+                    <label end="192" start="182" name="Cognizer"/>
+                    <label end="184" start="182" name="Entity"/>
+                    <label end="63" start="0" name="Entity"/>
+                    <label itype="UNI" name="Situation"/>
+                    <label itype="ENI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="180" start="174" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18940">
+            <text>Ses frères Fernand et Marcel décidèrent de constituer une société , Renault frères , qui ne tarda pas à drainer une clientèle que les succès remportés en compétition par la jeune marque motivaient .</text>
+            <annotationSet status="MANUAL" ID="23006">
+                <layer rank="1" name="FE">
+                    <label end="184" start="130" name="Situation"/>
+                    <label end="128" start="126" name="Cognizer"/>
+                    <label end="195" start="112" name="Cognizer"/>
+                    <label itype="UNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="195" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

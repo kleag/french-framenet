@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="conversion.n" ID="868" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="7946"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Content"/>
+                <annoSet ID="7946"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5464">
+            <text>Comme si la conversion des socialistes nécessitait une nouvelle étape : le fait de reconnaître que les entreprises nationales , engagées dans des stratégies d' internationalisation croissante , ont besoin d' avoir des directions stables .</text>
+            <annotationSet status="MANUAL" ID="7946">
+                <layer rank="1" name="FE">
+                    <label end="37" start="27" name="Cognizer"/>
+                    <label itype="UNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="compliment.n" ID="1981" frame="Judgment_direct_address" frameID="711" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Core" abbrev="" name="Expressor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="21867"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="19530"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Communicator"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="21867"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="19530"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Reason"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Reason"/>
+                <annoSet ID="19530"/>
+                <annoSet ID="21867"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15272">
+            <text>D' ailleurs , ajoute -t-il , " je me sens solidaire dans l' opprobre et isolé dans le compliment " .</text>
+            <annotationSet status="MANUAL" ID="19530">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Communicator"/>
+                    <label itype="UNI" name="Reason"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17789">
+            <text>Dans la soirée du même jour , MM Dray et Chevènement se retrouvaient en tête - à - tête , et d' après le premier le second lui renouvelait longuement ses compliments et l' assurait de toute sa sympathie .</text>
+            <annotationSet status="MANUAL" ID="21867">
+                <layer rank="1" name="FE">
+                    <label end="152" start="150" name="Communicator"/>
+                    <label end="121" start="113" name="Communicator"/>
+                    <label end="111" start="102" name="Addressee"/>
+                    <label end="125" start="123" name="Addressee"/>
+                    <label itype="UNI" name="Reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

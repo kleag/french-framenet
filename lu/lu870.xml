@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="d'accord.adv" ID="870" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="1990"/>
+                <annoSet ID="22498"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="1990"/>
+                <annoSet ID="22498"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Side"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Side"/>
+                <annoSet ID="22498"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1761">
+            <text>Nous ne sommes pas d' accord que le Conseil se réserve les pouvoirs de mise en oeuvre du système .</text>
+            <annotationSet status="MANUAL" ID="1990">
+                <layer rank="1" name="FE">
+                    <label end="95" start="33" name="Content"/>
+                    <label end="3" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18371">
+            <text>Quoi de plus naturel , quand on milite quelque part et que l' on n' est pas d' accord avec les méthodes ou les orientations proposées par le secrétaire général de son mouvement , que de vouloir défendre sa propre conception des choses ?</text>
+            <annotationSet status="MANUAL" ID="22498">
+                <layer rank="1" name="FE">
+                    <label end="175" start="91" name="Content"/>
+                    <label end="63" start="59" name="Cognizer"/>
+                    <label end="175" start="138" name="Side"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

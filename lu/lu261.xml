@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="à ce point que.conj" ID="261" frame="Causation" frameID="5" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cause"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="9780"/>
+                <annoSet ID="11470"/>
+                <annoSet ID="22890"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Effect"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="9780"/>
+                <annoSet ID="11470"/>
+                <annoSet ID="22890"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6553">
+            <text>Choc à ce point violent qu' il a fait prendre conscience à l' opinion publique de la réalité de l' entreprise , indispensable lieu où se créent des richesses , où sont distribués des revenus et créés des emplois .</text>
+            <annotationSet status="MANUAL" ID="9780">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Cause"/>
+                    <label end="22" start="16" name="Cause"/>
+                    <label end="210" start="28" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="5" name="Target"/>
+                    <label end="26" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7932">
+            <text>Et de dénoncer quatre " inadaptations " : celle des plafonds de ressources qui interdisent l' accès des HLM aux ménages : moins de 30 % des petits ménages ( deux à trois personnes ) peuvent accéder au parc social en Ile - de - France et le récent relèvement des plafonds dans la région est un " nouveau bricolage non relié à une doctrine d' ensemble " ; celle des produits ( répondant aux jolis noms de PLA , PLI , PLS , PAP et FGAS ... ) dont certains " réputés nouveaux répondent à des conditions de marché déjà dépassées " ; celle des prix de référence moyens auxquels doivent satisfaire les HLM , qui " sont à ce point écartés de la réalité qu' ils laissent un trou d' au moins 150 000 francs par logement " ; celle des loyers , enfin : l' organisation n' hésite pas à qualifier d' " appareil orthopédique " les contraintes qui pèsent sur eux , tandis que l' écart s' aggrave avec les loyers privés ( 33 francs en PLA contre une moyenne de 90 et 110 francs le mètre carré habitable ) .</text>
+            <annotationSet status="MANUAL" ID="11470">
+                <layer rank="1" name="FE">
+                    <label end="610" start="601" name="Cause"/>
+                    <label end="643" start="623" name="Cause"/>
+                    <label end="710" start="649" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="621" start="612" name="Target"/>
+                    <label end="647" start="645" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18795">
+            <text>L' accueil réservé à plusieurs emprunts convertibles de ce genre en francs suisses a été à ce point enthousiaste qu' il fait attendre un renforcement de l' activité primaire en ce domaine ces prochains mois .</text>
+            <annotationSet status="MANUAL" ID="22890">
+                <layer rank="1" name="FE">
+                    <label end="87" start="0" name="Cause"/>
+                    <label end="205" start="117" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="89" name="Target"/>
+                    <label end="115" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

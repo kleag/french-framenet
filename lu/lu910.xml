@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="initiateur.n" ID="910" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Actor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="18822"/>
+                <annoSet ID="20931"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cause"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Effect"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="20931"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Effect"/>
+                <annoSet ID="18822"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="14516">
+            <text>Les initiateurs proposent 50 francs par action SMCI et 1 franc par bon de souscription d' action .</text>
+            <annotationSet status="MANUAL" ID="18822">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Actor"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16802">
+            <text>Maintenant , c' est environ trois cents tonnes de céréales qu' il va falloir trouver chaque mois " , explique le docteur Christophe Lanièce , initiateur de la mission MSF .</text>
+            <annotationSet status="MANUAL" ID="20931">
+                <layer rank="1" name="FE">
+                    <label end="169" start="156" name="Effect"/>
+                    <label end="140" start="110" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="142" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prévenir.v" ID="2538" frame="FR_Telling" frameID="10088" totalAnnotated="13" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="12">
+            <FE name="Addressee"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="501"/>
+                <annoSet ID="1067"/>
+                <annoSet ID="1106"/>
+                <annoSet ID="1497"/>
+                <annoSet ID="6870"/>
+                <annoSet ID="16684"/>
+                <annoSet ID="23273"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="10439"/>
+                <annoSet ID="14331"/>
+                <annoSet ID="15859"/>
+                <annoSet ID="19749"/>
+                <annoSet ID="21364"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Message"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="501"/>
+                <annoSet ID="1106"/>
+                <annoSet ID="1497"/>
+                <annoSet ID="6870"/>
+                <annoSet ID="14331"/>
+                <annoSet ID="14850"/>
+                <annoSet ID="15859"/>
+                <annoSet ID="16684"/>
+                <annoSet ID="19749"/>
+                <annoSet ID="21364"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Message"/>
+                <annoSet ID="23273"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Speaker"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="501"/>
+                <annoSet ID="1067"/>
+                <annoSet ID="1106"/>
+                <annoSet ID="6870"/>
+                <annoSet ID="10439"/>
+                <annoSet ID="14331"/>
+                <annoSet ID="14850"/>
+                <annoSet ID="15859"/>
+                <annoSet ID="16684"/>
+                <annoSet ID="19749"/>
+                <annoSet ID="21364"/>
+                <annoSet ID="23273"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="1497"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="388">
+            <text>Mais peu avant 14 h , la jeune fille prévenait sa famille qu' elle était saine et sauve et qu' elle se trouvait à Lyon .</text>
+            <annotationSet status="MANUAL" ID="501">
+                <layer rank="1" name="FE">
+                    <label end="89" start="62" name="Message"/>
+                    <label end="117" start="95" name="Message"/>
+                    <label end="56" start="47" name="Addressee"/>
+                    <label end="35" start="22" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1015">
+            <text>Vous devez prévenir votre médecin :</text>
+            <annotationSet status="MANUAL" ID="1067">
+                <layer rank="1" name="FE">
+                    <label end="32" start="20" name="Addressee"/>
+                    <label end="3" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1057">
+            <text>Lorsque vous êtes à l' hôpital : prévenez immédiatement votre médecin ou votre infirmière .</text>
+            <annotationSet status="MANUAL" ID="1106">
+                <layer rank="1" name="FE">
+                    <label end="29" start="8" name="Message"/>
+                    <label end="88" start="56" name="Addressee"/>
+                    <label end="11" start="8" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1489">
+            <text>Prévenez votre médecin ou votre dentiste si vous présentez de tels symptômes .</text>
+            <annotationSet status="MANUAL" ID="1497">
+                <layer rank="1" name="FE">
+                    <label end="75" start="44" name="Message"/>
+                    <label end="39" start="9" name="Addressee"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4825">
+            <text>Le patron de BSN , M. Antoine Riboud , aurait alors prévenu de ses intentions l' un de ses actionnaires principaux qui n' est autre qu' ... Agnelli .</text>
+            <annotationSet status="MANUAL" ID="6870">
+                <layer rank="1" name="FE">
+                    <label end="76" start="63" name="Message"/>
+                    <label end="146" start="78" name="Addressee"/>
+                    <label end="35" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7042">
+            <text>La France est devenue une habituée des conflits sociaux qui surviennent sans prévenir et traînent en longueur .</text>
+            <annotationSet status="MANUAL" ID="10439">
+                <layer rank="1" name="FE">
+                    <label end="58" start="56" name="Speaker"/>
+                    <label end="108" start="39" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10200">
+            <text>L' examen des bilans a rapidement inquiété la majorité CFDT - CGC - FO - CFTC du CE du siège - dont le bilan présente un excédent de 10 millions de francs , - qui a prévenu que " les salariés du siège n' ont pas à effacer l' ardoise de la CGT .</text>
+            <annotationSet status="MANUAL" ID="14331">
+                <layer rank="1" name="FE">
+                    <label end="241" start="177" name="Message"/>
+                    <label end="157" start="43" name="Speaker"/>
+                    <label end="161" start="159" name="Speaker"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="171" start="165" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10621">
+            <text>Sur le second marché , conformément à la demande des autorités boursières , les ciments français et Paribas ont déposé une OPA sur la totalité des actions du groupe de travaux publics Guintoli dont ils avaient franchi sans prévenir la barre des 33 % du capital en 1990 .</text>
+            <annotationSet status="MANUAL" ID="14850">
+                <layer rank="1" name="FE">
+                    <label end="221" start="193" name="Message"/>
+                    <label end="267" start="232" name="Message"/>
+                    <label end="200" start="198" name="Speaker"/>
+                    <label end="106" start="76" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="230" start="223" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11528">
+            <text>" Alors que la Chine offre un marché potentiel énorme (...) la détermination du gouvernement français de servir en priorité ses intérêts les plus étroits le conduira à ingurgiter des fruits amers " , prévenait encore lundi l' agence Chine nouvelle .</text>
+            <annotationSet status="MANUAL" ID="15859">
+                <layer rank="1" name="FE">
+                    <label end="196" start="0" name="Message"/>
+                    <label end="246" start="223" name="Speaker"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="208" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12346">
+            <text>Après une première intervention dans les parfumeries pour demander d' enlever les affiches et publicités diverses , le directeur , M. Christian Babusiaux , a écrit à la Fédération pour lui rappeler les règles et la prévenir que des nouveaux contrôles allaient être effectués au second semestre .</text>
+            <annotationSet status="MANUAL" ID="16684">
+                <layer rank="1" name="FE">
+                    <label end="292" start="228" name="Message"/>
+                    <label end="213" start="212" name="Addressee"/>
+                    <label end="178" start="166" name="Addressee"/>
+                    <label end="152" start="116" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="222" start="215" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15499">
+            <text>Le réveil sera dur , prévient -il encore .</text>
+            <annotationSet status="MANUAL" ID="19749">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Message"/>
+                    <label end="32" start="30" name="Speaker"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17287">
+            <text>On ne joue pas à ce jeu - là , prévient Nicolas Gorodiche .</text>
+            <annotationSet status="MANUAL" ID="21364">
+                <layer rank="1" name="FE">
+                    <label end="29" start="0" name="Message"/>
+                    <label end="56" start="40" name="Speaker"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19311">
+            <text>La police a été prévenue par les passagers qui avaient pu poursuivre leur route .</text>
+            <annotationSet status="MANUAL" ID="23273">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Addressee"/>
+                    <label end="78" start="29" name="Speaker"/>
+                    <label itype="ENI" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

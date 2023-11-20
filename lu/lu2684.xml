@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="reconnaissance.n" ID="2684" frame="Ratification" frameID="1351" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="rat" name="Ratifier"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Proposal"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="14448"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Ratifier"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Ratifier"/>
+                <annoSet ID="14448"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="14589">
+            <text>Ces derniers devront mesurer " la qualité du débat social " , l' entreprise devant discuter de son projet avec le comité d' entreprise , les syndicats ou , le cas échéant , le soumettre à référendum , procédure qui obtiendrait ainsi une reconnaissance officielle .</text>
+            <annotationSet status="MANUAL" ID="14448">
+                <layer rank="1" name="FE">
+                    <label end="261" start="252" name="Ratifier"/>
+                    <label end="261" start="201" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="250" start="237" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

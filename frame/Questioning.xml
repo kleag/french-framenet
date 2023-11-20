@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Questioning" ID="40" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;The words in this frame have to do with a Speaker asking an Addressee a question which calls for a reply (as opposed to making a request which calls for an action on the part of the Addressee). &lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:03 PST Wed" abbrev="Spkr" name="Speaker" ID="167">
+        <definition>&lt;def-root&gt;The person asking a question generally occurs as the External Argument of verb and noun targets: 
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Pat&lt;/fex&gt; &lt;t&gt;quizzed&lt;/t&gt; me about where I had been.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Pat's&lt;/fex&gt; &lt;t&gt;question&lt;/t&gt; surprised me. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:03 PST Wed" abbrev="Add" name="Addressee" ID="168">
+        <definition>&lt;def-root&gt;The Addressee is most frequently the NP Object of a target verb.  However, with the verb &lt;ment&gt;inquire&lt;/ment&gt;, Addressee can only occur as an &lt;ment&gt;of&lt;/ment&gt;-PP and with a noun target, Addressee occurs in a PP Complement or as a possessive :
+&lt;ex&gt;Pat &lt;t&gt;questioned&lt;/t&gt; &lt;fex name="Addressee"&gt;me&lt;/fex&gt; about where I had been.&lt;/ex&gt;
+&lt;ex&gt;"Do you often come here?" Kim &lt;t&gt;inquired&lt;/t&gt; &lt;fex name="Addressee"&gt;of the person sitting next to her&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;ex&gt;My &lt;t&gt;question&lt;/t&gt; &lt;fex name="Addressee"&gt;to you&lt;/fex&gt; is straightforward.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Addressee"&gt;Kim's&lt;/fex&gt; &lt;t&gt;interrogation&lt;/t&gt; by the police was long.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:03 PST Wed" abbrev="Msg" name="Message" ID="169">
+        <definition>&lt;def-root&gt;The Message, or content of the question, usually takes the form of a direct quote or an embedded question with a verb target: 
+&lt;ex&gt;&lt;fex name="Message"&gt;"What are you doing?"&lt;/fex&gt; Kim &lt;t&gt;inquired&lt;/t&gt;.&lt;/ex&gt;
+&lt;ex&gt;Kim &lt;t&gt;inquired&lt;/t&gt; &lt;fex name="Message"&gt;what I was doing&lt;/fex&gt;.&lt;/ex&gt;
+With noun targets, Message is not common (as Topic occurs more  frequently).  However, Message does occur in a PP Complement with the noun &lt;ment&gt;question&lt;/ment&gt;: 
+&lt;ex&gt;The answer to your &lt;t&gt;question&lt;/t&gt; &lt;fex name="Message"&gt;of how the company makes money&lt;/fex&gt; is simply that it doesn't. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:03 PST Wed" abbrev="Top" name="Topic" ID="170">
+        <definition>&lt;def-root&gt;Topic occurs very frequently in this frame with both noun and verb targets. It generally occurs as a PP Complement:
+&lt;ex&gt;Pat &lt;t&gt;inquired&lt;/t&gt; &lt;fex name="Topic"&gt;about train times&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Pat's &lt;t&gt;inquiry&lt;/t&gt; &lt;fex name="Topic"&gt;about train times&lt;/fex&gt; fell on deaf ears.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Topic" ID="170"/>
+        <memberFE name="Message" ID="169"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Telling</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="demande.n" ID="2255" nbocc="126" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100545" annotatedsent="45"/>
+        <otherlexUnit framename="FR_Request" ID="2361" annotatedsent="51"/>
+    </lexUnit>
+    <lexUnit POS="v" name="demander.v" ID="2256" nbocc="210" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100546" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Request" ID="2362" annotatedsent="95"/>
+    </lexUnit>
+    <lexUnit POS="n" name="interrogation.n" ID="2257" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101104" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="interroger.v" ID="2258" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="34"/>
+        <otherlexUnit framename="Other_sense" ID="101105" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="question.n" ID="2259" nbocc="186" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="questionner.v" ID="2260" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101530" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'enquérir.v" ID="2261" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="sonder.v" ID="2262" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101833" annotatedsent="0"/>
+    </lexUnit>
+</frame>

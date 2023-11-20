@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Causation" ID="5" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Causality">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cause&lt;/fen&gt; causes an &lt;fen&gt;Effect&lt;/fen&gt;.  Alternatively, an &lt;fen&gt;Actor&lt;/fen&gt;, a participant of a (implicit) &lt;fen&gt;Cause&lt;/fen&gt;, may stand in for the &lt;fen&gt;Cause&lt;/fen&gt;.
+
+Those frames that inherit the Causation frame have as their background the idea that some event is responsible for the occurrence of another event (or state).  In the  inheriting frame, typically an FE like Agent or Causer is proposed in the place of the &lt;fen&gt;Actor&lt;/fen&gt;, but in the daughter frames, as in this frame, the &lt;fen&gt;Actor&lt;/fen&gt; is semantically dependent on the idea of a &lt;fen&gt;Cause&lt;/fen&gt; (an event or state-of-affairs) that the &lt;fen&gt;Actor&lt;/fen&gt; is a participant in.
+
+&lt;ex&gt;&lt;fex name="act"&gt;He&lt;/fex&gt; &lt;t&gt;made&lt;/t&gt; &lt;fex name="Effect"&gt;me&lt;/fex&gt; &lt;fex name="Effect"&gt;angry&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;If &lt;fex name="Cause"&gt;such a small earthquake&lt;/fex&gt; &lt;t&gt;causes&lt;/t&gt; &lt;fex name="Effect"&gt;problems&lt;/fex&gt;, just imagine a big one!&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;The strange mutations of the rumor mill&lt;/fex&gt; &lt;fex name="Time"&gt;in the end&lt;/fex&gt; &lt;t&gt;led&lt;/t&gt; &lt;fex name="Effect"&gt;to it being said that he was actually a woman&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Actor"&gt;You&lt;/fex&gt; 've &lt;t&gt;made&lt;/t&gt; &lt;fex name="Effect"&gt;it&lt;/fex&gt; &lt;fex name="Effect"&gt;impossible to continue&lt;/fex&gt;!&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;The ending&lt;/fex&gt; &lt;t&gt;left&lt;/t&gt; &lt;fex name="Effect"&gt;me&lt;/fex&gt; &lt;fex name="Effect"&gt;feeling kinda empty&lt;/fex&gt;.&lt;/ex&gt;
+
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt;: 
+&lt;ex&gt;&lt;/ex&gt;
+Addition to the above definition: 
+&lt;ex&gt;
+The Causation frame is the main frame for factual (objective, non-epistemic) eventive (situated in time) causality. Both the cause and the effect are concrete situations in time (events, states, processes, states of affairs) and the effect is (conceived as) fully realized. The cause and the effect are conceived as separated situations, they are not seen as one being a reformulation nor a sub-event of the other. The effect cannot precede the cause; moreover, the cause precedes the effect if the cause is an event.
+&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;≠ &lt;frframe&gt;Explaining_the_facts&lt;/frframe&gt;: In the latter, the "effect" is a situation presented by the LU as granted, presupposed, and the "cause" is offered as an explanation of it.&lt;/ex&gt;
+
+&lt;ex&gt;≠ &lt;frframe&gt;FR_Cause_to_start-Launch_process&lt;/frframe&gt;: In the latter, the "effect" is a process presented by the LU as just starting.&lt;/ex&gt;
+
+&lt;ex&gt;≠ &lt;frframe&gt;FR_Reason&lt;/frframe&gt;: In the latter, the "effect" is an action or a mental attitude of a sentient which appears as a separated syntactic argument in at least one subcategorization of the LU. FR_Reason also covers discourse connectives (necessarily without such subcategorization) that may relate an "effect" which is an action or a mental attitude but not any other situation (cf. puisque in French). As a result, only few LUs are ambiguous between Causation and Reason.
+Compare: 
+&lt;ex&gt;FR-EX: &lt;fex name="Cause"&gt;La crise de 1929&lt;/fex&gt; a &lt;t&gt;amené&lt;/t&gt; &lt;fex name="Effect"&gt;la guerre&lt;/fex&gt;. (Causation)&lt;/ex&gt;
+&lt;ex&gt;FR-EX: La situation a &lt;t&gt;amené&lt;/t&gt; le gouvernement à réagir. (Reason)&lt;/ex&gt;
+&lt;/ex&gt;
+
+&lt;ex&gt;≠ &lt;frframe&gt;Evidence&lt;/frframe&gt;: In the latter, the "cause" or the "effect", or both, can be propositions or abstract facts, out of time, which is not possible for Causation. The "cause" and the "effect" can also be two descriptions, logically or semantically related, of a same situation also ruled out in Causation. But the main difference is that Causation is the frame for factual objective causation, while Evidence is for epistemic causation in which the "cause" is presented as a support for a proposition/"effect", which is a less established fact argued to be true. For a thorough examination of this distinction, which can be tricky, see the <a href='http://asfalda.linguist.univ-paris-diderot.fr/documentation/asfalda_guide_desamb_Causation_Evidence.pdf'>Causation/Evidence disambiguation guide</a> (in French).
+&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Minor modifications of the FEs:
+&lt;ex&gt;
+Glosses for Effect and Affected changed (original ones inadequate, probably typos).
+&lt;/ex&gt;
+&lt;ex&gt;
+Effect as core FE, instead of core unexpressed FE, just as Cause and Actor (the frames subsumed by Causation all have some sort of effect FE) .
+&lt;/ex&gt;
+&lt;ex&gt;
+Actor type not restricted as Sentient. viz. 
+&lt;ex&gt;&lt;fex name="Actor"&gt;That one stone&lt;/fex&gt;, apparently, &lt;t&gt;caused&lt;/t&gt; &lt;fex name="Effect"&gt;the avalanche that engulfed square miles of forest&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/ex&gt;
+&lt;ex&gt;
+Affected set as non-Core. Use of Affected limited to LUs which subcategorize for it and semantically select it. Affected not in core set with Effect (the Effect is usually present as well). Actually the frame should have been split, for those LUs subcategorizing for an Affected FE and those which do not (e.g. connectives).
+&lt;/ex&gt;
+&lt;ex&gt;
+Added inheritance links with FR_Reason, Explaining_the_facts, FR_Cause_to_start-Launch_process.
+&lt;/ex&gt;
+
+
+
+<!-- TODO modification of the definition of the Effect and Affected FEs. Restriction of the use of the Affected FE to LUs which subcategorize for it and semantically select it (hence not in small clause case, like in "L'orage a rendu le terrain inutilisable"). 
+
+&lt;ex&gt;&lt;/ex&gt;
+TODO : ENLEVER l'annotation des Affected au sein des roles Effect (hors cas REFTOP) : aboutir, au point de , au point que , entraîner, faute de, grâce à , jusqu'à ce que, pour cause de, origine, à l'origine de, à cause de, si bien que, sous l'effet de, à force de, 
+
+&lt;ex&gt;&lt;/ex&gt;
+on garde Affected pour   "effet/conséquence/impact/répercussion de X sur/pour Y" "causer X à Yhum" (causer des soucis à qqun), apporter des modifications aux régime du RES, X provoquer Y chez 2, X porte Effect à Z
+
+&lt;ex&gt;&lt;/ex&gt;
+NB: rendre Xaffected Y => pour les constructions à attribut de l'objet, on utilise un seul role pour objet direct + ATO (ici Effect)
+
+&lt;ex&gt;&lt;/ex&gt;
+Pour "X cause Y à Zhum" => on peut considérer que la restriction de sel sur Z (doit etre animé?) en fait un argument sémantique selectionné, ce qui justifie le role Affected? En toute rigueur il aurait fallu distinguer un sous-frame de Causation pour les triggers sous-catégorisant et selectionnant un Affected
+-->
+
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:40 PST Wed" abbrev="Cause" name="Cause" ID="18">
+        <definition>&lt;def-root&gt;A situation (event, process, state, state of affairs) that produces an &lt;fen&gt;Effect&lt;/fen&gt;.
+<!--        A force, process, or event that produces an &lt;fen&gt;Effect&lt;/fen&gt;.  -->
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;The wind&lt;/fex&gt; &lt;t&gt;made&lt;/t&gt; &lt;fex name="Effect"&gt;the door rattle&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Cause"&gt;The accident&lt;/fex&gt; &lt;t&gt;caused&lt;/t&gt; &lt;fex name="Effect"&gt;them to be more careful the next time&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:11:40 PST Wed" abbrev="Affected" name="Affected" ID="19">
+        <definition>&lt;def-root&gt;An entity undergoing the &lt;fen&gt;Effect&lt;/fen&gt;. Used only for LUs which subcategorize for it and semantically select it (hence not in small clause case) (NB: this should have led to split the frame, for the LUs subcategorizing for an Affected FE and those which do not (e.g. connectives)).
+
+&lt;ex&gt;FR-EX: L'&lt;t&gt;effet&lt;/t&gt; sur &lt;fex name="Affected"&gt;l'opinion publique&lt;/fex&gt; a été radical.&lt;/ex&gt;
+
+&lt;ex&gt;FR-EX: Toutes les mesures avaient été prises pour ne pas &lt;t&gt;causer&lt;/t&gt; de &lt;fex name="Effect"&gt;gêne&lt;/fex&gt; aux &lt;fex name="Affected"&gt;pays voisins&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="11/03/2004 11:58:58 PST Wed" abbrev="act" name="Actor" ID="7200">
+        <definition>&lt;def-root&gt;An entity (not a situation) which participates in an implicit &lt;fen&gt;Cause&lt;/fen&gt; (e.g., the &lt;fen&gt;Actor&lt;/fen&gt;'s existence, presence, behaviour or action), perhaps volitionally and perhaps not.
+
+&lt;ex&gt;&lt;fex name="Actor"&gt;That one stone&lt;/fex&gt;, apparently, &lt;t&gt;caused&lt;/t&gt; &lt;fex name="Effect"&gt;the avalanche that engulfed square miles of forest&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Actor"&gt;Stephen Hawking&lt;/fex&gt; &lt;t&gt;caused&lt;/t&gt; &lt;fex name="Effect"&gt;an uproar&lt;/fex&gt; when the results were published.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+<!--        <semType name="Sentient" ID="5"/> --> <!--  noter comme difference avec FN. justification : exemple ci-dessus avec actor = that stone -->
+
+<!--        <semType name="Sentient" ID="5"/>-->
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:40 PST Wed" abbrev="Effect" name="Effect" ID="20">
+        <definition>&lt;def-root&gt; 
+        A situation resulting from the &lt;fen&gt;Cause&lt;/fen&gt;
+        <!-- A positive or negative evaluation of the Phenomenon.--> <!--  noter comme difference avec FN-->
+        &lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Cause" ID="18"/>
+        <memberFE name="Actor" ID="7200"/>
+    </FEcoreSet>
+        <!-- NB: Lien à ajouter  MAIS  a été omis dans le papier LREC. **Voir si on veut quand même le mettre ou non.** marie:oui ok-->
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Contingency-Objective_influence</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Explaining_the_facts</relatedFrame>
+        <relatedFrame>FR_Cause_enunciation</relatedFrame>
+        <relatedFrame>FR_Cause_to_start-Launch_process</relatedFrame>
+        <relatedFrame>FR_Reason</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="aboutir.v" ID="154" nbocc="56" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="31"/>
+        <otherlexUnit framename="Other_sense" ID="100004" annotatedsent="25"/>
+    </lexUnit>
+    <lexUnit POS="n" name="aboutissement.n" ID="155" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100005" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="ainsi.adv" ID="156" nbocc="350" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="23"/>
+        <otherlexUnit framename="Other_sense" ID="100069" annotatedsent="77"/>
+        <otherlexUnit framename="Evidence" ID="525" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="alors.adv" ID="157" nbocc="213" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100083" annotatedsent="54"/>
+        <otherlexUnit framename="Evidence" ID="526" annotatedsent="12"/>
+    </lexUnit>
+    <lexUnit POS="v" name="amener.v" ID="158" nbocc="31" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100088" annotatedsent="5"/>
+        <otherlexUnit framename="FR_Reason" ID="2279" annotatedsent="23"/>
+    </lexUnit>
+    <lexUnit POS="v" name="apporter.v" ID="159" nbocc="84" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100112" annotatedsent="73"/>
+    </lexUnit>
+    <lexUnit POS="v" name="attirer.v" ID="162" nbocc="42" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100157" annotatedsent="36"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="au point de.prep" ID="163" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100185" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="au point que.conj" ID="164" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="100186" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="aussi.adv" ID="165" nbocc="658" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100202" annotatedsent="98"/>
+        <otherlexUnit framename="Evidence" ID="534" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="c'est pourquoi.adv" ID="166" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="Other_sense" ID="100293" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="2284" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="c" name="car.c" ID="167" nbocc="192" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="36"/>
+        <otherlexUnit framename="Other_sense" ID="100300" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="536" annotatedsent="57"/>
+        <otherlexUnit framename="FR_Cause_enunciation" ID="2664" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="n" name="cause.n" ID="170" nbocc="46" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="23"/>
+        <otherlexUnit framename="Other_sense" ID="100305" annotatedsent="79"/>
+    </lexUnit>
+    <lexUnit POS="v" name="causer.v" ID="171" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100306" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1462" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="927" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="comme.conj" ID="172" nbocc="228" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100354" annotatedsent="92"/>
+        <otherlexUnit framename="Evidence" ID="537" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="conclusion.adv" ID="173" nbocc="0" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="conclusion.n" ID="174" nbocc="42" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100378" annotatedsent="14"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1537" annotatedsent="0"/>
+        <otherlexUnit framename="Coming_to_believe" ID="277" annotatedsent="28"/>
+    </lexUnit>
+    <lexUnit POS="v" name="conduire.v" ID="177" nbocc="106" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="20"/>
+        <otherlexUnit framename="Other_sense" ID="100387" annotatedsent="48"/>
+        <otherlexUnit framename="FR_Reason" ID="2286" annotatedsent="33"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="conséquemment.adv" ID="178" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="conséquence.n" ID="179" nbocc="120" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="100"/>
+        <otherlexUnit framename="Other_sense" ID="100416" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="conséquent.a" ID="180" nbocc="3" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="102116" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="contraindre.v" ID="181" nbocc="48" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100427" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Reason" ID="2287" annotatedsent="46"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="987" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="contrecoup.n" ID="182" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100434" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="d'autant moins que.conj" ID="183" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="d'autant plus que.conj" ID="185" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="d'autant que.conj" ID="187" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="d'autant.adv" ID="186" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="d'où.conj" ID="188" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100512" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="2770" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="d'où.prep" ID="189" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100513" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="2771" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="dans la mesure où.conj" ID="190" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100521" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="542" annotatedsent="12"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="de ce fait.adv" ID="191" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100534" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="2768" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="de façon que.conj" ID="192" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="de sorte que.conj" ID="193" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100541" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="de telle manière que.conj" ID="194" nbocc="0" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dicter.v" ID="195" nbocc="5" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="102115" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="donc.adv" ID="196" nbocc="318" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="28"/>
+        <otherlexUnit framename="Other_sense" ID="100602" annotatedsent="12"/>
+        <otherlexUnit framename="Evidence" ID="545" annotatedsent="61"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="du coup.adv" ID="197" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="17"/>
+        <otherlexUnit framename="Other_sense" ID="100613" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="2713" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="du fait de.prep" ID="198" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="38"/>
+        <otherlexUnit framename="Other_sense" ID="100615" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="546" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="du fait que.conj" ID="199" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100616" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="547" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="du.a" ID="204" nbocc="29" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="29"/>
+        <otherlexUnit framename="Other_sense" ID="100617" annotatedsent="12"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="dès lors.adv" ID="2772" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100624" annotatedsent="2"/>
+        <otherlexUnit framename="Evidence" ID="549" annotatedsent="10"/>
+        <otherlexUnit framename="FR_Cause_enunciation" ID="2773" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="découler.v" ID="200" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="100661" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="déterminant.a" ID="202" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100741" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2695" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="déterminer.v" ID="201" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100742" annotatedsent="20"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="993" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="dû.a" ID="203" nbocc="19" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="19"/>
+        <otherlexUnit framename="Other_sense" ID="100749" annotatedsent="86"/>
+    </lexUnit>
+    <lexUnit POS="n" name="effet.n" ID="205" nbocc="194" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="104"/>
+        <otherlexUnit framename="Other_sense" ID="100751" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="en conséquence.adv" ID="206" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="Other_sense" ID="100765" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="2763" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="en effet.adv" ID="2660" nbocc="165" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="23"/>
+        <otherlexUnit framename="Other_sense" ID="100771" annotatedsent="18"/>
+        <otherlexUnit framename="Evidence" ID="559" annotatedsent="53"/>
+        <otherlexUnit framename="FR_Cause_enunciation" ID="2762" annotatedsent="11"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="en raison de.prep" ID="207" nbocc="107" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="89"/>
+        <otherlexUnit framename="Other_sense" ID="100780" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="560" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="v" name="entraîner.v" ID="208" nbocc="80" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="73"/>
+        <otherlexUnit framename="Other_sense" ID="100813" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1171" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="et pour cause.adv" ID="168" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100832" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="facteur.n" ID="209" nbocc="43" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="24"/>
+        <otherlexUnit framename="Other_sense" ID="100871" annotatedsent="19"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire en sorte.v" ID="2663" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="102107" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire suite.v" ID="2698" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100881" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire.v" ID="2623" nbocc="1163" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="24"/>
+        <otherlexUnit framename="Other_sense" ID="100884" annotatedsent="40"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="faute de.prep" ID="210" nbocc="44" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="44"/>
+        <otherlexUnit framename="Other_sense" ID="100889" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="fruit.n" ID="212" nbocc="33" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="100917" annotatedsent="18"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="grâce à.prep" ID="215" nbocc="101" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="64"/>
+        <otherlexUnit framename="Other_sense" ID="100960" annotatedsent="36"/>
+    </lexUnit>
+    <lexUnit POS="n" name="impact.n" ID="216" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="Other_sense" ID="101011" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="impliquer.v" ID="217" nbocc="48" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="101014" annotatedsent="35"/>
+        <otherlexUnit framename="Evidence" ID="565" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="induire.v" ID="218" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="101056" annotatedsent="1"/>
+        <otherlexUnit framename="Coming_to_believe" ID="284" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="infliger.v" ID="219" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101062" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="n" name="issue.n" ID="220" nbocc="18" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="101126" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="jusqu'à ce que.conj" ID="221" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101140" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="jusqu'à.prep" ID="222" nbocc="177" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101141" annotatedsent="96"/>
+    </lexUnit>
+    <lexUnit POS="v" name="laisser.v" ID="2737" nbocc="148" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="26"/>
+        <otherlexUnit framename="Preventing" ID="2738" annotatedsent="24"/>
+        <otherlexUnit framename="Other_sense" ID="102111" annotatedsent="46"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mener.v" ID="223" nbocc="114" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101212" annotatedsent="91"/>
+    </lexUnit>
+    <lexUnit POS="n" name="moteur.n" ID="224" nbocc="24" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101243" annotatedsent="22"/>
+    </lexUnit>
+    <lexUnit POS="n" name="motif.n" ID="225" nbocc="29" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101244" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Reason" ID="2296" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="v" name="motiver.v" ID="226" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101246" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Reason" ID="2298" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1185" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="ménager.v" ID="227" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101257" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="v" name="occasionner.v" ID="228" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101296" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="origine.n" ID="229" nbocc="70" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="Other_sense" ID="101307" annotatedsent="31"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="par conséquent.adv" ID="230" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101321" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="par contrecoup.adv" ID="231" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101322" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="par la faute de.prep" ID="232" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101323" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="par suite.adv" ID="233" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101325" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="par voie de conséquence.adv" ID="234" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101326" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="parce que.conj" ID="235" nbocc="124" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="77"/>
+        <otherlexUnit framename="Other_sense" ID="101336" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="581" annotatedsent="30"/>
+    </lexUnit>
+    <lexUnit POS="v" name="porter.v" ID="237" nbocc="226" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="FR_Support_verb" ID="2748" annotatedsent="16"/>
+        <otherlexUnit framename="Other_sense" ID="101400" annotatedsent="64"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="pour cause de.prep" ID="169" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101403" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="pour.prep" ID="2635" nbocc="4094" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="2650" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="101407" annotatedsent="89"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="877" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Means_for_purpose" ID="2230" annotatedsent="19"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="pourquoi.adv" ID="238" nbocc="50" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="37"/>
+        <otherlexUnit framename="Other_sense" ID="101410" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="583" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="n" name="pourquoi.n" ID="239" nbocc="37" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="37"/>
+        <otherlexUnit framename="Other_sense" ID="101411" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="584" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prendre sa source.v" ID="2764" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="produire.v" ID="240" nbocc="124" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101443" annotatedsent="68"/>
+    </lexUnit>
+    <lexUnit POS="n" name="produit.n" ID="241" nbocc="243" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101444" annotatedsent="105"/>
+    </lexUnit>
+    <lexUnit POS="v" name="provoquer.v" ID="242" nbocc="112" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="102"/>
+        <otherlexUnit framename="Other_sense" ID="101476" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="raison.n" ID="243" nbocc="124" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="24"/>
+        <otherlexUnit framename="Other_sense" ID="101540" annotatedsent="15"/>
+        <otherlexUnit framename="Evidence" ID="589" annotatedsent="11"/>
+        <otherlexUnit framename="FR_Reason" ID="2302" annotatedsent="52"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rendre.v" ID="244" nbocc="190" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="71"/>
+        <otherlexUnit framename="Other_sense" ID="101602" annotatedsent="13"/>
+    </lexUnit>
+    <lexUnit POS="a" name="responsable.a" ID="245" nbocc="40" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="101621" annotatedsent="91"/>
+    </lexUnit>
+    <lexUnit POS="n" name="retombée.n" ID="246" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101624" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="répercussion.n" ID="247" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101672" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="résultat.n" ID="249" nbocc="245" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="36"/>
+        <otherlexUnit framename="Other_sense" ID="101686" annotatedsent="66"/>
+    </lexUnit>
+    <lexUnit POS="v" name="résulter.v" ID="250" nbocc="37" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="29"/>
+        <otherlexUnit framename="Other_sense" ID="101687" annotatedsent="8"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="si bien que.conj" ID="251" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101817" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="soulever.v" ID="252" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101839" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Reason" ID="2306" annotatedsent="8"/>
+        <otherlexUnit framename="FR_Encoding" ID="1101" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="n" name="source.n" ID="253" nbocc="62" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="101843" annotatedsent="54"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="sous l'effet de.prep" ID="254" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="101845" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2769" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="subséquemment.adv" ID="255" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="suite.n" ID="256" nbocc="33" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101882" annotatedsent="16"/>
+    </lexUnit>
+    <lexUnit POS="v" name="susciter.v" ID="257" nbocc="41" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101899" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Reason" ID="2307" annotatedsent="37"/>
+    </lexUnit>
+    <lexUnit POS="n" name="séquelle.n" ID="258" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101907" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="tant et si bien que.conj" ID="259" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101914" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="trouver sa source.v" ID="2766" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à cause de.prep" ID="260" nbocc="31" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="29"/>
+        <otherlexUnit framename="Other_sense" ID="101996" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="à ce point que.conj" ID="261" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101999" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à défaut de.prep" ID="262" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="102006" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à force de.prep" ID="263" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="102007" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="à force.adv" ID="264" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à l'origine de.prep" ID="265" nbocc="22" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="22"/>
+        <otherlexUnit framename="Other_sense" ID="102020" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="à la suite de quoi.adv" ID="266" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à la suite de.prep" ID="2694" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="30"/>
+        <otherlexUnit framename="Other_sense" ID="102028" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="à tel point que.conj" ID="267" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="102042" annotatedsent="2"/>
+    </lexUnit>
+</frame>

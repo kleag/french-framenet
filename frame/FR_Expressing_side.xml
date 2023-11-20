@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Expressing_side" ID="10029" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication,Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; expresses a polarized opinion, made of a &lt;fen&gt;Polarity&lt;/fen&gt; and a &lt;fen&gt;Content&lt;/fen&gt; or a &lt;fen&gt;Side&lt;/fen&gt;. Alternatively a &lt;fen&gt;Topic&lt;/fen&gt; can be expressed on which it is understood that the Speaker expresses the polarized opinion. 
+
+&lt;ex&gt;&lt;/ex&gt;
+Note that this frame covers cases in which it can be understood from the context that the polarized opinion corresponds to an authoritative decision, but contrary to the FR_Expressing_decision frame, this is undestood compositionnaly and not because of the construction or the LU.
+
+    &lt;ex&gt;&lt;/ex&gt;
+
+Distinctions with other frames:
+
+&lt;ex&gt;&lt;/ex&gt; ≠ &lt;frframe&gt;FR_Taking_sides&lt;/frframe&gt; : Contrary to FR_Expressing_side, the LUs of FR_Taking_sides do incorporate the positive or negative polarity.
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;Complaining&lt;/frframe&gt;: Complaining's LUs polarity is always negative, and always implied by the LU itself, whereas FR_Expressing_side LUs can express either a positive or negative point of view, depending on the Polarity role filler which is expressed separately from the LU.
+    &lt;ex&gt; &lt;/ex&gt;
+
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : New frame, created for asfalda. 
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="243" cDate="09/13/2002 03:01:18 PDT Fri" abbrev="" name="Polarity" ID="3717">
+        <definition>&lt;def-root&gt; the &lt;fen&gt;Polarity&lt;/fen&gt; is whether the Speaker is in favor or against the Content or Side. It is expressed by a preposition that is subcategorized, but whose meaning is not totally empty.
+&lt;ex&gt;FR-EX: &lt;fex name="Speaker"&gt;Les électeurs&lt;/fex&gt; &lt;t&gt;se sont prononcés&lt;/t&gt; &lt;fex name="Polarity"&gt;en faveur de&lt;/fex&gt; la nationalisation.&lt;/ex&gt; 
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="243" cDate="09/13/2002 03:01:18 PDT Fri" abbrev="" name="Content" ID="0000">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Content&lt;/fen&gt; is what the Speaker expresses to be against or in favor of.
+&lt;ex&gt;FR-EX: &lt;fex name="Speaker"&gt;Les électeurs&lt;/fex&gt; &lt;t&gt;se sont prononcés&lt;/t&gt; en faveur de &lt;fex name="Content"&gt;la nationalisation&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;/def-root&gt;</definition>
+<excludesFE name="Topic" ID="8188"/>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="243" cDate="09/13/2002 03:01:18 PDT Fri" abbrev="" name="Side" ID="0001">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Side&lt;/fen&gt; is the entity that the Speaker agrees or disagrees with.
+&lt;ex&gt;FR-EX: &lt;fex name="Speaker"&gt;Les électeurs&lt;/fex&gt; &lt;t&gt;se sont prononcés&lt;/t&gt; en faveur de &lt;fex name="Side"&gt;ce candidat&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;/def-root&gt;</definition>
+<excludesFE name="Topic" ID="8188"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="Spkr" name="Speaker" ID="8179">
+        <definition>&lt;def-root&gt;The individual or body that expresses the polarized opinion, causing it to become binding in a jurisdiction represented by the &lt;fen&gt;Speaker&lt;/fen&gt;. 
+&lt;ex&gt;FR-EX: &lt;fex name="Speaker"&gt;Les électeurs&lt;/fex&gt; &lt;t&gt;se prononceront&lt;/t&gt; sur le traité.&lt;/ex&gt; 
+&lt;/def-root&gt;</definition>
+	<semType name="Sentient" ID="5"/>
+    </FE>
+   
+    <FE bgColor="FF0000" fgColor="000000" coreType="Core" cBy="605" cDate="06/16/2005 05:52:24 PDT Thu" abbrev="" name="Topic" ID="8188">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; that the &lt;fen&gt;Speaker&lt;/fen&gt; provides a polarized opinion about.
+&lt;ex&gt;FR-EX: &lt;fex name="Speaker"&gt;Les électeurs&lt;/fex&gt; &lt;t&gt;se prononceront&lt;/t&gt; sur &lt;fex name="Topic"&gt;le traité&lt;/fex&gt;.&lt;/ex&gt; 
+&lt;/def-root&gt;</definition>
+<excludesFE name="Polarity" ID="3717"/>
+<excludesFE name="Content" ID="0001"/>
+<excludesFE name="Side" ID="0000"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Side" ID="0000"/>
+        <memberFE name="Content" ID="0001"/>
+        <memberFE name="Topic" ID="8188"/>
+    </FEcoreSet>
+-->
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Taking_sides</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="prendre parti.v" ID="2654" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prendre position.v" ID="2595" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101424" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'exprimer.v" ID="2711" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101718" annotatedsent="5"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1501" annotatedsent="16"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se prononcer.v" ID="1090" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="28"/>
+        <otherlexUnit framename="Other_sense" ID="101786" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="trancher.v" ID="2714" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="102181" annotatedsent="4"/>
+    </lexUnit>
+</frame>

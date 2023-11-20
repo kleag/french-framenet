@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="exalter.v" ID="2733" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Dependent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="23510"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Influencer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="23510"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19632">
+            <text>Mais il faut du talent pour parler de l' immigration sans exalter les réactions des petits blancs .</text>
+            <annotationSet status="MANUAL" ID="23510">
+                <layer rank="1" name="FE">
+                    <label end="96" start="66" name="Dependent"/>
+                    <label end="56" start="28" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

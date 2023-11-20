@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="forcer.v" ID="211" frame="Causation" frameID="5" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core-Unexpressed" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Affected"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="11892"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cause"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="11892"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Effect"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="11892"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="11189">
+            <text>Si l' accord conclu en juillet 1992 entre les syndicats , le patronat et le gouvernement est respecté , il tarira une source d' inflation qui depuis quarante - six ans alimente l' économie italienne et la force périodiquement à dévaluer sa monnaie .</text>
+            <annotationSet status="MANUAL" ID="11892">
+                <layer rank="1" name="FE">
+                    <label end="246" start="114" name="Cause"/>
+                    <label end="140" start="138" name="Cause"/>
+                    <label end="203" start="202" name="Affected"/>
+                    <label end="197" start="177" name="Affected"/>
+                    <label end="246" start="228" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="205" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

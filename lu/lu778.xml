@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="suggestion.n" ID="778" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="22350"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="11116"/>
+                <annoSet ID="13521"/>
+                <annoSet ID="13540"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="11116"/>
+                <annoSet ID="22350"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="13521"/>
+                <annoSet ID="13540"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Persuader"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="11116"/>
+                <annoSet ID="13521"/>
+                <annoSet ID="13540"/>
+                <annoSet ID="22350"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7659">
+            <text>Il intéresse le personnel à la prospérité de l' entreprise , recueille ses suggestions ( " boîtes à idées " ) et lui offre des actions à des conditions avantageuses .</text>
+            <annotationSet status="MANUAL" ID="11116">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Cognizer"/>
+                    <label end="73" start="71" name="Persuader"/>
+                    <label end="24" start="13" name="Persuader"/>
+                    <label itype="UNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9554">
+            <text>Avant même la publication du rapport de M. Bernard Brunhes , ancien conseiller social de M. Pierre Mauroy à Matignon , consacré spécifiquement à ce sujet , les économistes réunis au Plan autour de M. Jean - Michel Charpin , directeur des études de la BNP , et chargés de dessiner les perspectives à moyen terme de l' économie française font en ce domaine quelques suggestions .</text>
+            <annotationSet status="MANUAL" ID="13521">
+                <layer rank="1" name="FE">
+                    <label end="334" start="156" name="Persuader"/>
+                    <label itype="UNI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="374" start="364" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9575">
+            <text>Pour s' attaquer aux racines du mal , les économistes font donc plusieurs suggestions .</text>
+            <annotationSet status="MANUAL" ID="13540">
+                <layer rank="1" name="FE">
+                    <label end="52" start="38" name="Persuader"/>
+                    <label itype="UNI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18276">
+            <text>Ainsi avait -il prêté l' oreille aux suggestions de MM Julien Dray et Jean - Luc Mélenchon , les animateurs de la Nouvelle Ecole socialiste , qui envisageaient une alliance , fortement symbolique à leurs yeux , entre les mitterrandistes " historiques " et eux - mêmes , représentants de la " génération Mitterrand " de 1988 .</text>
+            <annotationSet status="MANUAL" ID="22350">
+                <layer rank="1" name="FE">
+                    <label end="322" start="160" name="Action"/>
+                    <label end="14" start="12" name="Cognizer"/>
+                    <label end="322" start="52" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

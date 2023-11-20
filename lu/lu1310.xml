@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="convenir.v" ID="1310" frame="FR_Make_agreement_on_assessment" frameID="10040" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer_1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer_1"/>
+                <annoSet ID="16081"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer_2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer_2"/>
+                <annoSet ID="16081"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cognizers"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizers"/>
+                <annoSet ID="2150"/>
+                <annoSet ID="2198"/>
+                <annoSet ID="21000"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizers"/>
+                <annoSet ID="1028"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Opinion"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Opinion"/>
+                <annoSet ID="1028"/>
+                <annoSet ID="2150"/>
+                <annoSet ID="2198"/>
+                <annoSet ID="16081"/>
+                <annoSet ID="21000"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="934">
+            <text>Le titulaire de l' AMM s' engage à fournir des études et des données de pharmacovigilance supplémentaires détaillées dans le Plan de Pharmacovigilance , comme convenu dans la version 4 du Plan de Gestion des risques ( PGR ) présenté dans le Module 1.8.2. de l' autorisation de mise sur le marché et toutes mises à jour du PGR autorisées par le CHMP .</text>
+            <annotationSet status="MANUAL" ID="1028">
+                <layer rank="1" name="FE">
+                    <label end="149" start="0" name="Opinion"/>
+                    <label itype="UNI" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1815">
+            <text>Madame la Présidente , je voudrais préciser clairement que si nous avons convenu que le Zimbabwe serait le cinquième point , alors il n' y a pas lieu de voter sur d' autres points parce que nous avons déjà cinq points à l' ordre du jour .</text>
+            <annotationSet status="MANUAL" ID="2150">
+                <layer rank="1" name="FE">
+                    <label end="65" start="62" name="Cognizers"/>
+                    <label end="121" start="85" name="Opinion"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1833">
+            <text>Et comme vous savez , Madame la Présidente , chers collègues , l' Union européenne en est arrivée là où elle est aujourd' hui , avec ses réussites , précisément parce qu' elle a fonctionné et continue à fonctionner sur la base d' un équilibre de forces qui avait été convenu et faisait l' objet d' un consensus .</text>
+            <annotationSet status="MANUAL" ID="2198">
+                <layer rank="1" name="FE">
+                    <label end="81" start="63" name="Cognizers"/>
+                    <label end="174" start="171" name="Cognizers"/>
+                    <label end="309" start="230" name="Opinion"/>
+                    <label end="255" start="253" name="Opinion"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="273" start="267" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11710">
+            <text>Dans la " navette " Washington - New - York , Jean - Claude Trichet informe par téléphone - et à l' aide du langage codé convenu - Michel Sapin de l' évolution du marché et surtout du " bouclage " de l' accord franco - allemand .</text>
+            <annotationSet status="MANUAL" ID="16081">
+                <layer rank="1" name="FE">
+                    <label end="119" start="108" name="Opinion"/>
+                    <label end="142" start="131" name="Cognizer_2"/>
+                    <label end="66" start="46" name="Cognizer_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="121" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16892">
+            <text>Réunis pour trois jours à Prague , les ministres des finances des pays membres du COMECON ( ou CAEM , conseil d' assistance économique mutuelle ) sont convenus , le mardi 16 janvier , de la nécessité de comptabiliser au plus tôt leurs échanges en devises convertibles .</text>
+            <annotationSet status="MANUAL" ID="21000">
+                <layer rank="1" name="FE">
+                    <label end="144" start="35" name="Cognizers"/>
+                    <label end="266" start="187" name="Opinion"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

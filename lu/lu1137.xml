@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="imputable.a" ID="1137" frame="FR_Attributing_cause" frameID="10005" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cfac" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ksta" name="Known_state_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="exp" name="Attributor"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="resp" name="Responsible_party"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="8">
+            <FE name="Attributor"/>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Attributor"/>
+                <annoSet ID="1579"/>
+                <annoSet ID="1588"/>
+                <annoSet ID="10359"/>
+                <annoSet ID="13667"/>
+                <annoSet ID="15609"/>
+                <annoSet ID="20249"/>
+                <annoSet ID="23916"/>
+                <annoSet ID="24242"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cause"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="10359"/>
+                <annoSet ID="13667"/>
+                <annoSet ID="15609"/>
+                <annoSet ID="20249"/>
+                <annoSet ID="24242"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Known_state_of_affairs"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Known_state_of_affairs"/>
+                <annoSet ID="1579"/>
+                <annoSet ID="1588"/>
+                <annoSet ID="10359"/>
+                <annoSet ID="13667"/>
+                <annoSet ID="15609"/>
+                <annoSet ID="20249"/>
+                <annoSet ID="23916"/>
+                <annoSet ID="24242"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Responsible_party"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Responsible_party"/>
+                <annoSet ID="1579"/>
+                <annoSet ID="1588"/>
+                <annoSet ID="23916"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1551">
+            <text>Très brièvement , il s' agit de limiter les émissions de CO2 imputables à l' homme .</text>
+            <annotationSet status="MANUAL" ID="1579">
+                <layer rank="1" name="FE">
+                    <label end="59" start="40" name="Known_state_of_affairs"/>
+                    <label end="81" start="74" name="Responsible_party"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1556">
+            <text>Nous avons noté que la production d' électricité correspond à 30 % des émissions de CO2 imputables à l' homme .</text>
+            <annotationSet status="MANUAL" ID="1588">
+                <layer rank="1" name="FE">
+                    <label end="86" start="71" name="Known_state_of_affairs"/>
+                    <label end="108" start="101" name="Responsible_party"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6994">
+            <text>Cette chute est largement imputable aux exploitations viticoles pour lesquelles la chute , si elle dépasse les 20 % , est bien loin d' annuler l' acquis des deux années précédentes .</text>
+            <annotationSet status="MANUAL" ID="10359">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Known_state_of_affairs"/>
+                    <label end="179" start="40" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9692">
+            <text>Il faut en effet vérifier que le règlement distingue les charges imputables au parking de celles du bâtiment .</text>
+            <annotationSet status="MANUAL" ID="13667">
+                <layer rank="1" name="FE">
+                    <label end="63" start="53" name="Known_state_of_affairs"/>
+                    <label end="85" start="79" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11307">
+            <text>Signe que les produits français ont gagné en compétitivité : les deux tiers environ de la croissance sont imputables aux échanges de biens et services .</text>
+            <annotationSet status="MANUAL" ID="15609">
+                <layer rank="1" name="FE">
+                    <label end="99" start="61" name="Known_state_of_affairs"/>
+                    <label end="149" start="121" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16081">
+            <text>Cette diminution de 17 , 485 milliards de francs des réserves de change est principalement imputable à la baisse des avoirs en devises , qui ont diminué de 17 , 097 milliards de francs le mois dernier en raison des opérations du fonds de stabilisation des changes réalisées au cours du mois de novembre .</text>
+            <annotationSet status="MANUAL" ID="20249">
+                <layer rank="1" name="FE">
+                    <label end="70" start="0" name="Known_state_of_affairs"/>
+                    <label end="301" start="103" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20176">
+            <text>Visitant les chaînes de montage de Detroit au moment où la querelle américano - nippone battait son plein , M. Richard Gephardt , le leader ( démocrate ) de la Chambre des représentants , a lui aussi regretté les maigres résultats obtenus à Tokyo , estimant que " la récession aux Etats - Unis est en partie imputable au Japon " .</text>
+            <annotationSet status="MANUAL" ID="23916">
+                <layer rank="1" name="FE">
+                    <label end="292" start="264" name="Known_state_of_affairs"/>
+                    <label end="325" start="321" name="Responsible_party"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="316" start="308" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20542">
+            <text>Alors que le président Bush commençait son voyage en Asie étaient publiées les plus récentes estimations sur les résultats de la balance des paiements du Japon : un excédent record , qui pourrait atteindre 100 milliards de dollars , imputable , disent les statistiques , à concurrence d' environ la moitié , aux échanges commerciaux avec les Etats - Unis .</text>
+            <annotationSet status="MANUAL" ID="24242">
+                <layer rank="1" name="FE">
+                    <label end="231" start="162" name="Known_state_of_affairs"/>
+                    <label end="353" start="312" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="241" start="233" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

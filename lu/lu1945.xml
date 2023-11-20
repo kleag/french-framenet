@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="fustiger.v" ID="1945" frame="FR_Judgment_communication" frameID="10080" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Communicator"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="9084"/>
+                <annoSet ID="12749"/>
+                <annoSet ID="19320"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Evaluee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="9084"/>
+                <annoSet ID="12749"/>
+                <annoSet ID="19320"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Evaluee"/>
+                <annoSet ID="23515"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="23515"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Reason"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="12749"/>
+                <annoSet ID="19320"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6113">
+            <text>M. Gérard Dantin , secrétaire national de la CFDT , qui dirige pour la première fois la délégation de son organisation , a résumé le reproche commun quand , dans une déclaration , le 1 juillet , il a fustigé l' attitude des entreprises qui " continuent à se décharger massivement sur la collectivité nationale en matière de gestion des effectifs " et qui ne veulent pas en supporter les conséquences .</text>
+            <annotationSet status="MANUAL" ID="9084">
+                <layer rank="1" name="FE">
+                    <label end="196" start="195" name="Communicator"/>
+                    <label end="117" start="0" name="Communicator"/>
+                    <label end="398" start="208" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="206" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8920">
+            <text>Tandis que le député Adrien Zeller ( UDF - CDS ) , maire de Saverne , fustige Bernard Tapie : " Après avoir racheté Adidas sans l' avoir jamais réellement payé , il cède l' entreprise après avoir licencié le tiers du personnel sans avoir assuré son avenir , ni celui de ceux qui restent ! "</text>
+            <annotationSet status="MANUAL" ID="12749">
+                <layer rank="1" name="FE">
+                    <label end="66" start="11" name="Communicator"/>
+                    <label end="285" start="96" name="Reason"/>
+                    <label end="90" start="78" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15051">
+            <text>le succès chatouillant la mégalomanie qui sommeille chez toute battante , Anita superstar n' hésite pas également à fustiger l' establishment : conservatisme de l' industrie cosmétique ou autres conformismes des états - majors du Stock Exchange .</text>
+            <annotationSet status="MANUAL" ID="19320">
+                <layer rank="1" name="FE">
+                    <label end="88" start="74" name="Communicator"/>
+                    <label end="243" start="144" name="Reason"/>
+                    <label end="140" start="125" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19639">
+            <text>Oui , elles s' exaspèrent d' un discours politique toujours prompt à fustiger et bien peu à comprendre .</text>
+            <annotationSet status="MANUAL" ID="23515">
+                <layer rank="1" name="FE">
+                    <label end="67" start="29" name="Medium"/>
+                    <label end="101" start="78" name="Medium"/>
+                    <label itype="UNI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

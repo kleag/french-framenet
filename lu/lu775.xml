@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="préconiser.v" ID="775" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="21" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="21">
+            <FE name="Action"/>
+            <pattern total="21">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="2768"/>
+                <annoSet ID="3072"/>
+                <annoSet ID="4107"/>
+                <annoSet ID="6490"/>
+                <annoSet ID="8569"/>
+                <annoSet ID="8810"/>
+                <annoSet ID="9090"/>
+                <annoSet ID="9267"/>
+                <annoSet ID="10334"/>
+                <annoSet ID="13565"/>
+                <annoSet ID="17655"/>
+                <annoSet ID="17953"/>
+                <annoSet ID="18423"/>
+                <annoSet ID="20481"/>
+                <annoSet ID="20490"/>
+                <annoSet ID="20582"/>
+                <annoSet ID="21207"/>
+                <annoSet ID="22189"/>
+                <annoSet ID="23085"/>
+                <annoSet ID="23601"/>
+                <annoSet ID="23947"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="21">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="8569"/>
+            </pattern>
+            <pattern total="20">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="2768"/>
+                <annoSet ID="3072"/>
+                <annoSet ID="4107"/>
+                <annoSet ID="6490"/>
+                <annoSet ID="8810"/>
+                <annoSet ID="9090"/>
+                <annoSet ID="9267"/>
+                <annoSet ID="10334"/>
+                <annoSet ID="13565"/>
+                <annoSet ID="17655"/>
+                <annoSet ID="17953"/>
+                <annoSet ID="18423"/>
+                <annoSet ID="20481"/>
+                <annoSet ID="20490"/>
+                <annoSet ID="20582"/>
+                <annoSet ID="21207"/>
+                <annoSet ID="22189"/>
+                <annoSet ID="23085"/>
+                <annoSet ID="23601"/>
+                <annoSet ID="23947"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Medium"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="2768"/>
+                <annoSet ID="3072"/>
+                <annoSet ID="6490"/>
+                <annoSet ID="13565"/>
+                <annoSet ID="20582"/>
+                <annoSet ID="23601"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="19">
+            <FE name="Persuader"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="2768"/>
+                <annoSet ID="3072"/>
+                <annoSet ID="4107"/>
+                <annoSet ID="6490"/>
+                <annoSet ID="8569"/>
+                <annoSet ID="8810"/>
+                <annoSet ID="9090"/>
+                <annoSet ID="9267"/>
+                <annoSet ID="10334"/>
+                <annoSet ID="17953"/>
+                <annoSet ID="18423"/>
+                <annoSet ID="20481"/>
+                <annoSet ID="20490"/>
+                <annoSet ID="21207"/>
+                <annoSet ID="22189"/>
+                <annoSet ID="23085"/>
+                <annoSet ID="23601"/>
+                <annoSet ID="23947"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="17655"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2089">
+            <text>Notre recommandation préconise de ne pas lever son immunité .</text>
+            <annotationSet status="MANUAL" ID="2768">
+                <layer rank="1" name="FE">
+                    <label end="58" start="34" name="Action"/>
+                    <label end="4" start="0" name="Persuader"/>
+                    <label end="19" start="0" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2365">
+            <text>- 17 décembre 2004 : Dans son volumineux réquisitoire ( 170 pages plus quelque 500 pages d' annexes ) , le procureur de la République préconise le renvoi devant le tribunal correctionnel des quinze personnes mises en examen .</text>
+            <annotationSet status="MANUAL" ID="3072">
+                <layer rank="1" name="FE">
+                    <label end="222" start="144" name="Action"/>
+                    <label end="132" start="104" name="Persuader"/>
+                    <label end="100" start="26" name="Medium"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="134" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3181">
+            <text>C' est le cas des fédérations CGT ( " un coup médiatique autour d' un coup de force " ) , CFTC ( " le seul souci de ces commerces est la recherche du profit pour le profit " ) et FO , qui préconise " des sanctions plus dissuasives " .</text>
+            <annotationSet status="MANUAL" ID="4107">
+                <layer rank="1" name="FE">
+                    <label end="231" start="198" name="Action"/>
+                    <label end="186" start="184" name="Persuader"/>
+                    <label end="231" start="179" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4592">
+            <text>Ainsi , la fusion pure et simple des rédactions des deux sociétés en un seul ensemble de mille journalistes - regroupement préconisé par le rapport préliminaire rédigé par M. Denvers - a pu être refusée par les directeurs généraux de A 2 et FR3 , au nom d' arguments techniques tout d' abord : où loger pareille armada ?</text>
+            <annotationSet status="MANUAL" ID="6490">
+                <layer rank="1" name="FE">
+                    <label end="121" start="110" name="Action"/>
+                    <label end="181" start="172" name="Persuader"/>
+                    <label end="181" start="137" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5820">
+            <text>Fait significatif : Pierre Gilson , vice- président de la CGPME , qui préconise cette dernière solution à ses pairs des petites et moyennes entreprises , est celui - là même qui avait négocié l' introduction d' une telle innovation dans son métier d' origine , la réparation automobile .</text>
+            <annotationSet status="MANUAL" ID="8569">
+                <layer rank="1" name="FE">
+                    <label end="102" start="80" name="Action"/>
+                    <label end="150" start="106" name="Cognizer"/>
+                    <label end="150" start="20" name="Persuader"/>
+                    <label end="68" start="66" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5943">
+            <text>La commission européenne préconise une solution intermédiaire , reconnaissant un secteur exclusivement public , devant assurer un " service universel " , accessible à tout utilisateur et répondant à des normes de qualité et des conditions tarifaires satisfaisantes .</text>
+            <annotationSet status="MANUAL" ID="8810">
+                <layer rank="1" name="FE">
+                    <label end="263" start="35" name="Action"/>
+                    <label end="23" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6116">
+            <text>Sur le fond , d' abord , la réorganisation que suppose la méthode préconisée par le CNPF nécessite du temps .</text>
+            <annotationSet status="MANUAL" ID="9090">
+                <layer rank="1" name="FE">
+                    <label end="64" start="55" name="Action"/>
+                    <label end="87" start="81" name="Persuader"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6218">
+            <text>Il préconise la suppression de l' allocation de base exceptionnelle ( ABE ) , servie aux chômeurs ( jeunes , contrats à durée déterminée , intérim ) dont les durées d' affiliation sont les plus courtes ( 178 000 en 1991 ) .</text>
+            <annotationSet status="MANUAL" ID="9267">
+                <layer rank="1" name="FE">
+                    <label end="220" start="13" name="Action"/>
+                    <label end="1" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6977">
+            <text>Dans son programme , elle préconise notamment un système de double prix des produits agricoles : un prix de marché établi sur la base du coût de production pour les zones les plus favorisées ; un " complément pour les régions défavorisées " , financé par le Ministère de l' agriculture , mais " plafonné " pour que les agriculteurs ne produisent pas trop .</text>
+            <annotationSet status="MANUAL" ID="10334">
+                <layer rank="1" name="FE">
+                    <label end="93" start="46" name="Action"/>
+                    <label end="24" start="21" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9597">
+            <text>Le Plan préconise un objectif de 37 heures hebdomadaires d' ici à 1997 .</text>
+            <annotationSet status="MANUAL" ID="13565">
+                <layer rank="1" name="FE">
+                    <label end="69" start="18" name="Action"/>
+                    <label end="6" start="0" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13292">
+            <text>Equivalent officiellement préconisé , stylique ne reçoit pas , semble -t-il , une adhésion enthousiaste .</text>
+            <annotationSet status="MANUAL" ID="17655">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13633">
+            <text>La solution que nous préconisons est donc d' autoriser la vente en bloc par les sociétés HLM d' immeubles occupés à des opérateurs privés qui s' engageraient par convention à les revendre en priorité aux occupants .</text>
+            <annotationSet status="MANUAL" ID="17953">
+                <layer rank="1" name="FE">
+                    <label end="14" start="12" name="Action"/>
+                    <label end="31" start="0" name="Action"/>
+                    <label end="19" start="16" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14095">
+            <text>En préconisant la création d' emplois d' " utilité sociale " , Pierre Bérégovoy met le doigt sans le vouloir sur une autre , plus terrible encore , ambiguïté .</text>
+            <annotationSet status="MANUAL" ID="18423">
+                <layer rank="1" name="FE">
+                    <label end="59" start="15" name="Action"/>
+                    <label end="78" start="63" name="Persuader"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16309">
+            <text>Contrairement à ses adversaires , qui préconisaient une réforme immédiate et profonde du système financier , M. Kim Young - sam a promis une libéralisation progressive .</text>
+            <annotationSet status="MANUAL" ID="20481">
+                <layer rank="1" name="FE">
+                    <label end="105" start="52" name="Action"/>
+                    <label end="105" start="16" name="Persuader"/>
+                    <label end="36" start="34" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16318">
+            <text>Autre fragilité : la spécialisation des groupes , préconisée depuis plusieurs années par le gouvernement , tarde à se concrétiser .</text>
+            <annotationSet status="MANUAL" ID="20490">
+                <layer rank="1" name="FE">
+                    <label end="48" start="18" name="Action"/>
+                    <label end="103" start="89" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16388">
+            <text>Il préconise donc diverses actions , jugées à la portée des dirigeants : lors des recrutements , utiliser " au maximum " les procédures et les aides mises en place pour faciliter l' embauche des personnes en difficulté ; lors des licenciements , " s' efforcer de reconstituer les emplois qui ont été détruits " ; développer au sein des entreprises toutes les innovations favorables à l' emploi qui ne remettent pas en question son efficacité ; permettre aux personnes menacées d' exclusion de récupérer leur potentiel professionnel ou " créer de nouveaux sas d' accès " .</text>
+            <annotationSet status="MANUAL" ID="20582">
+                <layer rank="1" name="FE">
+                    <label end="69" start="18" name="Action"/>
+                    <label end="1" start="0" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17083">
+            <text>Le bon juriste doit être créatif et préconiser des systèmes qui servent les intérêts de ses clients " , affirme Me Philippe Ginestié , qui se targue d' avoir remis à la mode le système des sociétés en commandite par actions , qui assure l' indépendance du gestionnaire par rapport au capital .</text>
+            <annotationSet status="MANUAL" ID="21207">
+                <layer rank="1" name="FE">
+                    <label end="98" start="47" name="Action"/>
+                    <label end="13" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18156">
+            <text>De nos jours , les économistes idéologues , inspirés par Milton Friedman , préconisent à la suite de leur maitre la suppression pure et simple des banques centrales , sources premières , selon eux , des désordres monétaires .</text>
+            <annotationSet status="MANUAL" ID="22189">
+                <layer rank="1" name="FE">
+                    <label end="222" start="113" name="Action"/>
+                    <label end="71" start="15" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19017">
+            <text>Les conséquences des mesures d' austérité préconisées par le fonds monétaire international ( FMI ) ont provoqué au Mozambique le plus grave mouvement de revendications sociales depuis l' indépendance .</text>
+            <annotationSet status="MANUAL" ID="23085">
+                <layer rank="1" name="FE">
+                    <label end="40" start="21" name="Action"/>
+                    <label end="97" start="58" name="Persuader"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19857">
+            <text>Préconisée par M. Max Querrien , conseiller d' Etat , dans son rapport remis en janvier 1991 et consacré à la recrudescence des accidents du travail , cette réforme est contenue dans un arrêté du 31 juillet dernier .</text>
+            <annotationSet status="MANUAL" ID="23601">
+                <layer rank="1" name="FE">
+                    <label end="163" start="151" name="Action"/>
+                    <label end="50" start="15" name="Persuader"/>
+                    <label end="147" start="59" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20217">
+            <text>Pour sa part , M. Le Drian préconise des négociations décentralisées permettant d' élaborer éventuellement une " régulation " au plan national .</text>
+            <annotationSet status="MANUAL" ID="23947">
+                <layer rank="1" name="FE">
+                    <label end="141" start="37" name="Action"/>
+                    <label end="25" start="15" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="nationaliser.v" ID="294" frame="Commerce_buy" frameID="171" totalAnnotated="16" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="" name="Recipient"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="16">
+            <FE name="Buyer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="11799"/>
+                <annoSet ID="11803"/>
+                <annoSet ID="14809"/>
+                <annoSet ID="23583"/>
+            </pattern>
+            <pattern total="12">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="7855"/>
+                <annoSet ID="7870"/>
+                <annoSet ID="7873"/>
+                <annoSet ID="7943"/>
+                <annoSet ID="10167"/>
+                <annoSet ID="10357"/>
+                <annoSet ID="14092"/>
+                <annoSet ID="20053"/>
+                <annoSet ID="20069"/>
+                <annoSet ID="23043"/>
+                <annoSet ID="23213"/>
+                <annoSet ID="24388"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Goods"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="7855"/>
+                <annoSet ID="7870"/>
+                <annoSet ID="7873"/>
+                <annoSet ID="7943"/>
+                <annoSet ID="10167"/>
+                <annoSet ID="11799"/>
+                <annoSet ID="11803"/>
+                <annoSet ID="14092"/>
+                <annoSet ID="14809"/>
+                <annoSet ID="20053"/>
+                <annoSet ID="20069"/>
+                <annoSet ID="23043"/>
+                <annoSet ID="23213"/>
+                <annoSet ID="23583"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="10357"/>
+                <annoSet ID="24388"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Money"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Recipient"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Seller"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5417">
+            <text>Sur la petite quarantaine de renouvellements de PDG des entreprises nationalisées , d' importance inégale , qui ont déjà eu lieu , la continuité l' a emporté sur le changement , puisqu' on compte vingt - quatre reconductions pour onze départs et quatre permutations .</text>
+            <annotationSet status="MANUAL" ID="7855">
+                <layer rank="1" name="FE">
+                    <label end="66" start="56" name="Goods"/>
+                    <label end="104" start="82" name="Goods"/>
+                    <label itype="LNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5422">
+            <text>" On se retrouve ainsi dans un scénario proche de celui du précédent renouvellement de 1989 , où une trentaine de PDG d' entreprises nationalisées avaient été reconduits sur les quarante - trois mandats qui arrivaient à expiration .</text>
+            <annotationSet status="MANUAL" ID="7870">
+                <layer rank="1" name="FE">
+                    <label end="131" start="121" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5424">
+            <text>On est donc bien loin de la vague rose de 1982 où , dans le secteur nationalisé , tous les présidents des grands groupes industriels - à l' exception de MM. Fauroux ( saint - Gobain ) et Gandois ( Rhône - Poulenc ) - avaient été changés ainsi que la totalité des PDG des banques .</text>
+            <annotationSet status="MANUAL" ID="7873">
+                <layer rank="1" name="FE">
+                    <label end="66" start="57" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5462">
+            <text>Comme M. Fauroux en son temps , MM. Michel Sapin et Dominique Strauss - Kahn , respectivement ministre de l' économie et de l' industrie , s' étaient prononcés pour une extension à cinq ans de la durée des mandats des PDG des entreprises nationalisées .</text>
+            <annotationSet status="MANUAL" ID="7943">
+                <layer rank="1" name="FE">
+                    <label end="236" start="226" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="250" start="238" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6837">
+            <text>Un tel réajustement , même peu important ( 3 % ou 5 % ) , explique , par exemple , M. Patrick Careil , président de la banque nationalisée Hervet , provoquerait une " inversion des anticipations " et autoriserait une baisse des taux d' intérêt en France ( le Monde du 5 mai 1992 ) .</text>
+            <annotationSet status="MANUAL" ID="10167">
+                <layer rank="1" name="FE">
+                    <label end="124" start="116" name="Goods"/>
+                    <label end="144" start="139" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6992">
+            <text>Pour le secteur nationalisé à statut , la hausse atteint 0 , 6 % ( contre 1 , 1 % sur la moyenne des trois dernières années ) .</text>
+            <annotationSet status="MANUAL" ID="10357">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8196">
+            <text>L' Etat mexicain a mené à son terme la privatisation des banques nationalisées avec la vente , lundi 6 juillet , du Banco del Centro pour 290 millions de dollars ( 1 , 5 milliard de francs ) .</text>
+            <annotationSet status="MANUAL" ID="11799">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Buyer"/>
+                    <label end="63" start="57" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8199">
+            <text>L' ancien président José Lopez Portillo avait nationalisé les banques en septembre 1982 dans un contexte de crise économique et financière , mais trois mois après , sous la présidence de M. Miguel de la Madrid , le tiers des actions fut transféré à des entrepreneurs privés .</text>
+            <annotationSet status="MANUAL" ID="11803">
+                <layer rank="1" name="FE">
+                    <label end="38" start="0" name="Buyer"/>
+                    <label end="68" start="58" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10028">
+            <text>On ne sait pas très bien si tels et tels établissements financiers nationalisés se sont jetés à l' eau pour imiter le privé ( avec pour modèle le dynamisme américain ou japonais ) ou bien si c' est le privé qui , se sentant soutenu par des prêteurs relevant du domaine de l' Etat , a mené la danse .</text>
+            <annotationSet status="MANUAL" ID="14092">
+                <layer rank="1" name="FE">
+                    <label end="65" start="28" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10591">
+            <text>Le premier ministre , M. Pierre Mauroy , avait choisi l' usine Eisswein , à la roche - sur - Yon , pour " célébrer la remise solennelle à la nation des groupes nationalisés " .</text>
+            <annotationSet status="MANUAL" ID="14809">
+                <layer rank="1" name="FE">
+                    <label end="146" start="138" name="Buyer"/>
+                    <label end="158" start="152" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="171" start="160" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15882">
+            <text>Dans la droite ligne des propos du premier ministre , M. Pierre Bérégovoy , sur la continuité , les présidents de compagnies d' assurances nationalisées devraient tous rester en place .</text>
+            <annotationSet status="MANUAL" ID="20053">
+                <layer rank="1" name="FE">
+                    <label end="137" start="114" name="Goods"/>
+                    <label itype="LNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15890">
+            <text>Si , du côté des présidents de compagnies d' assurances nationalisées , la logique économique a donc pris le pas sur les considérations de personnes , les banques sont moins bien loties , notamment la BNP ( Banque nationale de Paris ) .</text>
+            <annotationSet status="MANUAL" ID="20069">
+                <layer rank="1" name="FE">
+                    <label end="54" start="31" name="Goods"/>
+                    <label itype="LNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18986">
+            <text>Certes , Renault devait durant quelques décennies devenir un moteur économique et social , il n' en demeure pas moins que la question était posée par le général lui - même , qui , le 12 novembre 1947 , déclarait : " Il n' y a aucune espèce de raison pour que Renault reste perpétuellement nationalisée , du moment que Renault est mort .</text>
+            <annotationSet status="MANUAL" ID="23043">
+                <layer rank="1" name="FE">
+                    <label end="265" start="259" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="300" start="289" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19216">
+            <text>L' assureur nationalisé UAP a pu racheter le tiers du capital du groupe privé Victoire , le GIAT a pu prendre en location - gérance l' activité défense de la société privée Luchaire ...</text>
+            <annotationSet status="MANUAL" ID="23213">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Goods"/>
+                    <label end="26" start="24" name="Goods"/>
+                    <label itype="LNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19817">
+            <text>Plusieurs d' entre elles ont disparu , comme le groupe Andreadis , dont Constantin Caramanlis , de retour au pouvoir après la chute de la dictature , avait nationalisé la banque commerciale et la banque d' investissement ainsi que les chantiers navals d' Eleusis .</text>
+            <annotationSet status="MANUAL" ID="23583">
+                <layer rank="1" name="FE">
+                    <label end="92" start="72" name="Buyer"/>
+                    <label end="261" start="168" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20805">
+            <text>Enfin , la tentative du " Groupe des Dix " , rassemblant le Syndicat national des journalistes ( SNJ ) et des syndicats catégoriels du secteur nationalisé ou de la fonction publique ( SNCF , aiguilleurs du ciel , agents des impôts ) , n' a pas été concluante : 0 , 48 % des suffrages pour 26 500 voix .</text>
+            <annotationSet status="MANUAL" ID="24388">
+                <layer rank="1" name="FE">
+                    <label itype="LNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

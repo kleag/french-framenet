@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="paie.n" ID="311" frame="Commerce_pay" frameID="180" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Way_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Buyer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="3618"/>
+                <annoSet ID="12057"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="7275"/>
+                <annoSet ID="7283"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Goods"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="3618"/>
+                <annoSet ID="7275"/>
+                <annoSet ID="7283"/>
+                <annoSet ID="12057"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Money"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="3618"/>
+                <annoSet ID="7275"/>
+                <annoSet ID="7283"/>
+                <annoSet ID="12057"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Seller"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="3618"/>
+                <annoSet ID="7275"/>
+                <annoSet ID="12057"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="7283"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2775">
+            <text>On découvre des fiches de paie au nom de Xavière Tiberi , émanant du conseil général de l' Essonne .</text>
+            <annotationSet status="MANUAL" ID="3618">
+                <layer rank="1" name="FE">
+                    <label end="97" start="69" name="Buyer"/>
+                    <label end="54" start="41" name="Seller"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5052">
+            <text>PENDANT des années , remplir les bulletins de paie de l' indispensable et industrieuse " employée de maison " ( terme plus noble que celui , légèrement méprisant , de " femme de ménage " ) était une corvée pesante à assumer .</text>
+            <annotationSet status="MANUAL" ID="7275">
+                <layer rank="1" name="FE">
+                    <label end="187" start="54" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5055">
+            <text>Les choses se sont gâtées une première fois avec l' obligation de faire apparaître , sur le bulletin de paie , les versements patronaux ( Sécu , retraite complémentaire , chômage ) - ces cotisations étant donc bien du " salaire différé " .</text>
+            <annotationSet status="MANUAL" ID="7283">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8444">
+            <text>Les fiches de paie des grands magasins Kaufhof , les Galeries Lafayette allemandes , ne relèvent que 120 cadres pour environ 9 000 salariés ...</text>
+            <annotationSet status="MANUAL" ID="12057">
+                <layer rank="1" name="FE">
+                    <label end="81" start="23" name="Buyer"/>
+                    <label end="138" start="117" name="Seller"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

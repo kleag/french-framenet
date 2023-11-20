@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="ambitionner.v" ID="2210" frame="FR_Purpose" frameID="10070" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="0099CC" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Agent"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="5299"/>
+                <annoSet ID="12610"/>
+                <annoSet ID="13347"/>
+                <annoSet ID="13349"/>
+                <annoSet ID="14790"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Goal"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="5299"/>
+                <annoSet ID="12610"/>
+                <annoSet ID="13347"/>
+                <annoSet ID="13349"/>
+                <annoSet ID="14790"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Means"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="5299"/>
+                <annoSet ID="14790"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Time_of_Eventuality"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Time_of_Eventuality"/>
+                <annoSet ID="13347"/>
+                <annoSet ID="13349"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3839">
+            <text>En jouant la carte d' une amélioration qualitative de ses services , la Pointe - des - Galets ambitionne de compenser son handicap majeur face aux ports concurrents comme Port - Louis à l' île Maurice et Tamatave à Madagascar , à savoir un coût de la main - d' oeuvre bien supérieur .</text>
+            <annotationSet status="MANUAL" ID="5299">
+                <layer rank="1" name="FE">
+                    <label end="281" start="108" name="Goal"/>
+                    <label end="92" start="69" name="Agent"/>
+                    <label end="65" start="0" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8834">
+            <text>Découragé par le déclin accentué de la ville de Marseille qu' il ambitionnait de gérer .</text>
+            <annotationSet status="MANUAL" ID="12610">
+                <layer rank="1" name="FE">
+                    <label end="60" start="58" name="Goal"/>
+                    <label end="85" start="81" name="Goal"/>
+                    <label end="63" start="62" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9451">
+            <text>Producteur insignifiant au début des années 80 , la Colombie ambitionne d' exporter - essentiellement vers l' Europe - une trentaine de millions de tonnes dès 1995 ( l' équivalent de trois fois la production française ) et 60 millions de tonnes en l' an 2000 .</text>
+            <annotationSet status="MANUAL" ID="13347">
+                <layer rank="1" name="FE">
+                    <label end="257" start="245" name="Time_of_Eventuality"/>
+                    <label end="117" start="75" name="Goal"/>
+                    <label end="257" start="223" name="Goal"/>
+                    <label end="59" start="49" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9451">
+            <text>Producteur insignifiant au début des années 80 , la Colombie ambitionne d' exporter - essentiellement vers l' Europe - une trentaine de millions de tonnes dès 1995 ( l' équivalent de trois fois la production française ) et 60 millions de tonnes en l' an 2000 .</text>
+            <annotationSet status="MANUAL" ID="13349">
+                <layer rank="1" name="FE">
+                    <label end="162" start="155" name="Time_of_Eventuality"/>
+                    <label end="218" start="75" name="Goal"/>
+                    <label end="59" start="49" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10575">
+            <text>Le nouveau journal ambitionne , en paraissant le mercredi , d' " attaquer le lectorat du canard enchaîné</text>
+            <annotationSet status="MANUAL" ID="14790">
+                <layer rank="1" name="FE">
+                    <label end="103" start="65" name="Goal"/>
+                    <label end="17" start="0" name="Agent"/>
+                    <label end="56" start="32" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="bonification.n" ID="303" frame="Commerce_buy" frameID="171" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="" name="Recipient"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Buyer"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="14224"/>
+                <annoSet ID="16802"/>
+                <annoSet ID="24526"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Goods"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="14224"/>
+                <annoSet ID="16802"/>
+                <annoSet ID="24526"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Money"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Recipient"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Seller"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="14224"/>
+                <annoSet ID="16802"/>
+                <annoSet ID="24526"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10123">
+            <text>Le premier ministre a aussi promis que l' UNEDIC pourrait bénéficier d' une bonification de ses emprunts afin de réduire ses frais financiers , qui se sont élevés à 1 , 7 milliard en 1992 .</text>
+            <annotationSet status="MANUAL" ID="14224">
+                <layer rank="1" name="FE">
+                    <label end="103" start="92" name="Goods"/>
+                    <label end="94" start="92" name="Seller"/>
+                    <label end="47" start="39" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12468">
+            <text>Déjà , le 20 décembre ( le Monde du 22 décembre ) , ils avaient obtenu de M. Pierre Bérégovoy l' équivalent de 3 , 3 milliards de francs , entre l' exonération pour 1993 de leurs versements au titre des préretraites et la bonification de leurs emprunts .</text>
+            <annotationSet status="MANUAL" ID="16802">
+                <layer rank="1" name="FE">
+                    <label end="251" start="238" name="Goods"/>
+                    <label end="242" start="238" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="233" start="222" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20991">
+            <text>au - delà de ces reproches , le bureau de l' UNEDIC voudrait aussi obtenir un soutien dans le traitement financier de sa dette et souhaiterait la bonification de ses emprunts , qui s' élèvent à 18 , 5 milliards .</text>
+            <annotationSet status="MANUAL" ID="24526">
+                <layer rank="1" name="FE">
+                    <label end="209" start="162" name="Goods"/>
+                    <label end="164" start="162" name="Seller"/>
+                    <label end="50" start="29" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="146" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

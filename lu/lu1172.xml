@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="exalter.v" ID="1172" frame="FR_Influence_of_event_on_cognizer-Subjective_influence" frameID="10035" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="sit" name="Situation"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ent" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="act" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="beh" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Action"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Activity"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Activity"/>
+                <annoSet ID="21328"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="21328"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Entity"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Situation"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Situation"/>
+                <annoSet ID="21328"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19632">
+            <text>Mais il faut du talent pour parler de l' immigration sans exalter les réactions des petits blancs .</text>
+            <annotationSet status="MANUAL" ID="21328">
+                <layer rank="1" name="FE">
+                    <label end="56" start="28" name="Situation"/>
+                    <label end="96" start="66" name="Activity"/>
+                    <label end="96" start="84" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

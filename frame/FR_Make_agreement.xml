@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Make_agreement" ID="10092" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Parties&lt;/fen&gt; come to an agreement about something, be that an &lt;fen&gt;Opinion&lt;/fen&gt; they share or an &lt;fen&gt;Obligation&lt;/fen&gt; to be carried by one or both of them.
+
+ The &lt;fen&gt;Parties&lt;/fen&gt; may be expressed separately, with &lt;fen&gt;Party_2&lt;/fen&gt; being the basis for establishing the &lt;fen&gt;Opinion&lt;/fen&gt; of &lt;fen&gt;Party_1&lt;/fen&gt;. Rather than a specific &lt;fen&gt;Opinion&lt;/fen&gt; or &lt;fen&gt;Obligation&lt;/fen&gt;, a domain about which a similar or differing &lt;fen&gt;Opinion&lt;/fen&gt; is held (or in which the &lt;fen&gt;Obligation&lt;/fen&gt; applies), the &lt;fen&gt;Topic&lt;/fen&gt;, may be specified.
+
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;FR_Make_agreement&lt;/frframe&gt;: FR_Make_agreement is inchoative of Be_in_agreement.
+
+&lt;/def-root&gt;</definition>
+    <semType name="Non-Lexical Frame" ID="16"/>
+     <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/11/2005 11:56:11 PDT Mon" abbrev="par1" name="Party_1" ID="7742">
+        <definition>&lt;def-root&gt;The individual or individuals that form the more prominent (i.e. agentive) party of the agreement, as compared with &lt;fen&gt;Party_2&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+        <requiresFE name="Party_2" ID="7743"/>
+        <excludesFE name="Parties" ID="7748"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/11/2005 11:56:11 PDT Mon" abbrev="par2" name="Party_2" ID="7743">
+        <definition>&lt;def-root&gt;The semantically (and grammatically) less prominent participant (or group of participants) in the agreement.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+        <requiresFE name="Party_1" ID="7742"/>
+        <excludesFE name="Parties" ID="7748"/>
+    </FE>
+        <FE bgColor="804000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/11/2005 11:56:11 PDT Mon" abbrev="pars" name="Parties" ID="7748">
+        <definition>&lt;def-root&gt;The group of individuals portrayed as equally involved in making an agreement.
+&lt;/def-root&gt;</definition>
+    </FE>
+    
+    <FE bgColor="6600cc" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/11/2005 11:56:11 PDT Mon" abbrev="obl" name="Obligation" ID="7744">
+        <definition>&lt;def-root&gt;An expression of the commitment of the &lt;fen&gt;Parties&lt;/fen&gt; .
+
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Opinion" ID="8187"/>
+
+    </FE>
+
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:47:30 PDT Thu" abbrev="opi" name="Opinion" ID="8187">
+        <definition>&lt;def-root&gt;A state of affairs believed by the &lt;fen&gt;Parties&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Obligation" ID="7744"/>
+    </FE>
+    <FE bgColor="d0d0d0" fgColor="000000" coreType="Core" cBy="605" cDate="06/16/2005 05:52:24 PDT Thu" abbrev="top" name="Topic" ID="8188">
+        <definition>&lt;def-root&gt;The domain concerned with the &lt;fen&gt;Parties&lt;/fen&gt;' agreement.&lt;/def-root&gt;</definition>
+    </FE>
+ 
+    <FEcoreSet>
+        <memberFE name="Opinion" ID="8187"/>
+        <memberFE name="Topic" ID="8188"/>
+                <memberFE name="Obligation" ID="7744"/>
+    </FEcoreSet>
+    <frameRelation type="Is Causative of">
+        <relatedFrame>FR_Be_in_agreement</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Make_agreement_on_assessment</relatedFrame>
+        <relatedFrame>Make_agreement_on_action</relatedFrame>
+    </frameRelation>
+</frame>

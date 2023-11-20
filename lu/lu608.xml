@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="à preuve.adv" ID="608" frame="Evidence" frameID="25" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Proposition"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="8175"/>
+                <annoSet ID="10934"/>
+                <annoSet ID="24497"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Support"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="8175"/>
+                <annoSet ID="10934"/>
+                <annoSet ID="24497"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5595">
+            <text>A preuve , si besoin était , de cette " crise de confiance " , le mouvement de vente des titres d' Etat italiens par les investisseurs étrangers qui a suivi le " non " du référendum danois sur l' Europe , tandis que la lire et la Bourse de Milan accusaient immédiatement le coup .</text>
+            <annotationSet status="MANUAL" ID="8175">
+                <layer rank="1" name="FE">
+                    <label end="279" start="61" name="Support"/>
+                    <label end="59" start="32" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7480">
+            <text>A preuve de cette prospérité , vers 1500 , les Thyssac de la Vôge transmettent aux Vénitiens le secret de la fabrication des miroirs .</text>
+            <annotationSet status="MANUAL" ID="10934">
+                <layer rank="1" name="FE">
+                    <label end="133" start="29" name="Support"/>
+                    <label end="27" start="12" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20964">
+            <text>Les choses ont beaucoup avancé ; à preuve les décisions de réduire les flottilles [ dans le cadre du programme d' orientation pluriannuel 1993 - 1997 , ou POP ] n' ont pas été remises en cause .</text>
+            <annotationSet status="MANUAL" ID="24497">
+                <layer rank="1" name="FE">
+                    <label end="191" start="42" name="Support"/>
+                    <label end="29" start="0" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

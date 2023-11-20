@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="connaissance.n" ID="795" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="10003"/>
+                <annoSet ID="22033"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="10003"/>
+                <annoSet ID="22033"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6718">
+            <text>Portée à la connaissance du public plusieurs trimestres plus tard , cette correction est d' autant plus déconcertante que les statistiques mensuelles ont , elles aussi , fait l' objet d' importantes révisions .</text>
+            <annotationSet status="MANUAL" ID="10003">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Content"/>
+                    <label end="83" start="35" name="Content"/>
+                    <label end="33" start="28" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17963">
+            <text>Il ne s' est jamais , à notre connaissance , expliqué là - dessus , même s' il est arrivé à tel de ses proches de justifier en privé la force de dissuasion par la nécessité de conserver une supériorité sur l' Allemagne .</text>
+            <annotationSet status="MANUAL" ID="22033">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Content"/>
+                    <label end="64" start="45" name="Content"/>
+                    <label end="28" start="24" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prêcher.v" ID="748" frame="FR_Attempt_suasion.content" frameID="10003" totalAnnotated="4" xsi:schemaLocation="/Users/mcandito/Documents/PROJETS/ASFALDA/svn/Asfalda/src../framenet/fndata-asfalda/schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="SoA" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Arguer" name="Arguer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Support" name="Support"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="7650"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="7683"/>
+                <annoSet ID="8154"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Arguer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Arguer"/>
+                <annoSet ID="7650"/>
+                <annoSet ID="7683"/>
+                <annoSet ID="8154"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Arguer"/>
+                <annoSet ID="7104"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="State_of_affairs"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="State_of_affairs"/>
+                <annoSet ID="7104"/>
+                <annoSet ID="7650"/>
+                <annoSet ID="7683"/>
+                <annoSet ID="8154"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Support"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Support"/>
+                <annoSet ID="7650"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="16625">
+            <text>s' apprêter à prêcher la rigueur alors que la croissance est forte et que les entreprises accumulent les profits est probablement un signe de lucidité , sûrement de courage alors que le Parti socialiste , secoué par les divisions qu' on sait , va se réunir en congrès à Rennes et demander des comptes à ceux qui gouvernent .</text>
+            <annotationSet status="MANUAL" ID="7104">
+                <layer rank="1" name="FE">
+                    <label end="31" start="22" name="State_of_affairs"/>
+                    <label itype="DNI" name="Arguer "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18359">
+            <text>Qui garde en mémoire le souvenir de René Capitant , ce professeur rigoriste qui prêchait à ses " compagnons " la révolte contre la " nouvelle société " de Jacques Chaban - Delmas ?</text>
+            <annotationSet status="MANUAL" ID="7650">
+                <layer rank="1" name="FE">
+                    <label end="108" start="91" name="Addressee"/>
+                    <label end="177" start="110" name="State_of_affairs"/>
+                    <label end="78" start="76" name="Arguer"/>
+                    <label end="177" start="36" name="Arguer"/>
+                    <label itype="UNI" name="Support "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18450">
+            <text>Et le premier ministre , Mr Michel Rocard , de prendre le relais en prêchant pour la stabilité du franc , condition sine qua non d' une croissance compétitive .</text>
+            <annotationSet status="MANUAL" ID="7683">
+                <layer rank="1" name="FE">
+                    <label end="157" start="77" name="State_of_affairs"/>
+                    <label end="40" start="3" name="Arguer"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20166">
+            <text>La fronde venait d' ailleurs : de l' entourage même du président , puisque , aux côtés de quelques PDG prêchant la patience , tel le président de TRW , les patrons des trois grands groupes automobiles américains ( General Motors , Ford , Chrysler ) s' empressaient de dénoncer l' accord conclu à Tokyo par M. Bush quelques heures plus tôt .</text>
+            <annotationSet status="MANUAL" ID="8154">
+                <layer rank="1" name="FE">
+                    <label end="148" start="90" name="Arguer"/>
+                    <label end="122" start="112" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

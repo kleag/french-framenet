@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="apporter.v" ID="159" frame="Causation" frameID="5" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Actor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="6706"/>
+                <annoSet ID="10854"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Affected"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="10854"/>
+                <annoSet ID="19909"/>
+                <annoSet ID="24034"/>
+                <annoSet ID="24062"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Cause"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="1997"/>
+                <annoSet ID="13803"/>
+                <annoSet ID="17766"/>
+                <annoSet ID="18019"/>
+                <annoSet ID="19909"/>
+                <annoSet ID="20079"/>
+                <annoSet ID="21987"/>
+                <annoSet ID="24034"/>
+                <annoSet ID="24062"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Effect"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="1997"/>
+                <annoSet ID="6706"/>
+                <annoSet ID="10854"/>
+                <annoSet ID="13803"/>
+                <annoSet ID="17766"/>
+                <annoSet ID="18019"/>
+                <annoSet ID="19909"/>
+                <annoSet ID="20079"/>
+                <annoSet ID="21987"/>
+                <annoSet ID="24034"/>
+                <annoSet ID="24062"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1764">
+            <text>Nous sommes d' avis que cela apportera davantage de cohérence et de transparence dans la manière de gérer le système et de renforcer la capacité du Parlement à examiner la manière dont la Commission gère et développe le système Eurodac .</text>
+            <annotationSet status="MANUAL" ID="1997">
+                <layer rank="1" name="FE">
+                    <label end="27" start="24" name="Cause"/>
+                    <label end="79" start="39" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4733">
+            <text>La CFDT estime , quant à elle , que le rapport de la mission " n' apporte guère de perspective nouvelle " et déplore que " sa cohérence et sa crédibilité soient invalidées par le cadre d' analyse , qui reste limité au seul régime général " .</text>
+            <annotationSet status="MANUAL" ID="6706">
+                <layer rank="1" name="FE">
+                    <label end="102" start="80" name="Effect"/>
+                    <label end="59" start="36" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7398">
+            <text>Salinas nous a apporté la sécurité juridique , assure Carlos Castaneda , responsable élu des ejidos de Toluca .</text>
+            <annotationSet status="MANUAL" ID="10854">
+                <layer rank="1" name="FE">
+                    <label end="11" start="8" name="Affected"/>
+                    <label end="43" start="23" name="Effect"/>
+                    <label end="6" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9805">
+            <text>La diffusion n' apportera pas de progression non plus : plusieurs éditeurs s' attendent à des ventes et à des abonnements en stagnation , voire en légère régression ( de l' ordre de 2 % à 5 % ) .</text>
+            <annotationSet status="MANUAL" ID="13803">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Cause"/>
+                    <label end="43" start="30" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13448">
+            <text>Elles le sont encore plus par les mesures récentes adoptées par le gouvernement pour enrayer les dérapages budgétaires , en dépit des gains de compétitivité extérieure apportés par la forte dévaluation de la lire .</text>
+            <annotationSet status="MANUAL" ID="17766">
+                <layer rank="1" name="FE">
+                    <label end="211" start="181" name="Cause"/>
+                    <label end="166" start="134" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="175" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13710">
+            <text>Cette privatisation partielle devait apporter 3 milliards de francs dans les caisses de l' Etat .</text>
+            <annotationSet status="MANUAL" ID="18019">
+                <layer rank="1" name="FE">
+                    <label end="28" start="0" name="Cause"/>
+                    <label end="94" start="46" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15727">
+            <text>Certaines entreprises commencent à se demander si l' enseignement des écoles de management leur apporte réellement une valeur ajoutée .</text>
+            <annotationSet status="MANUAL" ID="19909">
+                <layer rank="1" name="FE">
+                    <label end="89" start="50" name="Cause"/>
+                    <label end="94" start="91" name="Affected"/>
+                    <label end="20" start="0" name="Affected"/>
+                    <label end="132" start="115" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15906">
+            <text>Il traduirait ce que peut effectivement apporter " l' accord à vivre " , conclu en 1990 avec tous les syndicats , sauf la CGT .</text>
+            <annotationSet status="MANUAL" ID="20079">
+                <layer rank="1" name="FE">
+                    <label end="124" start="51" name="Cause"/>
+                    <label end="19" start="17" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17919">
+            <text>Les opérateurs nancéiens ont enregistré cette modernisation avec satisfaction , en raison de la meilleure marge d' intervention sur le marché qu' elle leur apportera .</text>
+            <annotationSet status="MANUAL" ID="21987">
+                <layer rank="1" name="FE">
+                    <label end="149" start="146" name="Cause"/>
+                    <label end="76" start="40" name="Cause"/>
+                    <label end="144" start="142" name="Effect"/>
+                    <label end="164" start="93" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20310">
+            <text>Des modifications ont été apportées A ce dispositif par l' article 7 de la loi de finances pour 1992 .</text>
+            <annotationSet status="MANUAL" ID="24034">
+                <layer rank="1" name="FE">
+                    <label end="99" start="56" name="Cause"/>
+                    <label end="50" start="38" name="Affected"/>
+                    <label end="16" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20342">
+            <text>La loi de finances pour 1992 apporte plusieurs modifications au régime du RES .</text>
+            <annotationSet status="MANUAL" ID="24062">
+                <layer rank="1" name="FE">
+                    <label end="27" start="0" name="Cause"/>
+                    <label end="76" start="64" name="Affected"/>
+                    <label end="59" start="37" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="recouvrer.v" ID="1131" frame="FR_Getting_money" frameID="10031" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gtr" name="Getter"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Getter"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Getter"/>
+                <annoSet ID="21182"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Giver"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Money"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="21182"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="17061">
+            <text>C' est bien sûr le cas lorsque des irrégularités ont été commises et qu' il s' agit de recouvrer des créances ou de poursuivre un concurrent indélicat .</text>
+            <annotationSet status="MANUAL" ID="21182">
+                <layer rank="1" name="FE">
+                    <label end="108" start="97" name="Money"/>
+                    <label itype="DNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

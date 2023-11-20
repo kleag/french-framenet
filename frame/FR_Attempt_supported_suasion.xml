@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Attempt_supported_suasion" ID="10085" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;
+    An &lt;fen&gt;Persuader&lt;/fen&gt; presents a &lt;fen&gt;Support&lt;/fen&gt;, to an &lt;fen&gt;Addressee&lt;/fen&gt; in order to get them to believe a &lt;fen&gt;State_of_affairs&lt;/fen&gt; is true, or that it is legitimate. In the latter case, the &lt;fen&gt;Polarity&lt;/fen&gt; is either expressed as a meaningful subcategorized preposition or is positive and incorporated in the LU. There is no implication that the &lt;fen&gt;Addressee&lt;/fen&gt; ends up believing the &lt;fen&gt;State_of_affairs&lt;/fen&gt; to be true or legitimate.
+    &lt;ex&gt;&lt;/ex&gt;
+
+Distinctions with other frames:
+
+    &lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Attempt_suasion.legitimacy&lt;/frframe&gt;/&lt;frframe&gt;FR_Attempt_suasion.to_do&lt;/frframe&gt;/&lt;frframe&gt;FR_Attempt_suasion.veracity&lt;/frframe&gt;: LUs of those frames do not allow any local realization of a Support for the Attempt_suasion, whereas in FR_Attempt_supported_suasion, all LUs do. In this frame, the semantics assigned to the supported State_of_affairs (state of affairs deemed legitimate or true, or even action to be performed) are underspecified.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Proving&lt;/frframe&gt;: in FR_Proving, the Content is effectively shown to be true by the Persuader whereas this is not the case with the State_of_affairs in FR_Attempt_supported_suasion. 
+
+&lt;ex&gt;&lt;/ex&gt;
+≠ &lt;frframe&gt;FR_Justifying&lt;/frframe&gt;: In FR_Attempt_supported_suasion, the Persuader may be trying to convince the Addressee that the State_of_affairs is true, legitimate, or to be executed, whereas FR_Justifying is only concerned with legitimacy. Also, in FR_Justifying, the Action or State_of_affairs the Communicator is trying to show as legitimate is considered to be known as true and to have happened already, whereas in FR_Attempt_supported_suasion, the Persuader is trying to present a FUTURE action or state of affairs as legitimate.
+    &lt;ex&gt;&lt;/ex&gt;
+    &lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Results from the splitting of Reasoning into two frames, &lt;frframe&gt;FR_Proving&lt;/frframe&gt; and  FR_Attempt_suasion.veracity, based on whether the Content/State_of_affairs has effectively been shown to be true by the Persuader. Also results from the splitting of Attempt_suasion into four frames, FR_Attempt_suasion.legitimacy, &lt;frframe&gt;FR_Attempt_suasion.to_do&lt;/frframe&gt;, &lt;frframe&gt;FR_Attempt_suasion.veracity&lt;/frframe&gt; and &lt;frframe&gt;FR_Attempt_supported_suasion&lt;/frframe&gt;. This four-way split is based on the nature of the &lt;fen&gt;Content&lt;/fen&gt; role and its semantics for the first three (respectively state of affairs to be thought legitimate, Action to be executed or Content to be thought true), and on the possibility of a locally realized Support for &lt;frframe&gt;FR_Attempt_supported_suasion&lt;/frframe&gt;.&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:57:45 PDT Tue" abbrev="SoA" name="State_of_affairs" ID="2635">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; wants the &lt;fen&gt;Addressee&lt;/fen&gt; to believe the &lt;fen&gt;State_of_affairs&lt;/fen&gt; is true or legitimate, based on the &lt;fen&gt;Support&lt;/fen&gt; presented. &lt;ex&gt;Jan &lt;t&gt;argued&lt;/t&gt; &lt;fex name="State_of_affairs"&gt;that the evidence was inadmissable&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="55"/>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="243" cDate="09/13/2002 03:01:18 PDT Fri" abbrev="" name="Polarity" ID="3717">
+        <definition>&lt;def-root&gt; the &lt;fen&gt;Polarity&lt;/fen&gt; is whether the Speaker is in favor or against the State_of_affairs. It can be either incorporated in the LUs of this frame, or expressed by a preposition that is subcategorized, but whose meaning is not totally empty.
+&lt;ex&gt;FR-EX: Les &lt;t&gt;arguments&lt;/t&gt; &lt;fex name="Polarity"&gt;contre&lt;/fex&gt; la régularisation sont rares.&lt;/ex&gt; 
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="04/16/2002 12:57:47 PDT Tue" abbrev="Medium" name="Medium" ID="2636">
+        <definition>&lt;def-root&gt;This FE identifies the physical or abstract setting in which the &lt;fen&gt;State_of_affairs&lt;/fen&gt; is conveyed.&lt;ex&gt;Jan &lt;t&gt;argued&lt;/t&gt; &lt;fex name="Medium"&gt;in writing&lt;/fex&gt; that the evidence was inadmissable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:57:49 PDT Tue" abbrev="Persuader" name="Persuader" ID="2637">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; presents the &lt;fen&gt;State_of_affairs&lt;/fen&gt; before the &lt;fen&gt;Addressee&lt;/fen&gt;.&lt;ex&gt;&lt;fex name="Persuader"&gt;Jan&lt;/fex&gt; &lt;t&gt;argued&lt;/t&gt; that the evidence was inadmissable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:58:03 PDT Tue" abbrev="Add" name="Addressee" ID="2638">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Addressee&lt;/fen&gt; is the entity before whom the &lt;fen&gt;Persuader&lt;/fen&gt; presents a &lt;fen&gt;State_of_affairs&lt;/fen&gt;. &lt;ex&gt;Jan &lt;t&gt;argued&lt;/t&gt; &lt;fex name="Addressee"&gt;to the court&lt;/fex&gt; that the evidence was inadmissable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:59:13 PDT Tue" abbrev="Support" name="Support" ID="2639">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Support&lt;/fen&gt; lends epistemic support to a claim, or provides a reason for a course of action.&lt;ex&gt;Jan &lt;t&gt;argued&lt;/t&gt; that gun was inadmissable as evidence &lt;fex name="Support"&gt;because the police didn't have a search warrant&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Attempt_suasion</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="argument.n" ID="2720" nbocc="29" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="29"/>
+        <otherlexUnit framename="Other_sense" ID="100130" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="argumentation.n" ID="739" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100131" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="529" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="argumenter.v" ID="2721" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100132" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="530" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="plaider.v" ID="745" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101384" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Justifying" ID="2732" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Attempt_suasion.legitimacy" ID="2744" annotatedsent="12"/>
+        <otherlexUnit framename="FR_Deserving" ID="1060" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="plaidoirie.n" ID="746" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101385" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Attempt_suasion.legitimacy" ID="2745" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="plaidoyer.n" ID="747" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101386" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="vouloir pour preuve.v" ID="2725" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+</frame>

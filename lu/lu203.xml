@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="dû.a" ID="203" frame="Causation" frameID="5" totalAnnotated="19" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Actor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="10799"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Affected"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="15625"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Cause"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="1060"/>
+                <annoSet ID="1118"/>
+                <annoSet ID="1815"/>
+                <annoSet ID="1956"/>
+                <annoSet ID="2857"/>
+                <annoSet ID="3141"/>
+                <annoSet ID="3300"/>
+                <annoSet ID="5415"/>
+                <annoSet ID="8411"/>
+                <annoSet ID="13861"/>
+                <annoSet ID="15289"/>
+                <annoSet ID="15334"/>
+                <annoSet ID="15625"/>
+                <annoSet ID="15847"/>
+                <annoSet ID="18189"/>
+                <annoSet ID="20294"/>
+                <annoSet ID="22911"/>
+                <annoSet ID="23630"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="19">
+            <FE name="Effect"/>
+            <pattern total="19">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="1060"/>
+                <annoSet ID="1118"/>
+                <annoSet ID="1815"/>
+                <annoSet ID="1956"/>
+                <annoSet ID="2857"/>
+                <annoSet ID="3141"/>
+                <annoSet ID="3300"/>
+                <annoSet ID="5415"/>
+                <annoSet ID="8411"/>
+                <annoSet ID="10799"/>
+                <annoSet ID="13861"/>
+                <annoSet ID="15289"/>
+                <annoSet ID="15334"/>
+                <annoSet ID="15625"/>
+                <annoSet ID="15847"/>
+                <annoSet ID="18189"/>
+                <annoSet ID="20294"/>
+                <annoSet ID="22911"/>
+                <annoSet ID="23630"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1000">
+            <text>Angiox est utilisé - Chez les patients souffrant de douleurs thoraciques dues à une affection cardiaque ( syndromes coronariens aigus SCA )</text>
+            <annotationSet status="MANUAL" ID="1060">
+                <layer rank="1" name="FE">
+                    <label end="138" start="80" name="Cause"/>
+                    <label end="71" start="52" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1068">
+            <text>- Hémorragie grave ( ce qui peut être due à une réduction de votre nombre de plaquettes et empêche la coagulation nécessaire de votre sang )</text>
+            <annotationSet status="MANUAL" ID="1118">
+                <layer rank="1" name="FE">
+                    <label end="86" start="44" name="Cause"/>
+                    <label end="17" start="2" name="Effect"/>
+                    <label end="26" start="24" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1684">
+            <text>Mais il faut tenir compte des nombreuses autres activités qui contribuent à la dégradation de cet environnement marin : la pollution due aux pétroliers et aux autres moyens de transport maritime , l' activité industrielle , la pression de l' activité humaine sur les côtes et bien évidemment , l' activité de pêche incontrôlée .</text>
+            <annotationSet status="MANUAL" ID="1815">
+                <layer rank="1" name="FE">
+                    <label end="153" start="141" name="Cause"/>
+                    <label end="193" start="159" name="Cause"/>
+                    <label end="131" start="120" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1746">
+            <text>Cela est peut-être dû au fait que je viens d' un pays - d' où provient également le représentant du Conseil - où l' on prend les empreintes digitales de nos enfants lorsqu' ils atteignent l' âge de dix ans , en vue de leur donner leur première carte d' identité .</text>
+            <annotationSet status="MANUAL" ID="1956">
+                <layer rank="1" name="FE">
+                    <label end="260" start="25" name="Cause"/>
+                    <label end="3" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2164">
+            <text>Elle semble essentiellement due à une compétition des médias entre eux , chacun reprenant l' information du concurrent en l' amplifiant .</text>
+            <annotationSet status="MANUAL" ID="2857">
+                <layer rank="1" name="FE">
+                    <label end="69" start="34" name="Cause"/>
+                    <label end="3" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2405">
+            <text>Mal payé , méprisé de ses employeurs et à court d' argent , Bidegain prend soudain conscience de la bombe politique qu' il possède entre les mains en cette période d' effervescence extrême due à la rupture des relations diplomatiques de la France avec le Saint-Siège suite aux malheureuses affaires des évêques Geay et Le Nordez , et il vend , connaissant paradoxalement , en tant que franc-maçon , la totale inexistence de la fameuse " vengeance maçonnique contre les parjures " chère aux lecteurs de Léo Taxil et aux conspirationnistes , les dites fiches au journal conservateur d' opposition Le Figaro .</text>
+            <annotationSet status="MANUAL" ID="3141">
+                <layer rank="1" name="FE">
+                    <label end="327" start="195" name="Cause"/>
+                    <label end="187" start="150" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2498">
+            <text>Cet oubli est peut-être dû aux menaces de mort explicites qu' elle reçut alors de la part d' officiers supérieurs français , peu avant le suicide de son propre mari .</text>
+            <annotationSet status="MANUAL" ID="3300">
+                <layer rank="1" name="FE">
+                    <label end="163" start="31" name="Cause"/>
+                    <label end="8" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3921">
+            <text>Sans être factice , le mouvement de reprise de ces dernières séances est dû , en partie , au facteur technique de fin d' année et à l' élan impulsé par la place new - yorkaise à la suite de l' abaissement d' un point du taux d' escompte , le 20 décembre dernier .</text>
+            <annotationSet status="MANUAL" ID="5415">
+                <layer rank="1" name="FE">
+                    <label end="128" start="93" name="Cause"/>
+                    <label end="260" start="132" name="Cause"/>
+                    <label end="67" start="20" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5718">
+            <text>Cet écart de six points , dû à la politique restrictive de la banque fédérale d' Allemagne , si coûteuse pour la France , et à l' attitude inverse de la Réserve fédérale des Etats - Unis , pour les raisons indiquées précédemment , est meurtrier .</text>
+            <annotationSet status="MANUAL" ID="8411">
+                <layer rank="1" name="FE">
+                    <label end="227" start="31" name="Cause"/>
+                    <label end="24" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7343">
+            <text>Ce résultat est essentiellement dû à Renault , dont les immatriculations dans l' Hexagone ont progressé de 19 , 3 % .</text>
+            <annotationSet status="MANUAL" ID="10799">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Effect"/>
+                    <label end="114" start="37" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9854">
+            <text>La baisse des prix de certains immeubles est un phénomène particulier , dû à des excès antérieurs .</text>
+            <annotationSet status="MANUAL" ID="13861">
+                <layer rank="1" name="FE">
+                    <label end="96" start="77" name="Cause"/>
+                    <label end="39" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11034">
+            <text>Ce résultat est largement dû à l' inclusion dans les statistiques , pour la première fois , de la dette de l' ex- URSS ( évaluée à 71 milliards de dollars ) .</text>
+            <annotationSet status="MANUAL" ID="15289">
+                <layer rank="1" name="FE">
+                    <label end="155" start="31" name="Cause"/>
+                    <label end="10" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11074">
+            <text>Mais on ne peut exclure un échec dû au durcissement prévisible des Etats - Unis avec l' arrivée aux affaires de l' équipe Clinton , et éventuellement , en France , d' une nouvelle majorité .</text>
+            <annotationSet status="MANUAL" ID="15334">
+                <layer rank="1" name="FE">
+                    <label end="78" start="39" name="Cause"/>
+                    <label end="31" start="24" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11318">
+            <text>Mais , vis - à - vis de l' Allemagne , principal client et fournisseur , le solde , qui s' était nettement amélioré en 1991 , a recommencé à se dégrader depuis le début de 1992 , du fait d' un tassement des exportations , dû à la mauvaise conjoncture allemande , et d' un maintien des importations .</text>
+            <annotationSet status="MANUAL" ID="15625">
+                <layer rank="1" name="FE">
+                    <label end="259" start="227" name="Cause"/>
+                    <label end="218" start="207" name="Affected"/>
+                    <label end="220" start="190" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="223" start="222" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11521">
+            <text>Le même jour , le quotidien économique britannique Financial Times a fait de M. Deng Xiaoping son " homme de l' année " pour son rôle dans la relance des réformes économiques chinoises , en dépit d' un aspect " politiquement incorrect " dû à son action répressive .</text>
+            <annotationSet status="MANUAL" ID="15847">
+                <layer rank="1" name="FE">
+                    <label end="262" start="242" name="Cause"/>
+                    <label end="235" start="199" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="238" start="237" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13879">
+            <text>Le volume des transactions à la Bourse de Paris a augmenté , globalement , de 52 % en 1992 , l' intégralité de ce bond étant dû aux obligations , dont le marché s' est montré extrêmement actif tout au long de l' année .</text>
+            <annotationSet status="MANUAL" ID="18189">
+                <layer rank="1" name="FE">
+                    <label end="216" start="132" name="Cause"/>
+                    <label end="123" start="93" name="Effect"/>
+                    <label end="216" start="128" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16151">
+            <text>Il reste maintenant à savoir si cet élan de dernière heure , en partie dû à des anticipations de détente sur les taux d' intérêt dans les semaines qui viennent , sera suffisant pour commencer l' année 1993 dans de bonnes conditions .</text>
+            <annotationSet status="MANUAL" ID="20294">
+                <layer rank="1" name="FE">
+                    <label end="127" start="76" name="Cause"/>
+                    <label end="59" start="32" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18824">
+            <text>Ce glissement est dû à plusieurs raisons , dont l' une , selon Mr Karlo Otto Poehl , est le niveau insuffisant des taux d' intérêt nippons .</text>
+            <annotationSet status="MANUAL" ID="22911">
+                <layer rank="1" name="FE">
+                    <label end="137" start="23" name="Cause"/>
+                    <label end="12" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19878">
+            <text>En revanche , il apparaît toujours compliqué de déterminer les responsabilités précises de l' employeur , du salarié , voire ce qui est dû aux intempéries , au moment de l' accident .</text>
+            <annotationSet status="MANUAL" ID="23630">
+                <layer rank="1" name="FE">
+                    <label end="153" start="143" name="Cause"/>
+                    <label end="126" start="125" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

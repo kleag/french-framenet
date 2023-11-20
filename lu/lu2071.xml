@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="signaler.v" ID="2071" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="16" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Addressee"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="2731"/>
+                <annoSet ID="7524"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Message"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="451"/>
+                <annoSet ID="494"/>
+                <annoSet ID="2731"/>
+                <annoSet ID="3272"/>
+                <annoSet ID="5209"/>
+                <annoSet ID="7524"/>
+                <annoSet ID="7706"/>
+                <annoSet ID="11985"/>
+                <annoSet ID="12064"/>
+                <annoSet ID="13532"/>
+                <annoSet ID="14047"/>
+                <annoSet ID="15631"/>
+                <annoSet ID="19540"/>
+                <annoSet ID="21709"/>
+                <annoSet ID="22755"/>
+                <annoSet ID="23101"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Speaker"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2731"/>
+                <annoSet ID="3272"/>
+                <annoSet ID="5209"/>
+                <annoSet ID="7524"/>
+                <annoSet ID="7706"/>
+                <annoSet ID="12064"/>
+                <annoSet ID="13532"/>
+                <annoSet ID="14047"/>
+                <annoSet ID="21709"/>
+                <annoSet ID="23101"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="451"/>
+                <annoSet ID="494"/>
+                <annoSet ID="11985"/>
+                <annoSet ID="15631"/>
+                <annoSet ID="19540"/>
+                <annoSet ID="22755"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="346">
+            <text>Paris est " préoccupé par les violations des droits de l' Homme qui ont été signalées dans l' ouest de la Côte d' Ivoire ces derniers jours " , a déclaré le porte-parole du ministère français des Affaires étrangères , François Rivasseau .</text>
+            <annotationSet status="MANUAL" ID="451">
+                <layer rank="1" name="FE">
+                    <label end="138" start="26" name="Message"/>
+                    <label end="66" start="64" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="378">
+            <text>Une jeune fille de 25 ans hébergée chez des parents à Courcelles-lès-Montbéliard , était signalée disparue .</text>
+            <annotationSet status="MANUAL" ID="494">
+                <layer rank="1" name="FE">
+                    <label end="79" start="0" name="Message"/>
+                    <label end="105" start="98" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2076">
+            <text>Je tiens à signaler au Parlement , à l' instar de M. Barón Crespo , que s' il arrive au parti de M. Gorostiaga de regretter les assassinats terroristes , parce qu' il n' a pas d' autre choix , il ne les condamne pas .</text>
+            <annotationSet status="MANUAL" ID="2731">
+                <layer rank="1" name="FE">
+                    <label end="214" start="72" name="Message"/>
+                    <label end="31" start="23" name="Addressee"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2482">
+            <text>Aux policiers , ce dernier a expliqué qu' au moment où le projet de vente des frégates était bloqué par l' Élysée et le Quai d' Orsay , il était apparu utile d' " utiliser les relations que le groupe Elf avait en Chine " , signalant que de telles synergies existaient déjà " entre Thomson CSF et Elf , notamment en Afrique " .</text>
+            <annotationSet status="MANUAL" ID="3272">
+                <layer rank="1" name="FE">
+                    <label end="323" start="237" name="Message"/>
+                    <label end="25" start="16" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="231" start="223" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3797">
+            <text>Un mouvement de protestation semble s' étendre à l' ensemble des grandes villes , signale l' agence de presse PAP qui cite Lodz ( centre ) , Bydgoszcz ( ouest ) , Wroclaw ( sud - ouest ) , Zielona - Gora ( ouest ) , Szczecin ( nord - ouest ) .</text>
+            <annotationSet status="MANUAL" ID="5209">
+                <layer rank="1" name="FE">
+                    <label end="78" start="0" name="Message"/>
+                    <label end="240" start="90" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5186">
+            <text>A Lourdes , nous signale notre correspondant Jean - Jacques Rollat , la venue et la circulation des pèlerins ont été très perturbées .</text>
+            <annotationSet status="MANUAL" ID="7524">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Message"/>
+                    <label end="133" start="67" name="Message"/>
+                    <label end="15" start="12" name="Addressee"/>
+                    <label end="65" start="25" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5315">
+            <text>La COB avait constaté à l' époque que les Docks de France - à qui la BUE avait racheté la participation de la société holding le 4 novembre 1988 - n' avaient pas signalé le franchissement de seuil à la baisse dans le capital de LRM .</text>
+            <annotationSet status="MANUAL" ID="7706">
+                <layer rank="1" name="FE">
+                    <label end="230" start="170" name="Message"/>
+                    <label end="145" start="38" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="168" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8357">
+            <text>C' est assez rare pour le signaler : presque tout le monde est content !</text>
+            <annotationSet status="MANUAL" ID="11985">
+                <layer rank="1" name="FE">
+                    <label end="24" start="23" name="Message"/>
+                    <label end="69" start="37" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8454">
+            <text>On peut signaler toutefois qu' en Allemagne les salaires sont , d' une façon générale , élevés .</text>
+            <annotationSet status="MANUAL" ID="12064">
+                <layer rank="1" name="FE">
+                    <label end="93" start="31" name="Message"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9563">
+            <text>" grâce à la maîtrise des prix , la France a une capacité de croissance équilibrée plutôt supérieure à celle de nos partenaires " , estime M. de Foucauld qui signale que " nous n' avons pas connu une telle situation depuis près de 30 ans " , depuis 1961 - 1962 en fait .</text>
+            <annotationSet status="MANUAL" ID="13532">
+                <layer rank="1" name="FE">
+                    <label end="267" start="170" name="Message"/>
+                    <label end="156" start="154" name="Speaker"/>
+                    <label end="267" start="139" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9998">
+            <text>On signale des réductions de 30 % à 40 % sur les tracteurs , sur certaines machines - outils , mais agriculteurs et PME répugnent à s' endetter davantage .</text>
+            <annotationSet status="MANUAL" ID="14047">
+                <layer rank="1" name="FE">
+                    <label end="91" start="11" name="Message"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11322">
+            <text>A signaler l' émergence , depuis cinq ans surtout , de la zone des pays asiatiques en développement rapide ( Chine , Corée , Hongkong , Taïwan , Philippines , Indonésie , Malaisie , Singapour , Thaïlande ) avec lesquels les échanges augmentent de 13 % par an en moyenne , si bien qu' ils représentent désormais 5 % des importations et 4 % des exportations françaises , ce qui les place à un rang proche des Etats - Unis et du Japon .</text>
+            <annotationSet status="MANUAL" ID="15631">
+                <layer rank="1" name="FE">
+                    <label end="430" start="11" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="2" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15278">
+            <text>Mais , ajoute M. Guillen , il faut toutefois signaler que le président du CNPF a , lui aussi , promis " qu' il se mobiliserait " pour l' emploi .</text>
+            <annotationSet status="MANUAL" ID="19540">
+                <layer rank="1" name="FE">
+                    <label end="142" start="58" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17668">
+            <text>On ne signale ni victime ni dégât .</text>
+            <annotationSet status="MANUAL" ID="21709">
+                <layer rank="1" name="FE">
+                    <label end="32" start="14" name="Message"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18639">
+            <text>Le mouvement d' insurrection qui avait touché la ville azerbaidjanaise de Lenkoran ( Le Monde du 12 janvier ) pour forcer le Kremlin à rendre à l' Azerbaidjan le contrôle du haut - Karabakh semble s' étendre , et de nouveaux affrontements armés sont signalés autour de cette région à majorité arménienne .</text>
+            <annotationSet status="MANUAL" ID="22755">
+                <layer rank="1" name="FE">
+                    <label end="243" start="213" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="257" start="250" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19059">
+            <text>Philippe Wambergue , le pilote de la 205 , avait largué un petit ballon gonflé à l' hélium , pour signaler qu' il était en panne .</text>
+            <annotationSet status="MANUAL" ID="23101">
+                <layer rank="1" name="FE">
+                    <label end="127" start="111" name="Message"/>
+                    <label end="39" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

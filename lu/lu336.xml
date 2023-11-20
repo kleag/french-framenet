@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="revente.n" ID="336" frame="Commerce_sell" frameID="172" totalAnnotated="12" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="12">
+            <FE name="Buyer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="11605"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="10140"/>
+                <annoSet ID="11187"/>
+                <annoSet ID="12528"/>
+                <annoSet ID="13697"/>
+                <annoSet ID="13698"/>
+                <annoSet ID="14180"/>
+                <annoSet ID="14343"/>
+                <annoSet ID="18192"/>
+                <annoSet ID="19957"/>
+                <annoSet ID="23699"/>
+                <annoSet ID="24086"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Goods"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="10140"/>
+                <annoSet ID="11605"/>
+                <annoSet ID="12528"/>
+                <annoSet ID="14180"/>
+                <annoSet ID="14343"/>
+                <annoSet ID="19957"/>
+                <annoSet ID="23699"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="11187"/>
+                <annoSet ID="13697"/>
+                <annoSet ID="13698"/>
+                <annoSet ID="18192"/>
+                <annoSet ID="24086"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Money"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Seller"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="11605"/>
+                <annoSet ID="12528"/>
+                <annoSet ID="14180"/>
+                <annoSet ID="14343"/>
+                <annoSet ID="19957"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="10140"/>
+                <annoSet ID="11187"/>
+                <annoSet ID="13697"/>
+                <annoSet ID="13698"/>
+                <annoSet ID="18192"/>
+                <annoSet ID="23699"/>
+                <annoSet ID="24086"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6813">
+            <text>De la revente désastreuse d' une participation dans une compagnie pétrolière au ratage du lancement de l' augmentation de capital de la British Aerospace , en passant par le gonflement des " gros crédits " , conséquence de la récession ... , les faux pas ne manquent pas .</text>
+            <annotationSet status="MANUAL" ID="10140">
+                <layer rank="1" name="FE">
+                    <label end="75" start="29" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7718">
+            <text>Le volume des reventes mesurerait exactement celui des interventions supplémentaires auxquelles l' organisme devrait procéder pour se porter au secours du marché .</text>
+            <annotationSet status="MANUAL" ID="11187">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8066">
+            <text>Les 2 275 agences de voyages titulaires d' une licence d' Etat se répartissent en trois familles ( chiffre d' affaires de 64 milliards de francs en 1988 ) : les tour - opérateurs , ou producteurs ( 340 licences ) , qui consacrent leur activité à la partie technique de conception des circuits et des séjours ; les agences de distribution ( 1 525 licences ) , qui proposent au public leur service de billetterie et la revente des circuits et des forfaits des tour - opérateurs présentés sous forme de brochures ; les agences dites du " réceptif " ( 410 licences ) , qui ont pour vocation principale l' accueil des étrangers en France .</text>
+            <annotationSet status="MANUAL" ID="11605">
+                <layer rank="1" name="FE">
+                    <label end="381" start="376" name="Buyer"/>
+                    <label end="439" start="429" name="Goods"/>
+                    <label end="508" start="445" name="Goods"/>
+                    <label end="361" start="359" name="Seller"/>
+                    <label end="508" start="310" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="423" start="417" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8775">
+            <text>Sans parler du trésor de guerre de 250 millions de livres , provenant en grande partie de la revente de Reebok qui permet aujourd' hui à M. Rubin de payer 85 % du prix d' achat ... en numéraires .</text>
+            <annotationSet status="MANUAL" ID="12528">
+                <layer rank="1" name="FE">
+                    <label end="109" start="104" name="Goods"/>
+                    <label end="144" start="137" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9713">
+            <text>La revente se fait sans formalité .</text>
+            <annotationSet status="MANUAL" ID="13697">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9715">
+            <text>En fait , selon Gilles Oury , ce n' est qu' au - delà de 25 à 30 ans que le prix de revente subit une décote .</text>
+            <annotationSet status="MANUAL" ID="13698">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10093">
+            <text>Cette vente du Nouvel économiste traduit le retrait d' Hachette - Filipacchi du secteur de la presse économique , après l' arrêt de Fortune - France il y a deux ans et la revente récente des actions de Mieux Vivre .</text>
+            <annotationSet status="MANUAL" ID="14180">
+                <layer rank="1" name="FE">
+                    <label end="212" start="191" name="Goods"/>
+                    <label end="75" start="55" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="177" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10207">
+            <text>Le comité d' établissement de Billancourt , qui , ces dernières années , a dû céder la majeure partie de son patrimoine , devra probablement se séparer de ses deux derniers centres de vacances ( Mennecy , dans l' Essonne , et l' Alpe - d' Huez , en Isère ) , bien que le produit de ces reventes ne permette guère que d' éponger une partie des dettes .</text>
+            <annotationSet status="MANUAL" ID="14343">
+                <layer rank="1" name="FE">
+                    <label end="255" start="155" name="Goods"/>
+                    <label end="120" start="0" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="293" start="286" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13880">
+            <text>Très logiquement , ce sont les fonds d' Etat qui ont alimenté les quatre cinquièmes de ces transactions , en raison des mouvements de hausse et de baisse des cours , générateurs d' un très gros montant d' achats et de reventes .</text>
+            <annotationSet status="MANUAL" ID="18192">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="225" start="218" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15779">
+            <text>M. Tranchant l' accuse d' avoir détourné une somme de 13 millions de francs lors de la revente , en 1985 , du fonds de commerce dans lequel ils étaient associés .</text>
+            <annotationSet status="MANUAL" ID="19957">
+                <layer rank="1" name="FE">
+                    <label end="159" start="110" name="Goods"/>
+                    <label end="14" start="0" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19960">
+            <text>M. Eltsine a déjà signé la semaine dernière un décret autorisant dans certains cas la revente de lopins de terre ( le Monde du 31 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="23699">
+                <layer rank="1" name="FE">
+                    <label end="111" start="97" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20361">
+            <text>En cas d' échange de droits sociaux résultant d' une OPE , d' une fusion de société ou d' un apport ( il y a alors double vente ) , les plus - values mobilières bénéficient d' une imposition différée : l' impôt dû est gelé pour n' être payé qu' au moment de la revente .</text>
+            <annotationSet status="MANUAL" ID="24086">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="267" start="261" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

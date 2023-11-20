@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="entamer.v" ID="903" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Actor"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="448"/>
+                <annoSet ID="2817"/>
+                <annoSet ID="4970"/>
+                <annoSet ID="15541"/>
+                <annoSet ID="21781"/>
+                <annoSet ID="24878"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Cause"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="18249"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="12835"/>
+                <annoSet ID="12837"/>
+                <annoSet ID="21655"/>
+                <annoSet ID="21853"/>
+                <annoSet ID="23027"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Effect"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="448"/>
+                <annoSet ID="2817"/>
+                <annoSet ID="4970"/>
+                <annoSet ID="12830"/>
+                <annoSet ID="12835"/>
+                <annoSet ID="12837"/>
+                <annoSet ID="15541"/>
+                <annoSet ID="18249"/>
+                <annoSet ID="21655"/>
+                <annoSet ID="21781"/>
+                <annoSet ID="21853"/>
+                <annoSet ID="23027"/>
+                <annoSet ID="24878"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="345">
+            <text>La France a dénoncé hier des violations des droits de l' Homme dans l' ouest de la Côte d' Ivoire , tandis que les acteurs de la crise ivoirienne ont entamé à Marcoussis , près de Paris , la deuxième phase de leurs négociations .</text>
+            <annotationSet status="MANUAL" ID="448">
+                <layer rank="1" name="FE">
+                    <label end="226" start="188" name="Effect"/>
+                    <label end="144" start="111" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2129">
+            <text>Dès la fin de la guerre , la veuve de Théophile Maupas , soutenue par la Ligue des droits de l' Homme contactée dès le mois d' avril 1915 , entama un combat pour la réhabilitation de son époux et des autres caporaux fusillés de Souain ;</text>
+            <annotationSet status="MANUAL" ID="2817">
+                <layer rank="1" name="FE">
+                    <label end="233" start="147" name="Effect"/>
+                    <label end="136" start="26" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3653">
+            <text>- A peine terminé le réveillon , les dockers ont entamé , jeudi 2 janvier , leur onzième action de grève en moins de trois mois , à l' appel de la CGT , pour protester contre le projet de réforme de leur statut .</text>
+            <annotationSet status="MANUAL" ID="4970">
+                <layer rank="1" name="FE">
+                    <label end="126" start="76" name="Effect"/>
+                    <label end="43" start="33" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8900">
+            <text>M. Michel Delebarre , ministre de la fonction publique , a donc entamé à la mi - juin une série de négociations afin d' assurer " la continuité de l' effort de formation " dans l' administration .</text>
+            <annotationSet status="MANUAL" ID="12716">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8958">
+            <text>Fort des réformes entamées en Russie depuis le début de l' année , et d' un programme conclu avec le fonds monétaire international , le président russe , M. Boris Eltsine , devait demander aux membres du groupe des Sept réunis à Munich un soutien accru des pays occidentaux à la transformation de l' économie russe ( lire l' article d' Eric Le Boucher page 3 ) .</text>
+            <annotationSet status="MANUAL" ID="12830">
+                <layer rank="1" name="FE">
+                    <label end="16" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8961">
+            <text>La situation présentée mercredi 8 juillet par M. Boris Eltsine aux chefs d' état et de gouvernement des sept principaux pays industriels ( G7 ) est à de nombreux égards différente de celle décrite , il y a un an à Londres , par M. Mikhaïl Gorbatchev ; l' hyperinflation est devenue réalité ( les prix ont augmenté de 600 % environ au premier trimestre ) , la chute de la production et des exportations s' est accélérée , tandis que la libéralisation de l' économie a été entamée .</text>
+            <annotationSet status="MANUAL" ID="12835">
+                <layer rank="1" name="FE">
+                    <label end="463" start="432" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="477" start="471" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8962">
+            <text>Point fondamental de la réforme , les prix de gros et de détail ont été libérés , ceux de l' énergie partiellement relevés , les cours de changes ne sont plus fixés artificiellement et la privatisation de milliers de petites entreprises a été entamée .</text>
+            <annotationSet status="MANUAL" ID="12837">
+                <layer rank="1" name="FE">
+                    <label end="235" start="185" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="249" start="243" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11263">
+            <text>Crise née des difficultés aiguës de l' économie allemande qui fait difficilement face aux coûts de la réunification , de la poursuite de la grave récession britannique ( - 1 % après déjà un recul de 2 , 2 % en 1991 ) , enfin des efforts d' assainissement entamés par des pays jusqu' ici très dynamiques comme l' Italie et l' Espagne .</text>
+            <annotationSet status="MANUAL" ID="15541">
+                <layer rank="1" name="FE">
+                    <label end="253" start="229" name="Effect"/>
+                    <label end="331" start="267" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="261" start="255" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13930">
+            <text>En l' absence de geste sur les taux d' intérêt des deux côtés du Rhin - car les boursiers tablaient également sur un dégel de la Bundesbank - les valeurs françaises entamèrent une descente qui les amena à leur plus bas niveau de l' année le lundi 5 octobre , avec un indice CAC 40 s' inscrivant à 1611 , 4 points .</text>
+            <annotationSet status="MANUAL" ID="18249">
+                <layer rank="1" name="FE">
+                    <label end="68" start="0" name="Cause"/>
+                    <label end="311" start="176" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="174" start="165" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17603">
+            <text>Malgré leur désaccord , FO et la CFDT se mobiliseront ensemble dans le secteur bancaire , le 24 janvier , pour " élargir l' action " entamée depuis la mi - décembre à la BNP , où la situation est toujours bloquée .</text>
+            <annotationSet status="MANUAL" ID="21655">
+                <layer rank="1" name="FE">
+                    <label end="131" start="121" name="Effect"/>
+                    <label itype="ENI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17729">
+            <text>En décidant d' entamer à la fin de l' année les négociations sur le traité nécessaire à la mise en place d' un système européen de banques centrales , les gouvernements se sont engagés à se prononcer clairement pour ou contre le transfert à une institution communautaire indépendante du pouvoir de décision en matière monétaire .</text>
+            <annotationSet status="MANUAL" ID="21781">
+                <layer rank="1" name="FE">
+                    <label end="147" start="44" name="Effect"/>
+                    <label end="167" start="151" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17777">
+            <text>Une assemblée générale devait décider , en fin d' après - midi , des suites à donner au mouvement de grève entamé le 10 janvier .</text>
+            <annotationSet status="MANUAL" ID="21853">
+                <layer rank="1" name="FE">
+                    <label end="105" start="88" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18892">
+            <text>Une affirmation que les juges démentiront quand , le 30 avril 1949 , ils décideront le classement pur et simple de la procédure entamée dès la Libération .</text>
+            <annotationSet status="MANUAL" ID="22963">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18974">
+            <text>La mort de Louis Renault allait éteindre l' action judiciaire entamée contre lui .</text>
+            <annotationSet status="MANUAL" ID="23027">
+                <layer rank="1" name="FE">
+                    <label end="60" start="41" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21528">
+            <text>- ALLEMAGNE : 15 000 à 20 000 sidérurgistes de l' Est , réclamant l' alignement de leurs salaires sur l' Ouest - soit une hausse salariale de 26 % en 1993 contre 9 % accordée par le patronat , - entament une grève à l' appel du syndicat IG Metall .</text>
+            <annotationSet status="MANUAL" ID="24878">
+                <layer rank="1" name="FE">
+                    <label end="212" start="204" name="Effect"/>
+                    <label end="52" start="14" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

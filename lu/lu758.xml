@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="conseiller.v" ID="758" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="15">
+            <FE name="Action"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="1207"/>
+                <annoSet ID="1235"/>
+                <annoSet ID="1451"/>
+                <annoSet ID="1473"/>
+                <annoSet ID="1535"/>
+                <annoSet ID="5101"/>
+                <annoSet ID="11151"/>
+                <annoSet ID="11949"/>
+                <annoSet ID="13663"/>
+                <annoSet ID="15951"/>
+                <annoSet ID="21235"/>
+                <annoSet ID="21702"/>
+                <annoSet ID="22970"/>
+                <annoSet ID="23186"/>
+                <annoSet ID="23191"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Cognizer"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="1451"/>
+                <annoSet ID="1473"/>
+                <annoSet ID="5101"/>
+                <annoSet ID="15951"/>
+                <annoSet ID="21702"/>
+                <annoSet ID="22970"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="1207"/>
+                <annoSet ID="1235"/>
+                <annoSet ID="1535"/>
+                <annoSet ID="11151"/>
+                <annoSet ID="11949"/>
+                <annoSet ID="13663"/>
+                <annoSet ID="21235"/>
+                <annoSet ID="23186"/>
+                <annoSet ID="23191"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="5101"/>
+                <annoSet ID="11949"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Persuader"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="1451"/>
+                <annoSet ID="1473"/>
+                <annoSet ID="11151"/>
+                <annoSet ID="13663"/>
+                <annoSet ID="15951"/>
+                <annoSet ID="21235"/>
+                <annoSet ID="21702"/>
+                <annoSet ID="22970"/>
+                <annoSet ID="23186"/>
+                <annoSet ID="23191"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="1207"/>
+                <annoSet ID="1235"/>
+                <annoSet ID="1535"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1192">
+            <text>De plus , chez les patients atteints de la maladie de Paget , il est fortement conseillé d' administrer une supplémentation adaptée en calcium correspondant à un apport en calcium-élément d' au moins 500 mg deux fois par jour , pendant au moins les 10 jours suivant l' administration d' Aclasta ( voir rubrique 4.4 ) .</text>
+            <annotationSet status="MANUAL" ID="1207">
+                <layer rank="1" name="FE">
+                    <label end="293" start="92" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1217">
+            <text>De plus , chez les patients atteints de maladie de Paget , il est fortement conseillé d' administrer des suppléments appropriés de calcium correspondant à un apport en calcium-élément d' au moins 500 mg deux fois par jour pendant au moins les 10 jours suivant l' administration d' Aclasta ( voir rubrique 4.2 ) .</text>
+            <annotationSet status="MANUAL" ID="1235">
+                <layer rank="1" name="FE">
+                    <label end="287" start="89" name="Action"/>
+                    <label itype="ENI" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1459">
+            <text>Votre médecin peut vous conseiller de prendre un apport supplémentaire de calcium et de vitamine D ( par exemple sous forme de comprimés ) pendant au moins les 10 premiers jours qui suivent l' administration d' Aclasta .</text>
+            <annotationSet status="MANUAL" ID="1451">
+                <layer rank="1" name="FE">
+                    <label end="217" start="38" name="Action"/>
+                    <label end="22" start="19" name="Cognizer"/>
+                    <label end="12" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1473">
+            <text>Votre médecin peut vous conseiller de prendre un médicament contre la douleur tel que l' ibuprofène ou le paracétamol afin de réduire ces effets indésirables</text>
+            <annotationSet status="MANUAL" ID="1473">
+                <layer rank="1" name="FE">
+                    <label end="156" start="38" name="Action"/>
+                    <label end="22" start="19" name="Cognizer"/>
+                    <label end="12" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1525">
+            <text>De plus , chez les patients atteints de maladie de Paget , il est fortement conseillé d' administrer des suppléments appropriés de calcium correspondant à un apport en calcium - élément d' au moins 500 mg deux fois par jour , pendant au moins les 10 jours suivant l' administration d' Aclasta .</text>
+            <annotationSet status="MANUAL" ID="1535">
+                <layer rank="1" name="FE">
+                    <label end="291" start="89" name="Action"/>
+                    <label itype="ENI" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3745">
+            <text>Cette lettre précisait notamment que la législation française autorisait " l' échange de stagiaires professionnels " et conseillait aux entreprises de rémunérer ces derniers " environ 2 000 francs pour 169 heures de travail par mois " .</text>
+            <annotationSet status="MANUAL" ID="5101">
+                <layer rank="1" name="FE">
+                    <label end="233" start="151" name="Action"/>
+                    <label end="146" start="136" name="Cognizer"/>
+                    <label end="11" start="0" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="120" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7681">
+            <text>D' aucuns conseillaient le jeûne , la prière , voire la contemplation ...</text>
+            <annotationSet status="MANUAL" ID="11151">
+                <layer rank="1" name="FE">
+                    <label end="68" start="24" name="Action"/>
+                    <label end="8" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8329">
+            <text>Ce texte détaillait la procédure à suivre afin d' " augmenter les bénéfices de l' hôtel en économisant sur les salaires " et conseillait de " se séparer de tous les employés qui n' acceptent pas ces changements , avec une indemnité très réduite de licenciement " .</text>
+            <annotationSet status="MANUAL" ID="11949">
+                <layer rank="1" name="FE">
+                    <label end="261" start="140" name="Action"/>
+                    <label end="7" start="0" name="Medium"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9691">
+            <text>" avant d' acheter , même un parking , il est impératif de vérifier l' état de l' immeuble , de contacter le syndic et d' éplucher le règlement de copropriété " , conseille Gilles Oury , notaire chargé de la conjoncture à la chambre des notaires .</text>
+            <annotationSet status="MANUAL" ID="13663">
+                <layer rank="1" name="FE">
+                    <label end="161" start="0" name="Action"/>
+                    <label end="244" start="173" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="171" start="163" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11584">
+            <text>Stern avait déjà révélé une autre intervention de M. Mllemann auprès de supermarchés afin de conseiller l' achat d' un produit fabriqué par un cousin de son épouse ( le Monde du 25 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="15951">
+                <layer rank="1" name="FE">
+                    <label end="162" start="104" name="Action"/>
+                    <label end="83" start="72" name="Cognizer"/>
+                    <label end="60" start="50" name="Persuader"/>
+                    <label end="155" start="153" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17115">
+            <text>Et s' ils estiment qu' on ne peut en effet pas s' en passer , ils conseillent de le consommer avec modération .</text>
+            <annotationSet status="MANUAL" ID="21235">
+                <layer rank="1" name="FE">
+                    <label end="108" start="81" name="Action"/>
+                    <label end="64" start="62" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17663">
+            <text>La FDA conseille maintenant aux médecins de passer à une posologie de 600 milligrammes par jour après un mois de traitement à 1 200 milligrammes , qui était jusqu' à présent la dose standard .</text>
+            <annotationSet status="MANUAL" ID="21702">
+                <layer rank="1" name="FE">
+                    <label end="189" start="44" name="Action"/>
+                    <label end="39" start="32" name="Cognizer"/>
+                    <label end="5" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18901">
+            <text>Oui , exige l' humanité clandestine du 24 juillet , qui conseille aux ouvriers de " prendre tout de suite les mesures nécessaires pour faire fonctionner les entreprises en désignant un comité de direction parmi le personnel de chacune d' elles " et , " devant la carence et le mauvais vouloir évident des capitalistes " , affirme qu' ils " ont le devoir d' agir , de procéder à l' ouverture des usines et de les faire fonctionner " .</text>
+            <annotationSet status="MANUAL" ID="22970">
+                <layer rank="1" name="FE">
+                    <label end="244" start="82" name="Action"/>
+                    <label end="77" start="70" name="Cognizer"/>
+                    <label end="54" start="52" name="Persuader"/>
+                    <label end="430" start="12" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19188">
+            <text>La Banque Lazard est restée en 1989 la première banque conseil pour les opérations de fusions et acquisitions en France , avec 71 , 5 milliards de francs de valeurs de transactions conseillées , selon DEALS , l' étude annuelle de PF Publications .</text>
+            <annotationSet status="MANUAL" ID="23186">
+                <layer rank="1" name="FE">
+                    <label end="179" start="168" name="Action"/>
+                    <label end="15" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19192">
+            <text>Paribas , quant à lui , a distancé ses concurrents pour le nombre de transactions conseillées ( 40 contre 26 pour Indosuez et Lazard ) mais avec des montants plus faibles .</text>
+            <annotationSet status="MANUAL" ID="23191">
+                <layer rank="1" name="FE">
+                    <label end="80" start="69" name="Action"/>
+                    <label end="6" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="croire.v" ID="869" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4992"/>
+                <annoSet ID="16025"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="4992"/>
+                <annoSet ID="16025"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3675">
+            <text>De même , dès soixante ans , les idées traditionalistes sur les grands thèmes de société s' incrustent : 40 % des soixante et un à soixante - cinq ans estiment le mariage indissoluble , 50 % des personnes de cette même classe d' âge s' en remettent totalement au médecin pour les problèmes de santé et ne croient pas à la responsabilisation du malade , 50 % toujours pensent que les découvertes scientifiques n' améliorent pas du tout la vie .</text>
+            <annotationSet status="MANUAL" ID="4992">
+                <layer rank="1" name="FE">
+                    <label end="349" start="319" name="Content"/>
+                    <label end="231" start="186" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="311" start="305" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11653">
+            <text>" Le système ne croyait plus à des réalignements .</text>
+            <annotationSet status="MANUAL" ID="16025">
+                <layer rank="1" name="FE">
+                    <label end="47" start="31" name="Content"/>
+                    <label end="11" start="2" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

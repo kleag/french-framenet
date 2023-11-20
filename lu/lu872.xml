@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="désaccord.n" ID="872" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="7961"/>
+                <annoSet ID="9174"/>
+                <annoSet ID="14713"/>
+                <annoSet ID="21877"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Content"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="7961"/>
+                <annoSet ID="9174"/>
+                <annoSet ID="14713"/>
+                <annoSet ID="21877"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5472">
+            <text>La décision du gouvernement de retirer le projet de loi sur la maîtrise des dépenses de santé a été favorablement accueillie par la CGT , qui rappelle avoir " constamment manifesté son désaccord " , par la coordination action santé qui salue " le réalisme " des pouvoirs publics et par la Confédération des syndicats médicaux français ( CSMF ) .</text>
+            <annotationSet status="MANUAL" ID="7961">
+                <layer rank="1" name="FE">
+                    <label end="92" start="39" name="Content"/>
+                    <label end="195" start="129" name="Cognizer"/>
+                    <label end="183" start="181" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="185" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6171">
+            <text>Elle ajoute qu' il n' a jamais été question d' attribuer à la chaîne culturelle européenne des fréquences " réservées au secteur privé " et présente au total douze points de désaccord avec cette décision du CSA .</text>
+            <annotationSet status="MANUAL" ID="9174">
+                <layer rank="1" name="FE">
+                    <label end="209" start="189" name="Content"/>
+                    <label end="3" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="182" start="174" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10507">
+            <text>Par ailleurs , le futur président des Etats - Unis , M. Bill Clinton , a publiquement fait état de son désaccord sur le projet d' acquisition d' US Air par British Airways .</text>
+            <annotationSet status="MANUAL" ID="14713">
+                <layer rank="1" name="FE">
+                    <label end="170" start="117" name="Content"/>
+                    <label end="69" start="15" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17796">
+            <text>Mais là encore la " base " a fait entendre sa voix , exprimant son net désaccord avec une stratégie d' union qui risquait de " brouiller l' image " de Mr Poperen .</text>
+            <annotationSet status="MANUAL" ID="21877">
+                <layer rank="1" name="FE">
+                    <label end="160" start="86" name="Content"/>
+                    <label end="25" start="15" name="Cognizer"/>
+                    <label end="65" start="63" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

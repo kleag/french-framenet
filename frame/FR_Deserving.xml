@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Deserving" ID="10019" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;The existence of a &lt;fen&gt;Sufficient_reason&lt;/fen&gt; is sufficient reason for an &lt;fen&gt;Eventuality&lt;/fen&gt; to happen (this &lt;fen&gt;Eventuality&lt;/fen&gt; could be someone taking an action as well as the simple existence of a state of affairs). The agent who is justified in taking the suggested action or in obtaining the state of affairs is not part of the immediate scene, however. 
+
+&lt;ex&gt;&lt;fex name="Sufficient_reason"&gt;The underwater sequences&lt;/fex&gt; &lt;t&gt;warrant&lt;/t&gt; &lt;fex name="Eventuality"&gt;the price of the admission alone&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt; '&lt;fex name="Sufficient_reason"&gt;Desperate situations&lt;/fex&gt; &lt;t&gt;call&lt;/t&gt;  &lt;fex name="Eventuality"&gt;for desperate measures&lt;/fex&gt; ," said Mr Eames grandly.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames&lt;/asf&gt;:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;Explaining_the_facts&lt;/frframe&gt; This frame differs from Explaining_the_facts in the same way that &lt;frframe&gt;FR_Justifying&lt;/frframe&gt; differs from &lt;frframe&gt;FR_Attributing_cause&lt;/frframe&gt;: the Sufficient_reason does not actually cause the Eventuality, but it is sufficient to view it as legitimate.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : the link to FR_Justifying is made clear in the name of the FEs (State_of_affairs renamed Sufficient_reason). The justification holds not only for actions, but also for states of affairs (hence the renaming of the FE from Action to Eventuality).
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/28/2003 04:43:14 PST Tue" abbrev="" name="Sufficient_reason" ID="4150">
+        <definition>&lt;def-root&gt;An Eventuality or an Entity that is taken to constitute sufficient reason for another &lt;fen&gt;Eventuality&lt;/fen&gt; to happen.
+
+&lt;ex&gt; &lt;fex name="Sufficient_reason"&gt;A heavy contact to the opponent 's face&lt;/fex&gt; may not &lt;t&gt;merit&lt;/t&gt; just a verbal warning &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/28/2003 04:46:13 PST Tue" abbrev="" name="Eventuality" ID="4151">
+        <definition>&lt;def-root&gt;An action or state of affairs that is taken to be justifiable given the &lt;fen&gt;Sufficient_reason&lt;/fen&gt;.
+
+&lt;ex&gt; The end &lt;t&gt;justifies&lt;/t&gt; &lt;fex name="Eventuality"&gt;the means&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; The end &lt;t&gt;justifies&lt;/t&gt; &lt;fex name="Eventuality"&gt;this situation&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+
+    <frameRelation type="Attributed by">
+        <relatedFrame>FR_Justifying</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Deserving</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="justifier.v" ID="1059" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="Other_sense" ID="101145" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Attributing_cause" ID="1135" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Justifying" ID="1203" annotatedsent="28"/>
+    </lexUnit>
+    <lexUnit POS="v" name="plaider.v" ID="1060" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101384" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Justifying" ID="2732" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Attempt_suasion.legitimacy" ID="2744" annotatedsent="12"/>
+        <otherlexUnit framename="FR_Attempt_supported_suasion" ID="745" annotatedsent="1"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="payer.v" ID="1144" frame="FR_Giving_money" frameID="10032" totalAnnotated="60" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Rec" name="Recipient"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="60">
+            <FE name="Giver"/>
+            <pattern total="50">
+                <valenceUnit PT="filled" FE="Giver"/>
+                <annoSet ID="1201"/>
+                <annoSet ID="1594"/>
+                <annoSet ID="2028"/>
+                <annoSet ID="2081"/>
+                <annoSet ID="2284"/>
+                <annoSet ID="2340"/>
+                <annoSet ID="2506"/>
+                <annoSet ID="2694"/>
+                <annoSet ID="2718"/>
+                <annoSet ID="2946"/>
+                <annoSet ID="3405"/>
+                <annoSet ID="4398"/>
+                <annoSet ID="4810"/>
+                <annoSet ID="5035"/>
+                <annoSet ID="5384"/>
+                <annoSet ID="5472"/>
+                <annoSet ID="5559"/>
+                <annoSet ID="6526"/>
+                <annoSet ID="6530"/>
+                <annoSet ID="6682"/>
+                <annoSet ID="6726"/>
+                <annoSet ID="7720"/>
+                <annoSet ID="7775"/>
+                <annoSet ID="7813"/>
+                <annoSet ID="8229"/>
+                <annoSet ID="8683"/>
+                <annoSet ID="8980"/>
+                <annoSet ID="8984"/>
+                <annoSet ID="9182"/>
+                <annoSet ID="9440"/>
+                <annoSet ID="9782"/>
+                <annoSet ID="9861"/>
+                <annoSet ID="9863"/>
+                <annoSet ID="10076"/>
+                <annoSet ID="10197"/>
+                <annoSet ID="10658"/>
+                <annoSet ID="10932"/>
+                <annoSet ID="11256"/>
+                <annoSet ID="11262"/>
+                <annoSet ID="11266"/>
+                <annoSet ID="11359"/>
+                <annoSet ID="11631"/>
+                <annoSet ID="12368"/>
+                <annoSet ID="12797"/>
+                <annoSet ID="12831"/>
+                <annoSet ID="15514"/>
+                <annoSet ID="15963"/>
+                <annoSet ID="16022"/>
+                <annoSet ID="16355"/>
+                <annoSet ID="16383"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Giver"/>
+                <annoSet ID="1600"/>
+                <annoSet ID="4396"/>
+                <annoSet ID="6062"/>
+                <annoSet ID="6768"/>
+                <annoSet ID="10952"/>
+                <annoSet ID="11126"/>
+                <annoSet ID="14844"/>
+                <annoSet ID="15968"/>
+                <annoSet ID="16352"/>
+                <annoSet ID="16374"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Goods"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="2028"/>
+                <annoSet ID="2506"/>
+                <annoSet ID="9782"/>
+                <annoSet ID="11126"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="60">
+            <FE name="Money"/>
+            <pattern total="54">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="1201"/>
+                <annoSet ID="1594"/>
+                <annoSet ID="1600"/>
+                <annoSet ID="2028"/>
+                <annoSet ID="2081"/>
+                <annoSet ID="2284"/>
+                <annoSet ID="2340"/>
+                <annoSet ID="2506"/>
+                <annoSet ID="2694"/>
+                <annoSet ID="2718"/>
+                <annoSet ID="2946"/>
+                <annoSet ID="3405"/>
+                <annoSet ID="4396"/>
+                <annoSet ID="4810"/>
+                <annoSet ID="5035"/>
+                <annoSet ID="5384"/>
+                <annoSet ID="5559"/>
+                <annoSet ID="6062"/>
+                <annoSet ID="6526"/>
+                <annoSet ID="6530"/>
+                <annoSet ID="6682"/>
+                <annoSet ID="6726"/>
+                <annoSet ID="6768"/>
+                <annoSet ID="7775"/>
+                <annoSet ID="7813"/>
+                <annoSet ID="8229"/>
+                <annoSet ID="8683"/>
+                <annoSet ID="8980"/>
+                <annoSet ID="8984"/>
+                <annoSet ID="9182"/>
+                <annoSet ID="9440"/>
+                <annoSet ID="9782"/>
+                <annoSet ID="9861"/>
+                <annoSet ID="9863"/>
+                <annoSet ID="10076"/>
+                <annoSet ID="10197"/>
+                <annoSet ID="10658"/>
+                <annoSet ID="10932"/>
+                <annoSet ID="10952"/>
+                <annoSet ID="11126"/>
+                <annoSet ID="11256"/>
+                <annoSet ID="11266"/>
+                <annoSet ID="11359"/>
+                <annoSet ID="12368"/>
+                <annoSet ID="12797"/>
+                <annoSet ID="12831"/>
+                <annoSet ID="14844"/>
+                <annoSet ID="15514"/>
+                <annoSet ID="15963"/>
+                <annoSet ID="15968"/>
+                <annoSet ID="16352"/>
+                <annoSet ID="16355"/>
+                <annoSet ID="16374"/>
+                <annoSet ID="16383"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="4398"/>
+                <annoSet ID="5472"/>
+                <annoSet ID="7720"/>
+                <annoSet ID="11262"/>
+                <annoSet ID="11631"/>
+                <annoSet ID="16022"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="61">
+            <FE name="Recipient"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Recipient"/>
+                <annoSet ID="1201"/>
+                <annoSet ID="2028"/>
+                <annoSet ID="2081"/>
+                <annoSet ID="2506"/>
+                <annoSet ID="2694"/>
+                <annoSet ID="2946"/>
+                <annoSet ID="4810"/>
+                <annoSet ID="5035"/>
+                <annoSet ID="9861"/>
+                <annoSet ID="10658"/>
+                <annoSet ID="10952"/>
+                <annoSet ID="12797"/>
+                <annoSet ID="15514"/>
+            </pattern>
+            <pattern total="48">
+                <valenceUnit PT="null instantiation" FE="Recipient"/>
+                <annoSet ID="1594"/>
+                <annoSet ID="1600"/>
+                <annoSet ID="2284"/>
+                <annoSet ID="2340"/>
+                <annoSet ID="2718"/>
+                <annoSet ID="3405"/>
+                <annoSet ID="4396"/>
+                <annoSet ID="4398"/>
+                <annoSet ID="5384"/>
+                <annoSet ID="5472"/>
+                <annoSet ID="5559"/>
+                <annoSet ID="6062"/>
+                <annoSet ID="6526"/>
+                <annoSet ID="6530"/>
+                <annoSet ID="6682"/>
+                <annoSet ID="6726"/>
+                <annoSet ID="6768"/>
+                <annoSet ID="7720"/>
+                <annoSet ID="7775"/>
+                <annoSet ID="7813"/>
+                <annoSet ID="8229"/>
+                <annoSet ID="8683"/>
+                <annoSet ID="8980"/>
+                <annoSet ID="8984"/>
+                <annoSet ID="9182"/>
+                <annoSet ID="9440"/>
+                <annoSet ID="9782"/>
+                <annoSet ID="9863"/>
+                <annoSet ID="10076"/>
+                <annoSet ID="10197"/>
+                <annoSet ID="10932"/>
+                <annoSet ID="10952"/>
+                <annoSet ID="11126"/>
+                <annoSet ID="11256"/>
+                <annoSet ID="11262"/>
+                <annoSet ID="11266"/>
+                <annoSet ID="11359"/>
+                <annoSet ID="11631"/>
+                <annoSet ID="12368"/>
+                <annoSet ID="12831"/>
+                <annoSet ID="14844"/>
+                <annoSet ID="15963"/>
+                <annoSet ID="15968"/>
+                <annoSet ID="16022"/>
+                <annoSet ID="16352"/>
+                <annoSet ID="16355"/>
+                <annoSet ID="16374"/>
+                <annoSet ID="16383"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1602">
+            <text>Il s' agirait bien de la même situation que si le facteur devait payer des droits d' auteur lorsqu' il apporte un livre au client qui le lira .</text>
+            <annotationSet status="MANUAL" ID="1201">
+                <layer rank="1" name="FE">
+                    <label end="90" start="71" name="Money"/>
+                    <label end="90" start="85" name="Recipient"/>
+                    <label end="56" start="47" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1869">
+            <text>Alors , bien_sûr , nous devons réagir , et vite , et nous savons trop bien , hélas , que le prix de nos atermoiements et de nos retards se paie en vies humaines .</text>
+            <annotationSet status="MANUAL" ID="1594">
+                <layer rank="1" name="FE">
+                    <label end="159" start="147" name="Way_of_expense"/>
+                    <label end="134" start="89" name="Money"/>
+                    <label end="102" start="100" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1873">
+            <text>Cependant , dans une région déchirée par un conflit d' arrière-garde , ce drame laisse un goût particulièrement amer , car chaque prix payé pour acheter un fusil , une balle , contribue à aggraver une situation économique , sociale et alimentaire déjà précaire .</text>
+            <annotationSet status="MANUAL" ID="1600">
+                <layer rank="1" name="FE">
+                    <label end="172" start="123" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="ENI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2208">
+            <text>Par_ailleurs , le gouvernement américain aurait selon plusieurs sources [ 4 ] payé 14 millions de dollars à cette compagnie pour l' avoir aidée à médiatiser la guerre du Golfe sous un jour favorable à l' intervention occidentale .</text>
+            <annotationSet status="MANUAL" ID="2028">
+                <layer rank="1" name="FE">
+                    <label end="104" start="83" name="Money"/>
+                    <label end="227" start="129" name="Goods"/>
+                    <label end="122" start="108" name="Recipient"/>
+                    <label end="39" start="15" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2303">
+            <text>L' affaire des emplois fictifs de la Mairie de Paris , ou " affaire des emplois fictifs du RPR " , instruite par le juge Patrick Desmure , concerne sept employés permanents du RPR , dont le salaire a été payé par la mairie de Paris .</text>
+            <annotationSet status="MANUAL" ID="2081">
+                <layer rank="1" name="FE">
+                    <label end="196" start="187" name="Money"/>
+                    <label end="185" start="182" name="Recipient"/>
+                    <label end="230" start="148" name="Recipient"/>
+                    <label end="230" start="213" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="207" start="204" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2493">
+            <text>Alfred Sirven fait payer une partie de la commission promise par les fonds secrets d' Elf .</text>
+            <annotationSet status="MANUAL" ID="2284">
+                <layer rank="1" name="FE">
+                    <label end="59" start="25" name="Money"/>
+                    <label end="88" start="86" name="Giver"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2538">
+            <text>- Cette procédure risque de conduire l' État français à payer une amende d' un montant évalué en l' état de l' enquête à 599 millions de dollars ( près_de 500 millions d' euros ) .</text>
+            <annotationSet status="MANUAL" ID="2340">
+                <layer rank="1" name="FE">
+                    <label end="177" start="62" name="Money"/>
+                    <label end="52" start="37" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2766">
+            <text>Quant_à Françoise Montfort , elle admet très vite avoir dû payer , pendant des années , une taxe de 3 à 5 % pour l' obtention de marchés publics à l' office HLM des Hauts-de-Seine .</text>
+            <annotationSet status="MANUAL" ID="2506">
+                <layer rank="1" name="FE">
+                    <label end="106" start="88" name="Money"/>
+                    <label end="143" start="113" name="Goods"/>
+                    <label end="178" start="147" name="Recipient"/>
+                    <label end="25" start="8" name="Giver"/>
+                    <label end="32" start="29" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2996">
+            <text>En_ce_sens , les prévenus ont été condamnés solidairement à payer environ 17_600 euros de dommages-intérêts aux parties civiles pour les seuls meubles entreposés dans les immeubles qui , juridiquement , ne leur appartenaient pas .</text>
+            <annotationSet status="MANUAL" ID="2694">
+                <layer rank="1" name="FE">
+                    <label end="106" start="66" name="Money"/>
+                    <label end="126" start="112" name="Recipient"/>
+                    <label end="24" start="13" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3060">
+            <text>La différence , payée par le Trésor ( donc le contribuable français ) , s' élevait à environ 8,50 F selon Jacques Despuech , auteur du premier livre sur l' affaire ( 1953 ) .</text>
+            <annotationSet status="MANUAL" ID="2718">
+                <layer rank="1" name="FE">
+                    <label end="68" start="0" name="Money"/>
+                    <label end="68" start="26" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3255">
+            <text>Occuper le réseau de la Cinq coûterait en effet cher à la Sept : il lui faudrait payer la diffusion ( 200 millions de francs ) , les surcoûts de droits pour une diffusion nationale , et " muscler " ses programmes pour ne pas réaliser des audiences trop confidentielles .</text>
+            <annotationSet status="MANUAL" ID="2946">
+                <layer rank="1" name="FE">
+                    <label end="179" start="129" name="Money"/>
+                    <label end="27" start="21" name="Recipient"/>
+                    <label end="70" start="68" name="Giver"/>
+                    <label end="61" start="55" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3626">
+            <text>Devant l' Allemagne , qui paye aujourd' hui le coût de sa réunification , mais derrière le Japon .</text>
+            <annotationSet status="MANUAL" ID="3405">
+                <layer rank="1" name="FE">
+                    <label end="70" start="44" name="Money"/>
+                    <label end="24" start="22" name="Giver"/>
+                    <label end="70" start="7" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4481">
+            <text>La contestation est allée du faible prix payé à la crainte de voir le roquefort passer sous la coupe italienne .</text>
+            <annotationSet status="MANUAL" ID="4396">
+                <layer rank="1" name="FE">
+                    <label end="44" start="29" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4483">
+            <text>Bouter l' attaquant hors de France ou le faire payer .</text>
+            <annotationSet status="MANUAL" ID="4398">
+                <layer rank="1" name="FE">
+                    <label end="39" start="38" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4862">
+            <text>Après plus de quatre mois d' une véritable guérilla judiciaire entre le ministère du travail et les retraités , le gouvernement brésilien a été contraint de payer , à partir du 7 janvier , 147 , 06 % d' augmentation aux 441000 retraités et pensionnés de l' Etat de Rio - de - Janeiro .</text>
+            <annotationSet status="MANUAL" ID="4810">
+                <layer rank="1" name="FE">
+                    <label end="214" start="189" name="Money"/>
+                    <label end="282" start="220" name="Recipient"/>
+                    <label end="136" start="112" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="161" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5053">
+            <text>Les calculs étaient d' autant plus complexes que souvent , pour éviter d' avoir à verser , en argent liquide , des sommes variables et assorties d' inévitables centimes , vous payiez à votre " perle " familiale un salaire net en francs tout ronds : il fallait remonter tout le système pour déterminer le salaire brut .</text>
+            <annotationSet status="MANUAL" ID="5035">
+                <layer rank="1" name="FE">
+                    <label end="224" start="211" name="Money"/>
+                    <label end="209" start="185" name="Recipient"/>
+                    <label end="174" start="171" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="181" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5363">
+            <text>La Grande - Bretagne paie encore le prix des erreurs passées , au premier rang desquelles la négligence gouvernementale à l' égard de l' éducation et de la formation .</text>
+            <annotationSet status="MANUAL" ID="5384">
+                <layer rank="1" name="FE">
+                    <label end="164" start="33" name="Money"/>
+                    <label end="19" start="0" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5439">
+            <text>Mais pourquoi M. Lorentz a -t-il ainsi payé ?</text>
+            <annotationSet status="MANUAL" ID="5472">
+                <layer rank="1" name="FE">
+                    <label end="23" start="14" name="Giver"/>
+                    <label end="31" start="27" name="Giver"/>
+                    <label itype="ENI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5525">
+            <text>Et que dire des acheteurs qui doivent à la fois payer des prix vertigineux dans les zones urbaines et subir des taux d' intérêt réels sans pareil !</text>
+            <annotationSet status="MANUAL" ID="5559">
+                <layer rank="1" name="FE">
+                    <label end="73" start="54" name="Money"/>
+                    <label end="28" start="26" name="Giver"/>
+                    <label end="144" start="16" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5917">
+            <text>A ce cours , MFI aura une capitalisation boursière de 669 millions de livres ( 6 , 7 milliards de francs ) , inférieure aux 717 , 5 millions payés lors de la reprise en 1987 .</text>
+            <annotationSet status="MANUAL" ID="6062">
+                <layer rank="1" name="FE">
+                    <label end="172" start="124" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6331">
+            <text>Tandis que les salariés paieront les 25 milliards de deutschemarks du dispositif par des cotisations , les entreprises , considérées déjà lourdement chargées de coûts sociaux , ont été dispensées .</text>
+            <annotationSet status="MANUAL" ID="6526">
+                <layer rank="1" name="FE">
+                    <label end="99" start="85" name="Way_of_expense"/>
+                    <label end="79" start="33" name="Money"/>
+                    <label end="22" start="11" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6332">
+            <text>Plus exactement , elles paieront une part de 6 milliards environ , mais elles pourront en échange instaurer un Karenztag .</text>
+            <annotationSet status="MANUAL" ID="6530">
+                <layer rank="1" name="FE">
+                    <label end="63" start="33" name="Money"/>
+                    <label end="22" start="18" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6468">
+            <text>Le Canada continue de payer le prix des dérapages financiers , tant privés que publics , de la décennie 1980 .</text>
+            <annotationSet status="MANUAL" ID="6682">
+                <layer rank="1" name="FE">
+                    <label end="107" start="28" name="Money"/>
+                    <label end="8" start="0" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6511">
+            <text>Ces plans étaient durement vécus par les Français - et bien sûr d' abord par les moins fortunés - qui payaient plus d' impôts et de taxes , en même temps que leurs salaires augmentaient moins vite , voire plus du tout .</text>
+            <annotationSet status="MANUAL" ID="6726">
+                <layer rank="1" name="FE">
+                    <label end="136" start="111" name="Money"/>
+                    <label end="100" start="98" name="Giver"/>
+                    <label end="216" start="37" name="Giver"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6558">
+            <text>On ne lésine plus désormais sur le prix à payer .</text>
+            <annotationSet status="MANUAL" ID="6768">
+                <layer rank="1" name="FE">
+                    <label end="46" start="32" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7673">
+            <text>" On se trouve souvent dans des situations où c' est ... à qui ne paiera pas . "</text>
+            <annotationSet status="MANUAL" ID="7720">
+                <layer rank="1" name="FE">
+                    <label end="61" start="59" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7744">
+            <text>Ces derniers n' ont pas seulement droit à toutes les facilités d' écoulement données par les organismes d' intervention , qui paient frais de stockage et subvention au bradage .</text>
+            <annotationSet status="MANUAL" ID="7775">
+                <layer rank="1" name="FE">
+                    <label end="174" start="133" name="Money"/>
+                    <label end="124" start="122" name="Giver"/>
+                    <label end="174" start="89" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7786">
+            <text>Mais le régime militaire n' a pas terminé d' en payer le coût social .</text>
+            <annotationSet status="MANUAL" ID="7813">
+                <layer rank="1" name="FE">
+                    <label end="67" start="54" name="Money"/>
+                    <label end="23" start="5" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8249">
+            <text>Plus généralement , d' autres refusent désormais de prendre en charge à 100 % les frais du logement et demandent aux salariés de contribuer à la hauteur de ce que ils payaient en France " .</text>
+            <annotationSet status="MANUAL" ID="8229">
+                <layer rank="1" name="FE">
+                    <label end="161" start="159" name="Money"/>
+                    <label end="165" start="163" name="Giver"/>
+                    <label end="124" start="117" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="174" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8775">
+            <text>Sans parler du trésor de guerre de 250 millions de livres , provenant en grande partie de la revente de Reebok qui permet aujourd' hui à M. Rubin de payer 85 % du prix d' achat ... en numéraires .</text>
+            <annotationSet status="MANUAL" ID="8683">
+                <layer rank="1" name="FE">
+                    <label end="193" start="184" name="Way_of_expense"/>
+                    <label end="175" start="155" name="Money"/>
+                    <label end="144" start="137" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9053">
+            <text>Le gouvernement s' était félicité de la diminution du TBB , revenu à son niveau de juillet 1989 , qui allégeait les charges financières des entreprises , notamment petites et moyennes , dont la plupart paient leur découvert au TBB majoré de 1 , 5 à 2 points au plus .</text>
+            <annotationSet status="MANUAL" ID="8980">
+                <layer rank="1" name="FE">
+                    <label end="222" start="209" name="Money"/>
+                    <label end="200" start="191" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="207" start="202" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9056">
+            <text>Les entreprises , rappelons -le , en arrivent maintenant à payer leur découvert à un taux réel , hors inflation , qui rejoint les taux nominaux puisque , dans les secteurs industriel et commercial , il n' y a pratiquement plus d' inflation .</text>
+            <annotationSet status="MANUAL" ID="8984">
+                <layer rank="1" name="FE">
+                    <label end="78" start="65" name="Money"/>
+                    <label end="14" start="0" name="Giver"/>
+                    <label end="68" start="65" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9327">
+            <text>Naf Naf revendique une rentabilité voisine de 10 % , mais d' autres paient leur tribut à la crise .</text>
+            <annotationSet status="MANUAL" ID="9182">
+                <layer rank="1" name="FE">
+                    <label end="85" start="75" name="Money"/>
+                    <label end="66" start="58" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9601">
+            <text>Une condition doit donc être remplie : il faut qu' il y ait un accord sur " le prix que la société est prête à payer pour une croissance plus solidaire " .</text>
+            <annotationSet status="MANUAL" ID="9440">
+                <layer rank="1" name="FE">
+                    <label end="86" start="84" name="Money"/>
+                    <label end="152" start="122" name="Money"/>
+                    <label end="152" start="76" name="Money"/>
+                    <label end="97" start="88" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10014">
+            <text>Mais surtout , la relative immunité dont jouissait l' économie française dans les périodes de basse conjoncture internationale ( le prix en était payé autrement ) ne joue plus .</text>
+            <annotationSet status="MANUAL" ID="9782">
+                <layer rank="1" name="FE">
+                    <label end="159" start="151" name="Way_of_expense"/>
+                    <label end="138" start="129" name="Money"/>
+                    <label end="138" start="137" name="Goods"/>
+                    <label end="71" start="63" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="146" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10096">
+            <text>M. Ian Maxwell , l' un des fils du magnat de la presse britannique Robert Maxwell , mort en mer en novembre 1991 , a été condamné , lundi 21 décembre , par la Haute Cour de justice de Londres à payer 500 000 livres ( 4 , 19 millions de francs ) de dommages et intérêts aux caisses de retraite du groupe de presse Mirror Group Newspaper .</text>
+            <annotationSet status="MANUAL" ID="9861">
+                <layer rank="1" name="FE">
+                    <label end="267" start="200" name="Money"/>
+                    <label end="334" start="273" name="Recipient"/>
+                    <label end="111" start="0" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="194" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10099">
+            <text>M. Kevin Maxwell , frère cadet de Ian , a déjà été condamné à payer 406 , 5 millions de livres pour manquement à ses responsabilités ( le Monde du 20 juin ) , ce qui a fait de lui le plus grand " failli " de Grande - Bretagne .</text>
+            <annotationSet status="MANUAL" ID="9863">
+                <layer rank="1" name="FE">
+                    <label end="93" start="68" name="Money"/>
+                    <label end="36" start="0" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10324">
+            <text>Un mois plus tard , après avoir admis de payer lui - même la coûteuse amende , qui aurait dévoré les fonds propres de cellier , le holding faisait même état d' une recapitalisation de sa filiale , pour un montant de 30 millions de francs , et de l' obtention d' importants crédits à court terme ( 125 millions de francs ) .</text>
+            <annotationSet status="MANUAL" ID="10076">
+                <layer rank="1" name="FE">
+                    <label end="124" start="58" name="Money"/>
+                    <label end="56" start="47" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10455">
+            <text>Trente - deux millions de francs , investis pour moitié par le Centre National de la Recherche scientifique ( CNRS ) et pour moitié par la Max Planck Gesellschaft ( MPG ) : tel est le prix que paieront la France et l' Allemagne , en vertu de l' accord qui vient d' être signé à l' Observatoire européen austral ( ESO ) , pour la réalisation , attenante à celle du futur observatoire géant européen VLT ( Very large Telescope ) , d' un télescope de 1 , 80 mètre de diamètre .</text>
+            <annotationSet status="MANUAL" ID="10197">
+                <layer rank="1" name="FE">
+                    <label end="191" start="189" name="Money"/>
+                    <label end="471" start="181" name="Money"/>
+                    <label end="226" start="202" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="200" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11120">
+            <text>L' objet de la réforme de la PAC consiste à réduire sur trois ans les prix garantis payés aux agriculteurs , de 29 % pour les céréales et de 15 % pour la viande .</text>
+            <annotationSet status="MANUAL" ID="10658">
+                <layer rank="1" name="FE">
+                    <label end="105" start="66" name="Money"/>
+                    <label end="105" start="94" name="Recipient"/>
+                    <label end="31" start="26" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11486">
+            <text>Jusqu' à présent , cette mesure a permis le recrutement de 3 440 personnes avec des contrats à durée indéterminée et autorise l' employeur à ne pas payer les charges sociales patronales pendant un an .</text>
+            <annotationSet status="MANUAL" ID="10932">
+                <layer rank="1" name="FE">
+                    <label end="184" start="154" name="Money"/>
+                    <label end="137" start="126" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="152" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11515">
+            <text>Commentant ce tribut payé à l' information en 1992 , RSF constate que l' Europe arrive en tête du triste palmarès des vingt pays concernés , avec 25 tués , dont 12 en Turquie et 11 en ex- Yougoslavie .</text>
+            <annotationSet status="MANUAL" ID="10952">
+                <layer rank="1" name="FE">
+                    <label end="49" start="11" name="Money"/>
+                    <label end="41" start="28" name="Recipient"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11764">
+            <text>A l' issue de la précédente séance de négociations , le 22 décembre , les syndicats avaient jugé que " le prix à payer " en échange de la fixation d' un taux minimum de cotisation de 6 % était " totalement disproportionné " et avaient demandé au patronat de " modifier sérieusement ses propositions " ( le Monde du 25 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="11126">
+                <layer rank="1" name="FE">
+                    <label end="117" start="103" name="Money"/>
+                    <label end="185" start="135" name="Goods"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12000">
+            <text>Le tourisme bancaire s' explique par leur crainte de devoir payer , à partir du 1 janvier prochain , la taxe de 30 % sur les revenus de l' épargne qui sera introduite par le gouvernement .</text>
+            <annotationSet status="MANUAL" ID="11256">
+                <layer rank="1" name="FE">
+                    <label end="185" start="101" name="Money"/>
+                    <label end="40" start="37" name="Giver"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12016">
+            <text>" Moi je paie , d' autres pas , c' est une injustice " , clame -t-il en substance .</text>
+            <annotationSet status="MANUAL" ID="11262">
+                <layer rank="1" name="FE">
+                    <label end="7" start="6" name="Giver"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12027">
+            <text>L' accroissement de l' abattement sur l' impôt sur la fortune est supprimé , la taxe sur l' épargne passe à 30 % , payée directement par la banque mais sous le couvert de l' anonymat .</text>
+            <annotationSet status="MANUAL" ID="11266">
+                <layer rank="1" name="FE">
+                    <label end="98" start="77" name="Money"/>
+                    <label end="145" start="137" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12143">
+            <text>" Nous avons à payer le prix fort et à faire des sacrifices douloureux pour redonner du crédit à notre pays " , avait alors déclaré M. Amato en présentant le train de mesures proposées par son gouvernement .</text>
+            <annotationSet status="MANUAL" ID="11359">
+                <layer rank="1" name="FE">
+                    <label end="32" start="21" name="Money"/>
+                    <label end="5" start="2" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12506">
+            <text>qui paie peut prétendre être indemnisé en fonction de sa contribution .</text>
+            <annotationSet status="MANUAL" ID="11631">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13675">
+            <text>Ne sommes -nous pas en train de payer sur fonds publics une partie des intérêts des emprunts des accédants à la propriété dont certains ont des revenus annuels imposables égaux à 223450 F par part !</text>
+            <annotationSet status="MANUAL" ID="12368">
+                <layer rank="1" name="FE">
+                    <label end="195" start="56" name="Money"/>
+                    <label end="14" start="10" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14335">
+            <text>Le continent africain a payé 26 milliards de dollars à ses créanciers étrangers en 1991 ( dernière année pour laquelle on dispose de chiffres précis ) .</text>
+            <annotationSet status="MANUAL" ID="12797">
+                <layer rank="1" name="FE">
+                    <label end="51" start="29" name="Money"/>
+                    <label end="78" start="55" name="Recipient"/>
+                    <label end="20" start="0" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14381">
+            <text>L' indemnisation du chômage partiel par l' Etat va passer de 18 à 22 francs de l' heure alors que le minimum payé par l' employeur reste de 29 francs .</text>
+            <annotationSet status="MANUAL" ID="12831">
+                <layer rank="1" name="FE">
+                    <label end="129" start="98" name="Money"/>
+                    <label end="129" start="118" name="Giver"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17716">
+            <text>Il est évident que les taux d' intérêt - le prix à payer pour obtenir monnaie et crédit - doivent jouer un rôle primordial .</text>
+            <annotationSet status="MANUAL" ID="14844">
+                <layer rank="1" name="FE">
+                    <label end="88" start="39" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18703">
+            <text>Vendredi , Seamus Moley a payé 50 000 dollars à un agent fédéral qui s' était fait passer pour un fournisseur , afin d' acquérir ce missile portable américain .</text>
+            <annotationSet status="MANUAL" ID="15514">
+                <layer rank="1" name="FE">
+                    <label end="44" start="31" name="Money"/>
+                    <label end="108" start="48" name="Recipient"/>
+                    <label end="22" start="11" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19683">
+            <text>" Pour les plus jeunes , parents seuls avec enfants à charge , la démarche est plus facile , plus normale : même si la dépendance est un poids , après tout on paie suffisamment d' impôts pour demander à bénéficier du système .</text>
+            <annotationSet status="MANUAL" ID="15963">
+                <layer rank="1" name="FE">
+                    <label end="185" start="164" name="Money"/>
+                    <label end="157" start="156" name="Giver"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19696">
+            <text>Ce qu' il remarquera , c' est que la vie est excessivement chère - l' alimentation surtout - et qu' il doit falloir un bon salaire pour payer les prix affichés .</text>
+            <annotationSet status="MANUAL" ID="15968">
+                <layer rank="1" name="FE">
+                    <label end="158" start="142" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19858">
+            <text>Elle instaure un système dispensant les entreprises faisant un effort en matière de prévention de payer pour les autres .</text>
+            <annotationSet status="MANUAL" ID="16022">
+                <layer rank="1" name="FE">
+                    <label end="93" start="36" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20341">
+            <text>Jusqu' à la fin de 1991 , l' Etat aidait doublement ce système de transmission : il accordait à la société racheteuse un crédit d' impôt et aux salariés repreneurs une réduction de leur revenu imposable ( en fonction des intérêts payés sur les emprunts souscrits pour participer au capital de la holding ) .</text>
+            <annotationSet status="MANUAL" ID="16352">
+                <layer rank="1" name="FE">
+                    <label end="302" start="221" name="Money"/>
+                    <label itype="ENI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="234" start="230" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20344">
+            <text>En l' occurrence , la société repreneuse utilise les bénéfices de la société reprise pour compenser les pertes qu' elle subira au cours des premières années du fait des intérêts importants payés sur les emprunts contractés pour le RES .</text>
+            <annotationSet status="MANUAL" ID="16355">
+                <layer rank="1" name="FE">
+                    <label end="233" start="169" name="Money"/>
+                    <label end="118" start="115" name="Giver"/>
+                    <label end="39" start="19" name="Giver"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20361">
+            <text>En cas d' échange de droits sociaux résultant d' une OPE , d' une fusion de société ou d' un apport ( il y a alors double vente ) , les plus - values mobilières bénéficient d' une imposition différée : l' impôt dû est gelé pour n' être payé qu' au moment de la revente .</text>
+            <annotationSet status="MANUAL" ID="16374">
+                <layer rank="1" name="FE">
+                    <label end="212" start="202" name="Money"/>
+                    <label itype="ENI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="239" start="236" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20373">
+            <text>Concrètement , un père pourra transmettre jusqu' à 300 000 francs à son fils ou à sa fille tous les dix ans sans payer de droits de succession .</text>
+            <annotationSet status="MANUAL" ID="16383">
+                <layer rank="1" name="FE">
+                    <label end="141" start="119" name="Money"/>
+                    <label end="70" start="68" name="Giver"/>
+                    <label end="21" start="15" name="Giver"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="alliance.n" ID="69" frame="Be_in_agreement_on_action" frameID="1380" totalAnnotated="39" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="par1" name="Party_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="par2" name="Party_2"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="obl" name="Obligation"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="pars" name="Parties"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="38">
+            <FE name="Obligation"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Obligation"/>
+                <annoSet ID="9008"/>
+                <annoSet ID="18925"/>
+            </pattern>
+            <pattern total="36">
+                <valenceUnit PT="null instantiation" FE="Obligation"/>
+                <annoSet ID="7134"/>
+                <annoSet ID="8085"/>
+                <annoSet ID="8190"/>
+                <annoSet ID="8606"/>
+                <annoSet ID="8860"/>
+                <annoSet ID="8864"/>
+                <annoSet ID="8866"/>
+                <annoSet ID="8892"/>
+                <annoSet ID="8914"/>
+                <annoSet ID="9006"/>
+                <annoSet ID="10274"/>
+                <annoSet ID="10634"/>
+                <annoSet ID="12294"/>
+                <annoSet ID="12512"/>
+                <annoSet ID="14241"/>
+                <annoSet ID="14702"/>
+                <annoSet ID="14762"/>
+                <annoSet ID="14766"/>
+                <annoSet ID="15021"/>
+                <annoSet ID="16009"/>
+                <annoSet ID="17101"/>
+                <annoSet ID="18048"/>
+                <annoSet ID="18341"/>
+                <annoSet ID="18379"/>
+                <annoSet ID="18807"/>
+                <annoSet ID="18934"/>
+                <annoSet ID="21272"/>
+                <annoSet ID="22023"/>
+                <annoSet ID="22348"/>
+                <annoSet ID="22352"/>
+                <annoSet ID="22354"/>
+                <annoSet ID="22365"/>
+                <annoSet ID="24806"/>
+                <annoSet ID="24834"/>
+                <annoSet ID="24843"/>
+                <annoSet ID="24844"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="21">
+            <FE name="Parties"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Parties"/>
+                <annoSet ID="8914"/>
+                <annoSet ID="9008"/>
+                <annoSet ID="10274"/>
+                <annoSet ID="10634"/>
+                <annoSet ID="15021"/>
+                <annoSet ID="16009"/>
+                <annoSet ID="17101"/>
+                <annoSet ID="18341"/>
+                <annoSet ID="18379"/>
+                <annoSet ID="18807"/>
+                <annoSet ID="18925"/>
+                <annoSet ID="18934"/>
+                <annoSet ID="22348"/>
+                <annoSet ID="22354"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Parties"/>
+                <annoSet ID="8190"/>
+                <annoSet ID="9006"/>
+                <annoSet ID="21272"/>
+                <annoSet ID="22023"/>
+                <annoSet ID="22026"/>
+                <annoSet ID="22352"/>
+                <annoSet ID="22365"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Party_1"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Party_1"/>
+                <annoSet ID="8085"/>
+                <annoSet ID="8860"/>
+                <annoSet ID="8864"/>
+                <annoSet ID="8866"/>
+                <annoSet ID="8892"/>
+                <annoSet ID="12294"/>
+                <annoSet ID="12512"/>
+                <annoSet ID="14241"/>
+                <annoSet ID="14702"/>
+                <annoSet ID="14766"/>
+                <annoSet ID="24806"/>
+                <annoSet ID="24834"/>
+                <annoSet ID="24843"/>
+                <annoSet ID="24844"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Party_1"/>
+                <annoSet ID="7134"/>
+                <annoSet ID="8606"/>
+                <annoSet ID="14762"/>
+                <annoSet ID="18048"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Party_2"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Party_2"/>
+                <annoSet ID="7134"/>
+                <annoSet ID="8085"/>
+                <annoSet ID="8606"/>
+                <annoSet ID="8860"/>
+                <annoSet ID="14241"/>
+                <annoSet ID="14702"/>
+                <annoSet ID="18048"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Party_2"/>
+                <annoSet ID="8864"/>
+                <annoSet ID="8866"/>
+                <annoSet ID="8892"/>
+                <annoSet ID="12294"/>
+                <annoSet ID="12512"/>
+                <annoSet ID="14762"/>
+                <annoSet ID="14766"/>
+                <annoSet ID="24806"/>
+                <annoSet ID="24834"/>
+                <annoSet ID="24843"/>
+                <annoSet ID="24844"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4952">
+            <text>L' alliance peut sembler paradoxale , M. Berlusconi étant proche du secrétaire général du Parti socialiste italien , M. Bettino Craxi .</text>
+            <annotationSet status="MANUAL" ID="7134">
+                <layer rank="1" name="FE">
+                    <label end="50" start="38" name="Party_2"/>
+                    <label itype="ENI" name="Obligation"/>
+                    <label itype="DNI" name="Party_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5553">
+            <text>Acteur moyen de l' industrie des télécommunications et donc courant le risque d' être marginalisée , Matra Communication , filiale spécialisée du groupe Matra , a décidé de nouer une alliance avec le géant canadien Northern Telecom , numéro quatre du secteur .</text>
+            <annotationSet status="MANUAL" ID="8085">
+                <layer rank="1" name="FE">
+                    <label end="257" start="197" name="Party_2"/>
+                    <label end="157" start="101" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="190" start="183" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5604">
+            <text>Fusions , alliances , participations croisées et surtout joint - ventures à l' étranger , tout était bon pour jouer à se doter d' une politique industrielle ambitieuse , basée sur des petites et moyennes entreprises , dotées de critères de qualité particulièrement exigeants .</text>
+            <annotationSet status="MANUAL" ID="8190">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5841">
+            <text>Un bilan plutôt gris qui s' accompagne heureusement de quelques bons points en matière d' inflation ( ramenée autour de 3 , 5 % par an ) et de diminution du déficit commercial ( 65 milliards de dollars en 1991 , soit environ 332 milliards de francs , contre 102 milliards l' année précédente ) , en grande partie grâce à la " sainte alliance " nouée avec le Koweït et l' Arabie saoudite qui a permis de stabiliser les prix du pétrole , un facteur déterminant pour un pays qui importe à présent 50 % de ses besoins en or noir .</text>
+            <annotationSet status="MANUAL" ID="8606">
+                <layer rank="1" name="FE">
+                    <label end="385" start="355" name="Party_2"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="DNI" name="Party_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="340" start="333" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5984">
+            <text>Matra a conclu une vaste alliance dans les télécommunications avec le canadien Northern Telecom , numéro quatre mondial , ont annoncé jeudi 2 juillet à Paris MM. Jean - Luc Lagardère et Paul Stern , présidents respectifs des deux groupes ( le monde du 3 juillet ) .</text>
+            <annotationSet status="MANUAL" ID="8860">
+                <layer rank="1" name="FE">
+                    <label end="118" start="67" name="Party_2"/>
+                    <label end="4" start="0" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5986">
+            <text>Le canadien signe ainsi sa première grande alliance européenne .</text>
+            <annotationSet status="MANUAL" ID="8864">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="DNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5987">
+            <text>On savait Matra en quête d' une alliance solide dans les télécommunications .</text>
+            <annotationSet status="MANUAL" ID="8866">
+                <layer rank="1" name="FE">
+                    <label end="14" start="10" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="DNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6010">
+            <text>Sept fois plus imposant que son partenaire français ( Northern Telecom a réalisé l' an passé un chiffre d' affaires de 8 , 1 milliards de dollars , soit 42 milliards de francs , et emploie 57 000 salariés ) , très rentable ( il dégage une marge de 6 , 3 % ) , le canadien a offert un maximum de garanties pour arracher " sa " grande alliance européenne .</text>
+            <annotationSet status="MANUAL" ID="8892">
+                <layer rank="1" name="FE">
+                    <label end="322" start="321" name="Party_1"/>
+                    <label end="270" start="260" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="DNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="340" start="333" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6024">
+            <text>Au final , ce qui aurait pu être un partenariat financier et industriel , certes étoffé mais limité à Matra Communication , prend aujourd' hui des allures d' alliance fondamentale entre le géant canadien et le groupe de M. Lagardère .</text>
+            <annotationSet status="MANUAL" ID="8914">
+                <layer rank="1" name="FE">
+                    <label end="231" start="186" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6065">
+            <text>Pourtant des alliances européennes se sont montrées fructueuses .</text>
+            <annotationSet status="MANUAL" ID="9006">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6066">
+            <text>Qu' il s' agisse du franco- - britannique GEC - Alsthom , qui remporte contrat sur contrat dans le domaine des centrales thermiques ou des trains à grande vitesse ; de l' alliance franco - italienne entre Alcatel et Fiat en faveur d' un recentrage sur leurs points forts respectifs ( les télécommunications pour Alcatel et l' automobile pour Fiat ) , ou de même au sein le groupe Matra , de la société commune créée avec le britannique Marconi dans le spatial .</text>
+            <annotationSet status="MANUAL" ID="9008">
+                <layer rank="1" name="FE">
+                    <label end="347" start="234" name="Obligation"/>
+                    <label end="219" start="205" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6920">
+            <text>Les agriculteurs refusent toute alliance entre la politique et le syndicalisme .</text>
+            <annotationSet status="MANUAL" ID="10274">
+                <layer rank="1" name="FE">
+                    <label end="77" start="47" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7217">
+            <text>ALLIANCE ENTRE MATRA ET NORTHERN TELECOM .</text>
+            <annotationSet status="MANUAL" ID="10634">
+                <layer rank="1" name="FE">
+                    <label end="39" start="15" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8629">
+            <text>Pour " sanctuariser " ses logiciels stratégiques , l' opérateur français est de plus en plus demandeur d' alliances en capital .</text>
+            <annotationSet status="MANUAL" ID="12294">
+                <layer rank="1" name="FE">
+                    <label end="71" start="51" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8764">
+            <text>" grâce à cette formidable alliance anglo - germano - française , Adidas peut désormais se targuer du titre de fabricant de chaussures de sport de la communauté européenne " : pour M. Stephen Rubin , président de Pentland group PLC , le rachat d' Adidas à M. Bernard Tapie crée un nouveau géant européen de l' équipement sportif , capable de rivaliser avec Nike et Reebok , les concurrents américains particulièrement dynamiques .</text>
+            <annotationSet status="MANUAL" ID="12512">
+                <layer rank="1" name="FE">
+                    <label end="71" start="66" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="DNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10136">
+            <text>Le groupe japonais Toshiba Corp a annoncé , lundi 21 décembre , avoir conclu une alliance de huit ans avec la firme sud - coréenne Samsung Electronics Co Ltd dans un effort pour imposer un format standard de mémoire " flash " en profitant de son avance technologique dans ce domaine .</text>
+            <annotationSet status="MANUAL" ID="14241">
+                <layer rank="1" name="FE">
+                    <label end="156" start="107" name="Party_2"/>
+                    <label end="30" start="0" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10501">
+            <text>British Airways a annoncé , mardi 22 décembre , qu' elle retirait ses propositions d' alliance avec US Air .</text>
+            <annotationSet status="MANUAL" ID="14702">
+                <layer rank="1" name="FE">
+                    <label end="105" start="100" name="Party_2"/>
+                    <label end="14" start="0" name="Party_1"/>
+                    <label end="55" start="52" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10544">
+            <text>Cette réorganisation va de pair , comme chez IBM , avec une restructuration sévère et des alliances tous azimuts .</text>
+            <annotationSet status="MANUAL" ID="14762">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Party_2"/>
+                    <label itype="DNI" name="Party_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10547">
+            <text>Côté alliances , DEC , qui s' est associé à Olivetti pour développer notamment des machines Risc ( un microprocesseur à jeu d' instructions réduit , plus rapide et plus performant ) , est devenu l' un des partenaires privilégiés de Microsoft , le concepteur de MS - DOS , le vénérable système d' exploitation des ordinateurs personnels d' IBM et surtout l' heureux développeur des interfaces graphiques Windows .</text>
+            <annotationSet status="MANUAL" ID="14766">
+                <layer rank="1" name="FE">
+                    <label end="182" start="17" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10761">
+            <text>Face à la plus gigantesque agression dont une monnaie ait jamais été l' objet ces dernières années , l' alliance franco - allemande vient d' être scellée .</text>
+            <annotationSet status="MANUAL" ID="15021">
+                <layer rank="1" name="FE">
+                    <label end="130" start="113" name="Parties"/>
+                    <label itype="ENI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11637">
+            <text>Elle ne sera vaincue que grâce à une alliance franco - allemande âprement négociée .</text>
+            <annotationSet status="MANUAL" ID="16009">
+                <layer rank="1" name="FE">
+                    <label end="63" start="46" name="Parties"/>
+                    <label itype="ENI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12732">
+            <text>Obnubilées par les menaces domestiques - sur leur audience , leurs structures , leurs crédits - et parfois distancées dans la course aux stars , aux droits sportifs , aux films , elles ont vu les " privés " constituer des réseaux multinationaux , des alliances , sans trouver toujours le moyen d' y répondre .</text>
+            <annotationSet status="MANUAL" ID="17101">
+                <layer rank="1" name="FE">
+                    <label end="205" start="192" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="259" start="251" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13728">
+            <text>Le bon développement des ventes en Europe et les synergies tirées de l' alliance avec l' américain Sterling Drug sont à l' origine de cette amélioration .</text>
+            <annotationSet status="MANUAL" ID="18048">
+                <layer rank="1" name="FE">
+                    <label end="111" start="86" name="Party_2"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="DNI" name="Party_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14017">
+            <text>" Au moment où la corne du continent résonne de l' opération onuso - américaine à strapontins français , " Rendre l' espoir " , il n' est pas inutile de suivre les auteurs ( parmi lesquels Edmond Jouve , Maurice Lambiotte , Christian Saint - Etienne ) dans leur vision d' une " nouvelle alliance " entre l' Afrique et l' Europe .</text>
+            <annotationSet status="MANUAL" ID="18341">
+                <layer rank="1" name="FE">
+                    <label end="326" start="304" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="294" start="287" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14047">
+            <text>Une nouvelle alliance entre l' Europe et le continent noir vaut mieux que rien .</text>
+            <annotationSet status="MANUAL" ID="18379">
+                <layer rank="1" name="FE">
+                    <label end="57" start="28" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14497">
+            <text>Une alliance à trois est en train de s' esquisser dans la mesure où Winterthur renforce également ses liens avec le groupe Albert Frère en passant des accords de coopération avec la banque Bruxelles - Lambert et l' assureur Royale belge .</text>
+            <annotationSet status="MANUAL" ID="18807">
+                <layer rank="1" name="FE">
+                    <label end="19" start="15" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14607">
+            <text>British Telecom et MCI Communications , le deuxième opérateur américain dans le domaine des télécommunications longue distance , ont annoncé , mercredi 2 juin , une alliance " historique " destinée à attaquer de concert le marché des communications internationales d' entreprise .</text>
+            <annotationSet status="MANUAL" ID="18925">
+                <layer rank="1" name="FE">
+                    <label end="277" start="200" name="Obligation"/>
+                    <label end="125" start="0" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="172" start="165" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14617">
+            <text>Pour cette raison , de grandes alliances entre opérateurs de télécommunications étaient inévitables .</text>
+            <annotationSet status="MANUAL" ID="18934">
+                <layer rank="1" name="FE">
+                    <label end="78" start="47" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17156">
+            <text>Il refuse toute unification dans le cadre de l' OTAN et du pacte de Varsovie , mais il serait prêt à l' accepter uniquement dans le cas où ces alliances disparaîtraient . .</text>
+            <annotationSet status="MANUAL" ID="21272">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="ENI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17952">
+            <text>Moyennant quoi , tout ce que son maître George Bush a trouvé à proposer , c' est de mettre au service de la paix les alliances de la guerre froide .</text>
+            <annotationSet status="MANUAL" ID="22023">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17957">
+            <text>Il ne suffit pas , de toute façon , de confirmer des alliances fondées sur la division de l' Europe pour répondre à ce qui apparaîtra de plus en plus , au fur et à mesure que progressera l' inévitable réunification de l' Allemagne , comme la nécessité principale : celle d' une structure commune à tout le continent , à cette " Europe de l' Atlantique à l' Oural " dont de Gaulle n' a cessé de rêver .</text>
+            <annotationSet status="MANUAL" ID="22026">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18276">
+            <text>Ainsi avait -il prêté l' oreille aux suggestions de MM Julien Dray et Jean - Luc Mélenchon , les animateurs de la Nouvelle Ecole socialiste , qui envisageaient une alliance , fortement symbolique à leurs yeux , entre les mitterrandistes " historiques " et eux - mêmes , représentants de la " génération Mitterrand " de 1988 .</text>
+            <annotationSet status="MANUAL" ID="22348">
+                <layer rank="1" name="FE">
+                    <label end="322" start="217" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="171" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18278">
+            <text>Parmi les autres courants minoritaires , diverses alliances ont été envisagées et pouvaient l' être encore pendant la réunion du comité directeur .</text>
+            <annotationSet status="MANUAL" ID="22352">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18280">
+            <text>Mr Roland Castro , l' architecte de Banlieues 89 , qui a rejoint MM Dray et Mélenchon , était un chaud partisan d' une telle alliance entre les premiers , catalogués comme " anti- rocardiens primaires " , et la seconde , classée " anti- mitterrandiste primaire " , car , disait -il , " ce qui m' intéresse , c' est le primaire " .</text>
+            <annotationSet status="MANUAL" ID="22354">
+                <layer rank="1" name="FE">
+                    <label end="261" start="140" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18284">
+            <text>Cette tentative n' ayant pas abouti - Mr Mauroy estimant que les positions de Socialisme et République sur l' Europe doivent donner lieu à un débat plutôt qu' à une alliance , - Mr Chevènement a discuté avec Mr Poperen de la création d' une " aile gauche " au sein du PS , mais les conditions qu' il y a mises ont amené son interlocuteur à y renoncer .</text>
+            <annotationSet status="MANUAL" ID="22365">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="DNI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="172" start="165" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21411">
+            <text>Il élargit nos possibilités d' alliance au niveau de notre capital .</text>
+            <annotationSet status="MANUAL" ID="24806">
+                <layer rank="1" name="FE">
+                    <label end="13" start="11" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21464">
+            <text>" Dans le jeu des alliances , nous sommes incontournables .</text>
+            <annotationSet status="MANUAL" ID="24834">
+                <layer rank="1" name="FE">
+                    <label end="33" start="30" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21480">
+            <text>" Nous aurons enfin à développer des alliances d' un type nouveau pour nous .</text>
+            <annotationSet status="MANUAL" ID="24843">
+                <layer rank="1" name="FE">
+                    <label end="5" start="2" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21482">
+            <text>- Auparavant , nos alliances se nouaient autour de programmes , du développement de nouveaux produits , mais elles préservaient l' indépendance des partenaires .</text>
+            <annotationSet status="MANUAL" ID="24844">
+                <layer rank="1" name="FE">
+                    <label end="17" start="15" name="Party_1"/>
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Party_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="vouloir dire.v" ID="2606" frame="Evidence" frameID="25" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Proposition"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="24833"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Support"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="24833"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="21463">
+            <text>Nos parts de marché ne s' effritent pas , ce qui veut dire que notre gamme de produits est saine .</text>
+            <annotationSet status="MANUAL" ID="24833">
+                <layer rank="1" name="FE">
+                    <label end="38" start="0" name="Support"/>
+                    <label end="47" start="45" name="Support"/>
+                    <label end="95" start="63" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

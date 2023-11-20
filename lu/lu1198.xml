@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="arguer.v" ID="1198" frame="FR_Justifying" frameID="10037" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Sufficient_reason"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Responsible_entity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Eventuality"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="4214"/>
+                <annoSet ID="6861"/>
+                <annoSet ID="11382"/>
+                <annoSet ID="20694"/>
+                <annoSet ID="22002"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responsible_entity"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="4214"/>
+                <annoSet ID="6861"/>
+                <annoSet ID="11382"/>
+                <annoSet ID="20694"/>
+                <annoSet ID="22002"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Sufficient_reason"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Sufficient_reason"/>
+                <annoSet ID="4214"/>
+                <annoSet ID="6861"/>
+                <annoSet ID="11382"/>
+                <annoSet ID="20694"/>
+                <annoSet ID="22002"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3234">
+            <text>Les hommes politiques observent le silence en arguant de la seule compétence du CSA , ou ne versent guère de larmes .</text>
+            <annotationSet status="MANUAL" ID="4214">
+                <layer rank="1" name="FE">
+                    <label end="82" start="57" name="Sufficient_reason"/>
+                    <label end="20" start="0" name="Speaker"/>
+                    <label end="41" start="0" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4818">
+            <text>Les partenaires minoritaires d' Exor contestaient le prix proposé pour ce rachat , tandis que la Commission des opérations de bourse ( COB ) retardait l' octroi du visa de l' OPA , arguant du flou régnant autour de la structure du capital de Perrier .</text>
+            <annotationSet status="MANUAL" ID="6861">
+                <layer rank="1" name="FE">
+                    <label end="248" start="192" name="Sufficient_reason"/>
+                    <label end="139" start="94" name="Speaker"/>
+                    <label end="179" start="94" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="187" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7879">
+            <text>Car le groupe anglo - néerlandais , arguant de ses besoins futurs , rechigne à garantir la libre utilisation de la conduite pétrolière .</text>
+            <annotationSet status="MANUAL" ID="11382">
+                <layer rank="1" name="FE">
+                    <label end="64" start="47" name="Sufficient_reason"/>
+                    <label end="34" start="4" name="Speaker"/>
+                    <label end="34" start="4" name="Eventuality"/>
+                    <label end="133" start="66" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16522">
+            <text>" une analyse que ne partage pas le Fonds d' action sociale ( FAS ) qui a arrêté le financement des émissions auquel il contribuait depuis 1974 en arguant qu' elles n' étaient pas adaptées aux exigences du jeune public .</text>
+            <annotationSet status="MANUAL" ID="20694">
+                <layer rank="1" name="FE">
+                    <label end="217" start="159" name="Sufficient_reason"/>
+                    <label end="70" start="68" name="Speaker"/>
+                    <label end="217" start="33" name="Speaker"/>
+                    <label end="142" start="72" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17932">
+            <text>Certains d' entre eux ont alors rechigné , arguant que la BFCE était devenue peu à peu une banque concurrente .</text>
+            <annotationSet status="MANUAL" ID="22002">
+                <layer rank="1" name="FE">
+                    <label end="108" start="55" name="Sufficient_reason"/>
+                    <label end="20" start="0" name="Speaker"/>
+                    <label end="41" start="0" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

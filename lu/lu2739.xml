@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="constatation.n" ID="2739" frame="FR_Becoming_aware" frameID="10086" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="ins" name="Instrument"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="2315"/>
+                <annoSet ID="2317"/>
+                <annoSet ID="22293"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Instrument"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Phenomenon"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="2315"/>
+                <annoSet ID="2317"/>
+                <annoSet ID="22293"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1891">
+            <text>Ceci n' est pas un reproche adressé à la Commission , mais c' est une constatation , constatation qui provoquera plus de frictions si l' on sait que la somme de 5,5 milliards serait disponible .</text>
+            <annotationSet status="MANUAL" ID="2315">
+                <layer rank="1" name="FE">
+                    <label end="191" start="66" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1891">
+            <text>Ceci n' est pas un reproche adressé à la Commission , mais c' est une constatation , constatation qui provoquera plus de frictions si l' on sait que la somme de 5,5 milliards serait disponible .</text>
+            <annotationSet status="MANUAL" ID="2317">
+                <layer rank="1" name="FE">
+                    <label end="191" start="85" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18251">
+            <text>De la constatation , me semble -t-il , que , mis à part quelques points particuliers ( la vision européenne des amis de Jean - Pierre Chevènement , le " contrat social " de Jean Poperen , etc. ) , les textes en présence ne sont fondamentalement différents ni en ce qui concerne les grandes orientations ni en ce qui touche à l' organisation et au fonctionnement du parti lui - même .</text>
+            <annotationSet status="MANUAL" ID="22293">
+                <layer rank="1" name="FE">
+                    <label end="380" start="197" name="Phenomenon"/>
+                    <label end="380" start="3" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

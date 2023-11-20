@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Taking_sides" ID="10060" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; has a relatively fixed positive or negative point of view towards a &lt;fen&gt;Content&lt;/fen&gt;. A &lt;fen&gt;Side&lt;/fen&gt; in a debate concerning the &lt;fen&gt;Content&lt;/fen&gt; may stand in for the &lt;fen&gt;Content&lt;/fen&gt;. For all of this frame's FEEs, it may be understood in some cases that this point of view is communicated to an interlocutor (note though that the interlocutor cannot be realized locally). This is what makes this frame different from FR_Being_in_favor_of.
+
+&lt;ex&gt;FR-EX: &lt;fex name="cont"&gt;Ce raisonnement&lt;/fex&gt; est &lt;t&gt;contesté&lt;/t&gt; par &lt;fex name="cog"&gt;un certain nombre d' organisations de consommateurs&lt;/fex&gt;.&lt;/ex&gt;
+
+
+&lt;ex&gt; &lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;FR_Being_in_favor_of&lt;/frframe&gt;: FR_Being_in_favor_of only includes FEEs that can never include the meaning of this point of view being communicated to an interlocutor whereas all of FR_Taking_sides' FEEs include this possible meaning.
+&lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;FR_Expressing_truth_of_proposition&lt;/frframe&gt;: in FR_Expressing_truth_of_proposition, what is expressed concerns the veracity of the Proposition, whereas in FR_Taking_sides it concerns its legitimacy.
+&lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;Respond_to_proposal&lt;/frframe&gt;: when the &lt;fen&gt;Content&lt;/fen&gt; is explicitly a proposal/offer made by another party, the more specific Respond_to_proposal frame should be used.
+&lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;FR_Agree_or_refuse_to_act&lt;/frframe&gt;: in FR_Taking_sides, the Content may well be an action but it cannot be a future action that the Cognizer accepts to take on (this would evoke FR_Agree_or_refuse_to_act).
+&lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;FR_Awareness-opinion-certainty&lt;/frframe&gt;: the difference lies in the Cognizer having a certain level of belief in some content (FR_Awareness-opinion-certainty) versus thinking or stating his (dis)approval of or (dis)agreement with some content (FR_Taking_sides).
+    &lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;Be_in_agreement_on_assessment&lt;/frframe&gt;: in Be_in_agreement_on_assessment, two agreeing parties are necessarily locally expressed, and can be expressed as a single plural NP, whereas the FR_Taking_sides frame is used for occurrences in which either only one party is expressed.
+    &lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;Judgment&lt;/frframe&gt;, &lt;frframe&gt;FR_Judgment_communication&lt;/frframe&gt; and &lt;frframe&gt;FR_Judgment_communication_no_reason&lt;/frframe&gt;: FR_Taking_sides is about a Cognizer mentally accepting or refusing some Content's (or some Side's) legitimacy, and potentially verbalizing that stance, whereas the Judgment frames are about assessing the Evaluee's value as positive or negative, and in the case of FR_Judgment_communication verbalizing it. Moreover, the Judgment frames' Evaluee can be a sentient being, whereas that is not the case for every FEE in FR_Taking_sides. Another difference is that for the Judgment frames (except for FR_Judgment_communication_no_reason), a Reason can be expressed locally on top of the Evaluee (blame Evaluee for Reason) whereas FR_Taking_sides' FEEs do not allow for that Reason to be locally expressed, and thus no Reason FE is needed for that frame.
+
+&lt;ex&gt;&lt;/ex&gt;
+    
+≠ &lt;frframe&gt;FR_Attempt_suasion.legitimacy&lt;/frframe&gt;: FR_Attempt_suasion.legitimacy's LUs lexically entail the idea of the Persuader wanting to convince an Addressee of the legitimacy of the State_of_affairs. This is not the case for FR_Taking_sides, in which, unlike FR_Attempt_suasion.legitimacy's, the LUs do not all allow for a locally realized Addressee.
+    
+    &lt;ex&gt; &lt;/ex&gt;
+≠ &lt;frframe&gt;Complaining&lt;/frframe&gt;: Complaining's LUs all imply that the Complainer verbally communicates their point of view whereas FR_Taking_sides' LUs do not. Moreover, Complaining's LUs all imply that the Complainer's point of view is negative  whereas in FR_Taking_sides, the point of view can be either positive or negative.
+    &lt;ex&gt; &lt;/ex&gt;
+
+    
+        &lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : this frame results from a modification of fndata-1.5's Taking_sides frame : the two FEs Issue and Action were merged into a single Content FE; the new frame includes LUs which do not allow the local realization of the "Side" FE (accepter, refuser...). All FEEs of FR_Taking_sides can contain the idea of the point of view being communicated to an Interlocutor (not realized locally).
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="01/19/2005 01:32:20 PST Wed" abbrev="cog" name="Cognizer" ID="7433">
+        <definition>&lt;def-root&gt;The individual that holds an opinion on a &lt;fen&gt;Content&lt;/fen&gt; or Side.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="01/19/2005 01:33:21 PST Wed" abbrev="cont" name="Content" ID="7434">
+        <definition>&lt;def-root&gt;The matter, usually concerning a course of action, which the &lt;fen&gt;Cognizer&lt;/fen&gt; has a positive or negative opinion about.&lt;/def-root&gt;</definition>
+	<excludesFE name="Side" ID="7435"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="01/19/2005 01:35:33 PST Wed" abbrev="sid" name="Side" ID="7435">
+        <definition>&lt;def-root&gt;The party or individual (generally associated with a particular position on a &lt;fen&gt;Content&lt;/fen&gt;) that the &lt;fen&gt;Cognizer&lt;/fen&gt; sides with.&lt;/def-root&gt;</definition>
+	<excludesFE name="Content" ID="7434"/>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/17/2001 03:05:17 PDT Tue" abbrev="Text" name="Medium" ID="1520">
+        <definition>&lt;def-root&gt;The written or spoken material that contains the message, in case of clear communication.
+&lt;ex&gt;FR-EX: &lt;fex name="Medium"&gt;Le rapport&lt;/fex&gt; &lt;t&gt;accepte&lt;/t&gt; le principe de l'alternance.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    </FE>
+        <FEcoreSet>
+        <memberFE name="Cognizer" ID="7433"/>
+        <memberFE name="Medium" ID="1520"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Side" ID="7435"/>
+        <memberFE name="Content" ID="7434"/>
+    </FEcoreSet>
+    <frameRelation type="Communicates">
+        <relatedFrame>FR_Being_in_favor_of</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Expressing_stance</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Expressing_decision</relatedFrame>
+        <relatedFrame>FR_Expressing_side</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Taking_sides</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="acceptation.n" ID="1632" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="780" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="729" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="100011" annotatedsent="0"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2422" annotatedsent="0"/>
+        <otherlexUnit framename="Ratification" ID="2263" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="accepter.v" ID="1633" nbocc="97" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="33"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="781" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="730" annotatedsent="41"/>
+        <otherlexUnit framename="Other_sense" ID="100012" annotatedsent="4"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2423" annotatedsent="11"/>
+        <otherlexUnit framename="Ratification" ID="2264" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="n" name="contestation.n" ID="1637" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100421" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Expressing_truth_of_proposition" ID="1545" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="contester.v" ID="1638" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="21"/>
+        <otherlexUnit framename="Other_sense" ID="100422" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Expressing_truth_of_proposition" ID="1546" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="déplorer.v" ID="1905" nbocc="13" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="100720" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="reconnaissance.n" ID="2682" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101565" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2458" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Expressing_decision" ID="2680" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="reconnaître.v" ID="2681" nbocc="93" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101566" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1595" annotatedsent="74"/>
+        <otherlexUnit framename="FR_Expressing_decision" ID="1089" annotatedsent="13"/>
+    </lexUnit>
+    <lexUnit POS="n" name="refus.n" ID="1644" nbocc="37" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="734" annotatedsent="28"/>
+        <otherlexUnit framename="Other_sense" ID="101579" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="429" annotatedsent="1"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2425" annotatedsent="6"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2591" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="refuser.v" ID="1645" nbocc="99" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="18"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="735" annotatedsent="47"/>
+        <otherlexUnit framename="Other_sense" ID="101580" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="430" annotatedsent="3"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2426" annotatedsent="8"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2592" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="regretter.v" ID="2675" nbocc="30" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="25"/>
+        <otherlexUnit framename="Other_sense" ID="102108" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="n" name="rejet.n" ID="1646" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101582" annotatedsent="0"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2427" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rejeter.v" ID="1647" nbocc="43" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101583" annotatedsent="9"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2428" annotatedsent="18"/>
+    </lexUnit>
+    <lexUnit POS="n" name="récusation.n" ID="1648" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="récuser.v" ID="1649" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="736" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="101662" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'indigner.v" ID="2685" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'insurger.v" ID="393" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101722" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'opposer.v" ID="1640" nbocc="34" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="27"/>
+        <otherlexUnit framename="Other_sense" ID="101723" annotatedsent="7"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="99" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'élever.v" ID="1641" nbocc="65" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="101728" annotatedsent="58"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se désoler.v" ID="394" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se féliciter.v" ID="1964" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="25"/>
+        <otherlexUnit framename="Other_sense" ID="101769" annotatedsent="0"/>
+    </lexUnit>
+</frame>

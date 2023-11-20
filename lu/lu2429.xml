@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="repousser.v" ID="2429" frame="Respond_to_proposal" frameID="1623" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="int" name="Interlocutor"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Interlocutor"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Interlocutor"/>
+                <annoSet ID="9570"/>
+                <annoSet ID="10098"/>
+                <annoSet ID="16807"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Proposal"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="9570"/>
+                <annoSet ID="10098"/>
+                <annoSet ID="16807"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="9570"/>
+                <annoSet ID="10098"/>
+                <annoSet ID="16807"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6400">
+            <text>" Nous repousserons les offres de nos partenaires , et ne baisserons nos taux d' intérêt que lorsque les conditions économiques le permettront " , a déclaré par avance le gouvernement allemand .</text>
+            <annotationSet status="MANUAL" ID="9570">
+                <layer rank="1" name="FE">
+                    <label end="48" start="34" name="Interlocutor"/>
+                    <label end="48" start="20" name="Proposal"/>
+                    <label end="5" start="2" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6780">
+            <text>Quant aux directions , elles continuent à repousser l' UAW qui souhaite partager certains choix stratégiques , en particulier celui des fournisseurs , ceux - ci étant bien souvent dépourvus de section syndicale .</text>
+            <annotationSet status="MANUAL" ID="10098">
+                <layer rank="1" name="FE">
+                    <label end="209" start="52" name="Interlocutor"/>
+                    <label end="209" start="72" name="Proposal"/>
+                    <label end="19" start="10" name="Speaker"/>
+                    <label end="27" start="23" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12471">
+            <text>Ce qui est loin du compte , d' autant que le premier ministre avait déjà repoussé la demande des partenaires sociaux qui souhaitaient l' affectation à l' UNEDIC de la contribution de solidarité des fonctionnaires ( 4 , 7 milliards de francs ) .</text>
+            <annotationSet status="MANUAL" ID="16807">
+                <layer rank="1" name="FE">
+                    <label end="241" start="97" name="Interlocutor"/>
+                    <label end="241" start="82" name="Proposal"/>
+                    <label end="60" start="42" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

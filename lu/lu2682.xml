@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="reconnaissance.n" ID="2682" frame="FR_Taking_sides" frameID="10060" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="19843"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Content"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Side"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Side"/>
+                <annoSet ID="19843"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15645">
+            <text>" Une tendance d' autant plus vive que la profession dans son ensemble est encore à la recherche de reconnaissance sociale ( 2 ) , quand ce n' est pas d' un statut .</text>
+            <annotationSet status="MANUAL" ID="19843">
+                <layer rank="1" name="FE">
+                    <label end="121" start="115" name="Cognizer"/>
+                    <label end="51" start="39" name="Side"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

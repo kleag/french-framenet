@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="parler.v" ID="953" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Interlocutor_1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutor_1"/>
+                <annoSet ID="20811"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Interlocutor_2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutor_2"/>
+                <annoSet ID="20811"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Interlocutors"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="22147"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="22147"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="16615">
+            <text>Hors de lui : je veux plus parler avec toi , compris .</text>
+            <annotationSet status="MANUAL" ID="20811">
+                <layer rank="1" name="FE">
+                    <label end="41" start="39" name="Interlocutor_2"/>
+                    <label end="15" start="14" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18121">
+            <text>À quoi bon instaurer la démocratie si l' agora où les gens se parlent est un terrain vague invivable ?</text>
+            <annotationSet status="MANUAL" ID="22147">
+                <layer rank="1" name="FE">
+                    <label end="57" start="50" name="Interlocutors"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

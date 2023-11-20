@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="solliciter.v" ID="2410" frame="FR_Request" frameID="10082" totalAnnotated="17" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Requested_entity"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="17">
+            <FE name="Addressee"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="3495"/>
+                <annoSet ID="5487"/>
+                <annoSet ID="5519"/>
+                <annoSet ID="7731"/>
+                <annoSet ID="9224"/>
+                <annoSet ID="16773"/>
+                <annoSet ID="17018"/>
+                <annoSet ID="17153"/>
+                <annoSet ID="18201"/>
+                <annoSet ID="20258"/>
+                <annoSet ID="20270"/>
+                <annoSet ID="20661"/>
+                <annoSet ID="22864"/>
+                <annoSet ID="22882"/>
+                <annoSet ID="22921"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="2118"/>
+                <annoSet ID="12692"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Eventuality"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="2118"/>
+                <annoSet ID="3495"/>
+                <annoSet ID="9224"/>
+                <annoSet ID="12692"/>
+                <annoSet ID="16773"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Eventuality"/>
+                <annoSet ID="5487"/>
+                <annoSet ID="5519"/>
+                <annoSet ID="17018"/>
+                <annoSet ID="17153"/>
+                <annoSet ID="18201"/>
+                <annoSet ID="20258"/>
+                <annoSet ID="20661"/>
+                <annoSet ID="22864"/>
+                <annoSet ID="22882"/>
+                <annoSet ID="22921"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Requested_entity"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Requested_entity"/>
+                <annoSet ID="7731"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Speaker"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2118"/>
+                <annoSet ID="3495"/>
+                <annoSet ID="5519"/>
+                <annoSet ID="7731"/>
+                <annoSet ID="9224"/>
+                <annoSet ID="12692"/>
+                <annoSet ID="17153"/>
+                <annoSet ID="18201"/>
+                <annoSet ID="20270"/>
+                <annoSet ID="22864"/>
+                <annoSet ID="22882"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="5487"/>
+                <annoSet ID="16773"/>
+                <annoSet ID="17018"/>
+                <annoSet ID="20258"/>
+                <annoSet ID="20661"/>
+                <annoSet ID="22921"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="20270"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1807">
+            <text>Je sais , Madame la Présidente , que vous êtes déjà intervenue pour solliciter la présence au procès d' une délégation du Parlement européen , à la demande de certains députés .</text>
+            <annotationSet status="MANUAL" ID="2118">
+                <layer rank="1" name="FE">
+                    <label end="40" start="37" name="Speaker"/>
+                    <label end="29" start="10" name="Speaker"/>
+                    <label end="139" start="79" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2671">
+            <text>Il est accusé d' avoir voulu soutirer une importante somme d' argent au conseiller général des Hauts-de-Seine , Didier Schuller , menacé par l' enquête , pour solliciter la clémence de son gendre .</text>
+            <annotationSet status="MANUAL" ID="3495">
+                <layer rank="1" name="FE">
+                    <label end="194" start="185" name="Addressee"/>
+                    <label end="1" start="0" name="Speaker"/>
+                    <label end="194" start="170" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="168" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3964">
+            <text>Pour jouer son rôle d' intermédiaire , la banque sollicitée de la sorte doit d' abord trouver un emprunteur .</text>
+            <annotationSet status="MANUAL" ID="5487">
+                <layer rank="1" name="FE">
+                    <label end="47" start="39" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3984">
+            <text>Aegon , pour sa part , n' avait jamais auparavant sollicité le compartiment du franc et il est probable que sans cela il ne l' aurait pas encore fait .</text>
+            <annotationSet status="MANUAL" ID="5519">
+                <layer rank="1" name="FE">
+                    <label end="83" start="60" name="Addressee"/>
+                    <label end="4" start="0" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5327">
+            <text>En treize années de pouvoir , les gouvernements conservateurs successifs n' ont guère sollicité les avis des partenaires sociaux pour opérer , grâce à une politique de privatisations systématique , une séparation de plus en plus prononcée entre l' Etat et le marché .</text>
+            <annotationSet status="MANUAL" ID="7731">
+                <layer rank="1" name="FE">
+                    <label end="127" start="109" name="Addressee"/>
+                    <label end="71" start="30" name="Speaker"/>
+                    <label end="127" start="96" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6200">
+            <text>Les légumiers bretons , touchés par la mévente de leurs produits , ont sollicité des pouvoirs publics français et des instances communautaires " la mise en place d' un calendrier d' importations en provenance des pays tiers [ surtout le Maroc ] et la compensation intégrale des prix pour les fruits et légumes victimes de la réforme de la PAC " .</text>
+            <annotationSet status="MANUAL" ID="9224">
+                <layer rank="1" name="FE">
+                    <label end="112" start="85" name="Addressee"/>
+                    <label end="143" start="118" name="Addressee"/>
+                    <label end="63" start="0" name="Speaker"/>
+                    <label end="343" start="145" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8882">
+            <text>L' ancien patron d' Adidas devrait solliciter le renouvellement de son mandat de député .</text>
+            <annotationSet status="MANUAL" ID="12692">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Speaker"/>
+                    <label end="86" start="46" name="Eventuality"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12431">
+            <text>La COB rappelle que le public français ne peut être sollicité pour des opérations sur des titres étrangers que " lorsque les marchés concernés ont été reconnus par le ministre de l' économie et des finances après avis de la COB</text>
+            <annotationSet status="MANUAL" ID="16773">
+                <layer rank="1" name="FE">
+                    <label end="37" start="20" name="Addressee"/>
+                    <label end="105" start="67" name="Eventuality"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12667">
+            <text>les trois quarts des sondés considèrent que leurs relations avec les entreprises ont changé depuis cinq ans , et ils citent comme premier facteur de ces changements l' ambiguïté du rôle de journaliste , plus sollicité qu' il n' est demandeur .</text>
+            <annotationSet status="MANUAL" ID="17018">
+                <layer rank="1" name="FE">
+                    <label end="201" start="189" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="216" start="208" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12790">
+            <text>Elle a été favorisée par plusieurs éléments , parmi lesquels l' arrêt de la chute des cours de la Bourse de Tokyo a joué un rôle non négligeable en permettant à de nombreuses entreprises japonaises de recommencer à solliciter le marché international en émettant des obligations munies de bons d' acquisition d' actions .</text>
+            <annotationSet status="MANUAL" ID="17153">
+                <layer rank="1" name="FE">
+                    <label end="248" start="226" name="Addressee"/>
+                    <label end="196" start="161" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="224" start="215" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13882">
+            <text>Sur le front des émissions , les augmentations de capital par appel au public ont à nouveau fléchi en raison du marasme de la Bourse , qui n' a guère incité les sociétés à solliciter leurs actionnaires .</text>
+            <annotationSet status="MANUAL" ID="18201">
+                <layer rank="1" name="FE">
+                    <label end="200" start="183" name="Addressee"/>
+                    <label end="168" start="157" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="181" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16097">
+            <text>Moins cher , le 19 devrait être plus sollicité .</text>
+            <annotationSet status="MANUAL" ID="20258">
+                <layer rank="1" name="FE">
+                    <label end="17" start="13" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16113">
+            <text>Sollicité par l' Etat pour tout ce qui concerne la filière électronique , France Télécom a , au fil des ans , réussi à limiter son engagement dans Bull .</text>
+            <annotationSet status="MANUAL" ID="20270">
+                <layer rank="1" name="FE">
+                    <label end="70" start="27" name="Topic"/>
+                    <label end="87" start="74" name="Addressee"/>
+                    <label end="20" start="14" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16461">
+            <text>Même les politiciens - le premier ministre , Süleyman Demirel , et le président Ozal en particulier - ont été sollicités et y sont allés de leurs commentaires .</text>
+            <annotationSet status="MANUAL" ID="20661">
+                <layer rank="1" name="FE">
+                    <label end="100" start="5" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18766">
+            <text>La dernière opération d' EDF montre combien il est précieux pour un emprunteur de qualité , qui sollicite de façon régulière le marché des capitaux , de disposer de lignes d' emprunts qu' on peut rouvrir et augmenter en fonction de ses besoins .</text>
+            <annotationSet status="MANUAL" ID="22864">
+                <layer rank="1" name="FE">
+                    <label end="146" start="125" name="Addressee"/>
+                    <label end="94" start="92" name="Speaker"/>
+                    <label end="148" start="65" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18784">
+            <text>Sa prochaine émission devrait être lancée sur le marché national et non sur l' euromarché , la Banque européenne étant un des rares émetteurs internationaux autorisés à solliciter les deux compartiments des emprunts en francs .</text>
+            <annotationSet status="MANUAL" ID="22882">
+                <layer rank="1" name="FE">
+                    <label end="224" start="180" name="Addressee"/>
+                    <label end="155" start="126" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="169" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18842">
+            <text>Les particuliers , insuffisamment sollicités " en direct " , c' est - à - dire sans passer par les sicav d' obligations , restent très friands d' obligations à rendement élevé comme celles de la CNT .</text>
+            <annotationSet status="MANUAL" ID="22921">
+                <layer rank="1" name="FE">
+                    <label end="17" start="0" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

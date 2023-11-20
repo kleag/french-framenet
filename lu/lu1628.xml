@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="apprendre.v" ID="1628" frame="FR_Suasion.veracity" frameID="10059" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="006400" bgColor="FFFF00" type="Core" abbrev="Text" name="Text"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="8611"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="8611"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Persuader"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Text"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7667">
+            <text>Nous le leur apprendrons . "</text>
+            <annotationSet status="MANUAL" ID="8611">
+                <layer rank="1" name="FE">
+                    <label end="6" start="5" name="Content"/>
+                    <label end="3" start="0" name="Cognizer"/>
+                    <label end="11" start="8" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

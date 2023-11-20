@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="NA" name="All annotations of frame FR_Contacting" ID="FR_Contacting" frame="FR_Contacting" frameID="10014" totalAnnotated="39" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Address" name="Address"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Topic" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Address"/>
+        </FERealization>
+        <FERealization total="37">
+            <FE name="Addressee"/>
+            <pattern total="36">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="280"/>
+                <annoSet ID="19940"/>
+                <annoSet ID="495"/>
+                <annoSet ID="5945"/>
+                <annoSet ID="21501"/>
+                <annoSet ID="1134"/>
+                <annoSet ID="7102"/>
+                <annoSet ID="7356"/>
+                <annoSet ID="8022"/>
+                <annoSet ID="15076"/>
+                <annoSet ID="15115"/>
+                <annoSet ID="20045"/>
+                <annoSet ID="21930"/>
+                <annoSet ID="23046"/>
+                <annoSet ID="23549"/>
+                <annoSet ID="416"/>
+                <annoSet ID="696"/>
+                <annoSet ID="1095"/>
+                <annoSet ID="1182"/>
+                <annoSet ID="1458"/>
+                <annoSet ID="2819"/>
+                <annoSet ID="5653"/>
+                <annoSet ID="13662"/>
+                <annoSet ID="15077"/>
+                <annoSet ID="16060"/>
+                <annoSet ID="18538"/>
+                <annoSet ID="3594"/>
+                <annoSet ID="7359"/>
+                <annoSet ID="15078"/>
+                <annoSet ID="5252"/>
+                <annoSet ID="6675"/>
+                <annoSet ID="7087"/>
+                <annoSet ID="7310"/>
+                <annoSet ID="11621"/>
+                <annoSet ID="16683"/>
+                <annoSet ID="23242"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="18927"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="35">
+            <FE name="Communicator"/>
+            <pattern total="27">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="495"/>
+                <annoSet ID="21501"/>
+                <annoSet ID="7102"/>
+                <annoSet ID="7356"/>
+                <annoSet ID="8022"/>
+                <annoSet ID="8825"/>
+                <annoSet ID="12329"/>
+                <annoSet ID="15076"/>
+                <annoSet ID="15115"/>
+                <annoSet ID="20045"/>
+                <annoSet ID="23046"/>
+                <annoSet ID="23549"/>
+                <annoSet ID="416"/>
+                <annoSet ID="1182"/>
+                <annoSet ID="2819"/>
+                <annoSet ID="5653"/>
+                <annoSet ID="15077"/>
+                <annoSet ID="18538"/>
+                <annoSet ID="7359"/>
+                <annoSet ID="15078"/>
+                <annoSet ID="5252"/>
+                <annoSet ID="6675"/>
+                <annoSet ID="7087"/>
+                <annoSet ID="7310"/>
+                <annoSet ID="11621"/>
+                <annoSet ID="16683"/>
+                <annoSet ID="23242"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="19940"/>
+                <annoSet ID="18927"/>
+                <annoSet ID="5945"/>
+                <annoSet ID="1134"/>
+                <annoSet ID="696"/>
+                <annoSet ID="1095"/>
+                <annoSet ID="1458"/>
+                <annoSet ID="13662"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Purpose"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Purpose"/>
+                <annoSet ID="21501"/>
+                <annoSet ID="7102"/>
+                <annoSet ID="1458"/>
+                <annoSet ID="7359"/>
+                <annoSet ID="5252"/>
+                <annoSet ID="6675"/>
+                <annoSet ID="7087"/>
+                <annoSet ID="7310"/>
+                <annoSet ID="16683"/>
+                <annoSet ID="23242"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Purpose"/>
+                <annoSet ID="19940"/>
+                <annoSet ID="495"/>
+                <annoSet ID="18927"/>
+                <annoSet ID="5945"/>
+                <annoSet ID="11621"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="280"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="233">
+            <text>Dans la nuit de dimanche à lundi , peu après minuit , les services de police de Montbéliard reçoivent un appel téléphonique les informant qu' une rixe est en train de dégénérer , place Ferrer , à Montbéliard .</text>
+            <annotationSet status="MANUAL" ID="280">
+                <layer rank="1" name="FE">
+                    <label end="206" start="124" name="Topic"/>
+                    <label end="90" start="54" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15755">
+            <text>En revanche , ils ne sont que 45 , 9 % à s' offusquer de l' utilisation d' un test graphologique et estiment acceptable , dans certains cas , les tests de coefficient intellectuel ( 47 , 1 % ) , les tests psychologiques ( 46 , 1 % ) ou l' appel téléphonique à l' employeur précédent ( 48 , 4 % ) .</text>
+            <annotationSet status="MANUAL" ID="19940">
+                <layer rank="1" name="FE">
+                    <label end="281" start="260" name="Addressee"/>
+                    <label itype="DNI" name="Communicator"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="256" start="239" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="379">
+            <text>Dans un premier temps , les policiers qui ont reçu l' appel de la famille inquiète , ont envoyé plusieurs patrouilles dans le quartier .</text>
+            <annotationSet status="MANUAL" ID="495">
+                <layer rank="1" name="FE">
+                    <label end="81" start="63" name="Communicator"/>
+                    <label end="81" start="24" name="Addressee"/>
+                    <label end="40" start="38" name="Addressee"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14609">
+            <text>L' opérateur britannique fait par ailleurs son entrée à hauteur de 20 % dans le capital de MCI , qui détient 18 % du marché américain des appels longue distance .</text>
+            <annotationSet status="MANUAL" ID="18927">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Communicator"/>
+                    <label itype="UNI" name="Addressee"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4237">
+            <text>Aujourd' hui , si l' image que vous voyez n' est pas conforme , aux dégradations du transport près , à celle issue de " Cognacq - Jay " ou de tout autre lieu historique , c' est le signe qu' il faut appeler un réparateur .</text>
+            <annotationSet status="MANUAL" ID="5945">
+                <layer rank="1" name="FE">
+                    <label end="219" start="207" name="Addressee"/>
+                    <label itype="UNI" name="Communicator"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="205" start="199" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17442">
+            <text>Faisant contre mauvaise fortune bon coeur , l' amiral Higgins a alors appelé au téléphone les journalistes britanniques pour les délier de leurs engagements .</text>
+            <annotationSet status="MANUAL" ID="21501">
+                <layer rank="1" name="FE">
+                    <label end="60" start="44" name="Communicator"/>
+                    <label end="118" start="90" name="Addressee"/>
+                    <label end="155" start="125" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1098">
+            <text>Pour toute information complémentaire concernant ce médicament , veuillez prendre contact avec le représentant local du titulaire de l' autorisation de mise sur le marché .</text>
+            <annotationSet status="MANUAL" ID="1134">
+                <layer rank="1" name="FE">
+                    <label end="169" start="95" name="Addressee"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4940">
+            <text>La Fininvest précise aussi avoir " pris contact avec les autorités compétentes " afin de " discuter dans un esprit constructif des modalités techniques et juridiques permettant de maintenir la Cinq dans le panorama audiovisuel français " .</text>
+            <annotationSet status="MANUAL" ID="7102">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Communicator"/>
+                    <label end="79" start="53" name="Addressee"/>
+                    <label end="236" start="89" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5096">
+            <text>Tout un dispositif a donc été imaginé pour que chacun puisse connaître à tout moment les postes disponibles dans les sociétés du groupe et la personne à joindre pour un premier contact confidentiel .</text>
+            <annotationSet status="MANUAL" ID="7356">
+                <layer rank="1" name="FE">
+                    <label end="52" start="47" name="Communicator"/>
+                    <label end="149" start="139" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="183" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5515">
+            <text>Nous allons prendre des contacts européens pour envisager la suite " .</text>
+            <annotationSet status="MANUAL" ID="8022">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Communicator"/>
+                    <label end="41" start="33" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5952">
+            <text>Ce voyage de M. Dominique Strauss - Kahn a également été l' occasion de promouvoir l' industrie française , qui pourrait nouer des contacts ou offrir ses compétences dans les domaines des gros porteurs , du transport aérien militaire et des lanceurs de satellites ( Aérospatiale ) de l' équipement aéronautique ( Aéroports de Paris ) , du téléphone ( Alcatel ) et de l' énergie nucléaire ( Cogema , Cegelec , Framatome , Merlin - Gérin , Bouygues ) .</text>
+            <annotationSet status="MANUAL" ID="8825">
+                <layer rank="1" name="FE">
+                    <label end="110" start="108" name="Communicator"/>
+                    <label end="447" start="83" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8651">
+            <text>Depuis quelques jours , M. Tapie - qui ne cachait plus en privé son intention de céder la marque allemande , - multipliait les contacts et distillait des confidences sur des repreneurs potentiels .</text>
+            <annotationSet status="MANUAL" ID="12329">
+                <layer rank="1" name="FE">
+                    <label end="105" start="24" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10838">
+            <text>Aussi , en pleine crise , ils ne jugent pas utile de reprendre directement contact avec Londres .</text>
+            <annotationSet status="MANUAL" ID="15076">
+                <layer rank="1" name="FE">
+                    <label end="28" start="26" name="Communicator"/>
+                    <label end="94" start="88" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10882">
+            <text>Pour décider de ses positions , George Soros , spéculateur américain d' origine hongroise , prend , depuis New - York , directement contact avec un membre du cabinet de M. Bérégovoy .</text>
+            <annotationSet status="MANUAL" ID="15115">
+                <layer rank="1" name="FE">
+                    <label end="88" start="32" name="Communicator"/>
+                    <label end="180" start="145" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15877">
+            <text>Il saura se rattraper sous la cohabitation , ferraillant avec professionnalisme contre le gouvernement Chirac , suivant de près le jeu délétère d' alors - affaires contre affaires , - et n' hésitant pas à multiplier les contacts avec les journalistes .</text>
+            <annotationSet status="MANUAL" ID="20045">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Communicator"/>
+                    <label end="249" start="234" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="227" start="220" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17859">
+            <text>En juin 1988 , un contact est noué avec la société danoise European Alligator Institute ( EAI ) , qui , à l' époque , a élaboré un projet d' élevage d' alligators dans le sud de l' Espagne .</text>
+            <annotationSet status="MANUAL" ID="21930">
+                <layer rank="1" name="FE">
+                    <label end="187" start="40" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18989">
+            <text>Ses contacts avec des avocats du barreau de Damas et le projet de tenir une conférence de presse commune sur le thème de l' extradition des criminels de guerre nazis ont également échoué , en raison de son interpellation , jeudi soir , à son hôtel .</text>
+            <annotationSet status="MANUAL" ID="23046">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Communicator"/>
+                    <label end="48" start="18" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19726">
+            <text>Ingar et Birgitta , les deux jeunes assistantes sociales qui travaillent là en permanence , les conseillent , les aident à entrer en contact avec les autorités sociales de la commune ou , le plus souvent , leur paient le billet de retour .</text>
+            <annotationSet status="MANUAL" ID="23549">
+                <layer rank="1" name="FE">
+                    <label end="112" start="110" name="Communicator"/>
+                    <label end="181" start="146" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="326">
+            <text>Par téléphone , il contactait divers hôtels du secteur pouvant accueillir les éventuels sinistrés .</text>
+            <annotationSet status="MANUAL" ID="416">
+                <layer rank="1" name="FE">
+                    <label end="17" start="16" name="Communicator"/>
+                    <label end="96" start="30" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="532">
+            <text>Pour plus d' informations sur votre condition ou votre traitement , veuillez consulter la notice ( également comprise dans l' EPAR ) ou contacter votre médecin ou votre pharmacien .</text>
+            <annotationSet status="MANUAL" ID="696">
+                <layer rank="1" name="FE">
+                    <label end="178" start="146" name="Addressee"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1049">
+            <text>Pour toutes questions supplémentaires quant à l' utilisation de ce produit , contacter votre médecin .</text>
+            <annotationSet status="MANUAL" ID="1095">
+                <layer rank="1" name="FE">
+                    <label end="99" start="87" name="Addressee"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1157">
+            <text>Des kits similaires seront fournis aux patients afin de préciser les effets indésirables du médicament et les cas dans lesquels ils doivent contacter leur médecin .</text>
+            <annotationSet status="MANUAL" ID="1182">
+                <layer rank="1" name="FE">
+                    <label end="130" start="128" name="Communicator"/>
+                    <label end="161" start="150" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="148" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1463">
+            <text>Si vous manquez l' administration d' une dose d' Aclasta Contactez dès que possible votre médecin ou l' hôpital pour planifier un nouveau rendez-vous .</text>
+            <annotationSet status="MANUAL" ID="1458">
+                <layer rank="1" name="FE">
+                    <label end="110" start="84" name="Addressee"/>
+                    <label end="148" start="117" name="Purpose"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2129">
+            <text>Dès la fin de la guerre , la veuve de Théophile Maupas , soutenue par la Ligue des droits de l' Homme contactée dès le mois d' avril 1915 , entama un combat pour la réhabilitation de son époux et des autres caporaux fusillés de Souain ;</text>
+            <annotationSet status="MANUAL" ID="2819">
+                <layer rank="1" name="FE">
+                    <label end="53" start="26" name="Communicator"/>
+                    <label end="100" start="70" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4065">
+            <text>Alerté par notre courrier , Pierre Grimblat nous a contactés " .</text>
+            <annotationSet status="MANUAL" ID="5653">
+                <layer rank="1" name="FE">
+                    <label end="42" start="28" name="Communicator"/>
+                    <label end="47" start="44" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9691">
+            <text>" avant d' acheter , même un parking , il est impératif de vérifier l' état de l' immeuble , de contacter le syndic et d' éplucher le règlement de copropriété " , conseille Gilles Oury , notaire chargé de la conjoncture à la chambre des notaires .</text>
+            <annotationSet status="MANUAL" ID="13662">
+                <layer rank="1" name="FE">
+                    <label end="114" start="106" name="Addressee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10839">
+            <text>Le chancelier Kohl ne téléphonera pas ce week - end au premier ministre , John Major , le ministre allemand des finances , Theo Waigel , ne contactera pas son homologue , Norman Lamont .</text>
+            <annotationSet status="MANUAL" ID="15077">
+                <layer rank="1" name="FE">
+                    <label end="135" start="87" name="Communicator"/>
+                    <label end="183" start="155" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11698">
+            <text>Les responsables monétaires allemands , également présents à Washington , sont contactés .</text>
+            <annotationSet status="MANUAL" ID="16060">
+                <layer rank="1" name="FE">
+                    <label end="70" start="0" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14201">
+            <text>" L' équipe contacte des employeurs dont on sait qu' ils vont embaucher , explique Hervé Barré , et leur propose de commencer à préparer des candidats du plan aux emplois . "</text>
+            <annotationSet status="MANUAL" ID="18538">
+                <layer rank="1" name="FE">
+                    <label end="10" start="2" name="Communicator"/>
+                    <label end="70" start="21" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2760">
+            <text>- 1er février 1995 : Éric Halphen reçoit à son cabinet un coup de fil anonyme .</text>
+            <annotationSet status="MANUAL" ID="3594">
+                <layer rank="1" name="FE">
+                    <label end="32" start="21" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5096">
+            <text>Tout un dispositif a donc été imaginé pour que chacun puisse connaître à tout moment les postes disponibles dans les sociétés du groupe et la personne à joindre pour un premier contact confidentiel .</text>
+            <annotationSet status="MANUAL" ID="7359">
+                <layer rank="1" name="FE">
+                    <label end="52" start="47" name="Communicator"/>
+                    <label end="149" start="139" name="Addressee"/>
+                    <label end="196" start="166" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="153" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10839">
+            <text>Le chancelier Kohl ne téléphonera pas ce week - end au premier ministre , John Major , le ministre allemand des finances , Theo Waigel , ne contactera pas son homologue , Norman Lamont .</text>
+            <annotationSet status="MANUAL" ID="15078">
+                <layer rank="1" name="FE">
+                    <label end="17" start="0" name="Communicator"/>
+                    <label end="83" start="55" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3816">
+            <text>Un comité de défense de la Cinq , formé par l' intersyndicale et la société des journalistes , a écrit au président de la République , au premier ministre , aux présidents du Sénat et de l' Assemblée nationale et à différents ministres pour leur demander d' accorder des dérogations provisoires à la chaîne , sous le contrôle du Conseil supérieur de l' audiovisuel , afin de lui permettre de survivre .</text>
+            <annotationSet status="MANUAL" ID="5252">
+                <layer rank="1" name="FE">
+                    <label end="91" start="0" name="Communicator"/>
+                    <label end="133" start="106" name="Addressee"/>
+                    <label end="155" start="138" name="Addressee"/>
+                    <label end="211" start="161" name="Addressee"/>
+                    <label end="234" start="215" name="Addressee"/>
+                    <label end="399" start="241" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4721">
+            <text>M. Charles Pasqua , président ( RPR ) du conseil général des Hauts - de - Seine , a écrit , mercredi 15 janvier , " à l' ensemble des présidents des conseils régionaux et généraux et aux maires de grandes villes pour leur proposer de créer ensemble une société d' économie mixte " ( SEM ) susceptible " de s' associer avec des partenaires publics ou privés à un plan de reprise de la Cinq " , qui deviendrait une " grande chaîne nationale et régionale " .</text>
+            <annotationSet status="MANUAL" ID="6675">
+                <layer rank="1" name="FE">
+                    <label end="78" start="0" name="Communicator"/>
+                    <label end="181" start="118" name="Addressee"/>
+                    <label end="210" start="187" name="Addressee"/>
+                    <label end="452" start="217" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4937">
+            <text>Créant une première surprise , M. Charles Pasqua , président ( RPR ) du conseil général des Hauts - de - Seine , indiquait mercredi 15 janvier dans la matinée qu' il avait écrit aux présidents des conseils généraux et régionaux et aux maires des grandes villes de France afin de créer une société d' économie mixte ( SEM ) , susceptible de " s' associer avec des partenaires publics ou privés à un plan de reprise de la Cinq " ( nos dernières éditions du 16 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="7087">
+                <layer rank="1" name="FE">
+                    <label end="164" start="163" name="Communicator"/>
+                    <label end="109" start="31" name="Communicator"/>
+                    <label end="229" start="182" name="Addressee"/>
+                    <label end="269" start="235" name="Addressee"/>
+                    <label end="425" start="279" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="176" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5068">
+            <text>Un de nos lecteurs , retraité et polytechnicien , a écrit à l' URSSAF pour faire remarquer que calculer les cotisations à partir du salaire net ( après déduction des cotisations salariales ) en ignorant complètement le salaire brut n' était sans doute pas la meilleure façon de procéder .</text>
+            <annotationSet status="MANUAL" ID="7310">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Communicator"/>
+                    <label end="68" start="60" name="Addressee"/>
+                    <label end="285" start="75" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8078">
+            <text>" Membre du jury , j' ai été frappé par la qualité des nouveaux étudiants " , se félicite Xavier de Boishebert , qui cite le cas d' une jeune fille préparant son BTS qui , dans une enquête ayant pour objet la promotion de la France aux Etats - Unis , avait écrit à 400 universités américaines .</text>
+            <annotationSet status="MANUAL" ID="11621">
+                <layer rank="1" name="FE">
+                    <label end="168" start="166" name="Communicator"/>
+                    <label end="291" start="132" name="Communicator"/>
+                    <label end="291" start="265" name="Addressee"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="261" start="257" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12346">
+            <text>Après une première intervention dans les parfumeries pour demander d' enlever les affiches et publicités diverses , le directeur , M. Christian Babusiaux , a écrit à la Fédération pour lui rappeler les règles et la prévenir que des nouveaux contrôles allaient être effectués au second semestre .</text>
+            <annotationSet status="MANUAL" ID="16683">
+                <layer rank="1" name="FE">
+                    <label end="152" start="116" name="Communicator"/>
+                    <label end="178" start="166" name="Addressee"/>
+                    <label end="292" start="185" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19262">
+            <text>- Auteurs , producteurs et réalisateurs viennent d' écrire au premier ministre , à Mr Jack Lang et à Mme Catherine Tasca pour leur demander de les recevoir " de manière urgente , avant que le gouvernement n' arrête une position définitive " sur les projets de décret réglementant la production et la diffusion audiovisuelles .</text>
+            <annotationSet status="MANUAL" ID="23242">
+                <layer rank="1" name="FE">
+                    <label end="38" start="2" name="Communicator"/>
+                    <label end="79" start="62" name="Addressee"/>
+                    <label end="97" start="83" name="Addressee"/>
+                    <label end="119" start="101" name="Addressee"/>
+                    <label end="323" start="126" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

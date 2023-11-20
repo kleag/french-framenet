@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="motiver.v" ID="2298" frame="FR_Reason" frameID="10083" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Action"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="3233"/>
+                <annoSet ID="3735"/>
+                <annoSet ID="6866"/>
+                <annoSet ID="20138"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="3735"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="6866"/>
+                <annoSet ID="20138"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="State_of_Affairs"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="3233"/>
+                <annoSet ID="3735"/>
+                <annoSet ID="6866"/>
+                <annoSet ID="20138"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2455">
+            <text>Dans une note de 1991 , l' ancien directeur général de Thomson-CSF , Jean-François Briand précisait que ce réseau avait " fonctionné efficacement , étant bien entendu motivé par la structure politique de Taïwan et son désir ardent de signer cette affaire " .</text>
+            <annotationSet status="MANUAL" ID="3233">
+                <layer rank="1" name="FE">
+                    <label end="146" start="104" name="Action"/>
+                    <label end="253" start="178" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="172" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2854">
+            <text>Cependant , par un jugement de la Cour de cassation , les tribunaux ne peuvent examiner les investigations menées sur les voyages payés en espèces par Jacques Chirac pour plusieurs millions de francs , qui avaient motivé en 2001 l' interrogatoire par les juges d' instruction de plusieurs proches du chef de l' État , dont sa fille Claude Chirac .</text>
+            <annotationSet status="MANUAL" ID="3735">
+                <layer rank="1" name="FE">
+                    <label end="344" start="229" name="Action"/>
+                    <label end="344" start="118" name="State_of_Affairs"/>
+                    <label end="204" start="202" name="State_of_Affairs"/>
+                    <label end="274" start="251" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="219" start="214" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4822">
+            <text>L' autre raison de ce transfert aurait été motivée par les craintes d' un raid imminent effectué par le suisse Nestlé .</text>
+            <annotationSet status="MANUAL" ID="6866">
+                <layer rank="1" name="FE">
+                    <label end="30" start="19" name="Action"/>
+                    <label end="116" start="55" name="State_of_Affairs"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15960">
+            <text>L' aspect " non stratégique " de cette participation en a motivé la cession , dit -on au siège turinois du constructeur automobile .</text>
+            <annotationSet status="MANUAL" ID="20138">
+                <layer rank="1" name="FE">
+                    <label end="74" start="65" name="Action"/>
+                    <label end="51" start="0" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

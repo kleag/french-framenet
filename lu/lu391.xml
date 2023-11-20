@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="récrimination.n" ID="391" frame="Complaining" frameID="1621" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cmplnr" name="Complainer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="com" name="Complaint"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="19198"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Complainer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Complainer"/>
+                <annoSet ID="19198"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Complainer"/>
+                <annoSet ID="23750"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Complaint"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="23750"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="14915">
+            <text>Les banques diminuèrent alors leur taux de base , mais durent affronter les récriminations amères des clients , essentiellement les particuliers , qui se plaignaient d' être spoliés puisque une inflation de 14 % rongeait la substance de leur épargne .</text>
+            <annotationSet status="MANUAL" ID="19198">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Addressee"/>
+                    <label end="248" start="102" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20008">
+            <text>" Le fait est que , lors des récentes décisions en sens contraire , prises à Washington et à Francfort , sur les taux d' intérêt ( ici , hausse , et là , baisse ) , on n' a guère entendu les récriminations réciproques d' usage sur l' " égoïsme " allemand ou sur l' " insouciance " américaine .</text>
+            <annotationSet status="MANUAL" ID="23750">
+                <layer rank="1" name="FE">
+                    <label end="256" start="231" name="Topic"/>
+                    <label end="290" start="262" name="Topic"/>
+                    <label itype="ENI" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="204" start="191" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

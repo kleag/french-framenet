@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="écrire.v" ID="980" frame="FR_Contacting" frameID="10014" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Address" name="Address"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Topic" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Address"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Addressee"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="5252"/>
+                <annoSet ID="6675"/>
+                <annoSet ID="7087"/>
+                <annoSet ID="7310"/>
+                <annoSet ID="11621"/>
+                <annoSet ID="16683"/>
+                <annoSet ID="23242"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Communicator"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="5252"/>
+                <annoSet ID="6675"/>
+                <annoSet ID="7087"/>
+                <annoSet ID="7310"/>
+                <annoSet ID="11621"/>
+                <annoSet ID="16683"/>
+                <annoSet ID="23242"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Purpose"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Purpose"/>
+                <annoSet ID="5252"/>
+                <annoSet ID="6675"/>
+                <annoSet ID="7087"/>
+                <annoSet ID="7310"/>
+                <annoSet ID="16683"/>
+                <annoSet ID="23242"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Purpose"/>
+                <annoSet ID="11621"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3816">
+            <text>Un comité de défense de la Cinq , formé par l' intersyndicale et la société des journalistes , a écrit au président de la République , au premier ministre , aux présidents du Sénat et de l' Assemblée nationale et à différents ministres pour leur demander d' accorder des dérogations provisoires à la chaîne , sous le contrôle du Conseil supérieur de l' audiovisuel , afin de lui permettre de survivre .</text>
+            <annotationSet status="MANUAL" ID="5252">
+                <layer rank="1" name="FE">
+                    <label end="91" start="0" name="Communicator"/>
+                    <label end="133" start="106" name="Addressee"/>
+                    <label end="155" start="138" name="Addressee"/>
+                    <label end="211" start="161" name="Addressee"/>
+                    <label end="234" start="215" name="Addressee"/>
+                    <label end="399" start="241" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4721">
+            <text>M. Charles Pasqua , président ( RPR ) du conseil général des Hauts - de - Seine , a écrit , mercredi 15 janvier , " à l' ensemble des présidents des conseils régionaux et généraux et aux maires de grandes villes pour leur proposer de créer ensemble une société d' économie mixte " ( SEM ) susceptible " de s' associer avec des partenaires publics ou privés à un plan de reprise de la Cinq " , qui deviendrait une " grande chaîne nationale et régionale " .</text>
+            <annotationSet status="MANUAL" ID="6675">
+                <layer rank="1" name="FE">
+                    <label end="78" start="0" name="Communicator"/>
+                    <label end="181" start="118" name="Addressee"/>
+                    <label end="210" start="187" name="Addressee"/>
+                    <label end="452" start="217" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4937">
+            <text>Créant une première surprise , M. Charles Pasqua , président ( RPR ) du conseil général des Hauts - de - Seine , indiquait mercredi 15 janvier dans la matinée qu' il avait écrit aux présidents des conseils généraux et régionaux et aux maires des grandes villes de France afin de créer une société d' économie mixte ( SEM ) , susceptible de " s' associer avec des partenaires publics ou privés à un plan de reprise de la Cinq " ( nos dernières éditions du 16 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="7087">
+                <layer rank="1" name="FE">
+                    <label end="164" start="163" name="Communicator"/>
+                    <label end="109" start="31" name="Communicator"/>
+                    <label end="229" start="182" name="Addressee"/>
+                    <label end="269" start="235" name="Addressee"/>
+                    <label end="425" start="279" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="176" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5068">
+            <text>Un de nos lecteurs , retraité et polytechnicien , a écrit à l' URSSAF pour faire remarquer que calculer les cotisations à partir du salaire net ( après déduction des cotisations salariales ) en ignorant complètement le salaire brut n' était sans doute pas la meilleure façon de procéder .</text>
+            <annotationSet status="MANUAL" ID="7310">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Communicator"/>
+                    <label end="68" start="60" name="Addressee"/>
+                    <label end="285" start="75" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8078">
+            <text>" Membre du jury , j' ai été frappé par la qualité des nouveaux étudiants " , se félicite Xavier de Boishebert , qui cite le cas d' une jeune fille préparant son BTS qui , dans une enquête ayant pour objet la promotion de la France aux Etats - Unis , avait écrit à 400 universités américaines .</text>
+            <annotationSet status="MANUAL" ID="11621">
+                <layer rank="1" name="FE">
+                    <label end="168" start="166" name="Communicator"/>
+                    <label end="291" start="132" name="Communicator"/>
+                    <label end="291" start="265" name="Addressee"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="261" start="257" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12346">
+            <text>Après une première intervention dans les parfumeries pour demander d' enlever les affiches et publicités diverses , le directeur , M. Christian Babusiaux , a écrit à la Fédération pour lui rappeler les règles et la prévenir que des nouveaux contrôles allaient être effectués au second semestre .</text>
+            <annotationSet status="MANUAL" ID="16683">
+                <layer rank="1" name="FE">
+                    <label end="152" start="116" name="Communicator"/>
+                    <label end="178" start="166" name="Addressee"/>
+                    <label end="292" start="185" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19262">
+            <text>- Auteurs , producteurs et réalisateurs viennent d' écrire au premier ministre , à Mr Jack Lang et à Mme Catherine Tasca pour leur demander de les recevoir " de manière urgente , avant que le gouvernement n' arrête une position définitive " sur les projets de décret réglementant la production et la diffusion audiovisuelles .</text>
+            <annotationSet status="MANUAL" ID="23242">
+                <layer rank="1" name="FE">
+                    <label end="38" start="2" name="Communicator"/>
+                    <label end="79" start="62" name="Addressee"/>
+                    <label end="97" start="83" name="Addressee"/>
+                    <label end="119" start="101" name="Addressee"/>
+                    <label end="323" start="126" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

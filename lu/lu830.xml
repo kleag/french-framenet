@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="perception.n" ID="830" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="21402"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="7882"/>
+                <annoSet ID="9832"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="7882"/>
+                <annoSet ID="9832"/>
+                <annoSet ID="21402"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5428">
+            <text>Elle confirme surtout une évolution de la perception du rôle de l' entreprise et de ses dirigeants - vus il y a onze ans comme autant des lieux de résistance à la volonté de changement , jugés davantage aujourd' hui en raison de leur stratégie , de leur efficacité et de leur compétitivité .</text>
+            <annotationSet status="MANUAL" ID="7882">
+                <layer rank="1" name="FE">
+                    <label end="97" start="56" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6591">
+            <text>D' autre part , ils s' inquiètent de la suppression de certaines émissions de FR 3 Picardie , en particulier le magazine agricole , " qui donne chaque mois l' occasion , pendant une demi - heure , d' évoquer les problèmes du monde rural , permettant ainsi une bonne perception des problèmes relationnels ville - campagne " .</text>
+            <annotationSet status="MANUAL" ID="9832">
+                <layer rank="1" name="FE">
+                    <label end="319" start="281" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="275" start="266" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17329">
+            <text>Cependant , à recoller des morceaux de - ci de - là , sans vision globale , sans perception réelle de la vie quotidienne des acteurs du système éducatif , sans projets d' avenir , on court à une crise sans précédent .</text>
+            <annotationSet status="MANUAL" ID="21402">
+                <layer rank="1" name="FE">
+                    <label end="151" start="102" name="Content"/>
+                    <label end="181" start="180" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

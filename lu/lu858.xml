@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="tenir.v" ID="858" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="6359"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="2219"/>
+                <annoSet ID="7951"/>
+                <annoSet ID="14648"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Content"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="2219"/>
+                <annoSet ID="6359"/>
+                <annoSet ID="7951"/>
+                <annoSet ID="14648"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1842">
+            <text>Le deuxième élément est un surcroît de conception démocratique , ce qui signifie que si un ou plusieurs pays , quels qu' ils soient , pour une raison quelconque , souhaitent , du moins dans un premier temps , ne pas participer , cela ne peut être tenu pour une exclusion ni pour une limitation de leur présence au sein de l' Union .</text>
+            <annotationSet status="MANUAL" ID="2219">
+                <layer rank="1" name="FE">
+                    <label end="232" start="229" name="Content"/>
+                    <label end="272" start="257" name="Content"/>
+                    <label end="329" start="279" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="250" start="247" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4502">
+            <text>Des psychologues l' ont tenue pour principale responsable de la baisse de capacité de concentration des élèves , lesquels zapperaient les cours comme ils zappent les images .</text>
+            <annotationSet status="MANUAL" ID="6359">
+                <layer rank="1" name="FE">
+                    <label end="18" start="17" name="Content"/>
+                    <label end="171" start="35" name="Content"/>
+                    <label end="15" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5469">
+            <text>Reconnaissant la responsabilité de l' entreprise , ils considèrent que les réductions d' effectifs " ne peuvent être tenues pour un instrument banal de gestion " .</text>
+            <annotationSet status="MANUAL" ID="7951">
+                <layer rank="1" name="FE">
+                    <label end="97" start="71" name="Content"/>
+                    <label end="158" start="129" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10441">
+            <text>Ces sanctions sont intervenues alors que la Libye se refusait à livrer deux de ses agents tenus pour responsables de l' attentat contre un Boeing de la Pan.Am qui a fait deux cent soixante - dix morts en décembre 1988 au - dessus de Lockerbie , en Ecosse .</text>
+            <annotationSet status="MANUAL" ID="14648">
+                <layer rank="1" name="FE">
+                    <label end="253" start="71" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

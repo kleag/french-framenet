@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'opposer.v" ID="99" frame="Be_in_agreement_on_assessment" frameID="1496" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer_1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer_1"/>
+                <annoSet ID="22249"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer_2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer_2"/>
+                <annoSet ID="22249"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cognizers"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Opinion"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Opinion"/>
+                <annoSet ID="22249"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18214">
+            <text>La gauche envisage un financement public , s' opposant ainsi aux libéraux , qui redoutent un nouvel accroissement des prélèvements obligatoires et de l' emprise de l' état , via l' environnement , et estiment , au contraire , que celui - ci peut être correctement protégé par les mécanismes du marché et des droits de propriété renforcés , tandis que les Verts , hostiles au marché autant qu' à l' Etat , renvoient dos à dos les deux approches .</text>
+            <annotationSet status="MANUAL" ID="22249">
+                <layer rank="1" name="FE">
+                    <label end="39" start="19" name="Opinion"/>
+                    <label end="336" start="65" name="Cognizer_2"/>
+                    <label end="8" start="0" name="Cognizer_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

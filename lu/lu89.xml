@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="divergence.n" ID="89" frame="Be_in_agreement_on_assessment" frameID="1496" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer_1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer_1"/>
+                <annoSet ID="14843"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer_1"/>
+                <annoSet ID="14254"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cognizer_2"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer_2"/>
+                <annoSet ID="14254"/>
+                <annoSet ID="14843"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Cognizers"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Cognizers"/>
+                <annoSet ID="1983"/>
+                <annoSet ID="13725"/>
+                <annoSet ID="20312"/>
+                <annoSet ID="21020"/>
+                <annoSet ID="22503"/>
+                <annoSet ID="22783"/>
+                <annoSet ID="23054"/>
+                <annoSet ID="23937"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Cognizers"/>
+                <annoSet ID="8327"/>
+                <annoSet ID="13525"/>
+                <annoSet ID="20763"/>
+                <annoSet ID="22772"/>
+                <annoSet ID="24112"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Opinion"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Opinion"/>
+                <annoSet ID="8327"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Opinion"/>
+                <annoSet ID="20312"/>
+                <annoSet ID="22503"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Topic"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="1983"/>
+                <annoSet ID="13525"/>
+                <annoSet ID="13725"/>
+                <annoSet ID="14254"/>
+                <annoSet ID="20763"/>
+                <annoSet ID="22772"/>
+                <annoSet ID="22783"/>
+                <annoSet ID="23054"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="14843"/>
+                <annoSet ID="21020"/>
+                <annoSet ID="23937"/>
+                <annoSet ID="24112"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1758">
+            <text>Quel est le point de divergence entre la Commission et le Conseil ?</text>
+            <annotationSet status="MANUAL" ID="1983">
+                <layer rank="1" name="FE">
+                    <label end="19" start="9" name="Topic"/>
+                    <label end="64" start="38" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5671">
+            <text>Lors d' une rencontre le 30 juin à Bruxelles , les deux hommes ont constaté que les divergences de vues sont encore trop grandes .</text>
+            <annotationSet status="MANUAL" ID="8327">
+                <layer rank="1" name="FE">
+                    <label end="102" start="99" name="Opinion"/>
+                    <label itype="ENI" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9557">
+            <text>S' ils rejettent tout scénario catastrophe - une crise du type de celle des années 30 - les auteurs du rapport estiment que la croissance mondiale restera entre 1993 et 1997 " bridée " par le niveau excessif des taux d' intérêt réels à long terme et par les divergences économiques persistantes .</text>
+            <annotationSet status="MANUAL" ID="13525">
+                <layer rank="1" name="FE">
+                    <label end="280" start="270" name="Topic"/>
+                    <label itype="ENI" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="268" start="258" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9757">
+            <text>Les divergences entre Europe et Etats - Unis sur le leadership de l' aide et le déséquilibre des engagements financiers ( les trois quarts provenant de la CEE et de ses Etats membres , notamment l' Allemagne , contre 8 % environ pour les Etats - Unis ) expliquent en partie que les contributions n' aient pas été à la hauteur des promesses .</text>
+            <annotationSet status="MANUAL" ID="13725">
+                <layer rank="1" name="FE">
+                    <label end="251" start="49" name="Topic"/>
+                    <label end="43" start="22" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10143">
+            <text>Le limogeage de M. Delort , cinquante - sept ans , au Printemps depuis 1976 et qui fut le principal artisan de son redressement , résulte , selon un communiqué laconique du groupe Pinault - Printemps , " de divergences d' ordre stratégique portant sur le mode de gestion et sur l' analyse des différentes activités du groupe et de leurs perspectives " .</text>
+            <annotationSet status="MANUAL" ID="14254">
+                <layer rank="1" name="FE">
+                    <label end="272" start="252" name="Topic"/>
+                    <label end="350" start="278" name="Topic"/>
+                    <label end="126" start="16" name="Cognizer_2"/>
+                    <label itype="DNI" name="Cognizer_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="217" start="207" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10617">
+            <text>La démission de M. Jean - Jacques Delort de la présidence de cette chaîne de grands magasins , à la suite d' une divergence avec le nouveau propriétaire , M. François Pinault , a provoqué une baisse des cours des deux valeurs phare du groupe , appelées bientôt à n' en faire plus qu' une .</text>
+            <annotationSet status="MANUAL" ID="14843">
+                <layer rank="1" name="FE">
+                    <label end="173" start="129" name="Cognizer_2"/>
+                    <label end="39" start="16" name="Cognizer_1"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16169">
+            <text>Alors que l' Etat multiplie le recours aux expédients sous forme de recettes " de poche " destinées à colmater partiellement les brèches qui s' ouvrent dans les comptes de la sécurité sociale , le patronat et les syndicats sont peut - être sur le point de dépasser leurs divergences pour assurer l' équilibre à moyen terme des régimes de retraite complémentaire .</text>
+            <annotationSet status="MANUAL" ID="20312">
+                <layer rank="1" name="FE">
+                    <label end="269" start="265" name="Cognizers"/>
+                    <label end="221" start="194" name="Cognizers"/>
+                    <label itype="UNI" name="Opinion"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="281" start="271" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16569">
+            <text>S' il avait réussi , lors de son congrès , à éviter l' éclatement , les discussions sur son programme , qui doit être approuvé lors de ses prochaines assises en mars , font de nouveau apparaître de sérieuses divergences .</text>
+            <annotationSet status="MANUAL" ID="20763">
+                <layer rank="1" name="FE">
+                    <label end="164" start="88" name="Topic"/>
+                    <label itype="UNI" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="218" start="208" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16907">
+            <text>Dans ces conditions , le recours à la banque d' Espagne représentait l' ultime solution en dehors d' une assemblée générale des actionnaires des deux banques qui n' aurait pu qu' exaspérer encore les divergences .</text>
+            <annotationSet status="MANUAL" ID="21020">
+                <layer rank="1" name="FE">
+                    <label end="156" start="145" name="Cognizers"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="210" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18372">
+            <text>Si , lorsqu' ils étalent leurs divergences , les dirigeants socialistes réagissaient avec la même violence verbale que celle qui a été opposée par le carré chiraquien à Charles Pasqua et à Philippe Séguin , il y a longtemps , par exemple , pour ne parler que du présent , que Laurent Fabius et Lionel Jospin en seraient venus aux mains .</text>
+            <annotationSet status="MANUAL" ID="22503">
+                <layer rank="1" name="FE">
+                    <label end="29" start="25" name="Cognizers"/>
+                    <label end="70" start="45" name="Cognizers"/>
+                    <label itype="UNI" name="Opinion"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18661">
+            <text>Des divergences profondes subsistent cependant dans plusieurs domaines , notamment sur les avions .</text>
+            <annotationSet status="MANUAL" ID="22772">
+                <layer rank="1" name="FE">
+                    <label end="96" start="52" name="Topic"/>
+                    <label itype="DNI" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18670">
+            <text>En ce qui concerne les réductions d' effectifs , les divergences restent fondamentales entre l' Ouest , qui ne veut parler que des troupes soviétiques et américaines stationnées hors du territoire national , et l' est , qui insiste pour y inclure les autres forces : françaises , britanniques , canadiennes , néerlandaises et belges .</text>
+            <annotationSet status="MANUAL" ID="22783">
+                <layer rank="1" name="FE">
+                    <label end="45" start="19" name="Topic"/>
+                    <label end="331" start="93" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18995">
+            <text>Ce communiqué , publié à l' issue de la visite historique de Mr Gorbatchev en Chine , prévoyait en particulier que les deux pays échangent " des informations " concernant le socialisme , tout en respectant mutuellement leurs divergences éventuelles .</text>
+            <annotationSet status="MANUAL" ID="23054">
+                <layer rank="1" name="FE">
+                    <label end="183" start="171" name="Topic"/>
+                    <label end="223" start="219" name="Cognizers"/>
+                    <label end="127" start="115" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="235" start="225" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20197">
+            <text>Thomson et son allié néerlandais Philips n' ont pas été suffisamment convaincants , les Douze n' ont pas su aplanir leurs divergences et la nouvelle norme ne s' imposera , au mieux , aux nouvelles chaînes qu' à partir de 1995 .</text>
+            <annotationSet status="MANUAL" ID="23937">
+                <layer rank="1" name="FE">
+                    <label end="120" start="116" name="Cognizers"/>
+                    <label end="92" start="84" name="Cognizers"/>
+                    <label itype="DNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20394">
+            <text>Dès qu' il s' agira de remplir l' écran noir , que beaucoup d' experts estiment inévitable , les divergences vont renaître .</text>
+            <annotationSet status="MANUAL" ID="24112">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Topic"/>
+                    <label itype="ENI" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

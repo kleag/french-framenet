@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="contacter.v" ID="972" frame="FR_Contacting" frameID="10014" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Address" name="Address"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Topic" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Address"/>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Addressee"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="416"/>
+                <annoSet ID="696"/>
+                <annoSet ID="1095"/>
+                <annoSet ID="1182"/>
+                <annoSet ID="1458"/>
+                <annoSet ID="2819"/>
+                <annoSet ID="5653"/>
+                <annoSet ID="13662"/>
+                <annoSet ID="15077"/>
+                <annoSet ID="16060"/>
+                <annoSet ID="18538"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Communicator"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="416"/>
+                <annoSet ID="1182"/>
+                <annoSet ID="2819"/>
+                <annoSet ID="5653"/>
+                <annoSet ID="15077"/>
+                <annoSet ID="18538"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="696"/>
+                <annoSet ID="1095"/>
+                <annoSet ID="1458"/>
+                <annoSet ID="13662"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Purpose"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Purpose"/>
+                <annoSet ID="1458"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="326">
+            <text>Par téléphone , il contactait divers hôtels du secteur pouvant accueillir les éventuels sinistrés .</text>
+            <annotationSet status="MANUAL" ID="416">
+                <layer rank="1" name="FE">
+                    <label end="17" start="16" name="Communicator"/>
+                    <label end="96" start="30" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="532">
+            <text>Pour plus d' informations sur votre condition ou votre traitement , veuillez consulter la notice ( également comprise dans l' EPAR ) ou contacter votre médecin ou votre pharmacien .</text>
+            <annotationSet status="MANUAL" ID="696">
+                <layer rank="1" name="FE">
+                    <label end="178" start="146" name="Addressee"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1049">
+            <text>Pour toutes questions supplémentaires quant à l' utilisation de ce produit , contacter votre médecin .</text>
+            <annotationSet status="MANUAL" ID="1095">
+                <layer rank="1" name="FE">
+                    <label end="99" start="87" name="Addressee"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1157">
+            <text>Des kits similaires seront fournis aux patients afin de préciser les effets indésirables du médicament et les cas dans lesquels ils doivent contacter leur médecin .</text>
+            <annotationSet status="MANUAL" ID="1182">
+                <layer rank="1" name="FE">
+                    <label end="130" start="128" name="Communicator"/>
+                    <label end="161" start="150" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="148" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1463">
+            <text>Si vous manquez l' administration d' une dose d' Aclasta Contactez dès que possible votre médecin ou l' hôpital pour planifier un nouveau rendez-vous .</text>
+            <annotationSet status="MANUAL" ID="1458">
+                <layer rank="1" name="FE">
+                    <label end="110" start="84" name="Addressee"/>
+                    <label end="148" start="117" name="Purpose"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2129">
+            <text>Dès la fin de la guerre , la veuve de Théophile Maupas , soutenue par la Ligue des droits de l' Homme contactée dès le mois d' avril 1915 , entama un combat pour la réhabilitation de son époux et des autres caporaux fusillés de Souain ;</text>
+            <annotationSet status="MANUAL" ID="2819">
+                <layer rank="1" name="FE">
+                    <label end="53" start="26" name="Communicator"/>
+                    <label end="100" start="70" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4065">
+            <text>Alerté par notre courrier , Pierre Grimblat nous a contactés " .</text>
+            <annotationSet status="MANUAL" ID="5653">
+                <layer rank="1" name="FE">
+                    <label end="42" start="28" name="Communicator"/>
+                    <label end="47" start="44" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9691">
+            <text>" avant d' acheter , même un parking , il est impératif de vérifier l' état de l' immeuble , de contacter le syndic et d' éplucher le règlement de copropriété " , conseille Gilles Oury , notaire chargé de la conjoncture à la chambre des notaires .</text>
+            <annotationSet status="MANUAL" ID="13662">
+                <layer rank="1" name="FE">
+                    <label end="114" start="106" name="Addressee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10839">
+            <text>Le chancelier Kohl ne téléphonera pas ce week - end au premier ministre , John Major , le ministre allemand des finances , Theo Waigel , ne contactera pas son homologue , Norman Lamont .</text>
+            <annotationSet status="MANUAL" ID="15077">
+                <layer rank="1" name="FE">
+                    <label end="135" start="87" name="Communicator"/>
+                    <label end="183" start="155" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11698">
+            <text>Les responsables monétaires allemands , également présents à Washington , sont contactés .</text>
+            <annotationSet status="MANUAL" ID="16060">
+                <layer rank="1" name="FE">
+                    <label end="70" start="0" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14201">
+            <text>" L' équipe contacte des employeurs dont on sait qu' ils vont embaucher , explique Hervé Barré , et leur propose de commencer à préparer des candidats du plan aux emplois . "</text>
+            <annotationSet status="MANUAL" ID="18538">
+                <layer rank="1" name="FE">
+                    <label end="10" start="2" name="Communicator"/>
+                    <label end="70" start="21" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

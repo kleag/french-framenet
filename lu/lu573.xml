@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="manifestation.n" ID="573" frame="Evidence" frameID="25" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposition"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="6579"/>
+                <annoSet ID="20519"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Support"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="6579"/>
+                <annoSet ID="20519"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4658">
+            <text>C' est aussi la manifestation , apparemment anarchique , du lent travail qui prépare l' avenir .</text>
+            <annotationSet status="MANUAL" ID="6579">
+                <layer rank="1" name="FE">
+                    <label end="93" start="13" name="Support"/>
+                    <label end="93" start="60" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16344">
+            <text>Pourrait -il y avoir une manifestation plus convaincante du fait que Dieu aime l' homme " .</text>
+            <annotationSet status="MANUAL" ID="20519">
+                <layer rank="1" name="FE">
+                    <label end="88" start="21" name="Support"/>
+                    <label end="88" start="60" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

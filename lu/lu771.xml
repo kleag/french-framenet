@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="pousser.v" ID="771" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Action"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="4487"/>
+                <annoSet ID="15283"/>
+                <annoSet ID="20012"/>
+                <annoSet ID="22859"/>
+                <annoSet ID="23783"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4487"/>
+                <annoSet ID="20012"/>
+                <annoSet ID="23783"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="15283"/>
+                <annoSet ID="22859"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="4487"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Persuader"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="4487"/>
+                <annoSet ID="15283"/>
+                <annoSet ID="20012"/>
+                <annoSet ID="22859"/>
+                <annoSet ID="23783"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3374">
+            <text>Si la Russie pose rapidement sa candidature au Fonds monétaire international ( FMI ) , ainsi que le premier ministre britannique , M. John Major , a poussé M. Eltsine à le faire , dans une lettre qu' il lui a adressée , le 30 décembre , elle pourrait - comme d' ailleurs les autres Républiques qui le souhaiteraient - être admise au FMI dès le printemps .</text>
+            <annotationSet status="MANUAL" ID="4487">
+                <layer rank="1" name="FE">
+                    <label end="176" start="169" name="Action"/>
+                    <label end="165" start="156" name="Cognizer"/>
+                    <label end="143" start="97" name="Persuader"/>
+                    <label end="233" start="185" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="154" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11028">
+            <text>Quant au projet d' écotaxe sur l' énergie , lui aussi poussé par le secrétaire général de la conférence - et par le commissaire européen à l' environnement , Carlo Ripa di Meana , qui a renoncé au déplacement de Rio pour protester contre son abandon , - il a fait l' objet d' âpres discussions dans les couloirs .</text>
+            <annotationSet status="MANUAL" ID="15283">
+                <layer rank="1" name="FE">
+                    <label end="52" start="44" name="Action"/>
+                    <label end="248" start="9" name="Action"/>
+                    <label end="107" start="65" name="Persuader"/>
+                    <label end="248" start="113" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15832">
+            <text>Aux prises avec des excédents d' électricité - une " avance à l' allumage " de quelques années - et poussée par son président , EDF a su offrir des tarifs sur mesure pour décider le groupe d' aluminium à préférer la France plutôt que l' étranger .</text>
+            <annotationSet status="MANUAL" ID="20012">
+                <layer rank="1" name="FE">
+                    <label end="244" start="137" name="Action"/>
+                    <label end="130" start="128" name="Cognizer"/>
+                    <label end="124" start="112" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18760">
+            <text>Il est tout aussi difficile de dire qui l' emportera de la Commission de Bruxelles , qui pousse en faveur d' une baisse tarifaire importante dans l' Europe aérienne , ou des compagnies , qui ont reconstitué de façon très astucieuse leurs ententes antérieures pour n' avoir pas à se livrer une concurrence trop féroce .</text>
+            <annotationSet status="MANUAL" ID="22859">
+                <layer rank="1" name="FE">
+                    <label end="163" start="109" name="Action"/>
+                    <label end="87" start="85" name="Persuader"/>
+                    <label end="163" start="56" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20032">
+            <text>Sur une notion aussi mal assurée , on a poussé ( moyennant subventions ) les entreprises à mettre en oeuvre de sauvages programmes de licenciements .</text>
+            <annotationSet status="MANUAL" ID="23783">
+                <layer rank="1" name="FE">
+                    <label end="146" start="91" name="Action"/>
+                    <label end="87" start="73" name="Cognizer"/>
+                    <label end="36" start="35" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

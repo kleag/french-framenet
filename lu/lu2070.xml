@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="mentionner.v" ID="2070" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Medium"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="1052"/>
+                <annoSet ID="1121"/>
+                <annoSet ID="1505"/>
+                <annoSet ID="1507"/>
+                <annoSet ID="1513"/>
+                <annoSet ID="3976"/>
+                <annoSet ID="21603"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Medium"/>
+                <annoSet ID="22464"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Message"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="884"/>
+                <annoSet ID="1052"/>
+                <annoSet ID="1121"/>
+                <annoSet ID="1505"/>
+                <annoSet ID="1507"/>
+                <annoSet ID="1513"/>
+                <annoSet ID="2320"/>
+                <annoSet ID="3976"/>
+                <annoSet ID="13637"/>
+                <annoSet ID="21603"/>
+                <annoSet ID="22464"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2320"/>
+                <annoSet ID="13637"/>
+                <annoSet ID="21603"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="884"/>
+                <annoSet ID="1052"/>
+                <annoSet ID="1121"/>
+                <annoSet ID="1507"/>
+                <annoSet ID="1513"/>
+                <annoSet ID="3976"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="799">
+            <text>Les réactions indésirables qui ont été rapportées à partir d' une importante expérience post-commercialisation et qui n' ont pas été mentionnées ci-dessus sont résumées par classes des systèmes d' organes dans le tableau 6 .</text>
+            <annotationSet status="MANUAL" ID="884">
+                <layer rank="1" name="FE">
+                    <label end="153" start="0" name="Message"/>
+                    <label end="116" start="114" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="989">
+            <text>- Si l' un des effets indésirables devient sérieux ou si vous remarquez des effets indésirables non mentionnés dans cette notice , veuillez en informer votre médecin .</text>
+            <annotationSet status="MANUAL" ID="1052">
+                <layer rank="1" name="FE">
+                    <label end="94" start="72" name="Message"/>
+                    <label end="127" start="116" name="Medium"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1078">
+            <text>Si vous remarquez des effets indésirables non mentionnés dans cette notice , ou si certains effets indésirables deviennent graves , veuillez en informer votre médecin .</text>
+            <annotationSet status="MANUAL" ID="1121">
+                <layer rank="1" name="FE">
+                    <label end="40" start="18" name="Message"/>
+                    <label end="73" start="62" name="Medium"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1493">
+            <text>Si vous ressentez un des effets mentionnés comme graves ou si vous présentez des effets indésirables non mentionnés dans cette notice , veuillez -en informer votre médecin , votre pharmacien ou votre infirmière .</text>
+            <annotationSet status="MANUAL" ID="1505">
+                <layer rank="1" name="FE">
+                    <label end="54" start="25" name="Message"/>
+                    <label end="132" start="121" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1493">
+            <text>Si vous ressentez un des effets mentionnés comme graves ou si vous présentez des effets indésirables non mentionnés dans cette notice , veuillez -en informer votre médecin , votre pharmacien ou votre infirmière .</text>
+            <annotationSet status="MANUAL" ID="1507">
+                <layer rank="1" name="FE">
+                    <label end="99" start="77" name="Message"/>
+                    <label end="132" start="121" name="Medium"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1496">
+            <text>- Ne pas utiliser Aclasta après la date de péremption mentionnée sur la boîte et le flacon .</text>
+            <annotationSet status="MANUAL" ID="1513">
+                <layer rank="1" name="FE">
+                    <label end="52" start="32" name="Message"/>
+                    <label end="89" start="69" name="Medium"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1892">
+            <text>Un montant qui notamment n' est jamais cité par la Banque européenne d' investissement , qui est mentionné plus tard par le Président de la Commission Prodi et dont on ne sait pas encore , du moins à mon avis , comment il sera déboursé l' année prochaine .</text>
+            <annotationSet status="MANUAL" ID="2320">
+                <layer rank="1" name="FE">
+                    <label end="255" start="0" name="Message"/>
+                    <label end="91" start="89" name="Message"/>
+                    <label end="155" start="121" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3079">
+            <text>Le " scandale des piastres " fut ramené à l' état de détail exotique et insignifiant , indigne d' être mentionné dans les manuels d' histoire .</text>
+            <annotationSet status="MANUAL" ID="3976">
+                <layer rank="1" name="FE">
+                    <label end="96" start="53" name="Message"/>
+                    <label end="140" start="118" name="Medium"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9671">
+            <text>En cette semaine , nous ne pouvions oublier de mentionner l' expression " arbre de Noël " , qui appartient au jargon des professionnels du pétrole .</text>
+            <annotationSet status="MANUAL" ID="13637">
+                <layer rank="1" name="FE">
+                    <label end="145" start="58" name="Message"/>
+                    <label end="22" start="19" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17558">
+            <text>Aucune date limite pour ce départ n' est mentionnée dans le communiqué publié par CTK .</text>
+            <annotationSet status="MANUAL" ID="21603">
+                <layer rank="1" name="FE">
+                    <label end="32" start="0" name="Message"/>
+                    <label end="84" start="57" name="Medium"/>
+                    <label end="84" start="82" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18337">
+            <text>Son nom " n' a été mentionné qu' en reprenant " , comme il l' a fait lui - même , des propos " tenus ailleurs " par MM Marcel Rigout et Anicet Le Pors , souligne Mr Leroy .</text>
+            <annotationSet status="MANUAL" ID="22464">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Message"/>
+                    <label itype="DNI" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

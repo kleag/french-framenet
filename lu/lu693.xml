@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="exporter.v" ID="693" frame="Exporting" frameID="1568" totalAnnotated="25" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Agt" name="Exporter"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Goods" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Goal" name="Importing_area"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Src" name="Exporting_area"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="24">
+            <FE name="Exporter"/>
+            <pattern total="19">
+                <valenceUnit PT="filled" FE="Exporter"/>
+                <annoSet ID="9768"/>
+                <annoSet ID="9877"/>
+                <annoSet ID="10040"/>
+                <annoSet ID="10734"/>
+                <annoSet ID="10913"/>
+                <annoSet ID="10939"/>
+                <annoSet ID="11019"/>
+                <annoSet ID="13346"/>
+                <annoSet ID="13348"/>
+                <annoSet ID="16531"/>
+                <annoSet ID="17230"/>
+                <annoSet ID="19378"/>
+                <annoSet ID="20010"/>
+                <annoSet ID="20639"/>
+                <annoSet ID="20643"/>
+                <annoSet ID="21073"/>
+                <annoSet ID="21170"/>
+                <annoSet ID="22938"/>
+                <annoSet ID="24008"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Exporter"/>
+                <annoSet ID="10895"/>
+                <annoSet ID="11032"/>
+                <annoSet ID="11312"/>
+                <annoSet ID="17850"/>
+                <annoSet ID="21072"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="25">
+            <FE name="Exporting_area"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Exporting_area"/>
+                <annoSet ID="9877"/>
+                <annoSet ID="10734"/>
+                <annoSet ID="10919"/>
+                <annoSet ID="13346"/>
+                <annoSet ID="13348"/>
+                <annoSet ID="16531"/>
+                <annoSet ID="20010"/>
+                <annoSet ID="20639"/>
+                <annoSet ID="20643"/>
+                <annoSet ID="22938"/>
+                <annoSet ID="24008"/>
+            </pattern>
+            <pattern total="14">
+                <valenceUnit PT="null instantiation" FE="Exporting_area"/>
+                <annoSet ID="9768"/>
+                <annoSet ID="10040"/>
+                <annoSet ID="10895"/>
+                <annoSet ID="10913"/>
+                <annoSet ID="10939"/>
+                <annoSet ID="11019"/>
+                <annoSet ID="11032"/>
+                <annoSet ID="11312"/>
+                <annoSet ID="17230"/>
+                <annoSet ID="17850"/>
+                <annoSet ID="19378"/>
+                <annoSet ID="21072"/>
+                <annoSet ID="21073"/>
+                <annoSet ID="21170"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="25">
+            <FE name="Goods"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="9877"/>
+                <annoSet ID="10040"/>
+                <annoSet ID="10734"/>
+                <annoSet ID="10895"/>
+                <annoSet ID="10913"/>
+                <annoSet ID="10919"/>
+                <annoSet ID="10939"/>
+                <annoSet ID="11019"/>
+                <annoSet ID="11032"/>
+                <annoSet ID="11312"/>
+                <annoSet ID="13346"/>
+                <annoSet ID="13348"/>
+                <annoSet ID="16531"/>
+                <annoSet ID="17850"/>
+                <annoSet ID="19378"/>
+                <annoSet ID="20010"/>
+                <annoSet ID="20639"/>
+                <annoSet ID="20643"/>
+                <annoSet ID="21072"/>
+                <annoSet ID="21073"/>
+                <annoSet ID="21170"/>
+                <annoSet ID="22938"/>
+                <annoSet ID="24008"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="9768"/>
+                <annoSet ID="17230"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="25">
+            <FE name="Importing_area"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Importing_area"/>
+                <annoSet ID="9877"/>
+                <annoSet ID="10734"/>
+                <annoSet ID="10895"/>
+                <annoSet ID="10913"/>
+                <annoSet ID="10919"/>
+                <annoSet ID="10939"/>
+                <annoSet ID="11019"/>
+                <annoSet ID="11032"/>
+                <annoSet ID="11312"/>
+                <annoSet ID="13346"/>
+                <annoSet ID="13348"/>
+                <annoSet ID="16531"/>
+                <annoSet ID="21072"/>
+                <annoSet ID="21073"/>
+                <annoSet ID="21170"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Importing_area"/>
+                <annoSet ID="9768"/>
+                <annoSet ID="10040"/>
+                <annoSet ID="17230"/>
+                <annoSet ID="17850"/>
+                <annoSet ID="19378"/>
+                <annoSet ID="20010"/>
+                <annoSet ID="20639"/>
+                <annoSet ID="20643"/>
+                <annoSet ID="22938"/>
+                <annoSet ID="24008"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6547">
+            <text>des firmes comme Elf - Aquitaine , Alcatel - Alsthom , Total , PSA Peugeot , Renault , Rhône - Poulenc , Usinor - Sacilor , Pechiney , Michelin , Saint - Gobain ou Thomson , pour ne citer qu' elles , exportent plus de la moitié de leur chiffre d' affaires .</text>
+            <annotationSet status="MANUAL" ID="9768">
+                <layer rank="1" name="FE">
+                    <label end="170" start="0" name="Exporter"/>
+                    <label itype="DNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Importing_area"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="208" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6619">
+            <text>" Faire venir des produits métalliques de l' étranger coûte trop cher , seule l' Italie en exporte un peu vers la France pour le moment " , précise un grossiste , spécialisé dans l' importation .</text>
+            <annotationSet status="MANUAL" ID="9877">
+                <layer rank="1" name="FE">
+                    <label end="86" start="72" name="Exporting_area"/>
+                    <label end="134" start="111" name="Importing_area"/>
+                    <label end="86" start="72" name="Exporter"/>
+                    <label end="37" start="14" name="Goods"/>
+                    <label end="89" start="88" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6746">
+            <text>" Avec 25 % à 30 % de sa production exportée selon les années , explique Olivier Bouissou , l' industrie française de la chaussure se situe dans la bonne moyenne de l' industrie nationale . "</text>
+            <annotationSet status="MANUAL" ID="10040">
+                <layer rank="1" name="FE">
+                    <label end="23" start="22" name="Exporter"/>
+                    <label end="129" start="92" name="Exporter"/>
+                    <label end="129" start="118" name="Goods"/>
+                    <label itype="UNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Importing_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7299">
+            <text>Au total , le Japon a exporté , en 1991 , 9 500 véhicules vers l' ex- URSS .</text>
+            <annotationSet status="MANUAL" ID="10734">
+                <layer rank="1" name="FE">
+                    <label end="18" start="11" name="Exporting_area"/>
+                    <label end="73" start="63" name="Importing_area"/>
+                    <label end="18" start="11" name="Exporter"/>
+                    <label end="56" start="42" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7431">
+            <text>Ils sont ensuite exportés vers le Japon pour la fabrication de brochettes de poulet .</text>
+            <annotationSet status="MANUAL" ID="10895">
+                <layer rank="1" name="FE">
+                    <label end="38" start="31" name="Importing_area"/>
+                    <label end="2" start="0" name="Goods"/>
+                    <label itype="DNI" name="Exporting_area"/>
+                    <label itype="DNI" name="Exporter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7457">
+            <text>L' ambition du gouvernement Salinas est de " réacclimater " les moutons pour améliorer l' ordinaire des paysans et leur permettre demain d' exporter leurs agneaux vers le Texas et la Californie , sous les auspices du futur accord de libre - échange ...</text>
+            <annotationSet status="MANUAL" ID="10913">
+                <layer rank="1" name="FE">
+                    <label end="192" start="168" name="Importing_area"/>
+                    <label end="153" start="149" name="Exporter"/>
+                    <label end="110" start="104" name="Exporter"/>
+                    <label end="161" start="149" name="Goods"/>
+                    <label itype="DNI" name="Exporting_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7462">
+            <text>A la veille de la Révolution française , Mirecourt exporte déjà de la main - d' oeuvre , non seulement dans toute l' Europe , mais aussi en Amérique .</text>
+            <annotationSet status="MANUAL" ID="10919">
+                <layer rank="1" name="FE">
+                    <label end="49" start="41" name="Exporting_area"/>
+                    <label end="122" start="108" name="Importing_area"/>
+                    <label end="135" start="126" name="Importing_area"/>
+                    <label end="147" start="140" name="Importing_area"/>
+                    <label end="85" start="64" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7489">
+            <text>Baccarat , qui est présent dans 94 pays , exporte les trois quarts de sa production , soit 40 % des exportations nationales de cristal à la main .</text>
+            <annotationSet status="MANUAL" ID="10939">
+                <layer rank="1" name="FE">
+                    <label end="38" start="0" name="Exporter"/>
+                    <label end="143" start="127" name="Goods"/>
+                    <label end="38" start="32" name="Importing_area"/>
+                    <label itype="DNI" name="Exporting_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7569">
+            <text>Installée depuis 1950 sur une quinzaine d' hectares , dont quatre couverts , l' entreprise , qui a commencé à construire ses premières brouettes , " découvertes " en Allemagne , à la fin du siècle dernier et à les exporter , en Afrique , dès les années 20 , s' est fortement industrialisée et internationalisée .</text>
+            <annotationSet status="MANUAL" ID="11019">
+                <layer rank="1" name="FE">
+                    <label end="234" start="228" name="Importing_area"/>
+                    <label end="95" start="93" name="Exporter"/>
+                    <label end="254" start="77" name="Exporter"/>
+                    <label end="174" start="121" name="Goods"/>
+                    <label end="212" start="210" name="Goods"/>
+                    <label itype="DNI" name="Exporting_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="221" start="214" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7578">
+            <text>Environ 45 % sont exportés , surtout en Europe , dans un rayon de 1 000 kilomètres , mais aussi en Afrique , au Moyen - Orient et dans les Caraïbes , en attendant l' Amérique latine .</text>
+            <annotationSet status="MANUAL" ID="11032">
+                <layer rank="1" name="FE">
+                    <label end="81" start="40" name="Importing_area"/>
+                    <label end="94" start="85" name="Importing_area"/>
+                    <label end="107" start="99" name="Importing_area"/>
+                    <label end="128" start="112" name="Importing_area"/>
+                    <label end="146" start="135" name="Importing_area"/>
+                    <label end="11" start="0" name="Goods"/>
+                    <label itype="DNI" name="Exporting_area"/>
+                    <label itype="DNI" name="Exporter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7820">
+            <text>Nul ne sait - et pour cause - quelle part de cette production est exportée frauduleusement dans les pays limitrophes .</text>
+            <annotationSet status="MANUAL" ID="11312">
+                <layer rank="1" name="FE">
+                    <label end="115" start="96" name="Importing_area"/>
+                    <label end="60" start="30" name="Goods"/>
+                    <label itype="DNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Exporter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9451">
+            <text>Producteur insignifiant au début des années 80 , la Colombie ambitionne d' exporter - essentiellement vers l' Europe - une trentaine de millions de tonnes dès 1995 ( l' équivalent de trois fois la production française ) et 60 millions de tonnes en l' an 2000 .</text>
+            <annotationSet status="MANUAL" ID="13346">
+                <layer rank="1" name="FE">
+                    <label end="59" start="49" name="Exporting_area"/>
+                    <label end="115" start="107" name="Importing_area"/>
+                    <label end="59" start="49" name="Exporter"/>
+                    <label end="153" start="119" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9451">
+            <text>Producteur insignifiant au début des années 80 , la Colombie ambitionne d' exporter - essentiellement vers l' Europe - une trentaine de millions de tonnes dès 1995 ( l' équivalent de trois fois la production française ) et 60 millions de tonnes en l' an 2000 .</text>
+            <annotationSet status="MANUAL" ID="13348">
+                <layer rank="1" name="FE">
+                    <label end="59" start="49" name="Exporting_area"/>
+                    <label end="115" start="107" name="Importing_area"/>
+                    <label end="59" start="49" name="Exporter"/>
+                    <label end="243" start="223" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12200">
+            <text>Que les axes routiers de France se bouchent , et les ouvriers belges des usines Renault sont menacés de chômage technique en raison de la pénurie de pièces ; les marchands des quatre saisons de Genève ne reçoivent plus les tomates et les pêches exigées par les chalands suisses ; les arboriculteurs de Castille crient leur désespoir de ne pouvoir exporter dans l' Europe entière leurs oranges et leurs primeurs .</text>
+            <annotationSet status="MANUAL" ID="16531">
+                <layer rank="1" name="FE">
+                    <label end="309" start="302" name="Exporting_area"/>
+                    <label end="377" start="361" name="Importing_area"/>
+                    <label end="309" start="280" name="Exporter"/>
+                    <label end="383" start="379" name="Exporter"/>
+                    <label end="409" start="379" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="354" start="347" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12865">
+            <text>Les producteurs exportaient tellement à perte que les utilisateurs se trouvaient coupés de la réalité du marché .</text>
+            <annotationSet status="MANUAL" ID="17230">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Exporter"/>
+                    <label itype="UNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Importing_area"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13524">
+            <text>L' atténuation , promise par la réforme , du soutien par les prix ne devrait en bonne logique se traduire que par une réduction des subventions allouées par tonne de céréales ou de viandes exportées .</text>
+            <annotationSet status="MANUAL" ID="17850">
+                <layer rank="1" name="FE">
+                    <label end="176" start="166" name="Goods"/>
+                    <label end="187" start="181" name="Goods"/>
+                    <label itype="DNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Importing_area"/>
+                    <label itype="UNI" name="Exporter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15128">
+            <text>" Je pense que normalement on exportera du gaz en 1998 .</text>
+            <annotationSet status="MANUAL" ID="19378">
+                <layer rank="1" name="FE">
+                    <label end="28" start="27" name="Exporter"/>
+                    <label end="45" start="40" name="Goods"/>
+                    <label itype="DNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Importing_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15829">
+            <text>Lorsque M. Delaporte est arrivé à la tête de l' entreprise , après huit années au poste de directeur général de gaz de France , EDF exportait 8 % de sa production d' électricité .</text>
+            <annotationSet status="MANUAL" ID="20010">
+                <layer rank="1" name="FE">
+                    <label end="124" start="119" name="Exporting_area"/>
+                    <label end="130" start="128" name="Exporter"/>
+                    <label end="176" start="142" name="Goods"/>
+                    <label itype="UNI" name="Importing_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16440">
+            <text>Médiocre pour l' automobile française avec 283 675 voitures particulières produites ( 1 , 9 % ) , dont 175 261 unités exportées ( - 0 , 8 % ) , le mois de novembre confirme cependant l' évolution très divergente des deux grands constructeurs nationaux .</text>
+            <annotationSet status="MANUAL" ID="20639">
+                <layer rank="1" name="FE">
+                    <label end="36" start="28" name="Exporting_area"/>
+                    <label end="36" start="14" name="Exporter"/>
+                    <label end="116" start="103" name="Goods"/>
+                    <label itype="UNI" name="Importing_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16443">
+            <text>Globalement , sur les onze premiers mois de l' année , l' automobile française s' en sort mieux , avec une production de 3 , 098 millions d' unités ( 5 , 7 % ) et 1 , 927 million de véhicules particuliers exportés ( 5 , 3 % ) .</text>
+            <annotationSet status="MANUAL" ID="20643">
+                <layer rank="1" name="FE">
+                    <label end="77" start="69" name="Exporting_area"/>
+                    <label end="77" start="55" name="Exporter"/>
+                    <label end="203" start="163" name="Goods"/>
+                    <label end="224" start="214" name="Goods"/>
+                    <label itype="UNI" name="Importing_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="212" start="205" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16955">
+            <text>Depuis le mois d' août , les ordinateurs personnels IBM ou compatibles ( jusqu' au 286 ) peuvent être exportés librement vers les pays de l' Est .</text>
+            <annotationSet status="MANUAL" ID="21072">
+                <layer rank="1" name="FE">
+                    <label end="143" start="126" name="Importing_area"/>
+                    <label end="87" start="25" name="Goods"/>
+                    <label itype="UNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Exporter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16956">
+            <text>Siemens en a déjà exporté 300000 vers l' URSS .</text>
+            <annotationSet status="MANUAL" ID="21073">
+                <layer rank="1" name="FE">
+                    <label end="44" start="38" name="Importing_area"/>
+                    <label end="6" start="0" name="Exporter"/>
+                    <label end="9" start="8" name="Goods"/>
+                    <label itype="UNI" name="Exporting_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17053">
+            <text>On ne peut pas songer à se developper sans s' entourer de conseils juridiques " , estime Mr Jean Grimbert , PDG de la société Arnys , qui exporte 40 % de son prêt - à - porter de luxe au Japon .</text>
+            <annotationSet status="MANUAL" ID="21170">
+                <layer rank="1" name="FE">
+                    <label end="191" start="187" name="Importing_area"/>
+                    <label end="136" start="134" name="Exporter"/>
+                    <label end="132" start="115" name="Exporter"/>
+                    <label end="182" start="146" name="Goods"/>
+                    <label itype="UNI" name="Exporting_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18874">
+            <text>Premier producteur mondial d' éponges de titane , l' URSS a toujours considéré cette matière première comme stratégique , se refusant ainsi à publier toute statistique sur les volumes effectivement produits et exportés on considère que sur une production mondiale de " éponges " de l' ordre de 85 000 tonnes , l' Union soviétique en fabrique la moitié ) .</text>
+            <annotationSet status="MANUAL" ID="22938">
+                <layer rank="1" name="FE">
+                    <label end="56" start="50" name="Exporting_area"/>
+                    <label end="56" start="50" name="Exporter"/>
+                    <label end="46" start="30" name="Goods"/>
+                    <label itype="UNI" name="Importing_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="217" start="210" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20280">
+            <text>La Communauté refuse de faire les frais de l' assainissement des échanges agricoles internationaux ( moins exporter , plus importer , moins produire ! ) alors que les Etats - Unis ne feraient , eux , aucune concession sérieuse .</text>
+            <annotationSet status="MANUAL" ID="24008">
+                <layer rank="1" name="FE">
+                    <label end="12" start="0" name="Exporting_area"/>
+                    <label end="12" start="0" name="Exporter"/>
+                    <label end="82" start="74" name="Goods"/>
+                    <label itype="UNI" name="Importing_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

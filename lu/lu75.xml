@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="d'accord.adv" ID="75" frame="Be_in_agreement_on_action" frameID="1380" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="par1" name="Party_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="par2" name="Party_2"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="obl" name="Obligation"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="pars" name="Parties"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Obligation"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Obligation"/>
+                <annoSet ID="14301"/>
+                <annoSet ID="16888"/>
+                <annoSet ID="18618"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Parties"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Parties"/>
+                <annoSet ID="14301"/>
+                <annoSet ID="18618"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Party_1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Party_1"/>
+                <annoSet ID="16888"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Party_2"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10169">
+            <text>KIO : le Koweït et l' Espagne d' accord pour trouver une solution .</text>
+            <annotationSet status="MANUAL" ID="14301">
+                <layer rank="1" name="FE">
+                    <label end="64" start="45" name="Obligation"/>
+                    <label end="28" start="6" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12527">
+            <text>Sur la base des extraits qui nous ont été transmis ( la version complète ne peut être divulguée , explique -t-on au siège de ZDS , chaque partie devant être d' accord pour rompre la confidentialité ) et notamment au regard du relevé de conclusions des trois juges , la filiale américaine de Bull n' a pas encore perdu son " contrat du siècle " .</text>
+            <annotationSet status="MANUAL" ID="16888">
+                <layer rank="1" name="FE">
+                    <label end="196" start="172" name="Obligation"/>
+                    <label end="143" start="131" name="Party_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14304">
+            <text>Elle entrera en vigueur trois ans après son adoption définitive et , ensuite , s' agissant de la durée hebdomadaire , il est explicitement indiqué que , pendant au moins sept ans , le seuil de quarante - huit heures pourra être dépassé si patrons et salariés sont d' accord .</text>
+            <annotationSet status="MANUAL" ID="18618">
+                <layer rank="1" name="FE">
+                    <label end="234" start="181" name="Obligation"/>
+                    <label end="257" start="239" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="272" start="264" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

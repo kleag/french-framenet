@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="induire.v" ID="218" frame="Causation" frameID="5" totalAnnotated="13" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Actor"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="912"/>
+                <annoSet ID="919"/>
+                <annoSet ID="921"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Cause"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="921"/>
+                <annoSet ID="925"/>
+                <annoSet ID="1409"/>
+                <annoSet ID="5987"/>
+                <annoSet ID="11586"/>
+                <annoSet ID="11603"/>
+                <annoSet ID="13093"/>
+                <annoSet ID="14774"/>
+                <annoSet ID="18597"/>
+                <annoSet ID="23402"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="6908"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Effect"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="912"/>
+                <annoSet ID="919"/>
+                <annoSet ID="925"/>
+                <annoSet ID="1409"/>
+                <annoSet ID="5987"/>
+                <annoSet ID="6908"/>
+                <annoSet ID="11586"/>
+                <annoSet ID="11603"/>
+                <annoSet ID="13093"/>
+                <annoSet ID="14774"/>
+                <annoSet ID="18597"/>
+                <annoSet ID="23402"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="822">
+            <text>Ainsi , la bivalirudine commence par agir à la manière d' un inhibiteur non compétitif complet de la thrombine , puis , évolue avec le temps pour devenir un inhibiteur compétitif permettant aux molécules de thrombine initialement inhibées d' interagir avec d' autres substrats de la coagulation et d' induire une coagulation si nécessaire .</text>
+            <annotationSet status="MANUAL" ID="912">
+                <layer rank="1" name="FE">
+                    <label end="323" start="309" name="Effect"/>
+                    <label end="237" start="194" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="307" start="301" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="825">
+            <text>Des études in vitro ont également montré que la bivalirudine allonge de manière concentration - dépendante le temps de thromboplastine partielle activée ( aPTT ) , le temps de thrombine ( TT ) et le taux de prothrombine ( TP ) d' un plasma humain normal , et qu' elle n' induit pas d' agrégation plaquettaire en réponse à des sérums de patients avec antécédents de syndrome de thrombocytopénie induite par l' héparine avec thrombose ( TIH / STIHT ) .</text>
+            <annotationSet status="MANUAL" ID="919">
+                <layer rank="1" name="FE">
+                    <label end="307" start="282" name="Effect"/>
+                    <label end="59" start="45" name="Actor"/>
+                    <label end="266" start="263" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="276" start="271" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="825">
+            <text>Des études in vitro ont également montré que la bivalirudine allonge de manière concentration - dépendante le temps de thromboplastine partielle activée ( aPTT ) , le temps de thrombine ( TT ) et le taux de prothrombine ( TP ) d' un plasma humain normal , et qu' elle n' induit pas d' agrégation plaquettaire en réponse à des sérums de patients avec antécédents de syndrome de thrombocytopénie induite par l' héparine avec thrombose ( TIH / STIHT ) .</text>
+            <annotationSet status="MANUAL" ID="921">
+                <layer rank="1" name="FE">
+                    <label end="392" start="377" name="Cause"/>
+                    <label end="447" start="406" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="400" start="394" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="827">
+            <text>L' administration intraveineuse de bivalirudine induit une anticoagulation mesurable en l' espace de quelques minutes .</text>
+            <annotationSet status="MANUAL" ID="925">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Cause"/>
+                    <label end="116" start="55" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1404">
+            <text>L' ostéoporose est une maladie induisant un amincissement et une fragilisation des os .</text>
+            <annotationSet status="MANUAL" ID="1409">
+                <layer rank="1" name="FE">
+                    <label end="29" start="19" name="Cause"/>
+                    <label end="84" start="41" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4274">
+            <text>De cette relative liberté politique et technique et de ce lien accru avec l' individu - client qu' induit le péage , que va -t-il surgir ?</text>
+            <annotationSet status="MANUAL" ID="5987">
+                <layer rank="1" name="FE">
+                    <label end="113" start="106" name="Cause"/>
+                    <label end="113" start="55" name="Effect"/>
+                    <label end="97" start="95" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4845">
+            <text>Le tourisme , selon une estimation provisoire , a permis en 1991 la création de 35000 emplois , directs ou induits .</text>
+            <annotationSet status="MANUAL" ID="6908">
+                <layer rank="1" name="FE">
+                    <label end="105" start="80" name="Effect"/>
+                    <label itype="UNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8053">
+            <text>L' existence d' un port et la place prise par les résidences secondaires supposent le développement d' activités induites .</text>
+            <annotationSet status="MANUAL" ID="11586">
+                <layer rank="1" name="FE">
+                    <label end="71" start="0" name="Cause"/>
+                    <label end="111" start="103" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8065">
+            <text>Ce qui au reste induit aujourd' hui une tendance au regroupement , soit au sein de réseaux volontaires ( type Sélectour ) , soit par absorption par des réseaux intégrés ( type Wagons - Lits , American Express ) .</text>
+            <annotationSet status="MANUAL" ID="11603">
+                <layer rank="1" name="FE">
+                    <label end="5" start="3" name="Cause"/>
+                    <label end="209" start="36" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9169">
+            <text>Mais je suis persuadé que les réformes , et la compétition qu' elles induisent , finiront par venir à bout des résistances bureaucratiques .</text>
+            <annotationSet status="MANUAL" ID="13093">
+                <layer rank="1" name="FE">
+                    <label end="67" start="63" name="Cause"/>
+                    <label end="37" start="26" name="Cause"/>
+                    <label end="61" start="59" name="Effect"/>
+                    <label end="57" start="44" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10555">
+            <text>Elle souligne le souci des autorités italiennes de limiter l' ampleur du ralentissement économique induit par les mesures d' économies .</text>
+            <annotationSet status="MANUAL" ID="14774">
+                <layer rank="1" name="FE">
+                    <label end="133" start="110" name="Cause"/>
+                    <label end="97" start="73" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14281">
+            <text>" La reprise n' est pas assez forte pour induire des tensions inflationnistes " , poursuit l' étude OFCE - CEPII .</text>
+            <annotationSet status="MANUAL" ID="18597">
+                <layer rank="1" name="FE">
+                    <label end="11" start="2" name="Cause"/>
+                    <label end="76" start="49" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19472">
+            <text>Si la technique du transfert d' embryon est utilisée uniquement à bon escient , pour des juments encore en compétition ou trop âgées pour assumer une gestation , elle induira une évolution positive .</text>
+            <annotationSet status="MANUAL" ID="23402">
+                <layer rank="1" name="FE">
+                    <label end="165" start="162" name="Cause"/>
+                    <label end="38" start="3" name="Cause"/>
+                    <label end="196" start="175" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

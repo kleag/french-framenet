@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="encourager.v" ID="2608" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Dependent"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="10499"/>
+                <annoSet ID="11069"/>
+                <annoSet ID="23344"/>
+                <annoSet ID="24187"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Influencer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="10499"/>
+                <annoSet ID="11069"/>
+                <annoSet ID="23344"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Influencer"/>
+                <annoSet ID="24187"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7107">
+            <text>Pour satisfaire les besoins d' une population croissante , beaucoup de gouvernements ont continué à bloquer les prix agricoles ( ainsi au Mexique , de 1957 à 1970 , ceux du maïs n' ont augmenté que de 1 , 5 % par an ) et maintenu des taxes à l' exportation , qui , paradoxalement , ont encouragé cultures et élevages spéculatifs à hauts profits .</text>
+            <annotationSet status="MANUAL" ID="10499">
+                <layer rank="1" name="FE">
+                    <label end="343" start="296" name="Dependent"/>
+                    <label end="343" start="230" name="Influencer"/>
+                    <label end="261" start="259" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="294" start="286" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7617">
+            <text>Avant la fin du siècle , quatre cent mille agriculteurs n' auront -ils pas quitté la terre si un vigoureux coup de barre n' est pas donné à l' exode ... que la réforme de la politique agricole commune ( même si elle ne représente pas que des défauts pour tous ) et le vieillissement de la population ont tendance à encourager ?</text>
+            <annotationSet status="MANUAL" ID="11069">
+                <layer rank="1" name="FE">
+                    <label end="155" start="153" name="Dependent"/>
+                    <label end="324" start="140" name="Dependent"/>
+                    <label end="298" start="157" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="324" start="315" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19383">
+            <text>Dimanche , c' était au tour d' Adevarul ( " la Vérité " , qui a remplacé l' ancien organe du parti Scinteia ) de demander sa démission sous la plume d' un " porte - parole des militaires " qui rappelle les liens de Mr Mazilu avec la Securitate et l' accuse d' avoir " encouragé vendredi par son opportunisme le chaos et l' anarchie " , tandis que Romania Libera réitérait ses attaques de la veille en soupçonnant le vice- président du CNSN d' avoir voulu renverser le numéro un , Mr Iliescu , et en publiant le communiqué d' associations de juristes qui le jugent tout bonnement coupable de " haute trahison " .</text>
+            <annotationSet status="MANUAL" ID="23344">
+                <layer rank="1" name="FE">
+                    <label end="330" start="308" name="Dependent"/>
+                    <label end="306" start="291" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="276" start="268" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20478">
+            <text>Le risque d' encourager une accélération des transferts - frauduleux ou non - de capitaux vers l' Europe constitue un écueil bien réel qui renvoie à la mise en place de mécanismes de surveillance mais aussi et surtout à une dissolution des rapports de clientèle dont la France a trop longtemps donné l' exemple dans ses relations avec les Etats du " pré carré " .</text>
+            <annotationSet status="MANUAL" ID="24187">
+                <layer rank="1" name="FE">
+                    <label end="103" start="24" name="Dependent"/>
+                    <label itype="DNI" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="persuadé.a" ID="832" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="9891"/>
+                <annoSet ID="12534"/>
+                <annoSet ID="13094"/>
+                <annoSet ID="22742"/>
+                <annoSet ID="24619"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Content"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="9891"/>
+                <annoSet ID="12534"/>
+                <annoSet ID="13094"/>
+                <annoSet ID="22742"/>
+                <annoSet ID="24619"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6630">
+            <text>D' autres , persuadés de participer par leur production au rayonnement de la France dans le monde , prospectent les marchés américains et japonais en rêvant , du haut de leurs tours Eiffel miniatures , d' expositions internationales .</text>
+            <annotationSet status="MANUAL" ID="9891">
+                <layer rank="1" name="FE">
+                    <label end="96" start="25" name="Content"/>
+                    <label end="10" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8782">
+            <text>M. Rubin est persuadé que l' audit généralisé d' Adidas ( notamment la propriété des brevets et la qualité des stocks ) , dont dépend la concrétisation de l' accord , se passera sans histoire .</text>
+            <annotationSet status="MANUAL" ID="12534">
+                <layer rank="1" name="FE">
+                    <label end="190" start="26" name="Content"/>
+                    <label end="7" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9169">
+            <text>Mais je suis persuadé que les réformes , et la compétition qu' elles induisent , finiront par venir à bout des résistances bureaucratiques .</text>
+            <annotationSet status="MANUAL" ID="13094">
+                <layer rank="1" name="FE">
+                    <label end="137" start="26" name="Content"/>
+                    <label end="6" start="5" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18624">
+            <text>Mr Gorbatchev est persuadé que l'on peut donner un second souffle à la fédération soviétique à condition qu' elle s' établisse sur des fondements totalement nouveaux .</text>
+            <annotationSet status="MANUAL" ID="22742">
+                <layer rank="1" name="FE">
+                    <label end="164" start="31" name="Content"/>
+                    <label end="12" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21145">
+            <text>Et pourtant , les Nigérians sont intimement persuadés qu' ils ne seront finalement pas appelés à se rendre aux urnes .</text>
+            <annotationSet status="MANUAL" ID="24619">
+                <layer rank="1" name="FE">
+                    <label end="115" start="58" name="Content"/>
+                    <label end="26" start="14" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

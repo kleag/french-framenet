@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Giving_money" ID="10032" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;
+    
+    This frame involves a &lt;fen&gt;Giver&lt;/fen&gt; giving &lt;fen&gt;Money&lt;/fen&gt; to a &lt;fen&gt;Recipient&lt;/fen&gt; or on a &lt;fen&gt;Repository&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;Commerce_pay&lt;/frframe&gt; : in the latter, the LUs contain necessarily the idea of payment in exchange of some sort. In FR_Giving_money, the exchange is possible but not mandatory.
+
+&lt;ex&gt;&lt;/ex&gt;
+≠ &lt;frframe&gt;FR_Spending&lt;/frframe&gt; : in the latter, the &lt;fen&gt;Recipient&lt;/fen&gt; cannot be locally expressed.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : New in ASFALDA.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Gvr" name="Giver" ID="1409">
+        <definition>&lt;def-root&gt;The Giver begins in possession of the &lt;fen&gt;Money&lt;/fen&gt;and causes it to be in the possession of the &lt;fen&gt;Recipient&lt;/fen&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Mny" name="Money" ID="1695">
+        <definition>&lt;def-root&gt;Money is the thing given to the &lt;fen&gt;Recipient&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </FE>
+     <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="06/23/2001 08:18:41 PDT Sat" abbrev="Rec" name="Recipient" ID="1053">
+        <definition>&lt;def-root&gt;The entity that ends up in possession of the &lt;fen&gt;Money&lt;/fen&gt; (CoreSet with Repository).&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/25/2003 12:12:58 PDT Fri" abbrev="Rep" name="Repository" ID="4441">
+        <definition>&lt;def-root&gt;The physical entity (typically a bank account) onto which the money is deposited (CoreSet with Recipient).
+&lt;ex&gt;He &lt;t&gt;deposited&lt;/t&gt; 20 euros on &lt;fex name="Repository"&gt;his account&lt;/fex&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Gds" name="Goods" ID="1410">
+        <definition>&lt;def-root&gt;The FE Goods is anything (including labor or time, for example) which is exchanged for Money in a transaction. 
+&lt;ex&gt;Kim &lt;t&gt;paid&lt;/t&gt; fifty dollars &lt;fex name="Gds"&gt;for the shirt&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Rate" name="Rate" ID="1413">
+        <definition>&lt;def-root&gt;In some cases, price or payment is described per unit of Goods.
+&lt;ex&gt;The manager &lt;t&gt;pays&lt;/t&gt; the paper boys &lt;fex name="Rate"&gt;five dollars an hour&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+
+    <FEcoreSet>
+        <memberFE name="Recipient" ID="4441"/>
+        <memberFE name="Repository" ID="1053"/>
+    </FEcoreSet>
+
+
+
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Spending</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Commerce_pay</relatedFrame>
+        <relatedFrame>FR_Reimbursement</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="reversement.n" ID="1145" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101631" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="reverser.v" ID="1146" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="8"/>
+        <otherlexUnit framename="Other_sense" ID="101632" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="versement.n" ID="1149" nbocc="33" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="33"/>
+        <otherlexUnit framename="Other_sense" ID="101964" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="verser.v" ID="1150" nbocc="98" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="98"/>
+        <otherlexUnit framename="Other_sense" ID="101965" annotatedsent="4"/>
+    </lexUnit>
+</frame>

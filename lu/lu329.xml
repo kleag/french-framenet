@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="brader.v" ID="329" frame="Commerce_sell" frameID="172" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Buyer"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="8756"/>
+                <annoSet ID="9990"/>
+                <annoSet ID="14082"/>
+                <annoSet ID="21296"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Goods"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="9990"/>
+                <annoSet ID="14082"/>
+                <annoSet ID="21296"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="8756"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Money"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="8756"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Seller"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="8756"/>
+                <annoSet ID="14082"/>
+                <annoSet ID="21296"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="9990"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5913">
+            <text>MFI ( meubles et cuisines ) brade le prix de son introduction en Bourse .</text>
+            <annotationSet status="MANUAL" ID="8756">
+                <layer rank="1" name="FE">
+                    <label end="70" start="34" name="Money"/>
+                    <label end="26" start="0" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6708">
+            <text>L' Union nationale des entrepreneurs publics s' insurge contre des mesures qui conduiraient à " brader " le secteur public au bénéfice d' intérêts privés , nationaux ou étrangers .</text>
+            <annotationSet status="MANUAL" ID="9990">
+                <layer rank="1" name="FE">
+                    <label end="121" start="105" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10022">
+            <text>Tout s' enchaîne : pour alimenter des trésoreries exsangues , les sociétés ainsi tombées dans le giron de groupes dirigés par des noms naguère prestigieux sont les premières à brader les produits et services qu' elles offrent sur le marché .</text>
+            <annotationSet status="MANUAL" ID="14082">
+                <layer rank="1" name="FE">
+                    <label end="238" start="183" name="Goods"/>
+                    <label end="174" start="160" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="181" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17171">
+            <text>Bien sûr , les Soviétiques exploiteront les nombreuses occasions commerciales en URSS qu' attend une Allemagne réunifiée , et les Allemands seront capables de s' abuser eux - mêmes jusqu' à se persuader qu' ils ne sont pas en train de tout brader imprudemment .</text>
+            <annotationSet status="MANUAL" ID="21296">
+                <layer rank="1" name="FE">
+                    <label end="238" start="235" name="Goods"/>
+                    <label end="209" start="207" name="Seller"/>
+                    <label end="138" start="126" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="245" start="240" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

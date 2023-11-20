@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="faire causette.v" ID="929" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Interlocutor_1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutor_1"/>
+                <annoSet ID="205"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Interlocutor_2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutor_2"/>
+                <annoSet ID="205"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Interlocutors"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="170">
+            <text>Quand elle ne vaquait pas à ses occupations ménagères , elle utilisait les transports en commun et descendait seule faire ses courses en centre ville , et prenait alors plaisir à faire un brin de causette avec ses copines de rencontre .</text>
+            <annotationSet status="MANUAL" ID="205">
+                <layer rank="1" name="FE">
+                    <label end="233" start="210" name="Interlocutor_2"/>
+                    <label end="59" start="56" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="183" start="179" name="Target"/>
+                    <label end="203" start="196" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

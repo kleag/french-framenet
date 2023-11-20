@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Reliance_on_expectation" ID="10051" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; takes a certain &lt;fen&gt;Expectation&lt;/fen&gt; to be a reliable fact, such that their plans can be based on it. A &lt;fen&gt;Time_of_Eventuality&lt;/fen&gt; for when the Expectation should hold can be expressed locally the LUs of that frame.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Addition of the Time_of_Eventuality FE to the Reliance_on_expectation frame.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="11/25/2003 05:56:21 PST Tue" abbrev="" name="Cognizer" ID="5768">
+        <definition>&lt;def-root&gt;An individual that considers the Expectation certain.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="11/25/2003 06:19:39 PST Tue" abbrev="" name="Expectation" ID="5772">
+        <definition>&lt;def-root&gt;The fact which the &lt;fen&gt;Cognizer&lt;/fen&gt; depends on in planning for the future.
+
+&lt;ex&gt;I think you should &lt;t&gt;count&lt;/t&gt; &lt;fex name="Expectation"&gt;on getting a paycut&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="11/27/2002 08:07:52 PST Wed" abbrev="tim" name="Time_of_Eventuality" ID="3947">
+        <definition>&lt;def-root&gt;The time when the &lt;fen&gt;Cognizer&lt;/fen&gt; expects the &lt;fen&gt;Expectation&lt;/fen&gt; to occur.
+&lt;ex&gt;She &lt;t&gt;counts&lt;/t&gt; on getting a pay raise &lt;fex name="tim"&gt;next year&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Time" ID="141"/>
+    </FE>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Reliance_on_expectation</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="compter.v" ID="2320" nbocc="119" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Purpose" ID="2212" annotatedsent="10"/>
+        <otherlexUnit framename="Other_sense" ID="100372" annotatedsent="92"/>
+    </lexUnit>
+    <lexUnit POS="v" name="escompter.v" ID="2321" nbocc="13" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="100827" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="miser.v" ID="2322" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101228" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="parier.v" ID="2323" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101339" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="tabler.v" ID="2324" nbocc="23" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="23"/>
+        <otherlexUnit framename="Other_sense" ID="101909" annotatedsent="0"/>
+    </lexUnit>
+</frame>

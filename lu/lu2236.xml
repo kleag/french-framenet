@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="à des fins de.prep" ID="2236" frame="FR_Means_for_purpose" frameID="10049" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Goal"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="1589"/>
+                <annoSet ID="1592"/>
+                <annoSet ID="3307"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Means"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="1589"/>
+                <annoSet ID="1592"/>
+                <annoSet ID="3307"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1558">
+            <text>Les longs tubes linéaires à fluorescence représentent 53 % de la consommation d' électricité de l' UE à des fins d' éclairage .</text>
+            <annotationSet status="MANUAL" ID="1589">
+                <layer rank="1" name="FE">
+                    <label end="124" start="116" name="Goal"/>
+                    <label end="100" start="62" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1560">
+            <text>Nous économiserons 10 % de la consommation d' électricité à des fins d' éclairage à l' aide de tubes fluorescents , ce qui , traduit en argent , constitue une économie de 250 millions d' euros par an .</text>
+            <annotationSet status="MANUAL" ID="1592">
+                <layer rank="1" name="FE">
+                    <label end="80" start="72" name="Goal"/>
+                    <label end="56" start="27" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2501">
+            <text>- Sur cette vente de 2,8 milliards de dollars , plus de 500 millions de dollars de commissions occultes ont été versées , vraisemblablement à des fins de corruption et d' enrichissement de divers protagonistes , voire pour le financement illégal des partis politiques français .</text>
+            <annotationSet status="MANUAL" ID="3307">
+                <layer rank="1" name="FE">
+                    <label end="166" start="154" name="Goal"/>
+                    <label end="208" start="171" name="Goal"/>
+                    <label end="118" start="2" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="152" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

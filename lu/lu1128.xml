@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prélever.v" ID="1128" frame="FR_Getting_money" frameID="10031" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gtr" name="Getter"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="10">
+            <FE name="Getter"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Getter"/>
+                <annoSet ID="3708"/>
+                <annoSet ID="3858"/>
+                <annoSet ID="3860"/>
+                <annoSet ID="12406"/>
+                <annoSet ID="13738"/>
+                <annoSet ID="18374"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Getter"/>
+                <annoSet ID="10384"/>
+                <annoSet ID="16328"/>
+                <annoSet ID="17987"/>
+                <annoSet ID="23606"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Giver"/>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Money"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="3708"/>
+                <annoSet ID="3858"/>
+                <annoSet ID="3860"/>
+                <annoSet ID="10384"/>
+                <annoSet ID="12406"/>
+                <annoSet ID="13738"/>
+                <annoSet ID="16328"/>
+                <annoSet ID="17987"/>
+                <annoSet ID="18374"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="23606"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2833">
+            <text>Chargé des lycées depuis les premières lois de décentralisation , le conseil régional dirigé par le RPR et dont le président était Michel Giraud a engagé , entre 1988 et 1997 , 24 milliards de francs de travaux de rénovation , extension et construction dans 471 établissements , il a été prélevé 2 % de " commissions occultes " que se sont partagés ces grands partis , au prorata de leur représentation à l' assemblée régionale ( 0,8 % pour la gauche et 1,2 % pour la droite ) .</text>
+            <annotationSet status="MANUAL" ID="3708">
+                <layer rank="1" name="FE">
+                    <label end="475" start="296" name="Money"/>
+                    <label end="365" start="349" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="294" start="288" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2963">
+            <text>Celle-ci a été de 7 millions de dollars , sous la forme de valeurs mobilières ( 5 à prélever sur un compte de la Chase Manhattan Bank et 2 sur un compte de la Citibank ) et a été versée à la Banque nationale d' Algérie , qui centralisait la rançon pour la reverser ensuite à une banque iranienne à Téhéran .</text>
+            <annotationSet status="MANUAL" ID="3858">
+                <layer rank="1" name="FE">
+                    <label end="80" start="80" name="Money"/>
+                    <label end="304" start="188" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2963">
+            <text>Celle-ci a été de 7 millions de dollars , sous la forme de valeurs mobilières ( 5 à prélever sur un compte de la Chase Manhattan Bank et 2 sur un compte de la Citibank ) et a été versée à la Banque nationale d' Algérie , qui centralisait la rançon pour la reverser ensuite à une banque iranienne à Téhéran .</text>
+            <annotationSet status="MANUAL" ID="3860">
+                <layer rank="1" name="FE">
+                    <label end="137" start="137" name="Money"/>
+                    <label end="304" start="188" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7003">
+            <text>Prélevée sur les revenus du capital , la CSG a également pesé sur la rémunération du patrimoine dont la progression se poursuit " à un rythme un peu moins élevé qu' au cours des deux années précédentes en raison de la faible croissance des placements " .</text>
+            <annotationSet status="MANUAL" ID="10384">
+                <layer rank="1" name="FE">
+                    <label end="43" start="38" name="Money"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8703">
+            <text>La dotation de la Caisse nationale d' épargne , qui figurait jusqu' à présent en haut du bilan de la Poste , a été transformée en fonds de réserve et de garantie prélevé au profit du budget de l' Etat .</text>
+            <annotationSet status="MANUAL" ID="12406">
+                <layer rank="1" name="FE">
+                    <label end="160" start="130" name="Money"/>
+                    <label end="199" start="193" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="168" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9763">
+            <text>S' y ajoutent une première tranche de 1 milliard de dollars , correspondant à 25 % de ses droits de tirage spéciaux sur le FMI , qu' elle a été autorisée à prélever en août et à un prêt de la banque mondiale ( 600 millions de dollars ) destiné à l' achat de médicaments , de semences , d' équipements agricoles et industriels .</text>
+            <annotationSet status="MANUAL" ID="13738">
+                <layer rank="1" name="FE">
+                    <label end="131" start="129" name="Money"/>
+                    <label end="324" start="14" name="Money"/>
+                    <label end="136" start="133" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="163" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12007">
+            <text>Le ministre , qui a besoin de fonds pour son budget et qui doit suivre les directives européennes d' harmonisation en la matière , décide d' introduire le 1 janvier 1989 une taxe de 10 % prélevée à la source auprès des banques .</text>
+            <annotationSet status="MANUAL" ID="16328">
+                <layer rank="1" name="FE">
+                    <label end="185" start="170" name="Money"/>
+                    <label itype="DNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13674">
+            <text>Et je propose que les sommes nécessaires à la montée en puissance du budget investissement logement social soient prélevées sur les déductions d' impôts qui ne sont pas " décisives " .</text>
+            <annotationSet status="MANUAL" ID="17987">
+                <layer rank="1" name="FE">
+                    <label end="105" start="18" name="Money"/>
+                    <label itype="DNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14042">
+            <text>Les auteurs proposent de fiscaliser les matières premières écoulées par le continent pour lui reverser ensuite les sommes prélevées à titre d' aide .</text>
+            <annotationSet status="MANUAL" ID="18374">
+                <layer rank="1" name="FE">
+                    <label end="120" start="111" name="Money"/>
+                    <label end="83" start="72" name="Getter"/>
+                    <label end="92" start="90" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19860">
+            <text>Tandis que les PME de moins de 20 salariés continueront d' être prélevées sur la base d' un taux collectif , la cotisation des entreprises employant de 20 à 299 salariés sera évaluée sur la base d' un taux mixte ( 1 ) .</text>
+            <annotationSet status="MANUAL" ID="23606">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

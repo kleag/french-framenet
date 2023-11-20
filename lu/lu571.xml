@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="invalider.v" ID="571" frame="Evidence" frameID="25" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Proposition"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="6707"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Support"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="6707"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4733">
+            <text>La CFDT estime , quant à elle , que le rapport de la mission " n' apporte guère de perspective nouvelle " et déplore que " sa cohérence et sa crédibilité soient invalidées par le cadre d' analyse , qui reste limité au seul régime général " .</text>
+            <annotationSet status="MANUAL" ID="6707">
+                <layer rank="1" name="FE">
+                    <label end="236" start="176" name="Support"/>
+                    <label end="152" start="123" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="170" start="161" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

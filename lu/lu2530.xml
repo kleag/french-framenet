@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="communiquer.v" ID="2530" frame="FR_Telling" frameID="10088" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Addressee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="5166"/>
+                <annoSet ID="7338"/>
+                <annoSet ID="18311"/>
+                <annoSet ID="21641"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Message"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="5166"/>
+                <annoSet ID="7338"/>
+                <annoSet ID="11782"/>
+                <annoSet ID="14827"/>
+                <annoSet ID="16223"/>
+                <annoSet ID="16322"/>
+                <annoSet ID="16886"/>
+                <annoSet ID="18311"/>
+                <annoSet ID="21641"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="7338"/>
+                <annoSet ID="16322"/>
+                <annoSet ID="16886"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3777">
+            <text>Lorsque le montant de sa contribution sera communiqué à une société de bourse , elle devra , au choix , soit constituer une provision hors exploitation à hauteur du montant requis , soit justifier , pour ce même montant , d' une garantie bancaire .</text>
+            <annotationSet status="MANUAL" ID="5166">
+                <layer rank="1" name="FE">
+                    <label end="36" start="8" name="Message"/>
+                    <label end="76" start="56" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5083">
+            <text>En revanche , il doit communiquer à son mandant les informations utiles à la réalisation du contrat .</text>
+            <annotationSet status="MANUAL" ID="7338">
+                <layer rank="1" name="FE">
+                    <label end="98" start="48" name="Message"/>
+                    <label end="46" start="36" name="Addressee"/>
+                    <label end="15" start="14" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8182">
+            <text>Toutefois , le prix de la cession n' a pas été communiqué .</text>
+            <annotationSet status="MANUAL" ID="11782">
+                <layer rank="1" name="FE">
+                    <label end="32" start="12" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10600">
+            <text>Cette nouvelle entité se portera acquéreur de TEM pour un prix non communiqué mais proche , selon certaines sources , des 2 milliards de francs proposés , en 1990 , par l' américain General Electric lors d' une première tentative de reprise que les organisations syndicales avaient fait échouer .</text>
+            <annotationSet status="MANUAL" ID="14827">
+                <layer rank="1" name="FE">
+                    <label end="61" start="55" name="Message"/>
+                    <label end="293" start="78" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11874">
+            <text>- Le groupe français d' appareillage électrique Legrand a pris 98 % dans la société hongroise Kontavill , spécialisée dans la fabrication d' interrupteurs et de prises de courant pour un montant non communiqué .</text>
+            <annotationSet status="MANUAL" ID="16223">
+                <layer rank="1" name="FE">
+                    <label end="193" start="184" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="208" start="199" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12004">
+            <text>Les banques ne sont pas tenues , en effet , de communiquer les gains de leurs clients , à l' inverse de la France .</text>
+            <annotationSet status="MANUAL" ID="16322">
+                <layer rank="1" name="FE">
+                    <label end="84" start="59" name="Message"/>
+                    <label end="10" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12526">
+            <text>La General Service Administration ( GSA ) a communiqué , mercredi 30 décembre , dans la soirée , les attendus de son jugement , un document d' une cinquantaine de pages , aux responsables de Zenith Data Systems .</text>
+            <annotationSet status="MANUAL" ID="16886">
+                <layer rank="1" name="FE">
+                    <label end="167" start="97" name="Message"/>
+                    <label end="40" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13986">
+            <text>Le " bulletin nº 1 " comprenant toutes les condamnations prononcées ne pourra être communiqué qu' aux tribunaux .</text>
+            <annotationSet status="MANUAL" ID="18311">
+                <layer rank="1" name="FE">
+                    <label end="66" start="0" name="Message"/>
+                    <label end="110" start="102" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17592">
+            <text>Le troisième cercle regroupe essentiellement les gens " bénéficiant d' une nouvelle communiquée à un tiers de par sa fonction " , c' est - à - dire principalement les intermédiaires financiers .</text>
+            <annotationSet status="MANUAL" ID="21641">
+                <layer rank="1" name="FE">
+                    <label end="82" start="71" name="Message"/>
+                    <label end="105" start="98" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="foi.n" ID="2328" frame="Religious_belief" frameID="1019" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Blv" name="Believer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Role" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="el" name="Element"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Believer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Believer"/>
+                <annoSet ID="23193"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Content"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Element"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Element"/>
+                <annoSet ID="23193"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19193">
+            <text>Evoquant la part prise par les croyants dans les récents bouleversements en Europe de l' Est , le pape a poursuivi : " loin d' être l' opium des peuples , la foi au christ est le meilleur garant et le stimulant de leur liberté (...) .</text>
+            <annotationSet status="MANUAL" ID="23193">
+                <layer rank="1" name="FE">
+                    <label end="151" start="145" name="Believer"/>
+                    <label end="170" start="165" name="Element"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

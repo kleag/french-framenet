@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="appeler.v" ID="970" frame="FR_Contacting" frameID="10014" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Address" name="Address"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Topic" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Address"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Addressee"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="5945"/>
+                <annoSet ID="21501"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Communicator"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="21501"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="5945"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Purpose"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Purpose"/>
+                <annoSet ID="21501"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Purpose"/>
+                <annoSet ID="5945"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4237">
+            <text>Aujourd' hui , si l' image que vous voyez n' est pas conforme , aux dégradations du transport près , à celle issue de " Cognacq - Jay " ou de tout autre lieu historique , c' est le signe qu' il faut appeler un réparateur .</text>
+            <annotationSet status="MANUAL" ID="5945">
+                <layer rank="1" name="FE">
+                    <label end="219" start="207" name="Addressee"/>
+                    <label itype="UNI" name="Communicator"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="205" start="199" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17442">
+            <text>Faisant contre mauvaise fortune bon coeur , l' amiral Higgins a alors appelé au téléphone les journalistes britanniques pour les délier de leurs engagements .</text>
+            <annotationSet status="MANUAL" ID="21501">
+                <layer rank="1" name="FE">
+                    <label end="60" start="44" name="Communicator"/>
+                    <label end="118" start="90" name="Addressee"/>
+                    <label end="155" start="125" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

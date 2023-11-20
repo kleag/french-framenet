@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Commerce_buy" ID="171" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;These are words describing a basic commercial transaction involving a buyer and a seller exchanging money and goods, taking the perspective of the buyer.  The words vary individually in the patterns of frame element realization they allow.  For example, the typical pattern for the verb BUY:
+BUYER buys GOODS from SELLER for MONEY.
+Abby bought a car from Robin for $5,000.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt;: Unclear from the definition why Seller and Money are not Core. The LUs in this frame pattern the Buyer as the subject and the Goods as the direct object. The Goods can be anything exchanged for money (including time, labor, also including financial deposits generating financial interests, cf. FR: rémunérer une épargne).
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:49:09 PDT Mon" abbrev="Byr" name="Buyer" ID="1389">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Buyer&lt;/fen&gt; wants the &lt;fen&gt;Goods&lt;/fen&gt; and offers &lt;fen&gt;Money&lt;/fen&gt; to a &lt;fen&gt;Seller&lt;/fen&gt; in exchange for them.
+&lt;ex&gt;&lt;fex name="Buyer"&gt;Jess&lt;/fex&gt; &lt;t&gt;bought&lt;/t&gt; a coat.&lt;/ex&gt;
+&lt;ex&gt;Lee &lt;t&gt;bought&lt;/t&gt; a textbook &lt;fex name="Buyer"&gt;from Abby&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:49:09 PDT Mon" abbrev="Gds" name="Goods" ID="1390">
+        <definition>&lt;def-root&gt;The FE &lt;fen&gt;Goods&lt;/fen&gt; is anything (including labor or time, for example) which is exchanged for &lt;fen&gt;Money&lt;/fen&gt; in a transaction. 
+&lt;ex&gt; Only one winner &lt;t&gt;purchased&lt;/t&gt; &lt;fex name="Gds"&gt;the paintings&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 01:49:09 PDT Mon" abbrev="Mny" name="Money" ID="1392">
+        <definition>&lt;def-root&gt;Money is the thing given in exchange for Goods in a transaction.
+&lt;ex&gt;Sam &lt;t&gt;bought&lt;/t&gt; the car &lt;fex name="Money"&gt;for $12,000&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 01:49:09 PDT Mon" abbrev="Rate" name="Rate" ID="1393">
+        <definition>&lt;def-root&gt;In some cases, price or payment is described per unit of Goods.
+&lt;ex&gt; Jon &lt;t&gt;bought&lt;/t&gt; some expensive apples &lt;fex name="Rate"&gt;at five dollars a pound&lt;/fex&gt;! &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 01:49:09 PDT Mon" abbrev="Slr" name="Seller" ID="1394">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Seller&lt;/fen&gt; has possession of the &lt;fen&gt;Goods&lt;/fen&gt; and exchanges them for &lt;fen&gt;Money&lt;/fen&gt; from a &lt;fen&gt;Buyer&lt;/fen&gt;.
+&lt;ex&gt;Most of my audio equipment, I &lt;t&gt;purchased&lt;/t&gt; &lt;fex name="Seller"&gt;from a department store near my apartment&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Source" ID="151"/>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 01:49:09 PDT Mon" abbrev="Unit" name="Unit" ID="1395">
+        <definition>&lt;def-root&gt;This FE is any unit in which goods or services can be measured.
+Generally, it occurs in a &lt;ment&gt;by&lt;/ment&gt;-PP. 
+&lt;ex&gt;Lee &lt;t&gt;buys&lt;/t&gt; potatoes &lt;fex name="Unit"&gt;by the pound&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="04/25/2003 01:09:06 PDT Fri" abbrev="" name="Recipient" ID="4445">
+        <definition>&lt;def-root&gt;The individual intended by the &lt;fen&gt;Buyer&lt;/fen&gt; to receive the &lt;fen&gt;Goods&lt;/fen&gt;.
+&lt;ex&gt;You &lt;t&gt;bought&lt;/t&gt; &lt;fex name="Recipient"&gt;me&lt;/fex&gt; three pairs already!&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+<!--    <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="618" cDate="07/23/2003 02:45:23 PDT Wed" abbrev="POG" name="Purpose_of_goods" ID="4822">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Buyer&lt;/fen&gt;'s intended purpose for the &lt;fen&gt;Goods&lt;/fen&gt;.
+&lt;ex&gt;I &lt;t&gt;purchased&lt;/t&gt; the calculator&lt;fex name="POG"&gt;for easier calculation of my debts&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>-->
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Renting</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Perspective on">
+        <relatedFrame>Commerce_goods-transfer</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="achat.n" ID="287" nbocc="133" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="133"/>
+        <otherlexUnit framename="Other_sense" ID="100027" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="acheter.v" ID="288" nbocc="91" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="91"/>
+        <otherlexUnit framename="Other_sense" ID="100028" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="acquisition.n" ID="289" nbocc="63" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="63"/>
+        <otherlexUnit framename="Other_sense" ID="100029" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="acquérir.v" ID="290" nbocc="101" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="68"/>
+        <otherlexUnit framename="Other_sense" ID="100032" annotatedsent="33"/>
+    </lexUnit>
+    <lexUnit POS="n" name="bonification.n" ID="303" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100270" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="bonifier.v" ID="304" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100271" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="emplette.n" ID="291" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire ses courses.v" ID="292" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100880" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="nationalisation.n" ID="293" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="Other_sense" ID="101262" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="nationaliser.v" ID="294" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101263" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="payer.v" ID="295" nbocc="103" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101356" annotatedsent="6"/>
+        <otherlexUnit framename="Commerce_pay" ID="316" annotatedsent="95"/>
+    </lexUnit>
+    <lexUnit POS="n" name="rachat.n" ID="296" nbocc="56" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="53"/>
+        <otherlexUnit framename="Commerce_sell" ID="2747" annotatedsent="3"/>
+        <otherlexUnit framename="Other_sense" ID="101534" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="racheter.v" ID="297" nbocc="49" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="47"/>
+        <otherlexUnit framename="Other_sense" ID="101535" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="reprendre.v" ID="298" nbocc="152" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="38"/>
+        <otherlexUnit framename="Other_sense" ID="101613" annotatedsent="65"/>
+    </lexUnit>
+    <lexUnit POS="n" name="reprise.n" ID="299" nbocc="177" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="26"/>
+        <otherlexUnit framename="Other_sense" ID="101614" annotatedsent="77"/>
+    </lexUnit>
+    <lexUnit POS="n" name="règlement.n" ID="319" nbocc="45" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101650" annotatedsent="31"/>
+        <otherlexUnit framename="Commerce_pay" ID="318" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="v" name="régler.v" ID="2638" nbocc="35" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101669" annotatedsent="27"/>
+        <otherlexUnit framename="Commerce_pay" ID="320" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="n" name="rémunération.n" ID="2636" nbocc="58" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="19"/>
+        <otherlexUnit framename="Other_sense" ID="101670" annotatedsent="0"/>
+        <otherlexUnit framename="Commerce_pay" ID="321" annotatedsent="40"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rémunérer.v" ID="2637" nbocc="22" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="101671" annotatedsent="0"/>
+        <otherlexUnit framename="Commerce_pay" ID="322" annotatedsent="10"/>
+    </lexUnit>
+</frame>

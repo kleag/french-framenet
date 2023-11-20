@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Chatting-Discussion" ID="10010" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;Two (or more) people (the &lt;fen&gt;Interlocutors&lt;/fen&gt;, also encodable as &lt;fen&gt;Interlocutor_1&lt;/fen&gt; and &lt;fen&gt;Interlocutor_2&lt;/fen&gt;) talk to one another. No person is construed as only a speaker or only an addressee. Rather, it is understood that both (or all) participants do some speaking and some listening--the process is understood to be symmetrical or reciprocal.  The purpose of the conversation cand either be social or specifically to decide something or exchange information, but not to quarrel (see the Quarreling frame).
+
+&lt;ex&gt;&lt;fex name="Interlocutor_1"&gt;I&lt;/fex&gt; would rather &lt;t&gt;discuss&lt;/t&gt; &lt;fex name="Topic"&gt;politics&lt;/fex&gt; &lt;fex name="Interlocutor_2"&gt;with anyone but him&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt;&lt;fex name="Interlocutors"&gt;World leaders&lt;/fex&gt; met to &lt;t&gt;discuss&lt;/t&gt; &lt;fex name="Topic"&gt;global warming&lt;/fex&gt; &lt;fex name="Time"&gt;on the coldest day of the year.&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Incorporation of the Chatting frame into the Discussion frame : the Topic FE is Core (as in Discussion). The social status of the discussion is not retained as triggering different frames 
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:00 PST Wed" abbrev="Intlc_1" name="Interlocutor_1" ID="140">
+        <definition>&lt;def-root&gt;In cases where the &lt;fen&gt;Interlocutors&lt;/fen&gt; involved in a conversation are construed as two separate groups with different levels of volitionality or control, this FE identifies the conversational participant with greater semantic and syntactic prominence, as compared with &lt;fen&gt;Interlocutor_2&lt;/fen&gt;. That is, &lt;fen&gt;Interlocutor_1&lt;/fen&gt; is generally encoded as Subject, and peripheral FEs that do not make reference to the event itself generally make reference to &lt;fen&gt;Interlocutor_1&lt;/fen&gt;.  Thus a &lt;fen&gt;Purpose&lt;/fen&gt; (or &lt;fen&gt;Means&lt;/fen&gt;, &lt;fen&gt;Depictive&lt;/fen&gt;, or &lt;fen&gt;Manner&lt;/fen&gt;) is construed to be that of &lt;fen&gt;Interlocutor_1&lt;/fen&gt;, not necessarily that of &lt;fen&gt;Interlocutor_2&lt;/fen&gt; or the group of &lt;fen&gt;Interlocutors&lt;/fen&gt; as a whole.
+&lt;ex&gt;&lt;fex name="Interlocutor_1"&gt;The President&lt;/fex&gt; &lt;t&gt;conferred&lt;/t&gt; with his top advisor.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Interlocutor_1"&gt;I&lt;/fex&gt; &lt;t&gt;discussed&lt;/t&gt; evolution with Gould to prove he was wrong about it.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <requiresFE name="Interlocutor_2" ID="141"/>
+        <excludesFE name="Interlocutors" ID="142"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:00 PST Wed" abbrev="Intlc_2" name="Interlocutor_2" ID="141">
+        <definition>&lt;def-root&gt;In cases where the &lt;fen&gt;Interlocutors&lt;/fen&gt; involved in a conversation are construed as two separate groups with different levels of volitionality or control, &lt;fen&gt;Interlocutor_2&lt;/fen&gt; refers to the semantically and grammatically less prominent group.  It is generally encoded within a prepositional phrase (e.g. headed by &lt;ment&gt;with&lt;/ment&gt;).  Note that it is possible for a single role to correspond to multiple referents. For example, if the prepositional object in the example below were plural, we would still assign it the single role &lt;fen&gt;Interlocutor_2&lt;/fen&gt;.
+&lt;ex&gt;The President &lt;t&gt;debated&lt;/t&gt; &lt;fex name="Interlocutor_2"&gt;with his top advisor&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <requiresFE name="Interlocutor_1" ID="140"/>
+        <excludesFE name="Interlocutors" ID="142"/>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:00 PST Wed" abbrev="Intlc_s" name="Interlocutors" ID="142">
+        <definition>&lt;def-root&gt;In some sentences both participants are expressed by the Subject, and there is no 'with'-phrase (cf example 1). In sentences like this, the Subject is assigned the FE role &lt;fen&gt;Interlocutors&lt;/fen&gt;. In such sentences, the Subject always denotes more than one person, and it is understood that the reciprocal communication takes place between these two (or more) people. The Subject may denote two or more people either through conjunction, as in example 1, or through plurality, as in example 2, or by denoting a group, as in example 3. In each of these cases the FE &lt;fen&gt;Interlocutors&lt;/fen&gt; is assigned. Notice that for nouns in the Discussion frame, it is possible for the &lt;fen&gt;Interlocutors&lt;/fen&gt; role to be expressed by a prepositional phrase as in example 4.
+ 
+&lt;ex&gt;(1) &lt;fex name="Interlocutors"&gt;The President and his advisor&lt;/fex&gt; &lt;t&gt;discussed&lt;/t&gt; the Venezuelan situation briefly before the summit.&lt;/ex&gt; 
+&lt;ex&gt;(2)&lt;fex name="Interlocutors"&gt; The lawyers&lt;/fex&gt; &lt;t&gt;conferred&lt;/t&gt; before the trial.&lt;/ex&gt;
+&lt;ex&gt;(3)&lt;fex name="Interlocutors"&gt;The committee&lt;/fex&gt; &lt;t&gt;debated&lt;/t&gt; the bill for only a few minutes.&lt;/ex&gt;
+&lt;ex&gt;(4) There was a brief &lt;t&gt;exchange&lt;/t&gt; &lt;fex name="Interlocutors"&gt;between the lawyers&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:00 PST Wed" abbrev="Top" name="Topic" ID="143">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Topic&lt;/fen&gt; expresses the subject that the &lt;fen&gt;Interlocutors&lt;/fen&gt; are trying to come to some agreement about.  It may refer, for example, to an undesirable issue that the &lt;fen&gt;Interlocutors&lt;/fen&gt; want to have the proper response to, or it may refer more directly to an unresolved question.
+
+&lt;ex&gt;The President and his top advisors &lt;t&gt;discussed&lt;/t&gt; &lt;fex name="Topic"&gt;the scandal&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;They had a &lt;t&gt;discussion&lt;/t&gt; &lt;fex name="Topic"&gt;about the scandal&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The participants &lt;t&gt;debated&lt;/t&gt; &lt;fex name="Topic"&gt;whether the US should soften its response&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Quarreling</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Merged from">
+        <relatedFrame>Chatting</relatedFrame>
+        <relatedFrame>Discussion</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="bavardage.n" ID="922" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="bavarder.v" ID="923" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="bavassage.n" ID="924" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="bavasser.v" ID="925" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="blaguer.v" ID="926" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="causer.v" ID="927" nbocc="6" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100306" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1462" annotatedsent="0"/>
+        <otherlexUnit framename="Causation" ID="171" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="n" name="causerie.n" ID="928" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100307" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="chat.n" ID="930" nbocc="2" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="chatter.v" ID="931" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="communication.n" ID="932" nbocc="81" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="FR_Telling" ID="2529" annotatedsent="3"/>
+        <otherlexUnit framename="Other_sense" ID="100362" annotatedsent="76"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1465" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="communiquer.v" ID="933" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="FR_Telling" ID="2530" annotatedsent="9"/>
+        <otherlexUnit framename="Other_sense" ID="100363" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1466" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="contact.n" ID="2761" nbocc="19" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100417" annotatedsent="6"/>
+        <otherlexUnit framename="FR_Contacting" ID="971" annotatedsent="12"/>
+    </lexUnit>
+    <lexUnit POS="n" name="conversation.n" ID="934" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="Other_sense" ID="100447" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="converser.v" ID="935" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="deviser.v" ID="936" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dialogue de sourd.n" ID="2754" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dialogue.n" ID="937" nbocc="18" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="18"/>
+        <otherlexUnit framename="Other_sense" ID="100562" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dialoguer.v" ID="938" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100563" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="discussion.n" ID="939" nbocc="62" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="61"/>
+        <otherlexUnit framename="Other_sense" ID="100573" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1472" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="discuter.v" ID="940" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="38"/>
+        <otherlexUnit framename="Other_sense" ID="100574" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1473" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="débat.n" ID="941" nbocc="94" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="94"/>
+        <otherlexUnit framename="Other_sense" ID="100633" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="débattre.v" ID="942" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="100634" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="délibération.n" ID="943" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100686" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="délibérer.v" ID="944" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100687" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire causette.v" ID="929" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="marchandage.n" ID="945" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="marchander.v" ID="946" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="négociation.n" ID="947" nbocc="127" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="négocier.v" ID="948" nbocc="44" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="palabre.n" ID="949" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101317" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="palabrer.v" ID="950" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="papotage.n" ID="951" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="papoter.v" ID="952" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="parler.v" ID="953" nbocc="122" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="FR_Purpose" ID="2751" annotatedsent="2"/>
+        <otherlexUnit framename="Other_sense" ID="101340" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1486" annotatedsent="84"/>
+    </lexUnit>
+    <lexUnit POS="n" name="pourparler.n" ID="954" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="101409" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="tchat.n" ID="956" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="tchatter.v" ID="957" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="tractation.n" ID="958" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101933" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="échange.n" ID="959" nbocc="92" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="échanger.v" ID="960" nbocc="24" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

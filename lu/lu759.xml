@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="convier.v" ID="759" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="13978"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="13978"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Persuader"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="13978"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="9949">
+            <text>D' emblée le lecteur est convié à exercer sa critique ; car les traducteurs ont eu l' intelligence de juxtaposer aux travaux de Kondratieff les commentaires de ses détracteurs , au premier rang desquels figure le minutieux contre - rapport de D. I. Oparine .</text>
+            <annotationSet status="MANUAL" ID="13978">
+                <layer rank="1" name="FE">
+                    <label end="52" start="34" name="Action"/>
+                    <label end="19" start="10" name="Cognizer"/>
+                    <label end="74" start="60" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

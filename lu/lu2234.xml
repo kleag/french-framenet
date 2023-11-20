@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="résolu.a" ID="2234" frame="FR_Purpose" frameID="10070" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="0099CC" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Agent"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="6254"/>
+                <annoSet ID="7866"/>
+                <annoSet ID="9346"/>
+                <annoSet ID="12996"/>
+                <annoSet ID="22714"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Goal"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="6254"/>
+                <annoSet ID="7866"/>
+                <annoSet ID="9346"/>
+                <annoSet ID="12996"/>
+                <annoSet ID="22714"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Means"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="22714"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4442">
+            <text>Ayant emmené avec lui au Japon les présidents des trois " grands " de l' automobile américaine ( General Motors , Ford motor et Chrysler ) , M. Bush était résolu à obtenir des résultats concrets .</text>
+            <annotationSet status="MANUAL" ID="6254">
+                <layer rank="1" name="FE">
+                    <label end="193" start="164" name="Goal"/>
+                    <label end="147" start="141" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5420">
+            <text>Dès 1988 , dans sa Lettre à tous les Français , M. Mitterrand s' était déclaré résolu à éliminer " les mauvaises moeurs de la chasse aux sorcières " .</text>
+            <annotationSet status="MANUAL" ID="7866">
+                <layer rank="1" name="FE">
+                    <label end="147" start="88" name="Goal"/>
+                    <label end="60" start="48" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6263">
+            <text>Lors de son discours de politique générale , il y a trois mois , le premier ministre s' était déclaré résolu à " apaiser les passions " .</text>
+            <annotationSet status="MANUAL" ID="9346">
+                <layer rank="1" name="FE">
+                    <label end="134" start="111" name="Goal"/>
+                    <label end="83" start="65" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9082">
+            <text>Conscients d' avoir perdu des parts de marché importantes dans les exportations agroalimentaires mondiales ( elles sont passées de 17 , 5 % à 13 % entre 1980 et 1990 ) , les Etats - Unis semblent résolus à passer à l' offensive .</text>
+            <annotationSet status="MANUAL" ID="12996">
+                <layer rank="1" name="FE">
+                    <label end="226" start="206" name="Goal"/>
+                    <label end="185" start="170" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="196" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18596">
+            <text>Pour sa part , le Soviet suprême de Lettonie a voté vendredi une motion de soutien " à la marche résolue de la Lituanie vers l' indépendance " , exprimant " sa solidarité avec le peuple lituanien " , a annoncé Radio - Riga .</text>
+            <annotationSet status="MANUAL" ID="22714">
+                <layer rank="1" name="FE">
+                    <label end="139" start="125" name="Goal"/>
+                    <label end="118" start="108" name="Agent"/>
+                    <label end="95" start="87" name="Means"/>
+                    <label end="139" start="105" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

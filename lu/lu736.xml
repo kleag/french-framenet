@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="récuser.v" ID="736" frame="FR_Agree_or_refuse_to_act" frameID="10002" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposed_action"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="23183"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Proposed_action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposed_action"/>
+                <annoSet ID="23183"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19180">
+            <text>Le secrétaire général de la CFDT récuse toute entente avec la CGT , qui " demeure toujours soumise au parti communiste français " , " le parti qui s' affiche comme le plus ringard , le plus figé , le plus intolérant des partis communistes d' Europe " .</text>
+            <annotationSet status="MANUAL" ID="23183">
+                <layer rank="1" name="FE">
+                    <label end="247" start="40" name="Proposed_action"/>
+                    <label end="31" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

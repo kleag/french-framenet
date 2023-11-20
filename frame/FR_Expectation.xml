@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Expectation" ID="10025" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;Words in this frame have to do with a &lt;fen&gt;Cognizer&lt;/fen&gt; believing that some &lt;fen&gt;Phenomenon&lt;/fen&gt; will take place in the future.  Some words in the frame (e.g. FR:&lt;ment&gt;anticiper.v&lt;/ment&gt;) indicate that the &lt;fen&gt;Phenomenon&lt;/fen&gt; is asserted also to be true, while others do not.
+
+&lt;ex&gt;&lt;fex name="Cog"&gt;Michael&lt;/fex&gt; &lt;t&gt;expected&lt;/t&gt; &lt;fex name="Phen"&gt;Abby&lt;/fex&gt; &lt;fex name="Phen"&gt;to demand examples&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Evidence"&gt;From the look on her face&lt;/fex&gt; &lt;fex name="Cog"&gt;Michael&lt;/fex&gt; &lt;t&gt;expected&lt;/t&gt; &lt;fex name="Phen"&gt;that she would say she got the job&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Add of the &lt;fen&gt;Time_of_Eventuality&lt;/fen&gt; FE, as it can be subcategorized by the LUs of this frame.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:56 PST Wed" abbrev="Cog" name="Cognizer" ID="109">
+        <definition>&lt;def-root&gt;This is the person who believes some Phenomenon will take place in the future. It is normally expressed as an External Argument: &lt;fex name="Cognizer"&gt;Pat&lt;/fex&gt; &lt;t&gt;expects&lt;/t&gt; that the Yankees will win the World Series. &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:56 PST Wed" abbrev="Phen" name="Phenomenon" ID="110">
+        <definition>&lt;def-root&gt;This is what the Cognizer believes will happen in the future. It can be expressed as a Finite Clause Complement, an NP Object, or a VP Complement with or without an NP Object (see General Grammatical Observations): 
+&lt;ex&gt;Pat &lt;t&gt;expects&lt;/t&gt; &lt;fex name="Phenomenon"&gt;that the Yankees will win the World Series&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Pat &lt;t&gt;expects&lt;/t&gt; &lt;fex name="Phenomenon"&gt;a big win&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;Pat &lt;t&gt;expects&lt;/t&gt; &lt;fex name="Phenomenon"&gt;the Yankees&lt;/fex&gt; &lt;fex name="Phenomenon"&gt;to win the World Series&lt;/fex&gt;.&lt;/ex&gt;
+ General Grammatical Observations:  Many of the verbs in this frame allow Raising: Pat &lt;t&gt;expects&lt;/t&gt; it to rain. In the example above, the word &lt;ment&gt;it&lt;/ment&gt; is grammatically the Object of the target verb &lt;ment&gt;expect&lt;/ment&gt;, but it does not express an FE. Rather, it is merely construed as the External Argument of the verb &lt;ment&gt;rain&lt;/ment&gt;, which heads the VP Complement of the target. In this situation, both the raised consituent &lt;ment&gt;it&lt;/ment&gt; and the VP Complement are marked with the &lt;fex name="Phen"&gt;Phenomenon&lt;/fex&gt; FE, but are marked as separate constituents. That is because the Object can be passivized and therefore not appear adjacent to the VP Complement: It is &lt;t&gt;expected&lt;/t&gt; to rain. &lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="11/27/2002 08:07:52 PST Wed" abbrev="tim" name="Time_of_Eventuality" ID="3947">
+        <definition>&lt;def-root&gt;The time when the &lt;fen&gt;Cognizer&lt;/fen&gt; expects the &lt;fen&gt;Phenomenon&lt;/fen&gt; to occur.
+&lt;ex&gt;She &lt;t&gt;predicted&lt;/t&gt; the outcry for &lt;fex name="tim"&gt;1992&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Time" ID="141"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="06/23/2001 07:59:53 PDT Sat" abbrev="Evid" name="Evidence" ID="1041">
+        <definition>&lt;def-root&gt;Words in this frame may occur with a PP headed by &lt;ment&gt;from&lt;/ment&gt; which expresses the Evidence on which knowledge or belief is based: I have &lt;t&gt;learned&lt;/t&gt; &lt;fex name="Evidence"&gt;from experience&lt;/fex&gt; that poison oak can be painful. &lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="01/11/2006 03:53:09 PST Wed" abbrev="top" name="Topic" ID="9837">
+        <definition>&lt;def-root&gt;An entity that serves as the focus of a predicted &lt;fen&gt;Phenomenon&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;t&gt;Predictions&lt;/t&gt; &lt;fex name="Topic"&gt;about stock prices&lt;/fex&gt; are notoriously undependable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Topic" ID="9837"/>
+        <memberFE name="Phenomenon" ID="110"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Awareness-Certainty-Opinion</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Communicated by">
+        <relatedFrame>Predicting</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Expectation</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="anticipation.n" ID="626" nbocc="18" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="100101" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="v" name="anticiper.v" ID="627" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="100102" annotatedsent="8"/>
+    </lexUnit>
+    <lexUnit POS="n" name="attente.n" ID="628" nbocc="30" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100149" annotatedsent="24"/>
+    </lexUnit>
+    <lexUnit POS="a" name="censé.a" ID="629" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100310" annotatedsent="16"/>
+    </lexUnit>
+    <lexUnit POS="v" name="envisager.v" ID="630" nbocc="113" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="FR_Purpose" ID="2749" annotatedsent="64"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="810" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="100823" annotatedsent="22"/>
+    </lexUnit>
+    <lexUnit POS="v" name="gager.v" ID="631" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100924" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="imprévisible.a" ID="632" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="101025" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="imprévu.a" ID="633" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101026" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="imprévu.n" ID="634" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101027" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="inattendu.a" ID="635" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="101036" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="pressentir.v" ID="636" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101427" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="préjuger.v" ID="637" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="834" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="101490" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="présage.n" ID="638" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="présager.v" ID="639" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101495" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prévisibilité.n" ID="640" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="prévisible.a" ID="641" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="101506" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prévision.n" ID="642" nbocc="62" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="60"/>
+        <otherlexUnit framename="Other_sense" ID="101507" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prévoir.v" ID="643" nbocc="253" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="33"/>
+        <otherlexUnit framename="Other_sense" ID="101508" annotatedsent="68"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'attendre.v" ID="644" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="38"/>
+        <otherlexUnit framename="Other_sense" ID="101704" annotatedsent="0"/>
+    </lexUnit>
+</frame>

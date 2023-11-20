@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="jurer.v" ID="353" frame="FR_Commitment.to_do" frameID="10089" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Msg" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Entity"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Eventuality"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="11400"/>
+                <annoSet ID="18488"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="11400"/>
+                <annoSet ID="18488"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7897">
+            <text>Les députés kazakhs , promis juré , l' examineront cet été .</text>
+            <annotationSet status="MANUAL" ID="11400">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Speaker"/>
+                    <label end="18" start="0" name="Eventuality"/>
+                    <label end="57" start="36" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14147">
+            <text>Il faut se rappeler à ce propos que en prenant leurs charges à Bruxelles , les commissaires jurent de se montrer indépendants par rapport aux intérêts de leurs pays respectifs .</text>
+            <annotationSet status="MANUAL" ID="18488">
+                <layer rank="1" name="FE">
+                    <label end="90" start="75" name="Speaker"/>
+                    <label end="90" start="75" name="Eventuality"/>
+                    <label end="174" start="102" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

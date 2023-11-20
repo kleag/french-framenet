@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="présomption.n" ID="836" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="3010"/>
+                <annoSet ID="16338"/>
+                <annoSet ID="18298"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="3010"/>
+                <annoSet ID="16338"/>
+                <annoSet ID="18298"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2309">
+            <text>Dans une ordonnance rendue en avril 1999 , le Procureur de la République de Nanterre , Yves Bot , explique que cette lettre fait peser à l' encontre de Jacques Chirac de fortes présomptions sur sa participation " aux faits de prise illégale d' intérêt et de recel d' abus de biens sociaux " .</text>
+            <annotationSet status="MANUAL" ID="3010">
+                <layer rank="1" name="FE">
+                    <label end="289" start="194" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="188" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12028">
+            <text>Celle - ci versera au fisc une somme globale pour l' ensemble de ses clients , sans donner le détail compte par compte , sauf en cas de présomption de fraude .</text>
+            <annotationSet status="MANUAL" ID="16338">
+                <layer rank="1" name="FE">
+                    <label end="156" start="151" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="146" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13966">
+            <text>Mais disparaîtra la présomption de responsabilité pénale qui pèse en fait aujourd' hui sur ces dirigeants à propos d' infractions dont ils ignorent parfois l' existence .</text>
+            <annotationSet status="MANUAL" ID="18298">
+                <layer rank="1" name="FE">
+                    <label end="55" start="35" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

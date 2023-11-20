@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="engueulade.n" ID="2674" frame="Quarreling" frameID="710" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Args" name="Arguers"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Arg1" name="Arguer1"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Arg2" name="Arguer2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Iss" name="Issue"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Arguer1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Arguer2"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Arguers"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Arguers"/>
+                <annoSet ID="4138"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Issue"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Issue"/>
+                <annoSet ID="4138"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3288">
+            <text>Car ils en ont tous plein la bouche , de " leur " chaîne , ses bons et ses mauvais moments , les engueulades et les coups durs .</text>
+            <annotationSet status="MANUAL" ID="4138">
+                <layer rank="1" name="FE">
+                    <label end="6" start="4" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

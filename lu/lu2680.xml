@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="reconnaissance.n" ID="2680" frame="FR_Expressing_decision" frameID="10027" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Dec" name="Decision"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="OffE" name="Official_entity"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Decision"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Official_entity"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Official_entity"/>
+                <annoSet ID="18899"/>
+                <annoSet ID="24235"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="18899"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="24235"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="14589">
+            <text>Ces derniers devront mesurer " la qualité du débat social " , l' entreprise devant discuter de son projet avec le comité d' entreprise , les syndicats ou , le cas échéant , le soumettre à référendum , procédure qui obtiendrait ainsi une reconnaissance officielle .</text>
+            <annotationSet status="MANUAL" ID="18899">
+                <layer rank="1" name="FE">
+                    <label end="231" start="201" name="Official_entity"/>
+                    <label end="261" start="252" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="250" start="237" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20535">
+            <text>Cinq piliers de " sagesse " sont proposés pour un nouveau modèle de développement : le renforcement de l' incitation à accumuler ( notamment par l' attribution de distinctions honorifiques aux entreprises performantes , avec reconnaissance des chefs , comme chez les Bamiléké du Cameroun ) ; l' individualisation des rémunérations par le biais d' actionnariat salarié et d' intéressement du personnel ; l' utilisation des valeurs traditionnelles pour régler les conflits au sein de l' entreprise ( appel à la famille pour obtenir un compromis entre supérieurs et subordonnés ) ; le recours au formalisme et au rituel - qui fondent la pression du groupe - pour renforcer les liens contractuels ; le développement de la dynamique de groupe par les cercles de qualité , comme l' a expérimenté le Burkina - Faso , " avec succès " .</text>
+            <annotationSet status="MANUAL" ID="24235">
+                <layer rank="1" name="FE">
+                    <label end="248" start="244" name="Official_entity"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="238" start="225" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

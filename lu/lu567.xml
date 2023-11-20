@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="indice.n" ID="567" frame="Evidence" frameID="25" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Proposition"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Proposition"/>
+                <annoSet ID="3630"/>
+                <annoSet ID="13812"/>
+                <annoSet ID="15637"/>
+                <annoSet ID="19585"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Support"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="3630"/>
+                <annoSet ID="13812"/>
+                <annoSet ID="15637"/>
+                <annoSet ID="19585"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2782">
+            <text>- Mars 2001 : le juge Éric Halphen fait parvenir au président de la République Jacques Chirac une convocation en titre de témoin , avant d' estimer qu' il existe des " indices " suffisants pour envisager sa mise en examen .</text>
+            <annotationSet status="MANUAL" ID="3630">
+                <layer rank="1" name="FE">
+                    <label end="220" start="162" name="Support"/>
+                    <label itype="ENI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="174" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9811">
+            <text>Ces indices rassurants ne signifient pourtant pas que l' année à venir permettra de " sortir du tunnel " , notamment en matière de publicité .</text>
+            <annotationSet status="MANUAL" ID="13812">
+                <layer rank="1" name="FE">
+                    <label end="21" start="0" name="Support"/>
+                    <label itype="ENI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11327">
+            <text>Las ! les maigres indices s' évanouissaient bien vite et les cours du dollar redescendaient graduellement .</text>
+            <annotationSet status="MANUAL" ID="15637">
+                <layer rank="1" name="FE">
+                    <label end="24" start="6" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15325">
+            <text>Indice inquiétant , à la mi - mai , le brent est repassé - brièvement - en dessous de 18 dollars .</text>
+            <annotationSet status="MANUAL" ID="19585">
+                <layer rank="1" name="FE">
+                    <label end="97" start="18" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="refuser.v" ID="2426" frame="Respond_to_proposal" frameID="1623" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="int" name="Interlocutor"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="8">
+            <FE name="Interlocutor"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Interlocutor"/>
+                <annoSet ID="21347"/>
+                <annoSet ID="23293"/>
+                <annoSet ID="23551"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Interlocutor"/>
+                <annoSet ID="609"/>
+                <annoSet ID="2050"/>
+                <annoSet ID="9378"/>
+                <annoSet ID="19601"/>
+                <annoSet ID="23081"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Proposal"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="2050"/>
+                <annoSet ID="9378"/>
+                <annoSet ID="19601"/>
+                <annoSet ID="21347"/>
+                <annoSet ID="23081"/>
+                <annoSet ID="23293"/>
+                <annoSet ID="23551"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Proposal"/>
+                <annoSet ID="609"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Speaker"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="609"/>
+                <annoSet ID="2050"/>
+                <annoSet ID="9378"/>
+                <annoSet ID="19601"/>
+                <annoSet ID="23081"/>
+                <annoSet ID="23293"/>
+                <annoSet ID="23551"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="21347"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="473">
+            <text>Comme l' attaquant tenait encore à jouer , il refusa et examina d' autres possibilités : " Le Mans , Valence , Sedan et un quatrième club dont je dois taire le nom , me faisaient des offres intéressantes .</text>
+            <annotationSet status="MANUAL" ID="609">
+                <layer rank="1" name="FE">
+                    <label end="44" start="43" name="Speaker"/>
+                    <label end="17" start="6" name="Speaker"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                    <label itype="ENI" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1781">
+            <text>Washington a aussi refusé cette proposition , créant ainsi une situation qui nuit surtout au peuple irakien , et non à ses dirigeants .</text>
+            <annotationSet status="MANUAL" ID="2050">
+                <layer rank="1" name="FE">
+                    <label end="42" start="26" name="Proposal"/>
+                    <label end="9" start="0" name="Speaker"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6282">
+            <text>Mais l' assemblée des actionnaires de continental , le 3 juillet à Hanovre , a refusé cette demande de suppression du plafond qui limite à 5 % du capital - actions la proportion de droits de votes dont peut disposer un actionnaire individuel .</text>
+            <annotationSet status="MANUAL" ID="9378">
+                <layer rank="1" name="FE">
+                    <label end="240" start="86" name="Proposal"/>
+                    <label end="48" start="5" name="Speaker"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15342">
+            <text>M. Stern avait déjà été pressenti comme numéro deux de la BERD il y a deux ans mais avait alors refusé le poste .</text>
+            <annotationSet status="MANUAL" ID="19601">
+                <layer rank="1" name="FE">
+                    <label end="110" start="103" name="Proposal"/>
+                    <label end="7" start="0" name="Speaker"/>
+                    <label itype="UNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17260">
+            <text>C' est " sans état d' âme particulier " , du moins le dit -il , qu' il accepte le poste que lui propose André Bénard : " un pari comme celui - là ne se refuse pas .</text>
+            <annotationSet status="MANUAL" ID="21347">
+                <layer rank="1" name="FE">
+                    <label end="115" start="104" name="Interlocutor"/>
+                    <label end="144" start="121" name="Proposal"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19015">
+            <text>L' intéressé a refusé sa nouvelle affectation , la qualifiant de " humiliation personnelle " , et a manifesté son intention de quitter l' armée .</text>
+            <annotationSet status="MANUAL" ID="23081">
+                <layer rank="1" name="FE">
+                    <label end="44" start="22" name="Proposal"/>
+                    <label end="11" start="0" name="Speaker"/>
+                    <label itype="ENI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19336">
+            <text>Adl Oua Alihsane , fondé en 1980 , avait demandé à être enregistré par les autorités en 1981 , demande qui avait été refusée .</text>
+            <annotationSet status="MANUAL" ID="23293">
+                <layer rank="1" name="FE">
+                    <label end="31" start="0" name="Interlocutor"/>
+                    <label end="123" start="95" name="Proposal"/>
+                    <label end="105" start="103" name="Proposal"/>
+                    <label end="83" start="71" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19736">
+            <text>Ces ombres qui n' ont plus leur place dans la société et qui refusent ses services s' adressent à ceux qui aident " sans rien demander " .</text>
+            <annotationSet status="MANUAL" ID="23551">
+                <layer rank="1" name="FE">
+                    <label end="52" start="43" name="Interlocutor"/>
+                    <label end="81" start="70" name="Proposal"/>
+                    <label end="59" start="57" name="Speaker"/>
+                    <label end="81" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

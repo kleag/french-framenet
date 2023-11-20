@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Encoding" ID="10028" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; puts some &lt;fen&gt;Content&lt;/fen&gt; into words. In cases where the individuals addressed are a smaller group than the public at large, a separate &lt;fen&gt;Addressee&lt;/fen&gt; may be expressed.
+
+&lt;ex&gt;&lt;fex name="con"&gt;Those grievances&lt;/fex&gt; can be &lt;t&gt;aired&lt;/t&gt; &lt;fex name="Time"&gt;during Board meetings&lt;/fex&gt;. &lt;fex name="com"&gt;CNI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="com"&gt;Saddam&lt;/fex&gt; &lt;t&gt;voiced&lt;/t&gt; &lt;fex name="Content"&gt;his joy&lt;/fex&gt; &lt;fex name="Time"&gt;when he was told Spain's new government had left the US-led military coalition in Iraq&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;The Prime Minister &lt;t&gt;expressed&lt;/t&gt; &lt;fex name="Content"&gt;her sympathy for the victims&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;The Prime Minister &lt;t&gt;expressed&lt;/t&gt; &lt;fex name="Content"&gt;that she was worried about the victims&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Difference to FR_Statement-manner-noise : the LUs in FR_Encoding do encode the fact that the Speaker necessarily uses words to express the Content that are different from the words used by the author to describe the Content.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Close to the Encoding frame, but the Message FE is renamed Content, to state it cannot correspond to the actual words of the Speaker. The Manner FE is dropped, as it can be obtained compositionally and is not specific to the LUs in this frame (any Communication LU could use it). A Formulation FE is added, for specific cases in which the words in which the Content is formulated are specified. The LUs of the Expressing_publicly frame are also moved to FR_Encoding, but Expressing_publicly definition is not retained, as the difficulty of expression trait is not valid in French.
+
+ &lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/25/2005 04:52:00 PDT Thu" abbrev="Spkr" name="Speaker" ID="8989">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the person who expresses the &lt;fen&gt;Content&lt;/fen&gt; (whether spoken or written).  
+
+&lt;ex&gt;&lt;fex name="Spkr"&gt;Reagan&lt;/fex&gt; &lt;t&gt;gave voice&lt;/t&gt; to the innate patriotism of the American people.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="08/25/2005 04:52:00 PDT Thu" abbrev="Formulation" name="Formulation" ID="8985">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Formulation&lt;/fen&gt; is a closer description of the actual words used by the &lt;fen&gt;Speaker&lt;/fen&gt; to express the &lt;fen&gt;Content&lt;/fen&gt; 
+
+&lt;ex&gt;Pour &lt;fex name="con"&gt;le&lt;/fex&gt; &lt;t&gt;dire&lt;/t&gt; autrement : &lt;fex name="Formulation"&gt;vous voulez supprimer le chômage&lt;/fex&gt; ? (EN: To phrase it differently : you want to suppress unemployment?)
+&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="08/25/2005 04:52:00 PDT Thu" abbrev="Add" name="Addressee" ID="8990">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is the person to whom the &lt;fen&gt;Content&lt;/fen&gt; is communicated. 
+
+&lt;ex&gt;After waiting 2-hours for his appointment, Kiyosaki &lt;t&gt;vented&lt;/t&gt; his frustration &lt;fex name="Add"&gt;to
+his rich dad&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/25/2005 04:52:00 PDT Thu" abbrev="con" name="Content" ID="8991">
+        <definition>&lt;def-root&gt;The attitude or feeling that the &lt;fen&gt;Speaker&lt;/fen&gt; had not previously expressed.
+
+&lt;ex&gt;Members &lt;t&gt;aired&lt;/t&gt; &lt;fex name="con"&gt;their grievances&lt;/fex&gt; and resented the way higher education was being dealt with.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/25/2005 04:52:01 PDT Thu" abbrev="Medium" name="Medium" ID="8997">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; is the observable action or product of the &lt;fen&gt;Speaker&lt;/fen&gt;.
+
+
+&lt;ex&gt;I do not especially espouse the ideas &lt;t&gt;articulated&lt;/t&gt; by Diana Plesa &lt;fex name="Medium"&gt;in her article&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="8997"/>
+        <memberFE name="Speaker" ID="8989"/>
+    </FEcoreSet>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Encoding</relatedFrame>
+        <relatedFrame>Expressing_publicly</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="dire.v" ID="2558" nbocc="317" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100568" annotatedsent="12"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1551" annotatedsent="147"/>
+        <otherlexUnit framename="FR_Request" ID="2363" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="544" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="expression.n" ID="1093" nbocc="26" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100859" annotatedsent="22"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="2776" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="exprimer.v" ID="1094" nbocc="81" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="40"/>
+        <otherlexUnit framename="Other_sense" ID="100860" annotatedsent="18"/>
+    </lexUnit>
+    <lexUnit POS="n" name="formulation.n" ID="1095" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100910" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="formuler.v" ID="1096" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100911" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="laisser entendre.v" ID="1097" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101151" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="572" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="reformulation.n" ID="1099" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="reformuler.v" ID="1100" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="soulever.v" ID="1101" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101839" annotatedsent="1"/>
+        <otherlexUnit framename="Causation" ID="252" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Reason" ID="2306" annotatedsent="8"/>
+    </lexUnit>
+    <lexUnit POS="v" name="émettre.v" ID="1102" nbocc="53" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="énoncer.v" ID="1103" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="énonciation.n" ID="1104" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

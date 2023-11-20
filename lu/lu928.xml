@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="causerie.n" ID="928" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Interlocutor_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Interlocutor_2"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Interlocutors"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19368">
+            <text>Il avait encore la voix cassée d' avoir tant crié , lorsqu' il est apparu , tard samedi soir à la télévision , pour l' équivalent roumain de ce qu' on appellerait en France une " causerie au coin du feu " , en compagnie du président et du vice- président du CFSN , MM Ion Iliescu et Dumitru Mazilu .</text>
+            <annotationSet status="MANUAL" ID="23320">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="179" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

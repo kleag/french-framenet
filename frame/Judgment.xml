@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Judgment" ID="28" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Judgment_evaluation">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; makes a judgment about an &lt;fen&gt;Evaluee&lt;/fen&gt;. The judgment may be positive (e.g. &lt;ment&gt;respect&lt;/ment&gt;) or negative (e.g. &lt;ment&gt;condemn&lt;/ment&gt;), and this information is recorded in the semantic types Positive and Negative on the Lexical Units of this frame. There may be a specific &lt;fen&gt;Reason&lt;/fen&gt; for the &lt;fen&gt;Cognizer&lt;/fen&gt;'s judgment, or there may be a capacity or &lt;fen&gt;Role&lt;/fen&gt; in which the &lt;fen&gt;Evaluee&lt;/fen&gt; is judged. 
+&lt;ex&gt;&lt;/ex&gt;
+This frame is distinct from the Judgment_communication frame in that this frame does not involve the Cognizer communicating his or her judgment to an Addressee.  
+&lt;ex&gt;JUDGMENT:  She &lt;t&gt;admired&lt;/t&gt; Einstein for his character.&lt;/ex&gt;
+&lt;ex&gt;JUDGMENT_COMMUNICATION:  She &lt;t&gt;accused&lt;/t&gt; Einstein of collusion.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+Currently, however, some lexical units and annotation for both remain in this frame.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt; : 
+&lt;ex&gt;&lt;/ex&gt;
+
+≠  &lt;frframe&gt;Regard&lt;/frframe&gt; : the LUs of the Judgment do include the polarity of the evaluation, which is not the case for the LUs of Regard.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:56 PST Wed" abbrev="Cog" name="Cognizer" ID="115">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; makes the judgment. This role is typically expressed as the External Argument (or in a &lt;ment&gt;by&lt;/ment&gt;-PP in passives).
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;The boss&lt;/fex&gt; &lt;t&gt;appreciates&lt;/t&gt; you for your diligence.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;The boss&lt;/fex&gt; is very &lt;t&gt;appreciative&lt;/t&gt; of my work.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Eval" name="Evaluee" ID="116">
+        <definition>&lt;def-root&gt;Evaluee is the person or thing about whom/which a judgment is made. With verbs this FE is typically expressed as Object: 
+&lt;ex&gt;The boss &lt;t&gt;appreciates&lt;/t&gt; &lt;fex name="Eval"&gt;you&lt;/fex&gt; for your diligence. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Reas" name="Reason" ID="117">
+        <definition>&lt;def-root&gt;Typically, there is a constituent expressing the &lt;t&gt;Reason&lt;/t&gt; for the Judge's judgment. It is usually a &lt;ment&gt;for&lt;/ment&gt;-PP, e.g.
+&lt;ex&gt;I &lt;t&gt;admire&lt;/t&gt; you &lt;fex name="Reason"&gt;for your intellect&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Role" name="Role" ID="118">
+        <definition>&lt;def-root&gt; &lt;fen&gt;Role&lt;/fen&gt; is used for the capacity in which the&lt;fen&gt;Evaluee&lt;/fen&gt; is judged, and is expressed in &lt;ment&gt;as&lt;/ment&gt;-PPs.
+&lt;ex&gt;I &lt;t&gt;admire&lt;/t&gt; you &lt;fex name="Role"&gt;as a composer&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:57 PST Wed" abbrev="Exr" name="Expressor" ID="119">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Expressor&lt;/fen&gt; is the body part or action by a body part that conveys the judgment made by the &lt;fen&gt;Cognizer&lt;/fen&gt;. 
+&lt;ex&gt;She viewed him with an &lt;t&gt;appreciative&lt;/t&gt; &lt;fex name="Expressor"&gt;gaze&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="243" cDate="09/18/2002 04:35:25 PDT Wed" abbrev="Top" name="Topic" ID="3720">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Topic&lt;/fen&gt; identifies the entity to which the proposition or propositions conveyed relate. 
+&lt;ex&gt;Jon was &lt;t&gt;disapproving&lt;/t&gt;  &lt;fex name="Topic"&gt;about Madie's managerial style&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Expressor" ID="119"/>
+        <memberFE name="Cognizer" ID="115"/>
+    </FEcoreSet>
+    <frameRelation type="Is Communicated by">
+        <relatedFrame>FR_Judgment_communication</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="admiration.n" ID="1896" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100040" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="admirer.v" ID="2701" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="102131" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="approbation.n" ID="1635" nbocc="10" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100116" annotatedsent="0"/>
+        <otherlexUnit framename="Ratification" ID="2265" annotatedsent="10"/>
+    </lexUnit>
+    <lexUnit POS="v" name="approuver.v" ID="1636" nbocc="44" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100119" annotatedsent="0"/>
+        <otherlexUnit framename="Ratification" ID="2266" annotatedsent="39"/>
+        <otherlexUnit framename="FR_Judgment_communication" ID="2697" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="apprécier.v" ID="1898" nbocc="30" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="100121" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="blâmer.v" ID="1899" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="condamnation.n" ID="1900" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100382" annotatedsent="16"/>
+        <otherlexUnit framename="FR_Judgment_communication" ID="1924" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="condamner.v" ID="1901" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100383" annotatedsent="48"/>
+        <otherlexUnit framename="FR_Judgment_communication" ID="1925" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="n" name="condescendance.n" ID="1902" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dédaigner.v" ID="1903" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100666" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dédain.n" ID="1904" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100667" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="désapprobation.n" ID="1906" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100729" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="désapprouver.v" ID="1907" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100730" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="estime.n" ID="2314" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100830" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="estimer.v" ID="2742" nbocc="294" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="811" annotatedsent="60"/>
+        <otherlexUnit framename="Other_sense" ID="100831" annotatedsent="20"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1557" annotatedsent="23"/>
+    </lexUnit>
+    <lexUnit POS="n" name="mépris.n" ID="1908" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101258" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mépriser.v" ID="1909" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101259" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="réprobation.n" ID="1910" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="réprouver.v" ID="1911" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="vénération.n" ID="1912" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="vénérer.v" ID="1913" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="facturation.n" ID="300" frame="Commerce_collect" frameID="210" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Buyer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="3547"/>
+                <annoSet ID="15808"/>
+                <annoSet ID="22612"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Goods"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="3547"/>
+                <annoSet ID="15808"/>
+                <annoSet ID="22612"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Money"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="3547"/>
+                <annoSet ID="15808"/>
+                <annoSet ID="22612"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Rate"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Rate"/>
+                <annoSet ID="3547"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Seller"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="3547"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="15808"/>
+                <annoSet ID="22612"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2712">
+            <text>Elle attire l' attention de la justice sur de fausses facturations mêlant la société SAR , dirigée par Francis Poullain , à Jean-Claude Méry , membre du comité exécutif du RPR , qui exerçait une activité de consultant auprès des entreprises du bâtiment .</text>
+            <annotationSet status="MANUAL" ID="3547">
+                <layer rank="1" name="FE">
+                    <label end="118" start="74" name="Buyer"/>
+                    <label end="251" start="124" name="Seller"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="UNI" name="Rate"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11483">
+            <text>L' automobiliste reçoit une facturation mensuelle précisant l' heure , le sens et le jour de ses passages .</text>
+            <annotationSet status="MANUAL" ID="15808">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18497">
+            <text>À noter que 1 , 8 million d' abonnés ( + 42 % ) ont opté pour la facturation détaillée .</text>
+            <annotationSet status="MANUAL" ID="22612">
+                <layer rank="1" name="FE">
+                    <label end="46" start="12" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

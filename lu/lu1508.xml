@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="dépense.n" ID="1508" frame="FR_Spending" frameID="10055" totalAnnotated="112" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Spender"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Woe" name="Way_of_expense"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Causex" name="Cause_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cause_of_expense"/>
+        </FERealization>
+        <FERealization total="50">
+            <FE name="Goods"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="7224"/>
+                <annoSet ID="11821"/>
+                <annoSet ID="12626"/>
+                <annoSet ID="13587"/>
+                <annoSet ID="13588"/>
+                <annoSet ID="14419"/>
+                <annoSet ID="16464"/>
+                <annoSet ID="17810"/>
+                <annoSet ID="21229"/>
+                <annoSet ID="22382"/>
+                <annoSet ID="23666"/>
+                <annoSet ID="23968"/>
+                <annoSet ID="24831"/>
+            </pattern>
+            <pattern total="37">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="5887"/>
+                <annoSet ID="6973"/>
+                <annoSet ID="7413"/>
+                <annoSet ID="7468"/>
+                <annoSet ID="7470"/>
+                <annoSet ID="7762"/>
+                <annoSet ID="7963"/>
+                <annoSet ID="8094"/>
+                <annoSet ID="8102"/>
+                <annoSet ID="8150"/>
+                <annoSet ID="8159"/>
+                <annoSet ID="8234"/>
+                <annoSet ID="9356"/>
+                <annoSet ID="9455"/>
+                <annoSet ID="9856"/>
+                <annoSet ID="11802"/>
+                <annoSet ID="14406"/>
+                <annoSet ID="14453"/>
+                <annoSet ID="14645"/>
+                <annoSet ID="14680"/>
+                <annoSet ID="15413"/>
+                <annoSet ID="15451"/>
+                <annoSet ID="16145"/>
+                <annoSet ID="17407"/>
+                <annoSet ID="18579"/>
+                <annoSet ID="18581"/>
+                <annoSet ID="19016"/>
+                <annoSet ID="19018"/>
+                <annoSet ID="19051"/>
+                <annoSet ID="19388"/>
+                <annoSet ID="20329"/>
+                <annoSet ID="21212"/>
+                <annoSet ID="23729"/>
+                <annoSet ID="23734"/>
+                <annoSet ID="24662"/>
+                <annoSet ID="24748"/>
+                <annoSet ID="24906"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="113">
+            <FE name="Money"/>
+            <pattern total="37">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="4569"/>
+                <annoSet ID="5140"/>
+                <annoSet ID="5839"/>
+                <annoSet ID="6229"/>
+                <annoSet ID="7224"/>
+                <annoSet ID="7758"/>
+                <annoSet ID="8238"/>
+                <annoSet ID="8449"/>
+                <annoSet ID="9856"/>
+                <annoSet ID="10803"/>
+                <annoSet ID="12626"/>
+                <annoSet ID="13183"/>
+                <annoSet ID="13184"/>
+                <annoSet ID="13587"/>
+                <annoSet ID="13588"/>
+                <annoSet ID="14340"/>
+                <annoSet ID="14406"/>
+                <annoSet ID="14412"/>
+                <annoSet ID="14417"/>
+                <annoSet ID="14419"/>
+                <annoSet ID="14610"/>
+                <annoSet ID="14657"/>
+                <annoSet ID="15388"/>
+                <annoSet ID="15733"/>
+                <annoSet ID="16462"/>
+                <annoSet ID="17407"/>
+                <annoSet ID="17409"/>
+                <annoSet ID="17417"/>
+                <annoSet ID="17418"/>
+                <annoSet ID="17791"/>
+                <annoSet ID="17810"/>
+                <annoSet ID="17811"/>
+                <annoSet ID="21104"/>
+                <annoSet ID="23734"/>
+                <annoSet ID="24031"/>
+                <annoSet ID="24563"/>
+                <annoSet ID="24889"/>
+            </pattern>
+            <pattern total="76">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="2496"/>
+                <annoSet ID="4562"/>
+                <annoSet ID="5887"/>
+                <annoSet ID="6220"/>
+                <annoSet ID="6242"/>
+                <annoSet ID="6973"/>
+                <annoSet ID="7413"/>
+                <annoSet ID="7434"/>
+                <annoSet ID="7468"/>
+                <annoSet ID="7470"/>
+                <annoSet ID="7471"/>
+                <annoSet ID="7473"/>
+                <annoSet ID="7762"/>
+                <annoSet ID="7963"/>
+                <annoSet ID="8094"/>
+                <annoSet ID="8102"/>
+                <annoSet ID="8150"/>
+                <annoSet ID="8154"/>
+                <annoSet ID="8159"/>
+                <annoSet ID="8186"/>
+                <annoSet ID="8228"/>
+                <annoSet ID="8234"/>
+                <annoSet ID="8438"/>
+                <annoSet ID="8639"/>
+                <annoSet ID="8652"/>
+                <annoSet ID="9356"/>
+                <annoSet ID="9455"/>
+                <annoSet ID="10289"/>
+                <annoSet ID="11258"/>
+                <annoSet ID="11287"/>
+                <annoSet ID="11291"/>
+                <annoSet ID="11802"/>
+                <annoSet ID="11821"/>
+                <annoSet ID="14419"/>
+                <annoSet ID="14453"/>
+                <annoSet ID="14645"/>
+                <annoSet ID="14680"/>
+                <annoSet ID="15413"/>
+                <annoSet ID="15417"/>
+                <annoSet ID="15451"/>
+                <annoSet ID="15548"/>
+                <annoSet ID="16145"/>
+                <annoSet ID="16462"/>
+                <annoSet ID="16464"/>
+                <annoSet ID="16465"/>
+                <annoSet ID="16787"/>
+                <annoSet ID="17310"/>
+                <annoSet ID="17413"/>
+                <annoSet ID="18088"/>
+                <annoSet ID="18547"/>
+                <annoSet ID="18579"/>
+                <annoSet ID="18581"/>
+                <annoSet ID="18582"/>
+                <annoSet ID="18583"/>
+                <annoSet ID="18677"/>
+                <annoSet ID="19016"/>
+                <annoSet ID="19018"/>
+                <annoSet ID="19035"/>
+                <annoSet ID="19051"/>
+                <annoSet ID="19388"/>
+                <annoSet ID="20329"/>
+                <annoSet ID="21212"/>
+                <annoSet ID="21229"/>
+                <annoSet ID="22060"/>
+                <annoSet ID="22253"/>
+                <annoSet ID="22382"/>
+                <annoSet ID="23666"/>
+                <annoSet ID="23678"/>
+                <annoSet ID="23729"/>
+                <annoSet ID="23968"/>
+                <annoSet ID="24524"/>
+                <annoSet ID="24662"/>
+                <annoSet ID="24748"/>
+                <annoSet ID="24831"/>
+                <annoSet ID="24838"/>
+                <annoSet ID="24906"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="101">
+            <FE name="Purpose"/>
+            <pattern total="60">
+                <valenceUnit PT="filled" FE="Purpose"/>
+                <annoSet ID="2496"/>
+                <annoSet ID="5140"/>
+                <annoSet ID="5887"/>
+                <annoSet ID="6220"/>
+                <annoSet ID="6229"/>
+                <annoSet ID="7413"/>
+                <annoSet ID="7468"/>
+                <annoSet ID="7470"/>
+                <annoSet ID="7471"/>
+                <annoSet ID="7473"/>
+                <annoSet ID="7762"/>
+                <annoSet ID="7963"/>
+                <annoSet ID="8094"/>
+                <annoSet ID="8102"/>
+                <annoSet ID="8150"/>
+                <annoSet ID="8159"/>
+                <annoSet ID="8186"/>
+                <annoSet ID="8234"/>
+                <annoSet ID="9356"/>
+                <annoSet ID="9455"/>
+                <annoSet ID="11802"/>
+                <annoSet ID="13183"/>
+                <annoSet ID="13184"/>
+                <annoSet ID="13691"/>
+                <annoSet ID="14340"/>
+                <annoSet ID="14406"/>
+                <annoSet ID="14417"/>
+                <annoSet ID="14453"/>
+                <annoSet ID="14645"/>
+                <annoSet ID="15388"/>
+                <annoSet ID="15413"/>
+                <annoSet ID="15417"/>
+                <annoSet ID="15451"/>
+                <annoSet ID="15548"/>
+                <annoSet ID="15733"/>
+                <annoSet ID="16145"/>
+                <annoSet ID="16465"/>
+                <annoSet ID="16787"/>
+                <annoSet ID="17310"/>
+                <annoSet ID="17407"/>
+                <annoSet ID="17413"/>
+                <annoSet ID="17417"/>
+                <annoSet ID="17418"/>
+                <annoSet ID="17791"/>
+                <annoSet ID="18547"/>
+                <annoSet ID="18579"/>
+                <annoSet ID="18581"/>
+                <annoSet ID="18582"/>
+                <annoSet ID="18583"/>
+                <annoSet ID="19051"/>
+                <annoSet ID="20329"/>
+                <annoSet ID="21104"/>
+                <annoSet ID="21212"/>
+                <annoSet ID="22060"/>
+                <annoSet ID="22253"/>
+                <annoSet ID="23729"/>
+                <annoSet ID="24031"/>
+                <annoSet ID="24563"/>
+                <annoSet ID="24748"/>
+                <annoSet ID="24889"/>
+            </pattern>
+            <pattern total="41">
+                <valenceUnit PT="null instantiation" FE="Purpose"/>
+                <annoSet ID="4562"/>
+                <annoSet ID="4569"/>
+                <annoSet ID="5839"/>
+                <annoSet ID="6242"/>
+                <annoSet ID="6973"/>
+                <annoSet ID="7434"/>
+                <annoSet ID="7758"/>
+                <annoSet ID="8154"/>
+                <annoSet ID="8228"/>
+                <annoSet ID="8238"/>
+                <annoSet ID="8438"/>
+                <annoSet ID="8449"/>
+                <annoSet ID="8639"/>
+                <annoSet ID="8652"/>
+                <annoSet ID="10289"/>
+                <annoSet ID="10803"/>
+                <annoSet ID="11258"/>
+                <annoSet ID="11287"/>
+                <annoSet ID="11291"/>
+                <annoSet ID="14412"/>
+                <annoSet ID="14610"/>
+                <annoSet ID="14657"/>
+                <annoSet ID="14680"/>
+                <annoSet ID="16462"/>
+                <annoSet ID="17409"/>
+                <annoSet ID="17811"/>
+                <annoSet ID="18088"/>
+                <annoSet ID="18677"/>
+                <annoSet ID="19016"/>
+                <annoSet ID="19018"/>
+                <annoSet ID="19035"/>
+                <annoSet ID="19388"/>
+                <annoSet ID="23666"/>
+                <annoSet ID="23678"/>
+                <annoSet ID="23734"/>
+                <annoSet ID="23968"/>
+                <annoSet ID="24524"/>
+                <annoSet ID="24662"/>
+                <annoSet ID="24831"/>
+                <annoSet ID="24838"/>
+                <annoSet ID="24906"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Rate"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Rate"/>
+                <annoSet ID="13691"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Seller"/>
+        </FERealization>
+        <FERealization total="112">
+            <FE name="Spender"/>
+            <pattern total="43">
+                <valenceUnit PT="filled" FE="Spender"/>
+                <annoSet ID="6220"/>
+                <annoSet ID="6973"/>
+                <annoSet ID="7758"/>
+                <annoSet ID="7762"/>
+                <annoSet ID="7963"/>
+                <annoSet ID="8094"/>
+                <annoSet ID="8102"/>
+                <annoSet ID="8186"/>
+                <annoSet ID="8639"/>
+                <annoSet ID="8652"/>
+                <annoSet ID="10803"/>
+                <annoSet ID="13587"/>
+                <annoSet ID="13588"/>
+                <annoSet ID="14412"/>
+                <annoSet ID="14657"/>
+                <annoSet ID="14680"/>
+                <annoSet ID="15388"/>
+                <annoSet ID="15413"/>
+                <annoSet ID="15417"/>
+                <annoSet ID="15451"/>
+                <annoSet ID="15548"/>
+                <annoSet ID="17310"/>
+                <annoSet ID="17407"/>
+                <annoSet ID="17409"/>
+                <annoSet ID="18088"/>
+                <annoSet ID="18547"/>
+                <annoSet ID="18579"/>
+                <annoSet ID="18677"/>
+                <annoSet ID="19016"/>
+                <annoSet ID="19018"/>
+                <annoSet ID="19035"/>
+                <annoSet ID="19388"/>
+                <annoSet ID="21104"/>
+                <annoSet ID="21212"/>
+                <annoSet ID="21229"/>
+                <annoSet ID="22060"/>
+                <annoSet ID="22253"/>
+                <annoSet ID="23666"/>
+                <annoSet ID="23678"/>
+                <annoSet ID="23734"/>
+                <annoSet ID="24524"/>
+                <annoSet ID="24662"/>
+                <annoSet ID="24906"/>
+            </pattern>
+            <pattern total="69">
+                <valenceUnit PT="null instantiation" FE="Spender"/>
+                <annoSet ID="2496"/>
+                <annoSet ID="4562"/>
+                <annoSet ID="4569"/>
+                <annoSet ID="5140"/>
+                <annoSet ID="5839"/>
+                <annoSet ID="5887"/>
+                <annoSet ID="6229"/>
+                <annoSet ID="6242"/>
+                <annoSet ID="7224"/>
+                <annoSet ID="7413"/>
+                <annoSet ID="7434"/>
+                <annoSet ID="7468"/>
+                <annoSet ID="7470"/>
+                <annoSet ID="7471"/>
+                <annoSet ID="7473"/>
+                <annoSet ID="8150"/>
+                <annoSet ID="8154"/>
+                <annoSet ID="8159"/>
+                <annoSet ID="8228"/>
+                <annoSet ID="8234"/>
+                <annoSet ID="8238"/>
+                <annoSet ID="8438"/>
+                <annoSet ID="8449"/>
+                <annoSet ID="9356"/>
+                <annoSet ID="9455"/>
+                <annoSet ID="9856"/>
+                <annoSet ID="10289"/>
+                <annoSet ID="11258"/>
+                <annoSet ID="11287"/>
+                <annoSet ID="11291"/>
+                <annoSet ID="11802"/>
+                <annoSet ID="11821"/>
+                <annoSet ID="12626"/>
+                <annoSet ID="13183"/>
+                <annoSet ID="13184"/>
+                <annoSet ID="13691"/>
+                <annoSet ID="14340"/>
+                <annoSet ID="14406"/>
+                <annoSet ID="14417"/>
+                <annoSet ID="14419"/>
+                <annoSet ID="14453"/>
+                <annoSet ID="14610"/>
+                <annoSet ID="14645"/>
+                <annoSet ID="15733"/>
+                <annoSet ID="16145"/>
+                <annoSet ID="16462"/>
+                <annoSet ID="16464"/>
+                <annoSet ID="16465"/>
+                <annoSet ID="16787"/>
+                <annoSet ID="17413"/>
+                <annoSet ID="17417"/>
+                <annoSet ID="17418"/>
+                <annoSet ID="17791"/>
+                <annoSet ID="17810"/>
+                <annoSet ID="17811"/>
+                <annoSet ID="18581"/>
+                <annoSet ID="18582"/>
+                <annoSet ID="18583"/>
+                <annoSet ID="19051"/>
+                <annoSet ID="20329"/>
+                <annoSet ID="22382"/>
+                <annoSet ID="23729"/>
+                <annoSet ID="23968"/>
+                <annoSet ID="24031"/>
+                <annoSet ID="24563"/>
+                <annoSet ID="24748"/>
+                <annoSet ID="24831"/>
+                <annoSet ID="24838"/>
+                <annoSet ID="24889"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1962">
+            <text>Il convient que l' utilisateur prenne conscience des coûts réels des transports aériens , y compris de toutes les dépenses pour la protection de l' environnement .</text>
+            <annotationSet status="MANUAL" ID="2496">
+                <layer rank="1" name="FE">
+                    <label end="160" start="128" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3434">
+            <text>Malgré les fortes compressions de dépenses , les experts du Fonds estiment que la politique budgétaire demeure trop expansive .</text>
+            <annotationSet status="MANUAL" ID="4562">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3436">
+            <text>Pour 1992 , les dépenses budgétaires seront réduites de 30 % , notamment grâce à la diminution du nombre de ministères , devant passer de 25 à 16 .</text>
+            <annotationSet status="MANUAL" ID="4569">
+                <layer rank="1" name="FE">
+                    <label end="35" start="12" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3761">
+            <text>Après quatre mois consécutifs de hausse , les dépenses de construction aux Etats - Unis ont chuté de 0 , 8 % en novembre 1991 .</text>
+            <annotationSet status="MANUAL" ID="5140">
+                <layer rank="1" name="FE">
+                    <label end="86" start="42" name="Money"/>
+                    <label end="69" start="58" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4168">
+            <text>Les faire jouer librement revient à se donner cette règle que les dépenses , hors transferts sociaux , soient déterminées par référence à l' évolution potentielle de l' économie , après lissage des mouvements conjoncturels .</text>
+            <annotationSet status="MANUAL" ID="5839">
+                <layer rank="1" name="FE">
+                    <label end="73" start="62" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4191">
+            <text>Néanmoins , l' ouvrage qu' il vient de publier arrive à point nommé pour éclairer les débats hexagonaux actuels , qu' il s' agisse de la maîtrise des dépenses de santé ou de la réforme des régimes de retraite .</text>
+            <annotationSet status="MANUAL" ID="5887">
+                <layer rank="1" name="FE">
+                    <label end="166" start="162" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4417">
+            <text>Le décalage entre les dates auxquelles interviennent certaines dépenses ( le versement des retraites et des dotations aux hôpitaux , notamment ) et la collecte des cotisations auprès des employeurs explique l' irrégularité du profil de la trésorerie de la sécurité sociale .</text>
+            <annotationSet status="MANUAL" ID="6220">
+                <layer rank="1" name="FE">
+                    <label end="271" start="253" name="Spender"/>
+                    <label end="102" start="91" name="Purpose"/>
+                    <label end="129" start="108" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4421">
+            <text>In fine , la dépense supplémentaire liée à la rémunération des intérêts atteint 60 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="6229">
+                <layer rank="1" name="FE">
+                    <label end="70" start="10" name="Money"/>
+                    <label end="70" start="43" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4434">
+            <text>La Fédération intersyndicale des établissements d' hospitalisation privée ( FIEHP ) , l' Union hospitalière privée ( UHP ) et la Fédération des établissements hospitaliers et d' assistance privés ( FEHAP , établissements non lucratifs ) ont signé lundi 6 janvier , avec l' Etat et les caisses de sécurité sociale , un accord destiné à maîtriser l' évolution des dépenses .</text>
+            <annotationSet status="MANUAL" ID="6242">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="369" start="362" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4877">
+            <text>Mais il sera difficile à atteindre alors que , par exemple , les dépenses budgétaires ne peuvent être augmentées et que les entreprises d' Etat continuent lentement à sombrer .</text>
+            <annotationSet status="MANUAL" ID="6973">
+                <layer rank="1" name="FE">
+                    <label end="142" start="139" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5000">
+            <text>Un coût qui pourrait être compensé soit par des recettes nouvelles , soit par une compression des dépenses , sans doute à caractère militaire .</text>
+            <annotationSet status="MANUAL" ID="7224">
+                <layer rank="1" name="FE">
+                    <label end="140" start="98" name="Money"/>
+                    <label end="140" start="132" name="Goods"/>
+                    <label itype="ENI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5134">
+            <text>" Vous avez demandé au premier ministre le retrait du projet de loi sur la maîtrise des dépenses de santé , juste avant son examen final par l' Assemblée nationale .</text>
+            <annotationSet status="MANUAL" ID="7413">
+                <layer rank="1" name="FE">
+                    <label end="104" start="100" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5140">
+            <text>Tout au long de la discussion parlementaire - au Sénat comme à l' Assemblée nationale , - le gouvernement a montré son esprit d' ouverture alors que l' opposition a démontré qu' elle refusait les efforts de maîtrise des dépenses et négligeait la valeur d' un accord contractuel .</text>
+            <annotationSet status="MANUAL" ID="7434">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="227" start="220" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5159">
+            <text>La réflexion relative à la distinction des dépenses d' assurance collective et de solidarité en matière de retraite ou la maîtrise des dépenses de santé ne s' improvisent ni sur le plan technique ni d' un point de vue politique .</text>
+            <annotationSet status="MANUAL" ID="7468">
+                <layer rank="1" name="FE">
+                    <label end="77" start="55" name="Purpose"/>
+                    <label end="114" start="82" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5159">
+            <text>La réflexion relative à la distinction des dépenses d' assurance collective et de solidarité en matière de retraite ou la maîtrise des dépenses de santé ne s' improvisent ni sur le plan technique ni d' un point de vue politique .</text>
+            <annotationSet status="MANUAL" ID="7470">
+                <layer rank="1" name="FE">
+                    <label end="151" start="147" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5159">
+            <text>La réflexion relative à la distinction des dépenses d' assurance collective et de solidarité en matière de retraite ou la maîtrise des dépenses de santé ne s' improvisent ni sur le plan technique ni d' un point de vue politique .</text>
+            <annotationSet status="MANUAL" ID="7471">
+                <layer rank="1" name="FE">
+                    <label end="77" start="55" name="Purpose"/>
+                    <label end="114" start="82" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5159">
+            <text>La réflexion relative à la distinction des dépenses d' assurance collective et de solidarité en matière de retraite ou la maîtrise des dépenses de santé ne s' improvisent ni sur le plan technique ni d' un point de vue politique .</text>
+            <annotationSet status="MANUAL" ID="7473">
+                <layer rank="1" name="FE">
+                    <label end="151" start="147" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5343">
+            <text>Comment d' ailleurs réduire les dépenses de l' Etat , qui représentent près de 43 % du PNB ?</text>
+            <annotationSet status="MANUAL" ID="7758">
+                <layer rank="1" name="FE">
+                    <label end="89" start="28" name="Money"/>
+                    <label end="50" start="44" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5349">
+            <text>Les ménages se sont beaucoup endettés pour financer des dépenses de consommation importantes au cours des années 80 .</text>
+            <annotationSet status="MANUAL" ID="7762">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Spender"/>
+                    <label end="79" start="68" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5472">
+            <text>La décision du gouvernement de retirer le projet de loi sur la maîtrise des dépenses de santé a été favorablement accueillie par la CGT , qui rappelle avoir " constamment manifesté son désaccord " , par la coordination action santé qui salue " le réalisme " des pouvoirs publics et par la Confédération des syndicats médicaux français ( CSMF ) .</text>
+            <annotationSet status="MANUAL" ID="7963">
+                <layer rank="1" name="FE">
+                    <label end="26" start="15" name="Spender"/>
+                    <label end="92" start="88" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5560">
+            <text>Le gouvernement a annoncé , mardi 30 juin , le retrait du projet de loi sur la maîtrise des dépenses de santé , qui devait être examiné en seconde lecture par l' Assemblée nationale .</text>
+            <annotationSet status="MANUAL" ID="8094">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Spender"/>
+                    <label end="108" start="104" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5564">
+            <text>La décision du gouvernement de retirer , mardi 30 juin , son projet de loi sur la maîtrise des dépenses de santé est un nouvel aveu d' impuissance .</text>
+            <annotationSet status="MANUAL" ID="8102">
+                <layer rank="1" name="FE">
+                    <label end="59" start="57" name="Spender"/>
+                    <label end="26" start="15" name="Spender"/>
+                    <label end="111" start="107" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5582">
+            <text>Sur les douze derniers mois , les dépenses de santé n' ont progressé que de 5 % alors que leur croissance variait entre 6 % et 9 % ces trois dernières années .</text>
+            <annotationSet status="MANUAL" ID="8150">
+                <layer rank="1" name="FE">
+                    <label end="50" start="46" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5583">
+            <text>En second lieu , les répercussions du ralentissement économique et de la montée du chômage sur les rentrées de cotisations , qui vont se traduire dans les prochains jours par un découvert de 30 milliards de francs de la trésorerie de la " Sécu " , justifient encore davantage une maîtrise durable des dépenses .</text>
+            <annotationSet status="MANUAL" ID="8154">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="308" start="301" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5586">
+            <text>C' est - à - dire à peine plus que ce que coûteront les mesures d' accompagnement ( dont le relèvement de 10 francs du tarif de la consultation ) accordées aux médecins comme une " contrepartie " à l' application de la loi sur la maîtrise des dépenses de santé ...</text>
+            <annotationSet status="MANUAL" ID="8159">
+                <layer rank="1" name="FE">
+                    <label end="259" start="255" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="250" start="243" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5601">
+            <text>Il est vrai que , si le passé peut plaider pour l' avenir , la péninsule peut se targuer de vivre encore un peu sur la lancée de quelques belles années de " bonne santé " , qui , entre 1984 et 1989 , ont trouvé , entre autres , leur vigueur dans une forte demande intérieure ( les dépenses de consommation des ménages dépassaient même la moyenne des pays de la CEE ) et la compétitivité des produits italiens sur les marchés internationaux .</text>
+            <annotationSet status="MANUAL" ID="8186">
+                <layer rank="1" name="FE">
+                    <label end="316" start="310" name="Spender"/>
+                    <label end="304" start="293" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="288" start="281" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5627">
+            <text>En revanche , l' effort sur les dépenses n' a pas suivi .</text>
+            <annotationSet status="MANUAL" ID="8228">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5633">
+            <text>Ce nouveau dérapage prend sa source , estiment les experts , dans la surévaluation des rentrées fiscales attendues , du fait d' un taux de croissance espéré de 2 , 5 % , vite ramené ces derniers mois à 1 , 8 % , et surtout dans une sous - évaluation généralisée des dépenses , et notamment des dépenses de fonctionnement .</text>
+            <annotationSet status="MANUAL" ID="8234">
+                <layer rank="1" name="FE">
+                    <label end="319" start="306" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="301" start="294" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5633">
+            <text>Ce nouveau dérapage prend sa source , estiment les experts , dans la surévaluation des rentrées fiscales attendues , du fait d' un taux de croissance espéré de 2 , 5 % , vite ramené ces derniers mois à 1 , 8 % , et surtout dans une sous - évaluation généralisée des dépenses , et notamment des dépenses de fonctionnement .</text>
+            <annotationSet status="MANUAL" ID="8238">
+                <layer rank="1" name="FE">
+                    <label end="273" start="266" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="273" start="266" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5731">
+            <text>Pour s' être trompé en sous - estimant grandement les dépenses de l' Est - on a fêté le 1 juillet le deuxième anniversaire de l' unification économique et monétaire - et pour n' en avoir pas tiré plus tôt les conséquences , le gouvernement de Bonn a accumulé des déficits budgétaires : 110 milliards de marks ( 1 ) en 1991 et 130 milliards attendus pour cette année d' après les chiffres de la Bundesbank .</text>
+            <annotationSet status="MANUAL" ID="8438">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5737">
+            <text>Le budget pour 1993 s' inscrit dans ce cadre restrictif qui veut que les dépenses n' augmentent sur quatre ans que de la moitié de la croissance du PIB ( produit intérieur brut ) .</text>
+            <annotationSet status="MANUAL" ID="8449">
+                <layer rank="1" name="FE">
+                    <label end="80" start="69" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5855">
+            <text>Elle tient aux babyboomers , dont le vieillissement et la modification des habitudes de dépense n' ont pas encore été compensés par la nouvelle génération , moins nombreuse sur le marché de l' accession à la propriété et qui , bien plus que ses aînés , hésite à s' endetter pour s' équiper en électroménager ou en matériel hi - fi .</text>
+            <annotationSet status="MANUAL" ID="8639">
+                <layer rank="1" name="FE">
+                    <label end="329" start="15" name="Spender"/>
+                    <label end="32" start="29" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5860">
+            <text>A condition de pouvoir " budgéter " cette nouvelle dépense au moment où il convient , au contraire , d' essayer de comprimer un déficit budgétaire record qui hisse à 4 000 milliards de dollars la dette publique ( Etat et collectivités ) et à 11 000 milliards l' endettement total du pays , en tenant compte des ménages et des entreprises .</text>
+            <annotationSet status="MANUAL" ID="8652">
+                <layer rank="1" name="FE">
+                    <label end="286" start="283" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6268">
+            <text>Pour ne pas mécontenter les professions de santé - et écarter la menace d' une motion de censure , - le projet de loi sur la maîtrise des dépenses de santé a été renvoyé à l' automne , sous réserve de nouvelles négociations .</text>
+            <annotationSet status="MANUAL" ID="9356">
+                <layer rank="1" name="FE">
+                    <label end="154" start="150" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6328">
+            <text>En fait , il travaillait depuis deux ans à une réforme visant à instaurer un système public et obligatoire couvrant les dépenses d' hôpital à partir de 1996 .</text>
+            <annotationSet status="MANUAL" ID="9455">
+                <layer rank="1" name="FE">
+                    <label end="138" start="132" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="120" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6605">
+            <text>Des dépenses qui , en dix ans , ont doublé .</text>
+            <annotationSet status="MANUAL" ID="9856">
+                <layer rank="1" name="FE">
+                    <label end="43" start="0" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6932">
+            <text>Henri Nallet , ministre de l' agriculture d' avril 1985 à mars 1986 , puis de mai 1988 à octobre 1990 , et son successeur , Louis Mermaz , ont eu beau alléguer que l' effondrement des cours " est compensé par les aides " , que le revenu est " au bout du compte préservé tout en contenant les dépenses " , la FNSEA continue à tempêter et dit ne pas en croire un mot .</text>
+            <annotationSet status="MANUAL" ID="10289">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="299" start="292" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7344">
+            <text>Les particuliers ont ouvert en 1991 un plus grand nombre de comptes et de plans d' épargne - logement qu' en 1990 , ce qui a évité une aggravation du déséquilibre du régime , dont les ressources nouvelles progressent moins vite que les dépenses , selon une note que vient de publier le ministère de l' économie .</text>
+            <annotationSet status="MANUAL" ID="10803">
+                <layer rank="1" name="FE">
+                    <label end="243" start="232" name="Money"/>
+                    <label end="178" start="175" name="Spender"/>
+                    <label end="309" start="166" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="243" start="236" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7776">
+            <text>DÉPENSES .</text>
+            <annotationSet status="MANUAL" ID="11258">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7799">
+            <text>Un mot fourre - tout , par lequel ils désignent à la fois la corruption et les dépenses malsaines ou somptuaires .</text>
+            <annotationSet status="MANUAL" ID="11287">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7802">
+            <text>LARGE TRAFIC " L' argent va dans des dépenses non prioritaires , comme la construction d' Abuja ( la nouvelle capitale fédérale ) , ou malsaines , comme l' aciérie d' Adjaokuta ! " , s' insurge un journaliste .</text>
+            <annotationSet status="MANUAL" ID="11291">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8198">
+            <text>Au total , dix - huit banques ont été transférées au secteur privé , pour un peu plus de 13 milliards de dollars ( 68 , 9 milliards de francs ) , consacrés essentiellement à la réduction de la dette et à des dépenses sociales .</text>
+            <annotationSet status="MANUAL" ID="11802">
+                <layer rank="1" name="FE">
+                    <label end="224" start="217" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="215" start="208" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8212">
+            <text>Costdisk permet , quant à lui , d' évaluer le coût global d' une expatriation grâce au déroulement d' une check - list ( voyages , dépenses éducatives , logement ... ) .</text>
+            <annotationSet status="MANUAL" ID="11821">
+                <layer rank="1" name="FE">
+                    <label end="149" start="140" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8844">
+            <text>Pour le Vieux - Colombier , il est reproché des projets successifs contradictoires : école dirigée par Giorgio Strehler , seconde salle de la Comédie - Française ... et aussi des conditions critiquables d' acquisition , un montage juridique complexe , des travaux de plus en plus coûteux : 64 , 5 millions de francs , dont 15 pour l' acquisition , 36 pour les travaux , plus 13 , 5 pour le fonctionnement , dont 7 pour les dépenses artistiques .</text>
+            <annotationSet status="MANUAL" ID="12626">
+                <layer rank="1" name="FE">
+                    <label end="412" start="412" name="Money"/>
+                    <label end="442" start="432" name="Goods"/>
+                    <label itype="ENI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="430" start="423" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9285">
+            <text>C' est moins qu' un bébé ne reçoit ( 4 200 francs avec les ... cadeaux ) , mais beaucoup plus que les dépenses consacrées aux 2 - 4 ans ( 1 700 francs ) et aux 5 - 8 ans ( 1 900 francs ) .</text>
+            <annotationSet status="MANUAL" ID="13183">
+                <layer rank="1" name="FE">
+                    <label end="149" start="138" name="Money"/>
+                    <label end="134" start="111" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9285">
+            <text>C' est moins qu' un bébé ne reçoit ( 4 200 francs avec les ... cadeaux ) , mais beaucoup plus que les dépenses consacrées aux 2 - 4 ans ( 1 700 francs ) et aux 5 - 8 ans ( 1 900 francs ) .</text>
+            <annotationSet status="MANUAL" ID="13184">
+                <layer rank="1" name="FE">
+                    <label end="183" start="172" name="Money"/>
+                    <label end="120" start="111" name="Purpose"/>
+                    <label end="168" start="156" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9613">
+            <text>Les dépenses de l' Etat seront essentiellement consacrées aux équipements ( 200 milliards de dinars ) et aux investissements publics ( 109 milliards ) .</text>
+            <annotationSet status="MANUAL" ID="13587">
+                <layer rank="1" name="FE">
+                    <label end="100" start="74" name="Money"/>
+                    <label end="22" start="16" name="Spender"/>
+                    <label end="72" start="62" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9613">
+            <text>Les dépenses de l' Etat seront essentiellement consacrées aux équipements ( 200 milliards de dinars ) et aux investissements publics ( 109 milliards ) .</text>
+            <annotationSet status="MANUAL" ID="13588">
+                <layer rank="1" name="FE">
+                    <label end="149" start="133" name="Money"/>
+                    <label end="22" start="16" name="Spender"/>
+                    <label end="131" start="109" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9709">
+            <text>Souplesse par rapport à l' achat en pleine propriété , l' amodiation comporte des avantages : pas de frais de notaire , pas de taxe foncière ni de taxe d' habitation : " Les seuls frais sont les dépenses d' entretien , que l'on peut évaluer à 2 000 francs par an " , indique François le Vert , responsable de la communication de GTM - entrepose développement Service .</text>
+            <annotationSet status="MANUAL" ID="13691">
+                <layer rank="1" name="FE">
+                    <label end="263" start="243" name="Rate"/>
+                    <label end="215" start="207" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10205">
+            <text>En outre , les dépenses relatives aux fêtes de Noël 1992 ( 703 000 francs ) n' ont pas été provisionnées et une saisie - arrêt de 450 000 francs a été notifiée .</text>
+            <annotationSet status="MANUAL" ID="14340">
+                <layer rank="1" name="FE">
+                    <label end="74" start="11" name="Money"/>
+                    <label end="55" start="38" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10255">
+            <text>Placé sous le signe de l' austérité , enregistrant la plus faible croissance depuis 1987 ( 0 , 2 % ) , ce budget n' en comporte pas moins des dépenses en augmentation en ce qui concerne les travaux publics ( 4 , 6 % ) et le bien - être social .</text>
+            <annotationSet status="MANUAL" ID="14406">
+                <layer rank="1" name="FE">
+                    <label end="165" start="138" name="Money"/>
+                    <label end="241" start="186" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="142" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10258">
+            <text>Dans l' élaboration du budget pour la prochaine année fiscale , d' un montant de 72 354 milliards de yens ( 3 111 milliards de francs ) , le ministère japonais des finances s' est efforcé de comprimer les dépenses , afin de tenir compte d' une diminution des recettes due au ralentissement de la croissance tout en évitant de recourir à l' émission de bons d' Etat destinés à couvrir le déficit .</text>
+            <annotationSet status="MANUAL" ID="14412">
+                <layer rank="1" name="FE">
+                    <label end="212" start="201" name="Money"/>
+                    <label end="158" start="151" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="212" start="205" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10262">
+            <text>Conjuguées au plan de stimulation de l' économie adopté cet été ( 10 000 milliards de yens ) , ces augmentations des dépenses en travaux publics devraient contribuer à stimuler les investissements et la consommation .</text>
+            <annotationSet status="MANUAL" ID="14417">
+                <layer rank="1" name="FE">
+                    <label end="143" start="117" name="Money"/>
+                    <label end="143" start="129" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10264">
+            <text>Les dépenses militaires enregistrent , pour leur part , la croissance la plus faible ( 1 , 7 % ) depuis 1960 et représenteront moins de 1 % du produit national brut ou PNB ( 4 600 milliards de yens ) .</text>
+            <annotationSet status="MANUAL" ID="14419">
+                <layer rank="1" name="FE">
+                    <label end="198" start="127" name="Money"/>
+                    <label end="22" start="13" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10294">
+            <text>La réaction la plus probable dans un pareil contexte est de restreindre les dépenses de consommation et d' épargner davantage .</text>
+            <annotationSet status="MANUAL" ID="14453">
+                <layer rank="1" name="FE">
+                    <label end="99" start="88" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10416">
+            <text>L' avantage est évident : l' Etat pouvant s' endetter ( alors que la protection sociale ne peut pas le faire ) , le déficit budgétaire est politiquement moins douloureux que le creusement du " trou " du régime général qui , lui , exige d' être comblé en augmentant les cotisations ou en réduisant les dépenses .</text>
+            <annotationSet status="MANUAL" ID="14610">
+                <layer rank="1" name="FE">
+                    <label end="308" start="297" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="308" start="301" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10432">
+            <text>Après avoir vidé de l' essentiel de son contenu la loi sur la maîtrise des dépenses de santé , il a renvoyé aux calendes grecques la réforme des retraites , élaboré un dispositif qui n' est qu' un ersatz de prestation au profit des personnes âgées dépendantes .</text>
+            <annotationSet status="MANUAL" ID="14645">
+                <layer rank="1" name="FE">
+                    <label end="91" start="87" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10451">
+            <text>En raison d' une chute des recettes fiscales , le déficit entraîné par ces dépenses supplémentaires sera comblé partiellement par la vente de bons d' Etat .</text>
+            <annotationSet status="MANUAL" ID="14657">
+                <layer rank="1" name="FE">
+                    <label end="98" start="71" name="Money"/>
+                    <label end="153" start="150" name="Spender"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10481">
+            <text>Pourfendeur de tous les gâchis publics , ce haut fonctionnaire socialiste ( il adhère au PS en 1978 ) se fera connaître en 1979 dans la gauche ascendante par un rapport " secret " sur les aides de l' Etat à l' industrie où déjà il dénonce l' inefficacité des dépenses publiques exclusivement orientées vers quelques grands groupes industriels .</text>
+            <annotationSet status="MANUAL" ID="14680">
+                <layer rank="1" name="FE">
+                    <label end="276" start="268" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="266" start="259" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11118">
+            <text>Les dépenses communautaires pour soutenir l' agriculture progressaient d' année en année ( 240 milliards de francs en 1992 ) sans qu' il soit possible de dégonfler les stocks ( 25 millions de tonnes de céréales , 260 000 tonnes de lait , 900 000 tonnes de viande bovine dorment dans les entrepôts ) ou de réduire les subventions à l' exportation , et surtout sans que le revenu des paysans progresse .</text>
+            <annotationSet status="MANUAL" ID="15388">
+                <layer rank="1" name="FE">
+                    <label end="113" start="91" name="Money"/>
+                    <label end="26" start="13" name="Spender"/>
+                    <label end="55" start="33" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11136">
+            <text>Non seulement le commerce extérieur n' a pas joué au second semestre 1992 le rôle essentiel qui avait été le sien pour tirer la croissance ; mais les entreprises ont continué de réduire leurs dépenses d' équipement .</text>
+            <annotationSet status="MANUAL" ID="15413">
+                <layer rank="1" name="FE">
+                    <label end="160" start="146" name="Spender"/>
+                    <label end="190" start="186" name="Spender"/>
+                    <label end="213" start="204" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="199" start="192" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11138">
+            <text>Ces capacités étaient d' autant moins utilisées ( à 80 % seulement ) par rapport à l' offre potentielle que l' industrie française avait massivement augmenté ses dépenses d' équipement entre 1987 et 1990 .</text>
+            <annotationSet status="MANUAL" ID="15417">
+                <layer rank="1" name="FE">
+                    <label end="129" start="108" name="Spender"/>
+                    <label end="160" start="158" name="Spender"/>
+                    <label end="183" start="174" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="169" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11171">
+            <text>L' abus des préretraites , quant à lui , pèse pour 25 milliards de francs sur les comptes de l' assurance - chômage et représente 28 % de ses dépenses d' indemnisation .</text>
+            <annotationSet status="MANUAL" ID="15451">
+                <layer rank="1" name="FE">
+                    <label end="114" start="93" name="Spender"/>
+                    <label end="140" start="138" name="Spender"/>
+                    <label end="166" start="154" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="142" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11267">
+            <text>Aucun des pays industrialisés touchés par la récession ou la stagnation n' a pu sortir de la crise parce que nulle part les ménages n' ont augmenté de façon significative leurs dépenses de consommation , préférant maintenir ou augmenter leur taux d' épargne .</text>
+            <annotationSet status="MANUAL" ID="15548">
+                <layer rank="1" name="FE">
+                    <label end="175" start="171" name="Spender"/>
+                    <label end="130" start="120" name="Spender"/>
+                    <label end="200" start="189" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11418">
+            <text>Les résultats en Europe ont été plus faibles en raison de la conjoncture morose , de dépenses de marketing élevées et des coûts consécutifs à l' ouverture d' une nouvelle usine au Pays de Galles .</text>
+            <annotationSet status="MANUAL" ID="15733">
+                <layer rank="1" name="FE">
+                    <label end="113" start="85" name="Money"/>
+                    <label end="105" start="97" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11777">
+            <text>Les dépenses de formation augmentent , surtout le nombre d' heures de stage , en progression de 14 % .</text>
+            <annotationSet status="MANUAL" ID="16145">
+                <layer rank="1" name="FE">
+                    <label end="24" start="16" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12139">
+            <text>Cette politique de " désinflation des salaires " s' est accompagnée d' un véritable budget de crise destiné à réduire les dépenses - réduction des transferts aux collectivités locales , diminution des dépenses sociales et des dépenses militaires , gel de l' emploi dans le secteur public - mais aussi à accroître les recettes fiscales : relèvement des droits de timbre , prélèvements exceptionnels sur l' immobilier et les dépôts bancaires , majoration des cotisations de sécurité sociale des salariés .</text>
+            <annotationSet status="MANUAL" ID="16462">
+                <layer rank="1" name="FE">
+                    <label end="129" start="118" name="Money"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12139">
+            <text>Cette politique de " désinflation des salaires " s' est accompagnée d' un véritable budget de crise destiné à réduire les dépenses - réduction des transferts aux collectivités locales , diminution des dépenses sociales et des dépenses militaires , gel de l' emploi dans le secteur public - mais aussi à accroître les recettes fiscales : relèvement des droits de timbre , prélèvements exceptionnels sur l' immobilier et les dépôts bancaires , majoration des cotisations de sécurité sociale des salariés .</text>
+            <annotationSet status="MANUAL" ID="16464">
+                <layer rank="1" name="FE">
+                    <label end="244" start="235" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="233" start="226" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12139">
+            <text>Cette politique de " désinflation des salaires " s' est accompagnée d' un véritable budget de crise destiné à réduire les dépenses - réduction des transferts aux collectivités locales , diminution des dépenses sociales et des dépenses militaires , gel de l' emploi dans le secteur public - mais aussi à accroître les recettes fiscales : relèvement des droits de timbre , prélèvements exceptionnels sur l' immobilier et les dépôts bancaires , majoration des cotisations de sécurité sociale des salariés .</text>
+            <annotationSet status="MANUAL" ID="16465">
+                <layer rank="1" name="FE">
+                    <label end="217" start="210" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="208" start="201" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12455">
+            <text>Contribution des entreprises aux dépenses de formation .</text>
+            <annotationSet status="MANUAL" ID="16787">
+                <layer rank="1" name="FE">
+                    <label end="53" start="45" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12966">
+            <text>Ils n' ont pas davantage été capables de réduire la progression des dépenses de retraite qui pèsent sur les générations montantes , ni de créer les conditions d' une croissance plus riche en emplois ou de limiter les inégalités .</text>
+            <annotationSet status="MANUAL" ID="17310">
+                <layer rank="1" name="FE">
+                    <label end="128" start="104" name="Spender"/>
+                    <label end="87" start="80" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13040">
+            <text>L' ensemble des dépenses pour l' emploi et la formation professionnelle , que celles - ci soient supportées par l' Etat , l' UNEDIC ou les entreprises , ont augmenté de 4 , 9 % en 1991 , après une hausse de 4 , 5 % en 1990 , selon les données publiées lundi 4 janvier par le ministère du travail .</text>
+            <annotationSet status="MANUAL" ID="17407">
+                <layer rank="1" name="FE">
+                    <label end="70" start="16" name="Money"/>
+                    <label end="149" start="112" name="Spender"/>
+                    <label end="70" start="30" name="Purpose"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13042">
+            <text>Le financement de ces dépenses est assuré à 38 % par les pouvoirs publics , dont 33 , 8 % par le ministère du travail , le reste étant pris en charge par les employeurs et les salariés avec des cotisations ou les contributions aux régimes professionnels obligatoires .</text>
+            <annotationSet status="MANUAL" ID="17409">
+                <layer rank="1" name="FE">
+                    <label end="29" start="18" name="Money"/>
+                    <label end="118" start="53" name="Spender"/>
+                    <label end="183" start="154" name="Spender"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13045">
+            <text>Evaluée à 43 % , la part des dépenses actives s' est légèrement accrue mais , à l' inverse , les préretraites , qui pèsent 13 , 8 % , ont continué de diminuer du fait de la baisse du nombre de bénéficiaires .</text>
+            <annotationSet status="MANUAL" ID="17413">
+                <layer rank="1" name="FE">
+                    <label end="44" start="38" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13048">
+            <text>Quant à la formation professionnelle , ses dépenses se stabilisent en pourcentage à 30 , 5 % du total mais progressent en volume puisqu' elles ont atteint 72 milliards de francs , contre 67 milliards de francs en 1990 .</text>
+            <annotationSet status="MANUAL" ID="17417">
+                <layer rank="1" name="FE">
+                    <label end="50" start="39" name="Money"/>
+                    <label end="35" start="8" name="Purpose"/>
+                    <label end="41" start="39" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13051">
+            <text>Parmi les autres dépenses , en quasi- totalité à la charge de l' Etat , celles de promotion et de création d' emplois , estimées à 18 milliards de francs , ont été en croissance de 21 % .</text>
+            <annotationSet status="MANUAL" ID="17418">
+                <layer rank="1" name="FE">
+                    <label end="24" start="6" name="Money"/>
+                    <label end="93" start="82" name="Purpose"/>
+                    <label end="116" start="98" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13473">
+            <text>Cette stratégie a marginalisé de grandes zones de cultures sèches et bloqué le développement de la céréaliculture , qui entraîne pourtant de lourdes dépenses d' importation .</text>
+            <annotationSet status="MANUAL" ID="17791">
+                <layer rank="1" name="FE">
+                    <label end="171" start="138" name="Money"/>
+                    <label end="171" start="161" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13493">
+            <text>Dans le budget 1992 , les dépenses militaires ont baissé , passant de 39 % à 29 % des dépenses totales , mais l' administration pèse toujours lourd : 68 % du budget .</text>
+            <annotationSet status="MANUAL" ID="17810">
+                <layer rank="1" name="FE">
+                    <label end="101" start="67" name="Money"/>
+                    <label end="44" start="35" name="Goods"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13493">
+            <text>Dans le budget 1992 , les dépenses militaires ont baissé , passant de 39 % à 29 % des dépenses totales , mais l' administration pèse toujours lourd : 68 % du budget .</text>
+            <annotationSet status="MANUAL" ID="17811">
+                <layer rank="1" name="FE">
+                    <label end="101" start="86" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13778">
+            <text>Le parc , qui a ouvert ses portes en avril 1992 , a enregistré une fréquentation , des dépenses de visiteurs et un remplissage des hôtels inférieurs aux prévisions .</text>
+            <annotationSet status="MANUAL" ID="18088">
+                <layer rank="1" name="FE">
+                    <label end="107" start="99" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14210">
+            <text>Hormis quelques modifications - l' assurance - vieillesse des parents au foyer et les dépenses de solidarité des régimes spéciaux ne sont pas incluses , - ce fonds reprend le texte adopté en première lecture à l' initiative du gouvernement Bérégovoy .</text>
+            <annotationSet status="MANUAL" ID="18547">
+                <layer rank="1" name="FE">
+                    <label end="128" start="113" name="Spender"/>
+                    <label end="107" start="98" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14248">
+            <text>- Les Américains ont augmenté leurs dépenses de consommation de 1 % en avril malgré une stagnation de leurs revenus .</text>
+            <annotationSet status="MANUAL" ID="18579">
+                <layer rank="1" name="FE">
+                    <label end="15" start="2" name="Spender"/>
+                    <label end="34" start="30" name="Spender"/>
+                    <label end="59" start="48" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14249">
+            <text>Les experts s' attendaient à ce que les revenus restent inchangés et prévoyaient une hausse de 0 , 8 % seulement des dépenses de consommation .</text>
+            <annotationSet status="MANUAL" ID="18581">
+                <layer rank="1" name="FE">
+                    <label end="140" start="129" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14251">
+            <text>Dépenses de construction : - 0 , 4 % en avril .</text>
+            <annotationSet status="MANUAL" ID="18582">
+                <layer rank="1" name="FE">
+                    <label end="23" start="12" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14252">
+            <text>- Les dépenses de construction ont baissé de 0 , 4 % en avril après avoir déjà baissé de 0 , 8 % en mars .</text>
+            <annotationSet status="MANUAL" ID="18583">
+                <layer rank="1" name="FE">
+                    <label end="29" start="18" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14367">
+            <text>A l' inverse , l' économie mensuelle pour l' employeur étant de 300 francs environ , il faudrait que celui - ci ait plus d' une vingtaine de smicards pour qu' il en embauche un supplémentaire sans dépense équivalente .</text>
+            <annotationSet status="MANUAL" ID="18677">
+                <layer rank="1" name="FE">
+                    <label end="160" start="159" name="Spender"/>
+                    <label end="53" start="42" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="203" start="197" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14710">
+            <text>- Les dépenses des ménages se contractent à présent faute de revenus et de confiance dans l' avenir .</text>
+            <annotationSet status="MANUAL" ID="19016">
+                <layer rank="1" name="FE">
+                    <label end="25" start="19" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14712">
+            <text>- Enfin , retombée logique de l' érosion des recettes fiscales des Etats consécutive à celle des revenus des contribuables et du gonflement des dépenses publiques , les déficits publics débordent .</text>
+            <annotationSet status="MANUAL" ID="19018">
+                <layer rank="1" name="FE">
+                    <label end="161" start="153" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14730">
+            <text>Du côté des particuliers comme des entreprises , les charges de l' endettement abusif des années 80 s' allègent , ce qui permet d' espérer que se dégagera un surcroît de revenu pour des dépenses futures .</text>
+            <annotationSet status="MANUAL" ID="19035">
+                <layer rank="1" name="FE">
+                    <label end="29" start="12" name="Spender"/>
+                    <label end="45" start="35" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14754">
+            <text>après s' être contractées de 6 , 5 % par an en 1987 et 1988 leurs dépenses réelles d' équipement s' accroissent de seulement 3 % en 1989 et 1990 avant de se replier à nouveau dès 1991 .</text>
+            <annotationSet status="MANUAL" ID="19051">
+                <layer rank="1" name="FE">
+                    <label end="95" start="86" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15145">
+            <text>- La déflation est une politique économique et financière visant par des baisses de prix , des revenus et des traitements , par la contraction et le renchérissement du crédit , l' augmentation des impôts et la réduction des dépenses publiques , à lutter contre les effets de l' inflation ( en particulier la perte de valeur de la monnaie du pays concerné ) .</text>
+            <annotationSet status="MANUAL" ID="19388">
+                <layer rank="1" name="FE">
+                    <label end="241" start="233" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="231" start="224" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16175">
+            <text>Ainsi , le relèvement des prix du tabac va rendre artificiellement excédentaire l' assurance - maladie , alors que la loi sur la maîtrise des dépenses de santé est supposée inciter les médecins à mieux évaluer les conséquences de leur pratique médicale ...</text>
+            <annotationSet status="MANUAL" ID="20329">
+                <layer rank="1" name="FE">
+                    <label end="158" start="154" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="142" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16982">
+            <text>Grâce au crédit d' impôt normalisation , les entreprises , notamment petites et moyennes , pourront accroître leurs dépenses de normalisation .</text>
+            <annotationSet status="MANUAL" ID="21104">
+                <layer rank="1" name="FE">
+                    <label end="140" start="110" name="Money"/>
+                    <label end="114" start="110" name="Spender"/>
+                    <label end="87" start="41" name="Spender"/>
+                    <label end="140" start="128" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17085">
+            <text>Car , pour les entreprises , le recours au juridique est une source de dépenses .</text>
+            <annotationSet status="MANUAL" ID="21212">
+                <layer rank="1" name="FE">
+                    <label end="25" start="11" name="Spender"/>
+                    <label end="51" start="29" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17106">
+            <text>Et le coût de ces dépenses crée une inégalité entre les entreprises suivant les moyens qu' elles ont de s' offrir de plus ou moins bons conseillers .</text>
+            <annotationSet status="MANUAL" ID="21229">
+                <layer rank="1" name="FE">
+                    <label end="66" start="52" name="Spender"/>
+                    <label end="146" start="114" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17984">
+            <text>L' écrivain allemand Günther grass , défendant récemment l' idée est - allemande de " communauté contractuelle " , suggérait que RFA et RDA confient à une commission commune le soin de coordonner leurs politiques dans des domaines comme les transports , l' énergie , le service postal , la réduction des dépenses d' armement , l' aide au tiers - monde (4) .</text>
+            <annotationSet status="MANUAL" ID="22060">
+                <layer rank="1" name="FE">
+                    <label end="138" start="129" name="Spender"/>
+                    <label end="323" start="316" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="311" start="304" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18216">
+            <text>Cette première étape conduirait non pas à une augmentation , mais au contraire à une diminution du coût financier pour l' état ; puisque , d' une part , ces avantages sont souvent des dépenses fiscales supportées par la puissance publique ( imposition à taux réduit ou exonération des taxes ) , qui disparaîtraient ainsi , et que , d' autre part , serait aussi ralentie la diminution de la valeur biologique et patrimoniale des biens naturels .</text>
+            <annotationSet status="MANUAL" ID="22253">
+                <layer rank="1" name="FE">
+                    <label end="237" start="217" name="Spender"/>
+                    <label end="200" start="193" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="184" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18288">
+            <text>Et peut -on prétendre , sérieusement , comme le voudraient certains à droite , que l' effort de sécurité doive s' appuyer sur une augmentation des dépenses militaires ?</text>
+            <annotationSet status="MANUAL" ID="22382">
+                <layer rank="1" name="FE">
+                    <label end="165" start="156" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="154" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19921">
+            <text>A l' occasion de la tournée qu' il effectue en Asie ( lire page 5 ) , le président américain George Bush a exprimé , le 4 janvier à Singapour , son intention de réduire plus que prévu les dépenses militaires américaines afin de favoriser une relance intérieure de l' économie .</text>
+            <annotationSet status="MANUAL" ID="23666">
+                <layer rank="1" name="FE">
+                    <label end="218" start="208" name="Spender"/>
+                    <label end="206" start="197" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="195" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19931">
+            <text>De telles mesures ne seront possibles que si la Maison Blanche et le Congrès renégocient l' accord de 1990 qui limite les dépenses fédérales .</text>
+            <annotationSet status="MANUAL" ID="23678">
+                <layer rank="1" name="FE">
+                    <label end="139" start="131" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19992">
+            <text>Quant à la faiblesse de la conjoncture en Allemagne occidentale et en Europe , elle reflète la hausse des taux d' intérêt réels liés aux dépenses de la réunification allemande .</text>
+            <annotationSet status="MANUAL" ID="23729">
+                <layer rank="1" name="FE">
+                    <label end="174" start="149" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19995">
+            <text>Dire encore qu' en France le gouvernement Rocard , en consentant 300 milliards de dépenses supplémentaires au lieu d' employer le plus clair des plus - values fiscales tombées comme une manne à une réduction impitoyable du déficit , a laissé passer une occasion " historique " , Allemagne ou pas Allemagne , de créer les conditions d' une baisse non moins accentuée des taux à long terme .</text>
+            <annotationSet status="MANUAL" ID="23734">
+                <layer rank="1" name="FE">
+                    <label end="80" start="65" name="Money"/>
+                    <label end="47" start="26" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20243">
+            <text>Tout s' est conjugué : la fin de la " guerre froide " entre l' Est et l' Ouest , le ralentissement des dépenses militaires , la diminution , la disparition ou l' étalement des programmes d' armement , la baisse des exportations , l' augmentation des coûts et l' entrée en scène de nouveaux fournisseurs ont abouti aux résultats qui commencent à apparaître dans les usines .</text>
+            <annotationSet status="MANUAL" ID="23968">
+                <layer rank="1" name="FE">
+                    <label end="121" start="112" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20305">
+            <text>La réduction d' impôt pour frais de garde des jeunes enfants sera réservée aux crèches et aux nourrices agréées ( 25 % des dépenses dans une limite de 15 000 francs par an ) .</text>
+            <annotationSet status="MANUAL" ID="24031">
+                <layer rank="1" name="FE">
+                    <label end="130" start="123" name="Money"/>
+                    <label end="59" start="36" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20988">
+            <text>Enfin , les responsables de l' UNEDIC estiment que le développement des contrats emploi - solidarité ( CES ) , assortis d' un contrat de travail , à la différence des TUC , qu' ils ont remplacés , va occasionner des dépenses supplémentaires pour le régime quand les chômeurs vont quitter ce dispositif en avril et mai 1993 .</text>
+            <annotationSet status="MANUAL" ID="24524">
+                <layer rank="1" name="FE">
+                    <label end="254" start="246" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="223" start="216" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21027">
+            <text>Le spectacle des devantures de Noël cache ... des heures de travail et des dépenses substantielles</text>
+            <annotationSet status="MANUAL" ID="24563">
+                <layer rank="1" name="FE">
+                    <label end="97" start="71" name="Money"/>
+                    <label end="34" start="0" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21211">
+            <text>Déjà , l' an dernier , près de la moitié des dépenses publiques - du coût des opérations de maintien de la paix au Libéria et en Somalie aux cadeaux distribués aux militaires pour qu' ils restent dans leurs casernes - ont été effectuées hors budget .</text>
+            <annotationSet status="MANUAL" ID="24662">
+                <layer rank="1" name="FE">
+                    <label end="62" start="54" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21349">
+            <text>Si Béatrice de Casson et Vincent Ravoux visent juste , on peut regretter que cet opuscule édité par la Caisse nationale d' assurance - maladie traite , pour l' essentiel , des dépenses de santé .</text>
+            <annotationSet status="MANUAL" ID="24748">
+                <layer rank="1" name="FE">
+                    <label end="192" start="188" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="183" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21455">
+            <text>Les autres marchés , civils comme militaires , connaissent en revanche , à quelques exceptions près - les missiles vont mieux qu' il y a quelques mois , - une crise historique due à l' effondrement des dépenses militaires et à la situation catastrophique des compagnies aériennes .</text>
+            <annotationSet status="MANUAL" ID="24831">
+                <layer rank="1" name="FE">
+                    <label end="220" start="211" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="202" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21472">
+            <text>- En jouant d' abord sur les dépenses .</text>
+            <annotationSet status="MANUAL" ID="24838">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21550">
+            <text>Du côté des dépenses , 12 , 9 milliards sont prévus pour soutenir l' activité ( allégement des charges des entreprises , aides au logement , etc. ) .</text>
+            <annotationSet status="MANUAL" ID="24889">
+                <layer rank="1" name="FE">
+                    <label end="38" start="23" name="Money"/>
+                    <label end="76" start="57" name="Purpose"/>
+                    <label itype="ENI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21598">
+            <text>- FONCTION PUBLIQUE : Dans sa " lettre de cadrage " pour 1993 , Edouard Balladur précise son intention de réduire de 1 , 5 % les effectifs de la fonction publique l' année prochaine , afin de geler , en volume , la dépense publique et de ramener le déficit budgétaire de 1994 à 300 milliards de francs ( 28 , 29 ) .</text>
+            <annotationSet status="MANUAL" ID="24906">
+                <layer rank="1" name="FE">
+                    <label end="230" start="223" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="221" start="215" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

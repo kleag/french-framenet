@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="convier.v" ID="1162" frame="FR_Influence_of_event_on_cognizer-Subjective_influence" frameID="10035" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="sit" name="Situation"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ent" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="act" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="beh" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="22137"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Activity"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="22137"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Entity"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Situation"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Situation"/>
+                <annoSet ID="22137"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18104">
+            <text>La géographie comme l' histoire nous convient à nous tourner vers le Sud autant que vers l' est .</text>
+            <annotationSet status="MANUAL" ID="22137">
+                <layer rank="1" name="FE">
+                    <label end="94" start="48" name="Action"/>
+                    <label end="30" start="0" name="Situation"/>
+                    <label end="35" start="32" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

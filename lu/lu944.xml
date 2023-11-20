@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="délibérer.v" ID="944" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Interlocutor_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Interlocutor_2"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Interlocutors"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="16"/>
+                <annoSet ID="2463"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="16"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="11">
+            <text>En délibérant , l' assemblée a accepté la proposition du maire et l' a chargé de faire établir par les services de la DDE un dossier de demande de subvention dans le cadre de la répartition des amendes de police 1999 .</text>
+            <annotationSet status="MANUAL" ID="16">
+                <layer rank="1" name="FE">
+                    <label end="27" start="16" name="Interlocutors"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1947">
+            <text>Où sont -ils donc ces 32 et quelques , qui se sont levés et qui se lèveront encore , mais sont absents maintenant pendant que nous délibérons ?</text>
+            <annotationSet status="MANUAL" ID="2463">
+                <layer rank="1" name="FE">
+                    <label end="129" start="126" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

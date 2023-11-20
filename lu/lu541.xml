@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="corroborer.v" ID="541" frame="Evidence" frameID="25" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposition"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="3532"/>
+                <annoSet ID="14026"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Support"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="3532"/>
+                <annoSet ID="14026"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2703">
+            <text>Dans son ordonnance de renvoi pour le procès de 49 prévenus qui s' est ouvert en janvier 2006 , le juge d' instruction Armand Riberolles , successeur du juge Éric Halphen , écrit que " l' instruction n' est pas parvenue à établir formellement l' implication personnelle de responsables au sein de l' appareil politique du RPR " , tout en relevant qu' " un grand nombre de témoignages , corroborés par divers éléments factuels , concourent à établir que Jean-Claude Méry avait reçu mission d' assurer le financement des activités politiques de ce parti en collectant des fonds , notamment auprès des entreprises fournisseurs de l' OPAC . " ( cité par Le Monde du 25/01/06 ) .</text>
+            <annotationSet status="MANUAL" ID="3532">
+                <layer rank="1" name="FE">
+                    <label end="424" start="401" name="Support"/>
+                    <label end="384" start="372" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="395" start="386" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9980">
+            <text>A en croire les prévisions officielles , corroborées par le " rapport sur les perspectives économiques " de l' OCDE , publié la semaine dernière , la France aura encore connu une croissance voisine de 2 % cette année .</text>
+            <annotationSet status="MANUAL" ID="14026">
+                <layer rank="1" name="FE">
+                    <label end="143" start="57" name="Support"/>
+                    <label end="39" start="12" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

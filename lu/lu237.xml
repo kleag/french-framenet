@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="porter.v" ID="237" frame="Causation" frameID="5" totalAnnotated="12" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Actor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="8532"/>
+                <annoSet ID="11939"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Affected"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="3078"/>
+                <annoSet ID="3093"/>
+                <annoSet ID="4928"/>
+                <annoSet ID="6929"/>
+                <annoSet ID="9707"/>
+                <annoSet ID="10115"/>
+                <annoSet ID="11939"/>
+                <annoSet ID="11958"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Cause"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="3078"/>
+                <annoSet ID="3093"/>
+                <annoSet ID="4928"/>
+                <annoSet ID="6929"/>
+                <annoSet ID="7749"/>
+                <annoSet ID="7775"/>
+                <annoSet ID="9707"/>
+                <annoSet ID="10115"/>
+                <annoSet ID="11453"/>
+                <annoSet ID="11958"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Effect"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="3078"/>
+                <annoSet ID="3093"/>
+                <annoSet ID="4928"/>
+                <annoSet ID="6929"/>
+                <annoSet ID="7749"/>
+                <annoSet ID="7775"/>
+                <annoSet ID="8532"/>
+                <annoSet ID="9707"/>
+                <annoSet ID="10115"/>
+                <annoSet ID="11453"/>
+                <annoSet ID="11939"/>
+                <annoSet ID="11958"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2374">
+            <text>Les Dominati doivent répondre de " manoeuvres frauduleuses " ayant " porté atteinte à la sincérité " des élections municipales de 1989 et 1995 .</text>
+            <annotationSet status="MANUAL" ID="3078">
+                <layer rank="1" name="FE">
+                    <label end="59" start="33" name="Cause"/>
+                    <label end="141" start="86" name="Affected"/>
+                    <label end="82" start="75" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2381">
+            <text>" Ce sont des faits exceptionnels , qui portent atteinte aux fondements même de notre société démocratique " .</text>
+            <annotationSet status="MANUAL" ID="3093">
+                <layer rank="1" name="FE">
+                    <label end="38" start="36" name="Cause"/>
+                    <label end="105" start="10" name="Cause"/>
+                    <label end="105" start="61" name="Affected"/>
+                    <label end="55" start="48" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3634">
+            <text>Entre - temps , la crise du Golfe l' avait porté à 10 , 70 % , en octobre 1990 .</text>
+            <annotationSet status="MANUAL" ID="4928">
+                <layer rank="1" name="FE">
+                    <label end="32" start="16" name="Cause"/>
+                    <label end="35" start="34" name="Affected"/>
+                    <label end="79" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4859">
+            <text>Ces parlementaires estimaient que l' utilisation par un producteur de la marque de son concurrent portait atteinte aux droits de propriété protégés par la Déclaration des droits de l' homme et du citoyen de 1789 .</text>
+            <annotationSet status="MANUAL" ID="6929">
+                <layer rank="1" name="FE">
+                    <label end="96" start="34" name="Cause"/>
+                    <label end="210" start="119" name="Affected"/>
+                    <label end="113" start="106" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5336">
+            <text>Tout porte à croire que ces besoins grimperont jusqu' à 32 milliards de livres au cours du prochain exercice ( plus de 310 milliards de francs ) , ce qui représenterait 4 , 5 % du revenu national .</text>
+            <annotationSet status="MANUAL" ID="7749">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Cause"/>
+                    <label end="194" start="13" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5358">
+            <text>Et ce moule bien sûr , ne porte pas à une vision réformiste de la société .</text>
+            <annotationSet status="MANUAL" ID="7775">
+                <layer rank="1" name="FE">
+                    <label end="10" start="3" name="Cause"/>
+                    <label end="72" start="38" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5801">
+            <text>C' est qu' on ne porte pas impunément atteinte à des tabous .</text>
+            <annotationSet status="MANUAL" ID="8532">
+                <layer rank="1" name="FE">
+                    <label end="58" start="38" name="Effect"/>
+                    <label end="12" start="11" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6495">
+            <text>Une démarche cartésienne , la clarté de l' écriture , l' aptitude à l' analyse et à la synthèse , l' imagination aussi , ont souvent porté des Français à la présidence de grands organismes internationaux .</text>
+            <annotationSet status="MANUAL" ID="9707">
+                <layer rank="1" name="FE">
+                    <label end="111" start="0" name="Cause"/>
+                    <label end="150" start="139" name="Affected"/>
+                    <label end="202" start="154" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6792">
+            <text>L' imbroglio des logiques contradictoires continuera à porter préjudice à l' efficacité productive tant que l' industrie américaine n' aura pas choisi entre le réaménagement du couple conflit - compromis propre au fordisme et l' adoption du couple consensus - coercition inspiré du toyotisme .</text>
+            <annotationSet status="MANUAL" ID="10115">
+                <layer rank="1" name="FE">
+                    <label end="40" start="0" name="Cause"/>
+                    <label end="97" start="74" name="Affected"/>
+                    <label end="70" start="62" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7926">
+            <text>" Une région sinistrée " : le diagnostic fait par l' Association des organismes d' HLM de la région Ile - de - France sur l' état du logement social francilien ne porte pas à l' optimisme .</text>
+            <annotationSet status="MANUAL" ID="11453">
+                <layer rank="1" name="FE">
+                    <label end="39" start="27" name="Cause"/>
+                    <label end="186" start="175" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="163" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8321">
+            <text>" On a porté atteinte à la dignité des salariés , commente un ancien employé du prince - de - Galles de cinquante - six ans , qui comptait vingt - six ans d' ancienneté .</text>
+            <annotationSet status="MANUAL" ID="11939">
+                <layer rank="1" name="FE">
+                    <label end="46" start="24" name="Affected"/>
+                    <label end="20" start="13" name="Effect"/>
+                    <label end="3" start="2" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8334">
+            <text>" A chaque fois qu' un mauvais exemple est donné , il porte atteinte à l' ensemble de la profession .</text>
+            <annotationSet status="MANUAL" ID="11958">
+                <layer rank="1" name="FE">
+                    <label end="47" start="20" name="Cause"/>
+                    <label end="52" start="51" name="Cause"/>
+                    <label end="98" start="71" name="Affected"/>
+                    <label end="67" start="60" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

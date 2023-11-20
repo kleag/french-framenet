@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="frais.n" ID="1511" frame="FR_Spending" frameID="10055" totalAnnotated="39" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Spender"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Woe" name="Way_of_expense"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Causex" name="Cause_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cause_of_expense"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cause_of_expense"/>
+                <annoSet ID="7825"/>
+                <annoSet ID="17080"/>
+                <annoSet ID="23611"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Goods"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="8828"/>
+                <annoSet ID="11921"/>
+                <annoSet ID="14587"/>
+                <annoSet ID="24030"/>
+                <annoSet ID="24032"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="13694"/>
+                <annoSet ID="23393"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="39">
+            <FE name="Money"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="2492"/>
+                <annoSet ID="4771"/>
+                <annoSet ID="5229"/>
+                <annoSet ID="10678"/>
+                <annoSet ID="10706"/>
+                <annoSet ID="11222"/>
+                <annoSet ID="11846"/>
+                <annoSet ID="11858"/>
+                <annoSet ID="11921"/>
+                <annoSet ID="11928"/>
+                <annoSet ID="12951"/>
+                <annoSet ID="13659"/>
+                <annoSet ID="14228"/>
+                <annoSet ID="14552"/>
+                <annoSet ID="14587"/>
+                <annoSet ID="14969"/>
+                <annoSet ID="17080"/>
+                <annoSet ID="20109"/>
+                <annoSet ID="20945"/>
+                <annoSet ID="21327"/>
+                <annoSet ID="22257"/>
+                <annoSet ID="23393"/>
+                <annoSet ID="24839"/>
+            </pattern>
+            <pattern total="16">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="302"/>
+                <annoSet ID="312"/>
+                <annoSet ID="3330"/>
+                <annoSet ID="3336"/>
+                <annoSet ID="4270"/>
+                <annoSet ID="7825"/>
+                <annoSet ID="8828"/>
+                <annoSet ID="10755"/>
+                <annoSet ID="12794"/>
+                <annoSet ID="13693"/>
+                <annoSet ID="13694"/>
+                <annoSet ID="19372"/>
+                <annoSet ID="20205"/>
+                <annoSet ID="23611"/>
+                <annoSet ID="24030"/>
+                <annoSet ID="24032"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="29">
+            <FE name="Purpose"/>
+            <pattern total="20">
+                <valenceUnit PT="filled" FE="Purpose"/>
+                <annoSet ID="302"/>
+                <annoSet ID="3330"/>
+                <annoSet ID="3336"/>
+                <annoSet ID="4270"/>
+                <annoSet ID="5229"/>
+                <annoSet ID="10706"/>
+                <annoSet ID="10755"/>
+                <annoSet ID="11222"/>
+                <annoSet ID="11846"/>
+                <annoSet ID="11858"/>
+                <annoSet ID="12951"/>
+                <annoSet ID="13659"/>
+                <annoSet ID="13693"/>
+                <annoSet ID="14228"/>
+                <annoSet ID="14552"/>
+                <annoSet ID="14969"/>
+                <annoSet ID="20109"/>
+                <annoSet ID="20205"/>
+                <annoSet ID="22257"/>
+                <annoSet ID="24839"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Purpose"/>
+                <annoSet ID="312"/>
+                <annoSet ID="2492"/>
+                <annoSet ID="4771"/>
+                <annoSet ID="10678"/>
+                <annoSet ID="11928"/>
+                <annoSet ID="12794"/>
+                <annoSet ID="19372"/>
+                <annoSet ID="20945"/>
+                <annoSet ID="21327"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Seller"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="11928"/>
+                <annoSet ID="13694"/>
+                <annoSet ID="23393"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="39">
+            <FE name="Spender"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Spender"/>
+                <annoSet ID="2492"/>
+                <annoSet ID="4270"/>
+                <annoSet ID="4771"/>
+                <annoSet ID="8828"/>
+                <annoSet ID="10755"/>
+                <annoSet ID="11222"/>
+                <annoSet ID="11921"/>
+                <annoSet ID="11928"/>
+                <annoSet ID="12794"/>
+                <annoSet ID="12951"/>
+                <annoSet ID="14228"/>
+                <annoSet ID="14552"/>
+                <annoSet ID="17080"/>
+                <annoSet ID="20109"/>
+                <annoSet ID="20205"/>
+            </pattern>
+            <pattern total="24">
+                <valenceUnit PT="null instantiation" FE="Spender"/>
+                <annoSet ID="302"/>
+                <annoSet ID="312"/>
+                <annoSet ID="3330"/>
+                <annoSet ID="3336"/>
+                <annoSet ID="5229"/>
+                <annoSet ID="7825"/>
+                <annoSet ID="10678"/>
+                <annoSet ID="10706"/>
+                <annoSet ID="11846"/>
+                <annoSet ID="11858"/>
+                <annoSet ID="13659"/>
+                <annoSet ID="13693"/>
+                <annoSet ID="13694"/>
+                <annoSet ID="14587"/>
+                <annoSet ID="14969"/>
+                <annoSet ID="19372"/>
+                <annoSet ID="20945"/>
+                <annoSet ID="21327"/>
+                <annoSet ID="22257"/>
+                <annoSet ID="23393"/>
+                <annoSet ID="23611"/>
+                <annoSet ID="24030"/>
+                <annoSet ID="24032"/>
+                <annoSet ID="24839"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="246">
+            <text>Lorsque des utilisateurs , associations ou particuliers de la commune , les occupent , il leur est demandé une participation aux frais de fonctionnement .</text>
+            <annotationSet status="MANUAL" ID="302">
+                <layer rank="1" name="FE">
+                    <label end="151" start="138" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="251">
+            <text>" Pérouse amitié " , qui utilise la grande salle deux mercredis après-midi par mois , voit également sa contribution aux frais diminuer ( 150 par an )</text>
+            <annotationSet status="MANUAL" ID="312">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="121" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1961">
+            <text>Les frais supplémentaires en résultant seront supportés par l' utilisateur , pour lequel le prix du billet d' avion sera plus élevé .</text>
+            <annotationSet status="MANUAL" ID="2492">
+                <layer rank="1" name="FE">
+                    <label end="37" start="0" name="Money"/>
+                    <label end="130" start="60" name="Spender"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2510">
+            <text>" J' ai signé , comme ministre chargé de l' administration des douanes et des impôts , la commission douanière , ce qu' on appelle les frais de prospection de marché , qui a été allouée aux intermédiaires étrangers qui ont facilité l' acquisition des frégates de Taïwan " , a expliqué Michel Charasse .</text>
+            <annotationSet status="MANUAL" ID="3330">
+                <layer rank="1" name="FE">
+                    <label end="164" start="144" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2512">
+            <text>Ces commissions sont par ailleurs déductibles d' impôt puisqu' elles sont considérées comme des frais de prospection .</text>
+            <annotationSet status="MANUAL" ID="3336">
+                <layer rank="1" name="FE">
+                    <label end="115" start="105" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3257">
+            <text>Mettre la Sept sur le réseau de la Cinq pourrait donc conduire à deux impasses : soit appauvrir globalement le secteur public ; soit détourner la vocation de la Sept - produire des contenus originaux et forts - en orientant ses crédits vers des frais de diffusion .</text>
+            <annotationSet status="MANUAL" ID="4270">
+                <layer rank="1" name="FE">
+                    <label end="164" start="158" name="Spender"/>
+                    <label end="226" start="224" name="Spender"/>
+                    <label end="262" start="254" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="249" start="245" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3558">
+            <text>Les différents frais déduits , chaque Français peut bénéficier de remises comprises entre 10 et 17 % sur un véhicule neuf .</text>
+            <annotationSet status="MANUAL" ID="4771">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Money"/>
+                    <label end="45" start="31" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3803">
+            <text>Le conseil d' administration de cette société , dont le dépôt de bilan et la mise en redressement judiciaire avaient été prononcés en octobre 1991 , a refusé , vendredi 3 janvier , d' assurer les frais de sécurité sur le site et le coût du chômage partiel pour les 374 personnes qui y sont encore salariées .</text>
+            <annotationSet status="MANUAL" ID="5229">
+                <layer rank="1" name="FE">
+                    <label end="305" start="192" name="Money"/>
+                    <label end="224" start="205" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="200" start="196" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5398">
+            <text>Cette explosion s' explique également par la mise en application depuis une vingtaine d' années de la théorie des " flux tendus " , censés minimiser les frais de stocks .</text>
+            <annotationSet status="MANUAL" ID="7825">
+                <layer rank="1" name="FE">
+                    <label end="167" start="162" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="153" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5956">
+            <text>( 3 ) l' Ukraine craignant de la part de la Russie , du fait de la partition de l' ex- URSS , des difficultés d' approvisionnement en combustibles , de stockage et de retraitement des déchets , la Cogema s' est proposée de conduire à ses frais une enquête sur l' ensemble du cycle du combustible dans ce pays .</text>
+            <annotationSet status="MANUAL" ID="8828">
+                <layer rank="1" name="FE">
+                    <label end="202" start="194" name="Spender"/>
+                    <label end="236" start="234" name="Spender"/>
+                    <label end="307" start="244" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="242" start="238" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7264">
+            <text>Celui - ci s' est accompagné , d' autre part , du licenciement des anciens contractuels de l' administration postale , de mesures de réduction des frais généraux ainsi que d' une réorganisation administrative totale .</text>
+            <annotationSet status="MANUAL" ID="10678">
+                <layer rank="1" name="FE">
+                    <label end="160" start="147" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7284">
+            <text>On sera très loin cependant d' un retour à l' équilibre puisque les frais financiers sont évalués à 175 millions de francs par an .</text>
+            <annotationSet status="MANUAL" ID="10706">
+                <layer rank="1" name="FE">
+                    <label end="83" start="64" name="Money"/>
+                    <label end="83" start="74" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7315">
+            <text>Hughes Aircraft prélèvera une provision exceptionnelle de 749 , 4 millions de dollars ( 3 , 9 milliards de francs ) sur ses résultats nets du deuxième trimestre pour couvrir ses frais de restructurations , ainsi qu' une provision de 40 millions ( environ 208 millions de francs ) pour couvrir certaines modifications dans ses méthodes comptables .</text>
+            <annotationSet status="MANUAL" ID="10755">
+                <layer rank="1" name="FE">
+                    <label end="176" start="174" name="Spender"/>
+                    <label end="14" start="0" name="Spender"/>
+                    <label end="202" start="187" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="182" start="178" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7744">
+            <text>Ces derniers n' ont pas seulement droit à toutes les facilités d' écoulement données par les organismes d' intervention , qui paient frais de stockage et subvention au bradage .</text>
+            <annotationSet status="MANUAL" ID="11222">
+                <layer rank="1" name="FE">
+                    <label end="149" start="133" name="Money"/>
+                    <label end="124" start="122" name="Spender"/>
+                    <label end="174" start="89" name="Spender"/>
+                    <label end="149" start="142" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8241">
+            <text>Toutes les entreprises interviewées participent , en revanche , au financement des frais d' éducation des enfants , et de même toutes se montrent assez généreuses envers le voyage de retour vers le pays d' origine .</text>
+            <annotationSet status="MANUAL" ID="11846">
+                <layer rank="1" name="FE">
+                    <label end="112" start="83" name="Money"/>
+                    <label end="112" start="92" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8249">
+            <text>Plus généralement , d' autres refusent désormais de prendre en charge à 100 % les frais du logement et demandent aux salariés de contribuer à la hauteur de ce que ils payaient en France " .</text>
+            <annotationSet status="MANUAL" ID="11858">
+                <layer rank="1" name="FE">
+                    <label end="98" start="78" name="Money"/>
+                    <label end="98" start="91" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8309">
+            <text>Elles ne peuvent plus se permettre d' avoir des ratios de frais de personnel qui représentent 38 % à 40 % de leur chiffre d' affaires .</text>
+            <annotationSet status="MANUAL" ID="11921">
+                <layer rank="1" name="FE">
+                    <label end="75" start="58" name="Money"/>
+                    <label end="4" start="0" name="Spender"/>
+                    <label end="112" start="109" name="Spender"/>
+                    <label end="75" start="67" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8314">
+            <text>Quant au George - V ( groupe Forte ) , il a été éclaté en deux sociétés du même groupe ; l' une , exploitante , verse un loyer de 14 millions de francs par an à la seconde , propriétaire du terrain , selon la CFTC , qui estime que ces frais grèvent les comptes d' exploitation .</text>
+            <annotationSet status="MANUAL" ID="11928">
+                <layer rank="1" name="FE">
+                    <label end="239" start="231" name="Money"/>
+                    <label end="108" start="89" name="Spender"/>
+                    <label end="196" start="161" name="Seller"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="239" start="235" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8940">
+            <text>Il peut exister des écarts de prix de 25 % entre des sous - traitants acculés à passer des contrats bon marché et d' autres PME qui essayent de couvrir leur frais , explique M. Jean - Louis Amato , président de l' UNOSTRA .</text>
+            <annotationSet status="MANUAL" ID="12794">
+                <layer rank="1" name="FE">
+                    <label end="155" start="152" name="Spender"/>
+                    <label end="150" start="114" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="161" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9055">
+            <text>On se demande comment un gouvernement va pouvoir expliquer à ces mêmes PME , qui gémissent sous le poids de leurs frais financiers , que plus les affaires vont mal , plus il faut relever les taux d' intérêt ...</text>
+            <annotationSet status="MANUAL" ID="12951">
+                <layer rank="1" name="FE">
+                    <label end="129" start="108" name="Money"/>
+                    <label end="112" start="108" name="Spender"/>
+                    <label end="129" start="61" name="Spender"/>
+                    <label end="129" start="120" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9690">
+            <text>Toutefois , il faut y ajouter les frais de mutation , entre 10 % et 12 % du prix .</text>
+            <annotationSet status="MANUAL" ID="13659">
+                <layer rank="1" name="FE">
+                    <label end="50" start="30" name="Money"/>
+                    <label end="50" start="43" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9709">
+            <text>Souplesse par rapport à l' achat en pleine propriété , l' amodiation comporte des avantages : pas de frais de notaire , pas de taxe foncière ni de taxe d' habitation : " Les seuls frais sont les dépenses d' entretien , que l'on peut évaluer à 2 000 francs par an " , indique François le Vert , responsable de la communication de GTM - entrepose développement Service .</text>
+            <annotationSet status="MANUAL" ID="13693">
+                <layer rank="1" name="FE">
+                    <label end="215" start="207" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="180" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9709">
+            <text>Souplesse par rapport à l' achat en pleine propriété , l' amodiation comporte des avantages : pas de frais de notaire , pas de taxe foncière ni de taxe d' habitation : " Les seuls frais sont les dépenses d' entretien , que l'on peut évaluer à 2 000 francs par an " , indique François le Vert , responsable de la communication de GTM - entrepose développement Service .</text>
+            <annotationSet status="MANUAL" ID="13694">
+                <layer rank="1" name="FE">
+                    <label end="116" start="110" name="Seller"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10123">
+            <text>Le premier ministre a aussi promis que l' UNEDIC pourrait bénéficier d' une bonification de ses emprunts afin de réduire ses frais financiers , qui se sont élevés à 1 , 7 milliard en 1992 .</text>
+            <annotationSet status="MANUAL" ID="14228">
+                <layer rank="1" name="FE">
+                    <label end="186" start="121" name="Money"/>
+                    <label end="123" start="121" name="Spender"/>
+                    <label end="47" start="39" name="Spender"/>
+                    <label end="140" start="131" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10372">
+            <text>Car il appartiendrait à la cinquième chaîne de changer , à ses frais , le réglage de 3 millions de magnétoscopes , pour pouvoir utiliser ses fréquences .</text>
+            <annotationSet status="MANUAL" ID="14552">
+                <layer rank="1" name="FE">
+                    <label end="67" start="59" name="Money"/>
+                    <label end="42" start="24" name="Spender"/>
+                    <label end="61" start="59" name="Spender"/>
+                    <label end="57" start="47" name="Purpose"/>
+                    <label end="111" start="69" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10399">
+            <text>L' indemnité de fonction des élus locaux , minorée des frais d' emploi , sera , d' autre part , soumise -c' est une première , en France , en matière de fiscalité - à une retenue à la source libératoire de l' impôt sur le revenu .</text>
+            <annotationSet status="MANUAL" ID="14587">
+                <layer rank="1" name="FE">
+                    <label end="69" start="55" name="Money"/>
+                    <label end="69" start="64" name="Goods"/>
+                    <label itype="ENI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10716">
+            <text>Elle veut encourager son utilisation à travers la Communauté , notamment par le paiement des salaires et des frais de voyage .</text>
+            <annotationSet status="MANUAL" ID="14969">
+                <layer rank="1" name="FE">
+                    <label end="123" start="109" name="Money"/>
+                    <label end="123" start="118" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12717">
+            <text>" Elle doit aussi beaucoup à la dégringolade du prix du coton , à l' amélioration de la productivité et à la diminution des frais financiers des entreprises .</text>
+            <annotationSet status="MANUAL" ID="17080">
+                <layer rank="1" name="FE">
+                    <label end="155" start="124" name="Money"/>
+                    <label end="155" start="145" name="Spender"/>
+                    <label end="139" start="130" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="128" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15117">
+            <text>Avec une difficulté : participer le moins possible aux frais tout en gardant le contrôle de ses ressources d' hydrocarbures situées essentiellement dans le delta du Niger .</text>
+            <annotationSet status="MANUAL" ID="19372">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15933">
+            <text>" Deuxième problème : les frais de fonctionnement de la régie publicitaire ont -ils augmenté outre mesure ?</text>
+            <annotationSet status="MANUAL" ID="20109">
+                <layer rank="1" name="FE">
+                    <label end="73" start="22" name="Money"/>
+                    <label end="73" start="53" name="Spender"/>
+                    <label end="48" start="35" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16032">
+            <text>Favorisant la mise en commun des frais de recherche ou l' échange de produits finis , cette association devait permettre à chacun de ses membres de bénéficier d' un " effet de taille " .</text>
+            <annotationSet status="MANUAL" ID="20205">
+                <layer rank="1" name="FE">
+                    <label end="143" start="123" name="Spender"/>
+                    <label end="50" start="42" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16818">
+            <text>Depuis ce matin , ils sont réunis , à grands frais , au palais des congrès , et ils jaspinent dans toutes les langues , l' écouteur vissé à l' oreille , sur les chimiothérapies cognito - comportementales et les facteurs prédictifs dans les traitements pharmacologiques de ce qu' ils appellent des phobies .</text>
+            <annotationSet status="MANUAL" ID="20945">
+                <layer rank="1" name="FE">
+                    <label end="43" start="38" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17211">
+            <text>Les troupes retourneront probablement à grands frais aux Etats - Unis , et l' Europe deviendra vulnérable .</text>
+            <annotationSet status="MANUAL" ID="21327">
+                <layer rank="1" name="FE">
+                    <label end="45" start="40" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="ENI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18219">
+            <text>Pourquoi ne pas envisager que les frais de réparation des espaces naturels d' intérêt exceptionnel soient , eux aussi , déductibles du revenu global pour l' impôt sur le revenu ?</text>
+            <annotationSet status="MANUAL" ID="22257">
+                <layer rank="1" name="FE">
+                    <label end="97" start="30" name="Money"/>
+                    <label end="97" start="43" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19461">
+            <text>Le coût total de l' opération , entre le matériel , la pension du cheval , les manipulations et les frais de vétérinaire sera de 80000 francs à 100000 francs .</text>
+            <annotationSet status="MANUAL" ID="23393">
+                <layer rank="1" name="FE">
+                    <label end="119" start="96" name="Money"/>
+                    <label end="119" start="109" name="Seller"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19865">
+            <text>Cette possibilité , qui existe déjà dans tous les pays de la communauté européenne ( à l' exception de la Grèce et de l' Italie ) , a fait bondir la fédération patronale du bâtiment ( FNB ) , qui s' inquiète , tout à la fois , des excès potentiels de l' inspection du travail , des frais entraînés par ces arrêts et par les recours judiciaires qu' ils entraînent .</text>
+            <annotationSet status="MANUAL" ID="23611">
+                <layer rank="1" name="FE">
+                    <label end="311" start="302" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="286" start="282" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20304">
+            <text>La réduction d' impôt pour frais d' aide à domicile , qui était moins avantageuse , est supprimée .</text>
+            <annotationSet status="MANUAL" ID="24030">
+                <layer rank="1" name="FE">
+                    <label end="50" start="36" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20305">
+            <text>La réduction d' impôt pour frais de garde des jeunes enfants sera réservée aux crèches et aux nourrices agréées ( 25 % des dépenses dans une limite de 15 000 francs par an ) .</text>
+            <annotationSet status="MANUAL" ID="24032">
+                <layer rank="1" name="FE">
+                    <label end="59" start="36" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21473">
+            <text>Il n' y a pas de secret : réduction des investissements au strict nécessaire , diminution des stocks et des cycles , limitation des frais de fonctionnement , augmentations de salaires très " ajustées " .</text>
+            <annotationSet status="MANUAL" ID="24839">
+                <layer rank="1" name="FE">
+                    <label end="154" start="132" name="Money"/>
+                    <label end="154" start="141" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

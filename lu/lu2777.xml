@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="à sa demande.adv" ID="2777" frame="Response" frameID="1302" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core-Unexpressed" abbrev="res" name="Response"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="res_e" name="Responding_entity"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="tri" name="Trigger"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="age" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="stt" name="Sentient_trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Agent"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responding_entity"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Response"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Response"/>
+                <annoSet ID="12224"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Sentient_trigger"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Sentient_trigger"/>
+                <annoSet ID="12224"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Trigger"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8581">
+            <text>- La suspension de la cotation du groupe d' assurances danois Hafnia , intervenue à sa demande mercredi 1 juillet , a été levée à compter du lundi 6 juillet .</text>
+            <annotationSet status="MANUAL" ID="12224">
+                <layer rank="1" name="FE">
+                    <label end="67" start="34" name="Sentient_trigger"/>
+                    <label end="85" start="84" name="Sentient_trigger"/>
+                    <label end="67" start="2" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

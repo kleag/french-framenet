@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="détailler.v" ID="1471" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Medium"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="1027"/>
+                <annoSet ID="3838"/>
+                <annoSet ID="11950"/>
+                <annoSet ID="17426"/>
+                <annoSet ID="19507"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="9051"/>
+                <annoSet ID="12654"/>
+                <annoSet ID="16241"/>
+                <annoSet ID="19507"/>
+                <annoSet ID="24260"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Topic"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="1027"/>
+                <annoSet ID="3838"/>
+                <annoSet ID="9051"/>
+                <annoSet ID="11950"/>
+                <annoSet ID="12654"/>
+                <annoSet ID="16241"/>
+                <annoSet ID="17426"/>
+                <annoSet ID="19507"/>
+                <annoSet ID="24260"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="934">
+            <text>Le titulaire de l' AMM s' engage à fournir des études et des données de pharmacovigilance supplémentaires détaillées dans le Plan de Pharmacovigilance , comme convenu dans la version 4 du Plan de Gestion des risques ( PGR ) présenté dans le Module 1.8.2. de l' autorisation de mise sur le marché et toutes mises à jour du PGR autorisées par le CHMP .</text>
+            <annotationSet status="MANUAL" ID="1027">
+                <layer rank="1" name="FE">
+                    <label end="104" start="43" name="Topic"/>
+                    <label end="149" start="122" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2954">
+            <text>Cette note - qui est à l' origine d' une information judiciaire ouverte et confiée à la juge d' instruction Isabelle Prévost-Desprez - ne s' attarde pas réellement sur le paiement d' une hypothétique rançon , mais détaille plutôt un système de " rétro- commissions " qui y serait lié .</text>
+            <annotationSet status="MANUAL" ID="3838">
+                <layer rank="1" name="FE">
+                    <label end="282" start="230" name="Topic"/>
+                    <label end="133" start="0" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="221" start="214" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6096">
+            <text>Détaillant les conclusions d' un groupe technique confédéral , Mme Geneviève Lingesler , vice présidente de la CFTC , a mis l' accent sur des propositions qui se veulent " un appel à la responsabilité " .</text>
+            <annotationSet status="MANUAL" ID="9051">
+                <layer rank="1" name="FE">
+                    <label end="59" start="11" name="Topic"/>
+                    <label end="114" start="63" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8329">
+            <text>Ce texte détaillait la procédure à suivre afin d' " augmenter les bénéfices de l' hôtel en économisant sur les salaires " et conseillait de " se séparer de tous les employés qui n' acceptent pas ces changements , avec une indemnité très réduite de licenciement " .</text>
+            <annotationSet status="MANUAL" ID="11950">
+                <layer rank="1" name="FE">
+                    <label end="120" start="20" name="Topic"/>
+                    <label end="7" start="0" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8861">
+            <text>Elle se contente de détailler la façon dont la Ville de Paris s' est financièrement engagée , avec en plus " une tentative de relance malheureuse " , comment elle s' est fait rouler dans la farine ...</text>
+            <annotationSet status="MANUAL" ID="12654">
+                <layer rank="1" name="FE">
+                    <label end="146" start="30" name="Topic"/>
+                    <label end="3" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11892">
+            <text>Une évolution encore plus nette si on détaille les catégories juridiques :</text>
+            <annotationSet status="MANUAL" ID="16241">
+                <layer rank="1" name="FE">
+                    <label end="71" start="47" name="Topic"/>
+                    <label end="36" start="35" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13056">
+            <text>Cette ruée de nouveaux consommateurs a débuté dès le samedi 2 janvier , alors que les journaux britanniques rivalisaient de bonnes adresses et de tableaux comparatifs détaillant les tarifs des denrées disponibles outre - Manche .</text>
+            <annotationSet status="MANUAL" ID="17426">
+                <layer rank="1" name="FE">
+                    <label end="226" start="178" name="Topic"/>
+                    <label end="165" start="146" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="176" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15250">
+            <text>L' INSEE , qui date de 1988 le début du phénomène , détaille dans INSEE Première ( n° 262 , juin 1993 ) les mouvements auxquels on assiste .</text>
+            <annotationSet status="MANUAL" ID="19507">
+                <layer rank="1" name="FE">
+                    <label end="137" start="104" name="Topic"/>
+                    <label end="102" start="66" name="Medium"/>
+                    <label end="48" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20561">
+            <text>Et pour cause : si l' Etat a détaillé le déroulement futur de la mise en vente de 6 millions de titres , il n' a ni indiqué la date de l' opération - elle sera faite avant le 1er février , - ni le prix retenu .</text>
+            <annotationSet status="MANUAL" ID="24260">
+                <layer rank="1" name="FE">
+                    <label end="101" start="38" name="Topic"/>
+                    <label end="25" start="19" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

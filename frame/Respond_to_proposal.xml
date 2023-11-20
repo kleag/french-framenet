@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Respond_to_proposal" ID="1623" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; addresses a &lt;fen&gt;Proposal&lt;/fen&gt; made by an &lt;fen&gt;Interlocutor&lt;/fen&gt;, either agreeing to it or rejecting it. Agreeing entails a social responsibility on the &lt;fen&gt;Speaker&lt;/fen&gt; to bring about some state of affairs encoded in the &lt;fen&gt;Proposal&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Interlocutor"&gt;They&lt;/fex&gt; were &lt;t&gt;rebuffed&lt;/t&gt; &lt;fex name="par"&gt;again&lt;/fex&gt; &lt;fex name="pla"&gt;in the larger city of Provo&lt;/fex&gt;. &lt;fex name="Speaker"&gt;CNI&lt;/fex&gt; &lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Time"&gt;Last month&lt;/fex&gt; &lt;fex name="Speaker"&gt;Mr Duisenberg&lt;/fex&gt; &lt;m&gt;delivered&lt;/m&gt; a &lt;fex name="Manner"&gt;sharp&lt;/fex&gt; &lt;t&gt;rebuff&lt;/t&gt; &lt;fex name="int"&gt;to Mr Welteke&lt;/fex&gt;. &lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;He&lt;/fex&gt; &lt;t&gt;rebuffed&lt;/t&gt; &lt;fex name="Proposal"&gt;Singh's every overture&lt;/fex&gt;,  &lt;fex name="Depict"&gt;relentlessly pursuing a cap on India's nuclear capability&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/29/2005 04:24:45 PDT Mon" abbrev="spr" name="Speaker" ID="9008">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the person who communicates the reply or response. 
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Iran&lt;/fex&gt; on Saturday &lt;t&gt;rejected&lt;/t&gt; Europe's proposal for ending the standoff over Tehran's nuclear program.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/29/2005 04:24:45 PDT Mon" abbrev="int" name="Interlocutor" ID="9009">
+        <definition>&lt;def-root&gt;This is the person who made the &lt;fen&gt;Proposal&lt;/fen&gt; to the &lt;fen&gt;Speaker&lt;/fen&gt; and to whom the &lt;fen&gt;Speaker&lt;/fen&gt; communicates  their response. This frame element stands in for the &lt;fen&gt;Proposal&lt;/fen&gt; and is only licensed when the &lt;fen&gt;Proposal&lt;/fen&gt;  can be understood from the context.
+
+&lt;ex&gt;But senior SLN officials had &lt;t&gt;rebuffed&lt;/t&gt; &lt;fex name="int"&gt;the man who is ever so willing to please
+the guerrillas&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="08/29/2005 04:24:46 PDT Mon" abbrev="Medium" name="Medium" ID="9012">
+        <definition>&lt;def-root&gt;As with &lt;fen&gt;Medium&lt;/fen&gt; in other Communication frames, the physical entity or channel used to communicate can be expressed, usually as a PP Complement headed by "on" or "in".&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/29/2005 04:24:46 PDT Mon" abbrev="pro" name="Proposal" ID="9013">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Proposal&lt;/fen&gt; is the prior communication or action to which a response is given.
+
+&lt;ex&gt;Dr. Carolyn Herrington has &lt;t&gt;accepted&lt;/t&gt; &lt;fex name="pro"&gt;our offer to become Dean of the College of Education&lt;/fex&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>Communication_response</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="acceptation.n" ID="2422" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="780" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="729" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="100011" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1632" annotatedsent="6"/>
+        <otherlexUnit framename="Ratification" ID="2263" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="accepter.v" ID="2423" nbocc="97" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="781" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="730" annotatedsent="41"/>
+        <otherlexUnit framename="Other_sense" ID="100012" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1633" annotatedsent="33"/>
+        <otherlexUnit framename="Ratification" ID="2264" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="décliner.v" ID="2424" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100655" annotatedsent="8"/>
+    </lexUnit>
+    <lexUnit POS="n" name="refus.n" ID="2425" nbocc="37" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="734" annotatedsent="28"/>
+        <otherlexUnit framename="Other_sense" ID="101579" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1644" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="429" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2591" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="refuser.v" ID="2426" nbocc="99" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="8"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="735" annotatedsent="47"/>
+        <otherlexUnit framename="Other_sense" ID="101580" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1645" annotatedsent="18"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="430" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2592" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="rejet.n" ID="2427" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101582" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1646" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rejeter.v" ID="2428" nbocc="43" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="18"/>
+        <otherlexUnit framename="Other_sense" ID="101583" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1647" annotatedsent="16"/>
+    </lexUnit>
+    <lexUnit POS="v" name="repousser.v" ID="2429" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101612" annotatedsent="12"/>
+    </lexUnit>
+</frame>

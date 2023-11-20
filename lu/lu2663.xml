@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="faire en sorte.v" ID="2663" frame="Causation" frameID="5" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Actor"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="2575"/>
+                <annoSet ID="2576"/>
+                <annoSet ID="15439"/>
+                <annoSet ID="22491"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Actor"/>
+                <annoSet ID="18522"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Affected"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="15439"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cause"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Effect"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="2575"/>
+                <annoSet ID="2576"/>
+                <annoSet ID="15439"/>
+                <annoSet ID="18522"/>
+                <annoSet ID="22491"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2001">
+            <text>Finalement , je voudrais encore attirer votre attention sur la série d' amendements qui font effectivement en sorte que certains points de l' annexe soient repris dans le corps du rapport .</text>
+            <annotationSet status="MANUAL" ID="2575">
+                <layer rank="1" name="FE">
+                    <label end="186" start="120" name="Effect"/>
+                    <label end="82" start="72" name="Actor"/>
+                    <label end="86" start="84" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="88" name="Target"/>
+                    <label end="114" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2001">
+            <text>Finalement , je voudrais encore attirer votre attention sur la série d' amendements qui font effectivement en sorte que certains points de l' annexe soient repris dans le corps du rapport .</text>
+            <annotationSet status="MANUAL" ID="2576">
+                <layer rank="1" name="FE">
+                    <label end="186" start="120" name="Effect"/>
+                    <label end="82" start="72" name="Actor"/>
+                    <label end="86" start="84" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="88" name="Target"/>
+                    <label end="114" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11162">
+            <text>A peine arrivé , le nouveau locataire de l' hôtel Matignon lançait à son tour un pari a priori insensé , qu' une malencontreuse promesse rendit définitivement impossible : faire en sorte , pour les 900 000 personnes inscrites à l' ANPE depuis plus d' un an , qu' " il n' y ait plus de chômeurs de longue durée au 1er novembre " .</text>
+            <annotationSet status="MANUAL" ID="15439">
+                <layer rank="1" name="FE">
+                    <label end="255" start="194" name="Affected"/>
+                    <label end="326" start="263" name="Effect"/>
+                    <label end="57" start="17" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="185" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14180">
+            <text>" Il s' agit de faire en sorte que toutes les mesures qui fonctionnent en parallèle convergent en une véritable politique d' insertion pour plus d' efficacité " explique Pierre de Saintignon , président de l' ANPLIE ( 1 ) .</text>
+            <annotationSet status="MANUAL" ID="18522">
+                <layer rank="1" name="FE">
+                    <label end="157" start="35" name="Effect"/>
+                    <label itype="UNI" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18365">
+            <text>Fils spirituel de Georges Pompidou , Jacques Chirac n' avait rien d' un de Gaulle ; il n' était ni chef de l' état ni premier ministre , mais les gaullistes qui l' intronisèrent , Charles Pasqua en tête , restèrent fidèles à leurs principes fondamentaux en faisant en sorte que le nouveau Rassemblement fonctionne exclusivement comme une machine de propagande au service de son président , à l' image du RPF de naguère .</text>
+            <annotationSet status="MANUAL" ID="22491">
+                <layer rank="1" name="FE">
+                    <label end="417" start="278" name="Effect"/>
+                    <label end="201" start="142" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="272" start="257" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

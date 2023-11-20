@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="au motif que.conj" ID="2282" frame="FR_Reason" frameID="10083" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="3052"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="23901"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="3052"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="23901"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="State_of_Affairs"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="3052"/>
+                <annoSet ID="23901"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2357">
+            <text>- 6 février 1998 : Les recours formés contre Laurent Dominati par Dominique Bertinotti ( PS ) et Yves Contassot ( Vert ) devant le Conseil constitutionnel sont rejetés au motif que les erreurs dans les inscriptions sur les listes électorales relevées dans le 3e arrondissement durant les élections législatives de 1997 ne constituent pas des " manoeuvres " .</text>
+            <annotationSet status="MANUAL" ID="3052">
+                <layer rank="1" name="FE">
+                    <label end="166" start="0" name="Action"/>
+                    <label end="153" start="128" name="Agent"/>
+                    <label end="355" start="181" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="179" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20167">
+            <text>Au motif qu' il ne répondait pas à leur exigence première : obtenir une réduction drastique d' un déficit commercial en constante augmentation ( il a atteint 41 milliards de dollars en 1991 et cumule 400 milliards de déficit en dix ans ) et dont les trois quarts sont constitués par le seul poste des exportations de voitures nippones vers les Etats - Unis , où le Japon détient le tiers du marché .</text>
+            <annotationSet status="MANUAL" ID="23901">
+                <layer rank="1" name="FE">
+                    <label end="56" start="13" name="State_of_Affairs"/>
+                    <label itype="DNI" name="Action"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

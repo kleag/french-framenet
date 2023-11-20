@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="inviter.v" ID="770" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="16" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="16">
+            <FE name="Action"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="9"/>
+                <annoSet ID="606"/>
+                <annoSet ID="2020"/>
+                <annoSet ID="2701"/>
+                <annoSet ID="3205"/>
+                <annoSet ID="6412"/>
+                <annoSet ID="8097"/>
+                <annoSet ID="11687"/>
+                <annoSet ID="15047"/>
+                <annoSet ID="16948"/>
+                <annoSet ID="20511"/>
+                <annoSet ID="21108"/>
+                <annoSet ID="21498"/>
+                <annoSet ID="21806"/>
+                <annoSet ID="22001"/>
+                <annoSet ID="22135"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Cognizer"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="9"/>
+                <annoSet ID="606"/>
+                <annoSet ID="2020"/>
+                <annoSet ID="2701"/>
+                <annoSet ID="3205"/>
+                <annoSet ID="8097"/>
+                <annoSet ID="11687"/>
+                <annoSet ID="15047"/>
+                <annoSet ID="16948"/>
+                <annoSet ID="20511"/>
+                <annoSet ID="21108"/>
+                <annoSet ID="21498"/>
+                <annoSet ID="21806"/>
+                <annoSet ID="22001"/>
+                <annoSet ID="22135"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="6412"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="2701"/>
+                <annoSet ID="6412"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Persuader"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="9"/>
+                <annoSet ID="606"/>
+                <annoSet ID="2020"/>
+                <annoSet ID="3205"/>
+                <annoSet ID="11687"/>
+                <annoSet ID="16948"/>
+                <annoSet ID="20511"/>
+                <annoSet ID="21498"/>
+                <annoSet ID="22001"/>
+                <annoSet ID="22135"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="8097"/>
+                <annoSet ID="15047"/>
+                <annoSet ID="21108"/>
+                <annoSet ID="21806"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8">
+            <text>Le maire a invité les membres du conseil à élaborer le programme d' amélioration de la voirie communale et de la sécurité routière pour l' année 1999 .</text>
+            <annotationSet status="MANUAL" ID="9">
+                <layer rank="1" name="FE">
+                    <label end="148" start="43" name="Action"/>
+                    <label end="39" start="18" name="Cognizer"/>
+                    <label end="7" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="472">
+            <text>Dans un premier temps , le président nancéien invita Pablo à cesser sa carrière pour intégrer le staff technique .</text>
+            <annotationSet status="MANUAL" ID="606">
+                <layer rank="1" name="FE">
+                    <label end="111" start="61" name="Action"/>
+                    <label end="57" start="53" name="Cognizer"/>
+                    <label end="44" start="24" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1771">
+            <text>J' invite la Commission à prendre ce signal avec le plus grand sérieux et à fournir cette aide .</text>
+            <annotationSet status="MANUAL" ID="2020">
+                <layer rank="1" name="FE">
+                    <label end="72" start="26" name="Action"/>
+                    <label end="93" start="76" name="Action"/>
+                    <label end="22" start="10" name="Cognizer"/>
+                    <label end="1" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2058">
+            <text>Parce que ce rapport indique à plusieurs reprises qu' il faut contrôler , qu' il faut réagir au vieillissement de la population - le nombre de personnes âgées ne cesse d' augmenter et cette situation rend difficile le soutien des systèmes de pension - , qu' il faut se montrer vigilants et inviter les États membres à dépenser toujours moins d' argent pour le paiement des pensions des personnes âgées .</text>
+            <annotationSet status="MANUAL" ID="2701">
+                <layer rank="1" name="FE">
+                    <label end="400" start="318" name="Action"/>
+                    <label end="314" start="298" name="Cognizer"/>
+                    <label end="19" start="10" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="296" start="290" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2443">
+            <text>En 1997 , la juge Eva Joly , qui enquête sur l' affaire Elf , est anonymement invitée à " visiter un palais " , rue de Lille à Paris .</text>
+            <annotationSet status="MANUAL" ID="3205">
+                <layer rank="1" name="FE">
+                    <label end="131" start="88" name="Action"/>
+                    <label end="58" start="10" name="Cognizer"/>
+                    <label end="76" start="66" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4539">
+            <text>Plus de jeux - concours invitant à prendre les pinceaux ou la plume pour inventer la suite d' une histoire .</text>
+            <annotationSet status="MANUAL" ID="6412">
+                <layer rank="1" name="FE">
+                    <label end="105" start="35" name="Action"/>
+                    <label end="22" start="0" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5561">
+            <text>Les caisses d' assurance - maladie et les syndicats médicaux ont été invités à formuler de nouvelles propositions .</text>
+            <annotationSet status="MANUAL" ID="8097">
+                <layer rank="1" name="FE">
+                    <label end="112" start="79" name="Action"/>
+                    <label end="59" start="0" name="Cognizer"/>
+                    <label itype="DNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8126">
+            <text>La commission fédérale chargée de contrôler les investissements étrangers s' était récemment opposée au rachat de la firme de Dallas et allait transmettre le dossier au président des Etats - Unis , en l' invitant à bloquer la transaction .</text>
+            <annotationSet status="MANUAL" ID="11687">
+                <layer rank="1" name="FE">
+                    <label end="236" start="215" name="Action"/>
+                    <label end="202" start="201" name="Cognizer"/>
+                    <label end="194" start="169" name="Cognizer"/>
+                    <label end="72" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="211" start="204" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10800">
+            <text>Les ministres sont en général invités à y méditer sur l' avenir de l' Europe .</text>
+            <annotationSet status="MANUAL" ID="15047">
+                <layer rank="1" name="FE">
+                    <label end="75" start="40" name="Action"/>
+                    <label end="12" start="0" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12586">
+            <text>A cette date , M. Jacques Chérèque , alors ministre délégué chargé de l' aménagement du territoire , avait invité les élus et les responsables locaux à se préparer à une " irréversible " reconversion , accélérée par les désengagements de l' administration .</text>
+            <annotationSet status="MANUAL" ID="16948">
+                <layer rank="1" name="FE">
+                    <label end="254" start="152" name="Action"/>
+                    <label end="148" start="114" name="Cognizer"/>
+                    <label end="97" start="15" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16338">
+            <text>" De son côté , une religieuse somalienne a également invité Jean - Paul II et l' assemblée à prier en faveur de tous les enfants du monde , afin qu' ils soient protégés contre toute forme de violence ou d' exploitation .</text>
+            <annotationSet status="MANUAL" ID="20511">
+                <layer rank="1" name="FE">
+                    <label end="218" start="94" name="Action"/>
+                    <label end="90" start="61" name="Cognizer"/>
+                    <label end="40" start="16" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16984">
+            <text>L' opération " partenariat 92 " lancée en 1988 est reconduite en 1990 avec une dotation de 100 millions de francs afin de soutenir les projets d' actions communes à plusieurs entreprises visant à développer les systèmes de normalisation , de certification et d' essai ; la création de nouveaux bureaux de normalisation sera encouragée ; les centres techniques seront invités à développer leur activité de normalisation .</text>
+            <annotationSet status="MANUAL" ID="21108">
+                <layer rank="1" name="FE">
+                    <label end="417" start="377" name="Action"/>
+                    <label end="358" start="337" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="373" start="367" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17440">
+            <text>À chaque fois , l' amiral William Higgins , qui est chargé , à la mode britannique , d' exercer une douce pression sur les journalistes pour qu' ils respectent le secret - défense , a invité avec succès les journaux à refuser la publication .</text>
+            <annotationSet status="MANUAL" ID="21498">
+                <layer rank="1" name="FE">
+                    <label end="239" start="218" name="Action"/>
+                    <label end="214" start="203" name="Cognizer"/>
+                    <label end="178" start="16" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="189" start="184" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17748">
+            <text>À mon avis , il n' y aurait , en aucune façon , incompatibilité entre l' autonomie du système et le fait que le président soit entendu de temps en temps par le Parlement européen , même si c' est moins souvent qu' aux Etats - Unis , ou le fait que le président du conseil ECOFIN et celui de la Commission européenne participent aux réunions du conseil de la banque centrale européenne ( sans avoir le droit de vote ) ; inversement , le président du système européen des banques centrales serait invité à participer aux réunions du conseil ECOFIN lorsque des questions le concernant y sont discutées .</text>
+            <annotationSet status="MANUAL" ID="21806">
+                <layer rank="1" name="FE">
+                    <label end="544" start="504" name="Action"/>
+                    <label end="486" start="433" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="500" start="495" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17930">
+            <text>Au début de l' année 1989 , la Commission bancaire avait invité la BFCE à augmenter ses provisions pour porter son taux de couverture pour risques souverains de 25 % aux normes en vigueur de 40 % .</text>
+            <annotationSet status="MANUAL" ID="22001">
+                <layer rank="1" name="FE">
+                    <label end="97" start="74" name="Action"/>
+                    <label end="70" start="64" name="Cognizer"/>
+                    <label end="49" start="28" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18103">
+            <text>Encore faudrait -il que nous sachions les inviter à définir avec nous une grande politique sans prétendre nous en arroger la direction .</text>
+            <annotationSet status="MANUAL" ID="22135">
+                <layer rank="1" name="FE">
+                    <label end="89" start="52" name="Action"/>
+                    <label end="40" start="38" name="Cognizer"/>
+                    <label end="27" start="24" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

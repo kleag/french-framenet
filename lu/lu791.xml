@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="certitude.n" ID="791" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="3267"/>
+                <annoSet ID="21265"/>
+                <annoSet ID="22668"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="13636"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Content"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="3267"/>
+                <annoSet ID="13636"/>
+                <annoSet ID="21265"/>
+                <annoSet ID="22668"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2481">
+            <text>" Mis en place ( ... ) par mesure d' assurance " et " dans des conditions non rigoureuses " , écrivait Jean-François Briand , l' ancien directeur général de Thomson-CSF , ce réseau suscitait plus de doutes que de certitudes chez les dirigeants d' Elf .</text>
+            <annotationSet status="MANUAL" ID="3267">
+                <layer rank="1" name="FE">
+                    <label end="222" start="210" name="Content"/>
+                    <label end="249" start="229" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="222" start="213" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9668">
+            <text>Une seule certitude : cela coûtera cher .</text>
+            <annotationSet status="MANUAL" ID="13636">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17146">
+            <text>À partir du moment où les pays d' Europe de l' Est ont eu la certitude que Gorbatchev n' allait pas écraser leurs " printemps " , que l' armée rouge ne viendrait pas soutenir la police des communistes locaux , les gouvernements communistes furent jetés au rebut comme de sinistres dépouilles du passé .</text>
+            <annotationSet status="MANUAL" ID="21265">
+                <layer rank="1" name="FE">
+                    <label end="128" start="75" name="Content"/>
+                    <label end="206" start="134" name="Content"/>
+                    <label end="49" start="22" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18562">
+            <text>" Soucieuses d' empêcher des manifestations de protestation , les autorités albanaises ont mis en place des mesures extrêmement rigoureuses de contrôle de la situation dans le pays " , a ajouté l' agence , estimant que ces mesures " peuvent être qualifiées avec certitude d' état d' urgence " .</text>
+            <annotationSet status="MANUAL" ID="22668">
+                <layer rank="1" name="FE">
+                    <label end="260" start="219" name="Content"/>
+                    <label end="291" start="272" name="Content"/>
+                    <label end="202" start="194" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="270" start="262" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="donner naissance.v" ID="895" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cause"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="11160"/>
+                <annoSet ID="15211"/>
+                <annoSet ID="15226"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Effect"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="11160"/>
+                <annoSet ID="15211"/>
+                <annoSet ID="15226"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7693">
+            <text>Quelle que soit l' heureuse orientation des décisions prises à Bruxelles le 21 mai , elles ne vaudront qu' à une condition : ne pas donner naissance à un système encore plus absurde que le précédent .</text>
+            <annotationSet status="MANUAL" ID="11160">
+                <layer rank="1" name="FE">
+                    <label end="81" start="16" name="Cause"/>
+                    <label end="197" start="151" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10962">
+            <text>La meilleure illustration est sans doute à rechercher dans le domaine de l' aménagement du temps de travail , où la recherche de formules équilibrées a donné naissance à la création d' une troisième équipe pour l' usine de Flins , avec une réduction notable des horaires hebdomadaires ramenés à 32 heures pour l' équipe exerçant partiellement de nuit .</text>
+            <annotationSet status="MANUAL" ID="15211">
+                <layer rank="1" name="FE">
+                    <label end="148" start="113" name="Cause"/>
+                    <label end="204" start="170" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10971">
+            <text>Certaines usines , notamment celles de le Mans et de Cléon - dont la longue grève , à l' automne 1991 , désorganisa pendant plusieurs semaines l' activité de l' entreprise , - paraissent plus difficilement adhérer à cette nouvelle donne qui n' implique pas qu' une amélioration des compétences sera automatiquement suivie d' une promotion salariale et donne parfois naissance à une langue de bois frisant le ridicule autour du culte du " management participatif et délégatif " .</text>
+            <annotationSet status="MANUAL" ID="15226">
+                <layer rank="1" name="FE">
+                    <label end="235" start="216" name="Cause"/>
+                    <label end="239" start="237" name="Cause"/>
+                    <label end="415" start="376" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="356" start="352" name="Target"/>
+                    <label end="374" start="366" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

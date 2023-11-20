@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="par voie de conséquence.adv" ID="234" frame="Causation" frameID="5" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cause"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="7058"/>
+                <annoSet ID="21477"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="22645"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Effect"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="7058"/>
+                <annoSet ID="21477"/>
+                <annoSet ID="22645"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4927">
+            <text>L' accord de garantie de change aujourd' hui incriminé a été conclu lorsque Daimler - Benz a repris MBB , le principal constructeur d' avions allemand , et par voie de conséquence Deutsche Airbus , le partenaire allemand dans le consortium Airbus Industrie .</text>
+            <annotationSet status="MANUAL" ID="7058">
+                <layer rank="1" name="FE">
+                    <label end="149" start="76" name="Cause"/>
+                    <label end="98" start="76" name="Effect"/>
+                    <label end="255" start="180" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17402">
+            <text>Dénonçant une présidentialisation qui a remis en question le caractère parlementaire de nos institutions , d' aucuns suggèrent de " rééquilibrer les pouvoirs " par la suppression pure et simple du principe et des procédures de responsabilité devant l' assemblée nationale et , par voie de conséquence , la fin du droit de dissolution (11) .</text>
+            <annotationSet status="MANUAL" ID="21477">
+                <layer rank="1" name="FE">
+                    <label end="270" start="164" name="Cause"/>
+                    <label end="337" start="303" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="299" start="277" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18541">
+            <text>Par voie de conséquence , Air - Inter , dont UTA détient 35 , 8 % du capital et Air France , 36 , 5 % , tombe dans le giron d' Air France .</text>
+            <annotationSet status="MANUAL" ID="22645">
+                <layer rank="1" name="FE">
+                    <label end="138" start="24" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

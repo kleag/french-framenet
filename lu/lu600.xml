@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="suggérer.v" ID="600" frame="Evidence" frameID="25" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposition"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="1249"/>
+                <annoSet ID="23749"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Support"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="1249"/>
+                <annoSet ID="23749"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1231">
+            <text>Pour les patients nécessitant des interventions dentaires , il n' y a pas de donnée disponible suggérant que l' arrêt du traitement par bisphosphonates diminuerait le risque d' ostéonécrose de la mâchoire .</text>
+            <annotationSet status="MANUAL" ID="1249">
+                <layer rank="1" name="FE">
+                    <label end="93" start="74" name="Support"/>
+                    <label end="203" start="109" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20007">
+            <text>Les nécessités très différentes auxquelles doivent faire face les responsables au Japon , aux Etats - Unis et en Europe suggèrent qu' une politique concertée des taux d' intérêt contrarierait les objectifs de politique nationale .</text>
+            <annotationSet status="MANUAL" ID="23749">
+                <layer rank="1" name="FE">
+                    <label end="118" start="0" name="Support"/>
+                    <label end="227" start="134" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="128" start="120" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

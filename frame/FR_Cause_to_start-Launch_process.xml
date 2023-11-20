@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Cause_to_start-Launch_process" ID="10009" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Causality">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cause&lt;/fen&gt;, animate or inanimate, causes a process, the &lt;fen&gt;Effect&lt;/fen&gt;, to begin.
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;The murder of Sergei Kirov&lt;/fex&gt; &lt;t&gt;set off&lt;/t&gt; &lt;fex name="Effect"&gt;a chain of events that culminated in the Great Terror of the 1930s&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;Ressam&lt;/fex&gt; planned to &lt;t&gt;set&lt;/t&gt; &lt;fex name="Effect"&gt;a bomb&lt;/fex&gt; &lt;t&gt;off&lt;/t&gt; at the Los Angeles International Airport.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;Space email&lt;/fex&gt; &lt;t&gt;sparked&lt;/t&gt; &lt;fex name="Effect"&gt;astronaut jealousy&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;A crime surge in a former coal town&lt;/fex&gt; &lt;t&gt;prompted&lt;/t&gt; &lt;fex name="Effect"&gt;a crackdown on illegal immigrants&lt;/fex&gt;&lt;/ex&gt;.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; Merge of Cause_to_start and Launch_process frames.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/24/2002 03:00:07 PDT Wed" abbrev="Cause" name="Cause" ID="3400">
+        <definition>&lt;def-root&gt;An animate or inanimate entity, a force, or event that produces an effect. Volitionality is not a necessary characteristic of &lt;fen&gt;Cause&lt;/fen&gt;s. 
+
+&lt;ex&gt;&lt;fex name="Cause"&gt;The programme&lt;/fex&gt; &lt;t&gt;sparked&lt;/t&gt; a public outcry.&lt;/ex&gt;
+
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="07/24/2002 03:04:44 PDT Wed" abbrev="Effect" name="Effect" ID="3402">
+        <definition>&lt;def-root&gt;This Frame Element marks expressions that indicate the process that the &lt;fen&gt;Cause&lt;/fen&gt; initiates.
+
+&lt;ex&gt;Few things &lt;t&gt;spark&lt;/t&gt; &lt;fex name="Effect"&gt;the wrath of the British&lt;/fex&gt; like food additives.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="F000F0" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/17/2003 06:17:50 PST Fri" abbrev="" name="Actor" ID="3420">
+        <definition>The agent of the  &lt;fen&gt;Cause&lt;/fen&gt;</definition>
+    </FE>
+
+    <frameRelation type="Inherits from">
+        <relatedFrame>Causation</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Merged from">
+        <relatedFrame>Cause_to_start</relatedFrame>
+        <relatedFrame>Launch_process</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="allumer.v" ID="890" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100078" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="amorcer.v" ID="891" nbocc="29" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="100092" annotatedsent="18"/>
+    </lexUnit>
+    <lexUnit POS="v" name="commencer.v" ID="892" nbocc="149" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100355" annotatedsent="94"/>
+    </lexUnit>
+    <lexUnit POS="n" name="création.n" ID="893" nbocc="121" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100495" annotatedsent="103"/>
+    </lexUnit>
+    <lexUnit POS="v" name="créer.v" ID="894" nbocc="186" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="100496" annotatedsent="90"/>
+    </lexUnit>
+    <lexUnit POS="v" name="donner naissance.v" ID="895" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100603" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="débuter.v" ID="896" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100640" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="v" name="déchaîner.v" ID="897" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100644" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="déclenchement.n" ID="898" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="100652" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="déclencher.v" ID="899" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="19"/>
+        <otherlexUnit framename="Other_sense" ID="100653" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="déclencheur.n" ID="900" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="démarrer.v" ID="901" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100692" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="enclencher.v" ID="2661" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="engendrer.v" ID="902" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="8"/>
+        <otherlexUnit framename="Other_sense" ID="100800" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="entamer.v" ID="903" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="100808" annotatedsent="10"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire germer.v" ID="904" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire naître.v" ID="905" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100875" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="générateur.n" ID="906" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100965" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="générer.v" ID="907" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100966" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="impulser.v" ID="908" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101028" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="impulsion.n" ID="909" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101029" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="n" name="initiateur.n" ID="910" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101074" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="initier.v" ID="911" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101075" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="lancement.n" ID="912" nbocc="33" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101153" annotatedsent="32"/>
+    </lexUnit>
+    <lexUnit POS="v" name="lancer.v" ID="913" nbocc="158" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="72"/>
+        <otherlexUnit framename="Other_sense" ID="101154" annotatedsent="28"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1573" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mettre en branle.v" ID="914" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mettre en marche.v" ID="915" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="mise en marche.n" ID="916" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="naître.v" ID="917" nbocc="56" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101266" annotatedsent="48"/>
+    </lexUnit>
+    <lexUnit POS="v" name="ouvrir.v" ID="918" nbocc="146" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="33"/>
+        <otherlexUnit framename="Other_sense" ID="101311" annotatedsent="71"/>
+    </lexUnit>
+    <lexUnit POS="v" name="réveiller.v" ID="919" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101692" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="éveiller.v" ID="921" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

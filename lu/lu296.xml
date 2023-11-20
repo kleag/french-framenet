@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="rachat.n" ID="296" frame="Commerce_buy" frameID="171" totalAnnotated="53" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="" name="Recipient"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="53">
+            <FE name="Buyer"/>
+            <pattern total="39">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="3479"/>
+                <annoSet ID="4180"/>
+                <annoSet ID="5196"/>
+                <annoSet ID="7698"/>
+                <annoSet ID="8319"/>
+                <annoSet ID="8757"/>
+                <annoSet ID="8894"/>
+                <annoSet ID="8918"/>
+                <annoSet ID="8928"/>
+                <annoSet ID="11691"/>
+                <annoSet ID="12337"/>
+                <annoSet ID="12443"/>
+                <annoSet ID="12516"/>
+                <annoSet ID="12545"/>
+                <annoSet ID="12574"/>
+                <annoSet ID="12757"/>
+                <annoSet ID="14250"/>
+                <annoSet ID="14314"/>
+                <annoSet ID="14521"/>
+                <annoSet ID="14720"/>
+                <annoSet ID="14792"/>
+                <annoSet ID="14793"/>
+                <annoSet ID="14795"/>
+                <annoSet ID="15819"/>
+                <annoSet ID="16215"/>
+                <annoSet ID="16386"/>
+                <annoSet ID="17527"/>
+                <annoSet ID="18875"/>
+                <annoSet ID="19788"/>
+                <annoSet ID="19971"/>
+                <annoSet ID="19986"/>
+                <annoSet ID="20147"/>
+                <annoSet ID="22822"/>
+                <annoSet ID="23189"/>
+                <annoSet ID="23238"/>
+                <annoSet ID="23827"/>
+                <annoSet ID="24057"/>
+                <annoSet ID="24433"/>
+                <annoSet ID="24477"/>
+            </pattern>
+            <pattern total="14">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="6859"/>
+                <annoSet ID="6888"/>
+                <annoSet ID="7618"/>
+                <annoSet ID="9592"/>
+                <annoSet ID="11685"/>
+                <annoSet ID="15814"/>
+                <annoSet ID="16608"/>
+                <annoSet ID="18876"/>
+                <annoSet ID="19967"/>
+                <annoSet ID="20153"/>
+                <annoSet ID="21149"/>
+                <annoSet ID="22639"/>
+                <annoSet ID="22858"/>
+                <annoSet ID="23941"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="53">
+            <FE name="Goods"/>
+            <pattern total="44">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="3479"/>
+                <annoSet ID="4180"/>
+                <annoSet ID="5196"/>
+                <annoSet ID="6888"/>
+                <annoSet ID="7618"/>
+                <annoSet ID="7698"/>
+                <annoSet ID="8319"/>
+                <annoSet ID="8757"/>
+                <annoSet ID="8894"/>
+                <annoSet ID="8918"/>
+                <annoSet ID="8928"/>
+                <annoSet ID="9592"/>
+                <annoSet ID="11685"/>
+                <annoSet ID="11691"/>
+                <annoSet ID="12337"/>
+                <annoSet ID="12516"/>
+                <annoSet ID="12545"/>
+                <annoSet ID="12574"/>
+                <annoSet ID="12757"/>
+                <annoSet ID="14250"/>
+                <annoSet ID="14314"/>
+                <annoSet ID="14521"/>
+                <annoSet ID="14792"/>
+                <annoSet ID="14793"/>
+                <annoSet ID="14795"/>
+                <annoSet ID="15819"/>
+                <annoSet ID="16215"/>
+                <annoSet ID="16386"/>
+                <annoSet ID="17527"/>
+                <annoSet ID="18875"/>
+                <annoSet ID="18876"/>
+                <annoSet ID="19788"/>
+                <annoSet ID="19967"/>
+                <annoSet ID="19971"/>
+                <annoSet ID="19986"/>
+                <annoSet ID="20147"/>
+                <annoSet ID="21149"/>
+                <annoSet ID="22822"/>
+                <annoSet ID="23189"/>
+                <annoSet ID="23238"/>
+                <annoSet ID="23941"/>
+                <annoSet ID="24057"/>
+                <annoSet ID="24433"/>
+                <annoSet ID="24477"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="6859"/>
+                <annoSet ID="12443"/>
+                <annoSet ID="14720"/>
+                <annoSet ID="15814"/>
+                <annoSet ID="16608"/>
+                <annoSet ID="20153"/>
+                <annoSet ID="22639"/>
+                <annoSet ID="22858"/>
+                <annoSet ID="23827"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Money"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="6859"/>
+                <annoSet ID="20153"/>
+                <annoSet ID="23189"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Rate"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Rate"/>
+                <annoSet ID="20153"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Recipient"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Seller"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="3479"/>
+                <annoSet ID="12516"/>
+                <annoSet ID="14795"/>
+                <annoSet ID="15819"/>
+                <annoSet ID="17527"/>
+                <annoSet ID="19967"/>
+                <annoSet ID="19971"/>
+                <annoSet ID="22822"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2630">
+            <text>- En 2004 , la France tentait de négocier le rachat des frégates vendues en août 1991 à Taïwan .</text>
+            <annotationSet status="MANUAL" ID="3479">
+                <layer rank="1" name="FE">
+                    <label end="20" start="12" name="Buyer"/>
+                    <label end="93" start="56" name="Goods"/>
+                    <label end="93" start="88" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3219">
+            <text>Le Crédit Lyonnais - dont la filiale néerlandaise Bank Nederland NV était très engagé dans le cinéma , et avait soutenu M. Parretti dans sa tentative de rachat des studios hollywoodiens , en 1990 - avait porté plainte , en juin dernier , contre M. Parretti , l' accusant de n' avoir pas respecté un accord le dessaisissant de la gestion quotidienne de la MGM .</text>
+            <annotationSet status="MANUAL" ID="4180">
+                <layer rank="1" name="FE">
+                    <label end="138" start="137" name="Buyer"/>
+                    <label end="130" start="120" name="Buyer"/>
+                    <label end="184" start="164" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="153" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3792">
+            <text>Le groupe agroalimentaire a en effet annoncé , vendredi 3 janvier à Londres , le rachat de la totalité de la société italienne Cinzano , qui produit et commercialise l' apéritif du même nom .</text>
+            <annotationSet status="MANUAL" ID="5196">
+                <layer rank="1" name="FE">
+                    <label end="24" start="0" name="Buyer"/>
+                    <label end="188" start="91" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4818">
+            <text>Les partenaires minoritaires d' Exor contestaient le prix proposé pour ce rachat , tandis que la Commission des opérations de bourse ( COB ) retardait l' octroi du visa de l' OPA , arguant du flou régnant autour de la structure du capital de Perrier .</text>
+            <annotationSet status="MANUAL" ID="6859">
+                <layer rank="1" name="FE">
+                    <label end="69" start="50" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4831">
+            <text>Principal promoteur immobilier dans l' aménagement du quartier d' affaires de la Défense , M. Pellerin est entendu dans le cadre d' une enquête judiciaire sur le scandale financier lié au rachat en 1988 de la tour British Petroleum .</text>
+            <annotationSet status="MANUAL" ID="6888">
+                <layer rank="1" name="FE">
+                    <label end="230" start="206" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5252">
+            <text>" jusqu' à présent , lors des rachats d' entreprise , on assistait à des parties de poker menteur , ici les coups de poignard n' ont pas manqué " , racontait un acteur de la négociation pour décrire l' ambiance tendue des discussions .</text>
+            <annotationSet status="MANUAL" ID="7618">
+                <layer rank="1" name="FE">
+                    <label end="50" start="41" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5312">
+            <text>Toujours selon la COB , en tenant compte des titres déjà en sa possession et des acquisitions effectuées sur le marché au cours des jours qui suivirent le rachat de la société holding , la BUE détenait 12 , 2 % du capital de LRM le jour du dépôt de l' offre .</text>
+            <annotationSet status="MANUAL" ID="7698">
+                <layer rank="1" name="FE">
+                    <label end="191" start="186" name="Buyer"/>
+                    <label end="182" start="165" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5669">
+            <text>REPRISE rachat de Perrier par Nestlé : moratoire jusqu' au 4 août .</text>
+            <annotationSet status="MANUAL" ID="8319">
+                <layer rank="1" name="FE">
+                    <label end="35" start="30" name="Buyer"/>
+                    <label end="24" start="18" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5914">
+            <text>- Le premier fabricant et distributeur britannique de meubles , MFI Furniture group , s' est résigné jeudi 2 juillet à casser les prix pour la réintroduction en Bourse de ses actions , le 17 juillet , cinq ans après son rachat par ses cadres .</text>
+            <annotationSet status="MANUAL" ID="8757">
+                <layer rank="1" name="FE">
+                    <label end="240" start="231" name="Buyer"/>
+                    <label end="82" start="2" name="Goods"/>
+                    <label end="218" start="216" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="225" start="220" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6011">
+            <text>Présent sur le Vieux Continent ( il y emploie 11 000 salariés depuis le rachat du britannique STC en 1991 et y réalise 17 % de ses ventes ) , Northern Telecom estime aujourd' hui ne pas y avoir l' implantation conforme à son rang mondial .</text>
+            <annotationSet status="MANUAL" ID="8894">
+                <layer rank="1" name="FE">
+                    <label end="34" start="33" name="Buyer"/>
+                    <label end="157" start="142" name="Buyer"/>
+                    <label end="96" start="82" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6026">
+            <text>Après que la Chambre des représentants a approuvé , jeudi 2 juillet , une disposition du budget de la défense bloquant en fait le rachat de LTV par le groupe Thomson , le Sénat a voté le même jour un amendement allant dans le même sens .</text>
+            <annotationSet status="MANUAL" ID="8918">
+                <layer rank="1" name="FE">
+                    <label end="164" start="148" name="Buyer"/>
+                    <label end="142" start="140" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6030">
+            <text>Devant la forte opposition que soulève au Congrès - et dans l' administration - la reprise par Thomson - CSF des activités aéronautiques et de missiles de la firme américaine LTV ( le monde du 20 juin ) , pourtant approuvée en avril par le tribunal des faillites de New - York , le groupe français avait annoncé , fin juin à Washington , qu' il envisageait de modifier le montage proposé pour ce qui constituerait , s' il était approuvé par la Maison Blanche , le premier rachat par un groupe étranger d' une entreprise américaine étroitement liée au Pentagone .</text>
+            <annotationSet status="MANUAL" ID="8928">
+                <layer rank="1" name="FE">
+                    <label end="500" start="483" name="Buyer"/>
+                    <label end="559" start="505" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="477" start="472" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6416">
+            <text>Pendant que l' enquête de la COB se poursuit sur les conditions dans lesquelles a été annoncée l' OPE le 19 juin , certains font observer que les gonflements subits des transactions effectuées , les semaines précédentes , sur des lignes d' emprunts offerts à l' échange , et habituellement peu négociées , s' expliquent par les ventes et rachats de SICAV avant et après le détachement du coupon , souvent pour des raisons fiscales .</text>
+            <annotationSet status="MANUAL" ID="9592">
+                <layer rank="1" name="FE">
+                    <label end="353" start="349" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="344" start="338" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8126">
+            <text>La commission fédérale chargée de contrôler les investissements étrangers s' était récemment opposée au rachat de la firme de Dallas et allait transmettre le dossier au président des Etats - Unis , en l' invitant à bloquer la transaction .</text>
+            <annotationSet status="MANUAL" ID="11685">
+                <layer rank="1" name="FE">
+                    <label end="131" start="114" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8129">
+            <text>Mettant un terme à ce qui , d' après le Washington Post , avait constitué " la bataille la plus féroce et la plus coûteuse en termes de lobbying , de ces derniers mois " , le groupe Thomson a informé le 6 juillet les autorités américaines de son intention de renoncer , dans sa phase actuelle , au rachat du fabricant de missiles LTV dont il avait hérité le 10 avril , à l' issue d' une décision en ce sens du tribunal des faillites de New - York .</text>
+            <annotationSet status="MANUAL" ID="11691">
+                <layer rank="1" name="FE">
+                    <label end="188" start="172" name="Buyer"/>
+                    <label end="445" start="308" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="303" start="298" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8655">
+            <text>L' an dernier , son président , M. Stephen Rubin , avait aidé M. Tapie à réduire l' endettement contracté lors du rachat d' Adidas .</text>
+            <annotationSet status="MANUAL" ID="12337">
+                <layer rank="1" name="FE">
+                    <label end="69" start="62" name="Buyer"/>
+                    <label end="129" start="124" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8725">
+            <text>Pour Unilever , ce rachat entre dans la stratégie d' implantations dans le Sud - Est asiatique , notamment dans le domaine de produits alimentaires , le thé .</text>
+            <annotationSet status="MANUAL" ID="12443">
+                <layer rank="1" name="FE">
+                    <label end="12" start="5" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8764">
+            <text>" grâce à cette formidable alliance anglo - germano - française , Adidas peut désormais se targuer du titre de fabricant de chaussures de sport de la communauté européenne " : pour M. Stephen Rubin , président de Pentland group PLC , le rachat d' Adidas à M. Bernard Tapie crée un nouveau géant européen de l' équipement sportif , capable de rivaliser avec Nike et Reebok , les concurrents américains particulièrement dynamiques .</text>
+            <annotationSet status="MANUAL" ID="12516">
+                <layer rank="1" name="FE">
+                    <label end="230" start="213" name="Buyer"/>
+                    <label end="252" start="247" name="Goods"/>
+                    <label end="271" start="256" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="242" start="237" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8791">
+            <text>( 2 ) Avant son rachat par Pentland , le capital de BTF Gbm.H se répartissait entre BTF ( 58 % ) , Pentland ( 20 , 05 % ) , le Crédit lyonnais par sa filiale Clinvest ( 10 % ) , les AGF ( 5 % ) , la Banque Worms ( 2 % ) , la BNP via la Banexi ( 2 , 95 % ) et efficacité finance Conseil , le management de BTF Gbm.H ( 5 % ) .</text>
+            <annotationSet status="MANUAL" ID="12545">
+                <layer rank="1" name="FE">
+                    <label end="34" start="27" name="Buyer"/>
+                    <label end="60" start="38" name="Goods"/>
+                    <label end="14" start="12" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8810">
+            <text>M. Tapie , qui devait honorer en août la dernière échéance ( 615 millions de francs ) de l' emprunt contracté lors du rachat d' Adidas en juillet 1990 , n' avait guère de marge de manoeuvre .</text>
+            <annotationSet status="MANUAL" ID="12574">
+                <layer rank="1" name="FE">
+                    <label end="149" start="0" name="Buyer"/>
+                    <label end="13" start="11" name="Buyer"/>
+                    <label end="133" start="128" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8923">
+            <text>Cette décision fait suite à une procédure engagée par une actionnaire minoritaire , Mme Anne - Marie Laffont - Leenhardt , à l' encontre des dirigeants mis en place par Hachette après le rachat du groupe le Provençal en juillet 1987 .</text>
+            <annotationSet status="MANUAL" ID="12757">
+                <layer rank="1" name="FE">
+                    <label end="176" start="169" name="Buyer"/>
+                    <label end="215" start="197" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="192" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10141">
+            <text>Industriel breton , M. François Pinault , cinquante - six ans , qui a fait sa fortune dans le commerce et la transformation du bois et qui s' est " reconverti " à partir de 1990 dans le négoce et la grande distribution avec les rachats successifs de la CFAO puis de Conforama et de Le Printemps , est le principal actionnaire d' un groupe bien connu du grand public qui affiche un volume d' affaires d' environ 70 milliards de francs par an .</text>
+            <annotationSet status="MANUAL" ID="14250">
+                <layer rank="1" name="FE">
+                    <label end="293" start="20" name="Buyer"/>
+                    <label end="137" start="135" name="Buyer"/>
+                    <label end="261" start="250" name="Goods"/>
+                    <label end="277" start="266" name="Goods"/>
+                    <label end="293" start="282" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="234" start="228" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10181">
+            <text>Après le rachat de Perrier , Nestlé réorganise ses structures en France autour de deux holdings .</text>
+            <annotationSet status="MANUAL" ID="14314">
+                <layer rank="1" name="FE">
+                    <label end="34" start="29" name="Buyer"/>
+                    <label end="25" start="19" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10353">
+            <text>Le PDG de Marrel n' exclut pas d' autres rachats de sociétés européennes en 1993 , en Allemagne notamment .</text>
+            <annotationSet status="MANUAL" ID="14521">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Buyer"/>
+                    <label end="71" start="52" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10511">
+            <text>Comme convenu , pour financer ce rachat ( le Monde du 12 novembre ) , la banque du boulevard des Italiens procédera dans un premier temps à une augmentation de capital d' un montant de 1 , 785 milliard de francs réservée aux assurances générales de France ( AGF ) , faisant de l' assureur , avec 7 % du capital , le premier actionnaire de la banque après l' Etat .</text>
+            <annotationSet status="MANUAL" ID="14720">
+                <layer rank="1" name="FE">
+                    <label end="104" start="70" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10578">
+            <text>Plusieurs groupes , dont Hachette et Reed International , s' étaient aussi portés candidats à son rachat .</text>
+            <annotationSet status="MANUAL" ID="14792">
+                <layer rank="1" name="FE">
+                    <label end="54" start="0" name="Buyer"/>
+                    <label end="96" start="94" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10579">
+            <text>Pour le groupe de presse Excelsior Publications , présidé par M. Paul Dupuy , le rachat de Biba offre l' opportunité de renforcer son secteur " presse féminine " amorcé il y a cinq ans avec le rachat de vingt ans au groupe média .</text>
+            <annotationSet status="MANUAL" ID="14793">
+                <layer rank="1" name="FE">
+                    <label end="74" start="5" name="Buyer"/>
+                    <label end="94" start="91" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10579">
+            <text>Pour le groupe de presse Excelsior Publications , présidé par M. Paul Dupuy , le rachat de Biba offre l' opportunité de renforcer son secteur " presse féminine " amorcé il y a cinq ans avec le rachat de vingt ans au groupe média .</text>
+            <annotationSet status="MANUAL" ID="14795">
+                <layer rank="1" name="FE">
+                    <label end="132" start="130" name="Buyer"/>
+                    <label end="74" start="5" name="Buyer"/>
+                    <label end="211" start="203" name="Goods"/>
+                    <label end="227" start="216" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11489">
+            <text>Dans une lettre envoyée récemment aux professionnels du transport aérien , il estime que " les gouvernements Reagan et Bush (...) ont ouvert la porte à de scandaleux rachats " qui se sont traduits par des fusions et un lourd endettement des compagnies .</text>
+            <annotationSet status="MANUAL" ID="15814">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="172" start="166" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11494">
+            <text>Les comptes de Desfossés International avaient été fragilisés par le rachat , l' été dernier , du quotidien la Tribune de l' Expansion au groupe de M. Jean - Louis Servan - Schreiber .</text>
+            <annotationSet status="MANUAL" ID="15819">
+                <layer rank="1" name="FE">
+                    <label end="37" start="15" name="Buyer"/>
+                    <label end="133" start="98" name="Goods"/>
+                    <label end="181" start="138" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11865">
+            <text>Avec un chiffre d' affaires de 400 millions de francs prévu en 1992 , Eris est la quatrième chaîne française de cafétérias , acquise par Carrefour lors du rachat d' Euromarché , l' an dernier .</text>
+            <annotationSet status="MANUAL" ID="16215">
+                <layer rank="1" name="FE">
+                    <label end="145" start="137" name="Buyer"/>
+                    <label end="174" start="165" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12078">
+            <text>AMR pourra également nommer le quart des représentants au conseil d' administration de Canadian , mais " ne contrôlera aucune des décisions stratégiques majeures " de la compagnie canadienne , qui conservera en outre une option pour le rachat de la participation de la société américaine .</text>
+            <annotationSet status="MANUAL" ID="16386">
+                <layer rank="1" name="FE">
+                    <label end="195" start="193" name="Buyer"/>
+                    <label end="286" start="167" name="Buyer"/>
+                    <label end="286" start="246" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="241" start="236" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12263">
+            <text>RACHATS BSN rachète Verdome à Perrier pour 200 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="16608">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="6" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13144">
+            <text>L' Immobilière Phénix , dont le " métier " d' origine est la construction des maisons individuelles , est devenue le seul gros constructeur national de ce secteur depuis le rachat à Mabinvest ( contrôlé par MM. Martin et Olivier Bouygues ) du secteur " maisons sur catalogue " .</text>
+            <annotationSet status="MANUAL" ID="17527">
+                <layer rank="1" name="FE">
+                    <label end="98" start="0" name="Buyer"/>
+                    <label end="275" start="243" name="Goods"/>
+                    <label end="238" start="182" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="173" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14567">
+            <text>Le contentieux porte sur les modifications salariales et de travail imposées par la compagnie à ses salariés de l' aéroport de Londres Gatwick après le rachat de la compagnie Dan - Air .</text>
+            <annotationSet status="MANUAL" ID="18875">
+                <layer rank="1" name="FE">
+                    <label end="92" start="81" name="Buyer"/>
+                    <label end="183" start="162" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14568">
+            <text>Les conditions de travail des pilotes ont également été modifiées par le rachat de Dan - Air .</text>
+            <annotationSet status="MANUAL" ID="18876">
+                <layer rank="1" name="FE">
+                    <label end="91" start="83" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15552">
+            <text>Située sur le site de Karsdorf , dans le land de Saxe - Anhalt , au coeur de l' ancienne Allemagne de l' Est , cette énorme cimenterie vit à l' heure de l' économie de marché depuis son rachat par le groupe français , en juillet 1990 .</text>
+            <annotationSet status="MANUAL" ID="19788">
+                <layer rank="1" name="FE">
+                    <label end="214" start="197" name="Buyer"/>
+                    <label end="133" start="111" name="Goods"/>
+                    <label end="184" start="182" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15792">
+            <text>Le conseil d' administration de Bernard Tapie Finance ( BTF ) examinera " dans les prochains jours " les offres de rachat d' Adidas , a annoncé , lundi 29 juin , M. Elie Fellous , nommé président de BTF lors du passage de M. Tapie au gouvernement .</text>
+            <annotationSet status="MANUAL" ID="19967">
+                <layer rank="1" name="FE">
+                    <label end="130" start="125" name="Goods"/>
+                    <label end="60" start="32" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15794">
+            <text>" Le président du directoire d' Adidas , M. René Jaggi , m' a fait parvenir une offre de rachat de notre participation de 55 % dans BTF GMBH [ NDLR : holding de contrôle de la firme allemande ] .</text>
+            <annotationSet status="MANUAL" ID="19971">
+                <layer rank="1" name="FE">
+                    <label end="53" start="2" name="Buyer"/>
+                    <label end="139" start="99" name="Goods"/>
+                    <label end="103" start="99" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15803">
+            <text>Le produit prévisible de ces désinvestissements , combiné avec un emprunt à moyen terme , permettra , selon M. Fellous , de rembourser , " dans les prochains jours et par anticipation " , la dernière tranche de 615 millions de francs des emprunts contractés par BTF lors du rachat d' Adidas .</text>
+            <annotationSet status="MANUAL" ID="19986">
+                <layer rank="1" name="FE">
+                    <label end="264" start="262" name="Buyer"/>
+                    <label end="289" start="284" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="279" start="274" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15968">
+            <text>- United Parcel Service ( UPS ) , numéro un mondial de la distribution de colis , vient d' annoncer le rachat de la société britannique Carryfast , la plus grande entreprise britannique privée de fret express .</text>
+            <annotationSet status="MANUAL" ID="20147">
+                <layer rank="1" name="FE">
+                    <label end="78" start="2" name="Buyer"/>
+                    <label end="207" start="113" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15977">
+            <text>Dans le meilleur des cas , le prix de rachat serait donc de 139 francs par titre .</text>
+            <annotationSet status="MANUAL" ID="20153">
+                <layer rank="1" name="FE">
+                    <label end="36" start="27" name="Money"/>
+                    <label end="79" start="60" name="Rate"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17033">
+            <text>Pour des batailles entre actionnaires , des restructurations d' entreprises , des poursuites de dirigeants indélicats ou des rachats de sociétés , ils constituent des dossiers de plusieurs mètres d' épaisseur .</text>
+            <annotationSet status="MANUAL" ID="21149">
+                <layer rank="1" name="FE">
+                    <label end="143" start="136" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18528">
+            <text>Ce rachat a fait presque doubler le chiffre d' affaires du groupe au cours du premier semestre 1989 par rapport à la même période de 1988 , le portant à 10 , 4 milliards de francs .</text>
+            <annotationSet status="MANUAL" ID="22639">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18707">
+            <text>Le rachat par Air France à la société Chargeurs SA d' UTA ( qui lui donne également le contrôle d' Air Inter ) dote la France d' un groupe aérien unique , à l' instar de nombreux pays européens .</text>
+            <annotationSet status="MANUAL" ID="22822">
+                <layer rank="1" name="FE">
+                    <label end="23" start="14" name="Buyer"/>
+                    <label end="56" start="54" name="Goods"/>
+                    <label end="49" start="27" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18759">
+            <text>Il est difficile de dire si le mouvement d' association ( Air France / Lufthansa , Swissair / sas , British Airways / KLM / Sabena ) ou de rachat se poursuivra en Europe comme aux Etats - Unis .</text>
+            <annotationSet status="MANUAL" ID="22858">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19189">
+            <text>Lazard indique cette étude doit sa prédominance à une activité équilibrée entre les opérations de rapprochement d' entreprises françaises ( UAP Victoire , Bouygues , Grands Moulins de Paris , en particulier ) et celles de " cross borders " dont la plus spectaculaire a été le rachat par BSN de Nabisco Europe pour 17 milliards de francs .</text>
+            <annotationSet status="MANUAL" ID="23189">
+                <layer rank="1" name="FE">
+                    <label end="289" start="287" name="Buyer"/>
+                    <label end="335" start="314" name="Money"/>
+                    <label end="307" start="294" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="281" start="276" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19255">
+            <text>Hachette poursuit ainsi le développement de son implantation dans la péninsule ibérique , amorcé il y a six ans par le rachat de l' hebdomadaire de programmes de télévision Teleprograma , passé depuis d' une diffusion de 700000 exemplaires à 1 , 1 million .</text>
+            <annotationSet status="MANUAL" ID="23238">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Buyer"/>
+                    <label end="254" start="129" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20090">
+            <text>Mais le mouvement était lancé , provoquant , comme nous l' avons dit , des rachats précipités de vendeurs à découvert .</text>
+            <annotationSet status="MANUAL" ID="23827">
+                <layer rank="1" name="FE">
+                    <label end="116" start="97" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20206">
+            <text>Comme conseiller du président Gomez , il a également suivi le rachat de l' américain RCA .</text>
+            <annotationSet status="MANUAL" ID="23941">
+                <layer rank="1" name="FE">
+                    <label end="87" start="72" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20338">
+            <text>La loi du 9 juillet 1984 sur le développement de l' initiative économique avait créé un nouveau dispositif permettant la transmission d' une entreprise A travers un rachat par ses salariés .</text>
+            <annotationSet status="MANUAL" ID="24057">
+                <layer rank="1" name="FE">
+                    <label end="187" start="176" name="Buyer"/>
+                    <label end="178" start="176" name="Goods"/>
+                    <label end="150" start="137" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="170" start="165" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20869">
+            <text>C' est avec l' un des fondateurs de hara - kiri , M. Georges Bernier ( alias " le professeur Choron " ) , qui figurait parmi les candidats malheureux à son rachat et qui a depuis lancé le mensuel pour enfants Grodada , que le docteur Cosculluela va relancer Hara - kiri .</text>
+            <annotationSet status="MANUAL" ID="24433">
+                <layer rank="1" name="FE">
+                    <label end="150" start="125" name="Buyer"/>
+                    <label end="154" start="152" name="Goods"/>
+                    <label end="46" start="36" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="161" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20941">
+            <text>- La Cour européenne de justice a rejeté le recours introduit , pour éviter des licenciements , par le personnel de la société Perrier contre la décision de la Commission de Bruxelles qui avait autorisé le 22 juillet 1992 le rachat de Perrier par Nestlé .</text>
+            <annotationSet status="MANUAL" ID="24477">
+                <layer rank="1" name="FE">
+                    <label end="252" start="247" name="Buyer"/>
+                    <label end="241" start="235" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="230" start="225" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

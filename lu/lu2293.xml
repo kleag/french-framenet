@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="impliquer.v" ID="2293" frame="Reason" frameID="514" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Action"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="16623"/>
+                <annoSet ID="18784"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Agent"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="16623"/>
+                <annoSet ID="18784"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="State_of_Affairs"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="16623"/>
+                <annoSet ID="18784"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15450">
+            <text>Cependant , il est plus difficile de comprendre et a fortiori de justifier qu' Arthur Dunkel , soucieux de donner une nouvelle vigueur au GATT , n' ait rien fait pour imposer aux Américains l' idée qu' une telle évolution , forcément difficile à supporter pour la Communauté qui en fait les frais , impliquait au moins qu' ils renoncent à se faire justice eux - mêmes et à prendre des mesures unilatérales de rétorsion sans se soucier le moins du monde de respecter les procédures du GATT et de s' y tenir .</text>
+            <annotationSet status="MANUAL" ID="16623">
+                <layer rank="1" name="FE">
+                    <label end="504" start="323" name="Action"/>
+                    <label end="295" start="202" name="State_of_Affairs"/>
+                    <label end="325" start="323" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="308" start="299" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17975">
+            <text>Autrement dit , que le degré de contrainte résultant pour un Etat de son appartenance à une confédération est infiniment moindre que celui qu' implique l' entrée dans une fédération .</text>
+            <annotationSet status="MANUAL" ID="18544">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18275">
+            <text>Avant de se résigner à cet accord avec les partisans de MM Jospin et Mauroy , qui impliquait pour lui de renoncer à briguer le poste de premier secrétaire au congrès , Mr Mermaz avait envisagé d' autres hypothèses .</text>
+            <annotationSet status="MANUAL" ID="18784">
+                <layer rank="1" name="FE">
+                    <label end="164" start="105" name="Action"/>
+                    <label end="164" start="23" name="State_of_Affairs"/>
+                    <label end="100" start="98" name="Agent"/>
+                    <label end="176" start="168" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

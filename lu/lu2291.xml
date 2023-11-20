@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="fonder.v" ID="2291" frame="FR_Reason" frameID="10083" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Action"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="9292"/>
+                <annoSet ID="19072"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="17541"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Agent"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="9292"/>
+                <annoSet ID="17541"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="19072"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="State_of_Affairs"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="9292"/>
+                <annoSet ID="17541"/>
+                <annoSet ID="19072"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6229">
+            <text>Le Conseil de la concurrence fondait sa décision sur l' analyse du marché des chaînes thématiques francophones distribuées par les réseaux câblés .</text>
+            <annotationSet status="MANUAL" ID="9292">
+                <layer rank="1" name="FE">
+                    <label end="47" start="37" name="Action"/>
+                    <label end="144" start="53" name="State_of_Affairs"/>
+                    <label end="27" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13156">
+            <text>M. Lobry se fonde sur trois idées simples : personne n' est à l' abri du chômage ; aucun pays développé n' a trouvé la recette idéale pour lutter contre lui ; toutes les initiatives pour aider les gens à s' en sortir ou à l' éviter sont donc bienvenues .</text>
+            <annotationSet status="MANUAL" ID="17541">
+                <layer rank="1" name="FE">
+                    <label end="40" start="22" name="State_of_Affairs"/>
+                    <label end="7" start="0" name="Agent"/>
+                    <label itype="DNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14777">
+            <text>Le développement de certains transports , l' insuffisance temporaire de capacité de construction dans la deuxième moitié de cette décennie , sont de nature à fonder de sérieux espoirs en une reprise de la construction navale et une amélioration , pour les chantiers , de leurs conditions de vente " , estime BRS .</text>
+            <annotationSet status="MANUAL" ID="19072">
+                <layer rank="1" name="FE">
+                    <label end="295" start="165" name="Action"/>
+                    <label end="38" start="0" name="State_of_Affairs"/>
+                    <label end="137" start="42" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="163" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'exclamer.v" ID="1607" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Message"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="10865"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Message"/>
+                <annoSet ID="24567"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="10865"/>
+                <annoSet ID="24567"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7409">
+            <text>" Ceux qui critiquent la réforme de l' ejido veulent que la pauvreté et la misère des campagnes continue ! " , s' exclamait dernièrement le président Salinas .</text>
+            <annotationSet status="MANUAL" ID="10865">
+                <layer rank="1" name="FE">
+                    <label end="107" start="0" name="Message"/>
+                    <label end="156" start="137" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21034">
+            <text>Autour d' elle , ils sont des dizaines , le nez collé aux vitrines , agglutinés sur les estrades aménagées pour eux à commenter et à s' exclamer devant le spectacle .</text>
+            <annotationSet status="MANUAL" ID="24567">
+                <layer rank="1" name="FE">
+                    <label end="37" start="26" name="Speaker"/>
+                    <label itype="UNI" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

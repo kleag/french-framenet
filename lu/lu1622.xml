@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="convaincre.v" ID="1622" frame="FR_Suasion.to_do" frameID="10058" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Action" name="Action"/>
+            <FE fgColor="006400" bgColor="FFFF00" type="Core" abbrev="Text" name="Text"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Action"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="2553"/>
+                <annoSet ID="5043"/>
+                <annoSet ID="12241"/>
+                <annoSet ID="14999"/>
+                <annoSet ID="16211"/>
+                <annoSet ID="16224"/>
+                <annoSet ID="16489"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Cognizer"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2553"/>
+                <annoSet ID="5043"/>
+                <annoSet ID="12241"/>
+                <annoSet ID="14999"/>
+                <annoSet ID="16211"/>
+                <annoSet ID="16224"/>
+                <annoSet ID="16489"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Persuader"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="12241"/>
+                <annoSet ID="14999"/>
+                <annoSet ID="16211"/>
+                <annoSet ID="16224"/>
+                <annoSet ID="16489"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="2553"/>
+                <annoSet ID="5043"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Text"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2505">
+            <text>Il fallait à_la_fois convaincre le gouvernement taïwanais d' " acheter français " et amadouer les autorités chinoises , opposées à toute livraison de matériel sensible à l' île nationaliste .</text>
+            <annotationSet status="MANUAL" ID="2553">
+                <layer rank="1" name="FE">
+                    <label end="80" start="61" name="Action"/>
+                    <label end="56" start="32" name="Cognizer"/>
+                    <label itype="DNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4609">
+            <text>Si la loi ne permet pas de regroupement , il faut convaincre le législateur de changer la loi .</text>
+            <annotationSet status="MANUAL" ID="5043">
+                <layer rank="1" name="FE">
+                    <label end="92" start="79" name="Action"/>
+                    <label end="74" start="61" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11583">
+            <text>L' hebdomadaire Stern avait révélé dans son numéro du 28 décembre que le ministre avait signé une lettre sur papier à en - tête de son ministère pour convaincre un fonctionnaire local d' accorder une autorisation d' exercer à un guérisseur magnétiseur .</text>
+            <annotationSet status="MANUAL" ID="12241">
+                <layer rank="1" name="FE">
+                    <label end="250" start="187" name="Action"/>
+                    <label end="182" start="161" name="Cognizer"/>
+                    <label end="80" start="70" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15425">
+            <text>Voudra -t-il , pourra -t-il , convaincre les Américains de rouvrir l' accord de Blair House , conclu en novembre 1992 avec la Commission européenne , si jamais Paris maintient son opposition ?</text>
+            <annotationSet status="MANUAL" ID="14999">
+                <layer rank="1" name="FE">
+                    <label end="146" start="59" name="Action"/>
+                    <label end="54" start="41" name="Cognizer"/>
+                    <label end="26" start="22" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17168">
+            <text>Non seulement Gorbatchev est en voie d' atteindre son objectif de politique étrangère , mais il est aussi en train de convaincre l' Ouest de reprendre cet objectif à son compte .</text>
+            <annotationSet status="MANUAL" ID="16211">
+                <layer rank="1" name="FE">
+                    <label end="175" start="141" name="Action"/>
+                    <label end="136" start="129" name="Cognizer"/>
+                    <label end="94" start="93" name="Persuader"/>
+                    <label end="23" start="14" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17190">
+            <text>Cela peut échouer , mais nous devons d' abord nous convaincre que ce scénario désastreux pourrait bien se réaliser et ensuite essayer de convaincre la RFA de ne pas accepter la démilitarisation .</text>
+            <annotationSet status="MANUAL" ID="16224">
+                <layer rank="1" name="FE">
+                    <label end="192" start="158" name="Action"/>
+                    <label end="153" start="148" name="Cognizer"/>
+                    <label end="28" start="25" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="146" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17645">
+            <text>La décision de construire la ligne avait été prise en 1984 par Mr Laurent Fabius , alors premier ministre , puis annulé en mars 1989 par Mr Roger Fauroux , " pyrénéiste " averti et maire de Saint - Girons , apparemment convaincu par les opposants de faire étudier un autre tracé moins dommageable pour la nature .</text>
+            <annotationSet status="MANUAL" ID="16489">
+                <layer rank="1" name="FE">
+                    <label end="310" start="250" name="Action"/>
+                    <label end="310" start="137" name="Cognizer"/>
+                    <label end="245" start="233" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="227" start="219" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="recommandation.n" ID="1960" frame="Judgment_communication" frameID="219" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Communicator"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="15178"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Evaluee"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Evaluee"/>
+                <annoSet ID="15178"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Reason"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Reason"/>
+                <annoSet ID="15178"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15714">
+            <text>" La recommandation du client satisfait " devient un leitmotiv apparemment suffisant pour attirer les candidats .</text>
+            <annotationSet status="MANUAL" ID="15178">
+                <layer rank="1" name="FE">
+                    <label end="38" start="23" name="Communicator"/>
+                    <label itype="UNI" name="Reason"/>
+                    <label itype="DNI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17581">
+            <text>" En lisant les principes et recommandations , vous trouverez que certains d' entre eux ont un caractère évident " , a déclaré Mr Pfeiffer en présentant son rapport de 128 pages , avant d' ajouter : " Mais , quand une classe financière s' interroge sur les limites du licite et de l' illicite , le seul fait d' affirmer des principes et des recommandations est important .</text>
+            <annotationSet status="MANUAL" ID="16446">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="355" start="341" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

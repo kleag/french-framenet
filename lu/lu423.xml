@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="interdiction.n" ID="423" frame="FR_Grant_permission-Permitting" frameID="10068" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gro" name="Grantor"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Prin" name="Principle"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Gre" name="Grantee"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Act" name="Action"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Action"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="2469"/>
+                <annoSet ID="5709"/>
+                <annoSet ID="6071"/>
+                <annoSet ID="10877"/>
+                <annoSet ID="18273"/>
+                <annoSet ID="18274"/>
+                <annoSet ID="18917"/>
+                <annoSet ID="19258"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="13376"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Grantee"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Grantee"/>
+                <annoSet ID="2469"/>
+                <annoSet ID="5709"/>
+                <annoSet ID="18917"/>
+                <annoSet ID="19258"/>
+                <annoSet ID="23359"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Grantee"/>
+                <annoSet ID="6071"/>
+                <annoSet ID="10877"/>
+                <annoSet ID="13376"/>
+                <annoSet ID="18273"/>
+                <annoSet ID="18274"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Grantor"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Grantor"/>
+                <annoSet ID="2469"/>
+                <annoSet ID="10877"/>
+                <annoSet ID="18273"/>
+                <annoSet ID="18274"/>
+                <annoSet ID="18917"/>
+                <annoSet ID="19258"/>
+                <annoSet ID="23359"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Grantor"/>
+                <annoSet ID="5709"/>
+                <annoSet ID="6071"/>
+                <annoSet ID="13376"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Principle"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1951">
+            <text>Divers aéroports y travaillent déjà à l' heure actuelle en promulguant des interdictions de vol pour les avions les plus bruyants ou pour certains vols de nuit .</text>
+            <annotationSet status="MANUAL" ID="2469">
+                <layer rank="1" name="FE">
+                    <label end="94" start="92" name="Action"/>
+                    <label end="131" start="101" name="Grantee"/>
+                    <label end="158" start="138" name="Grantee"/>
+                    <label end="15" start="0" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4097">
+            <text>S' il était passé outre à l' interdiction d' ouvrir ce jour -là , il aurait dû acquitter une nouvelle fois une astreinte de 50 000 francs par heure d' ouverture , soit au total 500 000 francs pour le magasin des Champs - Elysées .</text>
+            <annotationSet status="MANUAL" ID="5709">
+                <layer rank="1" name="FE">
+                    <label end="62" start="45" name="Action"/>
+                    <label end="4" start="3" name="Grantee"/>
+                    <label itype="DNI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4330">
+            <text>En dépit de l' interdiction de diffuser de la publicité au sein des journaux télévisés , des spots seront proposés " à un tarif particulièrement compétitif " dans les quatre journaux de la journée .</text>
+            <annotationSet status="MANUAL" ID="6071">
+                <layer rank="1" name="FE">
+                    <label end="85" start="31" name="Action"/>
+                    <label itype="DNI" name="Grantee"/>
+                    <label itype="ENI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7415">
+            <text>Les cessions de terre existaient malgré l' interdiction constitutionnelle " mais de façon illégale " , souligne Ramirez Vargas .</text>
+            <annotationSet status="MANUAL" ID="10877">
+                <layer rank="1" name="FE">
+                    <label end="20" start="0" name="Action"/>
+                    <label end="72" start="56" name="Grantor"/>
+                    <label itype="ENI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9472">
+            <text>Ce n' est qu' en février 1992 , à la suite d' un voyage du ministre de l' industrie , Dominique Strauss - Kahn , au pays du Matin calme , que l' interdiction a été levée .</text>
+            <annotationSet status="MANUAL" ID="13376">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Action"/>
+                    <label itype="DNI" name="Grantee"/>
+                    <label itype="DNI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13954">
+            <text>Entre les extrêmes , la loi a prévu " l' interdiction , à titre définitif ou pour une durée de cinq ans au plus , d' exercer une ou plusieurs activités professionnelles ou sociales " , l' interdiction de faire appel public à l' épargne , ou bien encore ( art. 131.39 ) " l' exclusion des marchés publics " .</text>
+            <annotationSet status="MANUAL" ID="18273">
+                <layer rank="1" name="FE">
+                    <label end="234" start="204" name="Action"/>
+                    <label end="26" start="21" name="Grantor"/>
+                    <label itype="ENI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="199" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13954">
+            <text>Entre les extrêmes , la loi a prévu " l' interdiction , à titre définitif ou pour une durée de cinq ans au plus , d' exercer une ou plusieurs activités professionnelles ou sociales " , l' interdiction de faire appel public à l' épargne , ou bien encore ( art. 131.39 ) " l' exclusion des marchés publics " .</text>
+            <annotationSet status="MANUAL" ID="18274">
+                <layer rank="1" name="FE">
+                    <label end="179" start="117" name="Action"/>
+                    <label end="26" start="21" name="Grantor"/>
+                    <label itype="UNI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14600">
+            <text>Les Douze se sont mis d' accord sur des mesures de rétorsion commerciales contre les Etats - Unis , après l' interdiction faite aux entreprises européennes de répondre à certains appels d' offres pour des marchés publics américains dans le domaine des télécommunications , selon des informations recueillies auprès de la présidence danoise de la CEE .</text>
+            <annotationSet status="MANUAL" ID="18917">
+                <layer rank="1" name="FE">
+                    <label end="269" start="159" name="Action"/>
+                    <label end="154" start="128" name="Grantee"/>
+                    <label end="96" start="81" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14975">
+            <text>Ajoutons , ironie de la situation , que l' interdiction faite aux banques , par le gouvernement , de rémunérer les dépôts à vue a été , ainsi , joyeusement et légalement tournée , avec la complicité des établissements ( nationalisés ou pas ) , soucieux de retenir leurs clients .</text>
+            <annotationSet status="MANUAL" ID="19258">
+                <layer rank="1" name="FE">
+                    <label end="126" start="101" name="Action"/>
+                    <label end="72" start="62" name="Grantee"/>
+                    <label end="94" start="80" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19390">
+            <text>Enfin , le nouveau revirement de l' équipe dirigeante sur l' interdiction du PC accroit encore l' impression de confusion : le CFSN envisage -t-il sérieusement d' organiser dans les deux semaines et dans le chaos ambiant un référendum sur la peine de mort et l' abolition du PC ?</text>
+            <annotationSet status="MANUAL" ID="23359">
+                <layer rank="1" name="FE">
+                    <label end="78" start="77" name="Grantee"/>
+                    <label end="52" start="33" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Commitment.veracity" ID="10011" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; verbally communicates a &lt;fen&gt;Message&lt;/fen&gt; to an &lt;fen&gt;Addressee&lt;/fen&gt;, while assuring him that the content of the Message is true. 
+<!-- non cf. ça c'est FR_Commitment.to_do When the content corresponds to some future eventuality, the LUs carry the idea that the &lt;fen&gt;Speaker&lt;/fen&gt; will try to make it happen.-->
+    &lt;ex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames&lt;/asf&gt;:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;FR_Attempt_suasion.veracity&lt;/frframe&gt;: In FR_Commitment.veracity, the focus is on the Speaker strongly affirming the Message.
+    &lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : new in fndata-asfalda
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Spkr" name="Speaker" ID="135">
+        <definition>&lt;def-root&gt;The Speaker is the person who commits him/herself about the veracity.  &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Add" name="Addressee" ID="136">
+        <definition>&lt;def-root&gt;The Speaker's commitment can be made to an Addressee.  &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Msg" name="Message" ID="137">
+        <definition>&lt;def-root&gt;An expression of the commitment made by the Speaker expresses the frame element Message.   &lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Medium" name="Medium" ID="139">
+        <definition>&lt;def-root&gt;As with other frames in the Communication domain, the &lt;t&gt;Medium&lt;/t&gt; of communication may be expressed. Medium is the physical entity or channel used to transmit the Message. &lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="139"/>
+        <memberFE name="Speaker" ID="135"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Commitment</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="assurer.v" ID="962" nbocc="202" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="24"/>
+        <otherlexUnit framename="Other_sense" ID="100143" annotatedsent="77"/>
+    </lexUnit>
+    <lexUnit POS="v" name="certifier.v" ID="963" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100313" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="jurer.v" ID="966" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101139" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Commitment.to_do" ID="353" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="promettre.v" ID="967" nbocc="35" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101456" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Commitment.to_do" ID="357" annotatedsent="29"/>
+    </lexUnit>
+</frame>

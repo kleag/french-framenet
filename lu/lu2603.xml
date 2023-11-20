@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="convaincant.a" ID="2603" frame="FR_Suasion.veracity" frameID="10059" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="006400" bgColor="FFFF00" type="Core" abbrev="Text" name="Text"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="18153"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Content"/>
+                <annoSet ID="18153"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Persuader"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="18153"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Text"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="20197">
+            <text>Thomson et son allié néerlandais Philips n' ont pas été suffisamment convaincants , les Douze n' ont pas su aplanir leurs divergences et la nouvelle norme ne s' imposera , au mieux , aux nouvelles chaînes qu' à partir de 1995 .</text>
+            <annotationSet status="MANUAL" ID="18153">
+                <layer rank="1" name="FE">
+                    <label end="92" start="84" name="Cognizer"/>
+                    <label end="39" start="0" name="Persuader"/>
+                    <label itype="ENI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

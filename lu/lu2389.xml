@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="ordre.n" ID="2389" frame="FR_Request" frameID="10082" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Requested_entity"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="8">
+            <FE name="Addressee"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="2789"/>
+                <annoSet ID="3627"/>
+                <annoSet ID="15214"/>
+                <annoSet ID="15855"/>
+                <annoSet ID="23067"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="2807"/>
+                <annoSet ID="21376"/>
+                <annoSet ID="24917"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Eventuality"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="2789"/>
+                <annoSet ID="2807"/>
+                <annoSet ID="15855"/>
+                <annoSet ID="21376"/>
+                <annoSet ID="23067"/>
+                <annoSet ID="24917"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Eventuality"/>
+                <annoSet ID="3627"/>
+                <annoSet ID="15214"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Requested_entity"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Speaker"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2807"/>
+                <annoSet ID="3627"/>
+                <annoSet ID="15214"/>
+                <annoSet ID="21376"/>
+                <annoSet ID="24917"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="15855"/>
+                <annoSet ID="23067"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2107">
+            <text>Le 10 mars 1915 à cinq heures du matin , après deux mois d' accrochages sans résultat tangible dans le secteur et deux récentes attaques infructueuses , les poilus de la 21e compagnie du 336e régiment d' infanterie , reçoivent l' ordre d' attaquer de nouveau à la baïonnette et de reprendre les positions ennemies établies au nord du village de Souain .</text>
+            <annotationSet status="MANUAL" ID="2789">
+                <layer rank="1" name="FE">
+                    <label end="213" start="153" name="Addressee"/>
+                    <label end="213" start="153" name="Eventuality"/>
+                    <label end="276" start="239" name="Eventuality"/>
+                    <label end="350" start="281" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="234" start="230" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2116">
+            <text>Le 15 mars , le général donne l' ordre de mise de jugement directe des 24 hommes désignés .</text>
+            <annotationSet status="MANUAL" ID="2807">
+                <layer rank="1" name="FE">
+                    <label end="22" start="13" name="Speaker"/>
+                    <label end="88" start="42" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2781">
+            <text>" C' est uniquement aux ordres de Jacques Chirac que nous travaillions " , explique Jean-Claude Méry à propos du système de contributions occultes des entreprises sur les marchés publics de l' OPAC , en évoquant une scène dans laquelle il avait personnellement remis 5 millions de francs en cash à Michel Roussin , alors chef du cabinet de Jacques Chirac , Premier ministre , " en présence de M. Chirac " .</text>
+            <annotationSet status="MANUAL" ID="3627">
+                <layer rank="1" name="FE">
+                    <label end="56" start="53" name="Addressee"/>
+                    <label end="47" start="34" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10966">
+            <text>Souvent bien vécus - " nous n' avons plus le même genre de travail : auparavant , il suffisait d' obéir aux ordres , maintenant nous avons davantage d' autonomie et l'on voit moins les chefs " , se félicite un ouvrier de l' usine de Douai - ces changements exigent des intéressés qu' ils s' adaptent en permanence aux évolutions de leur environnement .</text>
+            <annotationSet status="MANUAL" ID="15214">
+                <layer rank="1" name="FE">
+                    <label end="131" start="128" name="Addressee"/>
+                    <label end="189" start="181" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11526">
+            <text>Cette décision suit l' ordre donné à la France de fermer son consulat général à Canton ( le Monde du 24 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="15855">
+                <layer rank="1" name="FE">
+                    <label end="45" start="37" name="Addressee"/>
+                    <label end="45" start="37" name="Eventuality"/>
+                    <label end="85" start="50" name="Eventuality"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17299">
+            <text>Sa mission était de reprendre les choses en main au plus vite et il lui a fallu deux jours de réunions , consultations et pourparlers pour arriver à donner , en termes prudents , l' ordre de tirer contre les pogromistes .</text>
+            <annotationSet status="MANUAL" ID="21376">
+                <layer rank="1" name="FE">
+                    <label end="70" start="68" name="Speaker"/>
+                    <label end="218" start="191" name="Eventuality"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="182" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19006">
+            <text>Agé d' une quarantaine d' années , Mr Human a affirmé à l' ANC qu' il appartenait à une unité de la police sud - africaine et qu' il avait reçu l' ordre d' emmener à Londres l' agent qui avait abattu Dulcie September , indique le journal .</text>
+            <annotationSet status="MANUAL" ID="23067">
+                <layer rank="1" name="FE">
+                    <label end="131" start="130" name="Addressee"/>
+                    <label end="42" start="35" name="Addressee"/>
+                    <label end="131" start="130" name="Eventuality"/>
+                    <label end="215" start="156" name="Eventuality"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21625">
+            <text>- Allemagne : arrestations de dirigeants syndicalistes sur l' ordre du nouveau chancelier Adolf Hitler .</text>
+            <annotationSet status="MANUAL" ID="24917">
+                <layer rank="1" name="FE">
+                    <label end="101" start="71" name="Speaker"/>
+                    <label end="53" start="14" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

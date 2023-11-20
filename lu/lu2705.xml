@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="faire preuve.v" ID="2705" frame="FR_Proving" frameID="10048" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Persuader" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="7646"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Persuader"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="7646"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5275">
+            <text>Avant la réunion des pays les plus industrialisés , à Munich , du 6 au 8 juillet , le gouvernement de Moscou a tenu à faire preuve de sa bonne volonté , à fixer un cadre général , un échéancier , sans pour autant préciser la date et la nature des réformes concrètes .</text>
+            <annotationSet status="MANUAL" ID="7646">
+                <layer rank="1" name="FE">
+                    <label end="149" start="134" name="Content"/>
+                    <label end="107" start="83" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'entendre.v" ID="97" frame="Be_in_agreement_on_assessment" frameID="1496" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cognizer_2"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizers"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizers"/>
+                <annoSet ID="19818"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Opinion"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Opinion"/>
+                <annoSet ID="19818"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15611">
+            <text>Difficile de vouloir former alors que l' on ne s' entend pas sur les mots , y compris les plus courants , et que le vocabulaire même se cherche .</text>
+            <annotationSet status="MANUAL" ID="19818">
+                <layer rank="1" name="FE">
+                    <label end="42" start="38" name="Cognizers"/>
+                    <label end="102" start="65" name="Opinion"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

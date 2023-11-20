@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Request" ID="10082" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication,Cognitive_positions">
+    <definition>&lt;def-root&gt;The  &lt;fen&gt;Speaker&lt;/fen&gt; asks an &lt;fen&gt;Addressee&lt;/fen&gt; that some &lt;fen&gt;Eventuality&lt;/fen&gt; be realized in the future. Although there is no implication that the &lt;fen&gt;Addressee&lt;/fen&gt; forms an intention to act, let alone acts, the LUs of this frame contain the idea of the Speaker having a position to impose the Addressee to act. For some LUs when the desired eventuality is to obtain a &lt;fen&gt;Requested_entity&lt;/fen&gt;, it can appear as direct object, instead of the Eventuality.
+&lt;ex&gt;&lt;/ex&gt;
+Some FEEs are clearly verbal whereas others can either be verbal or non-verbal.
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Mr Smithers&lt;/fex&gt;  &lt;t&gt;ordered&lt;/t&gt; &lt;fex name="Add"&gt;the employees&lt;/fex&gt; &lt;fex name="Eventuality"&gt;to stay late and work harder&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;FR-EX:&lt;fex name="Speaker"&gt;Le préfet&lt;/fex&gt; &lt;t&gt;ordonne&lt;/t&gt; &lt;fex name="Eventuality"&gt;la destruction des paillotes&lt;/fex&gt;. &lt;fex name="Add"&gt;INI&lt;/fex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;FR-EX:&lt;fex name="Speaker"&gt;Ces pays&lt;/fex&gt; &lt;t&gt;demandent&lt;/t&gt; à &lt;fex name="Eventuality"&gt;participer à la réunion&lt;/fex&gt;. &lt;fex name="Add"&gt;INI&lt;/fex&gt;&lt;/ex&gt;
+
+
+    &lt;ex&gt;&lt;/ex&gt;
+
+Distinctions with other frames:
+
+&lt;ex&gt;&lt;/ex&gt; 
+
+≠ &lt;frframe&gt;FR_Attempt_suasion.to_do&lt;/frframe&gt;: the LUs of the FR_Request frame contain the idea of order instead of mere will to influence the Addressee, and the order is necessarily conveyed through language.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Results from the renaming of the FEs of the Request frame, following the FR_Attempt_suasion.to_do frame: the Message FE is renamed Eventuality, as the Addressee is the sentient that is supposed to have the Eventuality realized. 
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="145" cDate="02/26/2001 02:40:22 PST Mon" abbrev="" name="Eventuality" ID="408">
+        <definition>&lt;def-root&gt;The wish for action on the Cognizer's part that the Speaker expresses.&lt;/def-root&gt;</definition>
+        <semType name="Eventuality" ID="55"/>
+<excludesFE name="Requested_entity" ID="411"/>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="145" cDate="02/26/2001 02:40:22 PST Mon" abbrev="" name="Requested_entity" ID="411">
+        <definition>&lt;def-root&gt;The entity that the Speaker wishes to obtain thanks to the Addressee.&lt;/def-root&gt;</definition>
+<excludesFE name="Eventuality" ID="408"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="145" cDate="02/26/2001 02:45:59 PST Mon" abbrev="Add" name="Addressee" ID="409">
+        <definition>&lt;def-root&gt;The person that the &lt;fen&gt;Speaker&lt;/fen&gt; seeks to influence to act.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:04 PST Wed" abbrev="Top" name="Topic" ID="175">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is subcategorized by some of the LUs.
+
+&lt;ex&gt;FR-EX: L'expert est &lt;t&gt;sollicité&lt;/t&gt; pour &lt;fex name="Topic"&gt;tout ce qui concerne l'environnement &lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="145" cDate="02/26/2001 02:48:14 PST Mon" abbrev="Spkr" name="Speaker" ID="410">
+        <definition>&lt;def-root&gt;The person who intends through the use of language to get another person to act.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/08/2001 02:42:22 PST Thu" abbrev="Text" name="Medium" ID="427">
+        <definition>&lt;def-root&gt;The written or spoken material that contains a message that potentially influences the &lt;fen&gt;Addressee&lt;/fen&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Speaker" ID="410"/>
+        <memberFE name="Medium" ID="427"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Attempt_suasion.to_do</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Request</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="aboyer.v" ID="2352" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="beugler.v" ID="2353" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="brailler.v" ID="2354" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="chanter.v" ID="2355" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100321" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1535" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="chantonner.v" ID="2356" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="chuchoter.v" ID="2357" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="commander.v" ID="2358" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="crier.v" ID="2359" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100483" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1550" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="câbler.v" ID="2360" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="demande.n" ID="2361" nbocc="126" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="51"/>
+        <otherlexUnit framename="Other_sense" ID="100545" annotatedsent="45"/>
+        <otherlexUnit framename="Questioning" ID="2255" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="demander.v" ID="2362" nbocc="210" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="95"/>
+        <otherlexUnit framename="Other_sense" ID="100546" annotatedsent="3"/>
+        <otherlexUnit framename="Questioning" ID="2256" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dire.v" ID="2363" nbocc="317" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100568" annotatedsent="12"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1551" annotatedsent="147"/>
+        <otherlexUnit framename="Evidence" ID="544" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Encoding" ID="2558" annotatedsent="11"/>
+    </lexUnit>
+    <lexUnit POS="n" name="directive.n" ID="2364" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="donner.v" ID="2365" nbocc="265" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="enjoindre.v" ID="2367" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100805" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="exigence.n" ID="2729" nbocc="34" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="22"/>
+        <otherlexUnit framename="Other_sense" ID="102174" annotatedsent="12"/>
+    </lexUnit>
+    <lexUnit POS="v" name="exiger.v" ID="2368" nbocc="55" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="36"/>
+        <otherlexUnit framename="Other_sense" ID="100848" annotatedsent="19"/>
+    </lexUnit>
+    <lexUnit POS="v" name="fredonner.v" ID="2369" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="glapir.v" ID="2370" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="grogner.v" ID="2371" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100954" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1564" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="grommeler.v" ID="2372" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="gueuler.v" ID="2373" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="hurler.v" ID="2374" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100985" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1566" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="implorer.v" ID="2375" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101015" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="imposer.v" ID="2376" nbocc="91" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="injonction.n" ID="2377" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101076" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="insister.v" ID="406" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="instruction.n" ID="2378" nbocc="47" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="intimation.n" ID="2379" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="intimer.v" ID="2380" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="mandat.n" ID="2381" nbocc="35" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mandater.v" ID="2382" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mander.v" ID="2383" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="marmonner.v" ID="2384" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101202" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1574" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="murmurer.v" ID="2385" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="notification.n" ID="2386" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="notifier.v" ID="2387" nbocc="7" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Telling" ID="2536" annotatedsent="7"/>
+        <otherlexUnit framename="Other_sense" ID="101276" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="ordonner.v" ID="2388" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101305" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="ordre.n" ID="2389" nbocc="62" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="8"/>
+        <otherlexUnit framename="Other_sense" ID="101306" annotatedsent="54"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prescription.n" ID="2390" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prescrire.v" ID="2391" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prier.v" ID="2392" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101431" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prière.n" ID="2393" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101436" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prétendre.v" ID="2394" nbocc="19" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101501" annotatedsent="12"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1589" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rabâcher.v" ID="2395" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="requérir.v" ID="2396" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101618" annotatedsent="15"/>
+    </lexUnit>
+    <lexUnit POS="n" name="requête.n" ID="2397" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101619" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="revendiquer.v" ID="2398" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rugir.v" ID="2399" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="réclamation.n" ID="2400" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101658" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="réclamer.v" ID="2401" nbocc="60" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="54"/>
+        <otherlexUnit framename="Other_sense" ID="101659" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="réitérer.v" ID="2402" nbocc="4" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="répliquer.v" ID="2403" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101674" annotatedsent="0"/>
+        <otherlexUnit framename="Response" ID="2444" annotatedsent="1"/>
+        <otherlexUnit framename="Communication_response" ID="374" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="répondre.v" ID="2404" nbocc="84" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101675" annotatedsent="17"/>
+        <otherlexUnit framename="Response" ID="2445" annotatedsent="42"/>
+        <otherlexUnit framename="Communication_response" ID="375" annotatedsent="26"/>
+    </lexUnit>
+    <lexUnit POS="v" name="répéter.v" ID="2405" nbocc="24" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101682" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1605" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rétorquer.v" ID="2406" nbocc="9" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101689" annotatedsent="0"/>
+        <otherlexUnit framename="Communication_response" ID="377" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="v" name="siffler.v" ID="2407" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="signifier.v" ID="2408" nbocc="49" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="sollicitation.n" ID="2409" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101830" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="solliciter.v" ID="2410" nbocc="18" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="17"/>
+        <otherlexUnit framename="Other_sense" ID="101831" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="sommation.n" ID="2656" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="sommer.v" ID="2657" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="souffler.v" ID="2411" nbocc="5" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="supplier.v" ID="2412" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="supplique.n" ID="2413" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="susurrer.v" ID="2414" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="tonner.v" ID="2415" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="télégraphier.v" ID="2416" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="téléphoner.v" ID="2417" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Telling" ID="367" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="101945" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contacting" ID="979" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="vociférer.v" ID="2418" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="écrire.v" ID="2419" nbocc="67" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="102056" annotatedsent="3"/>
+        <otherlexUnit framename="Spelling_and_pronouncing" ID="2520" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contacting" ID="980" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1619" annotatedsent="43"/>
+        <otherlexUnit framename="Text_creation" ID="2576" annotatedsent="15"/>
+    </lexUnit>
+    <lexUnit POS="v" name="édicter.v" ID="2420" nbocc="2" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="éructer.v" ID="2421" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

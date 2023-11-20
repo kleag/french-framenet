@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="revendre.v" ID="2599" frame="Commerce_sell" frameID="172" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="11">
+            <FE name="Buyer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="9886"/>
+                <annoSet ID="17952"/>
+                <annoSet ID="18181"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="5588"/>
+                <annoSet ID="13287"/>
+                <annoSet ID="13288"/>
+                <annoSet ID="17569"/>
+                <annoSet ID="17951"/>
+                <annoSet ID="17958"/>
+                <annoSet ID="20182"/>
+                <annoSet ID="21486"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Goods"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="9886"/>
+                <annoSet ID="17569"/>
+                <annoSet ID="17952"/>
+                <annoSet ID="18181"/>
+                <annoSet ID="20182"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="5588"/>
+                <annoSet ID="13287"/>
+                <annoSet ID="13288"/>
+                <annoSet ID="17951"/>
+                <annoSet ID="17958"/>
+                <annoSet ID="21486"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Money"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="9886"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Rate"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Rate"/>
+                <annoSet ID="17569"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Seller"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="5588"/>
+                <annoSet ID="13287"/>
+                <annoSet ID="13288"/>
+                <annoSet ID="17569"/>
+                <annoSet ID="17951"/>
+                <annoSet ID="17952"/>
+                <annoSet ID="17958"/>
+                <annoSet ID="18181"/>
+                <annoSet ID="20182"/>
+                <annoSet ID="21486"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="9886"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4018">
+            <text>Avant même le succès de l' adjudication d' OAT , les non- résidents , notamment les Américains opérant à Londres ( Salomon et autres ) , s' étaient portés acheteurs sur le marché français , quitte à revendre un peu ces jours -ci pour leurs clients ou pour leur propre compte .</text>
+            <annotationSet status="MANUAL" ID="5588">
+                <layer rank="1" name="FE">
+                    <label end="133" start="49" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="206" start="199" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6627">
+            <text>Elle sera revendue à un touriste autour de 10 francs .</text>
+            <annotationSet status="MANUAL" ID="9886">
+                <layer rank="1" name="FE">
+                    <label end="31" start="21" name="Buyer"/>
+                    <label end="51" start="33" name="Money"/>
+                    <label end="3" start="0" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9385">
+            <text>Les résultats ont été très inégaux , avec parfois des pertes très sensibles : La Hénin , du groupe Suez , cherche à revendre , de même que la GMF .</text>
+            <annotationSet status="MANUAL" ID="13287">
+                <layer rank="1" name="FE">
+                    <label end="144" start="139" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9385">
+            <text>Les résultats ont été très inégaux , avec parfois des pertes très sensibles : La Hénin , du groupe Suez , cherche à revendre , de même que la GMF .</text>
+            <annotationSet status="MANUAL" ID="13288">
+                <layer rank="1" name="FE">
+                    <label end="102" start="78" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13187">
+            <text>" En délocalisant , le marché est très rémunérateur : nous achetons les santons quelques dizaines de centimes pièce en Asie , et les revendons de 50 centimes à 1 franc " .</text>
+            <annotationSet status="MANUAL" ID="17569">
+                <layer rank="1" name="FE">
+                    <label end="168" start="143" name="Rate"/>
+                    <label end="131" start="129" name="Goods"/>
+                    <label end="78" start="68" name="Goods"/>
+                    <label end="57" start="54" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13631">
+            <text>Dans ces conditions , loin de s' améliorer , la situation se dégrade encore plus vite et ceux qui ont acheté cherchent à revendre sans y arriver .</text>
+            <annotationSet status="MANUAL" ID="17951">
+                <layer rank="1" name="FE">
+                    <label end="107" start="89" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="128" start="121" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13633">
+            <text>La solution que nous préconisons est donc d' autoriser la vente en bloc par les sociétés HLM d' immeubles occupés à des opérateurs privés qui s' engageraient par convention à les revendre en priorité aux occupants .</text>
+            <annotationSet status="MANUAL" ID="17952">
+                <layer rank="1" name="FE">
+                    <label end="212" start="204" name="Buyer"/>
+                    <label end="177" start="175" name="Goods"/>
+                    <label end="112" start="96" name="Goods"/>
+                    <label end="140" start="138" name="Seller"/>
+                    <label end="212" start="116" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="179" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13638">
+            <text>Quand ils revendront plus tard , ils auront alors l' apport personnel suffisant pour acheter du neuf , ce qui contribuera à une plus grande fluidité du marché immobilier et pèsera sur ses prix , à la baisse pour une fois .</text>
+            <annotationSet status="MANUAL" ID="17958">
+                <layer rank="1" name="FE">
+                    <label end="8" start="6" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13873">
+            <text>Le groupe a aussi revendu son secteur maisons individuelles , Maisons Bouygues , à la Compagnie immobilière Phénix .</text>
+            <annotationSet status="MANUAL" ID="18181">
+                <layer rank="1" name="FE">
+                    <label end="113" start="83" name="Buyer"/>
+                    <label end="79" start="26" name="Goods"/>
+                    <label end="8" start="0" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16009">
+            <text>Le groupe italien s' est en effet engagé à acheter à TEM les produits qui font défaut à sa gamme , pour les revendre sous sa marque .</text>
+            <annotationSet status="MANUAL" ID="20182">
+                <layer rank="1" name="FE">
+                    <label end="106" start="104" name="Goods"/>
+                    <label end="95" start="57" name="Goods"/>
+                    <label end="16" start="0" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17419">
+            <text>Aussi quelques " collectionneurs " fortunés ont -ils commandé le rarissime chef - d' oeuvre et , en attendant la livraison , ont -ils revendu ...</text>
+            <annotationSet status="MANUAL" ID="21486">
+                <layer rank="1" name="FE">
+                    <label end="42" start="6" name="Seller"/>
+                    <label end="132" start="129" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="134" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

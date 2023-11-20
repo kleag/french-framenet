@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="souscrire.v" ID="849" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="1954"/>
+                <annoSet ID="7114"/>
+                <annoSet ID="13177"/>
+                <annoSet ID="22689"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Content"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="1954"/>
+                <annoSet ID="7114"/>
+                <annoSet ID="13177"/>
+                <annoSet ID="22689"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1744">
+            <text>D' autre part , nous ne souscrivions pas à l' idée du Parlement en ce qui concerne la limite d' âge pour la prise des empreintes digitales .</text>
+            <annotationSet status="MANUAL" ID="1954">
+                <layer rank="1" name="FE">
+                    <label end="137" start="43" name="Content"/>
+                    <label end="19" start="16" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4946">
+            <text>Il devra toutefois se plier aux règles en vigueur - n' avait -il pas souscrit aux promesses faites par Hachette en octobre 1990 , aux côtés duquel il figurait ?</text>
+            <annotationSet status="MANUAL" ID="7114">
+                <layer rank="1" name="FE">
+                    <label end="157" start="82" name="Content"/>
+                    <label end="63" start="61" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9267">
+            <text>Puisque , comme le rappelle le sociologue Denis Stoclet , " les adolescents ne souscrivent pas à une mode mais recherchent un mode d' identification à leur classe d' âge " .</text>
+            <annotationSet status="MANUAL" ID="13177">
+                <layer rank="1" name="FE">
+                    <label end="104" start="97" name="Content"/>
+                    <label end="74" start="60" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18575">
+            <text>Mr Medi Doganov , président du Mouvement pour les droits et les libertés des Turcs et musulmans en Bulgarie , a souscrit au compromis tout en regrettant la procédure décidée pour recouvrer les noms islamiques .</text>
+            <annotationSet status="MANUAL" ID="22689">
+                <layer rank="1" name="FE">
+                    <label end="132" start="124" name="Content"/>
+                    <label end="106" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

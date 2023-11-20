@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="suspecter.v" ID="855" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="3039"/>
+                <annoSet ID="5082"/>
+                <annoSet ID="6636"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="3039"/>
+                <annoSet ID="5082"/>
+                <annoSet ID="6636"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2347">
+            <text>Une fraude aux " faux " électeurs est suspectée dans plusieurs arrondissements parisiens , mais les investigations se limiteront rapidement au seul 3e arrondissement .</text>
+            <annotationSet status="MANUAL" ID="3039">
+                <layer rank="1" name="FE">
+                    <label end="32" start="0" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3733">
+            <text>Certes , d' énormes différences séparent le magnat de la presse britannique noyé alors que son empire faisait eau de toute part , le financier italien parti avec des méthodes douteuses à la conquête de Hollywood - tous deux suspectés de malversations - et le premier groupe français d' édition , groggy après à peine un an de présence dans le cirque télévisé .</text>
+            <annotationSet status="MANUAL" ID="5082">
+                <layer rank="1" name="FE">
+                    <label end="249" start="214" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="232" start="224" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4705">
+            <text>Huit mois après avoir ouvert une enquête sur le groupe textile VEV , la Commission des opérations de bourse ( COB ) a annoncé le 14 janvier qu' elle saisit la justice et ouvre une procédure de sanction contre la société et son PDG de l' époque , M. Christian Deverloy , suspectés d' avoir diffusé en 1990 des " informations trompeuses pour le public et le marché " .</text>
+            <annotationSet status="MANUAL" ID="6636">
+                <layer rank="1" name="FE">
+                    <label end="363" start="209" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="278" start="270" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

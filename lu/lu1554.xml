@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="démentir.v" ID="1554" frame="FR_Expressing_truth_of_proposition" frameID="10071" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prop" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Core" abbrev="pspkr" name="Past_speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Past_speaker"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Proposition"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="2115"/>
+                <annoSet ID="4402"/>
+                <annoSet ID="6741"/>
+                <annoSet ID="6765"/>
+                <annoSet ID="9554"/>
+                <annoSet ID="22964"/>
+                <annoSet ID="23088"/>
+                <annoSet ID="23133"/>
+                <annoSet ID="23825"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Speaker"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2115"/>
+                <annoSet ID="4402"/>
+                <annoSet ID="6741"/>
+                <annoSet ID="6765"/>
+                <annoSet ID="9554"/>
+                <annoSet ID="22964"/>
+                <annoSet ID="23088"/>
+                <annoSet ID="23133"/>
+                <annoSet ID="23825"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1806">
+            <text>Il est fort probable , vu qu' ils sont accusés d' espionnage en faveur des États-Unis et d' Israël - lesquels ont par ailleurs démenti tout lien avec ces personnes - qu' ils soient condamnés à la peine capitale .</text>
+            <annotationSet status="MANUAL" ID="2115">
+                <layer rank="1" name="FE">
+                    <label end="162" start="135" name="Proposition"/>
+                    <label end="108" start="101" name="Speaker"/>
+                    <label end="87" start="75" name="Speaker"/>
+                    <label end="97" start="92" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3340">
+            <text>" M. Lamont a également démenti que des mesures destinées à relancer la consommation avant l' annonce du budget , en mars prochain , soient envisagées .</text>
+            <annotationSet status="MANUAL" ID="4402">
+                <layer rank="1" name="FE">
+                    <label end="149" start="36" name="Proposition"/>
+                    <label end="10" start="2" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4747">
+            <text>Les deux firmes concernées n' ont pas tardé à démentir ces rumeurs .</text>
+            <annotationSet status="MANUAL" ID="6741">
+                <layer rank="1" name="FE">
+                    <label end="65" start="55" name="Proposition"/>
+                    <label end="25" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4762">
+            <text>Mais le ministre japonais des finances , M. Hata , a déjà démenti cette rumeur la semaine dernière , tout au moins en ce qui concerne le yen .</text>
+            <annotationSet status="MANUAL" ID="6765">
+                <layer rank="1" name="FE">
+                    <label end="77" start="66" name="Proposition"/>
+                    <label end="47" start="5" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6390">
+            <text>En Italie , la banque centrale a dû démentir avoir ordonné la suspension des transactions sur le marché des changes de Milan vendredi après - midi , mais a vendu à nouveau des marks .</text>
+            <annotationSet status="MANUAL" ID="9554">
+                <layer rank="1" name="FE">
+                    <label end="29" start="12" name="Proposition"/>
+                    <label end="145" start="45" name="Proposition"/>
+                    <label end="29" start="12" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18892">
+            <text>Une affirmation que les juges démentiront quand , le 30 avril 1949 , ils décideront le classement pur et simple de la procédure entamée dès la Libération .</text>
+            <annotationSet status="MANUAL" ID="22964">
+                <layer rank="1" name="FE">
+                    <label end="18" start="16" name="Proposition"/>
+                    <label end="14" start="0" name="Proposition"/>
+                    <label end="28" start="20" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19019">
+            <text>Tout en démentant céder à la pression , le gouvernement a annoncé le 7 janvier Au beau milieu des arrêts de travail , une augmentation générale des salaires de 16 % .</text>
+            <annotationSet status="MANUAL" ID="23088">
+                <layer rank="1" name="FE">
+                    <label end="36" start="18" name="Proposition"/>
+                    <label end="54" start="40" name="Proposition"/>
+                    <label end="54" start="40" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19146">
+            <text>Le nouveau ministre de l' intérieur , le général Abdel Halim Moussa , a démenti les accusations de l' organisation égyptienne .</text>
+            <annotationSet status="MANUAL" ID="23133">
+                <layer rank="1" name="FE">
+                    <label end="124" start="80" name="Proposition"/>
+                    <label end="66" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20089">
+            <text>Le ministre nippon des finances , M. Tsutomu Hata , commençait par reprendre publiquement cette rumeur , pour la démentir , ajoutant même qu' il n' avait pas discuté de la baisse du dollar contre le yen lors de sa rencontre avec le secrétaire américain au Trésor , M. Nicholas Brady .</text>
+            <annotationSet status="MANUAL" ID="23825">
+                <layer rank="1" name="FE">
+                    <label end="111" start="110" name="Proposition"/>
+                    <label end="101" start="90" name="Proposition"/>
+                    <label end="48" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

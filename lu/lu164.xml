@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="au point que.conj" ID="164" frame="Causation" frameID="5" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Cause"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="2264"/>
+                <annoSet ID="8194"/>
+                <annoSet ID="19238"/>
+                <annoSet ID="23858"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="8224"/>
+                <annoSet ID="12333"/>
+                <annoSet ID="12846"/>
+                <annoSet ID="21152"/>
+                <annoSet ID="21223"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Effect"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="2264"/>
+                <annoSet ID="8194"/>
+                <annoSet ID="8224"/>
+                <annoSet ID="12333"/>
+                <annoSet ID="12846"/>
+                <annoSet ID="19238"/>
+                <annoSet ID="21152"/>
+                <annoSet ID="21223"/>
+                <annoSet ID="23858"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1868">
+            <text>Dans l' Ogaden , la région la plus touchée du sud-est de l' Éthiopie , il n' a pas plu depuis plus de trois ans , au point que les notions de saison sèche et de saison humide n' ont plus aucune signification .</text>
+            <annotationSet status="MANUAL" ID="2264">
+                <layer rank="1" name="FE">
+                    <label end="112" start="0" name="Cause"/>
+                    <label end="206" start="127" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5606">
+            <text>Dans cette dynamique , l' Etat , en général décrié par les entrepreneurs pour ses lourdeurs et son inertie - au point que souvent les patrons regroupés dans la Confindustria cherchent à créer un front d' action commun avec les autres grandes fédérations , la Confagricoltura ou la Confartigianato - n' est pas toujours resté inactif .</text>
+            <annotationSet status="MANUAL" ID="8194">
+                <layer rank="1" name="FE">
+                    <label end="29" start="23" name="Cause"/>
+                    <label end="105" start="44" name="Cause"/>
+                    <label end="295" start="122" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5621">
+            <text>Au point que le seul service de cette dette représente 95 % du déficit budgétaire .</text>
+            <annotationSet status="MANUAL" ID="8224">
+                <layer rank="1" name="FE">
+                    <label end="80" start="13" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8653">
+            <text>Au point que certains observateurs étaient convaincus que M. Tapie , habile vendeur , s' efforçait de faire monter les enchères .</text>
+            <annotationSet status="MANUAL" ID="12333">
+                <layer rank="1" name="FE">
+                    <label end="126" start="13" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8966">
+            <text>Au point que la BERD conclut sévèrement : " La réforme vers l' économie de marché et la transition ne sont pas , aujourd' hui , devenues irréversibles .</text>
+            <annotationSet status="MANUAL" ID="12846">
+                <layer rank="1" name="FE">
+                    <label end="38" start="13" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14955">
+            <text>En France , la crise du franc a entraîné , au contraire , une flambée des taux à court terme de septembre à mars , avec des pointes à 20 % , mais , depuis les élections législatives , la Banque de France a pu suivre la Bundesbank , au point que les taux pratiqués à Paris ont rejoint ceux en vigueur à Francfort , soit 7 , 50 % environ , au plus bas depuis dix ans .</text>
+            <annotationSet status="MANUAL" ID="19238">
+                <layer rank="1" name="FE">
+                    <label end="230" start="148" name="Cause"/>
+                    <label end="363" start="245" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="243" start="232" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17036">
+            <text>Au point qu' à part les diamantaires et les marchands de bestiaux , qui continuent à faire leurs affaires sur parole , tous les autres acteurs économiques préfèrent conserver des traces écrites de leurs actes et de leurs relations .</text>
+            <annotationSet status="MANUAL" ID="21152">
+                <layer rank="1" name="FE">
+                    <label end="229" start="13" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17103">
+            <text>Au point que certains reprochent aux juristes d' assurer de cette manière la pérennité de leur activité . .</text>
+            <annotationSet status="MANUAL" ID="21223">
+                <layer rank="1" name="FE">
+                    <label end="104" start="13" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20123">
+            <text>Ces taux étaient pourtant considérés comme " tirés " et les conditions encore plus , au point que certaines banques ont refusé de diriger l' émission , mais Finansder bénéficie encore de la garantie inconditionnelle de l' Etat , denrée devenue rarissime .</text>
+            <annotationSet status="MANUAL" ID="23858">
+                <layer rank="1" name="FE">
+                    <label end="81" start="0" name="Cause"/>
+                    <label end="148" start="98" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

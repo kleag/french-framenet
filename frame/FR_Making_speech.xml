@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Making_speech" ID="10041" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; utters a &lt;fen&gt;Speech&lt;/fen&gt;. The words to refer to the &lt;fen&gt;Speech&lt;/fen&gt; do not describe the semantics of the content of the message, but are classes of speech. 
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;FR-EX: &lt;fex name="Speaker"&gt;Pauline&lt;/fex&gt; a &lt;t&gt;prononcé&lt;/t&gt; &lt;fex name="Speech"&gt;une phrase, un discours, des paroles&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+This frame is used for LUs for which the message is referred to by a noun of speech, but not by a noun referring to the semantic content of the message nor a sentence. It differs from Reading_aloud, in which a text is read. It differs from Text_creation, in which a written text or oral speech is explicitely created. For the FR_Making_speech, whether the Speaker is the author of the Speech is not specified. 
+&lt;ex&gt;&lt;/ex&gt;
+
+ &lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : New in fndata-asfalda. 
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;Spelling_and_pronouncing&lt;/frframe&gt;: The Spelling_and_pronouncing frame contains the idea of judgment of how something should or is usually pronounced, leading to the expression of the Formal_realization FE.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;Reading_aloud&lt;/frframe&gt;: In Reading_aloud, a text is read.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;Text_creation&lt;/frframe&gt;: In Text_creation, a written text or oral speech is explicitely created.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;FR_Statement-manner-noise&lt;/frframe&gt;: the LUs in FR_Making_speech can be used only with message characterized using a speech name, not using terms referring to the semantics of the message (but for FR_Statement-manner-noise, both cases are possible).
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/23/2003 07:42:17 PST Thu" abbrev="" name="Speaker" ID="4135">
+        <definition>&lt;def-root&gt;The person who orally delivers a message about a &lt;fen&gt;Topic&lt;/fen&gt; to an &lt;fen&gt;Audience&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="8070FF" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/17/2001 03:05:17 PDT Tue" abbrev="" name="Speech" ID="4879">
+        <definition>&lt;def-root&gt;The oral communication produced by the &lt;fen&gt;Speaker&lt;/fen&gt; &lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Statement-manner-noise</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="proférer.v" ID="1318" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101447" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prononcer.v" ID="1319" nbocc="53" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101459" annotatedsent="1"/>
+        <otherlexUnit framename="Spelling_and_pronouncing" ID="2517" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Expressing_decision" ID="1088" annotatedsent="16"/>
+    </lexUnit>
+    <lexUnit POS="n" name="récitation.n" ID="2569" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="réciter.v" ID="2570" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

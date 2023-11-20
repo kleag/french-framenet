@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Exporting" ID="1568" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;An &lt;fen&gt;Exporter&lt;/fen&gt; moves &lt;fen&gt;Goods&lt;/fen&gt; across a border from an &lt;fen&gt;Exporting_area&lt;/fen&gt; to an &lt;fen&gt;Importing_area&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Exporter"&gt;Several companies&lt;/fex&gt; actually make most of their income by &lt;t&gt;exporting&lt;/t&gt; &lt;fex name="Goods"&gt;goods&lt;/fex&gt; &lt;fex name="Exporting_area"&gt;out of the country&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;t&gt;Exportation&lt;/t&gt; &lt;fex name="Importing_area"&gt;into nations of "special interest"&lt;/fex&gt; is essentially prohibited.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="07/15/2005 05:17:55 PDT Fri" abbrev="Agt" name="Exporter" ID="8554">
+        <definition>&lt;def-root&gt;The conscious entity, generally a person, that moves the &lt;fen&gt;Goods&lt;/fen&gt; across a border out of the &lt;fen&gt;Exporting_area&lt;/fen&gt;.  
+
+Very often, an &lt;fen&gt;Exporting_area&lt;/fen&gt; will metonymically stand in for the person or persons directly responsible for the movement of the &lt;fen&gt;Goods&lt;/fen&gt;.  In such cases the constituent should be labeled &lt;fen&gt;Exporter&lt;/fen&gt; on the first layer and with the appropriate locational FE on the second layer.
+&lt;ex&gt;&lt;fex name="Exporter"&gt;The U.S.&lt;/fex&gt; &lt;t&gt;exports&lt;/t&gt; most of its peanut products.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="07/15/2005 05:17:55 PDT Fri" abbrev="Goods" name="Goods" ID="8558">
+        <definition>&lt;def-root&gt;The items of value whose location is changing.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="07/15/2005 05:17:55 PDT Fri" abbrev="Goal" name="Importing_area" ID="8563">
+        <definition>&lt;def-root&gt;The FE &lt;fen&gt;Importing_area&lt;/fen&gt; is the place that the &lt;fen&gt;Goods&lt;/fen&gt; end up as a result of motion.
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="07/15/2005 05:17:55 PDT Fri" abbrev="Src" name="Exporting_area" ID="8565">
+        <definition>&lt;def-root&gt;The place where the &lt;fen&gt;Goods&lt;/fen&gt; are initially, before the the &lt;fen&gt;Exporter&lt;/fen&gt; moves them.
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses">
+        <relatedFrame>Import_export</relatedFrame>
+        <relatedFrame>Commerce_sell</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Used by"/>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="n" name="export.n" ID="691" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100854" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="exportation.n" ID="692" nbocc="137" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="105"/>
+        <otherlexUnit framename="Other_sense" ID="100855" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="exporter.v" ID="693" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="25"/>
+        <otherlexUnit framename="Other_sense" ID="100856" annotatedsent="1"/>
+    </lexUnit>
+</frame>

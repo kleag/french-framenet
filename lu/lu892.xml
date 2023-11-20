@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="commencer.v" ID="892" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Actor"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="9158"/>
+                <annoSet ID="12096"/>
+                <annoSet ID="15584"/>
+                <annoSet ID="17170"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cause"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="15041"/>
+                <annoSet ID="17049"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Effect"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="9158"/>
+                <annoSet ID="12096"/>
+                <annoSet ID="15041"/>
+                <annoSet ID="15584"/>
+                <annoSet ID="17049"/>
+                <annoSet ID="17170"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6161">
+            <text>La commission d' enquête parlementaire sur la situation depuis dix ans et les perspectives d' avenir de la presse et de l' audiovisuel a commencé ses travaux , jeudi 2 juillet , par l' audition des présidents du Syndicat de la presse parisienne ( SPP ) et du Syndicat de la presse quotidienne régionale ( SPQR ) .</text>
+            <annotationSet status="MANUAL" ID="9158">
+                <layer rank="1" name="FE">
+                    <label end="156" start="146" name="Effect"/>
+                    <label end="133" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8476">
+            <text>" Le mode de communication ( pas ou peu de référence au contexte ) et leur conception du temps incitent les Allemands à faire un exposé détaillé , exhaustif du sujet de la conversation et à commencer cet exposé immédiatement (...) .</text>
+            <annotationSet status="MANUAL" ID="12096">
+                <layer rank="1" name="FE">
+                    <label end="209" start="200" name="Effect"/>
+                    <label end="116" start="104" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="190" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10790">
+            <text>Au même moment , en France , la tournée des plages menée par les partisans du " non " à Maastricht commence à rendre crédible l' hypothèse d' un rejet du traité par les français lors du référendum du 20 septembre .</text>
+            <annotationSet status="MANUAL" ID="15041">
+                <layer rank="1" name="FE">
+                    <label end="97" start="29" name="Cause"/>
+                    <label end="211" start="110" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11291">
+            <text>En Allemagne , la banque centrale , qui , en 1991 , avait relevé à trois reprises ses taux directeurs , les faisant passer de 6 à 8 % pour l' escompte et de 8 , 50 à 9 , 75 % pour le Lombard , a commencé , en juillet 1992 , par porter son taux d' escompte de 8 à 8 , 75 % , sans toutefois modifier son taux Lombard , le seul véritablement directeur .</text>
+            <annotationSet status="MANUAL" ID="15584">
+                <layer rank="1" name="FE">
+                    <label end="270" start="228" name="Effect"/>
+                    <label end="189" start="15" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12686">
+            <text>D' autre part , le " déclassement " des chômeurs indemnisés en fin de droits , décidé en juillet par les gestionnaires du régime d' assurance - chômage , a commencé à faire sentir ses effets .</text>
+            <annotationSet status="MANUAL" ID="17049">
+                <layer rank="1" name="FE">
+                    <label end="75" start="16" name="Cause"/>
+                    <label end="189" start="167" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="163" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12802">
+            <text>Les opérations dites " yankees " , celles qui sont émises à New - York pour le compte de débiteurs étrangers , connaissent un développement impressionnant et commencent à constituer une menace sérieuse pour l' euromarché , dont le centre est à Londres .</text>
+            <annotationSet status="MANUAL" ID="17170">
+                <layer rank="1" name="FE">
+                    <label end="250" start="171" name="Effect"/>
+                    <label end="107" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

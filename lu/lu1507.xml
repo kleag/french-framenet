@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="débourser.v" ID="1507" frame="FR_Spending" frameID="10055" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Spender"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Woe" name="Way_of_expense"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Causex" name="Cause_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cause_of_expense"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Goods"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="9017"/>
+                <annoSet ID="24654"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="2321"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Money"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="2321"/>
+                <annoSet ID="9017"/>
+                <annoSet ID="24654"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Purpose"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Purpose"/>
+                <annoSet ID="2321"/>
+                <annoSet ID="9017"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Seller"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Spender"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Spender"/>
+                <annoSet ID="9017"/>
+                <annoSet ID="24654"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Spender"/>
+                <annoSet ID="2321"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1892">
+            <text>Un montant qui notamment n' est jamais cité par la Banque européenne d' investissement , qui est mentionné plus tard par le Président de la Commission Prodi et dont on ne sait pas encore , du moins à mon avis , comment il sera déboursé l' année prochaine .</text>
+            <annotationSet status="MANUAL" ID="2321">
+                <layer rank="1" name="FE">
+                    <label end="255" start="0" name="Money"/>
+                    <label end="220" start="219" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="234" start="227" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6070">
+            <text>En outre , la firme canadienne débourse 665 millions de francs , sous forme de prêt convertible , en 1995 , en actions Matra Communication .</text>
+            <annotationSet status="MANUAL" ID="9017">
+                <layer rank="1" name="FE">
+                    <label end="61" start="40" name="Money"/>
+                    <label end="29" start="11" name="Spender"/>
+                    <label end="137" start="79" name="Goods"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21202">
+            <text>L' an dernier , le voyage m' a coûté 100 nairas par personne , cette année je devrais déjà débourser quatre fois plus cher !</text>
+            <annotationSet status="MANUAL" ID="24654">
+                <layer rank="1" name="FE">
+                    <label end="121" start="101" name="Money"/>
+                    <label end="76" start="75" name="Spender"/>
+                    <label end="24" start="16" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

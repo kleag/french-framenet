@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="désignation.n" ID="2665" frame="Appointing" frameID="1925" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slctr" name="Selector"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="off" name="Official"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="Role" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="fun" name="Function"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD7C" type="Core" abbrev="bod" name="Body"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Body"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Body"/>
+                <annoSet ID="19664"/>
+                <annoSet ID="21541"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Function"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Official"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Official"/>
+                <annoSet ID="3780"/>
+                <annoSet ID="3787"/>
+                <annoSet ID="14321"/>
+                <annoSet ID="14335"/>
+                <annoSet ID="14374"/>
+                <annoSet ID="17027"/>
+                <annoSet ID="19664"/>
+                <annoSet ID="21541"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Official"/>
+                <annoSet ID="20169"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Role"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Role"/>
+                <annoSet ID="3780"/>
+                <annoSet ID="3787"/>
+                <annoSet ID="14321"/>
+                <annoSet ID="14335"/>
+                <annoSet ID="14374"/>
+                <annoSet ID="17027"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Role"/>
+                <annoSet ID="20169"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Selector"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Selector"/>
+                <annoSet ID="17027"/>
+                <annoSet ID="21541"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Selector"/>
+                <annoSet ID="3780"/>
+                <annoSet ID="3787"/>
+                <annoSet ID="14321"/>
+                <annoSet ID="14335"/>
+                <annoSet ID="14374"/>
+                <annoSet ID="19664"/>
+                <annoSet ID="20169"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2898">
+            <text>Plusieurs clubs sont accusés d' avoir influencé la désignation des arbitres pour leurs matches .</text>
+            <annotationSet status="MANUAL" ID="3780">
+                <layer rank="1" name="FE">
+                    <label end="74" start="67" name="Official"/>
+                    <label end="74" start="67" name="Role"/>
+                    <label itype="UNI" name="Selector"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2902">
+            <text>Lors de ces échanges , Moggi donnait ses instructions pour la désignation des arbitres dans le matches de son équipe .</text>
+            <annotationSet status="MANUAL" ID="3787">
+                <layer rank="1" name="FE">
+                    <label end="85" start="78" name="Official"/>
+                    <label end="85" start="78" name="Role"/>
+                    <label itype="UNI" name="Selector"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10195">
+            <text>Alors que le comité d' établissement du siège de Renault , qui doit constituer une nouvelle structure avec celui du CIB , refuse de subir les conséquences de ce déficit , la direction a demandé la désignation d' un administrateur judiciaire .</text>
+            <annotationSet status="MANUAL" ID="14321">
+                <layer rank="1" name="FE">
+                    <label end="239" start="212" name="Official"/>
+                    <label end="239" start="215" name="Role"/>
+                    <label itype="UNI" name="Selector"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="207" start="197" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10202">
+            <text>Décidée à faire la lumière sur les comptes , la direction de Renault a obtenu , en juin , la désignation d' un expert - comptable .</text>
+            <annotationSet status="MANUAL" ID="14335">
+                <layer rank="1" name="FE">
+                    <label end="128" start="108" name="Official"/>
+                    <label end="128" start="111" name="Role"/>
+                    <label itype="UNI" name="Selector"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10224">
+            <text>Le 30 décembre , le tribunal de grande instance de Nanterre se prononcera sur la désignation d' un administrateur judiciaire .</text>
+            <annotationSet status="MANUAL" ID="14374">
+                <layer rank="1" name="FE">
+                    <label end="123" start="96" name="Official"/>
+                    <label end="123" start="99" name="Role"/>
+                    <label itype="UNI" name="Selector"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12672">
+            <text>De plus , ces entreprises veulent communiquer selon leurs critères : 59 % des sondés estiment que les patrons français ne veulent " pas vraiment " informer la presse ; ils sont 62 % à refuser la désignation d' un interlocuteur unique par l' entreprise ; et plus des trois quarts répondent qu' ils subissent des pressions de la part des entreprises ( viennent ensuite les pressions de la part de la hiérarchie pour 31 % , du service publicitaire pour 26 % , de l' actionnariat du journal pour 10 % ) .</text>
+            <annotationSet status="MANUAL" ID="17027">
+                <layer rank="1" name="FE">
+                    <label end="232" start="210" name="Official"/>
+                    <label end="225" start="213" name="Role"/>
+                    <label end="250" start="238" name="Selector"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="205" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15414">
+            <text>Aussi est -ce avec une grande satisfaction que sa désignation à la tête du GATT y a été accueillie , comme si cet Irlandais qui a réussi était paré de toutes les qualités pour s' acquitter avec efficacité et équité de cette mission difficile .</text>
+            <annotationSet status="MANUAL" ID="19664">
+                <layer rank="1" name="FE">
+                    <label end="78" start="75" name="Body"/>
+                    <label end="48" start="47" name="Official"/>
+                    <label itype="UNI" name="Selector"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16004">
+            <text>" Le manque de transparence dans le processus de désignation , l' ignorance dans laquelle toute l' entreprise et son conseil d' administration ont été laissés donnent une impression d' improvisation de la part du gouvernement et d' un certain dédain vis - à - vis de l' entreprise " , observe le syndicat .</text>
+            <annotationSet status="MANUAL" ID="20169">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Official"/>
+                    <label itype="DNI" name="Role"/>
+                    <label itype="ENI" name="Selector"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17491">
+            <text>Une circulaire de la direction générale de la gendarmerie nationale , en date des 2 et 5 janvier , a défini le mode de désignation des membres dans les nouvelles structures de participation qui seront instituées en 1990 .</text>
+            <annotationSet status="MANUAL" ID="21541">
+                <layer rank="1" name="FE">
+                    <label end="188" start="148" name="Body"/>
+                    <label end="218" start="135" name="Official"/>
+                    <label end="66" start="18" name="Selector"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

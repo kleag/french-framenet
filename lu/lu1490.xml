@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prendre la parole.v" ID="1490" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="20730"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="12170"/>
+                <annoSet ID="12174"/>
+                <annoSet ID="20730"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Topic"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="12170"/>
+                <annoSet ID="12174"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8544">
+            <text>Premier exemple : quand vous animez un grand groupe , si vous appelez l' ensemble des participants de façon indifférenciée à prendre la parole , personne ne la prendra , à l' exception d' un extraverti impénitent qui risque alors de la monopoliser .</text>
+            <annotationSet status="MANUAL" ID="12170">
+                <layer rank="1" name="FE">
+                    <label end="97" start="70" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8545">
+            <text>Par contre , si vous interpellez quelqu' un à ce moment - là en fonction d' une question précise que vous savez importante pour lui , il prendra la parole qu' il n' avait jamais d' emblée osé prendre et cela incitera d' autres à faire de même .</text>
+            <annotationSet status="MANUAL" ID="12174">
+                <layer rank="1" name="FE">
+                    <label end="42" start="33" name="Speaker"/>
+                    <label end="135" start="134" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16550">
+            <text>Soupçonné de vouloir monopoliser le pouvoir au profit du seul PC , de ne pas tenir ses promesses sur le démantèlement des structures de l' ancien régime , le premier ministre avait pris la parole quelques heures plus tôt devant les députés pour répondre à ses détracteurs .</text>
+            <annotationSet status="MANUAL" ID="20730">
+                <layer rank="1" name="FE">
+                    <label end="238" start="228" name="Addressee"/>
+                    <label end="173" start="155" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

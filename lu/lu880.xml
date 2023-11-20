@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se rallier.v" ID="880" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="9251"/>
+                <annoSet ID="20780"/>
+                <annoSet ID="22567"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="9251"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Side"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Side"/>
+                <annoSet ID="20780"/>
+                <annoSet ID="22567"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6211">
+            <text>Dès lors , se dessinait le compromis qu' imaginait la CFDT pendant la séance , et auquel semblaient se rallier la CFE - CGC , la CFTC - à certaines conditions - et Force ouvrière , quoique en retrait .</text>
+            <annotationSet status="MANUAL" ID="9251">
+                <layer rank="1" name="FE">
+                    <label end="198" start="24" name="Content"/>
+                    <label end="87" start="82" name="Content"/>
+                    <label end="198" start="111" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16577">
+            <text>Mais , en accusant tous ceux qui ne se joignent pas aux communistes de se rallier à l' extrême droite , le parti a abouti à un résultat contraire à celui qu' il recherchait .</text>
+            <annotationSet status="MANUAL" ID="20780">
+                <layer rank="1" name="FE">
+                    <label end="66" start="19" name="Cognizer"/>
+                    <label end="100" start="84" name="Side"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18427">
+            <text>L' armée , qui s' est ralliée aux insurgés , affronte , jusqu' au 26 , des membres de la Securitate , la police politique du régime , au cours de violents combats dans plusieurs villes , surtout dans le centre de Bucarest .</text>
+            <annotationSet status="MANUAL" ID="22567">
+                <layer rank="1" name="FE">
+                    <label end="13" start="11" name="Cognizer"/>
+                    <label end="41" start="0" name="Cognizer"/>
+                    <label end="41" start="34" name="Side"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="15" name="Target"/>
+                    <label end="28" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

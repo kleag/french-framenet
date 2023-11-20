@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="débattre.v" ID="942" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Interlocutor_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Interlocutor_2"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Interlocutors"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="2432"/>
+                <annoSet ID="6503"/>
+                <annoSet ID="15315"/>
+                <annoSet ID="18692"/>
+                <annoSet ID="24877"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Interlocutors"/>
+                <annoSet ID="1837"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Topic"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="1837"/>
+                <annoSet ID="2432"/>
+                <annoSet ID="5723"/>
+                <annoSet ID="6503"/>
+                <annoSet ID="15315"/>
+                <annoSet ID="18692"/>
+                <annoSet ID="24877"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1695">
+            <text>Pouvez -vous donner les mêmes garanties en ce qui concerne la taxe proposée sur les carburants des avions , qui a été débattue au sein d' Écofin cette semaine , et en ce qui concerne l' impôt sur les sociétés au sein de l' Union européenne ?</text>
+            <annotationSet status="MANUAL" ID="1837">
+                <layer rank="1" name="FE">
+                    <label end="110" start="108" name="Topic"/>
+                    <label end="157" start="59" name="Topic"/>
+                    <label itype="ENI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1939">
+            <text>Lundi dernier , au sein de la commission du contrôle budgétaire , nous avons effectivement amplement débattu de la recevabilité de cette question , ou si en tant que présidente de la commission , je devrais faire usage de l' article 161 .</text>
+            <annotationSet status="MANUAL" ID="2432">
+                <layer rank="1" name="FE">
+                    <label end="235" start="112" name="Topic"/>
+                    <label end="69" start="66" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4104">
+            <text>L' EXISTENCE de cycles économiques et l' explication de leurs origines sont des questions débattues de longue date .</text>
+            <annotationSet status="MANUAL" ID="5723">
+                <layer rank="1" name="FE">
+                    <label end="88" start="76" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4612">
+            <text>- M. Bernard Pons , président du groupe RPR à l' Assemblée nationale , a demandé , lundi 13 janvier , la convocation d' une nouvelle session extraordinaire du Parlement afin de débattre de la " situation du paysage audiovisuel français " .</text>
+            <annotationSet status="MANUAL" ID="6503">
+                <layer rank="1" name="FE">
+                    <label end="236" start="189" name="Topic"/>
+                    <label end="167" start="159" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11060">
+            <text>Toutefois , les deux points culminants de l' agitation se sont situés le 24 novembre , à Paris - avec des échauffourées violentes au moment où les députés débattaient du volet agricole du GATT - et le 1er décembre , à Strasbourg - afin de protester contre la volonté américaine d' hégémonie sur le marché alimentaire mondial .</text>
+            <annotationSet status="MANUAL" ID="15315">
+                <layer rank="1" name="FE">
+                    <label end="193" start="170" name="Topic"/>
+                    <label end="153" start="143" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14390">
+            <text>Le Sénat a longuement débattu de la question fin mai avant de passer le relais , mardi 1er et mercredi 2 juin à l' Assemblée nationale .</text>
+            <annotationSet status="MANUAL" ID="18692">
+                <layer rank="1" name="FE">
+                    <label end="43" start="33" name="Topic"/>
+                    <label end="7" start="0" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21523">
+            <text>Il est vrai qu' il y a cent ans déjà , la France , gémissant sous la crise , débattait de thèmes familiers : le protectionnisme et les étrangers voleurs d' emplois ...</text>
+            <annotationSet status="MANUAL" ID="24877">
+                <layer rank="1" name="FE">
+                    <label end="162" start="90" name="Topic"/>
+                    <label end="47" start="39" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

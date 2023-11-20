@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="dévoiler.v" ID="2760" frame="Evidence" frameID="25" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Proposition"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="20043"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Support"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="20043"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15876">
+            <text>Il devra en convenir quand l' affaire des Irlandais de Vincennes dévoilera les curieuses pratiques de la " cellule antiterroriste " animée par M. Prouteau à l' Elysée , sur lesquelles , quoi qu' il en dise , il avait son mot à dire .</text>
+            <annotationSet status="MANUAL" ID="20043">
+                <layer rank="1" name="FE">
+                    <label end="63" start="27" name="Support"/>
+                    <label end="230" start="75" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

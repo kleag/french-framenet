@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="concéder.v" ID="1538" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Message"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="1879"/>
+                <annoSet ID="14034"/>
+                <annoSet ID="19795"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="1879"/>
+                <annoSet ID="14034"/>
+                <annoSet ID="19795"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1717">
+            <text>Je crois que cette proposition est réaliste , ce que concède également l' industrie concernée avec retenue .</text>
+            <annotationSet status="MANUAL" ID="1879">
+                <layer rank="1" name="FE">
+                    <label end="105" start="13" name="Message"/>
+                    <label end="51" start="49" name="Message"/>
+                    <label end="92" start="71" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9985">
+            <text>L' INSEE concède bien une probable croissance négative ( de 0 , 1 % ) pour le quatrième trimestre mais se refuse à parler dès maintenant de récession .</text>
+            <annotationSet status="MANUAL" ID="14034">
+                <layer rank="1" name="FE">
+                    <label end="96" start="22" name="Message"/>
+                    <label end="7" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15571">
+            <text>" l' engouement était tel pour cette fonction commerciale , qu' il a fallu compenser des excès , concède Jacques Bordure .</text>
+            <annotationSet status="MANUAL" ID="19795">
+                <layer rank="1" name="FE">
+                    <label end="95" start="0" name="Message"/>
+                    <label end="119" start="105" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

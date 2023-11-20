@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="toucher.v" ID="1132" frame="FR_Getting_money" frameID="10031" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gtr" name="Getter"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="11">
+            <FE name="Getter"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Getter"/>
+                <annoSet ID="6793"/>
+                <annoSet ID="7557"/>
+                <annoSet ID="9192"/>
+                <annoSet ID="9272"/>
+                <annoSet ID="12732"/>
+                <annoSet ID="19286"/>
+                <annoSet ID="19380"/>
+                <annoSet ID="19775"/>
+                <annoSet ID="20939"/>
+                <annoSet ID="21821"/>
+                <annoSet ID="23341"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Giver"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Giver"/>
+                <annoSet ID="20939"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Money"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="6793"/>
+                <annoSet ID="7557"/>
+                <annoSet ID="9192"/>
+                <annoSet ID="9272"/>
+                <annoSet ID="12732"/>
+                <annoSet ID="19286"/>
+                <annoSet ID="19380"/>
+                <annoSet ID="19775"/>
+                <annoSet ID="20939"/>
+                <annoSet ID="21821"/>
+                <annoSet ID="23341"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4780">
+            <text>Dix années suffisent aux anciens ouvriers et employés pour toucher des pensions de retraite égales au total des cotisations versées .</text>
+            <annotationSet status="MANUAL" ID="6793">
+                <layer rank="1" name="FE">
+                    <label end="130" start="67" name="Money"/>
+                    <label end="52" start="25" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5215">
+            <text>Aujourd' hui , les exploitants qui , dans ces régions , atteignent le niveau de 60 000 litres de lait par an ( correspondant en moyenne à un troupeau de 10 vaches ) n' ont plus le droit de toucher les primes à la vache allaitante .</text>
+            <annotationSet status="MANUAL" ID="7557">
+                <layer rank="1" name="FE">
+                    <label end="228" start="197" name="Money"/>
+                    <label end="163" start="15" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="195" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6186">
+            <text>Il prévoit la mensualisation de 65 des 162 dockers actuels ; 57 autres font l' objet de mesures d' âge , alors que 30 partiront en congés - conversion et que 10 toucheront des pensions d' invalidité .</text>
+            <annotationSet status="MANUAL" ID="9192">
+                <layer rank="1" name="FE">
+                    <label end="197" start="172" name="Money"/>
+                    <label end="159" start="158" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="170" start="161" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6220">
+            <text>Comme le note FO , une allocation unique dégressive privilégierait les cadres qui percevraient , dans la durée , une indemnité supérieure à celle qu' ils touchent actuellement .</text>
+            <annotationSet status="MANUAL" ID="9272">
+                <layer rank="1" name="FE">
+                    <label end="148" start="146" name="Money"/>
+                    <label end="174" start="67" name="Getter"/>
+                    <label end="152" start="150" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="161" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8907">
+            <text>Les agents concernés toucheront , sur une durée maximale d' un an , une rémunération égale à 100 % de leur traitement brut .</text>
+            <annotationSet status="MANUAL" ID="12732">
+                <layer rank="1" name="FE">
+                    <label end="121" start="68" name="Money"/>
+                    <label end="19" start="0" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14999">
+            <text>En octobre 1989 , Pierre Bérégovoy , ministre des finances , étendait aux sicav court terme le bénéfice de la capitalisation , c' est - à - dire la possibilité pour le détenteur de ne pas toucher les revenus annuels et de les cumuler en les additionnant au capital .</text>
+            <annotationSet status="MANUAL" ID="19286">
+                <layer rank="1" name="FE">
+                    <label end="214" start="196" name="Money"/>
+                    <label end="176" start="165" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15132">
+            <text>La compagnie nationale nigériane , soucieuse de ne pas trop sortir d' argent mais désireuse de toucher des dividendes substantiels , envisage donc de réduire sa participation , qui est actuellement de 60 % , en augmentant celle de Elf .</text>
+            <annotationSet status="MANUAL" ID="19380">
+                <layer rank="1" name="FE">
+                    <label end="129" start="103" name="Money"/>
+                    <label end="75" start="0" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15536">
+            <text>" Ce qui compte , raconte un directeur financier en train de changer de situation , c' est le niveau de vie qu' on a et la somme globale qu' on touche .</text>
+            <annotationSet status="MANUAL" ID="19775">
+                <layer rank="1" name="FE">
+                    <label end="149" start="120" name="Money"/>
+                    <label end="139" start="137" name="Money"/>
+                    <label end="142" start="141" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16813">
+            <text>Mr Wehbé a indiqué que Mr Joumblatt " touchait , récemment encore , de l' argent de l' OLP " .</text>
+            <annotationSet status="MANUAL" ID="20939">
+                <layer rank="1" name="FE">
+                    <label end="79" start="68" name="Money"/>
+                    <label end="34" start="23" name="Getter"/>
+                    <label end="89" start="84" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17755">
+            <text>À cela s' ajoutent la question délicate du transfert des réserves de change aux organismes communautaires et la nécessité de décider qui touchera les bénéfices .</text>
+            <annotationSet status="MANUAL" ID="21821">
+                <layer rank="1" name="FE">
+                    <label end="158" start="146" name="Money"/>
+                    <label end="135" start="133" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19382">
+            <text>L' ancien rapporteur de la commission des droits de l' homme des nations unies , qui a eu les pires ennuis pour avoir tenté d' en dénoncer les violations dans son pays , y est accusé d' avoir été colonel de la Securitate - il reconnaît avoir dirigé " moins d' un an " l' école du ministère de l' intérieur , en 1964 - 1965 , - d' avoir tué une personne dans un accident de voiture , d' avoir plagié des travaux universitaires et de s' être découvert dissident lorsqu' on lui refusa de sortir de Roumanie pour aller " toucher des devises " .</text>
+            <annotationSet status="MANUAL" ID="23341">
+                <layer rank="1" name="FE">
+                    <label end="535" start="525" name="Money"/>
+                    <label end="166" start="0" name="Getter"/>
+                    <label end="473" start="471" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="523" start="517" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

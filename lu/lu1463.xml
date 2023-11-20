@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="commentaire.n" ID="1463" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="13" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Message"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="3909"/>
+                <annoSet ID="8839"/>
+                <annoSet ID="12632"/>
+                <annoSet ID="13478"/>
+                <annoSet ID="13977"/>
+                <annoSet ID="15868"/>
+                <annoSet ID="15881"/>
+                <annoSet ID="22710"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Speaker"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2240"/>
+                <annoSet ID="2745"/>
+                <annoSet ID="8839"/>
+                <annoSet ID="13977"/>
+                <annoSet ID="20662"/>
+                <annoSet ID="22710"/>
+                <annoSet ID="22718"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="4346"/>
+                <annoSet ID="13478"/>
+                <annoSet ID="15868"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Topic"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="2240"/>
+                <annoSet ID="2745"/>
+                <annoSet ID="4346"/>
+                <annoSet ID="12632"/>
+                <annoSet ID="22710"/>
+                <annoSet ID="22718"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="13977"/>
+                <annoSet ID="15881"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1847">
+            <text>Madame la Présidente , en tant que rapporteur pour avis de la commission du contrôle budgétaire , je souhaiterais apporter un commentaire sur les deux points que nous avons introduits dans le rapport .</text>
+            <annotationSet status="MANUAL" ID="2240">
+                <layer rank="1" name="FE">
+                    <label end="198" start="142" name="Topic"/>
+                    <label end="99" start="98" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2081">
+            <text>Il serait utile que je fasse quelques brefs commentaires sur les raisons de nos recommandations .</text>
+            <annotationSet status="MANUAL" ID="2745">
+                <layer rank="1" name="FE">
+                    <label end="94" start="61" name="Topic"/>
+                    <label end="21" start="20" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3009">
+            <text>D' après les commentaires les accompagnant dans leur publication par Reuters , il y a notamment deux clichés du même immeuble , datés respectivement du 24 juillet et du 5 août 2006 , qui sont censés représenter chacun un " immeuble de Beyrouth détruit la nuit précédente par un raid israélien " [ 3 ] .</text>
+            <annotationSet status="MANUAL" ID="3909">
+                <layer rank="1" name="FE">
+                    <label end="75" start="9" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3298">
+            <text>Le temps d' un détour obligé par l' Elysée et des inévitables commentaires à chaud des voeux présidentiels , l' agonie de la Cinq version Hachette fait les premiers titres de tous les journaux télévisés de 20 heures .</text>
+            <annotationSet status="MANUAL" ID="4346">
+                <layer rank="1" name="FE">
+                    <label end="105" start="87" name="Topic"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5968">
+            <text>Ce qu' un expert résume d' un commentaire lapidaire : " Améliorer les réacteurs existants et fermer les plus pourris .</text>
+            <annotationSet status="MANUAL" ID="8839">
+                <layer rank="1" name="FE">
+                    <label end="50" start="27" name="Message"/>
+                    <label end="15" start="7" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8845">
+            <text>On pourrait discuter sinon les chiffres , du moins les commentaires sur l' utilisation des sommes citées .</text>
+            <annotationSet status="MANUAL" ID="12632">
+                <layer rank="1" name="FE">
+                    <label end="103" start="72" name="Topic"/>
+                    <label end="103" start="51" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9534">
+            <text>Dans les allées ou aux sorties de l' usine , les commentaires sont presque unanimes : " Nous avons retrouvé la fierté de nos parents et de nos grands - parents .</text>
+            <annotationSet status="MANUAL" ID="13478">
+                <layer rank="1" name="FE">
+                    <label end="60" start="45" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9949">
+            <text>D' emblée le lecteur est convié à exercer sa critique ; car les traducteurs ont eu l' intelligence de juxtaposer aux travaux de Kondratieff les commentaires de ses détracteurs , au premier rang desquels figure le minutieux contre - rapport de D. I. Oparine .</text>
+            <annotationSet status="MANUAL" ID="13977">
+                <layer rank="1" name="FE">
+                    <label end="255" start="140" name="Message"/>
+                    <label end="255" start="160" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11529">
+            <text>Le commentaire soulignait en particulier que l' argument de Paris selon lequel le déficit marqué de son commerce avec Pékin avait provoqué ce geste était " une excuse sans fondement " puisque les exportations françaises en Chine croissaient plus vite que le montant total du commerce bilatéral .</text>
+            <annotationSet status="MANUAL" ID="15868">
+                <layer rank="1" name="FE">
+                    <label end="13" start="0" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11533">
+            <text>Aucun des commentaires publiés n' a fait allusion à cet aspect des relations entre Paris et Pékin .</text>
+            <annotationSet status="MANUAL" ID="15881">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Message"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16461">
+            <text>Même les politiciens - le premier ministre , Süleyman Demirel , et le président Ozal en particulier - ont été sollicités et y sont allés de leurs commentaires .</text>
+            <annotationSet status="MANUAL" ID="20662">
+                <layer rank="1" name="FE">
+                    <label end="100" start="5" name="Speaker"/>
+                    <label end="144" start="140" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="146" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18594">
+            <text>À de rares exceptions près , les journaux de Moscou se sont contentés vendredi de reprendre sans commentaires les dépêches de l' agence Tass et ont publié tous la même photo du premier bain de foule du président soviétique à Vilnius .</text>
+            <annotationSet status="MANUAL" ID="22710">
+                <layer rank="1" name="FE">
+                    <label end="139" start="110" name="Topic"/>
+                    <label end="108" start="97" name="Message"/>
+                    <label end="50" start="29" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18598">
+            <text>Les principaux représentants du mouvement national lituanien ont multiplié les commentaires extrêmement sévères sur cette initiative spectaculaire du dirigeant soviétique , dans laquelle ils ne voient qu' une manoeuvre dilatoire .</text>
+            <annotationSet status="MANUAL" ID="22718">
+                <layer rank="1" name="FE">
+                    <label end="227" start="116" name="Topic"/>
+                    <label end="59" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

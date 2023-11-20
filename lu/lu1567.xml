@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="indication.n" ID="1567" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="14922"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Message"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="2783"/>
+                <annoSet ID="11700"/>
+                <annoSet ID="14922"/>
+                <annoSet ID="16034"/>
+                <annoSet ID="22955"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2783"/>
+                <annoSet ID="11700"/>
+                <annoSet ID="14922"/>
+                <annoSet ID="22955"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="16034"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Topic"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="2783"/>
+                <annoSet ID="11700"/>
+                <annoSet ID="16034"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2100">
+            <text>La Commission n' a donné aucune indication à ce sujet .</text>
+            <annotationSet status="MANUAL" ID="2783">
+                <layer rank="1" name="FE">
+                    <label end="52" start="43" name="Topic"/>
+                    <label end="52" start="25" name="Message"/>
+                    <label end="12" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8131">
+            <text>" Thomson et LTV ont demandé l' autorisation de retirer leur offre et le Committee on Foreign Investments in the United States a accédé à leur demande " , a indiqué M. Rich Myers , se refusant à fournir la moindre indication sur les intentions du CFIUS où , dès le 3 juillet , le ton général était : " Non à Thomson ! " .</text>
+            <annotationSet status="MANUAL" ID="11700">
+                <layer rank="1" name="FE">
+                    <label end="318" start="229" name="Topic"/>
+                    <label end="318" start="203" name="Message"/>
+                    <label end="177" start="165" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="223" start="214" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10682">
+            <text>Il serait temps car , selon les indications fournies dans nos éditions du samedi 26 décembre , les réserves nettes en devises de la banque de France se font tranquillement " saigner " par la fièvre en question , au fil des jours .</text>
+            <annotationSet status="MANUAL" ID="14922">
+                <layer rank="1" name="FE">
+                    <label end="91" start="28" name="Message"/>
+                    <label end="91" start="58" name="Medium"/>
+                    <label end="60" start="58" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11659">
+            <text>Jeudi soir , les autorités monétaires françaises sont fébriles , les dernières indications sur le vote du 20 sont contradictoires .</text>
+            <annotationSet status="MANUAL" ID="16034">
+                <layer rank="1" name="FE">
+                    <label end="107" start="95" name="Topic"/>
+                    <label end="107" start="65" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18888">
+            <text>L' indication donnée par le ministère , selon laquelle les manifestants étaient venus discuter de " problèmes publics " , laisse clairement entendre qu' ils s' étaient réunis pour demander le retour de la vie parlementaire , suspendue depuis 1986 .</text>
+            <annotationSet status="MANUAL" ID="22955">
+                <layer rank="1" name="FE">
+                    <label end="118" start="55" name="Message"/>
+                    <label end="120" start="0" name="Message"/>
+                    <label end="36" start="25" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="influer.v" ID="999" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Dependent"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="2173"/>
+                <annoSet ID="19867"/>
+                <annoSet ID="19897"/>
+                <annoSet ID="22544"/>
+                <annoSet ID="23481"/>
+                <annoSet ID="24271"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Dependent"/>
+                <annoSet ID="24369"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Influencer"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="2173"/>
+                <annoSet ID="19867"/>
+                <annoSet ID="19897"/>
+                <annoSet ID="22544"/>
+                <annoSet ID="23481"/>
+                <annoSet ID="24271"/>
+                <annoSet ID="24369"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1825">
+            <text>L' Union européenne est appelée , à travers les procédures de la Conférence intergouvernementale , à répondre aux grands défis qui marquent le passage du XXe au XXIe siècle , des défis majeurs que nous connaissons tous , qui influent chaque jour sur le cours de l' Union , des défis , surtout , qui soulèvent une question de fond : dans quelle mesure sommes -nous prêts , en tant qu' institution , en tant qu' Union européenne , à y faire face ?</text>
+            <annotationSet status="MANUAL" ID="2173">
+                <layer rank="1" name="FE">
+                    <label end="269" start="250" name="Dependent"/>
+                    <label end="269" start="175" name="Influencer"/>
+                    <label end="223" start="221" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="232" start="225" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15676">
+            <text>Dans leur vie privée , les destins des hommes et des femmes se rapprochent également : le mariage et la naissance des enfants n' influent que faiblement sur le maintien en activité des femmes ingénieurs .</text>
+            <annotationSet status="MANUAL" ID="19867">
+                <layer rank="1" name="FE">
+                    <label end="201" start="157" name="Dependent"/>
+                    <label end="124" start="87" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15705">
+            <text>Le poids institutionnel ( gouvernement , syndicats , patronat , chambres de commerce ... ) est aussi plus lourd en Europe , et influe très nettement sur le mode de gestion des entreprises .</text>
+            <annotationSet status="MANUAL" ID="19897">
+                <layer rank="1" name="FE">
+                    <label end="186" start="153" name="Dependent"/>
+                    <label end="22" start="0" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18408">
+            <text>Mais le politique aura -t-il encore la capacité d' influer sur l' écrasante logique marchande ?</text>
+            <annotationSet status="MANUAL" ID="22544">
+                <layer rank="1" name="FE">
+                    <label end="92" start="63" name="Dependent"/>
+                    <label end="16" start="5" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19591">
+            <text>La réglementation , ensuite , qui influe sur les choix des programmateurs .</text>
+            <annotationSet status="MANUAL" ID="23481">
+                <layer rank="1" name="FE">
+                    <label end="72" start="45" name="Dependent"/>
+                    <label end="74" start="0" name="Influencer"/>
+                    <label end="32" start="30" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20570">
+            <text>A l' inverse , l' évocation par les dirigeants de Carrefour d' une prochaine vente des 29 % détenus dans Castorama a peu influé sur le titre .</text>
+            <annotationSet status="MANUAL" ID="24271">
+                <layer rank="1" name="FE">
+                    <label end="139" start="132" name="Dependent"/>
+                    <label end="113" start="15" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="121" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20759">
+            <text>" l' importance des nouvelles inscriptions dans les petites entreprises " et le " développement des contrats précaires " , a -t-il encore indiqué , ont également influé , tandis que la faiblesse du taux de participation " ne signifie nullement que le nombre de suffrages exprimés sera inférieur " , expliquait -il en fin de soirée .</text>
+            <annotationSet status="MANUAL" ID="24369">
+                <layer rank="1" name="FE">
+                    <label end="119" start="0" name="Influencer"/>
+                    <label itype="ENI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

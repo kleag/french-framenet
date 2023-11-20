@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="approbation.n" ID="2265" frame="Ratification" frameID="1351" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="rat" name="Ratifier"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="10">
+            <FE name="Proposal"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="5393"/>
+                <annoSet ID="6123"/>
+                <annoSet ID="14245"/>
+                <annoSet ID="14424"/>
+                <annoSet ID="16599"/>
+                <annoSet ID="18849"/>
+                <annoSet ID="20691"/>
+                <annoSet ID="21077"/>
+                <annoSet ID="21623"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Proposal"/>
+                <annoSet ID="20531"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Ratifier"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Ratifier"/>
+                <annoSet ID="5393"/>
+                <annoSet ID="6123"/>
+                <annoSet ID="14245"/>
+                <annoSet ID="14424"/>
+                <annoSet ID="18849"/>
+                <annoSet ID="20531"/>
+                <annoSet ID="21623"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Ratifier"/>
+                <annoSet ID="16599"/>
+                <annoSet ID="20691"/>
+                <annoSet ID="21077"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3911">
+            <text>Sous réserve d' approbation par les autorités pragoises , un accord de principe - dont on sait encore peu de chose - devrait être conclu entre Avia et le groupe industriel allemand .</text>
+            <annotationSet status="MANUAL" ID="5393">
+                <layer rank="1" name="FE">
+                    <label end="54" start="32" name="Ratifier"/>
+                    <label end="115" start="58" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4361">
+            <text>Ayant refusé le protocole , la CGT et la CFE - CGC étaient opposées à la procédure d' agrément , sous prétexte que les nouveaux avenants doivent obtenir l' approbation de tous les signataires de la convention en cours .</text>
+            <annotationSet status="MANUAL" ID="6123">
+                <layer rank="1" name="FE">
+                    <label end="216" start="171" name="Ratifier"/>
+                    <label end="135" start="115" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10139">
+            <text>Moins de quinze jours après l' approbation officielle par les actionnaires de la création du groupe Pinault - Printemps , le président du directoire , M. Jean - Jacques Delort a , lundi 21 décembre , remis sa démission .</text>
+            <annotationSet status="MANUAL" ID="14245">
+                <layer rank="1" name="FE">
+                    <label end="73" start="58" name="Ratifier"/>
+                    <label end="118" start="78" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10269">
+            <text>Ils présentent aussi l' avantage de ne pas requérir l' approbation du Parlement - contrairement aux obligations de financement du déficit .</text>
+            <annotationSet status="MANUAL" ID="14424">
+                <layer rank="1" name="FE">
+                    <label end="78" start="70" name="Ratifier"/>
+                    <label end="2" start="0" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12256">
+            <text>Cette avance d' actionnaires , actuellement versée sur un compte bloqué , sera transformée en augmentation de capital effective , dès l' approbation des comptes de la Banque Duménil - Leblé pour l' exercice 1992 .</text>
+            <annotationSet status="MANUAL" ID="16599">
+                <layer rank="1" name="FE">
+                    <label end="188" start="153" name="Proposal"/>
+                    <label itype="UNI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14545">
+            <text>Les mesures sur l' emploi adoptées par le conseil des ministres ont reçu une " approbation sous réserve " du CNPF .</text>
+            <annotationSet status="MANUAL" ID="18849">
+                <layer rank="1" name="FE">
+                    <label end="112" start="106" name="Ratifier"/>
+                    <label end="62" start="0" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16354">
+            <text>L' approbation des autorités de certification américaines ( FAA ) devrait intervenir aussi en février 1993 .</text>
+            <annotationSet status="MANUAL" ID="20531">
+                <layer rank="1" name="FE">
+                    <label end="64" start="19" name="Ratifier"/>
+                    <label itype="DNI" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16500">
+            <text>1993 sera l' année d' approbation du XI plan .</text>
+            <annotationSet status="MANUAL" ID="20691">
+                <layer rank="1" name="FE">
+                    <label end="43" start="37" name="Proposal"/>
+                    <label itype="ENI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16959">
+            <text>Le ministre d' état , ministre des affaires étrangères , a présenté au conseil des ministres un projet de loi autorisant l' approbation d' une convention entre le gouvernement de la république française et le gouvernement de la république italienne en vue d' éviter les doubles impositions en matière d' impôts sur le revenu et sur la fortune , et de prévenir l' évasion de la fraude fiscale .</text>
+            <annotationSet status="MANUAL" ID="21077">
+                <layer rank="1" name="FE">
+                    <label end="247" start="139" name="Proposal"/>
+                    <label itype="UNI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17575">
+            <text>Elle devra encore obtenir l' approbation des actionnaires de Grand Met lors de l' assemblée générale prévue pour le mois de mars .</text>
+            <annotationSet status="MANUAL" ID="21623">
+                <layer rank="1" name="FE">
+                    <label end="69" start="45" name="Ratifier"/>
+                    <label end="3" start="0" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

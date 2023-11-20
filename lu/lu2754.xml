@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="dialogue de sourd.n" ID="2754" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Interlocutor_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Interlocutor_2"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Interlocutors"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="22012"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5324">
+            <text>Il y a en effet bien longtemps que ce dialogue tripartite , tel que l' avait conçu Harold Macmillan en 1962 , était devenu un dialogue de sourds .</text>
+            <annotationSet status="MANUAL" ID="7724">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17937">
+            <text>Guerre ethnique larvée au Caucase , dialogue de sourds entre Gorbatchev et les Lituaniens , abjuration du communisme par le PC polonais , spectaculaires valses - hésitations , en Roumanie et en RDA , de ce qu' on hésite à appeler encore " pouvoir " ; heurts , en Bulgarie , entre pro et anti- turcophones , risque grandissant d' implosion de la Yougoslavie : 1990 a démarré tellement en fanfare , dans les pays de l' Est , qu' on a le sentiment de n' avoir encore rien vu .</text>
+            <annotationSet status="MANUAL" ID="22012">
+                <layer rank="1" name="FE">
+                    <label end="88" start="61" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

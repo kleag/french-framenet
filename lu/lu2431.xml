@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="contre-attaque.n" ID="2431" frame="Response" frameID="1302" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core-Unexpressed" abbrev="res" name="Response"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="res_e" name="Responding_entity"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="tri" name="Trigger"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="age" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="stt" name="Sentient_trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Agent"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="15023"/>
+                <annoSet ID="16083"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responding_entity"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Response"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Response"/>
+                <annoSet ID="15023"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Response"/>
+                <annoSet ID="16083"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Sentient_trigger"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Trigger"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="15023"/>
+                <annoSet ID="16083"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10764">
+            <text>Au - dessus de l' Atlantique , les trois généraux vont préparer l' exécution de la contre - attaque .</text>
+            <annotationSet status="MANUAL" ID="15023">
+                <layer rank="1" name="FE">
+                    <label end="78" start="64" name="Response"/>
+                    <label end="48" start="31" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11711">
+            <text>Arrivé à Paris à 1h15 mercredi , les membres du " pack " se rendent directement à Bercy , où , jusqu' à 5 heures , ils mettront au point avec leurs équipes les détails de la contre - attaque .</text>
+            <annotationSet status="MANUAL" ID="16083">
+                <layer rank="1" name="FE">
+                    <label end="117" start="115" name="Agent"/>
+                    <label end="55" start="33" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="DNI" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="189" start="174" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

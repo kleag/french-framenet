@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="recommandation.n" ID="776" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="18" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="18">
+            <FE name="Action"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="693"/>
+                <annoSet ID="2767"/>
+                <annoSet ID="11448"/>
+            </pattern>
+            <pattern total="15">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="699"/>
+                <annoSet ID="937"/>
+                <annoSet ID="1670"/>
+                <annoSet ID="1679"/>
+                <annoSet ID="1683"/>
+                <annoSet ID="1694"/>
+                <annoSet ID="1701"/>
+                <annoSet ID="1857"/>
+                <annoSet ID="2746"/>
+                <annoSet ID="8959"/>
+                <annoSet ID="13852"/>
+                <annoSet ID="19902"/>
+                <annoSet ID="21629"/>
+                <annoSet ID="21631"/>
+                <annoSet ID="21634"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="8959"/>
+                <annoSet ID="13852"/>
+                <annoSet ID="21634"/>
+            </pattern>
+            <pattern total="15">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="693"/>
+                <annoSet ID="699"/>
+                <annoSet ID="937"/>
+                <annoSet ID="1670"/>
+                <annoSet ID="1679"/>
+                <annoSet ID="1683"/>
+                <annoSet ID="1694"/>
+                <annoSet ID="1701"/>
+                <annoSet ID="1857"/>
+                <annoSet ID="2746"/>
+                <annoSet ID="2767"/>
+                <annoSet ID="11448"/>
+                <annoSet ID="19902"/>
+                <annoSet ID="21629"/>
+                <annoSet ID="21631"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Medium"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="1683"/>
+                <annoSet ID="1694"/>
+                <annoSet ID="1701"/>
+                <annoSet ID="1857"/>
+                <annoSet ID="2767"/>
+                <annoSet ID="8959"/>
+                <annoSet ID="21629"/>
+                <annoSet ID="21631"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Persuader"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="693"/>
+                <annoSet ID="699"/>
+                <annoSet ID="1683"/>
+                <annoSet ID="1701"/>
+                <annoSet ID="2746"/>
+                <annoSet ID="2767"/>
+                <annoSet ID="8959"/>
+                <annoSet ID="11448"/>
+                <annoSet ID="13852"/>
+                <annoSet ID="19902"/>
+                <annoSet ID="21634"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="937"/>
+                <annoSet ID="1670"/>
+                <annoSet ID="1679"/>
+                <annoSet ID="1694"/>
+                <annoSet ID="1857"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="531">
+            <text>Il explique comment le comité des médicaments à usage humain ( CHMP ) a évalué les études réalisées afin d' aboutir à ses recommandations relatives aux conditions d' utilisation du médicament .</text>
+            <annotationSet status="MANUAL" ID="693">
+                <layer rank="1" name="FE">
+                    <label end="190" start="166" name="Action"/>
+                    <label end="120" start="118" name="Persuader"/>
+                    <label end="68" start="20" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="533">
+            <text>Si vous souhaitez davantage d' informations sur la base des recommandations du CHMP , veuillez lire la discussion scientifique ( également comprise dans l' EPAR ) .</text>
+            <annotationSet status="MANUAL" ID="699">
+                <layer rank="1" name="FE">
+                    <label end="82" start="79" name="Persuader"/>
+                    <label itype="DNI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="836">
+            <text>Dans le bras A de l' étude ACUITY , l' HNF ou l' enoxaparine est administrée selon les recommandations applicables au traitement du SCA chez les patients avec angor instable ou IDM ST- .</text>
+            <annotationSet status="MANUAL" ID="937">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1591">
+            <text>Outre ces recommandations , l' entrée en vigueur des traité et forme finale vont cependant dépendre de l' application respective des parties .</text>
+            <annotationSet status="MANUAL" ID="1670">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="DNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1596">
+            <text>Les recommandations proposées n' amélioreront pas la position de la culture en Europe , bien au contraire .</text>
+            <annotationSet status="MANUAL" ID="1679">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="DNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1598">
+            <text>Je ne parle donc pas maintenant de la recommandation de Mme Charlotte Cederschiöld , qui est un excellent document , mais bien des thèmes en rapport avec le droit d' auteur et qui ont été traités par le Parlement précédent .</text>
+            <annotationSet status="MANUAL" ID="1683">
+                <layer rank="1" name="FE">
+                    <label end="81" start="56" name="Persuader"/>
+                    <label end="113" start="35" name="Medium"/>
+                    <label itype="ENI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1601">
+            <text>Si ces copies techniques entraient dans le cadre de la protection , la transmission des données - comme on le constate tout à fait justement dans la recommandation - deviendrait sans aucune raison onéreuse et compliquée .</text>
+            <annotationSet status="MANUAL" ID="1694">
+                <layer rank="1" name="FE">
+                    <label end="162" start="146" name="Medium"/>
+                    <label itype="ENI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="DNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1606">
+            <text>Le Parlement s' est efforcé d' en tenir compte dans sa propre recommandation .</text>
+            <annotationSet status="MANUAL" ID="1701">
+                <layer rank="1" name="FE">
+                    <label end="53" start="52" name="Persuader"/>
+                    <label end="11" start="0" name="Persuader"/>
+                    <label end="75" start="52" name="Medium"/>
+                    <label itype="ENI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1705">
+            <text>La recommandation pour la deuxième lecture dont il est question constitue un acte législatif très important pour l' environnement , mais également pour l' économie au sein de l' Union européenne .</text>
+            <annotationSet status="MANUAL" ID="1857">
+                <layer rank="1" name="FE">
+                    <label end="62" start="0" name="Medium"/>
+                    <label itype="ENI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2081">
+            <text>Il serait utile que je fasse quelques brefs commentaires sur les raisons de nos recommandations .</text>
+            <annotationSet status="MANUAL" ID="2746">
+                <layer rank="1" name="FE">
+                    <label end="78" start="76" name="Persuader"/>
+                    <label itype="DNI" name="Action"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2089">
+            <text>Notre recommandation préconise de ne pas lever son immunité .</text>
+            <annotationSet status="MANUAL" ID="2767">
+                <layer rank="1" name="FE">
+                    <label end="58" start="34" name="Action"/>
+                    <label end="4" start="0" name="Persuader"/>
+                    <label end="19" start="0" name="Medium"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6041">
+            <text>Le CIFUS transmettra sa recommandation à la Maison Blanche le 7 juillet .</text>
+            <annotationSet status="MANUAL" ID="8959">
+                <layer rank="1" name="FE">
+                    <label end="57" start="41" name="Cognizer"/>
+                    <label end="22" start="21" name="Persuader"/>
+                    <label end="7" start="0" name="Persuader"/>
+                    <label end="37" start="21" name="Medium"/>
+                    <label itype="ENI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7924">
+            <text>Le ministre confirme donc qu' il n' entend pas suivre les recommandations du Trésor pour que le FGAS remplace les PAP .</text>
+            <annotationSet status="MANUAL" ID="11448">
+                <layer rank="1" name="FE">
+                    <label end="116" start="93" name="Action"/>
+                    <label end="82" start="77" name="Persuader"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9844">
+            <text>Et si d' aventure on venait à suivre leurs dangereuses recommandations , on ruinerait d' un coup l' acquis de six années au cours desquelles , en maintenant inchangé le cours du franc en mark , on a obtenu que l' écart entre les taux d' intérêts français et allemands se réduise de quatre points à un seul .</text>
+            <annotationSet status="MANUAL" ID="13852">
+                <layer rank="1" name="FE">
+                    <label end="19" start="18" name="Cognizer"/>
+                    <label end="41" start="37" name="Persuader"/>
+                    <label itype="DNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15714">
+            <text>" La recommandation du client satisfait " devient un leitmotiv apparemment suffisant pour attirer les candidats .</text>
+            <annotationSet status="MANUAL" ID="19902">
+                <layer rank="1" name="FE">
+                    <label end="40" start="23" name="Persuader"/>
+                    <label itype="ENI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17581">
+            <text>" En lisant les principes et recommandations , vous trouverez que certains d' entre eux ont un caractère évident " , a déclaré Mr Pfeiffer en présentant son rapport de 128 pages , avant d' ajouter : " Mais , quand une classe financière s' interroge sur les limites du licite et de l' illicite , le seul fait d' affirmer des principes et des recommandations est important .</text>
+            <annotationSet status="MANUAL" ID="21629">
+                <layer rank="1" name="FE">
+                    <label end="43" start="29" name="Medium"/>
+                    <label itype="UNI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17581">
+            <text>" En lisant les principes et recommandations , vous trouverez que certains d' entre eux ont un caractère évident " , a déclaré Mr Pfeiffer en présentant son rapport de 128 pages , avant d' ajouter : " Mais , quand une classe financière s' interroge sur les limites du licite et de l' illicite , le seul fait d' affirmer des principes et des recommandations est important .</text>
+            <annotationSet status="MANUAL" ID="21631">
+                <layer rank="1" name="FE">
+                    <label end="355" start="337" name="Medium"/>
+                    <label itype="UNI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="355" start="341" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17585">
+            <text>Dans chacune de ses parties , la commission a émis des recommandations s' adressant aux entreprises , aux émetteurs , aux intermédiaires ou à la COB .</text>
+            <annotationSet status="MANUAL" ID="21634">
+                <layer rank="1" name="FE">
+                    <label end="100" start="88" name="Cognizer"/>
+                    <label end="116" start="106" name="Cognizer"/>
+                    <label end="138" start="122" name="Cognizer"/>
+                    <label end="147" start="142" name="Cognizer"/>
+                    <label end="42" start="30" name="Persuader"/>
+                    <label itype="UNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

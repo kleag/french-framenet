@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Make_agreement_on_assessment" ID="10040" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizers&lt;/fen&gt; come to a similarity (or dissimilarity) of &lt;fen&gt;Opinion&lt;/fen&gt;, generally through communicating about their opinions. The &lt;fen&gt;Cognizers&lt;/fen&gt; may be expressed separately, with &lt;fen&gt;Cognizer_2&lt;/fen&gt; being the basis for establishing the &lt;fen&gt;Opinion&lt;/fen&gt; of &lt;fen&gt;Cognizer_1&lt;/fen&gt;.  Rather than a specific &lt;fen&gt;Opinion&lt;/fen&gt;, a phenomenon about which a similar or differing &lt;fen&gt;Opinion&lt;/fen&gt; is held, the &lt;fen&gt;Topic&lt;/fen&gt;, may be specified. 
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : new in fndata-asfalda (created as an inchoative frame for Be_in_agreement_on_assessment, as Make_agreement_on_action is to Be_in_agreement_on_action).
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;Be_in_agreement_on_assessment&lt;/frframe&gt;: FR_Make_agreement_on_assessment is inchoative of Be_in_agreement_on_assessment.
+
+&lt;ex&gt;&lt;/ex&gt;
+    ≠ &lt;frframe&gt;Make_agreement_on_action&lt;/frframe&gt;: FR_Make_agreement_on_assessment is about Cognizers coming to a similarity of opinions (about some content) whereas Make_agreement_on_action is about Parties agreeing to commit to an Obligation.
+
+
+&lt;ex&gt;&lt;fex name="Cognizers"&gt;Dr. Gerry and Mr. Pond&lt;/fex&gt; &lt;t&gt;agree&lt;/t&gt; &lt;fex name="Topic"&gt;in their impressions&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt; &lt;fex name="Cognizers"&gt;This copyeditor and I&lt;/fex&gt; &lt;fex name="Degree"&gt;mostly&lt;/fex&gt; &lt;t&gt;see&lt;/t&gt; &lt;t&gt;eye&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; &lt;t&gt;eye&lt;/t&gt; &lt;fex name="Topic"&gt;on things&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Cognizer_1"&gt;I&lt;/fex&gt; &lt;t&gt;agree&lt;/t&gt; &lt;fex name="cog2"&gt;with you&lt;/fex&gt; &lt;fex name="Opinion"&gt;that everything should be monitored to keep the person from wasting time and protecting the interests of the company&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:07 PDT Thu" abbrev="cogs" name="Cognizers" ID="8177">
+        <definition>&lt;def-root&gt;This FE marks constituents that express the set of &lt;fen&gt;Cognizers&lt;/fen&gt; whose similarity of opinion is at issue. 
+
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Cognizer_1" ID="8178"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="cog1" name="Cognizer_1" ID="8178">
+        <definition>&lt;def-root&gt;When there is an asymmetry, &lt;fen&gt;Cognizer_1&lt;/fen&gt; is the individual characterized by their similarity in opinion to &lt;fen&gt;Cognizer_2&lt;/fen&gt;, whose opinion is assumed to be known.  &lt;fen&gt;Cognizer_1&lt;/fen&gt; is often an external argument.
+&lt;/def-root&gt;</definition>
+        <requiresFE name="Cognizer_2" ID="8179"/>
+        <excludesFE name="Cognizers" ID="8177"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="cog2" name="Cognizer_2" ID="8179">
+        <definition>&lt;def-root&gt;When the &lt;fen&gt;Cognizers&lt;/fen&gt; are expressed separately, &lt;fen&gt;Cognizer_2&lt;/fen&gt; is the one whose opinion is assumed to be known; it serves as a basis for establishing the opinion of &lt;fen&gt;Cognizer_1&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+        <requiresFE name="Cognizer_1" ID="8178"/>
+        <excludesFE name="Cognizers" ID="8177"/>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:47:30 PDT Thu" abbrev="opi" name="Opinion" ID="8187">
+        <definition>&lt;def-root&gt;A state of affairs believed by the &lt;fen&gt;Cognizers&lt;/fen&gt;.
+
+&lt;ex&gt;We &lt;t&gt;agree&lt;/t&gt; &lt;fex name="opi"&gt;that babies should not be dropped from helicopters&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="d0d0d0" fgColor="000000" coreType="Core" cBy="605" cDate="06/16/2005 05:52:24 PDT Thu" abbrev="top" name="Topic" ID="8188">
+        <definition>&lt;def-root&gt;A phenomenon that the &lt;fen&gt;Cognizers&lt;/fen&gt; are considering with respect to their &lt;fen&gt;Opinion&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Opinion" ID="8187"/>
+        <memberFE name="Topic" ID="8188"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Make_agreement</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Causative of">
+        <relatedFrame>Be_in_agreement_on_assessment</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="convenir.v" ID="1310" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="801" annotatedsent="5"/>
+        <otherlexUnit framename="Other_sense" ID="100443" annotatedsent="34"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1548" annotatedsent="2"/>
+        <otherlexUnit framename="Make_agreement_on_action" ID="2009" annotatedsent="8"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'accorder.v" ID="1311" nbocc="8" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101695" annotatedsent="1"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="96" annotatedsent="5"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="82" annotatedsent="1"/>
+        <otherlexUnit framename="Make_agreement_on_action" ID="2010" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'entendre.v" ID="1312" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101714" annotatedsent="2"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="97" annotatedsent="1"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="2601" annotatedsent="1"/>
+        <otherlexUnit framename="Make_agreement_on_action" ID="2013" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se concerter.v" ID="955" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101751" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se mettre d'accord.v" ID="1313" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="101775" annotatedsent="0"/>
+        <otherlexUnit framename="Make_agreement_on_action" ID="2014" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="tomber d'accord.v" ID="1314" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101924" annotatedsent="0"/>
+        <otherlexUnit framename="Make_agreement_on_action" ID="2015" annotatedsent="1"/>
+    </lexUnit>
+</frame>

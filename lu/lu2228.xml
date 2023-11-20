@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="intention.n" ID="2228" frame="FR_Purpose" frameID="10070" totalAnnotated="46" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="0099CC" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="44">
+            <FE name="Agent"/>
+            <pattern total="35">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="2362"/>
+                <annoSet ID="4004"/>
+                <annoSet ID="4093"/>
+                <annoSet ID="6871"/>
+                <annoSet ID="7642"/>
+                <annoSet ID="7773"/>
+                <annoSet ID="9377"/>
+                <annoSet ID="10753"/>
+                <annoSet ID="11692"/>
+                <annoSet ID="11702"/>
+                <annoSet ID="12331"/>
+                <annoSet ID="12673"/>
+                <annoSet ID="14703"/>
+                <annoSet ID="14798"/>
+                <annoSet ID="16214"/>
+                <annoSet ID="16503"/>
+                <annoSet ID="16896"/>
+                <annoSet ID="17275"/>
+                <annoSet ID="18018"/>
+                <annoSet ID="18054"/>
+                <annoSet ID="18558"/>
+                <annoSet ID="18616"/>
+                <annoSet ID="18736"/>
+                <annoSet ID="20736"/>
+                <annoSet ID="21130"/>
+                <annoSet ID="21329"/>
+                <annoSet ID="21887"/>
+                <annoSet ID="21989"/>
+                <annoSet ID="22336"/>
+                <annoSet ID="22784"/>
+                <annoSet ID="23082"/>
+                <annoSet ID="23110"/>
+                <annoSet ID="23335"/>
+                <annoSet ID="23667"/>
+                <annoSet ID="24907"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="5043"/>
+                <annoSet ID="11240"/>
+                <annoSet ID="11244"/>
+                <annoSet ID="13722"/>
+                <annoSet ID="15017"/>
+                <annoSet ID="20716"/>
+                <annoSet ID="21399"/>
+                <annoSet ID="23365"/>
+                <annoSet ID="23367"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="46">
+            <FE name="Goal"/>
+            <pattern total="42">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="2362"/>
+                <annoSet ID="4004"/>
+                <annoSet ID="4093"/>
+                <annoSet ID="5043"/>
+                <annoSet ID="6871"/>
+                <annoSet ID="7642"/>
+                <annoSet ID="7773"/>
+                <annoSet ID="9377"/>
+                <annoSet ID="10438"/>
+                <annoSet ID="10753"/>
+                <annoSet ID="11240"/>
+                <annoSet ID="11244"/>
+                <annoSet ID="11692"/>
+                <annoSet ID="11702"/>
+                <annoSet ID="12331"/>
+                <annoSet ID="12673"/>
+                <annoSet ID="13722"/>
+                <annoSet ID="14703"/>
+                <annoSet ID="14798"/>
+                <annoSet ID="16214"/>
+                <annoSet ID="16503"/>
+                <annoSet ID="16896"/>
+                <annoSet ID="18018"/>
+                <annoSet ID="18054"/>
+                <annoSet ID="18558"/>
+                <annoSet ID="18616"/>
+                <annoSet ID="18736"/>
+                <annoSet ID="20716"/>
+                <annoSet ID="20736"/>
+                <annoSet ID="21130"/>
+                <annoSet ID="21329"/>
+                <annoSet ID="21399"/>
+                <annoSet ID="21887"/>
+                <annoSet ID="21989"/>
+                <annoSet ID="22151"/>
+                <annoSet ID="22336"/>
+                <annoSet ID="22784"/>
+                <annoSet ID="23082"/>
+                <annoSet ID="23110"/>
+                <annoSet ID="23335"/>
+                <annoSet ID="23667"/>
+                <annoSet ID="24907"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Goal"/>
+                <annoSet ID="15017"/>
+                <annoSet ID="17275"/>
+                <annoSet ID="23365"/>
+                <annoSet ID="23367"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Means"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="10438"/>
+                <annoSet ID="23110"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Means"/>
+                <annoSet ID="10438"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="22151"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Time_of_Eventuality"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Time_of_Eventuality"/>
+                <annoSet ID="4093"/>
+                <annoSet ID="16214"/>
+                <annoSet ID="24907"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1906">
+            <text>Quelle est l' intention de la Commission pour supprimer à court terme ces obstacles commerciaux ?</text>
+            <annotationSet status="MANUAL" ID="2362">
+                <layer rank="1" name="FE">
+                    <label end="39" start="11" name="Goal"/>
+                    <label end="39" start="27" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3128">
+            <text>S' ils n' ont pas l' intention de se livrer à une autocritique en règle et de revenir sur la notion de " syndicalisme de classe " , nombre de dirigeants cégétistes , proches des opposants à la " ligne Marchais " , souhaitent une CGT plus indépendante de la Place du Colonel - Fabien et capable de s' adapter enfin aux mutations du salariat .</text>
+            <annotationSet status="MANUAL" ID="4004">
+                <layer rank="1" name="FE">
+                    <label end="73" start="34" name="Goal"/>
+                    <label end="128" start="78" name="Goal"/>
+                    <label end="5" start="3" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3177">
+            <text>Virgin Megastore ayant annoncé son intention d' ouvrir une nouvelle fois dimanche 5 janvier , la CFDT l' a assigné en référé , lundi 30 décembre , pour s' opposer à cette opération .</text>
+            <annotationSet status="MANUAL" ID="4093">
+                <layer rank="1" name="FE">
+                    <label end="90" start="73" name="Time_of_Eventuality"/>
+                    <label end="90" start="48" name="Goal"/>
+                    <label end="33" start="31" name="Agent"/>
+                    <label end="15" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3702">
+            <text>Insensiblement , il se pourrait que , ce faisant , l' intention d' origine soit modifiée .</text>
+            <annotationSet status="MANUAL" ID="5043">
+                <layer rank="1" name="FE">
+                    <label end="73" start="51" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4825">
+            <text>Le patron de BSN , M. Antoine Riboud , aurait alors prévenu de ses intentions l' un de ses actionnaires principaux qui n' est autre qu' ... Agnelli .</text>
+            <annotationSet status="MANUAL" ID="6871">
+                <layer rank="1" name="FE">
+                    <label end="76" start="63" name="Goal"/>
+                    <label end="35" start="0" name="Agent"/>
+                    <label end="65" start="63" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5272">
+            <text>Mis à part la décision d' introduire , à partir du 1 juillet , un cours unique pour le rouble , timide prélude à une réelle convertibilité de la monnaie russe , le plan d' " approfondissement " de la libéralisation économique , présenté mardi 30 juin par le gouvernement , se présente plus comme un catalogue de bonnes intentions que comme un calendrier précis de la poursuite des réformes économiques .</text>
+            <annotationSet status="MANUAL" ID="7642">
+                <layer rank="1" name="FE">
+                    <label end="328" start="312" name="Goal"/>
+                    <label end="269" start="255" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="328" start="319" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5356">
+            <text>Les bonnes intentions de M. Major , qui souhaite promouvoir une classless society , une société qui offre l' égalité des chances , se heurtent à la réalité d' un pays qui n' évolue que lentement , comme en témoignent les barrières entre " castes " sociales .</text>
+            <annotationSet status="MANUAL" ID="7773">
+                <layer rank="1" name="FE">
+                    <label end="127" start="0" name="Goal"/>
+                    <label end="127" start="25" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6280">
+            <text>- Le fabricant de pneumatiques italien Pirelli a annoncé , vendredi 3 juillet , son intention de saisir les tribunaux devant le refus opposé par la direction du groupe allemand continental de lier les droits de vote au capital détenu .</text>
+            <annotationSet status="MANUAL" ID="9377">
+                <layer rank="1" name="FE">
+                    <label end="116" start="97" name="Goal"/>
+                    <label end="45" start="2" name="Agent"/>
+                    <label end="82" start="80" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7041">
+            <text>Le mouvement de blocage des routes par les transporteurs routiers est une nouvelle occasion de vérifier l' inefficacité des " corps intermédiaires " , ces organisations sans lesquelles concertation et dialogue social ne peuvent guère dépasser le stade de la bonne intention .</text>
+            <annotationSet status="MANUAL" ID="10438">
+                <layer rank="1" name="FE">
+                    <label end="272" start="255" name="Goal"/>
+                    <label end="215" start="185" name="Means"/>
+                    <label itype="UNI" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="272" start="264" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7314">
+            <text>- La firme électronique du secteur défense Hughes Aircraft a annoncé , mardi 30 juin , son intention de supprimer 9 000 emplois , soit 15 % de ses effectifs , dans les dix - huit prochains mois , et de céder certaines filiales dans le but d' améliorer sa rentabilité .</text>
+            <annotationSet status="MANUAL" ID="10753">
+                <layer rank="1" name="FE">
+                    <label end="197" start="104" name="Goal"/>
+                    <label end="225" start="202" name="Goal"/>
+                    <label end="57" start="2" name="Agent"/>
+                    <label end="89" start="87" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7761">
+            <text>L' intention fût -elle bonne , on est mal à l' aise d' être pris pour cible .</text>
+            <annotationSet status="MANUAL" ID="11240">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7762">
+            <text>Les bonnes intentions s' appellent " développement rural " , " plurifonctionnalité " agricole , etc. Rendus méfiants par tant de promesses , les éleveurs redoutent d' être payés un jour pour faire visiter des pâturages parsemés de vaches empaillées à raison de deux par hectare .</text>
+            <annotationSet status="MANUAL" ID="11244">
+                <layer rank="1" name="FE">
+                    <label end="20" start="0" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8129">
+            <text>Mettant un terme à ce qui , d' après le Washington Post , avait constitué " la bataille la plus féroce et la plus coûteuse en termes de lobbying , de ces derniers mois " , le groupe Thomson a informé le 6 juillet les autorités américaines de son intention de renoncer , dans sa phase actuelle , au rachat du fabricant de missiles LTV dont il avait hérité le 10 avril , à l' issue d' une décision en ce sens du tribunal des faillites de New - York .</text>
+            <annotationSet status="MANUAL" ID="11692">
+                <layer rank="1" name="FE">
+                    <label end="445" start="259" name="Goal"/>
+                    <label end="188" start="172" name="Agent"/>
+                    <label end="244" start="242" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="254" start="246" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8131">
+            <text>" Thomson et LTV ont demandé l' autorisation de retirer leur offre et le Committee on Foreign Investments in the United States a accédé à leur demande " , a indiqué M. Rich Myers , se refusant à fournir la moindre indication sur les intentions du CFIUS où , dès le 3 juillet , le ton général était : " Non à Thomson ! " .</text>
+            <annotationSet status="MANUAL" ID="11702">
+                <layer rank="1" name="FE">
+                    <label end="318" start="229" name="Goal"/>
+                    <label end="318" start="247" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="242" start="233" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8651">
+            <text>Depuis quelques jours , M. Tapie - qui ne cachait plus en privé son intention de céder la marque allemande , - multipliait les contacts et distillait des confidences sur des repreneurs potentiels .</text>
+            <annotationSet status="MANUAL" ID="12331">
+                <layer rank="1" name="FE">
+                    <label end="105" start="81" name="Goal"/>
+                    <label end="105" start="24" name="Agent"/>
+                    <label end="66" start="64" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8872">
+            <text>Comme il lui était difficile de rendre publique sa décision avant la fin de ses négociations pour la vente d' Adidas , il éprouve , sans doute , autant d' hésitation à dévoiler ses intentions avant de savoir quelles conclusions connaîtront ses démêlés judiciaires .</text>
+            <annotationSet status="MANUAL" ID="12673">
+                <layer rank="1" name="FE">
+                    <label end="190" start="177" name="Goal"/>
+                    <label end="179" start="177" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="190" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9756">
+            <text>Loin d' être négligeable , l' aide effectivement accordée se situe cependant bien en retrait des intentions proclamées ; contrairement aussi aux déclarations initiales , elle a été concentrée presque totalement sur la Russie .</text>
+            <annotationSet status="MANUAL" ID="13722">
+                <layer rank="1" name="FE">
+                    <label end="117" start="97" name="Goal"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10502">
+            <text>En juillet dernier , la compagnie britannique avait annoncé son intention d' acquérir une prise de participation de 44 % dans la quatrième compagnie aérienne américaine pour une somme de 750 millions de dollars ( soit environ 3 , 9 milliards de francs ) .</text>
+            <annotationSet status="MANUAL" ID="14703">
+                <layer rank="1" name="FE">
+                    <label end="252" start="77" name="Goal"/>
+                    <label end="44" start="21" name="Agent"/>
+                    <label end="62" start="60" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10583">
+            <text>M. Dupuy a l' intention de conserver la rédaction de Biba ( quinze journalistes et une vingtaine de " pigistes " ) .</text>
+            <annotationSet status="MANUAL" ID="14798">
+                <layer rank="1" name="FE">
+                    <label end="113" start="27" name="Goal"/>
+                    <label end="7" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10749">
+            <text>Il ne reste plus qu' à attendre que les déclarations d' intention soient suivies d' effet , en l' occurrence d' une législation adéquate ...</text>
+            <annotationSet status="MANUAL" ID="15017">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11863">
+            <text>- Comme il en avait l' intention , Carrefour a annoncé , mardi 29 décembre , la cession de sa chaîne de cafétérias , Eris restauration , à la société Phénix Richelieu .</text>
+            <annotationSet status="MANUAL" ID="16214">
+                <layer rank="1" name="FE">
+                    <label end="73" start="57" name="Time_of_Eventuality"/>
+                    <label end="12" start="11" name="Goal"/>
+                    <label end="165" start="45" name="Goal"/>
+                    <label end="43" start="35" name="Agent"/>
+                    <label end="9" start="8" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12175">
+            <text>Le groupe néerlandais a l' intention d' injecter 81 millions de florins ( environ 240 millions de francs ) " pour soutenir les plans de croissance de Sviluppo et pour obtenir le statut de courtier spécialiste en valeurs du Trésor italien pour Sviluppo Intermediazioni " , une filiale de la compagnie italienne spécialisée dans le négoce des obligations .</text>
+            <annotationSet status="MANUAL" ID="16503">
+                <layer rank="1" name="FE">
+                    <label end="105" start="40" name="Goal"/>
+                    <label end="20" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12528">
+            <text>La juridiction fédérale laisse en effet la porte ouverte à un réaménagement de l' offre , voie dans laquelle ZDS a bien l' intention de s' engouffrer .</text>
+            <annotationSet status="MANUAL" ID="16896">
+                <layer rank="1" name="FE">
+                    <label end="107" start="95" name="Goal"/>
+                    <label end="148" start="136" name="Goal"/>
+                    <label end="111" start="109" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12941">
+            <text>Ferme , la formule utilisée jeudi par le président évite le piège d' un procès d' intention trop direct à ses adversaires .</text>
+            <annotationSet status="MANUAL" ID="17275">
+                <layer rank="1" name="FE">
+                    <label end="120" start="106" name="Agent"/>
+                    <label itype="UNI" name="Goal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13708">
+            <text>Jeudi 29 octobre dans la soirée , le ministère de l' économie et des finances avait annoncé son intention de céder une partie des actions de l' Etat ( 56 , 9 % ) dans le capital de Rhône - Poulenc .</text>
+            <annotationSet status="MANUAL" ID="18018">
+                <layer rank="1" name="FE">
+                    <label end="195" start="109" name="Goal"/>
+                    <label end="76" start="34" name="Agent"/>
+                    <label end="94" start="92" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13738">
+            <text>A la fin du mois de janvier , Jean - Luc Lagardère , PDG de Hachette et de Matra , faisait part de son intention de rapprocher financièrement les deux sociétés afin que son groupe ne soit plus un " aigle à deux têtes " .</text>
+            <annotationSet status="MANUAL" ID="18054">
+                <layer rank="1" name="FE">
+                    <label end="217" start="116" name="Goal"/>
+                    <label end="79" start="30" name="Agent"/>
+                    <label end="101" start="99" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14217">
+            <text>Enfin , le projet de loi doit confirmer l' intention du gouvernement d' engager , après consultation des partenaires sociaux , un allongement progressif de la durée d' activité ( de trente - sept ans et demi à quarante ) nécessaire pour obtenir une retraite de base à taux plein et de la période de référence ( les vingt - cinq meilleures années au lieu des dix meilleures ) .</text>
+            <annotationSet status="MANUAL" ID="18558">
+                <layer rank="1" name="FE">
+                    <label end="373" start="72" name="Goal"/>
+                    <label end="67" start="56" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14301">
+            <text>Dernier baroud d' honneur , le ministre anglais a annoncé son intention d' introduire un recours devant la Cour européenne de justice de Luxembourg , estimant inappropriée la base juridique utilisée ( l' article 118 A du traité , qui concerne la protection de la sécurité et de la santé des travailleurs et prévoit la possibilité pour le Conseil des ministres de décider à la majorité qualifiée ) .</text>
+            <annotationSet status="MANUAL" ID="18616">
+                <layer rank="1" name="FE">
+                    <label end="146" start="75" name="Goal"/>
+                    <label end="46" start="28" name="Agent"/>
+                    <label end="60" start="58" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14425">
+            <text>A cet égard , on se demande , ébahi , pourquoi le gouvernement n' a pas encore annoncé son intention de réunir d' urgence une conférence Etat - régions , afin de savoir quel peut être le rôle de chacun dans la politique de lutte contre le chômage .</text>
+            <annotationSet status="MANUAL" ID="18736">
+                <layer rank="1" name="FE">
+                    <label end="150" start="104" name="Goal"/>
+                    <label end="61" start="47" name="Agent"/>
+                    <label end="89" start="87" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16537">
+            <text>Il y avait un moyen simple de prouver cette intention .</text>
+            <annotationSet status="MANUAL" ID="20716">
+                <layer rank="1" name="FE">
+                    <label end="52" start="38" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16553">
+            <text>Beaucoup y ont vu l' intention du gouvernement de vouloir maintenir un appareil répressif comme dans le passé .</text>
+            <annotationSet status="MANUAL" ID="20736">
+                <layer rank="1" name="FE">
+                    <label end="108" start="50" name="Goal"/>
+                    <label end="45" start="34" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17009">
+            <text>On lui prête d' ailleurs l' intention de prendre l' initiative à bref délai dans ce domaine .</text>
+            <annotationSet status="MANUAL" ID="21130">
+                <layer rank="1" name="FE">
+                    <label end="90" start="41" name="Goal"/>
+                    <label end="5" start="3" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17213">
+            <text>Gorbatchev a certainement l' intention , après avoir mené à bien la démilitarisation de l' Allemagne , d' édifier une union soviétique moderne aux dépens de l' Europe occidentale .</text>
+            <annotationSet status="MANUAL" ID="21329">
+                <layer rank="1" name="FE">
+                    <label end="177" start="106" name="Goal"/>
+                    <label end="9" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17327">
+            <text>Le monde de la formation subit aujourd' hui une série de mesures " techniques " , ponctuelles , maladroites , quand bien même les intentions ou les attendus sur lesquels elles reposent sont excellents .</text>
+            <annotationSet status="MANUAL" ID="21399">
+                <layer rank="1" name="FE">
+                    <label end="183" start="126" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17809">
+            <text>Quelles sont les possibilités et les intentions des différents acteurs ?</text>
+            <annotationSet status="MANUAL" ID="21887">
+                <layer rank="1" name="FE">
+                    <label end="46" start="33" name="Goal"/>
+                    <label end="69" start="52" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17920">
+            <text>Ils ont en revanche manifesté leur intention de se montrer " très vigilants " sur les risques de dérapage des cours induits par l' automatisation de la cotation .</text>
+            <annotationSet status="MANUAL" ID="21989">
+                <layer rank="1" name="FE">
+                    <label end="159" start="48" name="Goal"/>
+                    <label end="33" start="30" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18127">
+            <text>Les Européens , s' ils entendent mener à son terme l' intention exprimée dans le rapport Delors de créer un jour une union monétaire assortie d' un système commun de banques centrales ne sont pas au bout de leurs peines .</text>
+            <annotationSet status="MANUAL" ID="22151">
+                <layer rank="1" name="FE">
+                    <label end="94" start="78" name="Medium"/>
+                    <label end="182" start="99" name="Goal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18271">
+            <text>Mr Pierre Joxe a confirmé , vendredi , son intention de soutenir Mr Fabius , alors que Mr Charles Hernu avait déjà annoncé son ralliement à Mr Jospin et que Mr André Laignel était sur le point de faire de même .</text>
+            <annotationSet status="MANUAL" ID="22336">
+                <layer rank="1" name="FE">
+                    <label end="73" start="56" name="Goal"/>
+                    <label end="13" start="0" name="Agent"/>
+                    <label end="41" start="39" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18671">
+            <text>Face aux intentions prêtées aux Etats - Unis de réduire leurs troupes en Europe , on se demande à Vienne si les FCE ne seront pas tôt ou tard dépassées par les événements , au moins sur ce point .</text>
+            <annotationSet status="MANUAL" ID="22784">
+                <layer rank="1" name="FE">
+                    <label end="78" start="48" name="Goal"/>
+                    <label end="43" start="32" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19015">
+            <text>L' intéressé a refusé sa nouvelle affectation , la qualifiant de " humiliation personnelle " , et a manifesté son intention de quitter l' armée .</text>
+            <annotationSet status="MANUAL" ID="23082">
+                <layer rank="1" name="FE">
+                    <label end="142" start="127" name="Goal"/>
+                    <label end="11" start="0" name="Agent"/>
+                    <label end="112" start="110" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19087">
+            <text>Mr noël a l' intention de faire progresser les éditions Balland en publiant soixante - quinze livres par an au lieu de cinquante , en s' ouvrant notamment à la littérature étrangère , aux documents et aux essais .</text>
+            <annotationSet status="MANUAL" ID="23110">
+                <layer rank="1" name="FE">
+                    <label end="210" start="26" name="Goal"/>
+                    <label end="6" start="0" name="Agent"/>
+                    <label end="210" start="64" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19377">
+            <text>Il a légiféré par décrets , entretenu l' ambiguïté sur ses intentions dans le contexte des élections libres au moment où beaucoup le soupçonnaient de vouloir " confisquer la révolution " , multiplié les formulations vagues , et s' est montré incapable de rassurer ceux qui trouvaient que trop de dignitaires de l' ancien régime , encore là , risquaient de transformer " le Front de salut national en Front de salut de la nomenklatura " .</text>
+            <annotationSet status="MANUAL" ID="23335">
+                <layer rank="1" name="FE">
+                    <label end="68" start="55" name="Goal"/>
+                    <label end="57" start="55" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19407">
+            <text>Il y a une obligation d' intention , une obligation technique (...) .</text>
+            <annotationSet status="MANUAL" ID="23365">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19411">
+            <text>La parole , l' intention , l' enthousiasme sont des qualités qu' il faut conserver à la France .</text>
+            <annotationSet status="MANUAL" ID="23367">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19921">
+            <text>A l' occasion de la tournée qu' il effectue en Asie ( lire page 5 ) , le président américain George Bush a exprimé , le 4 janvier à Singapour , son intention de réduire plus que prévu les dépenses militaires américaines afin de favoriser une relance intérieure de l' économie .</text>
+            <annotationSet status="MANUAL" ID="23667">
+                <layer rank="1" name="FE">
+                    <label end="274" start="161" name="Goal"/>
+                    <label end="103" start="70" name="Agent"/>
+                    <label end="146" start="144" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21598">
+            <text>- FONCTION PUBLIQUE : Dans sa " lettre de cadrage " pour 1993 , Edouard Balladur précise son intention de réduire de 1 , 5 % les effectifs de la fonction publique l' année prochaine , afin de geler , en volume , la dépense publique et de ramener le déficit budgétaire de 1994 à 300 milliards de francs ( 28 , 29 ) .</text>
+            <annotationSet status="MANUAL" ID="24907">
+                <layer rank="1" name="FE">
+                    <label end="180" start="163" name="Time_of_Eventuality"/>
+                    <label end="180" start="106" name="Goal"/>
+                    <label end="79" start="64" name="Agent"/>
+                    <label end="91" start="89" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="raison.n" ID="690" frame="Explaining_the_facts" frameID="1462" totalAnnotated="17" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="fac" name="Fact"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sta" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="que" name="Question"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="13">
+            <FE name="Fact"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Fact"/>
+                <annoSet ID="6055"/>
+                <annoSet ID="8159"/>
+                <annoSet ID="9491"/>
+                <annoSet ID="10201"/>
+                <annoSet ID="10213"/>
+                <annoSet ID="11343"/>
+                <annoSet ID="12930"/>
+                <annoSet ID="13405"/>
+                <annoSet ID="14501"/>
+                <annoSet ID="15562"/>
+                <annoSet ID="15627"/>
+                <annoSet ID="16070"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Fact"/>
+                <annoSet ID="18588"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Question"/>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="State_of_affairs"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="State_of_affairs"/>
+                <annoSet ID="6055"/>
+                <annoSet ID="10201"/>
+                <annoSet ID="10213"/>
+                <annoSet ID="11343"/>
+                <annoSet ID="12930"/>
+                <annoSet ID="13405"/>
+                <annoSet ID="15562"/>
+                <annoSet ID="15627"/>
+                <annoSet ID="16070"/>
+                <annoSet ID="18588"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="State_of_affairs"/>
+                <annoSet ID="8159"/>
+                <annoSet ID="9491"/>
+                <annoSet ID="14501"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4960">
+            <text>Cette accélération a plusieurs raisons : la forte hausse des prix du tabac ( + 5 % sur un an ) , en raison de la lutte contre le tabagisme , l' accélération des loyers ( + 5 , 4 % après + 4 , 5 % ) , mais aussi le fait que la TVA n' a pas été allégée en 1991 contrairement à 1990 .</text>
+            <annotationSet status="MANUAL" ID="6055">
+                <layer rank="1" name="FE">
+                    <label end="73" start="41" name="State_of_affairs"/>
+                    <label end="166" start="141" name="State_of_affairs"/>
+                    <label end="203" start="200" name="State_of_affairs"/>
+                    <label end="278" start="211" name="State_of_affairs"/>
+                    <label end="17" start="0" name="Fact"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6443">
+            <text>Pour une raison simple : c' est le 1 janvier 1993 qu' entrera en vigueur la réglementation antipollution sur tous les véhicules de plus de 1 400 cm³ dans la Communauté .</text>
+            <annotationSet status="MANUAL" ID="8159">
+                <layer rank="1" name="FE">
+                    <label end="168" start="0" name="Fact"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7709">
+            <text>La raison tient à la finalité de la PAC : assurer des cours aussi rémunérateurs que possible .</text>
+            <annotationSet status="MANUAL" ID="9491">
+                <layer rank="1" name="FE">
+                    <label end="38" start="18" name="Fact"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8415">
+            <text>La première raison de la non- existence d' une catégorie " cadres " est sans doute que le respect de l' autre , qui est un des fondements des relations sociales , autorise difficilement une coupure entre deux mondes aussi distincts et étanches qu' en France .</text>
+            <annotationSet status="MANUAL" ID="10201">
+                <layer rank="1" name="FE">
+                    <label end="256" start="87" name="Fact"/>
+                    <label end="66" start="22" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8423">
+            <text>La deuxième raison de la non- existence des " cadres " est que la structuration pertinente du monde économique allemand n' est pas verticale ( ouvrier - employé - cadre ) mais horizontale : tout dépend du secteur , voire de la firme elle - même .</text>
+            <annotationSet status="MANUAL" ID="10213">
+                <layer rank="1" name="FE">
+                    <label end="186" start="63" name="Fact"/>
+                    <label end="53" start="22" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9449">
+            <text>Inutile d' aller chercher plus loin les raisons de la fermeture de l' ultime mine belge : à près de 1 000 francs par tonne produite , le charbon était hors de prix .</text>
+            <annotationSet status="MANUAL" ID="11343">
+                <layer rank="1" name="FE">
+                    <label end="164" start="0" name="Fact"/>
+                    <label end="86" start="51" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9822">
+            <text>Avec raison , le livre se garde bien de répondre .</text>
+            <annotationSet status="MANUAL" ID="11760">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10987">
+            <text>Le coton a également pâti d' une chute sensible pour des raisons analogues , tandis qu' à des degrés divers l' ensemble des produits tropicaux a essuyé les effets de l' implosion du bloc soviétique .</text>
+            <annotationSet status="MANUAL" ID="12930">
+                <layer rank="1" name="FE">
+                    <label end="73" start="53" name="Fact"/>
+                    <label end="198" start="0" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11509">
+            <text>Plusieurs raisons peuvent expliquer ce succès de l' imitateur Patrick Sébastien .</text>
+            <annotationSet status="MANUAL" ID="13405">
+                <layer rank="1" name="FE">
+                    <label end="16" start="0" name="Fact"/>
+                    <label end="78" start="36" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12791">
+            <text>Une autre raison est le regain de faveur d' une catégorie particulière de titres , ceux dont la rémunération varie en fonction du loyer de l' argent à court terme .</text>
+            <annotationSet status="MANUAL" ID="14501">
+                <layer rank="1" name="FE">
+                    <label end="79" start="21" name="Fact"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14070">
+            <text>Cela , Pierre Bérégovoy a mille fois raison de le nier de toutes ses forces .</text>
+            <annotationSet status="MANUAL" ID="15551">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14086">
+            <text>Ne cherchons pas plus loin la raison pour laquelle le déficit , s' il exerce une redoutable pression sur les taux , ne pose aucun problème de couverture .</text>
+            <annotationSet status="MANUAL" ID="15562">
+                <layer rank="1" name="FE">
+                    <label end="151" start="37" name="State_of_affairs"/>
+                    <label end="49" start="42" name="Fact"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14155">
+            <text>L' une des raisons de la conduite inébranlable de la Bundesbank se trouve sans doute dans le souvenir de l' hyperinflation des années 20 , dont les conséquences sont trop marquées dans les mémoires des hommes politiques pour qu' ils risquent à trop demander des baisses des taux d' intérêt .</text>
+            <annotationSet status="MANUAL" ID="15627">
+                <layer rank="1" name="FE">
+                    <label end="62" start="0" name="State_of_affairs"/>
+                    <label end="62" start="22" name="Fact"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14727">
+            <text>Une des réponses à cette question se trouve dans les raisons de la crise actuelle , et les mécanismes qu' elle met en oeuvre .</text>
+            <annotationSet status="MANUAL" ID="16070">
+                <layer rank="1" name="FE">
+                    <label end="123" start="49" name="State_of_affairs"/>
+                    <label end="80" start="64" name="Fact"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16693">
+            <text>- Mais en dehors de ces raisons économiques ou philosophiques , il y a la réalité : les étudiants sont à notre porte .</text>
+            <annotationSet status="MANUAL" ID="17580">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17369">
+            <text>L' évolution récente du système médiatique démontre que " les raisons économiques l' emportent souvent sur le devoir de vérité qu' impose , en principe , la déontologie professionnelle " .</text>
+            <annotationSet status="MANUAL" ID="18055">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18047">
+            <text>Sa raison , simple , tenait à l' indifférence générale : nul ne s' était préoccupé de le combler .</text>
+            <annotationSet status="MANUAL" ID="18588">
+                <layer rank="1" name="FE">
+                    <label end="17" start="0" name="State_of_affairs"/>
+                    <label itype="DNI" name="Fact"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

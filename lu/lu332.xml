@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="liquider.v" ID="332" frame="Commerce_sell" frameID="172" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Buyer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="14053"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="6595"/>
+                <annoSet ID="7127"/>
+                <annoSet ID="23882"/>
+                <annoSet ID="24595"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Goods"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="7127"/>
+                <annoSet ID="14053"/>
+                <annoSet ID="23882"/>
+                <annoSet ID="24595"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="6595"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Money"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Seller"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="6595"/>
+                <annoSet ID="7127"/>
+                <annoSet ID="14053"/>
+                <annoSet ID="23882"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="24595"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4673">
+            <text>Aujourd' hui , à Tokyo et à Londres , à Paris et à New - York , on vend à perte , on liquide .</text>
+            <annotationSet status="MANUAL" ID="6595">
+                <layer rank="1" name="FE">
+                    <label end="83" start="82" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4949">
+            <text>" Me Lafont , au cours d' un comité d' entreprise de la Cinq réuni dans la matinée du 15 janvier , avait laissé entendre qu' il espérait trouver un repreneur et qu' il ne souhaitait pas liquider la chaîne mais la mettre en redressement judiciaire , avec poursuite de l' activité par un repreneur , en limitant les licenciements .</text>
+            <annotationSet status="MANUAL" ID="7127">
+                <layer rank="1" name="FE">
+                    <label end="203" start="195" name="Goods"/>
+                    <label end="166" start="165" name="Seller"/>
+                    <label end="10" start="2" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10003">
+            <text>En 1933 , le théoricien américain Irving Fisher l' a décrit sous le nom de debt deflation : pour faire face à leurs obligations , les producteurs cherchent à tout prix à liquider leurs stocks mais les acheteurs potentiels attendent de nouvelles baisses .</text>
+            <annotationSet status="MANUAL" ID="14053">
+                <layer rank="1" name="FE">
+                    <label end="220" start="197" name="Buyer"/>
+                    <label end="190" start="179" name="Goods"/>
+                    <label end="144" start="130" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="177" start="170" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20153">
+            <text>Ces derniers ont liquidé de fortes positions en Europe et à New - York , témoignant ainsi de leur pessimisme sur l' évolution de l' économie mondiale .</text>
+            <annotationSet status="MANUAL" ID="23882">
+                <layer rank="1" name="FE">
+                    <label end="43" start="25" name="Goods"/>
+                    <label end="11" start="0" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21110">
+            <text>Mais une hausse substantielle des cours de la laine est improbable tant que les stocks n' auront pas été liquidés (...) .</text>
+            <annotationSet status="MANUAL" ID="24595">
+                <layer rank="1" name="FE">
+                    <label end="85" start="76" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

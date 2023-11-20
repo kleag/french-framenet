@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="conseil.n" ID="757" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Action"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="161"/>
+                <annoSet ID="1452"/>
+                <annoSet ID="2373"/>
+                <annoSet ID="3505"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="161"/>
+                <annoSet ID="2373"/>
+                <annoSet ID="3505"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="1452"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Persuader"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="161"/>
+                <annoSet ID="1452"/>
+                <annoSet ID="2373"/>
+                <annoSet ID="3505"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="130">
+            <text>Et la société Lorraine d' astronomie et le centre national de recherche scientifique donneront au public des conseils de prévention .</text>
+            <annotationSet status="MANUAL" ID="161">
+                <layer rank="1" name="FE">
+                    <label end="103" start="98" name="Cognizer"/>
+                    <label end="83" start="3" name="Persuader"/>
+                    <label itype="UNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1460">
+            <text>Il est important de suivre attentivement son conseil afin de prévenir une trop grande diminution de la calcémie ( taux de calcium dans le sang ) au cours de la période suivant la perfusion .</text>
+            <annotationSet status="MANUAL" ID="1452">
+                <layer rank="1" name="FE">
+                    <label end="43" start="41" name="Persuader"/>
+                    <label itype="DNI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1912">
+            <text>Je voudrais donner un conseil au commissaire .</text>
+            <annotationSet status="MANUAL" ID="2373">
+                <layer rank="1" name="FE">
+                    <label end="43" start="33" name="Cognizer"/>
+                    <label end="1" start="0" name="Persuader"/>
+                    <label itype="UNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2675">
+            <text>Huit jours après , Didier Schuller prenait la fuite en République dominicaine sur les conseil de son avocat Me Francis Szpiner et de la cellule juridique de l' Elysée ( le ' cabinet noir ' ) .</text>
+            <annotationSet status="MANUAL" ID="3505">
+                <layer rank="1" name="FE">
+                    <label end="99" start="97" name="Cognizer"/>
+                    <label end="33" start="19" name="Cognizer"/>
+                    <label end="125" start="97" name="Persuader"/>
+                    <label itype="ENI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

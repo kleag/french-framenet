@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="pressentir.v" ID="636" frame="FR_Expectation" frameID="10025" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="10211"/>
+                <annoSet ID="13883"/>
+                <annoSet ID="13983"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Phenomenon"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="10211"/>
+                <annoSet ID="13883"/>
+                <annoSet ID="13983"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6871">
+            <text>Plus profondément , les milieux financiers internationaux pressentent qu' au prix d' une unification momentanément coûteuse et douloureuse , une Allemagne encore plus puissante est en train de naître , dont le poids risque de déplacer vers l' est le centre de gravité de l' Europe .</text>
+            <annotationSet status="MANUAL" ID="10211">
+                <layer rank="1" name="FE">
+                    <label end="56" start="20" name="Cognizer"/>
+                    <label end="279" start="74" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9872">
+            <text>Les chefs d' entreprise , face aux incertitudes que cette dispersion des prix crée , ne peuvent plus se décider en faisant des calculs prévisionnels sérieux , d' autant moins qu' ils pressentent que l' inflation s' accompagnera tôt ou tard , mais à une date et avec une ampleur imprévisibles , d' une baisse de la valeur de la monnaie sur le marché des changes , donc d' une hausse des prix de leurs fournitures importées .</text>
+            <annotationSet status="MANUAL" ID="13883">
+                <layer rank="1" name="FE">
+                    <label end="181" start="179" name="Cognizer"/>
+                    <label end="22" start="0" name="Cognizer"/>
+                    <label end="420" start="199" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="183" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9954">
+            <text>Phase FINALE si l' on retient que ces textes datent de 1926 et 1928 et relèvent de recherches entreprises dès le début des années 20 , l' un des grands mérites de Kondratieff est d' avoir pressenti que ces années -là s' inscrivaient dans une phase descendante longue .</text>
+            <annotationSet status="MANUAL" ID="13983">
+                <layer rank="1" name="FE">
+                    <label end="173" start="163" name="Cognizer"/>
+                    <label end="265" start="202" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

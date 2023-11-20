@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Attributed_information" ID="10067" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Proposition&lt;/fen&gt; is attributed to a human &lt;fen&gt;Source&lt;/fen&gt;, or is contained in an &lt;fen&gt;Informational_content&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;t&gt;According&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; &lt;fex name="src"&gt;the Press Trust of India&lt;/fex&gt; &lt;fex name="infcont"&gt;in an article published on its Web site Thursday&lt;/fex&gt;, &lt;fex name="pro"&gt;the woman has been identified as 31-year-old Aafia Siddiqui, who was being sought by U.S. officials last week along with two other men, including one whose last known address was in Miramar, Fla&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt; In addition, &lt;t&gt;according&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; &lt;fex name="infcont"&gt;Section I3.5b&lt;/fex&gt;, &lt;fex name="pro"&gt;the spacing of stud shear connectors along the length of a supporting beam shall not exceed 36?&lt;/fex&gt;. &lt;/ex&gt;
+
+&lt;ex&gt;&lt;t&gt;According&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; &lt;fex name="src"&gt;the Pope&lt;/fex&gt;, &lt;fex name="pro"&gt;Muslims believe in the same God&lt;/fex&gt; and according to Jesus, Muslims are the greatest in Heaven.&lt;/ex&gt;
+
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Slight modification of the Attributed_information 1.5 frame: the Text FE is replaced by the more general Informational_content FE, as the source is often an informational content rather than a text. The Speaker FE is replaced by the more general Source FE, to include cases in which it is not clear that there was a communication.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/29/2004 05:58:52 PDT Tue" abbrev="pro" name="Proposition" ID="6635">
+        <definition>&lt;def-root&gt;The information attributed to the &lt;fen&gt;Source&lt;/fen&gt; or contained in the &lt;fen&gt;Informational_content&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="pro"&gt;Parents are present at and involved in the purchase or rental of games 83 percent of the time&lt;/fex&gt;, &lt;t&gt;according&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; a September 2000 Federal Trade Commission report &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/29/2004 06:01:47 PDT Tue" abbrev="src" name="Source" ID="6636">
+        <definition>&lt;def-root&gt;The sentient entity who is the source of the &lt;fen&gt;Proposition&lt;/fen&gt;.
+
+
+&lt;ex&gt;With the first big batch of music now blocked from Napster's file-swapping network, the average number of songs available on the service has dropped precipitously, &lt;t&gt;according&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; &lt;fex name="src"&gt;at least one research company&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/29/2004 06:03:41 PDT Tue" abbrev="infcont" name="Informational_content" ID="6638">
+        <definition>&lt;def-root&gt;The informational content containing the  &lt;fen&gt;Proposition&lt;/fen&gt;. It is more general than the usual Medium FE (written or spoken material containing the message) as it is not necessarily understandable per se as containing a communicated message.
+
+&lt;ex&gt;FR-EX: &lt;t&gt;Selon&lt;/t&gt; &lt;fex name="Informational_content"&gt;les informations fournies par le directeur&lt;/fex&gt;, le réseau A aurait touché près de 3 milliards. &lt;/ex&gt;
+
+&lt;ex&gt;The son of the Syrian defense minister received 6 million barrels, &lt;t&gt;according&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; &lt;fex name="Informational_content"&gt;the document&lt;/fex&gt;, worth about $3 million. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Source" ID="6636"/>
+        <memberFE name="Informational_content" ID="6638"/>
+    </FEcoreSet>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Attributed_information</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="prep" name="d'après.prep" ID="2647" nbocc="26" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="21"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="2649" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="102105" annotatedsent="4"/>
+        <otherlexUnit framename="Evidence" ID="2651" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="selon.prep" ID="2646" nbocc="437" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="79"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="2648" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="102104" annotatedsent="22"/>
+        <otherlexUnit framename="Evidence" ID="2652" annotatedsent="1"/>
+    </lexUnit>
+</frame>

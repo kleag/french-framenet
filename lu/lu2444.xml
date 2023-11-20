@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="répliquer.v" ID="2444" frame="Response" frameID="1302" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core-Unexpressed" abbrev="res" name="Response"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="res_e" name="Responding_entity"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="tri" name="Trigger"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="age" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="stt" name="Sentient_trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="17612"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responding_entity"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Response"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Response"/>
+                <annoSet ID="17612"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Sentient_trigger"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Trigger"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="17612"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="13236">
+            <text>Les Chinois ont répliqué immédiatement en annonçant qu' ils n' honoreraient pas après 1997 les contrats décidés de façon unilatérale par le gouvernement .</text>
+            <annotationSet status="MANUAL" ID="17612">
+                <layer rank="1" name="FE">
+                    <label end="151" start="42" name="Response"/>
+                    <label end="10" start="0" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

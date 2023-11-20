@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Means_for_purpose" ID="10049" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt; A &lt;fen&gt;Means&lt;/fen&gt; action that an &lt;fen&gt;Agent&lt;/fen&gt; performs with the objective of achieving a &lt;fen&gt;Goal&lt;/fen&gt;. The &lt;fen&gt;Goal&lt;/fen&gt; is a state of the world that does not currently hold but which the &lt;fen&gt;Agent&lt;/fen&gt; is planning and/or working towards. The Agent is not subcategorized by the LUs of this frame, and is thus not annotated.
+
+In some cases a &lt;fen&gt;Time_of_Eventuality&lt;/fen&gt; on the &lt;fen&gt;Goal&lt;/fen&gt; state of affairs can be given prominence as a separate constituent. 
+
+&lt;ex&gt;FR-EX: &lt;fex name="Agent"&gt;L'entreprise&lt;/fex&gt; vend ses filiales américaines &lt;t&gt;dans le but d'&lt;/t&gt; &lt;fex name="Goal"&gt;améliorer sa rentabilité&lt;/fex&gt; .&lt;/ex&gt;
+&lt;ex&gt;FR-EX: &lt;fex name="Means"&gt;L'entreprise vend ses filiales américaines&lt;/fex&gt; &lt;t&gt;dans le but d'&lt;/t&gt; &lt;fex name="Goal"&gt;améliorer sa rentabilité&lt;/fex&gt; .&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+
+Distinctions with other frames:
+
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Purpose&lt;/frframe&gt; : for the LUs of the FR_Purpose frame, the Agent can be realized locally (generally in core set with the Means FE), while the Agent cannot be locally expressed for the LUs of FR_Means_for_purpose (prepositions, conjunctions...).
+
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : new in ASFALDA
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/17/2003 03:50:23 PST Fri" abbrev="" name="Goal" ID="4086">
+        <definition>&lt;def-root&gt;The action or state of affairs that the Agent wants to achieve.
+
+&lt;ex&gt; FR-EX: &lt;fex name="Means"&gt;La Poste va supprimer la distribution l'après-midi&lt;/fex&gt; &lt;t&gt;afin de&lt;/t&gt; réduire les coûts.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <semType name="Human_act" ID="69"/>
+    </FE>
+    <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/17/2003 03:54:37 PST Fri" abbrev="" name="Means" ID="4087">
+        <definition>&lt;def-root&gt;A &lt;fen&gt;Means&lt;/fen&gt; is an act performed by the &lt;fen&gt;Agent&lt;/fen&gt; which enables them to to achieve a particular &lt;fen&gt;Goal&lt;/fen&gt;.
+&lt;ex&gt; FR-EX: La Poste va supprimer la distribution l'après-midi &lt;t&gt;afin de&lt;/t&gt; &lt;fex name="Goal"&gt;réduire les coûts&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="04/18/2003 12:05:24 PDT Fri" abbrev="tim" name="Time_of_Eventuality" ID="4400">
+        <definition>&lt;def-root&gt;This FE marks expressions that indicate a temporal framework relative to  which the &lt;fen&gt;Goal&lt;/fen&gt; is intented to hold by the Agent.
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Agent" ID="4085"/>
+        <memberFE name="Means" ID="4087"/>
+    </FEcoreSet>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Purpose</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="prep" name="afin de.prep" ID="2207" nbocc="158" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="105"/>
+        <otherlexUnit framename="Other_sense" ID="100060" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="afin que.conj" ID="2208" nbocc="13" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="100061" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="avec l'objectif de.prep" ID="2704" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="dans ce but.adv" ID="2213" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100516" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="dans cet objectif.adv" ID="2703" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="dans cette optique.adv" ID="2214" nbocc="0" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="dans l'optique de.prep" ID="2216" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100518" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="dans le but de.prep" ID="2215" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="100522" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="dans quel but.adv" ID="2217" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100527" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="dans un but de.prep" ID="2218" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100528" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="de façon à.prep" ID="2219" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100538" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="de manière à.prep" ID="2220" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100539" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="en vue de.prep" ID="2226" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="18"/>
+        <otherlexUnit framename="Other_sense" ID="100784" annotatedsent="8"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="pour que.conj" ID="2597" nbocc="4094" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101405" annotatedsent="27"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="pour.prep" ID="2230" nbocc="4094" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="19"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="2650" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="101407" annotatedsent="89"/>
+        <otherlexUnit framename="Causation" ID="2635" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="877" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à cet effet.prep" ID="2718" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à des fins de.prep" ID="2236" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="102003" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à des fins.prep" ID="2594" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="102004" annotatedsent="0"/>
+    </lexUnit>
+</frame>

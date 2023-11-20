@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="rapporter.v" ID="2634" frame="FR_Cause_earning" frameID="10073" totalAnnotated="20" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Earner"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Cause_of_earning"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="20">
+            <FE name="Cause_of_earning"/>
+            <pattern total="20">
+                <valenceUnit PT="filled" FE="Cause_of_earning"/>
+                <annoSet ID="5387"/>
+                <annoSet ID="9076"/>
+                <annoSet ID="9534"/>
+                <annoSet ID="14626"/>
+                <annoSet ID="14638"/>
+                <annoSet ID="15162"/>
+                <annoSet ID="16707"/>
+                <annoSet ID="16795"/>
+                <annoSet ID="17459"/>
+                <annoSet ID="17732"/>
+                <annoSet ID="18542"/>
+                <annoSet ID="18648"/>
+                <annoSet ID="20962"/>
+                <annoSet ID="22140"/>
+                <annoSet ID="22141"/>
+                <annoSet ID="22868"/>
+                <annoSet ID="22869"/>
+                <annoSet ID="23572"/>
+                <annoSet ID="23843"/>
+                <annoSet ID="23844"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="19">
+            <FE name="Earner"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Earner"/>
+                <annoSet ID="5387"/>
+                <annoSet ID="15162"/>
+                <annoSet ID="17732"/>
+                <annoSet ID="18648"/>
+                <annoSet ID="22140"/>
+                <annoSet ID="22141"/>
+                <annoSet ID="23572"/>
+            </pattern>
+            <pattern total="12">
+                <valenceUnit PT="null instantiation" FE="Earner"/>
+                <annoSet ID="9076"/>
+                <annoSet ID="14626"/>
+                <annoSet ID="14638"/>
+                <annoSet ID="16707"/>
+                <annoSet ID="16795"/>
+                <annoSet ID="17459"/>
+                <annoSet ID="18542"/>
+                <annoSet ID="20962"/>
+                <annoSet ID="22868"/>
+                <annoSet ID="22869"/>
+                <annoSet ID="23843"/>
+                <annoSet ID="23844"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Money"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="5387"/>
+                <annoSet ID="9076"/>
+                <annoSet ID="9534"/>
+                <annoSet ID="14626"/>
+                <annoSet ID="14638"/>
+                <annoSet ID="15162"/>
+                <annoSet ID="16707"/>
+                <annoSet ID="16795"/>
+                <annoSet ID="17459"/>
+                <annoSet ID="18542"/>
+                <annoSet ID="18648"/>
+                <annoSet ID="20962"/>
+                <annoSet ID="22868"/>
+                <annoSet ID="23572"/>
+                <annoSet ID="23843"/>
+                <annoSet ID="23844"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="17732"/>
+                <annoSet ID="22140"/>
+                <annoSet ID="22141"/>
+                <annoSet ID="22869"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3909">
+            <text>La TIPP aura rapporté à l' Etat 116 , 5 milliards de francs en 1991 .</text>
+            <annotationSet status="MANUAL" ID="5387">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Cause_of_earning"/>
+                    <label end="30" start="24" name="Earner"/>
+                    <label end="58" start="32" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6108">
+            <text>M. Jean Domange , président de la commission sociale du CNPF , n' a pas obtenu de ses pairs de pouvoir discuter d' une éventuelle augmentation des cotisations , alors qu' on sait qu' une hausse de 1 % " rapporterait " 14 milliards la première année .</text>
+            <annotationSet status="MANUAL" ID="9076">
+                <layer rank="1" name="FE">
+                    <label end="201" start="183" name="Cause_of_earning"/>
+                    <label end="229" start="218" name="Money"/>
+                    <label itype="DNI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="214" start="203" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6382">
+            <text>Les dollars acquis ne rapportant que 3 , 25 % , cela revient à majorer leur cours de la différence , soit 6 % , sur les marchés de change à terme , ce qui devient prohibitif et " plombe " désespérément la devise américaine .</text>
+            <annotationSet status="MANUAL" ID="9534">
+                <layer rank="1" name="FE">
+                    <label end="17" start="0" name="Cause_of_earning"/>
+                    <label end="44" start="37" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10425">
+            <text>Une hausse d' un point de cette cotisation rapporterait quelque 16 milliards en année pleine .</text>
+            <annotationSet status="MANUAL" ID="14626">
+                <layer rank="1" name="FE">
+                    <label end="41" start="0" name="Cause_of_earning"/>
+                    <label end="75" start="56" name="Money"/>
+                    <label itype="DNI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10429">
+            <text>Une session parlementaire extraordinaire permettrait de procéder à une éventuelle revalorisation de la cotisation d' assurance - vieillesse ( un simple décret est suffisant pour les salariés du secteur privé mais une loi doit intervenir pour l' appliquer aux agents de l' Etat ) , mais aussi de mettre un point final à l' adoption du Fonds de solidarité , une réforme qui ne rapporte aucun moyen financier mais " clarifie " le financement des retraites .</text>
+            <annotationSet status="MANUAL" ID="14638">
+                <layer rank="1" name="FE">
+                    <label end="370" start="368" name="Cause_of_earning"/>
+                    <label end="451" start="356" name="Cause_of_earning"/>
+                    <label end="404" start="384" name="Money"/>
+                    <label itype="ENI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="382" start="375" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10921">
+            <text>Leur cession devrait rapporter au Trésor public marocain entre 20 et 25 milliards de dirhams ( 1 dirham = 0 , 60 franc ) , selon les " premières estimations " de M. Zine Zahidi , ministre de l' industrie , du commerce et de la privatisation .</text>
+            <annotationSet status="MANUAL" ID="15162">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Cause_of_earning"/>
+                    <label end="55" start="34" name="Earner"/>
+                    <label end="91" start="57" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12367">
+            <text>Le gouvernement italien a approuvé , mercredi 30 décembre , un décret - loi prévoyant 2 350 milliards de lires ( 8 , 8 milliards de francs ) de soutien à l' emploi et donné son feu vert à des privatisations devant rapporter 27 000 milliards de lires ( 102 milliards de francs ) .</text>
+            <annotationSet status="MANUAL" ID="16707">
+                <layer rank="1" name="FE">
+                    <label end="212" start="188" name="Cause_of_earning"/>
+                    <label end="276" start="224" name="Money"/>
+                    <label itype="ENI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="222" start="214" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12463">
+            <text>Cette mesure devrait rapporter 2 , 5 milliards de francs .</text>
+            <annotationSet status="MANUAL" ID="16795">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Cause_of_earning"/>
+                    <label end="55" start="31" name="Money"/>
+                    <label itype="DNI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13089">
+            <text>Cet avant - projet considère que la redevance ( qui rapporte 1 , 4 milliard de livres ) restera la base du financement de l' entreprise publique .</text>
+            <annotationSet status="MANUAL" ID="17459">
+                <layer rank="1" name="FE">
+                    <label end="50" start="48" name="Cause_of_earning"/>
+                    <label end="86" start="33" name="Cause_of_earning"/>
+                    <label end="84" start="61" name="Money"/>
+                    <label itype="ENI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13413">
+            <text>Je vous souhaite , je nous souhaite , je leur souhaite , à tous les crève - misère noire de notre malheureuse planète , que les pays riches apprennent la générosité , la vraie , la seule qui rapporte durablement au donateur , puisque l' assisté de jadis devient un client et un consommateur .</text>
+            <annotationSet status="MANUAL" ID="17732">
+                <layer rank="1" name="FE">
+                    <label end="189" start="187" name="Cause_of_earning"/>
+                    <label end="222" start="151" name="Cause_of_earning"/>
+                    <label end="222" start="215" name="Earner"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="191" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14208">
+            <text>Alimenté par l' augmentation de 1 , 3 point de la contribution sociale généralisée ( CSG ) au 1er juillet ( qui rapportera 51 milliards de francs en 1994 ) et par l' augmentation du prix de certaines taxes ( 15 milliards de francs ) , ce fonds financera des prestations " de solidarité " ( majoration de 10 % pour l' éducation de trois enfants , minimum vieillesse , validation des périodes de chômage ou de service national , notamment ) .</text>
+            <annotationSet status="MANUAL" ID="18542">
+                <layer rank="1" name="FE">
+                    <label end="110" start="108" name="Cause_of_earning"/>
+                    <label end="154" start="13" name="Cause_of_earning"/>
+                    <label end="144" start="123" name="Money"/>
+                    <label itype="ENI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14347">
+            <text>L' opération , qui a rapporté 717 , 6 millions de francs , tombe à pic pour le groupe , qui a enregistré en 1992 une perte nette consolidée de 1 , 54 milliard de francs , en partie affecté par les pertes de sa filiale bancaire Duménil Leblé .</text>
+            <annotationSet status="MANUAL" ID="18648">
+                <layer rank="1" name="FE">
+                    <label end="55" start="0" name="Cause_of_earning"/>
+                    <label end="17" start="15" name="Cause_of_earning"/>
+                    <label end="239" start="76" name="Earner"/>
+                    <label end="55" start="30" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16855">
+            <text>Un comité interministériel consacré aux voies navigables a décidé , le mercredi 17 janvier , sous la présidence du premier ministre , de créer une redevance acquittée par tous les bénéficiaires directs ou indirects de la voie d' eau et qui devrait rapporter 400 millions de francs par an , dont 300 millions en provenance d' EDF .</text>
+            <annotationSet status="MANUAL" ID="20962">
+                <layer rank="1" name="FE">
+                    <label end="327" start="143" name="Cause_of_earning"/>
+                    <label end="238" start="236" name="Cause_of_earning"/>
+                    <label end="279" start="258" name="Money"/>
+                    <label itype="ENI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="256" start="248" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18109">
+            <text>Simplement , apportons à l' est ce qui doit nous rapporter et au Sud ce qui peut lui rapporter .</text>
+            <annotationSet status="MANUAL" ID="22140">
+                <layer rank="1" name="FE">
+                    <label end="74" start="72" name="Cause_of_earning"/>
+                    <label end="83" start="81" name="Earner"/>
+                    <label end="67" start="65" name="Earner"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18109">
+            <text>Simplement , apportons à l' est ce qui doit nous rapporter et au Sud ce qui peut lui rapporter .</text>
+            <annotationSet status="MANUAL" ID="22141">
+                <layer rank="1" name="FE">
+                    <label end="37" start="35" name="Cause_of_earning"/>
+                    <label end="47" start="44" name="Earner"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18770">
+            <text>Emises à 104 , 30 % , les nouvelles obligations EDF rapportaient jeudi , au pied des commissions , quelque 62 points de base ( ou centièmes de point de pourcentage ) de plus que les fonds d' état américains de durée comparable , dont le rendement se situait à 8 , 02 % .</text>
+            <annotationSet status="MANUAL" ID="22868">
+                <layer rank="1" name="FE">
+                    <label end="50" start="22" name="Cause_of_earning"/>
+                    <label end="267" start="99" name="Money"/>
+                    <label itype="UNI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18770">
+            <text>Emises à 104 , 30 % , les nouvelles obligations EDF rapportaient jeudi , au pied des commissions , quelque 62 points de base ( ou centièmes de point de pourcentage ) de plus que les fonds d' état américains de durée comparable , dont le rendement se situait à 8 , 02 % .</text>
+            <annotationSet status="MANUAL" ID="22869">
+                <layer rank="1" name="FE">
+                    <label end="267" start="178" name="Cause_of_earning"/>
+                    <label itype="UNI" name="Earner"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19793">
+            <text>Ils prennent beaucoup de risques , de véritables coups de poker qui rapportent gros , à l' image de leur ancêtre l' amiral Miaoulis , héros de la guerre d' indépendance de 1821 , mais aussi armateur qui a forcé le blocus de Nelson pour commercer avec Marseille .</text>
+            <annotationSet status="MANUAL" ID="23572">
+                <layer rank="1" name="FE">
+                    <label end="66" start="64" name="Cause_of_earning"/>
+                    <label end="82" start="35" name="Cause_of_earning"/>
+                    <label end="2" start="0" name="Earner"/>
+                    <label end="82" start="79" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20107">
+            <text>L' OAT à dix ans ne rapportait plus que 8 , 44 % sur le marché secondaire en fin de semaine , contre 8 , 56 % huit jours auparavant , l' échéance mars du MATIF s' inscrivant , à la veille du week - end , à 108 , 80 , après 109 , 20 , contre 108 , 15 le vendredi 3 janvier .</text>
+            <annotationSet status="MANUAL" ID="23843">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Cause_of_earning"/>
+                    <label end="47" start="40" name="Money"/>
+                    <label itype="UNI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20107">
+            <text>L' OAT à dix ans ne rapportait plus que 8 , 44 % sur le marché secondaire en fin de semaine , contre 8 , 56 % huit jours auparavant , l' échéance mars du MATIF s' inscrivant , à la veille du week - end , à 108 , 80 , après 109 , 20 , contre 108 , 15 le vendredi 3 janvier .</text>
+            <annotationSet status="MANUAL" ID="23844">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Cause_of_earning"/>
+                    <label end="108" start="101" name="Money"/>
+                    <label itype="UNI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

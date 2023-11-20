@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="reconnaître.v" ID="2683" frame="Ratification" frameID="1351" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="rat" name="Ratifier"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Proposal"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="16803"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Ratifier"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Ratifier"/>
+                <annoSet ID="16803"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18061">
+            <text>Réjouissons -nous que les salariés de la communauté européenne se soient vu ainsi reconnaître un ensemble de garanties qui n' a pas d' équivalent dans le monde .</text>
+            <annotationSet status="MANUAL" ID="16803">
+                <layer rank="1" name="FE">
+                    <label end="158" start="94" name="Proposal"/>
+                    <label itype="DNI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

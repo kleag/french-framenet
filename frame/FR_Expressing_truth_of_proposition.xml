@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Expressing_truth_of_proposition" ID="10071" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; expresses a &lt;fen&gt;Message&lt;/fen&gt; serving to assess or denying a &lt;fen&gt;Proposition&lt;/fen&gt; (or something a &lt;fen&gt;Past_speaker&lt;/fen&gt; said). The &lt;fen&gt;Addressee&lt;/fen&gt; is semantically understood, but cannot be expressed locally for the LUs in this frame. The key aspect is that the content of the &lt;fen&gt;Proposition&lt;/fen&gt; is either the contrary of the &lt;fen&gt;Message&lt;/fen&gt; (for negating LUs) or at least can be substantially different from the &lt;fen&gt;Message&lt;/fen&gt;, which serves as support to assess the  &lt;fen&gt;Proposition&lt;/fen&gt;. For some of the LUs, the &lt;fen&gt;Past_speaker&lt;/fen&gt; can be expressed instead of the &lt;fen&gt;Proposition&lt;/fen&gt;.
+&lt;ex&gt;FR-EX:&lt;fex name="Spkr"&gt;La ministre&lt;/fex&gt; &lt;t&gt;nie&lt;/t&gt; que &lt;fex name="Proposition"&gt;le pays est entré en récession&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;FR-EX:&lt;fex name="Spkr"&gt;La ministre&lt;/fex&gt; a &lt;t&gt;démenti&lt;/t&gt; &lt;fex name="Proposition"&gt;l'existence d'un tel plan&lt;/fex&gt;.&lt;/ex&gt;
+
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+≠ &lt;frframe&gt;FR_Statement-manner-noise&lt;/frframe&gt; : for the LUs in FR_Expressing_truth_of_proposition, the Message and the Proposition are either the opposite, or can substantially differ. This results in a key difference when the LUs are used in direct or indirect speech: in indirect speech, for FR_Statement-manner-noise LUs, the clausal complement is what the Speaker is purported to have said, whereas for the FR_Expressing_truth_of_proposition LUs, it is either the opposite (e.g. to deny) or at least it can substantially differ from it (e.g. to confirm), the Message then serving as support for the Proposition. Compare:
+&lt;ex&gt;FR-EX:&lt;fex name="Spkr"&gt;Il&lt;/fex&gt; &lt;t&gt;renchérit&lt;/t&gt; que &lt;fex name="Message"&gt;c'était pas le moment en plus&lt;/fex&gt;. [FR_Statement-manner-noise] &lt;/ex&gt;
+&lt;ex&gt;FR-EX:&lt;fex name="Spkr"&gt;Il&lt;/fex&gt; &lt;t&gt;nie&lt;/t&gt; qu' &lt;fex name="Proposition"&gt;un tel outil ait pu exister à cette période&lt;/fex&gt;. [FR_Expressing_truth_of_proposition]&lt;/ex&gt;
+&lt;ex&gt;FR-EX: " &lt;fex name="Message"&gt;Désormais, il semble que tout ce qui est secret est bon à publier&lt;/fex&gt;, &lt;t&gt;confirme&lt;/t&gt; &lt;fex name="Spkr"&gt;un journaliste&lt;/fex&gt; . [FR_Expressing_truth_of_proposition, message serves to confirm a prior discourse]&lt;/ex&gt;
+&lt;ex&gt;FR-EX: " &lt;fex name="Message"&gt;Il n'y a effectivement plus de soupe&lt;/fex&gt;, &lt;t&gt;confirme&lt;/t&gt; &lt;fex name="Spkr"&gt;le serveur&lt;/fex&gt; . [FR_Expressing_truth_of_proposition, depending on context, message and content coincide or not]&lt;/ex&gt;
+
+
+&lt;ex&gt;&lt;/ex&gt; 
+≠ &lt;frframe&gt;FR_Taking_sides&lt;/frframe&gt; : in FR_Expressing_truth_of_proposition, all the LUs necessarily evoke a verbal communication, whereas in FR_Taking_sides the LUs include this possibility. Further, in FR_Expressing_truth_of_proposition, what is expressed concerns the veracity of the Proposition, whereas in FR_Taking_sides it concerns its legitimacy.
+&lt;ex&gt;&lt;/ex&gt; 
+<!--TODO: the nominal direct object of some verbs correspond to an informational content, that may be correct or wrong, but not strictly speaking of a proposition that can be true or false (Mme Boneuil confirme ces calculs: that the computation are right, not that the computation have been performed or not)-->
+&lt;ex&gt;&lt;/ex&gt; 
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : French equivalents of some LUs from the Statement frame were moved to this new frame.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:52 PST Wed" abbrev="Prop" name="Proposition" ID="84">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Proposition&lt;/fen&gt; whose truth or falseness the &lt;fen&gt;Speaker&lt;/fen&gt; seeks to assess by uttering his &lt;fen&gt;Message&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Proposition" ID="55"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:05 PST Wed" abbrev="Msg" name="Message" ID="185">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Message&lt;/fen&gt; communicated by the &lt;fen&gt;Speaker&lt;/fen&gt;, serving to assess the truth or falseness of the &lt;fen&gt;Proposition&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="Spkr" name="Speaker" ID="8179">
+        <definition>&lt;def-root&gt;The individual or body that expresses the &lt;fen&gt;Message&lt;/fen&gt;, serving to assess or deny the &lt;fen&gt;Proposition&lt;/fen&gt;. 
+
+&lt;/def-root&gt;</definition>
+	<semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="pspkr" name="Past_speaker" ID="8179">
+        <definition>&lt;def-root&gt;The individual or body who previously expressed the &lt;fen&gt;Proposition&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+	<semType name="Sentient" ID="5"/>
+    </FE>
+
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/17/2001 03:05:17 PDT Tue" abbrev="Text" name="Medium" ID="1520">
+        <definition>&lt;def-root&gt;The written or spoken material that contains the message.
+&lt;ex&gt;&lt;fex name="Medium"&gt;The panel&lt;/fex&gt; denied that ....&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:12:05 PST Wed" abbrev="Add" name="Addressee" ID="184">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is the person to whom the &lt;fen&gt;Message&lt;/fen&gt; is communicated. 
+&lt;ex&gt;Evelyn &lt;t&gt;confirmed&lt;/t&gt; that information &lt;fex name="Add"&gt;to me&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+
+    <FEcoreSet>
+        <memberFE name="Proposition" ID="84"/>
+        <memberFE name="Past_speaker" ID="8179"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="1520"/>
+        <memberFE name="Speaker" ID="8179"/>
+    </FEcoreSet>
+   
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Expressing_stance</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Split of">
+        <relatedFrame>Statement</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="confirmation.n" ID="1539" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100391" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="2639" annotatedsent="1"/>
+        <otherlexUnit framename="Ratification" ID="2621" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="confirmer.v" ID="1540" nbocc="103" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="46"/>
+        <otherlexUnit framename="Other_sense" ID="100392" annotatedsent="16"/>
+        <otherlexUnit framename="Evidence" ID="538" annotatedsent="27"/>
+        <otherlexUnit framename="Ratification" ID="2620" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="n" name="contestation.n" ID="1545" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100421" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1637" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="contester.v" ID="1546" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100422" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1638" annotatedsent="21"/>
+    </lexUnit>
+    <lexUnit POS="n" name="contradiction.n" ID="1083" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100426" annotatedsent="7"/>
+        <otherlexUnit framename="Evidence" ID="539" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="contredire.v" ID="1547" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100435" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="540" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="corroborer.v" ID="1549" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100459" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="541" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="démentir.v" ID="1554" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="100694" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="551" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dénier.v" ID="1555" nbocc="1" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100702" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="422" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="555" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dénégation.n" ID="1556" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="désaveu.n" ID="1085" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100731" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="désavouer.v" ID="1086" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100732" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="557" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="infirmer.v" ID="1569" nbocc="2" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101061" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="568" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mettre en doute.v" ID="1575" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101221" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="nier.v" ID="1578" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101269" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="579" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="réfuter.v" ID="1604" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101667" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="592" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se défendre.v" ID="1609" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101761" annotatedsent="0"/>
+    </lexUnit>
+</frame>

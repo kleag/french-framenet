@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="inciter.v" ID="768" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Action"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="5365"/>
+                <annoSet ID="6072"/>
+                <annoSet ID="8509"/>
+                <annoSet ID="16692"/>
+                <annoSet ID="18653"/>
+                <annoSet ID="20924"/>
+                <annoSet ID="23705"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="5365"/>
+                <annoSet ID="6072"/>
+                <annoSet ID="16692"/>
+                <annoSet ID="18653"/>
+                <annoSet ID="23705"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="20924"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Medium"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="6072"/>
+                <annoSet ID="8509"/>
+                <annoSet ID="18653"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Persuader"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="5365"/>
+                <annoSet ID="6072"/>
+                <annoSet ID="8509"/>
+                <annoSet ID="16692"/>
+                <annoSet ID="18653"/>
+                <annoSet ID="23705"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="20924"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3893">
+            <text>Pour inciter les conducteurs à plus de prudence , on fera sauter ce plafond .</text>
+            <annotationSet status="MANUAL" ID="5365">
+                <layer rank="1" name="FE">
+                    <label end="46" start="31" name="Action"/>
+                    <label end="27" start="13" name="Cognizer"/>
+                    <label end="51" start="50" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4331">
+            <text>En outre , un comité de crise créé au sein de la rédaction va lancer une campagne visant à inciter les annonceurs à continuer d' investir sur la Cinq .</text>
+            <annotationSet status="MANUAL" ID="6072">
+                <layer rank="1" name="FE">
+                    <label end="148" start="116" name="Action"/>
+                    <label end="112" start="99" name="Cognizer"/>
+                    <label end="57" start="11" name="Persuader"/>
+                    <label end="89" start="69" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5786">
+            <text>Il persiste dans son refus outragé de contribuer à faire vendre un produit ... mais n' hésite pas à apparaître dans un spot pour inciter aux économies d' énergie !</text>
+            <annotationSet status="MANUAL" ID="8509">
+                <layer rank="1" name="FE">
+                    <label end="160" start="141" name="Action"/>
+                    <label end="1" start="0" name="Persuader"/>
+                    <label end="122" start="116" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12352">
+            <text>Estimant donc que le consommateur n' est pas justement informé et que la concurrence est faussée , la DGCCRF veut faire modifier la publicité qui est faite par les parfumeries , pour les inciter , par exemple , à pratiquer des " prix bas " .</text>
+            <annotationSet status="MANUAL" ID="16692">
+                <layer rank="1" name="FE">
+                    <label end="238" start="213" name="Action"/>
+                    <label end="174" start="160" name="Cognizer"/>
+                    <label end="185" start="183" name="Cognizer"/>
+                    <label end="107" start="99" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14351">
+            <text>Trois grandes décisions charpentent la politique de l' emploi avec l' exonération des allocations familiales pour les bas salaires ; la surprenante aide financière , apportée aux salariés par l' Etat , afin d' inciter les entreprises à préférer la baisse des salaires aux licenciements ; et le développement de la formation professionnelle par alternance , dont l' apprentissage .</text>
+            <annotationSet status="MANUAL" ID="18653">
+                <layer rank="1" name="FE">
+                    <label end="284" start="236" name="Action"/>
+                    <label end="232" start="218" name="Cognizer"/>
+                    <label end="198" start="192" name="Persuader"/>
+                    <label end="208" start="133" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="216" start="210" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16789">
+            <text>Il ne faut pas secondariser l' enseignement supérieur ni inciter à un démembrement des universités .</text>
+            <annotationSet status="MANUAL" ID="20924">
+                <layer rank="1" name="FE">
+                    <label end="97" start="67" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19965">
+            <text>Pour inciter les paysans à la productivité , le pouvoir en URSS aura sans cesse été tiraillé entre les deux tentations de la centralisation et d' une certaine autonomie , avec au centre de ses préoccupations la fixation du juste prix .</text>
+            <annotationSet status="MANUAL" ID="23705">
+                <layer rank="1" name="FE">
+                    <label end="41" start="27" name="Action"/>
+                    <label end="23" start="13" name="Cognizer"/>
+                    <label end="62" start="45" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

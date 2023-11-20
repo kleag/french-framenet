@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="percevoir.v" ID="1127" frame="FR_Getting_money" frameID="10031" totalAnnotated="12" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gtr" name="Getter"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="12">
+            <FE name="Getter"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Getter"/>
+                <annoSet ID="3573"/>
+                <annoSet ID="5505"/>
+                <annoSet ID="9271"/>
+                <annoSet ID="10400"/>
+                <annoSet ID="13913"/>
+                <annoSet ID="13963"/>
+                <annoSet ID="19437"/>
+                <annoSet ID="21595"/>
+                <annoSet ID="24044"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Getter"/>
+                <annoSet ID="6788"/>
+                <annoSet ID="10376"/>
+                <annoSet ID="19289"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Giver"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Giver"/>
+                <annoSet ID="10376"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Money"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="3573"/>
+                <annoSet ID="5505"/>
+                <annoSet ID="6788"/>
+                <annoSet ID="9271"/>
+                <annoSet ID="10376"/>
+                <annoSet ID="10400"/>
+                <annoSet ID="13913"/>
+                <annoSet ID="13963"/>
+                <annoSet ID="19289"/>
+                <annoSet ID="19437"/>
+                <annoSet ID="21595"/>
+                <annoSet ID="24044"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2741">
+            <text>Selon Le Monde du 25 janvier 2006 , on lui reproche d' avoir perçu près de 40 millions de francs en trois ans , en échange d' informations livrées aux entreprises sur les marchés de l' OPAC .</text>
+            <annotationSet status="MANUAL" ID="3573">
+                <layer rank="1" name="FE">
+                    <label end="95" start="67" name="Money"/>
+                    <label end="41" start="39" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3974">
+            <text>Pendant les quatre premières années , il ne percevra qu' un taux d' intérêt de 1 , 75 % et , pour la dernière année , il pourra , s' il le désire , échanger ses obligations contre d' autres rémunérées à taux variable .</text>
+            <annotationSet status="MANUAL" ID="5505">
+                <layer rank="1" name="FE">
+                    <label end="86" start="57" name="Money"/>
+                    <label end="39" start="38" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4779">
+            <text>Si l' on compare l' ensemble des cotisations versées par les anciens salariés durant leur vie active et le total des pensions perçues ( qu' il s' agisse de la sécurité sociale ou des régimes complémentaires ) , peu de différences apparaissent entre catégories socio - professionnelles .</text>
+            <annotationSet status="MANUAL" ID="6788">
+                <layer rank="1" name="FE">
+                    <label end="124" start="117" name="Money"/>
+                    <label itype="UNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6220">
+            <text>Comme le note FO , une allocation unique dégressive privilégierait les cadres qui percevraient , dans la durée , une indemnité supérieure à celle qu' ils touchent actuellement .</text>
+            <annotationSet status="MANUAL" ID="9271">
+                <layer rank="1" name="FE">
+                    <label end="174" start="113" name="Money"/>
+                    <label end="80" start="78" name="Getter"/>
+                    <label end="174" start="67" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7000">
+            <text>Favorable aux salaires modestes , la CSG ( perçue auprès des retraités soumis à l' impôt sur le revenu ) a , en revanche , affecté le pouvoir d' achat de certaines pensions .</text>
+            <annotationSet status="MANUAL" ID="10376">
+                <layer rank="1" name="FE">
+                    <label end="41" start="34" name="Money"/>
+                    <label end="101" start="61" name="Giver"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7014">
+            <text>Un cadre a donc gagné , en moyenne , 2 , 7 fois plus qu' un ouvrier alors qu' un employé aura perçu un peu plus que les ouvriers , excepté dans des secteurs tels que la chimie de base , où les conditions de travail et les primes augmentent les rémunérations ouvrières .</text>
+            <annotationSet status="MANUAL" ID="10400">
+                <layer rank="1" name="FE">
+                    <label end="127" start="100" name="Money"/>
+                    <label end="87" start="78" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9893">
+            <text>Grâce à quoi le coût global à compenser serait , tous comptes faits , moindre qu' indiqué ci - dessus , parce qu' atténué par l' augmentation du nombre de cotisants et la réduction de celui des chômeurs qui ne cotisent pas et perçoivent des allocations de chômage .</text>
+            <annotationSet status="MANUAL" ID="13913">
+                <layer rank="1" name="FE">
+                    <label end="262" start="237" name="Money"/>
+                    <label end="262" start="194" name="Getter"/>
+                    <label end="205" start="203" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="235" start="226" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9936">
+            <text>Au risque d' apparaître réservé par rapport au libre - échangisme , l' alternative me semble claire : ou bien notre niveau de vie et notre protection sociale s' aligneront sur des standards mondiaux , ou bien nous serons dans l' obligation de percevoir des droits sur les flux d' importations depuis les pays dont les coûts de production - salaires et charges sociales - sont sans rapport avec les nôtres .</text>
+            <annotationSet status="MANUAL" ID="13963">
+                <layer rank="1" name="FE">
+                    <label end="403" start="253" name="Money"/>
+                    <label end="212" start="209" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="251" start="243" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15003">
+            <text>Comme pour les actions de sociétés , un seuil de transactions annuelles ( 316 900 F en 1992 ) était fixé , en dessous duquel aucune taxe n' était perçue , ce qui équivalait à exonérer de tout impôt le revenu d' un capital d' un peu plus de 3 millions de francs pour un rendement de 10 % .</text>
+            <annotationSet status="MANUAL" ID="19289">
+                <layer rank="1" name="FE">
+                    <label end="135" start="125" name="Money"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="146" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15193">
+            <text>En contrepartie , elle perçoit des royalties .</text>
+            <annotationSet status="MANUAL" ID="19437">
+                <layer rank="1" name="FE">
+                    <label end="43" start="31" name="Money"/>
+                    <label end="21" start="18" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17547">
+            <text>Le fonds spécial permettra aux chômeurs de percevoir 75 % de leurs salaires pendant les trois premiers mois , 50 % durant les six mois suivants et 40 % ensuite .</text>
+            <annotationSet status="MANUAL" ID="21595">
+                <layer rank="1" name="FE">
+                    <label end="158" start="53" name="Money"/>
+                    <label end="65" start="61" name="Getter"/>
+                    <label end="38" start="31" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20326">
+            <text>Les loyers perçus à partir du 1 janvier 1992 par les propriétaires de logements dans les communes de moins de 5 000 habitants seront exonérés d' impôts s' ils répondent à plusieurs conditions : le logement loué était vacant depuis plus de deux ans ; la location sera à usage de résidence principale pendant au moins neuf ans ; le locataire devra disposer de ressources ne dépassant pas un certain plafond ; le loyer devra lui aussi ne pas dépasser certaines limites ( les deux plafonds seront fixés par décrets ) .</text>
+            <annotationSet status="MANUAL" ID="24044">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Money"/>
+                    <label end="124" start="49" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="valider.v" ID="2274" frame="Ratification" frameID="1351" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="rat" name="Ratifier"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Proposal"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="995"/>
+                <annoSet ID="3032"/>
+                <annoSet ID="12710"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Ratifier"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Ratifier"/>
+                <annoSet ID="3032"/>
+                <annoSet ID="12710"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Ratifier"/>
+                <annoSet ID="995"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="901">
+            <text>En cas d' utilisation non immédiate , les durées et conditions de conservation après reconstitution et avant utilisation relèvent de la seule responsabilité de l' utilisateur et ne doivent pas dépasser 24 heures entre 2 °C - 8 °C , sauf en cas de reconstitution / dilution réalisée en conditions d' aseptie dûment contrôlées et validées .</text>
+            <annotationSet status="MANUAL" ID="995">
+                <layer rank="1" name="FE">
+                    <label end="305" start="285" name="Proposal"/>
+                    <label itype="UNI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="335" start="328" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2334">
+            <text>En février 2007 , la chambre de l' instruction du tribunal de Paris a validé la mise en examen des directeurs de cabinet de Jacques Chirac à la mairie de Paris de 1983 à 1993 : Michel Roussin , qui s' est pourvu en cassation , Robert Pandraud et Daniel Naftalski .</text>
+            <annotationSet status="MANUAL" ID="3032">
+                <layer rank="1" name="FE">
+                    <label end="66" start="18" name="Ratifier"/>
+                    <label end="261" start="77" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8894">
+            <text>Selon une étude de la fédération nationale des travaux publics ( FNTP ) , dont les conclusions ont été validées par le ministère de l' équipement , deux scénarios - contrastés - d' évolution de l' activité peuvent être envisagés , qui conduisent à des conséquences très différentes sur l' emploi dans ce secteur .</text>
+            <annotationSet status="MANUAL" ID="12710">
+                <layer rank="1" name="FE">
+                    <label end="144" start="116" name="Ratifier"/>
+                    <label end="93" start="79" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

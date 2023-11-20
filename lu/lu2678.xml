@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="citer.v" ID="2678" frame="FR_Quoting" frameID="10075" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="sp" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="ssp" name="Source_speaker"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="smd" name="Source_medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Peripheral" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="15850"/>
+                <annoSet ID="18976"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Message"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="3528"/>
+                <annoSet ID="9420"/>
+                <annoSet ID="17136"/>
+                <annoSet ID="18976"/>
+                <annoSet ID="22078"/>
+                <annoSet ID="22664"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Source_medium"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Source_medium"/>
+                <annoSet ID="3528"/>
+                <annoSet ID="6109"/>
+                <annoSet ID="22656"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Source_speaker"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Source_speaker"/>
+                <annoSet ID="3528"/>
+                <annoSet ID="9420"/>
+                <annoSet ID="11121"/>
+                <annoSet ID="15850"/>
+                <annoSet ID="17136"/>
+                <annoSet ID="18976"/>
+                <annoSet ID="22078"/>
+                <annoSet ID="22656"/>
+                <annoSet ID="22664"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Speaker"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3528"/>
+                <annoSet ID="6109"/>
+                <annoSet ID="9420"/>
+                <annoSet ID="11121"/>
+                <annoSet ID="17136"/>
+                <annoSet ID="22078"/>
+                <annoSet ID="22656"/>
+                <annoSet ID="22664"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2703">
+            <text>Dans son ordonnance de renvoi pour le procès de 49 prévenus qui s' est ouvert en janvier 2006 , le juge d' instruction Armand Riberolles , successeur du juge Éric Halphen , écrit que " l' instruction n' est pas parvenue à établir formellement l' implication personnelle de responsables au sein de l' appareil politique du RPR " , tout en relevant qu' " un grand nombre de témoignages , corroborés par divers éléments factuels , concourent à établir que Jean-Claude Méry avait reçu mission d' assurer le financement des activités politiques de ce parti en collectant des fonds , notamment auprès des entreprises fournisseurs de l' OPAC . " ( cité par Le Monde du 25/01/06 ) .</text>
+            <annotationSet status="MANUAL" ID="3528">
+                <layer rank="1" name="FE">
+                    <label end="326" start="183" name="Message"/>
+                    <label end="637" start="351" name="Message"/>
+                    <label end="169" start="96" name="Source_speaker"/>
+                    <label end="669" start="650" name="Speaker"/>
+                    <label end="92" start="5" name="Source_medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="644" start="641" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4353">
+            <text>Déjà , en 1990 , 40 % des unités vendues étaient destinées à renouveler le matériel existant , souligne l' INSEE qui cite une enquête de la société d' études spécialisées IDC .</text>
+            <annotationSet status="MANUAL" ID="6109">
+                <layer rank="1" name="FE">
+                    <label end="173" start="122" name="Source_medium"/>
+                    <label end="173" start="104" name="Speaker"/>
+                    <label end="115" start="113" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6312">
+            <text>Le fonds monétaire international ( FMI ) a gelé son programme en faveur de la Côte - d' ivoire et cessé le versement de ses crédits , a -t-on appris vendredi 3 juillet de source diplomatique à Abidjan , citée par l' agence Reuter .</text>
+            <annotationSet status="MANUAL" ID="9420">
+                <layer rank="1" name="FE">
+                    <label end="130" start="0" name="Message"/>
+                    <label end="201" start="171" name="Source_speaker"/>
+                    <label end="228" start="213" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="207" start="203" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7663">
+            <text>Il ne cite jamais Tocqueville , qui aurait pourtant apporté de l' eau à son moulin ; et l' avant - dernière phrase de son ouvrage révèle une étonnante erreur de prévision .</text>
+            <annotationSet status="MANUAL" ID="11121">
+                <layer rank="1" name="FE">
+                    <label end="81" start="18" name="Source_speaker"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11524">
+            <text>Le maire de la capitale de Chine méridionale , cité , mardi 29 décembre , par le quotidien pro- chinois de Hongkong Wen Wei Po , a pris soin de rejeter sur le gouvernement central la responsabilité de cette décision .</text>
+            <annotationSet status="MANUAL" ID="15850">
+                <layer rank="1" name="FE">
+                    <label end="45" start="0" name="Source_speaker"/>
+                    <label end="125" start="78" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12772">
+            <text>Selon une source de marché citée par Reuter , la Société générale d' entreprise ( SGE ) , filiale de la Générale des eaux , et Elysées Investissement qui détiennent respectivement 10 % ( sur les 43 , 3 % détenus par la Générale des eaux ) et 21 % , auraient cédé leurs titres à des groupes financiers .</text>
+            <annotationSet status="MANUAL" ID="17136">
+                <layer rank="1" name="FE">
+                    <label end="299" start="46" name="Message"/>
+                    <label end="25" start="6" name="Source_speaker"/>
+                    <label end="42" start="37" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14657">
+            <text>Parce qu' il gagne les entreprises d' un même secteur , de proche en proche , comme l' explique fort bien René Brillet , PDG de Carrefour , cité dans le rapport : " Le plus malin qui a trouvé le filon casse les prix , et prend des parts de marché aux autres ... "</text>
+            <annotationSet status="MANUAL" ID="18976">
+                <layer rank="1" name="FE">
+                    <label end="262" start="163" name="Message"/>
+                    <label end="138" start="106" name="Source_speaker"/>
+                    <label end="159" start="150" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18016">
+            <text>Dire que Quilès envisageait de supprimer la distribution du courrier l' après - midi , de façon à améliorer , je cite , la qualité du service public .</text>
+            <annotationSet status="MANUAL" ID="22078">
+                <layer rank="1" name="FE">
+                    <label end="106" start="31" name="Message"/>
+                    <label end="147" start="120" name="Message"/>
+                    <label end="14" start="9" name="Source_speaker"/>
+                    <label end="111" start="110" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18556">
+            <text>Les informations faisant état ces derniers jours de troubles sont " un tissu de mensonges " , a affirmé un haut dirigeant albanais , Mr Foto Cami , au cours d' une interview à la radio - télévision albanaise citée vendredi 12 janvier par l' agence ATA , reçue à Belgrade .</text>
+            <annotationSet status="MANUAL" ID="22656">
+                <layer rank="1" name="FE">
+                    <label end="206" start="160" name="Source_medium"/>
+                    <label end="144" start="104" name="Source_speaker"/>
+                    <label end="269" start="238" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="212" start="208" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18561">
+            <text>Un peu plus tôt , l' agence Tanjug , citant des " sources sûres " , avait annoncé que l' état d' urgence avait été décrété en Albanie .</text>
+            <annotationSet status="MANUAL" ID="22664">
+                <layer rank="1" name="FE">
+                    <label end="132" start="86" name="Message"/>
+                    <label end="64" start="44" name="Source_speaker"/>
+                    <label end="35" start="18" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="proclamer.v" ID="1586" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Message"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="4278"/>
+                <annoSet ID="13724"/>
+                <annoSet ID="16088"/>
+                <annoSet ID="16835"/>
+                <annoSet ID="19274"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="4278"/>
+                <annoSet ID="16835"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="13724"/>
+                <annoSet ID="16088"/>
+                <annoSet ID="19274"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3264">
+            <text>Il était prêt pour cela à sauver Robert Hersant de la banqueroute , à braver les ministres qui proclamaient que la France avait " une chaîne de trop " , à ne pas écouter les économistes ou le CSA qui mettaient en garde contre les dangers de l' aventure .</text>
+            <annotationSet status="MANUAL" ID="4278">
+                <layer rank="1" name="FE">
+                    <label end="149" start="112" name="Message"/>
+                    <label end="93" start="91" name="Speaker"/>
+                    <label end="149" start="77" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9756">
+            <text>Loin d' être négligeable , l' aide effectivement accordée se situe cependant bien en retrait des intentions proclamées ; contrairement aussi aux déclarations initiales , elle a été concentrée presque totalement sur la Russie .</text>
+            <annotationSet status="MANUAL" ID="13724">
+                <layer rank="1" name="FE">
+                    <label end="106" start="97" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11721">
+            <text>La victoire ne sera cependant proclamée qu' au début du mois de novembre , lorsque l' essentiel des réserves utilisées - 160 milliards de francs - seront revenues .</text>
+            <annotationSet status="MANUAL" ID="16088">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12494">
+            <text>Au cours de l' année écoulée , les Douze se sont allègrement déchirés sur les questions monétaires , sur celles des ressources à consacrer à la Communauté , de la politique agricole commune et des négociations sur le commerce mondial ( GATT ) ; ils se sont livrés , à propos de l' ex- Yougoslavie , à une prestation qui fait douter des ambitions qu' ils proclament dans le traité de Maastricht .</text>
+            <annotationSet status="MANUAL" ID="16835">
+                <layer rank="1" name="FE">
+                    <label end="348" start="346" name="Message"/>
+                    <label end="392" start="336" name="Message"/>
+                    <label end="352" start="350" name="Speaker"/>
+                    <label end="39" start="31" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="363" start="354" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14987">
+            <text>Ces craintes , il faut le proclamer bien fort , sont tout à fait exagérées .</text>
+            <annotationSet status="MANUAL" ID="19274">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Message"/>
+                    <label end="73" start="48" name="Message"/>
+                    <label end="24" start="23" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

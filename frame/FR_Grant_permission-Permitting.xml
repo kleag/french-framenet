@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Grant_permission-Permitting" ID="10068" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;In this frame either a &lt;fen&gt;Grantor&lt;/fen&gt; (a person or an institution) or a &lt;fen&gt;Principle&lt;/fen&gt; (either moral or legal) grants or denies permission for a &lt;fen&gt;Grantee&lt;/fen&gt; to perform an &lt;fen&gt;Action&lt;/fen&gt; or for an &lt;fen&gt;Action&lt;/fen&gt; to occur. 
+
+&lt;ex&gt; &lt;fex name="Grantor"&gt;My mother&lt;/fex&gt; &lt;t&gt;let&lt;/t&gt; &lt;fex name="Grantee"&gt;me&lt;/fex&gt; &lt;fex name="Action"&gt;go to the movies with Simon&lt;/fex&gt; . &lt;/ex&gt; 
+
+&lt;ex&gt; &lt;fex name="Grantor"&gt;The teacher&lt;/fex&gt; &lt;m&gt;gave&lt;/m&gt; &lt;fex name="Grantee"&gt;the children&lt;/fex&gt; &lt;t&gt;permission&lt;/t&gt; &lt;fex name="Action"&gt;to eat their lunch outside&lt;/fex&gt;. &lt;/ex&gt;
+
+&lt;ex&gt; &lt;fex name="Principle"&gt;Code 1425&lt;/fex&gt; &lt;t&gt;allows&lt;/t&gt; &lt;fex name="Grantee"&gt;us&lt;/fex&gt; &lt;fex name="Action"&gt;to deduct interest payments&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Merge of Grant_permission with Deny_permission (cf. no reason to specify an Authority in Deny_permission frame, and a Grantor in Grant_permission frame). Also merged with the Permitting and Prohibiting frames, the difference between a human Grantor versus a Principle providing or denying some authorization is made at the level of FEs. Note this possibility exists both for authorization and denial, which is a further reason to merge all the four frames. The verbs which do not take a Grantee indirect object are better coped with in the Ratification or FR_Taking_sides frames (see FR: approuver (EN: approve))
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="01/17/2003 01:22:01 PST Fri" abbrev="Gro" name="Grantor" ID="4076">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Grantor&lt;/fen&gt; is the individual or group of individuals or institution vested with the authority to grant permission with respect to a specific domain and who grants permission to the &lt;fen&gt;Grantee&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+	<excludesFE name="Principle" ID="4092"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="01/20/2003 01:06:58 PST Mon" abbrev="Prin" name="Principle" ID="4092">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Principle&lt;/fen&gt; is the code or authority which permits the &lt;fen&gt;Action&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+	<excludesFE name="Grantor" ID="4076"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="01/17/2003 01:29:08 PST Fri" abbrev="Gre" name="Grantee" ID="4077">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Grantee&lt;/fen&gt; is the individual who is given permission to engage in a certain &lt;fen&gt;Action&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="01/17/2003 01:29:52 PST Fri" abbrev="Act" name="Action" ID="4078">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Action&lt;/fen&gt; is the activity of the &lt;fen&gt;Grantee&lt;/fen&gt; that the &lt;fen&gt;Grantor&lt;/fen&gt; permits.&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Relation to FN1.5: Is Merged from">
+        <relatedFrame>Deny_permission</relatedFrame>
+        <relatedFrame>Grant_permission</relatedFrame>
+        <relatedFrame>Permitting</relatedFrame>
+        <relatedFrame>Prohibiting</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="accréditation.n" ID="1869" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="accréditer.v" ID="1870" nbocc="7" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100019" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Attempt_suasion.veracity" ID="2712" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="2688" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="n" name="agrément.n" ID="1871" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="autorisation.n" ID="1872" nbocc="47" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="47"/>
+        <otherlexUnit framename="Other_sense" ID="100205" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="autoriser.v" ID="1873" nbocc="80" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="65"/>
+        <otherlexUnit framename="Other_sense" ID="100206" annotatedsent="0"/>
+        <otherlexUnit framename="Make_possible_to_do" ID="2613" annotatedsent="15"/>
+    </lexUnit>
+    <lexUnit POS="n" name="consentement.n" ID="1874" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="732" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="100405" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2589" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="consentir.v" ID="1875" nbocc="20" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="733" annotatedsent="6"/>
+        <otherlexUnit framename="Other_sense" ID="100406" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2590" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dispense.n" ID="1876" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dispenser.v" ID="1877" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="donner son accord.v" ID="1878" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100605" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="défendre.v" ID="420" nbocc="54" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100670" annotatedsent="30"/>
+        <otherlexUnit framename="FR_Justifying" ID="1199" annotatedsent="5"/>
+        <otherlexUnit framename="FR_Attempt_suasion.legitimacy" ID="741" annotatedsent="15"/>
+    </lexUnit>
+    <lexUnit POS="n" name="défense.n" ID="421" nbocc="80" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100671" annotatedsent="102"/>
+        <otherlexUnit framename="FR_Justifying" ID="1200" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Attempt_suasion.legitimacy" ID="742" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dénier.v" ID="422" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100702" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="555" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Expressing_truth_of_proposition" ID="1555" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="exempter.v" ID="1879" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="exemption.n" ID="1880" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="habilitation.n" ID="1881" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="habiliter.v" ID="1882" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="interdiction.n" ID="423" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="101097" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="interdire.v" ID="424" nbocc="39" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="30"/>
+        <otherlexUnit framename="Preventing" ID="2626" annotatedsent="9"/>
+        <otherlexUnit framename="Other_sense" ID="101098" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="permettre.v" ID="1883" nbocc="383" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="101366" annotatedsent="0"/>
+        <otherlexUnit framename="Make_possible_to_do" ID="2614" annotatedsent="89"/>
+    </lexUnit>
+    <lexUnit POS="n" name="permission.n" ID="1884" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101367" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prohiber.v" ID="425" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prohibition.n" ID="426" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="proscription.n" ID="427" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="proscrire.v" ID="428" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="refus.n" ID="429" nbocc="37" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="734" annotatedsent="28"/>
+        <otherlexUnit framename="Other_sense" ID="101579" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1644" annotatedsent="3"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2425" annotatedsent="6"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2591" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="refuser.v" ID="430" nbocc="99" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="735" annotatedsent="47"/>
+        <otherlexUnit framename="Other_sense" ID="101580" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1645" annotatedsent="18"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2426" annotatedsent="8"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2592" annotatedsent="0"/>
+    </lexUnit>
+</frame>

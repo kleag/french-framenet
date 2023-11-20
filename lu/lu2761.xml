@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="contact.n" ID="2761" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Interlocutor_1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutor_1"/>
+                <annoSet ID="3455"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Interlocutor_2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutor_2"/>
+                <annoSet ID="3455"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Interlocutors"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="9064"/>
+                <annoSet ID="20503"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2595">
+            <text>Comme Jean-Claude Albessard , Jean-Claude Desjeux aurait entretenu des contacts étroits avec l' intermédiaire Andrew Wang .</text>
+            <annotationSet status="MANUAL" ID="3455">
+                <layer rank="1" name="FE">
+                    <label end="120" start="93" name="Interlocutor_2"/>
+                    <label end="48" start="30" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6103">
+            <text>Apparemment , les habituels contacts bilatéraux qui ont suivi la dernière séance officielle , le 23 juin ( le monde du 25 juin ) n' ont pas permis de dégager une voie .</text>
+            <annotationSet status="MANUAL" ID="9064">
+                <layer rank="1" name="FE">
+                    <label end="46" start="37" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16329">
+            <text>Les deux parties , qui avaient rompu tout contact après le rejet par 72 % des dockers , début novembre , du projet de protocole d' accord élaboré dans le cadre de la réforme du statut des dockers , ont repris les discussions mercredi 23 décembre .</text>
+            <annotationSet status="MANUAL" ID="20503">
+                <layer rank="1" name="FE">
+                    <label end="21" start="19" name="Interlocutors"/>
+                    <label end="15" start="0" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

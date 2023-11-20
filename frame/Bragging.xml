@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Bragging" ID="1624" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication,Judgment_evaluation">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; talks about a &lt;fen&gt;Topic&lt;/fen&gt;, which may be an action performed by the &lt;fen&gt;Speaker&lt;/fen&gt; or an entity or state of affairs that they are associated with in order to suggest that the &lt;fen&gt;Speaker&lt;/fen&gt; is worthy of admiration. The Speaker may give an explicit &lt;fen&gt;Reason&lt;/fen&gt; why the &lt;fen&gt;Topic&lt;/fen&gt; redounds to their credit. Alternatively, a &lt;fen&gt;Message&lt;/fen&gt; frame element can be used to directly describe what the &lt;fen&gt;Speaker&lt;/fen&gt; says, leaving the more specific &lt;fen&gt;Reason&lt;/fen&gt; for admirability to be inferred. Instead of the &lt;fen&gt;Speaker&lt;/fen&gt;, the action may be attributed metonymically to the &lt;fen&gt;Medium&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Turkish officials&lt;/fex&gt; &lt;t&gt;boasted&lt;/t&gt; &lt;fex name="Topic"&gt;of giving 'tens of thousands of dollars in surreptitious payments' to a prominent American politician&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;He&lt;/fex&gt; &lt;fex name="Time"&gt;then&lt;/fex&gt; &lt;t&gt;vaunted&lt;/t&gt; &lt;fex name="Topic"&gt;his own clan&lt;/fex&gt;, but failed to mention Emanuel Ungaro, who described the omission as ''lamentable''.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Medium"&gt;The press release&lt;/fex&gt; &lt;t&gt;boasts&lt;/t&gt; &lt;fex name="mes"&gt;that "a direct connection between the cartridge and the system" means no more having to blow dust out of game cartridges&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;70's comics like Chevy Chase and Steve Martin&lt;/fex&gt; over-stated their egotism and &lt;t&gt;preened&lt;/t&gt; &lt;fex name="Topic"&gt;over their superiority&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : slightly modified version of the Bragging frame. The Medium FE definition has been normalized. The Expressor FE is removed, as nominalizations corresponding to the Message are annotated as filling the Message FE.
+
+&lt;ex&gt;&lt;/ex&gt;
+<!--TODO : le role Expressor avec la def initiale a été enlevé, mais un Expressor tel que celui de Judgment_communication est peut-etre a ajouter? Voir si on n'enlève pas tous les expressor?-->
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/30/2005 02:33:37 PDT Tue" abbrev="Spkr" name="Speaker" ID="9023">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the person who produces a message about a &lt;fen&gt;Topic&lt;/fen&gt;.
+
+&lt;ex&gt;During the 1990s &lt;fex name="Spkr"&gt;Rio Grande Do Sul's governor, Olivio Dutra of the PT,&lt;/fex&gt; &lt;t&gt;PREENED&lt;/t&gt; about the province's GE-free status.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="08/30/2005 02:33:37 PDT Tue" abbrev="Add" name="Addressee" ID="9024">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is the person to whom the &lt;fen&gt;Speaker&lt;/fen&gt; communicated a message. 
+
+&lt;ex&gt;Sheppard said Turner apparently was backing up his &lt;t&gt;boast&lt;/t&gt; &lt;fex name="Add"&gt;to a bystander&lt;/fex&gt; when a patrol officer saw him writing on the sign and arrested him.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/30/2005 02:33:37 PDT Tue" abbrev="top" name="Topic" ID="9026">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is a positively judged entity or state of affairs with which the &lt;fen&gt;Speaker&lt;/fen&gt; is associated and about which they talk.
+
+
+&lt;ex&gt;Mike Wallace was told that Canseco had &lt;t&gt;bragged&lt;/t&gt; &lt;fex name="top"&gt;about steroids&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/30/2005 02:33:38 PDT Tue" abbrev="Medium" name="Medium" ID="9031">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; is written or spoken material that contains the &lt;fen&gt;Message&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Medium"&gt;The press release&lt;/fex&gt; &lt;t&gt;boasts&lt;/t&gt; &lt;fex name="mes"&gt;that "a direct connection between the cartridge and the system" means no more having to blow dust out of game cartridges&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/31/2005 02:40:05 PDT Wed" abbrev="mes" name="Message" ID="9040">
+        <definition>&lt;def-root&gt;A description of the state of affairs that redounds to the &lt;fen&gt;Speaker&lt;/fen&gt;'s credit
+
+&lt;ex&gt;Cosmai &lt;t&gt;BRAGGED&lt;/t&gt; &lt;fex name="mes"&gt;that Hyundai's latest quality rankings place the automaker on par with Honda and Toyota&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Expressor" ID="9042"/>
+        <memberFE name="Medium" ID="9031"/>
+        <memberFE name="Speaker" ID="9023"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Message" ID="9040"/>
+        <memberFE name="Topic" ID="9026"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Judgment_communication</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="fanfaronnade.n" ID="129" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="fanfaronner.v" ID="130" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="hâbler.v" ID="131" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se flatter.v" ID="132" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101767" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se piquer.v" ID="133" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se targuer.v" ID="134" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101805" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se vanter.v" ID="135" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101808" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="vantardise.n" ID="136" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

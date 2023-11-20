@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="désaveu.n" ID="1085" frame="FR_Expressing_truth_of_proposition" frameID="10071" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prop" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Core" abbrev="pspkr" name="Past_speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Past_speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Past_speaker"/>
+                <annoSet ID="16828"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Proposition"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="16828"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="12491">
+            <text>Le rejet , par les électeurs danois , du traité de Maastricht le 2 juin dernier a donné le coup d' envoi d' une période de désaveux populaires , de revers et de dissensions aggravés par la morosité économique ambiante .</text>
+            <annotationSet status="MANUAL" ID="16828">
+                <layer rank="1" name="FE">
+                    <label end="141" start="132" name="Speaker"/>
+                    <label itype="ENI" name="Past_speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

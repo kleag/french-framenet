@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="déterminant.a" ID="2695" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Dependent"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="8610"/>
+                <annoSet ID="9057"/>
+                <annoSet ID="20796"/>
+                <annoSet ID="21330"/>
+                <annoSet ID="24148"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Dependent"/>
+                <annoSet ID="11520"/>
+                <annoSet ID="11522"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Influencer"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="8610"/>
+                <annoSet ID="9057"/>
+                <annoSet ID="11520"/>
+                <annoSet ID="11522"/>
+                <annoSet ID="20796"/>
+                <annoSet ID="21330"/>
+                <annoSet ID="24148"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5841">
+            <text>Un bilan plutôt gris qui s' accompagne heureusement de quelques bons points en matière d' inflation ( ramenée autour de 3 , 5 % par an ) et de diminution du déficit commercial ( 65 milliards de dollars en 1991 , soit environ 332 milliards de francs , contre 102 milliards l' année précédente ) , en grande partie grâce à la " sainte alliance " nouée avec le Koweït et l' Arabie saoudite qui a permis de stabiliser les prix du pétrole , un facteur déterminant pour un pays qui importe à présent 50 % de ses besoins en or noir .</text>
+            <annotationSet status="MANUAL" ID="8610">
+                <layer rank="1" name="FE">
+                    <label end="523" start="464" name="Dependent"/>
+                    <label end="445" start="436" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="457" start="447" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6099">
+            <text>La quatrième séance de négociations , qui se tenait le 3 juillet , devait être déterminante pour l' avenir du régime d' assurance - chômage .</text>
+            <annotationSet status="MANUAL" ID="9057">
+                <layer rank="1" name="FE">
+                    <label end="138" start="97" name="Dependent"/>
+                    <label end="63" start="0" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7987">
+            <text>" Ce n' est pas la taille de l' hôtel qui est déterminante , mais ses caractéristiques , précise Guy Rosès .</text>
+            <annotationSet status="MANUAL" ID="11520">
+                <layer rank="1" name="FE">
+                    <label end="36" start="16" name="Influencer"/>
+                    <label itype="DNI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7987">
+            <text>" Ce n' est pas la taille de l' hôtel qui est déterminante , mais ses caractéristiques , précise Guy Rosès .</text>
+            <annotationSet status="MANUAL" ID="11522">
+                <layer rank="1" name="FE">
+                    <label end="85" start="66" name="Influencer"/>
+                    <label itype="DNI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16590">
+            <text>Le rôle des formations politiques Ouest - allemandes dans cette reconstitution du paysage politique en RDA est de plus en plus déterminant .</text>
+            <annotationSet status="MANUAL" ID="20796">
+                <layer rank="1" name="FE">
+                    <label end="105" start="58" name="Dependent"/>
+                    <label end="51" start="0" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17228">
+            <text>Huit ans passés à la tête d' Air France au royaume - uni ont été vécus par lui comme un " plus " déterminant .</text>
+            <annotationSet status="MANUAL" ID="21330">
+                <layer rank="1" name="FE">
+                    <label end="77" start="75" name="Dependent"/>
+                    <label end="95" start="85" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20442">
+            <text>Les pays occidentaux peuvent contribuer de façon déterminante à la stratégie de couverture des besoins essentiels , d' une part , en réduisant l' aide qui fait perdurer des structures inadaptées ou qui rend l' effort de travail inutile , d' autre part , en inventant de nouvelles formes de coopération pour soutenir les initiatives de production comme offrir une garantie bancaire aux caisses de crédit rural et aux artisans , aider les entrepreneurs locaux à s' implanter sur les marchés des produits industrialisés , appuyer la recherche et la diffusion de technologies appropriées .</text>
+            <annotationSet status="MANUAL" ID="24148">
+                <layer rank="1" name="FE">
+                    <label end="112" start="64" name="Dependent"/>
+                    <label end="47" start="43" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

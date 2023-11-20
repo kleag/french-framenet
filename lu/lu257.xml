@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="susciter.v" ID="257" frame="Causation" frameID="5" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Actor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="21417"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cause"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="11591"/>
+                <annoSet ID="17064"/>
+                <annoSet ID="20709"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Effect"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="11591"/>
+                <annoSet ID="17064"/>
+                <annoSet ID="20709"/>
+                <annoSet ID="21417"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8055">
+            <text>Jugée parfois pesante par son immobilisme , la forte présence des retraités pourrait également susciter l' apparition de nouveaux services .</text>
+            <annotationSet status="MANUAL" ID="11591">
+                <layer rank="1" name="FE">
+                    <label end="74" start="44" name="Cause"/>
+                    <label end="137" start="104" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12701">
+            <text>Reste que ces mesures ne devraient pas susciter " un saut qualitatif majeur " , selon M. Fragonard .</text>
+            <annotationSet status="MANUAL" ID="17064">
+                <layer rank="1" name="FE">
+                    <label end="20" start="10" name="Cause"/>
+                    <label end="76" start="50" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16534">
+            <text>La force que le deutschemark vaut à l' économie allemande est celle qui découle naturellement de la tempérance et de la retenue , pas celle que l' arbitraire de la démesure veut susciter à tout prix .</text>
+            <annotationSet status="MANUAL" ID="20709">
+                <layer rank="1" name="FE">
+                    <label end="171" start="144" name="Cause"/>
+                    <label end="56" start="0" name="Effect"/>
+                    <label end="142" start="140" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="185" start="178" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17346">
+            <text>Peut - être doit -on la souhaiter , la susciter ?</text>
+            <annotationSet status="MANUAL" ID="21417">
+                <layer rank="1" name="FE">
+                    <label end="37" start="36" name="Effect"/>
+                    <label end="19" start="17" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

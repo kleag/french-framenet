@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="avoir pour nom.v" ID="884" frame="FR_Being_named" frameID="10008" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Name" name="Name"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Entity" name="Entity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Entity"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Entity"/>
+                <annoSet ID="5740"/>
+                <annoSet ID="8620"/>
+                <annoSet ID="18112"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Name"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Name"/>
+                <annoSet ID="5740"/>
+                <annoSet ID="8620"/>
+                <annoSet ID="18112"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4114">
+            <text>Ces variables ont pour nom : taux d' utilisation des capacités de production , durée du travail , variations des stocks , salaires d' efficience , imperfections de marché ...</text>
+            <annotationSet status="MANUAL" ID="5740">
+                <layer rank="1" name="FE">
+                    <label end="173" start="29" name="Name"/>
+                    <label end="12" start="0" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5847">
+            <text>Les adversaires politiques de M. Bush ne sont pas seuls à lui faire grief de cette situation qui , en dépit de quelques embellies , reflète les maux profonds dont souffre l' économie américaine depuis de nombreuses années et qui ont pour nom endettement , surconsommation , sous - épargne et absence d' investissements .</text>
+            <annotationSet status="MANUAL" ID="8620">
+                <layer rank="1" name="FE">
+                    <label end="317" start="242" name="Name"/>
+                    <label end="317" start="140" name="Entity"/>
+                    <label end="227" start="225" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="240" start="229" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13806">
+            <text>À commencer par des exceptions qui ont pour nom Société générale et Crédit commercial de France ( CCF ) , dont les résultats en progression reflètent la très grande prudence , notamment dans le financement de l' immobilier .</text>
+            <annotationSet status="MANUAL" ID="18112">
+                <layer rank="1" name="FE">
+                    <label end="221" start="48" name="Name"/>
+                    <label end="221" start="16" name="Entity"/>
+                    <label end="33" start="31" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="ferrailler.v" ID="2243" frame="Quarreling" frameID="710" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Args" name="Arguers"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Arg1" name="Arguer1"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Arg2" name="Arguer2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Iss" name="Issue"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Arguer1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Arguer1"/>
+                <annoSet ID="20046"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Arguer2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Arguer2"/>
+                <annoSet ID="20046"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Arguers"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Issue"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Issue"/>
+                <annoSet ID="20046"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15877">
+            <text>Il saura se rattraper sous la cohabitation , ferraillant avec professionnalisme contre le gouvernement Chirac , suivant de près le jeu délétère d' alors - affaires contre affaires , - et n' hésitant pas à multiplier les contacts avec les journalistes .</text>
+            <annotationSet status="MANUAL" ID="20046">
+                <layer rank="1" name="FE">
+                    <label end="108" start="87" name="Arguer2"/>
+                    <label end="1" start="0" name="Arguer1"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

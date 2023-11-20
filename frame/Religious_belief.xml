@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Religious_belief" ID="1019" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Believer&lt;/fen&gt; has faith in a piece of &lt;fen&gt;Content&lt;/fen&gt; or an &lt;fen&gt;Element&lt;/fen&gt;  which fits into a religious belief system made up of many articles of faith. The &lt;fen&gt;Content&lt;/fen&gt; is not necessarily tied to direct sensory experience. The system of beliefs may be enshrined by the members of a social group
+
+&lt;ex&gt;Do &lt;fex name="Believer"&gt;Muslims&lt;/fex&gt; &lt;t&gt;believe&lt;/t&gt; &lt;fex name="el"&gt;in the virgin birth of Jesus?&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Believer"&gt;Muslims&lt;/fex&gt; &lt;t&gt;believe&lt;/t&gt; &lt;fex name="el"&gt;in only One God, the same God that Jews and Christians believe in&lt;/fex&gt;, but some of the ideas about the nature of God are different&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Believer"&gt;Muslims&lt;/fex&gt; &lt;t&gt;believe&lt;/t&gt; &lt;fex name="Content"&gt;that the month of Ramadan is the holiest month of the year&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/05/2004 05:08:50 PST Fri" abbrev="Blv" name="Believer" ID="6060">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Believer&lt;/fen&gt; is the person whose religious beliefs are in question.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/05/2004 05:08:50 PST Fri" abbrev="Cont" name="Content" ID="6061">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Content&lt;/fen&gt; is the object of the &lt;fen&gt;Believer&lt;/fen&gt;'s religious conviction. &lt;fen&gt;Content&lt;/fen&gt; can be expressed as a finite clause or in a in-PP Complement.
+
+
+&lt;ex&gt; A Christian &lt;t&gt;believes&lt;/t&gt; &lt;fex name="Cont"&gt;that Jesus of Nazareth was a prophet&lt;/fex&gt;. &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+        <excludesFE name="Role" ID="6067"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/05/2004 05:08:50 PST Fri" abbrev="Role" name="Role" ID="6067">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Role&lt;/fen&gt; is a  function that an Element of the faith is believed to serve.
+
+&lt;ex&gt;If a person &lt;t&gt;believes&lt;/t&gt; in Jesus &lt;fex name="Role"&gt;as his Saviour&lt;/fex&gt;, he can he baptized.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <requiresFE name="Element" ID="6069"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/05/2004 06:21:30 PST Fri" abbrev="el" name="Element" ID="6069">
+        <definition>&lt;def-root&gt;A predefined, fixed idea to which reference is made throughout the belief system. 
+
+
+&lt;ex&gt;I believe &lt;fex name="Element"&gt;in Jesus&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;To Clark, who infinitely &lt;t&gt;believes&lt;/t&gt; &lt;fex name="el"&gt;in angels&lt;/fex&gt; and celebrating the holidays with loved ones, Christmas means kids and family.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <excludesFE name="Content" ID="6061"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Element" ID="6069"/>
+        <memberFE name="Content" ID="6061"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Awareness-Certainty-Opinion</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="conviction.n" ID="2325" nbocc="17" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="802" annotatedsent="17"/>
+        <otherlexUnit framename="Other_sense" ID="100451" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="croire.v" ID="2326" nbocc="91" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="804" annotatedsent="78"/>
+        <otherlexUnit framename="Other_sense" ID="100489" annotatedsent="10"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="869" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="croyance.n" ID="2327" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="805" annotatedsent="3"/>
+        <otherlexUnit framename="Other_sense" ID="100492" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="foi.n" ID="2328" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100904" annotatedsent="4"/>
+    </lexUnit>
+</frame>

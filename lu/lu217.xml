@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="impliquer.v" ID="217" frame="Causation" frameID="5" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Affected"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="10209"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Cause"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="9692"/>
+                <annoSet ID="10209"/>
+                <annoSet ID="11584"/>
+                <annoSet ID="12161"/>
+                <annoSet ID="13844"/>
+                <annoSet ID="18567"/>
+                <annoSet ID="19087"/>
+                <annoSet ID="19120"/>
+                <annoSet ID="19365"/>
+                <annoSet ID="22045"/>
+                <annoSet ID="23619"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Effect"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="9692"/>
+                <annoSet ID="10209"/>
+                <annoSet ID="11584"/>
+                <annoSet ID="12161"/>
+                <annoSet ID="13844"/>
+                <annoSet ID="18567"/>
+                <annoSet ID="19087"/>
+                <annoSet ID="19120"/>
+                <annoSet ID="19365"/>
+                <annoSet ID="22045"/>
+                <annoSet ID="23619"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6488">
+            <text>Peut - être faudrait -il en effet discuter de la nature des changements survenus en France : sont -ils réellement des progrès ou seulement un alignement de nos pratiques nationales sur les modèles étrangers , notamment sur le modèle allemand , impliquant des renoncements ?</text>
+            <annotationSet status="MANUAL" ID="9692">
+                <layer rank="1" name="FE">
+                    <label end="242" start="139" name="Cause"/>
+                    <label end="270" start="255" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="253" start="244" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6870">
+            <text>Le retournement de la conjoncture outre - Rhin implique déjà de moindres débouchés pour nos exportations .</text>
+            <annotationSet status="MANUAL" ID="10209">
+                <layer rank="1" name="FE">
+                    <label end="45" start="0" name="Cause"/>
+                    <label end="103" start="88" name="Affected"/>
+                    <label end="81" start="61" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8051">
+            <text>Avec tous les risques que cela implique , il faudra pourtant s' adapter , ne serait -ce que pour faire du tourisme une véritable industrie .</text>
+            <annotationSet status="MANUAL" ID="11584">
+                <layer rank="1" name="FE">
+                    <label end="29" start="26" name="Cause"/>
+                    <label end="70" start="61" name="Cause"/>
+                    <label end="24" start="22" name="Effect"/>
+                    <label end="38" start="5" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8538">
+            <text>- que l' incitation à l' initiative implique l' acceptation de l' erreur et non la répression brutale de celle - ci .</text>
+            <annotationSet status="MANUAL" ID="12161">
+                <layer rank="1" name="FE">
+                    <label end="34" start="6" name="Cause"/>
+                    <label end="114" start="45" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9841">
+            <text>Ainsi la seule attente d' éventuelles dévaluations nouvelles , impliquées par les thèses que je combats , suffirait à augmenter de plusieurs points la prime de risque qui actuellement majore encore d' environ un point nos taux d' intérêt à moyen et long terme par rapport aux taux allemands , à cause précisément du souvenir des dépréciations passées de notre monnaie .</text>
+            <annotationSet status="MANUAL" ID="13844">
+                <layer rank="1" name="FE">
+                    <label end="102" start="78" name="Cause"/>
+                    <label end="61" start="38" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14232">
+            <text>Outre que les riverains s' y opposent , approvisionner une agglomération enserrée comme Mexico entre des montagnes , à près de 2 200 mètres d' altitude , implique des travaux trop lourds pour un gouvernement obsédé par la réduction de son endettement .</text>
+            <annotationSet status="MANUAL" ID="18567">
+                <layer rank="1" name="FE">
+                    <label end="150" start="40" name="Cause"/>
+                    <label end="249" start="163" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="161" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14808">
+            <text>Le temps partiel implique , pour chaque personne concernée , une distinction entre sa durée de travail individuelle et celle de l' entreprise , la première étant inférieure à la seconde .</text>
+            <annotationSet status="MANUAL" ID="19087">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Cause"/>
+                    <label end="57" start="28" name="Effect"/>
+                    <label end="140" start="61" name="Effect"/>
+                    <label end="184" start="144" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14838">
+            <text>Elle implique pour être envisagée , exactement définie puis abordée avec succès , quelques conditions préalables :</text>
+            <annotationSet status="MANUAL" ID="19120">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Cause"/>
+                    <label end="111" start="82" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15109">
+            <text>A l' inverse , cette solitude marine implique un effort de formation considérable en matière de sécurité et une vigilance permanente pour les cent trente personnes se relayant à bord tous les quinze jours .</text>
+            <annotationSet status="MANUAL" ID="19365">
+                <layer rank="1" name="FE">
+                    <label end="35" start="15" name="Cause"/>
+                    <label end="203" start="46" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17975">
+            <text>Autrement dit , que le degré de contrainte résultant pour un Etat de son appartenance à une confédération est infiniment moindre que celui qu' implique l' entrée dans une fédération .</text>
+            <annotationSet status="MANUAL" ID="22045">
+                <layer rank="1" name="FE">
+                    <label end="180" start="152" name="Cause"/>
+                    <label end="41" start="20" name="Effect"/>
+                    <label end="141" start="139" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19870">
+            <text>" Comment convaincre les entrepreneurs que l' efficacité implique la prise en compte de la sécurité ? " s' interroge -t-on rue de Grenelle .</text>
+            <annotationSet status="MANUAL" ID="23619">
+                <layer rank="1" name="FE">
+                    <label end="55" start="43" name="Cause"/>
+                    <label end="98" start="66" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

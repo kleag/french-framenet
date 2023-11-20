@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="admirer.v" ID="2701" frame="Judgment" frameID="28" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="6466"/>
+                <annoSet ID="6610"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Evaluee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="6610"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Evaluee"/>
+                <annoSet ID="6466"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4575">
+            <text>" Encore faudrait -il que les adultes prennent le temps de pénétrer dans leur univers , s' intéressent aux personnages idéalisés , rassurent quand il y a lieu , expliquent , admirent " , estime Anne - Marie Meisonnier qui juge sévèrement la démission des parents et leur parfaite ignorance de l' univers des enfants construit par la télé .</text>
+            <annotationSet status="MANUAL" ID="6466">
+                <layer rank="1" name="FE">
+                    <label end="36" start="26" name="Cognizer"/>
+                    <label itype="UNI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="181" start="174" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4695">
+            <text>Les tentaculaires maisons de courtage japonaises , dont on admirait naguère l' universalité , se compromettent avec une tenancière de bar ; à New - York , la plus prestigieuse des banques d' investissement Salomon Brothers , triche dans les adjudications de titres d' Etat ; à Londres éclate , avec la mise à jour des activités frauduleuses de la BCCI ( Bank of credit and commerce international ) , ce qui est qualifié de " plus grand scandale bancaire de tous les temps " .</text>
+            <annotationSet status="MANUAL" ID="6610">
+                <layer rank="1" name="FE">
+                    <label end="57" start="56" name="Cognizer"/>
+                    <label end="54" start="51" name="Evaluee"/>
+                    <label end="90" start="76" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

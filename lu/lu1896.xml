@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="admiration.n" ID="1896" frame="Judgment" frameID="28" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="21563"/>
+                <annoSet ID="23165"/>
+                <annoSet ID="23353"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="8168"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Evaluee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="8168"/>
+                <annoSet ID="21563"/>
+                <annoSet ID="23165"/>
+                <annoSet ID="23353"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5593">
+            <text>L' admiration , sinon la confiance , se sont émoussées - la péninsule inquiète - et sa capacité à se régénérer , pour s' adapter aux exigences communautaires , fait douter .</text>
+            <annotationSet status="MANUAL" ID="8168">
+                <layer rank="1" name="FE">
+                    <label end="68" start="57" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17519">
+            <text>Ce prince de la pensée vêtu en clochard ne semblait pas voir l' admiration et la tendresse de ses élèves .</text>
+            <annotationSet status="MANUAL" ID="21563">
+                <layer rank="1" name="FE">
+                    <label end="103" start="94" name="Cognizer"/>
+                    <label end="38" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19169">
+            <text>Filmé en même temps par la télévision , qu' il contrôle , le général a exprimé son " admiration " aux manifestants et qualifié leur initiative de " véritable acte de résistance contre l' occupation et ses agents " .</text>
+            <annotationSet status="MANUAL" ID="23165">
+                <layer rank="1" name="FE">
+                    <label end="81" start="79" name="Cognizer"/>
+                    <label end="67" start="58" name="Cognizer"/>
+                    <label end="113" start="102" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19387">
+            <text>Samedi et dimanche , ont défilé sur les écrans toutes sortes d' employés , d' étudiants et de " Roumains moyens " qui ne trouvaient pas de superlatifs assez forts pour exprimer leur admiration à l' égard du leader du CFSN .</text>
+            <annotationSet status="MANUAL" ID="23353">
+                <layer rank="1" name="FE">
+                    <label end="180" start="177" name="Cognizer"/>
+                    <label end="220" start="47" name="Cognizer"/>
+                    <label end="220" start="207" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="182" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

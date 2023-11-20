@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="d'où.prep" ID="189" frame="Causation" frameID="5" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Cause"/>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="4733"/>
+                <annoSet ID="6328"/>
+                <annoSet ID="6873"/>
+                <annoSet ID="11238"/>
+                <annoSet ID="12005"/>
+                <annoSet ID="14858"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Effect"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="4733"/>
+                <annoSet ID="6328"/>
+                <annoSet ID="6873"/>
+                <annoSet ID="11238"/>
+                <annoSet ID="12005"/>
+                <annoSet ID="14858"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3540">
+            <text>d' où la politique officiellement mise en oeuvre depuis peu par le gouvernement - à laquelle se sont résignées à adhérer l' ensemble des forces politiques - qu' on nomme pudiquement " la mobilité " , c' est - à - dire une " émigration organisée " vers la métropole qui n' ose pas dire son nom .</text>
+            <annotationSet status="MANUAL" ID="4733">
+                <layer rank="1" name="FE">
+                    <label end="291" start="6" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4477">
+            <text>D' où son idée depuis de calmer le jeu sans perdre la face , et ce tour de passe - passe serait destiné à y contribuer .</text>
+            <annotationSet status="MANUAL" ID="6328">
+                <layer rank="1" name="FE">
+                    <label end="119" start="0" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4826">
+            <text>D' où cette réaction défensive italienne , et sa décision de céder l' autocontrôle pour rendre la firme inattaquable , le groupe Agnelli avec la Société générale détenant 49 , 32 % des droits de vote contre 41 , 19 % précédemment .</text>
+            <annotationSet status="MANUAL" ID="6873">
+                <layer rank="1" name="FE">
+                    <label end="39" start="6" name="Effect"/>
+                    <label end="115" start="43" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7760">
+            <text>d' où l' idée d' un programme de sauvetage de l' agriculture très diversifié et bien ciblé .</text>
+            <annotationSet status="MANUAL" ID="11238">
+                <layer rank="1" name="FE">
+                    <label end="89" start="6" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8393">
+            <text>d' où frustrations et fuite vers d' autres entreprises .</text>
+            <annotationSet status="MANUAL" ID="12005">
+                <layer rank="1" name="FE">
+                    <label end="53" start="6" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10629">
+            <text>D' où l' essor des produits sans risques , à la performance garantie comme le propose nombre de PEA ( plan épargne en actions ) .</text>
+            <annotationSet status="MANUAL" ID="14858">
+                <layer rank="1" name="FE">
+                    <label end="126" start="6" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Being_named" ID="10008" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;This frame concerns entities conventionally being referred to by particular names.
+
+&lt;ex&gt;&lt;fex name="Entity"&gt;Her&lt;/fex&gt; &lt;t&gt;name&lt;/t&gt; &lt;m&gt;was&lt;/m&gt; &lt;fex name="Name"&gt;Lola&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; this frame is a restricted version of the Being_named frame : the LUs allowing local expression of the Speaker are under &lt;frframe&gt;Referring_by_name&lt;/frframe&gt; and &lt;frframe&gt;Name_conferral&lt;/frframe&gt;.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/13/2001 03:16:58 PDT Thu" abbrev="Name" name="Name" ID="1858">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Name&lt;/fen&gt; identifies the linguistic expression used to refer to Entities.
+
+&lt;ex&gt;My &lt;t&gt;name&lt;/t&gt; is &lt;fex name="Name"&gt;Bond&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/13/2001 03:18:36 PDT Thu" abbrev="Entity" name="Entity" ID="1859">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Entity&lt;/fen&gt; is the person the speaker intends to refer to by using a particular name.
+
+&lt;ex&gt;&lt;fex name="Entity"&gt;You&lt;/fex&gt; have an unusual &lt;t&gt;surname&lt;/t&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Caused by">
+        <relatedFrame>Name_conferral</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Being_named</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="avoir pour nom.v" ID="884" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100231" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="vpp" name="dit.vpp" ID="886" nbocc="78" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="50"/>
+        <otherlexUnit framename="Other_sense" ID="100593" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dénomination.n" ID="85" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="nom.n" ID="2669" nbocc="90" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="pseudonyme.n" ID="2672" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'appeler.v" ID="888" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="101700" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'intituler.v" ID="2740" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se nommer.v" ID="889" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="sobriquet.n" ID="2673" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="surnom.n" ID="2670" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

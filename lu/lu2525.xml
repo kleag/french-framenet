@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="aviser.v" ID="2525" frame="FR_Telling" frameID="10088" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Addressee"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="7296"/>
+                <annoSet ID="7331"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Message"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="7296"/>
+                <annoSet ID="7331"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="7296"/>
+                <annoSet ID="7331"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5061">
+            <text>La Sécu nous a avisés , triomphalement , qu' on allait tout simplifier , et que - ô miracle - on pourrait , l' an prochain , déduire une partie de ces salaires versés de nos revenus .</text>
+            <annotationSet status="MANUAL" ID="7296">
+                <layer rank="1" name="FE">
+                    <label end="74" start="45" name="Message"/>
+                    <label end="180" start="80" name="Message"/>
+                    <label end="11" start="8" name="Addressee"/>
+                    <label end="6" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5081">
+            <text>Il est tenu d' aviser l' agent commercial lorsqu' il prévoit que le volume des transactions sera sensiblement inférieur à celui auquel ce dernier aurait pu normalement s' attendre .</text>
+            <annotationSet status="MANUAL" ID="7331">
+                <layer rank="1" name="FE">
+                    <label end="178" start="50" name="Message"/>
+                    <label end="40" start="22" name="Addressee"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

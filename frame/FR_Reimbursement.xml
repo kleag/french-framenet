@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Reimbursement" ID="10050" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;
+    
+    This frame involves a &lt;fen&gt;Giver&lt;/fen&gt; giving &lt;fen&gt;Money&lt;/fen&gt; (or alternatively another kind of &lt;fen&gt;Non_financial_compensation&lt;/fen&gt;) to a &lt;fen&gt;Recipient&lt;/fen&gt;, who had to spend some (other) money because of a &lt;fen&gt;Cause_of_expense&lt;/fen&gt;. The &lt;fen&gt;Giver&lt;/fen&gt; is not necessarily responsible for this prior expense. The particular case in which the &lt;fen&gt;Giver&lt;/fen&gt; had borrowed the money from the &lt;fen&gt;Recipient&lt;/fen&gt; is described in the more specific Repayment frame.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5:&lt;/asf&gt;: Not existing in fndata-1.5. Corresponds to a more general situation than that of the Repayment frame.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Gvr" name="Giver" ID="1409">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Giver&lt;/fen&gt; begins in possession of the &lt;fen&gt;Money&lt;/fen&gt; and causes it to be in the possession of the &lt;fen&gt;Recipient&lt;/fen&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Mny" name="Money" ID="1695">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Money&lt;/fen&gt; is given to the &lt;fen&gt;Recipient&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Non_financial_compensation" ID="1696"/>
+    </FE>
+    <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="" name="Non_financial_compensation" ID="1696">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Non_financial_compensation&lt;/fen&gt; is what is given to the &lt;fen&gt;Recipient&lt;/fen&gt;, other than Money.
+&lt;ex&gt;&lt;fex name="Giver"&gt;La firme d'Etat&lt;/fex&gt; &lt;t&gt;rembourse&lt;/t&gt; alors en &lt;fex name="Non_financial_compensation"&gt;pétrole&lt;/fex&gt; &lt;fex name="Recipient"&gt;l'opérateur&lt;/fex&gt;.  &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Money" ID="1695"/>
+    </FE>
+     <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="06/23/2001 08:18:41 PDT Sat" abbrev="Rec" name="Recipient" ID="1053">
+        <definition>&lt;def-root&gt;The entity that ends up in possession of the &lt;fen&gt;Money&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </FE>
+     <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="06/23/2001 08:18:41 PDT Sat" abbrev="" name="Cause_of_expense" ID="1053">
+        <definition>&lt;def-root&gt;The state of affairs which occasioned a prior expense for the &lt;fen&gt;Recipient&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Giver"&gt;L'assurance&lt;/fex&gt; m'a &lt;t&gt;remboursé&lt;/t&gt; &lt;fex name="Cause_of_expense"&gt;les dégâts&lt;/fex&gt;.  &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+    </FEcoreSet>
+
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Giving_money</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Repayment</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="remboursement.n" ID="1399" nbocc="32" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="101590" annotatedsent="0"/>
+        <otherlexUnit framename="Repayment" ID="2350" annotatedsent="25"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rembourser.v" ID="1400" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101591" annotatedsent="0"/>
+        <otherlexUnit framename="Repayment" ID="2351" annotatedsent="10"/>
+    </lexUnit>
+</frame>

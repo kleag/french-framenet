@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se plaindre.v" ID="396" frame="Complaining" frameID="1621" totalAnnotated="13" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cmplnr" name="Complainer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="com" name="Complaint"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="16958"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Complainer"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Complainer"/>
+                <annoSet ID="6966"/>
+                <annoSet ID="11348"/>
+                <annoSet ID="14582"/>
+                <annoSet ID="16139"/>
+                <annoSet ID="16958"/>
+                <annoSet ID="17945"/>
+                <annoSet ID="19200"/>
+                <annoSet ID="19442"/>
+                <annoSet ID="20052"/>
+                <annoSet ID="20460"/>
+                <annoSet ID="22492"/>
+                <annoSet ID="24644"/>
+                <annoSet ID="24783"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Complaint"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Complaint"/>
+                <annoSet ID="6966"/>
+                <annoSet ID="11348"/>
+                <annoSet ID="16139"/>
+                <annoSet ID="16958"/>
+                <annoSet ID="17945"/>
+                <annoSet ID="19200"/>
+                <annoSet ID="19442"/>
+                <annoSet ID="20052"/>
+                <annoSet ID="20460"/>
+                <annoSet ID="22492"/>
+                <annoSet ID="24644"/>
+                <annoSet ID="24783"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="17945"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="14582"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4873">
+            <text>" Notre gouvernement est attaqué de toutes parts " , se plaint ce membre de l' alliance du centre , l' un des trois partis de la coalition gouvernementale .</text>
+            <annotationSet status="MANUAL" ID="6966">
+                <layer rank="1" name="FE">
+                    <label end="51" start="0" name="Complaint"/>
+                    <label end="153" start="63" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7844">
+            <text>Les cent vingt - cinq salariés de la Tribune , inquiets , se plaignent d' ailleurs du flou de ces projets : emplois conservés ou non , formule rédactionnelle , délais ... sont autant de questions pour l' instant éludées par les deux " entrepreneurs " , PDG et principaux actionnaires de leurs groupes de presse , qui constataient lundi 6 juillet que les " éditeurs indépendants ne pouvaient dans la conjoncture actuelle compter que sur leurs propres forces et devaient donc se coaliser " , selon le mot de M. Servan - Schreiber .</text>
+            <annotationSet status="MANUAL" ID="11348">
+                <layer rank="1" name="FE">
+                    <label end="104" start="86" name="Complaint"/>
+                    <label end="56" start="0" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10396">
+            <text>C' était l' avant - veille de Noël et , à l' occasion d' une suspension de séance dans la nuit de mardi à mercredi , un député socialiste soupesait , sans se plaindre , le poids du cadeau qu' avec quelques autres de ses collègues il venait de se faire , au profit de la démocratie , et pour le plus grand bénéfice de la République .</text>
+            <annotationSet status="MANUAL" ID="14582">
+                <layer rank="1" name="FE">
+                    <label end="136" start="117" name="Complainer"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11773">
+            <text>D' ailleurs , la pénurie continue de sévir et les chefs d' entreprise se plaignent de ne pas trouver les travailleurs qu' ils recherchent .</text>
+            <annotationSet status="MANUAL" ID="16139">
+                <layer rank="1" name="FE">
+                    <label end="68" start="46" name="Complaint"/>
+                    <label end="136" start="86" name="Complaint"/>
+                    <label end="68" start="46" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12598">
+            <text>La tentative de démarchage auprès des sociétés de la province voisine du Piémont s' est heurtée à la résistance des parlementaires italiens , qui se sont plaints auprès de la CEE de pratiques déloyales .</text>
+            <annotationSet status="MANUAL" ID="16958">
+                <layer rank="1" name="FE">
+                    <label end="200" start="182" name="Complaint"/>
+                    <label end="177" start="172" name="Addressee"/>
+                    <label end="144" start="142" name="Complainer"/>
+                    <label end="200" start="116" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="146" name="Target"/>
+                    <label end="160" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13619">
+            <text>Les HLM dont on se plaignait qu' elles se vident dans les années 70 sont désormais pleines , pendant que les crédits du logement social ont du mal à être consommés par les organismes constructeurs du fait de ces prix .</text>
+            <annotationSet status="MANUAL" ID="17945">
+                <layer rank="1" name="FE">
+                    <label end="11" start="8" name="Topic"/>
+                    <label end="66" start="0" name="Topic"/>
+                    <label end="66" start="33" name="Complaint"/>
+                    <label end="14" start="13" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14915">
+            <text>Les banques diminuèrent alors leur taux de base , mais durent affronter les récriminations amères des clients , essentiellement les particuliers , qui se plaignaient d' être spoliés puisque une inflation de 14 % rongeait la substance de leur épargne .</text>
+            <annotationSet status="MANUAL" ID="19200">
+                <layer rank="1" name="FE">
+                    <label end="149" start="147" name="Complaint"/>
+                    <label end="180" start="169" name="Complaint"/>
+                    <label end="248" start="102" name="Complainer"/>
+                    <label end="149" start="147" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15197">
+            <text>Souvent , les entreprises françaises se plaignent de la difficulté qu' il y a à évaluer la qualité d' un partenaire éventuel en Europe centrale et orientale .</text>
+            <annotationSet status="MANUAL" ID="19442">
+                <layer rank="1" name="FE">
+                    <label end="155" start="53" name="Complaint"/>
+                    <label end="35" start="10" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15879">
+            <text>Cependant , ces temps derniers , on entendait dire qu' il se plaignait : le président ne l' écoutait plus ou pas assez , les ministres courtisans gagnaient en influence , les informations apportées " en direct " par le fort zélé directeur de la DST , M. Jacques Fournet , lui échappaient parfois .</text>
+            <annotationSet status="MANUAL" ID="20052">
+                <layer rank="1" name="FE">
+                    <label end="294" start="73" name="Complaint"/>
+                    <label end="56" start="55" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16296">
+            <text>Au cours des dix premiers mois , leurs investissements ont diminué de moitié ( passant de 1 , 2 milliard de dollars à 687 millions de dollars ) , et plusieurs entreprises étrangères se sont retirées , se plaignant de l' augmentation des salaires et de tensions sociales .</text>
+            <annotationSet status="MANUAL" ID="20460">
+                <layer rank="1" name="FE">
+                    <label end="247" start="217" name="Complaint"/>
+                    <label end="268" start="252" name="Complaint"/>
+                    <label end="180" start="149" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="212" start="201" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18368">
+            <text>Et , parmi eux , personne n' aurait songé à se plaindre de voir les héritiers du général de Gaulle pratiquer , dans le fonctionnement de leur nouveau mouvement , le centralisme démocratique cher aux communistes : les " compagnons " , comme les " camarades " , étaient priés de s' abstenir de tout état d' âme .</text>
+            <annotationSet status="MANUAL" ID="22492">
+                <layer rank="1" name="FE">
+                    <label end="24" start="17" name="Complaint"/>
+                    <label end="209" start="59" name="Complaint"/>
+                    <label end="24" start="17" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21187">
+            <text>A l' inverse , il a suffi que le gouvernement nigérian renforce , début mai , les contrôles à la frontière pour qu' un émissaire tchadien vienne se plaindre de la pénurie soudainement créée dans son pays .</text>
+            <annotationSet status="MANUAL" ID="24644">
+                <layer rank="1" name="FE">
+                    <label end="202" start="160" name="Complaint"/>
+                    <label end="136" start="116" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21387">
+            <text>Certains investisseurs étrangers mettent aussi en cause des lenteurs bureaucratiques dans l' attribution des aides européennes : " Il n' y a pas de définition claire de ce qu' il faut faire , se plaint un Français qui a investi 215 millions de francs dans une exploitation de fruits et légumes dans l' Algarve .</text>
+            <annotationSet status="MANUAL" ID="24783">
+                <layer rank="1" name="FE">
+                    <label end="188" start="131" name="Complaint"/>
+                    <label end="308" start="202" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="200" start="192" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

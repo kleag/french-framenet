@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se confier.v" ID="2461" frame="Reveal_secret" frameID="1146" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="inf" name="Information"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="23066"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Information"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="23066"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19005">
+            <text>Selon le Vrye Weekblad , hebdomadaire en langue afrikaans , un citoyen suédois du nom d' Human s' est confié , en décembre , à l' ANC au Zimbabwe , et a affirmé avoir participé à l' assassinat de Dulcie September , à Paris , en 1988 .</text>
+            <annotationSet status="MANUAL" ID="23066">
+                <layer rank="1" name="FE">
+                    <label end="132" start="127" name="Addressee"/>
+                    <label end="93" start="60" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="95" name="Target"/>
+                    <label end="107" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

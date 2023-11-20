@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Getting_money" ID="10031" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;This frame involves a &lt;fen&gt;Getter&lt;/fen&gt; getting &lt;fen&gt;Money&lt;/fen&gt;, possibly from a &lt;fen&gt;Giver&lt;/fen&gt; (possibly in retribution for goods, although this is then expressed compositionally).
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+≠ &lt;frframe&gt;Commerce_collect&lt;/frframe&gt; in that its LUs do not per se imply a transaction, and if one can be understood, the goods are introduced compositionally (e.g. using a meaningful preposition such as "in exchange of"). 
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; New in ASFALDA.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Gvr" name="Giver" ID="1692">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Giver&lt;/fen&gt; gives the &lt;fen&gt;Money&lt;/fen&gt; to a &lt;fen&gt;Getter&lt;/fen&gt;
+&lt;ex&gt;Une taxe de 10 % &lt;t&gt;prélevée&lt;/t&gt; à la source auprès des &lt;fex name="Byr"&gt;banques&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Source" ID="151"/>
+    </FE>
+<!--
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Gds" name="Goods" ID="1693">
+        <definition>&lt;def-root&gt;The FE Goods is anything (including labor or time, for example) which is exchanged for Money in a transaction. 
+&lt;ex&gt;On lui reproche d' avoir &lt;t&gt;perçu&lt;/t&gt; près de 40 millions de francs en trois ans, en échange d'&lt;fex name="Gds"&gt;information&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+-->
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Mny" name="Money" ID="1695">
+        <definition>&lt;def-root&gt;Money is the thing given to the Getter.
+&lt;ex&gt;Cette même année_record, la recette de TVA &lt;t&gt;encaissée&lt;/t&gt; s'est montée à &lt;fex name="Mny"&gt;1,858 milliard de francs&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Rate" name="Rate" ID="1696">
+        <definition>&lt;def-root&gt;In some cases, price or payment is described per unit of goods.
+&lt;ex&gt;The cleaner &lt;t&gt;charged&lt;/t&gt; us &lt;fex name="Rate"&gt;at forty dollars per hour&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Gtr" name="Getter" ID="1697">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Getter&lt;/fen&gt; gets the &lt;fen&gt;Money&lt;/fen&gt; (possibly in exchange for some goods).
+&lt;ex&gt; En contrepartie, &lt;fex name="Gtr"&gt;elle&lt;/fex&gt; &lt;t&gt;perçoit&lt;/t&gt; des royalties.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Unit" name="Unit" ID="1698">
+        <definition>&lt;def-root&gt;This FE is any unit in which goods or services can be measured.
+Generally, it occurs in a &lt;ment&gt;by&lt;/ment&gt;-PP. 
+&lt;ex&gt;I &lt;t&gt;bill&lt;/t&gt; for etiquette lessons &lt;fex name="Unit"&gt;by the hour&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Rate" ID="1696"/>
+        <memberFE name="Money" ID="1695"/>
+    </FEcoreSet>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Commerce_collect</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="encaissement.n" ID="1124" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="encaisser.v" ID="1125" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="100788" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="perception.n" ID="1126" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="830" annotatedsent="3"/>
+        <otherlexUnit framename="Other_sense" ID="101361" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Becoming_aware" ID="114" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="percevoir.v" ID="1127" nbocc="19" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="831" annotatedsent="7"/>
+        <otherlexUnit framename="Other_sense" ID="101362" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Becoming_aware" ID="115" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prélever.v" ID="1128" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="101492" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prélèvement.n" ID="1129" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101493" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="recouvrement.n" ID="1130" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101569" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="recouvrer.v" ID="1131" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101570" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="toucher.v" ID="1132" nbocc="112" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="101928" annotatedsent="31"/>
+        <otherlexUnit framename="FR_Contacting" ID="978" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="1008" annotatedsent="64"/>
+    </lexUnit>
+</frame>

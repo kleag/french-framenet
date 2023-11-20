@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'arranger.v" ID="2011" frame="Make_agreement_on_action" frameID="10039" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="par1" name="Party_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="par2" name="Party_2"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="obl" name="Obligation"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="pars" name="Parties"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Obligation"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Obligation"/>
+                <annoSet ID="15261"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Parties"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Parties"/>
+                <annoSet ID="15261"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Party_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Party_2"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="11010">
+            <text>En revanche , celle sur le changement climatique global , a été finalement ratifiée par tout le monde , y compris les Etats - Unis , car on s' est arrangé pour en supprimer toute contrainte chiffrée et tout calendrier .</text>
+            <annotationSet status="MANUAL" ID="15261">
+                <layer rank="1" name="FE">
+                    <label end="216" start="160" name="Obligation"/>
+                    <label end="138" start="137" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="140" name="Target"/>
+                    <label end="153" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

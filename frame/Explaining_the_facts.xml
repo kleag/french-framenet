@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Explaining_the_facts" ID="1462" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Causality">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Question&lt;/fen&gt; about the reason or cause of a known &lt;fen&gt;State_of_affairs&lt;/fen&gt; is presented as being answered by the existence of a particular &lt;fen&gt;Fact&lt;/fen&gt;.  The exact chain of reasoning, including the answer itself, of which the &lt;fen&gt;Fact&lt;/fen&gt; is a part is not specified.
+
+Contrast this frame with the Evidence frame which casts a Support (a fact) as providing Evidence for, or conclusively proving, the Proposition (another proposed fact). Thus, there is no open question in the Evidence frame.
+
+
+&lt;ex&gt;&lt;fex name="fac"&gt;Ruby's orange vest marked with the words "service dog"&lt;/fex&gt; &lt;t&gt;accounts&lt;/t&gt; &lt;fex name="que"&gt;for why the 3-year-old goes along&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="fac"&gt;The nation's history&lt;/fex&gt; &lt;t&gt;explains&lt;/t&gt; &lt;fex name="que"&gt;why the current conflict succumbs to, and yet simultaneously transcends, the stereotype&lt;/fex&gt;.&lt;/ex&gt;
+
+
+&lt;ex&gt;Then &lt;fex name="sta"&gt;that I exist&lt;/fex&gt; is &lt;t&gt;explained&lt;/t&gt; &lt;fex name="fac"&gt;by A and B having come together&lt;/fex&gt;.&lt;/ex&gt;
+
+
+&lt;ex&gt; &lt;fex name="fac"&gt;Lack of potential for improvement in the immediate future&lt;/fex&gt; &lt;t&gt;accounts&lt;/t&gt; &lt;fex name="sta"&gt;for the low number of returnees into South Ossetia, even for the Ossetian ethnic group&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="fac"&gt;That&lt;/fex&gt; &lt;t&gt;explains&lt;/t&gt; &lt;fex name="sta"&gt;it&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="mea"&gt;Somehow&lt;/fex&gt;  &lt;fex name="fac"&gt;this&lt;/fex&gt; &lt;t&gt;explains&lt;/t&gt; &lt;fex name="que"&gt;why Apple is always  the last man to get the technology&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="05/24/2005 10:51:06 PDT Tue" abbrev="fac" name="Fact" ID="8025">
+        <definition>&lt;def-root&gt;A fact which can be connected by a chain of reasoning to the State_of_affairs.
+
+&lt;ex&gt;&lt;fex name="fac"&gt;This fact&lt;/fex&gt; alone &lt;t&gt;explains&lt;/t&gt; the Sun/climate anomaly.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="05/24/2005 10:51:10 PDT Tue" abbrev="sta" name="State_of_affairs" ID="8026">
+        <definition>&lt;def-root&gt;A fact whose cause is under consideration.
+
+&lt;ex&gt;Do increased proinsulin concentrations &lt;t&gt;explain&lt;/t&gt; &lt;fex name="sta"&gt;the excess risk of coronary heart disease in diabetic and prediabetic subjects&lt;/fex&gt;?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <excludesFE name="Question" ID="8034"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="05/24/2005 11:50:07 PDT Tue" abbrev="que" name="Question" ID="8034">
+        <definition>&lt;def-root&gt;An open proposition concerning the cause of the &lt;fen&gt;State_of_affairs&lt;/fen&gt;.
+
+&lt;ex&gt;The fact that this remained in Pandora's box &lt;t&gt;explains&lt;/t&gt; &lt;fex name="que"&gt;why men have hope&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Attributed by">
+        <relatedFrame>FR_Attributing_cause</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Inherits from">
+        <relatedFrame>Causation</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="conj" name="c'est que.conj" ID="2609" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100294" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="535" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="explication.n" ID="688" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Quarreling" ID="2242" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="100852" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1559" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1479" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Attributing_cause" ID="1133" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="expliquer.v" ID="689" nbocc="213" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="17"/>
+        <otherlexUnit framename="Other_sense" ID="100853" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1560" annotatedsent="59"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1480" annotatedsent="11"/>
+        <otherlexUnit framename="FR_Attributing_cause" ID="1134" annotatedsent="14"/>
+    </lexUnit>
+</frame>

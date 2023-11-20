@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="accuser.v" ID="1918" frame="FR_Judgment_communication" frameID="10080" totalAnnotated="39" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="38">
+            <FE name="Communicator"/>
+            <pattern total="26">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="2042"/>
+                <annoSet ID="3873"/>
+                <annoSet ID="4184"/>
+                <annoSet ID="4618"/>
+                <annoSet ID="6352"/>
+                <annoSet ID="6357"/>
+                <annoSet ID="7960"/>
+                <annoSet ID="8101"/>
+                <annoSet ID="8675"/>
+                <annoSet ID="10321"/>
+                <annoSet ID="10512"/>
+                <annoSet ID="11924"/>
+                <annoSet ID="14373"/>
+                <annoSet ID="14980"/>
+                <annoSet ID="18492"/>
+                <annoSet ID="19660"/>
+                <annoSet ID="19956"/>
+                <annoSet ID="20023"/>
+                <annoSet ID="20781"/>
+                <annoSet ID="20933"/>
+                <annoSet ID="21018"/>
+                <annoSet ID="21227"/>
+                <annoSet ID="22487"/>
+                <annoSet ID="22662"/>
+                <annoSet ID="23347"/>
+                <annoSet ID="24780"/>
+            </pattern>
+            <pattern total="12">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="219"/>
+                <annoSet ID="2374"/>
+                <annoSet ID="3781"/>
+                <annoSet ID="8601"/>
+                <annoSet ID="14186"/>
+                <annoSet ID="14360"/>
+                <annoSet ID="14696"/>
+                <annoSet ID="19149"/>
+                <annoSet ID="20114"/>
+                <annoSet ID="21523"/>
+                <annoSet ID="21691"/>
+                <annoSet ID="23852"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="39">
+            <FE name="Evaluee"/>
+            <pattern total="38">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="219"/>
+                <annoSet ID="2042"/>
+                <annoSet ID="2374"/>
+                <annoSet ID="3781"/>
+                <annoSet ID="3873"/>
+                <annoSet ID="4184"/>
+                <annoSet ID="4618"/>
+                <annoSet ID="6352"/>
+                <annoSet ID="6357"/>
+                <annoSet ID="7960"/>
+                <annoSet ID="8101"/>
+                <annoSet ID="8601"/>
+                <annoSet ID="8675"/>
+                <annoSet ID="10321"/>
+                <annoSet ID="10512"/>
+                <annoSet ID="11924"/>
+                <annoSet ID="14186"/>
+                <annoSet ID="14360"/>
+                <annoSet ID="14373"/>
+                <annoSet ID="14696"/>
+                <annoSet ID="14980"/>
+                <annoSet ID="18492"/>
+                <annoSet ID="19149"/>
+                <annoSet ID="19660"/>
+                <annoSet ID="19956"/>
+                <annoSet ID="20114"/>
+                <annoSet ID="20781"/>
+                <annoSet ID="20933"/>
+                <annoSet ID="21018"/>
+                <annoSet ID="21227"/>
+                <annoSet ID="21523"/>
+                <annoSet ID="21691"/>
+                <annoSet ID="22487"/>
+                <annoSet ID="22662"/>
+                <annoSet ID="23343"/>
+                <annoSet ID="23347"/>
+                <annoSet ID="23852"/>
+                <annoSet ID="24780"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Evaluee"/>
+                <annoSet ID="20023"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Medium"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="7960"/>
+                <annoSet ID="8101"/>
+                <annoSet ID="23343"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Message"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="20023"/>
+                <annoSet ID="21227"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="37">
+            <FE name="Reason"/>
+            <pattern total="37">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="219"/>
+                <annoSet ID="2042"/>
+                <annoSet ID="2374"/>
+                <annoSet ID="3781"/>
+                <annoSet ID="3873"/>
+                <annoSet ID="4184"/>
+                <annoSet ID="4618"/>
+                <annoSet ID="6352"/>
+                <annoSet ID="6357"/>
+                <annoSet ID="7960"/>
+                <annoSet ID="8101"/>
+                <annoSet ID="8601"/>
+                <annoSet ID="8675"/>
+                <annoSet ID="10321"/>
+                <annoSet ID="10512"/>
+                <annoSet ID="11924"/>
+                <annoSet ID="14186"/>
+                <annoSet ID="14360"/>
+                <annoSet ID="14373"/>
+                <annoSet ID="14696"/>
+                <annoSet ID="14980"/>
+                <annoSet ID="18492"/>
+                <annoSet ID="19149"/>
+                <annoSet ID="19660"/>
+                <annoSet ID="19956"/>
+                <annoSet ID="20114"/>
+                <annoSet ID="20781"/>
+                <annoSet ID="20933"/>
+                <annoSet ID="21018"/>
+                <annoSet ID="21523"/>
+                <annoSet ID="21691"/>
+                <annoSet ID="22487"/>
+                <annoSet ID="22662"/>
+                <annoSet ID="23343"/>
+                <annoSet ID="23347"/>
+                <annoSet ID="23852"/>
+                <annoSet ID="24780"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="182">
+            <text>Le fond du problème : l' opposition avec le président de l' Harmonie , accusé de " prendre seul les décisions " .</text>
+            <annotationSet status="MANUAL" ID="219">
+                <layer rank="1" name="FE">
+                    <label end="110" start="41" name="Reason"/>
+                    <label end="69" start="41" name="Evaluee"/>
+                    <label itype="DNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1779">
+            <text>Sans fournir la moindre preuve , Washington continue d' accuser l' Irak de fabriquer secrètement des armes biologiques et chimiques .</text>
+            <annotationSet status="MANUAL" ID="2042">
+                <layer rank="1" name="FE">
+                    <label end="42" start="33" name="Communicator"/>
+                    <label end="70" start="64" name="Reason"/>
+                    <label end="130" start="75" name="Reason"/>
+                    <label end="70" start="64" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1913">
+            <text>La semaine passée , il a été accusé d' avoir voulu couper l' herbe sous le pied au Président de la Commission , M. Prodi .</text>
+            <annotationSet status="MANUAL" ID="2374">
+                <layer rank="1" name="FE">
+                    <label end="21" start="20" name="Reason"/>
+                    <label end="119" start="39" name="Reason"/>
+                    <label end="21" start="20" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2898">
+            <text>Plusieurs clubs sont accusés d' avoir influencé la désignation des arbitres pour leurs matches .</text>
+            <annotationSet status="MANUAL" ID="3781">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Reason"/>
+                    <label end="93" start="32" name="Reason"/>
+                    <label end="14" start="0" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2971">
+            <text>Charles Pasqua accuse même Jospin d' avoir créé un " cabinet noir " , voué à déstabiliser la droite .</text>
+            <annotationSet status="MANUAL" ID="3873">
+                <layer rank="1" name="FE">
+                    <label end="13" start="0" name="Communicator"/>
+                    <label end="32" start="27" name="Reason"/>
+                    <label end="98" start="37" name="Reason"/>
+                    <label end="32" start="27" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3219">
+            <text>Le Crédit Lyonnais - dont la filiale néerlandaise Bank Nederland NV était très engagé dans le cinéma , et avait soutenu M. Parretti dans sa tentative de rachat des studios hollywoodiens , en 1990 - avait porté plainte , en juin dernier , contre M. Parretti , l' accusant de n' avoir pas respecté un accord le dessaisissant de la gestion quotidienne de la MGM .</text>
+            <annotationSet status="MANUAL" ID="4184">
+                <layer rank="1" name="FE">
+                    <label end="194" start="0" name="Communicator"/>
+                    <label end="260" start="259" name="Reason"/>
+                    <label end="357" start="274" name="Reason"/>
+                    <label end="260" start="259" name="Evaluee"/>
+                    <label end="255" start="245" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="269" start="262" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3464">
+            <text>On ne peut pas les accuser d' avoir , pour leurs voeux , ou au cours des semaines précédentes , embelli la situation .</text>
+            <annotationSet status="MANUAL" ID="4618">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Communicator"/>
+                    <label end="17" start="15" name="Reason"/>
+                    <label end="115" start="30" name="Reason"/>
+                    <label end="17" start="15" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4499">
+            <text>Mais de quoi n' a -t-on pas accusé la télé ?</text>
+            <annotationSet status="MANUAL" ID="6352">
+                <layer rank="1" name="FE">
+                    <label end="22" start="18" name="Communicator"/>
+                    <label end="11" start="8" name="Reason"/>
+                    <label end="41" start="35" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4501">
+            <text>On s' en est pris à ses effets sur l' alimentation et on l' a accusée de favoriser la carie dentaire et ... l' obésité .</text>
+            <annotationSet status="MANUAL" ID="6357">
+                <layer rank="1" name="FE">
+                    <label end="55" start="54" name="Communicator"/>
+                    <label end="58" start="57" name="Reason"/>
+                    <label end="117" start="73" name="Reason"/>
+                    <label end="58" start="57" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5471">
+            <text>Dans un entretien publié mercredi 1 juillet par la Croix , M. Jacques Chirac , président du RPR , accuse les socialistes de " s' acharner à contrôler de manière autoritaire le volume de la consommation médicale , alors que les Français doivent être libres de dépenser le fruit de leurs efforts " .</text>
+            <annotationSet status="MANUAL" ID="7960">
+                <layer rank="1" name="FE">
+                    <label end="94" start="59" name="Communicator"/>
+                    <label end="119" start="105" name="Reason"/>
+                    <label end="294" start="124" name="Reason"/>
+                    <label end="55" start="5" name="Medium"/>
+                    <label end="119" start="105" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5562">
+            <text>Dans un entretien au monde , M. René Teulade , ministre des affaires sociales , accuse l' opposition , qui s' apprêtait à déposer une motion de censure , d' avoir fait " assaut de démagogie " .</text>
+            <annotationSet status="MANUAL" ID="8101">
+                <layer rank="1" name="FE">
+                    <label end="76" start="29" name="Communicator"/>
+                    <label end="150" start="87" name="Reason"/>
+                    <label end="190" start="157" name="Reason"/>
+                    <label end="25" start="5" name="Medium"/>
+                    <label end="150" start="87" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5838">
+            <text>La récession , qui de juillet 1990 à décembre 1991 a frappé l' économie , a été plus sévère que prévu , ne serait -ce que par le nombre de chômeurs qu' elle a engendrés ( 2 , 2 millions au lieu des 1 , 6 million initialement avancés ) mais le président Bush ne doit pas se faire accuser pour autant d' afficher le bilan économique le plus catastrophique depuis Harry Truman ( 1945 -1953 ) .</text>
+            <annotationSet status="MANUAL" ID="8601">
+                <layer rank="1" name="FE">
+                    <label end="256" start="240" name="Reason"/>
+                    <label end="387" start="302" name="Reason"/>
+                    <label end="256" start="240" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="285" start="279" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5874">
+            <text>Mais ses électeurs sont de plus en plus nombreux à lui reprocher cette attitude de patricien qui le tient si éloigné des nouvelles réalités de leur vie quotidienne : des jeunes diplômés de prestigieuses universités américaines qui ne trouvent pas d' emploi , un système éducatif lamentable dans les écoles publiques , qui fait que 80 % des candidats à l' embauche sont refusés faute de savoir écrire convenablement un curriculum vitae , un triplement en vingt ans du nombre d' enfants vivant avec un seul parent , un record mondial en termes de personnes sous les verrous ( 1 , 15 million , qui coûtent chacune 20 000 dollars par an ) , des villes délabrées et où l' apartheid racial et social est la seule règle de survie , la constitution d' une under - class ouverte à tous les maux aux côtés d' une classe moyenne paupérisée , une population agricole qui a chuté de 50 % en vingt ans , la violence par les armes à feu , reconnue " épidémie " et " urgence publique " pour l' association des médecins américains , six millions d' enfant de 14 à 18 ans qui travaillent dans l' illégalité la plus complète , un fossé grandissant entre les Américains les plus riches qui ont vu leurs revenus augmenter de 32 % en dix ans tandis que les plus pauvres ont vu les leurs chuter de 13 % , et pour finir - un comble ! Des patrons contraints de diminuer leurs salaires devant la grogne de leurs actionnaires et de leurs salariés qui les accusent d' incompétence .</text>
+            <annotationSet status="MANUAL" ID="8675">
+                <layer rank="1" name="FE">
+                    <label end="1422" start="1420" name="Communicator"/>
+                    <label end="1451" start="1380" name="Communicator"/>
+                    <label end="1451" start="1440" name="Reason"/>
+                    <label end="1426" start="1424" name="Evaluee"/>
+                    <label end="1451" start="1310" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="1435" start="1428" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6959">
+            <text>Soupçonnés de vouloir " briser par tous les moyens les reins de la politique agricole commune afin de s' arroger l' hégémonie du marché mondial " , les Américains sont la bête noire de la FNSEA , accusés , à juste titre , de vouloir supprimer les subventions européennes à l' exportation sans pour autant réduire les aides qu' ils octroient à leurs agriculteurs .</text>
+            <annotationSet status="MANUAL" ID="10321">
+                <layer rank="1" name="FE">
+                    <label end="192" start="185" name="Communicator"/>
+                    <label end="161" start="148" name="Reason"/>
+                    <label end="360" start="225" name="Reason"/>
+                    <label end="161" start="148" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="196" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7116">
+            <text>Les Etats - Unis mettent en cause la qualité phytosanitaire des légumes ou des fruits mexicains ou accusent les producteurs de " dumping " ;</text>
+            <annotationSet status="MANUAL" ID="10512">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Communicator"/>
+                    <label end="135" start="129" name="Reason"/>
+                    <label end="122" start="108" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8312">
+            <text>La CFTC accuse ainsi les palaces de vouloir devenir une " pompe à sous " au lieu de rester une " vitrine " du prestige français .</text>
+            <annotationSet status="MANUAL" ID="11924">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Communicator"/>
+                    <label end="31" start="21" name="Reason"/>
+                    <label end="126" start="36" name="Reason"/>
+                    <label end="31" start="21" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10097">
+            <text>Robert Maxwell ayant été accusé d' avoir largement puisé dans ces caisses de retraite , le bureau des fraudes britannique ( SFO ) enquête , depuis sa mort , sur ces détournements financiers .</text>
+            <annotationSet status="MANUAL" ID="14186">
+                <layer rank="1" name="FE">
+                    <label end="13" start="0" name="Reason"/>
+                    <label end="84" start="35" name="Reason"/>
+                    <label end="13" start="0" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10218">
+            <text>La CGT est aussi accusée d' avoir utilisé une bonne partie de ce personnel à des tâches militantes à son profit ou à celui du PCF et d' avoir soutenu à fonds perdus Tourisme et Travail , une organisation de loisirs proche du Parti communiste , aujourd' hui disparue .</text>
+            <annotationSet status="MANUAL" ID="14360">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Reason"/>
+                    <label end="128" start="28" name="Reason"/>
+                    <label end="5" start="0" name="Evaluee"/>
+                    <label itype="DNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10223">
+            <text>Les cégétistes accusent enfin les autres syndicats de refuser , " contre l' avis de l' inspecteur du travail " , la reprise des ex- salariés du comité d' établissement de Billancourt par celui du siège .</text>
+            <annotationSet status="MANUAL" ID="14373">
+                <layer rank="1" name="FE">
+                    <label end="13" start="0" name="Communicator"/>
+                    <label end="49" start="30" name="Reason"/>
+                    <label end="200" start="54" name="Reason"/>
+                    <label end="49" start="30" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10495">
+            <text>Les experts qui , au cours de l' été 1992 , relèvent le renversement de la conjoncture - confirmé depuis - sont , par exemple , accusés de jouer " contre la France " .</text>
+            <annotationSet status="MANUAL" ID="14696">
+                <layer rank="1" name="FE">
+                    <label end="105" start="0" name="Reason"/>
+                    <label end="164" start="139" name="Reason"/>
+                    <label end="105" start="0" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10726">
+            <text>Déjà en 1986 , les transformateurs américains de cuivre accusaient leurs confrères européens - et au premier chef les français , les allemands et les italiens - de pratiquer du dumping sur les demi - produits , c' est - à - dire sur les produits transformés .</text>
+            <annotationSet status="MANUAL" ID="14980">
+                <layer rank="1" name="FE">
+                    <label end="54" start="15" name="Communicator"/>
+                    <label end="159" start="67" name="Reason"/>
+                    <label end="256" start="164" name="Reason"/>
+                    <label end="159" start="67" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14150">
+            <text>Sir Leon Brittan fut accusé à son tour par le président d' Air France de s' être montré partial au sujet des concentrations dans le transport aérien et d' avoir privilégié les sociétés britanniques .</text>
+            <annotationSet status="MANUAL" ID="18492">
+                <layer rank="1" name="FE">
+                    <label end="68" start="43" name="Communicator"/>
+                    <label end="15" start="0" name="Reason"/>
+                    <label end="150" start="73" name="Reason"/>
+                    <label end="196" start="155" name="Reason"/>
+                    <label end="15" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14868">
+            <text>Le changement de majorité et de gouvernement permet au contraire tout à la fois d' accuser d' impéritie les sortants et de continuer , pour l' essentiel , la même politique .</text>
+            <annotationSet status="MANUAL" ID="19149">
+                <layer rank="1" name="FE">
+                    <label end="102" start="94" name="Reason"/>
+                    <label end="115" start="104" name="Evaluee"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15410">
+            <text>La compagnie nationale avait accusé Air Liberté de " concurrence déloyale " et l' avait assignée en justice car elle n' appliquait pas la réduction de 50 % en faveur des enfants de moins de douze ans prévue par le cahier des charges .</text>
+            <annotationSet status="MANUAL" ID="19660">
+                <layer rank="1" name="FE">
+                    <label end="21" start="0" name="Communicator"/>
+                    <label end="72" start="53" name="Reason"/>
+                    <label end="46" start="36" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15779">
+            <text>M. Tranchant l' accuse d' avoir détourné une somme de 13 millions de francs lors de la revente , en 1985 , du fonds de commerce dans lequel ils étaient associés .</text>
+            <annotationSet status="MANUAL" ID="19956">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Communicator"/>
+                    <label end="14" start="13" name="Reason"/>
+                    <label end="159" start="26" name="Reason"/>
+                    <label end="14" start="13" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15844">
+            <text>" Ce sont des ayatollahs thatchériens " , accuse -t-il .</text>
+            <annotationSet status="MANUAL" ID="20023">
+                <layer rank="1" name="FE">
+                    <label end="53" start="49" name="Communicator"/>
+                    <label end="40" start="0" name="Message"/>
+                    <label itype="DNI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15937">
+            <text>Troisième problème : la régie d' A 2 - FR 3 peut -elle être accusée d' entente avec les centrales d' achats ?</text>
+            <annotationSet status="MANUAL" ID="20114">
+                <layer rank="1" name="FE">
+                    <label end="106" start="71" name="Reason"/>
+                    <label end="53" start="49" name="Evaluee"/>
+                    <label end="42" start="21" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16577">
+            <text>Mais , en accusant tous ceux qui ne se joignent pas aux communistes de se rallier à l' extrême droite , le parti a abouti à un résultat contraire à celui qu' il recherchait .</text>
+            <annotationSet status="MANUAL" ID="20781">
+                <layer rank="1" name="FE">
+                    <label end="111" start="104" name="Communicator"/>
+                    <label end="66" start="19" name="Reason"/>
+                    <label end="100" start="71" name="Reason"/>
+                    <label end="66" start="19" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16805">
+            <text>Accusées par Monrovia d' abriter les hommes de la rébellion , les autorités ivoiriennes entendent bien prouver ainsi qu' elles ne sont mêlées d' aucune façon à cette affaire intérieure .</text>
+            <annotationSet status="MANUAL" ID="20933">
+                <layer rank="1" name="FE">
+                    <label end="20" start="13" name="Communicator"/>
+                    <label end="58" start="25" name="Reason"/>
+                    <label end="86" start="62" name="Reason"/>
+                    <label end="86" start="62" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16905">
+            <text>Ils accusèrent Mr Sanchez Asiain de chercher à modifier unilatéralement l' équilibre entre les deux banques et de transformer ainsi une fusion paritaire en une absorption déguisée .</text>
+            <annotationSet status="MANUAL" ID="21018">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Communicator"/>
+                    <label end="31" start="15" name="Reason"/>
+                    <label end="109" start="36" name="Reason"/>
+                    <label end="178" start="114" name="Reason"/>
+                    <label end="31" start="15" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17105">
+            <text>Les avocats représentent l' organisation sociale de la méfiance , accuse Mr Jean Padioleau , professeur à l' école supérieure de commerce de Paris .</text>
+            <annotationSet status="MANUAL" ID="21227">
+                <layer rank="1" name="FE">
+                    <label end="145" start="73" name="Communicator"/>
+                    <label end="64" start="0" name="Message"/>
+                    <label end="10" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17471">
+            <text>Après s' être empressé pour que le président tchèque , Mr Vaclav Havel , le reçoive en audience , Mr Lang avait , devant un public tchèque , critiqué les télévisions commerciales accusées d' " imposer une dictature de la médiocrité et de la rentabilité immédiate " .</text>
+            <annotationSet status="MANUAL" ID="21523">
+                <layer rank="1" name="FE">
+                    <label end="263" start="150" name="Reason"/>
+                    <label end="177" start="150" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="179" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17655">
+            <text>EDF , de son côté , est accusée d' avoir financé une station de ski de fond dans la vallée du Nistos pour retourner en sa faveur un syndicat d' élus locaux .</text>
+            <annotationSet status="MANUAL" ID="21691">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Reason"/>
+                    <label end="154" start="35" name="Reason"/>
+                    <label end="2" start="0" name="Evaluee"/>
+                    <label itype="ENI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18360">
+            <text>Qui conserve le souvenir de l' alter ego de René Capitant , le jovial polytechnicien Louis Vallon , qui accusait Georges Pompidou d' être l' " anti- de Gaulle " ?</text>
+            <annotationSet status="MANUAL" ID="22487">
+                <layer rank="1" name="FE">
+                    <label end="102" start="100" name="Communicator"/>
+                    <label end="159" start="28" name="Communicator"/>
+                    <label end="128" start="113" name="Reason"/>
+                    <label end="159" start="133" name="Reason"/>
+                    <label end="128" start="113" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18559">
+            <text>Mr Cami a surtout mis en cause la Yougoslavie , son agence de presse Tanjug et les journaux de Belgrade , qu' il a accusés d' être à l' origine de cette campagne destinée , selon lui , à " détourner l' attention du monde " de la situation dans la province yougoslave du Kosovo ( où la population albanaise majoritaire se dit privée de droits nationaux ) et de la grave crise économique politique qui sévit en Yougoslavie .</text>
+            <annotationSet status="MANUAL" ID="22662">
+                <layer rank="1" name="FE">
+                    <label end="111" start="110" name="Communicator"/>
+                    <label end="6" start="0" name="Communicator"/>
+                    <label end="108" start="106" name="Reason"/>
+                    <label end="419" start="126" name="Reason"/>
+                    <label end="108" start="106" name="Evaluee"/>
+                    <label end="419" start="31" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19382">
+            <text>L' ancien rapporteur de la commission des droits de l' homme des nations unies , qui a eu les pires ennuis pour avoir tenté d' en dénoncer les violations dans son pays , y est accusé d' avoir été colonel de la Securitate - il reconnaît avoir dirigé " moins d' un an " l' école du ministère de l' intérieur , en 1964 - 1965 , - d' avoir tué une personne dans un accident de voiture , d' avoir plagié des travaux universitaires et de s' être découvert dissident lorsqu' on lui refusa de sortir de Roumanie pour aller " toucher des devises " .</text>
+            <annotationSet status="MANUAL" ID="23343">
+                <layer rank="1" name="FE">
+                    <label end="166" start="0" name="Reason"/>
+                    <label end="219" start="186" name="Reason"/>
+                    <label end="170" start="170" name="Medium"/>
+                    <label end="166" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="181" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19383">
+            <text>Dimanche , c' était au tour d' Adevarul ( " la Vérité " , qui a remplacé l' ancien organe du parti Scinteia ) de demander sa démission sous la plume d' un " porte - parole des militaires " qui rappelle les liens de Mr Mazilu avec la Securitate et l' accuse d' avoir " encouragé vendredi par son opportunisme le chaos et l' anarchie " , tandis que Romania Libera réitérait ses attaques de la veille en soupçonnant le vice- président du CNSN d' avoir voulu renverser le numéro un , Mr Iliescu , et en publiant le communiqué d' associations de juristes qui le jugent tout bonnement coupable de " haute trahison " .</text>
+            <annotationSet status="MANUAL" ID="23347">
+                <layer rank="1" name="FE">
+                    <label end="191" start="189" name="Communicator"/>
+                    <label end="187" start="152" name="Communicator"/>
+                    <label end="248" start="247" name="Reason"/>
+                    <label end="332" start="260" name="Reason"/>
+                    <label end="248" start="247" name="Evaluee"/>
+                    <label end="223" start="215" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="255" start="250" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20117">
+            <text>Ensuite , les opérateurs font état de vives critiques qui pleuvent sur la Bundesbank , accusée d' avoir trop relevé ses taux directeurs .</text>
+            <annotationSet status="MANUAL" ID="23852">
+                <layer rank="1" name="FE">
+                    <label end="134" start="71" name="Reason"/>
+                    <label end="85" start="71" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21385">
+            <text>" Une chose est de voir des caisses de pommes de terre et de fruits répandus sur le sol et une autre est de voir la capacité réelle des producteurs à écouler leurs produits " , a dit le premier ministre , suscitant une violente réaction de la part des organisations agricoles qui ont rejeté la responsabilité de cette situation sur le gouvernement , l' accusant de n' avoir rien fait pour aider les agriculteurs à mettre sur pied des réseaux de distribution ou des organismes susceptibles de concentrer l' offre de produits .</text>
+            <annotationSet status="MANUAL" ID="24780">
+                <layer rank="1" name="FE">
+                    <label end="348" start="252" name="Communicator"/>
+                    <label end="351" start="350" name="Reason"/>
+                    <label end="522" start="365" name="Reason"/>
+                    <label end="351" start="350" name="Evaluee"/>
+                    <label end="346" start="332" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="360" start="353" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

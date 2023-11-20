@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Commitment.to_do" ID="10089" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; makes a commitment to an &lt;fen&gt;Addressee&lt;/fen&gt; to to act so that a future  &lt;fen&gt;Eventuality&lt;/fen&gt; will happen. The eventuality may be desirable (as with &lt;ment&gt;promettre&lt;/ment&gt;) or not desirable (as with &lt;ment&gt;menacer&lt;/ment&gt;) to the &lt;fen&gt;Addressee&lt;/fen&gt;.  For some LUs, alternatively an &lt;fen&gt;Entity&lt;/fen&gt; is direct object, and it is understood that the future action is to provide the Addressee with such an Entity. 
+&lt;ex&gt;&lt;fex name="Speaker"&gt;You&lt;/fex&gt; &lt;t&gt;promised&lt;/t&gt; &lt;fex name="Addressee"&gt;me&lt;/fex&gt; &lt;fex name="Eventuality"&gt;you'd come to my graduation&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Kim&lt;/fex&gt; &lt;t&gt;undertook&lt;/t&gt; &lt;fex name="Eventuality"&gt;to finish the project by June&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Spkr" name="Speaker" ID="135">
+        <definition>&lt;def-root&gt;The Speaker is the person who commits him/herself to do something. 
+&lt;ex&gt;  &lt;fex name="Speaker"&gt;Jo&lt;/fex&gt; made a &lt;t&gt;promise&lt;/t&gt; to me. &lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Jo&lt;/fex&gt; &lt;t&gt;promised&lt;/t&gt; me she would cook dinner.
+&lt;ex&gt; &lt;fex name="Speaker"&gt;Jo's&lt;/fex&gt; &lt;t&gt;promise&lt;/t&gt; to cook dinner came to nothing. &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Add" name="Addressee" ID="136">
+        <definition>&lt;def-root&gt;The person to which the commitment is made.
+&lt;ex&gt;Kim made a &lt;t&gt;promise&lt;/t&gt; &lt;fex name="Addressee"&gt;to me&lt;/fex&gt;. &lt;/ex&gt;
+&lt;ex&gt;Kim &lt;t&gt;promised&lt;/t&gt; &lt;fex name="Addressee"&gt;me&lt;/fex&gt; that everything would be okay. &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Msg" name="Eventuality" ID="137">
+        <definition>&lt;def-root&gt;A future state or event that the Speaker will try to make happen. 
+&lt;ex&gt;I &lt;t&gt;swear&lt;/t&gt; &lt;fex name="Eventuality"&gt;that this will not happen again.&lt;/fex&gt;. &lt;/ex&gt;
+&lt;ex&gt; They &lt;t&gt;threatened&lt;/t&gt; &lt;fex name="Message"&gt;revenge&lt;/fex&gt;.&lt;/ex&gt;
+ &lt;/def-root&gt;</definition>
+  <excludesFE name="Entity" ID="141"/>
+        <semType name="State_of_affairs" ID="56"/>
+    </FE>
+<!--     <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Msg" name="Action" ID="140">
+        <definition>&lt;def-root&gt;An action that the Speaker promise to perform. 
+&lt;ex&gt;The owner &lt;t&gt;promised&lt;/t&gt; &lt;fex name="Action"&gt;to sell the business&lt;/fex&gt;.&lt;/ex&gt;
+ &lt;/def-root&gt;</definition>
+  <excludesFE name="Eventuality" ID="137"/>
+  <excludesFE name="Entity" ID="141"/>
+    </FE>
+-->
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Msg" name="Entity" ID="141">
+        <definition>&lt;def-root&gt;An entity that the Speaker promises to provide to the Addressee. 
+&lt;ex&gt;FR-EX: Paul a promis &lt;fex name="Entity"&gt;300 euros&lt;/fex&gt; à Jean.&lt;/ex&gt;
+  &lt;/def-root&gt;</definition>
+  <excludesFE name="Eventuality" ID="137"/>
+    </FE>
+
+
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Top" name="Topic" ID="138">
+        <definition>&lt;def-root&gt;Topic expressions are not very frequent in this frame. They can occur with noun targets. 
+&lt;ex&gt;FR-EX: La directrice a fait de vagues &lt;t&gt;promesses&lt;/t&gt; sur &lt;fex name="Topic"&gt;la future convention&lt;/fex&gt;. &lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Medium" name="Medium" ID="139">
+        <definition>&lt;def-root&gt;The written or spoken material that contains the message. &lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Eventuality" ID="137"/>
+        <memberFE name="Entity" ID="137"/>
+        <memberFE name="Topic" ID="138"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="139"/>
+        <memberFE name="Speaker" ID="135"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Commitment</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Commitment</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="assurance.n" ID="2755" nbocc="69" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100142" annotatedsent="103"/>
+    </lexUnit>
+    <lexUnit POS="v" name="donner sa parole.v" ID="349" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="engagement.n" ID="350" nbocc="60" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="50"/>
+        <otherlexUnit framename="Other_sense" ID="100798" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="n" name="garantie.n" ID="351" nbocc="56" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="garantir.v" ID="352" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="jurer.v" ID="353" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101139" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Commitment.veracity" ID="966" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="menace.n" ID="354" nbocc="36" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="101210" annotatedsent="26"/>
+    </lexUnit>
+    <lexUnit POS="v" name="menacer.v" ID="355" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="18"/>
+        <otherlexUnit framename="Other_sense" ID="101211" annotatedsent="36"/>
+    </lexUnit>
+    <lexUnit POS="n" name="promesse.n" ID="356" nbocc="29" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="29"/>
+        <otherlexUnit framename="Other_sense" ID="101455" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="promettre.v" ID="357" nbocc="35" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="29"/>
+        <otherlexUnit framename="Other_sense" ID="101456" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Commitment.veracity" ID="967" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'engager.v" ID="358" nbocc="64" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="28"/>
+        <otherlexUnit framename="Other_sense" ID="101711" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="n" name="serment.n" ID="359" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101813" annotatedsent="0"/>
+    </lexUnit>
+</frame>

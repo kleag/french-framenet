@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="injonction.n" ID="2377" frame="FR_Request" frameID="10082" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Requested_entity"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="5107"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="21733"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Eventuality"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Eventuality"/>
+                <annoSet ID="5107"/>
+                <annoSet ID="21733"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Requested_entity"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="5107"/>
+                <annoSet ID="21733"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3747">
+            <text>M. Rousset a indiqué qu' il était prêt à obéir aux injonctions ministérielles .</text>
+            <annotationSet status="MANUAL" ID="5107">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Addressee"/>
+                    <label end="76" start="63" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17690">
+            <text>L' histoire nous a enseigné que le système le mieux à même d' y contribuer ne doit pas être soumis aux injonctions politiques .</text>
+            <annotationSet status="MANUAL" ID="21733">
+                <layer rank="1" name="FE">
+                    <label end="124" start="115" name="Speaker"/>
+                    <label itype="ENI" name="Addressee"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

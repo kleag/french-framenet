@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Attempt_suasion.to_do" ID="10004" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;The  &lt;fen&gt;Persuader&lt;/fen&gt; expresses, through language or otherwise, their wish to get the &lt;fen&gt;Cognizer&lt;/fen&gt; to perform an &lt;fen&gt;Action&lt;/fen&gt; or do something in order to get the &lt;fen&gt;Action&lt;/fen&gt; done. There is no implication that the &lt;fen&gt;Cognizer&lt;/fen&gt; forms an intention to act, let alone acts.
+&lt;ex&gt;&lt;/ex&gt;
+
+<!--&lt;ex&gt;TODO: SATURER LES VINF DU RÔLE ACTION&lt;/ex&gt;-->
+
+&lt;ex&gt;&lt;fex name="Persuader"&gt;Mr Smithers&lt;/fex&gt; always &lt;t&gt;encourages&lt;/t&gt; &lt;fex name="Add"&gt;the employees&lt;/fex&gt; &lt;fex name="Action"&gt;to stay late and work harder&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Persuader"&gt;Dennis Rodman&lt;/fex&gt; &lt;t&gt;advises&lt;/t&gt; &lt;fex name="Action"&gt;moderation in all things&lt;/fex&gt;. &lt;fex name="Add"&gt;INI&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Results from the splitting of Attempt_suasion into two frames, FR_Attempt_suasion.to_do and  &lt;frframe&gt;FR_Attempt_suasion.content&lt;/frframe&gt;, based on the nature of the &lt;fen&gt;Content&lt;/fen&gt; role (respectively action and mental content). This frame also differs from Attempt_suasion in that the persuading is not necessarily attempted through the use of language.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="145" cDate="02/26/2001 02:40:22 PST Mon" abbrev="" name="Action" ID="408">
+        <definition>&lt;def-root&gt;The wish for action on the Cognizer's part that the Persuader expresses.&lt;/def-root&gt;</definition>
+        <semType name="Intentional_act" ID="181"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="145" cDate="02/26/2001 02:45:59 PST Mon" abbrev="Cog" name="Cognizer" ID="409">
+        <definition>&lt;def-root&gt;The person that the &lt;fen&gt;Persuader&lt;/fen&gt; seeks to influence to act.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="145" cDate="02/26/2001 02:48:14 PST Mon" abbrev="Spkr" name="Persuader" ID="410">
+        <definition>&lt;def-root&gt;The person who intends through the use of language or otherwise to get another person to act.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/08/2001 02:42:22 PST Thu" abbrev="Text" name="Medium" ID="427">
+        <definition>&lt;def-root&gt;The written or spoken material that contains a message that potentially influences the &lt;fen&gt;Cognizer&lt;/fen&gt; towards the &lt;fen&gt;Content&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Medium"&gt;Chapter 6&lt;/fex&gt; &lt;t&gt;admonishes&lt;/t&gt; &lt;fex name="Cognizer"&gt;readers&lt;/fex&gt; &lt;fex name="Content"&gt;to quit smoking&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Persuader" ID="410"/>
+        <memberFE name="Medium" ID="427"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Attempt_suasion</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Request</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Split of">
+        <relatedFrame>Attempt_suasion</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="appel.n" ID="754" nbocc="77" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="21"/>
+        <otherlexUnit framename="Other_sense" ID="100107" annotatedsent="72"/>
+        <otherlexUnit framename="FR_Contacting" ID="969" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Hail" ID="1152" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="appeler.v" ID="755" nbocc="105" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="27"/>
+        <otherlexUnit framename="Other_sense" ID="100108" annotatedsent="18"/>
+        <otherlexUnit framename="FR_Contacting" ID="970" annotatedsent="2"/>
+        <otherlexUnit framename="Name_conferral" ID="2114" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Hail" ID="1153" annotatedsent="1"/>
+        <otherlexUnit framename="Referring_by_name" ID="2310" annotatedsent="44"/>
+    </lexUnit>
+    <lexUnit POS="v" name="conjurer.v" ID="756" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="conseil.n" ID="757" nbocc="160" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100403" annotatedsent="103"/>
+    </lexUnit>
+    <lexUnit POS="v" name="conseiller.v" ID="758" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="100404" annotatedsent="47"/>
+    </lexUnit>
+    <lexUnit POS="v" name="convier.v" ID="759" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100452" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1162" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="déconseiller.v" ID="760" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="décourager.v" ID="761" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100662" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1164" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="en appeler.v" ID="762" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100758" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="encouragement.n" ID="763" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100793" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1165" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2607" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="encourager.v" ID="764" nbocc="41" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="100794" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1166" annotatedsent="15"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2608" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="n" name="exhortation.n" ID="765" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="exhorter.v" ID="766" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100847" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="incitation.n" ID="767" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101041" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1174" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="v" name="inciter.v" ID="768" nbocc="48" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101042" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1175" annotatedsent="40"/>
+    </lexUnit>
+    <lexUnit POS="n" name="invitation.n" ID="769" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101115" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="inviter.v" ID="770" nbocc="22" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101116" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1182" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="pousser.v" ID="771" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101414" annotatedsent="18"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1186" annotatedsent="15"/>
+    </lexUnit>
+    <lexUnit POS="v" name="presser.v" ID="772" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101428" annotatedsent="8"/>
+    </lexUnit>
+    <lexUnit POS="v" name="proposer.v" ID="773" nbocc="155" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="préconisation.n" ID="774" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="préconiser.v" ID="775" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="21"/>
+        <otherlexUnit framename="Other_sense" ID="101484" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="recommandation.n" ID="776" nbocc="19" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="18"/>
+        <otherlexUnit framename="Other_sense" ID="101561" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="recommander.v" ID="777" nbocc="40" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="40"/>
+        <otherlexUnit framename="Other_sense" ID="101562" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="suggestion.n" ID="778" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101878" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2542" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="suggérer.v" ID="779" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="101879" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2543" annotatedsent="4"/>
+        <otherlexUnit framename="Evidence" ID="600" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="à l'appel de.prep" ID="2735" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="102010" annotatedsent="0"/>
+    </lexUnit>
+</frame>

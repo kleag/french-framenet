@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="laisser entendre.v" ID="572" frame="Evidence" frameID="25" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Proposition"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="18390"/>
+                <annoSet ID="18656"/>
+                <annoSet ID="22953"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Support"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="18390"/>
+                <annoSet ID="18656"/>
+                <annoSet ID="22953"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="14062">
+            <text>Les propos qu' il vient de tenir pourraient le laisser entendre .</text>
+            <annotationSet status="MANUAL" ID="18390">
+                <layer rank="1" name="FE">
+                    <label end="45" start="44" name="Support"/>
+                    <label end="31" start="0" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14352">
+            <text>Sur ce dernier point , et contrairement à ce que les propos de M. Balladur avaient primitivement laissé entendre , l' objectif ne consiste pas en un doublement du nombre d' apprentis dès 1994 .</text>
+            <annotationSet status="MANUAL" ID="18656">
+                <layer rank="1" name="FE">
+                    <label end="73" start="49" name="Support"/>
+                    <label end="47" start="45" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18888">
+            <text>L' indication donnée par le ministère , selon laquelle les manifestants étaient venus discuter de " problèmes publics " , laisse clairement entendre qu' ils s' étaient réunis pour demander le retour de la vie parlementaire , suspendue depuis 1986 .</text>
+            <annotationSet status="MANUAL" ID="22953">
+                <layer rank="1" name="FE">
+                    <label end="120" start="0" name="Support"/>
+                    <label end="245" start="153" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="122" name="Target"/>
+                    <label end="147" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

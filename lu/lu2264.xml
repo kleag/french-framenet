@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="accepter.v" ID="2264" frame="Ratification" frameID="1351" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="rat" name="Ratifier"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Proposal"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="1042"/>
+                <annoSet ID="1047"/>
+                <annoSet ID="8772"/>
+                <annoSet ID="9042"/>
+                <annoSet ID="12651"/>
+                <annoSet ID="19578"/>
+                <annoSet ID="24275"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Ratifier"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Ratifier"/>
+                <annoSet ID="8772"/>
+                <annoSet ID="12651"/>
+                <annoSet ID="24275"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Ratifier"/>
+                <annoSet ID="1042"/>
+                <annoSet ID="1047"/>
+                <annoSet ID="9042"/>
+                <annoSet ID="19578"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="967">
+            <text>La justification pour ne pas inclure du braille a été acceptée .</text>
+            <annotationSet status="MANUAL" ID="1042">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Proposal"/>
+                    <label itype="UNI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="975">
+            <text>La justification pour ne pas inclure du braille a été acceptée .</text>
+            <annotationSet status="MANUAL" ID="1047">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Proposal"/>
+                    <label itype="UNI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5922">
+            <text>De son côté , le Conseil du Lloyd' s a accepté les conclusions d' une autre commission d' enquête sur la nécessité d' une réforme interne .</text>
+            <annotationSet status="MANUAL" ID="8772">
+                <layer rank="1" name="FE">
+                    <label end="35" start="14" name="Ratifier"/>
+                    <label end="136" start="47" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6086">
+            <text>Finalement accepté moyennant des aménagements , il fait du groupe français le numéro un mondial en équipements de transmissions .</text>
+            <annotationSet status="MANUAL" ID="9042">
+                <layer rank="1" name="FE">
+                    <label end="49" start="48" name="Proposal"/>
+                    <label itype="DNI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8860">
+            <text>La Ville de Paris a délaissé la Gaîté - lyrique , quand elle a accepté le projet d' un " centre de loisirs dénommé planète magique " , mais la cour des comptes ne pense pas que cette nouvelle fonction ait été " mal adaptée " .</text>
+            <annotationSet status="MANUAL" ID="12651">
+                <layer rank="1" name="FE">
+                    <label end="59" start="56" name="Ratifier"/>
+                    <label end="16" start="0" name="Ratifier"/>
+                    <label end="131" start="71" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15310">
+            <text>Le Koweït demandera un relèvement de son quota qui , s' il était accepté , risquerait d' affaiblir les cours du brut .</text>
+            <annotationSet status="MANUAL" ID="19578">
+                <layer rank="1" name="FE">
+                    <label end="57" start="56" name="Proposal"/>
+                    <label itype="DNI" name="Ratifier"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20575">
+            <text>Vendredi , les autorités boursières annonçaient qu' elles acceptaient finalement les modalités de l' offre publique d' échange sur les titres CFI ( Compagnie foncière internationale ) proposées par Suez .</text>
+            <annotationSet status="MANUAL" ID="24275">
+                <layer rank="1" name="FE">
+                    <label end="34" start="11" name="Ratifier"/>
+                    <label end="201" start="81" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

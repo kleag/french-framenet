@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Reading_aloud" ID="2202" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; interprets a written &lt;fen&gt;Text&lt;/fen&gt; and speaks the contents as &lt;fen&gt;Speech&lt;/fen&gt;, usually to an &lt;fen&gt;Addressee&lt;/fen&gt;. The contents of the speech may be the &lt;fen&gt;Text&lt;/fen&gt; verbatim or a representation of the text. Because the contents of the &lt;fen&gt;Text&lt;/fen&gt; are reproduced as the &lt;fen&gt;Speech&lt;/fen&gt;, often only one or the other is expressed. 
+
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt;: (TODO : should be renamed FR_Reading_aloud) . Modified version of the Reading_aloud frame. Judgment, Manner, Part_of_speech FEs are removed.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="976" cDate="02/08/2010 10:46:26 PST Mon" abbrev="" name="Addressee" ID="13554">
+        <definition>&lt;def-root&gt;The person or people to whom the Speaker is directing his message.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="976" cDate="02/08/2010 10:54:07 PST Mon" abbrev="" name="Speaker" ID="13555">
+        <definition>&lt;def-root&gt;The language user who reads the Text aloud.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="976" cDate="02/08/2010 10:57:52 PST Mon" abbrev="" name="Text" ID="13556">
+        <definition>&lt;def-root&gt;A piece of writing, the source from which the Speaker reads.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="976" cDate="02/10/2010 10:49:58 PST Wed" abbrev="" name="Speech" ID="13563">
+        <definition>&lt;def-root&gt;The vocalized sound sequence that the Speaker produces from interpretation of the Text.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="976" cDate="02/16/2010 12:02:24 PST Tue" abbrev="" name="Source" ID="13570">
+        <definition>&lt;def-root&gt;The medium from which the Text is read.&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>Spelling_and_pronouncing</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="lecture.n" ID="2275" nbocc="15" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="lire.v" ID="2276" nbocc="47" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

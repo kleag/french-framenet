@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="voir.v" ID="861" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4039"/>
+                <annoSet ID="5526"/>
+                <annoSet ID="5996"/>
+                <annoSet ID="7244"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Content"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="4039"/>
+                <annoSet ID="5526"/>
+                <annoSet ID="5996"/>
+                <annoSet ID="7244"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3145">
+            <text>Certains voient dans le projet une aubaine inespérée : 280 000 tonnes de céréales ( dont la moitié de blé et de maïs ) seront nécessaires , chaque année , pour nourrir les poules .</text>
+            <annotationSet status="MANUAL" ID="4039">
+                <layer rank="1" name="FE">
+                    <label end="51" start="16" name="Content"/>
+                    <label end="7" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3989">
+            <text>Certains analystes voient la devise américaine glisser jusqu' au voisinage de 120 yens , son plus bas cours historique .</text>
+            <annotationSet status="MANUAL" ID="5526">
+                <layer rank="1" name="FE">
+                    <label end="117" start="26" name="Content"/>
+                    <label end="17" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4280">
+            <text>Jusqu' à présent , l' école s' est plutôt méfiée de ce qu' elle voyait comme un concurrent .</text>
+            <annotationSet status="MANUAL" ID="5996">
+                <layer rank="1" name="FE">
+                    <label end="57" start="55" name="Content"/>
+                    <label end="89" start="77" name="Content"/>
+                    <label end="62" start="59" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5017">
+            <text>L' automatisation , pour certains , brise l' aliénation historique et progressive de l' homme dans son travail ; d' autres voient en elle le parachèvement de la division des tâches , la soumission , l' esclavage .</text>
+            <annotationSet status="MANUAL" ID="7244">
+                <layer rank="1" name="FE">
+                    <label end="210" start="130" name="Content"/>
+                    <label end="121" start="113" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="128" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

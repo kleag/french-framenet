@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="jugement.n" ID="2710" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="17039"/>
+                <annoSet ID="22205"/>
+                <annoSet ID="23500"/>
+                <annoSet ID="23720"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="11478"/>
+                <annoSet ID="14065"/>
+                <annoSet ID="23488"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Content"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="11478"/>
+                <annoSet ID="14065"/>
+                <annoSet ID="22205"/>
+                <annoSet ID="23500"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Content"/>
+                <annoSet ID="17039"/>
+                <annoSet ID="23488"/>
+                <annoSet ID="23720"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7935">
+            <text>Un jugement qui ne se limite pas au foncier .</text>
+            <annotationSet status="MANUAL" ID="11478">
+                <layer rank="1" name="FE">
+                    <label end="44" start="0" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10011">
+            <text>" Ce jugement n' est pas seulement valable pour le royaume nordique .</text>
+            <annotationSet status="MANUAL" ID="14065">
+                <layer rank="1" name="FE">
+                    <label end="12" start="2" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12675">
+            <text>Aussi les journalistes jugent -ils nécessaire de se méfier : 59 % estiment que les journalistes qui pratiquent des " ménages " ( débats , piges , séminaires pour les entreprises de leur secteur ) perdent leur indépendance de jugement .</text>
+            <annotationSet status="MANUAL" ID="17039">
+                <layer rank="1" name="FE">
+                    <label end="207" start="204" name="Cognizer"/>
+                    <label end="194" start="79" name="Cognizer"/>
+                    <label itype="UNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="232" start="225" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18172">
+            <text>Au sujet de l' indépendance de l' institut d' émission à l' égard du pouvoir exécutif , on cite souvent , aux Etats - Unis , le jugement d' Allan Sproul , qui dirigeait dans les années 50 la banque fédérale de réserve de New - York , la plus importante de toutes : " On doit toujours avoir à l' esprit , chaque fois que l' on parle de la nécessité d' assurer " l' indépendance " du système de Réserve fédérale , que cela signifie non pas indépendance vis - à - vis de l' état ( en anglais : government ) , mais indépendance à l' intérieur de l' état .</text>
+            <annotationSet status="MANUAL" ID="22205">
+                <layer rank="1" name="FE">
+                    <label end="261" start="125" name="Content"/>
+                    <label end="261" start="140" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19600">
+            <text>L' erreur de jugement , peut - être volontaire , est en tout cas totale , puisque , avec la privatisation de la première chaîne en 1987 , comme le raconte Mme Dagnaud , " la volonté de s' adapter aux goûts et habitudes du public s' affirme bien davantage .</text>
+            <annotationSet status="MANUAL" ID="23488">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19615">
+            <text>Sous le sceau de l' anonymat , des producteurs eux - mêmes laissent tomber des jugements sans appel : " Hier , la télévision était une fenêtre : elle faisait découvrir le monde et les auteurs classiques ; elle pratiquait la pédagogie dans le bon sens du terme .</text>
+            <annotationSet status="MANUAL" ID="23500">
+                <layer rank="1" name="FE">
+                    <label end="98" start="75" name="Content"/>
+                    <label end="57" start="31" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19986">
+            <text>Peut -on espérer que le monde est désormais mieux à l' abri de graves erreurs collectives de jugement - et de politique , - du genre de celles que l' OCDE confesse , dans son dernier rapport biannuel sur la " situation économique " , avoir contribué à commettre naguère , au grand dam de la communauté internationale ?</text>
+            <annotationSet status="MANUAL" ID="23720">
+                <layer rank="1" name="FE">
+                    <label end="88" start="78" name="Cognizer"/>
+                    <label itype="UNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="pronostiquer.v" ID="2180" frame="Predicting" frameID="425" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Speaker" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Eventuality" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="Evidence" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Time_of_Eventuality" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Eventuality"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="6772"/>
+                <annoSet ID="12599"/>
+                <annoSet ID="15514"/>
+                <annoSet ID="16183"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="6772"/>
+                <annoSet ID="12599"/>
+                <annoSet ID="15514"/>
+                <annoSet ID="16183"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4766">
+            <text>Certes , ce n' est pas le cas actuellement , l' économie américaine affichant une croissance zéro , mais le mois dernier , si le chômage a encore augmenté , un gain de 31000 emplois a été enregistré outre - Atlantique alors qu' on pronostiquait une perte de 70000 emplois .</text>
+            <annotationSet status="MANUAL" ID="6772">
+                <layer rank="1" name="FE">
+                    <label end="229" start="228" name="Speaker"/>
+                    <label end="270" start="245" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="243" start="231" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8826">
+            <text>Elle paraît suffisante , à première vue , pour transformer BTF en " une grosse tirelire " , comme l' avait pronostiqué M. Fellous le 29 juin .</text>
+            <annotationSet status="MANUAL" ID="12599">
+                <layer rank="1" name="FE">
+                    <label end="128" start="119" name="Speaker"/>
+                    <label end="141" start="0" name="Eventuality"/>
+                    <label end="99" start="98" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11239">
+            <text>Sans doute plus pour longtemps : fin 1993 , à 7 millions de barils par jour , pronostique l' Independent Petroleum Association of America ( IPAA ) , la production américaine de pétrole brut touchera son plus bas niveau depuis trente ans .</text>
+            <annotationSet status="MANUAL" ID="15514">
+                <layer rank="1" name="FE">
+                    <label end="145" start="90" name="Speaker"/>
+                    <label end="74" start="0" name="Eventuality"/>
+                    <label end="237" start="149" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11822">
+            <text>Le Japon , la Corée et Taïwan , qui consomment environ 40 millions de tonnes de GNL par an ( 1990 ) , essentiellement pour produire de l' électricité , en brûleront le double en l' an 2010 , pronostiquent les experts .</text>
+            <annotationSet status="MANUAL" ID="16183">
+                <layer rank="1" name="FE">
+                    <label end="215" start="205" name="Speaker"/>
+                    <label end="187" start="0" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="203" start="191" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

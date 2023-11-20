@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="renoncement.n" ID="2610" frame="FR_Renunciation" frameID="10077" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="evt" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Benefit" name="Benefit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Benefit"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Cognizer"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="5792"/>
+                <annoSet ID="8440"/>
+                <annoSet ID="9695"/>
+                <annoSet ID="10294"/>
+                <annoSet ID="10488"/>
+                <annoSet ID="11697"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="5794"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Eventuality"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="5792"/>
+                <annoSet ID="10294"/>
+                <annoSet ID="10488"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Eventuality"/>
+                <annoSet ID="5794"/>
+                <annoSet ID="8440"/>
+                <annoSet ID="9695"/>
+                <annoSet ID="11697"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4139">
+            <text>L' épargne de précaution que visent simultanément les ménages se traduit avant tout par un renoncement à des achats de logements , d' automobiles et de gros biens durables .</text>
+            <annotationSet status="MANUAL" ID="5792">
+                <layer rank="1" name="FE">
+                    <label end="60" start="50" name="Cognizer"/>
+                    <label end="60" start="50" name="Eventuality"/>
+                    <label end="170" start="105" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4140">
+            <text>Ce renoncement , largement facilité par l' accumulation antérieure de ces biens , est d' abord volontaire et accentue l' entrée en récession , puis subi , d' autant plus durement que les pertes d' emploi se prolongent .</text>
+            <annotationSet status="MANUAL" ID="5794">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Cognizer"/>
+                    <label itype="DNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5733">
+            <text>Le gouvernement est désormais contraint à des renoncements .</text>
+            <annotationSet status="MANUAL" ID="8440">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Cognizer"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6488">
+            <text>Peut - être faudrait -il en effet discuter de la nature des changements survenus en France : sont -ils réellement des progrès ou seulement un alignement de nos pratiques nationales sur les modèles étrangers , notamment sur le modèle allemand , impliquant des renoncements ?</text>
+            <annotationSet status="MANUAL" ID="9695">
+                <layer rank="1" name="FE">
+                    <label end="158" start="156" name="Cognizer"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="270" start="259" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6935">
+            <text>Un refus de la part des ministres concernés et des " eurocrates de Bruxelles " revient pour cette organisation - quel que soit son président - à " une stratégie de renoncement dans la finalité et d' abandon aux Etats - Unis du contrôle de l' arme alimentaire " .</text>
+            <annotationSet status="MANUAL" ID="10294">
+                <layer rank="1" name="FE">
+                    <label end="141" start="92" name="Cognizer"/>
+                    <label end="191" start="181" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="174" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7100">
+            <text>Le renoncement de Castro à propager la révolution en Amérique latine et l' échec du " modèle " cubain ont levé la pression politique sur les gouvernements .</text>
+            <annotationSet status="MANUAL" ID="10488">
+                <layer rank="1" name="FE">
+                    <label end="23" start="18" name="Cognizer"/>
+                    <label end="23" start="18" name="Eventuality"/>
+                    <label end="67" start="27" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8130">
+            <text>Plus exactement , c' est sa filiale Thomson - CSF et la société LTV qui , ensemble , ont informé le département du trésor , lequel préside la commission fédérale chargée des investissements étrangers ( CFIUS ) , un organisme où siègent les représentants de sept autres ministères ou organismes publics , parmi lesquels le département de la justice et du commerce , de leur renoncement .</text>
+            <annotationSet status="MANUAL" ID="11697">
+                <layer rank="1" name="FE">
+                    <label end="371" start="368" name="Cognizer"/>
+                    <label end="66" start="25" name="Cognizer"/>
+                    <label itype="DNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="383" start="373" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

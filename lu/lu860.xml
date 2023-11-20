@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="vision.n" ID="860" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="15">
+            <FE name="Cognizer"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="5885"/>
+                <annoSet ID="16812"/>
+                <annoSet ID="18342"/>
+                <annoSet ID="18440"/>
+                <annoSet ID="19880"/>
+                <annoSet ID="22295"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="7774"/>
+                <annoSet ID="9686"/>
+                <annoSet ID="14013"/>
+                <annoSet ID="14036"/>
+                <annoSet ID="15574"/>
+                <annoSet ID="18472"/>
+                <annoSet ID="21403"/>
+                <annoSet ID="23787"/>
+                <annoSet ID="24215"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Content"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="5885"/>
+                <annoSet ID="7774"/>
+                <annoSet ID="9686"/>
+                <annoSet ID="14013"/>
+                <annoSet ID="14036"/>
+                <annoSet ID="15574"/>
+                <annoSet ID="16812"/>
+                <annoSet ID="18342"/>
+                <annoSet ID="18440"/>
+                <annoSet ID="18472"/>
+                <annoSet ID="19880"/>
+                <annoSet ID="21403"/>
+                <annoSet ID="22295"/>
+                <annoSet ID="23787"/>
+                <annoSet ID="24215"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4190">
+            <text>Jean - Pierre Dumont , directeur de la recherche et de la communication à la Fédération de la mutualité parisienne , est un des rares spécialistes qui n' ait pas de la sécurité sociale une vision purement franco - française .</text>
+            <annotationSet status="MANUAL" ID="5885">
+                <layer rank="1" name="FE">
+                    <label end="222" start="162" name="Content"/>
+                    <label end="149" start="147" name="Cognizer"/>
+                    <label end="145" start="121" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5358">
+            <text>Et ce moule bien sûr , ne porte pas à une vision réformiste de la société .</text>
+            <annotationSet status="MANUAL" ID="7774">
+                <layer rank="1" name="FE">
+                    <label end="72" start="38" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6484">
+            <text>La vision change presque totalement en franchissant les frontières .</text>
+            <annotationSet status="MANUAL" ID="9686">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9969">
+            <text>Aléatoire cette vision du monde où chaque phase détermine la suivante heurte plus généralement tous ceux qui insistent sur le caractère aléatoire des perturbations .</text>
+            <annotationSet status="MANUAL" ID="14013">
+                <layer rank="1" name="FE">
+                    <label end="68" start="10" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9987">
+            <text>En vertu de cette vision des choses , ils niaient , en mars 1975 , que la France était entrée depuis plusieurs mois déjà dans ce qui devait se révéler comme la première grande récession de l' après - guerre ( connue abusivement sous le nom de " premier choc pétrolier " ) .</text>
+            <annotationSet status="MANUAL" ID="14036">
+                <layer rank="1" name="FE">
+                    <label end="34" start="12" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11287">
+            <text>Mais à l' inverse , la prise en compte des pays anciennement communistes aurait donné ces dernières années des visions très sombres .</text>
+            <annotationSet status="MANUAL" ID="15574">
+                <layer rank="1" name="FE">
+                    <label end="130" start="107" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12474">
+            <text>Elle offrira , sans présentateur mais en cinq langues , une vision européenne de l' actualité ( le Monde du 26 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="16812">
+                <layer rank="1" name="FE">
+                    <label end="92" start="56" name="Content"/>
+                    <label end="76" start="67" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14017">
+            <text>" Au moment où la corne du continent résonne de l' opération onuso - américaine à strapontins français , " Rendre l' espoir " , il n' est pas inutile de suivre les auteurs ( parmi lesquels Edmond Jouve , Maurice Lambiotte , Christian Saint - Etienne ) dans leur vision d' une " nouvelle alliance " entre l' Afrique et l' Europe .</text>
+            <annotationSet status="MANUAL" ID="18342">
+                <layer rank="1" name="FE">
+                    <label end="326" start="257" name="Content"/>
+                    <label end="260" start="257" name="Cognizer"/>
+                    <label end="250" start="160" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="267" start="262" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14108">
+            <text>Il est temps que les Français renoncent à une certaine vision " volontariste " du marché .</text>
+            <annotationSet status="MANUAL" ID="18440">
+                <layer rank="1" name="FE">
+                    <label end="87" start="42" name="Content"/>
+                    <label end="28" start="17" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14138">
+            <text>Les hommes politiques sont d' autant plus sensibles à leurs appels qu' une vision naïve peut leur laisser croire que de faibles taux d' intérêt sont systématiquement bénéfiques comme moyen de lutte contre le chômage .</text>
+            <annotationSet status="MANUAL" ID="18472">
+                <layer rank="1" name="FE">
+                    <label end="86" start="71" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15691">
+            <text>Ce qui devrait logiquement conduire les hommes à remettre en question leur vision de la place des femmes au travail et à accepter un partage équitable des tâches domestiques .</text>
+            <annotationSet status="MANUAL" ID="19880">
+                <layer rank="1" name="FE">
+                    <label end="114" start="70" name="Content"/>
+                    <label end="73" start="70" name="Cognizer"/>
+                    <label end="45" start="36" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17329">
+            <text>Cependant , à recoller des morceaux de - ci de - là , sans vision globale , sans perception réelle de la vie quotidienne des acteurs du système éducatif , sans projets d' avenir , on court à une crise sans précédent .</text>
+            <annotationSet status="MANUAL" ID="21403">
+                <layer rank="1" name="FE">
+                    <label end="72" start="59" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18251">
+            <text>De la constatation , me semble -t-il , que , mis à part quelques points particuliers ( la vision européenne des amis de Jean - Pierre Chevènement , le " contrat social " de Jean Poperen , etc. ) , les textes en présence ne sont fondamentalement différents ni en ce qui concerne les grandes orientations ni en ce qui touche à l' organisation et au fonctionnement du parti lui - même .</text>
+            <annotationSet status="MANUAL" ID="22295">
+                <layer rank="1" name="FE">
+                    <label end="144" start="87" name="Content"/>
+                    <label end="144" start="112" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20037">
+            <text>La vision des choses risque d' en être altérée , y compris le problème de l' épargne lui - même .</text>
+            <annotationSet status="MANUAL" ID="23787">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20520">
+            <text>Ceux qui se sont penchés sur l' histoire du continent réfutent aujourd' hui cette vision .</text>
+            <annotationSet status="MANUAL" ID="24215">
+                <layer rank="1" name="FE">
+                    <label end="87" start="76" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

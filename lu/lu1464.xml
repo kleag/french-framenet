@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="commenter.v" ID="1464" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="26" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="23784"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="19">
+            <FE name="Message"/>
+            <pattern total="19">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="427"/>
+                <annoSet ID="7546"/>
+                <annoSet ID="7567"/>
+                <annoSet ID="9564"/>
+                <annoSet ID="11636"/>
+                <annoSet ID="11940"/>
+                <annoSet ID="12093"/>
+                <annoSet ID="13242"/>
+                <annoSet ID="13401"/>
+                <annoSet ID="13539"/>
+                <annoSet ID="15839"/>
+                <annoSet ID="15988"/>
+                <annoSet ID="16024"/>
+                <annoSet ID="17695"/>
+                <annoSet ID="20515"/>
+                <annoSet ID="24013"/>
+                <annoSet ID="24209"/>
+                <annoSet ID="24500"/>
+                <annoSet ID="24594"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="26">
+            <FE name="Speaker"/>
+            <pattern total="26">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="427"/>
+                <annoSet ID="3742"/>
+                <annoSet ID="4333"/>
+                <annoSet ID="7534"/>
+                <annoSet ID="7546"/>
+                <annoSet ID="7567"/>
+                <annoSet ID="9564"/>
+                <annoSet ID="11630"/>
+                <annoSet ID="11636"/>
+                <annoSet ID="11940"/>
+                <annoSet ID="12093"/>
+                <annoSet ID="13242"/>
+                <annoSet ID="13401"/>
+                <annoSet ID="13539"/>
+                <annoSet ID="15839"/>
+                <annoSet ID="15988"/>
+                <annoSet ID="16024"/>
+                <annoSet ID="17695"/>
+                <annoSet ID="20515"/>
+                <annoSet ID="22651"/>
+                <annoSet ID="23784"/>
+                <annoSet ID="24013"/>
+                <annoSet ID="24209"/>
+                <annoSet ID="24500"/>
+                <annoSet ID="24566"/>
+                <annoSet ID="24594"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Topic"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="3742"/>
+                <annoSet ID="4333"/>
+                <annoSet ID="7534"/>
+                <annoSet ID="11630"/>
+                <annoSet ID="13242"/>
+                <annoSet ID="15839"/>
+                <annoSet ID="22651"/>
+                <annoSet ID="23784"/>
+                <annoSet ID="24209"/>
+                <annoSet ID="24566"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="333">
+            <text>Une sorte de réaction épidermique par rapport à leur présence " commentait le commissaire central .</text>
+            <annotationSet status="MANUAL" ID="427">
+                <layer rank="1" name="FE">
+                    <label end="60" start="0" name="Message"/>
+                    <label end="96" start="75" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2855">
+            <text>Le chef de l' État , qui bénéficie d' une immunité pénale pendant la durée de son mandat , n' a jamais commenté en détail le dossier , expliquant simplement en 2000 qu' il ne " pouvait pas croire " à une corruption impliquant droite et gauche .</text>
+            <annotationSet status="MANUAL" ID="3742">
+                <layer rank="1" name="FE">
+                    <label end="131" start="122" name="Topic"/>
+                    <label end="87" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3287">
+            <text>Par petits groupes , chacun va commentant le futur ou , comme dans les vieux couples qui n' arrivent pas à se faire à l' idée du veuvage , ressassant le passé .</text>
+            <annotationSet status="MANUAL" ID="4333">
+                <layer rank="1" name="FE">
+                    <label end="49" start="42" name="Topic"/>
+                    <label end="26" start="21" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5200">
+            <text>Commentant cette journée d' action , qu' il a qualifiée de " réussie " , M. Christian Jacob , président du CNJA , s' en est pris à M. Mermaz - qui était à Luxembourg pour un conseil des ministres , - estimant qu' " à chaque fois qu' il allait à ce genre de réunion , il revenait à Paris avec des moins ... " .</text>
+            <annotationSet status="MANUAL" ID="7534">
+                <layer rank="1" name="FE">
+                    <label end="71" start="11" name="Topic"/>
+                    <label end="110" start="73" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5208">
+            <text>" La France organisera ses références céréalières et oléagineuses comme elle l' entend " , a commenté le ministre de l' agriculture et de la forêt .</text>
+            <annotationSet status="MANUAL" ID="7546">
+                <layer rank="1" name="FE">
+                    <label end="89" start="0" name="Message"/>
+                    <label end="145" start="102" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5219">
+            <text>" La réforme de la PAC constitue un cadre , il fallait le compléter par des règles d' application , puis par des dispositions nationales " , a commenté M. Mermaz .</text>
+            <annotationSet status="MANUAL" ID="7567">
+                <layer rank="1" name="FE">
+                    <label end="139" start="0" name="Message"/>
+                    <label end="160" start="152" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6397">
+            <text>" Trop tard pour faire sentir ses effets avant l' élection présidentielle " , commentaient les analystes .</text>
+            <annotationSet status="MANUAL" ID="9564">
+                <layer rank="1" name="FE">
+                    <label end="76" start="0" name="Message"/>
+                    <label end="103" start="91" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8082">
+            <text>Les formations universitaires , en revanche , laissent le SNAV pour le moins sceptique bien qu' il ne commente pas le contenu des programmes .</text>
+            <annotationSet status="MANUAL" ID="11630">
+                <layer rank="1" name="FE">
+                    <label end="139" start="115" name="Topic"/>
+                    <label end="97" start="96" name="Speaker"/>
+                    <label end="61" start="55" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8090">
+            <text>" C' est là que le bât blesse , commente Xavier de Boishebert .</text>
+            <annotationSet status="MANUAL" ID="11636">
+                <layer rank="1" name="FE">
+                    <label end="30" start="0" name="Message"/>
+                    <label end="60" start="41" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8321">
+            <text>" On a porté atteinte à la dignité des salariés , commente un ancien employé du prince - de - Galles de cinquante - six ans , qui comptait vingt - six ans d' ancienneté .</text>
+            <annotationSet status="MANUAL" ID="11940">
+                <layer rank="1" name="FE">
+                    <label end="48" start="0" name="Message"/>
+                    <label end="167" start="59" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8475">
+            <text>" Ils savent dérouler le fil rouge " , commente Xavier Grenet , pour symboliser cette rigueur , notamment dans le discours .</text>
+            <annotationSet status="MANUAL" ID="12093">
+                <layer rank="1" name="FE">
+                    <label end="35" start="0" name="Message"/>
+                    <label end="60" start="48" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9352">
+            <text>Dur rappel aux réalités qu' un jeune habitué de la marque commenterait d' un définitif : " Ça craint un max !</text>
+            <annotationSet status="MANUAL" ID="13242">
+                <layer rank="1" name="FE">
+                    <label end="26" start="24" name="Topic"/>
+                    <label end="22" start="0" name="Topic"/>
+                    <label end="106" start="74" name="Message"/>
+                    <label end="56" start="28" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9490">
+            <text>Un marché de véhicules de travail assez stable " , commente Jean Prêtre , directeur commercial de TKM Motors .</text>
+            <annotationSet status="MANUAL" ID="13401">
+                <layer rank="1" name="FE">
+                    <label end="45" start="0" name="Message"/>
+                    <label end="107" start="60" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9569">
+            <text>" Nous industrialisons trop nos services alors que nous sommes déjà dans une situation de chômage élevé " , commente M. de Foucauld .</text>
+            <annotationSet status="MANUAL" ID="13539">
+                <layer rank="1" name="FE">
+                    <label end="106" start="0" name="Message"/>
+                    <label end="130" start="117" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11515">
+            <text>Commentant ce tribut payé à l' information en 1992 , RSF constate que l' Europe arrive en tête du triste palmarès des vingt pays concernés , avec 25 tués , dont 12 en Turquie et 11 en ex- Yougoslavie .</text>
+            <annotationSet status="MANUAL" ID="15839">
+                <layer rank="1" name="FE">
+                    <label end="49" start="11" name="Topic"/>
+                    <label end="198" start="70" name="Message"/>
+                    <label end="55" start="53" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11616">
+            <text>" Pelège a voulu imiter Bouygues " , commente , laconique , un professionnel .</text>
+            <annotationSet status="MANUAL" ID="15988">
+                <layer rank="1" name="FE">
+                    <label end="33" start="0" name="Message"/>
+                    <label end="75" start="60" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11652">
+            <text>Jusque - là , on pensait qu' il y avait une crise du SME , mais pas une crise du franc " , commente un observateur .</text>
+            <annotationSet status="MANUAL" ID="16024">
+                <layer rank="1" name="FE">
+                    <label end="87" start="0" name="Message"/>
+                    <label end="113" start="100" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13329">
+            <text>" Nous attendons d' en constater les effets " , commente , circonspect , Fernand Corradetti .</text>
+            <annotationSet status="MANUAL" ID="17695">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Message"/>
+                    <label end="90" start="73" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16340">
+            <text>" comme il est difficile au monde , a -t-il commenté , d' assurer la paix pour l' homme , pour les hommes , les nations , les époques de l' histoire ! "</text>
+            <annotationSet status="MANUAL" ID="20515">
+                <layer rank="1" name="FE">
+                    <label end="34" start="0" name="Message"/>
+                    <label end="151" start="53" name="Message"/>
+                    <label end="42" start="38" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18548">
+            <text>Mr Lapautre s' était longuement et fortement battu pour l' indépendance et le développement d' UTA , et ce résultat , qu' il se refuse à commenter , ne peut être ressenti par lui que comme un échec .</text>
+            <annotationSet status="MANUAL" ID="22651">
+                <layer rank="1" name="FE">
+                    <label end="120" start="118" name="Topic"/>
+                    <label end="147" start="104" name="Topic"/>
+                    <label end="123" start="122" name="Speaker"/>
+                    <label end="10" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20033">
+            <text>La nouvelle tarte à la crème , c' est l' insuffisance de l' épargne dans le monde , thème repris à l' envi par tous les communiqués officiels , nationaux et internationaux , abondamment commentés dans tous les documents publiés par les services d' études , publics et privés .</text>
+            <annotationSet status="MANUAL" ID="23784">
+                <layer rank="1" name="FE">
+                    <label end="172" start="111" name="Topic"/>
+                    <label end="273" start="201" name="Medium"/>
+                    <label end="273" start="232" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20282">
+            <text>" Nous devons faire preuve d' une vigilance accrue , tellement je sens des risques de dérives " , a commenté M. Louis Mermaz , ministre français de l' agriculture .</text>
+            <annotationSet status="MANUAL" ID="24013">
+                <layer rank="1" name="FE">
+                    <label end="96" start="0" name="Message"/>
+                    <label end="161" start="109" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20507">
+            <text>" Commentant une récente étude de la banque mondiale consacrée aux " ressorts psychologiques des décisions économiques en Afrique " ( 1 ) , l' ancien haut fonctionnaire sénégalais Mamadou Dia insiste sur la vitalité du secteur informel , par opposition au secteur " moderne " , c' est - à - dire régi par des règles de fonctionnement et de gestion occidentales .</text>
+            <annotationSet status="MANUAL" ID="24209">
+                <layer rank="1" name="FE">
+                    <label end="130" start="13" name="Topic"/>
+                    <label end="359" start="204" name="Message"/>
+                    <label end="190" start="140" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="2" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20965">
+            <text>Mais il ne faut pas non plus faire du catastrophisme " , a commenté M. Charles Josselin , secrétaire d' Etat à la mer , se prononçant pour une " mise en oeuvre prudente et progressive " d' une nouvelle stratégie de protection des ressources .</text>
+            <annotationSet status="MANUAL" ID="24500">
+                <layer rank="1" name="FE">
+                    <label end="51" start="0" name="Message"/>
+                    <label end="239" start="68" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21034">
+            <text>Autour d' elle , ils sont des dizaines , le nez collé aux vitrines , agglutinés sur les estrades aménagées pour eux à commenter et à s' exclamer devant le spectacle .</text>
+            <annotationSet status="MANUAL" ID="24566">
+                <layer rank="1" name="FE">
+                    <label end="163" start="152" name="Topic"/>
+                    <label end="19" start="17" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21099">
+            <text>" Les fermiers sont responsables de ce qui s' est passé , commente Frédéric .</text>
+            <annotationSet status="MANUAL" ID="24594">
+                <layer rank="1" name="FE">
+                    <label end="54" start="0" name="Message"/>
+                    <label end="74" start="67" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

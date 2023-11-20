@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Justifying" ID="10037" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; provides a &lt;fen&gt;Sufficient_reason&lt;/fen&gt; to an &lt;fen&gt;Addressee&lt;/fen&gt; for considering that an  &lt;fen&gt;Eventuality&lt;/fen&gt; (event or state)  is licit or legitimate. In most cases, the &lt;fen&gt;Speaker&lt;/fen&gt; is responsible for the &lt;fen&gt;Eventuality&lt;/fen&gt; to take place or not to take place. But this is not a requirement (contrary to fn 1.5 Justifying frame), cf. the contrast:
+&lt;ex&gt;Kim failed  to fully &lt;t&gt;justify&lt;/t&gt; &lt;fex name="Eventuality"&gt;his decision&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Smithers&lt;/fex&gt;  &lt;t&gt;defended&lt;/t&gt; &lt;fex name="Eventuality"&gt;Jane's decision&lt;/fex&gt; by insisting that she had used her best judgment&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+
+In cases like this last example, a &lt;fen&gt;Responsible_entity&lt;/fen&gt; may be expressed instead of the &lt;fen&gt;Eventuality&lt;/fen&gt;. In those cases, the &lt;fen&gt;Speaker&lt;/fen&gt; seeks to provide a &lt;fen&gt;Sufficient_reason&lt;/fen&gt; for the &lt;fen&gt;Responsible_entity&lt;/fen&gt; to have brought about the &lt;fen&gt;Eventuality&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Smithers&lt;/fex&gt;  &lt;t&gt;defended&lt;/t&gt; &lt;fex name="Responsible_entity"&gt;Jane&lt;/fex&gt; by insisting that she had used her best judgment&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+
+The &lt;fen&gt;Addressee&lt;/fen&gt; deems the &lt;fen&gt;Eventuality&lt;/fen&gt; to constitute a violation of an obligation or a moral guideline. The &lt;fen&gt;Addressee&lt;/fen&gt; is conceptually present, but is often not locally expressed.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : this frame is a modification of the Justifying frame. The Responsible_entity FE has been added. The Act and State-of-affairs FEs have been merged into the &lt;fen&gt;Eventuality&lt;/fen&gt; FE. The &lt;fen&gt;Speaker&lt;/fen&gt; is not necessarily directly responsible for the &lt;fen&gt;Eventuality&lt;/fen&gt;. The &lt;fen&gt;Sufficient_reason&lt;/fen&gt; is Core. The &lt;fen&gt;Judge&lt;/fen&gt; FE is renamed &lt;fen&gt;Addressee&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+Distinctions with other frames:
+
+&lt;ex&gt;&lt;/ex&gt;
+≠ &lt;frframe&gt;FR_Attempt_suasion.legitimacy&lt;/frframe&gt;: In FR_Justifying, the Action or State_of_affairs the Communicator is trying to show as legitimate is considered to be known as true and to have happened or at least been decided already, whereas in FR_Attempt_suasion.legitimacy, the Persuader is trying to present a future action or state of affairs as legitimate.
+
+&lt;ex&gt;&lt;/ex&gt;
+≠ &lt;frframe&gt;FR_Attributing_cause&lt;/frframe&gt;: in FR_Justifying, the justification does not necessarily entails that the &lt;fen&gt;Sufficient_reason&lt;/fen&gt; did or would actually cause the &lt;fen&gt;Act&lt;/fen&gt; or &lt;fen&gt;State_of_affairs&lt;/fen&gt;, the key point being that the &lt;fen&gt;Sufficient_reason&lt;/fen&gt; is sufficient for considering them as legitimate. This frame is linked to the FR_Deserving frame : in the latter, the LUs state the relation between the Sufficient_reason and the State_of_affairs or Act, without any Speaker.
+
+
+    
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="10/02/2003 05:12:57 PDT Thu" abbrev="" name="Speaker" ID="5480">
+        <definition>&lt;def-root&gt;The person or organization who communicates the &lt;fen&gt;Sufficient_reason&lt;/fen&gt; for the &lt;fen&gt;Eventuality&lt;/fen&gt; to occur / have occurred.
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Smithers&lt;/fex&gt;  &lt;t&gt;defended&lt;/t&gt; his decision by insisting that he had used his best judgment&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="10/02/2003 05:18:35 PDT Thu" abbrev="" name="Sufficient_reason" ID="5481">
+        <definition>&lt;def-root&gt;The set of facts or circumstances that the &lt;fen&gt;Speaker&lt;/fen&gt; offers to consider the &lt;fen&gt;Eventuality&lt;/fen&gt; as licit or legitimate.
+
+&lt;ex&gt;Mr De Klerk &lt;t&gt;justified&lt;/t&gt; his decision &lt;fex name="Sufficient_reason"&gt;on the curious grounds that an
+inquiry would take too long&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="10/02/2003 05:26:29 PDT Thu" abbrev="" name="Eventuality" ID="5482">
+        <definition>&lt;def-root&gt;An action or state of affairs for which  the &lt;fen&gt;Speaker&lt;/fen&gt; provides a reason to consider it as legitimate. It is often something for which the &lt;fen&gt;Speaker&lt;/fen&gt; is held directly responsible, frequently an action that the &lt;fen&gt;Speaker&lt;/fen&gt; has taken themself.
+
+&lt;ex&gt;Kim failed  to fully &lt;t&gt;justify&lt;/t&gt; &lt;fex name="Eventuality"&gt;his decision&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; The lawyers tried  to &lt;t&gt;justify&lt;/t&gt; &lt;fex name="Eventuality"&gt;enormous punitive damages being paid to victims on a first-past-the-post system&lt;/fex&gt; .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+	<excludesFE name="Responsible_entity" ID="7435"/>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="10/02/2003 05:37:09 PDT Thu" abbrev="" name="Addressee" ID="5484">
+        <definition>&lt;def-root&gt;The person or institution that holds the &lt;fen&gt;Speaker&lt;/fen&gt; responsible for an &lt;fen&gt;Act&lt;/fen&gt; or &lt;fen&gt;State_of_affairs&lt;/fen&gt;, and to whom the &lt;fen&gt;Speaker&lt;/fen&gt; provides a &lt;fen&gt;Sufficient_reason&lt;/fen&gt;.
+
+&lt;ex&gt; Any decision that preparation and presentation should be separate would
+have to be &lt;t&gt;justified&lt;/t&gt; &lt;fex name="Addressee"&gt;to the public&lt;/fex&gt; and be open in the last resort to judicial review&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="09/01/2005 04:44:46 PDT Thu" abbrev="Medium" name="Medium" ID="9045">
+        <definition>&lt;def-root&gt;The physical entity or channel used to communicate can be expressed.&lt;/def-root&gt;</definition>
+    </FE>
+        <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="01/19/2005 01:35:33 PST Wed" abbrev="sid" name="Responsible_entity" ID="7435">
+        <definition>&lt;def-root&gt;A party or individual (generally considered responsible of an &lt;fen&gt;Eventuality&lt;/fen&gt;) whose actions the &lt;fen&gt;Speaker&lt;/fen&gt; seeks to legitimize.&lt;/def-root&gt;</definition>
+	<excludesFE name="Eventuality" ID="5482"/>
+    </FE>
+
+    <frameRelation type="Is Attributive of">
+        <relatedFrame>FR_Deserving</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Justifying</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="arguer.v" ID="1198" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="100129" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Attempt_suasion.veracity" ID="737" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="528" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="défendre.v" ID="1199" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="100670" annotatedsent="30"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="420" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Attempt_suasion.legitimacy" ID="741" annotatedsent="15"/>
+    </lexUnit>
+    <lexUnit POS="n" name="défense.n" ID="1200" nbocc="80" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100671" annotatedsent="102"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="421" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Attempt_suasion.legitimacy" ID="742" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="justification.n" ID="1202" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101144" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="justifier.v" ID="1203" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="28"/>
+        <otherlexUnit framename="Other_sense" ID="101145" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Attributing_cause" ID="1135" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Deserving" ID="1059" annotatedsent="12"/>
+    </lexUnit>
+    <lexUnit POS="n" name="légitimation.n" ID="1204" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101181" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="légitimer.v" ID="1205" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101182" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="plaider.v" ID="2732" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101384" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Attempt_suasion.legitimacy" ID="2744" annotatedsent="12"/>
+        <otherlexUnit framename="FR_Deserving" ID="1060" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Attempt_supported_suasion" ID="745" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rendre des comptes.v" ID="1206" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'expliquer.v" ID="1207" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Quarreling" ID="2250" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="101717" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1500" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se justifier.v" ID="1208" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101773" annotatedsent="3"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="surcoût.n" ID="1512" frame="FR_Spending" frameID="10055" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Spender"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Woe" name="Way_of_expense"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Causex" name="Cause_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cause_of_expense"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cause_of_expense"/>
+                <annoSet ID="5880"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Goods"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="4264"/>
+                <annoSet ID="10675"/>
+                <annoSet ID="21361"/>
+                <annoSet ID="24118"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="18188"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Money"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="4264"/>
+                <annoSet ID="5880"/>
+                <annoSet ID="10675"/>
+                <annoSet ID="17052"/>
+                <annoSet ID="18188"/>
+                <annoSet ID="24118"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="8822"/>
+                <annoSet ID="21361"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Purpose"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Purpose"/>
+                <annoSet ID="8822"/>
+                <annoSet ID="17052"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Seller"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Spender"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Spender"/>
+                <annoSet ID="4264"/>
+                <annoSet ID="8822"/>
+                <annoSet ID="10675"/>
+                <annoSet ID="18188"/>
+                <annoSet ID="24118"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Spender"/>
+                <annoSet ID="5880"/>
+                <annoSet ID="17052"/>
+                <annoSet ID="21361"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3255">
+            <text>Occuper le réseau de la Cinq coûterait en effet cher à la Sept : il lui faudrait payer la diffusion ( 200 millions de francs ) , les surcoûts de droits pour une diffusion nationale , et " muscler " ses programmes pour ne pas réaliser des audiences trop confidentielles .</text>
+            <annotationSet status="MANUAL" ID="4264">
+                <layer rank="1" name="FE">
+                    <label end="179" start="129" name="Money"/>
+                    <label end="70" start="68" name="Spender"/>
+                    <label end="61" start="55" name="Spender"/>
+                    <label end="179" start="145" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4187">
+            <text>L' Etat peut soulager l' économie en prenant à son compte le surcoût imposé par la gestion du change et en acceptant de prendre temporairement le relais des entreprises auprès des banques .</text>
+            <annotationSet status="MANUAL" ID="5880">
+                <layer rank="1" name="FE">
+                    <label end="99" start="58" name="Money"/>
+                    <label end="99" start="80" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5949">
+            <text>D' un autre côté , certains Etats membres pourraient voir d' un mauvais oeil le surcoût engendré par une amélioration de leurs services nationaux .</text>
+            <annotationSet status="MANUAL" ID="8822">
+                <layer rank="1" name="FE">
+                    <label end="40" start="19" name="Spender"/>
+                    <label end="125" start="121" name="Spender"/>
+                    <label end="144" start="101" name="Purpose"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7260">
+            <text>Et d' estimer à 10 % du chiffre d' affaires le surcoût salarial en défaveur de la filiale Sécuripost .</text>
+            <annotationSet status="MANUAL" ID="10675">
+                <layer rank="1" name="FE">
+                    <label end="99" start="44" name="Money"/>
+                    <label end="99" start="79" name="Spender"/>
+                    <label end="62" start="55" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12687">
+            <text>En 1993 , ce déclassement devrait entraîner , selon les estimations du ministère du travail , un surcoût de 700 millions de francs pour le RMI .</text>
+            <annotationSet status="MANUAL" ID="17052">
+                <layer rank="1" name="FE">
+                    <label end="129" start="94" name="Money"/>
+                    <label end="141" start="136" name="Purpose"/>
+                    <label itype="ENI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13877">
+            <text>L' un des plus grands perdants du secteur est cependant Eurotunnel , concessionnaire du tunnel sous la Manche , en conflit perpétuel avec ses constructeurs sur le règlement des surcoûts , dont le titre a chuté de près de 30 % sur 1992 .</text>
+            <annotationSet status="MANUAL" ID="18188">
+                <layer rank="1" name="FE">
+                    <label end="184" start="177" name="Money"/>
+                    <label end="154" start="138" name="Spender"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17285">
+            <text>Se montre -t-il inquiet des surcoûts du système des navettes ferroviaires annoncé à grand fracas l' été dernier ?</text>
+            <annotationSet status="MANUAL" ID="21361">
+                <layer rank="1" name="FE">
+                    <label end="110" start="40" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20399">
+            <text>Au - delà du réseau technique de la Cinq ( soit 200 millions de francs annuels ) , des surcoûts de droits pour les programmes existants ( entre 300 et 400 millions ) , un effort supplémentaire serait nécessaire en faveur des programmes , car la SEPT serait contrainte d' évoluer en jouant dans la " cour des grands " .</text>
+            <annotationSet status="MANUAL" ID="24118">
+                <layer rank="1" name="FE">
+                    <label end="164" start="87" name="Money"/>
+                    <label end="248" start="242" name="Spender"/>
+                    <label end="104" start="99" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

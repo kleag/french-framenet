@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="permission.n" ID="1884" frame="FR_Grant_permission-Permitting" frameID="10068" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gro" name="Grantor"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Prin" name="Principle"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Gre" name="Grantee"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Act" name="Action"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="2764"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Grantee"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Grantee"/>
+                <annoSet ID="2764"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Grantor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Grantor"/>
+                <annoSet ID="2764"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Principle"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2086">
+            <text>Selon l' article 46 ( 2 ) de la loi fondamentale de la république fédérale , les députés du Bundestag ne peuvent pas être appelés à témoigner ou être arrêtés pour une infraction , sauf si le Bundestag en donne la permission , à moins qu' ils ne soient arrêtés en flagrant délit ou le jour suivant le délit .</text>
+            <annotationSet status="MANUAL" ID="2764">
+                <layer rank="1" name="FE">
+                    <label end="202" start="201" name="Action"/>
+                    <label end="100" start="77" name="Action"/>
+                    <label end="176" start="117" name="Action"/>
+                    <label end="199" start="188" name="Grantor"/>
+                    <label itype="UNI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="222" start="213" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

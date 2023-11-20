@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="source.n" ID="253" frame="Causation" frameID="5" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Actor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="12187"/>
+                <annoSet ID="17885"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Affected"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="21211"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Cause"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="3974"/>
+                <annoSet ID="11214"/>
+                <annoSet ID="13902"/>
+                <annoSet ID="15470"/>
+                <annoSet ID="18067"/>
+                <annoSet ID="20464"/>
+                <annoSet ID="21211"/>
+                <annoSet ID="22187"/>
+                <annoSet ID="23777"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Effect"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="3974"/>
+                <annoSet ID="11214"/>
+                <annoSet ID="12187"/>
+                <annoSet ID="13902"/>
+                <annoSet ID="15470"/>
+                <annoSet ID="17885"/>
+                <annoSet ID="18067"/>
+                <annoSet ID="20464"/>
+                <annoSet ID="21211"/>
+                <annoSet ID="22187"/>
+                <annoSet ID="23777"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3076">
+            <text>Selon Bernard B. Fall , ce trafic fut l' une des sources de profit dans le cadre d' une colonisation dont le bilan général s' avéra très négatif pour le budget national .</text>
+            <annotationSet status="MANUAL" ID="3974">
+                <layer rank="1" name="FE">
+                    <label end="32" start="24" name="Cause"/>
+                    <label end="65" start="60" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7742">
+            <text>On est ainsi arrivé à ce paradoxe particulièrement sensible en France , grenier et étable principaux de l' Europe de les Douze : une agriculture de plus en plus tournée vers l' exportation , mais qui ignore l' échange , source de tout enrichissement à la fois individuel et collectif .</text>
+            <annotationSet status="MANUAL" ID="11214">
+                <layer rank="1" name="FE">
+                    <label end="218" start="207" name="Cause"/>
+                    <label end="282" start="230" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="225" start="220" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8553">
+            <text>Ils sont la source de tous les découragements .</text>
+            <annotationSet status="MANUAL" ID="12187">
+                <layer rank="1" name="FE">
+                    <label end="44" start="22" name="Effect"/>
+                    <label end="2" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9883">
+            <text>Il hâterait la reprise des investissements , source de croissance et d' emplois .</text>
+            <annotationSet status="MANUAL" ID="13902">
+                <layer rank="1" name="FE">
+                    <label end="43" start="27" name="Cause"/>
+                    <label end="78" start="52" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11189">
+            <text>Si l' accord conclu en juillet 1992 entre les syndicats , le patronat et le gouvernement est respecté , il tarira une source d' inflation qui depuis quarante - six ans alimente l' économie italienne et la force périodiquement à dévaluer sa monnaie .</text>
+            <annotationSet status="MANUAL" ID="15470">
+                <layer rank="1" name="FE">
+                    <label end="246" start="114" name="Cause"/>
+                    <label end="136" start="128" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13556">
+            <text>Depuis sa découverte en 1859 , l' or noir a été une source de richesses et un enjeu stratégique majeur , démontre Daniel Yergin , dans un livre - fleuve qui se lit comme un roman .</text>
+            <annotationSet status="MANUAL" ID="17885">
+                <layer rank="1" name="FE">
+                    <label end="101" start="48" name="Effect"/>
+                    <label end="40" start="31" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13753">
+            <text>La cession de sa filiale américaine Telcom , principale source de déficit du groupe de Yazid Sabeg , n' est pas étrangère à l' amélioration de ces résultats .</text>
+            <annotationSet status="MANUAL" ID="18067">
+                <layer rank="1" name="FE">
+                    <label end="43" start="14" name="Cause"/>
+                    <label end="97" start="66" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16298">
+            <text>Source essentielle des difficultés actuelles , la hausse des salaires - qui avait entraîné une accélération de l' inflation ( de l' ordre de 10 % ) et un emballement de la consommation - n' a pas été la seule cause à la perte de compétitivité des produits coréens , qui ont été aussi victimes de la contraction du marché mondial : les exportations ont plafonné ( malgré une dépréciation de la monnaie , le won ) tandis que les importations ont augmenté , entraînant un déficit de la balance commerciale .</text>
+            <annotationSet status="MANUAL" ID="20464">
+                <layer rank="1" name="FE">
+                    <label end="185" start="47" name="Cause"/>
+                    <label end="43" start="23" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17085">
+            <text>Car , pour les entreprises , le recours au juridique est une source de dépenses .</text>
+            <annotationSet status="MANUAL" ID="21211">
+                <layer rank="1" name="FE">
+                    <label end="51" start="29" name="Cause"/>
+                    <label end="25" start="11" name="Affected"/>
+                    <label end="78" start="71" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18156">
+            <text>De nos jours , les économistes idéologues , inspirés par Milton Friedman , préconisent à la suite de leur maitre la suppression pure et simple des banques centrales , sources premières , selon eux , des désordres monétaires .</text>
+            <annotationSet status="MANUAL" ID="22187">
+                <layer rank="1" name="FE">
+                    <label end="165" start="147" name="Cause"/>
+                    <label end="222" start="203" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20027">
+            <text>UNE source de confusion pourrait bien se trouver dans l' emploi que l' on fait aujourd' hui du concept de " productivité " ( baptisée " productivité totale des facteurs " ) .</text>
+            <annotationSet status="MANUAL" ID="23777">
+                <layer rank="1" name="FE">
+                    <label end="22" start="0" name="Cause"/>
+                    <label end="22" start="14" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,82 @@
+<html>
+<table>
+<tr>
+<td width=85% ALIGN=LEFT VALIGN=bottom ROWSPAN="1"><h1>ASFALDA French FrameNet</h1></td>
+<!--<td ALIGN=left VALIGN=center><h4><a href='frameIndex.xml' target='_top'>Frame Index</a></h4> </td>
+<td></td>
+-->
+<td ALIGN=right VALIGN=center><h4><a href='luIndex.xml' target='_top'>Lexical Unit Index</a></h4></td>
+
+</tr>
+</table>
+
+<h3>Visualization of frame and role annotations on sentences from the <a href="https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=CorpusSequoia" target='_top'>Sequoia Treebank</a> and the <a href="http://www.llf.cnrs.fr/fr/Gens/Abeille/French-Treebank-fr.php" target='_top'>French Treebank</a></h3>
+Release 1.3<br>
+Nov 2017<br>
+
+<h3><a href='documentation/asfalda_guide_annotation.pdf' target='_top'>Annotation guide</a></h3>
+
+<h4><a href='macroroles.xml' target='_blank'>Hierarchy of macro roles grouping frame-specific roles</a><h4>
+
+<!--TODO: lien vers guides par domaines??<br>-->
+
+
+<h2>Target notional domains</h2>
+Annotated frames pertain to the following notional domains:
+<ul>
+<li>Causality  (specific <a href='documentation/asfalda_guide_desamb_Causation_Evidence.pdf' target='_top'>Causation/Evidence disambiguation guide</a>)</li>
+<li>Cognitive positions</li>
+<li>Commercial transactions</li>
+<li>Verbal communication (partially annotated)</li>
+</ul>
+
+Encountered occurrences not pertaining to these domains were annotated with a special Other_sense frame.<br>
+
+
+<h2>Origin of the frames</h2>
+Frames in the French FrameNet are either copied or adapted from <a href="https://framenet.icsi.berkeley.edu/fndrupal/framenet_data" target='_top'>Berkeley FrameNet release 1.5</a>. More precisely:
+<ul>
+<li> Frames not starting with 'FR' are taken directly from FrameNet 1.5, but only core roles and non-core but subcategorized roles were retained.</li><br>
+<li> Frames starting with 'FR' are either new frames, or modified frames from FrameNet 1.5</li>
+</ul>
+
+Only Core roles (=essential semantic roles) and non-Core but subcategorized roles are annotated.<br>
+
+<h2>Corpus and lexicon statistics</h2>
+(not counting Other_sense annotations)<br>
+
+  105 distinct frames<br>
+ 1109 distinct senses (frame/lemma+cat pairs)<br>
+16167 annotation sets <br>
+<br>
+See also <a href="documentation/asfalda_lexicon_from_annotations.stats_noothersense.txt" target='_blank'>more detailed statistics</a> and the lexicon extracted from annotations, either <a href="asfalda_lexicon_from_annotations.xml" target='_blank'>by frame (lexical variation for each frame)</a> or <a href="asfalda_lexicon_from_annotations.bylemma.xml" target='_blank'>by lemma (annotated frames for each lemma)</a>.
+
+
+
+
+<h2>Frame annotations on syntactic treebanks</h2>
+
+The frame and roles have been annotated on top of the morpho-syntactic annotations of:
+
+<ul>
+<li> <a href="https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=CorpusSequoia" target='_top'>the Sequoia Treebank</a> (Candito M. and Seddah D., Le corpus Sequoia : annotation syntaxique et exploitation pour l’adaptation d’analyseur par pont lexical, TALN 2012, Grenoble, France). </li>
+<li> <a href="http://www.llf.cnrs.fr/fr/Gens/Abeille/French-Treebank-fr.php" target='_top'>the French Treebank</a> (Abeillé, A., Clément L., and Toussenel F. 2003. "Building a treebank for French", in A. Abeillé (ed) Treebanks, Kluwer, Dordrecht) </li>
+</ul>
+
+To obtain all the layers of annotations (morphological, syntactic, semantic), contact marie.candito at gmail.com.<br><br>
+
+NB: The FTB part requires a licence to be signed for the morphological and syntactic layers (free for research purpose).<br>
+See the <a href="http://ftb.linguist.univ-paris-diderot.fr/telecharger.php">FTB licence request form</a>.
+<br>
+<br>
+The Sequoia part is under <a href="http://infolingu.univ-mlv.fr/DonneesLinguistiques/Lexiques-Grammaires/lgpllr.html">LGPL-LR licence</a>, which requires no licence form to be signed.<br><br>
+
+<a href="documentation/README_asfalda_french_framenet.txt" target='_top'>Note for using the data for frame semantic training/parsing</a><br>
+
+<h2> References</h2>
+
+<ul>
+<li>Djemaa M., Candito M., Muller P. and Vieu L. 2016. <a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/292_Paper.pdf" target='_top'>Corpus annotation within the French FrameNet: a domain-by-domain methodology</a>. In Proceedings of LREC 2016. Portoroz, Slovenia, may 2016.</li>
+
+<li>Candito M., Amsili, P., Barque, L., Benamara, F., Chalendar, G., Djemaa, M., Haas, P., Huyghe, R., Mathieu, Y., Muller, P., Sagot, B. & Vieu, L., 2014, <a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/496_Paper.pdf" target='_top'>Developing a French FrameNet: methodology and first results</a>. LREC 2014, Reykjavik, Iceland, may 2014. </li>
+<br>

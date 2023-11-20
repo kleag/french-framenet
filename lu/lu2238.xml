@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="brouille.n" ID="2238" frame="Quarreling" frameID="710" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Args" name="Arguers"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Arg1" name="Arguer1"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Arg2" name="Arguer2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Iss" name="Issue"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Arguer1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Arguer2"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Arguers"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Arguers"/>
+                <annoSet ID="23253"/>
+                <annoSet ID="23255"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Issue"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Issue"/>
+                <annoSet ID="23253"/>
+                <annoSet ID="23255"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19284">
+            <text>Il n' existe actuellement aucune brouille idéologique entre Pékin et Moscou , a affirmé , samedi 13 janvier , le vice - premier ministre soviétique des affaires étrangères , Mr Igor Rogatchev , dans un entretien diffusé par Radio - Moscou .</text>
+            <annotationSet status="MANUAL" ID="23253">
+                <layer rank="1" name="FE">
+                    <label end="74" start="60" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19285">
+            <text>Mr Rogatchev , qui venait de s' entretenir à Pékin avec les dirigeants chinois , a déclaré : " Cette brouille , c' est quelque chose que certaines personnes aimeraient voir survenir entre nos deux pays , car ils estiment que la normalisation des relations sino- soviétiques constitue une menace pour les pays tiers .</text>
+            <annotationSet status="MANUAL" ID="23255">
+                <layer rank="1" name="FE">
+                    <label end="200" start="188" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

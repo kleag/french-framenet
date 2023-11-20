@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="engagement.n" ID="350" frame="FR_Commitment.to_do" frameID="10089" totalAnnotated="50" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Msg" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Addressee"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="5128"/>
+                <annoSet ID="5163"/>
+                <annoSet ID="12789"/>
+                <annoSet ID="19483"/>
+                <annoSet ID="21310"/>
+                <annoSet ID="21578"/>
+                <annoSet ID="24881"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Entity"/>
+        </FERealization>
+        <FERealization total="40">
+            <FE name="Eventuality"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="2347"/>
+                <annoSet ID="5884"/>
+                <annoSet ID="9445"/>
+                <annoSet ID="10301"/>
+                <annoSet ID="14232"/>
+                <annoSet ID="15229"/>
+                <annoSet ID="16066"/>
+                <annoSet ID="17092"/>
+                <annoSet ID="19658"/>
+                <annoSet ID="19697"/>
+                <annoSet ID="20533"/>
+                <annoSet ID="20774"/>
+                <annoSet ID="21310"/>
+                <annoSet ID="22228"/>
+                <annoSet ID="24055"/>
+                <annoSet ID="24101"/>
+                <annoSet ID="24520"/>
+            </pattern>
+            <pattern total="23">
+                <valenceUnit PT="null instantiation" FE="Eventuality"/>
+                <annoSet ID="1828"/>
+                <annoSet ID="2554"/>
+                <annoSet ID="7064"/>
+                <annoSet ID="7864"/>
+                <annoSet ID="9281"/>
+                <annoSet ID="11869"/>
+                <annoSet ID="12714"/>
+                <annoSet ID="14422"/>
+                <annoSet ID="15271"/>
+                <annoSet ID="17198"/>
+                <annoSet ID="18489"/>
+                <annoSet ID="19483"/>
+                <annoSet ID="19546"/>
+                <annoSet ID="20184"/>
+                <annoSet ID="20789"/>
+                <annoSet ID="21313"/>
+                <annoSet ID="21500"/>
+                <annoSet ID="21578"/>
+                <annoSet ID="21976"/>
+                <annoSet ID="22116"/>
+                <annoSet ID="22633"/>
+                <annoSet ID="24195"/>
+                <annoSet ID="24881"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="12714"/>
+                <annoSet ID="15925"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="49">
+            <FE name="Speaker"/>
+            <pattern total="34">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="1828"/>
+                <annoSet ID="2347"/>
+                <annoSet ID="2722"/>
+                <annoSet ID="4892"/>
+                <annoSet ID="5163"/>
+                <annoSet ID="5453"/>
+                <annoSet ID="7064"/>
+                <annoSet ID="7864"/>
+                <annoSet ID="9281"/>
+                <annoSet ID="9445"/>
+                <annoSet ID="11869"/>
+                <annoSet ID="12789"/>
+                <annoSet ID="14422"/>
+                <annoSet ID="15271"/>
+                <annoSet ID="16066"/>
+                <annoSet ID="17092"/>
+                <annoSet ID="17198"/>
+                <annoSet ID="19483"/>
+                <annoSet ID="19534"/>
+                <annoSet ID="19658"/>
+                <annoSet ID="20774"/>
+                <annoSet ID="20789"/>
+                <annoSet ID="21310"/>
+                <annoSet ID="21313"/>
+                <annoSet ID="21500"/>
+                <annoSet ID="21578"/>
+                <annoSet ID="21976"/>
+                <annoSet ID="22116"/>
+                <annoSet ID="22633"/>
+                <annoSet ID="23841"/>
+                <annoSet ID="24055"/>
+                <annoSet ID="24101"/>
+                <annoSet ID="24195"/>
+                <annoSet ID="24520"/>
+            </pattern>
+            <pattern total="15">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="2554"/>
+                <annoSet ID="5128"/>
+                <annoSet ID="5884"/>
+                <annoSet ID="10301"/>
+                <annoSet ID="14232"/>
+                <annoSet ID="15229"/>
+                <annoSet ID="15925"/>
+                <annoSet ID="18489"/>
+                <annoSet ID="19546"/>
+                <annoSet ID="19697"/>
+                <annoSet ID="20184"/>
+                <annoSet ID="20533"/>
+                <annoSet ID="22228"/>
+                <annoSet ID="24660"/>
+                <annoSet ID="24881"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Topic"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="1828"/>
+                <annoSet ID="2554"/>
+                <annoSet ID="2722"/>
+                <annoSet ID="4892"/>
+                <annoSet ID="5453"/>
+                <annoSet ID="12789"/>
+                <annoSet ID="15271"/>
+                <annoSet ID="15925"/>
+                <annoSet ID="19534"/>
+                <annoSet ID="21578"/>
+                <annoSet ID="21976"/>
+                <annoSet ID="23841"/>
+                <annoSet ID="24660"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1690">
+            <text>Je voudrais profiter de ce moment pour rappeler la haute qualité et la constance des relations entre le Parlement européen et le Parlement belge qui , grâce à l' engagement majoritaire de nos collègues belges en faveur de la cause européenne , se sont toujours situées bien au - delà des simples relations de bon voisinage qui sont un devoir commun largement partagé .</text>
+            <annotationSet status="MANUAL" ID="1828">
+                <layer rank="1" name="FE">
+                    <label end="240" start="222" name="Topic"/>
+                    <label end="207" start="188" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="171" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1901">
+            <text>Je lance un appel à la Commission , cette même proportion se retrouvant approximativement dans l' engagement de l' Europe , à prendre sérieusement ces 3 à 4 % et à augmenter cette proportion .</text>
+            <annotationSet status="MANUAL" ID="2347">
+                <layer rank="1" name="FE">
+                    <label end="120" start="112" name="Speaker"/>
+                    <label end="120" start="112" name="Eventuality"/>
+                    <label end="160" start="126" name="Eventuality"/>
+                    <label end="189" start="164" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1989">
+            <text>En effet , la proposition découle d' un engagement qui a été pris concernant la commission de suivi .</text>
+            <annotationSet status="MANUAL" ID="2554">
+                <layer rank="1" name="FE">
+                    <label end="98" start="77" name="Topic"/>
+                    <label itype="UNI" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2069">
+            <text>Madame la Présidente , je voudrais saluer votre volonté politique et votre disposition à vous rendre au Pays basque afin de signifier à l' opinion publique espagnole et , en particulier , basque , l' engagement antiterroriste du Parlement européen .</text>
+            <annotationSet status="MANUAL" ID="2722">
+                <layer rank="1" name="FE">
+                    <label end="224" start="211" name="Topic"/>
+                    <label end="246" start="229" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3620">
+            <text>" au vu des promesses faites aux salariés de la Cinq et à leurs familles , il y a un an , et du non- respect flagrant de ses engagements moraux , écrit -il , la CFTC Bourse estime qu' une entreprise qui a si peu de parole vis - à - vis de ses proches collaborateurs n' a aucune raison d' en avoir plus vis - à - vis de ses actionnaires .</text>
+            <annotationSet status="MANUAL" ID="4892">
+                <layer rank="1" name="FE">
+                    <label end="142" start="137" name="Topic"/>
+                    <label end="123" start="121" name="Speaker"/>
+                    <label end="51" start="45" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3756">
+            <text>Le président de la FITCA note avec amertume que les créances des prestataires ne seront pas prioritaires car " on se dispensait de garantie en fonction de la notoriété d' Hachette et des engagements pris devant le CSA " .</text>
+            <annotationSet status="MANUAL" ID="5128">
+                <layer rank="1" name="FE">
+                    <label end="216" start="211" name="Addressee"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3774">
+            <text>Initialement , pour pouvoir assurer leurs engagements à l' égard de leur clientèle , les sociétés de bourse devaient contribuer à un fond de garantie de façon régulière et trimestrielle .</text>
+            <annotationSet status="MANUAL" ID="5163">
+                <layer rank="1" name="FE">
+                    <label end="81" start="68" name="Addressee"/>
+                    <label end="40" start="36" name="Speaker"/>
+                    <label end="106" start="85" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3947">
+            <text>Il écrivait en début de semaine : " Au vu des promesses faites aux salariés de la Cinq et à leur famille , il y a un an , et du non- respect de ces engagements moraux , la CFTC Bourse estime qu' une entreprise qui a si peu de parole vis - à - vis de ses proches collaborateurs n' a aucune raison d' en avoir plus vis - à - vis de ses actionnaires ... "</text>
+            <annotationSet status="MANUAL" ID="5453">
+                <layer rank="1" name="FE">
+                    <label end="165" start="160" name="Topic"/>
+                    <label end="146" start="144" name="Speaker"/>
+                    <label end="85" start="79" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4188">
+            <text>Il rendrait ainsi plus crédible parce que plus supportable l' engagement de stabilité du franc dans le SME .</text>
+            <annotationSet status="MANUAL" ID="5884">
+                <layer rank="1" name="FE">
+                    <label end="105" start="76" name="Eventuality"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4929">
+            <text>Il sera politiquement difficile à la Communauté , compte tenu des engagements pris au cours de l' Uruguay round de renforcer les règles et disciplines du GATT , de ne pas s' incliner devant l' arbitrage des experts .</text>
+            <annotationSet status="MANUAL" ID="7064">
+                <layer rank="1" name="FE">
+                    <label end="46" start="34" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5419">
+            <text>Que l' Etat ait ainsi renoncé à abuser de ses prérogatives en évitant le grand chambardement à la tête des grandes entreprises industrielles et financières est en fait conforme aux engagements de ses dirigeants .</text>
+            <annotationSet status="MANUAL" ID="7864">
+                <layer rank="1" name="FE">
+                    <label end="209" start="196" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6225">
+            <text>Un producteur - la société AB production - a toutefois refusé l' accord et a assigné Hachette en responsabilité pour ne pas avoir rempli ses engagements .</text>
+            <annotationSet status="MANUAL" ID="9281">
+                <layer rank="1" name="FE">
+                    <label end="92" start="85" name="Speaker"/>
+                    <label end="139" start="137" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6322">
+            <text>s' agissant de la garantie de l' emploi , qui a longtemps constitué un sujet de discorde , la direction a pris l' engagement de reclasser dans les filiales d' ATT le personnel qui serait contraint de quitter l' entreprise avec une garantie de salaire et des avantages sociaux pendant deux ans .</text>
+            <annotationSet status="MANUAL" ID="9445">
+                <layer rank="1" name="FE">
+                    <label end="102" start="91" name="Speaker"/>
+                    <label end="102" start="91" name="Eventuality"/>
+                    <label end="291" start="128" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6938">
+            <text>Raymond Lacombe prônait " un engagement significatif en faveur de la revitalisation du milieu rural " .</text>
+            <annotationSet status="MANUAL" ID="10301">
+                <layer rank="1" name="FE">
+                    <label end="98" start="66" name="Eventuality"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8257">
+            <text>Combien d' entreprises respectent cet engagement ?</text>
+            <annotationSet status="MANUAL" ID="11869">
+                <layer rank="1" name="FE">
+                    <label end="21" start="0" name="Speaker"/>
+                    <label itype="DNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8897">
+            <text>Selon M. Levaux , pour respecter les engagements des contrats de plan Etat - régions , il faudrait inscrire au budget 1993 7 , 5 milliards de francs , alors qu' il n' y en a eu que 4 , 6 milliards en 1992 et 4 milliards en 1991 .</text>
+            <annotationSet status="MANUAL" ID="12714">
+                <layer rank="1" name="FE">
+                    <label end="83" start="53" name="Medium"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8937">
+            <text>De l' autre , l' Union nationale des organisations syndicales des transporteurs routiers automobiles ( UNOSTRA ) obtenait , dans le même temps , des engagements de la part des ministères de l' économie et des transports sur un projet de loi sur la sous - traitance .</text>
+            <annotationSet status="MANUAL" ID="12789">
+                <layer rank="1" name="FE">
+                    <label end="263" start="224" name="Topic"/>
+                    <label end="99" start="37" name="Addressee"/>
+                    <label end="218" start="176" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10126">
+            <text>En revanche , aucun engagement n' a été pris pour une augmentation des AFR , pris en charge à 80 % par l' Etat , qui permettrait d' économiser 1 , 4 milliard de francs supplémentaires .</text>
+            <annotationSet status="MANUAL" ID="14232">
+                <layer rank="1" name="FE">
+                    <label end="182" start="50" name="Eventuality"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10267">
+            <text>Bien que , formellement , le ministère des finances demeure fidèle à ses engagements et n' ait pas eu recours aux bons d' Etat destinés à financer le déficit , il a néanmoins dû commettre une entorse au sacro - saint principe de rigueur budgétaire en émettant à nouveau des bons de financement de la construction .</text>
+            <annotationSet status="MANUAL" ID="14422">
+                <layer rank="1" name="FE">
+                    <label end="50" start="26" name="Speaker"/>
+                    <label end="71" start="69" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10973">
+            <text>Il n' y a pas si longtemps , certains de ses dirigeants avaient pourtant envisagé de décréter un moratoire sur les suppressions d' emploi , en échange d' un engagement collectif en faveur de la réduction des coûts .</text>
+            <annotationSet status="MANUAL" ID="15229">
+                <layer rank="1" name="FE">
+                    <label end="212" start="191" name="Eventuality"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11019">
+            <text>Certains pays scandinaves dépassent déjà ce taux , d' autres Etats , comme la France ou l' Allemagne , s' en approchent de très près , mais la plupart des pays industrialisés n' ont pas voulu prendre d' engagement à cet égard .</text>
+            <annotationSet status="MANUAL" ID="15271">
+                <layer rank="1" name="FE">
+                    <label end="224" start="214" name="Topic"/>
+                    <label end="173" start="140" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="212" start="203" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11565">
+            <text>M. Clinton a d' ores et déjà fait savoir que , s' il est prêt à signer l' accord de libre - échange négocié par l' administration Bush avec le Canada et le Mexique , l' ALENA ( Accord de libre - échange nord - américain ) , il souhaite au préalable que ce document soit complété d' engagements réciproques en matière de protection de l' environnement et de conditions de travail .</text>
+            <annotationSet status="MANUAL" ID="15925">
+                <layer rank="1" name="FE">
+                    <label end="377" start="320" name="Topic"/>
+                    <label end="263" start="253" name="Medium"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="292" start="282" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11702">
+            <text>Une seule solution : obtenir des Allemands un engagement inconditionnel à soutenir le franc .</text>
+            <annotationSet status="MANUAL" ID="16066">
+                <layer rank="1" name="FE">
+                    <label end="41" start="33" name="Speaker"/>
+                    <label end="41" start="33" name="Eventuality"/>
+                    <label end="90" start="74" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12726">
+            <text>Il a réaffirmé l' engagement pris par le Brésil d' honorer ses engagements financiers internationaux .</text>
+            <annotationSet status="MANUAL" ID="17092">
+                <layer rank="1" name="FE">
+                    <label end="46" start="38" name="Speaker"/>
+                    <label end="46" start="38" name="Eventuality"/>
+                    <label end="99" start="51" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12834">
+            <text>Au train où vont les choses , la Bundesbank va avoir , à nouveau , à faire face à ses engagements .</text>
+            <annotationSet status="MANUAL" ID="17198">
+                <layer rank="1" name="FE">
+                    <label end="42" start="30" name="Speaker"/>
+                    <label end="84" start="82" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14148">
+            <text>Des exemples récents de conduites contraires à ces engagements abondent pourtant .</text>
+            <annotationSet status="MANUAL" ID="18489">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Speaker"/>
+                    <label itype="DNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15229">
+            <text>Le président du CNPF , qui a précisé que cette réunion s' est déroulée " sans passion et sans reproche " , " n' est pas entré dans le détail de dispositions " déja annoncées par le gouvernement et n' a " demandé aucun engagement " au premier ministre .</text>
+            <annotationSet status="MANUAL" ID="19483">
+                <layer rank="1" name="FE">
+                    <label end="103" start="0" name="Addressee"/>
+                    <label end="249" start="234" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="227" start="218" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15275">
+            <text>D' entrée , les rôles avaient été répartis par M. Perigot qui , par exemple , accorda " une minute et demie " à M. Guillen pour qu' il expose l' engagement de l' UIMM en faveur de la formation professionnelle initiale et , notamment , de l' apprentissage .</text>
+            <annotationSet status="MANUAL" ID="19534">
+                <layer rank="1" name="FE">
+                    <label end="233" start="180" name="Topic"/>
+                    <label end="253" start="238" name="Topic"/>
+                    <label end="165" start="159" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="154" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15280">
+            <text>" Il n' y a pas de politique alternative , une politique est installée " et c' est avec elle qu' il faut maintenant compter , note pour sa part M. Guillen qui affirme " qu' aucune pression d' aucune nature " n' a été exprimée pour des engagements contractualisés ou chiffrés .</text>
+            <annotationSet status="MANUAL" ID="19546">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="245" start="235" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15409">
+            <text>- Air France a décidé de retirer son assignation contre Air Liberté , estimant que la compagnie privée avait désormais pris l' engagement de respecter le cahier des charges en matière de réduction tarifaire pour les vols à destination des Antilles .</text>
+            <annotationSet status="MANUAL" ID="19658">
+                <layer rank="1" name="FE">
+                    <label end="101" start="83" name="Speaker"/>
+                    <label end="101" start="83" name="Eventuality"/>
+                    <label end="246" start="141" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15434">
+            <text>A l' annonce de cette décision , Catherine Trautmann , maire ( PS ) de Strasbourg , s' est " félicitée " de ce que " cette confirmation du transfert marque un respect des engagements pris " et " permet de mettre un terme aux derniers arguments jacobins qui liaient abusivement la qualité de l' enseignement de l' ENA à sa proximité avec les ministères " .</text>
+            <annotationSet status="MANUAL" ID="19697">
+                <layer rank="1" name="FE">
+                    <label end="147" start="139" name="Eventuality"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="181" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16010">
+            <text>Un engagement qui représenterait , selon le ministère , un plan de charge de 200 emplois dans l' immédiat et de 600 postes à plus long terme pour les usines de TEM .</text>
+            <annotationSet status="MANUAL" ID="20184">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Speaker"/>
+                    <label itype="DNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16355">
+            <text>L' A - 340 et son jumeau , le biréacteur A - 330 en cours d' essai , totalisent à eux deux 460 engagements d' achat , dont 256 commandes fermes en provenance de 35 clients .</text>
+            <annotationSet status="MANUAL" ID="20533">
+                <layer rank="1" name="FE">
+                    <label end="114" start="110" name="Eventuality"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16574">
+            <text>Le répit donné au SED , par l' élection en décembre d' une direction entièrement nouvelle dont l' engagement pour la démocratisation du pays ne faisait pas de doute , a été mal compris par une partie des militants .</text>
+            <annotationSet status="MANUAL" ID="20774">
+                <layer rank="1" name="FE">
+                    <label end="93" start="90" name="Speaker"/>
+                    <label end="163" start="55" name="Speaker"/>
+                    <label end="139" start="114" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16581">
+            <text>Huit semaines après son arrivée à la tête du pays , ce dernier n' a encore fait adopter aucun projet de loi important pour concrétiser ses engagements .</text>
+            <annotationSet status="MANUAL" ID="20789">
+                <layer rank="1" name="FE">
+                    <label end="61" start="52" name="Speaker"/>
+                    <label end="137" start="135" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17194">
+            <text>Cela , complété par un engagement solennel de la France de défendre la frontière orientale allemande avec ses armes nucléaires , pourrait peut - être venir à bout du sentiment de désespérance qui s' infiltre en Allemagne en ce qui concerne les affaires militaires .</text>
+            <annotationSet status="MANUAL" ID="21310">
+                <layer rank="1" name="FE">
+                    <label end="219" start="211" name="Addressee"/>
+                    <label end="54" start="46" name="Speaker"/>
+                    <label end="54" start="46" name="Eventuality"/>
+                    <label end="125" start="59" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17195">
+            <text>Ces engagements français ne tiennent cependant pas compte des autres éléments de défaitisme - la Gorbymania et l' attrait de l' unité .</text>
+            <annotationSet status="MANUAL" ID="21313">
+                <layer rank="1" name="FE">
+                    <label end="23" start="16" name="Speaker"/>
+                    <label itype="DNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17442">
+            <text>Faisant contre mauvaise fortune bon coeur , l' amiral Higgins a alors appelé au téléphone les journalistes britanniques pour les délier de leurs engagements .</text>
+            <annotationSet status="MANUAL" ID="21500">
+                <layer rank="1" name="FE">
+                    <label end="118" start="90" name="Speaker"/>
+                    <label end="143" start="139" name="Speaker"/>
+                    <label itype="DNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17535">
+            <text>D' ici là , l' union des forces démocratiques attend un engagement écrit du gouvernement comportant des précisions sur les locaux et la date pour la parution des journaux indépendants .</text>
+            <annotationSet status="MANUAL" ID="21578">
+                <layer rank="1" name="FE">
+                    <label end="182" start="119" name="Topic"/>
+                    <label end="44" start="12" name="Addressee"/>
+                    <label end="87" start="76" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17899">
+            <text>Dans l' avenir , les stations autoroutières devraient faire l' objet de vrais appels d' offres , lancés non plus par l' administration mais par les sociétés concessionnaires d' autoroutes elles - mêmes , en fonction de critères précis qui restent à déterminer ( qualités de service , engagements sur les prix , etc. ) .</text>
+            <annotationSet status="MANUAL" ID="21976">
+                <layer rank="1" name="FE">
+                    <label end="307" start="300" name="Topic"/>
+                    <label end="200" start="144" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="294" start="284" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18066">
+            <text>Nos différents engagements doivent être hiérarchisés selon l' intérêt que nous y avons et les moyens dont nous disposons .</text>
+            <annotationSet status="MANUAL" ID="22116">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18201">
+            <text>Par ailleurs , ne peuvent bénéficier de l' exonération des trois quarts que les forêts soumises à un engagement d' exploitation normale pendant trente ans et à un plan de gestion , lequel ne donne pas lieu à étude d' impact .</text>
+            <annotationSet status="MANUAL" ID="22228">
+                <layer rank="1" name="FE">
+                    <label end="153" start="115" name="Eventuality"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18525">
+            <text>Discrètement annoncé dans un simple télex de trois feuillets adressé , en plein week - end dernier , par Mr Jean - Pierre Chevènement à ses troupes , ce plan qui permettra notamment de relever les soldes les plus basses est apparu aux intéressés davantage comme un catalogue de promesses que comme un véritable engagement détaillé du gouvernement en faveur des trois cent mille cadres de métier et des cent trente - sept mille personnels civils travaillant pour la défense .</text>
+            <annotationSet status="MANUAL" ID="22633">
+                <layer rank="1" name="FE">
+                    <label end="345" start="334" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="320" start="311" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20105">
+            <text>Ces analystes s' attendent donc à de fortes pressions sur la devise britannique , faisant remarquer , au passage , qu' en cas de victoire électorale du Parti travailliste ce dernier a , par avance , confirmé son engagement sur l' appartenance au SME , mais n' a rien dit sur les parités ...</text>
+            <annotationSet status="MANUAL" ID="23841">
+                <layer rank="1" name="FE">
+                    <label end="248" start="227" name="Topic"/>
+                    <label end="210" start="208" name="Speaker"/>
+                    <label end="169" start="152" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="221" start="212" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20333">
+            <text>Le délai d' engagement d' affectation que doit prendre le propriétaire passe de trois ans à cinq ans .</text>
+            <annotationSet status="MANUAL" ID="24055">
+                <layer rank="1" name="FE">
+                    <label end="69" start="55" name="Speaker"/>
+                    <label end="36" start="26" name="Eventuality"/>
+                    <label end="69" start="55" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20382">
+            <text>Tout le plan de restructuration d' Hachette consistait à revoir à la baisse les ambitions de la chaîne , en réduisant les engagements de production et d' information et en demandant un allégement des contraintes réglementaires .</text>
+            <annotationSet status="MANUAL" ID="24101">
+                <layer rank="1" name="FE">
+                    <label end="101" start="93" name="Speaker"/>
+                    <label end="149" start="137" name="Eventuality"/>
+                    <label end="164" start="154" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20484">
+            <text>Il serait d' autant plus déraisonnable de prétendre l' ignorer que l' Afrique subsaharienne ( hors Afrique du Sud ) ne compte plus que pour 2 , 9 % dans le commerce extérieur français et que les entreprises françaises continuent de réajuster à la baisse leurs engagements dans un contexte où certains discours sur l' immigration pourraient à terme se traduire par des réflexes néo- cartiéristes en matière d' aide bilatérale au développement .</text>
+            <annotationSet status="MANUAL" ID="24195">
+                <layer rank="1" name="FE">
+                    <label end="216" start="191" name="Speaker"/>
+                    <label end="258" start="254" name="Speaker"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="270" start="260" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20984">
+            <text>En outre , ils devaient formuler plusieurs revendications , car ils considèrent que l' Etat ne tient pas ses engagements pour le financement de l' UNEDIC ou qu' il ne tient pas compte des répercussions que peuvent avoir certaines mesures de politique publique d' emploi sur l' équilibre du régime .</text>
+            <annotationSet status="MANUAL" ID="24520">
+                <layer rank="1" name="FE">
+                    <label end="90" start="84" name="Speaker"/>
+                    <label end="107" start="105" name="Speaker"/>
+                    <label end="152" start="126" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21210">
+            <text>Malgré les engagements solennels pris lors de la présentation du budget de 1993 en faveur de la transparence et de la rigueur , ces belles résolutions resteront sans doute des voeux pieux , les périodes électorales n' incitant guère à l' épargne , au Nigeria moins encore qu' ailleurs .</text>
+            <annotationSet status="MANUAL" ID="24660">
+                <layer rank="1" name="FE">
+                    <label end="124" start="80" name="Topic"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21535">
+            <text>Les engagements déjà pris vis - à - vis des 4 , 5 millions d' agents seront respectés ( 5 , 9 - 10 ) .</text>
+            <annotationSet status="MANUAL" ID="24881">
+                <layer rank="1" name="FE">
+                    <label end="67" start="44" name="Addressee"/>
+                    <label itype="DNI" name="Speaker"/>
+                    <label itype="ENI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

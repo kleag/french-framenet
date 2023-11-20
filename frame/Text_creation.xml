@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Text_creation" ID="278" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;An &lt;fen&gt;Author&lt;/fen&gt; creates a &lt;fen&gt;Text&lt;/fen&gt;, either written, such as a letter, or spoken, such as a speech,  that contains meaningful linguistic tokens, and may have a particular &lt;fen&gt;Addressee&lt;/fen&gt; in mind.  The &lt;fen&gt;Text&lt;/fen&gt; may include information about its topic, although the latter is not an FE in this frame.
+
+&lt;ex&gt;&lt;fex name="Author"&gt;I&lt;/fex&gt; &lt;t&gt;penned&lt;/t&gt; &lt;fex name="Text"&gt;a letter concerning racism&lt;/fex&gt;  &lt;fex name="Addressee"&gt;to Congress&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Author"&gt;The brothers&lt;/fex&gt; &lt;t&gt;said&lt;/t&gt; &lt;fex name="Text"&gt;not two words&lt;/fex&gt; &lt;fex name="Addressee"&gt;to each other&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;t&gt;Jot&lt;/t&gt; &lt;fex name="Text"&gt;any notes you need&lt;/fex&gt; &lt;fex name="Place"&gt;below the line&lt;/fex&gt; &lt;fex name="Manner"&gt;in red pen only&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/04/2002 03:05:05 PST Mon" abbrev="Author" name="Author" ID="2428">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Author&lt;/fen&gt; produces a particular &lt;fen&gt;Text&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/04/2002 03:05:05 PST Mon" abbrev="text" name="Text" ID="2430">
+        <definition>&lt;def-root&gt;The entity which results from the act of writing or speaking.
+&lt;ex&gt;Michael &lt;t&gt;wrote&lt;/t&gt; &lt;fex name="Text"&gt;a frame description&lt;/fex&gt;.&lt;/ex&gt; &lt;ex&gt; Cybil wanted to &lt;t&gt;speak&lt;/t&gt; &lt;fex name="Text"&gt;those three words&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Extra-Thematic" cBy="664" cDate="03/08/2002 05:05:09 PST Fri" abbrev="Addressee" name="Addressee" ID="2452">
+        <definition>&lt;def-root&gt;This is the person to whom the Message is communicated. When this FE is expressed, it often appears in a prepositional phrase introduced by to, or as the direct object, or as the first object in a double object construction.
+
+
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>Intentionally_create</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Sign_agreement</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses">
+        <relatedFrame>Communication</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Used by">
+        <relatedFrame>Spelling_and_pronouncing</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="n" name="calligraphie.n" ID="2546" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="calligraphier.v" ID="2547" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="composer.v" ID="2548" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="composition.n" ID="2549" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="consignation.n" ID="2550" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="consigner.v" ID="2551" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="copiage.n" ID="2552" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="copie.n" ID="2553" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="copier.v" ID="2554" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="crayonnage.n" ID="2555" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="crayonner.v" ID="2556" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dactylographier.v" ID="2557" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="gribouillage.n" ID="2559" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="gribouiller.v" ID="2560" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="griffonnage.n" ID="2561" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="griffonner.v" ID="2562" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="marquer.v" ID="2563" nbocc="73" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101204" annotatedsent="64"/>
+        <otherlexUnit framename="Evidence" ID="577" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="1003" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="noter.v" ID="2564" nbocc="78" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101274" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1579" annotatedsent="53"/>
+        <otherlexUnit framename="FR_Becoming_aware" ID="112" annotatedsent="27"/>
+    </lexUnit>
+    <lexUnit POS="n" name="recopiage.n" ID="2566" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="recopier.v" ID="2567" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="ronéotyper.v" ID="2568" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="rédaction.n" ID="2571" nbocc="26" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rédiger.v" ID="2572" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="sténographier.v" ID="2573" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="sténotyper.v" ID="2574" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="taper.v" ID="2575" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="écrire.v" ID="2576" nbocc="67" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="102056" annotatedsent="3"/>
+        <otherlexUnit framename="Spelling_and_pronouncing" ID="2520" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contacting" ID="980" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1619" annotatedsent="43"/>
+        <otherlexUnit framename="FR_Request" ID="2419" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="écrit.n" ID="2689" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+    </lexUnit>
+    <lexUnit POS="n" name="écriture.n" ID="2577" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="102057" annotatedsent="7"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="exposé.n" ID="1482" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="12" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Message"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="406"/>
+                <annoSet ID="2438"/>
+                <annoSet ID="2442"/>
+                <annoSet ID="2450"/>
+                <annoSet ID="2458"/>
+                <annoSet ID="18296"/>
+                <annoSet ID="18669"/>
+                <annoSet ID="22960"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="1570"/>
+                <annoSet ID="12100"/>
+                <annoSet ID="12101"/>
+                <annoSet ID="23737"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Topic"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="406"/>
+                <annoSet ID="2438"/>
+                <annoSet ID="2442"/>
+                <annoSet ID="2450"/>
+                <annoSet ID="2458"/>
+                <annoSet ID="12100"/>
+                <annoSet ID="12101"/>
+                <annoSet ID="18296"/>
+                <annoSet ID="18669"/>
+                <annoSet ID="22960"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="316">
+            <text>Le visiteur pourra aussi découvrir un exposé sur l' histoire et le fonctionnement des planètes , sur l' astrologie en général .</text>
+            <annotationSet status="MANUAL" ID="406">
+                <layer rank="1" name="FE">
+                    <label end="93" start="49" name="Topic"/>
+                    <label end="124" start="35" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1547">
+            <text>Monsieur le Président , je tiens à remercier le rapporteur pour son exposé dont je partage en tous points le contenu .</text>
+            <annotationSet status="MANUAL" ID="1570">
+                <layer rank="1" name="FE">
+                    <label end="57" start="45" name="Speaker"/>
+                    <label end="66" start="64" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1941">
+            <text>J' ai moi-même examiné à plusieurs reprises la question de la cohérence entre la proposition de résolution , telle qu' elle nous est présentée maintenant comme compromis , et l' exposé des motifs , qui constitue la position du rapporteur et relève de sa responsabilité .</text>
+            <annotationSet status="MANUAL" ID="2438">
+                <layer rank="1" name="FE">
+                    <label end="194" start="189" name="Topic"/>
+                    <label end="267" start="175" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="183" start="178" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1942">
+            <text>J' ai constaté la cohérence , et j' ai dit très clairement que le ton du présent exposé des motifs était dur .</text>
+            <annotationSet status="MANUAL" ID="2442">
+                <layer rank="1" name="FE">
+                    <label end="97" start="92" name="Topic"/>
+                    <label end="97" start="73" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1943">
+            <text>Toutefois , je me vois dans l' impossibilité de porter un jugement sur le style et le choix des mots m' amenant à émettre des censures , car alors je devrais le faire pour chaque exposé des motifs .</text>
+            <annotationSet status="MANUAL" ID="2450">
+                <layer rank="1" name="FE">
+                    <label end="195" start="190" name="Topic"/>
+                    <label end="195" start="172" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="179" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1944">
+            <text>Selon moi , il y a bien cohérence , et c' est pourquoi j' ai décidé et fait savoir à la commission que je ne rejetais pas cet exposé des motifs .</text>
+            <annotationSet status="MANUAL" ID="2458">
+                <layer rank="1" name="FE">
+                    <label end="142" start="137" name="Topic"/>
+                    <label end="142" start="122" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8476">
+            <text>" Le mode de communication ( pas ou peu de référence au contexte ) et leur conception du temps incitent les Allemands à faire un exposé détaillé , exhaustif du sujet de la conversation et à commencer cet exposé immédiatement (...) .</text>
+            <annotationSet status="MANUAL" ID="12100">
+                <layer rank="1" name="FE">
+                    <label end="183" start="160" name="Topic"/>
+                    <label end="116" start="104" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="204" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8476">
+            <text>" Le mode de communication ( pas ou peu de référence au contexte ) et leur conception du temps incitent les Allemands à faire un exposé détaillé , exhaustif du sujet de la conversation et à commencer cet exposé immédiatement (...) .</text>
+            <annotationSet status="MANUAL" ID="12101">
+                <layer rank="1" name="FE">
+                    <label end="183" start="160" name="Topic"/>
+                    <label end="116" start="104" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13965">
+            <text>L' exposé des motifs du projet de loi de 1986 précisait : " La responsabilité pénale d' un dirigeant d' entreprise pourra être retenue en même temps que celle de la personne morale , s' il est prouvé que ce dirigeant est personnellement intervenu dans la décision ou dans la réalisation de l' infraction , ou si la loi prévoit qu' il répond personnellement de certaines infractions ...</text>
+            <annotationSet status="MANUAL" ID="18296">
+                <layer rank="1" name="FE">
+                    <label end="44" start="14" name="Topic"/>
+                    <label end="44" start="0" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14359">
+            <text>Au vu de l' exposé des motifs , toutefois , des zones d' ombres apparaissent , ainsi qu' un sujet d' étonnement .</text>
+            <annotationSet status="MANUAL" ID="18669">
+                <layer rank="1" name="FE">
+                    <label end="28" start="23" name="Topic"/>
+                    <label end="28" start="9" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18890">
+            <text>Fait exceptionnel , elle était précédée d' un " Exposé des motifs " relevant plus d' attendus de jugement que d' introduction à un texte législatif .</text>
+            <annotationSet status="MANUAL" ID="22960">
+                <layer rank="1" name="FE">
+                    <label end="64" start="59" name="Topic"/>
+                    <label end="146" start="43" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19998">
+            <text>Mais retenons de l' exposé de l' économiste de la banque mondiale l' allusion aux concepts pré- kénésiens .</text>
+            <annotationSet status="MANUAL" ID="23737">
+                <layer rank="1" name="FE">
+                    <label end="64" start="30" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

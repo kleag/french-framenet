@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="rappeler à l'ordre.v" ID="2593" frame="Judgment_direct_address" frameID="711" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Core" abbrev="" name="Expressor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Addressee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="16660"/>
+                <annoSet ID="16661"/>
+                <annoSet ID="19399"/>
+                <annoSet ID="19403"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Communicator"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="16660"/>
+                <annoSet ID="16661"/>
+                <annoSet ID="19399"/>
+                <annoSet ID="19403"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Reason"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Reason"/>
+                <annoSet ID="16660"/>
+                <annoSet ID="16661"/>
+                <annoSet ID="19399"/>
+                <annoSet ID="19403"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="12325">
+            <text>Ils se font rappeler à l' ordre par la Direction de la consommation , de la concurrence et de la répression des fraudes .</text>
+            <annotationSet status="MANUAL" ID="16660">
+                <layer rank="1" name="FE">
+                    <label end="118" start="36" name="Communicator"/>
+                    <label end="2" start="0" name="Addressee"/>
+                    <label itype="DNI" name="Reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12325">
+            <text>Ils se font rappeler à l' ordre par la Direction de la consommation , de la concurrence et de la répression des fraudes .</text>
+            <annotationSet status="MANUAL" ID="16661">
+                <layer rank="1" name="FE">
+                    <label end="118" start="36" name="Communicator"/>
+                    <label end="2" start="0" name="Addressee"/>
+                    <label itype="DNI" name="Reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15162">
+            <text>Aussi , le premier ministre n' a -t-il pas hésité à rappeler à l' ordre ceux qui n' ont pu s' empêcher de profiter de l' occasion pour formuler des revendications ou plaider pour une " dévaluation compétitive " .</text>
+            <annotationSet status="MANUAL" ID="19399">
+                <layer rank="1" name="FE">
+                    <label end="26" start="8" name="Communicator"/>
+                    <label end="209" start="72" name="Addressee"/>
+                    <label itype="ENI" name="Reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15162">
+            <text>Aussi , le premier ministre n' a -t-il pas hésité à rappeler à l' ordre ceux qui n' ont pu s' empêcher de profiter de l' occasion pour formuler des revendications ou plaider pour une " dévaluation compétitive " .</text>
+            <annotationSet status="MANUAL" ID="19403">
+                <layer rank="1" name="FE">
+                    <label end="26" start="8" name="Communicator"/>
+                    <label end="209" start="72" name="Addressee"/>
+                    <label itype="DNI" name="Reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

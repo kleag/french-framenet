@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="allusion.n" ID="1460" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="12" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="15882"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Message"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="4408"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Speaker"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="1617"/>
+                <annoSet ID="4408"/>
+                <annoSet ID="13133"/>
+                <annoSet ID="14473"/>
+                <annoSet ID="17819"/>
+                <annoSet ID="18435"/>
+                <annoSet ID="20815"/>
+                <annoSet ID="23171"/>
+                <annoSet ID="23672"/>
+                <annoSet ID="23738"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Topic"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="1617"/>
+                <annoSet ID="4408"/>
+                <annoSet ID="13133"/>
+                <annoSet ID="14473"/>
+                <annoSet ID="15882"/>
+                <annoSet ID="17819"/>
+                <annoSet ID="17866"/>
+                <annoSet ID="18435"/>
+                <annoSet ID="23171"/>
+                <annoSet ID="23672"/>
+                <annoSet ID="23738"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1570">
+            <text>Même si de nombreuses évolutions nous avaient permis d' en douter , nous avions considéré malgré tout que tel était le cas et , récemment encore , on faisait allusion , du bout des lèvres , il est vrai , au principe de subsidiarité .</text>
+            <annotationSet status="MANUAL" ID="1617">
+                <layer rank="1" name="FE">
+                    <label end="230" start="207" name="Topic"/>
+                    <label end="148" start="147" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3342">
+            <text>Les conservateurs , a ajouté le premier ministre dans une allusion transparente au Parti travailliste , " ne sont pas des opportunistes qui virevoltent d' une politique à l' autre en suivant les sondages " .</text>
+            <annotationSet status="MANUAL" ID="4408">
+                <layer rank="1" name="FE">
+                    <label end="100" start="83" name="Topic"/>
+                    <label end="100" start="54" name="Message"/>
+                    <label end="47" start="29" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9205">
+            <text>Quant aux 400 employés du siège à San - Francisco ( un ancien entrepôt d' épices à deux pas du port ) , ils ne sont pas les derniers à profiter de la politique de communication d' Esprit , que les californiens appelaient naguère " petite utopie " , par allusion à ses avantages sociaux .</text>
+            <annotationSet status="MANUAL" ID="13133">
+                <layer rank="1" name="FE">
+                    <label end="284" start="264" name="Topic"/>
+                    <label end="208" start="193" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="260" start="253" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10313">
+            <text>Quant à une relance de la demande , M. Bérégovoy a fait allusion à de nouvelles mesures au début de 1993 .</text>
+            <annotationSet status="MANUAL" ID="14473">
+                <layer rank="1" name="FE">
+                    <label end="86" start="67" name="Topic"/>
+                    <label end="47" start="36" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11533">
+            <text>Aucun des commentaires publiés n' a fait allusion à cet aspect des relations entre Paris et Pékin .</text>
+            <annotationSet status="MANUAL" ID="15882">
+                <layer rank="1" name="FE">
+                    <label end="96" start="52" name="Topic"/>
+                    <label end="29" start="0" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13503">
+            <text>Veut -on faire allusion , ici , en paraphrasant le ton grandiloquent désormais de mise pour parler des affaires du GATT , au sort de l' Uruguay Round ?</text>
+            <annotationSet status="MANUAL" ID="17819">
+                <layer rank="1" name="FE">
+                    <label end="148" start="125" name="Topic"/>
+                    <label end="7" start="5" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13539">
+            <text>Tout autre est , implicitement , l' approche des participants au séminaire auquel il a été fait allusion .</text>
+            <annotationSet status="MANUAL" ID="17866">
+                <layer rank="1" name="FE">
+                    <label end="80" start="75" name="Topic"/>
+                    <label end="103" start="65" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14104">
+            <text>N' est -ce pas - enfin - à ce genre de phénomène que faisait allusion Pierre Bérégovoy en se couvrant de l' utilité sociale ?</text>
+            <annotationSet status="MANUAL" ID="18435">
+                <layer rank="1" name="FE">
+                    <label end="51" start="49" name="Topic"/>
+                    <label end="122" start="27" name="Topic"/>
+                    <label end="85" start="70" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16619">
+            <text>Car Michel Rocard , après quelque vingt mois passés à Matignon et l' expérience de plusieurs postes éminents , continue de parler trop vite , par allusions , parfois par contorsions .</text>
+            <annotationSet status="MANUAL" ID="20815">
+                <layer rank="1" name="FE">
+                    <label end="16" start="4" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="154" start="146" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19172">
+            <text>Nous assurons cependant le peuple et le gouvernement français de notre amitié " , a -t-il ajouté , sans autre précision sur l' éventuel " marché " franco- saoudien auquel il semblait faire allusion .</text>
+            <annotationSet status="MANUAL" ID="23171">
+                <layer rank="1" name="FE">
+                    <label end="169" start="164" name="Topic"/>
+                    <label end="196" start="124" name="Topic"/>
+                    <label end="172" start="171" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19925">
+            <text>Il a estimé que , compte tenu des " énormes succès " des Etats - Unis dans le monde ( allusion aux dividendes de la paix tirés de l' opération tempête du désert ) , " il existait des moyens d' économiser plus en matière de défense " .</text>
+            <annotationSet status="MANUAL" ID="23672">
+                <layer rank="1" name="FE">
+                    <label end="159" start="99" name="Topic"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19998">
+            <text>Mais retenons de l' exposé de l' économiste de la banque mondiale l' allusion aux concepts pré- kénésiens .</text>
+            <annotationSet status="MANUAL" ID="23738">
+                <layer rank="1" name="FE">
+                    <label end="104" start="82" name="Topic"/>
+                    <label end="64" start="30" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prévoir.v" ID="643" frame="FR_Expectation" frameID="10025" totalAnnotated="33" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="32">
+            <FE name="Cognizer"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4168"/>
+                <annoSet ID="5561"/>
+                <annoSet ID="6160"/>
+                <annoSet ID="6911"/>
+                <annoSet ID="7334"/>
+                <annoSet ID="8046"/>
+                <annoSet ID="8298"/>
+                <annoSet ID="9072"/>
+                <annoSet ID="10206"/>
+                <annoSet ID="12402"/>
+                <annoSet ID="13027"/>
+                <annoSet ID="13351"/>
+                <annoSet ID="13536"/>
+            </pattern>
+            <pattern total="19">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="2392"/>
+                <annoSet ID="3989"/>
+                <annoSet ID="4160"/>
+                <annoSet ID="4207"/>
+                <annoSet ID="4387"/>
+                <annoSet ID="4588"/>
+                <annoSet ID="4596"/>
+                <annoSet ID="4622"/>
+                <annoSet ID="5425"/>
+                <annoSet ID="5640"/>
+                <annoSet ID="6436"/>
+                <annoSet ID="8430"/>
+                <annoSet ID="8599"/>
+                <annoSet ID="9964"/>
+                <annoSet ID="11419"/>
+                <annoSet ID="13035"/>
+                <annoSet ID="13039"/>
+                <annoSet ID="13586"/>
+                <annoSet ID="13596"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Evidence"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Evidence"/>
+                <annoSet ID="13035"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="32">
+            <FE name="Phenomenon"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="3989"/>
+                <annoSet ID="4160"/>
+                <annoSet ID="4168"/>
+                <annoSet ID="4207"/>
+                <annoSet ID="5561"/>
+                <annoSet ID="6160"/>
+                <annoSet ID="6436"/>
+                <annoSet ID="6911"/>
+                <annoSet ID="7334"/>
+                <annoSet ID="8046"/>
+                <annoSet ID="8430"/>
+                <annoSet ID="9072"/>
+                <annoSet ID="9964"/>
+                <annoSet ID="10206"/>
+                <annoSet ID="11419"/>
+                <annoSet ID="12402"/>
+                <annoSet ID="13027"/>
+                <annoSet ID="13035"/>
+                <annoSet ID="13039"/>
+                <annoSet ID="13351"/>
+                <annoSet ID="13536"/>
+                <annoSet ID="13586"/>
+                <annoSet ID="13596"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Phenomenon"/>
+                <annoSet ID="2392"/>
+                <annoSet ID="4387"/>
+                <annoSet ID="4588"/>
+                <annoSet ID="4596"/>
+                <annoSet ID="4622"/>
+                <annoSet ID="5425"/>
+                <annoSet ID="5640"/>
+                <annoSet ID="8298"/>
+                <annoSet ID="8599"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1923">
+            <text>Mais l' introduction effective de l' euro en 2002 va se traduire par une transparence et une concurrence telles que les marchés nationaux vont devoir s' adapter plus rapidement que prévu .</text>
+            <annotationSet status="MANUAL" ID="2392">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="ENI" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="185" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3111">
+            <text>Comme prévu , M. Henri Krasucki , secrétaire général depuis 1982 , n' en fait pas partie .</text>
+            <annotationSet status="MANUAL" ID="3989">
+                <layer rank="1" name="FE">
+                    <label end="4" start="0" name="Phenomenon"/>
+                    <label end="89" start="12" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3209">
+            <text>Le dépôt de bilan de la Cinq était inéluctable depuis quelques jours , Hachette et ses associés ayant refusé d' assumer les pertes de la chaîne ( 600 millions prévus en 1992 , après 1 , 12 milliard cette année ) .</text>
+            <annotationSet status="MANUAL" ID="4160">
+                <layer rank="1" name="FE">
+                    <label end="157" start="146" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3215">
+            <text>M. Lamont reconnaît que la croissance est actuellement plus faible que ce qu' il prévoyait il y a un mois encore , mais qu' il n' est pas pour autant nécessaire d' adopter des mesures d' incitation budgétaire .</text>
+            <annotationSet status="MANUAL" ID="4168">
+                <layer rank="1" name="FE">
+                    <label end="79" start="78" name="Cognizer"/>
+                    <label end="76" start="74" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3231">
+            <text>Hachette refuse d' assumer seul les pertes futures - 600 millions de francs prévus en 1992 - même avec une réduction drastique des coûts et de nombreux licenciements .</text>
+            <annotationSet status="MANUAL" ID="4207">
+                <layer rank="1" name="FE">
+                    <label end="74" start="53" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3333">
+            <text>Quant au chancelier de l' Echiquier , M. Norman Lamont , il admet que la reprise sera plus longue que prévu à se manifester .</text>
+            <annotationSet status="MANUAL" ID="4387">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="ENI" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3449">
+            <text>Des statistiques moins mauvaises que prévu</text>
+            <annotationSet status="MANUAL" ID="4588">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="ENI" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3453">
+            <text>Les investisseurs sont d' autant plus tentés de croire que la reprise est à portée de main , que les dernières statistiques économiques , sans être bonnes , sont moins mauvaises que prévu .</text>
+            <annotationSet status="MANUAL" ID="4596">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="ENI" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="182" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3466">
+            <text>En Grande - Bretagne , le premier ministre , M. John Major , a reconnu que la récession était plus sévère que prévu .</text>
+            <annotationSet status="MANUAL" ID="4622">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="ENI" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3924">
+            <text>Ils estiment que la reprise outre - Atlantique est à portée de main , appuyant leur discours sur le fait que si les statistiques américaines ne sont pas bonnes , elles sont moins mauvaises que prévu .</text>
+            <annotationSet status="MANUAL" ID="5425">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="ENI" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4002">
+            <text>Néanmoins , le gouverneur de la Banque d' Angleterre , M. Robin Leigh - Pemberton , a exclu un relèvement des taux d' intérêt dans l' immédiat , ce qui rendra plus difficile la défense de la livre , et conduit certains analystes à prévoir , un jour ou l' autre , un réalignement du SME comportant , effectivement , une dévaluation de cette devise .</text>
+            <annotationSet status="MANUAL" ID="5561">
+                <layer rank="1" name="FE">
+                    <label end="227" start="210" name="Cognizer"/>
+                    <label end="345" start="263" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="237" start="231" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4051">
+            <text>Les métaux non ferreux souffrent globalement de l' essoufflement des économies industrielles , et , sans doute aussi , de l' instabilité née de la gestion moins efficace que prévu du principal marché mondial , le London Metal Exchange , dont les instruments et les méthodes de régulation sont , semble -t-il , à revoir .</text>
+            <annotationSet status="MANUAL" ID="5640">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="ENI" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="174" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4380">
+            <text>L' assureur prévoit pour l' année 1991 un résultat négatif consécutif à l' échec de sa fusion avec son rival Baltica .</text>
+            <annotationSet status="MANUAL" ID="6160">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Cognizer"/>
+                    <label end="115" start="20" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4558">
+            <text>Fédérer le maximum d' audience , prévoir que les quatre - cinq ans regarderont l' émission conçue pour les huit - dix ans , lesquels n' accepteraient jamais l' inverse .</text>
+            <annotationSet status="MANUAL" ID="6436">
+                <layer rank="1" name="FE">
+                    <label end="166" start="45" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4847">
+            <text>Pour 1992 , le ministère prévoit une croissance plus soutenue de la consommation touristique intérieure ( + 5 , 7 % ) , une augmentation forte de la consommation des Français à l' étranger ( + 8 % ) et une croissance toujours forte de la consommation des touristes étrangers en France ( + 8 % ) .</text>
+            <annotationSet status="MANUAL" ID="6911">
+                <layer rank="1" name="FE">
+                    <label end="23" start="12" name="Cognizer"/>
+                    <label end="293" start="33" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5081">
+            <text>Il est tenu d' aviser l' agent commercial lorsqu' il prévoit que le volume des transactions sera sensiblement inférieur à celui auquel ce dernier aurait pu normalement s' attendre .</text>
+            <annotationSet status="MANUAL" ID="7334">
+                <layer rank="1" name="FE">
+                    <label end="51" start="50" name="Cognizer"/>
+                    <label end="178" start="65" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5537">
+            <text>La note trimestrielle de conjoncture de l' INSEE , publiée jeudi 2 juillet , prévoit que le produit intérieur brut ( PIB ) marchand de la France augmentera de 2 , 5 % en moyenne cette année , contre 0 , 9 % en 1991 .</text>
+            <annotationSet status="MANUAL" ID="8046">
+                <layer rank="1" name="FE">
+                    <label end="47" start="40" name="Cognizer"/>
+                    <label end="213" start="89" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5653">
+            <text>Encore faudrait -il que , pour faire passer la pilule des réformes nécessaires - et que beaucoup d' Italiens , en dépit de leur enthousiasme , risquent , une fois au pied du mur , de trouver plus amère que prévu , - qu' un gouvernement fort et surtout crédible se constitue .</text>
+            <annotationSet status="MANUAL" ID="8298">
+                <layer rank="1" name="FE">
+                    <label end="107" start="88" name="Cognizer"/>
+                    <label itype="ENI" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="210" start="206" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5725">
+            <text>La question qui se pose maintenant est de savoir si le dollar , notoirement sous - évalué d' au moins 20 % , continuera de glisser et de prévoir quand il remontera .</text>
+            <annotationSet status="MANUAL" ID="8430">
+                <layer rank="1" name="FE">
+                    <label end="162" start="145" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5838">
+            <text>La récession , qui de juillet 1990 à décembre 1991 a frappé l' économie , a été plus sévère que prévu , ne serait -ce que par le nombre de chômeurs qu' elle a engendrés ( 2 , 2 millions au lieu des 1 , 6 million initialement avancés ) mais le président Bush ne doit pas se faire accuser pour autant d' afficher le bilan économique le plus catastrophique depuis Harry Truman ( 1945 -1953 ) .</text>
+            <annotationSet status="MANUAL" ID="8599">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="ENI" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6106">
+            <text>Sinon , il faut s' attendre à des sérieuses difficultés : l' UNEDIC prévoit un déficit cumulé de 20 milliards de francs d' ici la fin de l' année , sait devoir subir un trou de trésorerie en juillet et sera dans l' incapacité pratique d' indemniser les chômeurs en octobre .</text>
+            <annotationSet status="MANUAL" ID="9072">
+                <layer rank="1" name="FE">
+                    <label end="66" start="58" name="Cognizer"/>
+                    <label end="144" start="76" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6686">
+            <text>Il est difficile d' en prévoir l' issue ainsi que les conséquences économiques .</text>
+            <annotationSet status="MANUAL" ID="9964">
+                <layer rank="1" name="FE">
+                    <label end="21" start="20" name="Phenomenon"/>
+                    <label end="77" start="31" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6868">
+            <text>Ainsi , ceux de la BNP prévoient que le glissement annuel des prix outre - Rhin pourrait baisser progressivement pour revenir à un peu plus de 3 % à la fin de 1993 .</text>
+            <annotationSet status="MANUAL" ID="10206">
+                <layer rank="1" name="FE">
+                    <label end="21" start="8" name="Cognizer"/>
+                    <label end="162" start="37" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7910">
+            <text>Du côté des taux d' intérêt , en revanche , l' OCDE est optimiste , estimant que la reprise modérée prévue dans les pays industrialisés , accompagnée d' une décélération accentuée de l' inflation , devrait permettre une certaine détente des taux à long terme .</text>
+            <annotationSet status="MANUAL" ID="11419">
+                <layer rank="1" name="FE">
+                    <label end="98" start="81" name="Phenomenon"/>
+                    <label end="194" start="136" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8696">
+            <text>" Si le but poursuivi est de réserver la possibilité d' améliorer , par une prévision correspondante , les résultats ultérieurs , que l'on prévoit mauvais , concluent les magistrats , le procédé peut d' autant moins être admis .</text>
+            <annotationSet status="MANUAL" ID="12402">
+                <layer rank="1" name="FE">
+                    <label end="137" start="134" name="Cognizer"/>
+                    <label end="132" start="130" name="Phenomenon"/>
+                    <label end="153" start="147" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9096">
+            <text>Le CIB prévoit qu' ils baisseraient de 3 % par rapport au record de 106 , 6 millions de tonnes atteint l' an passé , s' établissant à 103 , 9 millions de tonnes environ - un repli que les experts attribuent à la contraction des achats chinois de 16 millions de tonnes à 10 millions de tonnes et aux importations moins importantes que prévu de la Communauté des Etats indépendants .</text>
+            <annotationSet status="MANUAL" ID="13026">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="338" start="334" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9096">
+            <text>Le CIB prévoit qu' ils baisseraient de 3 % par rapport au record de 106 , 6 millions de tonnes atteint l' an passé , s' établissant à 103 , 9 millions de tonnes environ - un repli que les experts attribuent à la contraction des achats chinois de 16 millions de tonnes à 10 millions de tonnes et aux importations moins importantes que prévu de la Communauté des Etats indépendants .</text>
+            <annotationSet status="MANUAL" ID="13027">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Cognizer"/>
+                    <label end="167" start="19" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9105">
+            <text>Les semailles effectuées dans des conditions climatiques favorables laissent prévoir une production de 575 millions de tonnes l' an prochain .</text>
+            <annotationSet status="MANUAL" ID="13035">
+                <layer rank="1" name="FE">
+                    <label end="139" start="85" name="Phenomenon"/>
+                    <label end="66" start="0" name="Evidence"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9106">
+            <text>" La hausse prévue pourrait intervenir en majeure partie dans les pays importateurs traditionnels " , notent les experts du blé , citant l' Afrique , l' Amérique centrale et du Sud , l' Europe de l' Est et certaines régions d' Asie , dont l' Inde .</text>
+            <annotationSet status="MANUAL" ID="13039">
+                <layer rank="1" name="FE">
+                    <label end="10" start="2" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9452">
+            <text>Idem pour le Venezuela et , surtout , l' Indonésie , qui prévoit l' exportation d' " au minimum 30 millions de tonnes en 2003 " ( 6 , 5 millions en 1991 ) d' un charbon de faible teneur en soufre et en cendres .</text>
+            <annotationSet status="MANUAL" ID="13351">
+                <layer rank="1" name="FE">
+                    <label end="55" start="53" name="Cognizer"/>
+                    <label end="208" start="38" name="Cognizer"/>
+                    <label end="126" start="65" name="Phenomenon"/>
+                    <label end="208" start="155" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9567">
+            <text>Les modèles économétriques prévoient soit une stabilisation au niveau actuel , soit une nouvelle aggravation ( le taux de chômage pouvant approcher 12 % en fin de période dans le plus mauvais des cas ) .</text>
+            <annotationSet status="MANUAL" ID="13536">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Cognizer"/>
+                    <label end="200" start="37" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9609">
+            <text>Le déficit prévisionnel est fixé à 168 , 4 milliards de dinars ( 42 milliards de francs environ ) , soit 40 % des recettes prévues ( 335 , 6 milliards ) .</text>
+            <annotationSet status="MANUAL" ID="13586">
+                <layer rank="1" name="FE">
+                    <label end="121" start="114" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9623">
+            <text>Pour l' année fiscale en cours , l' agence a retenu une croissance de 1 , 6 % ( contre 3 , 5 % initialement prévus ) et limité à 3 , 3 % celle de 1993 .</text>
+            <annotationSet status="MANUAL" ID="13596">
+                <layer rank="1" name="FE">
+                    <label end="106" start="87" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

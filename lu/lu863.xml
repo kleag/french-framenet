@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="adhérer.v" ID="863" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4737"/>
+                <annoSet ID="22472"/>
+                <annoSet ID="23785"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="4737"/>
+                <annoSet ID="22472"/>
+                <annoSet ID="23785"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3540">
+            <text>d' où la politique officiellement mise en oeuvre depuis peu par le gouvernement - à laquelle se sont résignées à adhérer l' ensemble des forces politiques - qu' on nomme pudiquement " la mobilité " , c' est - à - dire une " émigration organisée " vers la métropole qui n' ose pas dire son nom .</text>
+            <annotationSet status="MANUAL" ID="4737">
+                <layer rank="1" name="FE">
+                    <label end="91" start="84" name="Content"/>
+                    <label end="291" start="6" name="Content"/>
+                    <label end="153" start="121" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18343">
+            <text>Personnellement , assure Mr Leroy , comme tous les communistes , j' ai connu de trop près les effets de l' autoritarisme pour ne pas adhérer pleinement à notre façon de faire , nouvelle et améliorable certes , mais qui repose sur des principes largement démocratiques .</text>
+            <annotationSet status="MANUAL" ID="22472">
+                <layer rank="1" name="FE">
+                    <label end="266" start="154" name="Content"/>
+                    <label end="66" start="65" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20035">
+            <text>On est d' autant plus enclin à y adhérer que , en soi , tout ce qui peut favoriser l' épargne est bon ( ce qu' on ne pouvait dire ni du déficit ni de l' inflation ) .</text>
+            <annotationSet status="MANUAL" ID="23785">
+                <layer rank="1" name="FE">
+                    <label end="31" start="31" name="Content"/>
+                    <label end="1" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

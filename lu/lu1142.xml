@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="acquitter.v" ID="1142" frame="Commerce_pay" frameID="180" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Way_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Buyer"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="3687"/>
+                <annoSet ID="5707"/>
+                <annoSet ID="6233"/>
+                <annoSet ID="7814"/>
+                <annoSet ID="20961"/>
+                <annoSet ID="20963"/>
+                <annoSet ID="20981"/>
+                <annoSet ID="20982"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="19241"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Goods"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Money"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="3687"/>
+                <annoSet ID="5707"/>
+                <annoSet ID="6233"/>
+                <annoSet ID="7814"/>
+                <annoSet ID="19241"/>
+                <annoSet ID="20961"/>
+                <annoSet ID="20963"/>
+                <annoSet ID="20981"/>
+                <annoSet ID="20982"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Seller"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="7814"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="3687"/>
+                <annoSet ID="5707"/>
+                <annoSet ID="6233"/>
+                <annoSet ID="19241"/>
+                <annoSet ID="20961"/>
+                <annoSet ID="20963"/>
+                <annoSet ID="20981"/>
+                <annoSet ID="20982"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2813">
+            <text>Un dirigeant de la CG2A , lors de l' attribution du marché , a ainsi déclaré au juge avoir acquitté de semblables factures au mois de février 1992 " parce que la commission d' appel d' offres se réunissait la semaine suivante " .</text>
+            <annotationSet status="MANUAL" ID="3687">
+                <layer rank="1" name="FE">
+                    <label end="22" start="0" name="Buyer"/>
+                    <label end="121" start="100" name="Money"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4097">
+            <text>S' il était passé outre à l' interdiction d' ouvrir ce jour -là , il aurait dû acquitter une nouvelle fois une astreinte de 50 000 francs par heure d' ouverture , soit au total 500 000 francs pour le magasin des Champs - Elysées .</text>
+            <annotationSet status="MANUAL" ID="5707">
+                <layer rank="1" name="FE">
+                    <label end="67" start="66" name="Buyer"/>
+                    <label end="159" start="107" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4425">
+            <text>D' ores et déjà , les entreprises dont l' effectif se situe entre 50 et 400 salariés acquittent leurs cotisations le 5 du mois au lieu du 15 et le versement des dotations aux hôpitaux a été modifié .</text>
+            <annotationSet status="MANUAL" ID="6233">
+                <layer rank="1" name="FE">
+                    <label end="83" start="18" name="Buyer"/>
+                    <label end="112" start="96" name="Money"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5392">
+            <text>Pour eux , l' économie britannique , en renonçant au " grand large " , acquitte décidément un bien lourd tribut à l' Europe .</text>
+            <annotationSet status="MANUAL" ID="7814">
+                <layer rank="1" name="FE">
+                    <label end="33" start="11" name="Buyer"/>
+                    <label end="110" start="91" name="Money"/>
+                    <label end="122" start="114" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14958">
+            <text>Habituellement , et très logiquement , les taux à long terme s' établissent au sommet de la pyramide , le supplément d' intérêt acquittant le prix du temps pendant lequel l' argent est immobilisé .</text>
+            <annotationSet status="MANUAL" ID="19241">
+                <layer rank="1" name="FE">
+                    <label end="194" start="139" name="Money"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16854">
+            <text>Afin de financer un réseau navigable de dimension européenne , les utilisateurs de l' eau acquitteront une redevance annuelle de 400 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="20961">
+                <layer rank="1" name="FE">
+                    <label end="88" start="63" name="Buyer"/>
+                    <label end="150" start="103" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16855">
+            <text>Un comité interministériel consacré aux voies navigables a décidé , le mercredi 17 janvier , sous la présidence du premier ministre , de créer une redevance acquittée par tous les bénéficiaires directs ou indirects de la voie d' eau et qui devrait rapporter 400 millions de francs par an , dont 300 millions en provenance d' EDF .</text>
+            <annotationSet status="MANUAL" ID="20963">
+                <layer rank="1" name="FE">
+                    <label end="231" start="171" name="Buyer"/>
+                    <label end="155" start="143" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16871">
+            <text>" La redevance à laquelle sacrifieront symboliquement les agriculteurs sera essentiellement acquittée par EDF ( 300 millions de francs ) et par les industriels ( 100 millions de francs ) .</text>
+            <annotationSet status="MANUAL" ID="20981">
+                <layer rank="1" name="FE">
+                    <label end="108" start="106" name="Buyer"/>
+                    <label end="69" start="2" name="Money"/>
+                    <label end="135" start="110" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16871">
+            <text>" La redevance à laquelle sacrifieront symboliquement les agriculteurs sera essentiellement acquittée par EDF ( 300 millions de francs ) et par les industriels ( 100 millions de francs ) .</text>
+            <annotationSet status="MANUAL" ID="20982">
+                <layer rank="1" name="FE">
+                    <label end="158" start="144" name="Buyer"/>
+                    <label end="69" start="2" name="Money"/>
+                    <label end="185" start="160" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

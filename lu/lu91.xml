@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="divisé.a" ID="91" frame="Be_in_agreement_on_assessment" frameID="1496" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cognizer_2"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cognizers"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizers"/>
+                <annoSet ID="10095"/>
+                <annoSet ID="22322"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Opinion"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="10095"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="22322"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6779">
+            <text>La direction de l' UAW est divisée sur ce qui est acceptable en matière de compromis sur les règles de travail : les travailleurs les plus âgés , les moins menacés par les licenciements dans le système américain , demandent plus de fermeté syndicale .</text>
+            <annotationSet status="MANUAL" ID="10095">
+                <layer rank="1" name="FE">
+                    <label end="109" start="39" name="Topic"/>
+                    <label end="21" start="0" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18266">
+            <text>Dès lors que le courant dirigeant du parti se présente divisé au congrès , Mr Michel Rocard et ses amis ne peuvent que défendre leur propre motion , un accord entre eux - mêmes et une partie des mitterrandistes étant exclu .</text>
+            <annotationSet status="MANUAL" ID="22322">
+                <layer rank="1" name="FE">
+                    <label end="41" start="13" name="Cognizers"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

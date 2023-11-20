@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prendre position.v" ID="2595" frame="FR_Expressing_side" frameID="10029" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Polarity"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="000000" bgColor="FF0000" type="Core" abbrev="" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="16001"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Polarity"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Polarity"/>
+                <annoSet ID="16001"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="1690"/>
+                <annoSet ID="9820"/>
+                <annoSet ID="16001"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1600">
+            <text>Dans le traité de l' OMPI , on n' a pas consciemment pris position sur les copies temporaires .</text>
+            <annotationSet status="MANUAL" ID="1690">
+                <layer rank="1" name="FE">
+                    <label end="29" start="28" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6586">
+            <text>Réuni à Amiens pour le vote de son budget supplémentaire , le conseil régional de Picardie ( président : M. Charles Baur , UDF - PSD ) a pris position sur les problèmes que connaît l' audiovisuel public dans la région .</text>
+            <annotationSet status="MANUAL" ID="9820">
+                <layer rank="1" name="FE">
+                    <label end="133" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11630">
+            <text>Alors que la parité actuelle du mark et du franc devient l' un des thèmes importants de la campagne électorale en France , plusieurs personnalités étrangères viennent de prendre position en faveur du maintien des cours de change actuels en Europe .</text>
+            <annotationSet status="MANUAL" ID="16001">
+                <layer rank="1" name="FE">
+                    <label end="245" start="200" name="Content"/>
+                    <label end="195" start="187" name="Polarity"/>
+                    <label end="156" start="123" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="185" start="170" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

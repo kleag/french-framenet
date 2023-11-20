@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="mention.n" ID="2069" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="19738"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Message"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="1044"/>
+                <annoSet ID="1049"/>
+                <annoSet ID="3122"/>
+                <annoSet ID="10942"/>
+                <annoSet ID="19738"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="1044"/>
+                <annoSet ID="1049"/>
+                <annoSet ID="3122"/>
+                <annoSet ID="10942"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="968">
+            <text>MENTIONS DEVANT FIGURER SUR L' EMBALLAGE EXTERIEUR</text>
+            <annotationSet status="MANUAL" ID="1044">
+                <layer rank="1" name="FE">
+                    <label end="49" start="0" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="976">
+            <text>MENTIONS MINIMALES DEVANT FIGURER SUR LES PETITS CONDITIONNEMENTS PRIMAIRES</text>
+            <annotationSet status="MANUAL" ID="1049">
+                <layer rank="1" name="FE">
+                    <label end="74" start="0" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2398">
+            <text>Sur les fiches ainsi constituées , on pouvait voir des mentions comme " VLM " pour " Va à la messe " ou " VLM AL " pour " Va à la messe avec un livre " .</text>
+            <annotationSet status="MANUAL" ID="3122">
+                <layer rank="1" name="FE">
+                    <label end="150" start="51" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7495">
+            <text>La première mention de la verrerie de Munzthal remonte en effet à 1586 , mais son existence fut éphémère .</text>
+            <annotationSet status="MANUAL" ID="10942">
+                <layer rank="1" name="FE">
+                    <label end="45" start="23" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15479">
+            <text>Et à la fin de ce mois de juillet , soit quatre ans et deux mois après cette signature , les nouveaux bulletins de salaire ne comporteront donc plus la mention de la prime d' ancienneté .</text>
+            <annotationSet status="MANUAL" ID="19738">
+                <layer rank="1" name="FE">
+                    <label end="184" start="163" name="Message"/>
+                    <label end="121" start="89" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Cause_enunciation" ID="10074" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Causality">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cause&lt;/fen&gt; motivates an &lt;fen&gt;Enunciative_effect&lt;/fen&gt;, which can either be a speech act, or a presupposition. 
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;FR-EX: &lt;fex name="Enunciative_effect"&gt;Fermez la porte&lt;/fex&gt; &lt;t&gt;car&lt;/t&gt; &lt;fex name="Cause"&gt;il fait froid&lt;/fex&gt; &lt;/ex&gt;
+
+&lt;ex&gt;FR-EX: Nous avions bon espoir d' obtenir d' elle un prêt-relais pour acheter les matières premières nécessaires au &lt;fex name="Enunciative_effect"&gt;redémarrage de l' activité&lt;/fex&gt;, &lt;t&gt;car&lt;/t&gt; &lt;fex name="Cause"&gt;dans l' usine , les machines sont arrêtées depuis le 30 janvier&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+Difference with &lt;frframe&gt;Causation &lt;/frframe&gt;: The effect is the enunciation of the &lt;fen&gt;Enunciative_effect&lt;/fen&gt; 
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : New in FR FrameNet
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:40 PST Wed" abbrev="Cause" name="Cause" ID="18">
+        <definition>&lt;def-root&gt; The cause of the Enunciative_effect.
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:40 PST Wed" abbrev="Eneff" name="Enunciative_effect" ID="19">
+        <definition>&lt;def-root&gt; The message pronounced or the words used because of the &lt;fex name="Cause"&gt;Cause&lt;/fex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>Causation</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="c" name="car.c" ID="2664" nbocc="192" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100300" annotatedsent="1"/>
+        <otherlexUnit framename="Causation" ID="167" annotatedsent="36"/>
+        <otherlexUnit framename="Evidence" ID="536" annotatedsent="57"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="dès lors.adv" ID="2773" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100624" annotatedsent="2"/>
+        <otherlexUnit framename="Causation" ID="2772" annotatedsent="6"/>
+        <otherlexUnit framename="Evidence" ID="549" annotatedsent="10"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="en effet.adv" ID="2762" nbocc="165" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100771" annotatedsent="18"/>
+        <otherlexUnit framename="Causation" ID="2660" annotatedsent="23"/>
+        <otherlexUnit framename="Evidence" ID="559" annotatedsent="53"/>
+    </lexUnit>
+</frame>

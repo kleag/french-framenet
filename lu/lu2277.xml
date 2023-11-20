@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="au vu de.prep" ID="2277" frame="FR_Reason" frameID="10083" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Action"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="4895"/>
+                <annoSet ID="5456"/>
+                <annoSet ID="8617"/>
+                <annoSet ID="24868"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Agent"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="4895"/>
+                <annoSet ID="5456"/>
+                <annoSet ID="8617"/>
+                <annoSet ID="24868"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="State_of_Affairs"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="4895"/>
+                <annoSet ID="5456"/>
+                <annoSet ID="8617"/>
+                <annoSet ID="24868"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3620">
+            <text>" au vu des promesses faites aux salariés de la Cinq et à leurs familles , il y a un an , et du non- respect flagrant de ses engagements moraux , écrit -il , la CFTC Bourse estime qu' une entreprise qui a si peu de parole vis - à - vis de ses proches collaborateurs n' a aucune raison d' en avoir plus vis - à - vis de ses actionnaires .</text>
+            <annotationSet status="MANUAL" ID="4895">
+                <layer rank="1" name="FE">
+                    <label end="336" start="144" name="Action"/>
+                    <label end="86" start="12" name="State_of_Affairs"/>
+                    <label end="91" start="90" name="State_of_Affairs"/>
+                    <label end="142" start="96" name="State_of_Affairs"/>
+                    <label end="171" start="158" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="2" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3947">
+            <text>Il écrivait en début de semaine : " Au vu des promesses faites aux salariés de la Cinq et à leur famille , il y a un an , et du non- respect de ces engagements moraux , la CFTC Bourse estime qu' une entreprise qui a si peu de parole vis - à - vis de ses proches collaborateurs n' a aucune raison d' en avoir plus vis - à - vis de ses actionnaires ... "</text>
+            <annotationSet status="MANUAL" ID="5456">
+                <layer rank="1" name="FE">
+                    <label end="349" start="167" name="Action"/>
+                    <label end="118" start="46" name="State_of_Affairs"/>
+                    <label end="123" start="122" name="State_of_Affairs"/>
+                    <label end="165" start="128" name="State_of_Affairs"/>
+                    <label end="182" start="169" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5845">
+            <text>Le dollar est à son plus bas niveau depuis deux ans et les analystes qui spéculaient sur d' excellents résultats financiers pour les sociétés américaines à la fin juin , après les chiffres encourageants du premier trimestre , sont devenus plus prudents au vu des statistiques qui distillent le chaud et le froid .</text>
+            <annotationSet status="MANUAL" ID="8617">
+                <layer rank="1" name="FE">
+                    <label end="251" start="55" name="Action"/>
+                    <label end="310" start="263" name="State_of_Affairs"/>
+                    <label end="222" start="55" name="Agent"/>
+                    <label end="71" start="69" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="261" start="253" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21515">
+            <text>En France , dès le 4 , le gouvernement admet , au vu des statistiques , que l' économie va connaître en 1993 sa première vraie récession depuis dix - huit ans .</text>
+            <annotationSet status="MANUAL" ID="24868">
+                <layer rank="1" name="FE">
+                    <label end="45" start="0" name="Action"/>
+                    <label end="159" start="70" name="Action"/>
+                    <label end="37" start="23" name="Agent"/>
+                    <label end="68" start="57" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

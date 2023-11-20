@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="jouer.v" ID="1001" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Dependent"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="16019"/>
+                <annoSet ID="18210"/>
+                <annoSet ID="20478"/>
+                <annoSet ID="21909"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Dependent"/>
+                <annoSet ID="6770"/>
+                <annoSet ID="9738"/>
+                <annoSet ID="10599"/>
+                <annoSet ID="14072"/>
+                <annoSet ID="16589"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Influencer"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="6770"/>
+                <annoSet ID="9738"/>
+                <annoSet ID="10599"/>
+                <annoSet ID="14072"/>
+                <annoSet ID="16589"/>
+                <annoSet ID="18210"/>
+                <annoSet ID="20478"/>
+                <annoSet ID="21909"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Influencer"/>
+                <annoSet ID="16019"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4765">
+            <text>Cette sous - évaluation constitue , pour la devise américaine , un puissant ressort de rappel qui pourrait jouer au moindre signe d' amélioration de la situation aux Etats - Unis .</text>
+            <annotationSet status="MANUAL" ID="6770">
+                <layer rank="1" name="FE">
+                    <label end="177" start="64" name="Influencer"/>
+                    <label end="96" start="94" name="Influencer"/>
+                    <label itype="ENI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6517">
+            <text>Impression en grande partie justifiée , l' indexation des salaires jouant avec une telle perfection que le pouvoir d' achat s' améliorait sans discontinuer .</text>
+            <annotationSet status="MANUAL" ID="9738">
+                <layer rank="1" name="FE">
+                    <label end="65" start="40" name="Influencer"/>
+                    <label itype="ENI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7179">
+            <text>L' ACEA préfère laisser jouer d' abord la demande des consommateurs .</text>
+            <annotationSet status="MANUAL" ID="10599">
+                <layer rank="1" name="FE">
+                    <label end="66" start="39" name="Influencer"/>
+                    <label itype="DNI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10014">
+            <text>Mais surtout , la relative immunité dont jouissait l' économie française dans les périodes de basse conjoncture internationale ( le prix en était payé autrement ) ne joue plus .</text>
+            <annotationSet status="MANUAL" ID="14072">
+                <layer rank="1" name="FE">
+                    <label end="161" start="15" name="Influencer"/>
+                    <label itype="DNI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="169" start="166" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10480">
+            <text>Peu connu du grand public , cet énarque ( promotion Léon Blum ) , inspecteur des finances aux fortes convictions de gauche , a en fait joué depuis la fin des années 70 un rôle clé dans la vie économique et politique française .</text>
+            <annotationSet status="MANUAL" ID="14679">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11645">
+            <text>Faudra -t-il jouer sur les taux d' intérêt , tirer au maximum sur les réserves de change ... ou remettre en cause la parité ?</text>
+            <annotationSet status="MANUAL" ID="16019">
+                <layer rank="1" name="FE">
+                    <label end="41" start="23" name="Dependent"/>
+                    <label itype="ENI" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12240">
+            <text>En novembre , ce sont les commandes aux entreprises , les ventes au détail et surtout la confiance des consommateurs , qui ont joué .</text>
+            <annotationSet status="MANUAL" ID="16589">
+                <layer rank="1" name="FE">
+                    <label end="115" start="22" name="Influencer"/>
+                    <label itype="DNI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13898">
+            <text>Et puis ils avaient initialement négligé les phénomènes monétaires et notamment la baisse du dollar , qui n' a pas joué en faveur de la compétitivité des entreprises françaises .</text>
+            <annotationSet status="MANUAL" ID="18210">
+                <layer rank="1" name="FE">
+                    <label end="175" start="133" name="Dependent"/>
+                    <label end="175" start="80" name="Influencer"/>
+                    <label end="104" start="102" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16307">
+            <text>Afin de retrouver leur compétitivité , les entreprises coréennes , concurrencées par les autres pays en voie d' industrialisation de la région , ne peuvent plus espérer jouer sur les coûts et doivent opérer un saut qualitatif : ce qui suppose de se fournir en technologies nouvelles à l' étranger et de développer la recherche .</text>
+            <annotationSet status="MANUAL" ID="20478">
+                <layer rank="1" name="FE">
+                    <label end="187" start="179" name="Dependent"/>
+                    <label end="63" start="39" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="169" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17833">
+            <text>Le " poids du nucléaire " joue sur le budget de la marine et , donc , sur ses forces classiques .</text>
+            <annotationSet status="MANUAL" ID="21909">
+                <layer rank="1" name="FE">
+                    <label end="56" start="35" name="Dependent"/>
+                    <label end="24" start="0" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="de l'avis de.prep" ID="2690" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="16753"/>
+                <annoSet ID="17252"/>
+                <annoSet ID="18905"/>
+                <annoSet ID="22432"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Content"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="16753"/>
+                <annoSet ID="17252"/>
+                <annoSet ID="18905"/>
+                <annoSet ID="22432"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="12414">
+            <text>L' année 1993 s' annonce difficile , de l' avis de tous .</text>
+            <annotationSet status="MANUAL" ID="16753">
+                <layer rank="1" name="FE">
+                    <label end="35" start="0" name="Content"/>
+                    <label end="54" start="51" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12895">
+            <text>La difficulté vient de ce qu' il ne se trouve plus dans les pays consommateurs mais dans les pays producteurs ; et les pays producteurs - de l' avis de nombreux spécialistes - ne savent pas , à l' exception de la Colombie , commercialiser leurs marchés .</text>
+            <annotationSet status="MANUAL" ID="17252">
+                <layer rank="1" name="FE">
+                    <label end="136" start="115" name="Content"/>
+                    <label end="251" start="174" name="Content"/>
+                    <label end="172" start="152" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14595">
+            <text>La reprise de la croissance est autant l' affaire du Japon , de l' avis de M. Bentsen .</text>
+            <annotationSet status="MANUAL" ID="18905">
+                <layer rank="1" name="FE">
+                    <label end="59" start="0" name="Content"/>
+                    <label end="84" start="75" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18328">
+            <text>Selon Mr Le Pen , " le RPR est en train de se désintégrer " , tandis que de l' avis de Mr Gaudin , sénateur UDF des Bouches - du - Rhône , la riposte de l' état - major du RPR à MM Pasqua et Séguin a été " disproportionnée et très excessive " .</text>
+            <annotationSet status="MANUAL" ID="22432">
+                <layer rank="1" name="FE">
+                    <label end="241" start="139" name="Content"/>
+                    <label end="135" start="87" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

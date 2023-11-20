@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="renchérir.v" ID="2726" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Message"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="15010"/>
+                <annoSet ID="17428"/>
+                <annoSet ID="17699"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="15010"/>
+                <annoSet ID="17428"/>
+                <annoSet ID="17699"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10746">
+            <text>" un double jeu de dupes " , renchérit M. Yves Rambaut , PDG du groupe Eramet .</text>
+            <annotationSet status="MANUAL" ID="15010">
+                <layer rank="1" name="FE">
+                    <label end="78" start="0" name="Message"/>
+                    <label end="76" start="39" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13058">
+            <text>" L' invasion britannique de la France est en cours " , titrait dimanche 3 janvier le Sunday Times , alors que le Sunday Telegraph renchérissait en affirmant que " les Anglais acheteurs d' alcool pillent la France " .</text>
+            <annotationSet status="MANUAL" ID="17428">
+                <layer rank="1" name="FE">
+                    <label end="214" start="162" name="Message"/>
+                    <label end="129" start="111" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13333">
+            <text>Michel Gilet renchérit : " Les affaires sont tellement mauvaises en ce moment qu' il est difficile de persuader les cuisinistes , par ailleurs peu syndicalisés , de ne pas faire n' importe quoi pour vendre .</text>
+            <annotationSet status="MANUAL" ID="17699">
+                <layer rank="1" name="FE">
+                    <label end="204" start="27" name="Message"/>
+                    <label end="11" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

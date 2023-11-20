@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="concevoir.v" ID="794" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="1960"/>
+                <annoSet ID="2215"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="1960"/>
+                <annoSet ID="2215"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1747">
+            <text>Je ne peux concevoir que mon pays est un pays qui considère tous les enfants de 10 ans comme des criminels tout bonnement parce qu' on a pris leurs empreintes pour leur première carte d' identité .</text>
+            <annotationSet status="MANUAL" ID="1960">
+                <layer rank="1" name="FE">
+                    <label end="194" start="25" name="Content"/>
+                    <label end="1" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1840">
+            <text>Celle-ci , du moins telle que nous la concevons , doit comporter deux éléments .</text>
+            <annotationSet status="MANUAL" ID="2215">
+                <layer rank="1" name="FE">
+                    <label end="28" start="26" name="Content"/>
+                    <label end="36" start="35" name="Content"/>
+                    <label end="33" start="30" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

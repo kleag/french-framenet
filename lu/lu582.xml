@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="pour preuve.adv" ID="582" frame="Evidence" frameID="25" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposition"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Proposition"/>
+                <annoSet ID="8916"/>
+                <annoSet ID="17644"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Support"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="8916"/>
+                <annoSet ID="17644"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6025">
+            <text>Pour preuve , Northern Telecom devrait investir 50 millions de dollars ( environ 250 millions de francs , soit une participation de 5 % à 8 % ) dans MMB , le holding qui contrôlera le futur ensemble Matra - Hachette .</text>
+            <annotationSet status="MANUAL" ID="8916">
+                <layer rank="1" name="FE">
+                    <label end="216" start="12" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13284">
+            <text>Pour preuve : au plus fort de la tempête boursière du début du mois de décembre , c' est une déclaration apaisante du ministère des affaires étrangères chinois qui a ramené le calme .</text>
+            <annotationSet status="MANUAL" ID="17644">
+                <layer rank="1" name="FE">
+                    <label end="182" start="12" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

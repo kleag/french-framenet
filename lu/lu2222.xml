@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="déterminé.a" ID="2222" frame="FR_Purpose" frameID="10070" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="0099CC" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Agent"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="5313"/>
+                <annoSet ID="8000"/>
+                <annoSet ID="19596"/>
+                <annoSet ID="19611"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Goal"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="5313"/>
+                <annoSet ID="19596"/>
+                <annoSet ID="19611"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goal"/>
+                <annoSet ID="8000"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Means"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3856">
+            <text>Vendredi , M. Patrick Zelnick , PDG de Virgin France , qui a engagé des discussions avec le ministère du travail , a été reçu par M. François Doubin , ministre du commerce et de l' artisanat , qui lui aurait signifié que " le gouvernement était déterminé à faire sanctionner les violations délibérées de la loi " .</text>
+            <annotationSet status="MANUAL" ID="5313">
+                <layer rank="1" name="FE">
+                    <label end="309" start="257" name="Goal"/>
+                    <label end="237" start="223" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="253" start="245" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5505">
+            <text>" quant à M. Philippe Arnaud , l' autre responsable national de la coordination , il précise : " Nous sommes plus déterminés que jamais " .</text>
+            <annotationSet status="MANUAL" ID="8000">
+                <layer rank="1" name="FE">
+                    <label end="100" start="97" name="Agent"/>
+                    <label itype="ENI" name="Goal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15338">
+            <text>M. Attali est déterminé à ne pas abréger son mandat ( il lui reste deux ans ) , mais il est soucieux de désarmer une partie des critiques .</text>
+            <annotationSet status="MANUAL" ID="19596">
+                <layer rank="1" name="FE">
+                    <label end="50" start="26" name="Goal"/>
+                    <label end="8" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15348">
+            <text>Les deux organisations se disent absolument déterminées à obtenir l' abandon pur et simple de cet étiquetage .</text>
+            <annotationSet status="MANUAL" ID="19611">
+                <layer rank="1" name="FE">
+                    <label end="107" start="58" name="Goal"/>
+                    <label end="21" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

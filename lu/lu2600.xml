@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="décider.v" ID="2600" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Dependent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="23325"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Influencer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="23325"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19369">
+            <text>Le malaise provenait , en partie , de l' absence de communication entre le nouvel organe dirigeant et la population , ce à quoi on décida donc de remédier par l' émission télévisée ; la décision de mettre le PC hors la loi avait été prise " trop hâtivement " et l' on décida donc , tout naturellement , de soumettre ce décret - loi au référendum qui doit également décider , le 28 janvier , de l' opportunité de rétablir la peine de mort pour les " terroristes " de Ceausescu .</text>
+            <annotationSet status="MANUAL" ID="23325">
+                <layer rank="1" name="FE">
+                    <label end="474" start="394" name="Dependent"/>
+                    <label end="474" start="335" name="Influencer"/>
+                    <label end="348" start="346" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="371" start="365" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

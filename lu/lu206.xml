@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="en conséquence.adv" ID="206" frame="Causation" frameID="5" totalAnnotated="12" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Cause"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="19729"/>
+                <annoSet ID="21921"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="2734"/>
+                <annoSet ID="4524"/>
+                <annoSet ID="5608"/>
+                <annoSet ID="16642"/>
+                <annoSet ID="19050"/>
+                <annoSet ID="22112"/>
+                <annoSet ID="22915"/>
+                <annoSet ID="22916"/>
+                <annoSet ID="24212"/>
+                <annoSet ID="24596"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Effect"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="2734"/>
+                <annoSet ID="4524"/>
+                <annoSet ID="5608"/>
+                <annoSet ID="16642"/>
+                <annoSet ID="19050"/>
+                <annoSet ID="19729"/>
+                <annoSet ID="21921"/>
+                <annoSet ID="22112"/>
+                <annoSet ID="22915"/>
+                <annoSet ID="22916"/>
+                <annoSet ID="24212"/>
+                <annoSet ID="24596"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2077">
+            <text>En conséquence , les partis nationalistes démocratiques ont dû rompre les coalitions conclues avec Euskal Herritarrok dans certaines municipalités parce qu' il est inconcevable d' accepter et de comprendre ce tir dans la nuque et la violence permanente en tant que stratégie politique .</text>
+            <annotationSet status="MANUAL" ID="2734">
+                <layer rank="1" name="FE">
+                    <label end="285" start="15" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3404">
+            <text>En conséquence , la valeur mensuelle des allocations familiales atteint , au 1 janvier , 621 francs pour deux enfants à charge ( 1 416 francs pour trois enfants , 2 211 francs pour quatre enfants ) .</text>
+            <annotationSet status="MANUAL" ID="4524">
+                <layer rank="1" name="FE">
+                    <label end="198" start="15" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4029">
+            <text>Les prix sont tombés en conséquence , tandis que les évaluations des ventes soviétiques - toujours révisées à la hausse - fluctuaient entre 90 000 et 120 000 tonnes .</text>
+            <annotationSet status="MANUAL" ID="5608">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12304">
+            <text>En conséquence , les entrées nouvelles à l' ANPE se sont accrues de 8 , 9 % en un an , en données corrigées et , en données brutes , de 13 , 1 % .</text>
+            <annotationSet status="MANUAL" ID="16642">
+                <layer rank="1" name="FE">
+                    <label end="145" start="15" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14753">
+            <text>En conséquence , malgré leurs gains à l' exportation , les entreprises investissent peu :</text>
+            <annotationSet status="MANUAL" ID="19050">
+                <layer rank="1" name="FE">
+                    <label end="88" start="15" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15462">
+            <text>Pour les autres , en revanche , la perte éventuelle de pouvoir d' achat devrait agir comme un révélateur : cela prouverait que leurs compétences avaient à l' origine été surestimées et qu' en conséquence ils n' auraient plus leur place dans l' entreprise .</text>
+            <annotationSet status="MANUAL" ID="19729">
+                <layer rank="1" name="FE">
+                    <label end="180" start="127" name="Cause"/>
+                    <label end="253" start="204" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17846">
+            <text>d' abord , la présence du plus important abattoir des Landes ; il est en cours de rénovation et de modernisation , et sa capacité sera portée de 4 500 à 7 500 tonnes annuelles , le volume de ses déchets carnés augmentant en conséquence .</text>
+            <annotationSet status="MANUAL" ID="21921">
+                <layer rank="1" name="FE">
+                    <label end="219" start="118" name="Cause"/>
+                    <label end="219" start="178" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="234" start="221" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18060">
+            <text>La Commission de Bruxelles , en conséquence , prépare d' ores et déjà un programme de " directives " .</text>
+            <annotationSet status="MANUAL" ID="22112">
+                <layer rank="1" name="FE">
+                    <label end="27" start="0" name="Effect"/>
+                    <label end="101" start="44" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18830">
+            <text>Il contribuait , en conséquence , à détendre les taux courts sur la place de Paris , où le loyer de l' argent au jour le jour est revenu de 11 % à 10 % , c' est - à - dire au - dessous du taux de pension à 7 - 10 jours de la banque de France ( 10 , 75 % ) pour la première fois depuis le 22 décembre dernier .</text>
+            <annotationSet status="MANUAL" ID="22915">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Effect"/>
+                    <label end="308" start="32" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18831">
+            <text>En conséquence , le rendement de l' OAT 8 , 50 % 2000 , nouvel emprunt - phare du marché , après une pointe à 9 , 60 % redescendait à 9 , 43 % - 9 , 45 % .</text>
+            <annotationSet status="MANUAL" ID="22916">
+                <layer rank="1" name="FE">
+                    <label end="154" start="15" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20512">
+            <text>En conséquence , " la réussite économique ne s' accompagne pas d' une mobilité sociale ascendante .</text>
+            <annotationSet status="MANUAL" ID="24212">
+                <layer rank="1" name="FE">
+                    <label end="98" start="15" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21111">
+            <text>En conséquence , la situation des éleveurs ne devrait s' améliorer que lentement au cours des cinq prochaines années .</text>
+            <annotationSet status="MANUAL" ID="24596">
+                <layer rank="1" name="FE">
+                    <label end="117" start="15" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

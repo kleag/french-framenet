@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="écrire.v" ID="2576" frame="Text_creation" frameID="278" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Author" name="Author"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="text" name="Text"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Extra-Thematic" abbrev="Addressee" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Author"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Author"/>
+                <annoSet ID="2293"/>
+                <annoSet ID="2849"/>
+                <annoSet ID="2851"/>
+                <annoSet ID="7425"/>
+                <annoSet ID="7929"/>
+                <annoSet ID="8674"/>
+                <annoSet ID="10834"/>
+                <annoSet ID="10836"/>
+                <annoSet ID="12268"/>
+                <annoSet ID="19301"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Author"/>
+                <annoSet ID="10154"/>
+                <annoSet ID="17890"/>
+                <annoSet ID="19129"/>
+                <annoSet ID="21490"/>
+                <annoSet ID="23511"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Text"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Text"/>
+                <annoSet ID="2293"/>
+                <annoSet ID="2849"/>
+                <annoSet ID="2851"/>
+                <annoSet ID="7425"/>
+                <annoSet ID="7929"/>
+                <annoSet ID="8674"/>
+                <annoSet ID="10154"/>
+                <annoSet ID="10836"/>
+                <annoSet ID="12268"/>
+                <annoSet ID="17890"/>
+                <annoSet ID="19129"/>
+                <annoSet ID="19301"/>
+                <annoSet ID="21490"/>
+                <annoSet ID="23511"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Text"/>
+                <annoSet ID="10834"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1878">
+            <text>Monsieur le Président , je voudrais surtout discuter , pendant le temps qui m' est imparti , de la conférence sur le financement du pacte de stabilité qui vient de se dérouler , car j' estime qu' il est bien plus judicieux de diriger son attention sur celui-ci que sur le texte de mon rapport qui a bien sûr été écrit pour cette conférence .</text>
+            <annotationSet status="MANUAL" ID="2293">
+                <layer rank="1" name="FE">
+                    <label end="295" start="293" name="Text"/>
+                    <label end="338" start="269" name="Text"/>
+                    <label end="283" start="281" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="316" start="312" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2148">
+            <text>Un livre , Pour l' honneur de Théo et des caporaux de Souain , écrit par Jacqueline Laisné , l' institutrice qui prit la suite de Blanche Maupas dans son école , raconte également cette histoire .</text>
+            <annotationSet status="MANUAL" ID="2849">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Text"/>
+                    <label end="59" start="11" name="Text"/>
+                    <label end="158" start="73" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2149">
+            <text>Blanche Maupas , décédée en 1962 , avait aussi écrit un livre , paru en 1933 , Le Fusillé , dont la réédition en 1994 comporte des illustrations de Tardi .</text>
+            <annotationSet status="MANUAL" ID="2851">
+                <layer rank="1" name="FE">
+                    <label end="152" start="53" name="Text"/>
+                    <label end="31" start="0" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5138">
+            <text>Le gouvernement n' avait ni écrit ni choisi cet accord dont nous avons hérité .</text>
+            <annotationSet status="MANUAL" ID="7425">
+                <layer rank="1" name="FE">
+                    <label end="76" start="44" name="Text"/>
+                    <label end="14" start="0" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5456">
+            <text>Professeur d' économie , ayant appartenu au groupe d' experts autour du candidat socialiste en 1981 , il a écrit en 1987 un livre sur " le socialisme libéral " , mais le monde bancaire ne lui est pas inconnu puisqu' il a été PDG de la banque Chaix .</text>
+            <annotationSet status="MANUAL" ID="7929">
+                <layer rank="1" name="FE">
+                    <label end="158" start="121" name="Text"/>
+                    <label end="103" start="102" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5874">
+            <text>Mais ses électeurs sont de plus en plus nombreux à lui reprocher cette attitude de patricien qui le tient si éloigné des nouvelles réalités de leur vie quotidienne : des jeunes diplômés de prestigieuses universités américaines qui ne trouvent pas d' emploi , un système éducatif lamentable dans les écoles publiques , qui fait que 80 % des candidats à l' embauche sont refusés faute de savoir écrire convenablement un curriculum vitae , un triplement en vingt ans du nombre d' enfants vivant avec un seul parent , un record mondial en termes de personnes sous les verrous ( 1 , 15 million , qui coûtent chacune 20 000 dollars par an ) , des villes délabrées et où l' apartheid racial et social est la seule règle de survie , la constitution d' une under - class ouverte à tous les maux aux côtés d' une classe moyenne paupérisée , une population agricole qui a chuté de 50 % en vingt ans , la violence par les armes à feu , reconnue " épidémie " et " urgence publique " pour l' association des médecins américains , six millions d' enfant de 14 à 18 ans qui travaillent dans l' illégalité la plus complète , un fossé grandissant entre les Américains les plus riches qui ont vu leurs revenus augmenter de 32 % en dix ans tandis que les plus pauvres ont vu les leurs chuter de 13 % , et pour finir - un comble ! Des patrons contraints de diminuer leurs salaires devant la grogne de leurs actionnaires et de leurs salariés qui les accusent d' incompétence .</text>
+            <annotationSet status="MANUAL" ID="8674">
+                <layer rank="1" name="FE">
+                    <label end="433" start="415" name="Text"/>
+                    <label end="362" start="331" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="398" start="393" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6826">
+            <text>Ses hauts responsables , dit -on , sont aussi à l' aise avec les fonctionnaires du Trésor qu' avec ceux du civil Service : on attribue cela à leur expérience des dénationalisations , à la tradition des notes écrites et à une approche volontiers conservatrice et prudente qui n' a rien à envier au style peu flamboyant de la BNP .</text>
+            <annotationSet status="MANUAL" ID="10154">
+                <layer rank="1" name="FE">
+                    <label end="206" start="202" name="Text"/>
+                    <label itype="UNI" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="214" start="208" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7368">
+            <text>Vous me direz que si l' un téléphone , l' autre peut écrire ... et vice versa .</text>
+            <annotationSet status="MANUAL" ID="10834">
+                <layer rank="1" name="FE">
+                    <label end="46" start="39" name="Author"/>
+                    <label itype="UNI" name="Text"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7369">
+            <text>Et passons sous silence ces hôtels dits " anciens " ou " de caractère " où la table est si minuscule qu' on a même du mal à y écrire une carte postale , quand la télévision n' y a pas été installée de surcroît .</text>
+            <annotationSet status="MANUAL" ID="10836">
+                <layer rank="1" name="FE">
+                    <label end="149" start="133" name="Text"/>
+                    <label end="106" start="105" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8609">
+            <text>Les chauffeurs - routiers estiment que cette mesure aura une portée limitée , les " donneurs d' ordres " français ne laissant généralement pas de trace écrite - contrairement à leurs homologues étrangers - de leurs consignes .</text>
+            <annotationSet status="MANUAL" ID="12268">
+                <layer rank="1" name="FE">
+                    <label end="150" start="146" name="Text"/>
+                    <label end="112" start="78" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13565">
+            <text>Livre d' historien : c' est la première histoire complète du pétrole jamais écrite .</text>
+            <annotationSet status="MANUAL" ID="17890">
+                <layer rank="1" name="FE">
+                    <label end="67" start="28" name="Text"/>
+                    <label itype="UNI" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14845">
+            <text>La systématisation des procédures écrites - rigueur nouvelle pour des esprits français - permettrait d' assurer l' homogénéité et la continuité de la production , quels que soient les individus présents dans l' entreprise à un instant donné .</text>
+            <annotationSet status="MANUAL" ID="19129">
+                <layer rank="1" name="FE">
+                    <label end="32" start="23" name="Text"/>
+                    <label itype="UNI" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15020">
+            <text>PRÊT BANCAIRE Dans son premier magasin Body Shop , ouvert à Brighton il y a dix - sept ans , grâce à un prêt bancaire de 4 000 livres ( 40 000 francs ) et les 8 000 livres apportées par un ami , Ian Mc. Glinn , Anita Roddick vend quinze produits en bouteilles plastifiées et écrit les étiquettes de sa main .</text>
+            <annotationSet status="MANUAL" ID="19301">
+                <layer rank="1" name="FE">
+                    <label end="294" start="281" name="Text"/>
+                    <label end="223" start="211" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="279" start="275" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17427">
+            <text>C' était apparemment le secret de Polichinelle parmi les journalistes britanniques spécialisés , mais il n' était pas question pour eux d' enfreindre le code non écrit concernant les informations susceptibles de nuire à la sécurité du Royaume - Uni : la marine britannique a installé depuis quatre ans , sur plusieurs bâtiments de surface , des lasers assez puissants pour neutraliser temporairement des avions ennemis qui se trouveraient à environ 800 mètres de distance .</text>
+            <annotationSet status="MANUAL" ID="21490">
+                <layer rank="1" name="FE">
+                    <label end="160" start="150" name="Text"/>
+                    <label itype="UNI" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19633">
+            <text>Il faut être Racine pour écrire Phèdre .</text>
+            <annotationSet status="MANUAL" ID="23511">
+                <layer rank="1" name="FE">
+                    <label end="37" start="32" name="Text"/>
+                    <label itype="UNI" name="Author"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

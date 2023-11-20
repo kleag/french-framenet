@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="écouler.v" ID="346" frame="Commerce_sell" frameID="172" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="11">
+            <FE name="Buyer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="9643"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="5627"/>
+                <annoSet ID="9869"/>
+                <annoSet ID="10903"/>
+                <annoSet ID="11174"/>
+                <annoSet ID="12898"/>
+                <annoSet ID="13017"/>
+                <annoSet ID="15308"/>
+                <annoSet ID="17842"/>
+                <annoSet ID="18376"/>
+                <annoSet ID="24778"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Goods"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="5627"/>
+                <annoSet ID="9643"/>
+                <annoSet ID="9869"/>
+                <annoSet ID="10903"/>
+                <annoSet ID="11174"/>
+                <annoSet ID="12898"/>
+                <annoSet ID="13017"/>
+                <annoSet ID="15308"/>
+                <annoSet ID="17842"/>
+                <annoSet ID="18376"/>
+                <annoSet ID="24778"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Money"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Seller"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="5627"/>
+                <annoSet ID="9643"/>
+                <annoSet ID="9869"/>
+                <annoSet ID="10903"/>
+                <annoSet ID="11174"/>
+                <annoSet ID="12898"/>
+                <annoSet ID="13017"/>
+                <annoSet ID="18376"/>
+                <annoSet ID="24778"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="15308"/>
+                <annoSet ID="17842"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4044">
+            <text>Bien que les grands producteurs mondiaux aient diminué d' environ 900 000 tonnes leurs capacités , ils n' ont pu endiguer le flot venu du froid : l' ex- URSS a écoulé à elle seule 600 000 tonnes de métal de première fusion et 200 000 tonnes d' aluminium de deuxième fusion .</text>
+            <annotationSet status="MANUAL" ID="5627">
+                <layer rank="1" name="FE">
+                    <label end="271" start="180" name="Goods"/>
+                    <label end="156" start="146" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="160" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6448">
+            <text>Ils avaient écoulé , en 1991 , quelque 1 , 1 million d' onces sur les marchés occidentaux , provoquant des sérieux ravages sur les prix .</text>
+            <annotationSet status="MANUAL" ID="9643">
+                <layer rank="1" name="FE">
+                    <label end="88" start="66" name="Buyer"/>
+                    <label end="60" start="31" name="Goods"/>
+                    <label end="2" start="0" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6615">
+            <text>M. Verot , directeur produit de la chaîne de distribution des Relais H , reconnaît par exemple qu' en 1991 ses points de vente ont écoulé plus de cinq cent mille tours Eiffel métalliques .</text>
+            <annotationSet status="MANUAL" ID="9869">
+                <layer rank="1" name="FE">
+                    <label end="185" start="138" name="Goods"/>
+                    <label end="125" start="107" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7439">
+            <text>Et les Mexicains apprennent à jouer de la météo pour écouler leurs tomates et concombres vers les Etats - Unis :</text>
+            <annotationSet status="MANUAL" ID="10903">
+                <layer rank="1" name="FE">
+                    <label end="87" start="61" name="Goods"/>
+                    <label end="15" start="3" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7707">
+            <text>Elle écoulait sur le marché une partie du stock précédemment accumulé .</text>
+            <annotationSet status="MANUAL" ID="11174">
+                <layer rank="1" name="FE">
+                    <label end="68" start="28" name="Goods"/>
+                    <label end="3" start="0" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9010">
+            <text>Un accord amiable entre les banques prêteuses et les promoteurs ou marchands de biens , surpris par le retournement du marché , permettrait de regrouper au sein de sociétés ad hoc ( dont les banques sont les actionnaires ) les biens immobiliers en jeu , qu' elles gèreront , voire écouleront progressivement sur le marché .</text>
+            <annotationSet status="MANUAL" ID="12898">
+                <layer rank="1" name="FE">
+                    <label end="256" start="254" name="Goods"/>
+                    <label end="320" start="223" name="Goods"/>
+                    <label end="221" start="164" name="Seller"/>
+                    <label end="262" start="258" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="290" start="281" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9092">
+            <text>Une affaire révélatrice de la lutte permanente que se livrent Européens et Américains pour écouler des excédents à des coûts ( subventions et prêts ) souvent très élevés pour leurs budgets respectifs .</text>
+            <annotationSet status="MANUAL" ID="13017">
+                <layer rank="1" name="FE">
+                    <label end="111" start="99" name="Goods"/>
+                    <label end="84" start="62" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11056">
+            <text>D' importants tonnages de marchandises , en particulier originaires du Sud - Est , n' ont pu être écoulés .</text>
+            <annotationSet status="MANUAL" ID="15308">
+                <layer rank="1" name="FE">
+                    <label end="81" start="0" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13520">
+            <text>A la politique de soutien des revenus agricoles par les prix ( menée depuis trente ans par la CEE ) , on attribue pêle - mêle et l' accumulation des stocks écoulés à coups de subventions sur le marché international et la course à des rendements élevés par le recours à des moyens de plus en plus artificiels et de plus en plus polluants .</text>
+            <annotationSet status="MANUAL" ID="17842">
+                <layer rank="1" name="FE">
+                    <label end="154" start="149" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14042">
+            <text>Les auteurs proposent de fiscaliser les matières premières écoulées par le continent pour lui reverser ensuite les sommes prélevées à titre d' aide .</text>
+            <annotationSet status="MANUAL" ID="18376">
+                <layer rank="1" name="FE">
+                    <label end="57" start="36" name="Goods"/>
+                    <label end="83" start="72" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21385">
+            <text>" Une chose est de voir des caisses de pommes de terre et de fruits répandus sur le sol et une autre est de voir la capacité réelle des producteurs à écouler leurs produits " , a dit le premier ministre , suscitant une violente réaction de la part des organisations agricoles qui ont rejeté la responsabilité de cette situation sur le gouvernement , l' accusant de n' avoir rien fait pour aider les agriculteurs à mettre sur pied des réseaux de distribution ou des organismes susceptibles de concentrer l' offre de produits .</text>
+            <annotationSet status="MANUAL" ID="24778">
+                <layer rank="1" name="FE">
+                    <label end="173" start="158" name="Goods"/>
+                    <label end="146" start="136" name="Seller"/>
+                    <label end="162" start="158" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

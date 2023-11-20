@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="défendre.v" ID="1199" frame="FR_Justifying" frameID="10037" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Sufficient_reason"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Responsible_entity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Eventuality"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Responsible_entity"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Responsible_entity"/>
+                <annoSet ID="3342"/>
+                <annoSet ID="3438"/>
+                <annoSet ID="3927"/>
+                <annoSet ID="13091"/>
+                <annoSet ID="15092"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3342"/>
+                <annoSet ID="3438"/>
+                <annoSet ID="3927"/>
+                <annoSet ID="13091"/>
+                <annoSet ID="15092"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Sufficient_reason"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Sufficient_reason"/>
+                <annoSet ID="3927"/>
+                <annoSet ID="13091"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Sufficient_reason"/>
+                <annoSet ID="3342"/>
+                <annoSet ID="3438"/>
+                <annoSet ID="15092"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2515">
+            <text>- Frégates de Taïwan : Charasse se défend , AP , 28 mai 2004</text>
+            <annotationSet status="MANUAL" ID="3342">
+                <layer rank="1" name="FE">
+                    <label end="30" start="23" name="Responsible_entity"/>
+                    <label end="30" start="23" name="Speaker"/>
+                    <label itype="UNI" name="Sufficient_reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2573">
+            <text>Il apparaît que Nicolas Sarkozy était au courant de l' affaire dès septembre 2004 , mais a gardé le silence sans chercher à se défendre jusqu' à début 2006 .</text>
+            <annotationSet status="MANUAL" ID="3438">
+                <layer rank="1" name="FE">
+                    <label end="30" start="16" name="Responsible_entity"/>
+                    <label end="30" start="16" name="Speaker"/>
+                    <label itype="UNI" name="Sufficient_reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3017">
+            <text>Le 6 août , Reuters a mis un terme à sa collaboration avec Adnan Hajj qui se défendait en expliquant avoir voulu retirer des traces de poussières sur les photos originales et que ses conditions de travail , dans un lieu peu éclairé , avaient conduit à ces modifications des photos [ 7 ] .</text>
+            <annotationSet status="MANUAL" ID="3927">
+                <layer rank="1" name="FE">
+                    <label end="72" start="70" name="Responsible_entity"/>
+                    <label end="279" start="59" name="Responsible_entity"/>
+                    <label end="279" start="101" name="Sufficient_reason"/>
+                    <label end="72" start="70" name="Speaker"/>
+                    <label end="279" start="59" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9168">
+            <text>" c' est vrai qu' il reste encore beaucoup à faire , se défend Montek Singh Alhuwalia , conseiller du ministre des finances pour les affaires économiques .</text>
+            <annotationSet status="MANUAL" ID="13091">
+                <layer rank="1" name="FE">
+                    <label end="152" start="63" name="Responsible_entity"/>
+                    <label end="51" start="0" name="Sufficient_reason"/>
+                    <label end="152" start="63" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10851">
+            <text>Michel Sapin défendra son directeur dans les colonnes de ce journal .</text>
+            <annotationSet status="MANUAL" ID="15092">
+                <layer rank="1" name="FE">
+                    <label end="34" start="22" name="Responsible_entity"/>
+                    <label end="11" start="0" name="Speaker"/>
+                    <label itype="UNI" name="Sufficient_reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="rembourser.v" ID="1400" frame="FR_Reimbursement" frameID="10050" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Non_financial_compensation"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Rec" name="Recipient"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="" name="Cause_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Cause_of_expense"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cause_of_expense"/>
+                <annoSet ID="1603"/>
+                <annoSet ID="21708"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Cause_of_expense"/>
+                <annoSet ID="3246"/>
+                <annoSet ID="3460"/>
+                <annoSet ID="3483"/>
+                <annoSet ID="19374"/>
+                <annoSet ID="21139"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Giver"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Giver"/>
+                <annoSet ID="3460"/>
+                <annoSet ID="3483"/>
+                <annoSet ID="19374"/>
+                <annoSet ID="21139"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Giver"/>
+                <annoSet ID="1603"/>
+                <annoSet ID="3246"/>
+                <annoSet ID="21708"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Money"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="3460"/>
+                <annoSet ID="3483"/>
+                <annoSet ID="21139"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="1603"/>
+                <annoSet ID="3246"/>
+                <annoSet ID="21708"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Non_financial_compensation"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Non_financial_compensation"/>
+                <annoSet ID="19374"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Recipient"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Recipient"/>
+                <annoSet ID="3246"/>
+                <annoSet ID="3460"/>
+                <annoSet ID="19374"/>
+                <annoSet ID="21139"/>
+                <annoSet ID="21708"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Recipient"/>
+                <annoSet ID="1603"/>
+                <annoSet ID="3483"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1565">
+            <text>Nous avons souhaité obtenir des avantages économiques et nous avons souhaité , en adoptant une démarche progressive , ne pas accabler inutilement les consommateurs normaux avec des investissements qui ne peuvent être remboursés .</text>
+            <annotationSet status="MANUAL" ID="1603">
+                <layer rank="1" name="FE">
+                    <label end="199" start="197" name="Cause_of_expense"/>
+                    <label end="226" start="177" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="226" start="217" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2464">
+            <text>Taiwan engage une procédure pour se faire rembourser .</text>
+            <annotationSet status="MANUAL" ID="3246">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Recipient"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2599">
+            <text>L' argent pourrait alors servir au règlement du litige civil avec Taïwan qui exige que la France rembourse les commissions occultes que le contrat signé en 1991 interdisait formellement par son article 18 .</text>
+            <annotationSet status="MANUAL" ID="3460">
+                <layer rank="1" name="FE">
+                    <label end="203" start="107" name="Money"/>
+                    <label end="203" start="66" name="Recipient"/>
+                    <label end="75" start="73" name="Recipient"/>
+                    <label end="95" start="87" name="Giver"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2632">
+            <text>- L' armée française n' a pas besoin de ces frégates et le budget de la France ne peut rembourser 16 milliards de francs plus intérêts .</text>
+            <annotationSet status="MANUAL" ID="3483">
+                <layer rank="1" name="FE">
+                    <label end="133" start="98" name="Money"/>
+                    <label end="77" start="69" name="Giver"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15123">
+            <text>Si les gisements trouvés sont exploités , alors la firme d' Etat rembourse en pétrole l' opérateur à hauteur de sa quote - part .</text>
+            <annotationSet status="MANUAL" ID="19374">
+                <layer rank="1" name="FE">
+                    <label end="84" start="78" name="Non_financial_compensation"/>
+                    <label end="97" start="86" name="Recipient"/>
+                    <label end="63" start="48" name="Giver"/>
+                    <label itype="DNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17021">
+            <text>Si le tribunal en décide , LVMH , le numéro un mondial du luxe , devra rembourser 5 milliards de francs d' OBSA ( obligations à bons de souscriptions d' actions ) à certains de ses actionnaires .</text>
+            <annotationSet status="MANUAL" ID="21139">
+                <layer rank="1" name="FE">
+                    <label end="161" start="82" name="Money"/>
+                    <label end="192" start="165" name="Recipient"/>
+                    <label end="61" start="27" name="Giver"/>
+                    <label itype="UNI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17666">
+            <text>Cette annonce arrive à point nommé au moment où les autorités sanitaires de différents pays s' interrogent sur l' opportunité de recommander - et donc , dans un pays comme la France , de rembourser - la prise d' AZT à l' ensemble des personnes séropositives .</text>
+            <annotationSet status="MANUAL" ID="21708">
+                <layer rank="1" name="FE">
+                    <label end="214" start="200" name="Cause_of_expense"/>
+                    <label end="256" start="218" name="Recipient"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

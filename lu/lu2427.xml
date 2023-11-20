@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="rejet.n" ID="2427" frame="Respond_to_proposal" frameID="1623" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="int" name="Interlocutor"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Interlocutor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutor"/>
+                <annoSet ID="7040"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Interlocutor"/>
+                <annoSet ID="20501"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposal"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="7040"/>
+                <annoSet ID="20501"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="7040"/>
+                <annoSet ID="20501"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4917">
+            <text>M. François Mitterrand a , au cours du conseil des ministres du 15 janvier , vivement critiqué les propositions actuelles de M. Arthur Dunkel , directeur général du GATT , dont le rejet par les Européens bloque la conclusion des négociations commerciales multilatérales ( nos dernières éditions du 16 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="7040">
+                <layer rank="1" name="FE">
+                    <label end="175" start="125" name="Interlocutor"/>
+                    <label end="268" start="204" name="Interlocutor"/>
+                    <label end="268" start="95" name="Proposal"/>
+                    <label end="175" start="172" name="Proposal"/>
+                    <label end="202" start="190" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="180" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16329">
+            <text>Les deux parties , qui avaient rompu tout contact après le rejet par 72 % des dockers , début novembre , du projet de protocole d' accord élaboré dans le cadre de la réforme du statut des dockers , ont repris les discussions mercredi 23 décembre .</text>
+            <annotationSet status="MANUAL" ID="20501">
+                <layer rank="1" name="FE">
+                    <label end="194" start="108" name="Proposal"/>
+                    <label end="84" start="69" name="Speaker"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

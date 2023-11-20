@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'élever.v" ID="1641" frame="FR_Taking_sides" frameID="10060" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Cognizer"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="3998"/>
+                <annoSet ID="4626"/>
+                <annoSet ID="11439"/>
+                <annoSet ID="14567"/>
+                <annoSet ID="22654"/>
+                <annoSet ID="22987"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Content"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="3998"/>
+                <annoSet ID="4626"/>
+                <annoSet ID="11439"/>
+                <annoSet ID="14567"/>
+                <annoSet ID="22654"/>
+                <annoSet ID="22987"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3124">
+            <text>Celui - ci s' élève à la fois contre " le nombre excessif de candidatures " présentées et le refus opposé à une vingtaine de militants par ailleurs adhérents du PS .</text>
+            <annotationSet status="MANUAL" ID="3998">
+                <layer rank="1" name="FE">
+                    <label end="162" start="37" name="Content"/>
+                    <label end="9" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3468">
+            <text>En Allemagne , seul pays avec le Japon où le niveau de l' activité reste satisfaisant , le chancelier Helmut Kohl s' est élevé contre les risques de dérapages salariaux , susceptibles de mettre en péril la bonne marche de l' État réunifié .</text>
+            <annotationSet status="MANUAL" ID="4626">
+                <layer rank="1" name="FE">
+                    <label end="237" start="134" name="Content"/>
+                    <label end="112" start="88" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="114" name="Target"/>
+                    <label end="125" start="121" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7919">
+            <text>" La FNB ( Fédération nationale du bâtiment ) s' élève avec force contre une décision qui témoigne d' un total irrespect de la parole donnée et qui (...) sera lourde sur le plan économique et social . "</text>
+            <annotationSet status="MANUAL" ID="11439">
+                <layer rank="1" name="FE">
+                    <label end="197" start="73" name="Content"/>
+                    <label end="44" start="2" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10384">
+            <text>Le SNPMI ( Syndicat national du patronat moderne indépendant ) s' élève contre une disposition " qui bloque encore un peu plus la nécessaire adaptation des effectifs " .</text>
+            <annotationSet status="MANUAL" ID="14567">
+                <layer rank="1" name="FE">
+                    <label end="166" start="79" name="Content"/>
+                    <label end="61" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18552">
+            <text>La fédération CGT des transports s' est élevée contre " l' absence de concertation " et estime que les salariés " n' ont rien de bon à attendre de cette restructuration " .</text>
+            <annotationSet status="MANUAL" ID="22654">
+                <layer rank="1" name="FE">
+                    <label end="81" start="56" name="Content"/>
+                    <label end="31" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="33" name="Target"/>
+                    <label end="45" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18918">
+            <text>C' est contre cette situation défavorable que ne cessèrent de s' élever les dirigeants de la société anonyme des usines Renault .</text>
+            <annotationSet status="MANUAL" ID="22987">
+                <layer rank="1" name="FE">
+                    <label end="40" start="14" name="Content"/>
+                    <label end="44" start="42" name="Content"/>
+                    <label end="126" start="72" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

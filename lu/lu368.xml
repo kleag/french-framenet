@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="objecter.v" ID="368" frame="Communication_response" frameID="42" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Trig" name="Trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="14015"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="13893"/>
+                <annoSet ID="15687"/>
+                <annoSet ID="22596"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Message"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="13893"/>
+                <annoSet ID="14015"/>
+                <annoSet ID="15687"/>
+                <annoSet ID="22596"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="13893"/>
+                <annoSet ID="14015"/>
+                <annoSet ID="15687"/>
+                <annoSet ID="22596"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Trigger"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="13893"/>
+                <annoSet ID="14015"/>
+                <annoSet ID="15687"/>
+                <annoSet ID="22596"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="9875">
+            <text>On objectera sans doute que s' opposer ainsi à une dévaluation et à une inflation plus forte , c' est vouloir que tout continue comme avant , cependant que le chômage s' enfle .</text>
+            <annotationSet status="MANUAL" ID="13893">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Message"/>
+                    <label end="174" start="28" name="Message"/>
+                    <label end="1" start="0" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9970">
+            <text>A ceux - là , Kondratieff objecte qu' ils s' interdisent par définition toute démarche scientifique , où la recherche de régularités est prioritaire .</text>
+            <annotationSet status="MANUAL" ID="14015">
+                <layer rank="1" name="FE">
+                    <label end="147" start="38" name="Message"/>
+                    <label end="10" start="2" name="Addressee"/>
+                    <label end="24" start="14" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11367">
+            <text>Devant les congressistes , Carlos Andres Perez , président de la République vénézuélienne , a objecté que " la prospérité et la dignité des travailleurs " passent également par la lutte contre " le protectionnisme des pays industrialisés " .</text>
+            <annotationSet status="MANUAL" ID="15687">
+                <layer rank="1" name="FE">
+                    <label end="238" start="106" name="Message"/>
+                    <label end="88" start="27" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18465">
+            <text>L' on objectera que le marché nippon , quasiment au plus haut , a chuté avec très peu d' affaires , et que l' inflation outre - Atlantique a repris sur la flambée des prix de l' énergie .</text>
+            <annotationSet status="MANUAL" ID="22596">
+                <layer rank="1" name="FE">
+                    <label end="101" start="20" name="Message"/>
+                    <label end="184" start="107" name="Message"/>
+                    <label end="4" start="0" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

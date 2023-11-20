@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Renunciation" ID="10077" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; comes to think that some &lt;fen&gt;Eventuality&lt;/fen&gt; is no longer an objective, or accepts not to have some &lt;fen&gt;Benefit&lt;/fen&gt; any more. The Eventuality can be some course of action that the Cognizer decides not to perform or have performed by someone, or state that should no longer hold, or cognitive stance the Cognizer no longer has.
+
+&lt;ex&gt;That will only be possible if and when &lt;fex name="spe"&gt;the IRA&lt;/fex&gt; &lt;t&gt;renounces&lt;/t&gt; &lt;fex name="evt"&gt;armed struggle&lt;/fex&gt;.&lt;/ex&gt;
+
+    &lt;ex&gt;&lt;/ex&gt;
+    &lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Modification of the Renunciation frame: the Content FE was split into Benefit / Eventuality.
+&lt;/def-root&gt;</definition>
+<!--role:Entity (concrete or abstract entity that the Cognizer renounces to benefit from or to possess) and Eventuality (course of action that the Cognizer decides not to perform or have performed by someone, or state that should no longer hold, or cognitive stance (renoncer à une vision des choses)). Renoncer à un projet , renoncer à une mission => reste une action non faite par le Cognizer (Eventuality), renoncer à l'effort = renoncer à fournir un effort => idem Action-->
+
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="09/27/2004 11:26:09 PDT Mon" abbrev="spe" name="Cognizer" ID="7129">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; is the person who communicates their cessation of association with the &lt;fen&gt;Content&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="09/27/2004 11:26:09 PDT Mon" abbrev="evt" name="Eventuality" ID="7131">
+        <definition>&lt;def-root&gt;The eventuality that the &lt;fen&gt;Cognizer&lt;/fen&gt; no longer considers as an objective.
+
+&lt;ex&gt;FR-EX: Ils &lt;t&gt;renouncent&lt;/t&gt; à ce que &lt;fex name="evt"&gt;l'association leur rembourse les frais&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;FR-EX: &lt;fex name="evt"&gt;Ils&lt;/fex&gt; &lt;t&gt;renouncent&lt;/t&gt; à &lt;fex name="evt"&gt;poursuivre l'association&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Benefit" ID="83"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:51 PST Wed" abbrev="Benefit" name="Benefit" ID="83">
+        <definition>&lt;def-root&gt;The entity that the &lt;fen&gt;Cognizer&lt;/fen&gt; accepts not to benefit from anymore.
+
+&lt;ex&gt;FR-EX: L'état &lt;t&gt;renouncera&lt;/t&gt; à &lt;fex name="Benefit"&gt;ce privilège&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Eventuality" ID="7131"/>
+    </FE>
+
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Renunciation</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="renoncement.n" ID="2610" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101604" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="renoncer.v" ID="2611" nbocc="42" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="42"/>
+        <otherlexUnit framename="Other_sense" ID="101605" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="renonciation.n" ID="2612" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101606" annotatedsent="0"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="engager.v" ID="2779" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Dependent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="8795"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Influencer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="8795"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5938">
+            <text>" j' entends que le débat se traduise par une concertation ouverte , dense et suffisamment longue pour permettre l' expression des points de vue et le recul nécessaire à la réflexion sur un sujet qui engage durablement l' avenir du secteur postal " , a déclaré le ministre .</text>
+            <annotationSet status="MANUAL" ID="8795">
+                <layer rank="1" name="FE">
+                    <label end="247" start="219" name="Dependent"/>
+                    <label end="194" start="187" name="Influencer"/>
+                    <label end="198" start="196" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="205" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

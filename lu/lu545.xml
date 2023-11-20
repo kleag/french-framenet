@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="donc.adv" ID="545" frame="Evidence" frameID="25" totalAnnotated="61" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="61">
+            <FE name="Proposition"/>
+            <pattern total="61">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="26"/>
+                <annoSet ID="103"/>
+                <annoSet ID="104"/>
+                <annoSet ID="472"/>
+                <annoSet ID="479"/>
+                <annoSet ID="482"/>
+                <annoSet ID="1076"/>
+                <annoSet ID="1253"/>
+                <annoSet ID="1420"/>
+                <annoSet ID="1600"/>
+                <annoSet ID="1667"/>
+                <annoSet ID="1682"/>
+                <annoSet ID="1821"/>
+                <annoSet ID="1881"/>
+                <annoSet ID="2540"/>
+                <annoSet ID="2556"/>
+                <annoSet ID="2720"/>
+                <annoSet ID="3162"/>
+                <annoSet ID="3944"/>
+                <annoSet ID="4227"/>
+                <annoSet ID="4234"/>
+                <annoSet ID="4267"/>
+                <annoSet ID="4500"/>
+                <annoSet ID="4627"/>
+                <annoSet ID="4723"/>
+                <annoSet ID="4790"/>
+                <annoSet ID="4804"/>
+                <annoSet ID="4825"/>
+                <annoSet ID="4852"/>
+                <annoSet ID="4881"/>
+                <annoSet ID="5578"/>
+                <annoSet ID="5579"/>
+                <annoSet ID="5808"/>
+                <annoSet ID="5930"/>
+                <annoSet ID="5967"/>
+                <annoSet ID="6011"/>
+                <annoSet ID="6014"/>
+                <annoSet ID="6312"/>
+                <annoSet ID="6320"/>
+                <annoSet ID="6811"/>
+                <annoSet ID="6853"/>
+                <annoSet ID="7001"/>
+                <annoSet ID="7066"/>
+                <annoSet ID="7111"/>
+                <annoSet ID="7281"/>
+                <annoSet ID="7756"/>
+                <annoSet ID="7765"/>
+                <annoSet ID="7872"/>
+                <annoSet ID="8553"/>
+                <annoSet ID="8628"/>
+                <annoSet ID="8901"/>
+                <annoSet ID="9245"/>
+                <annoSet ID="9275"/>
+                <annoSet ID="9350"/>
+                <annoSet ID="9398"/>
+                <annoSet ID="9577"/>
+                <annoSet ID="9578"/>
+                <annoSet ID="9711"/>
+                <annoSet ID="9976"/>
+                <annoSet ID="10399"/>
+                <annoSet ID="10565"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="61">
+            <FE name="Support"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="472"/>
+                <annoSet ID="482"/>
+                <annoSet ID="1420"/>
+                <annoSet ID="3162"/>
+                <annoSet ID="3944"/>
+                <annoSet ID="4227"/>
+                <annoSet ID="4723"/>
+                <annoSet ID="5930"/>
+                <annoSet ID="7111"/>
+                <annoSet ID="7281"/>
+                <annoSet ID="7756"/>
+                <annoSet ID="8553"/>
+                <annoSet ID="8628"/>
+                <annoSet ID="9245"/>
+                <annoSet ID="10565"/>
+            </pattern>
+            <pattern total="46">
+                <valenceUnit PT="null instantiation" FE="Support"/>
+                <annoSet ID="26"/>
+                <annoSet ID="103"/>
+                <annoSet ID="104"/>
+                <annoSet ID="479"/>
+                <annoSet ID="1076"/>
+                <annoSet ID="1253"/>
+                <annoSet ID="1600"/>
+                <annoSet ID="1667"/>
+                <annoSet ID="1682"/>
+                <annoSet ID="1821"/>
+                <annoSet ID="1881"/>
+                <annoSet ID="2540"/>
+                <annoSet ID="2556"/>
+                <annoSet ID="2720"/>
+                <annoSet ID="4234"/>
+                <annoSet ID="4267"/>
+                <annoSet ID="4500"/>
+                <annoSet ID="4627"/>
+                <annoSet ID="4790"/>
+                <annoSet ID="4804"/>
+                <annoSet ID="4825"/>
+                <annoSet ID="4852"/>
+                <annoSet ID="4881"/>
+                <annoSet ID="5578"/>
+                <annoSet ID="5579"/>
+                <annoSet ID="5808"/>
+                <annoSet ID="5967"/>
+                <annoSet ID="6011"/>
+                <annoSet ID="6014"/>
+                <annoSet ID="6312"/>
+                <annoSet ID="6320"/>
+                <annoSet ID="6811"/>
+                <annoSet ID="6853"/>
+                <annoSet ID="7001"/>
+                <annoSet ID="7066"/>
+                <annoSet ID="7765"/>
+                <annoSet ID="7872"/>
+                <annoSet ID="8901"/>
+                <annoSet ID="9275"/>
+                <annoSet ID="9350"/>
+                <annoSet ID="9398"/>
+                <annoSet ID="9577"/>
+                <annoSet ID="9578"/>
+                <annoSet ID="9711"/>
+                <annoSet ID="9976"/>
+                <annoSet ID="10399"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18">
+            <text>C' est donc toute la vie industrielle du bassin de Saint-Dizier , sans oublier les papeteries de Jeand'Heurs , les carrières de Savonnières , que les visiteurs du lavoir pourront découvrir .</text>
+            <annotationSet status="MANUAL" ID="26">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Proposition"/>
+                    <label end="189" start="12" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="86">
+            <text>Cela fait donc plus de trois-quarts de siècle que la digne société du même nom encourage , dans la région , les éleveurs amateurs .</text>
+            <annotationSet status="MANUAL" ID="103">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Proposition"/>
+                    <label end="130" start="15" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="87">
+            <text>On peut donc estimer de façon astronomique le nombre de poules , de canards et de lapins , puis logiquement de casseroles , qui auront profité de cet engouement général !</text>
+            <annotationSet status="MANUAL" ID="104">
+                <layer rank="1" name="FE">
+                    <label end="167" start="13" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="359">
+            <text>Aux sénatoriales de la même année , la stricte alternance homme - femme dans les départements élisant plus de deux sénateurs , donc avec scrutin de liste à la proportionnelle , a permis de tripler le nombre de femmes élues .</text>
+            <annotationSet status="MANUAL" ID="472">
+                <layer rank="1" name="FE">
+                    <label end="125" start="77" name="Support"/>
+                    <label end="173" start="132" name="Support"/>
+                    <label end="92" start="77" name="Proposition"/>
+                    <label end="173" start="132" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="364">
+            <text>Bilan contrasté , donc , au moment où le gouvernement prépare des réformes électorales défavorables à la parité .</text>
+            <annotationSet status="MANUAL" ID="479">
+                <layer rank="1" name="FE">
+                    <label end="16" start="0" name="Proposition"/>
+                    <label end="112" start="23" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="366">
+            <text>Dans ce cas , les élus seraient essentiellement les têtes de liste et donc rarement des femmes .</text>
+            <annotationSet status="MANUAL" ID="482">
+                <layer rank="1" name="FE">
+                    <label end="68" start="0" name="Support"/>
+                    <label end="95" start="75" name="Support"/>
+                    <label end="30" start="14" name="Proposition"/>
+                    <label end="93" start="75" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1023">
+            <text>Il est donc peu susceptible d' affecter votre capacité à conduire des véhicules ou à utiliser des machines .</text>
+            <annotationSet status="MANUAL" ID="1076">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Proposition"/>
+                    <label end="107" start="12" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1236">
+            <text>les interactions résultant du déplacement de médicaments à forte liaison protéique sont donc peu probables .</text>
+            <annotationSet status="MANUAL" ID="1253">
+                <layer rank="1" name="FE">
+                    <label end="86" start="0" name="Proposition"/>
+                    <label end="107" start="93" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1410">
+            <text>Aclasta renforce l' os et réduit donc le risque de fractures à la fois chez les hommes et chez les femmes .</text>
+            <annotationSet status="MANUAL" ID="1420">
+                <layer rank="1" name="FE">
+                    <label end="21" start="0" name="Support"/>
+                    <label end="6" start="0" name="Proposition"/>
+                    <label end="31" start="26" name="Proposition"/>
+                    <label end="104" start="38" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1563">
+            <text>Nous n' introduisons donc rien de neuf .</text>
+            <annotationSet status="MANUAL" ID="1600">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Proposition"/>
+                    <label end="39" start="26" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1587">
+            <text>Donc l' Autriche a tout à fait le droit de former un gouvernement et le Président de la Commission a parfaitement le droit , et a même le devoir , de présenter ses meilleurs voeux à l' Autriche .</text>
+            <annotationSet status="MANUAL" ID="1667">
+                <layer rank="1" name="FE">
+                    <label end="194" start="5" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="3" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1598">
+            <text>Je ne parle donc pas maintenant de la recommandation de Mme Charlotte Cederschiöld , qui est un excellent document , mais bien des thèmes en rapport avec le droit d' auteur et qui ont été traités par le Parlement précédent .</text>
+            <annotationSet status="MANUAL" ID="1682">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Proposition"/>
+                    <label end="223" start="17" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1688">
+            <text>Il faut donc prendre des mesures dans le cadre de la politique commune de pêche et affecter les ressources financières adéquates afin d' assurer le rendement qui s' appuie exclusivement sur l' activité de pêche , plus précisément à des périodes de paralysie ou de réduction de l' activité de pêche .</text>
+            <annotationSet status="MANUAL" ID="1821">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Proposition"/>
+                    <label end="298" start="13" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1719">
+            <text>Je crois donc que nous sommes sur la bonne voie , si nous acceptons la majeure partie des propositions décidées en commission , mais en aucun cas une proposition allant au-delà .</text>
+            <annotationSet status="MANUAL" ID="1881">
+                <layer rank="1" name="FE">
+                    <label end="175" start="18" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1980">
+            <text>Je ne peux donc pas mettre cette demande aux voix .</text>
+            <annotationSet status="MANUAL" ID="2540">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Proposition"/>
+                    <label end="50" start="16" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1990">
+            <text>C' est donc une bonne chose .</text>
+            <annotationSet status="MANUAL" ID="2556">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Proposition"/>
+                    <label end="28" start="12" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2068">
+            <text>Je puis donc m' adresser à tous mes collègues pour les encourager à voter pour ce rapport , et à travailler dans ce sens dans leurs pays respectifs , auprès des gouvernements , des organisations et des médias .</text>
+            <annotationSet status="MANUAL" ID="2720">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Proposition"/>
+                    <label end="209" start="13" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2412">
+            <text>Cependant , elle n' empêchera pourtant pas la poursuite de la politique de républicanisation du personnel de l' État , et donc de l' armée , et l' offensive anticléricale , et plus généralement antireligieuse , de la majorité , qui sera reconduite et renforcée encore lors des élections de 1906 après la séparation des Églises et de l' État et l' affaire des inventaires .</text>
+            <annotationSet status="MANUAL" ID="3162">
+                <layer rank="1" name="FE">
+                    <label end="120" start="75" name="Support"/>
+                    <label end="137" start="127" name="Support"/>
+                    <label end="91" start="75" name="Proposition"/>
+                    <label end="137" start="127" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3060">
+            <text>La différence , payée par le Trésor ( donc le contribuable français ) , s' élevait à environ 8,50 F selon Jacques Despuech , auteur du premier livre sur l' affaire ( 1953 ) .</text>
+            <annotationSet status="MANUAL" ID="3944">
+                <layer rank="1" name="FE">
+                    <label end="12" start="0" name="Support"/>
+                    <label end="34" start="16" name="Support"/>
+                    <label end="12" start="0" name="Proposition"/>
+                    <label end="24" start="16" name="Proposition"/>
+                    <label end="66" start="43" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3243">
+            <text>Celle - ci prévoit que l' autorisation d' émettre , la " fréquence " de télévision , est un élément du domaine public , non cessible , qui ne fait donc pas partie du fonds de commerce .</text>
+            <annotationSet status="MANUAL" ID="4227">
+                <layer rank="1" name="FE">
+                    <label end="145" start="23" name="Support"/>
+                    <label end="182" start="152" name="Support"/>
+                    <label end="145" start="135" name="Proposition"/>
+                    <label end="182" start="152" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3246">
+            <text>ce n' est donc pas un repreneur , mais quatre que devrait trouver l' administrateur judiciaire , avant de faire approuver ces choix au CSA .</text>
+            <annotationSet status="MANUAL" ID="4234">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Proposition"/>
+                    <label end="139" start="15" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3257">
+            <text>Mettre la Sept sur le réseau de la Cinq pourrait donc conduire à deux impasses : soit appauvrir globalement le secteur public ; soit détourner la vocation de la Sept - produire des contenus originaux et forts - en orientant ses crédits vers des frais de diffusion .</text>
+            <annotationSet status="MANUAL" ID="4267">
+                <layer rank="1" name="FE">
+                    <label end="47" start="0" name="Proposition"/>
+                    <label end="264" start="54" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3380">
+            <text>Il faudra , donc , attendre encore plusieurs semaines pour savoir si la libéralisation des prix du 2 janvier aura été le signe d' un véritable " big bang " économique .</text>
+            <annotationSet status="MANUAL" ID="4500">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Proposition"/>
+                    <label end="167" start="17" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3469">
+            <text>Le marasme économique est donc abordé avec réalisme .</text>
+            <annotationSet status="MANUAL" ID="4627">
+                <layer rank="1" name="FE">
+                    <label end="24" start="0" name="Proposition"/>
+                    <label end="52" start="31" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3528">
+            <text>Dans un pays où le chômage atteint de telles proportions , les entreprises vont être obligées de rechercher des gains de productivité , donc de licencier ou alors de relever leurs prix et c' est le consommateur qui trinquera .</text>
+            <annotationSet status="MANUAL" ID="4723">
+                <layer rank="1" name="FE">
+                    <label end="134" start="0" name="Support"/>
+                    <label end="92" start="59" name="Proposition"/>
+                    <label end="183" start="141" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3563">
+            <text>Les exemples de Auto - Éco et , plus récemment , d' Ecosystème en France , ont donc largement suscité la réaction des concessionnaires , soutenus par les constructeurs .</text>
+            <annotationSet status="MANUAL" ID="4790">
+                <layer rank="1" name="FE">
+                    <label end="77" start="0" name="Proposition"/>
+                    <label end="168" start="84" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3569">
+            <text>Les nouvelles mesures de la Commission ont donc été bien accueillies par les trois constructeurs français ( Renault , Peugeot et Citroën ) .</text>
+            <annotationSet status="MANUAL" ID="4804">
+                <layer rank="1" name="FE">
+                    <label end="41" start="0" name="Proposition"/>
+                    <label end="139" start="48" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3580">
+            <text>Malgré les hésitations qui demeurent , la tendance est donc au libre échange .</text>
+            <annotationSet status="MANUAL" ID="4825">
+                <layer rank="1" name="FE">
+                    <label end="53" start="0" name="Proposition"/>
+                    <label end="77" start="60" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3597">
+            <text>Son activité engendre donc des flux financiers permanents .</text>
+            <annotationSet status="MANUAL" ID="4852">
+                <layer rank="1" name="FE">
+                    <label end="20" start="0" name="Proposition"/>
+                    <label end="58" start="27" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3613">
+            <text>Nous sommes donc en présence de deux métiers différents et complémentaires .</text>
+            <annotationSet status="MANUAL" ID="4881">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Proposition"/>
+                    <label end="75" start="17" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4016">
+            <text>Il était donc logique qu' à Paris on suive le mouvement , l' écart d' un demi - point avec Francfort étant respecté .</text>
+            <annotationSet status="MANUAL" ID="5578">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Proposition"/>
+                    <label end="116" start="14" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4017">
+            <text>Anticipations donc , sentiment général que l' état actuel des économies mondiales , peu satisfaisant sur le plan de l' activité , justifie une diminution du loyer de l' argent , tout se conjugue pour générer l' optimisme dont nous parlions au début et qui se reflète dans l' évolution des cours du MATIF : le 31 décembre , ils battaient leur record de l' année à 108 , après un départ à 100 au 1 janvier 1991 , et progressant même à 108 , 20 jeudi et vendredi , pour céder un peu de terrain sur des ventes bénéficiaires .</text>
+            <annotationSet status="MANUAL" ID="5579">
+                <layer rank="1" name="FE">
+                    <label end="12" start="0" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4151">
+            <text>La recherche d' une plus grande liquidité ne peut donc être satisfaite par le simple jeu des relations ménages - entreprises .</text>
+            <annotationSet status="MANUAL" ID="5808">
+                <layer rank="1" name="FE">
+                    <label end="48" start="0" name="Proposition"/>
+                    <label end="125" start="55" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4228">
+            <text>A la fois parce qu' il appartient à la sphère domestique , il doit donc être produit en masse à faible coût , ce qui signifie actuellement un tube cathodique lourd et encombrant , et parce que les ondes qu' il reçoit sont fragiles , le téléviseur est encore très casanier .</text>
+            <annotationSet status="MANUAL" ID="5930">
+                <layer rank="1" name="FE">
+                    <label end="57" start="20" name="Support"/>
+                    <label end="60" start="59" name="Proposition"/>
+                    <label end="106" start="72" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4258">
+            <text>Il faudra donc en venir aux projecteurs ou aux écrans plats .</text>
+            <annotationSet status="MANUAL" ID="5967">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Proposition"/>
+                    <label end="60" start="15" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4299">
+            <text>Plus que par M. Dupont , les émissions sont donc regardées d' abord par Mme Orsini , retraitée , y compris les émissions les plus " élitistes " .</text>
+            <annotationSet status="MANUAL" ID="6011">
+                <layer rank="1" name="FE">
+                    <label end="42" start="0" name="Proposition"/>
+                    <label end="144" start="49" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4302">
+            <text>En moyenne , M. Dupont a donc vu 10 350 spots , dont 500 pour des automobiles , 600 pour des disques , 320 pour des lessives et 520 pour des fromages , les quatre familles de produits qui investissent le plus dans la publicité télévisée .</text>
+            <annotationSet status="MANUAL" ID="6014">
+                <layer rank="1" name="FE">
+                    <label end="23" start="0" name="Proposition"/>
+                    <label end="237" start="30" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4465">
+            <text>Désormais , les principaux actionnaires de la firme de Vergèze sont donc Exor ( 28 , 7 % ) , Saint Louis ( 13 , 8 % ) , Ominco et Geneval ( deux filiales de la Société générale ) , avec respectivement 6 , 3 % et 0 , 5 % des parts .</text>
+            <annotationSet status="MANUAL" ID="6312">
+                <layer rank="1" name="FE">
+                    <label end="66" start="0" name="Proposition"/>
+                    <label end="230" start="73" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4471">
+            <text>Cette arrivée italienne tant chez Perrier que chez Saint Louis , sans oublier sa présence chez BSN ( 5 , 8 % ) , pourrait donc être le prélude à d' autres réorganisations dans le secteur agroalimentaire .</text>
+            <annotationSet status="MANUAL" ID="6320">
+                <layer rank="1" name="FE">
+                    <label end="120" start="0" name="Proposition"/>
+                    <label end="203" start="127" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4788">
+            <text>" Cette dernière réforme , estime l' auteur de l' étude , Mme Sophie Ponthieux , aurait donc pour effet d' accroître les disparités entre catégories sociales " .</text>
+            <annotationSet status="MANUAL" ID="6811">
+                <layer rank="1" name="FE">
+                    <label end="86" start="0" name="Proposition"/>
+                    <label end="160" start="93" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4815">
+            <text>Ces quatre firmes agissant de concert devraient donc lancer une OPA sur la firme de Vergèze à moins qu' elles ne tentent d' obtenir une nouvelle dérogation une fois la situation clarifiée .</text>
+            <annotationSet status="MANUAL" ID="6853">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Proposition"/>
+                    <label end="188" start="53" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4891">
+            <text>Il devrait donc se trouver prochainement à la tête d' un " super - ministère " mieux organisé et moins vulnérable aux scandales financiers qui , visiblement , le préoccupent .</text>
+            <annotationSet status="MANUAL" ID="7001">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Proposition"/>
+                    <label end="174" start="16" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4930">
+            <text>Le constructeur allemand devra donc probablement financer désormais lui - même sa couverture de change .</text>
+            <annotationSet status="MANUAL" ID="7066">
+                <layer rank="1" name="FE">
+                    <label end="29" start="0" name="Proposition"/>
+                    <label end="103" start="36" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4945">
+            <text>La loi n' empêche pas M. Silvio Berlusconi d' accéder au rôle d' opérateur de la Cinq : étant italien , il possède le statut communautaire et n' est donc pas considéré comme " étranger " .</text>
+            <annotationSet status="MANUAL" ID="7111">
+                <layer rank="1" name="FE">
+                    <label end="137" start="104" name="Support"/>
+                    <label end="105" start="104" name="Proposition"/>
+                    <label end="143" start="142" name="Proposition"/>
+                    <label end="156" start="154" name="Proposition"/>
+                    <label end="183" start="176" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="152" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5055">
+            <text>Les choses se sont gâtées une première fois avec l' obligation de faire apparaître , sur le bulletin de paie , les versements patronaux ( Sécu , retraite complémentaire , chômage ) - ces cotisations étant donc bien du " salaire différé " .</text>
+            <annotationSet status="MANUAL" ID="7281">
+                <layer rank="1" name="FE">
+                    <label end="179" start="66" name="Support"/>
+                    <label end="203" start="183" name="Proposition"/>
+                    <label end="236" start="210" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="208" start="205" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5341">
+            <text>Un taux de 20 % a été introduit , avant les élections , dans le barème de l' impôt sur le revenu , avec pour conséquence de réduire les rentrées fiscales et donc d' alourdir le déficit .</text>
+            <annotationSet status="MANUAL" ID="7756">
+                <layer rank="1" name="FE">
+                    <label end="152" start="124" name="Support"/>
+                    <label end="183" start="165" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5351">
+            <text>Fausse richesse pour certains donc , surtout au quotidien .</text>
+            <annotationSet status="MANUAL" ID="7765">
+                <layer rank="1" name="FE">
+                    <label end="28" start="0" name="Proposition"/>
+                    <label end="58" start="35" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5424">
+            <text>On est donc bien loin de la vague rose de 1982 où , dans le secteur nationalisé , tous les présidents des grands groupes industriels - à l' exception de MM. Fauroux ( saint - Gobain ) et Gandois ( Rhône - Poulenc ) - avaient été changés ainsi que la totalité des PDG des banques .</text>
+            <annotationSet status="MANUAL" ID="7872">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Proposition"/>
+                    <label end="279" start="12" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5813">
+            <text>Elle accorde des perspectives automatiques à ceux qui n' en ont pas et a donc une fonction éminemment sociale , puisqu' elle atténue des conflits latents .</text>
+            <annotationSet status="MANUAL" ID="8553">
+                <layer rank="1" name="FE">
+                    <label end="66" start="0" name="Support"/>
+                    <label end="3" start="0" name="Proposition"/>
+                    <label end="71" start="71" name="Proposition"/>
+                    <label end="108" start="78" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5852">
+            <text>Ainsi la stagnation de la consommation s' est accentuée pendant la récession , mais elle était inscrite dans les faits bien avant , la meilleure preuve en étant le ralentissement depuis plus de quatre ans des ventes de détail , lesquelles représentent à elles seules 50 % de la consommation et donc le tiers du produit intérieur brut ( PIB ) américain .</text>
+            <annotationSet status="MANUAL" ID="8628">
+                <layer rank="1" name="FE">
+                    <label end="289" start="228" name="Support"/>
+                    <label end="265" start="228" name="Proposition"/>
+                    <label end="350" start="299" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="297" start="294" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6013">
+            <text>L' accord avec Matra lui ouvre donc une nouvelle voie .</text>
+            <annotationSet status="MANUAL" ID="8901">
+                <layer rank="1" name="FE">
+                    <label end="29" start="0" name="Proposition"/>
+                    <label end="54" start="36" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6210">
+            <text>" une fois " acquise la question de " l' équilibrage structurel " et donc résolue celle du déficit financier par des mesures nouvelles , il a annoncé qu' " il y a peut - être quelque chose à trouver du côté des entreprises et des salariés " , qui serait " à aborder en son temps " , y compris " avec l' Etat " .</text>
+            <annotationSet status="MANUAL" ID="9245">
+                <layer rank="1" name="FE">
+                    <label end="67" start="2" name="Support"/>
+                    <label end="133" start="74" name="Support"/>
+                    <label end="133" start="74" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6222">
+            <text>Pour être esquissée , la voie de sortie demeure donc étroite .</text>
+            <annotationSet status="MANUAL" ID="9275">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Proposition"/>
+                    <label end="61" start="53" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6265">
+            <text>Tout l' effort du gouvernement est donc concentré sur la réussite du référendum du 20 septembre .</text>
+            <annotationSet status="MANUAL" ID="9350">
+                <layer rank="1" name="FE">
+                    <label end="33" start="0" name="Proposition"/>
+                    <label end="96" start="40" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6292">
+            <text>La libéralisation des échanges est donc de l' intérêt de tous nos pays , car elle permet à chacun d' accéder à des marchés ouverts à la concurrence .</text>
+            <annotationSet status="MANUAL" ID="9398">
+                <layer rank="1" name="FE">
+                    <label end="33" start="0" name="Proposition"/>
+                    <label end="148" start="40" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6409">
+            <text>Sur sept mois , le Trésor aura donc levé un peu plus de 82 milliards de francs sur les 136 milliards de francs de son programme domestique , auxquels s' ajoutent 26 milliards de francs d' émissions en écus .</text>
+            <annotationSet status="MANUAL" ID="9577">
+                <layer rank="1" name="FE">
+                    <label end="29" start="0" name="Proposition"/>
+                    <label end="206" start="36" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6410">
+            <text>Il est donc un peu en avance sur son calendrier théorique ( 79 milliards de francs ) .</text>
+            <annotationSet status="MANUAL" ID="9578">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Proposition"/>
+                    <label end="85" start="12" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6497">
+            <text>La " french mafia " semble donc bien traduire une nouvelle forme d' influence , moins idéologique que par le passé , davantage fondée sur la bonne réputation du pays en matière économique et financière .</text>
+            <annotationSet status="MANUAL" ID="9711">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Proposition"/>
+                    <label end="202" start="32" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6700">
+            <text>Leur assainissement financier est donc une priorité .</text>
+            <annotationSet status="MANUAL" ID="9976">
+                <layer rank="1" name="FE">
+                    <label end="32" start="0" name="Proposition"/>
+                    <label end="52" start="39" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7014">
+            <text>Un cadre a donc gagné , en moyenne , 2 , 7 fois plus qu' un ouvrier alors qu' un employé aura perçu un peu plus que les ouvriers , excepté dans des secteurs tels que la chimie de base , où les conditions de travail et les primes augmentent les rémunérations ouvrières .</text>
+            <annotationSet status="MANUAL" ID="10399">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Proposition"/>
+                    <label end="268" start="16" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7158">
+            <text>De leur côté , les équipementiers européens ont fait des efforts pour adapter le système en réduisant son volume ( 30 litres au lieu de 60 ) , sa sophistication et donc son coût .</text>
+            <annotationSet status="MANUAL" ID="10565">
+                <layer rank="1" name="FE">
+                    <label end="42" start="15" name="Support"/>
+                    <label end="159" start="92" name="Support"/>
+                    <label end="42" start="15" name="Proposition"/>
+                    <label end="100" start="92" name="Proposition"/>
+                    <label end="176" start="169" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'exprimer.v" ID="1501" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="16" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="12">
+            <FE name="Addressee"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="14938"/>
+                <annoSet ID="15804"/>
+                <annoSet ID="18913"/>
+                <annoSet ID="19466"/>
+                <annoSet ID="20821"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="2641"/>
+                <annoSet ID="12469"/>
+                <annoSet ID="20813"/>
+                <annoSet ID="20833"/>
+                <annoSet ID="21545"/>
+                <annoSet ID="21694"/>
+                <annoSet ID="24342"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="6683"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Speaker"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="183"/>
+                <annoSet ID="2193"/>
+                <annoSet ID="2641"/>
+                <annoSet ID="6683"/>
+                <annoSet ID="12469"/>
+                <annoSet ID="14938"/>
+                <annoSet ID="15804"/>
+                <annoSet ID="18913"/>
+                <annoSet ID="19466"/>
+                <annoSet ID="20813"/>
+                <annoSet ID="20821"/>
+                <annoSet ID="20833"/>
+                <annoSet ID="21545"/>
+                <annoSet ID="21694"/>
+                <annoSet ID="23018"/>
+                <annoSet ID="24342"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Topic"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="20833"/>
+                <annoSet ID="21694"/>
+            </pattern>
+            <pattern total="14">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="183"/>
+                <annoSet ID="2193"/>
+                <annoSet ID="2641"/>
+                <annoSet ID="6683"/>
+                <annoSet ID="12469"/>
+                <annoSet ID="14938"/>
+                <annoSet ID="15804"/>
+                <annoSet ID="18913"/>
+                <annoSet ID="19466"/>
+                <annoSet ID="20813"/>
+                <annoSet ID="20821"/>
+                <annoSet ID="21545"/>
+                <annoSet ID="23018"/>
+                <annoSet ID="24342"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="148">
+            <text>Faire s' exprimer les enfants à travers cette activité , c' est important .</text>
+            <annotationSet status="MANUAL" ID="183">
+                <layer rank="1" name="FE">
+                    <label end="28" start="18" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1832">
+            <text>Le deuxième point consiste à reconfirmer et à consacrer un autre principe important , celui de l' équilibre des forces , un principe qui concerne précisément le rôle et le rapport des membres de l' Union , un principe qui s' exprime de la manière dont s' expriment tous les États membres au sein de toutes - je répète , toutes - les institutions de l' Union européenne .</text>
+            <annotationSet status="MANUAL" ID="2193">
+                <layer rank="1" name="FE">
+                    <label end="286" start="265" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="263" start="252" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2038">
+            <text>Au cours de cette visite , j' ai été très honorée que vous m' ayez donné l' occasion de m' exprimer dans l' hémicycle du Parlement slovène et je dois dire que , avec M. Podestá , vice-président chargé de l' élargissement , avec M. Brok , président de la commission des affaires étrangères et M. Ebner , président de la délégation , nous avons été très impressionnés par les progrès considérables que votre pays avait accomplis dans la voie de l' appartenance à l' Europe .</text>
+            <annotationSet status="MANUAL" ID="2641">
+                <layer rank="1" name="FE">
+                    <label end="60" start="59" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4725">
+            <text>M. Pasqua , qui devait s' exprimer dans le journal de la Cinq mercredi 15 janvier , compte rencontrer rapidement Me Hubert Lafont , administrateur judiciaire de la chaîne et , dans le cas où cette " solution de reprise répondrait aux exigences du droit des sociétés " , demander une audience au CSA .</text>
+            <annotationSet status="MANUAL" ID="6683">
+                <layer rank="1" name="FE">
+                    <label end="60" start="40" name="Medium"/>
+                    <label end="14" start="12" name="Speaker"/>
+                    <label end="80" start="0" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8739">
+            <text>1 Déprimé par les déclarations de M. Nicholas Brady , secrétaire américain au Trésor , s' exprimant au sommet des Sept à Munich , le dollar a encore glissé sur les marchés des changes , mercredi 8 juillet , retombant à 5 francs , son cours en vigueur il y a dix - huit mois , et à 1 , 4850 deutschemarks ( lire page 22 ) .</text>
+            <annotationSet status="MANUAL" ID="12469">
+                <layer rank="1" name="FE">
+                    <label end="85" start="34" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10692">
+            <text>Mardi , M. Daniel Lebègue , directeur général de la BNP , s' exprimant devant l' Association des journalistes économiques et financiers ( AJEF ) , a proposé que la souveraineté monétaire de la France soit partagée , avec la mise en place d' une instance de concertation entre les banques centrales allemande et française ( question évoquée la semaine dernière dans nos colonnes ) .</text>
+            <annotationSet status="MANUAL" ID="14938">
+                <layer rank="1" name="FE">
+                    <label end="143" start="78" name="Addressee"/>
+                    <label end="56" start="8" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11471">
+            <text>" Nous avons décidé d' instaurer , durant l' année qui vient , la convertibilité du dinar tunisien " , a déclaré , dimanche 27 décembre , le président de la République tunisienne , M. Ben Ali , qui s' exprimait devant le Parlement à l' occasion du discours de clôture du débat sur le budget de 1993 .</text>
+            <annotationSet status="MANUAL" ID="15804">
+                <layer rank="1" name="FE">
+                    <label end="229" start="218" name="Addressee"/>
+                    <label end="196" start="194" name="Speaker"/>
+                    <label end="297" start="138" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="198" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14599">
+            <text>s' exprimant mercredi devant l' Association des banques populaires allemandes , le patron de la " Buba " a estimé que " ceux qui souhaitent une détente rapide des taux monétaires [ ... ] mettent en jeu le capital - confiance que notre économie possède encore " .</text>
+            <annotationSet status="MANUAL" ID="18913">
+                <layer rank="1" name="FE">
+                    <label end="76" start="29" name="Addressee"/>
+                    <label end="103" start="80" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15222">
+            <text>Le premier ministre , qui s' exprimait devant les journalistes , après avoir reçu pendant deux heures les représentants de vingt - quatre fédérations professionnelles accompagnées des dirigeants du CNPF , a indiqué avoir le sentiment que ses interlocuteurs ont " mieux compris " les efforts déployés par le gouvernement en faveur de l' emploi .</text>
+            <annotationSet status="MANUAL" ID="19466">
+                <layer rank="1" name="FE">
+                    <label end="61" start="46" name="Addressee"/>
+                    <label end="24" start="22" name="Speaker"/>
+                    <label end="61" start="0" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16618">
+            <text>À écouter le premier ministre s' exprimer , l' envie vient souvent d' interrompre l' orateur , de lui dire " plus court , plus clair , plus simple " ( voir nos dernières éditions ) .</text>
+            <annotationSet status="MANUAL" ID="20813">
+                <layer rank="1" name="FE">
+                    <label end="28" start="10" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16622">
+            <text>s' exprimant jeudi 11 janvier devant de nombreux chefs d' entreprise , le premier ministre a été net : il prendra toutes les mesures nécessaires pour éviter qu' un emballement de la consommation n' accentue le déséquilibre de notre commerce extérieur .</text>
+            <annotationSet status="MANUAL" ID="20821">
+                <layer rank="1" name="FE">
+                    <label end="67" start="37" name="Addressee"/>
+                    <label end="89" start="71" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16628">
+            <text>Là encore le premier ministre n' a pas la tâche facile car il va devoir trancher sur le point de savoir si la politique qu' il mène - fiscale notamment - doit continuer de favoriser les entreprises et leur compétitivité alors même que Mr Mitterrand , s' exprimant sur le sujet il y a quelques semaines , avait déclaré qu' on en avait assez fait .</text>
+            <annotationSet status="MANUAL" ID="20833">
+                <layer rank="1" name="FE">
+                    <label end="275" start="268" name="Topic"/>
+                    <label end="247" start="235" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="262" start="251" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17497">
+            <text>Si bien que ou le président des sous - officiers était généralement le plus ancien dans le grade le plus élevé et , donc , pas nécessairement le plus représentatif , ou les membres des commissions n' étaient pas spécialement motivés pour s' exprimer en toute connaissance de cause au nom de leurs collègues .</text>
+            <annotationSet status="MANUAL" ID="21545">
+                <layer rank="1" name="FE">
+                    <label end="47" start="12" name="Speaker"/>
+                    <label end="195" start="164" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="248" start="238" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17659">
+            <text>Ce dernier confirmera -t-il les beaux discours récemment prononcés lors du grand colloque sur l' écologie , inauguré à Paris par le président de la République et au cours duquel une dizaine de ministres s' étaient exprimés ?</text>
+            <annotationSet status="MANUAL" ID="21694">
+                <layer rank="1" name="FE">
+                    <label end="104" start="94" name="Topic"/>
+                    <label end="201" start="178" name="Speaker"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="204" start="203" name="Target"/>
+                    <label end="221" start="214" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18963">
+            <text>Atteint d' aphasie , il ne pouvait s' exprimer qu' avec difficulté .</text>
+            <annotationSet status="MANUAL" ID="23018">
+                <layer rank="1" name="FE">
+                    <label end="22" start="21" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20736">
+            <text>s' exprimant au milieu de la nuit , Mme Martine Aubry , ministre de travail , s' est déclarée " satisfaite de la participation " aux élections prud' homales , observant que le taux de participation " est certes plus faible qu' en 1987 , mais qu' on a un nombre d' inscrits plus élevé " .</text>
+            <annotationSet status="MANUAL" ID="24342">
+                <layer rank="1" name="FE">
+                    <label end="74" start="36" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

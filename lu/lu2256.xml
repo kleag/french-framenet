@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="demander.v" ID="2256" frame="Questioning" frameID="40" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Addressee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="1567"/>
+                <annoSet ID="2560"/>
+                <annoSet ID="4989"/>
+                <annoSet ID="8597"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="1746"/>
+                <annoSet ID="6002"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Message"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="1567"/>
+                <annoSet ID="1746"/>
+                <annoSet ID="4989"/>
+                <annoSet ID="6002"/>
+                <annoSet ID="8597"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Message"/>
+                <annoSet ID="2560"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="1567"/>
+                <annoSet ID="1746"/>
+                <annoSet ID="4989"/>
+                <annoSet ID="8597"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="2560"/>
+                <annoSet ID="6002"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1546">
+            <text>Je voudrais demander quelles nouvelles initiatives peut prendre le Conseil pour préserver les intérêts de ces agriculteurs dans le cadre des prochaines négociations sur le commerce mondial , en particulier face à la production à grande échelle et de style industriel des États-Unis et de la Nouvelle-Zélande , où les économies d' échelle font qu' il est extrêmement difficile pour les exploitations familiales européennes de rester compétitives et où , bien sûr , les normes européennes en matière de sécurité alimentaire ne s' appliquent pas .</text>
+            <annotationSet status="MANUAL" ID="1567">
+                <layer rank="1" name="FE">
+                    <label end="541" start="21" name="Message"/>
+                    <label end="73" start="64" name="Addressee"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1638">
+            <text>Je me demande vraiment si le Conseil possède encore un minimum d' humanité !</text>
+            <annotationSet status="MANUAL" ID="1746">
+                <layer rank="1" name="FE">
+                    <label end="73" start="23" name="Message"/>
+                    <label end="1" start="0" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1993">
+            <text>Demandez donc à mes collègues écossais et gallois .</text>
+            <annotationSet status="MANUAL" ID="2560">
+                <layer rank="1" name="FE">
+                    <label end="48" start="16" name="Addressee"/>
+                    <label itype="ENI" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3673">
+            <text>Quand le CREDOC demande aux Français s' ils croient que leurs conditions de vie vont s' améliorer dans les cinq ans à venir , l' optimisme règne jusqu' à soixante ans .</text>
+            <annotationSet status="MANUAL" ID="4989">
+                <layer rank="1" name="FE">
+                    <label end="122" start="37" name="Message"/>
+                    <label end="35" start="28" name="Addressee"/>
+                    <label end="14" start="6" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4283">
+            <text>Est -ce être nostalgique que de demander si alors , sans téléviseur et sans salon , ce sera toujours la télévision ?</text>
+            <annotationSet status="MANUAL" ID="6002">
+                <layer rank="1" name="FE">
+                    <label end="113" start="41" name="Message"/>
+                    <label itype="UNI" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5837">
+            <text>Mais le temps presse et le candidat Bush n' a plus que quelques semaines pour regagner la confiance des consommateurs , qui continuent à bouder ses " bons indices " , et pour rassurer ces 10 millions de chômeurs depuis la fin juin ( avec une augmentation de 471 000 en un mois ) qui lui demandent " pourquoi Saddam Hussein a encore un job et moi pas ? " .</text>
+            <annotationSet status="MANUAL" ID="8597">
+                <layer rank="1" name="FE">
+                    <label end="348" start="299" name="Message"/>
+                    <label end="285" start="283" name="Addressee"/>
+                    <label end="39" start="24" name="Addressee"/>
+                    <label end="281" start="279" name="Speaker"/>
+                    <label end="350" start="184" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="295" start="287" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="répercussion.n" ID="247" frame="Causation" frameID="5" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Affected"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="2511"/>
+                <annoSet ID="5176"/>
+                <annoSet ID="6424"/>
+                <annoSet ID="8151"/>
+                <annoSet ID="9403"/>
+                <annoSet ID="9616"/>
+                <annoSet ID="17825"/>
+                <annoSet ID="24518"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Cause"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="2511"/>
+                <annoSet ID="5176"/>
+                <annoSet ID="6424"/>
+                <annoSet ID="8151"/>
+                <annoSet ID="9403"/>
+                <annoSet ID="9616"/>
+                <annoSet ID="12927"/>
+                <annoSet ID="17825"/>
+                <annoSet ID="24518"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Effect"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="2511"/>
+                <annoSet ID="5176"/>
+                <annoSet ID="6424"/>
+                <annoSet ID="8151"/>
+                <annoSet ID="9403"/>
+                <annoSet ID="9616"/>
+                <annoSet ID="12927"/>
+                <annoSet ID="17825"/>
+                <annoSet ID="24518"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1970">
+            <text>En effet , la politique de transport transeuropéen a des répercussions importantes sur le développement durable de l' économie locale et la relance de l' emploi .</text>
+            <annotationSet status="MANUAL" ID="2511">
+                <layer rank="1" name="FE">
+                    <label end="49" start="11" name="Cause"/>
+                    <label end="159" start="87" name="Affected"/>
+                    <label end="159" start="53" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3782">
+            <text>La crise du textile portugais risque d' avoir des répercussions douloureuses sur l' économie du Vale do Ave , au nord du pays , qui concentre , autour de trois pôles - Porto , Braga et Castelo Branco - l' essentiel de cette industrie .</text>
+            <annotationSet status="MANUAL" ID="5176">
+                <layer rank="1" name="FE">
+                    <label end="28" start="0" name="Cause"/>
+                    <label end="232" start="81" name="Affected"/>
+                    <label end="232" start="46" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4549">
+            <text>L' internationalisation du marché a eu des répercussions immédiates sur le contenu des programmes .</text>
+            <annotationSet status="MANUAL" ID="6424">
+                <layer rank="1" name="FE">
+                    <label end="32" start="0" name="Cause"/>
+                    <label end="96" start="72" name="Affected"/>
+                    <label end="66" start="39" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5583">
+            <text>En second lieu , les répercussions du ralentissement économique et de la montée du chômage sur les rentrées de cotisations , qui vont se traduire dans les prochains jours par un découvert de 30 milliards de francs de la trésorerie de la " Sécu " , justifient encore davantage une maîtrise durable des dépenses .</text>
+            <annotationSet status="MANUAL" ID="8151">
+                <layer rank="1" name="FE">
+                    <label end="65" start="38" name="Cause"/>
+                    <label end="89" start="70" name="Cause"/>
+                    <label end="121" start="95" name="Affected"/>
+                    <label end="244" start="17" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6295">
+            <text>Ils ont des répercussions pratiques sur la vie de chacun d' entre nous .</text>
+            <annotationSet status="MANUAL" ID="9403">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Cause"/>
+                    <label end="69" start="40" name="Affected"/>
+                    <label end="34" start="8" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6429">
+            <text>des conflits sociaux auraient des répercussions évidentes sur les prix de ce métal considéré comme stratégique , dont près de 70 % de l' offre mondiale est concentrée en Afrique du Sud .</text>
+            <annotationSet status="MANUAL" ID="9616">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Cause"/>
+                    <label end="183" start="62" name="Affected"/>
+                    <label end="183" start="30" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9029">
+            <text>Les perturbations dues aux blocages routiers continuent d' avoir des répercussions très contrastées en fonction des entreprises .</text>
+            <annotationSet status="MANUAL" ID="12927">
+                <layer rank="1" name="FE">
+                    <label end="43" start="0" name="Cause"/>
+                    <label end="126" start="65" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13508">
+            <text>Il s' agit : primo , de savoir à partir de quand ce qu' on appelle productivité cesse d' être un progrès pour devenir une cause spécifique de sous - emploi chronique et de détérioration des conditions de vie ; secundo , de concilier des modes de production modernes avec la sauvegarde du milieu environnant ; tertio , d' examiner les répercussions des changements indispensables sur les courants d' échanges .</text>
+            <annotationSet status="MANUAL" ID="17825">
+                <layer rank="1" name="FE">
+                    <label end="377" start="352" name="Cause"/>
+                    <label end="406" start="383" name="Affected"/>
+                    <label end="406" start="330" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="346" start="334" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20984">
+            <text>En outre , ils devaient formuler plusieurs revendications , car ils considèrent que l' Etat ne tient pas ses engagements pour le financement de l' UNEDIC ou qu' il ne tient pas compte des répercussions que peuvent avoir certaines mesures de politique publique d' emploi sur l' équilibre du régime .</text>
+            <annotationSet status="MANUAL" ID="24518">
+                <layer rank="1" name="FE">
+                    <label end="268" start="220" name="Cause"/>
+                    <label end="295" start="274" name="Affected"/>
+                    <label end="295" start="188" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="200" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

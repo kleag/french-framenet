@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="aveu.n" ID="2447" frame="Reveal_secret" frameID="1146" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="inf" name="Information"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Information"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Information"/>
+                <annoSet ID="2930"/>
+                <annoSet ID="8105"/>
+                <annoSet ID="17619"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2930"/>
+                <annoSet ID="4005"/>
+                <annoSet ID="8105"/>
+                <annoSet ID="17619"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2238">
+            <text>Son attitude est cependant perçue comme de l' arrogance et un aveu de culpabilité .</text>
+            <annotationSet status="MANUAL" ID="2930">
+                <layer rank="1" name="FE">
+                    <label end="80" start="70" name="Information"/>
+                    <label end="2" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3129">
+            <text>Cependant , de l' aveu même des " modernistes " , les réticences demeurent fortes à tous les niveaux de l' appareil .</text>
+            <annotationSet status="MANUAL" ID="4005">
+                <layer rank="1" name="FE">
+                    <label end="46" start="32" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5564">
+            <text>La décision du gouvernement de retirer , mardi 30 juin , son projet de loi sur la maîtrise des dépenses de santé est un nouvel aveu d' impuissance .</text>
+            <annotationSet status="MANUAL" ID="8105">
+                <layer rank="1" name="FE">
+                    <label end="145" start="135" name="Information"/>
+                    <label end="26" start="15" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13238">
+            <text>" La Chine raisonne en termes de symbole , de territoire et de contrôle ; elle veut totalement remettre la main sur la colonie et éviter dans la mesure du possible de casser l' outil économique et financier , mais pas au prix d' un aveu de faiblesse " , explique un diplomate .</text>
+            <annotationSet status="MANUAL" ID="17619">
+                <layer rank="1" name="FE">
+                    <label end="250" start="240" name="Information"/>
+                    <label end="77" start="74" name="Speaker"/>
+                    <label end="9" start="2" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="235" start="232" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17554">
+            <text>Le film l' aveu , interprété par Yves Montand , devait être projeté mercredi pour la première fois à Prague .</text>
+            <annotationSet status="MANUAL" ID="21600">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="imprévu.a" ID="633" frame="FR_Expectation" frameID="10025" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="20025"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="6593"/>
+                <annoSet ID="17332"/>
+                <annoSet ID="24616"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Phenomenon"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="6593"/>
+                <annoSet ID="17332"/>
+                <annoSet ID="20025"/>
+                <annoSet ID="24616"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="17332"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4669">
+            <text>Sur un événement imprévu , on assit les prévisions les mieux assurées et les plus optimistes .</text>
+            <annotationSet status="MANUAL" ID="6593">
+                <layer rank="1" name="FE">
+                    <label end="15" start="4" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12980">
+            <text>Elle est toute faite d' imprévus .</text>
+            <annotationSet status="MANUAL" ID="17332">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Topic"/>
+                    <label end="31" start="24" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15849">
+            <text>Après onze ans de bons et loyaux services élyséens , de secrets d' Etat , d' affaires sensibles et d' embrouilles imprévues , le directeur de cabinet de M. François Mitterrand est enfin arrivé à ses fins .</text>
+            <annotationSet status="MANUAL" ID="20025">
+                <layer rank="1" name="FE">
+                    <label end="174" start="126" name="Cognizer"/>
+                    <label end="112" start="102" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21139">
+            <text>L' élection présidentielle , qui consacrera le retour des civils au pouvoir , doit avoir lieu le 12 juin , sauf imprévu - jamais à exclure dans ce turbulent pays .</text>
+            <annotationSet status="MANUAL" ID="24616">
+                <layer rank="1" name="FE">
+                    <label end="160" start="112" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

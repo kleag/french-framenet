@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="c'est pourquoi.adv" ID="166" frame="Causation" frameID="5" totalAnnotated="14" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Cause"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="2453"/>
+            </pattern>
+            <pattern total="13">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="1791"/>
+                <annoSet ID="2037"/>
+                <annoSet ID="2070"/>
+                <annoSet ID="2504"/>
+                <annoSet ID="10848"/>
+                <annoSet ID="11840"/>
+                <annoSet ID="18317"/>
+                <annoSet ID="19565"/>
+                <annoSet ID="20404"/>
+                <annoSet ID="21115"/>
+                <annoSet ID="22198"/>
+                <annoSet ID="22314"/>
+                <annoSet ID="24122"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Effect"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="1791"/>
+                <annoSet ID="2037"/>
+                <annoSet ID="2070"/>
+                <annoSet ID="2453"/>
+                <annoSet ID="2504"/>
+                <annoSet ID="10848"/>
+                <annoSet ID="18317"/>
+                <annoSet ID="19565"/>
+                <annoSet ID="20404"/>
+                <annoSet ID="21115"/>
+                <annoSet ID="24122"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1668">
+            <text>C' est pourquoi j' attends de tout le monde , Albanais et Serbes , qu' ils laissent les troupes de la KFOR en paix .</text>
+            <annotationSet status="MANUAL" ID="1791">
+                <layer rank="1" name="FE">
+                    <label end="115" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1777">
+            <text>C' est pourquoi notre résolution demande la levée de cet embargo .</text>
+            <annotationSet status="MANUAL" ID="2037">
+                <layer rank="1" name="FE">
+                    <label end="65" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1788">
+            <text>C' est pourquoi nous ne soumettrons pas aujourd' hui cette résolution au vote .</text>
+            <annotationSet status="MANUAL" ID="2070">
+                <layer rank="1" name="FE">
+                    <label end="78" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1944">
+            <text>Selon moi , il y a bien cohérence , et c' est pourquoi j' ai décidé et fait savoir à la commission que je ne rejetais pas cet exposé des motifs .</text>
+            <annotationSet status="MANUAL" ID="2453">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Cause"/>
+                    <label end="32" start="12" name="Cause"/>
+                    <label end="142" start="55" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1968">
+            <text>C' est pourquoi nous soutenons le rapport Hatzidakis , et je tiens à féliciter le rapporteur pour sa clarté , malgré la technicité de ce dossier .</text>
+            <annotationSet status="MANUAL" ID="2504">
+                <layer rank="1" name="FE">
+                    <label end="51" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7389">
+            <text>C' est pourquoi Alonso se retrouve confiné sur 1 hectare .</text>
+            <annotationSet status="MANUAL" ID="10848">
+                <layer rank="1" name="FE">
+                    <label end="55" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8227">
+            <text>C' est pourquoi plus de la moitié des interviewés offrent une prime d' expatriation couvrant le différentiel du coût de la vie dans la majorité des cas , et que quasiment toutes les entreprises ( 96 % ) financent tout ou partie de l' impôt sur le revenu de leurs salariés à l' étranger .</text>
+            <annotationSet status="MANUAL" ID="11840">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13990">
+            <text>C' est pourquoi on ne délivrera pas de copies du casier judiciaire des personnes morales .</text>
+            <annotationSet status="MANUAL" ID="18317">
+                <layer rank="1" name="FE">
+                    <label end="87" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15296">
+            <text>C' est pourquoi les Allemands espèrent que la ville de Francfort , qui abrite déjà la banque centrale allemande - la Bundesbank - sera retenue .</text>
+            <annotationSet status="MANUAL" ID="19565">
+                <layer rank="1" name="FE">
+                    <label end="143" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16243">
+            <text>C' est pourquoi Euronews prévoit de créer une filiale outre- Rhin , afin de parvenir à une joint - venture avec les deux chaînes publiques allemandes .</text>
+            <annotationSet status="MANUAL" ID="20404">
+                <layer rank="1" name="FE">
+                    <label end="150" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16991">
+            <text>C' est pourquoi le gouvernement encouragera la mobilisation des entreprises pour animer les instances européennes , leur permettra de mieux défendre leurs atouts et accompagnera les actions des laboratoires d' essais et des organismes certificateurs pour s' adapter au cadre européen .</text>
+            <annotationSet status="MANUAL" ID="21115">
+                <layer rank="1" name="FE">
+                    <label end="284" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18164">
+            <text>C' est pourquoi ils préfèrent ne pas définir trop précisément les compétences de la nouvelle institution .</text>
+            <annotationSet status="MANUAL" ID="22198">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18259">
+            <text>C' est pourquoi nous poursuivrons nos efforts pour que se rassemblent celles et ceux qui ont construit ce parti avec François Mitterrand , celles et ceux qui y sont venus dans les années récentes sur la base des grandes directions indiquées par l' homme qui restera dans notre histoire contemporaine comme celui qui a ramené durablement les socialistes au pouvoir et qui a besoin pour la suite de son second septennat d' un parti dynamique , cohérent , digne des grandes ambitions nationales et internationales dont lui - même est porteur pour la France .</text>
+            <annotationSet status="MANUAL" ID="22314">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20404">
+            <text>C' est sans doute pourquoi M. Hervé Bourges , leur PDG commun , s' emploie à allumer des contre - feux .</text>
+            <annotationSet status="MANUAL" ID="24122">
+                <layer rank="1" name="FE">
+                    <label end="101" start="27" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                    <label end="25" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

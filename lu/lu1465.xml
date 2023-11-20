@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="communication.n" ID="1465" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Addressee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="6818"/>
+                <annoSet ID="11058"/>
+                <annoSet ID="21096"/>
+                <annoSet ID="21097"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="5052"/>
+                <annoSet ID="6818"/>
+                <annoSet ID="21096"/>
+                <annoSet ID="21097"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Topic"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="5052"/>
+                <annoSet ID="6818"/>
+                <annoSet ID="21096"/>
+                <annoSet ID="21097"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3707">
+            <text>Mme Edith Cresson , premier ministre , et M. Michel Delebarre , ministre d' état chargé de la ville et de l' aménagement du territoire , ont fait , le 3 janvier au conseil des ministres , une communication sur la politique de transfert des services publics , vigoureusement relancée lors des comités interministériels des 3 octobre et 7 novembre 1991 .</text>
+            <annotationSet status="MANUAL" ID="5052">
+                <layer rank="1" name="FE">
+                    <label end="349" start="210" name="Topic"/>
+                    <label end="133" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="204" start="192" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4791">
+            <text>MM. Jack Lang , ministre de la culture , et Jean - Yves Le Drian , secrétaire d' Etat à la mer , ont fait à ce sujet une communication au conseil des ministres du 15 janvier .</text>
+            <annotationSet status="MANUAL" ID="6818">
+                <layer rank="1" name="FE">
+                    <label end="115" start="108" name="Topic"/>
+                    <label end="172" start="138" name="Addressee"/>
+                    <label end="93" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="121" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6072">
+            <text>D' ici à 1995 , Northern Telecom bénéficiera néanmoins des mêmes pouvoirs que si elle détenait dès aujourd' hui 39 % du capital de Matra Communication , car le prêt est affecté non pas à Matra Communication directement mais à une société en commandite par actions , détenue conjointement avec Matra .</text>
+            <annotationSet status="MANUAL" ID="9025">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="205" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7605">
+            <text>Le conseil des ministres a ensuite adopté une ordonnance étendant à la collectivité territoriale de Mayotte le livre du code rural intitulé " Des animaux et des végétaux " et entendu deux communications , l' une de M. Hubert Curien , sur la recherche fondamentale , l' autre de M. Jacques Mellick , sur la réorganisation des réserves de l' armée française .</text>
+            <annotationSet status="MANUAL" ID="11058">
+                <layer rank="1" name="FE">
+                    <label end="23" start="0" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="201" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16976">
+            <text>Le ministre d' état , ministre de l' économie , des finances et du budget a présenté au conseil des ministres une communication sur la politique monétaire en 1990 ( le monde du 18 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="21096">
+                <layer rank="1" name="FE">
+                    <label end="161" start="132" name="Topic"/>
+                    <label end="108" start="88" name="Addressee"/>
+                    <label end="72" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16977">
+            <text>Le ministre de l' industrie et de l' aménagement du territoire a présenté au conseil des ministres une communication sur les orientations de la politique des normes .</text>
+            <annotationSet status="MANUAL" ID="21097">
+                <layer rank="1" name="FE">
+                    <label end="163" start="121" name="Topic"/>
+                    <label end="97" start="77" name="Addressee"/>
+                    <label end="61" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17058">
+            <text>C' est par exemple le cas des entreprises de travaux publics ou de Mr Robert Hersant qui a embauché Mr Bertrand Delcros , ancien directeur juridique de la commission nationale de la communication et des libertés ( CNCL ) et ancien membre du cabinet de Mme Catherine Tasca , secrétaire d' état chargé de la communication .</text>
+            <annotationSet status="MANUAL" ID="21178">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="318" start="306" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

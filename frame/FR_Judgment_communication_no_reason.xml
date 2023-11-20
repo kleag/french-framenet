@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Judgment_communication_no_reason" ID="10081" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication,Judgment_evaluation">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Communicator&lt;/fen&gt; communicates a judgment of an &lt;fen&gt;Evaluee&lt;/fen&gt; to an &lt;fen&gt;Addressee&lt;/fen&gt; (which though cannot be locally expressed). The judgment may be positive (e.g. &lt;ment&gt;praise&lt;/ment&gt;) or negative (e.g. &lt;ment&gt;criticize&lt;/ment&gt;), and this is indicated by the semantic types Positive and Negative attached to the lexical units. This frame does not contain words where &lt;fen&gt;Evaluee&lt;/fen&gt; and the &lt;fen&gt;Addressee&lt;/fen&gt; are necessarily the same . 
+&lt;ex&gt;&lt;fex name="Com"&gt;I&lt;/fex&gt; &lt;t&gt;commended&lt;/t&gt; &lt;fex name="Evaluee"&gt;his handling of the crisis&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Com"&gt;Gaston&lt;/fex&gt; &lt;t&gt;denounced&lt;/t&gt; &lt;fex name="Evaluee"&gt;him&lt;/fex&gt; &lt;fex name="Addressee"&gt;to the committee&lt;/fex&gt;.&lt;/ex&gt;
+This is distinct from the Judgment frame in that it involves the communication of an evaluation, rather than merely forming and holding a particular evaluation.&lt;
+&lt;ex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;Judgment&lt;/frframe&gt;: Judgment_communication_no_reason only includes FEEs that can include the meaning of the Communicator's judgment on the Evaluee being communicated to an Addressee (although the Adressee cannot be locally expressed) whereas Judgment includes FEEs that cannot, and all its annotations are of cognitive-only instances of Judgment.
+&lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;FR_Judgment_communication&lt;/frframe&gt;: FR_Judgment_communication only includes FEEs that subcategorize for a Reason for the Communicator's judgment on the Evaluee.
+&lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;FR_Taking_sides&lt;/frframe&gt;: FR_Taking_sides is about a Cognizer mentally accepting or refusing some Content's (or some Side's) legitimacy, and potentially verbalizing that stance, whereas the Judgment frames are about assessing the Evaluee's value as positive or negative, and in the case of FR_Judgment_communication verbalizing it. Moreover, the Judgment frames' Evaluee can be a sentient being, whereas that is not the case for every FEE in FR_Taking_sides. Another difference is that for each FEE of FR_Judgment_communication, a Reason can be expressed locally on top of the Evaluee (blame Evaluee for Reason) whereas FR_Taking_sides' FEEs do not allow for that Reason to be locally expressed, and thus no Reason FE is needed for that frame.
+    
+        &lt;ex&gt; &lt;/ex&gt;
+≠ &lt;frframe&gt;Complaining&lt;/frframe&gt;: The FR_Judgment_communication and FR_Judgment_communication_no_reason frames are about assessing and verbalizing the Evaluee's value as positive or negative, whereas Complaining is about expressing one's discontent with a state of affairs.
+    
+    &lt;ex&gt; &lt;/ex&gt;
+        &lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : see &lt;frframe&gt;FR_Judgment_communication&lt;/frframe&gt;.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/29/2001 05:22:16 PDT Wed" abbrev="Com" name="Communicator" ID="1771">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Communicator&lt;/fen&gt; uses language in the written or spoken modality to convey his or her evaluation of the &lt;fen&gt;Evaluee&lt;/fen&gt;to another person. 
+&lt;ex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="FFFF00" fgColor="000000" coreType="Core" cBy="664" cDate="08/29/2001 05:22:16 PDT Wed" abbrev="Medium" name="Medium" ID="1772">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Medium&lt;/fen&gt; identifies the physical or abstract setting in which the evaluation is conveyed. 
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+<!--    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/29/2001 05:22:16 PDT Wed" abbrev="Top" name="Topic" ID="1774">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Topic&lt;/fen&gt; identifies the entity to which the proposition or propositions conveyed relate. 
+&lt;ex&gt;Jon &lt;t&gt;criticized&lt;/t&gt; Madie &lt;fex name="Topic"&gt;about her managerial style&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+-->
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/29/2001 05:27:13 PDT Wed" abbrev="Eval" name="Evaluee" ID="1777">
+        <definition>&lt;def-root&gt;A judgment is made about the &lt;fen&gt;Evaluee&lt;/fen&gt;  With verbs this FE is typically expressed as Object: 
+&lt;ex&gt;Jon &lt;t&gt;belittled&lt;/t&gt; &lt;fex name="Eval"&gt;Madie&lt;/fex&gt; to her colleagues.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/29/2001 05:27:13 PDT Wed" abbrev="Exr" name="Expressor" ID="1778">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Expressor&lt;/fen&gt; is the body part or action by a body part that conveys the judgment made by the &lt;fen&gt;Communicator&lt;/fen&gt;. 
+&lt;ex&gt;She viewed him with a &lt;t&gt;critical&lt;/t&gt; &lt;fex name="Expressor"&gt;gaze&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <excludesFE name="Communicator" ID="1771"/>
+    </FE>
+        <FE bgColor="8080FF" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/17/2001 03:05:17 PDT Tue" abbrev="" name="Message" ID="4879">
+        <definition>&lt;def-root&gt;The judgment on the &lt;fen&gt;Evaluee&lt;/fen&gt; expressed by the &lt;fen&gt;Communicator&lt;/fen&gt; &lt;/def-root&gt;</definition>
+    </FE>
+
+    <FEcoreSet>
+        <memberFE name="Expressor" ID="1778"/>
+        <memberFE name="Communicator" ID="1771"/>
+        <memberFE name="Medium" ID="1772"/>
+    </FEcoreSet>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Judgment_communication</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Judgment_communication</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="malédiction.n" ID="2676" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="102109" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="médire.v" ID="1955" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="médisance.n" ID="1956" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="médisant.a" ID="1957" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

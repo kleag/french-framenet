@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Remembering_to_do" ID="1221" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; thinks of and performs an &lt;fen&gt;Action&lt;/fen&gt; that is a self- or other-imposed task or some other kind of desirable behavior. The &lt;fen&gt;Action&lt;/fen&gt; may involve a &lt;fen&gt;Salient_entity&lt;/fen&gt; in some way affected by the &lt;fen&gt;Cognizer&lt;/fen&gt;. If a &lt;fen&gt;Salient_entity&lt;/fen&gt; is mentioned, the &lt;fen&gt;Action&lt;/fen&gt; is left unexpressed.
+
+
+&lt;ex&gt;You invited everybody but you &lt;t&gt;forgot&lt;/t&gt; &lt;fex name="sal"&gt;Harry&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;Thank God &lt;fex name="cog"&gt;Smithers&lt;/fex&gt; &lt;t&gt;remembered&lt;/t&gt; &lt;fex name="act"&gt;to return the video.&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;If you &lt;t&gt;forget&lt;/t&gt; &lt;fex name="sal"&gt;your textbook&lt;/fex&gt; and there is an assignment to be done, the highest grade you will receive on the work is aC (70%).&lt;/ex&gt;
+
+&lt;ex&gt;Did &lt;fex name="cog"&gt;you&lt;/fex&gt; &lt;t&gt;remember&lt;/t&gt; &lt;fex name="sal"&gt;about the letter&lt;/fex&gt;?&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/22/2004 05:22:16 PDT Wed" abbrev="cog" name="Cognizer" ID="7104">
+        <definition>&lt;def-root&gt;The person who thinks of or fails to think of an obligatory or desireable &lt;fen&gt;Action&lt;/fen&gt;.
+
+&lt;ex&gt;.&lt;fex name="cog"&gt;Alex and Zach Swindle&lt;/fex&gt;, Centre, visited their brother in San Francisco in June and &lt;t&gt;remembered&lt;/t&gt; to take along a copy of The Post&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/22/2004 05:33:54 PDT Wed" abbrev="act" name="Action" ID="7105">
+        <definition>&lt;def-root&gt;An &lt;fen&gt;Action&lt;/fen&gt; that the &lt;fen&gt;Cognizer&lt;/fen&gt; is supposed to carry out. This may be a Task imposed specifically on the &lt;fen&gt;Cognizer&lt;/fen&gt; or it may be self- or socially imposed.
+
+&lt;ex&gt;This time we &lt;t&gt;remembered&lt;/t&gt; &lt;fex name="act"&gt;to turn the gas off before leaving&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/22/2004 05:40:38 PDT Wed" abbrev="sal" name="Salient_entity" ID="7107">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Salient_entity&lt;/fen&gt; is a person or thing that the &lt;fen&gt;Cognizer&lt;/fen&gt; needs to affect or effect when carrying out the &lt;fen&gt;Action&lt;/fen&gt;.
+
+&lt;ex&gt;We piled into the taxi and right when we were about to leave, I realized we &lt;t&gt;forgot&lt;/t&gt; &lt;fex name="sal"&gt;the video camera&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <excludesFE name="Action" ID="7105"/>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Remembering</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="oublier.v" ID="2330" nbocc="64" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="101310" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Memory-Remembering_experience-Remembering_information" ID="1337" annotatedsent="50"/>
+    </lexUnit>
+    <lexUnit POS="v" name="penser.v" ID="2331" nbocc="105" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="828" annotatedsent="84"/>
+        <otherlexUnit framename="Other_sense" ID="101359" annotatedsent="13"/>
+        <otherlexUnit framename="Regard" ID="2319" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se rappeler.v" ID="2332" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101790" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Memory-Remembering_experience-Remembering_information" ID="1340" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se souvenir.v" ID="2333" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101804" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Memory-Remembering_experience-Remembering_information" ID="1343" annotatedsent="16"/>
+    </lexUnit>
+    <lexUnit POS="v" name="songer.v" ID="2334" nbocc="13" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Purpose" ID="2750" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="101834" annotatedsent="13"/>
+    </lexUnit>
+</frame>

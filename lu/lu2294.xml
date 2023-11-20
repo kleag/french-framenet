@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="inspirer.v" ID="2294" frame="FR_Reason" frameID="10083" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Action"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="6529"/>
+                <annoSet ID="6590"/>
+                <annoSet ID="11914"/>
+                <annoSet ID="15572"/>
+                <annoSet ID="22119"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Agent"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="6529"/>
+                <annoSet ID="11914"/>
+                <annoSet ID="22119"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="6590"/>
+                <annoSet ID="15572"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="State_of_Affairs"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="6529"/>
+                <annoSet ID="6590"/>
+                <annoSet ID="11914"/>
+                <annoSet ID="15572"/>
+                <annoSet ID="22119"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4621">
+            <text>Toutefois , la télévision - qui reste le premier média d' information en France , compte tenu du faible taux de lecture de la presse quotidienne - est la source d' information qui inspire le plus confiance à 41 % des personnes interrogées , tandis que 20 % font confiance à la radio et aux quotidiens , et 10 % aux hebdomadaires et magazines .</text>
+            <annotationSet status="MANUAL" ID="6529">
+                <layer rank="1" name="FE">
+                    <label end="204" start="196" name="Action"/>
+                    <label end="178" start="176" name="State_of_Affairs"/>
+                    <label end="237" start="151" name="State_of_Affairs"/>
+                    <label end="237" start="208" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="180" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4668">
+            <text>Personne n' a encore expliqué pourquoi la reprise inopinée des années 1986 à 1989 inspira vite une grande confiance .</text>
+            <annotationSet status="MANUAL" ID="6590">
+                <layer rank="1" name="FE">
+                    <label end="114" start="95" name="Action"/>
+                    <label end="80" start="39" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8302">
+            <text>C' est lui qui , inspiré par les beaux yeux d' une femme de chambre , avait fait adopter en 1936 une loi sur la rémunération au pourcentage du personnel hôtelier " ayant contact avec la clientèle " , qui se partageait ainsi 15 % du chiffre d' affaires , les autres salariés étant payés au fixe .</text>
+            <annotationSet status="MANUAL" ID="11914">
+                <layer rank="1" name="FE">
+                    <label end="15" start="11" name="Action"/>
+                    <label end="292" start="68" name="Action"/>
+                    <label end="13" start="11" name="Agent"/>
+                    <label end="66" start="29" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11284">
+            <text>Mais ce sont les nouveaux Etats indépendants de l' ex- Union soviétique qui inspirent le plus d' inquiétude puisque leur production industrielle continue de baisser et que l' inflation empêche tout effort de réorganisation .</text>
+            <annotationSet status="MANUAL" ID="15572">
+                <layer rank="1" name="FE">
+                    <label end="106" start="86" name="Action"/>
+                    <label end="74" start="72" name="State_of_Affairs"/>
+                    <label end="106" start="13" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18068">
+            <text>Passé les premiers enthousiasmes , la fluidité de la situation doit cependant nous inspirer quelque retenue .</text>
+            <annotationSet status="MANUAL" ID="22119">
+                <layer rank="1" name="FE">
+                    <label end="106" start="92" name="Action"/>
+                    <label end="81" start="78" name="Agent"/>
+                    <label end="61" start="35" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

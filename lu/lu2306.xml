@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="soulever.v" ID="2306" frame="FR_Reason" frameID="10083" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="8">
+            <FE name="Action"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="8926"/>
+                <annoSet ID="9454"/>
+                <annoSet ID="9985"/>
+                <annoSet ID="10352"/>
+                <annoSet ID="13362"/>
+                <annoSet ID="18813"/>
+                <annoSet ID="19101"/>
+                <annoSet ID="20734"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Actor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="9454"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Agent"/>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="8926"/>
+                <annoSet ID="9985"/>
+                <annoSet ID="10352"/>
+                <annoSet ID="13362"/>
+                <annoSet ID="18813"/>
+                <annoSet ID="19101"/>
+                <annoSet ID="20734"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="State_of_Affairs"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="8926"/>
+                <annoSet ID="9454"/>
+                <annoSet ID="9985"/>
+                <annoSet ID="10352"/>
+                <annoSet ID="13362"/>
+                <annoSet ID="18813"/>
+                <annoSet ID="19101"/>
+                <annoSet ID="20734"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6030">
+            <text>Devant la forte opposition que soulève au Congrès - et dans l' administration - la reprise par Thomson - CSF des activités aéronautiques et de missiles de la firme américaine LTV ( le monde du 20 juin ) , pourtant approuvée en avril par le tribunal des faillites de New - York , le groupe français avait annoncé , fin juin à Washington , qu' il envisageait de modifier le montage proposé pour ce qui constituerait , s' il était approuvé par la Maison Blanche , le premier rachat par un groupe étranger d' une entreprise américaine étroitement liée au Pentagone .</text>
+            <annotationSet status="MANUAL" ID="8926">
+                <layer rank="1" name="FE">
+                    <label end="29" start="27" name="Action"/>
+                    <label end="275" start="7" name="Action"/>
+                    <label end="275" start="80" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6327">
+            <text>Le ministre des affaires sociales , M. Norbert Blum , a soulevé un tollé avec ce Karenztag .</text>
+            <annotationSet status="MANUAL" ID="9454">
+                <layer rank="1" name="FE">
+                    <label end="71" start="64" name="Action"/>
+                    <label end="89" start="78" name="State_of_Affairs"/>
+                    <label end="50" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6707">
+            <text>Ces nouvelles dispositions , qui marquent de façon radicale l' abandon des options antérieures de l' Algérie , ont soulevé de nombreuses réactions à l' intérieur du pays .</text>
+            <annotationSet status="MANUAL" ID="9985">
+                <layer rank="1" name="FE">
+                    <label end="145" start="123" name="Action"/>
+                    <label end="107" start="0" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6990">
+            <text>Malgré les critiques qu' elle a soulevée , la contribution sociale généralisée ( CSG ) a accentué le pouvoir d' achat des smicards ( 2 , 1 % ) et , plus généralement , ses effets redistributifs ont permis aux ouvriers et employés d' obtenir une amélioration de leur rémunération , exprimée en termes réels , supérieure à celle des cadres et techniciens .</text>
+            <annotationSet status="MANUAL" ID="10352">
+                <layer rank="1" name="FE">
+                    <label end="39" start="7" name="Action"/>
+                    <label end="23" start="21" name="Action"/>
+                    <label end="28" start="25" name="State_of_Affairs"/>
+                    <label end="85" start="43" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9459">
+            <text>Prise dans la perspective d' une privatisation des charbonnages britanniques , la mesure souleva une telle hostilité que le gouvernement de John Major fut contraint de faire machine arrière .</text>
+            <annotationSet status="MANUAL" ID="13362">
+                <layer rank="1" name="FE">
+                    <label end="115" start="97" name="Action"/>
+                    <label end="87" start="79" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14501">
+            <text>Un schéma qui ne soulève pas vraiment d' enthousiasme d' un côté comme de l' autre .</text>
+            <annotationSet status="MANUAL" ID="18813">
+                <layer rank="1" name="FE">
+                    <label end="81" start="38" name="Action"/>
+                    <label end="12" start="10" name="State_of_Affairs"/>
+                    <label end="8" start="3" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14821">
+            <text>Je trouve peu compréhensible le contraste qui règne entre l' acceptation générale des formules de temps partiel ( même si elles sont insuffisamment développées ) et les réticences patronales ou syndicales que soulève l' évocation du " partage du travail " .</text>
+            <annotationSet status="MANUAL" ID="19101">
+                <layer rank="1" name="FE">
+                    <label end="254" start="165" name="Action"/>
+                    <label end="207" start="205" name="Action"/>
+                    <label end="254" start="217" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="215" start="209" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16552">
+            <text>Cette décision a soulevé une levée de boucliers dans l' ensemble du pays .</text>
+            <annotationSet status="MANUAL" ID="20734">
+                <layer rank="1" name="FE">
+                    <label end="46" start="25" name="Action"/>
+                    <label end="13" start="0" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

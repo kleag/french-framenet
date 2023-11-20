@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prendre le parti.v" ID="415" frame="FR_Deciding" frameID="10017" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Dec" name="Decision"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="6212"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Decision"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Decision"/>
+                <annoSet ID="6212"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4413">
+            <text>Nous avons alors pris le parti de procéder à des négociations bilatérales avec RVI .</text>
+            <annotationSet status="MANUAL" ID="6212">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Cognizer"/>
+                    <label end="3" start="0" name="Decision"/>
+                    <label end="81" start="34" name="Decision"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

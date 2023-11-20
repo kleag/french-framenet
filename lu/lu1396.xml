@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="montrer.v" ID="1396" frame="FR_Proving" frameID="10048" totalAnnotated="20" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Persuader" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Addressee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="8446"/>
+                <annoSet ID="20861"/>
+                <annoSet ID="20870"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Content"/>
+            <pattern total="20">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="1370"/>
+                <annoSet ID="1380"/>
+                <annoSet ID="7241"/>
+                <annoSet ID="7787"/>
+                <annoSet ID="8446"/>
+                <annoSet ID="8837"/>
+                <annoSet ID="9837"/>
+                <annoSet ID="11079"/>
+                <annoSet ID="11865"/>
+                <annoSet ID="16974"/>
+                <annoSet ID="17935"/>
+                <annoSet ID="18355"/>
+                <annoSet ID="18758"/>
+                <annoSet ID="20787"/>
+                <annoSet ID="20861"/>
+                <annoSet ID="20870"/>
+                <annoSet ID="21859"/>
+                <annoSet ID="22744"/>
+                <annoSet ID="23126"/>
+                <annoSet ID="23251"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Medium"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="7241"/>
+                <annoSet ID="7787"/>
+                <annoSet ID="11079"/>
+                <annoSet ID="18758"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Persuader"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="7787"/>
+                <annoSet ID="8446"/>
+                <annoSet ID="8837"/>
+                <annoSet ID="9837"/>
+                <annoSet ID="16974"/>
+                <annoSet ID="17935"/>
+                <annoSet ID="18758"/>
+                <annoSet ID="20787"/>
+                <annoSet ID="20861"/>
+                <annoSet ID="20870"/>
+                <annoSet ID="21859"/>
+                <annoSet ID="22744"/>
+                <annoSet ID="23126"/>
+                <annoSet ID="23251"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="1370"/>
+                <annoSet ID="1380"/>
+                <annoSet ID="7241"/>
+                <annoSet ID="11079"/>
+                <annoSet ID="11865"/>
+                <annoSet ID="18355"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1366">
+            <text>Cette étude n' était pas conçue pour montrer une différence significative sur les fractures de hanche mais une réduction sur les nouvelles fractures de hanche a été observée .</text>
+            <annotationSet status="MANUAL" ID="1370">
+                <layer rank="1" name="FE">
+                    <label end="100" start="37" name="Content"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1376">
+            <text>L' étude n' était pas conçue pour montrer une réduction sur les fractures cliniques chez les hommes ;</text>
+            <annotationSet status="MANUAL" ID="1380">
+                <layer rank="1" name="FE">
+                    <label end="98" start="42" name="Content"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5012">
+            <text>Deux ouvrages montrent comment l' automatisation et l' emploi rémunéré des femmes ont , en quelques décennies , changé le monde du travail</text>
+            <annotationSet status="MANUAL" ID="7241">
+                <layer rank="1" name="FE">
+                    <label end="137" start="23" name="Content"/>
+                    <label end="12" start="0" name="Medium"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5372">
+            <text>En dépit de progrès notables , cette dernière , comme le montre un rapport du patronat britannique , la Confederation of British Industry ( CBI ) , est inférieure de 35 % à ce qu' elle est en Allemagne .</text>
+            <annotationSet status="MANUAL" ID="7787">
+                <layer rank="1" name="FE">
+                    <label end="55" start="54" name="Content"/>
+                    <label end="44" start="31" name="Content"/>
+                    <label end="200" start="148" name="Content"/>
+                    <label end="144" start="78" name="Persuader"/>
+                    <label end="144" start="64" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5736">
+            <text>M. Waigel a présenté son budget 1993 une semaine avant la date traditionnelle , afin de montrer à ses partenaires du G7 , ce week - end à Munich , comment l' Allemagne a viré de bord .</text>
+            <annotationSet status="MANUAL" ID="8446">
+                <layer rank="1" name="FE">
+                    <label end="181" start="147" name="Content"/>
+                    <label end="8" start="0" name="Persuader"/>
+                    <label end="118" start="98" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5966">
+            <text>Alors , en attendant " que les choses changent , il nous faut , insiste M. Kopchinsky , montrer que nous , autorité de sûreté , sommes capables de faire fonctionner nos centrales nucléaires sans incident " .</text>
+            <annotationSet status="MANUAL" ID="8837">
+                <layer rank="1" name="FE">
+                    <label end="204" start="100" name="Content"/>
+                    <label end="55" start="52" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6592">
+            <text>Les élus n' oublient pas de rappeler , pour montrer qu' ils ont acquis , en quelque sorte , le droit d' intervenir dans ce domaine , que leur assemblée a eu dans son histoire " une action déterminante pour permettre à RFP d' émettre sur l' ensemble du territoire régional " .</text>
+            <annotationSet status="MANUAL" ID="9837">
+                <layer rank="1" name="FE">
+                    <label end="129" start="56" name="Content"/>
+                    <label end="7" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7626">
+            <text>La lecture est passionnante parce qu' il montre à quel point la culture profonde américaine conduit vis - à - vis de la revendication sociale à un tout autre processus qu' en Europe .</text>
+            <annotationSet status="MANUAL" ID="11079">
+                <layer rank="1" name="FE">
+                    <label end="180" start="48" name="Content"/>
+                    <label end="39" start="38" name="Medium"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8253">
+            <text>L' étude a permis de montrer que si quatre cinquièmes des entreprises déclarent avoir une politique d' expatriation , c' est faux en réalité .</text>
+            <annotationSet status="MANUAL" ID="11865">
+                <layer rank="1" name="FE">
+                    <label end="139" start="33" name="Content"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12625">
+            <text>" Après avoir hésité , nous avons voulu montrer que nous étions capables aussi de faire des offres promotionnelles " , a indiqué , le 30 décembre un porte - parole de la compagnie nationale .</text>
+            <annotationSet status="MANUAL" ID="16974">
+                <layer rank="1" name="FE">
+                    <label end="113" start="52" name="Content"/>
+                    <label end="26" start="23" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13611">
+            <text>L' auteur montre les limites de la théorie , sans tomber dans un extrémisme critique , qui s' opposerait précisément à l' extrémisme du prix Nobel Becker , qui réputait tout domaine de la vie sociale analysable en termes de " coûts - bénéfices " .</text>
+            <annotationSet status="MANUAL" ID="17935">
+                <layer rank="1" name="FE">
+                    <label end="41" start="17" name="Content"/>
+                    <label end="8" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14026">
+            <text>D' où les tentatives pour montrer en quoi le Vieux Continent a besoin du monde noir .</text>
+            <annotationSet status="MANUAL" ID="18355">
+                <layer rank="1" name="FE">
+                    <label end="82" start="34" name="Content"/>
+                    <label itype="DNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14443">
+            <text>Jean Arthuis , sénateur ( Union centriste ) de la Mayenne , devait remettre jeudi 3 juin , au premier ministre , un rapport montrant à la fois l' engrenage inexorable conduisant à un transfert de plus en plus massif d' activités , et chiffrant de trois à cinq millions le nombre des emplois menacés en Europe .</text>
+            <annotationSet status="MANUAL" ID="18758">
+                <layer rank="1" name="FE">
+                    <label end="227" start="143" name="Content"/>
+                    <label end="56" start="0" name="Persuader"/>
+                    <label end="122" start="113" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16580">
+            <text>L' opinion s' est aperçue que le SED continuait à dominer les médias , qu' il dispose pour la campagne électorale d' un appareil encore omniprésent , que le gouvernement Modrow était encore loin d' avoir montré sa capacité à mettre en oeuvre les réformes promises , notamment sur le plan économique .</text>
+            <annotationSet status="MANUAL" ID="20787">
+                <layer rank="1" name="FE">
+                    <label end="297" start="211" name="Content"/>
+                    <label end="175" start="154" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="204" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16687">
+            <text>On montre ainsi aux enseignants et aux étudiants qu' on répond aux exigences du présent et qu' on prépare l' avenir .</text>
+            <annotationSet status="MANUAL" ID="20861">
+                <layer rank="1" name="FE">
+                    <label end="89" start="53" name="Content"/>
+                    <label end="114" start="95" name="Content"/>
+                    <label end="1" start="0" name="Persuader"/>
+                    <label end="33" start="20" name="Addressee"/>
+                    <label end="47" start="39" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16703">
+            <text>Il faut leur montrer qu' on commence et qu' on est prêt à poursuivre à un rythme accru .</text>
+            <annotationSet status="MANUAL" ID="20870">
+                <layer rank="1" name="FE">
+                    <label end="38" start="25" name="Content"/>
+                    <label end="85" start="44" name="Content"/>
+                    <label end="26" start="25" name="Persuader"/>
+                    <label end="11" start="8" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17782">
+            <text>Le ministre de la santé montre ainsi qu' il a retenu la leçon de la grève des infirmières de l' automne 1988 .</text>
+            <annotationSet status="MANUAL" ID="21859">
+                <layer rank="1" name="FE">
+                    <label end="107" start="41" name="Content"/>
+                    <label end="22" start="0" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18626">
+            <text>En annonçant un débat national sur les modalités de sécession , le dirigeant soviétique a probablement voulu montrer que cette volonté de renouveau n' était pas un vain mot .</text>
+            <annotationSet status="MANUAL" ID="22744">
+                <layer rank="1" name="FE">
+                    <label end="171" start="121" name="Content"/>
+                    <label end="86" start="64" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19138">
+            <text>Dommage pour Evgueni Kissine , le prodige moscovite de dix - huit ans , de n' avoir eu qu' un noir brouet pour montrer ses dons exceptionnels .</text>
+            <annotationSet status="MANUAL" ID="23126">
+                <layer rank="1" name="FE">
+                    <label end="140" start="119" name="Content"/>
+                    <label end="68" start="13" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19279">
+            <text>Représentés par leur Institut au commerce extérieur , les Italiens ( 75 exposants , 200 produits ) ont sans doute une avance dans ce domaine , montrant ici qu' ils savent mêler confort et créativité , tels Massimo , Iosa Ghini et son " sofa - boomerang " ( Design Gallery ) .</text>
+            <annotationSet status="MANUAL" ID="23251">
+                <layer rank="1" name="FE">
+                    <label end="197" start="160" name="Content"/>
+                    <label end="97" start="54" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

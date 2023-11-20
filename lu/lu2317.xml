@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="juger.v" ID="2317" frame="Regard" frameID="1400" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="eva" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="rea" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="rol" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="jud" name="Judgment"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="6467"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="7885"/>
+                <annoSet ID="7906"/>
+                <annoSet ID="7976"/>
+                <annoSet ID="19559"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Evaluee"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="6467"/>
+                <annoSet ID="7885"/>
+                <annoSet ID="7906"/>
+                <annoSet ID="7976"/>
+                <annoSet ID="19559"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Judgment"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Judgment"/>
+                <annoSet ID="6467"/>
+                <annoSet ID="7976"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Judgment"/>
+                <annoSet ID="7885"/>
+                <annoSet ID="7906"/>
+                <annoSet ID="19559"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4575">
+            <text>" Encore faudrait -il que les adultes prennent le temps de pénétrer dans leur univers , s' intéressent aux personnages idéalisés , rassurent quand il y a lieu , expliquent , admirent " , estime Anne - Marie Meisonnier qui juge sévèrement la démission des parents et leur parfaite ignorance de l' univers des enfants construit par la télé .</text>
+            <annotationSet status="MANUAL" ID="6467">
+                <layer rank="1" name="FE">
+                    <label end="336" start="194" name="Cognizer"/>
+                    <label end="220" start="218" name="Cognizer"/>
+                    <label end="236" start="227" name="Judgment"/>
+                    <label end="336" start="238" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="225" start="222" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5428">
+            <text>Elle confirme surtout une évolution de la perception du rôle de l' entreprise et de ses dirigeants - vus il y a onze ans comme autant des lieux de résistance à la volonté de changement , jugés davantage aujourd' hui en raison de leur stratégie , de leur efficacité et de leur compétitivité .</text>
+            <annotationSet status="MANUAL" ID="7885">
+                <layer rank="1" name="FE">
+                    <label end="79" start="64" name="Evaluee"/>
+                    <label end="97" start="84" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Judgment"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5444">
+            <text>M. Gomez , engagé lui aussi dans une difficile mutation , a -t-il été jugé sur les mêmes critères ?</text>
+            <annotationSet status="MANUAL" ID="7906">
+                <layer rank="1" name="FE">
+                    <label end="54" start="0" name="Evaluee"/>
+                    <label end="64" start="60" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Judgment"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5478">
+            <text>Le départ de M. Moulard , dont le professionnalisme n' est pas en cause ( il a , en vingt - huit mois , réussi à réduire de 25 % , sans licenciements , des effectifs excédentaires ) , est sévèrement jugé à Lyon , où l'on dénonce une " agression " de Paris .</text>
+            <annotationSet status="MANUAL" ID="7976">
+                <layer rank="1" name="FE">
+                    <label end="197" start="188" name="Judgment"/>
+                    <label end="180" start="0" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="199" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15291">
+            <text>Par exemple , un texte sévère d' UIMM actualités , daté du 25 mai , ne peut pas être utilisé pour juger d' une réunion du 7 juin , à l' époque non programmée .</text>
+            <annotationSet status="MANUAL" ID="19559">
+                <layer rank="1" name="FE">
+                    <label end="156" start="107" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Judgment"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

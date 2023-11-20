@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="encaisser.v" ID="1125" frame="FR_Getting_money" frameID="10031" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gtr" name="Getter"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Getter"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Getter"/>
+                <annoSet ID="8280"/>
+                <annoSet ID="15641"/>
+                <annoSet ID="17564"/>
+                <annoSet ID="19205"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Getter"/>
+                <annoSet ID="16945"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Giver"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Money"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="8280"/>
+                <annoSet ID="15641"/>
+                <annoSet ID="16945"/>
+                <annoSet ID="19205"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="17564"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5649">
+            <text>Et la lumière brutale , jetée par les récents scandales de Milan , sur la gestion des fonds publics , et les pots - de - vins encaissés par presque tous les partis , n' était guère flatteuse pour la " partitocratie " qui depuis la dernière guerre a mis le pays en coupe réglée , au nom de la " lottizzazione " , c' est - à - dire , pour parler crûment , le " partage du gâteau " .</text>
+            <annotationSet status="MANUAL" ID="8280">
+                <layer rank="1" name="FE">
+                    <label end="124" start="105" name="Money"/>
+                    <label end="162" start="140" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11338">
+            <text>Ce dernier fut l' objet d' une attaque d' une rare violence , la spéculation utilisant l' équivalent de 160 milliards de francs pour tenter d' obtenir son " décrochement " du système monétaire européen , afin d' encaisser un confortable bénéfice de change au passage .</text>
+            <annotationSet status="MANUAL" ID="15641">
+                <layer rank="1" name="FE">
+                    <label end="254" start="222" name="Money"/>
+                    <label end="75" start="62" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="220" start="212" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12582">
+            <text>Cette même année record , la recette de TVA encaissée s' est montée à 1 , 858 milliard de francs .</text>
+            <annotationSet status="MANUAL" ID="16945">
+                <layer rank="1" name="FE">
+                    <label end="42" start="26" name="Money"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13178">
+            <text>" Difficile de ne faire que de la fève toute l' année car on n' encaisse qu' une fois par an .</text>
+            <annotationSet status="MANUAL" ID="17564">
+                <layer rank="1" name="FE">
+                    <label end="59" start="58" name="Getter"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14919">
+            <text>L' idée de base était de permettre aux porteurs de parts de ces fonds d' encaisser sur quelques mois seulement des coupons détachés , certes , annuellement , mais calculés et comptabilisés prorata temporis , c' est - à - dire en fonction de la durée de détention des parts de fonds .</text>
+            <annotationSet status="MANUAL" ID="19205">
+                <layer rank="1" name="FE">
+                    <label end="280" start="111" name="Money"/>
+                    <label end="68" start="39" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

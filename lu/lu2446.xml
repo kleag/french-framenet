@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="réponse.n" ID="2446" frame="Response" frameID="1302" totalAnnotated="22" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core-Unexpressed" abbrev="res" name="Response"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="res_e" name="Responding_entity"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="tri" name="Trigger"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="age" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="stt" name="Sentient_trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="17">
+            <FE name="Agent"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="6619"/>
+                <annoSet ID="11528"/>
+                <annoSet ID="16926"/>
+                <annoSet ID="17910"/>
+                <annoSet ID="20874"/>
+                <annoSet ID="21776"/>
+                <annoSet ID="23419"/>
+                <annoSet ID="23631"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="4750"/>
+                <annoSet ID="11597"/>
+                <annoSet ID="15029"/>
+                <annoSet ID="17823"/>
+                <annoSet ID="17967"/>
+                <annoSet ID="17968"/>
+                <annoSet ID="17994"/>
+                <annoSet ID="23378"/>
+                <annoSet ID="23762"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Responding_entity"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Responding_entity"/>
+                <annoSet ID="920"/>
+                <annoSet ID="1387"/>
+                <annoSet ID="1393"/>
+                <annoSet ID="1394"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Responding_entity"/>
+                <annoSet ID="983"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="22">
+            <FE name="Response"/>
+            <pattern total="22">
+                <valenceUnit PT="filled" FE="Response"/>
+                <annoSet ID="920"/>
+                <annoSet ID="983"/>
+                <annoSet ID="1387"/>
+                <annoSet ID="1393"/>
+                <annoSet ID="1394"/>
+                <annoSet ID="4750"/>
+                <annoSet ID="6619"/>
+                <annoSet ID="11528"/>
+                <annoSet ID="11597"/>
+                <annoSet ID="15029"/>
+                <annoSet ID="16926"/>
+                <annoSet ID="17823"/>
+                <annoSet ID="17910"/>
+                <annoSet ID="17967"/>
+                <annoSet ID="17968"/>
+                <annoSet ID="17994"/>
+                <annoSet ID="20874"/>
+                <annoSet ID="21776"/>
+                <annoSet ID="23378"/>
+                <annoSet ID="23419"/>
+                <annoSet ID="23631"/>
+                <annoSet ID="23762"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Sentient_trigger"/>
+        </FERealization>
+        <FERealization total="22">
+            <FE name="Trigger"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="Trigger"/>
+                <annoSet ID="920"/>
+                <annoSet ID="983"/>
+                <annoSet ID="1387"/>
+                <annoSet ID="4750"/>
+                <annoSet ID="6619"/>
+                <annoSet ID="11528"/>
+                <annoSet ID="15029"/>
+                <annoSet ID="16926"/>
+                <annoSet ID="17823"/>
+                <annoSet ID="17910"/>
+                <annoSet ID="17967"/>
+                <annoSet ID="17968"/>
+                <annoSet ID="17994"/>
+                <annoSet ID="20874"/>
+                <annoSet ID="23419"/>
+                <annoSet ID="23631"/>
+                <annoSet ID="23762"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="1393"/>
+                <annoSet ID="1394"/>
+                <annoSet ID="11597"/>
+                <annoSet ID="21776"/>
+                <annoSet ID="23378"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="825">
+            <text>Des études in vitro ont également montré que la bivalirudine allonge de manière concentration - dépendante le temps de thromboplastine partielle activée ( aPTT ) , le temps de thrombine ( TT ) et le taux de prothrombine ( TP ) d' un plasma humain normal , et qu' elle n' induit pas d' agrégation plaquettaire en réponse à des sérums de patients avec antécédents de syndrome de thrombocytopénie induite par l' héparine avec thrombose ( TIH / STIHT ) .</text>
+            <annotationSet status="MANUAL" ID="920">
+                <layer rank="1" name="FE">
+                    <label end="447" start="322" name="Trigger"/>
+                    <label end="266" start="263" name="Responding_entity"/>
+                    <label end="59" start="45" name="Responding_entity"/>
+                    <label end="307" start="282" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="318" start="312" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="885">
+            <text>Après une brève exposition comparable à celle qui prévaut lors d' une utilisation clinique , et même après une exposition à des doses bien plus élevées , il n' a pas été observé d' effet indésirable résultant d' un stress physiologique prolongé en réponse à un état de coagulation non homéostasique .</text>
+            <annotationSet status="MANUAL" ID="983">
+                <layer rank="1" name="FE">
+                    <label end="297" start="258" name="Trigger"/>
+                    <label end="246" start="212" name="Response"/>
+                    <label itype="ENI" name="Responding_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="254" start="248" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1382">
+            <text>à 6 mois , Aclasta a montré des taux de réponse et de normalisation des phosphatases alcalines sériques ( PAS ) de 96 % ( 169/176 ) et 89 % ( 156/176 ) comparé à 74 % ( 127/171 ) et 58 % ( 99/171 ) pour le risédronate ( p &lt; 0,001 pour toutes les valeurs ) .</text>
+            <annotationSet status="MANUAL" ID="1387">
+                <layer rank="1" name="FE">
+                    <label end="17" start="11" name="Trigger"/>
+                    <label end="110" start="72" name="Responding_entity"/>
+                    <label end="150" start="115" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1385">
+            <text>Sur 143 patients traités par Aclasta , 141 patients ont eu une réponse thérapeutique maintenue après une durée médiane de 18 mois de suivi à partir de la perfusion et sur 107 patients traités par le risédronate , 71 patients ont eu une réponse thérapeutique maintenue .</text>
+            <annotationSet status="MANUAL" ID="1393">
+                <layer rank="1" name="FE">
+                    <label end="50" start="39" name="Responding_entity"/>
+                    <label end="162" start="59" name="Response"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1385">
+            <text>Sur 143 patients traités par Aclasta , 141 patients ont eu une réponse thérapeutique maintenue après une durée médiane de 18 mois de suivi à partir de la perfusion et sur 107 patients traités par le risédronate , 71 patients ont eu une réponse thérapeutique maintenue .</text>
+            <annotationSet status="MANUAL" ID="1394">
+                <layer rank="1" name="FE">
+                    <label end="223" start="213" name="Responding_entity"/>
+                    <label end="266" start="232" name="Response"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="242" start="236" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3549">
+            <text>La réponse à cette question est au centre des mesures adoptées le 4 décembre 1991 par la Commission de Bruxelles ( Le Monde du 6 décembre 1991 ) .</text>
+            <annotationSet status="MANUAL" ID="4750">
+                <layer rank="1" name="FE">
+                    <label end="26" start="13" name="Trigger"/>
+                    <label end="26" start="0" name="Response"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4699">
+            <text>La Haute Cour de Londres a ordonné , mardi 14 janvier , la liquidation de la Bank of credit and commerce international ( BCCI ) en Grande - Bretagne , en réponse à une demande présentée en juillet 1991 par la Banque d' Angleterre ( nos dernières éditions du 15 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="6619">
+                <layer rank="1" name="FE">
+                    <label end="228" start="164" name="Trigger"/>
+                    <label end="147" start="56" name="Response"/>
+                    <label end="23" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7994">
+            <text>Car , comme pour les autres activités du gigantesque parc d' attractions de Marne - la - Vallée , les responsables d' Euro Disney ont dû trouver une réponse rapide pour la formation du personnel hôtelier .</text>
+            <annotationSet status="MANUAL" ID="11528">
+                <layer rank="1" name="FE">
+                    <label end="202" start="169" name="Trigger"/>
+                    <label end="162" start="145" name="Response"/>
+                    <label end="128" start="98" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8059">
+            <text>Il faudra former , trouver des réponses .</text>
+            <annotationSet status="MANUAL" ID="11597">
+                <layer rank="1" name="FE">
+                    <label end="38" start="27" name="Response"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10778">
+            <text>Signé par les douze gouvernements et les douze gouverneurs des banques centrales , le texte affirme , avec une rare fermeté , que les parités au sein du SME sont totalement justifiées : " un changement dans la structure présente des taux pivots ne constituerait pas une réponse appropriée aux tensions actuelles dans le SME . "</text>
+            <annotationSet status="MANUAL" ID="15029">
+                <layer rank="1" name="FE">
+                    <label end="322" start="293" name="Trigger"/>
+                    <label end="243" start="188" name="Response"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="276" start="270" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12547">
+            <text>Interrogé à Buffalo Grove , un porte - parole du groupe indiquait que ZDS allait , dans les jours , qui viennent engager des discussions avec l' US Air Force pour apporter une réponse aux points litigieux soulevés par la GSA .</text>
+            <annotationSet status="MANUAL" ID="16926">
+                <layer rank="1" name="FE">
+                    <label end="223" start="188" name="Trigger"/>
+                    <label end="182" start="172" name="Response"/>
+                    <label end="72" start="70" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="182" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13506">
+            <text>Ni la réforme de la politique agricole commune ( PAC ) , ni l' accord conclu ( un peu vite ) entre la Commission européenne et la délégation américaine pour essayer d' en terminer avec l' Uruguay Round , ne proposent des réponses à la hauteur des problèmes soulevés .</text>
+            <annotationSet status="MANUAL" ID="17823">
+                <layer rank="1" name="FE">
+                    <label end="264" start="247" name="Trigger"/>
+                    <label end="200" start="0" name="Response"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="228" start="221" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13583">
+            <text>Depuis quatre - vingts ans , l' or noir n' a , de fait , cessé d' être lié plus ou moins directement à la plupart des conflits et " complots " internationaux , même si l' arme du pétrole ne fut officiellement brandie pour la première fois qu' en 1973 par les pays arabes , en réponse à l' échec de l' offensive égyptienne du Kippour .</text>
+            <annotationSet status="MANUAL" ID="17910">
+                <layer rank="1" name="FE">
+                    <label end="331" start="286" name="Trigger"/>
+                    <label end="274" start="168" name="Response"/>
+                    <label end="269" start="255" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="282" start="276" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13650">
+            <text>Construire un logement est également un acte social , la réponse à un besoin évident de l' être humain , la réponse à un droit .</text>
+            <annotationSet status="MANUAL" ID="17967">
+                <layer rank="1" name="FE">
+                    <label end="101" start="67" name="Trigger"/>
+                    <label end="21" start="0" name="Response"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13650">
+            <text>Construire un logement est également un acte social , la réponse à un besoin évident de l' être humain , la réponse à un droit .</text>
+            <annotationSet status="MANUAL" ID="17968">
+                <layer rank="1" name="FE">
+                    <label end="125" start="118" name="Trigger"/>
+                    <label end="21" start="0" name="Response"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13680">
+            <text>Et si nous croyons que ce système mixte est une des réponses à l' évolution positive de l' immobilier - logement , alors fixons des règles pour un dispositif pérenne qui ne soit pas , comme actuellement , une machine à fabriquer du studio cher .</text>
+            <annotationSet status="MANUAL" ID="17994">
+                <layer rank="1" name="FE">
+                    <label end="111" start="63" name="Trigger"/>
+                    <label end="111" start="52" name="Response"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16707">
+            <text>- Non , parce que nous avons anticipé sur les besoins et les réponses à apporter .</text>
+            <annotationSet status="MANUAL" ID="20874">
+                <layer rank="1" name="FE">
+                    <label end="52" start="42" name="Trigger"/>
+                    <label end="68" start="57" name="Response"/>
+                    <label end="21" start="18" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17727">
+            <text>Je n' en veux pour preuve que les réactions , parfois très critiques , qui se sont fait entendre à propos du rapport Delors , surtout en ce qui concerne les propositions relatives à la deuxième étape , qui sont en effet restées plutôt vagues et qui posent plus de questions qu' elles n' apportent de réponses .</text>
+            <annotationSet status="MANUAL" ID="21776">
+                <layer rank="1" name="FE">
+                    <label end="282" start="278" name="Response"/>
+                    <label end="307" start="153" name="Response"/>
+                    <label end="122" start="117" name="Agent"/>
+                    <label itype="ENI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="307" start="300" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19427">
+            <text>La réponse tient en une technique déjà éprouvée en ce qui concerne la médecine humaine et utilisée depuis six ans chez les bovins , mais qui ne fait que commencer à se généraliser au sein du monde équin : le transfert d' embryon .</text>
+            <annotationSet status="MANUAL" ID="23378">
+                <layer rank="1" name="FE">
+                    <label end="201" start="20" name="Response"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19492">
+            <text>Le comité interministériel animé par le ministre de l' intérieur , Mr Pierre Joxe , qui doit avoir lieu le mardi 23 janvier , indiquera certainement , par la dimension strictement économique et fiscale des mesures qu' il a prévu de proposer , quel type de réponse le gouvernement entend faire à la rupture de la trêve .</text>
+            <annotationSet status="MANUAL" ID="23419">
+                <layer rank="1" name="FE">
+                    <label end="316" start="295" name="Trigger"/>
+                    <label end="262" start="256" name="Response"/>
+                    <label end="278" start="264" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="262" start="256" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19880">
+            <text>En matière de coordination des plans de sécurité , la principale réponse est , pour l' heure , proposée par les ministres européens des affaires sociales , qui viennent d' adopter une position commune sur le projet de directive relative à la prévention des accidents sur les chantiers mobiles et temporaires .</text>
+            <annotationSet status="MANUAL" ID="23631">
+                <layer rank="1" name="FE">
+                    <label end="47" start="14" name="Trigger"/>
+                    <label end="71" start="51" name="Response"/>
+                    <label end="306" start="108" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20021">
+            <text>Ce qui frappe dans l' énumération des mauvaises réponses qui furent presque toujours données , de la fin des années 60 à la fin des années 70 , à la montée des forces inflationnistes , c' est le caractère " macro- économique " des analyses qui inspiraient ces solutions inadéquates .</text>
+            <annotationSet status="MANUAL" ID="23762">
+                <layer rank="1" name="FE">
+                    <label end="181" start="146" name="Trigger"/>
+                    <label end="181" start="38" name="Response"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

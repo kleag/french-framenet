@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="décourager.v" ID="1164" frame="FR_Influence_of_event_on_cognizer-Subjective_influence" frameID="10035" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="sit" name="Situation"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ent" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="act" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="beh" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Action"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="10059"/>
+                <annoSet ID="19262"/>
+                <annoSet ID="21971"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Activity"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Activity"/>
+                <annoSet ID="3938"/>
+                <annoSet ID="13864"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="10059"/>
+                <annoSet ID="19262"/>
+                <annoSet ID="21971"/>
+                <annoSet ID="24137"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="3938"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Entity"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Situation"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Situation"/>
+                <annoSet ID="3938"/>
+                <annoSet ID="10059"/>
+                <annoSet ID="13864"/>
+                <annoSet ID="24137"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Situation"/>
+                <annoSet ID="19262"/>
+                <annoSet ID="21971"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3058">
+            <text>Son cours était administrativement lié au franc , à la façon du franc CFP ou du franc CFA , afin , théoriquement , de décourager la spéculation monétaire et d' affirmer la domination française dans la région .</text>
+            <annotationSet status="MANUAL" ID="3938">
+                <layer rank="1" name="FE">
+                    <label end="88" start="0" name="Situation"/>
+                    <label end="152" start="129" name="Activity"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6763">
+            <text>Syndicat et directions sont intéressés à cette centralisation et à cette coordination des négociations : celles - ci limitent la concurrence entre firmes , interdisent aux directions de faire pression sur les salariés de telle ou telle usine , découragent toute revendication salariale isolée entre les discussions triennales des accords .</text>
+            <annotationSet status="MANUAL" ID="10059">
+                <layer rank="1" name="FE">
+                    <label end="336" start="256" name="Action"/>
+                    <label end="240" start="205" name="Cognizer"/>
+                    <label end="63" start="41" name="Situation"/>
+                    <label end="101" start="67" name="Situation"/>
+                    <label end="115" start="105" name="Situation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="254" start="244" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9862">
+            <text>Elle décourage l' épargne en incitant à consommer sans attendre .</text>
+            <annotationSet status="MANUAL" ID="13864">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Situation"/>
+                    <label end="24" start="15" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14979">
+            <text>De même , les placements des ménages en obligations ont été découragés , au détriment de l' épargne longue , vitale pour un pays .</text>
+            <annotationSet status="MANUAL" ID="19262">
+                <layer rank="1" name="FE">
+                    <label end="50" start="10" name="Action"/>
+                    <label end="35" start="29" name="Cognizer"/>
+                    <label itype="UNI" name="Situation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17893">
+            <text>Si à chaque fois qu' un industriel améliore la qualité de son produit on fait une norme à ce niveau , il sera découragé de le faire " , estime l' UCSIP .</text>
+            <annotationSet status="MANUAL" ID="21971">
+                <layer rank="1" name="FE">
+                    <label end="130" start="123" name="Action"/>
+                    <label end="33" start="21" name="Cognizer"/>
+                    <label end="103" start="102" name="Cognizer"/>
+                    <label itype="ENI" name="Situation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20433">
+            <text>L' aide s' avère en effet contraire à l' effort productif dès lors qu' elle se substitue à des productions locales , comme dans le cas du blé américain ou européen , déversé presque gratuitement sur les marchés urbains , et qui décourage les producteurs indigènes , ce qui explique la quasi- stagnation de la production céréalière africaine .</text>
+            <annotationSet status="MANUAL" ID="24137">
+                <layer rank="1" name="FE">
+                    <label end="262" start="238" name="Cognizer"/>
+                    <label end="226" start="224" name="Situation"/>
+                    <label end="339" start="138" name="Situation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="236" start="228" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

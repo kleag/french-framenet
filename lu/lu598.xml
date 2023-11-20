@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="souligner.v" ID="598" frame="Evidence" frameID="25" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Proposition"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="2674"/>
+                <annoSet ID="4293"/>
+                <annoSet ID="8069"/>
+                <annoSet ID="14775"/>
+                <annoSet ID="16375"/>
+                <annoSet ID="16556"/>
+                <annoSet ID="18534"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Support"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="2674"/>
+                <annoSet ID="4293"/>
+                <annoSet ID="8069"/>
+                <annoSet ID="14775"/>
+                <annoSet ID="16375"/>
+                <annoSet ID="16556"/>
+                <annoSet ID="18534"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2052">
+            <text>Les événements de la nuit dernière à Copenhague soulignent à quel point il est important que le Parlement européen tienne ce débat , comme il a décidé de le faire plus tôt dans la semaine .</text>
+            <annotationSet status="MANUAL" ID="2674">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Support"/>
+                    <label end="186" start="59" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3268">
+            <text>" nos interlocuteurs politiques n' ont à aucun moment compris les problèmes de l' audiovisuel ( ... ) ; ils portent une lourde responsabilité " : ce constat d' Yves Sabouret n' exonère pas sa propre responsabilité , mais souligne que cet échec est aussi celui de politiques audiovisuelles successives et incohérentes , et qu' il touche l' ensemble du secteur .</text>
+            <annotationSet status="MANUAL" ID="4293">
+                <layer rank="1" name="FE">
+                    <label end="172" start="146" name="Support"/>
+                    <label end="317" start="234" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="228" start="221" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5546">
+            <text>Les comptes trimestriels soulignent que les ventes à l' étranger de biens et de services marchands ont augmenté de 2 , 9 % au cours des trois premiers mois de l' année , et non de 4 , 3 % ( précédemment estimés ) .</text>
+            <annotationSet status="MANUAL" ID="8069">
+                <layer rank="1" name="FE">
+                    <label end="23" start="0" name="Support"/>
+                    <label end="211" start="40" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10555">
+            <text>Elle souligne le souci des autorités italiennes de limiter l' ampleur du ralentissement économique induit par les mesures d' économies .</text>
+            <annotationSet status="MANUAL" ID="14775">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Support"/>
+                    <label end="133" start="14" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12064">
+            <text>Ils ôtent à la politique monétaire ses références chiffrées dont les membres du directoire sont friands et ils soulignent combien l' échelle d' un pays est devenue trop petite pour contrôler les voyages de l' argent .</text>
+            <annotationSet status="MANUAL" ID="16375">
+                <layer rank="1" name="FE">
+                    <label end="109" start="107" name="Support"/>
+                    <label end="214" start="122" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12212">
+            <text>Mais l' Europe ne pourra pas éviter non plus de se pencher sur une harmonisation de ses règles sociales , car au - delà du problème du permis de conduire à points ( déjà en vigueur chez nos principaux voisins ) la grève des routiers français souligne l' archaïsme d' une profession bouleversée par la libéralisation et par son propre succès .</text>
+            <annotationSet status="MANUAL" ID="16556">
+                <layer rank="1" name="FE">
+                    <label end="240" start="211" name="Support"/>
+                    <label end="339" start="251" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="249" start="242" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14196">
+            <text>" Elle soulignait la faiblesse des relations avec les entreprises classiques et le surinvestissement à l' égard des entreprises d' insertion .</text>
+            <annotationSet status="MANUAL" ID="18534">
+                <layer rank="1" name="FE">
+                    <label end="5" start="2" name="Support"/>
+                    <label end="139" start="18" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

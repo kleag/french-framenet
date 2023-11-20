@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="rétribution.n" ID="324" frame="Commerce_pay" frameID="180" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Way_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Buyer"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="19765"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Goods"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="19765"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Money"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="19765"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Rate"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Rate"/>
+                <annoSet ID="19765"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Seller"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="19765"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15519">
+            <text>Or chacun est conscient qu' il n' y a aucune vérification de ces acquis et que la rétribution est automatique .</text>
+            <annotationSet status="MANUAL" ID="19765">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="UNI" name="Rate"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="condamner.v" ID="1925" frame="FR_Judgment_communication" frameID="10080" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Communicator"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="2732"/>
+                <annoSet ID="4043"/>
+                <annoSet ID="7638"/>
+                <annoSet ID="20522"/>
+                <annoSet ID="22004"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Evaluee"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="2732"/>
+                <annoSet ID="2741"/>
+                <annoSet ID="4043"/>
+                <annoSet ID="7638"/>
+                <annoSet ID="20522"/>
+                <annoSet ID="22004"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="2741"/>
+                <annoSet ID="7638"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Reason"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="7638"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2076">
+            <text>Je tiens à signaler au Parlement , à l' instar de M. Barón Crespo , que s' il arrive au parti de M. Gorostiaga de regretter les assassinats terroristes , parce qu' il n' a pas d' autre choix , il ne les condamne pas .</text>
+            <annotationSet status="MANUAL" ID="2732">
+                <layer rank="1" name="FE">
+                    <label end="109" start="88" name="Communicator"/>
+                    <label end="194" start="193" name="Communicator"/>
+                    <label end="201" start="199" name="Evaluee"/>
+                    <label end="150" start="124" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="210" start="203" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2078">
+            <text>Il n' y a plus de mots pour condamner non seulement les assassins mais également ceux qui les soutiennent politiquement .</text>
+            <annotationSet status="MANUAL" ID="2741">
+                <layer rank="1" name="FE">
+                    <label end="21" start="15" name="Medium"/>
+                    <label end="118" start="38" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3146">
+            <text>D' autres , comme les présidents des chambres d' agriculture , réunis dans l' Assemblée permanente des chambres d' agricultures ( APCCA ) condamnent , à l' unanimité , le projet .</text>
+            <annotationSet status="MANUAL" ID="4043">
+                <layer rank="1" name="FE">
+                    <label end="136" start="18" name="Communicator"/>
+                    <label end="176" start="168" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5269">
+            <text>Dans un communiqué particulièrement dur , la firme de Laval condamne cette solution " exclusivement financière relevant du jeu de Monopoly " et le " gâchis industriel " .</text>
+            <annotationSet status="MANUAL" ID="7638">
+                <layer rank="1" name="FE">
+                    <label end="58" start="42" name="Communicator"/>
+                    <label end="167" start="69" name="Reason"/>
+                    <label end="38" start="5" name="Medium"/>
+                    <label end="167" start="69" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16347">
+            <text>Quelques heures auparavant , recevant comme il le fait chaque année à la veille de Noël des compatriotes polonais - ils étaient ce jeudi 24 décembre deux mille , - Jean - Paul II a une nouvelle fois condamné l' avortement , qui divise la coalition au pouvoir en Pologne .</text>
+            <annotationSet status="MANUAL" ID="20522">
+                <layer rank="1" name="FE">
+                    <label end="177" start="164" name="Communicator"/>
+                    <label end="268" start="208" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="206" start="199" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17933">
+            <text>L' intersyndicale ( SGEN - CFDT , SNI - PEGC et SNES ) des enseignants de Montfermeil ( Seine - Saint - Denis ) , condamne les " mesures discriminatoires " prises par le conseil municipal à l' encontre des écoles maternelles ayant accueilli des enfants d' immigrés contre l' avis du maire .</text>
+            <annotationSet status="MANUAL" ID="22004">
+                <layer rank="1" name="FE">
+                    <label end="110" start="0" name="Communicator"/>
+                    <label end="287" start="123" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

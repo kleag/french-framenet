@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="nommer.v" ID="2311" frame="Referring_by_name" frameID="1253" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="ent" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="nam" name="Name"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Entity"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Entity"/>
+                <annoSet ID="4736"/>
+                <annoSet ID="17246"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Name"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Name"/>
+                <annoSet ID="4736"/>
+                <annoSet ID="17246"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="4736"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="17246"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3540">
+            <text>d' où la politique officiellement mise en oeuvre depuis peu par le gouvernement - à laquelle se sont résignées à adhérer l' ensemble des forces politiques - qu' on nomme pudiquement " la mobilité " , c' est - à - dire une " émigration organisée " vers la métropole qui n' ose pas dire son nom .</text>
+            <annotationSet status="MANUAL" ID="4736">
+                <layer rank="1" name="FE">
+                    <label end="162" start="161" name="Speaker"/>
+                    <label end="194" start="184" name="Name"/>
+                    <label end="159" start="157" name="Entity"/>
+                    <label end="291" start="6" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="168" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12886">
+            <text>Pour combattre une maladie nommée " brocca " , l' équivalent exotique de notre " mildiou " , les autorités ont organisé une campagne d' arrachage dans l' Armenia , la région la plus productrice , mais aussi la plus touchée de la Colombie .</text>
+            <annotationSet status="MANUAL" ID="17246">
+                <layer rank="1" name="FE">
+                    <label end="89" start="34" name="Name"/>
+                    <label end="25" start="15" name="Entity"/>
+                    <label end="89" start="45" name="Entity"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

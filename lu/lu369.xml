@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="objection.n" ID="369" frame="Communication_response" frameID="42" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Trig" name="Trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Addressee"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="3201"/>
+                <annoSet ID="20897"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Message"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="3201"/>
+                <annoSet ID="20897"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3201"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="20897"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Trigger"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="3201"/>
+                <annoSet ID="20897"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2436">
+            <text>Après plusieurs mois , la Chine met une sourdine à ses objections et le ministère français des Affaires étrangères lève son veto .</text>
+            <annotationSet status="MANUAL" ID="3201">
+                <layer rank="1" name="FE">
+                    <label end="64" start="51" name="Message"/>
+                    <label end="53" start="51" name="Speaker"/>
+                    <label end="30" start="23" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16736">
+            <text>Mais je suis prêt à discuter et à tenir compte des objections ou des contre- propositions .</text>
+            <annotationSet status="MANUAL" ID="20897">
+                <layer rank="1" name="FE">
+                    <label end="60" start="51" name="Message"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Speaker"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se concerter.v" ID="955" frame="FR_Make_agreement_on_assessment" frameID="10040" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cognizer_2"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cognizers"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizers"/>
+                <annoSet ID="9304"/>
+                <annoSet ID="17108"/>
+                <annoSet ID="22094"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Opinion"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="9304"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6237">
+            <text>Dans ses considérants , la cour note que , " en dépit de considérations générales sur l' intérêt que pourraient avoir ces câblo - opérateurs à éliminer toute concurrence des éditeurs indépendants de programmes identiques , il n' est aucunement démontré qu' ils se soient concertés à cette fin .</text>
+            <annotationSet status="MANUAL" ID="9304">
+                <layer rank="1" name="FE">
+                    <label end="259" start="257" name="Cognizers"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="262" start="261" name="Target"/>
+                    <label end="279" start="271" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12735">
+            <text>D' autre part , ils se concertent et cherchent à agir en commun , au - delà de l' action déjà menée par l' Union européenne de radiodiffusion ( UER ) pour les images d' actualité , de sport ou l' Eurovision .</text>
+            <annotationSet status="MANUAL" ID="17108">
+                <layer rank="1" name="FE">
+                    <label end="18" start="16" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18044">
+            <text>Bien plus , le traité de 1982 sur le droit de la mer enjoint aujourd' hui aux Etats riverains d' une même mer de coopérer ; des accords régionaux leur imposent de s' informer , de s' assister en cas d' urgence , et leur suggèrent , par là , de se concerter .</text>
+            <annotationSet status="MANUAL" ID="22094">
+                <layer rank="1" name="FE">
+                    <label end="218" start="215" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="255" start="244" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

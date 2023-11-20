@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="prélèvement.n" ID="1129" frame="FR_Getting_money" frameID="10031" totalAnnotated="16" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gtr" name="Getter"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="16">
+            <FE name="Getter"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Getter"/>
+                <annoSet ID="12378"/>
+                <annoSet ID="14629"/>
+                <annoSet ID="16461"/>
+                <annoSet ID="22251"/>
+                <annoSet ID="22922"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Getter"/>
+                <annoSet ID="8227"/>
+                <annoSet ID="13949"/>
+                <annoSet ID="13968"/>
+                <annoSet ID="14596"/>
+                <annoSet ID="19184"/>
+                <annoSet ID="19276"/>
+                <annoSet ID="20544"/>
+                <annoSet ID="24026"/>
+                <annoSet ID="24027"/>
+                <annoSet ID="24028"/>
+                <annoSet ID="24073"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Giver"/>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Money"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="14629"/>
+                <annoSet ID="19184"/>
+                <annoSet ID="19276"/>
+                <annoSet ID="22922"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="8227"/>
+                <annoSet ID="13949"/>
+                <annoSet ID="13968"/>
+                <annoSet ID="14596"/>
+                <annoSet ID="16461"/>
+                <annoSet ID="20544"/>
+                <annoSet ID="22251"/>
+                <annoSet ID="24026"/>
+                <annoSet ID="24027"/>
+                <annoSet ID="24028"/>
+                <annoSet ID="24073"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5626">
+            <text>Un progrès qui repose toutefois sur l' augmentation systématique du taux de prélèvement obligatoire qui , en dix ans , est passé de 33 % à 44 , 5 % .</text>
+            <annotationSet status="MANUAL" ID="8227">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8690">
+            <text>Le prélèvement de l' Etat sur le bénéfice des télécommunications a une nouvelle fois été effectué en 1990 , avant même que leur résultat soit définitivement fixé , au mépris d' une décision rendue en 1984 par le Conseil constitutionnel .</text>
+            <annotationSet status="MANUAL" ID="12378">
+                <layer rank="1" name="FE">
+                    <label end="24" start="18" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9919">
+            <text>Tout se passe comme si nous étions condamnés à subir un système de prélèvements obligatoires destiné à une communauté autarcique .</text>
+            <annotationSet status="MANUAL" ID="13949">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9938">
+            <text>Cela étant , je doute que les prélèvements aux frontières - sur les biens comme sur les services - puissent suffire .</text>
+            <annotationSet status="MANUAL" ID="13968">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10403">
+            <text>Aux orateurs de l' opposition qui s' étonnaient de " cet expédient budgétaire " , façon " fusil à un coup " , le ministre du budget , M. Malvy , a simplement tenu à " corriger d' un mot " ce qui avait été affirmé : " Il ne s' agit pas d' un prélèvement , mais d' un reversement .</text>
+            <annotationSet status="MANUAL" ID="14596">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="251" start="241" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10426">
+            <text>Dans ces conditions , on peut se demander pourquoi le gouvernement n' a pas profité de l' occasion pour trancher en expliquant dès maintenant que le ralentissement de la croissance exige un accroissement des prélèvements obligatoires .</text>
+            <annotationSet status="MANUAL" ID="14629">
+                <layer rank="1" name="FE">
+                    <label end="232" start="208" name="Money"/>
+                    <label end="65" start="51" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="219" start="208" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12139">
+            <text>Cette politique de " désinflation des salaires " s' est accompagnée d' un véritable budget de crise destiné à réduire les dépenses - réduction des transferts aux collectivités locales , diminution des dépenses sociales et des dépenses militaires , gel de l' emploi dans le secteur public - mais aussi à accroître les recettes fiscales : relèvement des droits de timbre , prélèvements exceptionnels sur l' immobilier et les dépôts bancaires , majoration des cotisations de sécurité sociale des salariés .</text>
+            <annotationSet status="MANUAL" ID="16461">
+                <layer rank="1" name="FE">
+                    <label end="333" start="326" name="Getter"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="382" start="371" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14900">
+            <text>Elle aggrave les déficits sempiternels des comptes sociaux , que l'on trouve toujours un moyen de rééquilibrer - en fait , on ne fait que repousser les échéances , car , en comblant les déficits , on augmente , sous une forme ou sous une autre , l' emprise des prélèvements obligatoires , génératrice elle - même de chômage .</text>
+            <annotationSet status="MANUAL" ID="19184">
+                <layer rank="1" name="FE">
+                    <label end="285" start="261" name="Money"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="272" start="261" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14992">
+            <text>Pour les autres , un prélèvement forfaitaire de 19 % est -il vraiment spoliatoire ?</text>
+            <annotationSet status="MANUAL" ID="19276">
+                <layer rank="1" name="FE">
+                    <label end="51" start="48" name="Money"/>
+                    <label itype="UNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16365">
+            <text>Il est néanmoins indiqué que , " en cours d' indemnisation , des prélèvements seront effectués sur les allocations , jusqu' à concurrence de la somme restant due .</text>
+            <annotationSet status="MANUAL" ID="20544">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18214">
+            <text>La gauche envisage un financement public , s' opposant ainsi aux libéraux , qui redoutent un nouvel accroissement des prélèvements obligatoires et de l' emprise de l' état , via l' environnement , et estiment , au contraire , que celui - ci peut être correctement protégé par les mécanismes du marché et des droits de propriété renforcés , tandis que les Verts , hostiles au marché autant qu' à l' Etat , renvoient dos à dos les deux approches .</text>
+            <annotationSet status="MANUAL" ID="22251">
+                <layer rank="1" name="FE">
+                    <label end="170" start="164" name="Getter"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18843">
+            <text>À l' heure actuelle , un taux nominal de 10 % assure un rendement réel de 6 % à 6 , 5 % , hors inflation , ce qui est tout à fait intéressant pour les ménages , surtout avec un prélèvement fiscal forfaitaire de 17 % , ce qui donne un rendement final net d' environ 5 % .</text>
+            <annotationSet status="MANUAL" ID="22922">
+                <layer rank="1" name="FE">
+                    <label end="214" start="211" name="Money"/>
+                    <label end="194" start="189" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="187" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20297">
+            <text>Article 97 de la loi de finances pour 1992 : reconduction du prélèvement social .</text>
+            <annotationSet status="MANUAL" ID="24026">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20298">
+            <text>Le prélèvement social de 1 % institué en 1987 est reconduit .</text>
+            <annotationSet status="MANUAL" ID="24027">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20299">
+            <text>Il concerne les revenus soumis à prélèvement libératoire , les revenus non professionnels provenant du patrimoine ( revenus fonciers , rentes viagères à titre onéreux , revenus de capitaux tels que dividendes et intérêts ) , les plus - values financières et immobilières .</text>
+            <annotationSet status="MANUAL" ID="24028">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20352">
+            <text>Les sommes laissées en compte courant à une société par ses associés bénéficient malgré leur nature ( ce sont des prêts ) du taux d' imposition des obligations : 18 , 1 % ( avec les prélèvements sociaux ) .</text>
+            <annotationSet status="MANUAL" ID="24073">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Getter"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="182" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

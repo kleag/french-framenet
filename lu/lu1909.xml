@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="mépriser.v" ID="1909" frame="Judgment" frameID="28" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="3110"/>
+                <annoSet ID="3147"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="23513"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Evaluee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="3110"/>
+                <annoSet ID="3147"/>
+                <annoSet ID="23513"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2394">
+            <text>Désireux de républicaniser l' armée en la laïcisant , cet anticlérical farouche et un peu ridicule , méprisé par ses collègues et ses subordonnés , interdit en 1903 aux soldats de fréquenter les cercles militaires catholiques , en application des nouvelles lois laïques sur la " neutralité " supposée , exigée des institutions républicaines et de leurs membres .</text>
+            <annotationSet status="MANUAL" ID="3110">
+                <layer rank="1" name="FE">
+                    <label end="144" start="113" name="Cognizer"/>
+                    <label end="99" start="54" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2405">
+            <text>Mal payé , méprisé de ses employeurs et à court d' argent , Bidegain prend soudain conscience de la bombe politique qu' il possède entre les mains en cette période d' effervescence extrême due à la rupture des relations diplomatiques de la France avec le Saint-Siège suite aux malheureuses affaires des évêques Geay et Le Nordez , et il vend , connaissant paradoxalement , en tant que franc-maçon , la totale inexistence de la fameuse " vengeance maçonnique contre les parjures " chère aux lecteurs de Léo Taxil et aux conspirationnistes , les dites fiches au journal conservateur d' opposition Le Figaro .</text>
+            <annotationSet status="MANUAL" ID="3147">
+                <layer rank="1" name="FE">
+                    <label end="35" start="22" name="Cognizer"/>
+                    <label end="67" start="60" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19638">
+            <text>Oui , elles se réclament d' une culture populaire souvent méprisée .</text>
+            <annotationSet status="MANUAL" ID="23513">
+                <layer rank="1" name="FE">
+                    <label end="48" start="28" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

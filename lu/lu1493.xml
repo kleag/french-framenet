@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="précision.n" ID="1493" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="10615"/>
+                <annoSet ID="21579"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Message"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="2270"/>
+                <annoSet ID="7195"/>
+                <annoSet ID="10615"/>
+                <annoSet ID="12509"/>
+                <annoSet ID="16162"/>
+                <annoSet ID="16486"/>
+                <annoSet ID="16967"/>
+                <annoSet ID="21059"/>
+                <annoSet ID="21579"/>
+                <annoSet ID="23172"/>
+                <annoSet ID="23698"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Speaker"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2270"/>
+                <annoSet ID="12509"/>
+                <annoSet ID="16486"/>
+                <annoSet ID="16967"/>
+                <annoSet ID="21059"/>
+                <annoSet ID="21579"/>
+                <annoSet ID="23172"/>
+                <annoSet ID="23698"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="7195"/>
+                <annoSet ID="16162"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Topic"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="10615"/>
+                <annoSet ID="12509"/>
+                <annoSet ID="16967"/>
+                <annoSet ID="21059"/>
+                <annoSet ID="21579"/>
+                <annoSet ID="23172"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1870">
+            <text>Je remercie d' ailleurs le Conseil et la Commission pour ce qu' ils ont déjà entrepris et pour les précisions qu' ils nous ont apportées tout à l' heure .</text>
+            <annotationSet status="MANUAL" ID="2270">
+                <layer rank="1" name="FE">
+                    <label end="151" start="95" name="Message"/>
+                    <label end="116" start="114" name="Speaker"/>
+                    <label end="50" start="24" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4987">
+            <text>Efforts complémentaires de formation pour les jeunes qui ont besoin d' une préqualification , élargissement des actions spécifiques en faveur des chômeurs de longue durée , le programme annoncé par le premier ministre nécessite encore mises au point et précisions .</text>
+            <annotationSet status="MANUAL" ID="7195">
+                <layer rank="1" name="FE">
+                    <label end="262" start="253" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="262" start="253" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7194">
+            <text>La circulaire apporte des précisions concernant la recevabilité , les modalités d' instruction et de décision .</text>
+            <annotationSet status="MANUAL" ID="10615">
+                <layer rank="1" name="FE">
+                    <label end="108" start="48" name="Topic"/>
+                    <label end="108" start="22" name="Message"/>
+                    <label end="12" start="0" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8761">
+            <text>M. Ghosn a donné des précisions sur son groupe : il a indiqué que son chiffre d' affaires est de 230 millions de francs et que son endettement atteignait 155 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="12509">
+                <layer rank="1" name="FE">
+                    <label end="45" start="36" name="Topic"/>
+                    <label end="121" start="66" name="Message"/>
+                    <label end="175" start="127" name="Message"/>
+                    <label end="7" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11788">
+            <text>" Pour le moment , le groupe français est , en effet , faute de précisions , dans le noir complet .</text>
+            <annotationSet status="MANUAL" ID="16162">
+                <layer rank="1" name="FE">
+                    <label end="73" start="64" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12164">
+            <text>Le PDG de Quillery ( bâtiment et travaux publics ) , M. Henri Duboucher , a indiqué le 28 décembre sans plus de précision que cette décision s' expliquait par des raisons de " conjoncture " .</text>
+            <annotationSet status="MANUAL" ID="16486">
+                <layer rank="1" name="FE">
+                    <label end="120" start="112" name="Message"/>
+                    <label end="70" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12611">
+            <text>Le promoteur Pierre I ne donne aucune précision sur le contenu de cet accord .</text>
+            <annotationSet status="MANUAL" ID="16967">
+                <layer rank="1" name="FE">
+                    <label end="75" start="52" name="Topic"/>
+                    <label end="75" start="31" name="Message"/>
+                    <label end="20" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16942">
+            <text>Mr Attali a donné des précisions sur la façon dont seraient autofinancés les 5 milliards de francs nécessaires à la reprise des actions UTA par Air France .</text>
+            <annotationSet status="MANUAL" ID="21059">
+                <layer rank="1" name="FE">
+                    <label end="153" start="37" name="Topic"/>
+                    <label end="153" start="18" name="Message"/>
+                    <label end="8" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17535">
+            <text>D' ici là , l' union des forces démocratiques attend un engagement écrit du gouvernement comportant des précisions sur les locaux et la date pour la parution des journaux indépendants .</text>
+            <annotationSet status="MANUAL" ID="21579">
+                <layer rank="1" name="FE">
+                    <label end="182" start="119" name="Topic"/>
+                    <label end="139" start="100" name="Message"/>
+                    <label end="98" start="53" name="Medium"/>
+                    <label end="182" start="141" name="Medium"/>
+                    <label end="87" start="76" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19172">
+            <text>Nous assurons cependant le peuple et le gouvernement français de notre amitié " , a -t-il ajouté , sans autre précision sur l' éventuel " marché " franco- saoudien auquel il semblait faire allusion .</text>
+            <annotationSet status="MANUAL" ID="23172">
+                <layer rank="1" name="FE">
+                    <label end="196" start="124" name="Topic"/>
+                    <label end="196" start="110" name="Message"/>
+                    <label end="88" start="84" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19956">
+            <text>Les agriculteurs recevront gratuitement une partie des terres et du matériel des fermes , de façon proportionnelle à leur travail , indique l' agence sans autre précision .</text>
+            <annotationSet status="MANUAL" ID="23698">
+                <layer rank="1" name="FE">
+                    <label end="169" start="155" name="Message"/>
+                    <label end="148" start="140" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="169" start="161" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

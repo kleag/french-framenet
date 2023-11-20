@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="trancher.v" ID="2714" frame="FR_Expressing_side" frameID="10029" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Polarity"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="000000" bgColor="FF0000" type="Core" abbrev="" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Content"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Polarity"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Polarity"/>
+                <annoSet ID="4178"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Speaker"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="4178"/>
+                <annoSet ID="12572"/>
+                <annoSet ID="14631"/>
+                <annoSet ID="20832"/>
+                <annoSet ID="21199"/>
+                <annoSet ID="21870"/>
+                <annoSet ID="22804"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Topic"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="4178"/>
+                <annoSet ID="20832"/>
+                <annoSet ID="21199"/>
+                <annoSet ID="21870"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="12572"/>
+                <annoSet ID="14631"/>
+                <annoSet ID="22804"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3218">
+            <text>Un lion peut en contrôler un autre : un juge américain du Delaware vient de trancher en faveur du Crédit Lyonnais le conflit qui opposait la banque française au financier italien M. Giancarlo Parretti pour le contrôle de la Metro Goldwyn Mayer ( MGM ) , la célèbre firme au lion rugissant ( Le Monde des 9 août et 8 octobre ) .</text>
+            <annotationSet status="MANUAL" ID="4178">
+                <layer rank="1" name="FE">
+                    <label end="112" start="98" name="Topic"/>
+                    <label end="93" start="85" name="Polarity"/>
+                    <label end="65" start="37" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8809">
+            <text>Qu' il se refuse à trancher et leur appui lui serait compté .</text>
+            <annotationSet status="MANUAL" ID="12572">
+                <layer rank="1" name="FE">
+                    <label end="5" start="4" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10426">
+            <text>Dans ces conditions , on peut se demander pourquoi le gouvernement n' a pas profité de l' occasion pour trancher en expliquant dès maintenant que le ralentissement de la croissance exige un accroissement des prélèvements obligatoires .</text>
+            <annotationSet status="MANUAL" ID="14631">
+                <layer rank="1" name="FE">
+                    <label end="65" start="51" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16628">
+            <text>Là encore le premier ministre n' a pas la tâche facile car il va devoir trancher sur le point de savoir si la politique qu' il mène - fiscale notamment - doit continuer de favoriser les entreprises et leur compétitivité alors même que Mr Mitterrand , s' exprimant sur le sujet il y a quelques semaines , avait déclaré qu' on en avait assez fait .</text>
+            <annotationSet status="MANUAL" ID="20832">
+                <layer rank="1" name="FE">
+                    <label end="343" start="85" name="Topic"/>
+                    <label end="60" start="59" name="Speaker"/>
+                    <label end="28" start="10" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17079">
+            <text>De même , des organismes parajudiciaires sont apparus pour trancher certains conflits en dehors de l' appareil juridique classique : la COB , le conseil de la concurrence et le conseil supérieur de l' audiovisuel en sont des exemples .</text>
+            <annotationSet status="MANUAL" ID="21199">
+                <layer rank="1" name="FE">
+                    <label end="84" start="68" name="Topic"/>
+                    <label end="39" start="10" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17792">
+            <text>Une réunion du courant Socialisme et République samedi soir tranchait la question : l' hostilité à " l' inconstance politique " de Mr Dray l' emportait .</text>
+            <annotationSet status="MANUAL" ID="21870">
+                <layer rank="1" name="FE">
+                    <label end="80" start="70" name="Topic"/>
+                    <label end="46" start="15" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18680">
+            <text>Le gouvernement renâcle à trancher , préférant le plus souvent une retraite en bon ordre pour essayer de ménager les susceptibilités .</text>
+            <annotationSet status="MANUAL" ID="22804">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Speaker"/>
+                    <label itype="DNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

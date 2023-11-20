@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="bradage.n" ID="328" frame="Commerce_sell" frameID="172" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Buyer"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="11221"/>
+                <annoSet ID="12901"/>
+                <annoSet ID="13492"/>
+                <annoSet ID="15749"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Goods"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="11221"/>
+                <annoSet ID="13492"/>
+                <annoSet ID="15749"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="12901"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Money"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Seller"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="15749"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="11221"/>
+                <annoSet ID="12901"/>
+                <annoSet ID="13492"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="7744">
+            <text>Ces derniers n' ont pas seulement droit à toutes les facilités d' écoulement données par les organismes d' intervention , qui paient frais de stockage et subvention au bradage .</text>
+            <annotationSet status="MANUAL" ID="11221">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="174" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9011">
+            <text>On évite ainsi un bradage aux inconvénients multiples : d' abord , il détériorerait le bilan des banques , les déstabilisant à leur tour ; ensuite , l' arrivée massive sur le marché de mètres carrés de bureaux alimenterait la baisse des prix et entraînerait soit une impossibilité d' apprécier des biens n' ayant plus de locataires ou ne trouvant pas preneur , soit d' enclencher un mouvement de panique sur le marché .</text>
+            <annotationSet status="MANUAL" ID="12901">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9540">
+            <text>Les licenciements ont accru le chômage dans une cité qui offre peu d' emplois hors de la sidérurgie ; les commerçants ont été touchés par la récession actuelle , et le nouveau maire , Baltazar de Nobrega , élu en novembre dernier , se dit " opposé au bradage du fleuron de notre industrie nationale " , tout comme l' évêque ; Marino Clinger , le député fédéral de la région , tout en soulignant " les qualités de gestionnaire de l' actuel président " , redoute " l' effet désastreux sur l' économie de la ville de ce libéralisme sauvage " .</text>
+            <annotationSet status="MANUAL" ID="13492">
+                <layer rank="1" name="FE">
+                    <label end="297" start="262" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="257" start="251" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11431">
+            <text>L' Etat refusant de jouer son rôle d' actionnaire , il faut que Thomson vende ses meubles " , souligne la CGT qui précise que ses administrateurs ont voté contre " ce bradage des biens de la nation " ( le Monde du 25 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="15749">
+                <layer rank="1" name="FE">
+                    <label end="196" start="179" name="Goods"/>
+                    <label end="70" start="64" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

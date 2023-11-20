@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="détecter.v" ID="109" frame="FR_Becoming_aware" frameID="10086" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="ins" name="Instrument"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="897"/>
+                <annoSet ID="18533"/>
+                <annoSet ID="19790"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Instrument"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Phenomenon"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="897"/>
+                <annoSet ID="18533"/>
+                <annoSet ID="19790"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="810">
+            <text>En cas de surdosage , le traitement par la bivalirudine doit être immédiatement arrêté et le patient doit être étroitement surveillé afin de détecter tout signe de saignement .</text>
+            <annotationSet status="MANUAL" ID="897">
+                <layer rank="1" name="FE">
+                    <label end="173" start="150" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="148" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14195">
+            <text>L' évaluation effectuée depuis 1992 avait permis de détecter quelques points faibles dans le dispositif mis en place .</text>
+            <annotationSet status="MANUAL" ID="18533">
+                <layer rank="1" name="FE">
+                    <label end="115" start="61" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15556">
+            <text>Première étape : détecter parmi les salariés formés par l' économie planifiée les futurs cadres d' une nouvelle logique : la compétitivité .</text>
+            <annotationSet status="MANUAL" ID="19790">
+                <layer rank="1" name="FE">
+                    <label end="137" start="26" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="confirmation.n" ID="1539" frame="FR_Expressing_truth_of_proposition" frameID="10071" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prop" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Core" abbrev="pspkr" name="Past_speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Past_speaker"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Proposition"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="8729"/>
+                <annoSet ID="10010"/>
+                <annoSet ID="18114"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="8729"/>
+                <annoSet ID="10010"/>
+                <annoSet ID="18114"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5901">
+            <text>Enfin , j' espère fortement que lors du sommet l' importance de la réforme structurelle - dans les deux domaines suivants : politiques économiques des pays du G7 et réforme économique des pays de l' ancien bloc communiste - trouvera une nouvelle confirmation et qu' un consensus se dégagera sur la direction fondamentale à donner aux politiques économiques de demain .</text>
+            <annotationSet status="MANUAL" ID="8729">
+                <layer rank="1" name="FE">
+                    <label end="86" start="47" name="Proposition"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="257" start="246" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6723">
+            <text>Dans ces conditions , il est prudent d' attendre confirmation du chiffre avant d' en tirer des conclusions alarmistes .</text>
+            <annotationSet status="MANUAL" ID="10010">
+                <layer rank="1" name="FE">
+                    <label end="71" start="65" name="Proposition"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13809">
+            <text>Pour l' instant , la rumeur n' a jamais eu le moindre début de confirmation .</text>
+            <annotationSet status="MANUAL" ID="18114">
+                <layer rank="1" name="FE">
+                    <label end="26" start="18" name="Proposition"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

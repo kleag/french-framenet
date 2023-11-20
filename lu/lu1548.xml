@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="convenir.v" ID="1548" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Message"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="20044"/>
+                <annoSet ID="20216"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="20044"/>
+                <annoSet ID="20216"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15876">
+            <text>Il devra en convenir quand l' affaire des Irlandais de Vincennes dévoilera les curieuses pratiques de la " cellule antiterroriste " animée par M. Prouteau à l' Elysée , sur lesquelles , quoi qu' il en dise , il avait son mot à dire .</text>
+            <annotationSet status="MANUAL" ID="20044">
+                <layer rank="1" name="FE">
+                    <label end="10" start="9" name="Message"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16048">
+            <text>Interrogé par le journal Sud - Ouest , M. Jean - François Sieurac , directeur de la caisse régionale , a convenu qu' il s' agissait bien de fiches mais qu' elles n' avaient en aucun cas de caractère individualisé .</text>
+            <annotationSet status="MANUAL" ID="20216">
+                <layer rank="1" name="FE">
+                    <label end="150" start="117" name="Message"/>
+                    <label end="211" start="156" name="Message"/>
+                    <label end="99" start="39" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

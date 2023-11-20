@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="annonce.n" ID="1520" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="46" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="9778"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="46">
+            <FE name="Message"/>
+            <pattern total="37">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="4026"/>
+                <annoSet ID="4308"/>
+                <annoSet ID="4353"/>
+                <annoSet ID="4404"/>
+                <annoSet ID="4920"/>
+                <annoSet ID="5448"/>
+                <annoSet ID="5449"/>
+                <annoSet ID="7631"/>
+                <annoSet ID="9778"/>
+                <annoSet ID="10723"/>
+                <annoSet ID="11783"/>
+                <annoSet ID="12957"/>
+                <annoSet ID="13359"/>
+                <annoSet ID="13461"/>
+                <annoSet ID="14772"/>
+                <annoSet ID="15778"/>
+                <annoSet ID="15912"/>
+                <annoSet ID="16671"/>
+                <annoSet ID="18216"/>
+                <annoSet ID="18225"/>
+                <annoSet ID="18232"/>
+                <annoSet ID="18235"/>
+                <annoSet ID="18885"/>
+                <annoSet ID="19323"/>
+                <annoSet ID="19701"/>
+                <annoSet ID="20313"/>
+                <annoSet ID="22715"/>
+                <annoSet ID="22734"/>
+                <annoSet ID="22903"/>
+                <annoSet ID="23558"/>
+                <annoSet ID="23820"/>
+                <annoSet ID="23828"/>
+                <annoSet ID="23881"/>
+                <annoSet ID="23929"/>
+                <annoSet ID="23930"/>
+                <annoSet ID="24697"/>
+                <annoSet ID="24909"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Message"/>
+                <annoSet ID="7130"/>
+                <annoSet ID="7361"/>
+                <annoSet ID="13729"/>
+                <annoSet ID="19913"/>
+                <annoSet ID="21705"/>
+                <annoSet ID="22619"/>
+                <annoSet ID="23670"/>
+                <annoSet ID="24801"/>
+                <annoSet ID="24872"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="46">
+            <FE name="Speaker"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="7130"/>
+                <annoSet ID="9778"/>
+                <annoSet ID="10723"/>
+                <annoSet ID="13359"/>
+                <annoSet ID="13461"/>
+                <annoSet ID="13729"/>
+                <annoSet ID="15778"/>
+                <annoSet ID="15912"/>
+                <annoSet ID="16671"/>
+                <annoSet ID="18216"/>
+                <annoSet ID="19323"/>
+                <annoSet ID="22715"/>
+                <annoSet ID="22734"/>
+            </pattern>
+            <pattern total="33">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="4026"/>
+                <annoSet ID="4308"/>
+                <annoSet ID="4353"/>
+                <annoSet ID="4404"/>
+                <annoSet ID="4920"/>
+                <annoSet ID="5448"/>
+                <annoSet ID="5449"/>
+                <annoSet ID="7361"/>
+                <annoSet ID="7631"/>
+                <annoSet ID="11783"/>
+                <annoSet ID="12957"/>
+                <annoSet ID="14772"/>
+                <annoSet ID="18225"/>
+                <annoSet ID="18232"/>
+                <annoSet ID="18235"/>
+                <annoSet ID="18885"/>
+                <annoSet ID="19701"/>
+                <annoSet ID="19913"/>
+                <annoSet ID="20313"/>
+                <annoSet ID="21705"/>
+                <annoSet ID="22619"/>
+                <annoSet ID="22903"/>
+                <annoSet ID="23558"/>
+                <annoSet ID="23670"/>
+                <annoSet ID="23820"/>
+                <annoSet ID="23828"/>
+                <annoSet ID="23881"/>
+                <annoSet ID="23929"/>
+                <annoSet ID="23930"/>
+                <annoSet ID="24697"/>
+                <annoSet ID="24801"/>
+                <annoSet ID="24872"/>
+                <annoSet ID="24909"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3138">
+            <text>L' annonce de l' installation du poulailler géant suscite une vigoureuse protestation des syndicats d' exploitants agricoles , qui invoquent un risque de déséquilibre du marché européen .</text>
+            <annotationSet status="MANUAL" ID="4026">
+                <layer rank="1" name="FE">
+                    <label end="48" start="14" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3274">
+            <text>Les salariés de la chaîne de télévision sont encore sous le choc de l' annonce du dépôt de bilan .</text>
+            <annotationSet status="MANUAL" ID="4308">
+                <layer rank="1" name="FE">
+                    <label end="95" start="82" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3308">
+            <text>Avec même quatorze minutes , le 17 décembre , soir de l' annonce des 576 licenciements , avec des plateaux du genre : " en direct de la chaîne sinistrée ... " .</text>
+            <annotationSet status="MANUAL" ID="4353">
+                <layer rank="1" name="FE">
+                    <label end="85" start="69" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3340">
+            <text>" M. Lamont a également démenti que des mesures destinées à relancer la consommation avant l' annonce du budget , en mars prochain , soient envisagées .</text>
+            <annotationSet status="MANUAL" ID="4404">
+                <layer rank="1" name="FE">
+                    <label end="110" start="105" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3629">
+            <text>Et si la France peut se targuer d' avoir échappé à la récession dans laquelle les Etats - Unis et , plus encore , la Grande - Bretagne ont sombré , il n' en reste pas moins vrai que ses performances sont demeurées insuffisantes pour éviter l' annonce , dans de nombreux secteurs , de suppressions d' emplois .</text>
+            <annotationSet status="MANUAL" ID="4920">
+                <layer rank="1" name="FE">
+                    <label end="306" start="284" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="249" start="243" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3944">
+            <text>Après avoir souffert , fin décembre , des déclarations de M. Jean - Luc Lagardère selon lesquelles le groupe était à la recherche d' un repreneur pour la Cinq , puis de l' annonce d' un plan de licenciement massif , le titre s' est sensiblement redressé .</text>
+            <annotationSet status="MANUAL" ID="5448">
+                <layer rank="1" name="FE">
+                    <label end="212" start="183" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3945">
+            <text>L' annonce de la mise en règlement judiciaire de la chaîne a rassuré les investisseurs , ceux - ci estimant que le groupe multimédia cesserait de perdre de l' argent .</text>
+            <annotationSet status="MANUAL" ID="5449">
+                <layer rank="1" name="FE">
+                    <label end="57" start="14" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4950">
+            <text>L' intersyndicale de la Cinq a déclaré dans la soirée du 15 janvier qu' elle enregistrait " avec satisfaction " l' annonce du groupe Berlusconi mais qu' elle " s' interrogeait sur l' importance du nombre de salariés repris par le futur opérateur " .</text>
+            <annotationSet status="MANUAL" ID="7130">
+                <layer rank="1" name="FE">
+                    <label end="142" start="126" name="Speaker"/>
+                    <label itype="ENI" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5097">
+            <text>CSF a créé un journal d' annonces interne et une bourse de l' emploi sur Minitel , et SGS - Thomson teste actuellement " Eurojob " , système sophistiqué procurant le même type d' informations sur terminal d' ordinateur .</text>
+            <annotationSet status="MANUAL" ID="7361">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5264">
+            <text>Ce n' est pas forcément la plus économiquement souhaitable , mais celle qui fera le moins de vagues , compte tenu de l' agitation dans les campagnes " , entendait -on dans les milieux bancaires après l' annonce de cette décision .</text>
+            <annotationSet status="MANUAL" ID="7631">
+                <layer rank="1" name="FE">
+                    <label end="227" start="214" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="203" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6552">
+            <text>La débandade de 1982 - 1983 qui vit le pays au bord de la faillite publique et privée - de l' infarctus , selon M. Delors , - la forte montée du chômage fin 1983 , puis l' annonce par M. Mitterrand lui - même de la nécessité de restructurations industrielles ont provoqué un choc énorme dans l' opinion publique .</text>
+            <annotationSet status="MANUAL" ID="9778">
+                <layer rank="1" name="FE">
+                    <label end="257" start="212" name="Message"/>
+                    <label end="310" start="292" name="Addressee"/>
+                    <label end="207" start="184" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7292">
+            <text>Ces derniers jours , la cotation d' Asko a été suspendue , la direction voulant éviter une nouvelle chute à l' annonce , jeudi 2 juillet , de non- paiement d' un dividende au titre de l' exercice 1991 .</text>
+            <annotationSet status="MANUAL" ID="10723">
+                <layer rank="1" name="FE">
+                    <label end="199" start="142" name="Message"/>
+                    <label end="70" start="59" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8184">
+            <text>D' autre part , le montage financier , qui a mis plusieurs jours à être ratifié après l' annonce de l' accord la semaine dernière , prévoit le regroupement des activités de l' ULN dans la Sogénor , une société en commandite .</text>
+            <annotationSet status="MANUAL" ID="11783">
+                <layer rank="1" name="FE">
+                    <label end="108" start="100" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9059">
+            <text>ce sont les attaques contre le franc qui ont provoqué la remontée des taux à court terme sur la place de Paris , accélérée jeudi par l' annonce du relèvement du TBB .</text>
+            <annotationSet status="MANUAL" ID="12957">
+                <layer rank="1" name="FE">
+                    <label end="163" start="147" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9458">
+            <text>" Le gouvernement britannique pourrait s' inspirer de l' exemple français " , notait le Financial Times ( 3 novembre 1992 ) au lendemain de l' annonce à Londres d' un plan de licenciement de 30 000 " gueules noires " et la fermeture de trente et un des cinquante puits encore en activité .</text>
+            <annotationSet status="MANUAL" ID="13359">
+                <layer rank="1" name="FE">
+                    <label end="286" start="164" name="Message"/>
+                    <label end="28" start="2" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9526">
+            <text>Son annonce a provoqué une grève de 32 jours en juillet - août 1990 , la plus longue de l' histoire de l' entreprise , pour une issue traumatisante : la direction n' a fait aucune concession et avait retenu les journées de grève sur les salaires et les congés .</text>
+            <annotationSet status="MANUAL" ID="13461">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Message"/>
+                    <label end="161" start="150" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9759">
+            <text>Ceux - ci ont donc été jusqu' à présent relativement délaissés par la communauté internationale qui s' est contentée grosso modo de quelques effets d' annonce en attendant le feu vert du FMI , donné actuellement seulement pour les pays baltes .</text>
+            <annotationSet status="MANUAL" ID="13729">
+                <layer rank="1" name="FE">
+                    <label end="149" start="67" name="Speaker"/>
+                    <label end="241" start="159" name="Speaker"/>
+                    <label itype="UNI" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10553">
+            <text>Quelques instants après l' annonce de ce vote , la Banque d' Italie a abaissé les taux directeurs du pays , le taux de l' escompte passant de 13 % à 12 % .</text>
+            <annotationSet status="MANUAL" ID="14772">
+                <layer rank="1" name="FE">
+                    <label end="44" start="38" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11452">
+            <text>La nomination de ces deux hommes intervient peu après l' annonce par IBM de la suppression de 25 000 emplois pour faire face à une dégradation continue des résultats d' ensemble du groupe .</text>
+            <annotationSet status="MANUAL" ID="15778">
+                <layer rank="1" name="FE">
+                    <label end="186" start="76" name="Message"/>
+                    <label end="71" start="69" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11555">
+            <text>Les déclarations du président élu Bill Clinton dimanche sur le transport aérien ( le Monde du 29 décembre ) - dénonçant l' ultralibéralisme de Reagan et Bush dans ce domaine - et l' annonce , pratiquement simultanée , de l' abandon par British Airways de son projet d' acquisition de US Air sont d' autres signes de cette montée du protectionnisme .</text>
+            <annotationSet status="MANUAL" ID="15912">
+                <layer rank="1" name="FE">
+                    <label end="289" start="221" name="Message"/>
+                    <label end="250" start="236" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="188" start="182" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12334">
+            <text>Le vrai rabais est soit une réduction consentie par un magasin sur les prix pratiqués sur un produit identique dans les trente jours qui précèdent l' annonce de la baisse , soit une réduction sur des prix conseillés lorsqu' ils existent .</text>
+            <annotationSet status="MANUAL" ID="16671">
+                <layer rank="1" name="FE">
+                    <label end="169" start="161" name="Message"/>
+                    <label end="61" start="52" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13902">
+            <text>Aux premiers jours , l' annonce par Pierre Bérégovoy , alors ministre des finances , de la création d' un nouveau produit d' épargne pour remplacer le compte d' épargne en actions ( CEA ) Monory , avait contribué à une relative euphorie .</text>
+            <annotationSet status="MANUAL" ID="18216">
+                <layer rank="1" name="FE">
+                    <label end="193" start="88" name="Message"/>
+                    <label end="83" start="36" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13909">
+            <text>Il y eut par la suite , l' annonce précise des modalités du nouveau plan d' épargne en actions ( PEA ) ainsi que celle de nouvelles privatisations partielles .</text>
+            <annotationSet status="MANUAL" ID="18225">
+                <layer rank="1" name="FE">
+                    <label end="101" start="47" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13916">
+            <text>L' indice avait évolué dans une marge étroite autour des 2000 points depuis la mi - mai ; mais le vote danois et l' annonce d' un référendum en France sur le traité de Maastricht ont multiplié les incertitudes , dont les boursiers ont une sainte horreur .</text>
+            <annotationSet status="MANUAL" ID="18232">
+                <layer rank="1" name="FE">
+                    <label end="177" start="127" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13917">
+            <text>Ajoutez à cela l' annonce de l' alourdissement de la fiscalité des sicav monétaires - coup de pouce au nouveau plan et transfert d' épargne obligent , - ainsi qu' un malaise grandissant dans le secteur de l' immobilier ...</text>
+            <annotationSet status="MANUAL" ID="18235">
+                <layer rank="1" name="FE">
+                    <label end="82" start="29" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14577">
+            <text>Les notaires affirment que leurs clients ont été déçus par les mesures récentes de relance du logement , sentiment qu' alimentera encore l' annonce de la hausse de 20 % ( de 4 , 2 à 5 % ) de la taxe départementale à Paris ( et dans les Yvelines ) , qui renchérit encore depuis le premier juin les transactions .</text>
+            <annotationSet status="MANUAL" ID="18885">
+                <layer rank="1" name="FE">
+                    <label end="308" start="151" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="146" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15056">
+            <text>après l' annonce d' une révision à la baisse des bénéfices pour le premier semestre de 1992 , le titre Body Shop a plongé de 40 % à la Corbeille .</text>
+            <annotationSet status="MANUAL" ID="19323">
+                <layer rank="1" name="FE">
+                    <label end="90" start="20" name="Message"/>
+                    <label end="111" start="103" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15434">
+            <text>A l' annonce de cette décision , Catherine Trautmann , maire ( PS ) de Strasbourg , s' est " félicitée " de ce que " cette confirmation du transfert marque un respect des engagements pris " et " permet de mettre un terme aux derniers arguments jacobins qui liaient abusivement la qualité de l' enseignement de l' ENA à sa proximité avec les ministères " .</text>
+            <annotationSet status="MANUAL" ID="19701">
+                <layer rank="1" name="FE">
+                    <label end="29" start="16" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15735">
+            <text>En mai , selon l' indicateur de l' APEC ( association pour l' emploi des cadres ) , l' offre d' emploi pour les cadres , telle qu' elle peut être mesurée par le volume des annonces publiées dans la presse , a diminué de 32 % , en données corrigées , par rapport à l' an passé .</text>
+            <annotationSet status="MANUAL" ID="19913">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="179" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16170">
+            <text>Moins médiatique que l' annonce de la hausse des prix du tabac et des " sacrifices budgétaires " au profit de la sécurité sociale , le déroulement de la négociation sur l' avenir de l' Association des régimes de retraite complémentaire ( ARRCO ) indique qu' il ne faut sans doute pas désespérer du paritarisme .</text>
+            <annotationSet status="MANUAL" ID="20313">
+                <layer rank="1" name="FE">
+                    <label end="64" start="35" name="Message"/>
+                    <label end="128" start="70" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17666">
+            <text>Cette annonce arrive à point nommé au moment où les autorités sanitaires de différents pays s' interrogent sur l' opportunité de recommander - et donc , dans un pays comme la France , de rembourser - la prise d' AZT à l' ensemble des personnes séropositives .</text>
+            <annotationSet status="MANUAL" ID="21705">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18512">
+            <text>Cette annonce ainsi que la promesse d' organiser un référendum le 28 janvier prochain sur le rétablissement éventuel de la peine de mort sont intervenues à la suite d' une journée de folie qui aurait dû en principe être consacrée à rendre hommage à la mémoire des victimes de la révolution roumaine .</text>
+            <annotationSet status="MANUAL" ID="22619">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18597">
+            <text>C' est avec un scepticisme marqué , presque avec hostilité , que les nationalistes lituaniens ont accueilli , vendredi 12 janvier , l' annonce faite la veille par Mr Mikhail Gorbatchev qu' un projet de loi sur les modalités du droit à la sécession pour les Républiques de l' URSS allait être soumis à un débat national .</text>
+            <annotationSet status="MANUAL" ID="22715">
+                <layer rank="1" name="FE">
+                    <label end="317" start="189" name="Message"/>
+                    <label end="183" start="163" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18619">
+            <text>Reste à savoir si l' annonce d' un projet de loi sur les modalités de sécession calmera les esprits ou si Mr Gorbatchev vient d' ouvrir une nouvelle boite de pandore .</text>
+            <annotationSet status="MANUAL" ID="22734">
+                <layer rank="1" name="FE">
+                    <label end="78" start="32" name="Message"/>
+                    <label end="118" start="106" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18817">
+            <text>Puis , vendredi en début d' après - midi ( heure française ) , ce fut l' annonce d' une hausse de 0 , 7 % des prix de gros américains en décembre , au lieu de 0 , 5 % prévu , et de 0 , 3 % hors alimentation et énergie .</text>
+            <annotationSet status="MANUAL" ID="22903">
+                <layer rank="1" name="FE">
+                    <label end="216" start="84" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19777">
+            <text>Krister Navjord , le responsable administratif de la commune , en parle avec enthousiasme et s' amuse de l' étonnement que l' annonce de l' opération a suscité à Stockholm .</text>
+            <annotationSet status="MANUAL" ID="23558">
+                <layer rank="1" name="FE">
+                    <label end="148" start="137" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19923">
+            <text>Cette annonce intervient au moment où les Etats - Unis , qui ont du mal à sortir de la récession , entrent dans une année électorale , M. Bush espérant bien obtenir un second mandat en novembre .</text>
+            <annotationSet status="MANUAL" ID="23670">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20087">
+            <text>Puis l' annonce d' un recul de 0 , 2 % des prix de gros américains en décembre venait le raffermir un peu , éloignant la crainte d' un retour de l' inflation .</text>
+            <annotationSet status="MANUAL" ID="23820">
+                <layer rank="1" name="FE">
+                    <label end="65" start="19" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20091">
+            <text>Vendredi après - midi , après un reflux du billet vert , l' annonce de chiffres ( relativement ) plus favorables sur l' emploi outre - Atlantique relançait sa hausse .</text>
+            <annotationSet status="MANUAL" ID="23828">
+                <layer rank="1" name="FE">
+                    <label end="144" start="71" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20151">
+            <text>A Londres , les prix se sont aussi nettement repliés , et l' annonce de la fin de la grève des mineurs sur le site sud - africain de Bakokeng ( exploité par la firme impala ) n' a pas amélioré la tendance .</text>
+            <annotationSet status="MANUAL" ID="23881">
+                <layer rank="1" name="FE">
+                    <label end="173" start="82" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20187">
+            <text>Ce changement à la tête du groupe français d' électronique grand public intervient trois semaines seulement après l' annonce du rapprochement Thomson - CEA - Industrie ( le Monde du 19 décembre 1991 ) .</text>
+            <annotationSet status="MANUAL" ID="23929">
+                <layer rank="1" name="FE">
+                    <label end="166" start="128" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20188">
+            <text>Depuis l' annonce de la création du groupe Thomson - CEA - Industrie , le départ de M. Bernard Isautier était considéré comme probable .</text>
+            <annotationSet status="MANUAL" ID="23930">
+                <layer rank="1" name="FE">
+                    <label end="67" start="21" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21260">
+            <text>Dès l' annonce de ce gel d' un an , l' abbé Pierre a fait part de sa " consternation " , envoyant des télégrammes dans les ministères pour rappeler que " 59 % des bénéficiaires de l' APL sont des ménages dont les revenus modestes sont situés entre le RMI et le SMIC " .</text>
+            <annotationSet status="MANUAL" ID="24697">
+                <layer rank="1" name="FE">
+                    <label end="32" start="18" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21407">
+            <text>Comment avez -vous réagi à cette annonce ?</text>
+            <annotationSet status="MANUAL" ID="24801">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21517">
+            <text>Très vite la déception provoquée par cette annonce , notamment dans les milieux patronaux , le contraint à revoir sa copie .</text>
+            <annotationSet status="MANUAL" ID="24872">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21608">
+            <text>A l' annonce de cette hausse , parmi les plus élevées depuis 1983 , Edouard Balladur se déclare " surpris " .</text>
+            <annotationSet status="MANUAL" ID="24909">
+                <layer rank="1" name="FE">
+                    <label end="27" start="16" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

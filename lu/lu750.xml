@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prôner.v" ID="750" frame="FR_Attempt_suasion.content" frameID="10003" totalAnnotated="12" xsi:schemaLocation="/Users/mcandito/Documents/PROJETS/ASFALDA/svn/Asfalda/src../framenet/fndata-asfalda/schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="SoA" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Arguer" name="Arguer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Support" name="Support"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="11">
+            <FE name="Addressee"/>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="3201"/>
+                <annoSet ID="3204"/>
+                <annoSet ID="4474"/>
+                <annoSet ID="6970"/>
+                <annoSet ID="6985"/>
+                <annoSet ID="7262"/>
+                <annoSet ID="7338"/>
+                <annoSet ID="7969"/>
+                <annoSet ID="8397"/>
+                <annoSet ID="8422"/>
+                <annoSet ID="8455"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Arguer"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Arguer"/>
+                <annoSet ID="3201"/>
+                <annoSet ID="3204"/>
+                <annoSet ID="4474"/>
+                <annoSet ID="5852"/>
+                <annoSet ID="6970"/>
+                <annoSet ID="6985"/>
+                <annoSet ID="7262"/>
+                <annoSet ID="7338"/>
+                <annoSet ID="7969"/>
+                <annoSet ID="8397"/>
+                <annoSet ID="8422"/>
+                <annoSet ID="8455"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="8455"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="State_of_affairs"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="State_of_affairs"/>
+                <annoSet ID="3201"/>
+                <annoSet ID="3204"/>
+                <annoSet ID="4474"/>
+                <annoSet ID="5852"/>
+                <annoSet ID="6970"/>
+                <annoSet ID="6985"/>
+                <annoSet ID="7262"/>
+                <annoSet ID="7338"/>
+                <annoSet ID="7969"/>
+                <annoSet ID="8397"/>
+                <annoSet ID="8422"/>
+                <annoSet ID="8455"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Support"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Support"/>
+                <annoSet ID="5852"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6934">
+            <text>Un marché protégé au nom de la préférence communautaire et une intervention réelle , mais pas trop voyante , de l' Etat : voilà le rêve ambigu caressé par la Fédération , qui prône " ni libéralisme , ni étatisme , mais une action concertée des agriculteurs " .</text>
+            <annotationSet status="MANUAL" ID="3201">
+                <layer rank="1" name="FE">
+                    <label end="257" start="181" name="State_of_affairs"/>
+                    <label end="173" start="171" name="Arguer"/>
+                    <label end="257" start="155" name="Arguer"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="179" start="175" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6938">
+            <text>Raymond Lacombe prônait " un engagement significatif en faveur de la revitalisation du milieu rural " .</text>
+            <annotationSet status="MANUAL" ID="3204">
+                <layer rank="1" name="FE">
+                    <label end="100" start="24" name="State_of_affairs"/>
+                    <label end="14" start="0" name="Arguer"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9830">
+            <text>Ceux qui prônent une dévaluation ne le font plus , comme naguère , pour remédier , soi - disant , au déficit de notre commerce extérieur , puisqu' il est devenu excédentaire , précisément grâce à une politique inverse de stabilité du taux de change accompagnée d' une désinflation compétitive .</text>
+            <annotationSet status="MANUAL" ID="4474">
+                <layer rank="1" name="FE">
+                    <label end="7" start="5" name="Arguer"/>
+                    <label end="31" start="17" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13102">
+            <text>Car la production britannique originale , que prône M. Birt , coûte plus cher que l' importation .</text>
+            <annotationSet status="MANUAL" ID="5852">
+                <layer rank="1" name="FE">
+                    <label end="58" start="52" name="Arguer"/>
+                    <label end="44" start="42" name="State_of_affairs"/>
+                    <label end="58" start="4" name="State_of_affairs"/>
+                    <label itype="UNI" name="Support "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16290">
+            <text>Mais le programme de réformes modérées prôné par M. Kim Young - sam sera -t-il à même de remédier au " mal coréen " ?</text>
+            <annotationSet status="MANUAL" ID="6970">
+                <layer rank="1" name="FE">
+                    <label end="66" start="5" name="State_of_affairs"/>
+                    <label end="66" start="49" name="Arguer"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16319">
+            <text>Alors que ses adversaires prônaient un contrôle plus ferme sur les conglomérats , M. Kim Young - sam est partisan d' une action graduelle qui risque d' être inefficace .</text>
+            <annotationSet status="MANUAL" ID="6985">
+                <layer rank="1" name="FE">
+                    <label end="24" start="10" name="Arguer"/>
+                    <label end="78" start="36" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17148">
+            <text>Les dirigeants communistes locaux , en prônant le calme et les compromis et en limitant la violence , ont essayé de sauvegarder leurs privilèges , mais leurs chances de se maintenir étaient nulles .</text>
+            <annotationSet status="MANUAL" ID="7262">
+                <layer rank="1" name="FE">
+                    <label end="32" start="0" name="Arguer"/>
+                    <label end="71" start="47" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17399">
+            <text>D' autres prônaient une modernisation du débat politique qui laisserait au Parlement et aux citoyens l' initiative de référendums , clarifierait les sources de financement des partis et , faisant fi , à juste titre , d' un improbable " gouvernement des juges " , instituerait une saisine du conseil constitutionnel par le particulier (10) .</text>
+            <annotationSet status="MANUAL" ID="7338">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Arguer"/>
+                    <label end="337" start="20" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19491">
+            <text>Enfin , la diffusion de thèses sur le développement social , économique et culturel , prônées par l' organisation clandestine dans son " avant - projet de société pour la Corse " indique que l' ex- FLNC a adapté une réplique évolutive à " la méthode de saupoudrage de réformettes " qu' il a souvent dénoncée par tracts .</text>
+            <annotationSet status="MANUAL" ID="7969">
+                <layer rank="1" name="FE">
+                    <label end="177" start="8" name="State_of_affairs"/>
+                    <label end="124" start="98" name="Arguer"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21010">
+            <text>Dans la logique de cette orthodoxie , M. Sapin a vivement attaqué ceux qui , dans l' opposition , prônent une sortie du système monétaire européen ( SME ) alors que , " si le franc perdait de sa valeur , les taux d' intérêt augmenteraient " .</text>
+            <annotationSet status="MANUAL" ID="8397">
+                <layer rank="1" name="FE">
+                    <label end="73" start="71" name="Arguer"/>
+                    <label end="153" start="106" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21117">
+            <text>Ce compromis a été dans l' ensemble bien accepté , sauf par ceux qui prônent des mesures radicales : le gel des stocks ou au contraire leur destruction en raison des coûts élevés du stockage .</text>
+            <annotationSet status="MANUAL" ID="8422">
+                <layer rank="1" name="FE">
+                    <label end="67" start="65" name="Arguer"/>
+                    <label end="97" start="77" name="State_of_affairs"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21254">
+            <text>La Délégation générale à la langue française et l' Office de la langue française du Québec , principaux collaborateurs de Logiciel et épinglette , " guide des termes francophones recommandés " , prônent également dans ce fascicule déréglementation en lieu et place de l' anglicisme , dans le domaine de l' économie , avec l' acception suivante : " Réduction ou suppression de la réglementation de nature économique dans un secteur donné dans le but de privilégier les forces du marché " .</text>
+            <annotationSet status="MANUAL" ID="8455">
+                <layer rank="1" name="FE">
+                    <label end="229" start="218" name="Medium"/>
+                    <label end="280" start="231" name="State_of_affairs"/>
+                    <label end="191" start="0" name="Arguer"/>
+                    <label itype="UNI" name="Addressee "/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="201" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

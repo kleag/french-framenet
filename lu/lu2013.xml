@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'entendre.v" ID="2013" frame="Make_agreement_on_action" frameID="10039" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="par1" name="Party_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="par2" name="Party_2"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="obl" name="Obligation"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="pars" name="Parties"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Obligation"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Obligation"/>
+                <annoSet ID="9807"/>
+                <annoSet ID="10083"/>
+                <annoSet ID="16762"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Obligation"/>
+                <annoSet ID="11982"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Parties"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Parties"/>
+                <annoSet ID="9807"/>
+                <annoSet ID="10083"/>
+                <annoSet ID="11982"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Parties"/>
+                <annoSet ID="16762"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Party_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Party_2"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6575">
+            <text>L' Allemagne , puissance invitante , veut délivrer un message " de confiance et d' optimisme " et souhaite que les Sept s' entendent sur des mesures " concrètes " .</text>
+            <annotationSet status="MANUAL" ID="9807">
+                <layer rank="1" name="FE">
+                    <label end="161" start="137" name="Obligation"/>
+                    <label end="118" start="111" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="120" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6772">
+            <text>Dans l' application des accords , le management local et les syndicalistes peuvent s' entendre sur les voies à emprunter ( cercles de qualité , élargissement des qualifications , etc. ) pour atteindre les objectifs de l' entreprise .</text>
+            <annotationSet status="MANUAL" ID="10083">
+                <layer rank="1" name="FE">
+                    <label end="230" start="99" name="Obligation"/>
+                    <label end="73" start="34" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8355">
+            <text>Mais la négociation ouverte il y a trois ans est bloquée en raison de l' incapacité des six organisations patronales à s' entendre .</text>
+            <annotationSet status="MANUAL" ID="11982">
+                <layer rank="1" name="FE">
+                    <label end="115" start="88" name="Parties"/>
+                    <label itype="DNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12423">
+            <text>Reste à s' entendre concrètement sur les sacrifices .</text>
+            <annotationSet status="MANUAL" ID="16762">
+                <layer rank="1" name="FE">
+                    <label end="50" start="37" name="Obligation"/>
+                    <label itype="ENI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

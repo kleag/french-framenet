@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="amener.v" ID="158" frame="Causation" frameID="5" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Affected"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Affected"/>
+                <annoSet ID="18248"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cause"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="13988"/>
+                <annoSet ID="16346"/>
+                <annoSet ID="18248"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Effect"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="13988"/>
+                <annoSet ID="16346"/>
+                <annoSet ID="18248"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="9957">
+            <text>De fait , la démarche de Kondratieff l' amène très tôt à être en butte à l' accusation d' apologie du capitalisme .</text>
+            <annotationSet status="MANUAL" ID="13988">
+                <layer rank="1" name="FE">
+                    <label end="35" start="10" name="Cause"/>
+                    <label end="38" start="37" name="Effect"/>
+                    <label end="112" start="57" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12037">
+            <text>une législation peut en amener une autre plus restrictive .</text>
+            <annotationSet status="MANUAL" ID="16346">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Cause"/>
+                    <label end="56" start="31" name="Effect"/>
+                    <label end="22" start="21" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13930">
+            <text>En l' absence de geste sur les taux d' intérêt des deux côtés du Rhin - car les boursiers tablaient également sur un dégel de la Bundesbank - les valeurs françaises entamèrent une descente qui les amena à leur plus bas niveau de l' année le lundi 5 octobre , avec un indice CAC 40 s' inscrivant à 1611 , 4 points .</text>
+            <annotationSet status="MANUAL" ID="18248">
+                <layer rank="1" name="FE">
+                    <label end="191" start="189" name="Cause"/>
+                    <label end="187" start="176" name="Cause"/>
+                    <label end="163" start="142" name="Affected"/>
+                    <label end="195" start="193" name="Affected"/>
+                    <label end="236" start="203" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="201" start="197" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

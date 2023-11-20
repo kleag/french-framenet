@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="infléchir.v" ID="1000" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Dependent"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="6956"/>
+                <annoSet ID="18477"/>
+                <annoSet ID="19417"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Influencer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="6956"/>
+                <annoSet ID="18477"/>
+                <annoSet ID="19417"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4868">
+            <text>Confronté à de vives tensions sociales , disposant d' un soutien fragile du Parlement , le gouvernement de M. Jan Olszewski , investi en janvier , entend infléchir sensiblement la politique économique menée par l' équipe précédente afin de relancer les exportations et les investissements , pour parvenir à rétablir la croissance économique d' ici à 1993 ou 1994 .</text>
+            <annotationSet status="MANUAL" ID="6956">
+                <layer rank="1" name="FE">
+                    <label end="230" start="177" name="Dependent"/>
+                    <label end="143" start="88" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14140">
+            <text>Cela se produit aux Etats - Unis , où les représentants des régions atteintes par la dépression tentent , parfois avec succès , d' infléchir la politique de la Fed , théoriquement aussi indépendante que la future BCE , vers moins de rigueur .</text>
+            <annotationSet status="MANUAL" ID="18477">
+                <layer rank="1" name="FE">
+                    <label end="217" start="141" name="Dependent"/>
+                    <label end="94" start="38" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15169">
+            <text>Comme il s' y attendait , M. Balladur n' a donc pas véritablement infléchi l' attitude du CNPF .</text>
+            <annotationSet status="MANUAL" ID="19417">
+                <layer rank="1" name="FE">
+                    <label end="93" start="75" name="Dependent"/>
+                    <label end="36" start="26" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

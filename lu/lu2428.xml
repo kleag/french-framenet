@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="rejeter.v" ID="2428" frame="Respond_to_proposal" frameID="1623" totalAnnotated="18" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="int" name="Interlocutor"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="18">
+            <FE name="Interlocutor"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Interlocutor"/>
+                <annoSet ID="1870"/>
+                <annoSet ID="2828"/>
+                <annoSet ID="3065"/>
+                <annoSet ID="3419"/>
+                <annoSet ID="5323"/>
+                <annoSet ID="6851"/>
+                <annoSet ID="7570"/>
+                <annoSet ID="9206"/>
+                <annoSet ID="20361"/>
+                <annoSet ID="24479"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Interlocutor"/>
+                <annoSet ID="2144"/>
+                <annoSet ID="2823"/>
+                <annoSet ID="3051"/>
+                <annoSet ID="3891"/>
+                <annoSet ID="3892"/>
+                <annoSet ID="8655"/>
+                <annoSet ID="14997"/>
+                <annoSet ID="20363"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Proposal"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="1870"/>
+                <annoSet ID="2144"/>
+                <annoSet ID="2823"/>
+                <annoSet ID="2828"/>
+                <annoSet ID="3051"/>
+                <annoSet ID="3065"/>
+                <annoSet ID="3419"/>
+                <annoSet ID="3891"/>
+                <annoSet ID="3892"/>
+                <annoSet ID="5323"/>
+                <annoSet ID="6851"/>
+                <annoSet ID="7570"/>
+                <annoSet ID="8655"/>
+                <annoSet ID="9206"/>
+                <annoSet ID="14997"/>
+                <annoSet ID="20361"/>
+                <annoSet ID="20363"/>
+                <annoSet ID="24479"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Speaker"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="1870"/>
+                <annoSet ID="2823"/>
+                <annoSet ID="3051"/>
+                <annoSet ID="3419"/>
+                <annoSet ID="5323"/>
+                <annoSet ID="6851"/>
+                <annoSet ID="7570"/>
+                <annoSet ID="8655"/>
+                <annoSet ID="9206"/>
+                <annoSet ID="14997"/>
+                <annoSet ID="20363"/>
+                <annoSet ID="24479"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="2144"/>
+                <annoSet ID="2828"/>
+                <annoSet ID="3065"/>
+                <annoSet ID="3891"/>
+                <annoSet ID="3892"/>
+                <annoSet ID="20361"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1714">
+            <text>C' est la raison pour laquelle notre groupe rejette les propositions d' amendement qui ont à nouveau été introduites par M. Blokland , les verts et d' autres collègues .</text>
+            <annotationSet status="MANUAL" ID="1870">
+                <layer rank="1" name="FE">
+                    <label end="166" start="121" name="Interlocutor"/>
+                    <label end="166" start="52" name="Proposal"/>
+                    <label end="42" start="31" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1813">
+            <text>Cette demande a été rejetée et il est en prison parce qu' il a osé , il y a quelque temps , proposer la recherche d' une solution politique au problème kurde .</text>
+            <annotationSet status="MANUAL" ID="2144">
+                <layer rank="1" name="FE">
+                    <label end="12" start="0" name="Proposal"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2132">
+            <text>Le 26 mars 1922 , le dossier des caporaux de Souain était rejeté par la Cour de Cassation qui jugeait sur la forme sans trouver à redire sur le fond , puis une seconde fois le 21 avril 1926 .</text>
+            <annotationSet status="MANUAL" ID="2823">
+                <layer rank="1" name="FE">
+                    <label end="50" start="18" name="Proposal"/>
+                    <label end="147" start="69" name="Speaker"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2134">
+            <text>Par deux fois , malgré le long travail d' enquête , l' accumulation des témoignages et l' épaisseur des dossiers constitués par Blanche Maupas et la Ligue des Droits de l' Homme , les demandes de réhabilitation avaient été rejetées .</text>
+            <annotationSet status="MANUAL" ID="2828">
+                <layer rank="1" name="FE">
+                    <label end="176" start="128" name="Interlocutor"/>
+                    <label end="209" start="180" name="Proposal"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="230" start="223" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2357">
+            <text>- 6 février 1998 : Les recours formés contre Laurent Dominati par Dominique Bertinotti ( PS ) et Yves Contassot ( Vert ) devant le Conseil constitutionnel sont rejetés au motif que les erreurs dans les inscriptions sur les listes électorales relevées dans le 3e arrondissement durant les élections législatives de 1997 ne constituent pas des " manoeuvres " .</text>
+            <annotationSet status="MANUAL" ID="3051">
+                <layer rank="1" name="FE">
+                    <label end="153" start="19" name="Proposal"/>
+                    <label end="153" start="128" name="Speaker"/>
+                    <label itype="UNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="160" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2361">
+            <text>Sa demande est rejetée .</text>
+            <annotationSet status="MANUAL" ID="3065">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Interlocutor"/>
+                    <label end="9" start="0" name="Proposal"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2563">
+            <text>- Le 21 juillet 2006 , pour la troisième fois , la commission consultative du secret de la défense nationale rejette la demande de déclassification d' un document des douanes demandée par les juges Pons et d' Huy .</text>
+            <annotationSet status="MANUAL" ID="3419">
+                <layer rank="1" name="FE">
+                    <label end="211" start="188" name="Interlocutor"/>
+                    <label end="211" start="117" name="Proposal"/>
+                    <label end="107" start="48" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2993">
+            <text>- 13 octobre 2004 : Recours en cassation rejeté</text>
+            <annotationSet status="MANUAL" ID="3891">
+                <layer rank="1" name="FE">
+                    <label end="39" start="20" name="Proposal"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2994">
+            <text>- Mars 2005 : Recours en grâce rejeté</text>
+            <annotationSet status="MANUAL" ID="3892">
+                <layer rank="1" name="FE">
+                    <label end="29" start="14" name="Proposal"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3861">
+            <text>Le juge des référés du tribunal de grande instance de Paris a d' autre part rejeté la demande de la CFDT visant à faire fixer à 200 000 francs l' astreinte de 50 000 francs par heure d' ouverture , définie le 27 décembre .</text>
+            <annotationSet status="MANUAL" ID="5323">
+                <layer rank="1" name="FE">
+                    <label end="103" start="97" name="Interlocutor"/>
+                    <label end="219" start="83" name="Proposal"/>
+                    <label end="58" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4814">
+            <text>Le Conseil des Bourses de valeurs ( CBV ) a rejeté , mercredi 15 janvier , la demande de dérogation à l' obligation de déposer une offre publique d' achat ( OPA ) sur Perrier qui lui était présentée par les sociétés Exor , Généval , Ominco et Saint Louis .</text>
+            <annotationSet status="MANUAL" ID="6851">
+                <layer rank="1" name="FE">
+                    <label end="253" start="203" name="Interlocutor"/>
+                    <label end="253" start="75" name="Proposal"/>
+                    <label end="40" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5220">
+            <text>Le conseil d' administration de l' union laitière normande ( ULN ) , réuni mardi 30 juin , a opté pour la proposition de reprise faite par Bongrain et rejeté celle de Besnier .</text>
+            <annotationSet status="MANUAL" ID="7570">
+                <layer rank="1" name="FE">
+                    <label end="173" start="167" name="Interlocutor"/>
+                    <label end="173" start="158" name="Proposal"/>
+                    <label end="65" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5861">
+            <text>L' un des moyens de réduire progressivement cette montagne de dettes - outre une politique vertueuse en matière de déficit budgétaire qui n' évoque plus que des sarcasmes après l' épisode tragi - comique de l' amendement à la Constitution finalement rejeté par le Congrès - réside dans la baisse des taux d' intérêt .</text>
+            <annotationSet status="MANUAL" ID="8655">
+                <layer rank="1" name="FE">
+                    <label end="237" start="207" name="Proposal"/>
+                    <label end="270" start="261" name="Speaker"/>
+                    <label itype="UNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="255" start="250" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6191">
+            <text>La Cour a rejeté un pourvoi formé par M. Michel Leclerc contre un arrêt de la cour d' appel de Paris qui lui avait interdit , le 22 mars 1990 , d' utiliser les enseignes " pompes funèbres Michel Leclerc " ou " Groupe Michel Leclerc " .</text>
+            <annotationSet status="MANUAL" ID="9206">
+                <layer rank="1" name="FE">
+                    <label end="54" start="38" name="Interlocutor"/>
+                    <label end="232" start="17" name="Proposal"/>
+                    <label end="6" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10741">
+            <text>La proposition , honnête en apparence , est rejetée avec vigueur par l' ensemble de la profession .</text>
+            <annotationSet status="MANUAL" ID="14997">
+                <layer rank="1" name="FE">
+                    <label end="36" start="0" name="Proposal"/>
+                    <label end="96" start="69" name="Speaker"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16203">
+            <text>JUSTICE Air France - UTA : les référés de salariés d' UTA contre la fusion ont été rejetés .</text>
+            <annotationSet status="MANUAL" ID="20361">
+                <layer rank="1" name="FE">
+                    <label end="56" start="42" name="Interlocutor"/>
+                    <label end="73" start="27" name="Proposal"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16204">
+            <text>- les référés déposés contre la tenue des assemblées générales d' Air France et d' UTA le 29 décembre sur la fusion des deux entreprises ont été rejetés par le tribunal de commerce de Paris .</text>
+            <annotationSet status="MANUAL" ID="20363">
+                <layer rank="1" name="FE">
+                    <label end="135" start="2" name="Proposal"/>
+                    <label end="188" start="157" name="Speaker"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20941">
+            <text>- La Cour européenne de justice a rejeté le recours introduit , pour éviter des licenciements , par le personnel de la société Perrier contre la décision de la Commission de Bruxelles qui avait autorisé le 22 juillet 1992 le rachat de Perrier par Nestlé .</text>
+            <annotationSet status="MANUAL" ID="24479">
+                <layer rank="1" name="FE">
+                    <label end="133" start="100" name="Interlocutor"/>
+                    <label end="252" start="41" name="Proposal"/>
+                    <label end="30" start="2" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

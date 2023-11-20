@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Appointing" ID="1925" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Selector&lt;/fen&gt;, often an individual in a leadership role, appoints a &lt;fen&gt;Official&lt;/fen&gt; to assume an official &lt;fen&gt;Role&lt;/fen&gt; in an organization (which can be expressed as the &lt;fen&gt;Body&lt;/fen&gt;).
+
+&lt;ex&gt;&lt;fex name="Selector"&gt;Press secretaries&lt;/fex&gt; &lt;t&gt;accredit&lt;/t&gt; &lt;fex name="Official"&gt;journalists&lt;/fex&gt; &lt;fex name="Body"&gt;to the sessions&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="04/02/2007 02:11:08 PDT Mon" abbrev="Slctr" name="Selector" ID="11581">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Selector&lt;/fen&gt; is responsible for the appointment of the new official.  Typically, it occurs as the External Argument of verbs.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="04/02/2007 02:11:09 PDT Mon" abbrev="off" name="Official" ID="11583">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Official&lt;/fen&gt; is a person appointed to a recognized position.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="1E90FF" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="04/02/2007 02:11:09 PDT Mon" abbrev="Role" name="Role" ID="11584">
+        <definition>&lt;def-root&gt;Frequently, the &lt;fen&gt;Official&lt;/fen&gt; is referred to only by his/her role. However, the &lt;fen&gt;Role&lt;/fen&gt; can be expressed separately from the leader, usually as either a secondary predicate or in a PP Complement (headed by &lt;m&gt;as&lt;/m&gt;).&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="04/02/2007 02:11:09 PDT Mon" abbrev="fun" name="Function" ID="11592">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Function&lt;/fen&gt; is the purpose the &lt;fen&gt;Official&lt;/fen&gt; will fufill.
+
+&lt;ex&gt;Under the new program, SCC will &lt;t&gt;accredit&lt;/t&gt; organizations &lt;fex name="Function"&gt;to assess wood flow from certified forests to workshops or factories&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="7CCD7C" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="04/02/2007 02:11:09 PDT Mon" abbrev="bod" name="Body" ID="11595">
+        <definition>&lt;def-root&gt;A group of individuals who are elected or appointed to perform some function, and to which the &lt;fen&gt;Official&lt;/fen&gt; is assigned.&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Body" ID="11595"/>
+        <memberFE name="Role" ID="11584"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Change_of_leadership</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses"/>
+    <frameRelation type="Is Used by"/>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="n" name="désignation.n" ID="2665" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="102177" annotatedsent="1"/>
+        <otherlexUnit framename="Referring_by_name" ID="2667" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="désigner.v" ID="887" nbocc="39" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="nomination.n" ID="2666" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="38"/>
+    </lexUnit>
+    <lexUnit POS="v" name="nommer.v" ID="2728" nbocc="74" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="73"/>
+        <otherlexUnit framename="Other_sense" ID="101271" annotatedsent="0"/>
+        <otherlexUnit framename="Adducing" ID="10" annotatedsent="0"/>
+        <otherlexUnit framename="Name_conferral" ID="2116" annotatedsent="1"/>
+        <otherlexUnit framename="Referring_by_name" ID="2311" annotatedsent="2"/>
+    </lexUnit>
+</frame>

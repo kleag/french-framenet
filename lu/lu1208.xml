@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se justifier.v" ID="1208" frame="FR_Justifying" frameID="10037" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Sufficient_reason"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Responsible_entity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="17594"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Eventuality"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Eventuality"/>
+                <annoSet ID="17594"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responsible_entity"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="17594"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Sufficient_reason"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Sufficient_reason"/>
+                <annoSet ID="17594"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="13221">
+            <text>Contraintes de se justifier vis - à - vis de leurs actionnaires et de leurs salariés , les entreprises recentrent leurs actions sur l' environnement et l' humanitaire , aux dépens du sport et de la culture .</text>
+            <annotationSet status="MANUAL" ID="17594">
+                <layer rank="1" name="FE">
+                    <label end="65" start="45" name="Addressee"/>
+                    <label end="83" start="70" name="Addressee"/>
+                    <label end="101" start="87" name="Speaker"/>
+                    <label itype="UNI" name="Sufficient_reason"/>
+                    <label itype="UNI" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

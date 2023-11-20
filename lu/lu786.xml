@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="au courant.a" ID="786" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="3432"/>
+                <annoSet ID="3437"/>
+                <annoSet ID="17576"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="3432"/>
+                <annoSet ID="3437"/>
+                <annoSet ID="17576"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2571">
+            <text>En avril 2006 , les investigations judiciaires ont montré que le ministre de la Défense Michèle Alliot-Marie , et le ministre des Affaires étrangères de l' époque Dominique de Villepin , auraient été au courant de la circulation de ces listes falsifiées dans les milieux du renseignement avant même la réception des lettres anonymes par le juge Ruymbeke .</text>
+            <annotationSet status="MANUAL" ID="3432">
+                <layer rank="1" name="FE">
+                    <label end="286" start="214" name="Content"/>
+                    <label end="183" start="62" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2573">
+            <text>Il apparaît que Nicolas Sarkozy était au courant de l' affaire dès septembre 2004 , mais a gardé le silence sans chercher à se défendre jusqu' à début 2006 .</text>
+            <annotationSet status="MANUAL" ID="3437">
+                <layer rank="1" name="FE">
+                    <label end="61" start="52" name="Content"/>
+                    <label end="30" start="16" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13197">
+            <text>" Nous évitons de mettre nos intérimaires au courant de tout , et nous ne vendons jamais aux collectionneurs nos fèves avant qu' elles ne soient sur le marché " , glisse Brice Martin , d' Arguydal .</text>
+            <annotationSet status="MANUAL" ID="17576">
+                <layer rank="1" name="FE">
+                    <label end="59" start="56" name="Content"/>
+                    <label end="40" start="25" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

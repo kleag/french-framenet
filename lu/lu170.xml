@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="cause.n" ID="170" frame="Causation" frameID="5" totalAnnotated="23" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Cause"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="421"/>
+                <annoSet ID="1372"/>
+                <annoSet ID="1373"/>
+                <annoSet ID="1655"/>
+                <annoSet ID="2947"/>
+                <annoSet ID="4322"/>
+                <annoSet ID="10049"/>
+                <annoSet ID="11313"/>
+                <annoSet ID="14084"/>
+                <annoSet ID="14094"/>
+                <annoSet ID="15465"/>
+                <annoSet ID="16644"/>
+                <annoSet ID="17827"/>
+                <annoSet ID="17979"/>
+                <annoSet ID="20467"/>
+                <annoSet ID="22208"/>
+                <annoSet ID="22282"/>
+                <annoSet ID="23536"/>
+                <annoSet ID="23593"/>
+                <annoSet ID="23724"/>
+                <annoSet ID="23966"/>
+                <annoSet ID="24249"/>
+                <annoSet ID="24713"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Effect"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="421"/>
+                <annoSet ID="1372"/>
+                <annoSet ID="1373"/>
+                <annoSet ID="1655"/>
+                <annoSet ID="2947"/>
+                <annoSet ID="4322"/>
+                <annoSet ID="10049"/>
+                <annoSet ID="11313"/>
+                <annoSet ID="14084"/>
+                <annoSet ID="14094"/>
+                <annoSet ID="15465"/>
+                <annoSet ID="16644"/>
+                <annoSet ID="17827"/>
+                <annoSet ID="17979"/>
+                <annoSet ID="20467"/>
+                <annoSet ID="22208"/>
+                <annoSet ID="22282"/>
+                <annoSet ID="23536"/>
+                <annoSet ID="23593"/>
+                <annoSet ID="23724"/>
+                <annoSet ID="23966"/>
+                <annoSet ID="24249"/>
+                <annoSet ID="24713"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="330">
+            <text>Les policiers ont ouvert une enquête afin de déterminer les causes exactes de cet incendie .</text>
+            <annotationSet status="MANUAL" ID="421">
+                <layer rank="1" name="FE">
+                    <label end="89" start="56" name="Cause"/>
+                    <label end="89" start="78" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1367">
+            <text>La mortalité toutes causes confondues a été de 10 % dans le groupe traité par Aclasta ( 101 patients ) et de 13 % dans le groupe traité par placebo ( 141 patients ) .</text>
+            <annotationSet status="MANUAL" ID="1372">
+                <layer rank="1" name="FE">
+                    <label end="25" start="13" name="Cause"/>
+                    <label end="11" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1368">
+            <text>Ceci correspond à une réduction de 28 % de la mortalité , toutes causes confondues ( p = 0,01 ) .</text>
+            <annotationSet status="MANUAL" ID="1373">
+                <layer rank="1" name="FE">
+                    <label end="70" start="58" name="Cause"/>
+                    <label end="56" start="43" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1583">
+            <text>Si vous voulez combattre la xénophobie et le racisme - et je crois que nous devons le faire - , nous devons en examiner les causes profondes .</text>
+            <annotationSet status="MANUAL" ID="1655">
+                <layer rank="1" name="FE">
+                    <label end="109" start="108" name="Cause"/>
+                    <label end="139" start="120" name="Cause"/>
+                    <label end="51" start="25" name="Effect"/>
+                    <label end="109" start="108" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2246">
+            <text>En 1981 , cette affaire pourrait être une des causes de la défaite de Valéry Giscard d' Estaing face au candidat du parti socialiste François Mitterrand .</text>
+            <annotationSet status="MANUAL" ID="2947">
+                <layer rank="1" name="FE">
+                    <label end="151" start="46" name="Cause"/>
+                    <label end="151" start="56" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3281">
+            <text>Mais ils veulent surtout comprendre , donner une cause à ce gâchis , mettre des noms sur cette disparition .</text>
+            <annotationSet status="MANUAL" ID="4322">
+                <layer rank="1" name="FE">
+                    <label end="53" start="45" name="Cause"/>
+                    <label end="65" start="57" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6757">
+            <text>On en connaît les causes : intégration structurelle entre conception et fabrication , rapports étroits constructeurs - fournisseurs , couverture sociale et salaires inférieurs dans les " usines vertes " du Tennessee ou du Kentucky ( " le Monde de l' économie " du 17 mars ) mais aussi supériorité de l' organisation et de la mobilisation des salariés dans les transplants japonais .</text>
+            <annotationSet status="MANUAL" ID="10049">
+                <layer rank="1" name="FE">
+                    <label end="379" start="14" name="Cause"/>
+                    <label end="4" start="3" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7821">
+            <text>Mais c' est évidemment là aussi que réside une des causes des pénuries .</text>
+            <annotationSet status="MANUAL" ID="11313">
+                <layer rank="1" name="FE">
+                    <label end="69" start="51" name="Cause"/>
+                    <label end="69" start="62" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10024">
+            <text>La cause principale de leurs placements aventureux ( et parfois malhonnêtes ) est connue : l' état fédéral prenant en charge le remboursement des déposants en cas de besoin , les prétendus gestionnaires de l' épargne du public ont pris tous les risques pour l' emploi des actifs .</text>
+            <annotationSet status="MANUAL" ID="14084">
+                <layer rank="1" name="FE">
+                    <label end="76" start="0" name="Cause"/>
+                    <label end="76" start="23" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10031">
+            <text>Cela est une cause permanente de tensions sur les taux d' intérêts .</text>
+            <annotationSet status="MANUAL" ID="14094">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Cause"/>
+                    <label end="65" start="33" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11185">
+            <text>Toutefois , ce bas niveau a eu surtout pour cause le ralentissement de la progression des salaires nominaux par rapport à 1991 au Japon ( 5 , 3 % après 7 , 9 % ) , en France ( 4 , 3 % après 5 % ) , en Italie ( 5 , 3 % après 9 , 1 % ) , en Grande - Bretagne ( + 3 , 9 % après + 5 , 8 % ) .</text>
+            <annotationSet status="MANUAL" ID="15465">
+                <layer rank="1" name="FE">
+                    <label end="285" start="50" name="Cause"/>
+                    <label end="24" start="12" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12307">
+            <text>Première cause de chômage , les fins de contrat à durée déterminée sont en hausse de 12 , 5 % sur novembre 1991 .</text>
+            <annotationSet status="MANUAL" ID="16644">
+                <layer rank="1" name="FE">
+                    <label end="65" start="28" name="Cause"/>
+                    <label end="24" start="18" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13508">
+            <text>Il s' agit : primo , de savoir à partir de quand ce qu' on appelle productivité cesse d' être un progrès pour devenir une cause spécifique de sous - emploi chronique et de détérioration des conditions de vie ; secundo , de concilier des modes de production modernes avec la sauvegarde du milieu environnant ; tertio , d' examiner les répercussions des changements indispensables sur les courants d' échanges .</text>
+            <annotationSet status="MANUAL" ID="17827">
+                <layer rank="1" name="FE">
+                    <label end="206" start="118" name="Cause"/>
+                    <label end="167" start="142" name="Effect"/>
+                    <label end="206" start="172" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13664">
+            <text>Enfin , l' immobilier - logement est malade des enrichissements sans cause et des spéculations .</text>
+            <annotationSet status="MANUAL" ID="17979">
+                <layer rank="1" name="FE">
+                    <label end="73" start="69" name="Cause"/>
+                    <label end="62" start="48" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16298">
+            <text>Source essentielle des difficultés actuelles , la hausse des salaires - qui avait entraîné une accélération de l' inflation ( de l' ordre de 10 % ) et un emballement de la consommation - n' a pas été la seule cause à la perte de compétitivité des produits coréens , qui ont été aussi victimes de la contraction du marché mondial : les exportations ont plafonné ( malgré une dépréciation de la monnaie , le won ) tandis que les importations ont augmenté , entraînant un déficit de la balance commerciale .</text>
+            <annotationSet status="MANUAL" ID="20467">
+                <layer rank="1" name="FE">
+                    <label end="185" start="47" name="Cause"/>
+                    <label end="327" start="217" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="213" start="209" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18176">
+            <text>De cette dérive , la " cause la plus vraie " , pour reprendre l' admirable expression du plus grand historien de l' antiquité , a été , sans aucun doute , la guerre de 1914 - 1918 .</text>
+            <annotationSet status="MANUAL" ID="22208">
+                <layer rank="1" name="FE">
+                    <label end="178" start="155" name="Cause"/>
+                    <label end="14" start="3" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18241">
+            <text>Mais plutôt que de dramatiser mieux vaut sans doute réfléchir aux causes de cette situation et aux remèdes qu' il convient de lui apporter .</text>
+            <annotationSet status="MANUAL" ID="22282">
+                <layer rank="1" name="FE">
+                    <label end="90" start="66" name="Cause"/>
+                    <label end="90" start="76" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19682">
+            <text>" de plus en plus de personnes frappent à la porte du bureau des affaires sociales : la hausse des loyers en est la cause .</text>
+            <annotationSet status="MANUAL" ID="23536">
+                <layer rank="1" name="FE">
+                    <label end="104" start="85" name="Cause"/>
+                    <label end="81" start="2" name="Effect"/>
+                    <label end="107" start="106" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19843">
+            <text>Les causes invoquées depuis trois ans pour tenter d' expliquer ce regain d' accidents du travail sont désormais bien connues .</text>
+            <annotationSet status="MANUAL" ID="23593">
+                <layer rank="1" name="FE">
+                    <label end="95" start="0" name="Cause"/>
+                    <label end="95" start="63" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19988">
+            <text>Au le sujet de la récession actuelle , de ses causes , de ses remèdes , Lawrence Summers , économiste en chef de la banque mondiale , déclarait , en novembre dernier , devant les ministres du groupe des Sept ( Etats - Unis , Allemagne , Japon , Grande - Bretagne , France , Italie , Canada ) réunis en session spéciale à Tokyo : " Le ralentissement de l' économie mondiale doit être considéré comme résultant de la simultanéité d' évolutions opposées dans différents pays plutôt que comme un problème international .</text>
+            <annotationSet status="MANUAL" ID="23724">
+                <layer rank="1" name="FE">
+                    <label end="51" start="42" name="Cause"/>
+                    <label end="44" start="42" name="Effect"/>
+                    <label end="35" start="15" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20242">
+            <text>Les mêmes causes produisant les mêmes effets , l' armement français est aujourd' hui en surcapacité de production .</text>
+            <annotationSet status="MANUAL" ID="23966">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Cause"/>
+                    <label end="43" start="28" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20545">
+            <text>On y voit la cause de la plupart de nos maux , à commencer , précisément , par les déséquilibres de balance des paiements .</text>
+            <annotationSet status="MANUAL" ID="24249">
+                <layer rank="1" name="FE">
+                    <label end="3" start="3" name="Cause"/>
+                    <label end="120" start="22" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21280">
+            <text>Sur la période récente , ce chiffre a fortement augmenté - de 3 , 5 milliards environ en 1990 et 1991 - sous l' effet conjugué de plusieurs causes : - d' une part , le nombre de bénéficiaires augmente .</text>
+            <annotationSet status="MANUAL" ID="24713">
+                <layer rank="1" name="FE">
+                    <label end="199" start="149" name="Cause"/>
+                    <label end="102" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="de ce fait.adv" ID="2768" frame="Evidence" frameID="25" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Proposition"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="1676"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Support"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Support"/>
+                <annoSet ID="1676"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1594">
+            <text>Il est de ce fait préoccupant que les prises de position du Parlement précédent ne soutiennent pas l' organisation équilibrée de l' OMPI .</text>
+            <annotationSet status="MANUAL" ID="1676">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Proposition"/>
+                    <label end="137" start="18" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

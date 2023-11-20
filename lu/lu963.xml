@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="certifier.v" ID="963" frame="FR_Commitment.veracity" frameID="10011" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Message"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="16912"/>
+                <annoSet ID="19060"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="19060"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="12541">
+            <text>Après auditions des responsables industriels de Zenith Data Systems , " il n' a pas été possible de certifier qu' il y ait aux Etats - Unis transformation substantielle des composants pour écrans " , indique la GSA .</text>
+            <annotationSet status="MANUAL" ID="16912">
+                <layer rank="1" name="FE">
+                    <label end="194" start="114" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14768">
+            <text>La Commission européenne , pour sa part , a décidé de publier cette année deux directives relatives à la sécurité des pétroliers , leurs caractéristiques techniques et le rôle des sociétés privées de classification , chargées de certifier que les navires respectent les normes internationales .</text>
+            <annotationSet status="MANUAL" ID="19060">
+                <layer rank="1" name="FE">
+                    <label end="291" start="243" name="Message"/>
+                    <label end="227" start="180" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="237" start="229" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="négoce.n" ID="327" frame="FR_Commerce_scenario" frameID="10097" totalAnnotated="20" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="8181F7" type="Core" abbrev="P1" name="Participant_1"/>
+            <FE fgColor="FFFFFF" bgColor="088A85" type="Core" abbrev="P2" name="Participant_2"/>
+            <FE fgColor="FFFFFF" bgColor="DBA901" type="Core" abbrev="Ps" name="Participants"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="20">
+            <FE name="Goods"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="4817"/>
+                <annoSet ID="4828"/>
+                <annoSet ID="4849"/>
+                <annoSet ID="10129"/>
+                <annoSet ID="16502"/>
+                <annoSet ID="17237"/>
+                <annoSet ID="18072"/>
+                <annoSet ID="24611"/>
+            </pattern>
+            <pattern total="12">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="4838"/>
+                <annoSet ID="4845"/>
+                <annoSet ID="5634"/>
+                <annoSet ID="9636"/>
+                <annoSet ID="10726"/>
+                <annoSet ID="10727"/>
+                <annoSet ID="14251"/>
+                <annoSet ID="14252"/>
+                <annoSet ID="17129"/>
+                <annoSet ID="20229"/>
+                <annoSet ID="20446"/>
+                <annoSet ID="20450"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Money"/>
+            <pattern total="20">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="4817"/>
+                <annoSet ID="4828"/>
+                <annoSet ID="4838"/>
+                <annoSet ID="4845"/>
+                <annoSet ID="4849"/>
+                <annoSet ID="5634"/>
+                <annoSet ID="9636"/>
+                <annoSet ID="10129"/>
+                <annoSet ID="10726"/>
+                <annoSet ID="10727"/>
+                <annoSet ID="14251"/>
+                <annoSet ID="14252"/>
+                <annoSet ID="16502"/>
+                <annoSet ID="17129"/>
+                <annoSet ID="17237"/>
+                <annoSet ID="18072"/>
+                <annoSet ID="20229"/>
+                <annoSet ID="20446"/>
+                <annoSet ID="20450"/>
+                <annoSet ID="24611"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Participant_1"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="Participant_1"/>
+                <annoSet ID="4817"/>
+                <annoSet ID="4838"/>
+                <annoSet ID="4845"/>
+                <annoSet ID="5634"/>
+                <annoSet ID="10129"/>
+                <annoSet ID="10726"/>
+                <annoSet ID="10727"/>
+                <annoSet ID="14251"/>
+                <annoSet ID="14252"/>
+                <annoSet ID="16502"/>
+                <annoSet ID="17129"/>
+                <annoSet ID="17237"/>
+                <annoSet ID="18072"/>
+                <annoSet ID="20229"/>
+                <annoSet ID="20446"/>
+                <annoSet ID="20450"/>
+                <annoSet ID="24611"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Participant_2"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Participant_2"/>
+                <annoSet ID="4817"/>
+                <annoSet ID="4845"/>
+                <annoSet ID="18072"/>
+                <annoSet ID="20229"/>
+                <annoSet ID="20446"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Participant_2"/>
+                <annoSet ID="5634"/>
+                <annoSet ID="10129"/>
+                <annoSet ID="10726"/>
+                <annoSet ID="10727"/>
+                <annoSet ID="14251"/>
+                <annoSet ID="14252"/>
+                <annoSet ID="16502"/>
+                <annoSet ID="17129"/>
+                <annoSet ID="17237"/>
+                <annoSet ID="20450"/>
+                <annoSet ID="24611"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Participants"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Participants"/>
+                <annoSet ID="4828"/>
+                <annoSet ID="4849"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Participants"/>
+                <annoSet ID="9636"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3576">
+            <text>" Sam Mezrahi est directeur général de Tardivat International , société de négoce international , spécialisée dans les produits tropicaux .</text>
+            <annotationSet status="MANUAL" ID="4817">
+                <layer rank="1" name="FE">
+                    <label end="94" start="82" name="Participant_2"/>
+                    <label end="73" start="64" name="Participant_1"/>
+                    <label end="136" start="96" name="Participant_1"/>
+                    <label end="136" start="115" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3581">
+            <text>Et pourtant , un secteur de l' économie intéressé au premier chef par cette évolution - le négoce international des matières premières et des produits tropicaux - traverse de sérieuses difficultés , comme en témoigne en 1991 la disparition ou la restructuration en profondeur de quelques grandes maisons .</text>
+            <annotationSet status="MANUAL" ID="4828">
+                <layer rank="1" name="FE">
+                    <label end="110" start="98" name="Participants"/>
+                    <label end="136" start="116" name="Goods"/>
+                    <label end="159" start="142" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3588">
+            <text>La réduction spectaculaire du nombre de ses clients indépendants a déclenché , au sein du négoce , une concurrence sauvage pour consolider , voire élargir des parts de marché .</text>
+            <annotationSet status="MANUAL" ID="4838">
+                <layer rank="1" name="FE">
+                    <label end="63" start="40" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3590">
+            <text>Prises en tenaille entre des producteurs affaiblis et des industriels renforcés , alors que la distribution du crédit se faisait plus restrictive , les marges des sociétés de négoce international se sont fortement comprimées .</text>
+            <annotationSet status="MANUAL" ID="4845">
+                <layer rank="1" name="FE">
+                    <label end="194" start="182" name="Participant_2"/>
+                    <label end="173" start="163" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="180" start="175" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3595">
+            <text>En réalité , le risque lié au négoce international est tout relatif parce qu' il s' appuie sur une contrepartie , la marchandise .</text>
+            <annotationSet status="MANUAL" ID="4849">
+                <layer rank="1" name="FE">
+                    <label end="49" start="37" name="Participants"/>
+                    <label end="127" start="114" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4048">
+            <text>Après avoir connu une tentative d' étranglement de la part de la firme de négoce japonaise Sumitomo , les cours du cuivre ont ensuite dégringolé , en décembre , pour toucher leur plus bas niveau de ces six derniers mois .</text>
+            <annotationSet status="MANUAL" ID="5634">
+                <layer rank="1" name="FE">
+                    <label end="72" start="62" name="Participant_1"/>
+                    <label end="98" start="81" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Participant_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6442">
+            <text>Au comptoir de négoce Lyon - Alemand , on note l' existence d' un potentiel d' augmentation de la consommation de platine dans l' industrie automobile européenne .</text>
+            <annotationSet status="MANUAL" ID="9636">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Participants"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6804">
+            <text>A son actif , les plus grandes privatisations de l' ère Thatcher ( British Aerospace , British Telecom , British Gas , l' électricité ... ) , et le conseil des groupes britanniques les plus prestigieux comme Tate&amp;Lyle , Cadbury ou Smithkline , mais aussi une longue et fructueuse expérience du marché nippon , un grand savoir - faire en matière de finances " islamiques " ( qui excluent le versement d' intérêts ) , et de négoce de métaux , une adresse prestigieuse pour la gestion de fortunes et l' un des meilleurs services d' analyse sur les valeurs européennes de la place de Londres ...</text>
+            <annotationSet status="MANUAL" ID="10129">
+                <layer rank="1" name="FE">
+                    <label end="4" start="2" name="Participant_1"/>
+                    <label end="437" start="432" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Participant_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="427" start="422" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7296">
+            <text>- Le constructeur automobile japonais Nissan installera ses deux premiers points de vente dans l' ex- URSS en août , à Kiev ( Ukraine ) et à Tallin ( Estonie ) , sous forme de société commune entre des investisseurs locaux et la firme de négoce japonaise Marubeni .</text>
+            <annotationSet status="MANUAL" ID="10726">
+                <layer rank="1" name="FE">
+                    <label end="236" start="226" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Participant_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="243" start="238" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7296">
+            <text>- Le constructeur automobile japonais Nissan installera ses deux premiers points de vente dans l' ex- URSS en août , à Kiev ( Ukraine ) et à Tallin ( Estonie ) , sous forme de société commune entre des investisseurs locaux et la firme de négoce japonaise Marubeni .</text>
+            <annotationSet status="MANUAL" ID="10727">
+                <layer rank="1" name="FE">
+                    <label end="236" start="226" name="Participant_1"/>
+                    <label itype="UNI" name="Participant_2"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="243" start="238" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10141">
+            <text>Industriel breton , M. François Pinault , cinquante - six ans , qui a fait sa fortune dans le commerce et la transformation du bois et qui s' est " reconverti " à partir de 1990 dans le négoce et la grande distribution avec les rachats successifs de la CFAO puis de Conforama et de Le Printemps , est le principal actionnaire d' un groupe bien connu du grand public qui affiche un volume d' affaires d' environ 70 milliards de francs par an .</text>
+            <annotationSet status="MANUAL" ID="14251">
+                <layer rank="1" name="FE">
+                    <label end="137" start="135" name="Participant_1"/>
+                    <label end="293" start="20" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Participant_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10141">
+            <text>Industriel breton , M. François Pinault , cinquante - six ans , qui a fait sa fortune dans le commerce et la transformation du bois et qui s' est " reconverti " à partir de 1990 dans le négoce et la grande distribution avec les rachats successifs de la CFAO puis de Conforama et de Le Printemps , est le principal actionnaire d' un groupe bien connu du grand public qui affiche un volume d' affaires d' environ 70 milliards de francs par an .</text>
+            <annotationSet status="MANUAL" ID="14252">
+                <layer rank="1" name="FE">
+                    <label end="293" start="20" name="Participant_1"/>
+                    <label end="137" start="135" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Participant_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12175">
+            <text>Le groupe néerlandais a l' intention d' injecter 81 millions de florins ( environ 240 millions de francs ) " pour soutenir les plans de croissance de Sviluppo et pour obtenir le statut de courtier spécialiste en valeurs du Trésor italien pour Sviluppo Intermediazioni " , une filiale de la compagnie italienne spécialisée dans le négoce des obligations .</text>
+            <annotationSet status="MANUAL" ID="16502">
+                <layer rank="1" name="FE">
+                    <label end="325" start="272" name="Participant_1"/>
+                    <label end="351" start="341" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Participant_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="335" start="330" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12761">
+            <text>La société de négoce SCOA termine la semaine sur une hausse de près de 45 % à 13 , 45 francs .</text>
+            <annotationSet status="MANUAL" ID="17129">
+                <layer rank="1" name="FE">
+                    <label end="12" start="0" name="Participant_1"/>
+                    <label end="24" start="21" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Participant_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12869">
+            <text>Pour amplifier le découragement général , trois grandes maisons de négoce spécialistes du café - le groupe français Mercuria , filiale de Sucre et Denrées , l' entreprise anglaise Rayner et la firme italo - suisse Bozzo - déposaient leurs bilans au cours de cette funeste période .</text>
+            <annotationSet status="MANUAL" ID="17237">
+                <layer rank="1" name="FE">
+                    <label end="65" start="42" name="Participant_1"/>
+                    <label end="220" start="74" name="Participant_1"/>
+                    <label end="93" start="90" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Participant_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13759">
+            <text>Au début du mois de novembre , les actionnaires ont consenti de gros sacrifices pour sauver Lucia , société de négoce international en Indochine reconvertie dans l' immobilier , dont C. Pellerin avait pris le contrôle en 1983 .</text>
+            <annotationSet status="MANUAL" ID="18072">
+                <layer rank="1" name="FE">
+                    <label end="130" start="118" name="Participant_2"/>
+                    <label end="109" start="100" name="Participant_1"/>
+                    <label end="224" start="132" name="Participant_1"/>
+                    <label end="174" start="162" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16061">
+            <text>Affaiblie par les problèmes de trésorerie de plusieurs filiales , la société de négoce international Interagra , fondée par Jean - baptiste Doumeng , connaît de graves difficultés .</text>
+            <annotationSet status="MANUAL" ID="20229">
+                <layer rank="1" name="FE">
+                    <label end="99" start="87" name="Participant_2"/>
+                    <label end="78" start="66" name="Participant_1"/>
+                    <label end="146" start="101" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16279">
+            <text>Quatre des filiales de la société de négoce international Interagra ont déposé leur bilan le 16 décembre .</text>
+            <annotationSet status="MANUAL" ID="20446">
+                <layer rank="1" name="FE">
+                    <label end="56" start="44" name="Participant_2"/>
+                    <label end="35" start="23" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16281">
+            <text>La principale filiale du groupe , la société de négoce SC3I , dirigée par M. Michel Doumeng , n' est pas concernée par cette cascade de déconfitures .</text>
+            <annotationSet status="MANUAL" ID="20450">
+                <layer rank="1" name="FE">
+                    <label end="46" start="34" name="Participant_1"/>
+                    <label end="90" start="55" name="Participant_1"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Participant_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21123">
+            <text>Les premiers à en bénéficier ont été la firme allemande Bremer Woll - Kammerei ( BWK ) et le groupe Chargeurs , numéro un mondial du négoce - peignage , déjà implanté en Nouvelle - Galles du Sud .</text>
+            <annotationSet status="MANUAL" ID="24611">
+                <layer rank="1" name="FE">
+                    <label end="131" start="90" name="Participant_1"/>
+                    <label end="193" start="151" name="Participant_1"/>
+                    <label end="149" start="142" name="Goods"/>
+                    <label itype="UNI" name="Participant_2"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

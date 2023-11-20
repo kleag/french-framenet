@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="avec l'objectif de.prep" ID="2704" frame="FR_Means_for_purpose" frameID="10049" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Goal"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="22445"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Means"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="22445"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18332">
+            <text>Mr Fiterman rappelle qu' en octobre , dans une lettre au comité central , il a avancé " un certain nombre d' idées et de propositions s' inscrivant dans la stratégie et la politique définies par nos congrès , avec l' objectif de contribuer au débat pour l' enrichir et le développer (...) Dans un esprit positif , constructif , fraternel .</text>
+            <annotationSet status="MANUAL" ID="22445">
+                <layer rank="1" name="FE">
+                    <label end="336" start="229" name="Goal"/>
+                    <label end="207" start="25" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="227" start="209" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="expliquer.v" ID="1134" frame="FR_Attributing_cause" frameID="10005" totalAnnotated="14" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cfac" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ksta" name="Known_state_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="exp" name="Attributor"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="resp" name="Responsible_party"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="14">
+            <FE name="Attributor"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Attributor"/>
+                <annoSet ID="3229"/>
+                <annoSet ID="6361"/>
+                <annoSet ID="7396"/>
+                <annoSet ID="12658"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Attributor"/>
+                <annoSet ID="425"/>
+                <annoSet ID="5328"/>
+                <annoSet ID="6903"/>
+                <annoSet ID="7823"/>
+                <annoSet ID="7826"/>
+                <annoSet ID="9120"/>
+                <annoSet ID="9595"/>
+                <annoSet ID="10984"/>
+                <annoSet ID="11769"/>
+                <annoSet ID="14730"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Cause"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="425"/>
+                <annoSet ID="3229"/>
+                <annoSet ID="5328"/>
+                <annoSet ID="6903"/>
+                <annoSet ID="7396"/>
+                <annoSet ID="7823"/>
+                <annoSet ID="7826"/>
+                <annoSet ID="9120"/>
+                <annoSet ID="9595"/>
+                <annoSet ID="10984"/>
+                <annoSet ID="11769"/>
+                <annoSet ID="12658"/>
+                <annoSet ID="14730"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Known_state_of_affairs"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Known_state_of_affairs"/>
+                <annoSet ID="425"/>
+                <annoSet ID="3229"/>
+                <annoSet ID="5328"/>
+                <annoSet ID="6361"/>
+                <annoSet ID="6903"/>
+                <annoSet ID="7396"/>
+                <annoSet ID="7823"/>
+                <annoSet ID="7826"/>
+                <annoSet ID="9120"/>
+                <annoSet ID="9595"/>
+                <annoSet ID="10984"/>
+                <annoSet ID="11769"/>
+                <annoSet ID="12658"/>
+                <annoSet ID="14730"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Responsible_party"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Responsible_party"/>
+                <annoSet ID="6361"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="332">
+            <text>" Si cet incendie est d' origine criminelle , il pourrait s' expliquer par la présence des CRS sur le quartier dans l' après-midi .</text>
+            <annotationSet status="MANUAL" ID="425">
+                <layer rank="1" name="FE">
+                    <label end="47" start="46" name="Known_state_of_affairs"/>
+                    <label end="16" start="5" name="Known_state_of_affairs"/>
+                    <label end="128" start="75" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2452">
+            <text>à en croire Alain Fribourg , la disproportion entre les deux commissions s' expliquait par le fait que les " négociations " menées à Taïwan par Andrew Wang avaient " permis d' obtenir " l' augmentation du volume du marché conclu avec Taïpeh , passant de 12 milliards initialement prévus à 16 milliards de francs lors de la signature finale .</text>
+            <annotationSet status="MANUAL" ID="3229">
+                <layer rank="1" name="FE">
+                    <label end="71" start="29" name="Known_state_of_affairs"/>
+                    <label end="338" start="91" name="Cause"/>
+                    <label end="25" start="12" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3866">
+            <text>La progression enregistrée en novembre s' explique en grande partie par les commandes à l' aéronautique , qui varient fortement d' un mois à l' autre .</text>
+            <annotationSet status="MANUAL" ID="5328">
+                <layer rank="1" name="FE">
+                    <label end="37" start="0" name="Known_state_of_affairs"/>
+                    <label end="148" start="72" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4503">
+            <text>D' autres ont craint des effets de panique et d' anxiété , tandis que les sociologues la pointent du doigt pour expliquer l' accroissement de la délinquance .</text>
+            <annotationSet status="MANUAL" ID="6361">
+                <layer rank="1" name="FE">
+                    <label end="155" start="122" name="Known_state_of_affairs"/>
+                    <label end="87" start="86" name="Responsible_party"/>
+                    <label end="84" start="70" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4840">
+            <text>Cet excédent record s' explique par une forte augmentation des échanges avec les pays d' Europe .</text>
+            <annotationSet status="MANUAL" ID="6903">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Known_state_of_affairs"/>
+                    <label end="94" start="36" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5113">
+            <text>Pour l' expliquer , les experts mettent en avant la faiblesse des prix .</text>
+            <annotationSet status="MANUAL" ID="7396">
+                <layer rank="1" name="FE">
+                    <label end="6" start="5" name="Known_state_of_affairs"/>
+                    <label end="69" start="49" name="Cause"/>
+                    <label end="30" start="20" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5397">
+            <text>Car le développement considérable du trafic des poids lourds sur les routes - le double de celui des voitures individuelles - ne s' explique pas seulement par la spécialisation croissante des outils de production ou la suppression des frontières intra- européennes qui exigent et facilitent les échanges de marchandises .</text>
+            <annotationSet status="MANUAL" ID="7823">
+                <layer rank="1" name="FE">
+                    <label end="124" start="4" name="Known_state_of_affairs"/>
+                    <label end="318" start="159" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5398">
+            <text>Cette explosion s' explique également par la mise en application depuis une vingtaine d' années de la théorie des " flux tendus " , censés minimiser les frais de stocks .</text>
+            <annotationSet status="MANUAL" ID="7826">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Known_state_of_affairs"/>
+                    <label end="167" start="42" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6135">
+            <text>Mais cela s' explique aussi par l' afflux récent de nouveaux chômeurs .</text>
+            <annotationSet status="MANUAL" ID="9120">
+                <layer rank="1" name="FE">
+                    <label end="8" start="5" name="Known_state_of_affairs"/>
+                    <label end="68" start="32" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6416">
+            <text>Pendant que l' enquête de la COB se poursuit sur les conditions dans lesquelles a été annoncée l' OPE le 19 juin , certains font observer que les gonflements subits des transactions effectuées , les semaines précédentes , sur des lignes d' emprunts offerts à l' échange , et habituellement peu négociées , s' expliquent par les ventes et rachats de SICAV avant et après le détachement du coupon , souvent pour des raisons fiscales .</text>
+            <annotationSet status="MANUAL" ID="9595">
+                <layer rank="1" name="FE">
+                    <label end="302" start="142" name="Known_state_of_affairs"/>
+                    <label end="395" start="324" name="Cause"/>
+                    <label end="429" start="405" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="318" start="309" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7534">
+            <text>Cette idée s' explique dans le contexte vosgien de l' époque .</text>
+            <annotationSet status="MANUAL" ID="10984">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Known_state_of_affairs"/>
+                    <label end="59" start="28" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8173">
+            <text>Un dynamisme qui s' explique par " des relations plus étroites et plus suivies avec les services de l' ANPE " .</text>
+            <annotationSet status="MANUAL" ID="11769">
+                <layer rank="1" name="FE">
+                    <label end="15" start="13" name="Known_state_of_affairs"/>
+                    <label end="110" start="0" name="Known_state_of_affairs"/>
+                    <label end="108" start="33" name="Cause"/>
+                    <label itype="UNI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8865">
+            <text>Ce résultat s' explique , selon l' institut d' émission , par une hausse significative des dépôts à vue , de 3 % en un mois ( en données corrigées des variations saisonnières ) .</text>
+            <annotationSet status="MANUAL" ID="12658">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Known_state_of_affairs"/>
+                    <label end="175" start="62" name="Cause"/>
+                    <label end="54" start="32" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10518">
+            <text>Ce gain s' expliquait sur la place de Francfort par les rumeurs qui y circulent d' une baisse des taux d' intérêt allemands dès janvier prochain qui pourrait être couplée avec une réévaluation unilatérale du mark ( ainsi que du franc belge et du florin ) face au franc français .</text>
+            <annotationSet status="MANUAL" ID="14730">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Known_state_of_affairs"/>
+                    <label end="276" start="52" name="Cause"/>
+                    <label itype="ENI" name="Attributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

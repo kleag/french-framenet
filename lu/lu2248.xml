@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="querelle.n" ID="2248" frame="Quarreling" frameID="710" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Args" name="Arguers"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Arg1" name="Arguer1"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Arg2" name="Arguer2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Iss" name="Issue"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Arguer1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Arguer1"/>
+                <annoSet ID="24814"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Arguer2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Arguer2"/>
+                <annoSet ID="24814"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Arguers"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Arguers"/>
+                <annoSet ID="6553"/>
+                <annoSet ID="15332"/>
+                <annoSet ID="21058"/>
+                <annoSet ID="21414"/>
+                <annoSet ID="22307"/>
+                <annoSet ID="23917"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Arguers"/>
+                <annoSet ID="221"/>
+                <annoSet ID="22184"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Issue"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Issue"/>
+                <annoSet ID="6553"/>
+                <annoSet ID="21414"/>
+                <annoSet ID="24814"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Issue"/>
+                <annoSet ID="221"/>
+                <annoSet ID="15332"/>
+                <annoSet ID="21058"/>
+                <annoSet ID="22184"/>
+                <annoSet ID="22307"/>
+                <annoSet ID="23917"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="183">
+            <text>Au delà de cette querelle , l' affaire est triste .</text>
+            <annotationSet status="MANUAL" ID="221">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Arguers"/>
+                    <label itype="DNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4635">
+            <text>" La France , qui a développé dans le cadre d' une politique de défense une industrie structurée et performante , n' échappe pas à cette tendance lourde " d' une déflation des effectifs de l' armement dans le monde et , " sans rentrer dans des querelles d' experts sur l' ampleur actuelle et prévisible des sureffectifs , de nombreuses entreprises seront conduites à diminuer leurs effectifs dans les prochaines années .</text>
+            <annotationSet status="MANUAL" ID="6553">
+                <layer rank="1" name="FE">
+                    <label end="263" start="257" name="Arguers"/>
+                    <label end="318" start="269" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="252" start="244" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11073">
+            <text>L' affaire , marquée par de vives tensions ( menaces de sanctions et contre - sanctions avec les Etats - Unis , crise en France , querelles entre Européens ) pourrait se dénouer par des concessions internes à la CEE en faveur de la France , et / ou par des concessions américaines sur les autres dossiers du GATT , en particulier les services .</text>
+            <annotationSet status="MANUAL" ID="15332">
+                <layer rank="1" name="FE">
+                    <label end="154" start="146" name="Arguers"/>
+                    <label itype="ENI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16941">
+            <text>Mr Attali s' est félicité de la fin des querelles franco - françaises et de la constitution d' un ensemble capable d' affronter à armes égales les grands groupes aériens européens et internationaux .</text>
+            <annotationSet status="MANUAL" ID="21058">
+                <layer rank="1" name="FE">
+                    <label end="68" start="50" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17344">
+            <text>Les querelles de pouvoir entre administrations ou entre ministères ont dominé et dominent faute de clairvoyance en face d' enjeux essentiels .</text>
+            <annotationSet status="MANUAL" ID="21414">
+                <layer rank="1" name="FE">
+                    <label end="48" start="31" name="Arguers"/>
+                    <label end="65" start="56" name="Arguers"/>
+                    <label end="23" start="17" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18154">
+            <text>Les deux épisodes avaient été marqués par l' extrême politisation de l' institut d' émission en proie aux querelles partisanes .</text>
+            <annotationSet status="MANUAL" ID="22184">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18256">
+            <text>Parce que ceux qui les lançaient n' étaient engagés eux - mêmes dans aucune querelle de chefs , dans aucune compétition , pour une future - très future - campagne présidentielle , ces appels au rassemblement ont reçu un large écho , dont témoignent les milliers de signatures recueillies sur la contribution dont Louis Mermaz est le premier signataire .</text>
+            <annotationSet status="MANUAL" ID="22307">
+                <layer rank="1" name="FE">
+                    <label end="92" start="88" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20176">
+            <text>Visitant les chaînes de montage de Detroit au moment où la querelle américano - nippone battait son plein , M. Richard Gephardt , le leader ( démocrate ) de la Chambre des représentants , a lui aussi regretté les maigres résultats obtenus à Tokyo , estimant que " la récession aux Etats - Unis est en partie imputable au Japon " .</text>
+            <annotationSet status="MANUAL" ID="23917">
+                <layer rank="1" name="FE">
+                    <label end="86" start="68" name="Arguers"/>
+                    <label itype="ENI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21422">
+            <text>- Que pensez -vous de la querelle cherchée une nouvelle fois à Airbus par les Américains sous prétexte de concurrence déloyale ?</text>
+            <annotationSet status="MANUAL" ID="24814">
+                <layer rank="1" name="FE">
+                    <label end="125" start="106" name="Issue"/>
+                    <label end="68" start="63" name="Arguer2"/>
+                    <label end="87" start="74" name="Arguer1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

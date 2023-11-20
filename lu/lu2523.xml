@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="avertir.v" ID="2523" frame="FR_Telling" frameID="10088" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="15972"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Message"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="10208"/>
+                <annoSet ID="15972"/>
+                <annoSet ID="18633"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="10208"/>
+                <annoSet ID="15972"/>
+                <annoSet ID="18633"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6869">
+            <text>De son côté , Françoise Milewski , économiste à l' OFCE , avertissait , dans ces mêmes colonnes ( " le Monde de l' économie " du 5 mai 1992 ) , que la performance extérieure de la France en 1991 était , avant tout , le résultat d' un décalage conjoncturel entre la France et l' Allemagne , tout entière tournée vers la reconstruction de l' ex- RDA .</text>
+            <annotationSet status="MANUAL" ID="10208">
+                <layer rank="1" name="FE">
+                    <label end="346" start="148" name="Message"/>
+                    <label end="54" start="14" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11601">
+            <text>" A ce chiffre , il faudra ajouter les charges extraordinaires de restructuration et , bien entendu , les impôts " , a averti le dirigeant de la firme d' Ivrea dans une interview au quotidien économique italien Il Sole - 24 Ore .</text>
+            <annotationSet status="MANUAL" ID="15972">
+                <layer rank="1" name="FE">
+                    <label end="113" start="0" name="Message"/>
+                    <label end="226" start="165" name="Medium"/>
+                    <label end="158" start="126" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14321">
+            <text>1993 sera une " année dure et impitoyable " , a averti , mardi 1er juin , Werner Dieter , le président du directoire , à l' occasion de la traditionnelle conférence de bilan .</text>
+            <annotationSet status="MANUAL" ID="18633">
+                <layer rank="1" name="FE">
+                    <label end="42" start="0" name="Message"/>
+                    <label end="115" start="74" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

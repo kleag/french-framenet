@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="du fait de.prep" ID="546" frame="Evidence" frameID="25" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposition"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="834"/>
+                <annoSet ID="5513"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Support"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="834"/>
+                <annoSet ID="5513"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="701">
+            <text>Du fait de leur mécanisme d' action , on peut s' attendre à ce que l' utilisation combinée de médicaments anticoagulants ( héparine , warfarine , antithrombotiques ou agents antiplaquettaires ) augmente le risque de saignement .</text>
+            <annotationSet status="MANUAL" ID="834">
+                <layer rank="1" name="FE">
+                    <label end="34" start="11" name="Support"/>
+                    <label end="225" start="67" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3977">
+            <text>Dans le pays de l' investisseur , un emprunt normal , dépourvu de clause de conversion , serait vraisemblablement moins intéressant du fait de l' impôt qui grèverait le revenu provenant du gain en capital .</text>
+            <annotationSet status="MANUAL" ID="5513">
+                <layer rank="1" name="FE">
+                    <label end="203" start="143" name="Support"/>
+                    <label end="130" start="0" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

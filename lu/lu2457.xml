@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="dévoiler.v" ID="2457" frame="Reveal_secret" frameID="1146" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="inf" name="Information"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Information"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Information"/>
+                <annoSet ID="2940"/>
+                <annoSet ID="12230"/>
+                <annoSet ID="12452"/>
+                <annoSet ID="12674"/>
+                <annoSet ID="19505"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="12230"/>
+                <annoSet ID="12674"/>
+                <annoSet ID="19505"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2244">
+            <text>Cette affaire , qui a peut-être été dévoilée dans le but de discréditer le président de la République , survenait deux ans avant l' élection présidentielle de 1981 .</text>
+            <annotationSet status="MANUAL" ID="2940">
+                <layer rank="1" name="FE">
+                    <label end="18" start="16" name="Information"/>
+                    <label end="100" start="0" name="Information"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8583">
+            <text>Hafnia a dévoilé , vendredi 3 juillet , à la Bourse de Copenhague des pertes et provisions de 350 millions de couronnes ( 304 , 5 millions de francs ) " sur des transactions et contrats incorrectement enregistrés " .</text>
+            <annotationSet status="MANUAL" ID="12230">
+                <layer rank="1" name="FE">
+                    <label end="118" start="66" name="Information"/>
+                    <label end="5" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8731">
+            <text>Toutefois , a affirmé M. Lord , ces réductions d' emplois supplémentaires " seront moins importantes " que celles déjà dévoilées jusqu' à présent .</text>
+            <annotationSet status="MANUAL" ID="12452">
+                <layer rank="1" name="FE">
+                    <label end="112" start="107" name="Information"/>
+                    <label end="56" start="36" name="Information"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8872">
+            <text>Comme il lui était difficile de rendre publique sa décision avant la fin de ses négociations pour la vente d' Adidas , il éprouve , sans doute , autant d' hésitation à dévoiler ses intentions avant de savoir quelles conclusions connaîtront ses démêlés judiciaires .</text>
+            <annotationSet status="MANUAL" ID="12674">
+                <layer rank="1" name="FE">
+                    <label end="190" start="177" name="Information"/>
+                    <label end="120" start="119" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="175" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15245">
+            <text>La Commission n' a pas encore dévoilé comment les Douze pourraient tenter de corriger une évolution aussi défavorable .</text>
+            <annotationSet status="MANUAL" ID="19505">
+                <layer rank="1" name="FE">
+                    <label end="116" start="38" name="Information"/>
+                    <label end="12" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

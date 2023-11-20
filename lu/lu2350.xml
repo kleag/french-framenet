@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="remboursement.n" ID="2350" frame="Repayment" frameID="2370" totalAnnotated="25" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Loaner"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Debtor"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Loan"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="20">
+            <FE name="Debtor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Debtor"/>
+                <annoSet ID="4567"/>
+                <annoSet ID="5280"/>
+            </pattern>
+            <pattern total="18">
+                <valenceUnit PT="null instantiation" FE="Debtor"/>
+                <annoSet ID="4559"/>
+                <annoSet ID="6647"/>
+                <annoSet ID="8462"/>
+                <annoSet ID="8741"/>
+                <annoSet ID="9583"/>
+                <annoSet ID="11282"/>
+                <annoSet ID="14890"/>
+                <annoSet ID="14961"/>
+                <annoSet ID="15257"/>
+                <annoSet ID="15291"/>
+                <annoSet ID="15296"/>
+                <annoSet ID="15755"/>
+                <annoSet ID="17956"/>
+                <annoSet ID="18551"/>
+                <annoSet ID="18552"/>
+                <annoSet ID="18819"/>
+                <annoSet ID="24078"/>
+                <annoSet ID="24080"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Loan"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Loan"/>
+                <annoSet ID="5280"/>
+                <annoSet ID="6647"/>
+                <annoSet ID="11282"/>
+                <annoSet ID="14890"/>
+                <annoSet ID="14961"/>
+                <annoSet ID="15291"/>
+                <annoSet ID="18551"/>
+                <annoSet ID="18552"/>
+                <annoSet ID="18819"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Loan"/>
+                <annoSet ID="4559"/>
+                <annoSet ID="4567"/>
+                <annoSet ID="8462"/>
+                <annoSet ID="8741"/>
+                <annoSet ID="9583"/>
+                <annoSet ID="15257"/>
+                <annoSet ID="15296"/>
+                <annoSet ID="15755"/>
+                <annoSet ID="17956"/>
+                <annoSet ID="24078"/>
+                <annoSet ID="24080"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Loaner"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Loaner"/>
+                <annoSet ID="4559"/>
+                <annoSet ID="4567"/>
+                <annoSet ID="5280"/>
+                <annoSet ID="6647"/>
+                <annoSet ID="8741"/>
+                <annoSet ID="15296"/>
+                <annoSet ID="15755"/>
+                <annoSet ID="17956"/>
+                <annoSet ID="18551"/>
+                <annoSet ID="18552"/>
+                <annoSet ID="18819"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Loaner"/>
+                <annoSet ID="8462"/>
+                <annoSet ID="9583"/>
+                <annoSet ID="11282"/>
+                <annoSet ID="14890"/>
+                <annoSet ID="14961"/>
+                <annoSet ID="15257"/>
+                <annoSet ID="15291"/>
+                <annoSet ID="24078"/>
+                <annoSet ID="24080"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="22">
+            <FE name="Money"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="5280"/>
+                <annoSet ID="6647"/>
+                <annoSet ID="8462"/>
+                <annoSet ID="15291"/>
+                <annoSet ID="15755"/>
+                <annoSet ID="18551"/>
+                <annoSet ID="18552"/>
+                <annoSet ID="24076"/>
+                <annoSet ID="24077"/>
+                <annoSet ID="24078"/>
+                <annoSet ID="24080"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="4559"/>
+                <annoSet ID="4567"/>
+                <annoSet ID="8741"/>
+                <annoSet ID="9583"/>
+                <annoSet ID="11282"/>
+                <annoSet ID="14890"/>
+                <annoSet ID="14961"/>
+                <annoSet ID="15257"/>
+                <annoSet ID="15296"/>
+                <annoSet ID="17956"/>
+                <annoSet ID="18819"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3432">
+            <text>Compte tenu de ces remboursements très lourds ( la dette extérieure totale s' élevant à 33 , 4 milliards de dollars ) , le Nigéria continue de réclamer un allègement exceptionnel de son endettement , du type de celui dont bénéficient les pays les plus pauvres .</text>
+            <annotationSet status="MANUAL" ID="4559">
+                <layer rank="1" name="FE">
+                    <label end="129" start="120" name="Loaner"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Debtor"/>
+                    <label itype="UNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3435">
+            <text>Et sans l' accord du FMI , il est peu probable que les créditeurs du Nigéria acceptent d' accorder des conditions de remboursement plus favorables .</text>
+            <annotationSet status="MANUAL" ID="4567">
+                <layer rank="1" name="FE">
+                    <label end="75" start="69" name="Loaner"/>
+                    <label end="75" start="51" name="Debtor"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3826">
+            <text>Réunis , vendredi 3 janvier , à Paris , les dix - sept pays créanciers de l' ancienne Union soviétique ont confirmé aux représentants de la banque du commerce extérieur soviétique ( VEB ) le report du remboursement des échéances de la dette de l' ex- URSS , dette qui atteint environ 80 milliards de dollars .</text>
+            <annotationSet status="MANUAL" ID="5280">
+                <layer rank="1" name="FE">
+                    <label end="254" start="244" name="Loaner"/>
+                    <label end="101" start="40" name="Debtor"/>
+                    <label end="306" start="232" name="Loan"/>
+                    <label end="306" start="219" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="213" start="201" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4711">
+            <text>Après avoir suspendu en décembre , pour un trimestre , le remboursement du principal de la dette extérieure soviétique - estimée à 65 milliards de dollars , - la Russie va en suspendre aussi le paiement des intérêts ?</text>
+            <annotationSet status="MANUAL" ID="6647">
+                <layer rank="1" name="FE">
+                    <label end="153" start="75" name="Money"/>
+                    <label end="153" start="88" name="Loan"/>
+                    <label end="167" start="159" name="Loaner"/>
+                    <label itype="UNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5751">
+            <text>Du coup , les remboursements ( intérêts et capital ) ne cessent de s' alourdir , contraignant à de nouvelles économies ailleurs : ils représenteront 11 , 7 % du budget en 1993 et 14 , 2 % en 1994 .</text>
+            <annotationSet status="MANUAL" ID="8462">
+                <layer rank="1" name="FE">
+                    <label end="49" start="31" name="Money"/>
+                    <label itype="DNI" name="Loaner"/>
+                    <label itype="ENI" name="Debtor"/>
+                    <label itype="DNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5906">
+            <text>Le remboursement devait être effectué au plus tard le 30 juin , faute de quoi Hafnia s' engageait , grâce à ces deux options , à l' honorer .</text>
+            <annotationSet status="MANUAL" ID="8741">
+                <layer rank="1" name="FE">
+                    <label end="83" start="78" name="Loaner"/>
+                    <label itype="DNI" name="Money"/>
+                    <label itype="DNI" name="Debtor"/>
+                    <label itype="DNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6412">
+            <text>Les gestionnaires institutionnels , très logiquement , ont choisi la liquidité , se portant à hauteur de 17 milliards de francs sur l' échéance 1998 ( auparavant assez peu chargée en remboursements ) , 20 milliards de francs sur l' échéance 2003 et 12 milliards de francs sur l' échéance 2008 .</text>
+            <annotationSet status="MANUAL" ID="9583">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Loaner"/>
+                    <label itype="UNI" name="Debtor"/>
+                    <label itype="UNI" name="Loan"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="183" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7795">
+            <text>En 1991 , un gros effort avait été fait : 40 % des recettes à l' exportation avaient servi au remboursement de la dette .</text>
+            <annotationSet status="MANUAL" ID="11282">
+                <layer rank="1" name="FE">
+                    <label end="118" start="111" name="Loan"/>
+                    <label itype="DNI" name="Loaner"/>
+                    <label itype="DNI" name="Debtor"/>
+                    <label itype="DNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10658">
+            <text>Un élément décisif à cet égard pourrait être la nécessité d' étaler sur une période très espacée le remboursement d' une dette considérable contractée en quelques années seulement du fait de la réunification des deux Allemagnes .</text>
+            <annotationSet status="MANUAL" ID="14890">
+                <layer rank="1" name="FE">
+                    <label end="226" start="117" name="Loan"/>
+                    <label itype="DNI" name="Loaner"/>
+                    <label itype="UNI" name="Debtor"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10712">
+            <text>" l' accroissement des masses reflète l' évolution du déficit budgétaire prévu par la loi de finances ( 165 milliards de francs ) et des amortissements ( remboursements ) prévus de la dette à long et moyen terme ( 150 milliards de francs ) , ainsi que de la volonté de refinancer à moyen et long terme une fraction de l' accroissement , en 1992 , de l' encours de bons de Trésor " , a précisé le ministre .</text>
+            <annotationSet status="MANUAL" ID="14961">
+                <layer rank="1" name="FE">
+                    <label end="236" start="181" name="Loan"/>
+                    <label itype="DNI" name="Loaner"/>
+                    <label itype="UNI" name="Debtor"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11000">
+            <text>Et le potentiel de remboursement est fort limité .</text>
+            <annotationSet status="MANUAL" ID="15257">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Loaner"/>
+                    <label itype="UNI" name="Debtor"/>
+                    <label itype="UNI" name="Loan"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11035">
+            <text>De même , les différents ratios mesurant le poids de la dette sont restés stables : le rapport entre son service ( paiement des intérêts et remboursement du capital ) et les exportations annuelles est même revenu de 21 % en 1991 à 19 % en 1992 .</text>
+            <annotationSet status="MANUAL" ID="15291">
+                <layer rank="1" name="FE">
+                    <label end="163" start="157" name="Money"/>
+                    <label end="103" start="101" name="Loan"/>
+                    <label end="60" start="53" name="Loan"/>
+                    <label itype="UNI" name="Loaner"/>
+                    <label itype="ENI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="152" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11041">
+            <text>Douze pays ont bénéficié de l' initiative renforcée de Toronto ( mise en place fin 1991 , elle accorde aux Etats les plus pauvres des délais de remboursement et des périodes de grâce plus longues ) : le Bénin , la Bolivie , la Guinée - Equatoriale , la Guinée , le Honduras , le Mali , le Nicaragua , l' Ouganda , la Sierra - Léone , la Tanzanie , le Togo et la Zambie .</text>
+            <annotationSet status="MANUAL" ID="15296">
+                <layer rank="1" name="FE">
+                    <label end="128" start="107" name="Loaner"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Debtor"/>
+                    <label itype="DNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11434">
+            <text>- Les porteurs de titres subordonnés convertibles en actions de la société Orlyval ont voté à une large majorité mardi 22 décembre l' abandon des intérêts et le remboursement anticipé de leurs titres , pour un montant unitaire de 60 francs au lieu d' une valeur initiale de 150 francs , à compter du 29 mars 1993 .</text>
+            <annotationSet status="MANUAL" ID="15755">
+                <layer rank="1" name="FE">
+                    <label end="191" start="187" name="Loaner"/>
+                    <label end="81" start="2" name="Loaner"/>
+                    <label end="198" start="187" name="Money"/>
+                    <label itype="UNI" name="Debtor"/>
+                    <label itype="UNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="161" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13637">
+            <text>Par ailleurs , en vendant à des prix bas , c' est - à - dire avec des charges de remboursement équivalentes aux loyers , on permettra une première accession à la propriété aux jeunes et à des populations modestes .</text>
+            <annotationSet status="MANUAL" ID="17956">
+                <layer rank="1" name="FE">
+                    <label end="184" start="176" name="Loaner"/>
+                    <label end="211" start="188" name="Loaner"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Debtor"/>
+                    <label itype="UNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14213">
+            <text>Celui - ci devra en assurer progressivement le remboursement en y consacrant 7 milliards en 1994 et 10 à 11 milliards les années suivantes .</text>
+            <annotationSet status="MANUAL" ID="18551">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Loaner"/>
+                    <label end="18" start="17" name="Loan"/>
+                    <label end="116" start="100" name="Money"/>
+                    <label itype="UNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14213">
+            <text>Celui - ci devra en assurer progressivement le remboursement en y consacrant 7 milliards en 1994 et 10 à 11 milliards les années suivantes .</text>
+            <annotationSet status="MANUAL" ID="18552">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Loaner"/>
+                    <label end="18" start="17" name="Loan"/>
+                    <label end="87" start="77" name="Money"/>
+                    <label itype="UNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14510">
+            <text>Notant que l' attitude du Crédit lyonnais avait , en mai 1992 , " déstabilisé la trésorerie " de la société qui " paraissait sortir de ses difficultés " , le tribunal de commerce de Rennes a entériné la réduction de l' effectif à 420 vendeurs et le moratoire proposé pour le remboursement du passif de quatre à huit ans et demi dans des proportions variant de 40 % à 100 % de la dette estimée à 74 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="18819">
+                <layer rank="1" name="FE">
+                    <label end="151" start="97" name="Loaner"/>
+                    <label end="297" start="292" name="Loan"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Debtor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="287" start="275" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20355">
+            <text>Article 57 de la loi de finances rectificative pour 1991 : primes de remboursement .</text>
+            <annotationSet status="MANUAL" ID="24074">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20356">
+            <text>Pour les obligations et les titres de créances négociables , la prime de remboursement n' est plus la différence entre la valeur de remboursement et le prix de souscription mais entre la valeur de remboursement et le prix d' acquisition .</text>
+            <annotationSet status="MANUAL" ID="24075">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20356">
+            <text>Pour les obligations et les titres de créances négociables , la prime de remboursement n' est plus la différence entre la valeur de remboursement et le prix de souscription mais entre la valeur de remboursement et le prix d' acquisition .</text>
+            <annotationSet status="MANUAL" ID="24076">
+                <layer rank="1" name="FE">
+                    <label end="195" start="184" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="197" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20356">
+            <text>Pour les obligations et les titres de créances négociables , la prime de remboursement n' est plus la différence entre la valeur de remboursement et le prix de souscription mais entre la valeur de remboursement et le prix d' acquisition .</text>
+            <annotationSet status="MANUAL" ID="24077">
+                <layer rank="1" name="FE">
+                    <label end="130" start="119" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20356">
+            <text>Pour les obligations et les titres de créances négociables , la prime de remboursement n' est plus la différence entre la valeur de remboursement et le prix de souscription mais entre la valeur de remboursement et le prix d' acquisition .</text>
+            <annotationSet status="MANUAL" ID="24078">
+                <layer rank="1" name="FE">
+                    <label end="57" start="5" name="Money"/>
+                    <label itype="UNI" name="Loaner"/>
+                    <label itype="UNI" name="Debtor"/>
+                    <label itype="UNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="197" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20356">
+            <text>Pour les obligations et les titres de créances négociables , la prime de remboursement n' est plus la différence entre la valeur de remboursement et le prix de souscription mais entre la valeur de remboursement et le prix d' acquisition .</text>
+            <annotationSet status="MANUAL" ID="24080">
+                <layer rank="1" name="FE">
+                    <label end="57" start="5" name="Money"/>
+                    <label itype="UNI" name="Loaner"/>
+                    <label itype="UNI" name="Debtor"/>
+                    <label itype="UNI" name="Loan"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20358">
+            <text>La prime de remboursement sera désormais imposée quel que soit son montant ( l' exonération actuelle des primes ne dépassant pas 5 % du nominal est supprimée ) .</text>
+            <annotationSet status="MANUAL" ID="24081">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

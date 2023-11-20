@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="écoulement.n" ID="345" frame="Commerce_sell" frameID="172" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Buyer"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="10258"/>
+                <annoSet ID="11220"/>
+                <annoSet ID="13004"/>
+                <annoSet ID="24599"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Goods"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="10258"/>
+                <annoSet ID="11220"/>
+                <annoSet ID="13004"/>
+                <annoSet ID="24599"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Money"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Seller"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="10258"/>
+                <annoSet ID="13004"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="11220"/>
+                <annoSet ID="24599"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6904">
+            <text>Les membres de l' appareil syndical , présents dans toutes les instances , contrôlent tout ce qui est nécessaire à la vie d' une exploitation : l' argent , par le Crédit agricole , le savoir , par les différents organismes techniques comme l' Institut technique des céréales et des fourrages ( ITCF ) , la protection sociale , par la Mutualité sociale agricole , et même quelquefois l' écoulement des produits , par l' entremise des coopératives .</text>
+            <annotationSet status="MANUAL" ID="10258">
+                <layer rank="1" name="FE">
+                    <label end="408" start="401" name="Goods"/>
+                    <label end="444" start="433" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="395" start="386" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7744">
+            <text>Ces derniers n' ont pas seulement droit à toutes les facilités d' écoulement données par les organismes d' intervention , qui paient frais de stockage et subvention au bradage .</text>
+            <annotationSet status="MANUAL" ID="11220">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9086">
+            <text>Washington vient en effet d' accorder un crédit spécial à vingt - six pays pour l' écoulement de 750000 tonnes de riz , ainsi que plusieurs aides aux pays de l' ex- URSS pour des livraisons de blé .</text>
+            <annotationSet status="MANUAL" ID="13004">
+                <layer rank="1" name="FE">
+                    <label end="116" start="97" name="Goods"/>
+                    <label end="73" start="58" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21115">
+            <text>" Fin avril , alors que l' indicateur du marché passait en dessous de 400 cents et que les signes de détresse se multipliaient dans le bush ( 3 ) , le gouvernement a décidé de ralentir le programme d' écoulement des excédents de laine .</text>
+            <annotationSet status="MANUAL" ID="24599">
+                <layer rank="1" name="FE">
+                    <label end="233" start="216" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="210" start="201" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

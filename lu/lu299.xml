@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="reprise.n" ID="299" frame="Commerce_buy" frameID="171" totalAnnotated="26" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="" name="Recipient"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="26">
+            <FE name="Buyer"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="4238"/>
+                <annoSet ID="6163"/>
+                <annoSet ID="6672"/>
+                <annoSet ID="7082"/>
+                <annoSet ID="7568"/>
+                <annoSet ID="7576"/>
+                <annoSet ID="8323"/>
+                <annoSet ID="8331"/>
+                <annoSet ID="8344"/>
+                <annoSet ID="8925"/>
+                <annoSet ID="10236"/>
+                <annoSet ID="10246"/>
+                <annoSet ID="11680"/>
+                <annoSet ID="12311"/>
+                <annoSet ID="12321"/>
+                <annoSet ID="12595"/>
+                <annoSet ID="13235"/>
+                <annoSet ID="14828"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="4342"/>
+                <annoSet ID="5135"/>
+                <annoSet ID="6679"/>
+                <annoSet ID="6682"/>
+                <annoSet ID="7611"/>
+                <annoSet ID="8761"/>
+                <annoSet ID="11774"/>
+                <annoSet ID="11789"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="26">
+            <FE name="Goods"/>
+            <pattern total="20">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="4238"/>
+                <annoSet ID="6672"/>
+                <annoSet ID="6679"/>
+                <annoSet ID="6682"/>
+                <annoSet ID="7082"/>
+                <annoSet ID="7568"/>
+                <annoSet ID="7576"/>
+                <annoSet ID="7611"/>
+                <annoSet ID="8323"/>
+                <annoSet ID="8331"/>
+                <annoSet ID="8344"/>
+                <annoSet ID="8761"/>
+                <annoSet ID="8925"/>
+                <annoSet ID="11680"/>
+                <annoSet ID="11774"/>
+                <annoSet ID="12311"/>
+                <annoSet ID="12321"/>
+                <annoSet ID="12595"/>
+                <annoSet ID="13235"/>
+                <annoSet ID="14828"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="4342"/>
+                <annoSet ID="5135"/>
+                <annoSet ID="6163"/>
+                <annoSet ID="10236"/>
+                <annoSet ID="10246"/>
+                <annoSet ID="11789"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Money"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="8761"/>
+                <annoSet ID="14828"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Recipient"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Seller"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="8925"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3248">
+            <text>C' est d' ailleurs l' importance de ces sommes qui rend illusoire , pour la plupart des experts , le recours à une souscription publique ou une reprise de la chaîne par ses personnels .</text>
+            <annotationSet status="MANUAL" ID="4238">
+                <layer rank="1" name="FE">
+                    <label end="182" start="169" name="Buyer"/>
+                    <label end="163" start="155" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3292">
+            <text>La Société des journalistes et les syndicats , réunis dans un comité de défense , s' activent auprès du CSA et des partenaires potentiels pour susciter des solutions de reprise .</text>
+            <annotationSet status="MANUAL" ID="4342">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="175" start="169" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3759">
+            <text>Ils tentent de susciter des solutions de reprise , qui pourraient faire appel à l' épargne publique , à la participation des salariés , et à des partenaires , étrangers ou non .</text>
+            <annotationSet status="MANUAL" ID="5135">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4382">
+            <text>Paribas et l' UAP , tous deux actionnaires d' Hafnia , pourraient être candidats à cette reprise .</text>
+            <annotationSet status="MANUAL" ID="6163">
+                <layer rank="1" name="FE">
+                    <label end="51" start="0" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4721">
+            <text>M. Charles Pasqua , président ( RPR ) du conseil général des Hauts - de - Seine , a écrit , mercredi 15 janvier , " à l' ensemble des présidents des conseils régionaux et généraux et aux maires de grandes villes pour leur proposer de créer ensemble une société d' économie mixte " ( SEM ) susceptible " de s' associer avec des partenaires publics ou privés à un plan de reprise de la Cinq " , qui deviendrait une " grande chaîne nationale et régionale " .</text>
+            <annotationSet status="MANUAL" ID="6672">
+                <layer rank="1" name="FE">
+                    <label end="368" start="249" name="Buyer"/>
+                    <label end="450" start="381" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="376" start="370" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4723">
+            <text>Il évalue qu' une reprise de la Cinq est possible , en réunissant 2 milliards de francs dont 500 millions pour la SEM , soit " 10 francs par habitant " .</text>
+            <annotationSet status="MANUAL" ID="6679">
+                <layer rank="1" name="FE">
+                    <label end="35" start="29" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4725">
+            <text>M. Pasqua , qui devait s' exprimer dans le journal de la Cinq mercredi 15 janvier , compte rencontrer rapidement Me Hubert Lafont , administrateur judiciaire de la chaîne et , dans le cas où cette " solution de reprise répondrait aux exigences du droit des sociétés " , demander une audience au CSA .</text>
+            <annotationSet status="MANUAL" ID="6682">
+                <layer rank="1" name="FE">
+                    <label end="169" start="161" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="217" start="211" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4937">
+            <text>Créant une première surprise , M. Charles Pasqua , président ( RPR ) du conseil général des Hauts - de - Seine , indiquait mercredi 15 janvier dans la matinée qu' il avait écrit aux présidents des conseils généraux et régionaux et aux maires des grandes villes de France afin de créer une société d' économie mixte ( SEM ) , susceptible de " s' associer avec des partenaires publics ou privés à un plan de reprise de la Cinq " ( nos dernières éditions du 16 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="7082">
+                <layer rank="1" name="FE">
+                    <label end="404" start="285" name="Buyer"/>
+                    <label end="425" start="417" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="412" start="406" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5220">
+            <text>Le conseil d' administration de l' union laitière normande ( ULN ) , réuni mardi 30 juin , a opté pour la proposition de reprise faite par Bongrain et rejeté celle de Besnier .</text>
+            <annotationSet status="MANUAL" ID="7568">
+                <layer rank="1" name="FE">
+                    <label end="146" start="139" name="Buyer"/>
+                    <label end="65" start="32" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="121" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5226">
+            <text>Jusqu' au bout , la bataille aura été âpre entre les deux B ( Bongrain et Besnier ) pour la reprise de l' union laitière normande ( ULN ) , un des premiers groupes agroalimentaires français ( 15 milliards de francs de chiffre d' affaires et 5 500 salariés ) .</text>
+            <annotationSet status="MANUAL" ID="7576">
+                <layer rank="1" name="FE">
+                    <label end="69" start="62" name="Buyer"/>
+                    <label end="256" start="103" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5245">
+            <text>Un consortium de seize banques , conduit par le Crédit agricole , accordait alors un crédit - relais à l' ULN en attendant les plans de reprise et les résultats de la cession de la GUF ( Générale ultrafrais ) , société contrôlant Mamie Nova .</text>
+            <annotationSet status="MANUAL" ID="7611">
+                <layer rank="1" name="FE">
+                    <label end="108" start="103" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5670">
+            <text>- Le commissaire européen à la concurrence , sir Leon Brittan , et le président de Nestlé , M. Helmut Maucher , sont convenus , faute d' accord sur le fond , d' un " moratoire " jusqu' au 4 août concernant la reprise de Perrier par l' entreprise suisse , a déclaré mercredi 1 juillet un porte - parole de Nestlé à Vevey .</text>
+            <annotationSet status="MANUAL" ID="8323">
+                <layer rank="1" name="FE">
+                    <label end="251" start="232" name="Buyer"/>
+                    <label end="226" start="220" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="215" start="209" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5672">
+            <text>Dans une étude provisoire , l' instance de contrôle des fusions de la CEE s' est opposée voilà un mois à la reprise de Perrier par Nestlé , estimant que le groupe suisse dominerait ainsi de façon inéquitable ( à 60 % ) le marché français des eaux minérales ( le monde du 6 juin ) .</text>
+            <annotationSet status="MANUAL" ID="8331">
+                <layer rank="1" name="FE">
+                    <label end="136" start="131" name="Buyer"/>
+                    <label end="125" start="119" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5681">
+            <text>Le deuxième groupe laitier français derrière Besnier est associé à Bongrain pour la reprise de l' ULN ( le monde du 2 juillet ) .</text>
+            <annotationSet status="MANUAL" ID="8344">
+                <layer rank="1" name="FE">
+                    <label end="51" start="0" name="Buyer"/>
+                    <label end="74" start="67" name="Buyer"/>
+                    <label end="100" start="95" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5917">
+            <text>A ce cours , MFI aura une capitalisation boursière de 669 millions de livres ( 6 , 7 milliards de francs ) , inférieure aux 717 , 5 millions payés lors de la reprise en 1987 .</text>
+            <annotationSet status="MANUAL" ID="8761">
+                <layer rank="1" name="FE">
+                    <label end="153" start="124" name="Money"/>
+                    <label end="172" start="166" name="Money"/>
+                    <label end="15" start="13" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6030">
+            <text>Devant la forte opposition que soulève au Congrès - et dans l' administration - la reprise par Thomson - CSF des activités aéronautiques et de missiles de la firme américaine LTV ( le monde du 20 juin ) , pourtant approuvée en avril par le tribunal des faillites de New - York , le groupe français avait annoncé , fin juin à Washington , qu' il envisageait de modifier le montage proposé pour ce qui constituerait , s' il était approuvé par la Maison Blanche , le premier rachat par un groupe étranger d' une entreprise américaine étroitement liée au Pentagone .</text>
+            <annotationSet status="MANUAL" ID="8925">
+                <layer rank="1" name="FE">
+                    <label end="107" start="95" name="Buyer"/>
+                    <label end="138" start="113" name="Goods"/>
+                    <label end="177" start="143" name="Goods"/>
+                    <label end="177" start="175" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6890">
+            <text>Pif - gadget , tiré à 110 000 exemplaires , n' a pu paraître mardi 30 juin , malgré le plan de reprise de la société Scandedition .</text>
+            <annotationSet status="MANUAL" ID="10236">
+                <layer rank="1" name="FE">
+                    <label end="128" start="106" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6893">
+            <text>Un plan de reprise par la société Scandédition , que dirige M. Jacques Wojcik , a été agréé par le tribunal de commerce .</text>
+            <annotationSet status="MANUAL" ID="10246">
+                <layer rank="1" name="FE">
+                    <label end="76" start="23" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8125">
+            <text>Le département américain du trésor a indiqué , lundi 6 juillet , que Thomson - CSF avait renoncé à la reprise de la firme LTV .</text>
+            <annotationSet status="MANUAL" ID="11680">
+                <layer rank="1" name="FE">
+                    <label end="81" start="69" name="Buyer"/>
+                    <label end="124" start="113" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8178">
+            <text>" Nous avons un grand travail à faire ensemble , le chemin sera long mais nous sommes confiants dans le succès de cette opération " , a affirmé M. Jean - Noël Bongrain , co- président du groupe du même nom en présentant , lundi 6 juillet , les modalités de reprise de l' Union laitière normande ( ULN ) .</text>
+            <annotationSet status="MANUAL" ID="11774">
+                <layer rank="1" name="FE">
+                    <label end="301" start="268" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="263" start="257" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8189">
+            <text>Elle devrait alors permettre aux banquiers qui font le plus gros effort dans cette reprise de se retirer avec , en cas de succès , une plus - value .</text>
+            <annotationSet status="MANUAL" ID="11789">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8641">
+            <text>Le groupe britannique Pentland a annoncé , mardi 7 juillet à Londres , avoir conclu un accord de reprise de 79 , 95 % de la société BTF Gmb.H qui contrôle Adidas .</text>
+            <annotationSet status="MANUAL" ID="12311">
+                <layer rank="1" name="FE">
+                    <label end="29" start="0" name="Buyer"/>
+                    <label end="160" start="108" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8648">
+            <text>Depuis , la cession de Terraillon , les projets de RES ( reprise de l' entreprise par ses salariés ) de Testut et de la Scaime allaient dans le sens du désengagement que la cession de la majorité de contrôle d' Adidas vient parachever .</text>
+            <annotationSet status="MANUAL" ID="12321">
+                <layer rank="1" name="FE">
+                    <label end="97" start="86" name="Buyer"/>
+                    <label end="80" start="68" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8824">
+            <text>Une transaction qui valorise Adidas , selon l' entourage de M. Tapie , à 3 , 1 milliards de francs , soit 55 % de plus qu' il y a deux ans , lors de la reprise de la firme allemande par le Français .</text>
+            <annotationSet status="MANUAL" ID="12595">
+                <layer rank="1" name="FE">
+                    <label end="196" start="186" name="Buyer"/>
+                    <label end="180" start="163" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9350">
+            <text>Pour avoir mal apprécié les difficultés de la reprise de Liberto , Creeks , dont le PDG , Jean - Luc Fabiani , démissionnait en août pour " raisons personnelles " , a dû provisionner 30 millions de francs cette année .</text>
+            <annotationSet status="MANUAL" ID="13235">
+                <layer rank="1" name="FE">
+                    <label end="161" start="67" name="Buyer"/>
+                    <label end="63" start="57" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10600">
+            <text>Cette nouvelle entité se portera acquéreur de TEM pour un prix non communiqué mais proche , selon certaines sources , des 2 milliards de francs proposés , en 1990 , par l' américain General Electric lors d' une première tentative de reprise que les organisations syndicales avaient fait échouer .</text>
+            <annotationSet status="MANUAL" ID="14828">
+                <layer rank="1" name="FE">
+                    <label end="197" start="169" name="Buyer"/>
+                    <label end="231" start="122" name="Money"/>
+                    <label end="293" start="241" name="Money"/>
+                    <label end="48" start="46" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="239" start="233" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

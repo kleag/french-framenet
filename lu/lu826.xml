@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="opinion.n" ID="826" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="25" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="25">
+            <FE name="Cognizer"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2295"/>
+                <annoSet ID="2594"/>
+                <annoSet ID="3048"/>
+                <annoSet ID="3114"/>
+                <annoSet ID="3153"/>
+                <annoSet ID="8697"/>
+                <annoSet ID="9385"/>
+                <annoSet ID="13975"/>
+                <annoSet ID="14925"/>
+                <annoSet ID="15836"/>
+                <annoSet ID="16716"/>
+                <annoSet ID="19557"/>
+                <annoSet ID="22468"/>
+                <annoSet ID="22474"/>
+                <annoSet ID="23058"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="2335"/>
+                <annoSet ID="2769"/>
+                <annoSet ID="3930"/>
+                <annoSet ID="3932"/>
+                <annoSet ID="6535"/>
+                <annoSet ID="6982"/>
+                <annoSet ID="8585"/>
+                <annoSet ID="9907"/>
+                <annoSet ID="16725"/>
+                <annoSet ID="17263"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="25">
+            <FE name="Content"/>
+            <pattern total="25">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="2295"/>
+                <annoSet ID="2335"/>
+                <annoSet ID="2594"/>
+                <annoSet ID="2769"/>
+                <annoSet ID="3048"/>
+                <annoSet ID="3114"/>
+                <annoSet ID="3153"/>
+                <annoSet ID="3930"/>
+                <annoSet ID="3932"/>
+                <annoSet ID="6535"/>
+                <annoSet ID="6982"/>
+                <annoSet ID="8585"/>
+                <annoSet ID="8697"/>
+                <annoSet ID="9385"/>
+                <annoSet ID="9907"/>
+                <annoSet ID="13975"/>
+                <annoSet ID="14925"/>
+                <annoSet ID="15836"/>
+                <annoSet ID="16716"/>
+                <annoSet ID="16725"/>
+                <annoSet ID="17263"/>
+                <annoSet ID="19557"/>
+                <annoSet ID="22468"/>
+                <annoSet ID="22474"/>
+                <annoSet ID="23058"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Topic"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="2295"/>
+                <annoSet ID="13975"/>
+                <annoSet ID="14925"/>
+                <annoSet ID="16725"/>
+                <annoSet ID="23058"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1879">
+            <text>Voici mon opinion sur la conférence dans son ensemble .</text>
+            <annotationSet status="MANUAL" ID="2295">
+                <layer rank="1" name="FE">
+                    <label end="52" start="6" name="Content"/>
+                    <label end="52" start="22" name="Topic"/>
+                    <label end="8" start="6" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1895">
+            <text>Quelle est sa réaction face aux opinions de plus en plus nombreuses et intenses , provenant par exemple du Conseil ou encore des États membres , selon lesquelles ces 5,5 milliards sont bien trop élevés pour les Balkans occidentaux , dans le cadre du soutien de pré-adhésion pour la Bulgarie et la Roumanie , et selon lesquelles , comme il en va par exemple de la capacité d' absorption , un montant bien inférieur pourrait être beaucoup plus réaliste ?</text>
+            <annotationSet status="MANUAL" ID="2335">
+                <layer rank="1" name="FE">
+                    <label end="449" start="32" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2009">
+            <text>Aussi , je voudrais renforcer la Commission dans son opinion .</text>
+            <annotationSet status="MANUAL" ID="2594">
+                <layer rank="1" name="FE">
+                    <label end="59" start="49" name="Content"/>
+                    <label end="42" start="30" name="Cognizer"/>
+                    <label end="51" start="49" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2090">
+            <text>C' est un cas d' exercice d' une activité politique et d' expression d' une opinion politique .</text>
+            <annotationSet status="MANUAL" ID="2769">
+                <layer rank="1" name="FE">
+                    <label end="92" start="72" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2356">
+            <text>- 5 décembre 1997 : Les poursuites sont étendues pour soupçons de " fichage " des électeurs suivant leurs opinions politiques dans les ordinateurs de la mairie du 3e arrondissement .</text>
+            <annotationSet status="MANUAL" ID="3048">
+                <layer rank="1" name="FE">
+                    <label end="124" start="100" name="Content"/>
+                    <label end="90" start="82" name="Cognizer"/>
+                    <label end="104" start="100" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2395">
+            <text>L' année suivante André fait appel aux cellules locales ( appelées loges ou ateliers ) du Grand Orient de France , organisation maçonnique qui est à l' époque pleinement engagée dans la lutte pour la séparation de l' Église et de l' État , pour établir au total 25 000 fiches sur les opinions politiques et religieuses des officiers se rendant à la messe .</text>
+            <annotationSet status="MANUAL" ID="3114">
+                <layer rank="1" name="FE">
+                    <label end="353" start="280" name="Content"/>
+                    <label end="353" start="323" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="291" start="284" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2408">
+            <text>Les fonctionnaires n' ayant pas à l' époque de statut protecteur et étant considérés comme des agents du gouvernement d' une part , les militaires ayant un rôle et un statut très particulier sous la Troisième République d' autre part ( ils ne votent pas et n' ont pas le droit d' exprimer publiquement des opinions politiques - du moins pas au sens de factions - durant leur service actif ) , le général André avait paradoxalement le droit - du moins dans l' idée des prérogatives politiques de l' époque - du gouvernement sur ses agents , bien qu' il soit ici tout de même aux limites de la légalité de faire surveiller ses officiers , y compris dans leur vie privée , au nom de l' intérêt supérieur de l' État .</text>
+            <annotationSet status="MANUAL" ID="3153">
+                <layer rank="1" name="FE">
+                    <label end="324" start="302" name="Content"/>
+                    <label end="218" start="132" name="Cognizer"/>
+                    <label end="238" start="236" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="313" start="306" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3044">
+            <text>- ( fr ) Opinion : " L' affaire Adnan Hajj : première manipulation emblématique de l' ère numérique " par Andre Gunthert for ARHV , 8 août 2006</text>
+            <annotationSet status="MANUAL" ID="3930">
+                <layer rank="1" name="FE">
+                    <label end="100" start="19" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3049">
+            <text>- ( en ) Opinion : " Institutional Failure at Reuters " par Thomas Lifson pour Yahoo! News , 7 août 2006</text>
+            <annotationSet status="MANUAL" ID="3932">
+                <layer rank="1" name="FE">
+                    <label end="54" start="19" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4624">
+            <text>En novembre 1991 , ils sont 57 % à partager l' opinion selon laquelle les journalistes ne seraient pas " indépendants des partis politiques , du pouvoir et de l' argent " .</text>
+            <annotationSet status="MANUAL" ID="6535">
+                <layer rank="1" name="FE">
+                    <label end="169" start="44" name="Content"/>
+                    <label end="169" start="70" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4884">
+            <text>Un taux de change plus favorable , explique M. Eysymontt , doit permettre la relance des exportations en espérant qu' une " telle opinion sera comprise par le fonds monétaire international et la banque mondiale " ( les deux organismes supervisent le programme économique polonais et redoutent les risques d' hyperinflation ) .</text>
+            <annotationSet status="MANUAL" ID="6982">
+                <layer rank="1" name="FE">
+                    <label end="136" start="124" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5833">
+            <text>C' est là le score le plus bas depuis les 74 % d' opinions défavorables dont était crédité le président Carter en juin 1980 , à quatre mois d' une élection présidentielle qu' il devait finalement perdre au profit de M. Ronald Reagan .</text>
+            <annotationSet status="MANUAL" ID="8585">
+                <layer rank="1" name="FE">
+                    <label end="70" start="50" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5883">
+            <text>Après les points de vue de M. Jürgen Mllemann , ministre allemand de l' économie , et de M. Dominique Strauss - Kahn , ministre français de l' industrie et du commerce extérieur ( le monde du 30 juin ) , nous publions aujourd' hui l' opinion de M. Kozo Watanabe , ministre japonais du commerce international et de l' industrie , publiée également au Japon par le Nikkei Shinbun et le Nikkei Weekly .</text>
+            <annotationSet status="MANUAL" ID="8697">
+                <layer rank="1" name="FE">
+                    <label end="396" start="231" name="Content"/>
+                    <label end="325" start="245" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="240" start="234" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6283">
+            <text>Après les points de vue de M. Jürgen Mllemann , ministre allemand de l' économie , de M. Dominique Strauss - Kahn , ministre français de l' industrie et du commerce extérieur ( le Monde du 30 juin ) , et de M. Kozo Watanabe , ministre japonais du commerce international et de l' industrie ( le Monde du 4 juillet ) , nous publions l' opinion de M. Michael Heseltine , ministre britannique du commerce et de l' industrie .</text>
+            <annotationSet status="MANUAL" ID="9385">
+                <layer rank="1" name="FE">
+                    <label end="418" start="331" name="Content"/>
+                    <label end="418" start="345" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="340" start="334" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6648">
+            <text>Car si le discours reste pluraliste , les opinions contradictoires ne peuvent s' exprimer qu' au sein du syndicat , et le dogme de l' unité a longtemps payé .</text>
+            <annotationSet status="MANUAL" ID="9907">
+                <layer rank="1" name="FE">
+                    <label end="65" start="38" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9948">
+            <text>Une lacune est ainsi comblée , et chacun peut se forger directement une opinion sur la validité des thèses de l' auteur à partir des matériaux de base , et non plus seulement sur la foi de rumeurs et de textes tronqués .</text>
+            <annotationSet status="MANUAL" ID="13975">
+                <layer rank="1" name="FE">
+                    <label end="78" start="68" name="Content"/>
+                    <label end="39" start="34" name="Cognizer"/>
+                    <label end="118" start="84" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10686">
+            <text>La semaine dernière nous relevions dans ces colonnes que M. Jacques Chirac ne semblait pas avoir donné son opinion sur la politique du " franc fort " .</text>
+            <annotationSet status="MANUAL" ID="14925">
+                <layer rank="1" name="FE">
+                    <label end="113" start="103" name="Content"/>
+                    <label end="105" start="103" name="Cognizer"/>
+                    <label end="73" start="57" name="Cognizer"/>
+                    <label end="148" start="119" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11514">
+            <text>Tel est le bilan des journalistes tués dans l' exercice de leur fonction ou pour leurs opinions , dressé par l' association Reporters sans frontières ( RSF ) .</text>
+            <annotationSet status="MANUAL" ID="15836">
+                <layer rank="1" name="FE">
+                    <label end="94" start="81" name="Content"/>
+                    <label end="85" start="81" name="Cognizer"/>
+                    <label end="94" start="21" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12374">
+            <text>des stocks qu' on juge trop lourds ; des carnets de commandes dont on craint qu' ils se dégarnissent encore pour la France , mais aussi - fait nouveau - à l' étranger ; des perspectives de production jugées défavorables et des prix qui devraient continuer à fléchir : en décembre , l' opinion des chefs d' entreprise de l' industrie s' est " assez sensiblement dégradée " , note sobrement l' INSEE dans sa dernière enquête de conjoncture .</text>
+            <annotationSet status="MANUAL" ID="16716">
+                <layer rank="1" name="FE">
+                    <label end="331" start="282" name="Content"/>
+                    <label end="331" start="297" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="291" start="285" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12381">
+            <text>L' opinion sur la production récente se redresse , mais celle - ci reste à un niveau très dégradé .</text>
+            <annotationSet status="MANUAL" ID="16725">
+                <layer rank="1" name="FE">
+                    <label end="35" start="0" name="Content"/>
+                    <label end="35" start="15" name="Topic"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12926">
+            <text>Toutefois , il semble que les rangs des opposants croissent puisqu' une enquête effectuée en 1989 donnait seulement 56 % d' opinions négatives .</text>
+            <annotationSet status="MANUAL" ID="17263">
+                <layer rank="1" name="FE">
+                    <label end="141" start="124" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15290">
+            <text>A ceux qui voudraient voir " des dissidences d' opinions " entre l' UIMM et M. Perigot , il réplique que Ce ne sont que " songes et maléfices " , fruit d' un " fâcheux amalgame " .</text>
+            <annotationSet status="MANUAL" ID="19557">
+                <layer rank="1" name="FE">
+                    <label end="55" start="48" name="Content"/>
+                    <label end="85" start="65" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18338">
+            <text>" Je ne partage pas l' opinion de Charles Fiterman soutenant que son texte adressé au comité central en octobre " s' inscrivait dans la stratégie et la politique définies par nos congrès " , poursuit -il en tant que membre du bureau politique , en assurant que " les membres du comité central , dans leur grande majorité , ont recu ce texte , et ils l' ont dit , comme proposant une autre politique et un autre parti " .</text>
+            <annotationSet status="MANUAL" ID="22468">
+                <layer rank="1" name="FE">
+                    <label end="185" start="20" name="Content"/>
+                    <label end="185" start="65" name="Content"/>
+                    <label end="185" start="34" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18344">
+            <text>Chez nous , chacun a le droit d' avoir son opinion , s' il est minoritaire de la conserver et de la défendre .</text>
+            <annotationSet status="MANUAL" ID="22474">
+                <layer rank="1" name="FE">
+                    <label end="49" start="39" name="Content"/>
+                    <label end="41" start="39" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19001">
+            <text>Mr Qian s' est contenté d' indiquer que " l' opinion du prince Sihanouk " quant au rôle de l' ONU dans un règlement du conflit devait être " pleinement respectée " .</text>
+            <annotationSet status="MANUAL" ID="23058">
+                <layer rank="1" name="FE">
+                    <label end="125" start="42" name="Content"/>
+                    <label end="70" start="56" name="Cognizer"/>
+                    <label end="125" start="83" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

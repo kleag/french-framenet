@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="parier.v" ID="2323" frame="FR_Reliance_on_expectation" frameID="10051" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Expectation"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="13527"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="5002"/>
+                <annoSet ID="9528"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Expectation"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Expectation"/>
+                <annoSet ID="5002"/>
+                <annoSet ID="9528"/>
+                <annoSet ID="13527"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3679">
+            <text>Il y a alors fort à parier que cette retraite plus tardive permettra à la mentalité d' " actif " de perdurer plus longtemps .</text>
+            <annotationSet status="MANUAL" ID="5002">
+                <layer rank="1" name="FE">
+                    <label end="122" start="31" name="Expectation"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6377">
+            <text>La reprise de l' économie américaine était à portée de main , et il fallait parier sur la remontée du dollar !</text>
+            <annotationSet status="MANUAL" ID="9528">
+                <layer rank="1" name="FE">
+                    <label end="107" start="87" name="Expectation"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9559">
+            <text>Le premier , extrapolant les tendances des deux années écoulées , parie , pour les pays de l' OCDE , sur une croissance moyenne tournant autour de 1 , 8 % l' an .</text>
+            <annotationSet status="MANUAL" ID="13527">
+                <layer rank="1" name="FE">
+                    <label end="64" start="0" name="Cognizer"/>
+                    <label end="159" start="105" name="Expectation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

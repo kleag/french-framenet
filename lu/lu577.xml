@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="marquer.v" ID="577" frame="Evidence" frameID="25" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Proposition"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="6202"/>
+                <annoSet ID="6423"/>
+                <annoSet ID="7138"/>
+                <annoSet ID="9986"/>
+                <annoSet ID="19699"/>
+                <annoSet ID="24116"/>
+                <annoSet ID="24695"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Support"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="6202"/>
+                <annoSet ID="6423"/>
+                <annoSet ID="7138"/>
+                <annoSet ID="9986"/>
+                <annoSet ID="19699"/>
+                <annoSet ID="24116"/>
+                <annoSet ID="24695"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4409">
+            <text>Quoi qu' il advienne , ce succès allemand marque une nouvelle défaite pour Renault .</text>
+            <annotationSet status="MANUAL" ID="6202">
+                <layer rank="1" name="FE">
+                    <label end="40" start="23" name="Support"/>
+                    <label end="68" start="49" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4547">
+            <text>Des visages de toute façon figés , où la bouche seule s' arrondit pour marquer la parole , le rire ou les sanglots .</text>
+            <annotationSet status="MANUAL" ID="6423">
+                <layer rank="1" name="FE">
+                    <label end="64" start="38" name="Support"/>
+                    <label end="113" start="79" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4956">
+            <text>Ce résultat marque une amélioration par rapport à 1990 ( + 3 , 4 % ) et 1989 ( + 3 , 6 % ) .</text>
+            <annotationSet status="MANUAL" ID="7138">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Support"/>
+                    <label end="34" start="19" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6707">
+            <text>Ces nouvelles dispositions , qui marquent de façon radicale l' abandon des options antérieures de l' Algérie , ont soulevé de nombreuses réactions à l' intérieur du pays .</text>
+            <annotationSet status="MANUAL" ID="9986">
+                <layer rank="1" name="FE">
+                    <label end="107" start="0" name="Support"/>
+                    <label end="31" start="29" name="Support"/>
+                    <label end="107" start="60" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15434">
+            <text>A l' annonce de cette décision , Catherine Trautmann , maire ( PS ) de Strasbourg , s' est " félicitée " de ce que " cette confirmation du transfert marque un respect des engagements pris " et " permet de mettre un terme aux derniers arguments jacobins qui liaient abusivement la qualité de l' enseignement de l' ENA à sa proximité avec les ministères " .</text>
+            <annotationSet status="MANUAL" ID="19699">
+                <layer rank="1" name="FE">
+                    <label end="147" start="117" name="Support"/>
+                    <label end="186" start="156" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="154" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20397">
+            <text>De plus , cette chaîne permet de revenir au schéma " trois chaînes publiques face à deux privées " qui , cinq ans après la privatisation de TF 1 , marquerait un " rééquilibrage " et un " geste politique " .</text>
+            <annotationSet status="MANUAL" ID="24116">
+                <layer rank="1" name="FE">
+                    <label end="203" start="44" name="Support"/>
+                    <label end="101" start="99" name="Support"/>
+                    <label end="203" start="158" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21257">
+            <text>Tout autre emploi marquerait un ... dérèglement du bon langage !</text>
+            <annotationSet status="MANUAL" ID="24695">
+                <layer rank="1" name="FE">
+                    <label end="16" start="0" name="Support"/>
+                    <label end="61" start="29" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

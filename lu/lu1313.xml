@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se mettre d'accord.v" ID="1313" frame="FR_Make_agreement_on_assessment" frameID="10040" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer_1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer_1"/>
+                <annoSet ID="23160"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer_2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer_2"/>
+                <annoSet ID="23160"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cognizers"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizers"/>
+                <annoSet ID="16076"/>
+                <annoSet ID="18609"/>
+                <annoSet ID="18986"/>
+                <annoSet ID="21003"/>
+                <annoSet ID="22766"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Opinion"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Opinion"/>
+                <annoSet ID="16076"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Topic"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="18609"/>
+                <annoSet ID="18986"/>
+                <annoSet ID="21003"/>
+                <annoSet ID="22766"/>
+                <annoSet ID="23160"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="11706">
+            <text>" Le risque , c' était que le gouvernement allemand propose qu' on se mette d' accord sur un flottement " , rappelle un proche des discussions .</text>
+            <annotationSet status="MANUAL" ID="16076">
+                <layer rank="1" name="FE">
+                    <label end="65" start="64" name="Cognizers"/>
+                    <label end="102" start="90" name="Opinion"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14294">
+            <text>Après trois ans de tractations , les ministres des affaires sociales des les Douze se sont mis d' accord , mardi 1er juin , sur une directive fixant à quarante - huit heures la durée hebdomadaire maximale du travail ainsi que des normes relatives aux périodes de repos .</text>
+            <annotationSet status="MANUAL" ID="18609">
+                <layer rank="1" name="FE">
+                    <label end="267" start="128" name="Topic"/>
+                    <label end="81" start="33" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="83" name="Target"/>
+                    <label end="103" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14674">
+            <text>- GATT : après une réunion ministérielle houleuse , les Etats - Unis et la Communauté européenne se mettent d' accord sur un texte qui prévoit l' ouverture du " Kennedy Round " l' année suivante et fixe les méthodes permettant d' obtenir une réduction linéaire des tarifs douaniers .</text>
+            <annotationSet status="MANUAL" ID="18986">
+                <layer rank="1" name="FE">
+                    <label end="280" start="122" name="Topic"/>
+                    <label end="95" start="52" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16896">
+            <text>Depuis le décès , le 12 décembre 1989 , du président de la banque de Biscaye , Pedro Toledo ( Le Monde du 15 décembre ) , les conseillers des deux établissements qui forment ensemble la première entité financière privée du pays s' étaient en effet montrés incapables , malgré cinq semaines de tumultueuses négociations , de se mettre d' accord sur sa succession .</text>
+            <annotationSet status="MANUAL" ID="21003">
+                <layer rank="1" name="FE">
+                    <label end="360" start="348" name="Topic"/>
+                    <label end="226" start="122" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="342" start="324" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18660">
+            <text>Elles se sont mises d' accord sur la définition des pièces d' artillerie , une des six catégories qui font l' objet des négociations ( avec les avions de combat , les hélicoptères , le personnel , les chars et les autres véhicules blindés ) ; elles ont rapproché leurs vues sur les plafonds à fixer pour ces catégories et sont arrivées à une large convergence de vues sur les mesures de stabilisation et de vérification .</text>
+            <annotationSet status="MANUAL" ID="22766">
+                <layer rank="1" name="FE">
+                    <label end="239" start="34" name="Topic"/>
+                    <label end="4" start="0" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="6" name="Target"/>
+                    <label end="28" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19167">
+            <text>Ce dernier entend promouvoir un dialogue israélo- palestinien , mais n' a pas caché , la semaine passée , qu' il était las devant le peu de succès remporté et l' impossibilité de se mettre d' accord avec Mr Shamir sur la composition d' une délégation palestinienne .</text>
+            <annotationSet status="MANUAL" ID="23160">
+                <layer rank="1" name="FE">
+                    <label end="263" start="218" name="Topic"/>
+                    <label end="212" start="204" name="Cognizer_2"/>
+                    <label end="111" start="110" name="Cognizer_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="179" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

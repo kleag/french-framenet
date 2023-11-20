@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="presser.v" ID="772" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Action"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="6763"/>
+                <annoSet ID="14052"/>
+                <annoSet ID="15589"/>
+                <annoSet ID="23822"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="19548"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="6763"/>
+                <annoSet ID="14052"/>
+                <annoSet ID="15589"/>
+                <annoSet ID="19548"/>
+                <annoSet ID="23822"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Persuader"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="6763"/>
+                <annoSet ID="14052"/>
+                <annoSet ID="19548"/>
+                <annoSet ID="23822"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="15589"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4761">
+            <text>Ainsi , lors de la prochaine réunion du groupe des sept pays les plus industrialisés le 25 janvier , les Européens presseraient les Etats - Unis de favoriser une reprise du dollar .</text>
+            <annotationSet status="MANUAL" ID="6763">
+                <layer rank="1" name="FE">
+                    <label end="178" start="148" name="Action"/>
+                    <label end="143" start="128" name="Cognizer"/>
+                    <label end="113" start="101" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10001">
+            <text>Ils sont d' autant plus enclins à le faire qu' eux - mêmes sont pressés par leurs créanciers , généralement des banques .</text>
+            <annotationSet status="MANUAL" ID="14052">
+                <layer rank="1" name="FE">
+                    <label end="35" start="34" name="Action"/>
+                    <label end="57" start="47" name="Cognizer"/>
+                    <label end="118" start="76" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11293">
+            <text>A la mi - septembre , à l' occasion d' une dévaluation de 7 % de la lire italienne , la Bundesbank , pressée depuis plusieurs mois d' assouplir sa politique , faisait un geste en réduisant d' un demi- - point son taux d' escompte , ramené à 8 , 25 % , et d' un quart de point son taux Lombard , revenu à 9 , 50 % .</text>
+            <annotationSet status="MANUAL" ID="15589">
+                <layer rank="1" name="FE">
+                    <label end="155" start="134" name="Action"/>
+                    <label end="99" start="85" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15281">
+            <text>" Le premier ministre n' est pas homme à presser qui que ce soit " , ajoute -t-il , " et il nous a bien précisé que sa politique était ce qu' il pouvait faire de mieux " .</text>
+            <annotationSet status="MANUAL" ID="19548">
+                <layer rank="1" name="FE">
+                    <label end="63" start="49" name="Cognizer"/>
+                    <label end="20" start="2" name="Persuader"/>
+                    <label itype="UNI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20088">
+            <text>Ce qui déclencha le retournement , ce fut une rumeur , reprise par le quotidien japonais Nihon Keiza , suivant laquelle , lors de la réunion du Groupe des Sept du 25 janvier , les Européens presseraient les Etats - Unis de favoriser une reprise du dollar .</text>
+            <annotationSet status="MANUAL" ID="23822">
+                <layer rank="1" name="FE">
+                    <label end="253" start="223" name="Action"/>
+                    <label end="218" start="203" name="Cognizer"/>
+                    <label end="188" start="176" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="201" start="190" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

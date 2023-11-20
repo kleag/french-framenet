@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="arrangement.n" ID="71" frame="Be_in_agreement_on_action" frameID="1380" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="par1" name="Party_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="par2" name="Party_2"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="obl" name="Obligation"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="pars" name="Parties"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Obligation"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Obligation"/>
+                <annoSet ID="2282"/>
+                <annoSet ID="10100"/>
+                <annoSet ID="15394"/>
+                <annoSet ID="19573"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Parties"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Parties"/>
+                <annoSet ID="13819"/>
+                <annoSet ID="15394"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Parties"/>
+                <annoSet ID="2282"/>
+                <annoSet ID="10100"/>
+                <annoSet ID="19573"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Party_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Party_2"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="13819"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1876">
+            <text>C' est pourquoi nous devons lancer un appel à la raison aux dirigeants éthiopiens et érythréens pour que cesse le conflit , pour que , dans le cadre du plan de paix de l' O.U.A. , un accord rapide sur les arrangements techniques intervienne .</text>
+            <annotationSet status="MANUAL" ID="2282">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="ENI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="216" start="205" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6783">
+            <text>Cependant la production glisse vers le Sud : même si les usines sont " syndiquées " , les arrangements y sont plus faciles .</text>
+            <annotationSet status="MANUAL" ID="10100">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Obligation"/>
+                    <label itype="UNI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9819">
+            <text>Marché de dupes comme n' a eu de cesse de le répéter Jacques Calvet , PDG de PSA - Citroën , ou arrangement " le moins pire possible " , comme l' affirmait Raymond Lévy , le patron de Renault , l' accord CEE - Japon sur l' automobile a d' abord été une formidable bagarre politique et économique dont Thierry Gandillot , journaliste au Nouvel Observateur , fait la chronique .</text>
+            <annotationSet status="MANUAL" ID="13819">
+                <layer rank="1" name="FE">
+                    <label end="232" start="220" name="Topic"/>
+                    <label end="214" start="204" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11124">
+            <text>Un compromis a été conclu fin novembre entre Washington et la Commission de Bruxelles , mais cet arrangement n' a pas obtenu le feu vert du conseil des ministres .</text>
+            <annotationSet status="MANUAL" ID="15394">
+                <layer rank="1" name="FE">
+                    <label end="84" start="45" name="Parties"/>
+                    <label itype="UNI" name="Obligation"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15304">
+            <text>Les Britanniques avaient bloqué in fine cet arrangement .</text>
+            <annotationSet status="MANUAL" ID="19573">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Obligation"/>
+                    <label itype="ENI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="générer.v" ID="907" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cause"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="9419"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Effect"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="9419"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6311">
+            <text>Mais en fin de compte la démocratie et une véritable économie de marché ne verront le jour que si elles s' intègrent dans un marché international libéré des barrières commerciales , au sein duquel une concurrence saine génère efficacité , innovation , qualité et choix .</text>
+            <annotationSet status="MANUAL" ID="9419">
+                <layer rank="1" name="FE">
+                    <label end="217" start="197" name="Cause"/>
+                    <label end="267" start="226" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="224" start="219" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

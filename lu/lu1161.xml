@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="animer.v" ID="1161" frame="FR_Influence_of_event_on_cognizer-Subjective_influence" frameID="10035" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="sit" name="Situation"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ent" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="act" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="beh" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Action"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Activity"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="6856"/>
+                <annoSet ID="11401"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Entity"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Entity"/>
+                <annoSet ID="6856"/>
+                <annoSet ID="11401"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Situation"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5217">
+            <text>Là encore , animé par l' idée de mieux quadriller , en fonction des caractéristiques régionales , l' aide à l' élevage , M. Mermaz a demandé que soit revu le régime de soutien aux éleveurs traditionnels herbagers , situés par exemple en Normandie , en Bretagne , ou dans les Pyrénées .</text>
+            <annotationSet status="MANUAL" ID="6856">
+                <layer rank="1" name="FE">
+                    <label end="129" start="121" name="Cognizer"/>
+                    <label end="117" start="22" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8783">
+            <text>Animé par l' inflexible détermination de veiller à ce que rien n' échappe à son contrôle , ce dernier avait pris la précaution de siéger au conseil de surveillance d' Adidas et de désigner un homme à lui à la direction de la société - holding .</text>
+            <annotationSet status="MANUAL" ID="11401">
+                <layer rank="1" name="FE">
+                    <label end="100" start="91" name="Cognizer"/>
+                    <label end="87" start="10" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

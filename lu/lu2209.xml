@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="ambition.n" ID="2209" frame="FR_Purpose" frameID="10070" totalAnnotated="32" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="0099CC" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="29">
+            <FE name="Agent"/>
+            <pattern total="25">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="4277"/>
+                <annoSet ID="4467"/>
+                <annoSet ID="4708"/>
+                <annoSet ID="7737"/>
+                <annoSet ID="10914"/>
+                <annoSet ID="11338"/>
+                <annoSet ID="12548"/>
+                <annoSet ID="13762"/>
+                <annoSet ID="15670"/>
+                <annoSet ID="15685"/>
+                <annoSet ID="15823"/>
+                <annoSet ID="15916"/>
+                <annoSet ID="15921"/>
+                <annoSet ID="16833"/>
+                <annoSet ID="16842"/>
+                <annoSet ID="18713"/>
+                <annoSet ID="18799"/>
+                <annoSet ID="19075"/>
+                <annoSet ID="19470"/>
+                <annoSet ID="19706"/>
+                <annoSet ID="23181"/>
+                <annoSet ID="23990"/>
+                <annoSet ID="24100"/>
+                <annoSet ID="24847"/>
+                <annoSet ID="24848"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="13367"/>
+                <annoSet ID="15144"/>
+                <annoSet ID="22272"/>
+                <annoSet ID="22315"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="32">
+            <FE name="Goal"/>
+            <pattern total="32">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="33"/>
+                <annoSet ID="4277"/>
+                <annoSet ID="4467"/>
+                <annoSet ID="4708"/>
+                <annoSet ID="7737"/>
+                <annoSet ID="10914"/>
+                <annoSet ID="11338"/>
+                <annoSet ID="12548"/>
+                <annoSet ID="13367"/>
+                <annoSet ID="13762"/>
+                <annoSet ID="15144"/>
+                <annoSet ID="15670"/>
+                <annoSet ID="15685"/>
+                <annoSet ID="15823"/>
+                <annoSet ID="15916"/>
+                <annoSet ID="15921"/>
+                <annoSet ID="16833"/>
+                <annoSet ID="16842"/>
+                <annoSet ID="18713"/>
+                <annoSet ID="18799"/>
+                <annoSet ID="19075"/>
+                <annoSet ID="19470"/>
+                <annoSet ID="19706"/>
+                <annoSet ID="20633"/>
+                <annoSet ID="21890"/>
+                <annoSet ID="22272"/>
+                <annoSet ID="22315"/>
+                <annoSet ID="23181"/>
+                <annoSet ID="23990"/>
+                <annoSet ID="24100"/>
+                <annoSet ID="24847"/>
+                <annoSet ID="24848"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Means"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="33"/>
+                <annoSet ID="4277"/>
+                <annoSet ID="15921"/>
+                <annoSet ID="18713"/>
+                <annoSet ID="21890"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="20633"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Time_of_Eventuality"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Time_of_Eventuality"/>
+                <annoSet ID="4467"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="20">
+            <text>Cette exposition , comme devait conclure Roger Thiriot , " n' a d' autre ambition que d' apporter un modeste témoignage sur le passé du tissu économique de la région .</text>
+            <annotationSet status="MANUAL" ID="33">
+                <layer rank="1" name="FE">
+                    <label end="164" start="89" name="Goal"/>
+                    <label end="15" start="0" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3263">
+            <text>L' échec est d' abord celui de Hachette : jamais remis de sa défaite face à Bouygues , en 1987 , pour la conquête de TF 1 , le groupe n' a eu de cesse de mettre la main sur une télévision pour assouvir ses ambitions multimédiatiques .</text>
+            <annotationSet status="MANUAL" ID="4277">
+                <layer rank="1" name="FE">
+                    <label end="231" start="216" name="Goal"/>
+                    <label end="132" start="124" name="Agent"/>
+                    <label end="204" start="202" name="Agent"/>
+                    <label end="186" start="42" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="214" start="206" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3367">
+            <text>L' ambition affichée par M. Eltsine de parvenir dès le premier mois de 1992 à la convertibilité interne du rouble - la possibilité de l' échanger librement , à un cours suffisamment stable , contre des monnaies étrangères à l' intérieur du pays - laisse en revanche sceptiques la plupart des spécialistes .</text>
+            <annotationSet status="MANUAL" ID="4467">
+                <layer rank="1" name="FE">
+                    <label end="74" start="48" name="Time_of_Eventuality"/>
+                    <label end="245" start="39" name="Goal"/>
+                    <label end="34" start="25" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3519">
+            <text>D' une formidable puissance politique , les vingt - quatre municipalités embauchent des journaliers qui se transforment vite en masses dévouées à toutes les ambitions des maires .</text>
+            <annotationSet status="MANUAL" ID="4708">
+                <layer rank="1" name="FE">
+                    <label end="176" start="146" name="Goal"/>
+                    <label end="176" start="171" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5330">
+            <text>Le paradoxe de ce " néo- libéralisme " britannique est d' allier le désengagement de l' Etat à un plus grand interventionnisme : les ambitions de l' influent ministre du commerce et de l' industrie , M. Michael Heseltine , sont , à cet égard , sans ambiguïté , même si ses thèses sont contestées au sein du gouvernement , par les partisans plus orthodoxes du libéralisme " thatchérien " .</text>
+            <annotationSet status="MANUAL" ID="7737">
+                <layer rank="1" name="FE">
+                    <label end="219" start="129" name="Goal"/>
+                    <label end="219" start="146" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7457">
+            <text>L' ambition du gouvernement Salinas est de " réacclimater " les moutons pour améliorer l' ordinaire des paysans et leur permettre demain d' exporter leurs agneaux vers le Texas et la Californie , sous les auspices du futur accord de libre - échange ...</text>
+            <annotationSet status="MANUAL" ID="10914">
+                <layer rank="1" name="FE">
+                    <label end="247" start="43" name="Goal"/>
+                    <label end="34" start="15" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7837">
+            <text>L' ambition du nouveau propriétaire de la Tribune est de combiner les forces des deux quotidiens fusionnés .</text>
+            <annotationSet status="MANUAL" ID="11338">
+                <layer rank="1" name="FE">
+                    <label end="105" start="57" name="Goal"/>
+                    <label end="48" start="15" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8797">
+            <text>Par deux fois , en six semaines , M. Bernard Tapie a dû céder à la pression des événements , corriger ses ambitions et réduire son registre .</text>
+            <annotationSet status="MANUAL" ID="12548">
+                <layer rank="1" name="FE">
+                    <label end="114" start="102" name="Goal"/>
+                    <label end="49" start="34" name="Agent"/>
+                    <label end="104" start="102" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9466">
+            <text>Sans quotas , sans tam - tam , mais non sans ambitions</text>
+            <annotationSet status="MANUAL" ID="13367">
+                <layer rank="1" name="FE">
+                    <label end="53" start="45" name="Goal"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9784">
+            <text>L' équipe du président Nursultan Nazarbaïev a donné vingt ans au pays pour sortir de son statut de fournisseur de matières premières , réaliser la conversion de son industrie militaire , quitte à la financer d' abord par la vente d' armes , et trouver dans l' économie mondiale une place à la taille de son potentiel et de ses ambitions .</text>
+            <annotationSet status="MANUAL" ID="13762">
+                <layer rank="1" name="FE">
+                    <label end="335" start="323" name="Goal"/>
+                    <label end="68" start="65" name="Agent"/>
+                    <label end="325" start="323" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="335" start="327" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10908">
+            <text>Car l' ambition d' être capable " de tout faire partout dans le monde " et de considérer l' Europe " comme son marché domestique " se paie cher quand la conjoncture se retourne .</text>
+            <annotationSet status="MANUAL" ID="15144">
+                <layer rank="1" name="FE">
+                    <label end="73" start="19" name="Goal"/>
+                    <label end="129" start="78" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11353">
+            <text>Ayant fait preuve d' ambitions démesurées en voulant mener des batailles boursières , ces sociétés se sont finalement trouvées dans l' incapacité de faire face à leurs échéances .</text>
+            <annotationSet status="MANUAL" ID="15670">
+                <layer rank="1" name="FE">
+                    <label end="40" start="21" name="Goal"/>
+                    <label end="97" start="86" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11365">
+            <text>Organisé à Caracas , du 17 au 24 mars , un mois après une tentative de coup d' Etat , le 15ème congrès de la CISL ne pouvait rêver d' un lieu mieux adapté pour se définir de nouvelles ambitions .</text>
+            <annotationSet status="MANUAL" ID="15685">
+                <layer rank="1" name="FE">
+                    <label end="192" start="171" name="Goal"/>
+                    <label end="112" start="86" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="192" start="184" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11499">
+            <text>Mais le coup était attendu : les autorités chinoises avaient clairement affirmé à M. Christian Blanc , alors PDG de la RATP et à ce titre négociateur principal sur les dossiers des métros de Canton et de Pékin , que la vente de Mirage à Taïwan signifierait la fin des ambitions françaises .</text>
+            <annotationSet status="MANUAL" ID="15823">
+                <layer rank="1" name="FE">
+                    <label end="287" start="268" name="Goal"/>
+                    <label end="287" start="278" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="276" start="268" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11557">
+            <text>Dès l' élection du démocrate , il savait que le nouveau pouvoir s' opposerait à son ambition .</text>
+            <annotationSet status="MANUAL" ID="15916">
+                <layer rank="1" name="FE">
+                    <label end="91" start="80" name="Goal"/>
+                    <label end="82" start="80" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11563">
+            <text>Mais pour réaliser ses ambitions , le président élu sera pourtant vraisemblablement conduit à succomber aux pressions des nombreux lobbies partisans d' une protection à l' égard des produits et des capitaux étrangers .</text>
+            <annotationSet status="MANUAL" ID="15921">
+                <layer rank="1" name="FE">
+                    <label end="31" start="19" name="Goal"/>
+                    <label end="50" start="35" name="Agent"/>
+                    <label end="21" start="19" name="Agent"/>
+                    <label end="215" start="94" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12494">
+            <text>Au cours de l' année écoulée , les Douze se sont allègrement déchirés sur les questions monétaires , sur celles des ressources à consacrer à la Communauté , de la politique agricole commune et des négociations sur le commerce mondial ( GATT ) ; ils se sont livrés , à propos de l' ex- Yougoslavie , à une prestation qui fait douter des ambitions qu' ils proclament dans le traité de Maastricht .</text>
+            <annotationSet status="MANUAL" ID="16833">
+                <layer rank="1" name="FE">
+                    <label end="392" start="336" name="Goal"/>
+                    <label end="39" start="31" name="Agent"/>
+                    <label end="352" start="350" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="344" start="336" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12497">
+            <text>C' est du moins l' ambition affichée du premier ministre , M. Poul Schlüter , qui souhaite mener de pair rapidement les négociations avec les pays candidats à l' adhésion , dont ses voisins nordiques , conclure un accord sur le GATT , et s' occuper de la question yougoslave , en particulier du problème des réfugiés .</text>
+            <annotationSet status="MANUAL" ID="16842">
+                <layer rank="1" name="FE">
+                    <label end="315" start="16" name="Goal"/>
+                    <label end="315" start="40" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14408">
+            <text>En dépit des déclarations selon lesquelles le transfert d' administrations et d' organismes publics ne serait pas remis en cause , le gouvernement Balladur pourra -t-il effectivement continuer la politique d' Edith Cresson et de Pierre Bérégovoy , qui , rappelons -en les ambitions , tablait sur le déplacement de 30 000 fonctionnaires en province ou en banlieue dans les cinq ans ?</text>
+            <annotationSet status="MANUAL" ID="18713">
+                <layer rank="1" name="FE">
+                    <label end="280" start="268" name="Goal"/>
+                    <label end="224" start="209" name="Agent"/>
+                    <label end="244" start="229" name="Agent"/>
+                    <label end="379" start="193" name="Means"/>
+                    <label end="266" start="264" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="280" start="272" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14486">
+            <text>Sur une diversification dans la presse écrite , il a précisé qu' " il n' avait pas aujourd' hui d' ambition particulière dans cette direction , étant donnés non les coûts d' acquisition d' un titre mais le caractère onéreux du fonctionnement " .</text>
+            <annotationSet status="MANUAL" ID="18799">
+                <layer rank="1" name="FE">
+                    <label end="140" start="96" name="Goal"/>
+                    <label end="68" start="67" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14784">
+            <text>Toutefois l' Inde , le Brésil , Taïwan et les Philippines , la Pologne et la Roumanie ne cachent pas leurs ambitions .</text>
+            <annotationSet status="MANUAL" ID="19075">
+                <layer rank="1" name="FE">
+                    <label end="115" start="101" name="Goal"/>
+                    <label end="84" start="10" name="Agent"/>
+                    <label end="105" start="101" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15223">
+            <text>Assurant que les responsables patronaux sont " très conscients des enjeux " , il a souhaité " un grand effort de solidarité et d' effort national " et a réaffirmé son ambition de " stopper la progression du chômage d' ici à la fin de l' année " .</text>
+            <annotationSet status="MANUAL" ID="19470">
+                <layer rank="1" name="FE">
+                    <label end="243" start="179" name="Goal"/>
+                    <label end="165" start="163" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="174" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15440">
+            <text>Les obstacles à franchir dans cette négociation multiforme étaient nombreux , mais il a trébuché sur le plus difficile d' entre eux , l' agriculture et l' ambition des Etats - Unis d' imposer à la politique agricole commune ( PAC ) des sacrifices allant au - delà de ce que les Européens sont prêts à accepter .</text>
+            <annotationSet status="MANUAL" ID="19706">
+                <layer rank="1" name="FE">
+                    <label end="308" start="184" name="Goal"/>
+                    <label end="179" start="168" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16437">
+            <text>En Italie , le plan d' urgence présenté en juillet vise à économiser 93 000 milliards de lires ( 6 % du produit intérieur brut ) , tandis qu' en Espagne le projet de budget 1993 a pour ambition de ramener le déficit budgétaire à 2 , 3 % du PIB contre 4 , 6 % cette année .</text>
+            <annotationSet status="MANUAL" ID="20633">
+                <layer rank="1" name="FE">
+                    <label end="176" start="153" name="Medium"/>
+                    <label end="269" start="197" name="Goal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="192" start="185" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17813">
+            <text>Cet hiver , toutefois , les cent cinquante ans de la photographie ont réquisitionné les plus vastes salles de Burlington House , siège de l' honorable institution , et c' est une manifestation sans ambition spatiale excessive qui s' est installée dans les salles restantes , à l' enseigne du dessin .</text>
+            <annotationSet status="MANUAL" ID="21890">
+                <layer rank="1" name="FE">
+                    <label end="214" start="207" name="Goal"/>
+                    <label end="196" start="175" name="Means"/>
+                    <label end="271" start="226" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="205" start="198" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18234">
+            <text>Pour elle , le système actuel , " outre le danger (...) de l' éventuelle élection d' un président peu respectueux des principes démocratiques ou quelque peu mégalomane , entraîne nécessairement la polarisation de toutes les ambitions politiques autour de l' élection présidentielle " .</text>
+            <annotationSet status="MANUAL" ID="22272">
+                <layer rank="1" name="FE">
+                    <label end="243" start="213" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="232" start="224" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18259">
+            <text>C' est pourquoi nous poursuivrons nos efforts pour que se rassemblent celles et ceux qui ont construit ce parti avec François Mitterrand , celles et ceux qui y sont venus dans les années récentes sur la base des grandes directions indiquées par l' homme qui restera dans notre histoire contemporaine comme celui qui a ramené durablement les socialistes au pouvoir et qui a besoin pour la suite de son second septennat d' un parti dynamique , cohérent , digne des grandes ambitions nationales et internationales dont lui - même est porteur pour la France .</text>
+            <annotationSet status="MANUAL" ID="22315">
+                <layer rank="1" name="FE">
+                    <label end="552" start="463" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="479" start="471" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19177">
+            <text>Pour les années 90 , la CFDT affirme trois ambitions : " Traduire dans les faits une forte identité revendicative " ; " Faire du syndicalisme français un syndicalisme de masse " ( la centrale assurant qu' elle ne perd plus d' adhérents mais recommence à en gagner ... ) ; " En finir avec l' émiettement syndical qui est le produit de notre Histoire .</text>
+            <annotationSet status="MANUAL" ID="23181">
+                <layer rank="1" name="FE">
+                    <label end="347" start="55" name="Goal"/>
+                    <label end="27" start="21" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20267">
+            <text>Encore mal élaboré , le projet cache , semble -t-il , selon ses détracteurs , l' ambition de Thomson - CSF de contrôler le secteur et , spécialement , de s' approprier Aérospatiale en faisant valoir que le groupe dirigé par M. Alain Gomez dispose - grâce notamment au contrat des frégates de Taïwan - de liquidités et de capacités d' endettement auxquelles ne peut prétendre l' entreprise présidée par M. Henri Martre .</text>
+            <annotationSet status="MANUAL" ID="23990">
+                <layer rank="1" name="FE">
+                    <label end="149" start="110" name="Goal"/>
+                    <label end="416" start="154" name="Goal"/>
+                    <label end="105" start="93" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20382">
+            <text>Tout le plan de restructuration d' Hachette consistait à revoir à la baisse les ambitions de la chaîne , en réduisant les engagements de production et d' information et en demandant un allégement des contraintes réglementaires .</text>
+            <annotationSet status="MANUAL" ID="24100">
+                <layer rank="1" name="FE">
+                    <label end="101" start="76" name="Goal"/>
+                    <label end="101" start="93" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21494">
+            <text>Ils ont des ambitions et ils les expriment ; il n' y a rien d' illégitime à cela .</text>
+            <annotationSet status="MANUAL" ID="24847">
+                <layer rank="1" name="FE">
+                    <label end="20" start="8" name="Goal"/>
+                    <label end="2" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21495">
+            <text>A nous d' avancer nos propres ambitions .</text>
+            <annotationSet status="MANUAL" ID="24848">
+                <layer rank="1" name="FE">
+                    <label end="38" start="18" name="Goal"/>
+                    <label end="20" start="18" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

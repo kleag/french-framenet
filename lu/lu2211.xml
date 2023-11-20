@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="but.n" ID="2211" frame="FR_Purpose" frameID="10070" totalAnnotated="25" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="0099CC" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="17">
+            <FE name="Agent"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="6945"/>
+                <annoSet ID="11395"/>
+                <annoSet ID="14872"/>
+                <annoSet ID="15806"/>
+                <annoSet ID="20926"/>
+                <annoSet ID="21261"/>
+                <annoSet ID="22268"/>
+                <annoSet ID="22402"/>
+                <annoSet ID="23109"/>
+                <annoSet ID="24706"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="10229"/>
+                <annoSet ID="12400"/>
+                <annoSet ID="16402"/>
+                <annoSet ID="17650"/>
+                <annoSet ID="18637"/>
+                <annoSet ID="19353"/>
+                <annoSet ID="24231"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="25">
+            <FE name="Goal"/>
+            <pattern total="24">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="2183"/>
+                <annoSet ID="6945"/>
+                <annoSet ID="8492"/>
+                <annoSet ID="9157"/>
+                <annoSet ID="10229"/>
+                <annoSet ID="11395"/>
+                <annoSet ID="12342"/>
+                <annoSet ID="12400"/>
+                <annoSet ID="14872"/>
+                <annoSet ID="15748"/>
+                <annoSet ID="15806"/>
+                <annoSet ID="16402"/>
+                <annoSet ID="18637"/>
+                <annoSet ID="19353"/>
+                <annoSet ID="20926"/>
+                <annoSet ID="21261"/>
+                <annoSet ID="22226"/>
+                <annoSet ID="22268"/>
+                <annoSet ID="22402"/>
+                <annoSet ID="22857"/>
+                <annoSet ID="23109"/>
+                <annoSet ID="24231"/>
+                <annoSet ID="24329"/>
+                <annoSet ID="24706"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goal"/>
+                <annoSet ID="17650"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Means"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="2183"/>
+                <annoSet ID="6945"/>
+                <annoSet ID="8492"/>
+                <annoSet ID="9157"/>
+                <annoSet ID="12342"/>
+                <annoSet ID="15748"/>
+                <annoSet ID="16402"/>
+                <annoSet ID="20926"/>
+                <annoSet ID="21261"/>
+                <annoSet ID="22226"/>
+                <annoSet ID="22402"/>
+                <annoSet ID="22857"/>
+                <annoSet ID="24329"/>
+                <annoSet ID="24706"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Means"/>
+                <annoSet ID="18637"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="8492"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Time_of_Eventuality"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Time_of_Eventuality"/>
+                <annoSet ID="18637"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1827">
+            <text>C' est un lieu commun de dire que l' Union européenne , telle qu' elle fonctionne aujourd' hui , face à tous ces défis , appelle absolument certaines transformations , des transformations qui auront comme but principal de la faire encore évoluer sur la base de tout ce que nous tous , nous avons admis jusqu' à ce jour .</text>
+            <annotationSet status="MANUAL" ID="2183">
+                <layer rank="1" name="FE">
+                    <label end="317" start="222" name="Goal"/>
+                    <label end="317" start="168" name="Means"/>
+                    <label end="190" start="188" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="207" start="205" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4861">
+            <text>Comme tel était le but du législateur lorsqu' il a autorisé la publicité comparative , le Conseil a décidé que cette loi était conforme à la Constitution .</text>
+            <annotationSet status="MANUAL" ID="6945">
+                <layer rank="1" name="FE">
+                    <label end="36" start="16" name="Goal"/>
+                    <label end="36" start="26" name="Agent"/>
+                    <label end="83" start="46" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5768">
+            <text>La publicité a l' habitude des slogans qui détournent les mots pour aller droit au but , qui jouent sur les allitérations pour rester dans la mémoire , qui s' écourtent pour durer plus longtemps .</text>
+            <annotationSet status="MANUAL" ID="8492">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Medium"/>
+                    <label end="85" start="83" name="Goal"/>
+                    <label end="61" start="31" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6160">
+            <text>Le but de toutes ces manoeuvres est annoncé clairement par Alain Denvers : faire des chaînes publiques une référence en matière d' information télévisée .</text>
+            <annotationSet status="MANUAL" ID="9157">
+                <layer rank="1" name="FE">
+                    <label end="151" start="75" name="Goal"/>
+                    <label end="30" start="10" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6885">
+            <text>La banque de France serait alors contrainte de relever ses taux directeurs pour défendre sa monnaie , ce qui aboutirait au résultat inverse du but poursuivi .</text>
+            <annotationSet status="MANUAL" ID="10229">
+                <layer rank="1" name="FE">
+                    <label end="155" start="143" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7892">
+            <text>Simplement , le but paraît s' éloigner au fur et à mesure que le groupe pétrolier s' en rapproche .</text>
+            <annotationSet status="MANUAL" ID="11395">
+                <layer rank="1" name="FE">
+                    <label end="18" start="13" name="Goal"/>
+                    <label end="80" start="62" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8660">
+            <text>L' agitation médiatique de ces dernières semaines avait surtout pour but de desserrer ces contraintes .</text>
+            <annotationSet status="MANUAL" ID="12342">
+                <layer rank="1" name="FE">
+                    <label end="100" start="76" name="Goal"/>
+                    <label end="48" start="0" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8696">
+            <text>" Si le but poursuivi est de réserver la possibilité d' améliorer , par une prévision correspondante , les résultats ultérieurs , que l'on prévoit mauvais , concluent les magistrats , le procédé peut d' autant moins être admis .</text>
+            <annotationSet status="MANUAL" ID="12400">
+                <layer rank="1" name="FE">
+                    <label end="153" start="29" name="Goal"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10641">
+            <text>Sous la forme d' une association sans but lucratif , l' Institut de l' ECU disposait , en 1992 , d' un budget de l' ordre de 5 millions de francs , avec une quinzaine de salariés et deux filiales commerciales .</text>
+            <annotationSet status="MANUAL" ID="14872">
+                <layer rank="1" name="FE">
+                    <label end="49" start="42" name="Goal"/>
+                    <label end="36" start="17" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11430">
+            <text>Selon eux , cette opération a pour but " de dégager des milliards pour recapitaliser Thomson Consumer Electronics (...) .</text>
+            <annotationSet status="MANUAL" ID="15748">
+                <layer rank="1" name="FE">
+                    <label end="112" start="44" name="Goal"/>
+                    <label end="26" start="12" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11479">
+            <text>Pour les locaux publics sans caractère industriel ou commercial et les organismes sans but lucratif , à caractère sanitaire , social , éducatif , sportif ou culturel , elle sera respectivement de 30 , 30 F , 22 , 20 F et 16 , 10 F , selon leur localisation .</text>
+            <annotationSet status="MANUAL" ID="15806">
+                <layer rank="1" name="FE">
+                    <label end="98" start="91" name="Goal"/>
+                    <label end="85" start="67" name="Agent"/>
+                    <label end="164" start="100" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12088">
+            <text>Le but évident de cet accord est de concurrencer la firme européenne Arianespace , qui domine largement le marché mondial du lancement des satellites .</text>
+            <annotationSet status="MANUAL" ID="16402">
+                <layer rank="1" name="FE">
+                    <label end="148" start="36" name="Goal"/>
+                    <label end="27" start="18" name="Means"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13289">
+            <text>Cet anglo - américanisme ( issu du français dessein , qui eut jusqu' au au XVIII siècle le double sens de " projet , but " et de " dessin , représentation graphique " ) a pris vers les années 1925 la signification de " conception esthétique d' un objet , d' une machine , de locaux , etc. " .</text>
+            <annotationSet status="MANUAL" ID="17650">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14324">
+            <text>Le but est clair : redresser la barre durant le second semestre , alors qu' il est désormais acquis que Mannesmann terminera les six premiers mois de l' année sur une perte opérationnelle .</text>
+            <annotationSet status="MANUAL" ID="18637">
+                <layer rank="1" name="FE">
+                    <label end="62" start="38" name="Time_of_Eventuality"/>
+                    <label end="62" start="19" name="Goal"/>
+                    <label itype="DNI" name="Agent"/>
+                    <label itype="DNI" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15093">
+            <text>De nombreux " coups au but " ont permis d' estimer les réserves potentielles à 840 millions de barils alors que celles " sur terre " ne sont plus que de 230 millions de barils .</text>
+            <annotationSet status="MANUAL" ID="19353">
+                <layer rank="1" name="FE">
+                    <label end="25" start="23" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16790">
+            <text>Le but de la politique contractuelle que je conduis est de développer la personnalité et la potentialité de chaque université , compte tenu des besoins auxquels elle doit faire face et des choix qu' elle souhaite opérer .</text>
+            <annotationSet status="MANUAL" ID="20926">
+                <layer rank="1" name="FE">
+                    <label end="218" start="59" name="Goal"/>
+                    <label end="42" start="41" name="Agent"/>
+                    <label end="50" start="10" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17139">
+            <text>À court terme , Gorbatchev se doit de maintenir l' image positive de Gorby , afin d' atteindre son but .</text>
+            <annotationSet status="MANUAL" ID="21261">
+                <layer rank="1" name="FE">
+                    <label end="101" start="95" name="Goal"/>
+                    <label end="25" start="16" name="Agent"/>
+                    <label end="97" start="95" name="Agent"/>
+                    <label end="73" start="38" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18196">
+            <text>Mais ces avantages fiscaux ne visent nullement des objectifs de protection , esthétiques ou biologiques mais au contraire des buts purement économiques .</text>
+            <annotationSet status="MANUAL" ID="22226">
+                <layer rank="1" name="FE">
+                    <label end="150" start="122" name="Goal"/>
+                    <label end="25" start="5" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18232">
+            <text>Une organisation de la fiscalité de l' écologie devrait peut - être se fixer comme but premier de remédier à ce paradoxe , coûteux pour la collectivité .</text>
+            <annotationSet status="MANUAL" ID="22268">
+                <layer rank="1" name="FE">
+                    <label end="150" start="98" name="Goal"/>
+                    <label end="46" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18304">
+            <text>Mr Roseau a ajouté : " Le recours va se transformer pour rassembler non seulement les deux millions de Français rapatriés , mais aussi tous les Français désireux de se mobiliser au sein d' un mouvement totalement indépendant et dont le seul but sera le salut de la nation et la mission de la France en Afrique et en Europe .</text>
+            <annotationSet status="MANUAL" ID="22402">
+                <layer rank="1" name="FE">
+                    <label end="321" start="250" name="Goal"/>
+                    <label end="231" start="135" name="Agent"/>
+                    <label end="321" start="245" name="Agent"/>
+                    <label end="321" start="189" name="Means"/>
+                    <label end="231" start="228" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="243" start="241" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18758">
+            <text>Cette évolution a pour but de désengager les Etats , de trouver des fonds et de permettre une plus grande souplesse d' exploitation .</text>
+            <annotationSet status="MANUAL" ID="22857">
+                <layer rank="1" name="FE">
+                    <label end="51" start="30" name="Goal"/>
+                    <label end="75" start="56" name="Goal"/>
+                    <label end="130" start="80" name="Goal"/>
+                    <label end="14" start="0" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19086">
+            <text>Le but de Cap de est d' intervenir dans les secteurs des matériaux composites et de l' édition et de " fédérer des petites et moyennes sociétés afin de pouvoir être l' interlocuteur de plus grands groupes " , indique Mr Noël .</text>
+            <annotationSet status="MANUAL" ID="23109">
+                <layer rank="1" name="FE">
+                    <label end="96" start="24" name="Goal"/>
+                    <label end="205" start="101" name="Goal"/>
+                    <label end="15" start="10" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20534">
+            <text>En Afrique , le but ultime serait " d' élargir aux entreprises et à la nation la solidarité qui s' exerçait dans le cadre de la famille " .</text>
+            <annotationSet status="MANUAL" ID="24231">
+                <layer rank="1" name="FE">
+                    <label end="134" start="39" name="Goal"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20713">
+            <text>" La CGT , bien qu' en baisse par rapport à 1987 , reste toujours et largement le premier syndicat du pays " , souligne le secrétaire général , qui reprend la thèse de " l' abstention forcée " et " rejette toutes les tentatives d' utiliser cette réalité dans un but de discrédit de l' institution prud' homale " .</text>
+            <annotationSet status="MANUAL" ID="24329">
+                <layer rank="1" name="FE">
+                    <label end="308" start="269" name="Goal"/>
+                    <label end="257" start="206" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="264" start="262" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21275">
+            <text>L' APL , créée en 1977 , était un élément - clé de la nouvelle politique du logement impulsée par Raymond Barre , dont le but était de donner la priorité aux aides à la personne sur les aides à la pierre .</text>
+            <annotationSet status="MANUAL" ID="24706">
+                <layer rank="1" name="FE">
+                    <label end="202" start="135" name="Goal"/>
+                    <label end="110" start="98" name="Agent"/>
+                    <label end="202" start="51" name="Means"/>
+                    <label end="117" start="114" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

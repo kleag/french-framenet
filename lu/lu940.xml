@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="discuter.v" ID="940" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="38" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="21">
+            <FE name="Interlocutor_1"/>
+            <pattern total="19">
+                <valenceUnit PT="filled" FE="Interlocutor_1"/>
+                <annoSet ID="2294"/>
+                <annoSet ID="2921"/>
+                <annoSet ID="7100"/>
+                <annoSet ID="9077"/>
+                <annoSet ID="10828"/>
+                <annoSet ID="11881"/>
+                <annoSet ID="12295"/>
+                <annoSet ID="18827"/>
+                <annoSet ID="18828"/>
+                <annoSet ID="18898"/>
+                <annoSet ID="20899"/>
+                <annoSet ID="21576"/>
+                <annoSet ID="22369"/>
+                <annoSet ID="22749"/>
+                <annoSet ID="22954"/>
+                <annoSet ID="23826"/>
+                <annoSet ID="24819"/>
+                <annoSet ID="24824"/>
+                <annoSet ID="24851"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Interlocutor_1"/>
+                <annoSet ID="12059"/>
+                <annoSet ID="21604"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Interlocutor_2"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Interlocutor_2"/>
+                <annoSet ID="2921"/>
+                <annoSet ID="7100"/>
+                <annoSet ID="11881"/>
+                <annoSet ID="12295"/>
+                <annoSet ID="18827"/>
+                <annoSet ID="18828"/>
+                <annoSet ID="18898"/>
+                <annoSet ID="21604"/>
+                <annoSet ID="22369"/>
+                <annoSet ID="22954"/>
+                <annoSet ID="23826"/>
+                <annoSet ID="24819"/>
+                <annoSet ID="24824"/>
+                <annoSet ID="24851"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Interlocutor_2"/>
+                <annoSet ID="10828"/>
+                <annoSet ID="12059"/>
+                <annoSet ID="13583"/>
+                <annoSet ID="22749"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Interlocutors"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="1739"/>
+                <annoSet ID="12630"/>
+                <annoSet ID="13583"/>
+                <annoSet ID="21325"/>
+                <annoSet ID="21583"/>
+                <annoSet ID="21721"/>
+                <annoSet ID="21871"/>
+                <annoSet ID="22156"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Interlocutors"/>
+                <annoSet ID="299"/>
+                <annoSet ID="5276"/>
+                <annoSet ID="5715"/>
+                <annoSet ID="15220"/>
+                <annoSet ID="17991"/>
+                <annoSet ID="18708"/>
+                <annoSet ID="19131"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="35">
+            <FE name="Topic"/>
+            <pattern total="31">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="299"/>
+                <annoSet ID="1739"/>
+                <annoSet ID="2294"/>
+                <annoSet ID="2921"/>
+                <annoSet ID="5276"/>
+                <annoSet ID="5715"/>
+                <annoSet ID="7100"/>
+                <annoSet ID="9077"/>
+                <annoSet ID="9693"/>
+                <annoSet ID="10828"/>
+                <annoSet ID="12059"/>
+                <annoSet ID="12630"/>
+                <annoSet ID="13583"/>
+                <annoSet ID="15220"/>
+                <annoSet ID="17991"/>
+                <annoSet ID="18708"/>
+                <annoSet ID="18828"/>
+                <annoSet ID="18898"/>
+                <annoSet ID="19131"/>
+                <annoSet ID="21325"/>
+                <annoSet ID="21576"/>
+                <annoSet ID="21583"/>
+                <annoSet ID="21604"/>
+                <annoSet ID="21721"/>
+                <annoSet ID="22156"/>
+                <annoSet ID="22369"/>
+                <annoSet ID="22749"/>
+                <annoSet ID="22954"/>
+                <annoSet ID="23826"/>
+                <annoSet ID="24819"/>
+                <annoSet ID="24851"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="12295"/>
+                <annoSet ID="18827"/>
+                <annoSet ID="21871"/>
+                <annoSet ID="24824"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="244">
+            <text>L' assemblée générale a été l' occasion de discuter de la gestion des locaux de l' ancienne cure .</text>
+            <annotationSet status="MANUAL" ID="299">
+                <layer rank="1" name="FE">
+                    <label end="95" start="55" name="Topic"/>
+                    <label itype="ENI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1465">
+            <text>Si vous envisagez d' arrêter le traitement par Aclasta , veuillez vous rendre à votre prochain rendez-vous et en discuter avec votre médecin .</text>
+            <annotationSet status="MANUAL" ID="1459">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1635">
+            <text>Nous sommes ici pour discuter de l' actualité urgente , laquelle consiste à traiter pour la deuxième fois d' une résolution sur le thème des " prisonniers Kosovars albanais en Serbie " .</text>
+            <annotationSet status="MANUAL" ID="1739">
+                <layer rank="1" name="FE">
+                    <label end="183" start="33" name="Topic"/>
+                    <label end="3" start="0" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1878">
+            <text>Monsieur le Président , je voudrais surtout discuter , pendant le temps qui m' est imparti , de la conférence sur le financement du pacte de stabilité qui vient de se dérouler , car j' estime qu' il est bien plus judicieux de diriger son attention sur celui-ci que sur le texte de mon rapport qui a bien sûr été écrit pour cette conférence .</text>
+            <annotationSet status="MANUAL" ID="2294">
+                <layer rank="1" name="FE">
+                    <label end="174" start="96" name="Topic"/>
+                    <label end="25" start="24" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2234">
+            <text>Il est surtout consterné par l' attitude du Monde , alors que la veille son directeur , Jacques Fauvet , est venu à l' Élysée pour un dîner au cours duquel celui-ci a discuté des affaires nationales et internationales avec le Président .</text>
+            <annotationSet status="MANUAL" ID="2921">
+                <layer rank="1" name="FE">
+                    <label end="216" start="179" name="Topic"/>
+                    <label end="234" start="223" name="Interlocutor_2"/>
+                    <label end="101" start="72" name="Interlocutor_1"/>
+                    <label end="163" start="156" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3825">
+            <text>D' autre part , la grande conférence internationale qui se tiendra à Washington pour discuter de l' aide à apporter aux nouveaux Etats indépendants pourrait avoir lieu vers le 22 janvier .</text>
+            <annotationSet status="MANUAL" ID="5276">
+                <layer rank="1" name="FE">
+                    <label end="146" start="105" name="Topic"/>
+                    <label itype="ENI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4100">
+            <text>Et vite : dès cette semaine , des réunions successives associant les intéressés ( distributeurs , syndicats ... ) vont débuter , l' objectif réaffirmé par le gouvernement étant de faire discuter un projet de loi modifiant le code du travail à la session parlementaire du printemps .</text>
+            <annotationSet status="MANUAL" ID="5715">
+                <layer rank="1" name="FE">
+                    <label end="239" start="195" name="Topic"/>
+                    <label itype="ENI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4940">
+            <text>La Fininvest précise aussi avoir " pris contact avec les autorités compétentes " afin de " discuter dans un esprit constructif des modalités techniques et juridiques permettant de maintenir la Cinq dans le panorama audiovisuel français " .</text>
+            <annotationSet status="MANUAL" ID="7100">
+                <layer rank="1" name="FE">
+                    <label end="236" start="131" name="Topic"/>
+                    <label end="79" start="53" name="Interlocutor_2"/>
+                    <label end="11" start="0" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6108">
+            <text>M. Jean Domange , président de la commission sociale du CNPF , n' a pas obtenu de ses pairs de pouvoir discuter d' une éventuelle augmentation des cotisations , alors qu' on sait qu' une hausse de 1 % " rapporterait " 14 milliards la première année .</text>
+            <annotationSet status="MANUAL" ID="9077">
+                <layer rank="1" name="FE">
+                    <label end="157" start="115" name="Topic"/>
+                    <label end="59" start="0" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6488">
+            <text>Peut - être faudrait -il en effet discuter de la nature des changements survenus en France : sont -ils réellement des progrès ou seulement un alignement de nos pratiques nationales sur les modèles étrangers , notamment sur le modèle allemand , impliquant des renoncements ?</text>
+            <annotationSet status="MANUAL" ID="9693">
+                <layer rank="1" name="FE">
+                    <label end="89" start="46" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7363">
+            <text>Que vous ayez à prendre un rendez - vous , à discuter d' un contrat , à dicter un texte , vous vous retrouvez assis de travers sur un lit plus ou moins mou ( plutôt moins que plus ) , des papiers épars autour de vous , qui glissent sur la courtepointe , ou entassés sur la minuscule table de nuit , masquant le stylo ou le feutre dont vous avez besoin , tandis que votre carnet de rendez vous , obéissant passivement à l' attraction universelle , se répand sur la moquette en laissant échapper les petits bouts de papier qu' il contient ...</text>
+            <annotationSet status="MANUAL" ID="10828">
+                <layer rank="1" name="FE">
+                    <label end="66" start="57" name="Topic"/>
+                    <label end="7" start="4" name="Interlocutor_1"/>
+                    <label itype="UNI" name="Interlocutor_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8269">
+            <text>C' est un nouvel élément à verser au chapitre de sa mutation : d' ici à la fin de l' année , le tourisme social disposera d' une banque de données économiques d' abord à usage interne mais qui , par la suite , devrait lui permettre de discuter , cartes sur table , avec ses principaux partenaires , notamment la direction de l' industrie touristique .</text>
+            <annotationSet status="MANUAL" ID="11881">
+                <layer rank="1" name="FE">
+                    <label end="348" start="270" name="Interlocutor_2"/>
+                    <label end="110" start="93" name="Interlocutor_1"/>
+                    <label end="220" start="218" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="242" start="235" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8449">
+            <text>Le seul " avantage " reconnu est le fait d' être sorti des négociations collectives et de devoir discuter seul son salaire .</text>
+            <annotationSet status="MANUAL" ID="12059">
+                <layer rank="1" name="FE">
+                    <label end="121" start="111" name="Topic"/>
+                    <label itype="ENI" name="Interlocutor_2"/>
+                    <label itype="DNI" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8631">
+            <text>Depuis plusieurs mois , l' opérateur public discute donc avec les ténors du secteur .</text>
+            <annotationSet status="MANUAL" ID="12295">
+                <layer rank="1" name="FE">
+                    <label end="82" start="62" name="Interlocutor_2"/>
+                    <label end="42" start="24" name="Interlocutor_1"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8845">
+            <text>On pourrait discuter sinon les chiffres , du moins les commentaires sur l' utilisation des sommes citées .</text>
+            <annotationSet status="MANUAL" ID="12630">
+                <layer rank="1" name="FE">
+                    <label end="103" start="21" name="Topic"/>
+                    <label end="1" start="0" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9605">
+            <text>Deux syndicats de salariés ( la CFDT et la CFTC ) sur cinq seulement acceptent de discuter du partage du travail .</text>
+            <annotationSet status="MANUAL" ID="13583">
+                <layer rank="1" name="FE">
+                    <label end="111" start="94" name="Topic"/>
+                    <label end="67" start="0" name="Interlocutors"/>
+                    <label itype="ENI" name="Interlocutor_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10970">
+            <text>L' " accord à vivre " , instrument de dialogue social autant que de productivité ( à Douai , on arrête la production au milieu de la journée pendant vingt minutes une fois par mois pour discuter des problèmes d' organisation du travail ) , n' a pourtant pas résolu tous les conflits .</text>
+            <annotationSet status="MANUAL" ID="15220">
+                <layer rank="1" name="FE">
+                    <label end="234" start="199" name="Topic"/>
+                    <label itype="ENI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13679">
+            <text>Si l'on considère -ce qui n' est plus guère discuté - que le bailleur remplit une fonction " sociale " nécessaire .</text>
+            <annotationSet status="MANUAL" ID="17991">
+                <layer rank="1" name="FE">
+                    <label end="24" start="22" name="Topic"/>
+                    <label end="16" start="3" name="Topic"/>
+                    <label end="112" start="54" name="Topic"/>
+                    <label itype="UNI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14406">
+            <text>A Tonnerre , dans l' Yonne , l' un des sujets les plus discutés au cours de la récente campagne législative était précisément la question de l' avenir de l' hôpital .</text>
+            <annotationSet status="MANUAL" ID="18708">
+                <layer rank="1" name="FE">
+                    <label end="44" start="39" name="Topic"/>
+                    <label itype="ENI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14519">
+            <text>STRUCTURES Usinor - Sacilor réorganise son secteur forge - matriçage et discute avec Sima .</text>
+            <annotationSet status="MANUAL" ID="18827">
+                <layer rank="1" name="FE">
+                    <label end="88" start="85" name="Interlocutor_2"/>
+                    <label end="26" start="11" name="Interlocutor_1"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14520">
+            <text>- Usinor - Sacilor va mettre en route une réorganisation interne dans ses activités de forge - matriçage et discute actuellement d' un rapprochement dans ce secteur avec le groupe familial Sima , a annoncé mercredi 2 juin le groupe sidérurgique public français .</text>
+            <annotationSet status="MANUAL" ID="18828">
+                <layer rank="1" name="FE">
+                    <label end="192" start="132" name="Topic"/>
+                    <label end="192" start="170" name="Interlocutor_2"/>
+                    <label end="17" start="2" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14589">
+            <text>Ces derniers devront mesurer " la qualité du débat social " , l' entreprise devant discuter de son projet avec le comité d' entreprise , les syndicats ou , le cas échéant , le soumettre à référendum , procédure qui obtiendrait ainsi une reconnaissance officielle .</text>
+            <annotationSet status="MANUAL" ID="18898">
+                <layer rank="1" name="FE">
+                    <label end="104" start="95" name="Topic"/>
+                    <label end="149" start="111" name="Interlocutor_2"/>
+                    <label end="74" start="62" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14847">
+            <text>Nécessairement adaptée aux caractéristiques de chaque entreprise , c' est à ce niveau qu' elle doit être discutée et décidée .</text>
+            <annotationSet status="MANUAL" ID="19131">
+                <layer rank="1" name="FE">
+                    <label end="93" start="90" name="Topic"/>
+                    <label itype="ENI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16736">
+            <text>Mais je suis prêt à discuter et à tenir compte des objections ou des contre- propositions .</text>
+            <annotationSet status="MANUAL" ID="20899">
+                <layer rank="1" name="FE">
+                    <label end="6" start="5" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17209">
+            <text>On n' a pas tellement discuté de la question de savoir où iraient les troupes américaines dans les cas où elles seraient obligées de quitter l' Allemagne .</text>
+            <annotationSet status="MANUAL" ID="21325">
+                <layer rank="1" name="FE">
+                    <label end="152" start="33" name="Topic"/>
+                    <label end="1" start="0" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17533">
+            <text>Quant au temps d' antenne à la télévision et à la radio , Mr Loukanov a proposé de discuter de cette question lorsque la table ronde parlera de la nouvelle loi électorale .</text>
+            <annotationSet status="MANUAL" ID="21576">
+                <layer rank="1" name="FE">
+                    <label end="108" start="95" name="Topic"/>
+                    <label end="68" start="58" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17536">
+            <text>Initialement , les deux délégations auraient dû discuter mardi du système politique en Bulgarie , en particulier du multipartisme , de la séparation effective des fonctions du Parti communiste et de l' état et de la dissolution des cellules du PC dans les administrations et les entreprises .</text>
+            <annotationSet status="MANUAL" ID="21583">
+                <layer rank="1" name="FE">
+                    <label end="111" start="66" name="Topic"/>
+                    <label end="130" start="116" name="Topic"/>
+                    <label end="208" start="135" name="Topic"/>
+                    <label end="289" start="213" name="Topic"/>
+                    <label end="34" start="15" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17560">
+            <text>Dans une interview à la BBC , Mr Havel a déclaré qu' il " n' était pas question de leur demander de partir précipitamment " et qu' il allait en discuter avec Mr Mikhail Gorbatchev lors de sa prochaine visite à Moscou prévue début février .</text>
+            <annotationSet status="MANUAL" ID="21604">
+                <layer rank="1" name="FE">
+                    <label end="142" start="141" name="Topic"/>
+                    <label end="178" start="158" name="Interlocutor_2"/>
+                    <label itype="ENI" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17680">
+            <text>Avant la fin de l' année en cours , doit se tenir une conférence intergouvernementale qui aura pour tâche de discuter et de décider des prochaines étapes sur la voie de l' union économique et monétaire européenne et de la forme institutionnelle de celle - ci .</text>
+            <annotationSet status="MANUAL" ID="21721">
+                <layer rank="1" name="FE">
+                    <label end="211" start="136" name="Topic"/>
+                    <label end="88" start="86" name="Interlocutors"/>
+                    <label end="257" start="50" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17793">
+            <text>Et pendant ce temps , Mr Poperen et Mme Lienemann discutaient ...</text>
+            <annotationSet status="MANUAL" ID="21871">
+                <layer rank="1" name="FE">
+                    <label end="48" start="22" name="Interlocutors"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18130">
+            <text>Avant que le président Woodrow Wilson ne signe la loi du 23 décembre 1913 , on discuta beaucoup et sur l' opportunité de créer une pareille institution , et sur la façon d' envisager son rôle , son organisation , ses modes d' action .</text>
+            <annotationSet status="MANUAL" ID="22156">
+                <layer rank="1" name="FE">
+                    <label end="97" start="96" name="Topic"/>
+                    <label end="155" start="103" name="Topic"/>
+                    <label end="231" start="161" name="Topic"/>
+                    <label end="77" start="76" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18284">
+            <text>Cette tentative n' ayant pas abouti - Mr Mauroy estimant que les positions de Socialisme et République sur l' Europe doivent donner lieu à un débat plutôt qu' à une alliance , - Mr Chevènement a discuté avec Mr Poperen de la création d' une " aile gauche " au sein du PS , mais les conditions qu' il y a mises ont amené son interlocuteur à y renoncer .</text>
+            <annotationSet status="MANUAL" ID="22369">
+                <layer rank="1" name="FE">
+                    <label end="269" start="222" name="Topic"/>
+                    <label end="217" start="208" name="Interlocutor_2"/>
+                    <label end="191" start="178" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="201" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18635">
+            <text>Mr Gorbatchev était venu en Lituanie pour discuter de l' indépendance du parti communiste lituanien par rapport au parti communiste soviétique .</text>
+            <annotationSet status="MANUAL" ID="22749">
+                <layer rank="1" name="FE">
+                    <label end="141" start="54" name="Topic"/>
+                    <label end="12" start="0" name="Interlocutor_1"/>
+                    <label itype="ENI" name="Interlocutor_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18888">
+            <text>L' indication donnée par le ministère , selon laquelle les manifestants étaient venus discuter de " problèmes publics " , laisse clairement entendre qu' ils s' étaient réunis pour demander le retour de la vie parlementaire , suspendue depuis 1986 .</text>
+            <annotationSet status="MANUAL" ID="22954">
+                <layer rank="1" name="FE">
+                    <label end="116" start="100" name="Topic"/>
+                    <label end="36" start="25" name="Interlocutor_2"/>
+                    <label end="70" start="55" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20089">
+            <text>Le ministre nippon des finances , M. Tsutomu Hata , commençait par reprendre publiquement cette rumeur , pour la démentir , ajoutant même qu' il n' avait pas discuté de la baisse du dollar contre le yen lors de sa rencontre avec le secrétaire américain au Trésor , M. Nicholas Brady .</text>
+            <annotationSet status="MANUAL" ID="23826">
+                <layer rank="1" name="FE">
+                    <label end="201" start="169" name="Topic"/>
+                    <label end="281" start="229" name="Interlocutor_2"/>
+                    <label end="48" start="0" name="Interlocutor_1"/>
+                    <label end="143" start="142" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21440">
+            <text>Nous discutons donc avec eux avions , hélicoptères , programmes spatiaux .</text>
+            <annotationSet status="MANUAL" ID="24819">
+                <layer rank="1" name="FE">
+                    <label end="71" start="29" name="Topic"/>
+                    <label end="27" start="25" name="Interlocutor_2"/>
+                    <label end="3" start="0" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21446">
+            <text>L' Europe ne pourra discuter valablement avec les uns et les autres que le jour où elle saura vraiment ce qu' elle veut faire .</text>
+            <annotationSet status="MANUAL" ID="24824">
+                <layer rank="1" name="FE">
+                    <label end="66" start="46" name="Interlocutor_2"/>
+                    <label end="8" start="0" name="Interlocutor_1"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21497">
+            <text>Nous commençons à discuter avec eux pour voir si rapprochement et harmonisation sont possibles entre les gammes Fokker , Dornier et ATR .</text>
+            <annotationSet status="MANUAL" ID="24851">
+                <layer rank="1" name="FE">
+                    <label end="134" start="41" name="Topic"/>
+                    <label end="34" start="32" name="Interlocutor_2"/>
+                    <label end="3" start="0" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="critiquer.v" ID="1928" frame="FR_Judgment_communication" frameID="10080" totalAnnotated="24" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Communicator"/>
+            <pattern total="21">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="2461"/>
+                <annoSet ID="5542"/>
+                <annoSet ID="5680"/>
+                <annoSet ID="6370"/>
+                <annoSet ID="6755"/>
+                <annoSet ID="7041"/>
+                <annoSet ID="7971"/>
+                <annoSet ID="8444"/>
+                <annoSet ID="10866"/>
+                <annoSet ID="11738"/>
+                <annoSet ID="13510"/>
+                <annoSet ID="17559"/>
+                <annoSet ID="18316"/>
+                <annoSet ID="18842"/>
+                <annoSet ID="18857"/>
+                <annoSet ID="20021"/>
+                <annoSet ID="21482"/>
+                <annoSet ID="21524"/>
+                <annoSet ID="22708"/>
+                <annoSet ID="23259"/>
+                <annoSet ID="24908"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="2932"/>
+                <annoSet ID="19595"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="24">
+            <FE name="Evaluee"/>
+            <pattern total="24">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="2461"/>
+                <annoSet ID="2932"/>
+                <annoSet ID="5542"/>
+                <annoSet ID="5680"/>
+                <annoSet ID="6370"/>
+                <annoSet ID="6755"/>
+                <annoSet ID="7041"/>
+                <annoSet ID="7971"/>
+                <annoSet ID="8444"/>
+                <annoSet ID="10866"/>
+                <annoSet ID="11738"/>
+                <annoSet ID="13510"/>
+                <annoSet ID="17559"/>
+                <annoSet ID="18316"/>
+                <annoSet ID="18842"/>
+                <annoSet ID="18857"/>
+                <annoSet ID="19595"/>
+                <annoSet ID="20021"/>
+                <annoSet ID="21482"/>
+                <annoSet ID="21524"/>
+                <annoSet ID="22708"/>
+                <annoSet ID="23259"/>
+                <annoSet ID="24741"/>
+                <annoSet ID="24908"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="23259"/>
+                <annoSet ID="24741"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Reason"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="7971"/>
+                <annoSet ID="8444"/>
+                <annoSet ID="18316"/>
+                <annoSet ID="18842"/>
+                <annoSet ID="21524"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1946">
+            <text>Où sont ceux qui critiquent le travail accompli , qui reviennent constamment avec la question du quorum et ne sont pas présents quand nous réalisons le travail de fond ?</text>
+            <annotationSet status="MANUAL" ID="2461">
+                <layer rank="1" name="FE">
+                    <label end="15" start="13" name="Communicator"/>
+                    <label end="46" start="28" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2239">
+            <text>D' ailleurs , au - delà du don des diamants , c' est l' ensemble du mode de vie du Président et de sa famille qui est critiqué .</text>
+            <annotationSet status="MANUAL" ID="2932">
+                <layer rank="1" name="FE">
+                    <label end="112" start="110" name="Evaluee"/>
+                    <label end="108" start="53" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3995">
+            <text>Cette proposition a été vivement critiquée non seulement par les syndicats de fonctionnaires , qui réclament 9 , 5 % d' augmentation , mais aussi par M. Seiters , qui affirme , dans un communiqué , ne pas envisager de recourir à une telle procédure .</text>
+            <annotationSet status="MANUAL" ID="5542">
+                <layer rank="1" name="FE">
+                    <label end="55" start="43" name="Communicator"/>
+                    <label end="144" start="61" name="Communicator"/>
+                    <label end="247" start="150" name="Communicator"/>
+                    <label end="16" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4084">
+            <text>Le Crédit lyonnais critiqué par M. Pasqua</text>
+            <annotationSet status="MANUAL" ID="5680">
+                <layer rank="1" name="FE">
+                    <label end="40" start="32" name="Communicator"/>
+                    <label end="17" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4508">
+            <text>Pauvres parents qui la critiquent et la haïssent tout en lui confiant pendant des heures leurs bambins : " Il faut bien le reconnaître , c' est la baby - sitter idéale ! "</text>
+            <annotationSet status="MANUAL" ID="6370">
+                <layer rank="1" name="FE">
+                    <label end="170" start="0" name="Communicator"/>
+                    <label end="18" start="16" name="Communicator"/>
+                    <label end="21" start="20" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4755">
+            <text>En critiquant l' accord , on le montre ainsi du doigt .</text>
+            <annotationSet status="MANUAL" ID="6755">
+                <layer rank="1" name="FE">
+                    <label end="27" start="26" name="Communicator"/>
+                    <label end="22" start="14" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4917">
+            <text>M. François Mitterrand a , au cours du conseil des ministres du 15 janvier , vivement critiqué les propositions actuelles de M. Arthur Dunkel , directeur général du GATT , dont le rejet par les Européens bloque la conclusion des négociations commerciales multilatérales ( nos dernières éditions du 16 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="7041">
+                <layer rank="1" name="FE">
+                    <label end="21" start="0" name="Communicator"/>
+                    <label end="268" start="95" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5475">
+            <text>La CFE - CGC fait état de sa " consternation " et le Parti socialiste critique les " syndicats médicaux empêtrés dans leurs surenchères et la droite qui flatte tous les corporatismes .</text>
+            <annotationSet status="MANUAL" ID="7971">
+                <layer rank="1" name="FE">
+                    <label end="68" start="50" name="Communicator"/>
+                    <label end="181" start="79" name="Reason"/>
+                    <label end="181" start="79" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5734">
+            <text>Tous les partenaires de Bonn critiquent la politique allemande qui , faute d' ajustement budgétaire , reporte le fardeau sur la politique monétaire et contraint la Bundesbank à maintenir des taux d' intérêt élevés , ce qui freine la reprise mondiale .</text>
+            <annotationSet status="MANUAL" ID="8444">
+                <layer rank="1" name="FE">
+                    <label end="27" start="0" name="Communicator"/>
+                    <label end="248" start="63" name="Reason"/>
+                    <label end="248" start="40" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7409">
+            <text>" Ceux qui critiquent la réforme de l' ejido veulent que la pauvreté et la misère des campagnes continue ! " , s' exclamait dernièrement le président Salinas .</text>
+            <annotationSet status="MANUAL" ID="10866">
+                <layer rank="1" name="FE">
+                    <label end="9" start="7" name="Communicator"/>
+                    <label end="43" start="22" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8146">
+            <text>Y compris en se passant de l' aide de ses " amis " de l' Aérospatiale , également fabricants de missiles , qui ont vertement critiqué l' assaut lancé par le président de Thomson sur l' un des principaux fournisseurs du Pentagone et la " stratégie " à l' origine de cette opération en terre étrangère .</text>
+            <annotationSet status="MANUAL" ID="11738">
+                <layer rank="1" name="FE">
+                    <label end="298" start="38" name="Communicator"/>
+                    <label end="109" start="107" name="Communicator"/>
+                    <label end="298" start="134" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9546">
+            <text>Mais le report de la vente de la CSN a déjà été très critiqué dans les milieux économiques .</text>
+            <annotationSet status="MANUAL" ID="13510">
+                <layer rank="1" name="FE">
+                    <label end="89" start="67" name="Communicator"/>
+                    <label end="35" start="5" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13167">
+            <text>Tout en critiquant ces nouvelles " fèves industrielles " , les Français en importèrent bientôt .</text>
+            <annotationSet status="MANUAL" ID="17559">
+                <layer rank="1" name="FE">
+                    <label end="70" start="59" name="Communicator"/>
+                    <label end="55" start="19" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13988">
+            <text>Cette disposition a été vivement critiquée par le patronat français , qui estimait que l' assimilation des personnes morales aux personnes physiques allait trop loin , notamment par rapport aux législations étrangères .</text>
+            <annotationSet status="MANUAL" ID="18316">
+                <layer rank="1" name="FE">
+                    <label end="216" start="47" name="Communicator"/>
+                    <label end="216" start="87" name="Reason"/>
+                    <label end="16" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14535">
+            <text>Serge Tchuruk a vivement critiqué cet alourdissement de la fiscalité car " nous sommes à la limite de ce qui me semble supportable quand au prix de l' essence " .</text>
+            <annotationSet status="MANUAL" ID="18842">
+                <layer rank="1" name="FE">
+                    <label end="12" start="0" name="Communicator"/>
+                    <label end="157" start="75" name="Reason"/>
+                    <label end="67" start="34" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14550">
+            <text>Critiquant " les coups qui tombent à la fois sur la retraite , l' UNEDIC et l' emploi " , la CGT entend " développer des initiatives " en juin .</text>
+            <annotationSet status="MANUAL" ID="18857">
+                <layer rank="1" name="FE">
+                    <label end="95" start="90" name="Communicator"/>
+                    <label end="84" start="13" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15337">
+            <text>Mais cette mise au point intervient à l' issue de vives spéculations sur la volonté prêtée aux représentants du G7 ( les principaux pays industrialisés , actionnaires de la banque ) - à l' initiative des Etats - Unis - de remanier la direction de la BERD , M. Attali incarnant la gestion très critiquée de cette institution financière chargée de guider les pays de l' Est vers l' économie de marché et la démocratie .</text>
+            <annotationSet status="MANUAL" ID="19595">
+                <layer rank="1" name="FE">
+                    <label end="286" start="277" name="Evaluee"/>
+                    <label end="414" start="303" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="301" start="293" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15841">
+            <text>S' il n' hésite pas à critiquer les lourdeurs de son entreprise , M. Delaporte n' est guère plus tendre pour sa tutelle .</text>
+            <annotationSet status="MANUAL" ID="20021">
+                <layer rank="1" name="FE">
+                    <label end="77" start="66" name="Communicator"/>
+                    <label end="51" start="49" name="Communicator"/>
+                    <label end="62" start="32" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17406">
+            <text>Curieuse ironie de l' histoire que de voir les héritiers de l' homme du 18 juin oeuvrer pour la disparition de la Constitution qu' il a voulue , et les socialistes , qui , à l' origine , la critiquèrent si fort , s' en faire aujourd' hui les plus farouches défenseurs ...</text>
+            <annotationSet status="MANUAL" ID="21482">
+                <layer rank="1" name="FE">
+                    <label end="209" start="148" name="Communicator"/>
+                    <label end="168" start="166" name="Communicator"/>
+                    <label end="188" start="187" name="Evaluee"/>
+                    <label end="141" start="111" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="201" start="190" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17471">
+            <text>Après s' être empressé pour que le président tchèque , Mr Vaclav Havel , le reçoive en audience , Mr Lang avait , devant un public tchèque , critiqué les télévisions commerciales accusées d' " imposer une dictature de la médiocrité et de la rentabilité immédiate " .</text>
+            <annotationSet status="MANUAL" ID="21524">
+                <layer rank="1" name="FE">
+                    <label end="104" start="98" name="Communicator"/>
+                    <label end="263" start="150" name="Reason"/>
+                    <label end="263" start="150" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="148" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18592">
+            <text>Le Parti communiste majoritaire a critiqué pour sa part , comme les autres mouvements lituaniens , la proposition de Mr Gorbatchev d' organiser un débat sur les modalités de sécession des Républiques : " Nous pourrions être intéressés , a dit son porte - parole , à condition que les pays baltes soient démilitarisés , que l'on nous accorde l' indépendance économique à 100 % et que des élections libres soient organisées en Russie " ( les députés de la République de Russie détiennent la majorité des sièges au Parlement soviétique ) .</text>
+            <annotationSet status="MANUAL" ID="22708">
+                <layer rank="1" name="FE">
+                    <label end="30" start="0" name="Communicator"/>
+                    <label end="198" start="99" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19288">
+            <text>Les propos du vice- ministre soviétique , qui participait lundi à Paris à la réunion des représentants des cinq membres permanents du Conseil de sécurité des Nations unies sur le Cambodge , interviennent peu de temps après que Mr Deng Xiaoping eut sévèrement critiqué , dans des documents internes , la politique de Mr Gorbatchev .</text>
+            <annotationSet status="MANUAL" ID="23259">
+                <layer rank="1" name="FE">
+                    <label end="242" start="227" name="Communicator"/>
+                    <label end="296" start="275" name="Medium"/>
+                    <label end="328" start="300" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="266" start="259" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21338">
+            <text>Elle est l' objet du dernier tiers du livre , où sont sévèrement critiquées les institutions nationales en charge de l' industrie , et plus encore celles de Bruxelles .</text>
+            <annotationSet status="MANUAL" ID="24741">
+                <layer rank="1" name="FE">
+                    <label end="165" start="21" name="Medium"/>
+                    <label end="47" start="46" name="Medium"/>
+                    <label end="165" start="76" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21605">
+            <text>- GRANDE - BRETAGNE : Le chancelier de l' Echiquier Norman Lamont , critiqué par les milieux économiques , est remplacé par Kenneth Clarke ( 27 , 29 ) .</text>
+            <annotationSet status="MANUAL" ID="24908">
+                <layer rank="1" name="FE">
+                    <label end="103" start="81" name="Communicator"/>
+                    <label end="66" start="22" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

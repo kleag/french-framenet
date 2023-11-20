@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="opposition.n" ID="95" frame="Be_in_agreement_on_assessment" frameID="1496" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer_1"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer_1"/>
+                <annoSet ID="218"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer_2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer_2"/>
+                <annoSet ID="218"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cognizers"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Opinion"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="218"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="182">
+            <text>Le fond du problème : l' opposition avec le président de l' Harmonie , accusé de " prendre seul les décisions " .</text>
+            <annotationSet status="MANUAL" ID="218">
+                <layer rank="1" name="FE">
+                    <label end="110" start="41" name="Cognizer_2"/>
+                    <label itype="DNI" name="Topic"/>
+                    <label itype="DNI" name="Cognizer_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

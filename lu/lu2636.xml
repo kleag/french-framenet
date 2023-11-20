@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="rémunération.n" ID="2636" frame="Commerce_buy" frameID="171" totalAnnotated="19" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="" name="Recipient"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="19">
+            <FE name="Buyer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="7162"/>
+                <annoSet ID="10066"/>
+                <annoSet ID="16351"/>
+                <annoSet ID="19202"/>
+                <annoSet ID="19252"/>
+            </pattern>
+            <pattern total="14">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="5482"/>
+                <annoSet ID="6228"/>
+                <annoSet ID="10344"/>
+                <annoSet ID="10345"/>
+                <annoSet ID="10354"/>
+                <annoSet ID="10383"/>
+                <annoSet ID="12726"/>
+                <annoSet ID="12806"/>
+                <annoSet ID="17156"/>
+                <annoSet ID="19196"/>
+                <annoSet ID="19207"/>
+                <annoSet ID="19242"/>
+                <annoSet ID="22871"/>
+                <annoSet ID="22885"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="19">
+            <FE name="Goods"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="5482"/>
+                <annoSet ID="6228"/>
+                <annoSet ID="7162"/>
+                <annoSet ID="10066"/>
+                <annoSet ID="10344"/>
+                <annoSet ID="10345"/>
+                <annoSet ID="10383"/>
+                <annoSet ID="12726"/>
+                <annoSet ID="12806"/>
+                <annoSet ID="17156"/>
+                <annoSet ID="19196"/>
+                <annoSet ID="19202"/>
+                <annoSet ID="19207"/>
+                <annoSet ID="19242"/>
+                <annoSet ID="19252"/>
+                <annoSet ID="22871"/>
+                <annoSet ID="22885"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="10354"/>
+                <annoSet ID="16351"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Money"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="6228"/>
+                <annoSet ID="10354"/>
+                <annoSet ID="12726"/>
+                <annoSet ID="12806"/>
+                <annoSet ID="16351"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Recipient"/>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Seller"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="5482"/>
+                <annoSet ID="10066"/>
+                <annoSet ID="10354"/>
+                <annoSet ID="12806"/>
+                <annoSet ID="19252"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="6228"/>
+                <annoSet ID="12726"/>
+                <annoSet ID="16351"/>
+                <annoSet ID="19196"/>
+                <annoSet ID="19202"/>
+                <annoSet ID="19207"/>
+                <annoSet ID="19242"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3962">
+            <text>Il indiquera alors le profil idéal des obligations qu' il recherche , spécifiant le type de débiteur , la durée et le mode de rémunération souhaités .</text>
+            <annotationSet status="MANUAL" ID="5482">
+                <layer rank="1" name="FE">
+                    <label end="66" start="39" name="Goods"/>
+                    <label end="1" start="0" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4421">
+            <text>In fine , la dépense supplémentaire liée à la rémunération des intérêts atteint 60 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="6228">
+                <layer rank="1" name="FE">
+                    <label end="100" start="80" name="Money"/>
+                    <label end="70" start="63" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4970">
+            <text>La commission supérieure du service public des postes et télécommunications ( formée en majorité de parlementaires et chargée de veiller sur l' application de la réforme des P et T ) , est , elle , plutôt déçue par ce contrat de plan signé jeudi 9 janvier : " Le principe de juste rémunération des prestations rendues à l' Etat n' est pas concrétisé .</text>
+            <annotationSet status="MANUAL" ID="7162">
+                <layer rank="1" name="FE">
+                    <label end="326" start="320" name="Buyer"/>
+                    <label end="326" start="298" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="292" start="281" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6765">
+            <text>Mais ce système homéostasique ne peut fonctionner que dans un milieu fermé , dans lequel produire importe plus que vendre : l' absence de lien entre les résultats du travail ouvrier et sa rémunération ne peut durer que le temps de l' expansion économique et des profits de la compagnie .</text>
+            <annotationSet status="MANUAL" ID="10066">
+                <layer rank="1" name="FE">
+                    <label end="284" start="273" name="Buyer"/>
+                    <label end="186" start="185" name="Goods"/>
+                    <label end="180" start="166" name="Goods"/>
+                    <label end="180" start="174" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="199" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6986">
+            <text>Un " creux de cycle " qui " se traduit par une moindre croissance des rémunérations du travail accompagnée d' un recul de la masse des rémunérations du capital " .</text>
+            <annotationSet status="MANUAL" ID="10344">
+                <layer rank="1" name="FE">
+                    <label end="93" start="87" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6986">
+            <text>Un " creux de cycle " qui " se traduit par une moindre croissance des rémunérations du travail accompagnée d' un recul de la masse des rémunérations du capital " .</text>
+            <annotationSet status="MANUAL" ID="10345">
+                <layer rank="1" name="FE">
+                    <label end="158" start="152" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6990">
+            <text>Malgré les critiques qu' elle a soulevée , la contribution sociale généralisée ( CSG ) a accentué le pouvoir d' achat des smicards ( 2 , 1 % ) et , plus généralement , ses effets redistributifs ont permis aux ouvriers et employés d' obtenir une amélioration de leur rémunération , exprimée en termes réels , supérieure à celle des cadres et techniciens .</text>
+            <annotationSet status="MANUAL" ID="10354">
+                <layer rank="1" name="FE">
+                    <label end="277" start="261" name="Money"/>
+                    <label end="264" start="261" name="Seller"/>
+                    <label end="228" start="209" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="277" start="266" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7003">
+            <text>Prélevée sur les revenus du capital , la CSG a également pesé sur la rémunération du patrimoine dont la progression se poursuit " à un rythme un peu moins élevé qu' au cours des deux années précédentes en raison de la faible croissance des placements " .</text>
+            <annotationSet status="MANUAL" ID="10383">
+                <layer rank="1" name="FE">
+                    <label end="94" start="85" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8905">
+            <text>Autre nouveauté : la rémunération des congés individuels de formation sera réévaluée à deux reprises d' ici à 1995 .</text>
+            <annotationSet status="MANUAL" ID="12726">
+                <layer rank="1" name="FE">
+                    <label end="68" start="18" name="Money"/>
+                    <label end="68" start="38" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8946">
+            <text>" Il faut que le prix des transports se stabilise et se redresse et que les entreprises obtiennent la juste rémunération de leurs prestations , insiste le président de l' UNOSTRA .</text>
+            <annotationSet status="MANUAL" ID="12806">
+                <layer rank="1" name="FE">
+                    <label end="140" start="99" name="Money"/>
+                    <label end="140" start="124" name="Goods"/>
+                    <label end="86" start="72" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12041">
+            <text>N' ayant pas sur place de contrainte de réserves obligatoires , les établissements peuvent servir une rémunération d' un quart ou d' un demi - point d' intérêt supplémentaire .</text>
+            <annotationSet status="MANUAL" ID="16351">
+                <layer rank="1" name="FE">
+                    <label end="81" start="64" name="Buyer"/>
+                    <label end="173" start="98" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12791">
+            <text>Une autre raison est le regain de faveur d' une catégorie particulière de titres , ceux dont la rémunération varie en fonction du loyer de l' argent à court terme .</text>
+            <annotationSet status="MANUAL" ID="17156">
+                <layer rank="1" name="FE">
+                    <label end="91" start="88" name="Goods"/>
+                    <label end="79" start="44" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14914">
+            <text>Par le fameux arrêté du 3 septembre , il ramena autoritairement de 17 % à 3 , 5 % la rémunération des dépôts à terme inférieurs à 500 000 francs et d' une durée de moins de six mois , ce qui affectait la majeure partie de ces dépôts à terme .</text>
+            <annotationSet status="MANUAL" ID="19196">
+                <layer rank="1" name="FE">
+                    <label end="180" start="102" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14917">
+            <text>Donnant libre cours à leur imagination , pour , sinon tourner la nouvelle réglementation restrictive , du moins offrir un produit nouveau capable d' assurer aux dépôts une rémunération plus avantageuse , elles élaborèrent un nouveau produit .</text>
+            <annotationSet status="MANUAL" ID="19202">
+                <layer rank="1" name="FE">
+                    <label end="208" start="204" name="Buyer"/>
+                    <label end="166" start="161" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="183" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14920">
+            <text>Il était donc possible d' obtenir , pour des dépôts à échéance plus ou moins courte , la rémunération offerte par des placements de longue durée , les obligations : une véritable aubaine , et une invention géniale qui allait avoir un grand avenir .</text>
+            <annotationSet status="MANUAL" ID="19207">
+                <layer rank="1" name="FE">
+                    <label end="161" start="114" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14959">
+            <text>A court terme , en revanche , la rémunération des capitaux placés peut et doit être très inférieure , de l' ordre de deux points au minimum , ou même de trois :</text>
+            <annotationSet status="MANUAL" ID="19242">
+                <layer rank="1" name="FE">
+                    <label end="64" start="50" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14971">
+            <text>Aubaine , nous l' avons dit , pour les particuliers , qui , après un demi - siècle de spoliation , du début des années 30 à 1981 , bénéficiaient , enfin , d' une rémunération positive de leur épargne liquide ou semi- liquide , mais une véritable catastrophe en revanche pour les banques , et , finalement , pour l' économie .</text>
+            <annotationSet status="MANUAL" ID="19252">
+                <layer rank="1" name="FE">
+                    <label end="285" start="275" name="Buyer"/>
+                    <label end="223" start="187" name="Goods"/>
+                    <label end="223" start="35" name="Seller"/>
+                    <label end="190" start="187" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18774">
+            <text>La nouvelle tranche est destinée à remplacer une transaction à taux variable dont la rémunération était élevée , puisqu' elle dépassait de 0 , 125 % le taux du Libor .</text>
+            <annotationSet status="MANUAL" ID="22871">
+                <layer rank="1" name="FE">
+                    <label end="164" start="45" name="Goods"/>
+                    <label end="80" start="77" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18789">
+            <text>Emises au prix de 600 F , les obligations , dont le taux de rémunération facial est de 5 , 50 % l' an , pourront être converties chacune en une action .</text>
+            <annotationSet status="MANUAL" ID="22885">
+                <layer rank="1" name="FE">
+                    <label end="47" start="44" name="Goods"/>
+                    <label end="102" start="26" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

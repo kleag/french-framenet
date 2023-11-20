@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="avouer.v" ID="2448" frame="Reveal_secret" frameID="1146" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="inf" name="Information"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Information"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Information"/>
+                <annoSet ID="2660"/>
+                <annoSet ID="3883"/>
+                <annoSet ID="6643"/>
+                <annoSet ID="10304"/>
+                <annoSet ID="11237"/>
+                <annoSet ID="13069"/>
+                <annoSet ID="13432"/>
+                <annoSet ID="15105"/>
+                <annoSet ID="17571"/>
+                <annoSet ID="18157"/>
+                <annoSet ID="19452"/>
+                <annoSet ID="19476"/>
+                <annoSet ID="19819"/>
+                <annoSet ID="20095"/>
+                <annoSet ID="24671"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Speaker"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2660"/>
+                <annoSet ID="3883"/>
+                <annoSet ID="6643"/>
+                <annoSet ID="11237"/>
+                <annoSet ID="13069"/>
+                <annoSet ID="13432"/>
+                <annoSet ID="15105"/>
+                <annoSet ID="17571"/>
+                <annoSet ID="18157"/>
+                <annoSet ID="19452"/>
+                <annoSet ID="19476"/>
+                <annoSet ID="19819"/>
+                <annoSet ID="20095"/>
+                <annoSet ID="24671"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2043">
+            <text>Je dois avouer que cela n' est peut-être pas génial , mais c' est plus intéressant qu' il n' y paraît parce que cela me semble répondre au sentiment très profond de beaucoup de citoyens de nos pays .</text>
+            <annotationSet status="MANUAL" ID="2660">
+                <layer rank="1" name="FE">
+                    <label end="50" start="19" name="Information"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2983">
+            <text>Le Colonel de Gendarmerie Mazères avoue avoir incendié la paillote sur instructions du préfet de Corse .</text>
+            <annotationSet status="MANUAL" ID="3883">
+                <layer rank="1" name="FE">
+                    <label end="32" start="0" name="Information"/>
+                    <label end="101" start="40" name="Information"/>
+                    <label end="32" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4708">
+            <text>La cotation du titre est suspendue en avril 1991 , et le 17 mai suivant , le groupe avoue finalement une perte de 847 millions de francs pour un chiffre d' affaires de 5 , 7 milliards de francs .</text>
+            <annotationSet status="MANUAL" ID="6643">
+                <layer rank="1" name="FE">
+                    <label end="192" start="101" name="Information"/>
+                    <label end="82" start="74" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6941">
+            <text>Cette position de principe souffre en réalité quelques infléchissements : si , sur un budget avoué de 56 millions de francs , 80 % sont assurés par les cotisations des agriculteurs , 20 % le sont par l' Etat directement ou indirectement .</text>
+            <annotationSet status="MANUAL" ID="10304">
+                <layer rank="1" name="FE">
+                    <label end="91" start="83" name="Information"/>
+                    <label end="122" start="99" name="Information"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7759">
+            <text>Reste le coût énorme de l' opération : on avoue déjà une augmentation du budget communautaire agricole .</text>
+            <annotationSet status="MANUAL" ID="11237">
+                <layer rank="1" name="FE">
+                    <label end="101" start="53" name="Information"/>
+                    <label end="40" start="39" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9146">
+            <text>" Si je disais ne pas avoir peur de la compétition , je serais un menteur , avoue L. M. Thapar , PDG du troisième groupe du pays .</text>
+            <annotationSet status="MANUAL" ID="13069">
+                <layer rank="1" name="FE">
+                    <label end="74" start="0" name="Information"/>
+                    <label end="127" start="82" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9510">
+            <text>Chez Sonauto , dont la campagne de publicité évite toute agressivité , on avoue que les prévisions de vente sont volontairement sous - estimées ; chez France Motors , on envisage dès 1994 de commercialiser aussi des voitures du tourisme Kia ( la berline Sephia et 4 4 Sportage ) : " En partant de la " niche " qu' est le fourgon , nous espérons pouvoir développer une gamme complète d' ici trois ou quatre ans " , confie Jean Prêtre .</text>
+            <annotationSet status="MANUAL" ID="13432">
+                <layer rank="1" name="FE">
+                    <label end="142" start="84" name="Information"/>
+                    <label end="72" start="71" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10870">
+            <text>La première n' a pas encore avoué les sommes dépensées alors .</text>
+            <annotationSet status="MANUAL" ID="15105">
+                <layer rank="1" name="FE">
+                    <label end="59" start="34" name="Information"/>
+                    <label end="10" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13193">
+            <text>Mais , pour survivre , nous délocaliserons l' an prochain " , avoue Jean - Michel Lagouche de la société Alcara .</text>
+            <annotationSet status="MANUAL" ID="17571">
+                <layer rank="1" name="FE">
+                    <label end="60" start="0" name="Information"/>
+                    <label end="110" start="68" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13849">
+            <text>Pernod - Ricard , qui a réalisé un très bon premier trimestre avec un bénéfice en hausse de 67 , 9 % , en raison notamment de la plus - value exceptionnelle procurée par la vente de la Société des vins de France , aura du mal à réaliser une hausse de 6 % de ses résultats en 1992 , a avoué en fin d' année Patrick Ricard , PDG du groupe , en raison de la très nette dégradation de la conjoncture dans le secteur .</text>
+            <annotationSet status="MANUAL" ID="18157">
+                <layer rank="1" name="FE">
+                    <label end="280" start="0" name="Information"/>
+                    <label end="412" start="337" name="Information"/>
+                    <label end="335" start="306" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="288" start="284" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15205">
+            <text>Et , gagnant un peu plus de 3_000 couronnes ( 600 francs ) par mois , elle avoue que " c' était mieux avant .</text>
+            <annotationSet status="MANUAL" ID="19452">
+                <layer rank="1" name="FE">
+                    <label end="106" start="85" name="Information"/>
+                    <label end="73" start="70" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15225">
+            <text>Interrogé sur la compensation salariale partielle au profit des entreprises introduisant une baisse des rémunérations , M. Balladur a avoué un certain scepticisme à l' égard de cette mesure , précisant que le gouvernement s' attachait actuellement à " en définir le mécanisme " et qu' elle ne pourrait intervenir qu' " à titre provisoire et en cas d' urgence grave " .</text>
+            <annotationSet status="MANUAL" ID="19476">
+                <layer rank="1" name="FE">
+                    <label end="188" start="140" name="Information"/>
+                    <label end="130" start="120" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="134" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15612">
+            <text>Le langage de la formation , trop souvent fait d' approximations , comme l' avouent les praticiens eux - mêmes , a quelques excuses .</text>
+            <annotationSet status="MANUAL" ID="19819">
+                <layer rank="1" name="FE">
+                    <label end="63" start="29" name="Information"/>
+                    <label end="109" start="84" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15917">
+            <text>Et au ministère du budget , on avoue certes que " sa reconduction n' est pas totalement décidée " , mais que sa suppression n' a jamais été évoquée publiquement .</text>
+            <annotationSet status="MANUAL" ID="20095">
+                <layer rank="1" name="FE">
+                    <label end="103" start="48" name="Information"/>
+                    <label end="159" start="109" name="Information"/>
+                    <label end="29" start="28" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21223">
+            <text>" L' un des rares pays où l' on peut encore faire de l' argent " déclare plus crûment le représentant d' une banque américaine , qui avoue réaliser , bon an mal an , 20 à 25 millions de dollars de bénéfices grâce à une vingtaine de clients .</text>
+            <annotationSet status="MANUAL" ID="24671">
+                <layer rank="1" name="FE">
+                    <label end="131" start="129" name="Information"/>
+                    <label end="238" start="139" name="Information"/>
+                    <label end="131" start="129" name="Speaker"/>
+                    <label end="238" start="86" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

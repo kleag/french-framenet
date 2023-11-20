@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="ronchonner.v" ID="387" frame="Complaining" frameID="1621" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cmplnr" name="Complainer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="com" name="Complaint"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Complainer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Complainer"/>
+                <annoSet ID="21868"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Complaint"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="17790">
+            <text>Mais cette fois , c' est la base , et les proches - MM Max Gallo et Georges Sarre - du ministre de la défense qui ronchonnaient .</text>
+            <annotationSet status="MANUAL" ID="21868">
+                <layer rank="1" name="FE">
+                    <label end="108" start="25" name="Complainer"/>
+                    <label end="112" start="110" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

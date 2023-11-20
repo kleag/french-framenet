@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="réveiller.v" ID="919" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Actor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="173"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cause"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="20783"/>
+                <annoSet ID="23422"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Effect"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="173"/>
+                <annoSet ID="20783"/>
+                <annoSet ID="23422"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="143">
+            <text>Les Petits Princes , au nombre de cinq , le roi Pierre ... ont réveillé chez le public des souvenirs d' enfance , le temps d' une représentation .</text>
+            <annotationSet status="MANUAL" ID="173">
+                <layer rank="1" name="FE">
+                    <label end="110" start="87" name="Effect"/>
+                    <label end="37" start="0" name="Actor"/>
+                    <label end="53" start="41" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16578">
+            <text>Il a réveillé la peur , dans la population , de voir l' ancien régime reprendre ses droits .</text>
+            <annotationSet status="MANUAL" ID="20783">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Cause"/>
+                    <label end="89" start="14" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19501">
+            <text>Si , dans un premier temps , le ministre de la justice s' en était pris aux personnels de surveillance ( le Monde du 13 décembre 1989 ) , réveillant leur colère , cette fois la décision a été prise de réfléchir plus profondément sur la question générale de la sécurité en prison .</text>
+            <annotationSet status="MANUAL" ID="23422">
+                <layer rank="1" name="FE">
+                    <label end="136" start="3" name="Cause"/>
+                    <label end="159" start="149" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

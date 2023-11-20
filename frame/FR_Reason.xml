@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Reason" ID="10083" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Causality">
+    <definition>&lt;def-root&gt;A volitional &lt;fen&gt;Agent&lt;/fen&gt; is responding to some situation &lt;fen&gt;State_of_Affairs&lt;/fen&gt; by performing some &lt;fen&gt;Action&lt;/fen&gt; (or holding some mental attitude). Alternatively, an &lt;fen&gt;Actor&lt;/fen&gt;, a participant of some implicit &lt;fen&gt;State_of_Affairs&lt;/fen&gt; stands in for the &lt;fen&gt;State_of_Affairs&lt;/fen&gt;, in other words, an &lt;fen&gt;Actor&lt;/fen&gt; volitionally or not pushes an &lt;fen&gt;Agent&lt;/fen&gt; to perform some &lt;fen&gt;Action&lt;/fen&gt; (or hold some mental attitude).
+
+&lt;ex&gt;And &lt;m&gt;was&lt;/m&gt; &lt;fex name="State_of_Affairs"&gt;that&lt;/fex&gt; &lt;fex name="Agent"&gt;your&lt;/fex&gt; &lt;t&gt;reason&lt;/t&gt; &lt;fex name="Action"&gt;for becoming an actor&lt;/fex&gt; ?&lt;/ex&gt;
+&lt;ex&gt;  &lt;fex name="Agent"&gt;My&lt;/fex&gt; &lt;t&gt;reason&lt;/t&gt; &lt;m&gt;is &lt;/m&gt; that &lt;fex name="State_of_Affairs"&gt;our cities are now designed round the motor car&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;But &lt;fex name="Actor"&gt;Giles&lt;/fex&gt; &lt;m&gt;is&lt;/m&gt; the &lt;t&gt;reason&lt;/t&gt; that &lt;fex name="Agent"&gt;I&lt;/fex&gt; &lt;fex name="Action"&gt;am here&lt;/fex&gt; .&lt;/ex&gt;
+&lt;ex&gt;Oh &lt;fex name="Agent"&gt;my&lt;/fex&gt; &lt;t&gt;reason&lt;/t&gt; &lt;fex name="Action"&gt;for including it&lt;/fex&gt; &lt;m&gt;was&lt;/m&gt; &lt;fex name="Actor"&gt;Section fifty four A&lt;/fex&gt;.&lt;/ex&gt;
+
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;≠ &lt;frframe&gt;Response&lt;/frframe&gt;: The latter is for LUs specifically denoting the fact that the "action" is a reaction to a preceding "state-of-affairs" which is also an action, and that this reaction is volitionally directed towards the agent of that first action. &lt;/ex&gt;
+
+&lt;ex&gt;≠ &lt;frframe&gt;Causation&lt;/frframe&gt;: In Causation the effect can be any sort of situation, not only actions and mental attitudes as in FR_Reason. Note though that FR_Reason is evoked only by those LUs that have at least one subcategorization in which the Agent is subcategorized.
+<!-- But not all effects that are actions are Reason: if the agent of the action doesn't appear as a separated syntactic argument in at least one subcategorization of the LU (which is not a discourse connective), then it is Causation.-->
+Compare: 
+&lt;ex&gt;FR-EX: La crise de 1929 a &lt;t&gt;amené&lt;/t&gt; la guerre. (Causation)&lt;/ex&gt;
+&lt;ex&gt;FR-EX: &lt;fex name="State_of_Affairs"&gt;La situation&lt;/fex&gt; a &lt;t&gt;amené&lt;/t&gt; &lt;fex name="Agent"&gt;le gouvernement&lt;/fex&gt; à &lt;fex name="Action"&gt;réagir&lt;/fex&gt;. (Reason)&lt;/ex&gt;
+&lt;/ex&gt;
+
+&lt;ex&gt;≠ &lt;frframe&gt;Evidence&lt;/frframe&gt;: The main difference is that although volition or cognition is involved in the &lt;fen&gt;Action&lt;/fen&gt;, Reason is still a frame for factual objective causation, while Evidence is for epistemic causation or argumentation in which the "state-of-affairs" (cause) is presented as a support for a proposition (effect), which is a less established fact argued to be true. For a thorough examination of this distinction, which can be tricky, see &lt;a href="documentation/asfalda_guide_desamb_Causation_Evidence.pdf"&gt;the Evidence/Causation disambiguation guide&lt;/a&gt; (in French).
+&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; Modified version of the Reason frame.
+&lt;ex&gt;&lt;/ex&gt;
+Modifications in the above definition: 
+&lt;ex&gt;
+The Reason frame is extended so that the &lt;fen&gt;Action&lt;/fen&gt; FE also covers the mental attitudes of the &lt;fen&gt;Agent&lt;/fen&gt;. 
+As in the Causation frame, the cause situation, here named &lt;fen&gt;State_of_Affairs&lt;/fen&gt;, can remain implicit and be replaced by an &lt;fen&gt;Actor&lt;/fen&gt;.
+&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Addition to the above definition: 
+&lt;ex&gt;
+The Reason frame inherits from the Causation frame. In Reason, the "effect" is an action or a mental attitude of a sentient which appears as a separated syntactic argument in at least one subcategorization of the LU. In French, Reason also covers discourse connectives (necessarily without such subcategorization) that may relate an "effect" which is an action or a mental attitude but not any other situation.
+
+&lt;ex&gt;FR-EX: &lt;fex name="Agent"&gt;Les syndicats&lt;/fex&gt; &lt;fex name="Action"&gt;s'y opposent&lt;/fex&gt; &lt;t&gt;puisqu'&lt;/t&gt;&lt;fex name="State_of_Affairs"&gt;ils prétendent représenter l' ensemble des employés face au patronat&lt;/fex&gt;.&lt;/ex&gt;
+
+Apart from mental attitudes, the &lt;fen&gt;Action&lt;/fen&gt; is an event or a process in which the &lt;fen&gt;Agent&lt;/fen&gt; participates volitionally -- in other words intentionally. This excludes events undergone by a "patient" and reflexes. This does not exclude actions performed consciously but unwillingly. 
+In the case of action effects, the causality involved can be seen as being indirect because volition is involved. The cause (&lt;fen&gt;State_of_Affairs&lt;/fen&gt;) actually causes the &lt;fen&gt;Agent&lt;/fen&gt;'s decision to perform the &lt;fen&gt;Action&lt;/fen&gt;. 
+&lt;/ex&gt;
+
+
+&lt;ex&gt;&lt;/ex&gt;
+Modifications of the FEs:
+&lt;ex&gt;
+Added the &lt;fen&gt;Actor&lt;/fen&gt; FE, in core set with &lt;fen&gt;State_of_Affairs&lt;/fen&gt;.
+&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Added inheritance links with Causation and Response.
+&lt;/ex&gt;
+
+
+
+&lt;/def-root&gt;</definition>
+
+
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/17/2003 06:13:00 PST Fri" abbrev="" name="Agent" ID="4088">
+        <definition>&lt;def-root&gt;The person who responds to a &lt;fen&gt;State_of_Affairs&lt;/fen&gt; by performing some &lt;fen&gt;Action&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="State_of_Affairs"&gt;Those&lt;/fex&gt; are &lt;fex name="Agent"&gt;my&lt;/fex&gt; &lt;t&gt;reasons&lt;/t&gt; , " said Toby . &lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/17/2003 06:15:15 PST Fri" abbrev="" name="Action" ID="4089">
+        <definition>&lt;def-root&gt;The action that the &lt;fen&gt;Agent&lt;/fen&gt; performs in response to a &lt;fen&gt;State_of_Affairs&lt;/fen&gt;. This can also be a mental attitude held by the &lt;fen&gt;Agent&lt;/fen&gt;.
+
+&lt;ex&gt; I find that all &lt;fex name="Agent"&gt;my&lt;/fex&gt; &lt;t&gt;reasons&lt;/t&gt; &lt;fex name="Action"&gt;for postponing giving birth&lt;/fex&gt; still apply &lt;/ex&gt;
+&lt;ex&gt;FR-EX: &lt;fex name="Agent"&gt;J'&lt;/fex&gt; &lt;fex name="Action"&gt;en suis satisfait&lt;/fex&gt; pour deux &lt;t&gt;raisons&lt;/t&gt; &lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/17/2003 06:17:50 PST Fri" abbrev="" name="State_of_Affairs" ID="4090">
+        <definition>&lt;def-root&gt;The eventuality  that motivates the &lt;fen&gt;Agent&lt;/fen&gt;"s performing a particular &lt;fen&gt;Action&lt;/fen&gt; in response to it.
+
+&lt;ex&gt;  &lt;fex name="Agent"&gt;My&lt;/fex&gt; &lt;t&gt;reason&lt;/t&gt; &lt;m&gt;is&lt;/m&gt; &lt;fex name="State_of_Affairs"&gt;that our cities are now designed round the motor car&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="F000F0" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/17/2003 06:17:50 PST Fri" abbrev="" name="Actor" ID="4091">
+        <definition>An entity (not a situation, but not necessarily a sentient) which participates in an implicit &lt;fen&gt;State_of_Affairs&lt;/fen&gt; (e.g., the &lt;fen&gt;Actor&lt;/fen&gt;'s existence, presence, behaviour or action), perhaps volitionally and perhaps not. 
+        
+&lt;ex&gt;FR-EX: &lt;fex name="Actor"&gt;M. Gephardt&lt;/fex&gt; &lt;t&gt;force&lt;/t&gt; &lt;fex name="Agent"&gt;le Japon&lt;/fex&gt; à &lt;fex name="Action"&gt;acheter américain&lt;/fex&gt; &lt;/ex&gt;
+        </definition>
+    </FE>
+    
+        <FEcoreSet>
+        <memberFE name="State_of_Affairs" ID="4090"/>
+        <memberFE name="Actor" ID="4091"/>
+    </FEcoreSet>
+
+
+    <frameRelation type="Inherits from">
+        <relatedFrame>Causation</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Response</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Reason</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="acculer.v" ID="2278" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100021" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="amener.v" ID="2279" nbocc="31" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="23"/>
+        <otherlexUnit framename="Other_sense" ID="100088" annotatedsent="5"/>
+        <otherlexUnit framename="Causation" ID="158" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="astreindre.v" ID="2280" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100145" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="astreinte.n" ID="2281" nbocc="5" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="au motif que.conj" ID="2282" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100179" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="au vu de.prep" ID="2277" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100193" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="523" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="conditionner.v" ID="2285" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100386" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="176" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="conduire.v" ID="2286" nbocc="106" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="33"/>
+        <otherlexUnit framename="Other_sense" ID="100387" annotatedsent="48"/>
+        <otherlexUnit framename="Causation" ID="177" annotatedsent="20"/>
+    </lexUnit>
+    <lexUnit POS="v" name="contraindre.v" ID="2287" nbocc="48" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="46"/>
+        <otherlexUnit framename="Other_sense" ID="100427" annotatedsent="1"/>
+        <otherlexUnit framename="Causation" ID="181" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="987" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="prep" name="en vertu de.prep" ID="2289" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="100783" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="n" name="fondement.n" ID="2290" nbocc="13" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100906" annotatedsent="13"/>
+        <otherlexUnit framename="Evidence" ID="562" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="fonder.v" ID="2291" nbocc="52" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100907" annotatedsent="46"/>
+        <otherlexUnit framename="Evidence" ID="563" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="forcer.v" ID="2292" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="100908" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="inspirer.v" ID="2294" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101089" annotatedsent="10"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1181" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="mobile.n" ID="2295" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101229" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="n" name="motif.n" ID="2296" nbocc="29" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="17"/>
+        <otherlexUnit framename="Other_sense" ID="101244" annotatedsent="9"/>
+        <otherlexUnit framename="Causation" ID="225" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="motivation.n" ID="2297" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101245" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1184" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="motiver.v" ID="2298" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101246" annotatedsent="3"/>
+        <otherlexUnit framename="Causation" ID="226" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="1185" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="obliger.v" ID="2299" nbocc="69" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="52"/>
+        <otherlexUnit framename="Other_sense" ID="101289" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="puisque.conj" ID="2301" nbocc="133" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101514" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="588" annotatedsent="100"/>
+        <otherlexUnit framename="FR_Deduction" ID="2659" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="raison.n" ID="2302" nbocc="124" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="52"/>
+        <otherlexUnit framename="Other_sense" ID="101540" annotatedsent="15"/>
+        <otherlexUnit framename="Causation" ID="243" annotatedsent="24"/>
+        <otherlexUnit framename="Evidence" ID="589" annotatedsent="11"/>
+    </lexUnit>
+    <lexUnit POS="n" name="ressort.n" ID="2303" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101622" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'inspirer.v" ID="2304" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101721" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="2756" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se fonder.v" ID="2305" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="soulever.v" ID="2306" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="8"/>
+        <otherlexUnit framename="Other_sense" ID="101839" annotatedsent="1"/>
+        <otherlexUnit framename="Causation" ID="252" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Encoding" ID="1101" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="v" name="susciter.v" ID="2307" nbocc="41" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="37"/>
+        <otherlexUnit framename="Other_sense" ID="101899" annotatedsent="0"/>
+        <otherlexUnit framename="Causation" ID="257" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="conj" name="vu que.conj" ID="2309" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101989" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="607" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="vpp" name="vu.vpp" ID="2308" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101990" annotatedsent="81"/>
+        <otherlexUnit framename="Evidence" ID="606" annotatedsent="3"/>
+    </lexUnit>
+</frame>

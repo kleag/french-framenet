@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="anticipation.n" ID="626" frame="FR_Expectation" frameID="10025" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4935"/>
+                <annoSet ID="19422"/>
+                <annoSet ID="23861"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="8062"/>
+                <annoSet ID="11412"/>
+                <annoSet ID="12969"/>
+                <annoSet ID="17240"/>
+                <annoSet ID="20295"/>
+                <annoSet ID="24317"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Phenomenon"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="4935"/>
+                <annoSet ID="8062"/>
+                <annoSet ID="11412"/>
+                <annoSet ID="12969"/>
+                <annoSet ID="17240"/>
+                <annoSet ID="19422"/>
+                <annoSet ID="20295"/>
+                <annoSet ID="23861"/>
+                <annoSet ID="24317"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3637">
+            <text>Elle est surtout fondée sur les anticipations des milieux financiers , qui jugent irrationnels , à juste titre , des niveaux de taux d' intérêt supérieurs en France de cinq à six points au taux d' inflation et tablent sur un retour à des rendements , sinon normaux ( 2 à 3 points au - dessus d' une inflation ramenée à 3 % par an ) , tout au moins plus compatibles avec une économie fortement ralentie .</text>
+            <annotationSet status="MANUAL" ID="4935">
+                <layer rank="1" name="FE">
+                    <label end="400" start="50" name="Cognizer"/>
+                    <label end="400" start="28" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5544">
+            <text>Si la consommation de produits manufacturés et de services se redresse , celle de biens durables a baissé de 5 , 1 % l' an dernier et demeure " particulièrement sensible aux anticipations de revenus , mais peut être aussi entravée par un moindre recours au crédit " , souligne l' INSEE .</text>
+            <annotationSet status="MANUAL" ID="8062">
+                <layer rank="1" name="FE">
+                    <label end="197" start="191" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="174" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7908">
+            <text>C' est une nouvelle fois le marché des obligations qui s' est révélé le plus dynamique ces derniers mois , souligne l' OCDE , du fait de l' anticipation d' une baisse des taux d' intérêt à long terme et de la nécessité pour beaucoup d' entreprises ou d' Etats de refinancer des dettes contractées à la fin des années 80 .</text>
+            <annotationSet status="MANUAL" ID="11412">
+                <layer rank="1" name="FE">
+                    <label end="198" start="156" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9065">
+            <text>Notons que sur le PIBOR ( 3 mois ) les rendements sur mars sont moins élevés que le comptant , ce qui traduit les anticipations d' une baisse des taux .</text>
+            <annotationSet status="MANUAL" ID="12969">
+                <layer rank="1" name="FE">
+                    <label end="149" start="131" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12873">
+            <text>Il n' est pas rare de voir ainsi le marché pris de convulsions du fait d' anticipations hasardeuses ...</text>
+            <annotationSet status="MANUAL" ID="17240">
+                <layer rank="1" name="FE">
+                    <label end="98" start="74" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15172">
+            <text>Tant sur l' efficacité des moyens de contenir la montée du chômage que sur la possibilité de désarmer les anticipations récessionnistes des acteurs économiques .</text>
+            <annotationSet status="MANUAL" ID="19422">
+                <layer rank="1" name="FE">
+                    <label end="158" start="140" name="Cognizer"/>
+                    <label end="158" start="102" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16151">
+            <text>Il reste maintenant à savoir si cet élan de dernière heure , en partie dû à des anticipations de détente sur les taux d' intérêt dans les semaines qui viennent , sera suffisant pour commencer l' année 1993 dans de bonnes conditions .</text>
+            <annotationSet status="MANUAL" ID="20295">
+                <layer rank="1" name="FE">
+                    <label end="158" start="97" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20132">
+            <text>Contrairement aux anticipations des spécialistes , la fin de la guerre du Golfe n' a pas provoqué de reprise de la consommation pour la joaillerie ou l' industrie , y compris en Israël où l' activité diamantaire s' était fortement réduite .</text>
+            <annotationSet status="MANUAL" ID="23861">
+                <layer rank="1" name="FE">
+                    <label end="47" start="36" name="Cognizer"/>
+                    <label end="47" start="18" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20707">
+            <text>Pour ses premières élections prud' homales en tant que secrétaire général de la CGT , M. Louis Viannet a montré un grand savoir - faire et un remarquable sens de l' anticipation .</text>
+            <annotationSet status="MANUAL" ID="24317">
+                <layer rank="1" name="FE">
+                    <label end="176" start="162" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="176" start="165" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

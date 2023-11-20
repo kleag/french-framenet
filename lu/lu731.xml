@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="admettre.v" ID="731" frame="FR_Agree_or_refuse_to_act" frameID="10002" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposed_action"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="14491"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Proposed_action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Proposed_action"/>
+                <annoSet ID="14491"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10324">
+            <text>Un mois plus tard , après avoir admis de payer lui - même la coûteuse amende , qui aurait dévoré les fonds propres de cellier , le holding faisait même état d' une recapitalisation de sa filiale , pour un montant de 30 millions de francs , et de l' obtention d' importants crédits à court terme ( 125 millions de francs ) .</text>
+            <annotationSet status="MANUAL" ID="14491">
+                <layer rank="1" name="FE">
+                    <label end="124" start="41" name="Proposed_action"/>
+                    <label end="137" start="128" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

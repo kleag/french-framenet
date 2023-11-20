@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="incitation.n" ID="767" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Action"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="5857"/>
+                <annoSet ID="6410"/>
+                <annoSet ID="12159"/>
+                <annoSet ID="16709"/>
+                <annoSet ID="18730"/>
+                <annoSet ID="22684"/>
+                <annoSet ID="24771"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="5857"/>
+                <annoSet ID="24771"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="12159"/>
+                <annoSet ID="16709"/>
+                <annoSet ID="18730"/>
+                <annoSet ID="22684"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Medium"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="6410"/>
+                <annoSet ID="16709"/>
+                <annoSet ID="18730"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Persuader"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="16709"/>
+                <annoSet ID="24771"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="5857"/>
+                <annoSet ID="12159"/>
+                <annoSet ID="22684"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4176">
+            <text>L' incitation à l' épargne longue , dans le but de réduire les taux à long terme , ne peut non plus être considérée comme un instrument conjoncturel , car elle va à l' encontre du désir de liquidité des ménages et ne contribue pas au redressement financier des banques , préalable à la relance du crédit .</text>
+            <annotationSet status="MANUAL" ID="5857">
+                <layer rank="1" name="FE">
+                    <label end="32" start="16" name="Action"/>
+                    <label end="209" start="203" name="Cognizer"/>
+                    <label itype="ENI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4538">
+            <text>Plus de séquences d' incitation à la musique , au bricolage , à la comédie ou à la cuisine .</text>
+            <annotationSet status="MANUAL" ID="6410">
+                <layer rank="1" name="FE">
+                    <label end="45" start="34" name="Action"/>
+                    <label end="60" start="50" name="Action"/>
+                    <label end="76" start="64" name="Action"/>
+                    <label end="89" start="80" name="Action"/>
+                    <label end="19" start="8" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8538">
+            <text>- que l' incitation à l' initiative implique l' acceptation de l' erreur et non la répression brutale de celle - ci .</text>
+            <annotationSet status="MANUAL" ID="12159">
+                <layer rank="1" name="FE">
+                    <label end="34" start="22" name="Action"/>
+                    <label itype="ENI" name="Cognizer"/>
+                    <label itype="ENI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12368">
+            <text>En revanche , au cours du dernier conseil des ministres de l' année , le gouvernement a reporté l' adoption des mesures d' incitations fiscales aux investissements en Bourse , très attendues dans les milieux financiers .</text>
+            <annotationSet status="MANUAL" ID="16709">
+                <layer rank="1" name="FE">
+                    <label end="172" start="148" name="Action"/>
+                    <label end="84" start="70" name="Persuader"/>
+                    <label end="121" start="112" name="Medium"/>
+                    <label end="217" start="174" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14422">
+            <text>Dans ce contexte , les incitations à la création d' activités ici plutôt que là à partir d' allégements fiscaux sensibles seront certainement plus efficaces que des subventions toujours mal ressenties par les acteurs économiques eux - mêmes et suspectes aux yeux des commissaires européens .</text>
+            <annotationSet status="MANUAL" ID="18730">
+                <layer rank="1" name="FE">
+                    <label end="78" start="37" name="Action"/>
+                    <label end="120" start="92" name="Medium"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18572">
+            <text>La discrimination et l' incitation à l' hostilité et à la haine ethnique sont inacceptables et sanctionnées sévèrement par la loi " , a précisé Mr Mratchkov .</text>
+            <annotationSet status="MANUAL" ID="22684">
+                <layer rank="1" name="FE">
+                    <label end="51" start="37" name="Action"/>
+                    <label end="71" start="55" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21381">
+            <text>Inaugurant le 18 mai une unité de fabrication de frites et d' " amuse - gueule " à apéritif créée à Carregado , au nord de Lisbonne , par Snack Ventures Europe ( SVE ) , joint - venture formée par la multinationale Pepsi Co et General Mills , représentant un investissement de 5 milliards de francs ( et qui devrait atteindre 7 milliards d' ici dix ans ) , le premier ministre Anibal Cavaco Silva a souligné la politique d' incitations mise en oeuvre par le gouvernement pour attirer les capitaux étrangers .</text>
+            <annotationSet status="MANUAL" ID="24771">
+                <layer rank="1" name="FE">
+                    <label end="505" start="476" name="Action"/>
+                    <label end="505" start="497" name="Cognizer"/>
+                    <label end="469" start="455" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="434" start="424" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

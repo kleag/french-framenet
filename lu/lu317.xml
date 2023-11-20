@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="péage.n" ID="317" frame="Commerce_pay" frameID="180" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Way_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Buyer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="5988"/>
+                <annoSet ID="15807"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="5971"/>
+                <annoSet ID="17096"/>
+                <annoSet ID="17098"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Goods"/>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="5971"/>
+                <annoSet ID="5988"/>
+                <annoSet ID="15807"/>
+                <annoSet ID="17096"/>
+                <annoSet ID="17098"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Money"/>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="5971"/>
+                <annoSet ID="5988"/>
+                <annoSet ID="15807"/>
+                <annoSet ID="17096"/>
+                <annoSet ID="17098"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Rate"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Rate"/>
+                <annoSet ID="17098"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Seller"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="5971"/>
+                <annoSet ID="17098"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="5988"/>
+                <annoSet ID="15807"/>
+                <annoSet ID="17096"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4265">
+            <text>Le péage va devenir un mode majeur de financement pour toutes les chaînes non généralistes .</text>
+            <annotationSet status="MANUAL" ID="5971">
+                <layer rank="1" name="FE">
+                    <label end="89" start="55" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4274">
+            <text>De cette relative liberté politique et technique et de ce lien accru avec l' individu - client qu' induit le péage , que va -t-il surgir ?</text>
+            <annotationSet status="MANUAL" ID="5988">
+                <layer rank="1" name="FE">
+                    <label end="93" start="74" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11482">
+            <text>Ce système permet à l' automobiliste muni d' un badge spécial de franchir le péage sans s' arrêter .</text>
+            <annotationSet status="MANUAL" ID="15807">
+                <layer rank="1" name="FE">
+                    <label end="60" start="20" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12729">
+            <text>Canal Plus venait tout juste de faire poindre en France l' idée du péage .</text>
+            <annotationSet status="MANUAL" ID="17096">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12730">
+            <text>Depuis , les télévisions privées se sont solidement installées : Allemagne , France , Espagne , Hollande , Portugal ont connu tour à tour les délices du financement " tout - publicité " , les raffinements de la mesure d' audience instantanée ; le péage s' est imposé ; la télévision par satellite est venue du ciel bouleverser les équilibres outre - Manche ; le câble ouvre la porte à la concurrence des chaînes thématiques et étrangères qu' organise la directive de " télévision sans frontières " .</text>
+            <annotationSet status="MANUAL" ID="17098">
+                <layer rank="1" name="FE">
+                    <label end="31" start="9" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Rate"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="251" start="247" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

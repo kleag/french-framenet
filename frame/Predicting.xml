@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Predicting" ID="425" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; states or makes known a future &lt;fen&gt;Eventuality&lt;/fen&gt; on the basis of some &lt;fen&gt;Evidence&lt;/fen&gt;.
+
+&lt;ex&gt; &lt;fex name="Speaker"&gt;The Weather Centre&lt;/fex&gt; &lt;t&gt;predicted&lt;/t&gt;  &lt;fex name="Eventuality"&gt;that it would be warmer but wet for the weekend&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Speaker"&gt;The OECD&lt;/fex&gt; &lt;t&gt;forecast&lt;/t&gt; &lt;fex name="Eventuality"&gt;that UK interest rates would be 13 per cent by the end of 1989&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Another seer who&lt;/fex&gt; &lt;t&gt;forecast&lt;/t&gt; &lt;fex name="Eventuality"&gt;a Tory majority&lt;/fex&gt; -- without compromising his impartiality -- was Sir Robin Day .&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Eventuality"&gt;The European market&lt;/fex&gt; is  &lt;t&gt;forecast&lt;/t&gt; &lt;fex name="Eventuality"&gt;to grow 18.1% by the end of next fiscal year&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="11/22/2002 04:46:35 PST Fri" abbrev="Speaker" name="Speaker" ID="3914">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; makes a prediction.
+
+&lt;ex&gt;The institute &lt;t&gt;forecast&lt;/t&gt; an increase in leisure spending of 15 per cent.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="11/22/2002 04:48:08 PST Fri" abbrev="Eventuality" name="Eventuality" ID="3915">
+        <definition>&lt;def-root&gt;This FE marks expressions that indicate an event or state that is predicted to occur or hold at a future time. A single &lt;fen&gt;Eventuality&lt;/fen&gt; may be expressed discontinuously in a raising construction. This FE is also used for expressions that denote entities with variable attributes about which the &lt;fen&gt;Speaker&lt;/fen&gt; makes predictions. 
+
+&lt;ex&gt; &lt;t&gt;Predicting&lt;/t&gt; &lt;fex name="Eventuality"&gt;the weather&lt;/fex&gt; is risky business.&lt;/ex&gt;
+&lt;ex&gt;&lt;t&gt;Predicting&lt;/t&gt; &lt;fex name="Eventuality"&gt;the numbers of disabled elderly&lt;/fex&gt; into the future is problematic as it depends upon the projection forward of current patterns of disability .&lt;/ex&gt;
+&lt;ex&gt; Wang&lt;t&gt;forecasts&lt;/t&gt; &lt;fex name="Eventuality"&gt;a 9 per cent increase in state revenue&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt; &lt;fex name="Eventuality"&gt;The European market&lt;/fex&gt; is  &lt;t&gt;forecast&lt;/t&gt; &lt;fex name="Eventuality"&gt;to grow 18.1%&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="11/22/2002 04:53:16 PST Fri" abbrev="Evidence" name="Evidence" ID="3916">
+        <definition>&lt;def-root&gt;This Frame Element marks expressions that denote a set of facts on the basis of which the &lt;fen&gt;Speaker&lt;/fen&gt; makes the prediction.
+
+&lt;ex&gt;Violence was  &lt;t&gt;predicted&lt;/t&gt; &lt;fex name="Evidence"&gt;on the basis of disorder at demonstrations in Paris&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="605" cDate="11/27/2002 08:07:52 PST Wed" abbrev="Time_of_Eventuality" name="Time_of_Eventuality" ID="3947">
+        <definition>&lt;def-root&gt;This frame element marks expressions that indicate forwhat future time an &lt;fen&gt;Eventuality&lt;/fen&gt; is predicted.
+
+&lt;ex&gt; Cocoa stocks reached a record 1.2m tonnes and a seventh year of surplus is &lt;t&gt;forecast&lt;/t&gt; &lt;fex name="Time_of_Eventuality"&gt;for the year to September 1991&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Communicates">
+        <relatedFrame>FR_Expectation</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Awareness-Certainty-Opinion</relatedFrame>
+        <relatedFrame>FR_Statement-manner-noise</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="pronostic.n" ID="2179" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101461" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="pronostiquer.v" ID="2180" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101462" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prophétie.n" ID="2181" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prophétiser.v" ID="2182" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prédiction.n" ID="2183" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101488" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prédire.v" ID="2184" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101489" annotatedsent="0"/>
+    </lexUnit>
+</frame>

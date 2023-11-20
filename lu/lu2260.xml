@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="questionner.v" ID="2260" frame="Questioning" frameID="40" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Addressee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="672"/>
+                <annoSet ID="3700"/>
+                <annoSet ID="19936"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="4324"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Message"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="4324"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="4324"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="672"/>
+                <annoSet ID="3700"/>
+                <annoSet ID="19936"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="672"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="3700"/>
+                <annoSet ID="19936"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="515">
+            <text>Questionné sur son passé , Lucien Carillon s' est exécuté de bonne grâce .</text>
+            <annotationSet status="MANUAL" ID="672">
+                <layer rank="1" name="FE">
+                    <label end="23" start="15" name="Topic"/>
+                    <label end="41" start="27" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2816">
+            <text>- Questionné le 11 mai 1998 , Jean-Claude Méry avait , pour sa part , reconnu avoir " demandé 1,5 % du marché , qui [ lui ] ont été versés en Suisse " , mais il n' avait pas évoqué de destination politique .</text>
+            <annotationSet status="MANUAL" ID="3700">
+                <layer rank="1" name="FE">
+                    <label end="45" start="30" name="Addressee"/>
+                    <label itype="ENI" name="Topic"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="2" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3282">
+            <text>Ils questionnent : " Hachette dans la Cinq , est -ce cynisme ou une immense incompétence ? "</text>
+            <annotationSet status="MANUAL" ID="4324">
+                <layer rank="1" name="FE">
+                    <label end="91" start="19" name="Message"/>
+                    <label end="2" start="0" name="Speaker"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15752">
+            <text>Les questionnés ne souhaitent pas que les projets de réglementation provoquent une guerre jugée inutile : 68 , 7 % jugent suffisantes les règles de la courtoisie et 60 , 3 % n' accepteraient pas la mise en place de sanctions .</text>
+            <annotationSet status="MANUAL" ID="19936">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Addressee"/>
+                    <label itype="DNI" name="Topic"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

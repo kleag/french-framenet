@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Earnings_and_losses" ID="1873" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;An &lt;fen&gt;Earner&lt;/fen&gt; receives &lt;fen&gt;Earnings&lt;/fen&gt; by providing &lt;fen&gt;Goods&lt;/fen&gt; to a &lt;fen&gt;Buyer&lt;/fen&gt;; providing the &lt;fen&gt;Goods&lt;/fen&gt; also generally entails a cost, which may or may not be included in the consideration.  This frame emphasizes the effect on the &lt;fen&gt;Earner&lt;/fen&gt; and often generalizes across an indefinite number of transactions with various parties.  Some of the LUs (e.g. &lt;ment&gt;earn.v&lt;/ment&gt;) primarily refer to the to the &lt;fen&gt;Earnings&lt;/fen&gt; without reference to cost, others to the amount the &lt;fen&gt;Earnings&lt;/fen&gt; differ from the cost, emphasizing either a net loss (e.g. &lt;ment&gt;loss.n&lt;/ment&gt;) or net gain (e.g. &lt;ment&gt;net.n&lt;/ment&gt;).
+
+&lt;ex&gt;This reflects the 15 % jump in &lt;t&gt;&lt;fex name="Earnings"&gt;earnings&lt;/fex&gt;&lt;/t&gt; over 1994 .&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Earner"&gt;We&lt;/fex&gt; &lt;t&gt;made&lt;/t&gt; &lt;fex name="Earnings"&gt;nearly two million&lt;/fex&gt; &lt;fex name="Goods"&gt;on resales alone&lt;/fex&gt; &lt;fex name="Time"&gt;last year&lt;/fex&gt; .&lt;/ex&gt;
+&lt;ex&gt;After a &lt;fex name="Earnings"&gt;$ 1.5 million&lt;/fex&gt; &lt;t&gt;loss&lt;/t&gt; , the company is in no state to continue .&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="02/12/2007 06:32:35 PST Mon" abbrev="Byr" name="Buyer" ID="11035">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Buyer&lt;/fen&gt; is the source of the &lt;fen&gt;Earnings&lt;/fen&gt; of the &lt;fen&gt;Earner&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="02/12/2007 06:32:35 PST Mon" abbrev="Slr" name="Earner" ID="11036">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Earner&lt;/fen&gt; is involved in a transaction or set of transactions as the party that receives payment.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="02/12/2007 06:32:35 PST Mon" abbrev="Mny" name="Earnings" ID="11037">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Earnings&lt;/fen&gt; are the money given to the &lt;fen&gt;Earner&lt;/fen&gt; in a transaction, generally in exchange for &lt;fen&gt;Goods&lt;/fen&gt;. 
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="02/12/2007 06:32:35 PST Mon" abbrev="Gds" name="Goods" ID="11038">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Goods&lt;/fen&gt; is anything including labor or time, for example, which is exchanged for &lt;fen&gt;Earnings&lt;/fen&gt; in a transaction. 
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="02/12/2007 06:32:35 PST Mon" abbrev="Rate" name="Rate" ID="11039">
+        <definition>&lt;def-root&gt;In some cases, earning is described per unit of &lt;fen&gt;Goods&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="02/12/2007 06:32:35 PST Mon" abbrev="Unit" name="Unit" ID="11040">
+        <definition>&lt;def-root&gt;This FE is any unit in which goods or services can be measured. Generally, it occurs in a 	&lt;ment&gt;by&lt;/ment&gt;-PP. 
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>Commerce_collect</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses">
+        <relatedFrame>Commerce_collect</relatedFrame>
+        <relatedFrame>Commerce_pay</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Used by"/>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="v" name="gagner.v" ID="519" nbocc="83" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="22"/>
+        <otherlexUnit framename="Other_sense" ID="100925" annotatedsent="68"/>
+    </lexUnit>
+    <lexUnit POS="n" name="gain.n" ID="520" nbocc="48" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="100926" annotatedsent="39"/>
+    </lexUnit>
+    <lexUnit POS="v" name="perdre.v" ID="521" nbocc="147" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="17"/>
+        <otherlexUnit framename="Other_sense" ID="101363" annotatedsent="82"/>
+    </lexUnit>
+    <lexUnit POS="n" name="perte.n" ID="522" nbocc="136" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="68"/>
+        <otherlexUnit framename="Other_sense" ID="101376" annotatedsent="39"/>
+    </lexUnit>
+</frame>

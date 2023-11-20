@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="approuver.v" ID="1636" frame="Judgment" frameID="28" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="1794"/>
+                <annoSet ID="2516"/>
+                <annoSet ID="13434"/>
+                <annoSet ID="14575"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Evaluee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="1794"/>
+                <annoSet ID="2516"/>
+                <annoSet ID="13434"/>
+                <annoSet ID="14575"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1669">
+            <text>J' approuve ce qu' a dit M. Sakellariou : la communauté internationale doit envoyer les forces de police qu' elles a promises .</text>
+            <annotationSet status="MANUAL" ID="1794">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Cognizer"/>
+                    <label end="38" start="12" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1972">
+            <text>Nous approuvons le point 9 du rapport qui considère que la Commission doit suivre fidèlement les orientations budgétaires établies pour les projets RTE .</text>
+            <annotationSet status="MANUAL" ID="2516">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Cognizer"/>
+                    <label end="150" start="16" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9512">
+            <text>La privatisation de la Compagnie sidérurgique nationale , approuvée par les salariés mais redoutée par la ville , a été reportée in extremis et son président , qui l' avait redressée d' une main de fer , remplacé .</text>
+            <annotationSet status="MANUAL" ID="13434">
+                <layer rank="1" name="FE">
+                    <label end="83" start="72" name="Cognizer"/>
+                    <label end="56" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10389">
+            <text>La CFE - CGC " approuve le vote " et considère " qu' il y a urgence pour les entreprises à prendre leurs responsabilités sociales " .</text>
+            <annotationSet status="MANUAL" ID="14575">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Cognizer"/>
+                    <label end="30" start="24" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

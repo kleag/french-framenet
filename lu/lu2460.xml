@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="révéler.v" ID="2460" frame="Reveal_secret" frameID="1146" totalAnnotated="18" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="inf" name="Information"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Information"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Information"/>
+                <annoSet ID="2898"/>
+                <annoSet ID="2908"/>
+                <annoSet ID="3333"/>
+                <annoSet ID="3589"/>
+                <annoSet ID="6020"/>
+                <annoSet ID="6862"/>
+                <annoSet ID="12353"/>
+                <annoSet ID="15068"/>
+                <annoSet ID="15744"/>
+                <annoSet ID="15947"/>
+                <annoSet ID="15952"/>
+                <annoSet ID="16306"/>
+                <annoSet ID="16617"/>
+                <annoSet ID="17091"/>
+                <annoSet ID="17395"/>
+                <annoSet ID="20672"/>
+                <annoSet ID="21491"/>
+                <annoSet ID="22936"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Medium"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="12353"/>
+                <annoSet ID="15947"/>
+                <annoSet ID="20672"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Speaker"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2908"/>
+                <annoSet ID="3333"/>
+                <annoSet ID="6862"/>
+                <annoSet ID="12353"/>
+                <annoSet ID="15068"/>
+                <annoSet ID="15947"/>
+                <annoSet ID="15952"/>
+                <annoSet ID="16306"/>
+                <annoSet ID="17091"/>
+                <annoSet ID="20672"/>
+                <annoSet ID="22936"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="2898"/>
+                <annoSet ID="3589"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2206">
+            <text>La machination a fonctionné grâce à l' intervention de Lauri Fitz-Pegado , qui a convaincu les députés que l' identité n' était pas révélée pour protéger la famille de la jeune femme [ 2 ] .</text>
+            <annotationSet status="MANUAL" ID="2898">
+                <layer rank="1" name="FE">
+                    <label end="117" start="107" name="Information"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2227">
+            <text>L' affaire des diamants est une affaire politique révélée par Le Canard enchaîné le 10 octobre 1979 qui impliquait le président Valéry Giscard d' Estaing lorsqu' il était ministre des finances et le chef d' État de la République centrafricaine , Jean-Bedel Bokassa , dans les années 1970 .</text>
+            <annotationSet status="MANUAL" ID="2908">
+                <layer rank="1" name="FE">
+                    <label end="48" start="28" name="Information"/>
+                    <label end="286" start="100" name="Information"/>
+                    <label end="79" start="62" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2511">
+            <text>L' ancien ministre a assuré que " c' était légal et régulier " mais a refusé de révéler le montant de ces commissions au nom du " secret défense " .</text>
+            <annotationSet status="MANUAL" ID="3333">
+                <layer rank="1" name="FE">
+                    <label end="116" start="88" name="Information"/>
+                    <label end="17" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2756">
+            <text>Révélée au grand jour , cette " affaire dans l' affaire " a une conséquence immédiate : elle déstabilise le juge Éric Halphen , qui prend quelques jours de vacances .</text>
+            <annotationSet status="MANUAL" ID="3589">
+                <layer rank="1" name="FE">
+                    <label end="56" start="24" name="Information"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="6" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4306">
+            <text>Le prix de vente , qui n' a pas été révélé , serait inférieur à 5 millions de dollars canadiens .</text>
+            <annotationSet status="MANUAL" ID="6020">
+                <layer rank="1" name="FE">
+                    <label end="17" start="0" name="Information"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4819">
+            <text>A la mi - décembre , Exor révélait détenir 28 , 7 % du numéro un mondial des eaux minérales tandis que la société Perrier possédait 13 , 8 % des titres sous forme d' autocontrôle .</text>
+            <annotationSet status="MANUAL" ID="6862">
+                <layer rank="1" name="FE">
+                    <label end="24" start="21" name="Information"/>
+                    <label end="90" start="35" name="Information"/>
+                    <label end="24" start="21" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8669">
+            <text>Les nouvelles inculpations ont été révélées par le Point dans son numéro du 4 juillet .</text>
+            <annotationSet status="MANUAL" ID="12353">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Information"/>
+                    <label end="84" start="62" name="Medium"/>
+                    <label end="55" start="51" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10817">
+            <text>Vendredi 11 en fin de journée , à l' occasion d' une réunion secrète qui se tient à Francfort et que révélera le Financial Times ( daté du 12 - 13 décembre ) , les deux Helmut , le chancelier Kohl et le président de la " Buba " Schlesinger , mettent au point leur stratégie .</text>
+            <annotationSet status="MANUAL" ID="15068">
+                <layer rank="1" name="FE">
+                    <label end="154" start="49" name="Information"/>
+                    <label end="99" start="97" name="Information"/>
+                    <label end="154" start="110" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11424">
+            <text>Le montant de la transaction n' a pas été révélé .</text>
+            <annotationSet status="MANUAL" ID="15744">
+                <layer rank="1" name="FE">
+                    <label end="27" start="0" name="Information"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11583">
+            <text>L' hebdomadaire Stern avait révélé dans son numéro du 28 décembre que le ministre avait signé une lettre sur papier à en - tête de son ministère pour convaincre un fonctionnaire local d' accorder une autorisation d' exercer à un guérisseur magnétiseur .</text>
+            <annotationSet status="MANUAL" ID="15947">
+                <layer rank="1" name="FE">
+                    <label end="250" start="70" name="Information"/>
+                    <label end="64" start="40" name="Medium"/>
+                    <label end="20" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11584">
+            <text>Stern avait déjà révélé une autre intervention de M. Mllemann auprès de supermarchés afin de conseiller l' achat d' un produit fabriqué par un cousin de son épouse ( le Monde du 25 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="15952">
+                <layer rank="1" name="FE">
+                    <label end="83" start="24" name="Information"/>
+                    <label end="4" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11973">
+            <text>Révélés mardi 29 décembre par le quotidien Nihon Keizai , les démêlés du constructeur français avec son importateur nippon , venant après les difficultés similaires rencontrées par Peugeot l' été dernier , viennent opportunément rappeler les déboires des constructeurs français sur un marché solidement verrouillé .</text>
+            <annotationSet status="MANUAL" ID="16306">
+                <layer rank="1" name="FE">
+                    <label end="202" start="58" name="Information"/>
+                    <label end="54" start="30" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="6" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12270">
+            <text>Ce fonds , dont l' identité n' a pas été révélée , a été conseillé par la banque Colbert , mais ni cette banque ni Altus Finances ( maison - mère de la banque Colbert ) ne font partie du nouveau montage financier .</text>
+            <annotationSet status="MANUAL" ID="16617">
+                <layer rank="1" name="FE">
+                    <label end="26" start="16" name="Information"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12725">
+            <text>M. Haddad a également déclaré que la politique de privatisations serait poursuivie , mais n' a révélé aucun détail .</text>
+            <annotationSet status="MANUAL" ID="17091">
+                <layer rank="1" name="FE">
+                    <label end="113" start="102" name="Information"/>
+                    <label end="8" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13031">
+            <text>Son montant n' a pas été révélé .</text>
+            <annotationSet status="MANUAL" ID="17395">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Information"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16472">
+            <text>Dans un éditorial , Güngr Mengi , de Sabah , a révélé que la campagne coûterait 36 millions de dollars à son journal alors qu' à Hürriyet on avance un coût de 50 millions de dollars , soit environ un cinquième du chiffre d' affaires du quotidien .</text>
+            <annotationSet status="MANUAL" ID="20672">
+                <layer rank="1" name="FE">
+                    <label end="115" start="58" name="Information"/>
+                    <label end="16" start="5" name="Medium"/>
+                    <label end="30" start="20" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17430">
+            <text>L' argument selon lequel la sécurité des bateaux aurait été mise en péril si l' existence de ces armes avait été révélée a été suffisant pour faire taire les journalistes .</text>
+            <annotationSet status="MANUAL" ID="21491">
+                <layer rank="1" name="FE">
+                    <label end="101" start="77" name="Information"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18873">
+            <text>Moskovkaia Pravda , l' organe du parti de la capitale soviétique , a ainsi révélé qu' une coopérative moscovite , Godograf , se procurait le titane " auprès d' une entreprise aéronautique de Moscou " qu' une autre coopérative de Riga , en Lettonie , se chargeait de vendre à l' Ouest .</text>
+            <annotationSet status="MANUAL" ID="22936">
+                <layer rank="1" name="FE">
+                    <label end="282" start="86" name="Information"/>
+                    <label end="65" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

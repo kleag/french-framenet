@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="soutenir.v" ID="1611" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Message"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="3083"/>
+                <annoSet ID="12767"/>
+                <annoSet ID="13060"/>
+                <annoSet ID="18483"/>
+                <annoSet ID="22467"/>
+                <annoSet ID="24680"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Speaker"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3083"/>
+                <annoSet ID="12767"/>
+                <annoSet ID="13060"/>
+                <annoSet ID="18483"/>
+                <annoSet ID="22467"/>
+                <annoSet ID="24680"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2376">
+            <text>Jacques Dominati a menacé à l' audience de produire une liste d' élus qui auraient eu recours à ces pratiques irrégulières , soutenant que la pratique était généralisée .</text>
+            <annotationSet status="MANUAL" ID="3083">
+                <layer rank="1" name="FE">
+                    <label end="167" start="139" name="Message"/>
+                    <label end="15" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8925">
+            <text>La fille de M. Francis Leenhardt , l' un des fondateurs du groupe le Provençal , soutient qu' avec sa famille - associée au groupe Maxwell - elle s' était rendue virtuellement majoritaire , au 30 juin 1987 , grâce à des promesses de cession consenties par une douzaine de petits actionnaires dont certains , au dernier moment , avaient opté pour Hachette .</text>
+            <annotationSet status="MANUAL" ID="12767">
+                <layer rank="1" name="FE">
+                    <label end="353" start="94" name="Message"/>
+                    <label end="77" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9133">
+            <text>" Ici , dès que l'on peut toucher les marchés de consommation , on peut faire fortune " , soutient Francis Wacziarg , homme d' affaires français installé dans le pays depuis vingt - deux ans .</text>
+            <annotationSet status="MANUAL" ID="13060">
+                <layer rank="1" name="FE">
+                    <label end="88" start="0" name="Message"/>
+                    <label end="189" start="99" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14144">
+            <text>Le président de la République en personne a soutenu que " les techniciens de la banque centrale sont chargés d' appliquer dans le domaine monétaire les décisions du Conseil européen " .</text>
+            <annotationSet status="MANUAL" ID="18483">
+                <layer rank="1" name="FE">
+                    <label end="182" start="56" name="Message"/>
+                    <label end="40" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18338">
+            <text>" Je ne partage pas l' opinion de Charles Fiterman soutenant que son texte adressé au comité central en octobre " s' inscrivait dans la stratégie et la politique définies par nos congrès " , poursuit -il en tant que membre du bureau politique , en assurant que " les membres du comité central , dans leur grande majorité , ont recu ce texte , et ils l' ont dit , comme proposant une autre politique et un autre parti " .</text>
+            <annotationSet status="MANUAL" ID="22467">
+                <layer rank="1" name="FE">
+                    <label end="187" start="65" name="Message"/>
+                    <label end="49" start="34" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21235">
+            <text>Mais enfin , on soutenait que les deniers des contribuables - nos deniers ! - seraient mieux utilisés dans le logement ou l' éducation que dans l' armée .</text>
+            <annotationSet status="MANUAL" ID="24680">
+                <layer rank="1" name="FE">
+                    <label end="151" start="30" name="Message"/>
+                    <label end="14" start="13" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

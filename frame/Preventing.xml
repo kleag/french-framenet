@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Preventing" ID="516" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Causality">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Preventing_cause&lt;/fen&gt; or an &lt;fen&gt;Agent&lt;/fen&gt; (via their actions) keeps an &lt;fen&gt;Event&lt;/fen&gt; from taking place. Unlike in the Thwarting frame, the &lt;fen&gt;Preventing_cause&lt;/fen&gt; does not directly prevent the actions of an individual, but rather affects the world in such a way that an &lt;fen&gt;Event&lt;/fen&gt; cannot occur. Some lexical units, like &lt;t&gt;avert&lt;/t&gt; and &lt;t&gt;avoid&lt;/t&gt; indicate that the &lt;fen&gt;Preventing_cause&lt;/fen&gt; would have been affected if the &lt;fen&gt;Event&lt;/fen&gt; occurred. 
+&lt;ex&gt; &lt;fex name="Preventing_cause"&gt;Rain&lt;/fex&gt; &lt;t&gt;prevented&lt;/t&gt; &lt;fex name="Event"&gt;the ball game&lt;/fex&gt; &lt;fex name="Event"&gt;from taking place&lt;/fex&gt;.&lt;/ex&gt; 
+
+&lt;ex&gt; &lt;fex name="Preventing_cause"&gt;He&lt;/fex&gt; could have &lt;t&gt;stopped&lt;/t&gt; &lt;fex name="Event"&gt;the riot&lt;/fex&gt; .&lt;/ex&gt;
+
+&lt;ex&gt; &lt;fex name="Preventing_cause"&gt;The government&lt;/fex&gt; narrowly &lt;t&gt;averted&lt;/t&gt; &lt;fex name="Event"&gt;a coup&lt;/fex&gt; . &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="01/22/2003 05:15:43 PST Wed" abbrev="Pre" name="Preventing_cause" ID="4114">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Preventing_cause&lt;/fen&gt; is the force which keeps the &lt;fen&gt;Event&lt;/fen&gt; from happening.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="01/22/2003 05:16:40 PST Wed" abbrev="Event" name="Event" ID="4115">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Event&lt;/fen&gt; is prevented from occurring by the &lt;fen&gt;Preventing_cause&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="361" cDate="04/25/2008 03:56:21 PDT Fri" abbrev="Age" name="Agent" ID="12601">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Agent&lt;/fen&gt; is the agent which keeps the &lt;fen&gt;Event&lt;/fen&gt; from happening.&lt;/def-root&gt;</definition>
+        <excludesFE name="Preventing_cause" ID="4114"/>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Contingency-Objective_influence</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="empêcher.v" ID="2625" nbocc="62" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="57"/>
+        <otherlexUnit framename="Other_sense" ID="100757" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="interdire.v" ID="2626" nbocc="39" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101098" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="424" annotatedsent="30"/>
+    </lexUnit>
+    <lexUnit POS="v" name="laisser.v" ID="2738" nbocc="148" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="24"/>
+        <otherlexUnit framename="Other_sense" ID="102111" annotatedsent="46"/>
+        <otherlexUnit framename="Causation" ID="2737" annotatedsent="26"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prévenir.v" ID="2627" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="FR_Telling" ID="2538" annotatedsent="13"/>
+        <otherlexUnit framename="Other_sense" ID="101504" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prévention.n" ID="2653" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="102117" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="éviter.v" ID="2628" nbocc="105" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="68"/>
+        <otherlexUnit framename="Other_sense" ID="102098" annotatedsent="32"/>
+    </lexUnit>
+</frame>

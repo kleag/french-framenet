@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Insult" ID="10036" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; insults an &lt;fen&gt;Addressee&lt;/fen&gt;. For some of the LUs, the &lt;fen&gt;Topic&lt;/fen&gt; can be specified. Contrary to the FR_Hail frame, the process can last for a certain time.
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Not existing in fndata-1.5. Needed for the cases of linguistic communication, in which the Addressee is Core, but no Message or Content can be directly expressed. 
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/19/2002 02:28:24 PST Tue" abbrev="Spkr" name="Speaker" ID="100000">
+        <definition>&lt;def-root&gt;The person who hails the Addressee.&lt;ex&gt;&lt;fex name="Spkr"&gt;He&lt;/fex&gt;  &lt;t&gt;hailed&lt;/t&gt; &lt;fex name="Addressee"&gt;John&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/19/2002 02:28:30 PST Tue" abbrev="Add" name="Addressee" ID="10001">
+        <definition>&lt;def-root&gt;The person that is hailed by the &lt;fen&gt;Speaker&lt;/fen&gt;.&lt;ex&gt;&lt;fex name="Spkr"&gt;He&lt;/fex&gt;  &lt;t&gt;hailed&lt;/t&gt; &lt;fex name="Addressee"&gt;John&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="03/19/2002 02:40:13 PST Tue" abbrev="Topic" name="Topic" ID="10002">
+        <definition>&lt;def-root&gt;This is the subject matter to which the message pertains. 
+&lt;ex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+    </FEcoreSet>
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses">
+        <relatedFrame>Communication</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Used by"/>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <frameRelation type="Relation to fn">
+    </frameRelation>
+
+    <lexUnit POS="n" name="injure.n" ID="1191" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="injurier.v" ID="1192" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="insulte.n" ID="1193" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="insulter.v" ID="1194" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="invective.n" ID="1195" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="invectiver.v" ID="1196" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="vilipender.v" ID="1197" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

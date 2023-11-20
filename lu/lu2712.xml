@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="accréditer.v" ID="2712" frame="FR_Attempt_suasion.veracity" frameID="10003" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="SoA" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Persuader" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="22435"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Persuader"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Persuader"/>
+                <annoSet ID="22435"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="State_of_affairs"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="State_of_affairs"/>
+                <annoSet ID="22435"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18330">
+            <text>Faisant référence à un éditorial et à un article publiés récemment dans l' organe central du PCF ( Le Monde du 9 janvier ) dans lesquels , écrit l' ancien ministre d' état , " mon nom est cité à deux reprises en liaison avec les attaques dont le parti , sa direction , et plus particulièrement Georges marchais , sont l' objet en ce moment " , Mr Fiterman " proteste avec émotion et indignation contre ce qui apparaît à l' évidence , même si le procédé utilisé est oblique , comme une tentative d' accréditer l' idée que je serais partie prenante de cette campagne " .</text>
+            <annotationSet status="MANUAL" ID="22435">
+                <layer rank="1" name="FE">
+                    <label end="563" start="509" name="State_of_affairs"/>
+                    <label itype="UNI" name="Persuader"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="507" start="498" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

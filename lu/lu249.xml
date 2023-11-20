@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="résultat.n" ID="249" frame="Causation" frameID="5" totalAnnotated="36" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Actor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="1708"/>
+                <annoSet ID="6253"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="34">
+            <FE name="Cause"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="468"/>
+                <annoSet ID="2619"/>
+                <annoSet ID="2788"/>
+                <annoSet ID="5537"/>
+                <annoSet ID="5700"/>
+                <annoSet ID="7608"/>
+                <annoSet ID="7791"/>
+                <annoSet ID="9579"/>
+                <annoSet ID="9586"/>
+                <annoSet ID="10207"/>
+                <annoSet ID="10228"/>
+                <annoSet ID="10426"/>
+                <annoSet ID="12045"/>
+                <annoSet ID="12191"/>
+                <annoSet ID="13100"/>
+                <annoSet ID="13517"/>
+                <annoSet ID="14114"/>
+                <annoSet ID="14361"/>
+            </pattern>
+            <pattern total="16">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="4945"/>
+                <annoSet ID="5014"/>
+                <annoSet ID="5796"/>
+                <annoSet ID="9114"/>
+                <annoSet ID="10911"/>
+                <annoSet ID="11182"/>
+                <annoSet ID="11265"/>
+                <annoSet ID="11379"/>
+                <annoSet ID="11406"/>
+                <annoSet ID="11537"/>
+                <annoSet ID="11543"/>
+                <annoSet ID="12083"/>
+                <annoSet ID="13048"/>
+                <annoSet ID="13099"/>
+                <annoSet ID="13325"/>
+                <annoSet ID="13340"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="36">
+            <FE name="Effect"/>
+            <pattern total="36">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="468"/>
+                <annoSet ID="1708"/>
+                <annoSet ID="2619"/>
+                <annoSet ID="2788"/>
+                <annoSet ID="4945"/>
+                <annoSet ID="5014"/>
+                <annoSet ID="5537"/>
+                <annoSet ID="5700"/>
+                <annoSet ID="5796"/>
+                <annoSet ID="6253"/>
+                <annoSet ID="7608"/>
+                <annoSet ID="7791"/>
+                <annoSet ID="9114"/>
+                <annoSet ID="9579"/>
+                <annoSet ID="9586"/>
+                <annoSet ID="10207"/>
+                <annoSet ID="10228"/>
+                <annoSet ID="10426"/>
+                <annoSet ID="10911"/>
+                <annoSet ID="11182"/>
+                <annoSet ID="11265"/>
+                <annoSet ID="11379"/>
+                <annoSet ID="11406"/>
+                <annoSet ID="11537"/>
+                <annoSet ID="11543"/>
+                <annoSet ID="12045"/>
+                <annoSet ID="12083"/>
+                <annoSet ID="12191"/>
+                <annoSet ID="13048"/>
+                <annoSet ID="13099"/>
+                <annoSet ID="13100"/>
+                <annoSet ID="13325"/>
+                <annoSet ID="13340"/>
+                <annoSet ID="13517"/>
+                <annoSet ID="14114"/>
+                <annoSet ID="14361"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="356">
+            <text>Les obligations de parité prévues par la loi ont donné des résultats .</text>
+            <annotationSet status="MANUAL" ID="468">
+                <layer rank="1" name="FE">
+                    <label end="43" start="0" name="Cause"/>
+                    <label end="67" start="55" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1610">
+            <text>Il faut qu' il produise des résultats .</text>
+            <annotationSet status="MANUAL" ID="1708">
+                <layer rank="1" name="FE">
+                    <label end="36" start="24" name="Effect"/>
+                    <label end="13" start="12" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2023">
+            <text>En effet , en raison de ses caractéristiques , celle-ci compte parmi les activités principales de l' Union et , si elle est menée au niveau des États membres , elle ne pourra obtenir de résultats satisfaisants .</text>
+            <annotationSet status="MANUAL" ID="2619">
+                <layer rank="1" name="FE">
+                    <label end="163" start="160" name="Cause"/>
+                    <label end="208" start="183" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2107">
+            <text>Le 10 mars 1915 à cinq heures du matin , après deux mois d' accrochages sans résultat tangible dans le secteur et deux récentes attaques infructueuses , les poilus de la 21e compagnie du 336e régiment d' infanterie , reçoivent l' ordre d' attaquer de nouveau à la baïonnette et de reprendre les positions ennemies établies au nord du village de Souain .</text>
+            <annotationSet status="MANUAL" ID="2788">
+                <layer rank="1" name="FE">
+                    <label end="70" start="47" name="Cause"/>
+                    <label end="109" start="95" name="Cause"/>
+                    <label end="109" start="77" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3640">
+            <text>Le résultat est qu' un décalage sensible se creuse sur le marché , les taux à long terme se trouvant désormais inférieurs de près de deux points aux taux à court terme , maintenus à un niveau très supérieur ( 10 % à 10 , 5 % ) en raison de la politique menée par la Banque de France pour défendre le franc .</text>
+            <annotationSet status="MANUAL" ID="4945">
+                <layer rank="1" name="FE">
+                    <label end="63" start="20" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3686">
+            <text>Au regard des objectifs , cependant , les premiers résultats seraient insuffisants pour tenir le rythme prévu .</text>
+            <annotationSet status="MANUAL" ID="5014">
+                <layer rank="1" name="FE">
+                    <label end="59" start="38" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3993">
+            <text>Dans un article paru dans le Handelsblatt , M. Mllemann propose que le parlement fédéral plafonne à 5 % cette hausse , avant tout accord salarial dans ce secteur , au lieu d' entériner purement et simplement le résultat des négociations avec les syndicats ( 1 , 8 million de personnes concernées ) , ce plafonnement donnant le ton aux autres négociations .</text>
+            <annotationSet status="MANUAL" ID="5537">
+                <layer rank="1" name="FE">
+                    <label end="254" start="224" name="Cause"/>
+                    <label end="254" start="208" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="218" start="211" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4093">
+            <text>En écho , M. Dominique Baudis , maire de Toulouse et député CDS de Haute - Garonne , a estimé que " la situation de la Cinq était le résultat d' une décennie d' incohérence en matière d' audiovisuel " .</text>
+            <annotationSet status="MANUAL" ID="5700">
+                <layer rank="1" name="FE">
+                    <label end="197" start="145" name="Cause"/>
+                    <label end="122" start="100" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4141">
+            <text>Le résultat est un taux d' épargne élevé , mais qui ne s' accroît plus , et dont la structure se modifie au détriment des placements longs .</text>
+            <annotationSet status="MANUAL" ID="5796">
+                <layer rank="1" name="FE">
+                    <label end="137" start="16" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4442">
+            <text>Ayant emmené avec lui au Japon les présidents des trois " grands " de l' automobile américaine ( General Motors , Ford motor et Chrysler ) , M. Bush était résolu à obtenir des résultats concrets .</text>
+            <annotationSet status="MANUAL" ID="6253">
+                <layer rank="1" name="FE">
+                    <label end="193" start="172" name="Effect"/>
+                    <label end="147" start="141" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5245">
+            <text>Un consortium de seize banques , conduit par le Crédit agricole , accordait alors un crédit - relais à l' ULN en attendant les plans de reprise et les résultats de la cession de la GUF ( Générale ultrafrais ) , société contrôlant Mamie Nova .</text>
+            <annotationSet status="MANUAL" ID="7608">
+                <layer rank="1" name="FE">
+                    <label end="239" start="164" name="Cause"/>
+                    <label end="239" start="147" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5377">
+            <text>Cette situation , paradoxale dans un pays où le taux de syndicalisation reste l' un des plus forts des pays industrialisés , est le résultat d' une politique systématique de réduction du pouvoir syndical dans l' entreprise , que M. Major entend poursuivre .</text>
+            <annotationSet status="MANUAL" ID="7791">
+                <layer rank="1" name="FE">
+                    <label end="254" start="144" name="Cause"/>
+                    <label end="121" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6128">
+            <text>Résultat , le chômage , défini d' après les critères du BIT ( Bureau international du travail ) , s' est accru de 272 000 et correspond , au total , à 2 , 5 millions de personnes .</text>
+            <annotationSet status="MANUAL" ID="9114">
+                <layer rank="1" name="FE">
+                    <label end="179" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6411">
+            <text>Les premiers résultats de l' offre géante d' échange sur fonds d' Etat , lancée le 19 juin sur 45 emprunts d' un montant de 140 milliards de francs , sont tombés : au 1 juillet , 45 milliards de francs de titres , en nominal , ont été apportés par les investisseurs institutionnels , sur 83 milliards de francs qui leur étaient offerts , soit un taux d' échange de 54 % , assez inespéré pour les services du Trésor , qui tablaient sur 25 % à 35 % .</text>
+            <annotationSet status="MANUAL" ID="9579">
+                <layer rank="1" name="FE">
+                    <label end="146" start="26" name="Cause"/>
+                    <label end="146" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6413">
+            <text>Le 16 juillet , on connaîtra les résultats de l' offre d' échange faite aux personnes physiques , qui porte sur 57 milliards de francs d' obligations d' Etat , dont la durée de vie ne dépasse pas fin juillet 1994 , l' offre se limitant à des OAT 9 , 5 % 1998 ( six ans ) .</text>
+            <annotationSet status="MANUAL" ID="9586">
+                <layer rank="1" name="FE">
+                    <label end="269" start="46" name="Cause"/>
+                    <label end="269" start="29" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6869">
+            <text>De son côté , Françoise Milewski , économiste à l' OFCE , avertissait , dans ces mêmes colonnes ( " le Monde de l' économie " du 5 mai 1992 ) , que la performance extérieure de la France en 1991 était , avant tout , le résultat d' un décalage conjoncturel entre la France et l' Allemagne , tout entière tournée vers la reconstruction de l' ex- RDA .</text>
+            <annotationSet status="MANUAL" ID="10207">
+                <layer rank="1" name="FE">
+                    <label end="346" start="231" name="Cause"/>
+                    <label end="193" start="148" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="226" start="219" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6885">
+            <text>La banque de France serait alors contrainte de relever ses taux directeurs pour défendre sa monnaie , ce qui aboutirait au résultat inverse du but poursuivi .</text>
+            <annotationSet status="MANUAL" ID="10228">
+                <layer rank="1" name="FE">
+                    <label end="107" start="105" name="Cause"/>
+                    <label end="98" start="0" name="Cause"/>
+                    <label end="155" start="123" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7034">
+            <text>Des mesures faciles à mettre en route avec des résultats assurés à la clé , et notamment en termes financiers .</text>
+            <annotationSet status="MANUAL" ID="10426">
+                <layer rank="1" name="FE">
+                    <label end="36" start="0" name="Cause"/>
+                    <label end="108" start="43" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7454">
+            <text>Résultat : le pays importe environ un million de têtes de chèvres et de moutons par an , et 12 000 tonnes de carcasses congelées .</text>
+            <annotationSet status="MANUAL" ID="10911">
+                <layer rank="1" name="FE">
+                    <label end="129" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7713">
+            <text>Résultat : l' organisme stockeur n' est pas à même de pratiquer une gestion économique .</text>
+            <annotationSet status="MANUAL" ID="11182">
+                <layer rank="1" name="FE">
+                    <label end="87" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7782">
+            <text>Résultat : à la mi - mai , Lagos et quelques autres villes étaient le théâtre de violentes émeutes .</text>
+            <annotationSet status="MANUAL" ID="11265">
+                <layer rank="1" name="FE">
+                    <label end="99" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7873">
+            <text>Mais les résultats sont décevants .</text>
+            <annotationSet status="MANUAL" ID="11379">
+                <layer rank="1" name="FE">
+                    <label end="17" start="5" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7904">
+            <text>" En Russie , nous obtiendrons nos premiers résultats pétroliers en 1995 " , disait récemment le numéro un d' Elf .</text>
+            <annotationSet status="MANUAL" ID="11406">
+                <layer rank="1" name="FE">
+                    <label end="63" start="31" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7998">
+            <text>Résultat : 65 % du personnel hôtelier et de restauration est français , mais 11 % est britannique , 4 % , néerlandais , 3 % , irlandais et 3 % , allemand .</text>
+            <annotationSet status="MANUAL" ID="11537">
+                <layer rank="1" name="FE">
+                    <label end="154" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8007">
+            <text>Résultat , j' embauche des Hollandais . "</text>
+            <annotationSet status="MANUAL" ID="11543">
+                <layer rank="1" name="FE">
+                    <label end="40" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8430">
+            <text>De sorte qu' il n' est sorti des discussions que peu de résultats concrets .</text>
+            <annotationSet status="MANUAL" ID="12045">
+                <layer rank="1" name="FE">
+                    <label end="43" start="33" name="Cause"/>
+                    <label end="73" start="49" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8468">
+            <text>Résultat : en vingt ans , Hans Muller a hissé cette marque française aux premiers rangs des ventes de cosmétiques en Allemagne , et le voilà parti à la conquête de l' ancienne Allemagne de l' Est .</text>
+            <annotationSet status="MANUAL" ID="12083">
+                <layer rank="1" name="FE">
+                    <label end="196" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8556">
+            <text>Il faut éviter d' embaucher des surqualifiés et faire appel , au besoin , à la formation permanente pour atteindre un résultat supérieur .</text>
+            <annotationSet status="MANUAL" ID="12191">
+                <layer rank="1" name="FE">
+                    <label end="98" start="8" name="Cause"/>
+                    <label end="135" start="115" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="118" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9118">
+            <text>Si l'on considère que près de 415 000 personnes sont parvenues à leur treizième mois de chômage depuis mai 1992 , le résultat est impressionnant , même si le premier ministre avait imprudemment promis une solution pour tous ...</text>
+            <annotationSet status="MANUAL" ID="13048">
+                <layer rank="1" name="FE">
+                    <label end="124" start="114" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9179">
+            <text>Résultat : en novembre , le niveau moyen des prix à la consommation est resté inchangé en France .</text>
+            <annotationSet status="MANUAL" ID="13099">
+                <layer rank="1" name="FE">
+                    <label end="97" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9180">
+            <text>Les mécanismes déflationnistes souvent évoqués ces derniers temps sont -ils les seuls à l' origine de ce résultat ?</text>
+            <annotationSet status="MANUAL" ID="13100">
+                <layer rank="1" name="FE">
+                    <label end="64" start="0" name="Cause"/>
+                    <label end="112" start="102" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9427">
+            <text>Résultat : de 1973 à 1986 , la production espagnole a crû de 80 % , passant de moins de 10 millions de tonnes à quelque 18 millions .</text>
+            <annotationSet status="MANUAL" ID="13325">
+                <layer rank="1" name="FE">
+                    <label end="130" start="11" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9447">
+            <text>Résultat : livrée à Rotterdam , la tonne de charbon vapeur ( celui qui alimente les centrales thermiques ) ne dépasse pas 50 dollars ( 260 francs ) .</text>
+            <annotationSet status="MANUAL" ID="13340">
+                <layer rank="1" name="FE">
+                    <label end="148" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9552">
+            <text>Les travaux réalisés par le Commissariat général du Plan dans le cadre de la préparation du XI Plan ( 1993 - 1997 ) et dont les premiers résultats ont été rendus publics jeudi 17 décembre par le commissaire au Plan , M. Jean - Baptiste de Foucauld , ne laissent à cet égard guère de doutes .</text>
+            <annotationSet status="MANUAL" ID="13517">
+                <layer rank="1" name="FE">
+                    <label end="122" start="119" name="Cause"/>
+                    <label end="246" start="0" name="Cause"/>
+                    <label end="145" start="124" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10051">
+            <text>Tels sont les résultats médiocres du dernier " conseil des affaires générales " de l' année tenu par les ministres des affaires étrangères des Douze , lundi 21 décembre , à Bruxelles .</text>
+            <annotationSet status="MANUAL" ID="14114">
+                <layer rank="1" name="FE">
+                    <label end="181" start="37" name="Cause"/>
+                    <label end="181" start="10" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10219">
+            <text>A la CGT , on rétorque que le passif du comité d' établissement - y compris le non- versement des cotisations sociales - est " le résultat des suppressions massives d' effectifs " intervenues à l' usine de Billancourt .</text>
+            <annotationSet status="MANUAL" ID="14361">
+                <layer rank="1" name="FE">
+                    <label end="216" start="143" name="Cause"/>
+                    <label end="119" start="27" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

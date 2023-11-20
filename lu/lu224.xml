@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="moteur.n" ID="224" frame="Causation" frameID="5" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cause"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="4192"/>
+                <annoSet ID="10582"/>
+                <annoSet ID="15550"/>
+                <annoSet ID="22170"/>
+                <annoSet ID="24728"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Effect"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="4192"/>
+                <annoSet ID="10582"/>
+                <annoSet ID="15550"/>
+                <annoSet ID="22170"/>
+                <annoSet ID="24728"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3226">
+            <text>M. Kohl a rappelé l' importance de l' investissement des entreprises , l' un des principaux moteurs de la forte croissance des années 80 , susceptible d' être mis en péril en cas de concessions salariales trop fortes .</text>
+            <annotationSet status="MANUAL" ID="4192">
+                <layer rank="1" name="FE">
+                    <label end="79" start="35" name="Cause"/>
+                    <label end="215" start="137" name="Cause"/>
+                    <label end="135" start="103" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7168">
+            <text>Mais le véritable moteur du développement de l' air - bag reste le désir accru de sécurité du consommateur , " manifeste chez les nouvelles générations , qui semblent très sensibles à cet argument " , note un observateur .</text>
+            <annotationSet status="MANUAL" ID="10582">
+                <layer rank="1" name="FE">
+                    <label end="197" start="64" name="Cause"/>
+                    <label end="56" start="28" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11269">
+            <text>Ainsi les deux moteurs habituels des phases de reprise - d' importants achats de biens de consommation ; la reconstitution de stocks dans le commerce et l' industrie - ont -ils fait défaut .</text>
+            <annotationSet status="MANUAL" ID="15550">
+                <layer rank="1" name="FE">
+                    <label end="21" start="15" name="Cause"/>
+                    <label end="53" start="37" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18143">
+            <text>La hantise d' une nouvelle crise de liquidités fut le moteur de la réforme de 1913 .</text>
+            <annotationSet status="MANUAL" ID="22170">
+                <layer rank="1" name="FE">
+                    <label end="45" start="0" name="Cause"/>
+                    <label end="81" start="64" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21314">
+            <text>Pour eux , l' Allemagne demeure le bon modèle , et l' industrie " doit rester le moteur de la prospérité et de l' emploi , même si une part trop importante de nos compatriotes ne l' a jamais beaucoup aimée " .</text>
+            <annotationSet status="MANUAL" ID="24728">
+                <layer rank="1" name="FE">
+                    <label end="62" start="51" name="Cause"/>
+                    <label end="106" start="91" name="Effect"/>
+                    <label end="119" start="111" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

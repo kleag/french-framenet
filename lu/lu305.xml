@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="cotisation.n" ID="305" frame="Commerce_pay" frameID="180" totalAnnotated="84" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Way_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="84">
+            <FE name="Buyer"/>
+            <pattern total="47">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="523"/>
+                <annoSet ID="4513"/>
+                <annoSet ID="4516"/>
+                <annoSet ID="4517"/>
+                <annoSet ID="6140"/>
+                <annoSet ID="6216"/>
+                <annoSet ID="6231"/>
+                <annoSet ID="6785"/>
+                <annoSet ID="6790"/>
+                <annoSet ID="6791"/>
+                <annoSet ID="6797"/>
+                <annoSet ID="6806"/>
+                <annoSet ID="7282"/>
+                <annoSet ID="7285"/>
+                <annoSet ID="7288"/>
+                <annoSet ID="7304"/>
+                <annoSet ID="7309"/>
+                <annoSet ID="8138"/>
+                <annoSet ID="9238"/>
+                <annoSet ID="9458"/>
+                <annoSet ID="10283"/>
+                <annoSet ID="10303"/>
+                <annoSet ID="10306"/>
+                <annoSet ID="10309"/>
+                <annoSet ID="13547"/>
+                <annoSet ID="13904"/>
+                <annoSet ID="13905"/>
+                <annoSet ID="13906"/>
+                <annoSet ID="13911"/>
+                <annoSet ID="14233"/>
+                <annoSet ID="14319"/>
+                <annoSet ID="14345"/>
+                <annoSet ID="14363"/>
+                <annoSet ID="14623"/>
+                <annoSet ID="16463"/>
+                <annoSet ID="16785"/>
+                <annoSet ID="16792"/>
+                <annoSet ID="17408"/>
+                <annoSet ID="19408"/>
+                <annoSet ID="19471"/>
+                <annoSet ID="20314"/>
+                <annoSet ID="20548"/>
+                <annoSet ID="23597"/>
+                <annoSet ID="23598"/>
+                <annoSet ID="23604"/>
+                <annoSet ID="23607"/>
+                <annoSet ID="24530"/>
+            </pattern>
+            <pattern total="37">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="4509"/>
+                <annoSet ID="4519"/>
+                <annoSet ID="6145"/>
+                <annoSet ID="6226"/>
+                <annoSet ID="6804"/>
+                <annoSet ID="7305"/>
+                <annoSet ID="7306"/>
+                <annoSet ID="8153"/>
+                <annoSet ID="9074"/>
+                <annoSet ID="9097"/>
+                <annoSet ID="9106"/>
+                <annoSet ID="9228"/>
+                <annoSet ID="9261"/>
+                <annoSet ID="9270"/>
+                <annoSet ID="10311"/>
+                <annoSet ID="10380"/>
+                <annoSet ID="13959"/>
+                <annoSet ID="14217"/>
+                <annoSet ID="14609"/>
+                <annoSet ID="14614"/>
+                <annoSet ID="14625"/>
+                <annoSet ID="14636"/>
+                <annoSet ID="15454"/>
+                <annoSet ID="16130"/>
+                <annoSet ID="16774"/>
+                <annoSet ID="16781"/>
+                <annoSet ID="16783"/>
+                <annoSet ID="16796"/>
+                <annoSet ID="16857"/>
+                <annoSet ID="17290"/>
+                <annoSet ID="17298"/>
+                <annoSet ID="17419"/>
+                <annoSet ID="17712"/>
+                <annoSet ID="18665"/>
+                <annoSet ID="20331"/>
+                <annoSet ID="20334"/>
+                <annoSet ID="24532"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="83">
+            <FE name="Goods"/>
+            <pattern total="28">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="4509"/>
+                <annoSet ID="4513"/>
+                <annoSet ID="4517"/>
+                <annoSet ID="4519"/>
+                <annoSet ID="6791"/>
+                <annoSet ID="7285"/>
+                <annoSet ID="8138"/>
+                <annoSet ID="9097"/>
+                <annoSet ID="9270"/>
+                <annoSet ID="10380"/>
+                <annoSet ID="13904"/>
+                <annoSet ID="14233"/>
+                <annoSet ID="14614"/>
+                <annoSet ID="14623"/>
+                <annoSet ID="14636"/>
+                <annoSet ID="16774"/>
+                <annoSet ID="16781"/>
+                <annoSet ID="16783"/>
+                <annoSet ID="16785"/>
+                <annoSet ID="16857"/>
+                <annoSet ID="17298"/>
+                <annoSet ID="17419"/>
+                <annoSet ID="17712"/>
+                <annoSet ID="18665"/>
+                <annoSet ID="19408"/>
+                <annoSet ID="19471"/>
+                <annoSet ID="20331"/>
+                <annoSet ID="20334"/>
+            </pattern>
+            <pattern total="55">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="523"/>
+                <annoSet ID="4516"/>
+                <annoSet ID="6140"/>
+                <annoSet ID="6145"/>
+                <annoSet ID="6216"/>
+                <annoSet ID="6226"/>
+                <annoSet ID="6231"/>
+                <annoSet ID="6785"/>
+                <annoSet ID="6790"/>
+                <annoSet ID="6797"/>
+                <annoSet ID="6804"/>
+                <annoSet ID="6806"/>
+                <annoSet ID="7282"/>
+                <annoSet ID="7288"/>
+                <annoSet ID="7304"/>
+                <annoSet ID="7305"/>
+                <annoSet ID="7306"/>
+                <annoSet ID="7309"/>
+                <annoSet ID="8153"/>
+                <annoSet ID="9074"/>
+                <annoSet ID="9106"/>
+                <annoSet ID="9228"/>
+                <annoSet ID="9238"/>
+                <annoSet ID="9261"/>
+                <annoSet ID="9458"/>
+                <annoSet ID="10283"/>
+                <annoSet ID="10303"/>
+                <annoSet ID="10306"/>
+                <annoSet ID="10309"/>
+                <annoSet ID="10311"/>
+                <annoSet ID="13547"/>
+                <annoSet ID="13905"/>
+                <annoSet ID="13906"/>
+                <annoSet ID="13911"/>
+                <annoSet ID="13959"/>
+                <annoSet ID="14217"/>
+                <annoSet ID="14319"/>
+                <annoSet ID="14345"/>
+                <annoSet ID="14363"/>
+                <annoSet ID="14609"/>
+                <annoSet ID="14625"/>
+                <annoSet ID="15454"/>
+                <annoSet ID="16130"/>
+                <annoSet ID="16463"/>
+                <annoSet ID="16792"/>
+                <annoSet ID="16796"/>
+                <annoSet ID="17290"/>
+                <annoSet ID="17408"/>
+                <annoSet ID="20314"/>
+                <annoSet ID="20548"/>
+                <annoSet ID="23597"/>
+                <annoSet ID="23598"/>
+                <annoSet ID="23604"/>
+                <annoSet ID="23607"/>
+                <annoSet ID="24532"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="83">
+            <FE name="Money"/>
+            <pattern total="67">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="4509"/>
+                <annoSet ID="4513"/>
+                <annoSet ID="4516"/>
+                <annoSet ID="4517"/>
+                <annoSet ID="4519"/>
+                <annoSet ID="6140"/>
+                <annoSet ID="6145"/>
+                <annoSet ID="6216"/>
+                <annoSet ID="6226"/>
+                <annoSet ID="6231"/>
+                <annoSet ID="6785"/>
+                <annoSet ID="6790"/>
+                <annoSet ID="6791"/>
+                <annoSet ID="6797"/>
+                <annoSet ID="7282"/>
+                <annoSet ID="7285"/>
+                <annoSet ID="7288"/>
+                <annoSet ID="7304"/>
+                <annoSet ID="7305"/>
+                <annoSet ID="7306"/>
+                <annoSet ID="7309"/>
+                <annoSet ID="8138"/>
+                <annoSet ID="8153"/>
+                <annoSet ID="9074"/>
+                <annoSet ID="9261"/>
+                <annoSet ID="9458"/>
+                <annoSet ID="10283"/>
+                <annoSet ID="10303"/>
+                <annoSet ID="10306"/>
+                <annoSet ID="10309"/>
+                <annoSet ID="10311"/>
+                <annoSet ID="10380"/>
+                <annoSet ID="13547"/>
+                <annoSet ID="13904"/>
+                <annoSet ID="13906"/>
+                <annoSet ID="13911"/>
+                <annoSet ID="13959"/>
+                <annoSet ID="14217"/>
+                <annoSet ID="14319"/>
+                <annoSet ID="14345"/>
+                <annoSet ID="14363"/>
+                <annoSet ID="14609"/>
+                <annoSet ID="14614"/>
+                <annoSet ID="14623"/>
+                <annoSet ID="14625"/>
+                <annoSet ID="14636"/>
+                <annoSet ID="15454"/>
+                <annoSet ID="16463"/>
+                <annoSet ID="16774"/>
+                <annoSet ID="16781"/>
+                <annoSet ID="16783"/>
+                <annoSet ID="16785"/>
+                <annoSet ID="16792"/>
+                <annoSet ID="16796"/>
+                <annoSet ID="17290"/>
+                <annoSet ID="17408"/>
+                <annoSet ID="17419"/>
+                <annoSet ID="17712"/>
+                <annoSet ID="19408"/>
+                <annoSet ID="19471"/>
+                <annoSet ID="20331"/>
+                <annoSet ID="20548"/>
+                <annoSet ID="23598"/>
+                <annoSet ID="23604"/>
+                <annoSet ID="23607"/>
+                <annoSet ID="24530"/>
+                <annoSet ID="24532"/>
+            </pattern>
+            <pattern total="16">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="6804"/>
+                <annoSet ID="6806"/>
+                <annoSet ID="9097"/>
+                <annoSet ID="9106"/>
+                <annoSet ID="9228"/>
+                <annoSet ID="9238"/>
+                <annoSet ID="9270"/>
+                <annoSet ID="13905"/>
+                <annoSet ID="14233"/>
+                <annoSet ID="16130"/>
+                <annoSet ID="16857"/>
+                <annoSet ID="17298"/>
+                <annoSet ID="18665"/>
+                <annoSet ID="20314"/>
+                <annoSet ID="20334"/>
+                <annoSet ID="23597"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Rate"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Rate"/>
+                <annoSet ID="523"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Rate"/>
+                <annoSet ID="9228"/>
+                <annoSet ID="17298"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="84">
+            <FE name="Seller"/>
+            <pattern total="24">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="523"/>
+                <annoSet ID="4509"/>
+                <annoSet ID="4513"/>
+                <annoSet ID="6140"/>
+                <annoSet ID="6216"/>
+                <annoSet ID="6790"/>
+                <annoSet ID="7288"/>
+                <annoSet ID="7304"/>
+                <annoSet ID="7305"/>
+                <annoSet ID="8153"/>
+                <annoSet ID="9097"/>
+                <annoSet ID="9238"/>
+                <annoSet ID="10306"/>
+                <annoSet ID="10309"/>
+                <annoSet ID="14609"/>
+                <annoSet ID="14614"/>
+                <annoSet ID="14623"/>
+                <annoSet ID="16463"/>
+                <annoSet ID="16792"/>
+                <annoSet ID="17712"/>
+                <annoSet ID="20334"/>
+                <annoSet ID="23597"/>
+                <annoSet ID="23598"/>
+                <annoSet ID="24532"/>
+            </pattern>
+            <pattern total="60">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="4516"/>
+                <annoSet ID="4517"/>
+                <annoSet ID="4519"/>
+                <annoSet ID="6145"/>
+                <annoSet ID="6226"/>
+                <annoSet ID="6231"/>
+                <annoSet ID="6785"/>
+                <annoSet ID="6791"/>
+                <annoSet ID="6797"/>
+                <annoSet ID="6804"/>
+                <annoSet ID="6806"/>
+                <annoSet ID="7282"/>
+                <annoSet ID="7285"/>
+                <annoSet ID="7306"/>
+                <annoSet ID="7309"/>
+                <annoSet ID="8138"/>
+                <annoSet ID="9074"/>
+                <annoSet ID="9106"/>
+                <annoSet ID="9228"/>
+                <annoSet ID="9261"/>
+                <annoSet ID="9270"/>
+                <annoSet ID="9458"/>
+                <annoSet ID="10283"/>
+                <annoSet ID="10303"/>
+                <annoSet ID="10311"/>
+                <annoSet ID="10380"/>
+                <annoSet ID="13547"/>
+                <annoSet ID="13904"/>
+                <annoSet ID="13905"/>
+                <annoSet ID="13906"/>
+                <annoSet ID="13911"/>
+                <annoSet ID="13959"/>
+                <annoSet ID="14217"/>
+                <annoSet ID="14233"/>
+                <annoSet ID="14319"/>
+                <annoSet ID="14345"/>
+                <annoSet ID="14363"/>
+                <annoSet ID="14625"/>
+                <annoSet ID="14636"/>
+                <annoSet ID="15454"/>
+                <annoSet ID="16130"/>
+                <annoSet ID="16774"/>
+                <annoSet ID="16781"/>
+                <annoSet ID="16783"/>
+                <annoSet ID="16785"/>
+                <annoSet ID="16796"/>
+                <annoSet ID="16857"/>
+                <annoSet ID="17290"/>
+                <annoSet ID="17298"/>
+                <annoSet ID="17408"/>
+                <annoSet ID="17419"/>
+                <annoSet ID="18665"/>
+                <annoSet ID="19408"/>
+                <annoSet ID="19471"/>
+                <annoSet ID="20314"/>
+                <annoSet ID="20331"/>
+                <annoSet ID="20548"/>
+                <annoSet ID="23604"/>
+                <annoSet ID="23607"/>
+                <annoSet ID="24530"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="412">
+            <text>Du point de vue financier , l' association fonctionne essentiellement grâce à l' aide d' une subvention attribuée par le siège basé à Valenciennes ainsi qu' une cotisation de 17 euros par an et par adhérents .</text>
+            <annotationSet status="MANUAL" ID="523">
+                <layer rank="1" name="FE">
+                    <label end="206" start="198" name="Buyer"/>
+                    <label end="206" start="175" name="Rate"/>
+                    <label end="41" start="28" name="Seller"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="170" start="161" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3387">
+            <text>Plafond de la Sécurité sociale : le plafond de la Sécurité sociale , qui permet de calculer la cotisation d' assurance - vieillesse , ainsi que la pension de retraite du régime général , passe de 11 620 francs à 11 870 francs par mois .</text>
+            <annotationSet status="MANUAL" ID="4509">
+                <layer rank="1" name="FE">
+                    <label end="130" start="92" name="Money"/>
+                    <label end="130" start="109" name="Goods"/>
+                    <label end="65" start="47" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3390">
+            <text>Assurance - chômage : la cotisation des salariés à l' UNEDIC augmente de 0 , 06 point à compter du 1 janvier .</text>
+            <annotationSet status="MANUAL" ID="4513">
+                <layer rank="1" name="FE">
+                    <label end="47" start="40" name="Buyer"/>
+                    <label end="59" start="22" name="Money"/>
+                    <label end="18" start="0" name="Goods"/>
+                    <label end="59" start="51" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3391">
+            <text>La cotisation de l' employeur est revalorisée dans la même proportion .</text>
+            <annotationSet status="MANUAL" ID="4516">
+                <layer rank="1" name="FE">
+                    <label end="28" start="17" name="Buyer"/>
+                    <label end="28" start="0" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3392">
+            <text>Formation professionnelle : pour les entreprises de moins de dix salariés , une cotisation de 0 , 15 % de la masse salariale est créée .</text>
+            <annotationSet status="MANUAL" ID="4517">
+                <layer rank="1" name="FE">
+                    <label end="72" start="33" name="Buyer"/>
+                    <label end="123" start="76" name="Money"/>
+                    <label end="24" start="0" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3394">
+            <text>Cette hausse inclut l' accroissement de 0 , 15 % à 0 , 20 % de la cotisation destinée au congé individuel de formation .</text>
+            <annotationSet status="MANUAL" ID="4519">
+                <layer rank="1" name="FE">
+                    <label end="117" start="63" name="Money"/>
+                    <label end="117" start="89" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4367">
+            <text>Ils pourront remplir les formalités avec un seul document , diffusé à 13 millions d' exemplaires , et l' URSSAF se chargera pour eux de calculer les cotisations sociales dues , puis enverra la facture .</text>
+            <annotationSet status="MANUAL" ID="6140">
+                <layer rank="1" name="FE">
+                    <label end="131" start="129" name="Buyer"/>
+                    <label end="173" start="145" name="Money"/>
+                    <label end="110" start="102" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4371">
+            <text>Si le programme réussit , l' avantage fiscal accordé coûtera 3 milliards de francs aux finances publiques mais sera en partie compensé par des rentrées supplémentaires de cotisations sociales , de l' ordre de 1 , 3 à 1 , 5 milliard de francs .</text>
+            <annotationSet status="MANUAL" ID="6145">
+                <layer rank="1" name="FE">
+                    <label end="190" start="171" name="Money"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="181" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4417">
+            <text>Le décalage entre les dates auxquelles interviennent certaines dépenses ( le versement des retraites et des dotations aux hôpitaux , notamment ) et la collecte des cotisations auprès des employeurs explique l' irrégularité du profil de la trésorerie de la sécurité sociale .</text>
+            <annotationSet status="MANUAL" ID="6216">
+                <layer rank="1" name="FE">
+                    <label end="196" start="187" name="Buyer"/>
+                    <label end="174" start="164" name="Money"/>
+                    <label end="271" start="253" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="174" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4420">
+            <text>Les rentrées de cotisations du 5 janvier ont permis de revenir à une situation normale .</text>
+            <annotationSet status="MANUAL" ID="6226">
+                <layer rank="1" name="FE">
+                    <label end="26" start="16" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4425">
+            <text>D' ores et déjà , les entreprises dont l' effectif se situe entre 50 et 400 salariés acquittent leurs cotisations le 5 du mois au lieu du 15 et le versement des dotations aux hôpitaux a été modifié .</text>
+            <annotationSet status="MANUAL" ID="6231">
+                <layer rank="1" name="FE">
+                    <label end="100" start="96" name="Buyer"/>
+                    <label end="83" start="18" name="Buyer"/>
+                    <label end="112" start="96" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4777">
+            <text>A l' heure actuelle , les retraités " récupèrent " leurs cotisations au bout de dix ans en moyenne .</text>
+            <annotationSet status="MANUAL" ID="6785">
+                <layer rank="1" name="FE">
+                    <label end="55" start="51" name="Buyer"/>
+                    <label end="34" start="22" name="Buyer"/>
+                    <label end="67" start="51" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4779">
+            <text>Si l' on compare l' ensemble des cotisations versées par les anciens salariés durant leur vie active et le total des pensions perçues ( qu' il s' agisse de la sécurité sociale ou des régimes complémentaires ) , peu de différences apparaissent entre catégories socio - professionnelles .</text>
+            <annotationSet status="MANUAL" ID="6790">
+                <layer rank="1" name="FE">
+                    <label end="76" start="57" name="Buyer"/>
+                    <label end="99" start="33" name="Money"/>
+                    <label end="177" start="156" name="Seller"/>
+                    <label end="205" start="183" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4780">
+            <text>Dix années suffisent aux anciens ouvriers et employés pour toucher des pensions de retraite égales au total des cotisations versées .</text>
+            <annotationSet status="MANUAL" ID="6791">
+                <layer rank="1" name="FE">
+                    <label end="52" start="25" name="Buyer"/>
+                    <label end="130" start="112" name="Money"/>
+                    <label end="110" start="67" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4783">
+            <text>En revanche , les cadres supérieurs , qui bénéficient d' une espérance de vie plus longue ( statistiquement , la durée de leur retraite est proche de dix - huit ans contre un peu plus de quatorze ans pour un ouvrier ) , " récupèrent " au total 160 % de leurs cotisations contre 140 % pour les ouvriers .</text>
+            <annotationSet status="MANUAL" ID="6797">
+                <layer rank="1" name="FE">
+                    <label end="257" start="253" name="Buyer"/>
+                    <label end="88" start="14" name="Buyer"/>
+                    <label end="269" start="253" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="269" start="259" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4786">
+            <text>Enfin , le CERC rappelle qu' un allongement de la durée de cotisation ( qui passerait de trente - sept années et demie aujourd' hui à quarante ou quarante - deux ans ) avantagerait relativement les non- cadres , dont la durée de cotisation est actuellement de quarante ans .</text>
+            <annotationSet status="MANUAL" ID="6804">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4786">
+            <text>Enfin , le CERC rappelle qu' un allongement de la durée de cotisation ( qui passerait de trente - sept années et demie aujourd' hui à quarante ou quarante - deux ans ) avantagerait relativement les non- cadres , dont la durée de cotisation est actuellement de quarante ans .</text>
+            <annotationSet status="MANUAL" ID="6806">
+                <layer rank="1" name="FE">
+                    <label end="215" start="212" name="Buyer"/>
+                    <label end="271" start="194" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="238" start="229" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5055">
+            <text>Les choses se sont gâtées une première fois avec l' obligation de faire apparaître , sur le bulletin de paie , les versements patronaux ( Sécu , retraite complémentaire , chômage ) - ces cotisations étant donc bien du " salaire différé " .</text>
+            <annotationSet status="MANUAL" ID="7282">
+                <layer rank="1" name="FE">
+                    <label end="134" start="126" name="Buyer"/>
+                    <label end="197" start="183" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5055">
+            <text>Les choses se sont gâtées une première fois avec l' obligation de faire apparaître , sur le bulletin de paie , les versements patronaux ( Sécu , retraite complémentaire , chômage ) - ces cotisations étant donc bien du " salaire différé " .</text>
+            <annotationSet status="MANUAL" ID="7285">
+                <layer rank="1" name="FE">
+                    <label end="134" start="126" name="Buyer"/>
+                    <label end="197" start="183" name="Money"/>
+                    <label end="177" start="138" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="197" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5056">
+            <text>Ça obligeait à des calculs supplémentaires , car jusqu' ici ces chiffres n' apparaissaient nulle part , puisque les versements trimestriels à l' URSSAF comprenaient , indistinctes , les cotisations patronales et salariales .</text>
+            <annotationSet status="MANUAL" ID="7288">
+                <layer rank="1" name="FE">
+                    <label end="221" start="198" name="Buyer"/>
+                    <label end="221" start="182" name="Money"/>
+                    <label end="150" start="142" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5068">
+            <text>Un de nos lecteurs , retraité et polytechnicien , a écrit à l' URSSAF pour faire remarquer que calculer les cotisations à partir du salaire net ( après déduction des cotisations salariales ) en ignorant complètement le salaire brut n' était sans doute pas la meilleure façon de procéder .</text>
+            <annotationSet status="MANUAL" ID="7304">
+                <layer rank="1" name="FE">
+                    <label end="187" start="178" name="Buyer"/>
+                    <label end="187" start="166" name="Money"/>
+                    <label end="68" start="60" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="176" start="166" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5068">
+            <text>Un de nos lecteurs , retraité et polytechnicien , a écrit à l' URSSAF pour faire remarquer que calculer les cotisations à partir du salaire net ( après déduction des cotisations salariales ) en ignorant complètement le salaire brut n' était sans doute pas la meilleure façon de procéder .</text>
+            <annotationSet status="MANUAL" ID="7305">
+                <layer rank="1" name="FE">
+                    <label end="118" start="104" name="Money"/>
+                    <label end="68" start="60" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5068">
+            <text>Un de nos lecteurs , retraité et polytechnicien , a écrit à l' URSSAF pour faire remarquer que calculer les cotisations à partir du salaire net ( après déduction des cotisations salariales ) en ignorant complètement le salaire brut n' était sans doute pas la meilleure façon de procéder .</text>
+            <annotationSet status="MANUAL" ID="7306">
+                <layer rank="1" name="FE">
+                    <label end="118" start="104" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5068">
+            <text>Un de nos lecteurs , retraité et polytechnicien , a écrit à l' URSSAF pour faire remarquer que calculer les cotisations à partir du salaire net ( après déduction des cotisations salariales ) en ignorant complètement le salaire brut n' était sans doute pas la meilleure façon de procéder .</text>
+            <annotationSet status="MANUAL" ID="7309">
+                <layer rank="1" name="FE">
+                    <label end="187" start="178" name="Buyer"/>
+                    <label end="187" start="166" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="176" start="166" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5577">
+            <text>En dépit des mesures de rétorsion ( gel de la revalorisation de la tarification de la visite à domicile des médecins et des petits actes chirurgicaux ) ou des menaces à peine voilées ( sanctions contre les praticiens coupables de dépassements " sauvages " d' honoraires , augmentation des cotisations de retraite des médecins ) , il n' impose aucune véritable date - butoir .</text>
+            <annotationSet status="MANUAL" ID="8138">
+                <layer rank="1" name="FE">
+                    <label end="324" start="317" name="Buyer"/>
+                    <label end="324" start="289" name="Money"/>
+                    <label end="311" start="304" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="299" start="289" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5583">
+            <text>En second lieu , les répercussions du ralentissement économique et de la montée du chômage sur les rentrées de cotisations , qui vont se traduire dans les prochains jours par un découvert de 30 milliards de francs de la trésorerie de la " Sécu " , justifient encore davantage une maîtrise durable des dépenses .</text>
+            <annotationSet status="MANUAL" ID="8153">
+                <layer rank="1" name="FE">
+                    <label end="121" start="111" name="Money"/>
+                    <label end="244" start="234" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6108">
+            <text>M. Jean Domange , président de la commission sociale du CNPF , n' a pas obtenu de ses pairs de pouvoir discuter d' une éventuelle augmentation des cotisations , alors qu' on sait qu' une hausse de 1 % " rapporterait " 14 milliards la première année .</text>
+            <annotationSet status="MANUAL" ID="9074">
+                <layer rank="1" name="FE">
+                    <label end="157" start="147" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6119">
+            <text>Ainsi , l' instauration de délais de carence dans le versement d' allocations ou l' ajustement entre les durées de cotisations et d' indemnisation pourrait se révéler catastrophique si l'on se souvient , comme le note la CFTC , que 70 % des licenciés d' aujourd' hui ont cotisé à l' UNEDIC pendant moins de deux ans .</text>
+            <annotationSet status="MANUAL" ID="9097">
+                <layer rank="1" name="FE">
+                    <label end="145" start="133" name="Goods"/>
+                    <label end="288" start="280" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6121">
+            <text>Enfin , les dispositions envisagées - hors cotisation - n' auront pas d' effet immédiat sur les finances du régime .</text>
+            <annotationSet status="MANUAL" ID="9106">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6202">
+            <text>Fixée au 17 juillet , cette ultime rencontre devrait permettre d' aboutir à un accord instaurant une cotisation temporaire .</text>
+            <annotationSet status="MANUAL" ID="9228">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Rate"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6207">
+            <text>Alors que les syndicalistes attendaient une telle déclaration depuis le 23 juin ( le monde du 4 juillet ) , il a expliqué qu' il n' était pas opposé , sur le principe , " à une cotisation temporaire " répartie à 50 % entre les salariés et les employeurs , afin de résoudre les difficultés de trésorerie de l' UNEDIC .</text>
+            <annotationSet status="MANUAL" ID="9238">
+                <layer rank="1" name="FE">
+                    <label end="252" start="223" name="Buyer"/>
+                    <label end="314" start="306" name="Seller"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6214">
+            <text>Pourquoi ne pas imaginer , dans ces conditions , une hausse de la cotisation qui pourrait être temporaire ou dégressive , pour s' aligner sur la montée en charge des recettes et des économies nouvelles ?</text>
+            <annotationSet status="MANUAL" ID="9261">
+                <layer rank="1" name="FE">
+                    <label end="75" start="63" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6219">
+            <text>De même , l' alignement du temps de cotisation sur celui de l' indemnisation devrait entraîner l' exclusion de 112 000 chômeurs que l' Etat devra récupérer dans son propre dispositif .</text>
+            <annotationSet status="MANUAL" ID="9270">
+                <layer rank="1" name="FE">
+                    <label end="75" start="60" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6331">
+            <text>Tandis que les salariés paieront les 25 milliards de deutschemarks du dispositif par des cotisations , les entreprises , considérées déjà lourdement chargées de coûts sociaux , ont été dispensées .</text>
+            <annotationSet status="MANUAL" ID="9458">
+                <layer rank="1" name="FE">
+                    <label end="22" start="11" name="Buyer"/>
+                    <label end="79" start="33" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6930">
+            <text>Préretraite à 55 ans , " en conformité avec le plafond communautaire , soit 70 000 francs par an " , exonération fiscale " totale jusqu' à 8 000 francs , et un abattement de 50 % au - delà " lors de la transmission des biens ; démantèlement de la taxe sur le foncier non bâti ; allègement des cotisations sociales , telles sont depuis quelques années " les priorités des priorités " .</text>
+            <annotationSet status="MANUAL" ID="10283">
+                <layer rank="1" name="FE">
+                    <label end="312" start="305" name="Buyer"/>
+                    <label end="312" start="293" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="303" start="293" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6941">
+            <text>Cette position de principe souffre en réalité quelques infléchissements : si , sur un budget avoué de 56 millions de francs , 80 % sont assurés par les cotisations des agriculteurs , 20 % le sont par l' Etat directement ou indirectement .</text>
+            <annotationSet status="MANUAL" ID="10303">
+                <layer rank="1" name="FE">
+                    <label end="179" start="168" name="Buyer"/>
+                    <label end="179" start="148" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6943">
+            <text>Concrètement , les agriculteurs versent une cotisation à leur fédération départementale , qui en transmet une partie à la fédération nationale .</text>
+            <annotationSet status="MANUAL" ID="10306">
+                <layer rank="1" name="FE">
+                    <label end="30" start="15" name="Buyer"/>
+                    <label end="53" start="40" name="Money"/>
+                    <label end="141" start="57" name="Seller"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6946">
+            <text>L' Association des éleveurs de poissons rouges ( sic ) , par exemple , verse automatiquement une partie non négligeable de ses cotisations à la FNSEA : en fait , toutes ces associations spécialisées constituent des sortes de filiales de la fédération .</text>
+            <annotationSet status="MANUAL" ID="10309">
+                <layer rank="1" name="FE">
+                    <label end="125" start="123" name="Buyer"/>
+                    <label end="45" start="0" name="Buyer"/>
+                    <label end="137" start="123" name="Money"/>
+                    <label end="148" start="141" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6947">
+            <text>Il s' agit là des cotisations dites " indirectes " .</text>
+            <annotationSet status="MANUAL" ID="10311">
+                <layer rank="1" name="FE">
+                    <label end="49" start="18" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7001">
+            <text>Toutefois , les retraités , contrairement aux actifs , n' ont pas été concernés par le relèvement de 0 , 9 point de la cotisation d' assurance - maladie en juillet 1991 .</text>
+            <annotationSet status="MANUAL" ID="10380">
+                <layer rank="1" name="FE">
+                    <label end="151" start="116" name="Money"/>
+                    <label end="151" start="133" name="Goods"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="128" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9583">
+            <text>Les experts du Plan font ici une proposition originale : ils proposent une franchise des cotisations sociales dues par l' employeur sur les 1 000 premiers francs mensuels de salaire .</text>
+            <annotationSet status="MANUAL" ID="13547">
+                <layer rank="1" name="FE">
+                    <label end="130" start="119" name="Buyer"/>
+                    <label end="130" start="89" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9885">
+            <text>D' autre part , opérer un abattement mensuel uniforme de 500 francs par salarié du secteur marchand sur les cotisations patronales de sécurité sociale .</text>
+            <annotationSet status="MANUAL" ID="13904">
+                <layer rank="1" name="FE">
+                    <label end="129" start="120" name="Buyer"/>
+                    <label end="149" start="104" name="Money"/>
+                    <label end="149" start="134" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9886">
+            <text>Les ressources de la sécurité sociale seraient , à effectifs constants de salariés donnant actuellement lieu à cotisation patronale , réduites par là annuellement de 80 milliards environ .</text>
+            <annotationSet status="MANUAL" ID="13905">
+                <layer rank="1" name="FE">
+                    <label end="130" start="122" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9887">
+            <text>On compenserait intégralement cette perte par une hausse des cotisations patronales , qui devrait être de 4 points .</text>
+            <annotationSet status="MANUAL" ID="13906">
+                <layer rank="1" name="FE">
+                    <label end="82" start="73" name="Buyer"/>
+                    <label end="82" start="61" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9890">
+            <text>Au - delà , le montant de la cotisation patronale se trouverait progressivement augmenté .</text>
+            <annotationSet status="MANUAL" ID="13911">
+                <layer rank="1" name="FE">
+                    <label end="48" start="40" name="Buyer"/>
+                    <label end="48" start="26" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9931">
+            <text>Il ne saurait être question de convertir de telles réductions de cotisations en salaire direct .</text>
+            <annotationSet status="MANUAL" ID="13959">
+                <layer rank="1" name="FE">
+                    <label end="75" start="65" name="Money"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10119">
+            <text>En conséquence , elle estime , suivie notamment par la CFTC , que les gestionnaires devraient renoncer à la baisse des cotisations prévue pour le 1 janvier , la hausse de 0 , 8 % appliquée depuis le 1 août devant être initialement ramenée à 0 , 5 % .</text>
+            <annotationSet status="MANUAL" ID="14217">
+                <layer rank="1" name="FE">
+                    <label end="129" start="119" name="Money"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10127">
+            <text>Plus globalement , le premier ministre n' a pas écarté l' hypothèse d' une révision de la frontière entre l' assurance - chômage , financée par les cotisations salariales , et un système de solidarité nationale , supporté par le budget national .</text>
+            <annotationSet status="MANUAL" ID="14233">
+                <layer rank="1" name="FE">
+                    <label end="169" start="160" name="Buyer"/>
+                    <label end="142" start="106" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10194">
+            <text>Selon les comptes remis par ses gestionnaires , le montant des dettes atteint 12 , 2 millions de francs dont la moitié représente des cotisations sociales impayées .</text>
+            <annotationSet status="MANUAL" ID="14319">
+                <layer rank="1" name="FE">
+                    <label end="153" start="146" name="Buyer"/>
+                    <label end="162" start="130" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="134" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10209">
+            <text>Il fait état de 12 , 2 millions de francs de dettes , dont 6 , 4 millions de nature " fiscale et sociale " ( les gestionnaires cégétistes ne versaient plus depuis longtemps les cotisations sociales du personnel ) , estime à plus de 1 , 5 million de francs le découvert bancaire et précise que les fournisseurs réclament 2 , 9 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="14345">
+                <layer rank="1" name="FE">
+                    <label end="136" start="109" name="Buyer"/>
+                    <label end="209" start="173" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="187" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10219">
+            <text>A la CGT , on rétorque que le passif du comité d' établissement - y compris le non- versement des cotisations sociales - est " le résultat des suppressions massives d' effectifs " intervenues à l' usine de Billancourt .</text>
+            <annotationSet status="MANUAL" ID="14363">
+                <layer rank="1" name="FE">
+                    <label end="62" start="40" name="Buyer"/>
+                    <label end="117" start="98" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10416">
+            <text>L' avantage est évident : l' Etat pouvant s' endetter ( alors que la protection sociale ne peut pas le faire ) , le déficit budgétaire est politiquement moins douloureux que le creusement du " trou " du régime général qui , lui , exige d' être comblé en augmentant les cotisations ou en réduisant les dépenses .</text>
+            <annotationSet status="MANUAL" ID="14609">
+                <layer rank="1" name="FE">
+                    <label end="279" start="265" name="Money"/>
+                    <label end="216" start="203" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="279" start="269" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10418">
+            <text>Les derniers comptes de la sécurité sociale prévoyaient pour cette période un déficit de trésorerie de quelque 40 milliards de francs pendant quelques jours , en raison du décalage entre le versement des prestations et les rentrées de cotisations .</text>
+            <annotationSet status="MANUAL" ID="14614">
+                <layer rank="1" name="FE">
+                    <label end="245" start="235" name="Money"/>
+                    <label end="214" start="204" name="Goods"/>
+                    <label end="42" start="24" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="245" start="235" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10424">
+            <text>Malgré les fonds obtenus grâce à l' augmentation des prix du tabac , il manquera 20 à 25 milliards de francs pour boucler l' exercice et il faut s' attendre à une mesure de financement complémentaire dans les prochaines semaines , vraisemblablement sous la forme d' une augmentation de la cotisation d' assurance - vieillesse des actifs ( les retraites de la sécurité sociale accumulent chaque année un déficit de 20 milliards de francs ) .</text>
+            <annotationSet status="MANUAL" ID="14623">
+                <layer rank="1" name="FE">
+                    <label end="335" start="330" name="Buyer"/>
+                    <label end="335" start="286" name="Money"/>
+                    <label end="324" start="303" name="Goods"/>
+                    <label end="374" start="356" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="298" start="289" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10425">
+            <text>Une hausse d' un point de cette cotisation rapporterait quelque 16 milliards en année pleine .</text>
+            <annotationSet status="MANUAL" ID="14625">
+                <layer rank="1" name="FE">
+                    <label end="41" start="26" name="Money"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10429">
+            <text>Une session parlementaire extraordinaire permettrait de procéder à une éventuelle revalorisation de la cotisation d' assurance - vieillesse ( un simple décret est suffisant pour les salariés du secteur privé mais une loi doit intervenir pour l' appliquer aux agents de l' Etat ) , mais aussi de mettre un point final à l' adoption du Fonds de solidarité , une réforme qui ne rapporte aucun moyen financier mais " clarifie " le financement des retraites .</text>
+            <annotationSet status="MANUAL" ID="14636">
+                <layer rank="1" name="FE">
+                    <label end="138" start="100" name="Money"/>
+                    <label end="138" start="117" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11175">
+            <text>Mais l' effet des premières mesures d' augmentation de cotisations prises à l' été , estimé à 5 , 6 milliards , n' empêchait pas le trou d' atteindre 21 , 5 milliards à la fin novembre .</text>
+            <annotationSet status="MANUAL" ID="15454">
+                <layer rank="1" name="FE">
+                    <label end="65" start="55" name="Money"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11764">
+            <text>A l' issue de la précédente séance de négociations , le 22 décembre , les syndicats avaient jugé que " le prix à payer " en échange de la fixation d' un taux minimum de cotisation de 6 % était " totalement disproportionné " et avaient demandé au patronat de " modifier sérieusement ses propositions " ( le Monde du 25 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="16130">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="169" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12139">
+            <text>Cette politique de " désinflation des salaires " s' est accompagnée d' un véritable budget de crise destiné à réduire les dépenses - réduction des transferts aux collectivités locales , diminution des dépenses sociales et des dépenses militaires , gel de l' emploi dans le secteur public - mais aussi à accroître les recettes fiscales : relèvement des droits de timbre , prélèvements exceptionnels sur l' immobilier et les dépôts bancaires , majoration des cotisations de sécurité sociale des salariés .</text>
+            <annotationSet status="MANUAL" ID="16463">
+                <layer rank="1" name="FE">
+                    <label end="500" start="493" name="Buyer"/>
+                    <label end="500" start="457" name="Money"/>
+                    <label end="487" start="472" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="467" start="457" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12432">
+            <text>Comme chaque année , un certain nombre de prestations et de cotisations sociales sont revalorisées à compter du 1 janvier .</text>
+            <annotationSet status="MANUAL" ID="16774">
+                <layer rank="1" name="FE">
+                    <label end="79" start="60" name="Money"/>
+                    <label end="79" start="72" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12449">
+            <text>Cotisations d' assurance - chômage .</text>
+            <annotationSet status="MANUAL" ID="16781">
+                <layer rank="1" name="FE">
+                    <label end="35" start="0" name="Money"/>
+                    <label end="33" start="15" name="Goods"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12450">
+            <text>La hausse de 0 , 8 % de la cotisation d' assurance - chômage , en vigueur depuis le 1 août , est finalement maintenue jusqu' à la fin du mois de juin .</text>
+            <annotationSet status="MANUAL" ID="16783">
+                <layer rank="1" name="FE">
+                    <label end="59" start="24" name="Money"/>
+                    <label end="59" start="41" name="Goods"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12452">
+            <text>La cotisation d' assurance - chômage demeure fixée à 2 , 7 % pour les salariés et celle des employeurs à 3 , 63 % .</text>
+            <annotationSet status="MANUAL" ID="16785">
+                <layer rank="1" name="FE">
+                    <label end="80" start="66" name="Buyer"/>
+                    <label end="101" start="92" name="Buyer"/>
+                    <label end="35" start="0" name="Money"/>
+                    <label end="35" start="17" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12462">
+            <text>Réunis d' abord au siège du CNPF , le matin , le patronat et les syndicats ont abandonné pour six mois l' idée d' une baisse des cotisations à l' UNEDIC , qui devait ramener la hausse de 0 , 8 % , appliquée depuis le 1 août en vertu de l' accord du 18 juillet , à 0 , 5 % à partir du 1 janvier .</text>
+            <annotationSet status="MANUAL" ID="16792">
+                <layer rank="1" name="FE">
+                    <label end="56" start="46" name="Buyer"/>
+                    <label end="151" start="129" name="Money"/>
+                    <label end="151" start="143" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12464">
+            <text>Pour autant , sur l' instance des délégations d' employeurs , ils n' ont pas encore renoncé à la deuxième baisse prévue au 1 juillet 1993 , qui devait faire passer l' augmentation de cotisation à 0 , 3 % .</text>
+            <annotationSet status="MANUAL" ID="16796">
+                <layer rank="1" name="FE">
+                    <label end="192" start="183" name="Money"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="192" start="183" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12504">
+            <text>Si , après leur appel à l' aide adressé aux pouvoirs publics , les gestionnaires de l' assurance - chômage commencent à dire que " le compte n' y est pas " , c' est que , par l' effet mécanique de leurs propres décisions , ils entendaient provoquer un autre découpage entre ce qui relève de l' assurance , donc de la cotisation , et ce qui revient à la charge de la solidarité nationale , financée par le budget .</text>
+            <annotationSet status="MANUAL" ID="16857">
+                <layer rank="1" name="FE">
+                    <label end="302" start="291" name="Goods"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="326" start="317" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12954">
+            <text>Il lui faudra sans aucun doute adopter une mesure de financement complémentaire , sous la forme d' une hausse des cotisations ou de la contribution sociale généralisée ( CSG ) , qu' elle envisage de modifier mais non de supprimer .</text>
+            <annotationSet status="MANUAL" ID="17290">
+                <layer rank="1" name="FE">
+                    <label end="124" start="114" name="Money"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12958">
+            <text>Depuis longtemps , les spécialistes de la protection sociale savent que cet " acquis " n' est pas viable sur le long terme , mais à droite on reconnaît en privé qu' une telle mesure ( qui pourrait d' ailleurs intervenir sans revenir formellement sur l' âge de la retraite car il suffirait d' allonger la durée de cotisation nécessaire ) peut parfaitement attendre l' après - cohabitation .</text>
+            <annotationSet status="MANUAL" ID="17298">
+                <layer rank="1" name="FE">
+                    <label end="270" start="260" name="Goods"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Rate"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="322" start="313" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13042">
+            <text>Le financement de ces dépenses est assuré à 38 % par les pouvoirs publics , dont 33 , 8 % par le ministère du travail , le reste étant pris en charge par les employeurs et les salariés avec des cotisations ou les contributions aux régimes professionnels obligatoires .</text>
+            <annotationSet status="MANUAL" ID="17408">
+                <layer rank="1" name="FE">
+                    <label end="183" start="154" name="Buyer"/>
+                    <label end="265" start="190" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="204" start="194" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13052">
+            <text>Pour l' essentiel , elles se décomposent en 7 , 3 milliards de francs utilisés pour le redéploiement des contrats emploi - solidarité ( CES , ex- TUC ) et en 6 milliards de francs qui correspondent aux différentes formules d' exonération de cotisations sociales .</text>
+            <annotationSet status="MANUAL" ID="17419">
+                <layer rank="1" name="FE">
+                    <label end="251" start="241" name="Money"/>
+                    <label end="260" start="253" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="251" start="241" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13343">
+            <text>POUR FAIRE FACE AU DEFICIT DE L' UNEDIC , les partenaires sociaux réunis le 30 décembre renoncent à une baisse de la cotisation de l' assurance - chômage ( le Monde du 31 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="17712">
+                <layer rank="1" name="FE">
+                    <label end="152" start="114" name="Money"/>
+                    <label end="152" start="131" name="Goods"/>
+                    <label end="38" start="30" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14358">
+            <text>Applicable techniquement à compter du 1er juillet , l' exonération des cotisations d' allocations familiales ( 5 , 4 % ) , à 100 % pour les salaires s' élevant au maximum à 1 , 10 fois le SMIC , et à 50 % pour les salaires compris entre 1 , 10 et 1 , 20 fois le SMIC , se devait d' être simple pour faciliter l' abaissement du coût du travail .</text>
+            <annotationSet status="MANUAL" ID="18665">
+                <layer rank="1" name="FE">
+                    <label end="107" start="86" name="Goods"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15164">
+            <text>Une façon à peine voilée de laisser planer la menace d' une hausse autoritaire de leur cotisation d' assurance - chômage ?</text>
+            <annotationSet status="MANUAL" ID="19408">
+                <layer rank="1" name="FE">
+                    <label end="85" start="82" name="Buyer"/>
+                    <label end="119" start="82" name="Money"/>
+                    <label end="119" start="101" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15224">
+            <text>Les organisations patronales , a -t-il indiqué , doivent " aider le gouvernement à rendre plus sensibles " les chefs d' entreprise aux mesures adoptées ( baisses de la cotisation d' allocations familiales , allègement de la taxe professionnelle , aide financière pour le chômage partiel , aides à l' embauche et à la formation des jeunes ) .</text>
+            <annotationSet status="MANUAL" ID="19471">
+                <layer rank="1" name="FE">
+                    <label end="129" start="107" name="Buyer"/>
+                    <label end="203" start="165" name="Money"/>
+                    <label end="203" start="182" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="177" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16171">
+            <text>Difficiles , ces débats pourraient se conclure le 29 décembre par un accord sur la fixation d' un taux minimum de cotisation de 6 % , alors que la contribution patronale et salariale peut évoluer à l' intérieur d' une fourchette comprise entre 4 % et 8 % .</text>
+            <annotationSet status="MANUAL" ID="20314">
+                <layer rank="1" name="FE">
+                    <label end="181" start="160" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16176">
+            <text>Quant au déficit des retraites complémentaires , il n' existe pas , car les partenaires sociaux ont toujours trouvé les moyens de l' éviter en calculant la pension non pas sur les dix meilleures années mais sur l' ensemble de la carrière et en limitant le rendement des cotisations .</text>
+            <annotationSet status="MANUAL" ID="20331">
+                <layer rank="1" name="FE">
+                    <label end="280" start="270" name="Money"/>
+                    <label end="45" start="21" name="Goods"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="280" start="270" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16178">
+            <text>Les déclarations de Mme Nicole Notat , secrétaire générale de la CFDT , au Figaro du 23 décembre , en faveur d' une hausse de la contribution sociale généralisée ( CSG ) et d' un allongement de la durée de cotisation au - delà de trente - sept ans et demi pour les retraites de la " Sécu " , montrent que les syndicats finiront peut - être par se lasser de leur dédoublement de personnalité .</text>
+            <annotationSet status="MANUAL" ID="20334">
+                <layer rank="1" name="FE">
+                    <label end="288" start="261" name="Goods"/>
+                    <label end="288" start="278" name="Seller"/>
+                    <label itype="DNI" name="Buyer"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="215" start="206" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16367">
+            <text>Voici quelques semaines , l' union départementale CFDT s' était émue du retard de versement de cotisations patronales , pour un total de 12 millions de francs , dus au titre de dossiers ouvrant droit au versement de l' allocation de base .</text>
+            <annotationSet status="MANUAL" ID="20548">
+                <layer rank="1" name="FE">
+                    <label end="116" start="107" name="Buyer"/>
+                    <label end="116" start="95" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="ENI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19856">
+            <text>Première mesure concrète qui est entrée en application au 1 janvier , la refonte du système de cotisation des entreprises du bâtiment à la branche accidents du travail de la sécurité sociale , cotisation calculée , aujourd' hui , sur la base d' un taux collectif .</text>
+            <annotationSet status="MANUAL" ID="23597">
+                <layer rank="1" name="FE">
+                    <label end="132" start="110" name="Buyer"/>
+                    <label end="189" start="136" name="Seller"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19856">
+            <text>Première mesure concrète qui est entrée en application au 1 janvier , la refonte du système de cotisation des entreprises du bâtiment à la branche accidents du travail de la sécurité sociale , cotisation calculée , aujourd' hui , sur la base d' un taux collectif .</text>
+            <annotationSet status="MANUAL" ID="23598">
+                <layer rank="1" name="FE">
+                    <label end="132" start="110" name="Buyer"/>
+                    <label end="261" start="193" name="Money"/>
+                    <label end="189" start="136" name="Seller"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19859">
+            <text>Les cotisations des entreprises de plus de 300 salariés seront désormais calculées sur la base du nombre d' accidents qu' elles auront effectivement déclaré .</text>
+            <annotationSet status="MANUAL" ID="23604">
+                <layer rank="1" name="FE">
+                    <label end="54" start="20" name="Buyer"/>
+                    <label end="54" start="0" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19860">
+            <text>Tandis que les PME de moins de 20 salariés continueront d' être prélevées sur la base d' un taux collectif , la cotisation des entreprises employant de 20 à 299 salariés sera évaluée sur la base d' un taux mixte ( 1 ) .</text>
+            <annotationSet status="MANUAL" ID="23607">
+                <layer rank="1" name="FE">
+                    <label end="168" start="127" name="Buyer"/>
+                    <label end="168" start="109" name="Money"/>
+                    <label itype="ENI" name="Goods"/>
+                    <label itype="DNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20993">
+            <text>Il réclame donc " une redéfinition de la frontière entre l' assurance et la solidarité " , l' une supportée par les cotisations salariales , l' autre par le budget de l' Etat .</text>
+            <annotationSet status="MANUAL" ID="24530">
+                <layer rank="1" name="FE">
+                    <label end="137" start="128" name="Buyer"/>
+                    <label end="137" start="112" name="Money"/>
+                    <label itype="UNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20994">
+            <text>Mais il ne juge pas nécessaire de renoncer à la baisse des cotisations de 0 , 3 % prévue pour le 1er janvier par l' accord du 18 juillet , qui était censé sauver l' UNEDIC de la faillite .</text>
+            <annotationSet status="MANUAL" ID="24532">
+                <layer rank="1" name="FE">
+                    <label end="69" start="59" name="Money"/>
+                    <label end="170" start="162" name="Seller"/>
+                    <label itype="ENI" name="Buyer"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

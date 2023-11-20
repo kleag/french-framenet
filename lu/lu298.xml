@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="reprendre.v" ID="298" frame="Commerce_buy" frameID="171" totalAnnotated="38" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Peripheral" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Peripheral" abbrev="" name="Recipient"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="38">
+            <FE name="Buyer"/>
+            <pattern total="36">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="5199"/>
+                <annoSet ID="6562"/>
+                <annoSet ID="7059"/>
+                <annoSet ID="7571"/>
+                <annoSet ID="7622"/>
+                <annoSet ID="8365"/>
+                <annoSet ID="8966"/>
+                <annoSet ID="9033"/>
+                <annoSet ID="9314"/>
+                <annoSet ID="10743"/>
+                <annoSet ID="12212"/>
+                <annoSet ID="12216"/>
+                <annoSet ID="12437"/>
+                <annoSet ID="12438"/>
+                <annoSet ID="12593"/>
+                <annoSet ID="14262"/>
+                <annoSet ID="14275"/>
+                <annoSet ID="14278"/>
+                <annoSet ID="14279"/>
+                <annoSet ID="14295"/>
+                <annoSet ID="14501"/>
+                <annoSet ID="14503"/>
+                <annoSet ID="14507"/>
+                <annoSet ID="14509"/>
+                <annoSet ID="14535"/>
+                <annoSet ID="14821"/>
+                <annoSet ID="14861"/>
+                <annoSet ID="15783"/>
+                <annoSet ID="16480"/>
+                <annoSet ID="16497"/>
+                <annoSet ID="16505"/>
+                <annoSet ID="16991"/>
+                <annoSet ID="18062"/>
+                <annoSet ID="18097"/>
+                <annoSet ID="18153"/>
+                <annoSet ID="18185"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="4111"/>
+                <annoSet ID="9179"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="38">
+            <FE name="Goods"/>
+            <pattern total="38">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="4111"/>
+                <annoSet ID="5199"/>
+                <annoSet ID="6562"/>
+                <annoSet ID="7059"/>
+                <annoSet ID="7571"/>
+                <annoSet ID="7622"/>
+                <annoSet ID="8365"/>
+                <annoSet ID="8966"/>
+                <annoSet ID="9033"/>
+                <annoSet ID="9179"/>
+                <annoSet ID="9314"/>
+                <annoSet ID="10743"/>
+                <annoSet ID="12212"/>
+                <annoSet ID="12216"/>
+                <annoSet ID="12437"/>
+                <annoSet ID="12438"/>
+                <annoSet ID="12593"/>
+                <annoSet ID="14262"/>
+                <annoSet ID="14275"/>
+                <annoSet ID="14278"/>
+                <annoSet ID="14279"/>
+                <annoSet ID="14295"/>
+                <annoSet ID="14501"/>
+                <annoSet ID="14503"/>
+                <annoSet ID="14507"/>
+                <annoSet ID="14509"/>
+                <annoSet ID="14535"/>
+                <annoSet ID="14821"/>
+                <annoSet ID="14861"/>
+                <annoSet ID="15783"/>
+                <annoSet ID="16480"/>
+                <annoSet ID="16497"/>
+                <annoSet ID="16505"/>
+                <annoSet ID="16991"/>
+                <annoSet ID="18062"/>
+                <annoSet ID="18097"/>
+                <annoSet ID="18153"/>
+                <annoSet ID="18185"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Money"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="5199"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Recipient"/>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Seller"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="5199"/>
+                <annoSet ID="6562"/>
+                <annoSet ID="7571"/>
+                <annoSet ID="12212"/>
+                <annoSet ID="12216"/>
+                <annoSet ID="12437"/>
+                <annoSet ID="12438"/>
+                <annoSet ID="14262"/>
+                <annoSet ID="14279"/>
+                <annoSet ID="14821"/>
+                <annoSet ID="16497"/>
+                <annoSet ID="16991"/>
+                <annoSet ID="18097"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3183">
+            <text>Ce bon résultat concerne les marques VW , Audi et Seat - à l' exclusion du constructeur tchécoslovaque Skoda , repris l' an dernier - et doit l' essentiel de sa progression à l' explosion des ventes en Allemagne , sous l' impulsion de la réunification .</text>
+            <annotationSet status="MANUAL" ID="4111">
+                <layer rank="1" name="FE">
+                    <label end="109" start="75" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3793">
+            <text>Grand Metropolitan , qui contrôlait déjà 25 % du capital de la firme , a repris pour un montant non déterminé les 75 % restants , jusqu' ici détenus par la famille Cinzano Marone et l' INFINT , la société d' investissement de la famille Agnelli .</text>
+            <annotationSet status="MANUAL" ID="5199">
+                <layer rank="1" name="FE">
+                    <label end="67" start="0" name="Buyer"/>
+                    <label end="108" start="85" name="Money"/>
+                    <label end="243" start="110" name="Goods"/>
+                    <label end="243" start="153" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4640">
+            <text>En Hongrie , elle a repris la branche " glaces de consommation " de la société laitière étatique VMTV , à Veszprem , à une centaine de kilomètres au sud - ouest de Budapest .</text>
+            <annotationSet status="MANUAL" ID="6562">
+                <layer rank="1" name="FE">
+                    <label end="16" start="13" name="Buyer"/>
+                    <label end="100" start="27" name="Goods"/>
+                    <label end="100" start="68" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4927">
+            <text>L' accord de garantie de change aujourd' hui incriminé a été conclu lorsque Daimler - Benz a repris MBB , le principal constructeur d' avions allemand , et par voie de conséquence Deutsche Airbus , le partenaire allemand dans le consortium Airbus Industrie .</text>
+            <annotationSet status="MANUAL" ID="7059">
+                <layer rank="1" name="FE">
+                    <label end="89" start="76" name="Buyer"/>
+                    <label end="255" start="100" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5221">
+            <text>Une société en commandite est constituée pour reprendre les actifs de ce groupe coopératif qui représente 10 % de la collecte de lait en France .</text>
+            <annotationSet status="MANUAL" ID="7571">
+                <layer rank="1" name="FE">
+                    <label end="24" start="0" name="Buyer"/>
+                    <label end="142" start="56" name="Goods"/>
+                    <label end="142" start="70" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5256">
+            <text>La succession de M. Michel Besnier pose problème puisque cette société , uniquement familiale et non cotée en Bourse , a une taille trop importante ( 19 milliards de francs de chiffre d' affaires ) pour être reprise par un groupe français .</text>
+            <annotationSet status="MANUAL" ID="7622">
+                <layer rank="1" name="FE">
+                    <label end="237" start="220" name="Buyer"/>
+                    <label end="115" start="57" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="214" start="208" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5698">
+            <text>- repris par Ferruzzi en février , Ducros , leader européen des épices , table sur un retour aux bénéfices dès 1993 , dans le cadre d' un plan de restructuration décidé vendredi 26 juin en comité central d' entreprise .</text>
+            <annotationSet status="MANUAL" ID="8365">
+                <layer rank="1" name="FE">
+                    <label end="20" start="13" name="Buyer"/>
+                    <label end="69" start="35" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="2" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6043">
+            <text>" Si j' avais su les controverses que cette affaire allait susciter , déclarait récemment M. James Bell , président de la filiale américaine de Thomson , je n' aurais pas recommandé de chercher à tout prix à reprendre LTV . "</text>
+            <annotationSet status="MANUAL" ID="8966">
+                <layer rank="1" name="FE">
+                    <label end="150" start="144" name="Buyer"/>
+                    <label end="220" start="218" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="216" start="208" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6078">
+            <text>Matra , qui a repris en 1986 les télécommunications privées de la CGCT , s' associe avec le suédois Ericsson pour acquérir , un an plus tard , la branche publique du constructeur français , ex- filiale d' ITT .</text>
+            <annotationSet status="MANUAL" ID="9033">
+                <layer rank="1" name="FE">
+                    <label end="69" start="0" name="Buyer"/>
+                    <label end="10" start="8" name="Buyer"/>
+                    <label end="69" start="29" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6174">
+            <text>La presse adulte , et notamment les magazines repris en 1990 comme le Chasseur Français et Bonne Soirée , ont augmenté leur diffusion , tout comme les publications religieuses .</text>
+            <annotationSet status="MANUAL" ID="9179">
+                <layer rank="1" name="FE">
+                    <label end="44" start="32" name="Goods"/>
+                    <label itype="DNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6244">
+            <text>Lancé en 1986 , après que le groupe Hersant eut repris le Progrès de Lyon et que le Monde eut créé une édition Rhône - Alpes , Lyon - Libération enregistre un déficit structurel .</text>
+            <annotationSet status="MANUAL" ID="9314">
+                <layer rank="1" name="FE">
+                    <label end="42" start="26" name="Buyer"/>
+                    <label end="72" start="55" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7308">
+            <text>La Sorepark avait déposé son bilan en octobre 1990 et avait été reprise par la société belge Walibi en décembre de la même année .</text>
+            <annotationSet status="MANUAL" ID="10743">
+                <layer rank="1" name="FE">
+                    <label end="98" start="76" name="Buyer"/>
+                    <label end="10" start="0" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8572">
+            <text>- Le groupe chimique Elf - Atochem a repris au japonais Yoshitomi Pharmaceuticals la société Akishima , spécialisée dans les additifs pour matières plastiques .</text>
+            <annotationSet status="MANUAL" ID="12212">
+                <layer rank="1" name="FE">
+                    <label end="33" start="2" name="Buyer"/>
+                    <label end="157" start="82" name="Goods"/>
+                    <label end="80" start="47" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8574">
+            <text>De son côté , Yoshitomi Pharmaceuticals reprendra les activités de produits industriels dérivés de l' étain développées par le français sur place .</text>
+            <annotationSet status="MANUAL" ID="12216">
+                <layer rank="1" name="FE">
+                    <label end="38" start="14" name="Buyer"/>
+                    <label end="144" start="50" name="Goods"/>
+                    <label end="134" start="124" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8722">
+            <text>Unilever reprend les activités de glace de FFD ( Pays - Bas ) en Thaïlande .</text>
+            <annotationSet status="MANUAL" ID="12437">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Buyer"/>
+                    <label end="73" start="17" name="Goods"/>
+                    <label end="60" start="43" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8723">
+            <text>- Le groupe agroalimentaire anglo - néerlandais Unilever a repris les activités de glace de Friesland Frico Domo ( FFD ) en Thaïlande , assurées jusqu' à présent par la filiale thaïlandaise de FFD , Foremost Friesland à Bangkok .</text>
+            <annotationSet status="MANUAL" ID="12438">
+                <layer rank="1" name="FE">
+                    <label end="55" start="2" name="Buyer"/>
+                    <label end="226" start="66" name="Goods"/>
+                    <label end="119" start="92" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8823">
+            <text>Il reprendra donc les 58 % de Bernard Tapie finance ( 1 ) ainsi que le solde détenu par les établissements financiers ( Crédit lyonnais , AGF , banque Worms , Banexi ) et le management ( 2 ) .</text>
+            <annotationSet status="MANUAL" ID="12593">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Buyer"/>
+                    <label end="50" start="18" name="Goods"/>
+                    <label end="189" start="58" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10146">
+            <text>Les circonstances sont particulièrement douloureuses pour M. Delort puisqu' il avait lui - même mis toute son influence et son énergie pour aider M. Pinault à reprendre Le Printemps lorsque les familles suisses Nordmann et Maus mirent en vente leurs actions , après plusieurs mois de conflits et d' atermoiements , fin 1991 .</text>
+            <annotationSet status="MANUAL" ID="14262">
+                <layer rank="1" name="FE">
+                    <label end="155" start="146" name="Buyer"/>
+                    <label end="180" start="169" name="Goods"/>
+                    <label end="226" start="190" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10156">
+            <text>Total va reprendre deux entreprises de GPL en Hongrie .</text>
+            <annotationSet status="MANUAL" ID="14275">
+                <layer rank="1" name="FE">
+                    <label end="4" start="0" name="Buyer"/>
+                    <label end="41" start="19" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10157">
+            <text>- filiale du groupe pétrolier Total , Total gaz vient d' être choisie par l' agence de privatisation hongroise pour reprendre les activités de distribution de GPL ( butane et propane ) des sociétés Egaz et Kogaz , qui , toutes les deux , opèrent dans l' ouest du pays .</text>
+            <annotationSet status="MANUAL" ID="14278">
+                <layer rank="1" name="FE">
+                    <label end="46" start="38" name="Buyer"/>
+                    <label end="266" start="126" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10157">
+            <text>- filiale du groupe pétrolier Total , Total gaz vient d' être choisie par l' agence de privatisation hongroise pour reprendre les activités de distribution de GPL ( butane et propane ) des sociétés Egaz et Kogaz , qui , toutes les deux , opèrent dans l' ouest du pays .</text>
+            <annotationSet status="MANUAL" ID="14279">
+                <layer rank="1" name="FE">
+                    <label end="46" start="38" name="Buyer"/>
+                    <label end="266" start="126" name="Goods"/>
+                    <label end="266" start="189" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10166">
+            <text>- M. Achille Ferrari , ancien directeur général de CEA - Industrie , vient d' être nommé président de la société Orkem , en remplacement de M. Jean - Claude Hirel , qui avait remis son mandat à disposition en raison de ses nouvelles fonctions à la tête de CEA - Industrie , indique un communiqué publié lundi 21 décembre par Orkem , holding qui gère les actifs de l' ex CD.F - chimie non repris par Total .</text>
+            <annotationSet status="MANUAL" ID="14295">
+                <layer rank="1" name="FE">
+                    <label end="403" start="399" name="Buyer"/>
+                    <label end="382" start="350" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="393" start="388" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10331">
+            <text>Pilkington va reprendre le premier fabricant polonais de verre .</text>
+            <annotationSet status="MANUAL" ID="14501">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Buyer"/>
+                    <label end="61" start="24" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10333">
+            <text>Elle reprendra le plus grand fabricant de verre polonais , à Sandomierz , et construira une nouvelle unité d' une capacité annuelle de 140 000 tonnes de " float glass " .</text>
+            <annotationSet status="MANUAL" ID="14503">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Buyer"/>
+                    <label end="55" start="15" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10336">
+            <text>Unilever reprend une entreprise polonaise de graisses alimentaires .</text>
+            <annotationSet status="MANUAL" ID="14507">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Buyer"/>
+                    <label end="65" start="17" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10337">
+            <text>- La compagnie anglo - néerlandaise Unilever spécialisée dans les produits alimentaires , les articles de toilette et les détergents va reprendre une société d' Etat polonaise produisant des graisses alimentaires et des huiles , basée près de Katowice , la SZPT Olmex .</text>
+            <annotationSet status="MANUAL" ID="14509">
+                <layer rank="1" name="FE">
+                    <label end="131" start="2" name="Buyer"/>
+                    <label end="266" start="146" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10363">
+            <text>Compte tenu des accords conclus en mai entre Paribas et Italcementi , l' ensemble des titres Guintoli détenus ou acquis par les deux groupes a été ou sera repris par la compagnie financière de Paribas .</text>
+            <annotationSet status="MANUAL" ID="14535">
+                <layer rank="1" name="FE">
+                    <label end="199" start="166" name="Buyer"/>
+                    <label end="139" start="70" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10598">
+            <text>Propriété des frères Luigi et Gian - franco Nocivelli , Elfi , 7 milliards de francs de chiffre d' affaires , 7 500 personnes , s' intéresse en effet depuis des années à la France , et plus particulièrement à TEM dont il avait déjà repris deux petites unités , Bonnet réfrigération et Froid Satam Brandt .</text>
+            <annotationSet status="MANUAL" ID="14821">
+                <layer rank="1" name="FE">
+                    <label end="219" start="218" name="Buyer"/>
+                    <label end="59" start="56" name="Buyer"/>
+                    <label end="302" start="239" name="Goods"/>
+                    <label end="302" start="209" name="Seller"/>
+                    <label end="216" start="213" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="237" start="232" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10633">
+            <text>Les chantiers navals Boel - dernière grande entreprise de ce secteur en Belgique , - qui avaient été déclarés en faillite le 28 octobre , ont été repris par une société néerlandaise associée à une belge .</text>
+            <annotationSet status="MANUAL" ID="14861">
+                <layer rank="1" name="FE">
+                    <label end="201" start="157" name="Buyer"/>
+                    <label end="134" start="0" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="146" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11456">
+            <text>En perte de vitesse , Puma A.G.Rudolf Dassler Sport avait été repris en 1990 par le groupe suédois Aritmos ( vélos Monark , chaussures de golf Etonic , balles de tennis Tretorn ... ) .</text>
+            <annotationSet status="MANUAL" ID="15783">
+                <layer rank="1" name="FE">
+                    <label end="181" start="81" name="Buyer"/>
+                    <label end="50" start="22" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12160">
+            <text>Selon une option de vente conclue en 1989 , Nokia cédera sa participation à la maison mère de Jamont NV , Jamont Holdings NV , holding de droit néerlandais dont sont actionnaires , à égalité , James River et la banque d' affaires Cragnotti and Partners , qui a repris les parts de Montedison .</text>
+            <annotationSet status="MANUAL" ID="16480">
+                <layer rank="1" name="FE">
+                    <label end="257" start="255" name="Buyer"/>
+                    <label end="290" start="208" name="Buyer"/>
+                    <label end="290" start="268" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="266" start="261" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12170">
+            <text>QPL avait déjà repris une usine à Newport ( pays de Galles ) à SGS - Thomson .</text>
+            <annotationSet status="MANUAL" ID="16497">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Buyer"/>
+                    <label end="30" start="22" name="Goods"/>
+                    <label end="75" start="63" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12176">
+            <text>Saurer - Diederichs va finalement être repris par Aquamot .</text>
+            <annotationSet status="MANUAL" ID="16505">
+                <layer rank="1" name="FE">
+                    <label end="56" start="50" name="Buyer"/>
+                    <label end="18" start="0" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12638">
+            <text>Le groupe SAGEM a été autorisé par le Conseil supérieur de l' audiovisuel à reprendre Radio Classique , une station dont l' opérateur était jusqu' alors le promoteur immobilier en difficulté Christian Pellerin .</text>
+            <annotationSet status="MANUAL" ID="16991">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Buyer"/>
+                    <label end="208" start="86" name="Goods"/>
+                    <label end="208" start="153" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13748">
+            <text>Sagem ( Société d' applications générales d' électricité et de mécanique ) avait longtemps été le favori pour reprendre les 35 % de Matra dans Ufima .</text>
+            <annotationSet status="MANUAL" ID="18062">
+                <layer rank="1" name="FE">
+                    <label end="73" start="0" name="Buyer"/>
+                    <label end="136" start="120" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13792">
+            <text>Le groupe a encore racheté une usine d' emballage en Hongrie et repris à LMG sa participation de 50 % dans leur filiale commune Impetus Packaging .</text>
+            <annotationSet status="MANUAL" ID="18097">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Buyer"/>
+                    <label end="144" start="77" name="Goods"/>
+                    <label end="75" start="73" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13847">
+            <text>Bongrain , qui a repris l' Union laitière normande ( ULN ) , s' est donné sept ans pour redresser cette coopérative en difficulté connue pour ses produits Mamie Nova .</text>
+            <annotationSet status="MANUAL" ID="18153">
+                <layer rank="1" name="FE">
+                    <label end="13" start="11" name="Buyer"/>
+                    <label end="59" start="0" name="Buyer"/>
+                    <label end="57" start="24" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13876">
+            <text>Les Ciments français , repris par le cimentier italien Italcementi , ont perdu 740 millions de francs au premier semestre , contre un bénéfice de 113 millions sur les six premiers mois de 1991 , mais ont cependant terminé l' année au même niveau que la précédente .</text>
+            <annotationSet status="MANUAL" ID="18185">
+                <layer rank="1" name="FE">
+                    <label end="65" start="34" name="Buyer"/>
+                    <label end="21" start="0" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

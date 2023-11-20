@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="en effet.adv" ID="2660" frame="Causation" frameID="5" totalAnnotated="23" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Cause"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="2531"/>
+                <annoSet ID="2553"/>
+                <annoSet ID="3369"/>
+                <annoSet ID="3581"/>
+                <annoSet ID="4654"/>
+                <annoSet ID="6722"/>
+                <annoSet ID="6794"/>
+                <annoSet ID="7801"/>
+                <annoSet ID="8482"/>
+                <annoSet ID="8707"/>
+                <annoSet ID="8745"/>
+                <annoSet ID="11450"/>
+                <annoSet ID="12113"/>
+                <annoSet ID="12564"/>
+                <annoSet ID="14481"/>
+                <annoSet ID="16125"/>
+                <annoSet ID="16161"/>
+                <annoSet ID="16354"/>
+                <annoSet ID="16364"/>
+                <annoSet ID="17083"/>
+                <annoSet ID="17422"/>
+                <annoSet ID="20994"/>
+                <annoSet ID="23106"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Effect"/>
+            <pattern total="23">
+                <valenceUnit PT="null instantiation" FE="Effect"/>
+                <annoSet ID="2531"/>
+                <annoSet ID="2553"/>
+                <annoSet ID="3369"/>
+                <annoSet ID="3581"/>
+                <annoSet ID="4654"/>
+                <annoSet ID="6722"/>
+                <annoSet ID="6794"/>
+                <annoSet ID="7801"/>
+                <annoSet ID="8482"/>
+                <annoSet ID="8707"/>
+                <annoSet ID="8745"/>
+                <annoSet ID="11450"/>
+                <annoSet ID="12113"/>
+                <annoSet ID="12564"/>
+                <annoSet ID="14481"/>
+                <annoSet ID="16125"/>
+                <annoSet ID="16161"/>
+                <annoSet ID="16354"/>
+                <annoSet ID="16364"/>
+                <annoSet ID="17083"/>
+                <annoSet ID="17422"/>
+                <annoSet ID="20994"/>
+                <annoSet ID="23106"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1977">
+            <text>En effet , sept projets sur quatorze , soit la moitié , ont un financement qui n' est toujours pas assuré et dont le calendrier n' est pas encore arrêté .</text>
+            <annotationSet status="MANUAL" ID="2531">
+                <layer rank="1" name="FE">
+                    <label end="153" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1989">
+            <text>En effet , la proposition découle d' un engagement qui a été pris concernant la commission de suivi .</text>
+            <annotationSet status="MANUAL" ID="2553">
+                <layer rank="1" name="FE">
+                    <label end="100" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2537">
+            <text>En effet , l' article 18 du contrat Bravo interdisait explicitement de rémunérer des intermédiaires .</text>
+            <annotationSet status="MANUAL" ID="3369">
+                <layer rank="1" name="FE">
+                    <label end="100" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2749">
+            <text>En effet , le juge Éric Halphen a découvert que Francis Poullain , attributaire de nombreux marchés publics à l' office HLM des Hauts-de-Seine , dont Didier Schuller a été le directeur général , a passé des pages de publicité pour son entreprise , la SAR , au prix de 108 000 francs la page .</text>
+            <annotationSet status="MANUAL" ID="3581">
+                <layer rank="1" name="FE">
+                    <label end="291" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3480">
+            <text>Les déclarations de vendanges confirment en effet la gravité des conséquences de ces intempéries .</text>
+            <annotationSet status="MANUAL" ID="4654">
+                <layer rank="1" name="FE">
+                    <label end="39" start="0" name="Cause"/>
+                    <label end="97" start="50" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4737">
+            <text>En effet , les salariés sont très minoritaires parmi les chauffeurs de taxi , où l' artisanat domine .</text>
+            <annotationSet status="MANUAL" ID="6722">
+                <layer rank="1" name="FE">
+                    <label end="101" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4782">
+            <text>En effet , ces catégories cotisent pendant moins longtemps puisqu' elles sont entrées moins jeunes dans la vie active .</text>
+            <annotationSet status="MANUAL" ID="6794">
+                <layer rank="1" name="FE">
+                    <label end="118" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5383">
+            <text>Vu le très faible écart de taux avec le voisin allemand , le gouvernement britannique est en effet contraint d' attendre que Francfort décide de réduire son loyer de l' argent avant de faire de même .</text>
+            <annotationSet status="MANUAL" ID="7801">
+                <layer rank="1" name="FE">
+                    <label end="88" start="0" name="Cause"/>
+                    <label end="199" start="99" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5762">
+            <text>La réforme de la politique agricole commune ( PAC ) concerne , en effet , directement ou indirectement , tous les agriculteurs et toutes les régions " , a déclaré , mercredi 1 juillet , M. Luc Guyau , le nouveau président de la fédération nationale des syndicats d' exploitants agricoles ( FNSEA ) .</text>
+            <annotationSet status="MANUAL" ID="8482">
+                <layer rank="1" name="FE">
+                    <label end="59" start="0" name="Cause"/>
+                    <label end="101" start="74" name="Cause"/>
+                    <label end="149" start="105" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5888">
+            <text>En effet , pour permettre aux anciens pays communistes d' instaurer une réforme économique axée sur leur dynamique propre , il est indispensable de mettre en place une structure économique qui permette au secteur privé de développer son potentiel , et ce par l' adoption de mesures microéconomiques telles que l' introduction de la concurrence , la conversion de l' industrie militaire en industrie civile , le développement des sociétés privées , et l' extension du commerce et de l' investissement .</text>
+            <annotationSet status="MANUAL" ID="8707">
+                <layer rank="1" name="FE">
+                    <label end="500" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5909">
+            <text>En effet , Indosuez s' est engagé à reclasser les titres en excédent dans un délai de dix - huit mois .</text>
+            <annotationSet status="MANUAL" ID="8745">
+                <layer rank="1" name="FE">
+                    <label end="102" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7925">
+            <text>En effet , précise -t-on chez Mme Lienemann , il faudra passer devant le Parlement pour fixer certains détails du projet , ce qui ne pourra se faire avant l' automne .</text>
+            <annotationSet status="MANUAL" ID="11450">
+                <layer rank="1" name="FE">
+                    <label end="166" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8489">
+            <text>Les Allemands , en effet , sont plus nombreux à avoir appris à l' école l' anglais que le français .</text>
+            <annotationSet status="MANUAL" ID="12113">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Cause"/>
+                    <label end="99" start="25" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8806">
+            <text>C' est en effet après son inculpation , au cours d' une réunion , que Mme Gilberte Beaux , sa représentante chez Adidas , M. Jean - Yves Haberer , le président du Crédit lyonnais et M. Michel Albert , celui des assurances générales de France ( AGF ) , lui ont demandé de choisir entre politique et affaires .</text>
+            <annotationSet status="MANUAL" ID="12564">
+                <layer rank="1" name="FE">
+                    <label end="305" start="70" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10317">
+            <text>En effet , la juridiction consulaire n' estime pas avoir observé de différend entre les actionnaires et les dirigeants de ce fournisseur d' unités " clés en main " pour l' industrie papetière , la chimie et le nucléaire ( 600 salariés ) .</text>
+            <annotationSet status="MANUAL" ID="14481">
+                <layer rank="1" name="FE">
+                    <label end="237" start="9" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11763">
+            <text>Le patronat estime en effet que " les conditions d' un accord ne sont pas réunies " et envisage de " faire le point " de la situation " courant janvier " avec les syndicats ( CGT , CFDT , FO , CFTC et CFE - CGC ) .</text>
+            <annotationSet status="MANUAL" ID="16125">
+                <layer rank="1" name="FE">
+                    <label end="17" start="0" name="Cause"/>
+                    <label end="213" start="28" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11788">
+            <text>" Pour le moment , le groupe français est , en effet , faute de précisions , dans le noir complet .</text>
+            <annotationSet status="MANUAL" ID="16161">
+                <layer rank="1" name="FE">
+                    <label end="42" start="0" name="Cause"/>
+                    <label end="98" start="53" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12044">
+            <text>Les transferts sont en effet tout à faits légaux , puisque cette liberté de circulation a été acquise depuis le 1 juillet 1990 .</text>
+            <annotationSet status="MANUAL" ID="16354">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Cause"/>
+                    <label end="47" start="29" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12055">
+            <text>Les épargnants allemands , en effet , veulent conserver leurs avoirs libellés en bon mark bien solide .</text>
+            <annotationSet status="MANUAL" ID="16364">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Cause"/>
+                    <label end="102" start="36" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12721">
+            <text>L' ALENA pourrait , en effet , devenir un rempart efficace contre les importations ( le Monde du 17 octobre ) .</text>
+            <annotationSet status="MANUAL" ID="17083">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Cause"/>
+                    <label end="110" start="29" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13054">
+            <text>La bière la moins chère en France coûte en effet à peu près trois fois moins que son équivalent disponible en Angleterre , où les taxes sur les vins sont très élevées .</text>
+            <annotationSet status="MANUAL" ID="17422">
+                <layer rank="1" name="FE">
+                    <label end="38" start="0" name="Cause"/>
+                    <label end="167" start="49" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16889">
+            <text>Conduits par l' association américaine Peta , des militants allemands , italiens , français et britanniques voudraient en effet que le numéro un mondial des cosmétiques mette fin aux tests sur les animaux . .</text>
+            <annotationSet status="MANUAL" ID="20994">
+                <layer rank="1" name="FE">
+                    <label end="117" start="0" name="Cause"/>
+                    <label end="207" start="128" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19082">
+            <text>La fumée contenait en effet du oxyde cyanhydrique dont les effets sont immédiats .</text>
+            <annotationSet status="MANUAL" ID="23106">
+                <layer rank="1" name="FE">
+                    <label end="17" start="0" name="Cause"/>
+                    <label end="81" start="28" name="Cause"/>
+                    <label itype="DNI" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

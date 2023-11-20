@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Judgment_direct_address" ID="711" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication,Judgment_evaluation">
+    <definition>&lt;def-root&gt;In this frame, a &lt;fen&gt;Communicator&lt;/fen&gt; judges the &lt;fen&gt;Addressee&lt;/fen&gt; and then communicates that appraisal directly to the &lt;fen&gt;Addressee&lt;/fen&gt;. The judgment is given for a particular &lt;fen&gt;Reason&lt;/fen&gt; or about a particular &lt;fen&gt;Topic&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="06/24/2003 04:23:12 PDT Tue" abbrev="" name="Communicator" ID="4671">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Communicator&lt;/fen&gt; communicates a judgment to the &lt;fen&gt;Addressee&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="06/24/2003 04:25:02 PDT Tue" abbrev="" name="Addressee" ID="4673">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; is jduged by the &lt;fen&gt;Communicator&lt;/fen&gt; and receives the message of approval or disapproval.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="06/24/2003 04:28:01 PDT Tue" abbrev="" name="Topic" ID="4674">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is the subject on which the &lt;fen&gt;Addressee&lt;/fen&gt; is being judged.
+&lt;ex&gt;&lt;fex name="Communicator"&gt;The teacher&lt;/fex&gt; &lt;t&gt;scolded&lt;/t&gt; &lt;fex name="Addressee"&gt;the children&lt;/fex&gt; &lt;fex name="Topic"&gt;about their meessy cookie eating&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="06/24/2003 04:31:46 PDT Tue" abbrev="" name="Reason" ID="4675">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Reason&lt;/fen&gt; is why the Communicator forms the type of judgment they form.
+&lt;ex&gt;&lt;fex name="Communicator"&gt;The principal&lt;/fex&gt; &lt;t&gt;rebuked&lt;/t&gt; &lt;fex name="Addressee"&gt;the student&lt;/fex&gt; &lt;fex name="Reason"&gt;for cheating on the exam&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="06/24/2003 04:36:35 PDT Tue" abbrev="" name="Medium" ID="4677">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Medium&lt;/fen&gt; identifies the physical or abstract entity in which the judgment is conveyed.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="03/08/2004 01:05:53 PST Mon" abbrev="" name="Role" ID="6080">
+        <definition>&lt;def-root&gt;The laudable or reprimandable status held by the &lt;fen&gt;Addressee&lt;/fen&gt;.
+
+&lt;ex&gt;He &lt;t&gt;rebuked&lt;/t&gt; them &lt;fex name="Role"&gt;as heathens and blasphemers&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF00FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/08/2004 01:15:27 PST Mon" abbrev="" name="Expressor" ID="6081">
+        <definition>&lt;def-root&gt;An action or entity under the control of the &lt;fen&gt;Communicator&lt;/fen&gt; that expresses the criticism or praise directed towards the &lt;fen&gt;Addressee&lt;/fen&gt;.
+
+&lt;ex&gt;Though she had killed him so long ago, she could still see his &lt;t&gt;jeering&lt;/t&gt; &lt;fex name="Expressor"&gt;smile&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Communicator" ID="4671"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Reason" ID="4675"/>
+        <memberFE name="Topic" ID="4674"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Expressor" ID="6081"/>
+        <memberFE name="Medium" ID="4677"/>
+        <memberFE name="Communicator" ID="4671"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Judgment_communication</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="admonestation.n" ID="1975" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="admonester.v" ID="1976" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="attraper.v" ID="1977" nbocc="1" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="avanie.n" ID="1978" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="avertissement.n" ID="1979" nbocc="5" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Telling" ID="2524" annotatedsent="4"/>
+        <otherlexUnit framename="Other_sense" ID="100225" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="chapitrer.v" ID="1980" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="compliment.n" ID="1981" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100365" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="complimenter.v" ID="1982" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100366" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="congratulation.n" ID="1983" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="congratuler.v" ID="1984" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100394" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="disputer.v" ID="1985" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100583" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="engueulade.n" ID="1986" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Quarreling" ID="2741" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="100801" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="engueuler.v" ID="1987" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="enguirlander.v" ID="1988" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="flatter.v" ID="1989" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100899" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="flatterie.n" ID="1990" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="félicitation.n" ID="1991" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="féliciter.v" ID="1992" nbocc="30" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="100923" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="gourmander.v" ID="1993" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="gronder.v" ID="1994" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100956" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="gronderie.n" ID="1995" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="houspiller.v" ID="1996" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="merci.n" ID="1997" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101218" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="morigéner.v" ID="1998" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="opprobre.n" ID="2674" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rappeler à l'ordre.v" ID="2593" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101552" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="remerciement.n" ID="1999" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101592" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="remercier.v" ID="2000" nbocc="21" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="19"/>
+        <otherlexUnit framename="Other_sense" ID="101593" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="remontrance.n" ID="2001" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="reproche.n" ID="2002" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101615" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="reprocher.v" ID="2003" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="101616" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="réprimande.n" ID="2004" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="réprimander.v" ID="2005" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101678" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="sermon.n" ID="2006" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101814" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="sermonner.v" ID="2007" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="tancer.v" ID="2008" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

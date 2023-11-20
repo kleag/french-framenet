@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="signe.n" ID="595" frame="Evidence" frameID="25" totalAnnotated="26" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="27">
+            <FE name="Proposition"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="2602"/>
+                <annoSet ID="4502"/>
+                <annoSet ID="5946"/>
+                <annoSet ID="9762"/>
+                <annoSet ID="10452"/>
+                <annoSet ID="13443"/>
+                <annoSet ID="14860"/>
+                <annoSet ID="15491"/>
+                <annoSet ID="15610"/>
+                <annoSet ID="15911"/>
+                <annoSet ID="16648"/>
+                <annoSet ID="16729"/>
+                <annoSet ID="17804"/>
+                <annoSet ID="18882"/>
+                <annoSet ID="19042"/>
+                <annoSet ID="19367"/>
+                <annoSet ID="19783"/>
+                <annoSet ID="20459"/>
+                <annoSet ID="20826"/>
+                <annoSet ID="23201"/>
+                <annoSet ID="23769"/>
+                <annoSet ID="24322"/>
+                <annoSet ID="24393"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Proposition"/>
+                <annoSet ID="7771"/>
+                <annoSet ID="11638"/>
+                <annoSet ID="11855"/>
+                <annoSet ID="16729"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="26">
+            <FE name="Support"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="2602"/>
+                <annoSet ID="4502"/>
+                <annoSet ID="5946"/>
+                <annoSet ID="7771"/>
+                <annoSet ID="9762"/>
+                <annoSet ID="11855"/>
+                <annoSet ID="15491"/>
+                <annoSet ID="15610"/>
+                <annoSet ID="15911"/>
+                <annoSet ID="16648"/>
+                <annoSet ID="17804"/>
+                <annoSet ID="19367"/>
+                <annoSet ID="19783"/>
+                <annoSet ID="20459"/>
+                <annoSet ID="20826"/>
+                <annoSet ID="23201"/>
+                <annoSet ID="23769"/>
+                <annoSet ID="24393"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Support"/>
+                <annoSet ID="10452"/>
+                <annoSet ID="11638"/>
+                <annoSet ID="13443"/>
+                <annoSet ID="14860"/>
+                <annoSet ID="16729"/>
+                <annoSet ID="18882"/>
+                <annoSet ID="19042"/>
+                <annoSet ID="24322"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2016">
+            <text>Si des signes manifestes nous permettent de conclure à une fraude majeure et si Mugabe reste illégalement au pouvoir , l' aide prévue en vertu des dispositions de la convention de Lomé doit être supprimée .</text>
+            <annotationSet status="MANUAL" ID="2602">
+                <layer rank="1" name="FE">
+                    <label end="23" start="3" name="Support"/>
+                    <label end="72" start="44" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3380">
+            <text>Il faudra , donc , attendre encore plusieurs semaines pour savoir si la libéralisation des prix du 2 janvier aura été le signe d' un véritable " big bang " économique .</text>
+            <annotationSet status="MANUAL" ID="4502">
+                <layer rank="1" name="FE">
+                    <label end="107" start="69" name="Support"/>
+                    <label end="165" start="130" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="121" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4237">
+            <text>Aujourd' hui , si l' image que vous voyez n' est pas conforme , aux dégradations du transport près , à celle issue de " Cognacq - Jay " ou de tout autre lieu historique , c' est le signe qu' il faut appeler un réparateur .</text>
+            <annotationSet status="MANUAL" ID="5946">
+                <layer rank="1" name="FE">
+                    <label end="169" start="15" name="Support"/>
+                    <label end="172" start="171" name="Support"/>
+                    <label end="219" start="191" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="185" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5355">
+            <text>des signes parmi d' autres : l' importance grandissante du phénomène des homeless ( les sans - abri ) , qui touche près de 62 000 familles en Angleterre ; la multiplication des mendiants que l'on voit dormir à l' entrée des boutiques des quartiers chics du centre de Londres , une vision qui avait disparu depuis la seconde guerre mondiale .</text>
+            <annotationSet status="MANUAL" ID="7771">
+                <layer rank="1" name="FE">
+                    <label end="340" start="0" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6542">
+            <text>Le rétablissement de notre commerce extérieur , le rééquilibrage de nos échanges industriels , gravement déficitaires depuis 1987 , sont un autre signe des progrès accomplis .</text>
+            <annotationSet status="MANUAL" ID="9762">
+                <layer rank="1" name="FE">
+                    <label end="44" start="0" name="Support"/>
+                    <label end="128" start="48" name="Support"/>
+                    <label end="172" start="156" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="146" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7055">
+            <text>Et le signe évident d' une détérioration du tissu social .</text>
+            <annotationSet status="MANUAL" ID="10452">
+                <layer rank="1" name="FE">
+                    <label end="55" start="23" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8093">
+            <text>PLUSIEURS signes ne trompent pas .</text>
+            <annotationSet status="MANUAL" ID="11638">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8247">
+            <text>Le premier signe c' est , par exemple , la volonté des groupes de ne plus considérer véritablement la CEE comme une terre d' expatriation .</text>
+            <annotationSet status="MANUAL" ID="11855">
+                <layer rank="1" name="FE">
+                    <label end="18" start="17" name="Support"/>
+                    <label end="136" start="40" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9519">
+            <text>Un nouveau signe des incertitudes qui pèsent sur le sort de la politique de privatisation lancée par Fernando Collor de Mello à son arrivée à la présidence , en 1990 .</text>
+            <annotationSet status="MANUAL" ID="13443">
+                <layer rank="1" name="FE">
+                    <label end="164" start="21" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10632">
+            <text>Signe que même avec des placements garantis , la bourse ne fait plus recette .</text>
+            <annotationSet status="MANUAL" ID="14860">
+                <layer rank="1" name="FE">
+                    <label end="75" start="10" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11207">
+            <text>L' Allemagne mise à part , les progrès de la désinflation ont semblé tels en 1992 que certains observateurs ont pensé y voir les premiers signes d' une déflation généralisée .</text>
+            <annotationSet status="MANUAL" ID="15491">
+                <layer rank="1" name="FE">
+                    <label end="174" start="0" name="Support"/>
+                    <label end="118" start="118" name="Support"/>
+                    <label end="172" start="148" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11307">
+            <text>Signe que les produits français ont gagné en compétitivité : les deux tiers environ de la croissance sont imputables aux échanges de biens et services .</text>
+            <annotationSet status="MANUAL" ID="15610">
+                <layer rank="1" name="FE">
+                    <label end="151" start="59" name="Support"/>
+                    <label end="57" start="10" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11555">
+            <text>Les déclarations du président élu Bill Clinton dimanche sur le transport aérien ( le Monde du 29 décembre ) - dénonçant l' ultralibéralisme de Reagan et Bush dans ce domaine - et l' annonce , pratiquement simultanée , de l' abandon par British Airways de son projet d' acquisition de US Air sont d' autres signes de cette montée du protectionnisme .</text>
+            <annotationSet status="MANUAL" ID="15911">
+                <layer rank="1" name="FE">
+                    <label end="289" start="0" name="Support"/>
+                    <label end="346" start="316" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="311" start="306" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12309">
+            <text>Signe de l' atonie économique , ou du " climat d' attentisme " comme l' écrit le ministère du travail , les sorties de l' ANPE en cours de mois ne sont pas suffisantes pour compenser ce mouvement , d' une gravité rarement vue .</text>
+            <annotationSet status="MANUAL" ID="16648">
+                <layer rank="1" name="FE">
+                    <label end="226" start="102" name="Support"/>
+                    <label end="28" start="9" name="Proposition"/>
+                    <label end="33" start="32" name="Proposition"/>
+                    <label end="61" start="38" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12386">
+            <text>" Plusieurs facteurs sont apparus en même temps , explique de son côté M. Hilmar Kopper , le président de la Deutsche Bank : la faiblesse de la conjoncture mondiale , le DM fort , la fin du boom tiré de l' unification , les premiers signes de problèmes structurels qui se posent à l' économie allemande " .</text>
+            <annotationSet status="MANUAL" ID="16729">
+                <layer rank="1" name="FE">
+                    <label end="301" start="243" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="238" start="233" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13484">
+            <text>L' ÉCONOMIE syrienne , anémiée et malade dans les années 80 , manifeste depuis le début des années 90 des signes de convalescence qui s' expriment par une progression du PIB de 27 % ( en prix courants ) entre 1990 et 1991 .</text>
+            <annotationSet status="MANUAL" ID="17804">
+                <layer rank="1" name="FE">
+                    <label end="220" start="102" name="Support"/>
+                    <label end="128" start="116" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14574">
+            <text>La dégringolade du nombre de transactions semble enrayée pour le deuxième trimestre consécutif , mais aucun signe de reprise n' a été ressenti , puisqu' une faible baisse est encore constatée ( - 0 , 4 % ) .</text>
+            <annotationSet status="MANUAL" ID="18882">
+                <layer rank="1" name="FE">
+                    <label end="123" start="114" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14738">
+            <text>Il s' agit là d' un premier signe d' amélioration qu' il serait sans doute bien venu de conforter en renforçant l' initiative européenne de croissance pour laquelle les gouvernements avaient opté en décembre dernier à Edimbourg .</text>
+            <annotationSet status="MANUAL" ID="19042">
+                <layer rank="1" name="FE">
+                    <label end="48" start="37" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15113">
+            <text>La simple vue des rues et autoroutes bondées , embouteillées en permanence par des flots de voitures en est le signe le plus flagrant .</text>
+            <annotationSet status="MANUAL" ID="19367">
+                <layer rank="1" name="FE">
+                    <label end="99" start="0" name="Support"/>
+                    <label end="102" start="101" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15544">
+            <text>Pour un cadre , avoir travaillé quinze ans dans la même entreprise n' est pas forcément un atout , ce peut être au contraire perçu comme un manque de dynamisme , comme un signe d' immobilisme .</text>
+            <annotationSet status="MANUAL" ID="19783">
+                <layer rank="1" name="FE">
+                    <label end="192" start="0" name="Support"/>
+                    <label end="100" start="99" name="Support"/>
+                    <label end="190" start="180" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="175" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16295">
+            <text>Autre signe de détérioration : la Corée du Sud n' attire plus les investisseurs étrangers .</text>
+            <annotationSet status="MANUAL" ID="20459">
+                <layer rank="1" name="FE">
+                    <label end="90" start="29" name="Support"/>
+                    <label end="27" start="15" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16625">
+            <text>s' apprêter à prêcher la rigueur alors que la croissance est forte et que les entreprises accumulent les profits est probablement un signe de lucidité , sûrement de courage alors que le Parti socialiste , secoué par les divisions qu' on sait , va se réunir en congrès à Rennes et demander des comptes à ceux qui gouvernent .</text>
+            <annotationSet status="MANUAL" ID="20826">
+                <layer rank="1" name="FE">
+                    <label end="111" start="0" name="Support"/>
+                    <label end="149" start="142" name="Proposition"/>
+                    <label end="171" start="165" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19203">
+            <text>Mr Sarre y voit le signe de la renonciation de la Ville de Paris à user de son droit de préemption chaque fois qu' elle le pourrait et du désintérêt de la Mairie pour l' achat de terrains qui accueilleraient des logements pour des personnes à revenu modeste .</text>
+            <annotationSet status="MANUAL" ID="23201">
+                <layer rank="1" name="FE">
+                    <label end="9" start="9" name="Support"/>
+                    <label end="133" start="28" name="Proposition"/>
+                    <label end="256" start="138" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20024">
+            <text>L' ironie discrète mais sans complaisance avec laquelle l' OCDE se souvient d' avoir participé à la promotion de ces doctrines apparaît comme un signe de santé retrouvée .</text>
+            <annotationSet status="MANUAL" ID="23769">
+                <layer rank="1" name="FE">
+                    <label end="125" start="0" name="Support"/>
+                    <label end="168" start="154" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20710">
+            <text>Signe avant - coureur d' un recul plus fort que prévu décelé par la confédération , la seule à disposer d' estimations fournies à partir de bureaux - tests ?</text>
+            <annotationSet status="MANUAL" ID="24322">
+                <layer rank="1" name="FE">
+                    <label end="154" start="25" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20813">
+            <text>A le lieu de cela , l' abstention s' est encore accrue tant chez les salariés que chez les employeurs , signe que l' image des syndicats - et dans une large mesure leur crédibilité - s' est encore dégradée , cette déconsidération se révélant plus forte que la nécessité de renforcer la défense de ses droits .</text>
+            <annotationSet status="MANUAL" ID="24393">
+                <layer rank="1" name="FE">
+                    <label end="102" start="0" name="Support"/>
+                    <label end="308" start="206" name="Support"/>
+                    <label end="204" start="114" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

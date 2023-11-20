@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Cognizer_affecting.legitimacy" ID="10057" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; comes to accept some mental &lt;fen&gt;Content&lt;/fen&gt; as legitimate or good, either because of a state of affairs serving as  &lt;fen&gt;Evidence&lt;/fen&gt;, or because of a &lt;fen&gt;Persuader&lt;/fen&gt; who expresses, through language or otherwise, their wish to get the &lt;fen&gt;Cognizer&lt;/fen&gt; to change their mind.
+&lt;ex&gt;FR-EX:&lt;fex name="Evidence"&gt;Son divorce&lt;/fex&gt; &lt;fex name="Cognizer"&gt;l'&lt;/fex&gt; a &lt;t&gt;converti&lt;/t&gt; au &lt;fex name="Content"&gt;célibat&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames&lt;/asf&gt;:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Attempt_suasion.legitimacy&lt;/frframe&gt; : In FR_Cognizer.legitimacy in that the &lt;fen&gt;Cognizer&lt;/fen&gt; has actually changed their mind.
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Results from the merge
+of Suasion and Eventive_cognizer_affecting, and the splitting into .to_do, .veracity and .legitimacy, based on 
+whether the &lt;fen&gt;Cognizer&lt;/fen&gt; is convinced to perform an action or that some content is true or legitimate.&lt;/def-root&gt;</definition>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/02/2001 09:53:45 PST Fri" abbrev="Add" name="Cognizer" ID="411">
+        <definition>&lt;def-root&gt;The person whose mind the &lt;fen&gt;Persuader&lt;/fen&gt; seeks to change.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/02/2001 09:54:43 PST Fri" abbrev="Spkr" name="Persuader" ID="412">
+        <definition>&lt;def-root&gt;The person who intends through the use of language or otherwise to get another person to accept the mental &lt;fen&gt;Content&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/02/2001 09:55:37 PST Fri" abbrev="Cont" name="Content" ID="413">
+        <definition>&lt;def-root&gt;The state of affairs that the &lt;fen&gt;Cognizer&lt;/fen&gt;  accepts as legitimate or good as a result of the &lt;fen&gt;Persuader&lt;/fen&gt;'s words&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="55"/>
+    </FE>
+    <FE bgColor="FFFF00" fgColor="006400" coreType="Core" cBy="605" cDate="03/08/2001 01:15:35 PST Thu" abbrev="Med" name="Medium" ID="424">
+        <definition>&lt;def-root&gt;A piece of written or spoken material that changes the mind of the &lt;fen&gt;Cognizer&lt;/fen&gt;.
+&lt;ex&gt;FR-EX:&lt;fex name="Medium"&gt;Son discours&lt;/fex&gt; les a &lt;t&gt;rallié&lt;/t&gt; à cette idée.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="09/03/2002 02:10:33 PDT Tue" abbrev="" name="Evidence" ID="3684">
+        <definition>&lt;def-root&gt;The eventuality or mental content which motivates the &lt;fen&gt;Cognizer&lt;/fen&gt; to change his/her mind.
+&lt;ex&gt;FR-EX:&lt;fex name="Evidence"&gt;Son divorce&lt;/fex&gt; &lt;fex name="Cognizer"&gt;l'&lt;/fex&gt; a &lt;t&gt;converti&lt;/t&gt; au &lt;fex name="Content"&gt;célibat&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="424"/>
+        <memberFE name="Persuader" ID="412"/>
+	<memberFE name="Evidence" ID="3684"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Cognizer_affecting</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Eventive_cognizer_affecting</relatedFrame>
+        <relatedFrame>Suasion</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="convertir.v" ID="1070" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100450" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rallier.v" ID="1071" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101543" annotatedsent="1"/>
+    </lexUnit>
+</frame>

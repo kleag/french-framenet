@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="c'est que.conj" ID="2609" frame="Explaining_the_facts" frameID="1462" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="fac" name="Fact"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sta" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="que" name="Question"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Fact"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Fact"/>
+                <annoSet ID="6434"/>
+                <annoSet ID="8533"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Question"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="State_of_affairs"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="State_of_affairs"/>
+                <annoSet ID="6434"/>
+                <annoSet ID="8533"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4557">
+            <text>C' est qu' il faut ratisser large !</text>
+            <annotationSet status="MANUAL" ID="6434">
+                <layer rank="1" name="FE">
+                    <label end="32" start="11" name="Fact"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5801">
+            <text>C' est qu' on ne porte pas impunément atteinte à des tabous .</text>
+            <annotationSet status="MANUAL" ID="8533">
+                <layer rank="1" name="FE">
+                    <label end="58" start="11" name="Fact"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

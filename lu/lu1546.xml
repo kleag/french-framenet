@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="contester.v" ID="1546" frame="FR_Expressing_truth_of_proposition" frameID="10071" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prop" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Core" abbrev="pspkr" name="Past_speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Past_speaker"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Proposition"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="2950"/>
+                <annoSet ID="3212"/>
+                <annoSet ID="21665"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2950"/>
+                <annoSet ID="3212"/>
+                <annoSet ID="21665"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2252">
+            <text>Il contestera son appartenance supposée à l' extrême droite affirmée par VGE dans son livre et le fera condamner à un franc de dommages et intérêts pour diffamation en 1991 .</text>
+            <annotationSet status="MANUAL" ID="2950">
+                <layer rank="1" name="FE">
+                    <label end="90" start="14" name="Proposition"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2446">
+            <text>En effet , Alfred Sirven , son officier traitant chez Elf Thomson CSF a contesté la réalité de l' intervention du réseau Elf et a porté plainte pour tentative d' escroquerie .</text>
+            <annotationSet status="MANUAL" ID="3212">
+                <layer rank="1" name="FE">
+                    <label end="123" start="81" name="Proposition"/>
+                    <label end="68" start="11" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17619">
+            <text>C' est la nomination annoncée jeudi dernier par le gouvernement de Mr Selim Hoss , reconnu par la France mais dont le général Aoun conteste la légitimité , d' un nouvel ambassadeur à Paris , Mr Johnny Abdo , précédemment ambassadeur à Berne , qui a déclenché cette action d' occupation .</text>
+            <annotationSet status="MANUAL" ID="21665">
+                <layer rank="1" name="FE">
+                    <label end="113" start="110" name="Proposition"/>
+                    <label end="152" start="140" name="Proposition"/>
+                    <label end="129" start="115" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

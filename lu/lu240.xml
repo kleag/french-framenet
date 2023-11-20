@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="produire.v" ID="240" frame="Causation" frameID="5" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Cause"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="477"/>
+                <annoSet ID="1707"/>
+                <annoSet ID="2486"/>
+                <annoSet ID="10584"/>
+                <annoSet ID="13746"/>
+                <annoSet ID="23965"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="2475"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Effect"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="477"/>
+                <annoSet ID="1707"/>
+                <annoSet ID="2475"/>
+                <annoSet ID="2486"/>
+                <annoSet ID="10584"/>
+                <annoSet ID="13746"/>
+                <annoSet ID="23965"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="361">
+            <text>Elles n' ont pas produit d' effet , notamment auprès des grandes formations susceptibles d' avoir des députés .</text>
+            <annotationSet status="MANUAL" ID="477">
+                <layer rank="1" name="FE">
+                    <label end="4" start="0" name="Cause"/>
+                    <label end="32" start="25" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1610">
+            <text>Il faut qu' il produise des résultats .</text>
+            <annotationSet status="MANUAL" ID="1707">
+                <layer rank="1" name="FE">
+                    <label end="13" start="12" name="Cause"/>
+                    <label end="36" start="24" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1953">
+            <text>La concurrence réduit l' efficacité de telles solutions , tandis qu' il en résulte un effet secondaire , à savoir que sur d' autres aéroports , le niveau des nuisances sonores produites sera plus important .</text>
+            <annotationSet status="MANUAL" ID="2475">
+                <layer rank="1" name="FE">
+                    <label end="174" start="158" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1960">
+            <text>Si nous souhaitons effectivement faire quelque chose pour réduire les nuisances acoustiques produites par les avions , il convient dès lors que les progrès techniques soient mis en oeuvre plus rapidement .</text>
+            <annotationSet status="MANUAL" ID="2486">
+                <layer rank="1" name="FE">
+                    <label end="115" start="106" name="Cause"/>
+                    <label end="90" start="66" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7169">
+            <text>La moitié des décès et 60 % des blessures graves au cours d' accidents de la route dans l' Hexagone sont produits par des chocs frontaux .</text>
+            <annotationSet status="MANUAL" ID="10584">
+                <layer rank="1" name="FE">
+                    <label end="135" start="118" name="Cause"/>
+                    <label end="98" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9769">
+            <text>Quant aux actions de la CEE , amorcées depuis plus longtemps , elles sont loin de produire tous les effets attendus : ainsi , une mission de parlementaires européens constatait en septembre dernier que la moitié seulement du plan d' assistance technique prévu pour 1991 avait été concrétisée .</text>
+            <annotationSet status="MANUAL" ID="13746">
+                <layer rank="1" name="FE">
+                    <label end="67" start="63" name="Cause"/>
+                    <label end="59" start="10" name="Cause"/>
+                    <label end="114" start="91" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20242">
+            <text>Les mêmes causes produisant les mêmes effets , l' armement français est aujourd' hui en surcapacité de production .</text>
+            <annotationSet status="MANUAL" ID="23965">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Cause"/>
+                    <label end="43" start="28" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

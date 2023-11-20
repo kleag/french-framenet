@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prétendre.v" ID="1589" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Message"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="5104"/>
+                <annoSet ID="18257"/>
+                <annoSet ID="18425"/>
+                <annoSet ID="21440"/>
+                <annoSet ID="22025"/>
+                <annoSet ID="22383"/>
+                <annoSet ID="24196"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Speaker"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="5104"/>
+                <annoSet ID="18257"/>
+                <annoSet ID="18425"/>
+                <annoSet ID="21440"/>
+                <annoSet ID="22025"/>
+                <annoSet ID="22383"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="24196"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3746">
+            <text>Le ministère du travail a déclaré que " sous couvert de prétendus stages , la société Interland se proposait d' effectuer des opérations de placement de salariés dépourvus de titre de travail et de séjour " , activités " passibles de sanctions pénales " .</text>
+            <annotationSet status="MANUAL" ID="5104">
+                <layer rank="1" name="FE">
+                    <label end="71" start="66" name="Message"/>
+                    <label end="94" start="75" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13934">
+            <text>Comme le disait , prétend -on , Mark Twain : " Certes octobre est un mois dangereux pour spéculer en Bourse .</text>
+            <annotationSet status="MANUAL" ID="18257">
+                <layer rank="1" name="FE">
+                    <label end="14" start="6" name="Message"/>
+                    <label end="41" start="32" name="Message"/>
+                    <label end="28" start="26" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14097">
+            <text>Sur ce chapitre , l' Etat socialiste , contrairement à ce qu' il prétend , a sans doute gravement fait reculer les choses , y compris par ces initiatives qualifiées de généreuses .</text>
+            <annotationSet status="MANUAL" ID="18425">
+                <layer rank="1" name="FE">
+                    <label end="60" start="58" name="Message"/>
+                    <label end="63" start="62" name="Speaker"/>
+                    <label end="35" start="18" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17373">
+            <text>Assistons -nous , comme le prétendent certains (1) , à la " fin de l' histoire " ?</text>
+            <annotationSet status="MANUAL" ID="21440">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Message"/>
+                    <label end="79" start="53" name="Message"/>
+                    <label end="25" start="24" name="Message"/>
+                    <label end="45" start="38" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17956">
+            <text>Mais que reste -t-il de ce qui prétendait n' être , en dernière analyse , qu' une coalition manichéenne contre l' " impérialisme " à partir du moment où elle rassemble des anticommunistes supérieurs du type Mazowiecki ou Vaclav Havel , pour ne pas parler de ceux qui s' apprêtent à sortir des urnes , tout au long de l' année , en Europe de l' Est ?</text>
+            <annotationSet status="MANUAL" ID="22025">
+                <layer rank="1" name="FE">
+                    <label end="29" start="27" name="Message"/>
+                    <label end="346" start="42" name="Message"/>
+                    <label end="29" start="27" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18288">
+            <text>Et peut -on prétendre , sérieusement , comme le voudraient certains à droite , que l' effort de sécurité doive s' appuyer sur une augmentation des dépenses militaires ?</text>
+            <annotationSet status="MANUAL" ID="22383">
+                <layer rank="1" name="FE">
+                    <label end="165" start="83" name="Message"/>
+                    <label end="10" start="8" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20484">
+            <text>Il serait d' autant plus déraisonnable de prétendre l' ignorer que l' Afrique subsaharienne ( hors Afrique du Sud ) ne compte plus que pour 2 , 9 % dans le commerce extérieur français et que les entreprises françaises continuent de réajuster à la baisse leurs engagements dans un contexte où certains discours sur l' immigration pourraient à terme se traduire par des réflexes néo- cartiéristes en matière d' aide bilatérale au développement .</text>
+            <annotationSet status="MANUAL" ID="24196">
+                <layer rank="1" name="FE">
+                    <label end="61" start="52" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

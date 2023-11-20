@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="conclure.v" ID="276" frame="Coming_to_believe" frameID="23" totalAnnotated="14" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Mns" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="14">
+            <FE name="Cognizer"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="751"/>
+                <annoSet ID="2032"/>
+                <annoSet ID="2600"/>
+                <annoSet ID="3472"/>
+                <annoSet ID="3474"/>
+                <annoSet ID="3518"/>
+                <annoSet ID="8768"/>
+                <annoSet ID="9426"/>
+                <annoSet ID="11103"/>
+                <annoSet ID="11673"/>
+                <annoSet ID="11708"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="5826"/>
+                <annoSet ID="20687"/>
+                <annoSet ID="23751"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Content"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="751"/>
+                <annoSet ID="2032"/>
+                <annoSet ID="2600"/>
+                <annoSet ID="3472"/>
+                <annoSet ID="3474"/>
+                <annoSet ID="3518"/>
+                <annoSet ID="5826"/>
+                <annoSet ID="8768"/>
+                <annoSet ID="9426"/>
+                <annoSet ID="11103"/>
+                <annoSet ID="11673"/>
+                <annoSet ID="11708"/>
+                <annoSet ID="20687"/>
+                <annoSet ID="23751"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Evidence"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Evidence"/>
+                <annoSet ID="2600"/>
+                <annoSet ID="5826"/>
+                <annoSet ID="11103"/>
+                <annoSet ID="11673"/>
+                <annoSet ID="23751"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Evidence"/>
+                <annoSet ID="751"/>
+                <annoSet ID="3472"/>
+                <annoSet ID="3474"/>
+                <annoSet ID="3518"/>
+                <annoSet ID="8768"/>
+                <annoSet ID="9426"/>
+                <annoSet ID="11708"/>
+                <annoSet ID="20687"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Means"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="2032"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="584">
+            <text>Le comité a conclu que les bénéfices de Angiox sont supérieurs aux risques qu' il comporte pour le traitement des patients adultes souffrant de SCA et devant subir une intervention urgente ou précoce , avec de l' aspirine et du clopidogrel , et comme anticoagulant chez les patients subissant une intervention coronaire percutanée ( ICP ) .</text>
+            <annotationSet status="MANUAL" ID="751">
+                <layer rank="1" name="FE">
+                    <label end="337" start="23" name="Content"/>
+                    <label end="8" start="0" name="Cognizer"/>
+                    <label itype="UNI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1776">
+            <text>L' Agence internationale de l' énergie atomique a conclu , après plusieurs enquêtes de terrain , que l' Irak ne possède aucune capacité de production d' armes nucléaires , et ceci a été confirmé dans les rapports des trois groupes d' experts sur l' Irak , comme le précise aujourd' hui la résolution 1284 du Conseil de sécurité .</text>
+            <annotationSet status="MANUAL" ID="2032">
+                <layer rank="1" name="FE">
+                    <label end="168" start="101" name="Content"/>
+                    <label end="46" start="0" name="Cognizer"/>
+                    <label end="93" start="65" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2016">
+            <text>Si des signes manifestes nous permettent de conclure à une fraude majeure et si Mugabe reste illégalement au pouvoir , l' aide prévue en vertu des dispositions de la convention de Lomé doit être supprimée .</text>
+            <annotationSet status="MANUAL" ID="2600">
+                <layer rank="1" name="FE">
+                    <label end="72" start="55" name="Content"/>
+                    <label end="28" start="25" name="Cognizer"/>
+                    <label end="23" start="3" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2612">
+            <text>La justice française a conclu au suicide .</text>
+            <annotationSet status="MANUAL" ID="3472">
+                <layer rank="1" name="FE">
+                    <label end="39" start="33" name="Content"/>
+                    <label end="19" start="0" name="Cognizer"/>
+                    <label itype="ENI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2615">
+            <text>La justice française a conclu à un accident domestique .</text>
+            <annotationSet status="MANUAL" ID="3474">
+                <layer rank="1" name="FE">
+                    <label end="53" start="32" name="Content"/>
+                    <label end="19" start="0" name="Cognizer"/>
+                    <label itype="ENI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2688">
+            <text>M. Balkany est renvoyé par le juge d' instruction pour " complicité de trafic d' influence " , en désaccord avec le parquet , qui concluait à son innocence et au non- lieu .</text>
+            <annotationSet status="MANUAL" ID="3518">
+                <layer rank="1" name="FE">
+                    <label end="157" start="142" name="Content"/>
+                    <label end="170" start="162" name="Content"/>
+                    <label end="128" start="126" name="Cognizer"/>
+                    <label end="170" start="113" name="Cognizer"/>
+                    <label itype="UNI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4162">
+            <text>Il est plus exact d' admettre que le comportement de la France se rapproche de celui de ses partenaires parce que ses institutions socio - économiques s' en rapprochent aussi , et d' en conclure que la politique économique doit s' adapter à cette nouvelle donne .</text>
+            <annotationSet status="MANUAL" ID="5826">
+                <layer rank="1" name="FE">
+                    <label end="260" start="199" name="Content"/>
+                    <label end="184" start="183" name="Evidence"/>
+                    <label end="173" start="34" name="Evidence"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="193" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5921">
+            <text>- Certains professionnels du marché londonien de l' assurance , Lloyd' s of London , sont incompétents , mais pas malhonnêtes , a conclu jeudi 2 juillet une commission d' enquête indépendante chargée de découvrir pourquoi des centaines de " names " , ces particuliers qui garantissent les risques souscrits au Lloyd' s sur leur fortune personnelle , ont été conduits à la ruine ces dernières années ( le monde du 27 juin ) .</text>
+            <annotationSet status="MANUAL" ID="8768">
+                <layer rank="1" name="FE">
+                    <label end="126" start="0" name="Content"/>
+                    <label end="421" start="153" name="Cognizer"/>
+                    <label itype="ENI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6314">
+            <text>Cette délégation a conclu que la côte - d' ivoire ne satisfaisait plus aux critères définis en 1991 par le FMI pour l' octroi d' un crédit stand - by de 120 millions de dollars ( 660 millions de francs ) .</text>
+            <annotationSet status="MANUAL" ID="9426">
+                <layer rank="1" name="FE">
+                    <label end="202" start="30" name="Content"/>
+                    <label end="15" start="0" name="Cognizer"/>
+                    <label itype="UNI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7650">
+            <text>Il en conclut que l' ouvrier américain dépense plus pour son logement , à peu près la même chose pour la nourriture et l' habillement .</text>
+            <annotationSet status="MANUAL" ID="11103">
+                <layer rank="1" name="FE">
+                    <label end="132" start="18" name="Content"/>
+                    <label end="1" start="0" name="Cognizer"/>
+                    <label end="4" start="3" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8120">
+            <text>Contrairement à d' autres secteurs , le CEREQ en conclut même que la restauration et l' hôtellerie se caractérisent par une grande ouverture aux jeunes - moins pour les jeunes filles - qui peuvent y trouver des débouchés .</text>
+            <annotationSet status="MANUAL" ID="11673">
+                <layer rank="1" name="FE">
+                    <label end="219" start="66" name="Content"/>
+                    <label end="44" start="37" name="Cognizer"/>
+                    <label end="47" start="46" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8133">
+            <text>Avant cette levée de boucliers au Congrès , des analystes de la Defense Intelligence Agency ( DIA ) , la principale agence de renseignements du Pentagone , avaient conclu que la vente des activités de défense de LTV à Thomson - CSF pourrait entraîner un transfert de secrets technologiques américains vers " des nations hostiles " figurant parmi les clients du groupe français .</text>
+            <annotationSet status="MANUAL" ID="11708">
+                <layer rank="1" name="FE">
+                    <label end="375" start="175" name="Content"/>
+                    <label end="152" start="44" name="Cognizer"/>
+                    <label itype="UNI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="169" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16496">
+            <text>De là à conclure , à l' époque du libéralisme triomphant et des débâcles successives des modèles d' économie administrée , que la planification ( au sens de prévision , d' évaluation et de mise en cohérence des actions publiques et privées ) n' a plus de sens , il y a un grand pas qu' il serait hasardeux de franchir .</text>
+            <annotationSet status="MANUAL" ID="20687">
+                <layer rank="1" name="FE">
+                    <label end="258" start="127" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="DNI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20009">
+            <text>faut -il en conclure que le mieux qu' on puisse attendre , c' est le chacun - pour - soi ?</text>
+            <annotationSet status="MANUAL" ID="23751">
+                <layer rank="1" name="FE">
+                    <label end="87" start="25" name="Content"/>
+                    <label end="10" start="9" name="Evidence"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

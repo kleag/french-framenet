@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="perdre.v" ID="521" frame="Earnings_and_losses" frameID="1873" totalAnnotated="17" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Earner"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Mny" name="Earnings"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Buyer"/>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Earner"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="Earner"/>
+                <annoSet ID="4685"/>
+                <annoSet ID="5450"/>
+                <annoSet ID="6052"/>
+                <annoSet ID="6154"/>
+                <annoSet ID="6157"/>
+                <annoSet ID="7908"/>
+                <annoSet ID="11735"/>
+                <annoSet ID="12808"/>
+                <annoSet ID="12825"/>
+                <annoSet ID="12826"/>
+                <annoSet ID="14162"/>
+                <annoSet ID="14757"/>
+                <annoSet ID="15237"/>
+                <annoSet ID="15813"/>
+                <annoSet ID="16367"/>
+                <annoSet ID="17495"/>
+                <annoSet ID="18186"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Earnings"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Earnings"/>
+                <annoSet ID="4685"/>
+                <annoSet ID="5450"/>
+                <annoSet ID="6052"/>
+                <annoSet ID="6154"/>
+                <annoSet ID="6157"/>
+                <annoSet ID="7908"/>
+                <annoSet ID="11735"/>
+                <annoSet ID="12808"/>
+                <annoSet ID="12825"/>
+                <annoSet ID="12826"/>
+                <annoSet ID="14162"/>
+                <annoSet ID="14757"/>
+                <annoSet ID="15237"/>
+                <annoSet ID="15813"/>
+                <annoSet ID="17495"/>
+                <annoSet ID="18186"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Earnings"/>
+                <annoSet ID="16367"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Goods"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="6154"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3506">
+            <text>Dans deux ans , la piste de l' aéroport de Gillot déroulera ses 3 , 5 km ( au lieu de 2 , 7 aujourd' hui ) grâce à de substantiels crédits européens , et une zone franche aura été aménagée aux abords , bien en avance sur celle du port ( à cause de blocages fonciers et de réticences financières des communes qui ne veulent pas perdre la taxe professionnelle ) .</text>
+            <annotationSet status="MANUAL" ID="4685">
+                <layer rank="1" name="FE">
+                    <label end="310" start="308" name="Earner"/>
+                    <label end="356" start="299" name="Earner"/>
+                    <label end="356" start="334" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="332" start="327" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3945">
+            <text>L' annonce de la mise en règlement judiciaire de la chaîne a rassuré les investisseurs , ceux - ci estimant que le groupe multimédia cesserait de perdre de l' argent .</text>
+            <annotationSet status="MANUAL" ID="5450">
+                <layer rank="1" name="FE">
+                    <label end="131" start="112" name="Earner"/>
+                    <label end="164" start="153" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="146" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4321">
+            <text>Mis en cause par M. Pasqua , le Crédit lyonnais a répliqué , le 6 janvier dans un communiqué , que " quatre banques , dont le Crédit lyonnais et trois banques privées , sont entrées dans l' actionnariat de la Cinq aux côtés d' Hachette , ce qui était méritoire puisque la Cinq perd de l' argent depuis sa création au début de 1986 .</text>
+            <annotationSet status="MANUAL" ID="6052">
+                <layer rank="1" name="FE">
+                    <label end="275" start="269" name="Earner"/>
+                    <label end="293" start="282" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="280" start="277" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4377">
+            <text>Baltica a perdu 2 milliards de couronnes ( 1 , 74 milliard de francs ) sur ses investissements stratégiques effectués depuis 1989 dans Suez et Victoire ( 3 , 56 milliards de francs pour la totalité ) où il détient respectivement 3 % et 5 % du capital .</text>
+            <annotationSet status="MANUAL" ID="6154">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Earner"/>
+                    <label end="69" start="16" name="Earnings"/>
+                    <label itype="ENI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4379">
+            <text>Hafnia , pour sa part , a perdu 800 millions de couronnes ( 696 millions de francs ) en partie à cause de sa participation de 33 , 7 % dans Baltica et dans le groupe suédois d' assurances Skandia , numéro un en Scandinavie .</text>
+            <annotationSet status="MANUAL" ID="6157">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Earner"/>
+                    <label end="83" start="32" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5445">
+            <text>Si Thomson - CSF est le numéro deux mondial dans l' électronique de défense , en revanche Thomson Consumer Electronics perd de l' argent et supporte un endettement de 10 milliards de francs .</text>
+            <annotationSet status="MANUAL" ID="7908">
+                <layer rank="1" name="FE">
+                    <label end="117" start="90" name="Earner"/>
+                    <label end="135" start="124" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8144">
+            <text>Faute de quoi Thomson - CSF perdrait les 20 millions de dollars déjà versés et destinés aux créanciers de LTV .</text>
+            <annotationSet status="MANUAL" ID="11735">
+                <layer rank="1" name="FE">
+                    <label end="26" start="14" name="Earner"/>
+                    <label end="108" start="37" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8947">
+            <text>Certains sous - traitants signent des contrats annuels qui leur font perdre d' emblée 200000 F . "</text>
+            <annotationSet status="MANUAL" ID="12808">
+                <layer rank="1" name="FE">
+                    <label end="62" start="59" name="Earner"/>
+                    <label end="24" start="0" name="Earner"/>
+                    <label end="93" start="86" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8956">
+            <text>Victime de prêts immobiliers à haut risque engagés dans les années 80 , qui représentaient jusqu' à 40 % de ses placements , la Home. Fed bank avait perdu 268 millions de dollars en 1990 et 732 millions de dollars en 1991 .</text>
+            <annotationSet status="MANUAL" ID="12825">
+                <layer rank="1" name="FE">
+                    <label end="141" start="125" name="Earner"/>
+                    <label end="212" start="190" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8956">
+            <text>Victime de prêts immobiliers à haut risque engagés dans les années 80 , qui représentaient jusqu' à 40 % de ses placements , la Home. Fed bank avait perdu 268 millions de dollars en 1990 et 732 millions de dollars en 1991 .</text>
+            <annotationSet status="MANUAL" ID="12826">
+                <layer rank="1" name="FE">
+                    <label end="141" start="125" name="Earner"/>
+                    <label end="177" start="155" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10085">
+            <text>Durement éprouvé par la baisse de la publicité , l' hebdomadaire a perdu 40 % de ses recettes publicitaires cette année - après un niveau de perte équivalent en 1991 - et enregistre un déficit de 35 millions de francs pour un chiffre d' affaires de 94 millions .</text>
+            <annotationSet status="MANUAL" ID="14162">
+                <layer rank="1" name="FE">
+                    <label end="63" start="49" name="Earner"/>
+                    <label end="106" start="73" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10540">
+            <text>Le constructeur de Boston ( Massachusetts ) , qui a perdu 2 , 8 milliards de dollars ( 14 milliards de francs ) lors de son exercice fiscal clos le 30 juin , se lance , à son tour , dans une profonde réforme de ses structures .</text>
+            <annotationSet status="MANUAL" ID="14757">
+                <layer rank="1" name="FE">
+                    <label end="48" start="46" name="Earner"/>
+                    <label end="156" start="0" name="Earner"/>
+                    <label end="110" start="58" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10978">
+            <text>La SMC devrait perdre environ 400 millions de francs en 1992 .</text>
+            <annotationSet status="MANUAL" ID="15237">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Earner"/>
+                    <label end="51" start="22" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11488">
+            <text>Le président élu Bill Clinton souhaite renforcer les compagnies aériennes américaines , gravement fragilisées par les effets pervers de la déréglementation ( depuis 1990 , elles ont perdu 8 milliards de dollars , soit environ 48 milliards de francs ) .</text>
+            <annotationSet status="MANUAL" ID="15813">
+                <layer rank="1" name="FE">
+                    <label end="176" start="172" name="Earner"/>
+                    <label end="154" start="49" name="Earner"/>
+                    <label end="247" start="188" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="182" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12058">
+            <text>M. Waigel ne perd pas tout .</text>
+            <annotationSet status="MANUAL" ID="16367">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Earner"/>
+                    <label itype="UNI" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13114">
+            <text>A l' en croire , la proportion des entreprises perdant de l' argent a été ramenée de 34 % en 1991 à 29 , 9 % cette année ; mais le porte - parole a affirmé que les quatre domaines les plus sinistrés , représentant 90 % du total des pertes à l' échelle nationale , sont les industries de défense , le charbon , le pétrole et les industries du tabac , ce qui contredit les observations de nombre d' experts , qui considèrent l' industrie lourde comme également très affectée , si ce n' est plus encore .</text>
+            <annotationSet status="MANUAL" ID="17495">
+                <layer rank="1" name="FE">
+                    <label end="45" start="35" name="Earner"/>
+                    <label end="66" start="55" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13876">
+            <text>Les Ciments français , repris par le cimentier italien Italcementi , ont perdu 740 millions de francs au premier semestre , contre un bénéfice de 113 millions sur les six premiers mois de 1991 , mais ont cependant terminé l' année au même niveau que la précédente .</text>
+            <annotationSet status="MANUAL" ID="18186">
+                <layer rank="1" name="FE">
+                    <label end="67" start="0" name="Earner"/>
+                    <label end="100" start="79" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

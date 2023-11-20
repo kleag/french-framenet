@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="ordonner.v" ID="2388" frame="FR_Request" frameID="10082" totalAnnotated="16" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Requested_entity"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="15">
+            <FE name="Addressee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="5233"/>
+                <annoSet ID="15849"/>
+                <annoSet ID="21716"/>
+                <annoSet ID="23301"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="2982"/>
+                <annoSet ID="3783"/>
+                <annoSet ID="3898"/>
+                <annoSet ID="5325"/>
+                <annoSet ID="6618"/>
+                <annoSet ID="9556"/>
+                <annoSet ID="16601"/>
+                <annoSet ID="16603"/>
+                <annoSet ID="18699"/>
+                <annoSet ID="20445"/>
+                <annoSet ID="23291"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Eventuality"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="2982"/>
+                <annoSet ID="3783"/>
+                <annoSet ID="3898"/>
+                <annoSet ID="5233"/>
+                <annoSet ID="5325"/>
+                <annoSet ID="6618"/>
+                <annoSet ID="9556"/>
+                <annoSet ID="15849"/>
+                <annoSet ID="16046"/>
+                <annoSet ID="16601"/>
+                <annoSet ID="16603"/>
+                <annoSet ID="18699"/>
+                <annoSet ID="20445"/>
+                <annoSet ID="21716"/>
+                <annoSet ID="23291"/>
+                <annoSet ID="23301"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Requested_entity"/>
+        </FERealization>
+        <FERealization total="16">
+            <FE name="Speaker"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2982"/>
+                <annoSet ID="3783"/>
+                <annoSet ID="3898"/>
+                <annoSet ID="5233"/>
+                <annoSet ID="5325"/>
+                <annoSet ID="6618"/>
+                <annoSet ID="9556"/>
+                <annoSet ID="15849"/>
+                <annoSet ID="16046"/>
+                <annoSet ID="16601"/>
+                <annoSet ID="16603"/>
+                <annoSet ID="18699"/>
+                <annoSet ID="20445"/>
+                <annoSet ID="21716"/>
+                <annoSet ID="23291"/>
+                <annoSet ID="23301"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2276">
+            <text>Cependant , le 10 Janvier 2007 la cour de Cassation française a en effet ordonné la poursuite de l' instruction annulée en 2004 par la Cour d' appel de Paris pour vice de forme .</text>
+            <annotationSet status="MANUAL" ID="2982">
+                <layer rank="1" name="FE">
+                    <label end="60" start="31" name="Speaker"/>
+                    <label end="175" start="81" name="Eventuality"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2900">
+            <text>Au printemps 2006 , le scandale éclate suite à la publication dans la presse italienne ( La Gazzetta dello Sport et Il Corriere della Sera ) de compte-rendus d' écoutes téléphoniques ordonnées par la justice deux ans plus tôt .</text>
+            <annotationSet status="MANUAL" ID="3783">
+                <layer rank="1" name="FE">
+                    <label end="206" start="197" name="Speaker"/>
+                    <label end="181" start="161" name="Eventuality"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="183" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2995">
+            <text>Le tribunal a jugé , après analyse de la loi , que si l' État était bien propriétaire , selon lui , des constructions incendiées , puisqu' établies illicitement sur le domaine public maritime , cela ne pouvait cependant autoriser le préfet à ordonner la destruction des paillotes dans les conditions réalisées .</text>
+            <annotationSet status="MANUAL" ID="3898">
+                <layer rank="1" name="FE">
+                    <label end="238" start="230" name="Speaker"/>
+                    <label end="278" start="251" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="249" start="242" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3804">
+            <text>Le tribunal de commerce de Carcassonne avait ordonné la semaine dernière à la Coframines , principal actionnaire de MPCS et filiale du bureau de recherches géologiques et minières , établissement public , d' assumer les pertes d' exploitation jusqu' au 31 janvier .</text>
+            <annotationSet status="MANUAL" ID="5233">
+                <layer rank="1" name="FE">
+                    <label end="201" start="75" name="Addressee"/>
+                    <label end="37" start="0" name="Speaker"/>
+                    <label end="201" start="75" name="Eventuality"/>
+                    <label end="262" start="208" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3862">
+            <text>Il a , en revanche , ordonné la liquidation de la somme de 500 000 francs , correspondant aux dix heures d' ouverture du dimanche 29 décembre .</text>
+            <annotationSet status="MANUAL" ID="5325">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Speaker"/>
+                    <label end="140" start="29" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4699">
+            <text>La Haute Cour de Londres a ordonné , mardi 14 janvier , la liquidation de la Bank of credit and commerce international ( BCCI ) en Grande - Bretagne , en réponse à une demande présentée en juillet 1991 par la Banque d' Angleterre ( nos dernières éditions du 15 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="6618">
+                <layer rank="1" name="FE">
+                    <label end="23" start="0" name="Speaker"/>
+                    <label end="147" start="56" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6390">
+            <text>En Italie , la banque centrale a dû démentir avoir ordonné la suspension des transactions sur le marché des changes de Milan vendredi après - midi , mais a vendu à nouveau des marks .</text>
+            <annotationSet status="MANUAL" ID="9556">
+                <layer rank="1" name="FE">
+                    <label end="29" start="12" name="Speaker"/>
+                    <label end="88" start="59" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11523">
+            <text>En mesure de rétorsion contre la vente de Mirage 2000 - 5 à Taïwan , Pékin a ordonné aux autorités de Canton de rejeter toute participation française à son projet de métro .</text>
+            <annotationSet status="MANUAL" ID="15849">
+                <layer rank="1" name="FE">
+                    <label end="107" start="89" name="Addressee"/>
+                    <label end="73" start="69" name="Speaker"/>
+                    <label end="107" start="89" name="Eventuality"/>
+                    <label end="170" start="112" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11672">
+            <text>Qu' on ouvre immédiatement le guichet , ordonne -t-il .</text>
+            <annotationSet status="MANUAL" ID="16046">
+                <layer rank="1" name="FE">
+                    <label end="52" start="48" name="Speaker"/>
+                    <label end="36" start="0" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12258">
+            <text>LICENCIEMENT Sopalin ( Kimberly - Clark ) : la justice ordonne la suspension des licenciements .</text>
+            <annotationSet status="MANUAL" ID="16601">
+                <layer rank="1" name="FE">
+                    <label end="53" start="44" name="Speaker"/>
+                    <label end="93" start="63" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12259">
+            <text>- Le tribunal de grande instance de Rouen a ordonné la suspension de la procédure de licenciement engagée à l' encontre de 312 salariés de l' usine Sopalin de Rouen ( groupe Kimberly - Clark ) .</text>
+            <annotationSet status="MANUAL" ID="16603">
+                <layer rank="1" name="FE">
+                    <label end="40" start="2" name="Speaker"/>
+                    <label end="191" start="52" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14396">
+            <text>Pour frapper l' opinion , le premier ministre a ordonné un moratoire arrêtant toute fermeture de service public dans les zones rurales .</text>
+            <annotationSet status="MANUAL" ID="18699">
+                <layer rank="1" name="FE">
+                    <label end="44" start="26" name="Speaker"/>
+                    <label end="133" start="56" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16277">
+            <text>Le tribunal de commerce avait alors ordonné le séquestre des actions litigieuses .</text>
+            <annotationSet status="MANUAL" ID="20445">
+                <layer rank="1" name="FE">
+                    <label end="22" start="0" name="Speaker"/>
+                    <label end="79" start="44" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17674">
+            <text>Dans une première ordonnance , déjà , le tribunal avait ordonné à la chaîne de laisser Mr Vernay regagner le bureau où il avait commencé à travailler sans contrat , mais à la demande de l' ancien directeur d' antenne , Mr Jean - Marie Cavada .</text>
+            <annotationSet status="MANUAL" ID="21716">
+                <layer rank="1" name="FE">
+                    <label end="74" start="66" name="Addressee"/>
+                    <label end="48" start="38" name="Speaker"/>
+                    <label end="74" start="66" name="Eventuality"/>
+                    <label end="240" start="79" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19330">
+            <text>Les autorités ont ordonné la dissolution du principal mouvement islamique du pays , Adl oua Alihsane ( Justice et spiritualité ) et ont fait arrêter la plupart de ses dirigeants , ont annoncé , dimanche 14 janvier , des porte - parole de l' organisation .</text>
+            <annotationSet status="MANUAL" ID="23291">
+                <layer rank="1" name="FE">
+                    <label end="12" start="0" name="Speaker"/>
+                    <label end="127" start="26" name="Eventuality"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19352">
+            <text>Le ministre de l' intérieur guatémaltèque , Mr Carlos Morales Villatoro , a déclaré avoir ordonné aux services de l' immigration de " fermer les frontières pour retrouver les auteurs du crime " .</text>
+            <annotationSet status="MANUAL" ID="23301">
+                <layer rank="1" name="FE">
+                    <label end="127" start="102" name="Addressee"/>
+                    <label end="70" start="0" name="Speaker"/>
+                    <label end="127" start="102" name="Eventuality"/>
+                    <label end="192" start="132" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

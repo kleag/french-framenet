@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="idée.n" ID="813" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="36" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="36">
+            <FE name="Cognizer"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="567"/>
+                <annoSet ID="1919"/>
+                <annoSet ID="1953"/>
+                <annoSet ID="3131"/>
+                <annoSet ID="4854"/>
+                <annoSet ID="7673"/>
+                <annoSet ID="12491"/>
+                <annoSet ID="12910"/>
+                <annoSet ID="17543"/>
+                <annoSet ID="18739"/>
+                <annoSet ID="21881"/>
+                <annoSet ID="22429"/>
+                <annoSet ID="22828"/>
+                <annoSet ID="23765"/>
+                <annoSet ID="24827"/>
+            </pattern>
+            <pattern total="21">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="1967"/>
+                <annoSet ID="2263"/>
+                <annoSet ID="3156"/>
+                <annoSet ID="4994"/>
+                <annoSet ID="8727"/>
+                <annoSet ID="9373"/>
+                <annoSet ID="12288"/>
+                <annoSet ID="13538"/>
+                <annoSet ID="16179"/>
+                <annoSet ID="17445"/>
+                <annoSet ID="17869"/>
+                <annoSet ID="18382"/>
+                <annoSet ID="19716"/>
+                <annoSet ID="19821"/>
+                <annoSet ID="22298"/>
+                <annoSet ID="22414"/>
+                <annoSet ID="22438"/>
+                <annoSet ID="23744"/>
+                <annoSet ID="23775"/>
+                <annoSet ID="24673"/>
+                <annoSet ID="24676"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="36">
+            <FE name="Content"/>
+            <pattern total="36">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="567"/>
+                <annoSet ID="1919"/>
+                <annoSet ID="1953"/>
+                <annoSet ID="1967"/>
+                <annoSet ID="2263"/>
+                <annoSet ID="3131"/>
+                <annoSet ID="3156"/>
+                <annoSet ID="4854"/>
+                <annoSet ID="4994"/>
+                <annoSet ID="7673"/>
+                <annoSet ID="8727"/>
+                <annoSet ID="9373"/>
+                <annoSet ID="12288"/>
+                <annoSet ID="12491"/>
+                <annoSet ID="12910"/>
+                <annoSet ID="13538"/>
+                <annoSet ID="16179"/>
+                <annoSet ID="17445"/>
+                <annoSet ID="17543"/>
+                <annoSet ID="17869"/>
+                <annoSet ID="18382"/>
+                <annoSet ID="18739"/>
+                <annoSet ID="19716"/>
+                <annoSet ID="19821"/>
+                <annoSet ID="21881"/>
+                <annoSet ID="22298"/>
+                <annoSet ID="22414"/>
+                <annoSet ID="22429"/>
+                <annoSet ID="22438"/>
+                <annoSet ID="22828"/>
+                <annoSet ID="23744"/>
+                <annoSet ID="23765"/>
+                <annoSet ID="23775"/>
+                <annoSet ID="24673"/>
+                <annoSet ID="24676"/>
+                <annoSet ID="24827"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Topic"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="1953"/>
+                <annoSet ID="4994"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="448">
+            <text>Si ( actuellement ) on a une idée du seuil en-dessous duquel il ne sera pas possible de descendre , certaines donnée présentées par l' architecte n' ont pas été suffisamment précises pour que la commission prenne des décisions .</text>
+            <annotationSet status="MANUAL" ID="567">
+                <layer rank="1" name="FE">
+                    <label end="96" start="25" name="Content"/>
+                    <label end="21" start="20" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1733">
+            <text>Nous voulons protéger notre droit à avoir des idées , des sentiments , des émotions , contre l' invasion technologique des grands frères , comme nous le laisse à penser le cas récent d' Échelon , sur lequel cette Assemblée se penchera sous peu .</text>
+            <annotationSet status="MANUAL" ID="1919">
+                <layer rank="1" name="FE">
+                    <label end="50" start="42" name="Content"/>
+                    <label end="26" start="22" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1744">
+            <text>D' autre part , nous ne souscrivions pas à l' idée du Parlement en ce qui concerne la limite d' âge pour la prise des empreintes digitales .</text>
+            <annotationSet status="MANUAL" ID="1953">
+                <layer rank="1" name="FE">
+                    <label end="62" start="43" name="Content"/>
+                    <label end="62" start="54" name="Cognizer"/>
+                    <label end="137" start="83" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1750">
+            <text>En conséquence , la Commission pense qu' elle devrait donner des éclaircissements sur deux idées très strictes et claires au Parlement .</text>
+            <annotationSet status="MANUAL" ID="1967">
+                <layer rank="1" name="FE">
+                    <label end="133" start="86" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1865">
+            <text>Je suis très reconnaissante aux États membres - et en particulier à la Commission - d' accueillir cette idée très favorablement .</text>
+            <annotationSet status="MANUAL" ID="2263">
+                <layer rank="1" name="FE">
+                    <label end="107" start="98" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2399">
+            <text>Les fiches ne se contentent pas de rapporter uniquement des faits comme en témoignent les appelations de " clérical cléricalisant " , " cléricafard " , " cléricanaille " , " calotin pur-sang " , " jésuitard " , " grand avaleur de bon Dieu " , " vieille peau fermée à nos idées " , " rallié à la République , n' en porte pas moins un nom à particule " .</text>
+            <annotationSet status="MANUAL" ID="3131">
+                <layer rank="1" name="FE">
+                    <label end="275" start="267" name="Content"/>
+                    <label end="269" start="267" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="275" start="271" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2408">
+            <text>Les fonctionnaires n' ayant pas à l' époque de statut protecteur et étant considérés comme des agents du gouvernement d' une part , les militaires ayant un rôle et un statut très particulier sous la Troisième République d' autre part ( ils ne votent pas et n' ont pas le droit d' exprimer publiquement des opinions politiques - du moins pas au sens de factions - durant leur service actif ) , le général André avait paradoxalement le droit - du moins dans l' idée des prérogatives politiques de l' époque - du gouvernement sur ses agents , bien qu' il soit ici tout de même aux limites de la légalité de faire surveiller ses officiers , y compris dans leur vie privée , au nom de l' intérêt supérieur de l' État .</text>
+            <annotationSet status="MANUAL" ID="3156">
+                <layer rank="1" name="FE">
+                    <label end="503" start="456" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="462" start="459" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3598">
+            <text>Limité , le risque du négociant n' est pas , contrairement à l' idée que s' en fait un public non averti , d' ordre spéculatif .</text>
+            <annotationSet status="MANUAL" ID="4854">
+                <layer rank="1" name="FE">
+                    <label end="103" start="61" name="Content"/>
+                    <label end="103" start="84" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3675">
+            <text>De même , dès soixante ans , les idées traditionalistes sur les grands thèmes de société s' incrustent : 40 % des soixante et un à soixante - cinq ans estiment le mariage indissoluble , 50 % des personnes de cette même classe d' âge s' en remettent totalement au médecin pour les problèmes de santé et ne croient pas à la responsabilisation du malade , 50 % toujours pensent que les découvertes scientifiques n' améliorent pas du tout la vie .</text>
+            <annotationSet status="MANUAL" ID="4994">
+                <layer rank="1" name="FE">
+                    <label end="87" start="29" name="Content"/>
+                    <label end="87" start="60" name="Topic"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5289">
+            <text>Le président russe semble être maintenant acquis à l' idée des " industriels " , qui estiment prioritaire l' augmentation de la production , quitte à prendre des distances avec les progrès de la libéralisation .</text>
+            <annotationSet status="MANUAL" ID="7673">
+                <layer rank="1" name="FE">
+                    <label end="208" start="51" name="Content"/>
+                    <label end="208" start="63" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5899">
+            <text>Sur la base de cette idée , j' ai proposé , lors de la réunion du conseil des ministres de l' organisation de coopération et de développement économique ( OCDE ) de mai dernier , des " négociations multilatérales sur la réforme structurelle " et j' ai souligné la nécessité de surmonter ensemble nos problèmes structurels et de partager nos expériences en ce domaine .</text>
+            <annotationSet status="MANUAL" ID="8727">
+                <layer rank="1" name="FE">
+                    <label end="24" start="15" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6278">
+            <text>Plus globalement , la volonté de ne pas " brusquer les choses " risque d' accréditer l' idée que le gouvernement a déjà une faible marge de manoeuvre nationale au niveau de sa politique économique .</text>
+            <annotationSet status="MANUAL" ID="9373">
+                <layer rank="1" name="FE">
+                    <label end="195" start="97" name="Content"/>
+                    <label end="195" start="85" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8624">
+            <text>L' idée a été maintes fois évoquée .</text>
+            <annotationSet status="MANUAL" ID="12288">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="6" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8754">
+            <text>Les journalistes de la Tribune ne s' y sont pas trompés qui , parce qu' ils craignent pour leur emploi - et pour l' idée qu' ils se faisaient de leur journal , - ont lancé un mouvement de grève de 24 heures qui a entraîné la non- parution du titre mercredi 8 juillet .</text>
+            <annotationSet status="MANUAL" ID="12491">
+                <layer rank="1" name="FE">
+                    <label end="156" start="113" name="Content"/>
+                    <label end="127" start="125" name="Cognizer"/>
+                    <label end="29" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9015">
+            <text>Sous une apparente nonchalance , M. Gérard Renon cache des idées bien arrêtées .</text>
+            <annotationSet status="MANUAL" ID="12910">
+                <layer rank="1" name="FE">
+                    <label end="77" start="55" name="Content"/>
+                    <label end="47" start="33" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9568">
+            <text>Le diagnostic - et c' est la seconde idée forte du rapport - est simple : " Notre pays a choisi jusqu' à présent implicitement une croissance à productivité rapide et donc faiblement créatrice d' emplois " , explique M. Charpin .</text>
+            <annotationSet status="MANUAL" ID="13538">
+                <layer rank="1" name="FE">
+                    <label end="57" start="26" name="Content"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11820">
+            <text>" L' idée communément admise , a -t-il dit , est que la demande mondiale de GNL devrait doubler , voire tripler , au cours des vingt prochaines années .</text>
+            <annotationSet status="MANUAL" ID="16179">
+                <layer rank="1" name="FE">
+                    <label end="149" start="53" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13073">
+            <text>Toute sa vie , Henri Guitton a été un découvreur et un " redécouvreur " des idées et des oeuvres .</text>
+            <annotationSet status="MANUAL" ID="17445">
+                <layer rank="1" name="FE">
+                    <label end="80" start="76" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13156">
+            <text>M. Lobry se fonde sur trois idées simples : personne n' est à l' abri du chômage ; aucun pays développé n' a trouvé la recette idéale pour lutter contre lui ; toutes les initiatives pour aider les gens à s' en sortir ou à l' éviter sont donc bienvenues .</text>
+            <annotationSet status="MANUAL" ID="17543">
+                <layer rank="1" name="FE">
+                    <label end="40" start="22" name="Content"/>
+                    <label end="7" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13544">
+            <text>Or cette idée a donné naissance , de par le monde , à des dizaines de milliers d' exploitations qui se sont révélées viables .</text>
+            <annotationSet status="MANUAL" ID="17869">
+                <layer rank="1" name="FE">
+                    <label end="12" start="3" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14052">
+            <text>Pierre Bérégovoy se consolait naguère en s' en remettant à une idée un peu courte , quoique assez communément admise : la croissance était , en France , peu productrice d' emplois .</text>
+            <annotationSet status="MANUAL" ID="18382">
+                <layer rank="1" name="FE">
+                    <label end="178" start="119" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14427">
+            <text>Le secret de la croissance semble perdu , écrit l' Observatoire français des conjonctures économiques ( OFCE ) qui , pour étayer son pessimisme , avance l' idée que les mesures qui pourraient relancer l' économie mondiale , notamment une forte baisse des taux d' intérêt et des impulsions budgétaires concertées , ne font l' unanimité ni parmi les gouvernants ni même parmi les économistes .</text>
+            <annotationSet status="MANUAL" ID="18739">
+                <layer rank="1" name="FE">
+                    <label end="388" start="165" name="Content"/>
+                    <label end="388" start="153" name="Content"/>
+                    <label end="113" start="111" name="Cognizer"/>
+                    <label end="388" start="48" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15450">
+            <text>Cependant , il est plus difficile de comprendre et a fortiori de justifier qu' Arthur Dunkel , soucieux de donner une nouvelle vigueur au GATT , n' ait rien fait pour imposer aux Américains l' idée qu' une telle évolution , forcément difficile à supporter pour la Communauté qui en fait les frais , impliquait au moins qu' ils renoncent à se faire justice eux - mêmes et à prendre des mesures unilatérales de rétorsion sans se soucier le moins du monde de respecter les procédures du GATT et de s' y tenir .</text>
+            <annotationSet status="MANUAL" ID="19716">
+                <layer rank="1" name="FE">
+                    <label end="504" start="202" name="Content"/>
+                    <label end="504" start="190" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15613">
+            <text>L' avoir constaté , tenté d' y porter remède à l' heure du brassage des idées et des proliférations des pratiques a eu aussi pour effet une plongée rétrospective dans près d' un demi - siècle de pratique .</text>
+            <annotationSet status="MANUAL" ID="19821">
+                <layer rank="1" name="FE">
+                    <label end="76" start="72" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17799">
+            <text>Mme Lienemann se montrait sereine : " Nous , on se bat pour nos idées .</text>
+            <annotationSet status="MANUAL" ID="21881">
+                <layer rank="1" name="FE">
+                    <label end="68" start="60" name="Content"/>
+                    <label end="62" start="60" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18253">
+            <text>En entendant les porte - parole des contributions qui parcourent depuis plusieurs mois les villes et les départements , les militants ont acquis le sentiment que le débat porte beaucoup moins sur les idées que sur les hommes et que , du même coup , il n' est pas à la hauteur de ce qu' on pourrait attendre du parti au pouvoir en France , au moment précis où la révolution de 1989 dans les pays du centre et de l' est de l' Europe fait se tourner tant de regards vers ceux qui sont porteurs , ici , des idéaux du socialisme démocratique .</text>
+            <annotationSet status="MANUAL" ID="22298">
+                <layer rank="1" name="FE">
+                    <label end="204" start="196" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="204" start="200" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18314">
+            <text>Je ne me bats pas pour des raisons médiocres , je me bats pour des idées .</text>
+            <annotationSet status="MANUAL" ID="22414">
+                <layer rank="1" name="FE">
+                    <label end="71" start="63" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18327">
+            <text>Mr Bernard Debré , député d' Indre - et - Loire , a renouvelé sa confiance en Mr Chirac tout en affirmant sa " fidélité " à MM Pasqua et Séguin , " tant dans leur démarche que dans leurs idées .</text>
+            <annotationSet status="MANUAL" ID="22429">
+                <layer rank="1" name="FE">
+                    <label end="191" start="181" name="Content"/>
+                    <label end="142" start="124" name="Cognizer"/>
+                    <label end="185" start="181" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18330">
+            <text>Faisant référence à un éditorial et à un article publiés récemment dans l' organe central du PCF ( Le Monde du 9 janvier ) dans lesquels , écrit l' ancien ministre d' état , " mon nom est cité à deux reprises en liaison avec les attaques dont le parti , sa direction , et plus particulièrement Georges marchais , sont l' objet en ce moment " , Mr Fiterman " proteste avec émotion et indignation contre ce qui apparaît à l' évidence , même si le procédé utilisé est oblique , comme une tentative d' accréditer l' idée que je serais partie prenante de cette campagne " .</text>
+            <annotationSet status="MANUAL" ID="22438">
+                <layer rank="1" name="FE">
+                    <label end="563" start="521" name="Content"/>
+                    <label end="563" start="509" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="515" start="512" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18718">
+            <text>Ce principe avait été écorné sous l' influence des idées libérales et de la poussée d' UTA et d' Air Inter , qui souhaitaient se développer en dehors des territoires où elles étaient enfermées .</text>
+            <annotationSet status="MANUAL" ID="22828">
+                <layer rank="1" name="FE">
+                    <label end="65" start="51" name="Content"/>
+                    <label end="65" start="57" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20003">
+            <text>De l' idée qu' " il faut faire quelque chose " aux premiers signes de ralentissement , et , si possible , quelque chose de préparé en commun , nous sommes encore les victimes .</text>
+            <annotationSet status="MANUAL" ID="23744">
+                <layer rank="1" name="FE">
+                    <label end="139" start="15" name="Content"/>
+                    <label end="139" start="3" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20023">
+            <text>On n' a plus idée du climat d' intolérance intellectuelle qui régnait alors dans une maison aussi civilisée que l' OCDE : mettre en doute les bienfaits d' une relance par le déficit , parler des dangers de l' endettement et de l' inévitable venue d' une période de " liquidation " , ne pas rejeter entièrement la responsabilité des déséquilibres sur les pays excédentaires , douter qu' une bonne petite dose d' inflation fût une bonne chose pour l' emploi , c' était , encore en 1978 , anathème .</text>
+            <annotationSet status="MANUAL" ID="23765">
+                <layer rank="1" name="FE">
+                    <label end="118" start="21" name="Content"/>
+                    <label end="1" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20025">
+            <text>Mais , quand on se rappelle la conviction avec laquelle les idées aujourd' hui rejetées étaient professées , on ne peut s' empêcher de se poser la question : quels sont les thèmes développés aujourd' hui avec une assurance apparemment aussi affirmée ( l' arrogance en moins ) dont on est en droit de se méfier ?</text>
+            <annotationSet status="MANUAL" ID="23775">
+                <layer rank="1" name="FE">
+                    <label end="86" start="56" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21227">
+            <text>IL y a des idées sur lesquelles on vit depuis des décennies , des souhaits intimes qu' on formulait en sachant que c' était sans espoir , des objectifs qu' on assignait aux gouvernements sur le thème " Y a qu' à , faut qu' on , y z' ont qu' à ... " Ils n' ont pas toujours fait ce qu' on souhaitait , et nous les traitions d' incapables , de va - de - la - gueule ... "</text>
+            <annotationSet status="MANUAL" ID="24673">
+                <layer rank="1" name="FE">
+                    <label end="58" start="7" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21230">
+            <text>Et on se prend à penser qu' on était tout bête de n' avoir tout simplement pas envisagé les conséquences pratiques , réelles de ces belles idées .</text>
+            <annotationSet status="MANUAL" ID="24676">
+                <layer rank="1" name="FE">
+                    <label end="143" start="128" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21449">
+            <text>Il est temps qu' elle remette ses idées au net .</text>
+            <annotationSet status="MANUAL" ID="24827">
+                <layer rank="1" name="FE">
+                    <label end="38" start="30" name="Content"/>
+                    <label end="32" start="30" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

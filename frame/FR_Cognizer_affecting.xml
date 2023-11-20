@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Cognizer_affecting" ID="10090" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;Super frame to encompass cases in which a &lt;fen&gt;Cognizer&lt;/fen&gt; acquires a new stance, by either coming to believe some &lt;fen&gt;True_content&lt;/fen&gt; is true, or that some &lt;fen&gt;Legitimate_content&lt;/fen&gt; is legitimate, or that he should perform some &lt;fen&gt;Action&lt;/fen&gt;. This happens either because of some &lt;fen&gt;Evidence&lt;/fen&gt;, or because of a &lt;fen&gt;Persuader&lt;/fen&gt; who causes, through language or otherwise, the &lt;fen&gt;Cognizer&lt;/fen&gt; to have a new stance.
+
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames&lt;/asf&gt;:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Attempt_suasion&lt;/frframe&gt;: In FR_Cognizer_affecting the &lt;fen&gt;Cognizer&lt;/fen&gt; has actually changed their mind.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Results from the merge
+of Suasion and Eventive_cognizer_affecting, and the splitting into .to_do, .veracity and .legitimacy, based on 
+whether the &lt;fen&gt;Cognizer&lt;/fen&gt; is convinced to perform an action or that some content is true or legitimate.&lt;/def-root&gt;</definition>
+    <semType name="Non-Lexical Frame" ID="16"/>
+
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="605" 
+cDate="03/02/2001 09:53:45 PST Fri" abbrev="Add" name="Cognizer" ID="411">
+        <definition>&lt;def-root&gt;The person whose mind the 
+&lt;fen&gt;Persuader&lt;/fen&gt; seeks to change.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" 
+cDate="03/02/2001 09:54:43 PST Fri" abbrev="Spkr" name="Persuader" ID="412">
+        <definition>&lt;def-root&gt;The person who intends through the use of 
+language or otherwise to get another person to change their mind.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" 
+cDate="03/02/2001 09:55:37 PST Fri" abbrev="TC" name="True_content" ID="413">
+        <definition>&lt;def-root&gt;The content that the 
+&lt;fen&gt;Cognizer&lt;/fen&gt; accepts as true as a result of the &lt;fen&gt;Evidence&lt;/fen&gt;, or of the
+&lt;fen&gt;Persuader&lt;/fen&gt;'s words.&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+        <excludesFE name="Legitimate_content" ID="10413"/>
+        <excludesFE name="Action" ID="10414"/>
+    </FE>
+        <FE bgColor="00bfff" fgColor="FFFFFF" coreType="Core" cBy="605" 
+cDate="03/02/2001 09:55:37 PST Fri" abbrev="LgtC" name="Legitimate_content" ID="10413">
+        <definition>&lt;def-root&gt;The content that the 
+&lt;fen&gt;Cognizer&lt;/fen&gt; accepts as legitimate as a result of the &lt;fen&gt;Evidence&lt;/fen&gt;, or of the
+&lt;fen&gt;Persuader&lt;/fen&gt;'s words.&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+        <excludesFE name="Action" ID="10414"/>
+        <excludesFE name="True_content" ID="413"/>
+    </FE>
+        <FE bgColor="8000ff" fgColor="FFFFFF" coreType="Core" cBy="605" 
+cDate="03/02/2001 09:55:37 PST Fri" abbrev="Act" name="Action" ID="10414">
+        <definition>&lt;def-root&gt;The action that the 
+&lt;fen&gt;Cognizer&lt;/fen&gt; resolves to perform as a result of the &lt;fen&gt;Evidence&lt;/fen&gt;, or of the
+&lt;fen&gt;Persuader&lt;/fen&gt;'s words.&lt;/def-root&gt;</definition>
+        <semType name="Intentional_act" ID="181"/>
+        <excludesFE name="True_content" ID="413"/>
+        <excludesFE name="Legitimate_content" ID="10413"/>
+    </FE>
+    <FE bgColor="FFFF00" fgColor="006400" coreType="Core" cBy="605" 
+cDate="03/08/2001 01:15:35 PST Thu" abbrev="Med" name="Medium" ID="424">
+        <definition>&lt;def-root&gt;A piece of written or spoken material that 
+changes the stance of the &lt;fen&gt;Cognizer&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="09/03/2002 02:10:33 PDT Tue" abbrev="Evd" name="Evidence" ID="3684">
+        <definition>&lt;def-root&gt;The Evidence is a state of affairs which motivates the &lt;fen&gt;Cognizer&lt;/fen&gt; to change their mind.
+&lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="True_content" ID="413"/>
+        <memberFE name="Legitimate_content" ID="10413"/>
+        <memberFE name="Action" ID="10414"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="424"/>
+        <memberFE name="Persuader" ID="412"/>
+	<memberFE name="Evidence" ID="177"/>
+    </FEcoreSet>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Cognizer_affecting.legitimacy</relatedFrame>
+        <relatedFrame>FR_Cognizer_affecting.to_do</relatedFrame>
+        <relatedFrame>FR_Cognizer_affecting.veracity</relatedFrame>
+    </frameRelation>
+</frame>

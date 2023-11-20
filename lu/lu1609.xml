@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se défendre.v" ID="1609" frame="FR_Expressing_truth_of_proposition" frameID="10071" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prop" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Core" abbrev="pspkr" name="Past_speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Past_speaker"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Proposition"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="7024"/>
+                <annoSet ID="8551"/>
+                <annoSet ID="12606"/>
+                <annoSet ID="15980"/>
+                <annoSet ID="23922"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="7024"/>
+                <annoSet ID="8551"/>
+                <annoSet ID="12606"/>
+                <annoSet ID="15980"/>
+                <annoSet ID="23922"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4905">
+            <text>A moins qu' elles ne s' apparentent , bien que le ministère de la fonction publique s' en défende , à un volontariat forcé .</text>
+            <annotationSet status="MANUAL" ID="7024">
+                <layer rank="1" name="FE">
+                    <label end="88" start="87" name="Proposition"/>
+                    <label end="16" start="12" name="Proposition"/>
+                    <label end="34" start="21" name="Proposition"/>
+                    <label end="121" start="100" name="Proposition"/>
+                    <label end="82" start="47" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="84" name="Target"/>
+                    <label end="96" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5811">
+            <text>Confrontées à la concurrence de grandes entreprises sur le marché du travail , les PME utilisent encore cette arme pour se protéger , quoiqu' elles s' en défendent .</text>
+            <annotationSet status="MANUAL" ID="8551">
+                <layer rank="1" name="FE">
+                    <label end="152" start="151" name="Proposition"/>
+                    <label end="130" start="79" name="Proposition"/>
+                    <label end="146" start="142" name="Speaker"/>
+                    <label end="85" start="79" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="148" name="Target"/>
+                    <label end="162" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8832">
+            <text>M. Tapie s' en défend , déçu , découragé et quelque peu lassé , semble -t-il .</text>
+            <annotationSet status="MANUAL" ID="12606">
+                <layer rank="1" name="FE">
+                    <label end="13" start="12" name="Proposition"/>
+                    <label end="7" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="9" name="Target"/>
+                    <label end="20" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11610">
+            <text>Ce départ consacre une situation de fait : bien que le groupe s' en défende , il était de notoriété publique dans le monde de l' immobilier que M. Pelège était déjà sous la tutelle du Crédit lyonnais depuis des mois .</text>
+            <annotationSet status="MANUAL" ID="15980">
+                <layer rank="1" name="FE">
+                    <label end="66" start="65" name="Proposition"/>
+                    <label end="214" start="144" name="Proposition"/>
+                    <label end="60" start="52" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="62" name="Target"/>
+                    <label end="74" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20177">
+            <text>Se défendant de toute tentation protectionniste , M. Gephardt s' est cependant dit prêt à " forcer le Japon à acheter américain ou , sinon , à l' empêcher de vendre ici " , ajoutant qu' il avait élaboré un projet de loi en ce sens visant , à l' aide de " restrictions volontaires " , à réduire de 20 % en cinq ans le déficit commercial américain vis - à - vis du Japon .</text>
+            <annotationSet status="MANUAL" ID="23922">
+                <layer rank="1" name="FE">
+                    <label end="46" start="13" name="Proposition"/>
+                    <label end="60" start="50" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

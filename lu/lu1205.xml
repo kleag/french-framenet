@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="légitimer.v" ID="1205" frame="FR_Justifying" frameID="10037" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Sufficient_reason"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Responsible_entity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Eventuality"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="24420"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responsible_entity"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="24420"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Sufficient_reason"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Sufficient_reason"/>
+                <annoSet ID="24420"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="20843">
+            <text>Comme M. Jacques Fournier , Mme Martine Aubry , ministre du travail , a déclaré " comprendre " la réaction des agents de la SNCF , mise sur le coup de l' émotion , tandis que M. Louis Viannet , secrétaire général de la CGT , légitimait leur " indignation " et leur " colère " .</text>
+            <annotationSet status="MANUAL" ID="24420">
+                <layer rank="1" name="FE">
+                    <label end="221" start="175" name="Speaker"/>
+                    <label end="274" start="236" name="Eventuality"/>
+                    <label itype="UNI" name="Sufficient_reason"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="234" start="225" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

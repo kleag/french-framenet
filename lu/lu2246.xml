@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="polémique.n" ID="2246" frame="Quarreling" frameID="710" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Args" name="Arguers"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Arg1" name="Arguer1"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Arg2" name="Arguer2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Iss" name="Issue"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Arguer1"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Arguer1"/>
+                <annoSet ID="22312"/>
+                <annoSet ID="23055"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Arguer1"/>
+                <annoSet ID="12568"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Arguer2"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Arguer2"/>
+                <annoSet ID="23055"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Arguers"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Arguers"/>
+                <annoSet ID="8498"/>
+                <annoSet ID="15448"/>
+                <annoSet ID="16092"/>
+                <annoSet ID="19528"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Arguers"/>
+                <annoSet ID="2797"/>
+                <annoSet ID="14377"/>
+                <annoSet ID="16632"/>
+                <annoSet ID="17472"/>
+                <annoSet ID="19489"/>
+                <annoSet ID="20753"/>
+                <annoSet ID="21188"/>
+                <annoSet ID="22296"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Issue"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Issue"/>
+                <annoSet ID="2797"/>
+                <annoSet ID="12568"/>
+                <annoSet ID="14377"/>
+                <annoSet ID="15448"/>
+                <annoSet ID="17472"/>
+                <annoSet ID="20753"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Issue"/>
+                <annoSet ID="8498"/>
+                <annoSet ID="16092"/>
+                <annoSet ID="16632"/>
+                <annoSet ID="19489"/>
+                <annoSet ID="19528"/>
+                <annoSet ID="21188"/>
+                <annoSet ID="22296"/>
+                <annoSet ID="22312"/>
+                <annoSet ID="23055"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2113">
+            <text>Plus tard , le bombardement des tranchées françaises fera l' objet d' une polémique , à la suite d' un témoignage : Le général Réveilhac , ordonnateur de l' attaque , aurait demandé à l' artillerie de pilonner les positions française pour obliger les soldats à sortir de leurs tranchées .</text>
+            <annotationSet status="MANUAL" ID="2797">
+                <layer rank="1" name="FE">
+                    <label end="51" start="12" name="Issue"/>
+                    <label itype="UNI" name="Arguers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5773">
+            <text>En France , faillites de sociétés , polémiques entre annonceurs et producteurs sur fond de vigilance du Conseil de la concurrence , ont rendu tout le monde prudent .</text>
+            <annotationSet status="MANUAL" ID="8498">
+                <layer rank="1" name="FE">
+                    <label end="77" start="53" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8807">
+            <text>Les difficultés de la marque aux trois bandes ne toléraient plus gestion lointaine et polémiques politiques .</text>
+            <annotationSet status="MANUAL" ID="12568">
+                <layer rank="1" name="FE">
+                    <label end="106" start="97" name="Issue"/>
+                    <label itype="DNI" name="Arguer1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10225">
+            <text>Quelle que soit la décision des juges , il est inévitable qu' à la polémique sur les mécomptes de la CGT s' ajoute une autre controverse .</text>
+            <annotationSet status="MANUAL" ID="14377">
+                <layer rank="1" name="FE">
+                    <label end="103" start="81" name="Issue"/>
+                    <label itype="UNI" name="Arguers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11169">
+            <text>Déjà en croissance de 22 , 5 % en 1991 , les préretraites ont encore fait un bond qui a provoqué une vive polémique au sujet de la qualité des plans sociaux entre Mme Martine Aubry , ministre du travail , et M. Jacques Calvet , PDG du groupe PSA .</text>
+            <annotationSet status="MANUAL" ID="15448">
+                <layer rank="1" name="FE">
+                    <label end="244" start="163" name="Arguers"/>
+                    <label end="155" start="128" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11724">
+            <text>La violente polémique anglo - allemande affectera sans doute longtemps les relations entre Londres et Bonn .</text>
+            <annotationSet status="MANUAL" ID="16092">
+                <layer rank="1" name="FE">
+                    <label end="38" start="22" name="Arguers"/>
+                    <label itype="DNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12283">
+            <text>Le groupe présidé par M. Michel Albert devient donc le plus gros actionnaire d' AMB avec " 25 % plus une action " devant l' assureur italien Fondiaria , qui possède 20 % du capital d' AMB et qui a été au centre de la plupart des polémiques au cours d' une assemblée - marathon .</text>
+            <annotationSet status="MANUAL" ID="16632">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="238" start="229" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13101">
+            <text>Au - delà de ces objectifs qui se déclinent en une série de propositions détaillées , la question reste celle des moyens , relancée par une polémique sur les récents dépassements de budget de la BBC TV .</text>
+            <annotationSet status="MANUAL" ID="17472">
+                <layer rank="1" name="FE">
+                    <label end="200" start="154" name="Issue"/>
+                    <label itype="UNI" name="Arguers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="148" start="140" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15232">
+            <text>Cette décision a été prise " en vue de faire cesser toutes les polémiques " à la suite de la divulgation d' un plan de redressement de l' entreprise ( le Monde daté 6.7 juin ) .</text>
+            <annotationSet status="MANUAL" ID="19489">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15271">
+            <text>Selon lui , il n' y avait pas de réelle polémique entre le gouvernement et les employeurs et , si l' " on a instruit un procès " , il s' agissait " d' une affaire démesurée , grossie parce qu' il ne se passe rien sur le plan social " .</text>
+            <annotationSet status="MANUAL" ID="19528">
+                <layer rank="1" name="FE">
+                    <label end="88" start="56" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16560">
+            <text>La polémique autour de la liquidation de la Stasi , la réaction de l' opinion publique , ont montré combien celle - ci restait incertaine .</text>
+            <annotationSet status="MANUAL" ID="20753">
+                <layer rank="1" name="FE">
+                    <label end="48" start="23" name="Issue"/>
+                    <label itype="UNI" name="Arguers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17067">
+            <text>Ainsi , après six mois d' invectives et de polémiques , les dirigeants de la BNP et de la société Yves rocher ont préféré confier à un collège arbitral au lieu de le déballer en public le différend qui les oppose à propos de la reprise de Petit Bateau .</text>
+            <annotationSet status="MANUAL" ID="21188">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18252">
+            <text>Les nuances qui les séparent ne sont pas à la mesure des polémiques acerbes et des petites phrases assassines qui font , par ailleurs , les délices des médias .</text>
+            <annotationSet status="MANUAL" ID="22296">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Arguers"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18258">
+            <text>Désireux de n' entretenir aucune polémique , nous ne pouvons pour l' instant que prendre acte d' une situation qui continue cependant à nous paraître dommageable , car le risque est évident que l' on soit conduit à se compter davantage par rapport à tel ou tel leader que sur des choix politiques ou idéologiques .</text>
+            <annotationSet status="MANUAL" ID="22312">
+                <layer rank="1" name="FE">
+                    <label end="48" start="45" name="Arguer1"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18996">
+            <text>Le ton pondéré adopté à l' issue des consultations de Mr Rogatchev , qui a rencontré le chef de la diplomatie chinoise , Mr Qian Qichen , avant de se rendre à Paris pour la réunion , lundi et mardi , des membres permanents du Conseil de sécurité des Nations unies sur le Cambodge , met donc , au moins provisoirement , un bémol à la polémique qui commençait à se faire jour du côté chinois envers Moscou ( Le Monde du 10 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="23055">
+                <layer rank="1" name="FE">
+                    <label end="402" start="397" name="Arguer2"/>
+                    <label end="388" start="382" name="Arguer1"/>
+                    <label itype="UNI" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="341" start="333" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

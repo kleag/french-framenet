@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="commercialisation.n" ID="138" frame="Carry_goods" frameID="1850" totalAnnotated="23" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="dis" name="Distributor"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="goo" name="Goods"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="23">
+            <FE name="Distributor"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Distributor"/>
+                <annoSet ID="6188"/>
+                <annoSet ID="6271"/>
+                <annoSet ID="8355"/>
+                <annoSet ID="10970"/>
+                <annoSet ID="14804"/>
+                <annoSet ID="16392"/>
+                <annoSet ID="16396"/>
+                <annoSet ID="17389"/>
+                <annoSet ID="21069"/>
+                <annoSet ID="23874"/>
+                <annoSet ID="23978"/>
+                <annoSet ID="24559"/>
+                <annoSet ID="24561"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Distributor"/>
+                <annoSet ID="1290"/>
+                <annoSet ID="4821"/>
+                <annoSet ID="4864"/>
+                <annoSet ID="4871"/>
+                <annoSet ID="4877"/>
+                <annoSet ID="4886"/>
+                <annoSet ID="11991"/>
+                <annoSet ID="13379"/>
+                <annoSet ID="13402"/>
+                <annoSet ID="16766"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Goods"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="4877"/>
+                <annoSet ID="8355"/>
+                <annoSet ID="10970"/>
+                <annoSet ID="13379"/>
+                <annoSet ID="13402"/>
+                <annoSet ID="14804"/>
+                <annoSet ID="16392"/>
+                <annoSet ID="16396"/>
+                <annoSet ID="16766"/>
+                <annoSet ID="17389"/>
+                <annoSet ID="21069"/>
+                <annoSet ID="23874"/>
+                <annoSet ID="23978"/>
+                <annoSet ID="24559"/>
+                <annoSet ID="24561"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="1290"/>
+                <annoSet ID="4821"/>
+                <annoSet ID="4864"/>
+                <annoSet ID="4871"/>
+                <annoSet ID="4886"/>
+                <annoSet ID="6188"/>
+                <annoSet ID="6271"/>
+                <annoSet ID="11991"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1262">
+            <text>Basé sur des données après commercialisation .</text>
+            <annotationSet status="MANUAL" ID="1290">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Distributor"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3579">
+            <text>La liste des pays qui demandent à participer à cette nouvelle donne ne cesse de s' allonger , ouvrant ainsi de nouvelles possibilités d' investissements et de commercialisation .</text>
+            <annotationSet status="MANUAL" ID="4821">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Distributor"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="175" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3603">
+            <text>Aucune technique , aussi sophistiquée soit -elle , ne permettra d' éliminer cet aléa de la commercialisation .</text>
+            <annotationSet status="MANUAL" ID="4864">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Distributor"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3608">
+            <text>La commercialisation efficace est plus exigeante .</text>
+            <annotationSet status="MANUAL" ID="4871">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Distributor"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3612">
+            <text>Toute évaluation de rentabilité doit prendre en compte les conditions d' une commercialisation optimale du produit qui permettent aussi de compléter une analyse plus poussée du " risque pays " dont les établissements financiers sont si friands à juste titre .</text>
+            <annotationSet status="MANUAL" ID="4877">
+                <layer rank="1" name="FE">
+                    <label end="113" start="107" name="Goods"/>
+                    <label itype="UNI" name="Distributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3617">
+            <text>L' économie de marché , le libre jeu de l' offre et de la demande doit pouvoir enfin reposer sur ses quatre pieds aux quatre coins de la planète : la production , le financement , la consommation , et la commercialisation .</text>
+            <annotationSet status="MANUAL" ID="4886">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Distributor"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="220" start="204" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4400">
+            <text>Le prix de la main - d' oeuvre y étant moins élevé qu' en Allemagne , les coûts de production devraient permettre à Mercedes d' étendre son réseau de commercialisation .</text>
+            <annotationSet status="MANUAL" ID="6188">
+                <layer rank="1" name="FE">
+                    <label end="123" start="116" name="Distributor"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4448">
+            <text>Seuls Honda et Mazda ont passé des accords de commercialisation d' une ampleur limitée avec des constructeurs américains .</text>
+            <annotationSet status="MANUAL" ID="6271">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Distributor"/>
+                    <label itype="DNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5688">
+            <text>IBM devient ainsi actionnaire de Dassault systèmes à hauteur de 10 % et assure la commercialisation de ses logiciels Catia , qui tournent sur des ordinateurs IBM .</text>
+            <annotationSet status="MANUAL" ID="8355">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Distributor"/>
+                    <label end="160" start="103" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7520">
+            <text>La standardisation des productions ( vaisselle , vases , bougeoirs , luminaires , objets décoratifs , etc. ) permet à la manufacture , outre la commercialisation dans les réseaux du mouvement coopératif , de fournir notamment les grands magasins parisiens .</text>
+            <annotationSet status="MANUAL" ID="10970">
+                <layer rank="1" name="FE">
+                    <label end="131" start="118" name="Distributor"/>
+                    <label end="107" start="23" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8370">
+            <text>Elle comporte trois points essentiels : une deuxième langue obligatoire , un renforcement de la pratique de techniques de vente et de commercialisation par un allongement de la durée des stages de huit à dix semaines .</text>
+            <annotationSet status="MANUAL" ID="11991">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Distributor"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="134" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9474">
+            <text>Un peu moins d' un an après cette décision , la commercialisation des automobiles coréennes démarre en France .</text>
+            <annotationSet status="MANUAL" ID="13379">
+                <layer rank="1" name="FE">
+                    <label end="90" start="70" name="Goods"/>
+                    <label itype="UNI" name="Distributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9492">
+            <text>La commercialisation des véhicules à quatre roues motrices ( les 4 4 ) Ssangyong , importés par Korauto ( une filiale des établissements Chapat , importateurs des jaguar en France ) , débutera en avril 1993 .</text>
+            <annotationSet status="MANUAL" ID="13402">
+                <layer rank="1" name="FE">
+                    <label end="180" start="25" name="Goods"/>
+                    <label itype="UNI" name="Distributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10587">
+            <text>Mais cette vente s' inscrit aussi dans un plan d' économies nécessité par la baisse des ressources publicitaires et du chiffre d' affaires ( le Monde du 29 octobre ) , à quelques jours de la mise en place opérationnelle du groupement d' intérêt économique ( GIE ) qui coiffera en janvier la fabrication , la distribution et la commercialisation de l' express et du Point , sous l' autorité du PDG de ce dernier , M. Bernard Wouts .</text>
+            <annotationSet status="MANUAL" ID="14804">
+                <layer rank="1" name="FE">
+                    <label end="266" start="264" name="Distributor"/>
+                    <label end="262" start="223" name="Distributor"/>
+                    <label end="360" start="348" name="Goods"/>
+                    <label end="369" start="365" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="343" start="327" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12083">
+            <text>Lockheed , qui a notamment construit les avions espions U - 2 et SR - 71 ainsi que le chasseur furtif F - 117A , sera responsable de la commercialisation de Proton en Occident et se chargera de l' intégration de la charge à lancer dans la fusée russe .</text>
+            <annotationSet status="MANUAL" ID="16392">
+                <layer rank="1" name="FE">
+                    <label end="109" start="0" name="Distributor"/>
+                    <label end="162" start="157" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="152" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12085">
+            <text>" Le coût élevé de mise en orbite était , pour nous , le seul obstacle pour que nous abordions la commercialisation de l' espace , a expliqué le directeur général adjoint de la division systèmes spatiaux de Lockheed .</text>
+            <annotationSet status="MANUAL" ID="16396">
+                <layer rank="1" name="FE">
+                    <label end="83" start="80" name="Distributor"/>
+                    <label end="214" start="207" name="Distributor"/>
+                    <label end="127" start="119" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12429">
+            <text>Afin d' harmoniser leur commercialisation avec les dispositions applicables aux OPCVM français , la COB fait obligation aux OPCVM étrangers , à compter du 1 janvier 1993 , de désigner , en France , un correspondant chargé des services financiers auprès des souscripteurs français et de fournir des informations statistiques à intervalle régulier en termes d' encours et de flux .</text>
+            <annotationSet status="MANUAL" ID="16766">
+                <layer rank="1" name="FE">
+                    <label end="138" start="124" name="Goods"/>
+                    <label end="22" start="19" name="Goods"/>
+                    <label itype="UNI" name="Distributor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13026">
+            <text>La nouvelle filiale assurera notamment la commercialisation et la production des équipements et systèmes de technologie Alcatel dans les secteurs tels que la commutation publique , la commutation de données , les radiocommunications et la transmission .</text>
+            <annotationSet status="MANUAL" ID="17389">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Distributor"/>
+                    <label end="126" start="81" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16951">
+            <text>Interinfo assurera l' importation et la commercialisation sur le territoire soviétique de micro - ordinateurs Goupil .</text>
+            <annotationSet status="MANUAL" ID="21069">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Distributor"/>
+                    <label end="115" start="90" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20142">
+            <text>L' éclatement de l' URSS n' a pas remis en cause l' accord quinquennal de 5 milliards de dollars qui la lie avec la firme russe Rosalmazzoloto pour la commercialisation des pierres de l' ex- Union soviétique .</text>
+            <annotationSet status="MANUAL" ID="23874">
+                <layer rank="1" name="FE">
+                    <label end="102" start="101" name="Distributor"/>
+                    <label end="206" start="173" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20260">
+            <text>Ainsi , dans la construction navale , où les arsenaux de l' Etat - au travers de la société de commercialisation DCN - International - et des chantiers civils essaient , non sans quelques précautions , de renforcer leur coopération à l' exportation .</text>
+            <annotationSet status="MANUAL" ID="23978">
+                <layer rank="1" name="FE">
+                    <label end="93" start="81" name="Distributor"/>
+                    <label end="131" start="113" name="Distributor"/>
+                    <label end="34" start="29" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21020">
+            <text>Isuzu mettra en outre son réseau de distribution au service de la commercialisation des véhicules Honda au Japon .</text>
+            <annotationSet status="MANUAL" ID="24559">
+                <layer rank="1" name="FE">
+                    <label end="47" start="22" name="Distributor"/>
+                    <label end="102" start="88" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21024">
+            <text>On s' attend à ce que d' autres constructeurs japonais en difficulté , engagés jusqu' à présent dans une concurrence féroce , suivent l' exemple d' Isuzu et d' Honda et cherchent à conjuguer leurs efforts tant pour la production que pour la commercialisation de leurs véhicules .</text>
+            <annotationSet status="MANUAL" ID="24561">
+                <layer rank="1" name="FE">
+                    <label end="266" start="262" name="Distributor"/>
+                    <label end="122" start="22" name="Distributor"/>
+                    <label end="276" start="262" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="257" start="241" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

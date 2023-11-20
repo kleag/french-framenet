@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="en conséquence.adv" ID="2763" frame="Evidence" frameID="25" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Proposition"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="1966"/>
+                <annoSet ID="12185"/>
+                <annoSet ID="14215"/>
+                <annoSet ID="20565"/>
+                <annoSet ID="20573"/>
+                <annoSet ID="24162"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Support"/>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Support"/>
+                <annoSet ID="1966"/>
+                <annoSet ID="12185"/>
+                <annoSet ID="14215"/>
+                <annoSet ID="20565"/>
+                <annoSet ID="20573"/>
+                <annoSet ID="24162"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1750">
+            <text>En conséquence , la Commission pense qu' elle devrait donner des éclaircissements sur deux idées très strictes et claires au Parlement .</text>
+            <annotationSet status="MANUAL" ID="1966">
+                <layer rank="1" name="FE">
+                    <label end="133" start="41" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8551">
+            <text>En conséquence , dans et hors de l' entreprise , pour un responsable , il faut toujours être en attente de quelque chose d' important de chaque salarié .</text>
+            <annotationSet status="MANUAL" ID="12185">
+                <layer rank="1" name="FE">
+                    <label end="152" start="15" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10119">
+            <text>En conséquence , elle estime , suivie notamment par la CFTC , que les gestionnaires devraient renoncer à la baisse des cotisations prévue pour le 1 janvier , la hausse de 0 , 8 % appliquée depuis le 1 août devant être initialement ramenée à 0 , 5 % .</text>
+            <annotationSet status="MANUAL" ID="14215">
+                <layer rank="1" name="FE">
+                    <label end="247" start="66" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16379">
+            <text>" pour des raisons d' ordre éthique et d' ordre économique " étroitement liées , il considère en conséquence que " la responsabilité des entreprises vis - à - vis de la collectivité peut et doit s' exprimer pleinement " .</text>
+            <annotationSet status="MANUAL" ID="20565">
+                <layer rank="1" name="FE">
+                    <label end="218" start="113" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16383">
+            <text>En conséquence , il souhaite " que les comportements de responsabilité vis - à - vis de l' emploi se développent et que la solidarité se renforce " .</text>
+            <annotationSet status="MANUAL" ID="20573">
+                <layer rank="1" name="FE">
+                    <label end="114" start="35" name="Proposition"/>
+                    <label end="146" start="120" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20454">
+            <text>Peut -on en conséquence suggérer que , dans un contexte d' essoufflement général des initiatives et programmes concernant l' Afrique , la constitution d' une zone monétaire écu , complétée par une institution bancaire à vocation supranationale , pourrait conjuguer rigueur , souplesse et cohérence dans le traitement des situations particulières d' un sous - continent dont l' Europe ne peut se désintéresser .</text>
+            <annotationSet status="MANUAL" ID="24162">
+                <layer rank="1" name="FE">
+                    <label end="407" start="37" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

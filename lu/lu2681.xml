@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="reconnaître.v" ID="2681" frame="FR_Taking_sides" frameID="10060" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="11559"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="27"/>
+                <annoSet ID="19333"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="27"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Content"/>
+                <annoSet ID="11559"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Side"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Side"/>
+                <annoSet ID="19333"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19">
+            <text>Un voyage étonnant où photos , réalisations , vieux outils , documents anciens , permettront de mesurer combien ce petit bout de terre de France , situé aux Marches de l' Est , lieu de passage de prédilection des invasions , fut une terre de labeur , et combien le travail de ses habitants , durs à la tâche , doit être reconnu et mis en valeur .</text>
+            <annotationSet status="MANUAL" ID="27">
+                <layer rank="1" name="FE">
+                    <label end="306" start="262" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="326" start="320" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8022">
+            <text>Reconnue nationalement , elle sera consacrée comme un haut lieu du luxe par la fréquentation de célébrités et de têtes couronnées pendant un quart de siècle .</text>
+            <annotationSet status="MANUAL" ID="11559">
+                <layer rank="1" name="FE">
+                    <label end="21" start="9" name="Cognizer"/>
+                    <label itype="DNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15068">
+            <text>" Si notre objectif était seulement d' utiliser le mouvement vert , nous nous contenterions de coopérer avec des organismes bien installés et reconnus comme le World Wildlife Fund .</text>
+            <annotationSet status="MANUAL" ID="19333">
+                <layer rank="1" name="FE">
+                    <label end="140" start="109" name="Side"/>
+                    <label end="178" start="151" name="Side"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="142" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

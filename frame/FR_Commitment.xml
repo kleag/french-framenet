@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Commitment" ID="10096" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; makes a commitment to an &lt;fen&gt;Addressee&lt;/fen&gt; about the veracity of some content or to carry out some action. The content or action to which the &lt;fen&gt;Speaker&lt;/fen&gt; commits themselve take the form of a &lt;fen&gt;Message&lt;/fen&gt;.
+    &lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : new in fndata-asfalda
+
+&lt;/def-root&gt;</definition>
+    <semType name="Non-Lexical Frame" ID="16"/>
+
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Spkr" name="Speaker" ID="135">
+        <definition>&lt;def-root&gt;The Speaker is the person who commits him/herself about the veracity.  &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Add" name="Addressee" ID="136">
+        <definition>&lt;def-root&gt;The Speaker's commitment can be made to an Addressee.  &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Msg" name="Message" ID="137">
+        <definition>&lt;def-root&gt;An expression of the commitment made by the Speaker expresses the frame element Message.   &lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:59 PST Wed" abbrev="Medium" name="Medium" ID="139">
+        <definition>&lt;def-root&gt;As with other frames in the Communication domain, the &lt;t&gt;Medium&lt;/t&gt; of communication may be expressed. Medium is the physical entity or channel used to transmit the Message. &lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="139"/>
+        <memberFE name="Speaker" ID="135"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Telling</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Commitment.to_do</relatedFrame>
+        <relatedFrame>FR_Commitment.veracity</relatedFrame>
+    </frameRelation>
+</frame>

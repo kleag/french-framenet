@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Telling" ID="10088" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; addresses an &lt;fen&gt;Addressee&lt;/fen&gt; with a &lt;fen&gt;Message&lt;/fen&gt;, which may be indirectly referred to as a &lt;fen&gt;Topic&lt;/fen&gt;. Some LUs in this frame do incorporate a means of communication.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Fusion of Telling and Communication_means, the key aspect of the resulting frame is the Coreness of the Addressee FE.
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames&lt;/asf&gt;:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Statement-manner-noise&lt;/frframe&gt;: the Addressee is Core in the FR_Telling frame, whereas for the LUs of FR_Statement-manner-noise, the Addressee could be inexistent.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Contacting&lt;/frframe&gt;: in FR_Contacting, the emphasis is on the attempt to establish contact with the Addressee, and the message cannot be realized locally to the LUs.
+
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/30/2003 03:52:47 PDT Wed" abbrev="" name="Speaker" ID="4869">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the sentient entity that produces the &lt;fen&gt;Message&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Speaker"&gt;Bill&lt;/fex&gt; &lt;t&gt;told&lt;/t&gt; me that he would come to the party.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/30/2003 03:55:08 PDT Wed" abbrev="" name="Addressee" ID="4870">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Addressee&lt;/fen&gt; receives the &lt;fen&gt;Message&lt;/fen&gt; from the &lt;fen&gt;Speaker&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/30/2003 03:55:51 PDT Wed" abbrev="" name="Message" ID="4871">
+        <definition>&lt;def-root&gt;The Message is the communication produced by the Speaker.
+&lt;ex&gt;The authorities &lt;t&gt;informed&lt;/t&gt; me &lt;fex name="Message"&gt;that my brother had been arrested&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;I &lt;t&gt;told&lt;/t&gt; him &lt;fex name="Message"&gt;a bedtime story&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/30/2003 03:57:45 PDT Wed" abbrev="" name="Topic" ID="4872">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is a general description of the content of the &lt;fen&gt;Message&lt;/fen&gt;.
+&lt;ex&gt;Leroy &lt;t&gt;told&lt;/t&gt; his mother &lt;fex name="Topic"&gt;about his arrest&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/30/2003 04:08:21 PDT Wed" abbrev="" name="Medium" ID="4876">
+        <definition>&lt;def-root&gt;This frame element is the &lt;fen&gt;Medium&lt;/fen&gt; in which the &lt;fen&gt;Message&lt;/fen&gt; is expressed.&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Message" ID="4871"/>
+        <memberFE name="Topic" ID="4872"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Speaker" ID="4869"/>
+        <memberFE name="Medium" ID="4876"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Statement-manner-noise</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Communication_response</relatedFrame>
+        <relatedFrame>FR_Attempt_suasion</relatedFrame>
+        <relatedFrame>FR_Commitment</relatedFrame>
+        <relatedFrame>Questioning</relatedFrame>
+        <relatedFrame>Reveal_secret</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Merged from">
+        <relatedFrame>Communication_means</relatedFrame>
+        <relatedFrame>Telling</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="alerte.n" ID="2521" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100071" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="alerter.v" ID="2522" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100072" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="avertir.v" ID="2523" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100224" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="avertissement.n" ID="2524" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Judgment_direct_address" ID="1979" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="100225" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="aviser.v" ID="2525" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100228" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="bigophoner.v" ID="360" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="brief.n" ID="2526" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="briefer.v" ID="2527" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="briefing.n" ID="2528" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="communication.n" ID="2529" nbocc="81" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100362" annotatedsent="76"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1465" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="932" annotatedsent="10"/>
+    </lexUnit>
+    <lexUnit POS="v" name="communiquer.v" ID="2530" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="100363" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1466" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="933" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="câbler.v" ID="364" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire observer.v" ID="2531" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100876" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire part.v" ID="2622" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="100877" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire remarquer.v" ID="2532" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100878" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire savoir.v" ID="2533" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="100879" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faxer.v" ID="365" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="informer.v" ID="2534" nbocc="40" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="39"/>
+        <otherlexUnit framename="Other_sense" ID="101068" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="notification.n" ID="2535" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="notifier.v" ID="2536" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101276" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Request" ID="2387" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="proposer.v" ID="2537" nbocc="155" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prévenir.v" ID="2538" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Preventing" ID="2627" annotatedsent="15"/>
+        <otherlexUnit framename="Other_sense" ID="101504" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="remémorer.v" ID="2539" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101598" annotatedsent="0"/>
+        <otherlexUnit framename="Evoking" ID="614" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="signifier.v" ID="2540" nbocc="49" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="souffler.v" ID="2541" nbocc="5" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="transmettre.v" ID="2544" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="transmission.n" ID="2545" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="télégraphier.v" ID="366" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="téléphoner.v" ID="367" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101945" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contacting" ID="979" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Request" ID="2417" annotatedsent="0"/>
+    </lexUnit>
+</frame>

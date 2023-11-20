@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se convertir.v" ID="879" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="11585"/>
+                <annoSet ID="18438"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="11585"/>
+                <annoSet ID="18438"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8052">
+            <text>A la quête d' une image globale , Royan devra se convertir au marketing et se spécialiser sur certains créneaux , à l' exemple de Soulac , un des plus grands domaines naturistes d' Europe .</text>
+            <annotationSet status="MANUAL" ID="11585">
+                <layer rank="1" name="FE">
+                    <label end="70" start="62" name="Content"/>
+                    <label end="38" start="34" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14105">
+            <text>Comme pour prouver qu' ils s' étaient pour de bon convertis à la cause de l' entreprise , les socialistes en étaient pareillement arrivés , n' en déplaise à Martine Aubry , à encourager les pires pratiques du " dégraissage " , degré zéro de la productivité .</text>
+            <annotationSet status="MANUAL" ID="18438">
+                <layer rank="1" name="FE">
+                    <label end="86" start="62" name="Content"/>
+                    <label end="25" start="23" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="27" name="Target"/>
+                    <label end="58" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

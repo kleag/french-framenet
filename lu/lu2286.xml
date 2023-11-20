@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="conduire.v" ID="2286" frame="FR_Reason" frameID="10083" totalAnnotated="33" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="33">
+            <FE name="Action"/>
+            <pattern total="33">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="3371"/>
+                <annoSet ID="3924"/>
+                <annoSet ID="5160"/>
+                <annoSet ID="5558"/>
+                <annoSet ID="5734"/>
+                <annoSet ID="5751"/>
+                <annoSet ID="6162"/>
+                <annoSet ID="6539"/>
+                <annoSet ID="6550"/>
+                <annoSet ID="7601"/>
+                <annoSet ID="9798"/>
+                <annoSet ID="9988"/>
+                <annoSet ID="9999"/>
+                <annoSet ID="10216"/>
+                <annoSet ID="10974"/>
+                <annoSet ID="11188"/>
+                <annoSet ID="12360"/>
+                <annoSet ID="12391"/>
+                <annoSet ID="14942"/>
+                <annoSet ID="15858"/>
+                <annoSet ID="15896"/>
+                <annoSet ID="15920"/>
+                <annoSet ID="16068"/>
+                <annoSet ID="17479"/>
+                <annoSet ID="17596"/>
+                <annoSet ID="17783"/>
+                <annoSet ID="19175"/>
+                <annoSet ID="19861"/>
+                <annoSet ID="19868"/>
+                <annoSet ID="19882"/>
+                <annoSet ID="22267"/>
+                <annoSet ID="22311"/>
+                <annoSet ID="22453"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="33">
+            <FE name="Agent"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="3371"/>
+                <annoSet ID="3924"/>
+                <annoSet ID="5160"/>
+                <annoSet ID="5558"/>
+                <annoSet ID="6162"/>
+                <annoSet ID="6539"/>
+                <annoSet ID="6550"/>
+                <annoSet ID="7601"/>
+                <annoSet ID="10974"/>
+                <annoSet ID="11188"/>
+                <annoSet ID="12360"/>
+                <annoSet ID="14942"/>
+                <annoSet ID="15858"/>
+                <annoSet ID="15920"/>
+                <annoSet ID="16068"/>
+                <annoSet ID="17479"/>
+                <annoSet ID="17783"/>
+                <annoSet ID="19861"/>
+                <annoSet ID="19868"/>
+                <annoSet ID="19882"/>
+                <annoSet ID="22267"/>
+                <annoSet ID="22311"/>
+                <annoSet ID="22453"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="5734"/>
+                <annoSet ID="5751"/>
+                <annoSet ID="9798"/>
+                <annoSet ID="9988"/>
+                <annoSet ID="9999"/>
+                <annoSet ID="10216"/>
+                <annoSet ID="12391"/>
+                <annoSet ID="15896"/>
+                <annoSet ID="17596"/>
+                <annoSet ID="19175"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="33">
+            <FE name="State_of_Affairs"/>
+            <pattern total="28">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="3371"/>
+                <annoSet ID="3924"/>
+                <annoSet ID="5160"/>
+                <annoSet ID="5558"/>
+                <annoSet ID="5734"/>
+                <annoSet ID="5751"/>
+                <annoSet ID="6162"/>
+                <annoSet ID="7601"/>
+                <annoSet ID="9798"/>
+                <annoSet ID="9988"/>
+                <annoSet ID="9999"/>
+                <annoSet ID="10216"/>
+                <annoSet ID="10974"/>
+                <annoSet ID="12360"/>
+                <annoSet ID="12391"/>
+                <annoSet ID="14942"/>
+                <annoSet ID="15858"/>
+                <annoSet ID="15896"/>
+                <annoSet ID="16068"/>
+                <annoSet ID="17479"/>
+                <annoSet ID="17596"/>
+                <annoSet ID="17783"/>
+                <annoSet ID="19175"/>
+                <annoSet ID="19861"/>
+                <annoSet ID="19868"/>
+                <annoSet ID="19882"/>
+                <annoSet ID="22267"/>
+                <annoSet ID="22453"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="State_of_Affairs"/>
+                <annoSet ID="6539"/>
+                <annoSet ID="6550"/>
+                <annoSet ID="11188"/>
+                <annoSet ID="15920"/>
+                <annoSet ID="22311"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2538">
+            <text>- Cette procédure risque de conduire l' État français à payer une amende d' un montant évalué en l' état de l' enquête à 599 millions de dollars ( près de 500 millions d' euros ) .</text>
+            <annotationSet status="MANUAL" ID="3371">
+                <layer rank="1" name="FE">
+                    <label end="177" start="56" name="Action"/>
+                    <label end="16" start="2" name="State_of_Affairs"/>
+                    <label end="52" start="37" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3017">
+            <text>Le 6 août , Reuters a mis un terme à sa collaboration avec Adnan Hajj qui se défendait en expliquant avoir voulu retirer des traces de poussières sur les photos originales et que ses conditions de travail , dans un lieu peu éclairé , avaient conduit à ces modifications des photos [ 7 ] .</text>
+            <annotationSet status="MANUAL" ID="3924">
+                <layer rank="1" name="FE">
+                    <label end="279" start="252" name="Action"/>
+                    <label end="279" start="179" name="State_of_Affairs"/>
+                    <label end="177" start="59" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="248" start="242" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3773">
+            <text>Les comptes d' exploitation des sociétés de bourse n' ont cessé de se dégrader , mais la plus grande sécurité offerte à leur clientèle , compte tenu , pour la plupart d' entre elles , de la solidité de leur actionnaire majoritaire , a conduit le Conseil des Bourses de valeurs ( CBV ) à modifier les règles régissant le fonds de garantie de la Bourse .</text>
+            <annotationSet status="MANUAL" ID="5160">
+                <layer rank="1" name="FE">
+                    <label end="349" start="287" name="Action"/>
+                    <label end="229" start="86" name="State_of_Affairs"/>
+                    <label end="283" start="243" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="241" start="235" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4002">
+            <text>Néanmoins , le gouverneur de la Banque d' Angleterre , M. Robin Leigh - Pemberton , a exclu un relèvement des taux d' intérêt dans l' immédiat , ce qui rendra plus difficile la défense de la livre , et conduit certains analystes à prévoir , un jour ou l' autre , un réalignement du SME comportant , effectivement , une dévaluation de cette devise .</text>
+            <annotationSet status="MANUAL" ID="5558">
+                <layer rank="1" name="FE">
+                    <label end="345" start="231" name="Action"/>
+                    <label end="200" start="0" name="State_of_Affairs"/>
+                    <label end="227" start="210" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="208" start="202" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4110">
+            <text>L' atténuation des fluctuations économiques , le fait qu' elles n' entraînaient souvent que des pauses dans la progression de l' activité , la confiance dans la capacité de régulation des politiques , conduisirent à se désintéresser de ces théories , voire à en nier la pertinence .</text>
+            <annotationSet status="MANUAL" ID="5734">
+                <layer rank="1" name="FE">
+                    <label end="255" start="216" name="Action"/>
+                    <label end="279" start="259" name="Action"/>
+                    <label end="197" start="0" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="212" start="201" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4119">
+            <text>En France même , la croyance à la croissance autoentretenue s' est renforcée en 1989 , conduisant à négliger les signes de ralentissement déjà perceptibles .</text>
+            <annotationSet status="MANUAL" ID="5751">
+                <layer rank="1" name="FE">
+                    <label end="154" start="100" name="Action"/>
+                    <label end="85" start="0" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4381">
+            <text>Selon les milieux financiers danois , cette " guerre larvée " pourrait conduire à une prise de contrôle par un groupe étranger .</text>
+            <annotationSet status="MANUAL" ID="6162">
+                <layer rank="1" name="FE">
+                    <label end="125" start="82" name="Action"/>
+                    <label end="60" start="38" name="State_of_Affairs"/>
+                    <label end="125" start="108" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4628">
+            <text>A Satory ( Yvelines ) , où il a assisté mardi 14 janvier à la livraison du premier char Leclerc de série par son constructeur , le groupe GIAT - Industries , le secrétaire d' Etat à la défense , M. Jacques Mellick , a affirmé que " de nombreuses entreprises " d' armement seront conduites " à diminuer leurs effectifs dans les prochains mois , dans les prochaines années " .</text>
+            <annotationSet status="MANUAL" ID="6539">
+                <layer rank="1" name="FE">
+                    <label end="369" start="293" name="Action"/>
+                    <label end="270" start="232" name="Agent"/>
+                    <label itype="DNI" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="287" start="279" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4635">
+            <text>" La France , qui a développé dans le cadre d' une politique de défense une industrie structurée et performante , n' échappe pas à cette tendance lourde " d' une déflation des effectifs de l' armement dans le monde et , " sans rentrer dans des querelles d' experts sur l' ampleur actuelle et prévisible des sureffectifs , de nombreuses entreprises seront conduites à diminuer leurs effectifs dans les prochaines années .</text>
+            <annotationSet status="MANUAL" ID="6550">
+                <layer rank="1" name="FE">
+                    <label end="417" start="367" name="Action"/>
+                    <label end="346" start="322" name="Agent"/>
+                    <label itype="UNI" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="363" start="355" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5243">
+            <text>La fragilité des montages financiers élaborés pour ses acquisitions , le poids de l' endettement et les pertes d' exploitation conduisaient l' ULN au bord du dépôt de bilan en mars 1992 .</text>
+            <annotationSet status="MANUAL" ID="7601">
+                <layer rank="1" name="FE">
+                    <label end="171" start="158" name="Action"/>
+                    <label end="125" start="0" name="State_of_Affairs"/>
+                    <label end="145" start="140" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6563">
+            <text>Ces réformes s' élargissent aux marchés des capitaux à long terme et conduisent progressivement à la suppression des réglementations les plus gênantes , tels l' encadrement du crédit et le contrôle des changes .</text>
+            <annotationSet status="MANUAL" ID="9798">
+                <layer rank="1" name="FE">
+                    <label end="208" start="98" name="Action"/>
+                    <label end="11" start="0" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6708">
+            <text>L' Union nationale des entrepreneurs publics s' insurge contre des mesures qui conduiraient à " brader " le secteur public au bénéfice d' intérêts privés , nationaux ou étrangers .</text>
+            <annotationSet status="MANUAL" ID="9988">
+                <layer rank="1" name="FE">
+                    <label end="177" start="94" name="Action"/>
+                    <label end="73" start="63" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6717">
+            <text>Obtenues à partir d' échantillons plus larges de la population et des entreprises , ces statistiques annuelles ont conduit à réviser de plus de 600 000 les pertes d' emploi - portées ainsi de 1 , 57 million à 2 millions - sur la période de récession , de juin 1990 à janvier 1992 .</text>
+            <annotationSet status="MANUAL" ID="9999">
+                <layer rank="1" name="FE">
+                    <label end="278" start="125" name="Action"/>
+                    <label end="109" start="82" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6872">
+            <text>De bons observateurs , comme le président de L' Air liquide , M. Edouard de Royère , dont le groupe vient de prendre position en ex- RDA , notent que , dans les nouveaux Lander , la nécessité de faire table rase du passé conduit à édifier des ensembles flambant neufs , dont la productivité sera redoutable à terme , comme cela s' est produit en Allemagne et au Japon au lendemain de la guerre 1939 - 1945 .</text>
+            <annotationSet status="MANUAL" ID="10216">
+                <layer rank="1" name="FE">
+                    <label end="313" start="231" name="Action"/>
+                    <label end="219" start="179" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="227" start="221" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7525">
+            <text>La difficulté de recruter des ouvriers qualifiés a conduit la direction à renouer avec la tradition de l' apprentissage .</text>
+            <annotationSet status="MANUAL" ID="10974">
+                <layer rank="1" name="FE">
+                    <label end="118" start="74" name="Action"/>
+                    <label end="47" start="0" name="State_of_Affairs"/>
+                    <label end="70" start="59" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7719">
+            <text>Une fois les prix européens ramenés , par la vertu de la réforme , à un niveau proche des prix mondiaux , les organismes stockeurs pourraient bien être conduits à intervenir pour stabiliser les prix dans les deux sens .</text>
+            <annotationSet status="MANUAL" ID="11188">
+                <layer rank="1" name="FE">
+                    <label end="172" start="163" name="Action"/>
+                    <label end="129" start="106" name="Agent"/>
+                    <label itype="ENI" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8672">
+            <text>" Je ne me gendarme pas , dit ce dernier , contre une méthode qui a conduit le juge à inculper avant d' entendre les parties civiles , mais contre la méthode du secret .</text>
+            <annotationSet status="MANUAL" ID="12360">
+                <layer rank="1" name="FE">
+                    <label end="131" start="86" name="Action"/>
+                    <label end="131" start="50" name="State_of_Affairs"/>
+                    <label end="64" start="62" name="State_of_Affairs"/>
+                    <label end="82" start="76" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8694">
+            <text>" Le souci de ne pas contredire des résultats annoncés par le ministre plusieurs mois avant que ces opérations ne soient calculées a parfois conduit à prendre des libertés avec le principe d' image fidèle des comptes " , notent les auditeurs .</text>
+            <annotationSet status="MANUAL" ID="12391">
+                <layer rank="1" name="FE">
+                    <label end="215" start="151" name="Action"/>
+                    <label end="129" start="2" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10694">
+            <text>Pour lui , néanmoins , tant que le rapprochement entre les deux monnaies , d' une façon ou d' une autre , ne sera pas effectué , le doute demeurera sur ce que sera la politique de change de la France , " un doute qui peut conduire les investisseurs à se préparer contre les incertitudes de demain " .</text>
+            <annotationSet status="MANUAL" ID="14942">
+                <layer rank="1" name="FE">
+                    <label end="295" start="251" name="Action"/>
+                    <label end="215" start="213" name="State_of_Affairs"/>
+                    <label end="295" start="204" name="State_of_Affairs"/>
+                    <label end="247" start="231" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="229" start="222" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11528">
+            <text>" Alors que la Chine offre un marché potentiel énorme (...) la détermination du gouvernement français de servir en priorité ses intérêts les plus étroits le conduira à ingurgiter des fruits amers " , prévenait encore lundi l' agence Chine nouvelle .</text>
+            <annotationSet status="MANUAL" ID="15858">
+                <layer rank="1" name="FE">
+                    <label end="194" start="168" name="Action"/>
+                    <label end="152" start="60" name="State_of_Affairs"/>
+                    <label end="155" start="154" name="Agent"/>
+                    <label end="100" start="80" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11542">
+            <text>La remise en cause , lundi 28 décembre , par l' administration des Etats - Unis du contrat de vente de micro- ordinateurs remporté , il y a trois mois , par Zenith , filiale américaine du groupe français Bull , conduit à poser la question .</text>
+            <annotationSet status="MANUAL" ID="15896">
+                <layer rank="1" name="FE">
+                    <label end="237" start="221" name="Action"/>
+                    <label end="207" start="0" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="217" start="211" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11563">
+            <text>Mais pour réaliser ses ambitions , le président élu sera pourtant vraisemblablement conduit à succomber aux pressions des nombreux lobbies partisans d' une protection à l' égard des produits et des capitaux étrangers .</text>
+            <annotationSet status="MANUAL" ID="15920">
+                <layer rank="1" name="FE">
+                    <label end="215" start="94" name="Action"/>
+                    <label end="50" start="35" name="Agent"/>
+                    <label itype="DNI" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11703">
+            <text>Au coeur de la crise , les responsables français sont conduits à envisager les hypothèses les plus noires .</text>
+            <annotationSet status="MANUAL" ID="16068">
+                <layer rank="1" name="FE">
+                    <label end="104" start="65" name="Action"/>
+                    <label end="19" start="12" name="State_of_Affairs"/>
+                    <label end="47" start="23" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13105">
+            <text>Ce chiffre , calculé pour la première fois sur le produit intérieur brut et non sur le PNB , a conduit le bureau des statistiques à renouveler son appel à " la vigilance face au risque de surchauffe économique " , tout en affirmant sa confiance dans la modération des effets pervers qu' on pouvait en attendre .</text>
+            <annotationSet status="MANUAL" ID="17479">
+                <layer rank="1" name="FE">
+                    <label end="208" start="132" name="Action"/>
+                    <label end="9" start="0" name="State_of_Affairs"/>
+                    <label end="128" start="103" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13224">
+            <text>" VIVRE avec une épée de Damoclès au - dessus de la tête conduit soit à un certain fatalisme , soit au contraire à une espèce de frénésie .</text>
+            <annotationSet status="MANUAL" ID="17596">
+                <layer rank="1" name="FE">
+                    <label end="91" start="72" name="Action"/>
+                    <label end="98" start="95" name="Action"/>
+                    <label end="136" start="115" name="Action"/>
+                    <label end="55" start="2" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13471">
+            <text>La stagnation des exportations agricoles ( étroitesse des marchés extérieurs ) et la baisse des prix réels de certains produits ( agrumes , coton ... ) ont conduit ces dernières années la majorité des Etats de la région à opter pour les cultures de substitution à l' importation afin de réduire le coût de la facture alimentaire .</text>
+            <annotationSet status="MANUAL" ID="17783">
+                <layer rank="1" name="FE">
+                    <label end="327" start="222" name="Action"/>
+                    <label end="150" start="0" name="State_of_Affairs"/>
+                    <label end="218" start="185" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14891">
+            <text>Quand les portes se ferment une à une , que le téléphone devient silencieux , que la solitude grandit , que les dettes s' accumulent , que la spirale de la déchéance déroule ses anneaux d' airain , le désespoir conduit au suicide plutôt qu' au crime :</text>
+            <annotationSet status="MANUAL" ID="19175">
+                <layer rank="1" name="FE">
+                    <label end="228" start="222" name="Action"/>
+                    <label end="209" start="198" name="State_of_Affairs"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="217" start="211" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15672">
+            <text>Toutefois , note -t-elle , cet engagement ne relève pas forcément d' une vocation pour ce métier mais plutôt d' une logique de l' " excellence scolaire " qui conduit les meilleurs élèves au lycée à s' orienter presque automatiquement vers les classes préparatoires aux écoles d' ingénieurs , et ce avec le soutien actif de leurs parents et souvent de leurs professeurs .</text>
+            <annotationSet status="MANUAL" ID="19861">
+                <layer rank="1" name="FE">
+                    <label end="367" start="198" name="Action"/>
+                    <label end="185" start="166" name="Agent"/>
+                    <label end="156" start="154" name="State_of_Affairs"/>
+                    <label end="367" start="112" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15680">
+            <text>Ce qui conduit les couples à se poser la question de la gestion d' une double carrière , qui se résout souvent par un accord plus ou moins tacite entre les époux : les tâches domestiques et le soin aux enfants restent dévolus aux femmes , au nom de la paix dans le ménage .</text>
+            <annotationSet status="MANUAL" ID="19868">
+                <layer rank="1" name="FE">
+                    <label end="160" start="29" name="Action"/>
+                    <label end="5" start="3" name="State_of_Affairs"/>
+                    <label end="25" start="15" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15691">
+            <text>Ce qui devrait logiquement conduire les hommes à remettre en question leur vision de la place des femmes au travail et à accepter un partage équitable des tâches domestiques .</text>
+            <annotationSet status="MANUAL" ID="19882">
+                <layer rank="1" name="FE">
+                    <label end="117" start="49" name="Action"/>
+                    <label end="172" start="121" name="Action"/>
+                    <label end="5" start="3" name="State_of_Affairs"/>
+                    <label end="45" start="36" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18229">
+            <text>Malgré un cofinancement communautaire qui conduit la Grande - Bretagne , les Pays - Bas , la RFA et l' Italie à mettre en place un tel système d' aides , la France n' a encore proposé aucun programme en ce sens .</text>
+            <annotationSet status="MANUAL" ID="22267">
+                <layer rank="1" name="FE">
+                    <label end="150" start="112" name="Action"/>
+                    <label end="40" start="38" name="State_of_Affairs"/>
+                    <label end="36" start="7" name="State_of_Affairs"/>
+                    <label end="108" start="50" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18258">
+            <text>Désireux de n' entretenir aucune polémique , nous ne pouvons pour l' instant que prendre acte d' une situation qui continue cependant à nous paraître dommageable , car le risque est évident que l' on soit conduit à se compter davantage par rapport à tel ou tel leader que sur des choix politiques ou idéologiques .</text>
+            <annotationSet status="MANUAL" ID="22311">
+                <layer rank="1" name="FE">
+                    <label end="311" start="215" name="Action"/>
+                    <label end="198" start="197" name="Agent"/>
+                    <label itype="ENI" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="211" start="205" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18335">
+            <text>Appelant à ne pas céder et à ne pas se prêter à " ce genre de manipulation à répétition " , Mr Fiterman conclut : " Je pense que rien ne doit nous conduire à renoncer à l' effort nécéssaire pour mettre le parti pleinement en mesure d' assurer son rôle et son avenir , et qu' assimiler toute démarche en ce sens même si elle comporte des aspects critiques - à du dénigrement , voire à un ralliement aux positions du grand capital , serait retomber dans les comportements dont le mouvement communiste ne connaît que trop les graves conséquences .</text>
+            <annotationSet status="MANUAL" ID="22453">
+                <layer rank="1" name="FE">
+                    <label end="264" start="158" name="Action"/>
+                    <label end="132" start="129" name="State_of_Affairs"/>
+                    <label end="145" start="142" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="154" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

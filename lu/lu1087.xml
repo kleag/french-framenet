@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="déclarer.v" ID="1087" frame="FR_Expressing_decision" frameID="10027" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Dec" name="Decision"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="OffE" name="Official_entity"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="8">
+            <FE name="Decision"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Decision"/>
+                <annoSet ID="574"/>
+                <annoSet ID="3012"/>
+                <annoSet ID="7351"/>
+                <annoSet ID="9428"/>
+                <annoSet ID="13499"/>
+                <annoSet ID="14862"/>
+                <annoSet ID="15667"/>
+                <annoSet ID="16155"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Official_entity"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Speaker"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="574"/>
+                <annoSet ID="3012"/>
+                <annoSet ID="9428"/>
+                <annoSet ID="13499"/>
+                <annoSet ID="16155"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="7351"/>
+                <annoSet ID="14862"/>
+                <annoSet ID="15667"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="450">
+            <text>Il appartiendra ensuite au conseil de prendre une décision définitive sur la faisabilité du projet , sachant que le lot gros oeuvre devra probablement être déclaré infructueux .</text>
+            <annotationSet status="MANUAL" ID="574">
+                <layer rank="1" name="FE">
+                    <label end="130" start="113" name="Decision"/>
+                    <label end="174" start="164" name="Decision"/>
+                    <label end="33" start="27" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2310">
+            <text>Le juge Desmure se déclare alors incompétent pour instruire des faits visant le chef de l' État .</text>
+            <annotationSet status="MANUAL" ID="3012">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Decision"/>
+                    <label end="94" start="33" name="Decision"/>
+                    <label end="14" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5094">
+            <text>Dans cette optique , la guerre a été déclarée à ce que Michel Keller , directeur des ressources humaines ( DRH ) de Thomson - CSF , appelle " les égoïsmes sacrés " .</text>
+            <annotationSet status="MANUAL" ID="7351">
+                <layer rank="1" name="FE">
+                    <label end="29" start="21" name="Decision"/>
+                    <label end="162" start="46" name="Decision"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6315">
+            <text>" Les deux parties (...) sont convenues que le Fonds ne déclarerait pas le programme suspendu et que la côte - d' ivoire s' abstiendrait de revendiquer ses droits de tirage , indiquait -on vendredi de même source .</text>
+            <annotationSet status="MANUAL" ID="9428">
+                <layer rank="1" name="FE">
+                    <label end="92" start="72" name="Decision"/>
+                    <label end="51" start="44" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9543">
+            <text>" Pour lutter contre des prix qu' elle jugeait abusifs , l' entreprise a ainsi créé sa propre pharmacie , qui vend les médicaments aux salariés à un prix inférieur de 15 % à celui des officines locales : pas étonnant que Roberto Procopio ait été , peu de temps après son arrivée , déclaré persona non grata par la chambre de commerce .</text>
+            <annotationSet status="MANUAL" ID="13499">
+                <layer rank="1" name="FE">
+                    <label end="236" start="221" name="Decision"/>
+                    <label end="305" start="289" name="Decision"/>
+                    <label end="332" start="311" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="287" start="281" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10633">
+            <text>Les chantiers navals Boel - dernière grande entreprise de ce secteur en Belgique , - qui avaient été déclarés en faillite le 28 octobre , ont été repris par une société néerlandaise associée à une belge .</text>
+            <annotationSet status="MANUAL" ID="14862">
+                <layer rank="1" name="FE">
+                    <label end="87" start="85" name="Decision"/>
+                    <label end="120" start="110" name="Decision"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11352">
+            <text>Le deuxième assureur danois , Hafnia , et le premier assureur norvégien , Uni Storebrand , ont été déclarés en cessation de paiement en raison de crise de liquidités .</text>
+            <annotationSet status="MANUAL" ID="15667">
+                <layer rank="1" name="FE">
+                    <label end="87" start="0" name="Decision"/>
+                    <label end="131" start="108" name="Decision"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11786">
+            <text>Saisie par les rivaux américains malheureux de ZDS , et notamment par la firme texane Compu. Add , la commission fédérale chargée de la surveillance des marchés publics aux Etats - Unis a décidé de déclarer le contrat " nul et non avenu " .</text>
+            <annotationSet status="MANUAL" ID="16155">
+                <layer rank="1" name="FE">
+                    <label end="237" start="207" name="Decision"/>
+                    <label end="184" start="99" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="205" start="198" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

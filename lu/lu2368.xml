@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="exiger.v" ID="2368" frame="FR_Request" frameID="10082" totalAnnotated="36" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Requested_entity"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="8">
+            <FE name="Addressee"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="2279"/>
+                <annoSet ID="4798"/>
+                <annoSet ID="4802"/>
+                <annoSet ID="4806"/>
+                <annoSet ID="7336"/>
+                <annoSet ID="18514"/>
+                <annoSet ID="21270"/>
+                <annoSet ID="23992"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="24">
+            <FE name="Eventuality"/>
+            <pattern total="24">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="1777"/>
+                <annoSet ID="1781"/>
+                <annoSet ID="2279"/>
+                <annoSet ID="2801"/>
+                <annoSet ID="3108"/>
+                <annoSet ID="3464"/>
+                <annoSet ID="3824"/>
+                <annoSet ID="4798"/>
+                <annoSet ID="4802"/>
+                <annoSet ID="4806"/>
+                <annoSet ID="7336"/>
+                <annoSet ID="10342"/>
+                <annoSet ID="10605"/>
+                <annoSet ID="11270"/>
+                <annoSet ID="18514"/>
+                <annoSet ID="19997"/>
+                <annoSet ID="20083"/>
+                <annoSet ID="22006"/>
+                <annoSet ID="22102"/>
+                <annoSet ID="22774"/>
+                <annoSet ID="22971"/>
+                <annoSet ID="23013"/>
+                <annoSet ID="23992"/>
+                <annoSet ID="24922"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Medium"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="4802"/>
+                <annoSet ID="10605"/>
+                <annoSet ID="23013"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="12">
+            <FE name="Requested_entity"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Requested_entity"/>
+                <annoSet ID="1583"/>
+                <annoSet ID="3239"/>
+                <annoSet ID="11248"/>
+                <annoSet ID="11294"/>
+                <annoSet ID="12587"/>
+                <annoSet ID="16533"/>
+                <annoSet ID="19778"/>
+                <annoSet ID="20322"/>
+                <annoSet ID="20577"/>
+                <annoSet ID="21270"/>
+                <annoSet ID="23635"/>
+                <annoSet ID="23910"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="30">
+            <FE name="Speaker"/>
+            <pattern total="30">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="1583"/>
+                <annoSet ID="1777"/>
+                <annoSet ID="1781"/>
+                <annoSet ID="2279"/>
+                <annoSet ID="2801"/>
+                <annoSet ID="3108"/>
+                <annoSet ID="3239"/>
+                <annoSet ID="3464"/>
+                <annoSet ID="3824"/>
+                <annoSet ID="4798"/>
+                <annoSet ID="4806"/>
+                <annoSet ID="7336"/>
+                <annoSet ID="10342"/>
+                <annoSet ID="11248"/>
+                <annoSet ID="11270"/>
+                <annoSet ID="11294"/>
+                <annoSet ID="12587"/>
+                <annoSet ID="16533"/>
+                <annoSet ID="18514"/>
+                <annoSet ID="19778"/>
+                <annoSet ID="19997"/>
+                <annoSet ID="20083"/>
+                <annoSet ID="20322"/>
+                <annoSet ID="21270"/>
+                <annoSet ID="22006"/>
+                <annoSet ID="22102"/>
+                <annoSet ID="22774"/>
+                <annoSet ID="22971"/>
+                <annoSet ID="23013"/>
+                <annoSet ID="23992"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1553">
+            <text>cela signifie que leur consommation énergétique , qui représente actuellement 10 % de la consommation énergétique moyenne de l' UE , enregistrera une forte augmentation à mesure qu' ils exigeront des commodités élémentaires comme l' eau chaude et , peut-être même , l' air conditionné , des moyens de transport et la modernisation de leurs industries .</text>
+            <annotationSet status="MANUAL" ID="1583">
+                <layer rank="1" name="FE">
+                    <label end="184" start="182" name="Speaker"/>
+                    <label end="349" start="196" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="186" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1660">
+            <text>Nous ne pouvons pas seulement exiger que les Serbes se comportent correctement , nous devons également obliger ceux à qui nous sommes venus en aide à ne pas répondre à la violence par la violence .</text>
+            <annotationSet status="MANUAL" ID="1777">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Speaker"/>
+                    <label end="77" start="41" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1662">
+            <text>C' est pourquoi je crois également que nous devons exiger que ceux que nous avons secourus se comportent réellement , eux aussi , correctement .</text>
+            <annotationSet status="MANUAL" ID="1781">
+                <layer rank="1" name="FE">
+                    <label end="42" start="39" name="Speaker"/>
+                    <label end="141" start="62" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1874">
+            <text>Nous devons exiger de l' Érythrée et de l' Éthiopie un gel des activités militaires afin que tous les moyens , toutes les capacités logistiques et humaines de ces pays soient mis au service de leurs peuples .</text>
+            <annotationSet status="MANUAL" ID="2279">
+                <layer rank="1" name="FE">
+                    <label end="35" start="22" name="Addressee"/>
+                    <label end="50" start="40" name="Addressee"/>
+                    <label end="3" start="0" name="Speaker"/>
+                    <label end="82" start="52" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2114">
+            <text>Suite à la désobéissance des hommes de la 21e , le général Réveilhac exige des sanctions .</text>
+            <annotationSet status="MANUAL" ID="2801">
+                <layer rank="1" name="FE">
+                    <label end="67" start="48" name="Speaker"/>
+                    <label end="87" start="75" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2394">
+            <text>Désireux de républicaniser l' armée en la laïcisant , cet anticlérical farouche et un peu ridicule , méprisé par ses collègues et ses subordonnés , interdit en 1903 aux soldats de fréquenter les cercles militaires catholiques , en application des nouvelles lois laïques sur la " neutralité " supposée , exigée des institutions républicaines et de leurs membres .</text>
+            <annotationSet status="MANUAL" ID="3108">
+                <layer rank="1" name="FE">
+                    <label end="342" start="314" name="Speaker"/>
+                    <label end="359" start="347" name="Speaker"/>
+                    <label end="301" start="274" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="308" start="303" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2459">
+            <text>Les juges exigent les contrats de commissions , qui faisaient l' objet d' autorisations au plus haut niveau chez Thomson et au ministère des Finances .</text>
+            <annotationSet status="MANUAL" ID="3239">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Speaker"/>
+                    <label end="148" start="18" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2599">
+            <text>L' argent pourrait alors servir au règlement du litige civil avec Taïwan qui exige que la France rembourse les commissions occultes que le contrat signé en 1991 interdisait formellement par son article 18 .</text>
+            <annotationSet status="MANUAL" ID="3464">
+                <layer rank="1" name="FE">
+                    <label end="75" start="73" name="Speaker"/>
+                    <label end="71" start="66" name="Speaker"/>
+                    <label end="203" start="87" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2943">
+            <text>Tous ces enlèvements sont revendiqués par l' organisation intégriste libanaise du Djihad islamique qui exige la fin de l' aide française à l' Irak alors en guerre contre l' Iran .</text>
+            <annotationSet status="MANUAL" ID="3824">
+                <layer rank="1" name="FE">
+                    <label end="101" start="99" name="Speaker"/>
+                    <label end="176" start="42" name="Speaker"/>
+                    <label end="176" start="109" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3565">
+            <text>Trois des États membres ( la France , l' Italie et l' Espagne ) ont ainsi exigé de la Commission qu' elle discipline l' activité des mandataires ( Le Monde du 13 novembre 1991 ) .</text>
+            <annotationSet status="MANUAL" ID="4798">
+                <layer rank="1" name="FE">
+                    <label end="95" start="83" name="Addressee"/>
+                    <label end="62" start="0" name="Speaker"/>
+                    <label end="143" start="101" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3568">
+            <text>" Comment la clause exigeant des constructeurs nippons qu' ils ne concentrent pas leurs ventes [ à partir du 1 janvier 1993 ] sur les marchés les plus protégés - dont précisément la France , l' Italie et l' Espagne , - pourrait -elle être efficace si l' activité des mandataires brouille les cartes de la destination initiale des véhicules ? " , s' interroge -t-on à Bruxelles .</text>
+            <annotationSet status="MANUAL" ID="4802">
+                <layer rank="1" name="FE">
+                    <label end="18" start="10" name="Medium"/>
+                    <label end="217" start="59" name="Eventuality"/>
+                    <label end="53" start="33" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3570">
+            <text>Avec quelques réserves chez Peugeot , Bruxelles ayant profité de l' adoption du texte pour exiger du constructeur français qu' il retire la circulaire transmise en mai 1989 à ses concessionnaires belges et luxembourgeois , leur interdisant de traiter avec la société mandataire française , Eco - Systeme .</text>
+            <annotationSet status="MANUAL" ID="4806">
+                <layer rank="1" name="FE">
+                    <label end="121" start="101" name="Addressee"/>
+                    <label end="46" start="38" name="Speaker"/>
+                    <label end="302" start="127" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5082">
+            <text>L' agent commercial peut aussi exiger de son mandant qu' il lui fournisse tous les documents comptables nécessaires pour vérifier le montant des commissions .</text>
+            <annotationSet status="MANUAL" ID="7336">
+                <layer rank="1" name="FE">
+                    <label end="51" start="41" name="Addressee"/>
+                    <label end="18" start="0" name="Speaker"/>
+                    <label end="155" start="57" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6982">
+            <text>Lors de son dernier congrès , le MODEF s' est prononcé pour exiger une autre politique agricole basée sur des prix rémunérateurs garantis permettant à une exploitation familiale de dégager un revenu équivalant au SMIC par " actif " .</text>
+            <annotationSet status="MANUAL" ID="10342">
+                <layer rank="1" name="FE">
+                    <label end="37" start="30" name="Speaker"/>
+                    <label end="230" start="67" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7188">
+            <text>La loi du 23 juin 1989 relative à la sécurité des consommateurs oblige à installer avant le 31 décembre 1992 des portes de cabine sur les ascenseurs qui en sont dépourvus , mais celle du 13 juillet 1991 sur l' accès des handicapés aux locaux d' habitation , lieux de travail et lieux publics exige que les cabines restent accessibles aux handicapés et prévoit dans ce but des dérogations et des délais supplémentaires .</text>
+            <annotationSet status="MANUAL" ID="10605">
+                <layer rank="1" name="FE">
+                    <label end="201" start="184" name="Medium"/>
+                    <label end="347" start="302" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="296" start="292" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7764">
+            <text>Le plan d' ajustement qu' exigent les créanciers pour accorder un nouveau rééchelonnement de la dette aggrave les difficultés des Nigérians</text>
+            <annotationSet status="MANUAL" ID="11248">
+                <layer rank="1" name="FE">
+                    <label end="47" start="34" name="Speaker"/>
+                    <label end="20" start="0" name="Requested_entity"/>
+                    <label end="24" start="22" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7784">
+            <text>Le Fonds monétaire international ( FMI ) et la Banque mondiale exigeaient en effet que soit mis un terme à l' écart entre taux officiel ( 1 dollar = 18 nairas ) et taux parallèle ( 1 dollar = 10 nairas ) .</text>
+            <annotationSet status="MANUAL" ID="11270">
+                <layer rank="1" name="FE">
+                    <label end="61" start="0" name="Speaker"/>
+                    <label end="202" start="87" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="72" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7803">
+            <text>Construite à 300 kilomètres de la mer , sur un modèle technologique des Soviétiques , qui avaient exigé ce contrat à la fin de la guerre du Biafra , l' aciérie en question a coûté plus de 10 milliards de dollars et ne fonctionne toujours pas .</text>
+            <annotationSet status="MANUAL" ID="11294">
+                <layer rank="1" name="FE">
+                    <label end="88" start="86" name="Speaker"/>
+                    <label end="82" start="72" name="Speaker"/>
+                    <label end="113" start="104" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8819">
+            <text>Ce groupe d' investisseurs exigeait 100 % du capital du holding allemand contrôlant Adidas .</text>
+            <annotationSet status="MANUAL" ID="12587">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Speaker"/>
+                    <label end="89" start="36" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12200">
+            <text>Que les axes routiers de France se bouchent , et les ouvriers belges des usines Renault sont menacés de chômage technique en raison de la pénurie de pièces ; les marchands des quatre saisons de Genève ne reçoivent plus les tomates et les pêches exigées par les chalands suisses ; les arboriculteurs de Castille crient leur désespoir de ne pouvoir exporter dans l' Europe entière leurs oranges et leurs primeurs .</text>
+            <annotationSet status="MANUAL" ID="16533">
+                <layer rank="1" name="FE">
+                    <label end="276" start="257" name="Speaker"/>
+                    <label end="243" start="219" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="251" start="245" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14163">
+            <text>Le jeudi 13 mai 1993 , le gouvernement espagnol demandait , selon certains , exigeait de ses partenaires européens une dévaluation de 10 % de la peseta .</text>
+            <annotationSet status="MANUAL" ID="18514">
+                <layer rank="1" name="FE">
+                    <label end="113" start="89" name="Addressee"/>
+                    <label end="46" start="23" name="Speaker"/>
+                    <label end="150" start="115" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15538">
+            <text>Un demandeur d' emploi dira : " j' avais 300 000 francs , j' en veux au moins autant " , alors qu' un actif qui essaie de trouver mieux exigera 350 000 francs " .</text>
+            <annotationSet status="MANUAL" ID="19778">
+                <layer rank="1" name="FE">
+                    <label end="134" start="99" name="Speaker"/>
+                    <label end="159" start="144" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="136" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15808">
+            <text>Lui - même l' avait laissé entrevoir et M. Tapie avait paru l' exiger par la voix de sa représentante au conseil de surveillance , Mme Gilberte Beaux .</text>
+            <annotationSet status="MANUAL" ID="19997">
+                <layer rank="1" name="FE">
+                    <label end="47" start="40" name="Speaker"/>
+                    <label end="61" start="60" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15907">
+            <text>Aussi , la direction a -t-elle décidé de placer la barre assez haut en exigeant que cinq organisations sur six donnent leur accord avant le 24 juillet .</text>
+            <annotationSet status="MANUAL" ID="20083">
+                <layer rank="1" name="FE">
+                    <label end="19" start="8" name="Speaker"/>
+                    <label end="149" start="84" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16172">
+            <text>Certes , tout est encore loin d' être réglé , car le patronat exige un délai de transition jugé trop long par les syndicats , refuse d' accorder rétroactivement certains droits et entend limiter les gains de pouvoir d' achat des retraites ARRCO .</text>
+            <annotationSet status="MANUAL" ID="20322">
+                <layer rank="1" name="FE">
+                    <label end="60" start="50" name="Speaker"/>
+                    <label end="122" start="68" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16385">
+            <text>On ne peut pas continuer à exiger " des compétences ou des diplômes supérieurs à la nature des postes offerts " ; on ne peut pas " demander systématiquement que des fonctions identiques aient été exercées antérieurement " , et il faut cesser de " se méfier par préjugé des demandeurs d' emploi se trouvant au chômage depuis un certain temps " .</text>
+            <annotationSet status="MANUAL" ID="20577">
+                <layer rank="1" name="FE">
+                    <label end="110" start="36" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17152">
+            <text>L' Allemagne de l' Est diffère des autres pays de l' Est en ce que la majeure partie du peuple exige de l' union soviétique plus que la liberté et l' indépendance : faire partie d' une Allemagne unie .</text>
+            <annotationSet status="MANUAL" ID="21270">
+                <layer rank="1" name="FE">
+                    <label end="122" start="104" name="Addressee"/>
+                    <label end="93" start="67" name="Speaker"/>
+                    <label end="161" start="124" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17934">
+            <text>Elle exige l' annulation de ces délibérations et a décidé d' organiser un sit - in quotidien , à l' heure du repas , à partir du 15 janvier .</text>
+            <annotationSet status="MANUAL" ID="22006">
+                <layer rank="1" name="FE">
+                    <label end="3" start="0" name="Speaker"/>
+                    <label end="44" start="11" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18051">
+            <text>Dans les eaux territoriales , l' Etat riverain revendique un droit de regard sur les navires à risque : il y exige , comme la France , d' être informé de leur passage , leur impose règles de navigation et rails de circulation .</text>
+            <annotationSet status="MANUAL" ID="22102">
+                <layer rank="1" name="FE">
+                    <label end="105" start="104" name="Speaker"/>
+                    <label end="45" start="30" name="Speaker"/>
+                    <label end="105" start="104" name="Eventuality"/>
+                    <label end="165" start="138" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18662">
+            <text>L' OTAN a accepté la demande de l' est d' inclure les avions de combat dans la négociation , mais en exigeant de parler de tous les avions .</text>
+            <annotationSet status="MANUAL" ID="22774">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Speaker"/>
+                    <label end="137" start="113" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18901">
+            <text>Oui , exige l' humanité clandestine du 24 juillet , qui conseille aux ouvriers de " prendre tout de suite les mesures nécessaires pour faire fonctionner les entreprises en désignant un comité de direction parmi le personnel de chacune d' elles " et , " devant la carence et le mauvais vouloir évident des capitalistes " , affirme qu' ils " ont le devoir d' agir , de procéder à l' ouverture des usines et de les faire fonctionner " .</text>
+            <annotationSet status="MANUAL" ID="22971">
+                <layer rank="1" name="FE">
+                    <label end="430" start="12" name="Speaker"/>
+                    <label end="2" start="0" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18953">
+            <text>Dès son premier numéro , l' humanité exige " justice contre les traitres et profiteurs de la trahison " , et évoque le " cas des usines Renault " , dont les dirigeants " devront payer pour les centaines d' innocents tués dans les bombardements , (...) Pour les ouvriers livrés aux bourreaux " .</text>
+            <annotationSet status="MANUAL" ID="23013">
+                <layer rank="1" name="FE">
+                    <label end="21" start="4" name="Medium"/>
+                    <label end="35" start="25" name="Speaker"/>
+                    <label end="100" start="45" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19882">
+            <text>Actuellement , ces plans ne sont exigés en France qu' en cas de travaux dont le coût excède 12 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="23635">
+                <layer rank="1" name="FE">
+                    <label end="23" start="15" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20172">
+            <text>Cela signifie exiger une solution maintenant et envisager des représailles maintenant si nous n' obtenons pas cette solution .</text>
+            <annotationSet status="MANUAL" ID="23910">
+                <layer rank="1" name="FE">
+                    <label end="32" start="21" name="Requested_entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20268">
+            <text>Cette conception -là correspond assez à une politique nouvelle de l' Etat actionnaire , qui consiste à se dégager progressivement d' une activité pourtant stratégique , dite de souveraineté nationale , et à exiger des industriels qu' ils s' auto- financent davantage .</text>
+            <annotationSet status="MANUAL" ID="23992">
+                <layer rank="1" name="FE">
+                    <label end="228" start="214" name="Addressee"/>
+                    <label end="84" start="66" name="Speaker"/>
+                    <label end="265" start="234" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="212" start="207" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21634">
+            <text>La présentation de cette carte est exigée à l' occasion de toute vérification d' identité .</text>
+            <annotationSet status="MANUAL" ID="24922">
+                <layer rank="1" name="FE">
+                    <label end="29" start="0" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

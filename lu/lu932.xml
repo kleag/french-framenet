@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="communication.n" ID="932" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Interlocutor_1"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Interlocutor_1"/>
+                <annoSet ID="12099"/>
+                <annoSet ID="20253"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Interlocutor_2"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Interlocutor_2"/>
+                <annoSet ID="20252"/>
+                <annoSet ID="20253"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Interlocutors"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="23321"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3418">
+            <text>Tarifs internationaux en baisse : le prix des communications téléphoniques à destination de certains pays baisse .</text>
+            <annotationSet status="MANUAL" ID="4539">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6072">
+            <text>D' ici à 1995 , Northern Telecom bénéficiera néanmoins des mêmes pouvoirs que si elle détenait dès aujourd' hui 39 % du capital de Matra Communication , car le prêt est affecté non pas à Matra Communication directement mais à une société en commandite par actions , détenue conjointement avec Matra .</text>
+            <annotationSet status="MANUAL" ID="9026">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="205" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8476">
+            <text>" Le mode de communication ( pas ou peu de référence au contexte ) et leur conception du temps incitent les Allemands à faire un exposé détaillé , exhaustif du sujet de la conversation et à commencer cet exposé immédiatement (...) .</text>
+            <annotationSet status="MANUAL" ID="12099">
+                <layer rank="1" name="FE">
+                    <label end="116" start="104" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16084">
+            <text>France Télécom a décidé de diminuer le prix de certaines communications internationales à partir du 1 janvier .</text>
+            <annotationSet status="MANUAL" ID="20250">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16089">
+            <text>Mais le mouvement concerne aussi l' Europe , avec une réduction de 5 , 3 % appliquée , aux heures de pointe , aux communications à destination des pays voisins ( Allemagne , Grande - Bretagne , Italie , Espagne , Benelux et Suisse ) et de 2 , 7 % aux appels en direction de la Grèce , du Portugal , de l' Irlande et du Danemark .</text>
+            <annotationSet status="MANUAL" ID="20252">
+                <layer rank="1" name="FE">
+                    <label end="231" start="147" name="Interlocutor_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16091">
+            <text>Les communications des DOM - TOM vers les pays de la CEE ( à l' exclusion de la France ) et la Suisse seront aussi moins chères .</text>
+            <annotationSet status="MANUAL" ID="20253">
+                <layer rank="1" name="FE">
+                    <label end="100" start="38" name="Interlocutor_2"/>
+                    <label end="31" start="23" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16095">
+            <text>" cela stimulerait les communications sur un réseau qui a déjà du mal à absorber le flux actuel " , indique -t-on chez France Télécom .</text>
+            <annotationSet status="MANUAL" ID="20256">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16096">
+            <text>Car si , sur le papier , l' opérateur public , qui réalise 10 % de son chiffre d' affaires sur les communications internationales , se prive par cette opération de 400 millions de francs de recettes , il devrait en récupérer une bonne partie sous forme de trafic supplémentaire .</text>
+            <annotationSet status="MANUAL" ID="20257">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17058">
+            <text>C' est par exemple le cas des entreprises de travaux publics ou de Mr Robert Hersant qui a embauché Mr Bertrand Delcros , ancien directeur juridique de la commission nationale de la communication et des libertés ( CNCL ) et ancien membre du cabinet de Mme Catherine Tasca , secrétaire d' état chargé de la communication .</text>
+            <annotationSet status="MANUAL" ID="21175">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="318" start="306" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19369">
+            <text>Le malaise provenait , en partie , de l' absence de communication entre le nouvel organe dirigeant et la population , ce à quoi on décida donc de remédier par l' émission télévisée ; la décision de mettre le PC hors la loi avait été prise " trop hâtivement " et l' on décida donc , tout naturellement , de soumettre ce décret - loi au référendum qui doit également décider , le 28 janvier , de l' opportunité de rétablir la peine de mort pour les " terroristes " de Ceausescu .</text>
+            <annotationSet status="MANUAL" ID="23321">
+                <layer rank="1" name="FE">
+                    <label end="114" start="72" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

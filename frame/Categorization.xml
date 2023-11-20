@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Categorization" ID="21" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; construes an &lt;fen&gt;Item&lt;/fen&gt; as belonging to a certain &lt;fen&gt;Category&lt;/fen&gt;.  In this process, the &lt;fen&gt;Cognizer&lt;/fen&gt; may either passively perceive the &lt;fen&gt;Item&lt;/fen&gt; and note that it fits the &lt;fen&gt;Criteria&lt;/fen&gt; for a &lt;fen&gt;Category&lt;/fen&gt;, or, alternatively, actively examine the &lt;fen&gt;Item&lt;/fen&gt; for certain &lt;fen&gt;Criteria&lt;/fen&gt; that define a &lt;fen&gt;Category&lt;/fen&gt; (or set of &lt;fen&gt;Category&lt;/fen&gt;s).  
+
+Most members of the frame can also describe a resulting cognitive state of the &lt;fen&gt;Cognizer&lt;/fen&gt; with respect to the &lt;fen&gt;Item&lt;/fen&gt; and &lt;fen&gt;Category&lt;/fen&gt; which no longer requires the current perception or consideration of the &lt;fen&gt;Item&lt;/fen&gt;.  A few LUs (e.g. &lt;ment&gt;peg.v, pigeonhole.v&lt;/ment&gt;) do not readily allow stative interpretation, and a few LUs (e.g. &lt;ment&gt;deem.v, regard.v&lt;/ment&gt;) only allow stative interpretation.
+
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;You&lt;/fex&gt; 've already &lt;t&gt;stereotyped&lt;/t&gt; &lt;fex name="Item"&gt;me&lt;/fex&gt; &lt;fex name="Category"&gt;as a bimbo&lt;/fex&gt;, have n't you?&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:53 PST Wed" abbrev="Cog" name="Cognizer" ID="92">
+        <definition>&lt;def-root&gt;This is the person who performs an act of categorization. Typically, this frame element is expressed as an External Argument.
+
+&lt;ex&gt;&lt;fex name="Cognizer"&gt;Kim&lt;/fex&gt; &lt;t&gt;categorized&lt;/t&gt; the books under fiction. &lt;fex name="Cognizer"&gt;Kim&lt;/fex&gt; &lt;t&gt;categorized&lt;/t&gt; them on the basis of genre.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:53 PST Wed" abbrev="Item" name="Item" ID="93">
+        <definition>&lt;def-root&gt;This is the entity which is construed or treated by the &lt;fen&gt;Cognizer&lt;/fen&gt; as being an instance of a particular &lt;fen&gt;Category&lt;/fen&gt;. Typically, the &lt;fen&gt;Item&lt;/fen&gt; is expressed as an Object. 
+
+&lt;ex&gt;Kim &lt;t&gt;categorized&lt;/t&gt; &lt;fex name="Item"&gt;the books&lt;/fex&gt; under fiction.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:53 PST Wed" abbrev="Cat" name="Category" ID="94">
+        <definition>&lt;def-root&gt;This frame element expresses a general type or class of which the &lt;fen&gt;Item&lt;/fen&gt; is considered an instance. Typically, it is expressed in a prepositional phrase headed by &lt;ment&gt;as&lt;/ment&gt; or &lt;ment&gt;under&lt;/ment&gt;.
+
+&lt;ex&gt;Kim &lt;t&gt;categorized&lt;/t&gt; the book &lt;fex name="Category"&gt;as/under fiction&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:53 PST Wed" abbrev="Crit" name="Criteria" ID="95">
+        <definition>&lt;def-root&gt;This frame element expresses properties of the &lt;fen&gt;Item&lt;/fen&gt; which is used as a basis for categorization. &lt;fen&gt;Criteria&lt;/fen&gt; are the general dimensions along which &lt;fen&gt;Item&lt;/fen&gt;s can potentially differ from one another and hence, fall into different &lt;fen&gt;Category&lt;/fen&gt;s. For example, a paint sample can be classified &lt;ment&gt;by color&lt;/ment&gt; or &lt;ment&gt;by finish (matte or gloss)&lt;/ment&gt;; if they are classified by color, one can be classified &lt;ment&gt;as orange&lt;/ment&gt; and another &lt;ment&gt;as red&lt;/ment&gt;. The &lt;fen&gt;Criteria&lt;/fen&gt; FE is typically expressed as a PP headed by &lt;ment&gt;by&lt;/ment&gt;, or as a complex PP of the form &lt;ment&gt;on the basis of...&lt;/ment&gt;:
+
+&lt;ex&gt;The students were &lt;t&gt;categorized&lt;/t&gt; &lt;fex name="Crit"&gt;on the basis of their test scores&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;The librarian &lt;t&gt;classified&lt;/t&gt; the books &lt;fex name="Crit"&gt;by subject&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Criteria" ID="95"/>
+        <memberFE name="Category" ID="94"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses">
+        <relatedFrame>Instance</relatedFrame>
+        <relatedFrame>Mental_activity</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Used by">
+        <relatedFrame>Communicate_categorization</relatedFrame>
+        <relatedFrame>Being_in_category</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="n" name="catalogage.n" ID="144" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="cataloguer.v" ID="145" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100302" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="catégorisation.n" ID="146" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="catégoriser.v" ID="147" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="classement.n" ID="148" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100343" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="classer.v" ID="149" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100344" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="classification.n" ID="150" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="8"/>
+        <otherlexUnit framename="Other_sense" ID="100345" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="classifier.v" ID="151" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100346" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="étiquetage.n" ID="152" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="102090" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="étiqueter.v" ID="153" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+</frame>

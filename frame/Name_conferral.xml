@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Name_conferral" ID="221" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;This  frame contains words that talk about how Speakers name Entities.
+
+&lt;ex&gt;They drove through &lt;fex name="Entity"&gt;an area&lt;/fex&gt; &lt;t&gt;nicknamed&lt;/t&gt; &lt;fex name="Name"&gt;Sniper's Alley&lt;/fex&gt;&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Speaker"&gt;His parents&lt;/fex&gt; &lt;t&gt;named&lt;/t&gt; &lt;fex name="Entity"&gt;him&lt;/fex&gt; &lt;fex name="Name"&gt;Winston&lt;/fex&gt; &lt;fex name="Name_source"&gt;after the British prime minister&lt;/fex&gt;.&lt;/ex&gt;
+
+
+In this frame we will ignore uses of words like baptize and christen that don't clearly bring out the name conferral but talk about the meaning of baptism etc. as a sacrament:
+
+&lt;ex&gt;They christened  the child on December 4th.&lt;/ex&gt;
+&lt;ex&gt;Method was baptized into the church soon thereafter.&lt;/ex&gt;
+&lt;ex&gt;Cyril was baptized as  a Methodist.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/30/2001 02:41:50 PDT Thu" abbrev="" name="Entity" ID="1787">
+        <definition>&lt;def-root&gt;The entity that Speakers refer to by using the Name.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/30/2001 02:43:01 PDT Thu" abbrev="" name="Name" ID="1788">
+        <definition>&lt;def-root&gt;The linguistic expression by which Speakers refer to the Entity.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="08/30/2001 02:44:01 PDT Thu" abbrev="" name="Speaker" ID="1789">
+        <definition>&lt;def-root&gt;The person who uses the linguistic expression (Name) to refer to the Referent.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <frameRelation type="Is Causative of">
+        <relatedFrame>FR_Being_named</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="appeler.v" ID="2114" nbocc="105" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100108" annotatedsent="18"/>
+        <otherlexUnit framename="FR_Contacting" ID="970" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Hail" ID="1153" annotatedsent="1"/>
+        <otherlexUnit framename="Referring_by_name" ID="2310" annotatedsent="44"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="755" annotatedsent="27"/>
+    </lexUnit>
+    <lexUnit POS="v" name="baptiser.v" ID="2115" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="Other_sense" ID="100241" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="nommer.v" ID="2116" nbocc="74" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101271" annotatedsent="0"/>
+        <otherlexUnit framename="Adducing" ID="10" annotatedsent="0"/>
+        <otherlexUnit framename="Referring_by_name" ID="2311" annotatedsent="2"/>
+        <otherlexUnit framename="Appointing" ID="2728" annotatedsent="73"/>
+    </lexUnit>
+</frame>

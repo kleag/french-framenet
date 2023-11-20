@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="conversation.n" ID="934" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="12" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Interlocutor_1"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Interlocutor_1"/>
+                <annoSet ID="12098"/>
+                <annoSet ID="12103"/>
+                <annoSet ID="15044"/>
+                <annoSet ID="15095"/>
+                <annoSet ID="15119"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Interlocutor_2"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Interlocutor_2"/>
+                <annoSet ID="4540"/>
+                <annoSet ID="4541"/>
+                <annoSet ID="15095"/>
+                <annoSet ID="15119"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Interlocutors"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="3586"/>
+                <annoSet ID="3786"/>
+                <annoSet ID="19500"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Interlocutors"/>
+                <annoSet ID="23427"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Topic"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="12098"/>
+                <annoSet ID="12103"/>
+                <annoSet ID="19500"/>
+                <annoSet ID="23427"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="4541"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Message"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="3786"/>
+                <annoSet ID="3792"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2753">
+            <text>- 17 décembre 1994 : la PJ enregistre une conversation téléphonique entre Didier Schuller et le Dr Maréchal ;</text>
+            <annotationSet status="MANUAL" ID="3586">
+                <layer rank="1" name="FE">
+                    <label end="106" start="74" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2901">
+            <text>Le public prend connaissance des conversations de Luciano Moggi , directeur général de la Juventus , et Pierluigi Pairetto , ancien arbitre , chargé par la fédération italienne de football de sélectionner les arbitres pour les rencontres de championnat entre 1999 et 2004 .</text>
+            <annotationSet status="MANUAL" ID="3786">
+                <layer rank="1" name="FE">
+                    <label end="270" start="50" name="Interlocutors"/>
+                    <label end="270" start="33" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2906">
+            <text>suite aux publications des conversations téléphoniques , la commission disciplinaire du football italien a été saisie du dossier .</text>
+            <annotationSet status="MANUAL" ID="3792">
+                <layer rank="1" name="FE">
+                    <label end="53" start="27" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3419">
+            <text>Par exemple , le prix d' une minute de conversation avec le Canada ou les Etats - Unis passe de 9 , 36 francs à 7 , 66 francs ( - 18 , 1 % ) ; celui d' une minute de conversation avec le Japon , de 19 , 09 francs à 15 , 68 francs ( - 17 , 8 % ) .</text>
+            <annotationSet status="MANUAL" ID="4540">
+                <layer rank="1" name="FE">
+                    <label end="85" start="57" name="Interlocutor_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3419">
+            <text>Par exemple , le prix d' une minute de conversation avec le Canada ou les Etats - Unis passe de 9 , 36 francs à 7 , 66 francs ( - 18 , 1 % ) ; celui d' une minute de conversation avec le Japon , de 19 , 09 francs à 15 , 68 francs ( - 17 , 8 % ) .</text>
+            <annotationSet status="MANUAL" ID="4541">
+                <layer rank="1" name="FE">
+                    <label end="191" start="184" name="Interlocutor_2"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="177" start="166" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8476">
+            <text>" Le mode de communication ( pas ou peu de référence au contexte ) et leur conception du temps incitent les Allemands à faire un exposé détaillé , exhaustif du sujet de la conversation et à commencer cet exposé immédiatement (...) .</text>
+            <annotationSet status="MANUAL" ID="12098">
+                <layer rank="1" name="FE">
+                    <label end="167" start="160" name="Topic"/>
+                    <label end="116" start="104" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="183" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8479">
+            <text>(...) Les Français sont le plus souvent désarçonnés lorsque les Allemands abordent d' entrée l' objet de la conversation ou de la réunion " , écrivent Edward Hall et Milred Reed Hall .</text>
+            <annotationSet status="MANUAL" ID="12103">
+                <layer rank="1" name="FE">
+                    <label end="103" start="93" name="Topic"/>
+                    <label end="136" start="121" name="Topic"/>
+                    <label end="72" start="60" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10794">
+            <text>A coups de télécopies , de conversations téléphoniques et de rencontres bilatérales , il " accouche " de ce texte avec l' accord des vingt - quatre unités .</text>
+            <annotationSet status="MANUAL" ID="15044">
+                <layer rank="1" name="FE">
+                    <label end="87" start="86" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10855">
+            <text>Par une conversation téléphonique qu' il a eue ensuite ce dimanche avec le président du conseil italien , Giuliano Amato .</text>
+            <annotationSet status="MANUAL" ID="15095">
+                <layer rank="1" name="FE">
+                    <label end="119" start="72" name="Interlocutor_2"/>
+                    <label end="39" start="38" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10885">
+            <text>De ses conversations avec Matignon , il tirera la conclusion de ne pas jouer contre le franc .</text>
+            <annotationSet status="MANUAL" ID="15119">
+                <layer rank="1" name="FE">
+                    <label end="33" start="26" name="Interlocutor_2"/>
+                    <label end="38" start="37" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15238">
+            <text>- La relance de l' activité économique et la défense de l' emploi seront au centre des conversations des chefs d' Etat et de gouvernement des Douze les 21 et 22 juin à Copenhague .</text>
+            <annotationSet status="MANUAL" ID="19500">
+                <layer rank="1" name="FE">
+                    <label end="64" start="2" name="Topic"/>
+                    <label end="146" start="105" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19515">
+            <text>Outre l' aide que la RFA peut apporter à la Roumanie , les conversations doivent porter sur le sort de la minorité allemande à Sibiu et Timisoara , dans l' Ouest du pays .</text>
+            <annotationSet status="MANUAL" ID="23427">
+                <layer rank="1" name="FE">
+                    <label end="123" start="92" name="Topic"/>
+                    <label itype="ENI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

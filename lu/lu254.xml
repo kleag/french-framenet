@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="sous l'effet de.prep" ID="254" frame="Causation" frameID="5" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Actor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="22751"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cause"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="14368"/>
+                <annoSet ID="15475"/>
+                <annoSet ID="15544"/>
+                <annoSet ID="17118"/>
+                <annoSet ID="24712"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Effect"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="14368"/>
+                <annoSet ID="15475"/>
+                <annoSet ID="15544"/>
+                <annoSet ID="17118"/>
+                <annoSet ID="22751"/>
+                <annoSet ID="24712"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10222">
+            <text>Quant à la subvention versée au CE ( 2 , 25 % de la masse salariale ) , elle est passée de 2 389 francs par salarié en 1983 à 3 146 francs en 1987 sous l' effet , notamment , de l' augmentation du pourcentage de cadres .</text>
+            <annotationSet status="MANUAL" ID="14368">
+                <layer rank="1" name="FE">
+                    <label end="217" start="178" name="Cause"/>
+                    <label end="145" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="147" name="Target"/>
+                    <label end="176" start="175" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11191">
+            <text>A l' inverse , aucun progrès évident n' a été enregistré en Espagne où les salaires ( + 8 % ) continuent d' évoluer comme les prix ou même plus vite , leur hausse ayant été de 6 , 5 % , sous l' effet notamment des " services " , insuffisamment productifs parce que peu exposés à la concurrence .</text>
+            <annotationSet status="MANUAL" ID="15475">
+                <layer rank="1" name="FE">
+                    <label end="292" start="214" name="Cause"/>
+                    <label end="182" start="151" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="186" name="Target"/>
+                    <label end="212" start="210" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11264">
+            <text>La conjonction de ces trois facteurs négatifs explique que la croissance déja faible en Europe se soit encore ralentie sous l' effet de politiques monétaires sévères ( taux d' intérêt très élevés ) : + 1 , 1 % dans la Communauté européenne après + 1 , 5 % en 1991 et + 2 , 9 % en 1990 .</text>
+            <annotationSet status="MANUAL" ID="15544">
+                <layer rank="1" name="FE">
+                    <label end="196" start="136" name="Cause"/>
+                    <label end="117" start="59" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12746">
+            <text>Alors que depuis la mi - décembre la hausse s' était installée au palais Brongniart de façon quasi ininterrompue , les valeurs ont connu , mercredi , leur première baisse sensible , en partie sous l' effet des prises de bénéfices et de quelques tensions sur les taux d' intérêt à court terme .</text>
+            <annotationSet status="MANUAL" ID="17118">
+                <layer rank="1" name="FE">
+                    <label end="231" start="210" name="Cause"/>
+                    <label end="290" start="236" name="Cause"/>
+                    <label end="178" start="115" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="208" start="192" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18638">
+            <text>Sous l' effet de la " locomotive " lituanienne , l' union soviétique en vient peu à peu à mettre en cause les fondements mêmes de son système .</text>
+            <annotationSet status="MANUAL" ID="22751">
+                <layer rank="1" name="FE">
+                    <label end="142" start="47" name="Effect"/>
+                    <label end="45" start="17" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21280">
+            <text>Sur la période récente , ce chiffre a fortement augmenté - de 3 , 5 milliards environ en 1990 et 1991 - sous l' effet conjugué de plusieurs causes : - d' une part , le nombre de bénéficiaires augmente .</text>
+            <annotationSet status="MANUAL" ID="24712">
+                <layer rank="1" name="FE">
+                    <label end="145" start="130" name="Cause"/>
+                    <label end="102" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="104" name="Target"/>
+                    <label end="128" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

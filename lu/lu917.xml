@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="naître.v" ID="917" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Cause"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="5638"/>
+                <annoSet ID="10212"/>
+                <annoSet ID="11548"/>
+                <annoSet ID="14841"/>
+                <annoSet ID="15542"/>
+                <annoSet ID="15553"/>
+                <annoSet ID="19722"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="10212"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Effect"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="5638"/>
+                <annoSet ID="10212"/>
+                <annoSet ID="11548"/>
+                <annoSet ID="14841"/>
+                <annoSet ID="15542"/>
+                <annoSet ID="15553"/>
+                <annoSet ID="19722"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4051">
+            <text>Les métaux non ferreux souffrent globalement de l' essoufflement des économies industrielles , et , sans doute aussi , de l' instabilité née de la gestion moins efficace que prévu du principal marché mondial , le London Metal Exchange , dont les instruments et les méthodes de régulation sont , semble -t-il , à revoir .</text>
+            <annotationSet status="MANUAL" ID="5638">
+                <layer rank="1" name="FE">
+                    <label end="317" start="144" name="Cause"/>
+                    <label end="135" start="122" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6871">
+            <text>Plus profondément , les milieux financiers internationaux pressentent qu' au prix d' une unification momentanément coûteuse et douloureuse , une Allemagne encore plus puissante est en train de naître , dont le poids risque de déplacer vers l' est le centre de gravité de l' Europe .</text>
+            <annotationSet status="MANUAL" ID="10212">
+                <layer rank="1" name="FE">
+                    <label end="137" start="85" name="Cause"/>
+                    <label end="175" start="141" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="193" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8010">
+            <text>Au moment où les activités liées au tourisme doivent se professionnaliser et abordent manifestement un tournant , la tradition locale conserve , jusqu' à l' excès , les travers nés du travail saisonnier .</text>
+            <annotationSet status="MANUAL" ID="11548">
+                <layer rank="1" name="FE">
+                    <label end="201" start="184" name="Cause"/>
+                    <label end="175" start="165" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="179" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10615">
+            <text>Mais ce rattrapage des cours ne doit pas masquer l' embarras des boursiers , partagés entre l' espoir de voir se dessiner une reprise et les soucis nés de la dégradation de la conjoncture et des sombres perspectives de la consommation .</text>
+            <annotationSet status="MANUAL" ID="14841">
+                <layer rank="1" name="FE">
+                    <label end="189" start="155" name="Cause"/>
+                    <label end="233" start="195" name="Cause"/>
+                    <label end="146" start="137" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11263">
+            <text>Crise née des difficultés aiguës de l' économie allemande qui fait difficilement face aux coûts de la réunification , de la poursuite de la grave récession britannique ( - 1 % après déjà un recul de 2 , 2 % en 1991 ) , enfin des efforts d' assainissement entamés par des pays jusqu' ici très dynamiques comme l' Italie et l' Espagne .</text>
+            <annotationSet status="MANUAL" ID="15542">
+                <layer rank="1" name="FE">
+                    <label end="114" start="14" name="Cause"/>
+                    <label end="166" start="121" name="Cause"/>
+                    <label end="331" start="229" name="Cause"/>
+                    <label end="4" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11270">
+            <text>Les excès de l' endettement accumulé au cours des années fastes ( 1986 - 1990 ) ont d' autant plus pesé sur 1992 , que les inquiétudes nées de la situation dans les pays de l' Est mais aussi de l' avenir de l' Union économique et monétaire ( UEM ) , des difficultés de la réunification allemande , des tensions grandissantes entre les Etats - Unis et l' Europe à propos des négociations du GATT , ont entretenu partout une grande inquiétude vis - à - vis de l' avenir .</text>
+            <annotationSet status="MANUAL" ID="15553">
+                <layer rank="1" name="FE">
+                    <label end="178" start="143" name="Cause"/>
+                    <label end="133" start="119" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15452">
+            <text>Particulièrement " tordu " , ce système de rémunération anticipée est né , dans l' esprit des directeurs de ressources humaines , de la nécessité de contourner une difficulté , due à l' extrême rigidité de certaines grilles salariales .</text>
+            <annotationSet status="MANUAL" ID="19722">
+                <layer rank="1" name="FE">
+                    <label end="233" start="133" name="Cause"/>
+                    <label end="64" start="29" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

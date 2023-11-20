@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="privatiser.v" ID="334" frame="Commerce_sell" frameID="172" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Peripheral" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="11">
+            <FE name="Buyer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Buyer"/>
+                <annoSet ID="6560"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Buyer"/>
+                <annoSet ID="13451"/>
+                <annoSet ID="15158"/>
+                <annoSet ID="18804"/>
+                <annoSet ID="19423"/>
+                <annoSet ID="19643"/>
+                <annoSet ID="19644"/>
+                <annoSet ID="23222"/>
+                <annoSet ID="23588"/>
+                <annoSet ID="23648"/>
+                <annoSet ID="24799"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Goods"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="6560"/>
+                <annoSet ID="13451"/>
+                <annoSet ID="15158"/>
+                <annoSet ID="18804"/>
+                <annoSet ID="19423"/>
+                <annoSet ID="19643"/>
+                <annoSet ID="19644"/>
+                <annoSet ID="23222"/>
+                <annoSet ID="23588"/>
+                <annoSet ID="23648"/>
+                <annoSet ID="24799"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Money"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Seller"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Seller"/>
+                <annoSet ID="13451"/>
+                <annoSet ID="15158"/>
+                <annoSet ID="19643"/>
+                <annoSet ID="19644"/>
+                <annoSet ID="23222"/>
+                <annoSet ID="23588"/>
+                <annoSet ID="24799"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Seller"/>
+                <annoSet ID="6560"/>
+                <annoSet ID="18804"/>
+                <annoSet ID="19423"/>
+                <annoSet ID="23648"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4639">
+            <text>Sept mois après avoir acquis le premier producteur polonais de lessive Pollena ( depuis privatisé et rebaptisé Lever Polska ) , la multinationale anglo - néerlandaise Unilever poursuit son implantation en Europe de l' Est .</text>
+            <annotationSet status="MANUAL" ID="6560">
+                <layer rank="1" name="FE">
+                    <label end="174" start="128" name="Buyer"/>
+                    <label end="79" start="29" name="Goods"/>
+                    <label itype="LNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9522">
+            <text>Mais , à volta - redonda , l' enjeu est double : " Avec la CSN , on ne privatise pas seulement une entreprise mais une ville tout entière , et c' est la première fois dans l' histoire du pays qu' une cité est vendue aux enchères " , résume l' ancien président de la banque centrale , Carlos Langoni .</text>
+            <annotationSet status="MANUAL" ID="13451">
+                <layer rank="1" name="FE">
+                    <label end="136" start="95" name="Goods"/>
+                    <label end="66" start="65" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10920">
+            <text>Quelque 112 entreprises , employant environ 40 000 salariés , dont le capital appartient en totalité ou partiellement à l' Etat , vont être entièrement privatisées " dans une transparence totale " entre 1993 et 1995 .</text>
+            <annotationSet status="MANUAL" ID="15158">
+                <layer rank="1" name="FE">
+                    <label end="126" start="0" name="Goods"/>
+                    <label end="126" start="120" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14493">
+            <text>L' un des regrets d' Edouard Balladur en 1988 à son départ du ministère des finances avait été d' ailleurs de ne pas avoir pu privatiser l' UAP .</text>
+            <annotationSet status="MANUAL" ID="18804">
+                <layer rank="1" name="FE">
+                    <label end="142" start="137" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="LNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="135" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15173">
+            <text>Le premier fabricant de jouets tchèque , Smer , coopérative privatisée il y a un an , s' adapte à son nouvel environnement économique , notamment en s' associant au français Smoby</text>
+            <annotationSet status="MANUAL" ID="19423">
+                <layer rank="1" name="FE">
+                    <label end="58" start="0" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="LNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15389">
+            <text>Dirigée par Alexis Ruset , la CCR , qui a le statut d' une EPIC ( entreprise publique à caractère industriel et commercial ) , fait partie des neuf nouvelles sociétés à privatiser par le gouvernement Balladur , outre les douze qui n' avaient pas été privatisées en 1986 et 1987 .</text>
+            <annotationSet status="MANUAL" ID="19643">
+                <layer rank="1" name="FE">
+                    <label end="167" start="143" name="Goods"/>
+                    <label end="207" start="184" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="169" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15389">
+            <text>Dirigée par Alexis Ruset , la CCR , qui a le statut d' une EPIC ( entreprise publique à caractère industriel et commercial ) , fait partie des neuf nouvelles sociétés à privatiser par le gouvernement Balladur , outre les douze qui n' avaient pas été privatisées en 1986 et 1987 .</text>
+            <annotationSet status="MANUAL" ID="19644">
+                <layer rank="1" name="FE">
+                    <label end="276" start="217" name="Goods"/>
+                    <label end="229" start="227" name="Goods"/>
+                    <label end="207" start="184" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="260" start="250" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19225">
+            <text>La France pourrait prendre un peu d' avance sur la Hongrie , qui envisage déjà de privatiser partiellement sa compagnie aérienne nationale , Malev .</text>
+            <annotationSet status="MANUAL" ID="23222">
+                <layer rank="1" name="FE">
+                    <label end="145" start="107" name="Goods"/>
+                    <label end="145" start="48" name="Seller"/>
+                    <label end="63" start="61" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19827">
+            <text>Mais il se heurte à de gros problèmes pour privatiser plusieurs centaines d' entreprises surendettées et pour briser une lourde administration publique .</text>
+            <annotationSet status="MANUAL" ID="23588">
+                <layer rank="1" name="FE">
+                    <label end="100" start="54" name="Goods"/>
+                    <label end="6" start="5" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19901">
+            <text>Petrogal , première compagnie portugaise avec 18 milliards de francs de chiffre d' affaires et 440 millions de bénéfice en 1990 , sera privatisée .</text>
+            <annotationSet status="MANUAL" ID="23648">
+                <layer rank="1" name="FE">
+                    <label end="126" start="0" name="Goods"/>
+                    <label itype="UNI" name="Buyer"/>
+                    <label itype="LNI" name="Seller"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21406">
+            <text>" L' Aérospatiale se trouve sur la liste des entreprises nationales que le gouvernement Balladur souhaite privatiser .</text>
+            <annotationSet status="MANUAL" ID="24799">
+                <layer rank="1" name="FE">
+                    <label end="115" start="45" name="Goods"/>
+                    <label end="70" start="68" name="Goods"/>
+                    <label end="95" start="72" name="Seller"/>
+                    <label itype="UNI" name="Buyer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

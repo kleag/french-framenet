@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="d'accord.adv" ID="2602" frame="FR_Agree_or_refuse_to_act" frameID="10002" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposed_action"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="18524"/>
+                <annoSet ID="21285"/>
+                <annoSet ID="21572"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Proposed_action"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposed_action"/>
+                <annoSet ID="18524"/>
+                <annoSet ID="21285"/>
+                <annoSet ID="21572"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="14182">
+            <text>Une entreprise de conditionnement , France - Maîtrise , serait d' accord pour démarrer une entreprise d' insertion sur la commune .</text>
+            <annotationSet status="MANUAL" ID="18524">
+                <layer rank="1" name="FE">
+                    <label end="128" start="78" name="Proposed_action"/>
+                    <label end="52" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17161">
+            <text>Défendre nos troupes , d' accord .</text>
+            <annotationSet status="MANUAL" ID="21285">
+                <layer rank="1" name="FE">
+                    <label end="21" start="0" name="Proposed_action"/>
+                    <label end="11" start="9" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17532">
+            <text>Mr Andrei Loukanov , le bras droit du chef du Parti communiste et de l' état Petar Mladenov , a accepté la demande de journaux indépendants et s' est déclaré " en principe " d' accord pour mettre des locaux à la disposition de l' opposition .</text>
+            <annotationSet status="MANUAL" ID="21572">
+                <layer rank="1" name="FE">
+                    <label end="239" start="189" name="Proposed_action"/>
+                    <label end="90" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="182" start="174" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

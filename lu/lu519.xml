@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="gagner.v" ID="519" frame="Earnings_and_losses" frameID="1873" totalAnnotated="22" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="Byr" name="Buyer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Slr" name="Earner"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="Mny" name="Earnings"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Buyer"/>
+        </FERealization>
+        <FERealization total="22">
+            <FE name="Earner"/>
+            <pattern total="20">
+                <valenceUnit PT="filled" FE="Earner"/>
+                <annoSet ID="6179"/>
+                <annoSet ID="7658"/>
+                <annoSet ID="10398"/>
+                <annoSet ID="12065"/>
+                <annoSet ID="12066"/>
+                <annoSet ID="12067"/>
+                <annoSet ID="12068"/>
+                <annoSet ID="12069"/>
+                <annoSet ID="12070"/>
+                <annoSet ID="12071"/>
+                <annoSet ID="15116"/>
+                <annoSet ID="16030"/>
+                <annoSet ID="16089"/>
+                <annoSet ID="18967"/>
+                <annoSet ID="19451"/>
+                <annoSet ID="19926"/>
+                <annoSet ID="19927"/>
+                <annoSet ID="20656"/>
+                <annoSet ID="22637"/>
+                <annoSet ID="24656"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Earner"/>
+                <annoSet ID="16577"/>
+                <annoSet ID="21150"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="22">
+            <FE name="Earnings"/>
+            <pattern total="22">
+                <valenceUnit PT="filled" FE="Earnings"/>
+                <annoSet ID="6179"/>
+                <annoSet ID="7658"/>
+                <annoSet ID="10398"/>
+                <annoSet ID="12065"/>
+                <annoSet ID="12066"/>
+                <annoSet ID="12067"/>
+                <annoSet ID="12068"/>
+                <annoSet ID="12069"/>
+                <annoSet ID="12070"/>
+                <annoSet ID="12071"/>
+                <annoSet ID="15116"/>
+                <annoSet ID="16030"/>
+                <annoSet ID="16089"/>
+                <annoSet ID="16577"/>
+                <annoSet ID="18967"/>
+                <annoSet ID="19451"/>
+                <annoSet ID="19926"/>
+                <annoSet ID="19927"/>
+                <annoSet ID="20656"/>
+                <annoSet ID="21150"/>
+                <annoSet ID="22637"/>
+                <annoSet ID="24656"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Goods"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4392">
+            <text>Du côté d' Air France , on se frotte les mains de trouver un allié de qualité au coeur de l' Europe de l' Est , car CSA gagne bon an mal an de 20 à 30 millions de dollars ( 100 à 150 millions de francs ) et transporte 1 , 5 million de passagers chaque année vers une quarantaine de pays .</text>
+            <annotationSet status="MANUAL" ID="6179">
+                <layer rank="1" name="FE">
+                    <label end="118" start="116" name="Earner"/>
+                    <label end="200" start="140" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="120" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5284">
+            <text>L' introduction au 1 juillet d' un cours unique pour le rouble à un taux initial de 125 roubles pour 1 dollar devrait favoriser essentiellement les exportateurs russes qui , jusqu' à présent , échangeaient les devises qu' ils gagnaient à un taux inférieur à celui du marché .</text>
+            <annotationSet status="MANUAL" ID="7658">
+                <layer rank="1" name="FE">
+                    <label end="224" start="222" name="Earner"/>
+                    <label end="272" start="144" name="Earner"/>
+                    <label end="220" start="218" name="Earnings"/>
+                    <label end="234" start="206" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="234" start="226" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7014">
+            <text>Un cadre a donc gagné , en moyenne , 2 , 7 fois plus qu' un ouvrier alors qu' un employé aura perçu un peu plus que les ouvriers , excepté dans des secteurs tels que la chimie de base , où les conditions de travail et les primes augmentent les rémunérations ouvrières .</text>
+            <annotationSet status="MANUAL" ID="10398">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Earner"/>
+                    <label end="66" start="37" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8455">
+            <text>Ainsi , selon une enquête du groupe Egor , de Paris , un ingénieur confirmé avec deux enfants gagnait en 1989 , après impôt , 87 125 marks par an , contre 68 470 marks en France , 67 240 en Espagne , 60 680 en Italie , 54 120 en Belgique , 44 485 en Grande - Bretagne et 39 155 en Suède .</text>
+            <annotationSet status="MANUAL" ID="12065">
+                <layer rank="1" name="FE">
+                    <label end="92" start="54" name="Earner"/>
+                    <label end="144" start="126" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8455">
+            <text>Ainsi , selon une enquête du groupe Egor , de Paris , un ingénieur confirmé avec deux enfants gagnait en 1989 , après impôt , 87 125 marks par an , contre 68 470 marks en France , 67 240 en Espagne , 60 680 en Italie , 54 120 en Belgique , 44 485 en Grande - Bretagne et 39 155 en Suède .</text>
+            <annotationSet status="MANUAL" ID="12066">
+                <layer rank="1" name="FE">
+                    <label end="92" start="54" name="Earner"/>
+                    <label end="185" start="180" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8455">
+            <text>Ainsi , selon une enquête du groupe Egor , de Paris , un ingénieur confirmé avec deux enfants gagnait en 1989 , après impôt , 87 125 marks par an , contre 68 470 marks en France , 67 240 en Espagne , 60 680 en Italie , 54 120 en Belgique , 44 485 en Grande - Bretagne et 39 155 en Suède .</text>
+            <annotationSet status="MANUAL" ID="12067">
+                <layer rank="1" name="FE">
+                    <label end="92" start="54" name="Earner"/>
+                    <label end="166" start="155" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8455">
+            <text>Ainsi , selon une enquête du groupe Egor , de Paris , un ingénieur confirmé avec deux enfants gagnait en 1989 , après impôt , 87 125 marks par an , contre 68 470 marks en France , 67 240 en Espagne , 60 680 en Italie , 54 120 en Belgique , 44 485 en Grande - Bretagne et 39 155 en Suède .</text>
+            <annotationSet status="MANUAL" ID="12068">
+                <layer rank="1" name="FE">
+                    <label end="92" start="54" name="Earner"/>
+                    <label end="224" start="219" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8455">
+            <text>Ainsi , selon une enquête du groupe Egor , de Paris , un ingénieur confirmé avec deux enfants gagnait en 1989 , après impôt , 87 125 marks par an , contre 68 470 marks en France , 67 240 en Espagne , 60 680 en Italie , 54 120 en Belgique , 44 485 en Grande - Bretagne et 39 155 en Suède .</text>
+            <annotationSet status="MANUAL" ID="12069">
+                <layer rank="1" name="FE">
+                    <label end="92" start="54" name="Earner"/>
+                    <label end="205" start="200" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8455">
+            <text>Ainsi , selon une enquête du groupe Egor , de Paris , un ingénieur confirmé avec deux enfants gagnait en 1989 , après impôt , 87 125 marks par an , contre 68 470 marks en France , 67 240 en Espagne , 60 680 en Italie , 54 120 en Belgique , 44 485 en Grande - Bretagne et 39 155 en Suède .</text>
+            <annotationSet status="MANUAL" ID="12070">
+                <layer rank="1" name="FE">
+                    <label end="92" start="54" name="Earner"/>
+                    <label end="276" start="271" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8455">
+            <text>Ainsi , selon une enquête du groupe Egor , de Paris , un ingénieur confirmé avec deux enfants gagnait en 1989 , après impôt , 87 125 marks par an , contre 68 470 marks en France , 67 240 en Espagne , 60 680 en Italie , 54 120 en Belgique , 44 485 en Grande - Bretagne et 39 155 en Suède .</text>
+            <annotationSet status="MANUAL" ID="12071">
+                <layer rank="1" name="FE">
+                    <label end="92" start="54" name="Earner"/>
+                    <label end="245" start="240" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10884">
+            <text>En spéculant contre la livre sterling , il gagne ce jour -là 1 milliard de dollars ( 5 milliards de francs ) !</text>
+            <annotationSet status="MANUAL" ID="15116">
+                <layer rank="1" name="FE">
+                    <label end="41" start="40" name="Earner"/>
+                    <label end="105" start="61" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11657">
+            <text>A New - York , les spéculateurs - moins heureux que George Soros qui a gagné 1 milliard de dollars en jouant contre la livre - jouent l' éclatement du noyau du SME et empruntent des francs pour les vendre à terme , espérant empocher les gains une fois la monnaie française dévaluée .</text>
+            <annotationSet status="MANUAL" ID="16030">
+                <layer rank="1" name="FE">
+                    <label end="67" start="65" name="Earner"/>
+                    <label end="123" start="52" name="Earner"/>
+                    <label end="97" start="77" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11722">
+            <text>Bénéfice pour la France : 2 milliards de francs gagnés sur les spéculateurs .</text>
+            <annotationSet status="MANUAL" ID="16089">
+                <layer rank="1" name="FE">
+                    <label end="22" start="14" name="Earner"/>
+                    <label end="46" start="26" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12231">
+            <text>Il est dans la pratique très difficile de distinguer les opérations effectuées sur le marché des changes dans un simple but de couverture des besoins en devises , de saine gestion des avoirs , de celles réalisées dans la seule perspective de gagner de l' argent à court terme en profitant des variations de change .</text>
+            <annotationSet status="MANUAL" ID="16577">
+                <layer rank="1" name="FE">
+                    <label end="260" start="249" name="Earnings"/>
+                    <label itype="UNI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="247" start="242" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14649">
+            <text>Les délocalisations consistent , donc , en autant de décisions individuelles , bénéfiques - de prime abord en tout cas - pour l' entreprise qui les décide , et fort lucratives pour les intermédiaires puisque , comme le constate Jean Arthuis , " ceux qui en vivent , gagnent de plus en plus d' argent " .</text>
+            <annotationSet status="MANUAL" ID="18967">
+                <layer rank="1" name="FE">
+                    <label end="262" start="245" name="Earner"/>
+                    <label end="198" start="185" name="Earner"/>
+                    <label end="298" start="274" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="272" start="266" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15205">
+            <text>Et , gagnant un peu plus de 3_000 couronnes ( 600 francs ) par mois , elle avoue que " c' était mieux avant .</text>
+            <annotationSet status="MANUAL" ID="19451">
+                <layer rank="1" name="FE">
+                    <label end="73" start="70" name="Earner"/>
+                    <label end="66" start="13" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15746">
+            <text>Il passe de 74 , 8 % pour ceux qui gagnent plus de 20 000 francs à 51 , 8 % pour les moins de 8 000 francs .</text>
+            <annotationSet status="MANUAL" ID="19926">
+                <layer rank="1" name="FE">
+                    <label end="33" start="31" name="Earner"/>
+                    <label end="105" start="85" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15746">
+            <text>Il passe de 74 , 8 % pour ceux qui gagnent plus de 20 000 francs à 51 , 8 % pour les moins de 8 000 francs .</text>
+            <annotationSet status="MANUAL" ID="19927">
+                <layer rank="1" name="FE">
+                    <label end="33" start="31" name="Earner"/>
+                    <label end="63" start="43" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16455">
+            <text>Les coupons soigneusement collectionnés permettaient aux lecteurs de gagner des voitures , des maisons , des immeubles entiers et même un avion .</text>
+            <annotationSet status="MANUAL" ID="20656">
+                <layer rank="1" name="FE">
+                    <label end="64" start="57" name="Earner"/>
+                    <label end="142" start="76" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17034">
+            <text>" Cette situation est le résultat de plusieurs phénomènes qui se télescopent : l' internationalisation des affaires , des systèmes juridiques de plus en plus complexes et la possibilité de ne pas perdre d' argent et surtout de beaucoup en gagner dans certains cas " , analyse Me Jean Loyrette , associé du cabinet Gide , Loyrette , Nouel .</text>
+            <annotationSet status="MANUAL" ID="21150">
+                <layer rank="1" name="FE">
+                    <label end="211" start="203" name="Earnings"/>
+                    <label end="237" start="236" name="Earnings"/>
+                    <label itype="UNI" name="Earner"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="244" start="239" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18526">
+            <text>Dans ce groupe diversifié ( transports , textile , télévision ) dont la devise est , selon le mot du PDG , Mr Jérôme Seydoux , " gagner de l' argent , c' est vertueux " , l' activité aérienne a dégagé un résultat bénéficiaire net de 729 millions de francs , sur un total consolidé de 913 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="22637">
+                <layer rank="1" name="FE">
+                    <label end="67" start="64" name="Earner"/>
+                    <label end="169" start="5" name="Earner"/>
+                    <label end="147" start="139" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21203">
+            <text>" Il gagne 1 800 nairas par mois - le triple du SMIC industriel .</text>
+            <annotationSet status="MANUAL" ID="24656">
+                <layer rank="1" name="FE">
+                    <label end="3" start="2" name="Earner"/>
+                    <label end="62" start="11" name="Earnings"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

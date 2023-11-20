@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="interdire.v" ID="424" frame="FR_Grant_permission-Permitting" frameID="10068" totalAnnotated="30" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gro" name="Grantor"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Prin" name="Principle"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Gre" name="Grantee"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Act" name="Action"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="29">
+            <FE name="Action"/>
+            <pattern total="29">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="1597"/>
+                <annoSet ID="3109"/>
+                <annoSet ID="3244"/>
+                <annoSet ID="3341"/>
+                <annoSet ID="3370"/>
+                <annoSet ID="3462"/>
+                <annoSet ID="4805"/>
+                <annoSet ID="9135"/>
+                <annoSet ID="9207"/>
+                <annoSet ID="9216"/>
+                <annoSet ID="9335"/>
+                <annoSet ID="10487"/>
+                <annoSet ID="11175"/>
+                <annoSet ID="13619"/>
+                <annoSet ID="15123"/>
+                <annoSet ID="15844"/>
+                <annoSet ID="16410"/>
+                <annoSet ID="17948"/>
+                <annoSet ID="19181"/>
+                <annoSet ID="20443"/>
+                <annoSet ID="21390"/>
+                <annoSet ID="21530"/>
+                <annoSet ID="21711"/>
+                <annoSet ID="22683"/>
+                <annoSet ID="22947"/>
+                <annoSet ID="22984"/>
+                <annoSet ID="23430"/>
+                <annoSet ID="23482"/>
+                <annoSet ID="24916"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="29">
+            <FE name="Grantee"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Grantee"/>
+                <annoSet ID="3109"/>
+                <annoSet ID="4805"/>
+                <annoSet ID="9135"/>
+                <annoSet ID="9207"/>
+                <annoSet ID="9216"/>
+                <annoSet ID="9335"/>
+                <annoSet ID="11175"/>
+                <annoSet ID="15123"/>
+                <annoSet ID="15844"/>
+                <annoSet ID="20443"/>
+                <annoSet ID="21390"/>
+                <annoSet ID="21530"/>
+                <annoSet ID="23065"/>
+                <annoSet ID="23430"/>
+                <annoSet ID="24916"/>
+            </pattern>
+            <pattern total="14">
+                <valenceUnit PT="null instantiation" FE="Grantee"/>
+                <annoSet ID="1597"/>
+                <annoSet ID="3244"/>
+                <annoSet ID="3341"/>
+                <annoSet ID="3370"/>
+                <annoSet ID="10487"/>
+                <annoSet ID="13619"/>
+                <annoSet ID="16410"/>
+                <annoSet ID="17948"/>
+                <annoSet ID="19181"/>
+                <annoSet ID="21711"/>
+                <annoSet ID="22683"/>
+                <annoSet ID="22947"/>
+                <annoSet ID="22984"/>
+                <annoSet ID="23482"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="30">
+            <FE name="Grantor"/>
+            <pattern total="19">
+                <valenceUnit PT="filled" FE="Grantor"/>
+                <annoSet ID="3109"/>
+                <annoSet ID="3370"/>
+                <annoSet ID="4805"/>
+                <annoSet ID="9135"/>
+                <annoSet ID="9207"/>
+                <annoSet ID="9216"/>
+                <annoSet ID="9335"/>
+                <annoSet ID="10487"/>
+                <annoSet ID="15123"/>
+                <annoSet ID="15844"/>
+                <annoSet ID="16410"/>
+                <annoSet ID="20443"/>
+                <annoSet ID="21530"/>
+                <annoSet ID="21711"/>
+                <annoSet ID="22683"/>
+                <annoSet ID="22947"/>
+                <annoSet ID="22984"/>
+                <annoSet ID="23482"/>
+                <annoSet ID="24916"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Grantor"/>
+                <annoSet ID="1597"/>
+                <annoSet ID="3244"/>
+                <annoSet ID="3341"/>
+                <annoSet ID="9207"/>
+                <annoSet ID="11175"/>
+                <annoSet ID="13619"/>
+                <annoSet ID="17948"/>
+                <annoSet ID="19181"/>
+                <annoSet ID="21390"/>
+                <annoSet ID="23065"/>
+                <annoSet ID="23430"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Principle"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Principle"/>
+                <annoSet ID="3109"/>
+                <annoSet ID="3341"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1562">
+            <text>M. Turmes a abordé ce point et je me rappelle que les milieux industriels savent , en tout cas depuis 1992 , que les ballasts magnétiques seront plus ou moins interdits vers 2009 .</text>
+            <annotationSet status="MANUAL" ID="1597">
+                <layer rank="1" name="FE">
+                    <label end="136" start="113" name="Action"/>
+                    <label itype="DNI" name="Grantee"/>
+                    <label itype="DNI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2394">
+            <text>Désireux de républicaniser l' armée en la laïcisant , cet anticlérical farouche et un peu ridicule , méprisé par ses collègues et ses subordonnés , interdit en 1903 aux soldats de fréquenter les cercles militaires catholiques , en application des nouvelles lois laïques sur la " neutralité " supposée , exigée des institutions républicaines et de leurs membres .</text>
+            <annotationSet status="MANUAL" ID="3109">
+                <layer rank="1" name="FE">
+                    <label end="224" start="180" name="Action"/>
+                    <label end="175" start="169" name="Grantee"/>
+                    <label end="359" start="228" name="Principle"/>
+                    <label end="144" start="54" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2463">
+            <text>Contractuellement interdites , les commissions ont fait gonfler le prix .</text>
+            <annotationSet status="MANUAL" ID="3244">
+                <layer rank="1" name="FE">
+                    <label end="45" start="31" name="Action"/>
+                    <label itype="DNI" name="Grantee"/>
+                    <label itype="ENI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2513">
+            <text>- Cette autorisation est maintenant interdite depuis la ratification par la France de la Convention de l' OCDE contre la corruption .</text>
+            <annotationSet status="MANUAL" ID="3341">
+                <layer rank="1" name="FE">
+                    <label end="19" start="2" name="Action"/>
+                    <label end="130" start="53" name="Principle"/>
+                    <label itype="DNI" name="Grantee"/>
+                    <label itype="DNI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2537">
+            <text>En effet , l' article 18 du contrat Bravo interdisait explicitement de rémunérer des intermédiaires .</text>
+            <annotationSet status="MANUAL" ID="3370">
+                <layer rank="1" name="FE">
+                    <label end="98" start="71" name="Action"/>
+                    <label end="40" start="11" name="Grantor"/>
+                    <label itype="UNI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2599">
+            <text>L' argent pourrait alors servir au règlement du litige civil avec Taïwan qui exige que la France rembourse les commissions occultes que le contrat signé en 1991 interdisait formellement par son article 18 .</text>
+            <annotationSet status="MANUAL" ID="3462">
+                <layer rank="1" name="FE">
+                    <label end="130" start="107" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="171" start="161" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3570">
+            <text>Avec quelques réserves chez Peugeot , Bruxelles ayant profité de l' adoption du texte pour exiger du constructeur français qu' il retire la circulaire transmise en mai 1989 à ses concessionnaires belges et luxembourgeois , leur interdisant de traiter avec la société mandataire française , Eco - Systeme .</text>
+            <annotationSet status="MANUAL" ID="4805">
+                <layer rank="1" name="FE">
+                    <label end="302" start="243" name="Action"/>
+                    <label end="226" start="223" name="Grantee"/>
+                    <label end="219" start="175" name="Grantee"/>
+                    <label end="221" start="137" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="238" start="228" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6144">
+            <text>Toute la difficulté du projet d' Alain Denvers , directeur de l' information d' Antenne 2 et directeur de l' information de FR 3 - la loi lui interdit d' être directeur de l' information d' A 2 et FR 3 , - est là .</text>
+            <annotationSet status="MANUAL" ID="9135">
+                <layer rank="1" name="FE">
+                    <label end="200" start="154" name="Action"/>
+                    <label end="140" start="138" name="Grantee"/>
+                    <label end="127" start="33" name="Grantee"/>
+                    <label end="136" start="131" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="142" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6191">
+            <text>La Cour a rejeté un pourvoi formé par M. Michel Leclerc contre un arrêt de la cour d' appel de Paris qui lui avait interdit , le 22 mars 1990 , d' utiliser les enseignes " pompes funèbres Michel Leclerc " ou " Groupe Michel Leclerc " .</text>
+            <annotationSet status="MANUAL" ID="9207">
+                <layer rank="1" name="FE">
+                    <label end="232" start="147" name="Action"/>
+                    <label end="107" start="105" name="Grantee"/>
+                    <label end="54" start="38" name="Grantee"/>
+                    <label end="103" start="101" name="Grantor"/>
+                    <label end="232" start="75" name="Grantor"/>
+                    <label itype="DNI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6193">
+            <text>Un précédent arrêt rendu par la cour d' appel de Paris , le 28 mars 1985 , avait prononcé la nullité de la marque " Leclerc Service " , déposée par M. Michel Leclerc , et avait interdit à ce dernier d' utiliser son nom à titre de marque , sous quelque forme que ce soit .</text>
+            <annotationSet status="MANUAL" ID="9216">
+                <layer rank="1" name="FE">
+                    <label end="268" start="202" name="Action"/>
+                    <label end="197" start="188" name="Grantee"/>
+                    <label end="164" start="148" name="Grantee"/>
+                    <label end="71" start="0" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="177" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6254">
+            <text>La plainte s' appuie sur la loi Veil de 1976 , qui interdit la propagande ou la publicité en faveur du tabac et de ses produits à la télévision .</text>
+            <annotationSet status="MANUAL" ID="9335">
+                <layer rank="1" name="FE">
+                    <label end="126" start="60" name="Action"/>
+                    <label end="142" start="130" name="Grantee"/>
+                    <label end="49" start="47" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7099">
+            <text>Sans aller jusqu' à suivre l' exemple du Guatemala , où la Constitution , après le renversement du colonel progressiste Arbenz en 1954 , avait interdit toute réforme agraire , les nouveaux régimes ont interrompu ou mis en sommeil les programmes .</text>
+            <annotationSet status="MANUAL" ID="10487">
+                <layer rank="1" name="FE">
+                    <label end="172" start="152" name="Action"/>
+                    <label end="70" start="56" name="Grantor"/>
+                    <label itype="UNI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7708">
+            <text>C' est cette opération en sens inverse qui est interdite , pratiquement , aux organismes stockeurs .</text>
+            <annotationSet status="MANUAL" ID="11175">
+                <layer rank="1" name="FE">
+                    <label end="37" start="7" name="Action"/>
+                    <label end="97" start="78" name="Grantee"/>
+                    <label itype="UNI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9645">
+            <text>En attendant d' interdire en semaine ( " as -tu fini tes devoirs ? " ) l' usage obsédant desdits jouets électroniques .</text>
+            <annotationSet status="MANUAL" ID="13619">
+                <layer rank="1" name="FE">
+                    <label end="116" start="16" name="Action"/>
+                    <label itype="DNI" name="Grantee"/>
+                    <label itype="DNI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10890">
+            <text>Aucun détail n' a été fourni sur les prochaines activités de M. Milken , qui s' est vu interdire à vie , par la Securities and Exchange Commission ( SEC ) , équivalent de la COB française , toute activité dans une firme d' investissements en contact avec les marchés financiers .</text>
+            <annotationSet status="MANUAL" ID="15123">
+                <layer rank="1" name="FE">
+                    <label end="276" start="190" name="Action"/>
+                    <label end="69" start="64" name="Grantee"/>
+                    <label end="145" start="109" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11519">
+            <text>Pour protester contre la vente de Mirage à Taïwan , le gouvernement chinois a interdit à la municipalité de Canton de faire appel à des sociétés françaises pour la construction de son métro .</text>
+            <annotationSet status="MANUAL" ID="15844">
+                <layer rank="1" name="FE">
+                    <label end="188" start="118" name="Action"/>
+                    <label end="113" start="89" name="Grantee"/>
+                    <label end="74" start="52" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12091">
+            <text>Cela interdirait les prix de dumping et permettrait au lanceur européen Ariane de garder toutes ses chances .</text>
+            <annotationSet status="MANUAL" ID="16410">
+                <layer rank="1" name="FE">
+                    <label end="35" start="17" name="Action"/>
+                    <label end="3" start="0" name="Grantor"/>
+                    <label itype="ENI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13628">
+            <text>Il ne faut , cependant , pas l' interdire mais l' encourager en le réglementant .</text>
+            <annotationSet status="MANUAL" ID="17948">
+                <layer rank="1" name="FE">
+                    <label end="30" start="29" name="Action"/>
+                    <label itype="ENI" name="Grantee"/>
+                    <label itype="ENI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14898">
+            <text>Il n' est pas interdit de penser que cette régulation protège mieux les gens en place que la classique loi de l' offre et de la demande qui aboutissait à des confrontations collectives dangereuses pour la tranquillité publique .</text>
+            <annotationSet status="MANUAL" ID="19181">
+                <layer rank="1" name="FE">
+                    <label end="225" start="26" name="Action"/>
+                    <label itype="UNI" name="Grantee"/>
+                    <label itype="ENI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16276">
+            <text>Estimant les conditions d' acquisition contraires aux statuts du journal - qui interdisent à une même personne de détenir plus de 15 % de son capital , - la direction du Midi libre avait porté l' affaire en justice .</text>
+            <annotationSet status="MANUAL" ID="20443">
+                <layer rank="1" name="FE">
+                    <label end="148" start="114" name="Action"/>
+                    <label end="109" start="93" name="Grantee"/>
+                    <label end="73" start="54" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17313">
+            <text>Le survol des deux Républiques vient d' ailleurs d' être interdit aux hélicoptères , dans la mesure où les deux camps s' en étaient procurés , par la force ou l' insistance musclée , pour effectuer leurs transports d' hommes et mener , à l' occasion , des attaques aériennes .</text>
+            <annotationSet status="MANUAL" ID="21390">
+                <layer rank="1" name="FE">
+                    <label end="29" start="0" name="Action"/>
+                    <label end="81" start="70" name="Grantee"/>
+                    <label itype="DNI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17476">
+            <text>Terminé en principe fin 1991 , le centre juridique sera , dit -on , unique en France , puisque des professions auxquelles la déontologie interdit de se regrouper au sein d' un même cabinet seront rassemblées , de façon indépendante , sous un même toit .</text>
+            <annotationSet status="MANUAL" ID="21530">
+                <layer rank="1" name="FE">
+                    <label end="187" start="149" name="Action"/>
+                    <label end="120" start="111" name="Grantee"/>
+                    <label end="109" start="95" name="Grantee"/>
+                    <label end="135" start="122" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="144" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17669">
+            <text>- Les archéologues ont manifesté , le 16 janvier , place Notre - Dame - des - Victoires , à Paris ( premier et deuxième arrondissements ) , tout près de la sous - direction de l' archéologie du ministère de la culture , dont l' approche était interdite par la police .</text>
+            <annotationSet status="MANUAL" ID="21711">
+                <layer rank="1" name="FE">
+                    <label end="235" start="225" name="Action"/>
+                    <label end="265" start="257" name="Grantor"/>
+                    <label itype="ENI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="251" start="243" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18571">
+            <text>Le projet de déclaration interdit " les organisations politiques et activités qui sont dirigées contre l' intégrité territoriale de l' Etat " et qui " visent une séparation des parties du territoire à partir de principes religieux , ethniques ou autres " .</text>
+            <annotationSet status="MANUAL" ID="22683">
+                <layer rank="1" name="FE">
+                    <label end="251" start="36" name="Action"/>
+                    <label end="23" start="0" name="Grantor"/>
+                    <label itype="UNI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18883">
+            <text>Le ministère de l' intérieur koweitien a interdit toute manifestation politique à Koweit après que la police eut dispersé , lundi soir 8 janvier , dans la banlieue de Koweit une réunion publique de plusieurs milliers de personnes qui demandaient le retour de la vie parlementaire dans ce pays .</text>
+            <annotationSet status="MANUAL" ID="22947">
+                <layer rank="1" name="FE">
+                    <label end="78" start="50" name="Action"/>
+                    <label end="37" start="0" name="Grantor"/>
+                    <label itype="ENI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18916">
+            <text>Or , pour les occupants , les objectifs sont différents : tous les produits fabriqués par Billancourt seront destinés à l' armée allemande , cependant que sera interdite la fabrication de voitures de tourisme et ajournée sine die celle de tracteurs agricoles .</text>
+            <annotationSet status="MANUAL" ID="22984">
+                <layer rank="1" name="FE">
+                    <label end="207" start="170" name="Action"/>
+                    <label end="22" start="10" name="Grantor"/>
+                    <label itype="DNI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="168" start="160" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19004">
+            <text>Le journal sud - africain Vrye Weekblad a publié , vendredi 12 janvier , les noms d' auteurs d' attentats commis en Europe contre le Congrès national africain ( ANC , interdit en Afrique du Sud ) , notamment contre sa représentante à Paris , Dulcie September , ainsi que de nouvelles révélations sur les méthodes de torture employées par les " commandos de la mort " .</text>
+            <annotationSet status="MANUAL" ID="23065">
+                <layer rank="1" name="FE">
+                    <label end="163" start="161" name="Grantee"/>
+                    <label itype="ENI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="174" start="167" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19520">
+            <text>Sinon , pourquoi interdire aux autres distributeurs ( Darty , mais aussi les hypermarchés qui se développent dans les " produits bruns " ) de profiter de la même mesure ?</text>
+            <annotationSet status="MANUAL" ID="23430">
+                <layer rank="1" name="FE">
+                    <label end="167" start="142" name="Action"/>
+                    <label end="137" start="31" name="Grantee"/>
+                    <label itype="ENI" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19592">
+            <text>Interdit -on de couper plus d' une fois les oeuvres audiovisuelles par des spots publicitaires ?</text>
+            <annotationSet status="MANUAL" ID="23482">
+                <layer rank="1" name="FE">
+                    <label end="93" start="16" name="Action"/>
+                    <label end="11" start="9" name="Grantor"/>
+                    <label itype="DNI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21623">
+            <text>- Conditions de travail : publication de deux décrets : le premier règlemente la durée du travail des enfants dans les mines et carrières , le second interdit tous les travaux dangereux aux enfants et aux femmes .</text>
+            <annotationSet status="MANUAL" ID="24916">
+                <layer rank="1" name="FE">
+                    <label end="184" start="159" name="Action"/>
+                    <label end="199" start="190" name="Grantee"/>
+                    <label end="210" start="205" name="Grantee"/>
+                    <label end="148" start="140" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

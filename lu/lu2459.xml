@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="révélation.n" ID="2459" frame="Reveal_secret" frameID="1146" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="inf" name="Information"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Information"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Information"/>
+                <annoSet ID="3076"/>
+                <annoSet ID="3150"/>
+                <annoSet ID="3408"/>
+                <annoSet ID="3435"/>
+                <annoSet ID="3621"/>
+                <annoSet ID="23064"/>
+                <annoSet ID="23068"/>
+                <annoSet ID="23069"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Information"/>
+                <annoSet ID="3952"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="3621"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Speaker"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3076"/>
+                <annoSet ID="3150"/>
+                <annoSet ID="3408"/>
+                <annoSet ID="3621"/>
+                <annoSet ID="3640"/>
+                <annoSet ID="23064"/>
+                <annoSet ID="23068"/>
+                <annoSet ID="23069"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="3435"/>
+                <annoSet ID="3952"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Topic"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="3076"/>
+                <annoSet ID="23064"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2373">
+            <text>17 ans ( ! ) après les révélations du Canard , l' affaire des faux électeurs du IIIème arrondissement fut jugé en septembre 2006 par la 16e chambre du tribunal correctionnel présidée par Jean-Claude Kross .</text>
+            <annotationSet status="MANUAL" ID="3076">
+                <layer rank="1" name="FE">
+                    <label end="100" start="47" name="Topic"/>
+                    <label end="43" start="19" name="Information"/>
+                    <label end="43" start="38" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2406">
+            <text>Elles sont publiées le 27 octobre 1904 , et Louis André est contraint de démissionner quelques jours plus tard , après avoir été giflé sur le banc même des ministres dans un geste mélodramatique par le député nationaliste Gabriel Syveton , que l' on retrouvera mort mystérieusement quelques jours plus tard , suicidé les veines ouvertes dans son bain , la veille d' une séance où il s' apprêtait à faire de nouvelles révélations , probablement plus victime de son épouse et de son amant que du " poignard des Kadosh " .</text>
+            <annotationSet status="MANUAL" ID="3150">
+                <layer rank="1" name="FE">
+                    <label end="427" start="404" name="Information"/>
+                    <label end="516" start="199" name="Speaker"/>
+                    <label end="381" start="380" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="427" start="417" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2558">
+            <text>Pierre Brochand était notamment interrogé sur des révélations qu' aurait pu faire Thierry Imbot , ancien conseiller commercial à la représentation française à Taïwan au début des années 90 et qui travaillait également pour la DGSE .</text>
+            <annotationSet status="MANUAL" ID="3408">
+                <layer rank="1" name="FE">
+                    <label end="229" start="46" name="Information"/>
+                    <label end="229" start="82" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2572">
+            <text>Cette révélation a entraîné une nouvelle affaire d' État dans l' affaire d' État .</text>
+            <annotationSet status="MANUAL" ID="3435">
+                <layer rank="1" name="FE">
+                    <label end="15" start="0" name="Information"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2780">
+            <text>- 21 septembre 2000 : les révélations posthumes de Jean-Claude Méry ( cassette Méry ) sont publiées par le journal Le Monde .</text>
+            <annotationSet status="MANUAL" ID="3621">
+                <layer rank="1" name="FE">
+                    <label end="84" start="22" name="Information"/>
+                    <label end="122" start="104" name="Medium"/>
+                    <label end="66" start="51" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2789">
+            <text>Les multiples auditions conduites par le juge Armand Riberolles ont essentiellement porté sur le rôle du promoteur Jean-Claude Méry , dont les révélations avaient relancé l' enquête .</text>
+            <annotationSet status="MANUAL" ID="3640">
+                <layer rank="1" name="FE">
+                    <label end="132" start="105" name="Speaker"/>
+                    <label end="180" start="155" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3065">
+            <text>Révélation et fin</text>
+            <annotationSet status="MANUAL" ID="3952">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Information"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19004">
+            <text>Le journal sud - africain Vrye Weekblad a publié , vendredi 12 janvier , les noms d' auteurs d' attentats commis en Europe contre le Congrès national africain ( ANC , interdit en Afrique du Sud ) , notamment contre sa représentante à Paris , Dulcie September , ainsi que de nouvelles révélations sur les méthodes de torture employées par les " commandos de la mort " .</text>
+            <annotationSet status="MANUAL" ID="23064">
+                <layer rank="1" name="FE">
+                    <label end="365" start="300" name="Topic"/>
+                    <label end="294" start="284" name="Information"/>
+                    <label end="38" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="294" start="284" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19007">
+            <text>Le Suédois a déclaré qu' il était responsable " d' autres actes terroristes commis à l' étranger " , et qu' il avait quitté la police après la publication en novembre des révélations du capitaine Dirk Coetzee , ancien membre des " commandos de la mort " de la police sud - africaine , aujourd' hui en fuite .</text>
+            <annotationSet status="MANUAL" ID="23068">
+                <layer rank="1" name="FE">
+                    <label end="181" start="171" name="Information"/>
+                    <label end="305" start="186" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="181" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19008">
+            <text>À la suite de ces révélations de novembre , publiées également par le Vrye Weekblad , une enquête de police a été ouverte , et de nombreuses personnalités et organisations ont demandé l' ouverture d' une enquête judiciaire sur les agissements des " commandos de la mort " .</text>
+            <annotationSet status="MANUAL" ID="23069">
+                <layer rank="1" name="FE">
+                    <label end="28" start="18" name="Information"/>
+                    <label end="82" start="67" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

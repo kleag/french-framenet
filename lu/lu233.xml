@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="par suite.adv" ID="233" frame="Causation" frameID="5" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cause"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="3810"/>
+                <annoSet ID="13712"/>
+                <annoSet ID="18282"/>
+                <annoSet ID="19234"/>
+                <annoSet ID="19983"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Effect"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="3810"/>
+                <annoSet ID="13712"/>
+                <annoSet ID="18282"/>
+                <annoSet ID="19234"/>
+                <annoSet ID="19983"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2920">
+            <text>Rebondissement le 27 octobre 2006 par suite de la décision de la Cour arbitrale du comité national olympique italien : les clubs condamnés voient leurs pénalités réduites de façon importante , ainsi la Juventus passe de 17 à 9 points de retard , la Fiorentina de 19 à 15 et la Lazio de 11 à 3 .</text>
+            <annotationSet status="MANUAL" ID="3810">
+                <layer rank="1" name="FE">
+                    <label end="115" start="47" name="Cause"/>
+                    <label end="13" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9749">
+            <text>Ses compétences sont plus larges que dans les autres régions , par suite du nouveau statut de la Corse .</text>
+            <annotationSet status="MANUAL" ID="13712">
+                <layer rank="1" name="FE">
+                    <label end="101" start="76" name="Cause"/>
+                    <label end="61" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13956">
+            <text>Condamnée , la personne morale court le risque d' être doublement affectée dans ses finances , s' il s' agit d' une société : les actionnaires , voyant leurs dividendes diminuer par suite de la condamnation , pourront " se retirer de la société " s' ils ne veulent pas " supporter les conséquences de décisions qu' ils n' auraient pas prises personnellement " , a estimé le rapporteur du projet devant l' Assemblée nationale .</text>
+            <annotationSet status="MANUAL" ID="18282">
+                <layer rank="1" name="FE">
+                    <label end="205" start="191" name="Cause"/>
+                    <label end="176" start="145" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="178" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14953">
+            <text>Un tel mouvement a été provoqué par le regain de faveur des obligations , dont les cours ont monté par suite de la baisse du rendement , et , surtout , par le sentiment que les taux à court terme , exagérément soufflés et supérieurs aux taux à long terme , allaient , enfin , amorcer la décrue tant espérée .</text>
+            <annotationSet status="MANUAL" ID="19234">
+                <layer rank="1" name="FE">
+                    <label end="133" start="112" name="Cause"/>
+                    <label end="91" start="74" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15801">
+            <text>Celle de Testut , ensuite , bien que ces pertes " par suite de restructuration drastique " ne rendent pas " les conditions de cession idéales " .</text>
+            <annotationSet status="MANUAL" ID="19983">
+                <layer rank="1" name="FE">
+                    <label end="89" start="63" name="Cause"/>
+                    <label end="48" start="37" name="Effect"/>
+                    <label end="140" start="91" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

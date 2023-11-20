@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="en raison de.prep" ID="2288" frame="Reason" frameID="514" totalAnnotated="25" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="20">
+            <FE name="Action"/>
+            <pattern total="20">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="2558"/>
+                <annoSet ID="2795"/>
+                <annoSet ID="3092"/>
+                <annoSet ID="3810"/>
+                <annoSet ID="4899"/>
+                <annoSet ID="5837"/>
+                <annoSet ID="7008"/>
+                <annoSet ID="8372"/>
+                <annoSet ID="10578"/>
+                <annoSet ID="10986"/>
+                <annoSet ID="12153"/>
+                <annoSet ID="12586"/>
+                <annoSet ID="13201"/>
+                <annoSet ID="16976"/>
+                <annoSet ID="17213"/>
+                <annoSet ID="17780"/>
+                <annoSet ID="18218"/>
+                <annoSet ID="18499"/>
+                <annoSet ID="20354"/>
+                <annoSet ID="20509"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="Agent"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="2795"/>
+                <annoSet ID="3092"/>
+                <annoSet ID="3810"/>
+                <annoSet ID="4899"/>
+                <annoSet ID="5837"/>
+                <annoSet ID="7008"/>
+                <annoSet ID="8372"/>
+                <annoSet ID="10578"/>
+                <annoSet ID="10986"/>
+                <annoSet ID="12153"/>
+                <annoSet ID="12586"/>
+                <annoSet ID="13201"/>
+                <annoSet ID="16976"/>
+                <annoSet ID="17213"/>
+                <annoSet ID="18218"/>
+                <annoSet ID="18499"/>
+                <annoSet ID="20354"/>
+                <annoSet ID="20509"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="2558"/>
+                <annoSet ID="17780"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="20">
+            <FE name="State_of_Affairs"/>
+            <pattern total="20">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="2558"/>
+                <annoSet ID="2795"/>
+                <annoSet ID="3092"/>
+                <annoSet ID="3810"/>
+                <annoSet ID="4899"/>
+                <annoSet ID="5837"/>
+                <annoSet ID="7008"/>
+                <annoSet ID="8372"/>
+                <annoSet ID="10578"/>
+                <annoSet ID="10986"/>
+                <annoSet ID="12153"/>
+                <annoSet ID="12586"/>
+                <annoSet ID="13201"/>
+                <annoSet ID="16976"/>
+                <annoSet ID="17213"/>
+                <annoSet ID="17780"/>
+                <annoSet ID="18218"/>
+                <annoSet ID="18499"/>
+                <annoSet ID="20354"/>
+                <annoSet ID="20509"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2023">
+            <text>En_effet , en_raison_de ses caractéristiques , celle-ci compte parmi les activités principales de l' Union et , si elle est menée au_niveau_des États membres , elle ne pourra obtenir de résultats satisfaisants .</text>
+            <annotationSet status="MANUAL" ID="2264">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2307">
+            <text>Les poursuites contre le Président Jacques Chirac , à l' époque maire de Paris , ont été suspendues en_raison_de sa qualité de Président de la République .</text>
+            <annotationSet status="MANUAL" ID="2558">
+                <layer rank="1" name="FE">
+                    <label end="154" start="0" name="Action"/>
+                    <label end="152" start="113" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2486">
+            <text>Peu avant_de quitter le groupe , en_raison_de désaccords persistants avec son PDG , Jean-François Briand bloqua le paiement du réseau C , derrière lequel il entrevoyait " le financement d' un parti politique " , ce que l' un de ses collaborateurs , Alain Fribourg , interpréta comme le soupçon d' un " financement du PS " , le Parti socialiste français .</text>
+            <annotationSet status="MANUAL" ID="2795">
+                <layer rank="1" name="FE">
+                    <label end="80" start="13" name="Action"/>
+                    <label end="80" start="46" name="State_of_Affairs"/>
+                    <label end="103" start="84" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2784">
+            <text>- 25 avril 2001 : le juge Éric Halphen se déclare incompétent pour instruire le cas du président Chirac , en_raison_de son immunité présidentielle .</text>
+            <annotationSet status="MANUAL" ID="3092">
+                <layer rank="1" name="FE">
+                    <label end="147" start="0" name="Action"/>
+                    <label end="145" start="119" name="State_of_Affairs"/>
+                    <label end="37" start="18" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3370">
+            <text>Mais les Occidentaux , qui avaient participé , il y a deux ans , à la constitution d' un tel fonds en faveur de la Pologne , sont , pour l' instant , réservés , non seulement en raison de l' ampleur de l' engagement financier nécessaire , mais parce qu' ils estiment que l' objectif même est prématuré .</text>
+            <annotationSet status="MANUAL" ID="3810">
+                <layer rank="1" name="FE">
+                    <label end="300" start="5" name="Action"/>
+                    <label end="235" start="188" name="State_of_Affairs"/>
+                    <label end="121" start="5" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="175" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4130">
+            <text>En raison de la hausse des besoins d' investissement et des coûts du travail , elles s' endettent de plus en plus .</text>
+            <annotationSet status="MANUAL" ID="4899">
+                <layer rank="1" name="FE">
+                    <label end="114" start="0" name="Action"/>
+                    <label end="75" start="13" name="State_of_Affairs"/>
+                    <label end="83" start="79" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4827">
+            <text>Cependant , l' organisme chargé de la réglementation boursière , le CBV , vient de refuser d' accorder une dérogation au lancement d' une OPA en raison non seulement des textes mais aussi car " elle s' est estimée ne pas être en possession d' une information suffisante sur l' ensemble des circonstances de l' opération " .</text>
+            <annotationSet status="MANUAL" ID="5837">
+                <layer rank="1" name="FE">
+                    <label end="140" start="83" name="Action"/>
+                    <label end="70" start="12" name="Agent"/>
+                    <label end="180" start="170" name="State_of_Affairs"/>
+                    <label end="320" start="192" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="142" name="Target"/>
+                    <label end="168" start="166" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5645">
+            <text>Parallèlement , les investisseurs étrangers boudent le pays , en raison notamment de services coûteux et de moindre qualité .</text>
+            <annotationSet status="MANUAL" ID="7008">
+                <layer rank="1" name="FE">
+                    <label end="124" start="0" name="Action"/>
+                    <label end="42" start="16" name="Agent"/>
+                    <label end="122" start="85" name="State_of_Affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="62" name="Target"/>
+                    <label end="83" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6622">
+            <text>En raison de l' archaïsme de leur gestion , ou par discrétion volontaire , les fabricants - grossistes restent évasifs sur le volume de leur production et les marges réalisées , mais sans nul doute l' opération est " juteuse " .</text>
+            <annotationSet status="MANUAL" ID="8372">
+                <layer rank="1" name="FE">
+                    <label end="227" start="0" name="Action"/>
+                    <label end="40" start="13" name="State_of_Affairs"/>
+                    <label end="45" start="44" name="State_of_Affairs"/>
+                    <label end="71" start="51" name="State_of_Affairs"/>
+                    <label end="101" start="75" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7177">
+            <text>très favorable " à l' air - bag , elle estime néanmoins difficile , sinon impossible techniquement , de l' imposer sur les modèles en circulation , " en raison du coût et de la complexité de l' installation " .</text>
+            <annotationSet status="MANUAL" ID="8990">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="161" start="150" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7177">
+            <text>très favorable " à l' air - bag , elle estime néanmoins difficile , sinon impossible techniquement , de l' imposer sur les modèles en circulation , " en raison du coût et de la complexité de l' installation " .</text>
+            <annotationSet status="MANUAL" ID="8991">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="150" name="Target"/>
+                    <label end="172" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8732">
+            <text>Mobil a également annoncé mardi 7 juillet sa décision de réduire son budget d' investissement de 800 millions de dollars en 1992 en raison de la faiblesse de l' activité économique mondiale .</text>
+            <annotationSet status="MANUAL" ID="10578">
+                <layer rank="1" name="FE">
+                    <label end="127" start="57" name="Action"/>
+                    <label end="188" start="142" name="State_of_Affairs"/>
+                    <label end="4" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="129" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9050">
+            <text>Un mois après avoir diminué de 0 , 4 point leur taux de base ( TBB ) , les banques françaises ont été contraintes de le relever d' un demi - point en raison de la tension sur le marché interbancaire , qui a fait remonter le coût de leurs ressources .</text>
+            <annotationSet status="MANUAL" ID="10986">
+                <layer rank="1" name="FE">
+                    <label end="145" start="117" name="Action"/>
+                    <label end="247" start="160" name="State_of_Affairs"/>
+                    <label end="92" start="71" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10166">
+            <text>- M. Achille Ferrari , ancien directeur général de CEA - Industrie , vient d' être nommé président de la société Orkem , en remplacement de M. Jean - Claude Hirel , qui avait remis son mandat à disposition en raison de ses nouvelles fonctions à la tête de CEA - Industrie , indique un communiqué publié lundi 21 décembre par Orkem , holding qui gère les actifs de l' ex CD.F - chimie non repris par Total .</text>
+            <annotationSet status="MANUAL" ID="12153">
+                <layer rank="1" name="FE">
+                    <label end="270" start="165" name="Action"/>
+                    <label end="270" start="219" name="State_of_Affairs"/>
+                    <label end="167" start="165" name="Agent"/>
+                    <label end="161" start="143" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="217" start="206" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10589">
+            <text>Il comprend aussi le mensuel Lire de Bernard Pivot , que son rédacteur en chef , Jean - Maurice de Montrémy , a décidé de quitter en raison de la nouvelle organisation choisie par le producteur de " bouillon de culture " .</text>
+            <annotationSet status="MANUAL" ID="12586">
+                <layer rank="1" name="FE">
+                    <label end="219" start="53" name="Action"/>
+                    <label end="219" start="143" name="State_of_Affairs"/>
+                    <label end="106" start="81" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11295">
+            <text>La Banque de France , pratiquement liée à la Bundesbank , n' a pu suivre ce mouvement qu' avec deux mois de retard en raison de la crise monétaire d' une extrême violence qui faillit emporter le franc ( voir ci - contre ) .</text>
+            <annotationSet status="MANUAL" ID="13201">
+                <layer rank="1" name="FE">
+                    <label end="222" start="0" name="Action"/>
+                    <label end="199" start="128" name="State_of_Affairs"/>
+                    <label end="54" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13849">
+            <text>Pernod - Ricard , qui a réalisé un très bon premier trimestre avec un bénéfice en hausse de 67 , 9 % , en raison notamment de la plus - value exceptionnelle procurée par la vente de la Société des vins de France , aura du mal à réaliser une hausse de 6 % de ses résultats en 1992 , a avoué en fin d' année Patrick Ricard , PDG du groupe , en raison de la très nette dégradation de la conjoncture dans le secteur .</text>
+            <annotationSet status="MANUAL" ID="15331">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="350" start="339" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13849">
+            <text>Pernod - Ricard , qui a réalisé un très bon premier trimestre avec un bénéfice en hausse de 67 , 9 % , en raison notamment de la plus - value exceptionnelle procurée par la vente de la Société des vins de France , aura du mal à réaliser une hausse de 6 % de ses résultats en 1992 , a avoué en fin d' année Patrick Ricard , PDG du groupe , en raison de la très nette dégradation de la conjoncture dans le secteur .</text>
+            <annotationSet status="MANUAL" ID="15336">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="347" start="339" name="Target"/>
+                    <label end="379" start="378" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15951">
+            <text>Robert A. Gottlieb , rédacteur en chef depuis 1987 - le troisième à occuper ce poste depuis la création du magazine en 1925 , après Harold Ross et William Shawn - a quitté le journal , en raison de " différences conceptuelles " avec M. Newhouse Jr sur l' évolution du New Yorker .</text>
+            <annotationSet status="MANUAL" ID="16976">
+                <layer rank="1" name="FE">
+                    <label end="279" start="0" name="Action"/>
+                    <label end="246" start="200" name="State_of_Affairs"/>
+                    <label end="161" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="185" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16259">
+            <text>Le magazine mensuel le Figaro Rhône - Alpes , édité par la Socpresse ( groupe Hersant ) , ne publiera pas son numéro de janvier 1993 , en raison de la baisse de ses recettes publicitaires .</text>
+            <annotationSet status="MANUAL" ID="17213">
+                <layer rank="1" name="FE">
+                    <label end="188" start="0" name="Action"/>
+                    <label end="186" start="148" name="State_of_Affairs"/>
+                    <label end="86" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="146" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16972">
+            <text>Le conseil scientifique de l' évaluation est formé d' onze personnalités choisies en raison de leurs compétences .</text>
+            <annotationSet status="MANUAL" ID="17780">
+                <layer rank="1" name="FE">
+                    <label end="111" start="73" name="Action"/>
+                    <label end="111" start="95" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17596">
+            <text>Le principe serait le suivant : " Les émetteurs ou les intermédiaires ne doivent pas utiliser les pouvoirs qu' ils ont reçus en raison des fonctions qu' ils exercent ou des mandats qu' ils détiennent à des fins autres que celles à raison desquelles ils leur ont été confiés .</text>
+            <annotationSet status="MANUAL" ID="18218">
+                <layer rank="1" name="FE">
+                    <label end="272" start="30" name="Action"/>
+                    <label end="198" start="139" name="State_of_Affairs"/>
+                    <label end="68" start="34" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="125" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17919">
+            <text>Les opérateurs nancéiens ont enregistré cette modernisation avec satisfaction , en raison de la meilleure marge d' intervention sur le marché qu' elle leur apportera .</text>
+            <annotationSet status="MANUAL" ID="18499">
+                <layer rank="1" name="FE">
+                    <label end="166" start="0" name="Action"/>
+                    <label end="164" start="93" name="State_of_Affairs"/>
+                    <label end="23" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20574">
+            <text>Ce dernier devrait décider une recapitalisation en raison de l' importance des pertes : 145 millions de francs en 1992 pour un montant de 200 millions de fonds propres .</text>
+            <annotationSet status="MANUAL" ID="20354">
+                <layer rank="1" name="FE">
+                    <label end="168" start="0" name="Action"/>
+                    <label end="166" start="61" name="State_of_Affairs"/>
+                    <label end="9" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20927">
+            <text>Ces désinvestissements font suite à une série de déboires financiers rencontrés sur le marché américain par la division pharmaceutique , qui a dû retirer de la vente deux médicaments en raison d' un litige avec les autorités américaines de la santé sur la méthode de fabrication de l' Opticrom ( anti- allergique pour les yeux ) et l' Imferon ( utilisé dans le traitement du cancer ) .</text>
+            <annotationSet status="MANUAL" ID="20509">
+                <layer rank="1" name="FE">
+                    <label end="382" start="137" name="Action"/>
+                    <label end="382" start="196" name="State_of_Affairs"/>
+                    <label end="139" start="137" name="Agent"/>
+                    <label end="382" start="108" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="183" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

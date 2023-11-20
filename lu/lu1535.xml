@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="chanter.v" ID="1535" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Message"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="7242"/>
+                <annoSet ID="23116"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="7242"/>
+                <annoSet ID="23116"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5013">
+            <text>AUTOMATISATION ET TRAVAIL de Christian Du Tertre et Giancardo Santilli PUF , collection " Economie en liberté " 176 pages , 118 F. LA DIVISION FAMILIALE DU TRAVAIL La vie en double , de Marie - Agnès Barrère - Maurisson PUF , 250 pages , 172 F. Notre science du travail est bien balbutiante , malgré cette épopée de la torture ( tripalium , l' instrument de torture , donna le mot travail ) chantée il y a plus d' un siècle par Karl Marx .</text>
+            <annotationSet status="MANUAL" ID="7242">
+                <layer rank="1" name="FE">
+                    <label end="389" start="300" name="Message"/>
+                    <label end="436" start="428" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="397" start="391" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19101">
+            <text>La bande - son de Patrick Roudier , ensuite , restera follement dramatique , on y entend passer des bribes de Janacek , de Chostakovitch , de Brahms , de Verdi , l' air " Tu che la vanità " de Don Carlos chanté par Maria Callas , plus loin le Trouvère .</text>
+            <annotationSet status="MANUAL" ID="23116">
+                <layer rank="1" name="FE">
+                    <label end="202" start="162" name="Message"/>
+                    <label end="226" start="215" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="209" start="204" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

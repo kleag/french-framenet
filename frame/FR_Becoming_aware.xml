@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Becoming_aware" ID="10086" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;Words in this frame have to do with a &lt;fen&gt;Cognizer&lt;/fen&gt; adding some &lt;fen&gt;Phenomenon&lt;/fen&gt; to their model of the world. They are similar to &lt;frframe&gt;Coming_to_believe&lt;/frframe&gt; words, except the latter generally involve reasoning from Evidence. Even though some Evidence may be present in context, this frame's LUs do not allow for it to be locally expressed. FR_Becoming_aware includes LUs that may subcategorize an entity-type object, and are thus ambiguous with the Perception_active or the Perception_experience frames, but it also includes LUs that only allow for a state_of_affairs  &lt;fen&gt;Phenomenon&lt;/fen&gt;.
+    &lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : slight modification of Becoming_aware : the Means FE is not considered as Core, neither is it annotated since no LU of this frame subcategorizes it. The difference with Coming_to_believe is explicitly the coreness of the Evidence role: Coming_to_believe's LUs all necessarily include some sort of evidence that the new belief is based on.
+
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames:&lt;/asf&gt;
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Cognizer_affecting.veracity&lt;/frframe&gt;: FR_Becoming_aware's LUs do not imply that the Cognizer's stance on the Content was based on anything, whereas Coming_to_believe's LUs imply that either a person or a situation initiated the Cognizer's stance.
+
+    &lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;Coming_to_believe&lt;/frframe&gt;: Evidence is only a core role for Coming_to_believe: FR_Becoming_aware's LUs do not imply that the Cognizer's stance on the Content was based on anything, whereas Coming_to_believe's do.
+
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:52 PST Wed" abbrev="Cog" name="Cognizer" ID="87">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; is the person who becomes aware of a &lt;fen&gt;Phenomenon&lt;/fen&gt;. It is normally expressed as an External Argument.
+
+&lt;ex&gt;&lt;fex name="Cog"&gt;Pat&lt;/fex&gt; &lt;t&gt;discovered&lt;/t&gt; he had already gone.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:52 PST Wed" abbrev="Phen" name="Phenomenon" ID="88">
+        <definition>&lt;def-root&gt;Thm &lt;fen&gt;Phenomenon&lt;/fen&gt; is the entity or situation in the world of which a &lt;fen&gt;Cognizer&lt;/fen&gt; becomes aware. 
+
+&lt;ex&gt;Pat &lt;t&gt;discovered&lt;/t&gt; &lt;fex name="Phenomenon"&gt;she had already left&lt;/fex&gt; in Soho.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:11:53 PST Wed" abbrev="Evid" name="Evidence" ID="91">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Evidence&lt;/fen&gt; is some fact that allows the &lt;fen&gt;Cognizer&lt;/fen&gt; to become aware of something.
+
+&lt;ex&gt;We &lt;t&gt;discovered&lt;/t&gt; &lt;fex name="Evidence"&gt;from their job performance&lt;/fex&gt; that they were well-trained.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="06/22/2001 08:17:59 PDT Fri" abbrev="Top" name="Topic" ID="963">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Topic&lt;/fen&gt; indicates the general field within which the &lt;fen&gt;Phenomenon&lt;/fen&gt; is found.
+
+&lt;ex&gt;Scientists attempt to make &lt;t&gt;discoveries&lt;/t&gt; &lt;fex name="Top"&gt;about the laws of nature&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+        <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="08/16/2005 02:39:34 PDT Tue" abbrev="ins" name="Instrument" ID="8876">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; uses an &lt;fen&gt;Instrument&lt;/fen&gt; to (enable themselves to) become aware of the &lt;fen&gt;Phenomenon&lt;/fen&gt;.  In some cases, the &lt;fen&gt;Instrument&lt;/fen&gt; may appear in subject position.
+
+&lt;ex&gt;Olson says the deputy came out to the farm and &lt;t&gt;detected&lt;/t&gt; a radioactive substance &lt;fex name="ins"&gt;with his Geiger counter&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Topic" ID="963"/>
+        <memberFE name="Phenomenon" ID="88"/>
+    </FEcoreSet>
+    <FEcoreSet>
+        <memberFE name="Instrument" ID="8876"/>
+        <memberFE name="Cognizer" ID="87"/>
+    </FEcoreSet>
+    <frameRelation type="Is Inchoative of">
+        <relatedFrame>FR_Awareness-Certainty-Opinion</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Coming_to_believe</relatedFrame>
+        <relatedFrame>FR_Cognizer_affecting.veracity</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Becoming_aware</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="comprendre.v" ID="103" nbocc="124" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="100369" annotatedsent="88"/>
+    </lexUnit>
+    <lexUnit POS="n" name="constat.n" ID="104" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100411" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1541" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="n" name="constatation.n" ID="2739" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100412" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1542" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="constater.v" ID="105" nbocc="79" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="50"/>
+        <otherlexUnit framename="Other_sense" ID="100413" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1543" annotatedsent="29"/>
+    </lexUnit>
+    <lexUnit POS="v" name="discerner.v" ID="2715" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="déceler.v" ID="106" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100642" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="découverte.n" ID="107" nbocc="19" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="100663" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="découvrir.v" ID="108" nbocc="41" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="38"/>
+        <otherlexUnit framename="Other_sense" ID="100664" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="détecter.v" ID="109" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100740" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="entrevoir.v" ID="111" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="100817" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="noter.v" ID="112" nbocc="78" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="27"/>
+        <otherlexUnit framename="Other_sense" ID="101274" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1579" annotatedsent="53"/>
+        <otherlexUnit framename="Text_creation" ID="2564" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="observer.v" ID="113" nbocc="96" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="68"/>
+        <otherlexUnit framename="Other_sense" ID="101293" annotatedsent="12"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1581" annotatedsent="13"/>
+    </lexUnit>
+    <lexUnit POS="n" name="perception.n" ID="114" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="830" annotatedsent="3"/>
+        <otherlexUnit framename="Other_sense" ID="101361" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Getting_money" ID="1126" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="percevoir.v" ID="115" nbocc="19" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="831" annotatedsent="7"/>
+        <otherlexUnit framename="Other_sense" ID="101362" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Getting_money" ID="1127" annotatedsent="12"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prendre conscience.v" ID="117" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="prise de conscience.n" ID="118" nbocc="6" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="101432" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="relever.v" ID="119" nbocc="112" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="Other_sense" ID="101586" annotatedsent="64"/>
+        <otherlexUnit framename="Convey_importance" ID="410" annotatedsent="22"/>
+    </lexUnit>
+    <lexUnit POS="v" name="remarquer.v" ID="120" nbocc="33" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="101589" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1598" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="repérer.v" ID="121" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101617" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="réaliser.v" ID="122" nbocc="200" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101653" annotatedsent="100"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'apercevoir.v" ID="123" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101699" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'aviser.v" ID="124" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101707" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se rendre compte.v" ID="125" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="101795" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="sentir.v" ID="126" nbocc="32" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="845" annotatedsent="19"/>
+        <otherlexUnit framename="Other_sense" ID="101812" annotatedsent="13"/>
+    </lexUnit>
+    <lexUnit POS="v" name="voir.v" ID="128" nbocc="383" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="861" annotatedsent="4"/>
+        <otherlexUnit framename="Other_sense" ID="101983" annotatedsent="160"/>
+    </lexUnit>
+</frame>

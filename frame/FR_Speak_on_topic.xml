@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Speak_on_topic" ID="10054" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; speaks about a particular &lt;fen&gt;Topic&lt;/fen&gt;, to an &lt;fen&gt;Addressee&lt;/fen&gt;.  
+&lt;ex&gt;&lt;/ex&gt;
+Verbs in this frame do not allow local realization of the full &lt;fen&gt;Message&lt;/fen&gt; itself (in particular a message in the form of a sentential complements is not possible). Nouns in this frame either refer to nominalizations referring to the act of talking about a topic, or refer to the &lt;fen&gt;Message&lt;/fen&gt;.
+&lt;ex&gt;FR-EX: La &lt;t&gt; déposition&lt;/t&gt;  de &lt;fex name="Speaker"&gt;Pierre&lt;/fex&gt; sur &lt;fex name="Topic"&gt;l'agression&lt;/fex&gt; a duré 3 heures.&lt;/ex&gt;
+&lt;ex&gt;FR-EX: &lt;fex name="Message"&gt;La &lt;t&gt;déposition&lt;/t&gt;  de Pierre&lt;/fex&gt; contient des erreurs.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+This frame differs from other communication frames in that the full &lt;fen&gt;Message&lt;/fen&gt; itself cannot be realized locally (except it is reffered to by some nouns of this frame).
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames&lt;/asf&gt;:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;FR_Statement-manner-noise&lt;/frframe&gt;: for FR_Speak_on_topic's LUs, the complement is not understood as the actual words (except if other signs such as quotes indicate it) but as a Topic, discussed possibly at length. The &lt;fen&gt;Message&lt;/fen&gt; cannot be realized locally (except for nominalizations). 
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : This frame is a generalization of the Speak_on_topic frame. The &lt;fen&gt;Message&lt;/fen&gt; FE is added, to cope with nominalizations that refer to the message pronounced by the &lt;fen&gt;Speaker&lt;/fen&gt; The  &lt;fen&gt;Audience&lt;/fen&gt; FE is renamed &lt;fen&gt;Addressee&lt;/fen&gt; and is not necessarily passive.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/23/2003 07:42:02 PST Thu" abbrev="" name="Addressee" ID="4134">
+        <definition>&lt;def-root&gt;The person or persons to whom the &lt;fen&gt;Speaker&lt;/fen&gt; delivers their message.
+
+&lt;ex&gt;He &lt;t&gt;lectured&lt;/t&gt; &lt;fex name="Audience"&gt;to the officers of the Scots Guard&lt;/fex&gt;  in  1929.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/23/2003 07:42:17 PST Thu" abbrev="" name="Speaker" ID="4135">
+        <definition>&lt;def-root&gt;The person who orally delivers a message about a &lt;fen&gt;Topic&lt;/fen&gt; to an &lt;fen&gt;Addressee&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Speaker"&gt;You&lt;/fex&gt; have to &lt;t&gt;sermonize&lt;/t&gt; about the good times&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="01/23/2003 07:47:29 PST Thu" abbrev="" name="Topic" ID="4136">
+        <definition>&lt;def-root&gt;What the message that the &lt;fen&gt;Speaker&lt;/fen&gt; produces is about.
+
+&lt;ex&gt;He was the Director: he could &lt;t&gt;lecture&lt;/t&gt; &lt;fex name="Topic"&gt;on whomever he liked&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/17/2001 03:05:17 PDT Tue" abbrev="" name="Medium" ID="4878">
+        <definition>&lt;def-root&gt;The written material that contains the message.
+&lt;ex&gt;FR-EX: &lt;fex name="Medium"&gt;Le document&lt;/fex&gt; évoque des malversations.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="8080FF" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/17/2001 03:05:17 PDT Tue" abbrev="" name="Message" ID="4879">
+        <definition>&lt;def-root&gt;The message expressed by the &lt;fen&gt;Speaker&lt;/fen&gt; 
+This FE is used for nominalizations refering to the message, or in case of parenthetical clauses.
+&lt;ex&gt; FR-ex: &lt;fex name="Speaker"&gt;Le premier ministre&lt;/fex&gt; a critiqué l'attentisme, dans &lt;fex name="Message"&gt;une &lt;t&gt;allusion&lt;/t&gt; transparente au parti travailliste&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt; FR-ex: &lt;fex name="Message"&gt;Les fermiers sont responsables de ce qu'il s'est passé&lt;/fex&gt;, a &lt;t&gt;commenté&lt;/t&gt;  &lt;fex name="Speaker"&gt;le commissaire central&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Medium" ID="4878"/>
+        <memberFE name="Speaker" ID="4135"/>
+    </FEcoreSet>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Speak_on_topic</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="aborder.v" ID="1461" nbocc="24" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="100003" annotatedsent="11"/>
+    </lexUnit>
+    <lexUnit POS="n" name="allocution.n" ID="1459" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100077" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="allusion.n" ID="1460" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="Other_sense" ID="100079" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="causer.v" ID="1462" nbocc="6" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100306" annotatedsent="0"/>
+        <otherlexUnit framename="Causation" ID="171" annotatedsent="6"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="927" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="commentaire.n" ID="1463" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="13"/>
+        <otherlexUnit framename="Other_sense" ID="100356" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="commenter.v" ID="1464" nbocc="29" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="26"/>
+        <otherlexUnit framename="Other_sense" ID="100357" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="communication.n" ID="1465" nbocc="81" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="FR_Telling" ID="2529" annotatedsent="3"/>
+        <otherlexUnit framename="Other_sense" ID="100362" annotatedsent="76"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="932" annotatedsent="10"/>
+    </lexUnit>
+    <lexUnit POS="v" name="communiquer.v" ID="1466" nbocc="14" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Telling" ID="2530" annotatedsent="9"/>
+        <otherlexUnit framename="Other_sense" ID="100363" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="933" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="conférence.n" ID="1467" nbocc="39" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="cours.n" ID="1468" nbocc="171" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="description.n" ID="2753" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="discourir.v" ID="1469" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100571" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="discours.n" ID="1470" nbocc="32" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="32"/>
+        <otherlexUnit framename="Other_sense" ID="100572" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="discussion.n" ID="1472" nbocc="62" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100573" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="939" annotatedsent="61"/>
+    </lexUnit>
+    <lexUnit POS="v" name="discuter.v" ID="1473" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100574" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="940" annotatedsent="38"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dissertation.n" ID="1474" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="disserter.v" ID="1475" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="divagation.n" ID="1476" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="divaguer.v" ID="1477" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="décrire.v" ID="2752" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="déposition.n" ID="1478" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100721" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="détailler.v" ID="1471" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="100738" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="explication.n" ID="1479" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Quarreling" ID="2242" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="100852" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1559" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Attributing_cause" ID="1133" annotatedsent="0"/>
+        <otherlexUnit framename="Explaining_the_facts" ID="688" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="expliquer.v" ID="1480" nbocc="213" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100853" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1560" annotatedsent="59"/>
+        <otherlexUnit framename="FR_Attributing_cause" ID="1134" annotatedsent="14"/>
+        <otherlexUnit framename="Explaining_the_facts" ID="689" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="v" name="exposer.v" ID="1481" nbocc="19" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="100857" annotatedsent="10"/>
+    </lexUnit>
+    <lexUnit POS="n" name="exposé.n" ID="1482" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="12"/>
+        <otherlexUnit framename="Other_sense" ID="100858" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="expression.n" ID="2776" nbocc="26" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100859" annotatedsent="22"/>
+        <otherlexUnit framename="FR_Encoding" ID="1093" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="harangue.n" ID="1483" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="haranguer.v" ID="1484" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100975" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="parler.v" ID="1486" nbocc="122" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="84"/>
+        <otherlexUnit framename="FR_Purpose" ID="2751" annotatedsent="2"/>
+        <otherlexUnit framename="Other_sense" ID="101340" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Chatting-Discussion" ID="953" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="philosopher.v" ID="1488" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="pontifier.v" ID="1489" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prendre la parole.v" ID="1490" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101419" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="propos.n" ID="1491" nbocc="44" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="41"/>
+        <otherlexUnit framename="Other_sense" ID="101465" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="présentation.n" ID="1494" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="présenter.v" ID="1495" nbocc="224" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="péroraison.n" ID="1496" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="pérorer.v" ID="1497" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="reparler.v" ID="1498" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101610" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'adresser.v" ID="1499" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="19"/>
+        <otherlexUnit framename="Other_sense" ID="101697" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'expliquer.v" ID="1500" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Quarreling" ID="2250" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="101717" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Justifying" ID="1207" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'exprimer.v" ID="1501" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101718" annotatedsent="5"/>
+        <otherlexUnit framename="FR_Expressing_side" ID="2711" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="témoignage.n" ID="1617" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="Other_sense" ID="101946" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="témoigner.v" ID="1618" nbocc="47" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101947" annotatedsent="3"/>
+        <otherlexUnit framename="Evidence" ID="602" annotatedsent="39"/>
+    </lexUnit>
+    <lexUnit POS="n" name="évocation.n" ID="1502" nbocc="4" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="102099" annotatedsent="0"/>
+        <otherlexUnit framename="Evoking" ID="615" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="évoquer.v" ID="1503" nbocc="65" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="58"/>
+        <otherlexUnit framename="Other_sense" ID="102100" annotatedsent="0"/>
+        <otherlexUnit framename="Adducing" ID="11" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="612" annotatedsent="0"/>
+        <otherlexUnit framename="Evoking" ID="616" annotatedsent="6"/>
+    </lexUnit>
+</frame>

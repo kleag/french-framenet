@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="sur l'injonction de.prep" ID="2730" frame="Response" frameID="1302" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core-Unexpressed" abbrev="res" name="Response"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="res_e" name="Responding_entity"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="tri" name="Trigger"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="age" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="stt" name="Sentient_trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="23000"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responding_entity"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Response"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Response"/>
+                <annoSet ID="23000"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Sentient_trigger"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Sentient_trigger"/>
+                <annoSet ID="23000"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Trigger"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="18934">
+            <text>Au lendemain du deuxième bombardement , la même réponse fut donnée sur l' injonction de Pierre Laval , chef du gouvernement de Vichy .</text>
+            <annotationSet status="MANUAL" ID="23000">
+                <layer rank="1" name="FE">
+                    <label end="131" start="88" name="Sentient_trigger"/>
+                    <label end="65" start="40" name="Response"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

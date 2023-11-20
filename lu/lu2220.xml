@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="de manière à.prep" ID="2220" frame="FR_Means_for_purpose" frameID="10049" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Goal"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="11918"/>
+                <annoSet ID="14401"/>
+                <annoSet ID="19090"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Means"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="11918"/>
+                <annoSet ID="14401"/>
+                <annoSet ID="19090"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8306">
+            <text>Déjà tous les quatre étoiles luxe - sauf le scribe - ont demandé à être déclassés en quatre étoiles de manière à bénéficier de l' abaissement du taux de TVA de 18 , 6 % à 5 , 5 % .</text>
+            <annotationSet status="MANUAL" ID="11918">
+                <layer rank="1" name="FE">
+                    <label end="177" start="113" name="Goal"/>
+                    <label end="98" start="67" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10252">
+            <text>Toutefois , nombre d' économistes chinois ont ces derniers temps prédit que les autorités s' efforceraient de le freiner quelque peu en 1993 de manière à ne pas se retrouver au pied du mur , dans la contrainte d' avoir à décréter une réelle campagne d' austérité à la suite des dérapages que l' expérience passée permet de prévoir .</text>
+            <annotationSet status="MANUAL" ID="14401">
+                <layer rank="1" name="FE">
+                    <label end="187" start="154" name="Goal"/>
+                    <label end="139" start="110" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="152" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14810">
+            <text>Elle nécessitera , bien entendu , une réorganisation profonde des unités concernées , de manière à préserver leur efficacité et leur continuité d' exploitation .</text>
+            <annotationSet status="MANUAL" ID="19090">
+                <layer rank="1" name="FE">
+                    <label end="158" start="99" name="Goal"/>
+                    <label end="82" start="34" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="expression.n" ID="1093" frame="FR_Encoding" frameID="10028" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD7C" type="Peripheral" abbrev="Formulation" name="Formulation"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="con" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="8799"/>
+                <annoSet ID="22510"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Content"/>
+                <annoSet ID="166"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Formulation"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="166"/>
+                <annoSet ID="8799"/>
+                <annoSet ID="22510"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="138">
+            <text>Et par le biais de l' activité théâtre , ils se sont intéressés à l' expression orale et à la mise en scène avec un intervenant , Julien Georges , maître de théâtre .</text>
+            <annotationSet status="MANUAL" ID="166">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Content"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5938">
+            <text>" j' entends que le débat se traduise par une concertation ouverte , dense et suffisamment longue pour permettre l' expression des points de vue et le recul nécessaire à la réflexion sur un sujet qui engage durablement l' avenir du secteur postal " , a déclaré le ministre .</text>
+            <annotationSet status="MANUAL" ID="8799">
+                <layer rank="1" name="FE">
+                    <label end="143" start="131" name="Content"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18380">
+            <text>Expression calligraphique de la joie , l' état d' apesanteur correspond pour cet amoureux du canoë et du camping à une manière dynamique de célébrer l' optimisme et la vitalité des temps modernes .</text>
+            <annotationSet status="MANUAL" ID="22510">
+                <layer rank="1" name="FE">
+                    <label end="35" start="29" name="Content"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

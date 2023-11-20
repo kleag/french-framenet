@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="soupçonner.v" ID="848" frame="FR_Awareness-Certainty-Opinion" frameID="10006" totalAnnotated="17" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="17">
+            <FE name="Cognizer"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="811"/>
+                <annoSet ID="3491"/>
+                <annoSet ID="3724"/>
+                <annoSet ID="5699"/>
+                <annoSet ID="6840"/>
+                <annoSet ID="23334"/>
+                <annoSet ID="23345"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="3055"/>
+                <annoSet ID="3540"/>
+                <annoSet ID="3569"/>
+                <annoSet ID="6206"/>
+                <annoSet ID="10320"/>
+                <annoSet ID="13991"/>
+                <annoSet ID="17715"/>
+                <annoSet ID="20193"/>
+                <annoSet ID="20731"/>
+                <annoSet ID="21183"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Content"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="811"/>
+                <annoSet ID="3055"/>
+                <annoSet ID="3491"/>
+                <annoSet ID="3540"/>
+                <annoSet ID="3569"/>
+                <annoSet ID="3724"/>
+                <annoSet ID="5699"/>
+                <annoSet ID="6206"/>
+                <annoSet ID="6840"/>
+                <annoSet ID="10320"/>
+                <annoSet ID="13991"/>
+                <annoSet ID="17715"/>
+                <annoSet ID="20193"/>
+                <annoSet ID="20731"/>
+                <annoSet ID="21183"/>
+                <annoSet ID="23334"/>
+                <annoSet ID="23345"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="683">
+            <text>Le traitement doit être arrêté si on observe ou si on soupçonne un saignement .</text>
+            <annotationSet status="MANUAL" ID="811">
+                <layer rank="1" name="FE">
+                    <label end="76" start="64" name="Content"/>
+                    <label end="52" start="51" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2358">
+            <text>- 25 mai 2000 : Les nouveaux juges d' instruction Jean-Paul Valat et Philippe Coirre mettent en examen quinze ex- élus ou ex- fonctionnaires du 3e arrondissement , soupçonnés d' avoir mobilisé des réseaux politiques , familiaux ou professionnels afin d' inscrire indûment sur les listes électorales des sympathisants politiques .</text>
+            <annotationSet status="MANUAL" ID="3055">
+                <layer rank="1" name="FE">
+                    <label end="326" start="103" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="173" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2668">
+            <text>- Eric Halphen soupçonne un système de commissions occultes au sein de l' office HLM des Hauts-de-Seine , présidé par Patrick Balkany et dirigé par Didier Schuller , qui seront tous deux mis en examen .</text>
+            <annotationSet status="MANUAL" ID="3491">
+                <layer rank="1" name="FE">
+                    <label end="199" start="25" name="Content"/>
+                    <label end="13" start="2" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2708">
+            <text>- 20 janvier 1994 : la Direction générale des impôts ( DGI ) transmet au parquet de Créteil une enquête sur une entreprise appartenant à Francis Poullain , soupçonné d' avoir réglé des fausses factures par l' intermédiaire de ses sociétés , lesquelles auraient bénéficié de marchés passés par l' OPAC ( Office public d' aménagement et de construction de la ville de Paris ) .</text>
+            <annotationSet status="MANUAL" ID="3540">
+                <layer rank="1" name="FE">
+                    <label end="372" start="137" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2739">
+            <text>- 29 septembre 1994 : Mise en examen et incarcération de Jean-Claude Méry , membre du comité exécutif du RPR et responsable de bureaux d' études soupçonné d' avoir bénéficié de fausses factures et d' avoir permis à Francis Poullain d' obtenir des marchés auprès des HLM des Hauts-de-Seine et HLM de Paris .</text>
+            <annotationSet status="MANUAL" ID="3569">
+                <layer rank="1" name="FE">
+                    <label end="303" start="57" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2850">
+            <text>La justice soupçonne que l' argent liquide ayant servi à régler les billets d' avion ( pour un montant de 336.210,00 EUR ) puisse provenir de versements en espèces des commissions occultes versées par les entreprises de BTP attributaires des marchés publics , ce qui serait un abus de biens sociaux .</text>
+            <annotationSet status="MANUAL" ID="3724">
+                <layer rank="1" name="FE">
+                    <label end="297" start="25" name="Content"/>
+                    <label end="9" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4092">
+            <text>( ... ) mais je soupçonne plutôt le gouvernement d' avoir la volonté d' étrangler la Cinq pour la remplacer par une chaîne à sa dévotion . "</text>
+            <annotationSet status="MANUAL" ID="5699">
+                <layer rank="1" name="FE">
+                    <label end="47" start="33" name="Content"/>
+                    <label end="135" start="52" name="Content"/>
+                    <label end="14" start="13" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4411">
+            <text>Difficile de soupçonner le PDG d' Avia de francophobie : à cinquante - huit ans , il fut l' un des promoteurs de la coopération engagée en 1967 avec Renault pour la fabrication des camions sous licence Saviem .</text>
+            <annotationSet status="MANUAL" ID="6206">
+                <layer rank="1" name="FE">
+                    <label end="37" start="24" name="Content"/>
+                    <label end="53" start="42" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4810">
+            <text>Les cinq prévenus étaient soupçonnés , selon un rapport de la Commission des opérations de bourse ( COB ) , d' avoir , au début de l' année 1986 , sciemment répandu dans le public des informations trompeuses sur la situation financière de la SGF pour faire artificiellement remonter le titre ( le Monde du 17 octobre 1990 ) .</text>
+            <annotationSet status="MANUAL" ID="6840">
+                <layer rank="1" name="FE">
+                    <label end="16" start="0" name="Content"/>
+                    <label end="290" start="111" name="Content"/>
+                    <label end="104" start="59" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6959">
+            <text>Soupçonnés de vouloir " briser par tous les moyens les reins de la politique agricole commune afin de s' arroger l' hégémonie du marché mondial " , les Américains sont la bête noire de la FNSEA , accusés , à juste titre , de vouloir supprimer les subventions européennes à l' exportation sans pour autant réduire les aides qu' ils octroient à leurs agriculteurs .</text>
+            <annotationSet status="MANUAL" ID="10320">
+                <layer rank="1" name="FE">
+                    <label end="144" start="14" name="Content"/>
+                    <label end="161" start="148" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9959">
+            <text>Bien qu' il prenne soin de justifier longuement cette approche analytique dans ses articles méthodologiques , il n' en est pas moins soupçonné d' allonger l' espérance de vie du capitalisme en laissant entrevoir la possibilité de pulsations récurrentes .</text>
+            <annotationSet status="MANUAL" ID="13991">
+                <layer rank="1" name="FE">
+                    <label end="111" start="110" name="Content"/>
+                    <label end="251" start="146" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13355">
+            <text>Réunion extraordinaire de la commission économique du Bundestag pour étudier le cas du ministre allemand de l' économie Juergen Moellemann , soupçonné d' avoir utilisé sa position pour promouvoir ses intérêts privés .</text>
+            <annotationSet status="MANUAL" ID="17715">
+                <layer rank="1" name="FE">
+                    <label end="214" start="87" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16016">
+            <text>Conjonction d' intérêts d' un PDG de Thomson SA , M. Gomez , soupçonné de ne s' être jamais intéressé à la vie de sa filiale de " produits blancs " ; d' un PDG de TEM , M. Lagarde , pressé de se débarrasser d' une maison - mère qui a bridé son développement ; d' un ministère des finances dans l' incapacité de tenir ses engagements financiers en faveur de la branche malade du groupe , Thomson consumer Electronics ( TCE ) .</text>
+            <annotationSet status="MANUAL" ID="20193">
+                <layer rank="1" name="FE">
+                    <label end="146" start="27" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16550">
+            <text>Soupçonné de vouloir monopoliser le pouvoir au profit du seul PC , de ne pas tenir ses promesses sur le démantèlement des structures de l' ancien régime , le premier ministre avait pris la parole quelques heures plus tôt devant les députés pour répondre à ses détracteurs .</text>
+            <annotationSet status="MANUAL" ID="20731">
+                <layer rank="1" name="FE">
+                    <label end="65" start="13" name="Content"/>
+                    <label end="151" start="70" name="Content"/>
+                    <label end="173" start="155" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17062">
+            <text>C' est aussi le cas lorsque leurs dirigeants sont soupçonnés de pratiques contestables , tel le délit d' initiés .</text>
+            <annotationSet status="MANUAL" ID="21183">
+                <layer rank="1" name="FE">
+                    <label end="43" start="28" name="Content"/>
+                    <label end="111" start="64" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19377">
+            <text>Il a légiféré par décrets , entretenu l' ambiguïté sur ses intentions dans le contexte des élections libres au moment où beaucoup le soupçonnaient de vouloir " confisquer la révolution " , multiplié les formulations vagues , et s' est montré incapable de rassurer ceux qui trouvaient que trop de dignitaires de l' ancien régime , encore là , risquaient de transformer " le Front de salut national en Front de salut de la nomenklatura " .</text>
+            <annotationSet status="MANUAL" ID="23334">
+                <layer rank="1" name="FE">
+                    <label end="131" start="130" name="Content"/>
+                    <label end="185" start="150" name="Content"/>
+                    <label end="128" start="121" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19383">
+            <text>Dimanche , c' était au tour d' Adevarul ( " la Vérité " , qui a remplacé l' ancien organe du parti Scinteia ) de demander sa démission sous la plume d' un " porte - parole des militaires " qui rappelle les liens de Mr Mazilu avec la Securitate et l' accuse d' avoir " encouragé vendredi par son opportunisme le chaos et l' anarchie " , tandis que Romania Libera réitérait ses attaques de la veille en soupçonnant le vice- président du CNSN d' avoir voulu renverser le numéro un , Mr Iliescu , et en publiant le communiqué d' associations de juristes qui le jugent tout bonnement coupable de " haute trahison " .</text>
+            <annotationSet status="MANUAL" ID="23345">
+                <layer rank="1" name="FE">
+                    <label end="438" start="413" name="Content"/>
+                    <label end="489" start="443" name="Content"/>
+                    <label end="360" start="347" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="411" start="401" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

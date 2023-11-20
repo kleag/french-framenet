@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="réticent.a" ID="2585" frame="Willingness" frameID="1632" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="act" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="7">
+            <FE name="Activity"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Activity"/>
+                <annoSet ID="18631"/>
+                <annoSet ID="19873"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Activity"/>
+                <annoSet ID="9232"/>
+                <annoSet ID="10587"/>
+                <annoSet ID="16694"/>
+                <annoSet ID="20085"/>
+                <annoSet ID="22154"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Cognizer"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="9232"/>
+                <annoSet ID="10587"/>
+                <annoSet ID="16694"/>
+                <annoSet ID="18631"/>
+                <annoSet ID="19873"/>
+                <annoSet ID="20085"/>
+                <annoSet ID="22154"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6203">
+            <text>La CFDT et la CFE - CGC paraissent les mieux disposées , FO comme la CFTC sont plus réticentes et la CGT reste résolument hostile .</text>
+            <annotationSet status="MANUAL" ID="9232">
+                <layer rank="1" name="FE">
+                    <label end="72" start="57" name="Cognizer"/>
+                    <label itype="DNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="93" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7176">
+            <text>L' Association des constructeurs européens d' automobiles ( ACEA ) est pour l' instant réticente : "</text>
+            <annotationSet status="MANUAL" ID="10587">
+                <layer rank="1" name="FE">
+                    <label end="65" start="0" name="Cognizer"/>
+                    <label itype="DNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="87" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12356">
+            <text>des autres comme M. Marcel Frydman ( seize parfumeries et deux instituts " discount " à Paris et dans la région ) sont réticents :</text>
+            <annotationSet status="MANUAL" ID="16694">
+                <layer rank="1" name="FE">
+                    <label end="112" start="0" name="Cognizer"/>
+                    <label itype="DNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="127" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14315">
+            <text>Les Etats membres réticents à toute discipline imposée au niveau européen peuvent donc bloquer les tentatives , même les plus modestes .</text>
+            <annotationSet status="MANUAL" ID="18631">
+                <layer rank="1" name="FE">
+                    <label end="16" start="0" name="Cognizer"/>
+                    <label end="72" start="30" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15685">
+            <text>Les employeurs sont réticents à confier aux femmes de telles responsabilités , au nom de leur manque de disponibilité .</text>
+            <annotationSet status="MANUAL" ID="19873">
+                <layer rank="1" name="FE">
+                    <label end="13" start="0" name="Cognizer"/>
+                    <label end="75" start="32" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15908">
+            <text>En fait , il s' agit d' emporter l' adhésion de la CFDT , plutôt réticente , mais l' enjeu dépasse le simple objet de la négociation .</text>
+            <annotationSet status="MANUAL" ID="20085">
+                <layer rank="1" name="FE">
+                    <label end="56" start="48" name="Cognizer"/>
+                    <label itype="DNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18128">
+            <text>Si d' aventure certains d' entre eux , emportés par l' enthousiasme de la tâche ( ou moins glorieusement par l' envie de damer le pion à tel ou tel partenaire plus réticent ) venaient à en douter , ils n' auraient , pour s' en convaincre , qu' à se reporter à l' expérience américaine .</text>
+            <annotationSet status="MANUAL" ID="22154">
+                <layer rank="1" name="FE">
+                    <label end="157" start="137" name="Cognizer"/>
+                    <label itype="DNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="171" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

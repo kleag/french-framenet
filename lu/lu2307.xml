@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="susciter.v" ID="2307" frame="FR_Reason" frameID="10083" totalAnnotated="37" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="37">
+            <FE name="Action"/>
+            <pattern total="37">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="3263"/>
+                <annoSet ID="3831"/>
+                <annoSet ID="3954"/>
+                <annoSet ID="4025"/>
+                <annoSet ID="4122"/>
+                <annoSet ID="4340"/>
+                <annoSet ID="4792"/>
+                <annoSet ID="5133"/>
+                <annoSet ID="8412"/>
+                <annoSet ID="8964"/>
+                <annoSet ID="9138"/>
+                <annoSet ID="9387"/>
+                <annoSet ID="9960"/>
+                <annoSet ID="9968"/>
+                <annoSet ID="12702"/>
+                <annoSet ID="13309"/>
+                <annoSet ID="13747"/>
+                <annoSet ID="13877"/>
+                <annoSet ID="14327"/>
+                <annoSet ID="14879"/>
+                <annoSet ID="16668"/>
+                <annoSet ID="17301"/>
+                <annoSet ID="18220"/>
+                <annoSet ID="19002"/>
+                <annoSet ID="19973"/>
+                <annoSet ID="20657"/>
+                <annoSet ID="21681"/>
+                <annoSet ID="21731"/>
+                <annoSet ID="21904"/>
+                <annoSet ID="22109"/>
+                <annoSet ID="22495"/>
+                <annoSet ID="22726"/>
+                <annoSet ID="23557"/>
+                <annoSet ID="23884"/>
+                <annoSet ID="24200"/>
+                <annoSet ID="24775"/>
+                <annoSet ID="24791"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Actor"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="3263"/>
+                <annoSet ID="3831"/>
+                <annoSet ID="4340"/>
+                <annoSet ID="5133"/>
+                <annoSet ID="21904"/>
+                <annoSet ID="24775"/>
+                <annoSet ID="24791"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="36">
+            <FE name="Agent"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="3263"/>
+                <annoSet ID="3954"/>
+                <annoSet ID="4025"/>
+                <annoSet ID="4792"/>
+                <annoSet ID="9138"/>
+                <annoSet ID="13309"/>
+                <annoSet ID="16668"/>
+                <annoSet ID="18220"/>
+                <annoSet ID="21904"/>
+                <annoSet ID="22109"/>
+                <annoSet ID="22495"/>
+                <annoSet ID="24775"/>
+            </pattern>
+            <pattern total="24">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="3831"/>
+                <annoSet ID="4122"/>
+                <annoSet ID="5133"/>
+                <annoSet ID="8412"/>
+                <annoSet ID="8964"/>
+                <annoSet ID="9387"/>
+                <annoSet ID="9960"/>
+                <annoSet ID="9968"/>
+                <annoSet ID="12702"/>
+                <annoSet ID="13747"/>
+                <annoSet ID="13877"/>
+                <annoSet ID="14327"/>
+                <annoSet ID="14879"/>
+                <annoSet ID="17301"/>
+                <annoSet ID="19002"/>
+                <annoSet ID="19973"/>
+                <annoSet ID="20657"/>
+                <annoSet ID="21681"/>
+                <annoSet ID="21731"/>
+                <annoSet ID="22726"/>
+                <annoSet ID="23557"/>
+                <annoSet ID="23884"/>
+                <annoSet ID="24200"/>
+                <annoSet ID="24791"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="30">
+            <FE name="State_of_Affairs"/>
+            <pattern total="30">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="3954"/>
+                <annoSet ID="4025"/>
+                <annoSet ID="4122"/>
+                <annoSet ID="4792"/>
+                <annoSet ID="8412"/>
+                <annoSet ID="8964"/>
+                <annoSet ID="9138"/>
+                <annoSet ID="9387"/>
+                <annoSet ID="9960"/>
+                <annoSet ID="9968"/>
+                <annoSet ID="12702"/>
+                <annoSet ID="13309"/>
+                <annoSet ID="13747"/>
+                <annoSet ID="13877"/>
+                <annoSet ID="14327"/>
+                <annoSet ID="14879"/>
+                <annoSet ID="16668"/>
+                <annoSet ID="17301"/>
+                <annoSet ID="18220"/>
+                <annoSet ID="19002"/>
+                <annoSet ID="19973"/>
+                <annoSet ID="20657"/>
+                <annoSet ID="21681"/>
+                <annoSet ID="21731"/>
+                <annoSet ID="22109"/>
+                <annoSet ID="22495"/>
+                <annoSet ID="22726"/>
+                <annoSet ID="23557"/>
+                <annoSet ID="23884"/>
+                <annoSet ID="24200"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2481">
+            <text>" Mis en place ( ... ) par mesure d' assurance " et " dans des conditions non rigoureuses " , écrivait Jean-François Briand , l' ancien directeur général de Thomson-CSF , ce réseau suscitait plus de doutes que de certitudes chez les dirigeants d' Elf .</text>
+            <annotationSet status="MANUAL" ID="3263">
+                <layer rank="1" name="FE">
+                    <label end="222" start="191" name="Action"/>
+                    <label end="179" start="171" name="Actor"/>
+                    <label end="249" start="229" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="189" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2952">
+            <text>Cette réponse " officielle " est bien compréhensible , les pouvoirs politiques préférant éviter de susciter de nouvelles vocations de preneurs d' otage .</text>
+            <annotationSet status="MANUAL" ID="3831">
+                <layer rank="1" name="FE">
+                    <label end="150" start="108" name="Action"/>
+                    <label end="77" start="55" name="Actor"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="99" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3066">
+            <text>L' affaire fut mise à jour en 1950 , mais ne suscita qu' un intérêt limité chez les parlementaires , jusqu' en 1952-1953 où l' on se rendit compte que le Viet Minh en profitait également , et qu' une partie des armes tournées contre les soldats français ( y compris tiralleurs sénégalais et marocains ) avaient donc été acquises grâce à ce trafic entretenu par l' avidité de certains .</text>
+            <annotationSet status="MANUAL" ID="3954">
+                <layer rank="1" name="FE">
+                    <label end="73" start="57" name="Action"/>
+                    <label end="9" start="0" name="State_of_Affairs"/>
+                    <label end="97" start="80" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3138">
+            <text>L' annonce de l' installation du poulailler géant suscite une vigoureuse protestation des syndicats d' exploitants agricoles , qui invoquent un risque de déséquilibre du marché européen .</text>
+            <annotationSet status="MANUAL" ID="4025">
+                <layer rank="1" name="FE">
+                    <label end="184" start="58" name="Action"/>
+                    <label end="48" start="0" name="State_of_Affairs"/>
+                    <label end="123" start="90" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3188">
+            <text>Les inquiétudes que suscite en France l' arrêt de la reprise économique dans les pays anglo - saxons auront été atténuées en fin d' année par les bonnes nouvelles du commerce extérieur .</text>
+            <annotationSet status="MANUAL" ID="4122">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Action"/>
+                    <label end="99" start="38" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3292">
+            <text>La Société des journalistes et les syndicats , réunis dans un comité de défense , s' activent auprès du CSA et des partenaires potentiels pour susciter des solutions de reprise .</text>
+            <annotationSet status="MANUAL" ID="4340">
+                <layer rank="1" name="FE">
+                    <label end="175" start="152" name="Action"/>
+                    <label end="78" start="0" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3563">
+            <text>Les exemples de Auto - Éco et , plus récemment , d' Ecosystème en France , ont donc largement suscité la réaction des concessionnaires , soutenus par les constructeurs .</text>
+            <annotationSet status="MANUAL" ID="4792">
+                <layer rank="1" name="FE">
+                    <label end="166" start="102" name="Action"/>
+                    <label end="71" start="0" name="State_of_Affairs"/>
+                    <label end="133" start="118" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3759">
+            <text>Ils tentent de susciter des solutions de reprise , qui pourraient faire appel à l' épargne publique , à la participation des salariés , et à des partenaires , étrangers ou non .</text>
+            <annotationSet status="MANUAL" ID="5133">
+                <layer rank="1" name="FE">
+                    <label end="174" start="24" name="Action"/>
+                    <label end="2" start="0" name="Actor"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5720">
+            <text>Le plus curieux , dans cette affaire , est que le glissement du dollar ne suscite aucune imprécation ni reproche .</text>
+            <annotationSet status="MANUAL" ID="8412">
+                <layer rank="1" name="FE">
+                    <label end="111" start="82" name="Action"/>
+                    <label end="69" start="47" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6043">
+            <text>" Si j' avais su les controverses que cette affaire allait susciter , déclarait récemment M. James Bell , président de la filiale américaine de Thomson , je n' aurais pas recommandé de chercher à tout prix à reprendre LTV . "</text>
+            <annotationSet status="MANUAL" ID="8964">
+                <layer rank="1" name="FE">
+                    <label end="57" start="17" name="Action"/>
+                    <label end="50" start="38" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6147">
+            <text>Ce texte reprend les grandes lignes d' un projet qu' Alain Denvers n' avait pas voulu divulguer avant que ne soit organisée la réunion , refus qui avait suscité en mai le vote d' une motion de défiance des journalistes d' Antenne 2 .</text>
+            <annotationSet status="MANUAL" ID="9138">
+                <layer rank="1" name="FE">
+                    <label end="230" start="168" name="Action"/>
+                    <label end="230" start="137" name="State_of_Affairs"/>
+                    <label end="145" start="143" name="State_of_Affairs"/>
+                    <label end="230" start="206" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="159" start="153" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6285">
+            <text>Lors de la rencontre à Munich des chefs d' état et de gouvernement des pays les plus riches , au début de la semaine prochaine , ce seront les discussions sur l' intégration de la Russie et des autres Etats de l' ex- Union soviétique et de l' Europe de l' Est dans les structures politiques et économiques occidentales qui susciteront le plus grand intérêt .</text>
+            <annotationSet status="MANUAL" ID="9387">
+                <layer rank="1" name="FE">
+                    <label end="355" start="335" name="Action"/>
+                    <label end="321" start="319" name="State_of_Affairs"/>
+                    <label end="355" start="139" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="333" start="323" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6684">
+            <text>La crise algérienne et la crainte des contagions qu' elle pourrait susciter ne feront sans doute que renforcer l' attention portée aux conséquences sociales des politiques économiques .</text>
+            <annotationSet status="MANUAL" ID="9960">
+                <layer rank="1" name="FE">
+                    <label end="74" start="23" name="Action"/>
+                    <label end="51" start="49" name="Action"/>
+                    <label end="74" start="0" name="State_of_Affairs"/>
+                    <label end="56" start="53" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6687">
+            <text>Sauf à susciter un soutien financier plus net des pays créanciers de l' Algérie - et notamment de la France , - cet événement tragique risque de rendre encore plus difficile la tâche du prochain gouvernement .</text>
+            <annotationSet status="MANUAL" ID="9968">
+                <layer rank="1" name="FE">
+                    <label end="110" start="16" name="Action"/>
+                    <label end="133" start="112" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8889">
+            <text>Vues de droite , ces déclarations ne suscitent pas de surprise .</text>
+            <annotationSet status="MANUAL" ID="12702">
+                <layer rank="1" name="FE">
+                    <label end="61" start="51" name="Action"/>
+                    <label end="32" start="17" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9397">
+            <text>Un bel effort , dont l' avenir dira s' il persuade les consommateurs , s' il suscite des imitateurs , le tout , naturellement , pour la plus grande gloire du ce monument : foie gras .</text>
+            <annotationSet status="MANUAL" ID="13309">
+                <layer rank="1" name="FE">
+                    <label end="98" start="85" name="Action"/>
+                    <label end="75" start="74" name="State_of_Affairs"/>
+                    <label end="12" start="0" name="State_of_Affairs"/>
+                    <label end="98" start="85" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9771">
+            <text>L' aide humanitaire à la Russie suscite aussi quelques critiques .</text>
+            <annotationSet status="MANUAL" ID="13747">
+                <layer rank="1" name="FE">
+                    <label end="63" start="46" name="Action"/>
+                    <label end="30" start="0" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9871">
+            <text>Les prix des produits et services achetés et vendus par les entreprises sont entraînés à la hausse de façon différente et imprévisible , notamment en raison des contrôles spécifiques que ces hausses suscitent .</text>
+            <annotationSet status="MANUAL" ID="13877">
+                <layer rank="1" name="FE">
+                    <label end="185" start="183" name="Action"/>
+                    <label end="207" start="161" name="Action"/>
+                    <label end="197" start="187" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="207" start="199" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10198">
+            <text>Il a pourtant fallu attendre la clôture définitive des comptes du CE , le 30 novembre , pour que ces pratiques suscitent de sérieuses réactions .</text>
+            <annotationSet status="MANUAL" ID="14327">
+                <layer rank="1" name="FE">
+                    <label end="142" start="121" name="Action"/>
+                    <label end="109" start="97" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10646">
+            <text>Et , pour ce qui est de l' écu , malgré les grandes difficultés actuelles de ce compartiment , qui souffre des dissensions sur la construction européenne , une transaction continue de susciter un intérêt particulier : celle du Trésor français , qui viendra à échéance en 2023 .</text>
+            <annotationSet status="MANUAL" ID="14879">
+                <layer rank="1" name="FE">
+                    <label end="214" start="193" name="Action"/>
+                    <label end="170" start="156" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="184" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12330">
+            <text>Il est un peu tôt pour connaître leur succès , mais , dans des pays comme la Grande - Bretagne , elles semblent susciter une frénésie d' achat chez des consommateurs qui se sont serré la ceinture depuis des mois .</text>
+            <annotationSet status="MANUAL" ID="16668">
+                <layer rank="1" name="FE">
+                    <label end="141" start="121" name="Action"/>
+                    <label end="101" start="97" name="State_of_Affairs"/>
+                    <label end="210" start="148" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12959">
+            <text>Enfin , il n' est pas du tout sûr qu' une réglementation du droit de grève dans les services publics des transports , réclamée par plusieurs leaders de l' opposition , susciterait un véritable tollé .</text>
+            <annotationSet status="MANUAL" ID="17301">
+                <layer rank="1" name="FE">
+                    <label end="197" start="180" name="Action"/>
+                    <label end="164" start="38" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13906">
+            <text>L' arrivée de Pierre Bérégovoy à Matignon ne suscita pas de réactions particulières du marché .</text>
+            <annotationSet status="MANUAL" ID="18220">
+                <layer rank="1" name="FE">
+                    <label end="92" start="57" name="Action"/>
+                    <label end="40" start="0" name="State_of_Affairs"/>
+                    <label end="92" start="87" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14699">
+            <text>Un tel dérapage suscite une grande inquiétude .</text>
+            <annotationSet status="MANUAL" ID="19002">
+                <layer rank="1" name="FE">
+                    <label end="44" start="24" name="Action"/>
+                    <label end="14" start="0" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15795">
+            <text>Cette proposition très médiatisée a suscité d' autres offres qui seront examinées avec celles de M. Jäggi .</text>
+            <annotationSet status="MANUAL" ID="19973">
+                <layer rank="1" name="FE">
+                    <label end="104" start="44" name="Action"/>
+                    <label end="32" start="0" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16456">
+            <text>Mais aucune promotion n' avait jamais suscité une telle ruée sur les journaux .</text>
+            <annotationSet status="MANUAL" ID="20657">
+                <layer rank="1" name="FE">
+                    <label end="76" start="46" name="Action"/>
+                    <label end="20" start="5" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17644">
+            <text>Ce projet vieux de six ans a suscité une telle opposition , de part et d' autre de la frontière ( Le Monde du 5 août 1985 et du 26 août 1986 ) , que les pouvoirs publics se livrent à une valse - hésitation .</text>
+            <annotationSet status="MANUAL" ID="21681">
+                <layer rank="1" name="FE">
+                    <label end="94" start="37" name="Action"/>
+                    <label end="25" start="0" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17688">
+            <text>Son organisation doit tenir compte des espoirs que suscite dans les Etats membres une future union économique et monétaire : dans les pays dotés d' une monnaie stable , l' espoir que la stabilité du pouvoir d' achat ne disparaisse pas avec l' union économique et monétaire ; dans les pays qui connaissent une dépréciation plus ou moins forte de leur monnaie , l' espoir que l' union économique et monétaire y mette un terme définitif .</text>
+            <annotationSet status="MANUAL" ID="21731">
+                <layer rank="1" name="FE">
+                    <label end="49" start="47" name="Action"/>
+                    <label end="45" start="35" name="Action"/>
+                    <label end="121" start="82" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17827">
+            <text>On aura pu le mesurer à l' enthousiasme suscité par l' oeuvre d' Inigo Jones auprès des commentateurs et des critiques anglais .</text>
+            <annotationSet status="MANUAL" ID="21904">
+                <layer rank="1" name="FE">
+                    <label end="38" start="24" name="Action"/>
+                    <label end="75" start="52" name="Actor"/>
+                    <label end="125" start="88" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18057">
+            <text>Car le plus remarquable dans l' odyssée des cargos maudits modernes n' est pas tant qu' ils errent longuement sur toutes les mers du monde , mais que cette errance suscite l' attention publique , ce qui est nouveau .</text>
+            <annotationSet status="MANUAL" ID="22109">
+                <layer rank="1" name="FE">
+                    <label end="192" start="172" name="Action"/>
+                    <label end="162" start="150" name="State_of_Affairs"/>
+                    <label end="192" start="185" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="170" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18369">
+            <text>Si l' initiative de Charles Pasqua et Philippe Séguin suscite un tel vacarme parmi les amis de Jacques Chirac , cela confirme tout simplement que le RPR ne s' est jamais débarrassé du syndrôme originel des " godillots " .</text>
+            <annotationSet status="MANUAL" ID="22495">
+                <layer rank="1" name="FE">
+                    <label end="75" start="62" name="Action"/>
+                    <label end="52" start="3" name="State_of_Affairs"/>
+                    <label end="108" start="83" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18608">
+            <text>De fait , c' est dans les pays baltes que la vague démocratique est - européenne a suscité le plus d' écho au sein de l' union soviétique .</text>
+            <annotationSet status="MANUAL" ID="22726">
+                <layer rank="1" name="FE">
+                    <label end="105" start="91" name="Action"/>
+                    <label end="79" start="42" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19777">
+            <text>Krister Navjord , le responsable administratif de la commune , en parle avec enthousiasme et s' amuse de l' étonnement que l' annonce de l' opération a suscité à Stockholm .</text>
+            <annotationSet status="MANUAL" ID="23557">
+                <layer rank="1" name="FE">
+                    <label end="121" start="119" name="Action"/>
+                    <label end="117" start="105" name="Action"/>
+                    <label end="148" start="123" name="State_of_Affairs"/>
+                    <label itype="ENI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20156">
+            <text>Ce chiffre que M. Bush a qualifié d' " insatisfaisant " a été publié au moment où le président américain , de retour d' un voyage de douze jours en Australie et en Asie , doit faire face à de nouvelles critiques suscitées par sa politique économique , récusée à présent par plus des deux tiers des personnes interrogées dans les sondages .</text>
+            <annotationSet status="MANUAL" ID="23884">
+                <layer rank="1" name="FE">
+                    <label end="210" start="189" name="Action"/>
+                    <label end="336" start="226" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="220" start="212" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20485">
+            <text>Il est vrai l' étendue des drames mais aussi les désillusions suscitées par l' évolution de l' Afrique subsaharienne peuvent inciter nombre d' Européens à se satisfaire d' un maintien du statu quo .</text>
+            <annotationSet status="MANUAL" ID="24200">
+                <layer rank="1" name="FE">
+                    <label end="60" start="45" name="Action"/>
+                    <label end="115" start="76" name="State_of_Affairs"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="70" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21385">
+            <text>" Une chose est de voir des caisses de pommes de terre et de fruits répandus sur le sol et une autre est de voir la capacité réelle des producteurs à écouler leurs produits " , a dit le premier ministre , suscitant une violente réaction de la part des organisations agricoles qui ont rejeté la responsabilité de cette situation sur le gouvernement , l' accusant de n' avoir rien fait pour aider les agriculteurs à mettre sur pied des réseaux de distribution ou des organismes susceptibles de concentrer l' offre de produits .</text>
+            <annotationSet status="MANUAL" ID="24775">
+                <layer rank="1" name="FE">
+                    <label end="235" start="215" name="Action"/>
+                    <label end="522" start="252" name="Agent"/>
+                    <label end="201" start="183" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="213" start="205" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21396">
+            <text>Mais divisés - ils sont représentés par trois organisations - et moins bien organisés que leurs collègues européens , ils ne parviennent pas à susciter des mouvements aussi amples - ou aussi violents - que ceux des paysans français .</text>
+            <annotationSet status="MANUAL" ID="24791">
+                <layer rank="1" name="FE">
+                    <label end="230" start="152" name="Action"/>
+                    <label end="120" start="118" name="Actor"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

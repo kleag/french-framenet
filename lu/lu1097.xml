@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="laisser entendre.v" ID="1097" frame="FR_Encoding" frameID="10028" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD7C" type="Peripheral" abbrev="Formulation" name="Formulation"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="con" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Content"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="7125"/>
+                <annoSet ID="8942"/>
+                <annoSet ID="19618"/>
+                <annoSet ID="20437"/>
+                <annoSet ID="23146"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Formulation"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="7125"/>
+                <annoSet ID="8942"/>
+                <annoSet ID="19618"/>
+                <annoSet ID="20437"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="23146"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4949">
+            <text>" Me Lafont , au cours d' un comité d' entreprise de la Cinq réuni dans la matinée du 15 janvier , avait laissé entendre qu' il espérait trouver un repreneur et qu' il ne souhaitait pas liquider la chaîne mais la mettre en redressement judiciaire , avec poursuite de l' activité par un repreneur , en limitant les licenciements .</text>
+            <annotationSet status="MANUAL" ID="7125">
+                <layer rank="1" name="FE">
+                    <label end="159" start="125" name="Content"/>
+                    <label end="326" start="165" name="Content"/>
+                    <label end="10" start="2" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6034">
+            <text>" Nous examinons depuis quelques jours d' autres options et nous avons été approchés par plusieurs firmes de défense dont Northrop " , indiquait il y a quelques jours M. Richard Keating , l' un des représentants de la firme à Washington , en laissant entendre que le groupe français serait contraint d' associer plus étroitement des firmes américaines à son projet pour " l' américaniser " et espérer ainsi obtenir l' aval du Congrès , de l' administration et de la Maison Blanche .</text>
+            <annotationSet status="MANUAL" ID="8942">
+                <layer rank="1" name="FE">
+                    <label end="479" start="264" name="Content"/>
+                    <label end="222" start="167" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="258" start="242" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15357">
+            <text>Il y a quelques semaines , Louis Gestner , nommé en mars à la tête de la compagnie , avait laissé entendre que la filialisation systématique , cheval de bataille de son prédécesseur , Jonh Akers , n' était pas forcément la panacée .</text>
+            <annotationSet status="MANUAL" ID="19618">
+                <layer rank="1" name="FE">
+                    <label end="229" start="111" name="Content"/>
+                    <label end="81" start="27" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="91" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16273">
+            <text>Il serait temps que la coopération franco- allemande s' approfondisse dans les semaines à venir , comme le laissait entendre la semaine dernière M. Michel Sapin , ministre de l' économie et des finances .</text>
+            <annotationSet status="MANUAL" ID="20437">
+                <layer rank="1" name="FE">
+                    <label end="94" start="0" name="Content"/>
+                    <label end="105" start="104" name="Content"/>
+                    <label end="201" start="145" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19160">
+            <text>C' est laisser entendre qu' il n' y aura plus " d' argument démographique " pour justifier un compromis territorial empêchant qu' Israël , dans ses frontières actuelles , ne devienne très vite un Etat binational , avec un nombre égal de Juifs et d' arabes .</text>
+            <annotationSet status="MANUAL" ID="23146">
+                <layer rank="1" name="FE">
+                    <label end="254" start="28" name="Content"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

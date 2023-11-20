@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="refus.n" ID="2425" frame="Respond_to_proposal" frameID="1623" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="int" name="Interlocutor"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="pro" name="Proposal"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Interlocutor"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Interlocutor"/>
+                <annoSet ID="3997"/>
+                <annoSet ID="14710"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Interlocutor"/>
+                <annoSet ID="3182"/>
+                <annoSet ID="10293"/>
+                <annoSet ID="15014"/>
+                <annoSet ID="15726"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Proposal"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposal"/>
+                <annoSet ID="14710"/>
+                <annoSet ID="15726"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Proposal"/>
+                <annoSet ID="3182"/>
+                <annoSet ID="3997"/>
+                <annoSet ID="10293"/>
+                <annoSet ID="15014"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3182"/>
+                <annoSet ID="10293"/>
+                <annoSet ID="14710"/>
+                <annoSet ID="15726"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="3997"/>
+                <annoSet ID="15014"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2419">
+            <text>Son refus brutal et assez méprisant sera sanctionné par une stagnation de sa carrière qu' il reprochera durablement à la maçonnerie , qu' il considérera désormais comme une association néfaste de lobbyistes fanatiques ou douteux .</text>
+            <annotationSet status="MANUAL" ID="3182">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Speaker"/>
+                    <label itype="UNI" name="Interlocutor"/>
+                    <label itype="ENI" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3124">
+            <text>Celui - ci s' élève à la fois contre " le nombre excessif de candidatures " présentées et le refus opposé à une vingtaine de militants par ailleurs adhérents du PS .</text>
+            <annotationSet status="MANUAL" ID="3997">
+                <layer rank="1" name="FE">
+                    <label end="162" start="108" name="Interlocutor"/>
+                    <label itype="ENI" name="Proposal"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6935">
+            <text>Un refus de la part des ministres concernés et des " eurocrates de Bruxelles " revient pour cette organisation - quel que soit son président - à " une stratégie de renoncement dans la finalité et d' abandon aux Etats - Unis du contrôle de l' arme alimentaire " .</text>
+            <annotationSet status="MANUAL" ID="10293">
+                <layer rank="1" name="FE">
+                    <label end="45" start="24" name="Speaker"/>
+                    <label end="77" start="51" name="Speaker"/>
+                    <label itype="DNI" name="Interlocutor"/>
+                    <label itype="ENI" name="Proposal"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10506">
+            <text>En annonçant son retrait du projet , British Airways ne fait , semble -t-il , qu' anticiper le refus formel des autorités américaines que laissait présager la rencontre entre le président américain , M. George Bush , et le premier ministre britannique , M. John Major , la semaine dernière .</text>
+            <annotationSet status="MANUAL" ID="14710">
+                <layer rank="1" name="FE">
+                    <label end="51" start="37" name="Interlocutor"/>
+                    <label end="33" start="28" name="Proposal"/>
+                    <label end="132" start="112" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10748">
+            <text>Ce refus de principe a été approuvé par Bruxelles .</text>
+            <annotationSet status="MANUAL" ID="15014">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Interlocutor"/>
+                    <label itype="DNI" name="Proposal"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11402">
+            <text>Cette politique et aussi le refus danois du traité de Maastricht ont provoqué , compte tenu de la différence des structures nationales , une dislocation du système monétaire européen à l' automne , avec la mise en flottement de la lire et de la livre , la dévaluation de la peseta et les attaques contre le franc .</text>
+            <annotationSet status="MANUAL" ID="15726">
+                <layer rank="1" name="FE">
+                    <label end="63" start="44" name="Proposal"/>
+                    <label end="39" start="34" name="Speaker"/>
+                    <label itype="UNI" name="Interlocutor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

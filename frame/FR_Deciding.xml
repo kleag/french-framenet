@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Deciding" ID="10017" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; acquires the opinion that a certain situation (the  &lt;fen&gt;Decision&lt;/fen&gt;) should or should not hold (depending on the LUs). The  &lt;fen&gt;Decision&lt;/fen&gt; can be an action that the &lt;fen&gt;Cognizer&lt;/fen&gt; will or will not perform or have performed by someone else. The &lt;fen&gt;Decision&lt;/fen&gt; may concern a &lt;fen&gt;Topic&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;/ex&gt;
+ Distinctions with other frames:
+
+&lt;ex&gt; ≠ &lt;frframe&gt;FR_Purpose&lt;/frframe&gt;: FR_Deciding's Cognizer is not necessarily the one supposed to perform the decided action, whereas with FR_Purpose, the Goal necessarily involves the Cognizer. In cases in which the Cognizer is the one who will perform the decided action: the FR_Deciding frame is inchoative of most triggers in the FR_Purpose frame: once a Deciding event has taken place, its Decision role becomes the Goal of FR_Purpose.&lt;/ex&gt;
+
+&lt;ex&gt; ≠ Choosing: the Choosing frame is evoked by LUs whose meaning includes the idea of a set of possibilities among which an option is selected. Further, the content of the decision is more restricted than a choice, which can be among a set of entities of any kind.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : derived from Deciding to which has been added a core role (Topic). The relation to the Choosing fndata-1.5 frame is removed, as in FR_Decision, the decision is not overtly among a set of options, further, the content of the decision is more restricted than a choice, which can be among a set of entities of any kind.
+
+&lt;ex&gt;&lt;/ex&gt;
+<!--TODO: annoter les sujets des actions-->
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="243" cDate="09/13/2002 02:54:40 PDT Fri" abbrev="Cog" name="Cognizer" ID="3716">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizer&lt;/fen&gt; decides on a course of action, be it for themselves or someone they have authority on.
+
+&lt;ex&gt;&lt;fex name="Cog"&gt;Mo&lt;/fex&gt; &lt;t&gt;decided&lt;/t&gt; to quit the program.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="243" cDate="09/13/2002 03:01:18 PDT Fri" abbrev="Dec" name="Decision" ID="3717">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Decision&lt;/fen&gt; identifies the entity or course of upon which the &lt;fen&gt;Cognizer&lt;/fen&gt; decides, be it for themselves or someone they have authority on.
+&lt;ex&gt;Mo &lt;t&gt;decided&lt;/t&gt; &lt;fex name="Dec"&gt;to quit the program&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;FR-EX: Il n'a pas été &lt;t&gt;décidé&lt;/t&gt; que  &lt;fex name="Dec"&gt;l'état d'urgence serait prolongé&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:52 PST Wed" abbrev="Top" name="Topic" ID="86"> 
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Topic&lt;/fen&gt; is the entity that a &lt;fen&gt;Cognizer&lt;/fen&gt; makes a decision about.
+        &lt;ex&gt;FR-EX: Il appartiendra ensuite au conseil de prendre une &lt;t&gt;décision&lt;/t&gt; définitive sur &lt;fex name="Top"&gt;la faisabilité du projet&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;FR-EX: Le conseil doit &lt;t&gt;décider&lt;/t&gt; si &lt;fex name="Top"&gt;le projet est faisable&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;FR-EX: Le conseil doit &lt;t&gt;décider&lt;/t&gt; de &lt;fex name="Top"&gt;la faisabilité du projet&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/17/2001 03:05:17 PDT Tue" abbrev="Text" name="Medium" ID="1520">
+        <definition>&lt;def-root&gt;The written or spoken material that contains the decision.
+ &lt;/def-root&gt;</definition>
+    </FE>
+
+    <FEcoreSet>
+        <memberFE name="Medium" ID="1520"/>
+        <memberFE name="Cognizer" ID="3716"/>
+    </FEcoreSet>
+
+    <frameRelation type="Is Inchoative of">
+        <relatedFrame>FR_Purpose</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Deciding</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="décider.v" ID="413" nbocc="210" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="182"/>
+        <otherlexUnit framename="Other_sense" ID="100645" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Cognizer_affecting.to_do" ID="1075" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2600" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="décision.n" ID="414" nbocc="203" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="104"/>
+        <otherlexUnit framename="Other_sense" ID="100647" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prendre le parti.v" ID="415" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101422" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="résolution.n" ID="416" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101685" annotatedsent="18"/>
+    </lexUnit>
+    <lexUnit POS="v" name="résoudre.v" ID="417" nbocc="43" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="102112" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se décider.v" ID="418" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101760" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="se résoudre.v" ID="419" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101801" annotatedsent="1"/>
+    </lexUnit>
+</frame>

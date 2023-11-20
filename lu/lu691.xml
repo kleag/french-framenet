@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="export.n" ID="691" frame="Exporting" frameID="1568" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Agt" name="Exporter"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Goods" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Goal" name="Importing_area"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Src" name="Exporting_area"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Exporter"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Exporter"/>
+                <annoSet ID="12526"/>
+                <annoSet ID="16227"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Exporter"/>
+                <annoSet ID="19918"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Exporting_area"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Exporting_area"/>
+                <annoSet ID="12526"/>
+                <annoSet ID="16227"/>
+                <annoSet ID="19918"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Goods"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="16227"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="12526"/>
+                <annoSet ID="19918"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Importing_area"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Importing_area"/>
+                <annoSet ID="16227"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Importing_area"/>
+                <annoSet ID="12526"/>
+                <annoSet ID="19918"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8773">
+            <text>Formé en 1939 à Liverpool par son père , Benco Rubin , Pentland comprend une trentaine de sociétés organisées en six divisions : l' import - export , les chausseurs ( Adidas , Pony ) , les vêtements de sport ( maillots Speedo ) , la papeterie , l' électroménager , le textile .</text>
+            <annotationSet status="MANUAL" ID="12526">
+                <layer rank="1" name="FE">
+                    <label end="62" start="55" name="Exporter"/>
+                    <label itype="UNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Importing_area"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="146" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11878">
+            <text>EXPORT Philip Morris va produire des cigarettes près de Saint - Pétersbourg .</text>
+            <annotationSet status="MANUAL" ID="16227">
+                <layer rank="1" name="FE">
+                    <label end="74" start="48" name="Importing_area"/>
+                    <label end="19" start="7" name="Exporter"/>
+                    <label end="46" start="33" name="Goods"/>
+                    <label itype="UNI" name="Exporting_area"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15740">
+            <text>Toutes les grandes catégories de cadres sont affectées , sauf quelques sous- groupes , l' approvisionnement - logistique , la direction commerciale , la direction export , les banques , la finance - trésorerie et les professions médico- socio- culturelles .</text>
+            <annotationSet status="MANUAL" ID="19918">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Exporting_area"/>
+                    <label itype="UNI" name="Importing_area"/>
+                    <label itype="UNI" name="Exporter"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="168" start="163" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

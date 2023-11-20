@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="reconnaissance.n" ID="2458" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Message"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="7166"/>
+                <annoSet ID="8545"/>
+                <annoSet ID="20887"/>
+                <annoSet ID="23470"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="7166"/>
+                <annoSet ID="20887"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="8545"/>
+                <annoSet ID="23470"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4972">
+            <text>" Elle se félicite cependant de l' introduction d' indicateurs régionaux de service et de la reconnaissance du " rôle social de la Poste " .</text>
+            <annotationSet status="MANUAL" ID="7166">
+                <layer rank="1" name="FE">
+                    <label end="137" start="111" name="Message"/>
+                    <label end="5" start="2" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5806">
+            <text>On pourrait aussi considérer que cette forme de rémunération supplémentaire , qui récompense le maintien dans un poste et qui est censée indiquer la reconnaissance d' un savoir - faire , intervient désormais , compte tenu des mutations technologiques , au mieux comme un frein à l' adaptation professionnelle , au pire comme un élément de blocage sur les situations acquises .</text>
+            <annotationSet status="MANUAL" ID="8545">
+                <layer rank="1" name="FE">
+                    <label end="183" start="167" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16720">
+            <text>Cette décision du gouvernement est une reconnaissance des efforts déjà faits par les collectivités locales et une incitation pour elles à continuer .</text>
+            <annotationSet status="MANUAL" ID="20887">
+                <layer rank="1" name="FE">
+                    <label end="105" start="58" name="Message"/>
+                    <label end="29" start="18" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19574">
+            <text>" comme un écho de la pensée - minute , de la pensée - slogan , écrit Jean - Marc Vernier ( 7 ) , ces jeux pour l' homme ordinaire obéissent à une logique similaire : le savoir - fragment sans référent , l' arôme du savoir et la reconnaissance de son image de marque .</text>
+            <annotationSet status="MANUAL" ID="23470">
+                <layer rank="1" name="FE">
+                    <label end="265" start="247" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="242" start="229" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

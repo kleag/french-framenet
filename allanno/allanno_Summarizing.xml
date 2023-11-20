@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="NA" name="All annotations of frame Summarizing" ID="Summarizing" frame="Summarizing" frameID="1722" totalAnnotated="28" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="com" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sta" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="sum" name="Summary"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Communicator"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="4343"/>
+                <annoSet ID="8840"/>
+                <annoSet ID="9086"/>
+                <annoSet ID="9902"/>
+                <annoSet ID="11286"/>
+                <annoSet ID="11545"/>
+                <annoSet ID="13066"/>
+                <annoSet ID="13452"/>
+                <annoSet ID="13485"/>
+                <annoSet ID="16104"/>
+                <annoSet ID="17025"/>
+                <annoSet ID="17579"/>
+                <annoSet ID="21154"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="10261"/>
+                <annoSet ID="18422"/>
+                <annoSet ID="20009"/>
+                <annoSet ID="17440"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Medium"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="3784"/>
+                <annoSet ID="887"/>
+                <annoSet ID="9086"/>
+                <annoSet ID="686"/>
+                <annoSet ID="688"/>
+                <annoSet ID="721"/>
+                <annoSet ID="757"/>
+                <annoSet ID="759"/>
+                <annoSet ID="1019"/>
+                <annoSet ID="1186"/>
+                <annoSet ID="3979"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="28">
+            <FE name="State_of_affairs"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="State_of_affairs"/>
+                <annoSet ID="3784"/>
+                <annoSet ID="887"/>
+                <annoSet ID="8493"/>
+                <annoSet ID="8840"/>
+                <annoSet ID="9086"/>
+                <annoSet ID="9902"/>
+                <annoSet ID="10261"/>
+                <annoSet ID="11286"/>
+                <annoSet ID="11545"/>
+                <annoSet ID="13485"/>
+                <annoSet ID="17025"/>
+                <annoSet ID="20009"/>
+                <annoSet ID="686"/>
+                <annoSet ID="688"/>
+                <annoSet ID="721"/>
+                <annoSet ID="759"/>
+                <annoSet ID="1019"/>
+                <annoSet ID="17440"/>
+            </pattern>
+            <pattern total="10">
+                <valenceUnit PT="null instantiation" FE="State_of_affairs"/>
+                <annoSet ID="4343"/>
+                <annoSet ID="13066"/>
+                <annoSet ID="13452"/>
+                <annoSet ID="16104"/>
+                <annoSet ID="17579"/>
+                <annoSet ID="18422"/>
+                <annoSet ID="21154"/>
+                <annoSet ID="757"/>
+                <annoSet ID="1186"/>
+                <annoSet ID="3979"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Summary"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Summary"/>
+                <annoSet ID="4343"/>
+                <annoSet ID="8493"/>
+                <annoSet ID="8840"/>
+                <annoSet ID="9902"/>
+                <annoSet ID="10261"/>
+                <annoSet ID="11286"/>
+                <annoSet ID="13066"/>
+                <annoSet ID="13452"/>
+                <annoSet ID="16104"/>
+                <annoSet ID="17025"/>
+                <annoSet ID="17579"/>
+                <annoSet ID="18422"/>
+                <annoSet ID="20009"/>
+                <annoSet ID="21154"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2900">
+            <text>Au printemps 2006 , le scandale éclate suite à la publication dans la presse italienne ( La Gazzetta dello Sport et Il Corriere della Sera ) de compte-rendus d' écoutes téléphoniques ordonnées par la justice deux ans plus tôt .</text>
+            <annotationSet status="MANUAL" ID="3784">
+                <layer rank="1" name="FE">
+                    <label end="224" start="144" name="Medium"/>
+                    <label end="224" start="161" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="799">
+            <text>Les réactions indésirables qui ont été rapportées à partir d' une importante expérience post-commercialisation et qui n' ont pas été mentionnées ci-dessus sont résumées par classes des systèmes d' organes dans le tableau 6 .</text>
+            <annotationSet status="MANUAL" ID="887">
+                <layer rank="1" name="FE">
+                    <label end="221" start="210" name="Medium"/>
+                    <label end="153" start="0" name="State_of_affairs"/>
+                    <label end="116" start="114" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="160" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3294">
+            <text>" on continue à bosser , la tête vide " , résume ce journaliste qui veut s' accrocher à toutes les chances de survie , " même s' il n' y en a que deux sur dix " .</text>
+            <annotationSet status="MANUAL" ID="4343">
+                <layer rank="1" name="FE">
+                    <label end="159" start="49" name="Communicator"/>
+                    <label end="38" start="0" name="Summary"/>
+                    <label end="159" start="119" name="Summary"/>
+                    <label itype="ENI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5769">
+            <text>S' il ne fallait qu' un mot pour résumer le 39 Festival international du film publicitaire qui s' est achevé samedi 27 juin à Cannes , ce serait : récupérations .</text>
+            <annotationSet status="MANUAL" ID="8493">
+                <layer rank="1" name="FE">
+                    <label end="131" start="41" name="State_of_affairs"/>
+                    <label end="26" start="21" name="Summary"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5968">
+            <text>Ce qu' un expert résume d' un commentaire lapidaire : " Améliorer les réacteurs existants et fermer les plus pourris .</text>
+            <annotationSet status="MANUAL" ID="8840">
+                <layer rank="1" name="FE">
+                    <label end="15" start="7" name="Communicator"/>
+                    <label end="5" start="3" name="State_of_affairs"/>
+                    <label end="50" start="27" name="Summary"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6113">
+            <text>M. Gérard Dantin , secrétaire national de la CFDT , qui dirige pour la première fois la délégation de son organisation , a résumé le reproche commun quand , dans une déclaration , le 1 juillet , il a fustigé l' attitude des entreprises qui " continuent à se décharger massivement sur la collectivité nationale en matière de gestion des effectifs " et qui ne veulent pas en supporter les conséquences .</text>
+            <annotationSet status="MANUAL" ID="9086">
+                <layer rank="1" name="FE">
+                    <label end="117" start="0" name="Communicator"/>
+                    <label end="176" start="162" name="Medium"/>
+                    <label end="147" start="130" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="128" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6644">
+            <text>Ce propos d' un agriculteur résume la grande force de cet organisme , ressenti comme une institution familiale - on adhère à la fédération nationale des syndicats d' exploitants agricoles ( FNSEA ) de père en fils , voire de grand - père en petit - fils , - et sa fragilité paradoxale .</text>
+            <annotationSet status="MANUAL" ID="9902">
+                <layer rank="1" name="FE">
+                    <label end="26" start="13" name="Communicator"/>
+                    <label end="283" start="35" name="State_of_affairs"/>
+                    <label end="26" start="0" name="Summary"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6905">
+            <text>Avant la création des syndicats , la condition paysanne se résumait en une formule : " Chacun pour soi et la misère pour presque tous . "</text>
+            <annotationSet status="MANUAL" ID="10261">
+                <layer rank="1" name="FE">
+                    <label end="54" start="34" name="State_of_affairs"/>
+                    <label end="81" start="71" name="Summary"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7798">
+            <text>En un mot , les Nigérians résument l' origine de tous leurs maux .</text>
+            <annotationSet status="MANUAL" ID="11286">
+                <layer rank="1" name="FE">
+                    <label end="24" start="12" name="Communicator"/>
+                    <label end="63" start="35" name="State_of_affairs"/>
+                    <label end="8" start="3" name="Summary"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8008">
+            <text>Ainsi résumé par le propriétaire d' un camping d' arrière - pays qui privilégie l' animation , l' un des paradoxes de l' emploi à Royan - comme dans nombre de stations balnéaires de la façade Atlantique , semble -t-il , - devient évident .</text>
+            <annotationSet status="MANUAL" ID="11545">
+                <layer rank="1" name="FE">
+                    <label end="91" start="17" name="Communicator"/>
+                    <label end="126" start="95" name="State_of_affairs"/>
+                    <label end="201" start="136" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9141">
+            <text>" Les produits indiens sont de mauvaise qualité , et quand ce n' est pas le cas , ils ne sont pas compétitifs " , résume brutalement l' économiste Freddy Mehta , responsable de plusieurs entreprises du groupe Tata .</text>
+            <annotationSet status="MANUAL" ID="13066">
+                <layer rank="1" name="FE">
+                    <label end="212" start="133" name="Communicator"/>
+                    <label end="112" start="0" name="Summary"/>
+                    <label itype="ENI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9522">
+            <text>Mais , à volta - redonda , l' enjeu est double : " Avec la CSN , on ne privatise pas seulement une entreprise mais une ville tout entière , et c' est la première fois dans l' histoire du pays qu' une cité est vendue aux enchères " , résume l' ancien président de la banque centrale , Carlos Langoni .</text>
+            <annotationSet status="MANUAL" ID="13452">
+                <layer rank="1" name="FE">
+                    <label end="297" start="240" name="Communicator"/>
+                    <label end="231" start="49" name="Summary"/>
+                    <label itype="ENI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="238" start="233" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9537">
+            <text>Jose Marcus , un des responsables des relations publiques , entré dans l' entreprise il y a vingt - cinq ans comme garçon de courses , résume le sentiment général en se félicitant de " la fin du paternalisme , des magouilles politiques , et de l' incompétence qui conduisaient l' entreprise à la ruine " .</text>
+            <annotationSet status="MANUAL" ID="13485">
+                <layer rank="1" name="FE">
+                    <label end="131" start="0" name="Communicator"/>
+                    <label end="161" start="142" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11741">
+            <text>Et l'on a vu débarquer des sociétés américaines qui auparavant ne travaillaient pas dans la région " , résume un homme d' affaires présent dans les Emirats .</text>
+            <annotationSet status="MANUAL" ID="16104">
+                <layer rank="1" name="FE">
+                    <label end="154" start="110" name="Communicator"/>
+                    <label end="99" start="0" name="Summary"/>
+                    <label itype="ENI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="108" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12670">
+            <text>Comme le résume un sondé , " toutes les entreprises ou presque veulent communiquer et faire parler d' elles .</text>
+            <annotationSet status="MANUAL" ID="17025">
+                <layer rank="1" name="FE">
+                    <label end="23" start="16" name="Communicator"/>
+                    <label end="7" start="6" name="State_of_affairs"/>
+                    <label end="106" start="29" name="Summary"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13199">
+            <text>Le directeur d' Alcara résume : " Intermarché commande trois millions de fèves .</text>
+            <annotationSet status="MANUAL" ID="17579">
+                <layer rank="1" name="FE">
+                    <label end="21" start="0" name="Communicator"/>
+                    <label end="77" start="34" name="Summary"/>
+                    <label itype="ENI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14093">
+            <text>Pour résumer , disons que l' offre potentielle d' emploi , émanant des managers du capital , est forcément amputée par la moindre disponibilité de celui - ci .</text>
+            <annotationSet status="MANUAL" ID="18422">
+                <layer rank="1" name="FE">
+                    <label end="156" start="26" name="Summary"/>
+                    <label itype="UNI" name="Communicator"/>
+                    <label itype="ENI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15828">
+            <text>Le résultat peut se résumer en deux chiffres .</text>
+            <annotationSet status="MANUAL" ID="20009">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="State_of_affairs"/>
+                    <label end="43" start="31" name="Summary"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17037">
+            <text>On s' occupe de l' entreprise depuis sa naissance jusqu' à sa mort " , résume Me Jean - Michel Lepretre , associé du cabinet Rambaud - Martel .</text>
+            <annotationSet status="MANUAL" ID="21154">
+                <layer rank="1" name="FE">
+                    <label end="140" start="78" name="Communicator"/>
+                    <label end="67" start="0" name="Summary"/>
+                    <label itype="ENI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="529">
+            <text>Résumé EPAR à l' intention du public</text>
+            <annotationSet status="MANUAL" ID="686">
+                <layer rank="1" name="FE">
+                    <label end="35" start="0" name="Medium"/>
+                    <label end="10" start="7" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="530">
+            <text>Ce document est un résumé du rapport européen public d' évaluation ( EPAR ) .</text>
+            <annotationSet status="MANUAL" ID="688">
+                <layer rank="1" name="FE">
+                    <label end="74" start="16" name="Medium"/>
+                    <label end="74" start="29" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="552">
+            <text>Pour plus d' informations , voir le résumé des caractéristiques du produit ( également inclus dans l' EPAR ) .</text>
+            <annotationSet status="MANUAL" ID="721">
+                <layer rank="1" name="FE">
+                    <label end="107" start="33" name="Medium"/>
+                    <label end="73" start="47" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="588">
+            <text>Dernière mise à jour du présent résumé :</text>
+            <annotationSet status="MANUAL" ID="757">
+                <layer rank="1" name="FE">
+                    <label end="37" start="24" name="Medium"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="607">
+            <text>RESUME DES CARACTERISTIQUES DU PRODUIT</text>
+            <annotationSet status="MANUAL" ID="759">
+                <layer rank="1" name="FE">
+                    <label end="37" start="0" name="Medium"/>
+                    <label end="37" start="11" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="931">
+            <text>Médicament soumis à prescription médicale restreinte ( voir Annexe I : Résumé des Caractéristiques du Produit , 4.2 ) .</text>
+            <annotationSet status="MANUAL" ID="1019">
+                <layer rank="1" name="FE">
+                    <label end="108" start="71" name="Medium"/>
+                    <label end="108" start="82" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1161">
+            <text>Dernière mise à jour du présent résumé : 09-2008 .</text>
+            <annotationSet status="MANUAL" ID="1186">
+                <layer rank="1" name="FE">
+                    <label end="37" start="24" name="Medium"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3095">
+            <text>- dernier résumé : l' " Affaire des piastres "</text>
+            <annotationSet status="MANUAL" ID="3979">
+                <layer rank="1" name="FE">
+                    <label end="45" start="0" name="Medium"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13070">
+            <text>La variété de ses contributions et les domaines et problèmes très divers qu' il a abordés , rendent difficile le résumé d' une oeuvre qui s' étend sur plus d' un demi - siècle .</text>
+            <annotationSet status="MANUAL" ID="17440">
+                <layer rank="1" name="FE">
+                    <label end="174" start="123" name="State_of_affairs"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="dans l'optique de.prep" ID="2216" frame="FR_Means_for_purpose" frameID="10049" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Goal"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="5595"/>
+                <annoSet ID="18052"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Means"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="5595"/>
+                <annoSet ID="18052"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4021">
+            <text>Quant aux opérateurs métropolitains , certains d' entre eux ne veulent pas " rater le train " de la diminution des taux longs , les gérants de portefeuilles de SICAV de trésorerie commençant à passer du monétaire ( court terme sans risque ) à l' obligataire : ajoutons que , dans l' optique d' un achèvement de l' Union monétaire européenne , l' acquisition d' emprunts français aux niveaux actuels , assez élevés , peut paraître judicieuse , l' alignement des rendements étant susceptible de s' effectuer par le bas .</text>
+            <annotationSet status="MANUAL" ID="5595">
+                <layer rank="1" name="FE">
+                    <label end="339" start="294" name="Goal"/>
+                    <label end="412" start="343" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="292" start="275" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13733">
+            <text>Ce mariage avait été effectué dans l' optique d' assurer au fabricant de puces franco - italien SGS - Thomson des ressources stables sur une longue durée .</text>
+            <annotationSet status="MANUAL" ID="18052">
+                <layer rank="1" name="FE">
+                    <label end="152" start="49" name="Goal"/>
+                    <label end="28" start="0" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

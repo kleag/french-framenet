@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="versement.n" ID="1149" frame="FR_Giving_money" frameID="10032" totalAnnotated="33" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Rec" name="Recipient"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="Rep" name="Repository"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="33">
+            <FE name="Giver"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Giver"/>
+                <annoSet ID="3650"/>
+                <annoSet ID="3694"/>
+                <annoSet ID="3727"/>
+                <annoSet ID="3840"/>
+                <annoSet ID="6219"/>
+                <annoSet ID="6221"/>
+                <annoSet ID="7284"/>
+                <annoSet ID="7289"/>
+                <annoSet ID="9101"/>
+                <annoSet ID="9423"/>
+                <annoSet ID="14364"/>
+                <annoSet ID="14613"/>
+                <annoSet ID="16803"/>
+                <annoSet ID="20547"/>
+                <annoSet ID="24768"/>
+            </pattern>
+            <pattern total="18">
+                <valenceUnit PT="null instantiation" FE="Giver"/>
+                <annoSet ID="354"/>
+                <annoSet ID="3352"/>
+                <annoSet ID="3386"/>
+                <annoSet ID="3446"/>
+                <annoSet ID="3842"/>
+                <annoSet ID="3849"/>
+                <annoSet ID="3867"/>
+                <annoSet ID="6232"/>
+                <annoSet ID="7543"/>
+                <annoSet ID="7548"/>
+                <annoSet ID="7551"/>
+                <annoSet ID="10130"/>
+                <annoSet ID="10308"/>
+                <annoSet ID="14539"/>
+                <annoSet ID="14859"/>
+                <annoSet ID="20549"/>
+                <annoSet ID="24072"/>
+                <annoSet ID="24154"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Goods"/>
+        </FERealization>
+        <FERealization total="33">
+            <FE name="Money"/>
+            <pattern total="30">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="354"/>
+                <annoSet ID="3352"/>
+                <annoSet ID="3386"/>
+                <annoSet ID="3446"/>
+                <annoSet ID="3650"/>
+                <annoSet ID="3694"/>
+                <annoSet ID="3727"/>
+                <annoSet ID="3842"/>
+                <annoSet ID="3849"/>
+                <annoSet ID="3867"/>
+                <annoSet ID="6219"/>
+                <annoSet ID="6221"/>
+                <annoSet ID="6232"/>
+                <annoSet ID="7284"/>
+                <annoSet ID="7289"/>
+                <annoSet ID="7543"/>
+                <annoSet ID="7548"/>
+                <annoSet ID="7551"/>
+                <annoSet ID="9101"/>
+                <annoSet ID="9423"/>
+                <annoSet ID="10130"/>
+                <annoSet ID="10308"/>
+                <annoSet ID="14364"/>
+                <annoSet ID="14539"/>
+                <annoSet ID="14613"/>
+                <annoSet ID="14859"/>
+                <annoSet ID="20547"/>
+                <annoSet ID="20549"/>
+                <annoSet ID="24154"/>
+                <annoSet ID="24768"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="3840"/>
+                <annoSet ID="16803"/>
+                <annoSet ID="24072"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="33">
+            <FE name="Recipient"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Recipient"/>
+                <annoSet ID="3386"/>
+                <annoSet ID="6219"/>
+                <annoSet ID="6232"/>
+                <annoSet ID="7284"/>
+                <annoSet ID="7289"/>
+                <annoSet ID="7543"/>
+                <annoSet ID="9423"/>
+                <annoSet ID="14364"/>
+                <annoSet ID="24154"/>
+            </pattern>
+            <pattern total="24">
+                <valenceUnit PT="null instantiation" FE="Recipient"/>
+                <annoSet ID="354"/>
+                <annoSet ID="3352"/>
+                <annoSet ID="3446"/>
+                <annoSet ID="3650"/>
+                <annoSet ID="3694"/>
+                <annoSet ID="3727"/>
+                <annoSet ID="3840"/>
+                <annoSet ID="3842"/>
+                <annoSet ID="3849"/>
+                <annoSet ID="3867"/>
+                <annoSet ID="6221"/>
+                <annoSet ID="7548"/>
+                <annoSet ID="7551"/>
+                <annoSet ID="9101"/>
+                <annoSet ID="10130"/>
+                <annoSet ID="10308"/>
+                <annoSet ID="14539"/>
+                <annoSet ID="14613"/>
+                <annoSet ID="14859"/>
+                <annoSet ID="16803"/>
+                <annoSet ID="20547"/>
+                <annoSet ID="20549"/>
+                <annoSet ID="24072"/>
+                <annoSet ID="24768"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Repository"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Repository"/>
+                <annoSet ID="3840"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="277">
+            <text>Et comme le plan de résorption des dettes prévoyait un autre versement de près de deux millions d' euros en juin prochain ...</text>
+            <annotationSet status="MANUAL" ID="354">
+                <layer rank="1" name="FE">
+                    <label end="103" start="74" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2521">
+            <text>- Le 24 juillet 2006 , l' ex- ministre socialiste de la défense Alain Richard a mis en cause François Mitterrand et son premier ministre Edouard Balladur entre 1993 et 1995 dans le versement de ces rétro- commissions .</text>
+            <annotationSet status="MANUAL" ID="3352">
+                <layer rank="1" name="FE">
+                    <label end="215" start="194" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="189" start="181" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2549">
+            <text>Ils n' ont cependant pas pu prouver le versement de rétro- commissions versées à des intermédiaires français .</text>
+            <annotationSet status="MANUAL" ID="3386">
+                <layer rank="1" name="FE">
+                    <label end="107" start="52" name="Money"/>
+                    <label end="107" start="81" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2581">
+            <text>Roland Dumas , ancien ministre des Affaires étrangères , et ancien proche de François Mitterrand , reconnaît alors avoir entendu parler du " versement d' une commission de 500 millions de dollars autorisée par le gouvernement français " et " d' un possible retour en France " des fonds ( Voir Affaire Dumas ) .</text>
+            <annotationSet status="MANUAL" ID="3446">
+                <layer rank="1" name="FE">
+                    <label end="233" start="154" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2798">
+            <text>- En l' absence de tout responsable politique , c' est l' ancien directeur général de l' Office public HLM de Paris et élu corrézien , Georges Pérol , qui fait figure de clé de voûte de ce vaste système de versements de commissions par les entreprises et de détournement de procédures dans l' attribution de marchés publics .</text>
+            <annotationSet status="MANUAL" ID="3650">
+                <layer rank="1" name="FE">
+                    <label end="230" start="220" name="Money"/>
+                    <label end="250" start="236" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="215" start="206" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2815">
+            <text>Le dirigeant de la Somatem , lui , avait confirmé , sur procès-verbal , que ce marché devait entraîner " le versement d' une commission d' entre 1 % et 5 % du montant du marché , dont le paiement devait s' effectuer à l' étranger " .</text>
+            <annotationSet status="MANUAL" ID="3694">
+                <layer rank="1" name="FE">
+                    <label end="228" start="121" name="Money"/>
+                    <label end="25" start="0" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2850">
+            <text>La justice soupçonne que l' argent liquide ayant servi à régler les billets d' avion ( pour un montant de 336.210,00 EUR ) puisse provenir de versements en espèces des commissions occultes versées par les entreprises de BTP attributaires des marchés publics , ce qui serait un abus de biens sociaux .</text>
+            <annotationSet status="MANUAL" ID="3727">
+                <layer rank="1" name="FE">
+                    <label end="256" start="168" name="Money"/>
+                    <label end="256" start="201" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="142" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2955">
+            <text>Selon cette note , publiée par Le Monde , le circuit est le suivant : des versements en provenance d' un compte suisse , dont l' homme d' affaires libanais Iskandar Safa est le titulaire , étaient faits sur deux comptes français .</text>
+            <annotationSet status="MANUAL" ID="3840">
+                <layer rank="1" name="FE">
+                    <label end="227" start="207" name="Repository"/>
+                    <label end="168" start="126" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2957">
+            <text>Sur l' année 2000 , les versements qui ont pu être retracés avoisineraient les 850 000 F !</text>
+            <annotationSet status="MANUAL" ID="3842">
+                <layer rank="1" name="FE">
+                    <label end="87" start="75" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2959">
+            <text>Il fait aujourd' hui l' objet d' un mandat d' arrêt international , et dans un entretien accordé au Monde , il confirme la position " officielle " selon laquelle il n' y aurait pas eu de versement de rançon .</text>
+            <annotationSet status="MANUAL" ID="3849">
+                <layer rank="1" name="FE">
+                    <label end="205" start="200" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="ENI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="195" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2968">
+            <text>Et si un juge décidait fouiller chez Clearstream ( ex- Cedel ) ou son concurrent Euroclear ... y retrouverait -on la trace du versement de cette rançon ?</text>
+            <annotationSet status="MANUAL" ID="3867">
+                <layer rank="1" name="FE">
+                    <label end="150" start="139" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="ENI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4417">
+            <text>Le décalage entre les dates auxquelles interviennent certaines dépenses ( le versement des retraites et des dotations aux hôpitaux , notamment ) et la collecte des cotisations auprès des employeurs explique l' irrégularité du profil de la trésorerie de la sécurité sociale .</text>
+            <annotationSet status="MANUAL" ID="6219">
+                <layer rank="1" name="FE">
+                    <label end="129" start="108" name="Money"/>
+                    <label end="129" start="122" name="Recipient"/>
+                    <label end="271" start="253" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4417">
+            <text>Le décalage entre les dates auxquelles interviennent certaines dépenses ( le versement des retraites et des dotations aux hôpitaux , notamment ) et la collecte des cotisations auprès des employeurs explique l' irrégularité du profil de la trésorerie de la sécurité sociale .</text>
+            <annotationSet status="MANUAL" ID="6221">
+                <layer rank="1" name="FE">
+                    <label end="99" start="91" name="Money"/>
+                    <label end="271" start="253" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4425">
+            <text>D' ores et déjà , les entreprises dont l' effectif se situe entre 50 et 400 salariés acquittent leurs cotisations le 5 du mois au lieu du 15 et le versement des dotations aux hôpitaux a été modifié .</text>
+            <annotationSet status="MANUAL" ID="6232">
+                <layer rank="1" name="FE">
+                    <label end="182" start="161" name="Money"/>
+                    <label end="182" start="175" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5055">
+            <text>Les choses se sont gâtées une première fois avec l' obligation de faire apparaître , sur le bulletin de paie , les versements patronaux ( Sécu , retraite complémentaire , chômage ) - ces cotisations étant donc bien du " salaire différé " .</text>
+            <annotationSet status="MANUAL" ID="7284">
+                <layer rank="1" name="FE">
+                    <label end="177" start="111" name="Money"/>
+                    <label end="177" start="138" name="Recipient"/>
+                    <label end="134" start="126" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5056">
+            <text>Ça obligeait à des calculs supplémentaires , car jusqu' ici ces chiffres n' apparaissaient nulle part , puisque les versements trimestriels à l' URSSAF comprenaient , indistinctes , les cotisations patronales et salariales .</text>
+            <annotationSet status="MANUAL" ID="7289">
+                <layer rank="1" name="FE">
+                    <label end="150" start="112" name="Money"/>
+                    <label end="150" start="142" name="Recipient"/>
+                    <label end="221" start="198" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5207">
+            <text>Cela vaudra notamment pour le calcul des versements à l' hectare au profit des producteurs de céréales et d' oléagineux , afin de compenser les fortes baisses de prix résultant de la PAC .</text>
+            <annotationSet status="MANUAL" ID="7543">
+                <layer rank="1" name="FE">
+                    <label end="118" start="41" name="Money"/>
+                    <label end="118" start="79" name="Recipient"/>
+                    <label itype="ENI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5210">
+            <text>Dans le cas des céréales , et conformément aux orientations souhaitées par les organisations professionnelles , les versements compensatoires seront établis en prenant en compte , pour un tiers , la référence à des rendements nationaux , et , pour deux tiers , le rendement observé dans des zones plus limitées .</text>
+            <annotationSet status="MANUAL" ID="7548">
+                <layer rank="1" name="FE">
+                    <label end="140" start="112" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="ENI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5212">
+            <text>Deuxième point de satisfaction pour M. Mermaz , étroitement lié au premier : M. Ray Mac Sharry , le commissaire européen chargé des affaires agricoles , a accepté , à titre provisoire , que la " carte de référence des rendements " ( utilisée pour le calcul des versements compensatoires ) , déjà appliquée aux oléagineux , soit maintenue .</text>
+            <annotationSet status="MANUAL" ID="7551">
+                <layer rank="1" name="FE">
+                    <label end="285" start="261" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="ENI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="270" start="261" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6119">
+            <text>Ainsi , l' instauration de délais de carence dans le versement d' allocations ou l' ajustement entre les durées de cotisations et d' indemnisation pourrait se révéler catastrophique si l'on se souvient , comme le note la CFTC , que 70 % des licenciés d' aujourd' hui ont cotisé à l' UNEDIC pendant moins de deux ans .</text>
+            <annotationSet status="MANUAL" ID="9101">
+                <layer rank="1" name="FE">
+                    <label end="76" start="66" name="Money"/>
+                    <label end="288" start="280" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6312">
+            <text>Le fonds monétaire international ( FMI ) a gelé son programme en faveur de la Côte - d' ivoire et cessé le versement de ses crédits , a -t-on appris vendredi 3 juillet de source diplomatique à Abidjan , citée par l' agence Reuter .</text>
+            <annotationSet status="MANUAL" ID="9423">
+                <layer rank="1" name="FE">
+                    <label end="130" start="120" name="Money"/>
+                    <label end="93" start="75" name="Recipient"/>
+                    <label end="122" start="120" name="Giver"/>
+                    <label end="39" start="0" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6804">
+            <text>A son actif , les plus grandes privatisations de l' ère Thatcher ( British Aerospace , British Telecom , British Gas , l' électricité ... ) , et le conseil des groupes britanniques les plus prestigieux comme Tate&amp;Lyle , Cadbury ou Smithkline , mais aussi une longue et fructueuse expérience du marché nippon , un grand savoir - faire en matière de finances " islamiques " ( qui excluent le versement d' intérêts ) , et de négoce de métaux , une adresse prestigieuse pour la gestion de fortunes et l' un des meilleurs services d' analyse sur les valeurs européennes de la place de Londres ...</text>
+            <annotationSet status="MANUAL" ID="10130">
+                <layer rank="1" name="FE">
+                    <label end="410" start="403" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="398" start="390" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6944">
+            <text>Ce versement correspond à peu près à la moitié des 80 % .</text>
+            <annotationSet status="MANUAL" ID="10308">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10219">
+            <text>A la CGT , on rétorque que le passif du comité d' établissement - y compris le non- versement des cotisations sociales - est " le résultat des suppressions massives d' effectifs " intervenues à l' usine de Billancourt .</text>
+            <annotationSet status="MANUAL" ID="14364">
+                <layer rank="1" name="FE">
+                    <label end="117" start="98" name="Money"/>
+                    <label end="117" start="110" name="Recipient"/>
+                    <label end="62" start="40" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="84" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10365">
+            <text>La collecte des plans d' épargne en actions ( PEA ) à fin novembre , soit dix semaines après leur création , est estimée à 36 milliards de francs , dont 9 milliards de versements en espèces , selon le dernier bulletin mensuel de la banque de France publié mardi 22 décembre .</text>
+            <annotationSet status="MANUAL" ID="14539">
+                <layer rank="1" name="FE">
+                    <label end="163" start="153" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="177" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10418">
+            <text>Les derniers comptes de la sécurité sociale prévoyaient pour cette période un déficit de trésorerie de quelque 40 milliards de francs pendant quelques jours , en raison du décalage entre le versement des prestations et les rentrées de cotisations .</text>
+            <annotationSet status="MANUAL" ID="14613">
+                <layer rank="1" name="FE">
+                    <label end="214" start="204" name="Money"/>
+                    <label end="42" start="24" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="190" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10631">
+            <text>Mais seuls 9 milliards proviennent de versement en espèces , les 27 milliards restants étant des transferts de portefeuilles .</text>
+            <annotationSet status="MANUAL" ID="14859">
+                <layer rank="1" name="FE">
+                    <label end="21" start="5" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12468">
+            <text>Déjà , le 20 décembre ( le Monde du 22 décembre ) , ils avaient obtenu de M. Pierre Bérégovoy l' équivalent de 3 , 3 milliards de francs , entre l' exonération pour 1993 de leurs versements au titre des préretraites et la bonification de leurs emprunts .</text>
+            <annotationSet status="MANUAL" ID="16803">
+                <layer rank="1" name="FE">
+                    <label end="177" start="173" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="188" start="179" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16367">
+            <text>Voici quelques semaines , l' union départementale CFDT s' était émue du retard de versement de cotisations patronales , pour un total de 12 millions de francs , dus au titre de dossiers ouvrant droit au versement de l' allocation de base .</text>
+            <annotationSet status="MANUAL" ID="20547">
+                <layer rank="1" name="FE">
+                    <label end="116" start="95" name="Money"/>
+                    <label end="116" start="107" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16367">
+            <text>Voici quelques semaines , l' union départementale CFDT s' était émue du retard de versement de cotisations patronales , pour un total de 12 millions de francs , dus au titre de dossiers ouvrant droit au versement de l' allocation de base .</text>
+            <annotationSet status="MANUAL" ID="20549">
+                <layer rank="1" name="FE">
+                    <label end="236" start="216" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="211" start="203" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20348">
+            <text>Les versements devront être effectués dans les trois ans qui suivront la constitution de la société et ne pourront dépasser pendant la période 40 000 francs pour les personnes seules et 80 000 francs pour les contribuables mariés .</text>
+            <annotationSet status="MANUAL" ID="24072">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20445">
+            <text>( 1 ) Entre 1983 et 1989 , la part des Etats européens dans les versements d' aide publique au développement à l' Afrique subsaharienne est passée de 30 % à 56 % ( calculs à partir des statistiques de l' OCDE ) .</text>
+            <annotationSet status="MANUAL" ID="24154">
+                <layer rank="1" name="FE">
+                    <label end="107" start="78" name="Money"/>
+                    <label end="134" start="111" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21376">
+            <text>Déjà , entre le début de 1986 et la fin du premier semestre 1992 , les versements des différents fonds communautaires ont atteint 348 milliards d' escudos ( environ 12 , 2 milliards de francs ) , auxquels se sont ajoutés 125 milliards d' escudos d' investissements locaux .</text>
+            <annotationSet status="MANUAL" ID="24768">
+                <layer rank="1" name="FE">
+                    <label end="116" start="67" name="Money"/>
+                    <label end="116" start="86" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

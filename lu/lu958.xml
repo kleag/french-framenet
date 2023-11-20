@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="tractation.n" ID="958" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Interlocutor_1"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutor_1"/>
+                <annoSet ID="7071"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Interlocutor_2"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Interlocutor_2"/>
+                <annoSet ID="7071"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Interlocutors"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="18610"/>
+                <annoSet ID="24147"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Topic"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="18610"/>
+                <annoSet ID="18623"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4933">
+            <text>Au cours des tractations précédentes , les Européens ont accepté de les ramener à 45 % , et même indiqué qu' ils pourraient descendre au - dessous de ce plafond .</text>
+            <annotationSet status="MANUAL" ID="7071">
+                <layer rank="1" name="FE">
+                    <label end="51" start="39" name="Interlocutor_1"/>
+                    <label itype="ENI" name="Interlocutor_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14294">
+            <text>Après trois ans de tractations , les ministres des affaires sociales des les Douze se sont mis d' accord , mardi 1er juin , sur une directive fixant à quarante - huit heures la durée hebdomadaire maximale du travail ainsi que des normes relatives aux périodes de repos .</text>
+            <annotationSet status="MANUAL" ID="18610">
+                <layer rank="1" name="FE">
+                    <label end="267" start="128" name="Topic"/>
+                    <label end="81" start="33" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14308">
+            <text>Les ultimes tractations , mardi , ont d' ailleurs porté sur le niveau des accords collectifs ( national , régional , niveau de l' entreprise ) auquel ces dérogations pourraient être décidées .</text>
+            <annotationSet status="MANUAL" ID="18623">
+                <layer rank="1" name="FE">
+                    <label end="189" start="60" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17857">
+            <text>Safari World est l' aboutissement de deux années de tractations .</text>
+            <annotationSet status="MANUAL" ID="21929">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20441">
+            <text>C' est pourquoi une démocratie réelle , concernant la totalité de la population et ne se réduisant pas aux tractations politiques des classes dirigeantes , constitue le préalable essentiel à la survie économique de l' Afrique .</text>
+            <annotationSet status="MANUAL" ID="24147">
+                <layer rank="1" name="FE">
+                    <label end="152" start="134" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

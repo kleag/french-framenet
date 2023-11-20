@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="déduire.v" ID="282" frame="Coming_to_believe" frameID="23" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Mns" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="7950"/>
+                <annoSet ID="12176"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="15357"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="7950"/>
+                <annoSet ID="12176"/>
+                <annoSet ID="15357"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Evidence"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Evidence"/>
+                <annoSet ID="7950"/>
+                <annoSet ID="12176"/>
+                <annoSet ID="15357"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Means"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5468">
+            <text>Partant d' un constat - " la croissance française ne créera pas suffisamment d' emplois " - , ils en déduisent que , " pour inverser cette tendance , il faut (...) une action solidaire de toute la société " , l' emploi étant " l' affaire de tous " .</text>
+            <annotationSet status="MANUAL" ID="7950">
+                <layer rank="1" name="FE">
+                    <label end="246" start="115" name="Content"/>
+                    <label end="96" start="94" name="Cognizer"/>
+                    <label end="99" start="98" name="Evidence"/>
+                    <label end="90" start="11" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8547">
+            <text>- soit personne ne se présente et vous en déduisez , à tort , que l' individualisme gagne ;</text>
+            <annotationSet status="MANUAL" ID="12176">
+                <layer rank="1" name="FE">
+                    <label end="88" start="66" name="Content"/>
+                    <label end="37" start="34" name="Cognizer"/>
+                    <label end="40" start="39" name="Evidence"/>
+                    <label end="90" start="7" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11100">
+            <text>faut -il en déduire pour autant que la France est en train de basculer dans la déflation ?</text>
+            <annotationSet status="MANUAL" ID="15357">
+                <layer rank="1" name="FE">
+                    <label end="87" start="36" name="Content"/>
+                    <label end="10" start="9" name="Evidence"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

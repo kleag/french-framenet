@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Proving" ID="10048" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;An &lt;fen&gt;Persuader&lt;/fen&gt; succeeds to establish the veracity of a &lt;fen&gt;Content&lt;/fen&gt;, and to convince a potential &lt;fen&gt;Addressee&lt;/fen&gt;. The proof is either verbal or performed through some action.
+    &lt;ex&gt;Jan &lt;t&gt;proved&lt;/t&gt; &lt;fex name="Content"&gt; that the evidence was inadmissable&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Results from the splitting of Reasoning into two frames, FR_Proving and  &lt;frframe&gt;FR_Attempt_suasion.content&lt;/frframe&gt;, based on whether the Content has effectively been shown to be true by the Persuader. Further, in FR_Proving, the proving is not necessarily verbal. The Support FE is not included, because it is not subcategorized by any of the LUs in this frame and can thus be recovered compositionnally.
+    &lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:57:45 PDT Tue" abbrev="Cont" name="Content" ID="2635">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; wants the &lt;fen&gt;Addressee&lt;/fen&gt; to entertain the &lt;fen&gt;Content&lt;/fen&gt;, which can be a proposition to be believed.&lt;ex&gt;Jan &lt;t&gt;proved&lt;/t&gt; &lt;fex name="Content"&gt;that the evidence was inadmissable&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:57:47 PDT Tue" abbrev="Medium" name="Medium" ID="2636">
+        <definition>&lt;def-root&gt;This FE identifies the physical entity in which the proof is conveyed.&lt;ex&gt;&lt;fex name="Medium"&gt;The report&lt;/fex&gt; &lt;t&gt;proves&lt;/t&gt;  that the evidence was inadmissable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:57:49 PDT Tue" abbrev="Persuader" name="Persuader" ID="2637">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; presents the &lt;fen&gt;Content&lt;/fen&gt; before the &lt;fen&gt;Addressee&lt;/fen&gt;.&lt;ex&gt;&lt;fex name="Persuader"&gt;Jan&lt;/fex&gt; &lt;t&gt;proved&lt;/t&gt; that the evidence was inadmissable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="04/16/2002 12:58:03 PDT Tue" abbrev="Add" name="Addressee" ID="2638">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Addressee&lt;/fen&gt; is the entity before whom the &lt;fen&gt;Persuader&lt;/fen&gt; presents a &lt;fen&gt;Content&lt;/fen&gt;. &lt;ex&gt;Jan &lt;t&gt;proved&lt;/t&gt; &lt;fex name="Addressee"&gt;to the court&lt;/fex&gt; that the evidence was inadmissable.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+
+<!--    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="04/16/2002 12:59:13 PDT Tue" abbrev="Support" name="Support" ID="2639">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Support&lt;/fen&gt; lends epistemic support to the proof of the &lt;fen&gt;Content&lt;/fen&gt;
+&lt;ex&gt;FR-EX: Par &lt;fex name="Support"&gt;quelles initiatives nouvelles&lt;/fex&gt; le couple franco- allemand va  &lt;t&gt;démontrer&lt;/t&gt; son efficacité? (EN:Through which initiatives will the franco-german couple prove his efficiency?) &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+-->
+    <frameRelation type="Relation to FN1.5: Is Split of">
+        <relatedFrame>Reasoning</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="démonstration.n" ID="1394" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="démontrer.v" ID="1395" nbocc="41" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="28"/>
+        <otherlexUnit framename="Other_sense" ID="100696" annotatedsent="3"/>
+        <otherlexUnit framename="Evidence" ID="553" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="v" name="faire preuve.v" ID="2705" nbocc="14" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="102126" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="v" name="montrer.v" ID="1396" nbocc="133" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="20"/>
+        <otherlexUnit framename="Other_sense" ID="101236" annotatedsent="26"/>
+        <otherlexUnit framename="Evidence" ID="578" annotatedsent="45"/>
+    </lexUnit>
+    <lexUnit POS="n" name="preuve.n" ID="1397" nbocc="32" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101430" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="586" annotatedsent="15"/>
+    </lexUnit>
+    <lexUnit POS="v" name="prouver.v" ID="1398" nbocc="30" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="16"/>
+        <otherlexUnit framename="Other_sense" ID="101475" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="587" annotatedsent="14"/>
+    </lexUnit>
+</frame>

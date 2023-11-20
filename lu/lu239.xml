@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="pourquoi.n" ID="239" frame="Causation" frameID="5" totalAnnotated="37" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="36">
+            <FE name="Cause"/>
+            <pattern total="36">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="19"/>
+                <annoSet ID="746"/>
+                <annoSet ID="1172"/>
+                <annoSet ID="1578"/>
+                <annoSet ID="1658"/>
+                <annoSet ID="1741"/>
+                <annoSet ID="2525"/>
+                <annoSet ID="2529"/>
+                <annoSet ID="2690"/>
+                <annoSet ID="4284"/>
+                <annoSet ID="4699"/>
+                <annoSet ID="4829"/>
+                <annoSet ID="6587"/>
+                <annoSet ID="6748"/>
+                <annoSet ID="7900"/>
+                <annoSet ID="8594"/>
+                <annoSet ID="8687"/>
+                <annoSet ID="8766"/>
+                <annoSet ID="9741"/>
+                <annoSet ID="10051"/>
+                <annoSet ID="11002"/>
+                <annoSet ID="11073"/>
+                <annoSet ID="11075"/>
+                <annoSet ID="11077"/>
+                <annoSet ID="11092"/>
+                <annoSet ID="11850"/>
+                <annoSet ID="12639"/>
+                <annoSet ID="14591"/>
+                <annoSet ID="14627"/>
+                <annoSet ID="16657"/>
+                <annoSet ID="17632"/>
+                <annoSet ID="17965"/>
+                <annoSet ID="18469"/>
+                <annoSet ID="18735"/>
+                <annoSet ID="23520"/>
+                <annoSet ID="23521"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="37">
+            <FE name="Effect"/>
+            <pattern total="37">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="19"/>
+                <annoSet ID="746"/>
+                <annoSet ID="1172"/>
+                <annoSet ID="1578"/>
+                <annoSet ID="1658"/>
+                <annoSet ID="1741"/>
+                <annoSet ID="2525"/>
+                <annoSet ID="2529"/>
+                <annoSet ID="2690"/>
+                <annoSet ID="4284"/>
+                <annoSet ID="4699"/>
+                <annoSet ID="4829"/>
+                <annoSet ID="6587"/>
+                <annoSet ID="6748"/>
+                <annoSet ID="7900"/>
+                <annoSet ID="8594"/>
+                <annoSet ID="8687"/>
+                <annoSet ID="8766"/>
+                <annoSet ID="9741"/>
+                <annoSet ID="10051"/>
+                <annoSet ID="11002"/>
+                <annoSet ID="11073"/>
+                <annoSet ID="11075"/>
+                <annoSet ID="11077"/>
+                <annoSet ID="11092"/>
+                <annoSet ID="11850"/>
+                <annoSet ID="12238"/>
+                <annoSet ID="12639"/>
+                <annoSet ID="14591"/>
+                <annoSet ID="14627"/>
+                <annoSet ID="16657"/>
+                <annoSet ID="17632"/>
+                <annoSet ID="17965"/>
+                <annoSet ID="18469"/>
+                <annoSet ID="18735"/>
+                <annoSet ID="23520"/>
+                <annoSet ID="23521"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15">
+            <text>Pourquoi ce thème ?</text>
+            <annotationSet status="MANUAL" ID="19">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="16" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="582">
+            <text>Pourquoi Angiox a -t-il été approuvé ?</text>
+            <annotationSet status="MANUAL" ID="746">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="37" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1152">
+            <text>Pourquoi Aclasta a -t-il été approuvé ?</text>
+            <annotationSet status="MANUAL" ID="1172">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="38" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1550">
+            <text>Pourquoi nous occupons -nous de ce problème ?</text>
+            <annotationSet status="MANUAL" ID="1578">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="44" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1584">
+            <text>Nous devons considérer les personnes qui votent pour ces partis et comprendre pourquoi cette situation voit le jour .</text>
+            <annotationSet status="MANUAL" ID="1658">
+                <layer rank="1" name="FE">
+                    <label end="85" start="78" name="Cause"/>
+                    <label end="114" start="87" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1636">
+            <text>Je me demande vraiment pourquoi nous avons pris cette résolution en septembre dernier .</text>
+            <annotationSet status="MANUAL" ID="1741">
+                <layer rank="1" name="FE">
+                    <label end="30" start="23" name="Cause"/>
+                    <label end="84" start="32" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1974">
+            <text>À ce sujet , nous nous posons la question de savoir pourquoi le coût des études de faisabilité et les mesures d' assistance technique représentent 47 % du budget , soit près de 223 millions d' euros .</text>
+            <annotationSet status="MANUAL" ID="2525">
+                <layer rank="1" name="FE">
+                    <label end="59" start="52" name="Cause"/>
+                    <label end="197" start="61" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1976">
+            <text>Pourquoi ne disposons -nous que d' estimations ?</text>
+            <annotationSet status="MANUAL" ID="2529">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="47" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2057">
+            <text>Pourquoi ai -je voté à contrecoeur ?</text>
+            <annotationSet status="MANUAL" ID="2690">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="35" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3266">
+            <text>Pourquoi l' autorité de régulation a -t-elle autorisé Hachette à prendre les rênes de la chaîne , sans appel à candidatures , tout en soulignant que les prévisions de sa direction étaient irréalistes ?</text>
+            <annotationSet status="MANUAL" ID="4284">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="200" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3512">
+            <text>Autant la proximité de l' Afrique du Sud rend la démarche plausible , voire naturelle ( une ligne aérienne régulière de la compagnie réunionnaise Air Austral dessert d' ailleurs Johannesburg ) , autant on se demande pourquoi diable Taïwan irait constituer des sociétés conjointes à La Réunion ...</text>
+            <annotationSet status="MANUAL" ID="4699">
+                <layer rank="1" name="FE">
+                    <label end="223" start="216" name="Cause"/>
+                    <label end="291" start="225" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="223" start="216" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3582">
+            <text>Pourquoi pareils bouleversements ?</text>
+            <annotationSet status="MANUAL" ID="4829">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="33" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4668">
+            <text>Personne n' a encore expliqué pourquoi la reprise inopinée des années 1986 à 1989 inspira vite une grande confiance .</text>
+            <annotationSet status="MANUAL" ID="6587">
+                <layer rank="1" name="FE">
+                    <label end="37" start="30" name="Cause"/>
+                    <label end="114" start="39" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4751">
+            <text>Pourquoi avoir donc créé un tel remue - ménage ?</text>
+            <annotationSet status="MANUAL" ID="6748">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="47" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5439">
+            <text>Mais pourquoi M. Lorentz a -t-il ainsi payé ?</text>
+            <annotationSet status="MANUAL" ID="7900">
+                <layer rank="1" name="FE">
+                    <label end="12" start="5" name="Cause"/>
+                    <label end="42" start="14" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5837">
+            <text>Mais le temps presse et le candidat Bush n' a plus que quelques semaines pour regagner la confiance des consommateurs , qui continuent à bouder ses " bons indices " , et pour rassurer ces 10 millions de chômeurs depuis la fin juin ( avec une augmentation de 471 000 en un mois ) qui lui demandent " pourquoi Saddam Hussein a encore un job et moi pas ? " .</text>
+            <annotationSet status="MANUAL" ID="8594">
+                <layer rank="1" name="FE">
+                    <label end="306" start="299" name="Cause"/>
+                    <label end="348" start="308" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="306" start="299" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5875">
+            <text>De quoi comprendre pourquoi un nombre grandissant d' électeurs affichent le nom de M. Ross Perot sur leur tee - shirt en disant " assez de paroles , place à l' action ! " .</text>
+            <annotationSet status="MANUAL" ID="8687">
+                <layer rank="1" name="FE">
+                    <label end="26" start="19" name="Cause"/>
+                    <label end="169" start="28" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5921">
+            <text>- Certains professionnels du marché londonien de l' assurance , Lloyd' s of London , sont incompétents , mais pas malhonnêtes , a conclu jeudi 2 juillet une commission d' enquête indépendante chargée de découvrir pourquoi des centaines de " names " , ces particuliers qui garantissent les risques souscrits au Lloyd' s sur leur fortune personnelle , ont été conduits à la ruine ces dernières années ( le monde du 27 juin ) .</text>
+            <annotationSet status="MANUAL" ID="8766">
+                <layer rank="1" name="FE">
+                    <label end="220" start="213" name="Cause"/>
+                    <label end="421" start="222" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="220" start="213" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6518">
+            <text>On comprend mieux pourquoi la France sage et relativement bien gérée des années 90 n' enchante pas tout le monde , désoriente même souvent .</text>
+            <annotationSet status="MANUAL" ID="9741">
+                <layer rank="1" name="FE">
+                    <label end="25" start="18" name="Cause"/>
+                    <label end="137" start="27" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6758">
+            <text>Pourquoi les Trois Grands n' ont -ils pas réussi , depuis la grande crise de 1979 - 1982 , à transformer les relations de travail et la gestion des hommes dans les usines ?</text>
+            <annotationSet status="MANUAL" ID="10051">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="171" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7557">
+            <text>" J' ai imaginé vingt - six Lorrains en fer , qui essaient de comprendre pourquoi on ne veut plus de leur métal ; vingt - six mineurs sans mines ; vingt - six métallurgistes sans aciéries , qui se tiennent là tout bêtes et qui essaient de comprendre . "</text>
+            <annotationSet status="MANUAL" ID="11002">
+                <layer rank="1" name="FE">
+                    <label end="80" start="73" name="Cause"/>
+                    <label end="110" start="82" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7619">
+            <text>Au début du siècle , Werner Sombart expliquait pourquoi la greffe socialiste n' avait jamais pu prendre aux Etats - Unis .</text>
+            <annotationSet status="MANUAL" ID="11073">
+                <layer rank="1" name="FE">
+                    <label end="54" start="47" name="Cause"/>
+                    <label end="119" start="56" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7621">
+            <text>POURQUOI LE SOCIALISME N' EXISTE -T-IL PAS AUX ETATS - UNIS ?</text>
+            <annotationSet status="MANUAL" ID="11075">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="60" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7625">
+            <text>Un de ses livres datant de 1906 vient enfin d' être traduit en français : Pourquoi le socialisme n' existe -t-il pas aux Etats - Unis ?</text>
+            <annotationSet status="MANUAL" ID="11077">
+                <layer rank="1" name="FE">
+                    <label end="81" start="74" name="Cause"/>
+                    <label end="132" start="83" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7641">
+            <text>Pourquoi n' est -il jamais venu à l' idée du prolétariat américain de former son propre parti ?</text>
+            <annotationSet status="MANUAL" ID="11092">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="94" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8245">
+            <text>" Vous comprenez mieux , explique Pascaline Rey , la consultante de SFS , auteur de l' étude , pourquoi les entreprises cherchent à diminuer leurs coûts .</text>
+            <annotationSet status="MANUAL" ID="11850">
+                <layer rank="1" name="FE">
+                    <label end="102" start="95" name="Cause"/>
+                    <label end="151" start="104" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8591">
+            <text>Pourquoi les chauffeurs - routiers craignent -ils les conséquences de l' application du permis à points ?</text>
+            <annotationSet status="MANUAL" ID="12238">
+                <layer rank="1" name="FE">
+                    <label end="104" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8850">
+            <text>Pourquoi l' Odéon leur paraît -il moins coûteux que le Vieux - Colombier ?</text>
+            <annotationSet status="MANUAL" ID="12639">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="73" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10401">
+            <text>Puis l' amendement , voté à l' unanimité , sur les indemnités des députés a simplement été rangé -on ne sait trop pourquoi - entre un article sur la taxe intérieure des produits pétroliers et un autre sur la taxe applicable aux carburants intégrant des biocarburants .</text>
+            <annotationSet status="MANUAL" ID="14591">
+                <layer rank="1" name="FE">
+                    <label end="121" start="114" name="Cause"/>
+                    <label end="112" start="5" name="Effect"/>
+                    <label end="265" start="123" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="121" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10426">
+            <text>Dans ces conditions , on peut se demander pourquoi le gouvernement n' a pas profité de l' occasion pour trancher en expliquant dès maintenant que le ralentissement de la croissance exige un accroissement des prélèvements obligatoires .</text>
+            <annotationSet status="MANUAL" ID="14627">
+                <layer rank="1" name="FE">
+                    <label end="49" start="42" name="Cause"/>
+                    <label end="232" start="51" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12323">
+            <text>Cela explique aussi pourquoi Mme Aubry a souhaité l' adoption du récent amendement demandant aux employeurs de prévoir des " mesures tendant au reclassement " dans leurs plans sociaux .</text>
+            <annotationSet status="MANUAL" ID="16657">
+                <layer rank="1" name="FE">
+                    <label end="27" start="20" name="Cause"/>
+                    <label end="182" start="29" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13265">
+            <text>Voilà pourquoi certains regrettent ouvertement le baroud d' honneur des Britanniques , qui leur semble , en outre , venir bien tard .</text>
+            <annotationSet status="MANUAL" ID="17632">
+                <layer rank="1" name="FE">
+                    <label end="13" start="6" name="Cause"/>
+                    <label end="130" start="15" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13647">
+            <text>Pourquoi cette situation ?</text>
+            <annotationSet status="MANUAL" ID="17965">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="23" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14135">
+            <text>Plus précisément , voyons pourquoi des groupes de pression agissent , souvent avec succès , dans le sens d' un relâchement des politiques monétaires .</text>
+            <annotationSet status="MANUAL" ID="18469">
+                <layer rank="1" name="FE">
+                    <label end="33" start="26" name="Cause"/>
+                    <label end="147" start="35" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14425">
+            <text>A cet égard , on se demande , ébahi , pourquoi le gouvernement n' a pas encore annoncé son intention de réunir d' urgence une conférence Etat - régions , afin de savoir quel peut être le rôle de chacun dans la politique de lutte contre le chômage .</text>
+            <annotationSet status="MANUAL" ID="18735">
+                <layer rank="1" name="FE">
+                    <label end="45" start="38" name="Cause"/>
+                    <label end="245" start="47" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19641">
+            <text>Pourquoi n' y a -t-il pas de cirque à la télévision ? s' emporte le politique soumis à d' innombrables lobbies .</text>
+            <annotationSet status="MANUAL" ID="23520">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="111" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19642">
+            <text>Pourquoi y en aurait -il ? rétorque le professionnel .</text>
+            <annotationSet status="MANUAL" ID="23521">
+                <layer rank="1" name="FE">
+                    <label end="7" start="0" name="Cause"/>
+                    <label end="53" start="9" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

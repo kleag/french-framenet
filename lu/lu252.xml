@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="soulever.v" ID="252" frame="Causation" frameID="5" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Cause"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="2167"/>
+                <annoSet ID="24142"/>
+                <annoSet ID="24156"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Effect"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="2167"/>
+                <annoSet ID="24142"/>
+                <annoSet ID="24156"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1825">
+            <text>L' Union européenne est appelée , à travers les procédures de la Conférence intergouvernementale , à répondre aux grands défis qui marquent le passage du XXe au XXIe siècle , des défis majeurs que nous connaissons tous , qui influent chaque jour sur le cours de l' Union , des défis , surtout , qui soulèvent une question de fond : dans quelle mesure sommes -nous prêts , en tant qu' institution , en tant qu' Union européenne , à y faire face ?</text>
+            <annotationSet status="MANUAL" ID="2167">
+                <layer rank="1" name="FE">
+                    <label end="297" start="295" name="Cause"/>
+                    <label end="442" start="273" name="Cause"/>
+                    <label end="442" start="309" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="307" start="299" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20439">
+            <text>Développer les cultures vivrières , désenclaver les zones rurales , construire des puits , entreprendre des campagnes de vaccination , sont des actions qui ne soulèvent ni de véritables obstacles techniques ni de véritables obstacles financiers dès lors qu' elles sont effectuées par les populations qui en bénéficieront .</text>
+            <annotationSet status="MANUAL" ID="24142">
+                <layer rank="1" name="FE">
+                    <label end="154" start="152" name="Cause"/>
+                    <label end="243" start="140" name="Cause"/>
+                    <label end="243" start="169" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20450">
+            <text>L' acceptation par les Etats européens d' une telle évolution aurait toutefois pour effet immédiat de soulever la question des contours de la nouvelle zone au regard des candidatures à l' adhésion qui ne manqueraient pas de se manifester dans nombre d' autres Etats d' Afrique subsaharienne .</text>
+            <annotationSet status="MANUAL" ID="24156">
+                <layer rank="1" name="FE">
+                    <label end="60" start="0" name="Cause"/>
+                    <label end="154" start="111" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

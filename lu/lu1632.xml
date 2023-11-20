@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="acceptation.n" ID="1632" frame="FR_Taking_sides" frameID="10060" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2190"/>
+                <annoSet ID="24157"/>
+                <annoSet ID="24189"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="11096"/>
+                <annoSet ID="12160"/>
+                <annoSet ID="19102"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Content"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="2190"/>
+                <annoSet ID="11096"/>
+                <annoSet ID="12160"/>
+                <annoSet ID="19102"/>
+                <annoSet ID="24157"/>
+                <annoSet ID="24189"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1831">
+            <text>Et c' est précisément l' acceptation de ce principe qui l' a conduite aux succès dont nous pouvons faire état , comme nous le faisons tous assurément de temps à autre .</text>
+            <annotationSet status="MANUAL" ID="2190">
+                <layer rank="1" name="FE">
+                    <label end="50" start="40" name="Content"/>
+                    <label end="57" start="56" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7642">
+            <text>Sans doute l' acceptation de l' ordre social est -elle facilitée par l' existence du suffrage universel et le fait que l' opinion publique a toujours manifesté sa sympathie pour les intérêts spécifiques des ouvriers .</text>
+            <annotationSet status="MANUAL" ID="11096">
+                <layer rank="1" name="FE">
+                    <label end="43" start="29" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8538">
+            <text>- que l' incitation à l' initiative implique l' acceptation de l' erreur et non la répression brutale de celle - ci .</text>
+            <annotationSet status="MANUAL" ID="12160">
+                <layer rank="1" name="FE">
+                    <label end="71" start="63" name="Content"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14821">
+            <text>Je trouve peu compréhensible le contraste qui règne entre l' acceptation générale des formules de temps partiel ( même si elles sont insuffisamment développées ) et les réticences patronales ou syndicales que soulève l' évocation du " partage du travail " .</text>
+            <annotationSet status="MANUAL" ID="19102">
+                <layer rank="1" name="FE">
+                    <label end="110" start="86" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="71" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20450">
+            <text>L' acceptation par les Etats européens d' une telle évolution aurait toutefois pour effet immédiat de soulever la question des contours de la nouvelle zone au regard des candidatures à l' adhésion qui ne manqueraient pas de se manifester dans nombre d' autres Etats d' Afrique subsaharienne .</text>
+            <annotationSet status="MANUAL" ID="24157">
+                <layer rank="1" name="FE">
+                    <label end="60" start="42" name="Content"/>
+                    <label end="37" start="19" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20481">
+            <text>Pour la France , la transformation d' une zone monétaire qu' elle domine et stabilise depuis trente ans en une union monétaire euro- africaine relève d' une acceptation de l' inéluctable .</text>
+            <annotationSet status="MANUAL" ID="24189">
+                <layer rank="1" name="FE">
+                    <label end="185" start="172" name="Content"/>
+                    <label end="13" start="5" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

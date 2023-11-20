@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="coûter.v" ID="1505" frame="FR_Spending" frameID="10055" totalAnnotated="42" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Spender"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Woe" name="Way_of_expense"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Causex" name="Cause_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="21">
+            <FE name="Cause_of_expense"/>
+            <pattern total="18">
+                <valenceUnit PT="filled" FE="Cause_of_expense"/>
+                <annoSet ID="4265"/>
+                <annoSet ID="6147"/>
+                <annoSet ID="7349"/>
+                <annoSet ID="8161"/>
+                <annoSet ID="8679"/>
+                <annoSet ID="11810"/>
+                <annoSet ID="11891"/>
+                <annoSet ID="16873"/>
+                <annoSet ID="18369"/>
+                <annoSet ID="20092"/>
+                <annoSet ID="20427"/>
+                <annoSet ID="20673"/>
+                <annoSet ID="21922"/>
+                <annoSet ID="22719"/>
+                <annoSet ID="23798"/>
+                <annoSet ID="24525"/>
+                <annoSet ID="24684"/>
+                <annoSet ID="24704"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Cause_of_expense"/>
+                <annoSet ID="11880"/>
+                <annoSet ID="15673"/>
+                <annoSet ID="15890"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="21">
+            <FE name="Goods"/>
+            <pattern total="21">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="2341"/>
+                <annoSet ID="2342"/>
+                <annoSet ID="8851"/>
+                <annoSet ID="9878"/>
+                <annoSet ID="10413"/>
+                <annoSet ID="10563"/>
+                <annoSet ID="11295"/>
+                <annoSet ID="11315"/>
+                <annoSet ID="13314"/>
+                <annoSet ID="13635"/>
+                <annoSet ID="16969"/>
+                <annoSet ID="17423"/>
+                <annoSet ID="17424"/>
+                <annoSet ID="17474"/>
+                <annoSet ID="17475"/>
+                <annoSet ID="19440"/>
+                <annoSet ID="23252"/>
+                <annoSet ID="23807"/>
+                <annoSet ID="24643"/>
+                <annoSet ID="24651"/>
+                <annoSet ID="24655"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="39">
+            <FE name="Money"/>
+            <pattern total="35">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="2342"/>
+                <annoSet ID="4265"/>
+                <annoSet ID="6147"/>
+                <annoSet ID="7349"/>
+                <annoSet ID="8161"/>
+                <annoSet ID="8851"/>
+                <annoSet ID="9878"/>
+                <annoSet ID="10413"/>
+                <annoSet ID="10563"/>
+                <annoSet ID="11295"/>
+                <annoSet ID="11315"/>
+                <annoSet ID="11810"/>
+                <annoSet ID="11880"/>
+                <annoSet ID="11891"/>
+                <annoSet ID="13314"/>
+                <annoSet ID="13635"/>
+                <annoSet ID="15673"/>
+                <annoSet ID="16873"/>
+                <annoSet ID="16969"/>
+                <annoSet ID="17424"/>
+                <annoSet ID="17475"/>
+                <annoSet ID="18369"/>
+                <annoSet ID="19440"/>
+                <annoSet ID="20092"/>
+                <annoSet ID="20427"/>
+                <annoSet ID="20673"/>
+                <annoSet ID="21922"/>
+                <annoSet ID="22719"/>
+                <annoSet ID="23252"/>
+                <annoSet ID="23807"/>
+                <annoSet ID="24525"/>
+                <annoSet ID="24643"/>
+                <annoSet ID="24651"/>
+                <annoSet ID="24684"/>
+                <annoSet ID="24704"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="2341"/>
+                <annoSet ID="15890"/>
+                <annoSet ID="17423"/>
+                <annoSet ID="17474"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Purpose"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Purpose"/>
+                <annoSet ID="23252"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Rate"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Rate"/>
+                <annoSet ID="8679"/>
+                <annoSet ID="23798"/>
+                <annoSet ID="24655"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Seller"/>
+        </FERealization>
+        <FERealization total="42">
+            <FE name="Spender"/>
+            <pattern total="21">
+                <valenceUnit PT="filled" FE="Spender"/>
+                <annoSet ID="4265"/>
+                <annoSet ID="6147"/>
+                <annoSet ID="7349"/>
+                <annoSet ID="8679"/>
+                <annoSet ID="8851"/>
+                <annoSet ID="10413"/>
+                <annoSet ID="11891"/>
+                <annoSet ID="15673"/>
+                <annoSet ID="15890"/>
+                <annoSet ID="16873"/>
+                <annoSet ID="16969"/>
+                <annoSet ID="17474"/>
+                <annoSet ID="17475"/>
+                <annoSet ID="18369"/>
+                <annoSet ID="20092"/>
+                <annoSet ID="20427"/>
+                <annoSet ID="20673"/>
+                <annoSet ID="23798"/>
+                <annoSet ID="23807"/>
+                <annoSet ID="24655"/>
+                <annoSet ID="24684"/>
+            </pattern>
+            <pattern total="21">
+                <valenceUnit PT="null instantiation" FE="Spender"/>
+                <annoSet ID="2341"/>
+                <annoSet ID="2342"/>
+                <annoSet ID="8161"/>
+                <annoSet ID="9878"/>
+                <annoSet ID="10563"/>
+                <annoSet ID="11295"/>
+                <annoSet ID="11315"/>
+                <annoSet ID="11810"/>
+                <annoSet ID="11880"/>
+                <annoSet ID="13314"/>
+                <annoSet ID="13635"/>
+                <annoSet ID="17423"/>
+                <annoSet ID="17424"/>
+                <annoSet ID="19440"/>
+                <annoSet ID="21922"/>
+                <annoSet ID="22719"/>
+                <annoSet ID="23252"/>
+                <annoSet ID="24525"/>
+                <annoSet ID="24643"/>
+                <annoSet ID="24651"/>
+                <annoSet ID="24704"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Way_of_expense"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Way_of_expense"/>
+                <annoSet ID="18369"/>
+                <annoSet ID="20427"/>
+                <annoSet ID="24525"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1898">
+            <text>Il y avait aussi l' exigence que les projets et la planification de cette conférence soient répartis sur toutes les tables de travail : démocratie , reconstruction et sécurité , sachant qu' un pont coûte plus cher qu' un centre de formation ou un programme de déminage .</text>
+            <annotationSet status="MANUAL" ID="2341">
+                <layer rank="1" name="FE">
+                    <label end="267" start="218" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="198" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1898">
+            <text>Il y avait aussi l' exigence que les projets et la planification de cette conférence soient répartis sur toutes les tables de travail : démocratie , reconstruction et sécurité , sachant qu' un pont coûte plus cher qu' un centre de formation ou un programme de déminage .</text>
+            <annotationSet status="MANUAL" ID="2342">
+                <layer rank="1" name="FE">
+                    <label end="267" start="204" name="Money"/>
+                    <label end="196" start="190" name="Goods"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="198" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3255">
+            <text>Occuper le réseau de la Cinq coûterait en effet cher à la Sept : il lui faudrait payer la diffusion ( 200 millions de francs ) , les surcoûts de droits pour une diffusion nationale , et " muscler " ses programmes pour ne pas réaliser des audiences trop confidentielles .</text>
+            <annotationSet status="MANUAL" ID="4265">
+                <layer rank="1" name="FE">
+                    <label end="51" start="48" name="Money"/>
+                    <label end="61" start="55" name="Spender"/>
+                    <label end="27" start="0" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4371">
+            <text>Si le programme réussit , l' avantage fiscal accordé coûtera 3 milliards de francs aux finances publiques mais sera en partie compensé par des rentrées supplémentaires de cotisations sociales , de l' ordre de 1 , 3 à 1 , 5 milliard de francs .</text>
+            <annotationSet status="MANUAL" ID="6147">
+                <layer rank="1" name="FE">
+                    <label end="81" start="61" name="Money"/>
+                    <label end="104" start="87" name="Spender"/>
+                    <label end="51" start="26" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5092">
+            <text>Pour la direction , la politique de mobilité est un moyen pour mieux gérer le devenir professionnel de chaque salarié afin , notamment , qu' il n' ait pas envie de quitter l' entreprise : parce que recruter , licencier ou laisser partir quelqu' un qu' on a formé coûte cher et parce que trop de potentiels internes sont mal utilisés .</text>
+            <annotationSet status="MANUAL" ID="7349">
+                <layer rank="1" name="FE">
+                    <label end="272" start="269" name="Money"/>
+                    <label end="253" start="252" name="Spender"/>
+                    <label end="261" start="198" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="267" start="263" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5586">
+            <text>C' est - à - dire à peine plus que ce que coûteront les mesures d' accompagnement ( dont le relèvement de 10 francs du tarif de la consultation ) accordées aux médecins comme une " contrepartie " à l' application de la loi sur la maîtrise des dépenses de santé ...</text>
+            <annotationSet status="MANUAL" ID="8161">
+                <layer rank="1" name="FE">
+                    <label end="40" start="38" name="Money"/>
+                    <label end="259" start="52" name="Cause_of_expense"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5874">
+            <text>Mais ses électeurs sont de plus en plus nombreux à lui reprocher cette attitude de patricien qui le tient si éloigné des nouvelles réalités de leur vie quotidienne : des jeunes diplômés de prestigieuses universités américaines qui ne trouvent pas d' emploi , un système éducatif lamentable dans les écoles publiques , qui fait que 80 % des candidats à l' embauche sont refusés faute de savoir écrire convenablement un curriculum vitae , un triplement en vingt ans du nombre d' enfants vivant avec un seul parent , un record mondial en termes de personnes sous les verrous ( 1 , 15 million , qui coûtent chacune 20 000 dollars par an ) , des villes délabrées et où l' apartheid racial et social est la seule règle de survie , la constitution d' une under - class ouverte à tous les maux aux côtés d' une classe moyenne paupérisée , une population agricole qui a chuté de 50 % en vingt ans , la violence par les armes à feu , reconnue " épidémie " et " urgence publique " pour l' association des médecins américains , six millions d' enfant de 14 à 18 ans qui travaillent dans l' illégalité la plus complète , un fossé grandissant entre les Américains les plus riches qui ont vu leurs revenus augmenter de 32 % en dix ans tandis que les plus pauvres ont vu les leurs chuter de 13 % , et pour finir - un comble ! Des patrons contraints de diminuer leurs salaires devant la grogne de leurs actionnaires et de leurs salariés qui les accusent d' incompétence .</text>
+            <annotationSet status="MANUAL" ID="8679">
+                <layer rank="1" name="FE">
+                    <label end="631" start="603" name="Rate"/>
+                    <label end="633" start="545" name="Cause_of_expense"/>
+                    <label end="593" start="591" name="Cause_of_expense"/>
+                    <label end="225" start="215" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="601" start="595" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5977">
+            <text>Cette étude , longue et difficile , que mèneront l' IPSN et le GRS , devrait coûter quelque 9 , 5 millions d' écus ( environ 66 millions de francs ) sur quatre ans et être financée , dès maintenant , à hauteur de 4 millions de francs par la France et l' Allemagne pour les six prochains mois d' étude .</text>
+            <annotationSet status="MANUAL" ID="8851">
+                <layer rank="1" name="FE">
+                    <label end="147" start="84" name="Money"/>
+                    <label end="65" start="49" name="Spender"/>
+                    <label end="65" start="0" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6619">
+            <text>" Faire venir des produits métalliques de l' étranger coûte trop cher , seule l' Italie en exporte un peu vers la France pour le moment " , précise un grossiste , spécialisé dans l' importation .</text>
+            <annotationSet status="MANUAL" ID="9878">
+                <layer rank="1" name="FE">
+                    <label end="68" start="60" name="Money"/>
+                    <label end="52" start="2" name="Goods"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="54" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7028">
+            <text>L' argent coûtera plus cher ainsi que le refinancement pour les banques .</text>
+            <annotationSet status="MANUAL" ID="10413">
+                <layer rank="1" name="FE">
+                    <label end="26" start="18" name="Money"/>
+                    <label end="70" start="60" name="Spender"/>
+                    <label end="8" start="0" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7157">
+            <text>Depuis son lancement en avril , la Mercedes 190 dotée d' un air - bag à 4 000 francs aurait recueilli 30 % des commandes , contre 1 % un an plus tôt , lorsque le même appareil coûtait 10 000 francs .</text>
+            <annotationSet status="MANUAL" ID="10563">
+                <layer rank="1" name="FE">
+                    <label end="196" start="184" name="Money"/>
+                    <label end="174" start="159" name="Goods"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="182" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7803">
+            <text>Construite à 300 kilomètres de la mer , sur un modèle technologique des Soviétiques , qui avaient exigé ce contrat à la fin de la guerre du Biafra , l' aciérie en question a coûté plus de 10 milliards de dollars et ne fonctionne toujours pas .</text>
+            <annotationSet status="MANUAL" ID="11295">
+                <layer rank="1" name="FE">
+                    <label end="210" start="180" name="Money"/>
+                    <label end="170" start="149" name="Goods"/>
+                    <label itype="ENI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="174" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7822">
+            <text>Un litre d' essence produit au Cameroun coûte l' équivalent de 3 , 80 francs .</text>
+            <annotationSet status="MANUAL" ID="11315">
+                <layer rank="1" name="FE">
+                    <label end="75" start="46" name="Money"/>
+                    <label end="38" start="0" name="Goods"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="44" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8205">
+            <text>L' expatriation coûte cher .</text>
+            <annotationSet status="MANUAL" ID="11810">
+                <layer rank="1" name="FE">
+                    <label end="25" start="22" name="Money"/>
+                    <label end="14" start="0" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8268">
+            <text>Des imprécisions qui parfois coûtent cher .</text>
+            <annotationSet status="MANUAL" ID="11880">
+                <layer rank="1" name="FE">
+                    <label end="40" start="37" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                    <label itype="ENI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="29" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8282">
+            <text>VVF est ainsi engagé dans un programme ( 1989 - 1995 ) qui lui coûte chaque année 100 millions de francs .</text>
+            <annotationSet status="MANUAL" ID="11891">
+                <layer rank="1" name="FE">
+                    <label end="103" start="82" name="Money"/>
+                    <label end="103" start="26" name="Cause_of_expense"/>
+                    <label end="57" start="55" name="Cause_of_expense"/>
+                    <label end="61" start="59" name="Spender"/>
+                    <label end="2" start="0" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9399">
+            <text>Distinguons d' abord le foie cru jadis réservé aux professionnels : c' est celui qui coûte le moins cher , mais l' achat est délicat .</text>
+            <annotationSet status="MANUAL" ID="13314">
+                <layer rank="1" name="FE">
+                    <label end="103" start="91" name="Money"/>
+                    <label end="83" start="81" name="Goods"/>
+                    <label end="64" start="21" name="Goods"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9668">
+            <text>Une seule certitude : cela coûtera cher .</text>
+            <annotationSet status="MANUAL" ID="13635">
+                <layer rank="1" name="FE">
+                    <label end="38" start="35" name="Money"/>
+                    <label end="25" start="22" name="Goods"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11355">
+            <text>Et pour noircir encore le tableau , le passage du cyclone Andrew sur les côtes de Floride devrait coûter près de 45 milliards de francs aux assureurs , révélant la vulnérabilité de certaines grandes compagnies , malgré l' importance de leurs réserves .</text>
+            <annotationSet status="MANUAL" ID="15673">
+                <layer rank="1" name="FE">
+                    <label end="134" start="105" name="Money"/>
+                    <label end="148" start="140" name="Spender"/>
+                    <label itype="ENI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11536">
+            <text>Après les fameux " grands contrats " , ces ventes ont été principalement financées par l' Etat français et n' ont guère coûté d' argent à la Chine .</text>
+            <annotationSet status="MANUAL" ID="15890">
+                <layer rank="1" name="FE">
+                    <label end="145" start="138" name="Spender"/>
+                    <label itype="ENI" name="Money"/>
+                    <label itype="ENI" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="120" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12516">
+            <text>Et qui coûteront 1 , 4 milliard de francs à l' Etat en 1993 .</text>
+            <annotationSet status="MANUAL" ID="16873">
+                <layer rank="1" name="FE">
+                    <label end="40" start="17" name="Money"/>
+                    <label end="50" start="44" name="Spender"/>
+                    <label end="5" start="3" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12615">
+            <text>Les chaînes généralistes et thématiques de Télécom 2A sont accessibles au public depuis le mois de novembre , moyennant une antenne parabolique coûtant 4 000 francs .</text>
+            <annotationSet status="MANUAL" ID="16969">
+                <layer rank="1" name="FE">
+                    <label end="163" start="152" name="Money"/>
+                    <label end="79" start="74" name="Spender"/>
+                    <label end="142" start="120" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="150" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13054">
+            <text>La bière la moins chère en France coûte en effet à peu près trois fois moins que son équivalent disponible en Angleterre , où les taxes sur les vins sont très élevées .</text>
+            <annotationSet status="MANUAL" ID="17423">
+                <layer rank="1" name="FE">
+                    <label end="105" start="81" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13054">
+            <text>La bière la moins chère en France coûte en effet à peu près trois fois moins que son équivalent disponible en Angleterre , où les taxes sur les vins sont très élevées .</text>
+            <annotationSet status="MANUAL" ID="17424">
+                <layer rank="1" name="FE">
+                    <label end="165" start="49" name="Money"/>
+                    <label end="22" start="0" name="Goods"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13102">
+            <text>Car la production britannique originale , que prône M. Birt , coûte plus cher que l' importation .</text>
+            <annotationSet status="MANUAL" ID="17474">
+                <layer rank="1" name="FE">
+                    <label end="58" start="4" name="Spender"/>
+                    <label end="95" start="82" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13102">
+            <text>Car la production britannique originale , que prône M. Birt , coûte plus cher que l' importation .</text>
+            <annotationSet status="MANUAL" ID="17475">
+                <layer rank="1" name="FE">
+                    <label end="95" start="68" name="Money"/>
+                    <label end="28" start="18" name="Spender"/>
+                    <label end="58" start="4" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14040">
+            <text>Il est avéré que les économies industrielles consomment des quantités moindres de matières premières ; laisser croire le contraire aux Africains pourrait leur coûter cher en nouveaux espoirs déçus .</text>
+            <annotationSet status="MANUAL" ID="18369">
+                <layer rank="1" name="FE">
+                    <label end="195" start="174" name="Way_of_expense"/>
+                    <label end="195" start="166" name="Money"/>
+                    <label end="157" start="154" name="Spender"/>
+                    <label end="143" start="135" name="Spender"/>
+                    <label end="143" start="103" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="164" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15196">
+            <text>" Même si le produit Smoby que nous allons vendre coûte le double d' un jouet Smer traditionnel - pour une qualité esthétique bien supérieure - , il restera moitié moins élevé que celui d' autres jouets importés de l' Ouest " , insiste Paul Maly .</text>
+            <annotationSet status="MANUAL" ID="19440">
+                <layer rank="1" name="FE">
+                    <label end="94" start="56" name="Money"/>
+                    <label end="48" start="10" name="Goods"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15914">
+            <text>En cette période de rigueur budgétaire , le CNPF redoute la mise en cause d' une mesure qui a coûté à l' Etat environ 4 milliards de francs en 1991 .</text>
+            <annotationSet status="MANUAL" ID="20092">
+                <layer rank="1" name="FE">
+                    <label end="138" start="110" name="Money"/>
+                    <label end="108" start="102" name="Spender"/>
+                    <label end="90" start="88" name="Cause_of_expense"/>
+                    <label end="146" start="77" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16265">
+            <text>Si la crise monétaire de septembre a coûté à la banque de France l' équivalent de 160 milliards de francs , sous forme - essentiellement - de deutschemarks prêtés par la Banque fédérale d' Allemagne et remboursés intégralement lorsque la spéculation a dû racheter les francs vendus , la " fièvre rampante " qui ronge le franc depuis la mi - novembre est en train de saigner les réserves nettes de devises de la banque centrale .</text>
+            <annotationSet status="MANUAL" ID="20427">
+                <layer rank="1" name="FE">
+                    <label end="280" start="142" name="Way_of_expense"/>
+                    <label end="280" start="65" name="Money"/>
+                    <label end="63" start="45" name="Spender"/>
+                    <label end="33" start="3" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16472">
+            <text>Dans un éditorial , Güngr Mengi , de Sabah , a révélé que la campagne coûterait 36 millions de dollars à son journal alors qu' à Hürriyet on avance un coût de 50 millions de dollars , soit environ un cinquième du chiffre d' affaires du quotidien .</text>
+            <annotationSet status="MANUAL" ID="20673">
+                <layer rank="1" name="FE">
+                    <label end="101" start="80" name="Money"/>
+                    <label end="115" start="105" name="Spender"/>
+                    <label end="68" start="58" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17847">
+            <text>Actuellement , leur destruction coûte des centaines de milliers de francs par an alors qu' ils constituent un menu apprécié , paraît -il , des sauriens .</text>
+            <annotationSet status="MANUAL" ID="21922">
+                <layer rank="1" name="FE">
+                    <label end="72" start="38" name="Money"/>
+                    <label end="30" start="15" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18599">
+            <text>" c' est un mensonge qui ne coûte pas cher , je ne sais pas si cela vient de lui ou si on le lui a suggéré .</text>
+            <annotationSet status="MANUAL" ID="22719">
+                <layer rank="1" name="FE">
+                    <label end="41" start="38" name="Money"/>
+                    <label end="23" start="21" name="Cause_of_expense"/>
+                    <label end="41" start="9" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19283">
+            <text>Idéal pour regarder la télé , " Clipper 5 " coûte 18 000 francs .</text>
+            <annotationSet status="MANUAL" ID="23252">
+                <layer rank="1" name="FE">
+                    <label end="62" start="50" name="Money"/>
+                    <label end="42" start="30" name="Goods"/>
+                    <label end="26" start="11" name="Purpose"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20053">
+            <text>Ainsi la SNCF , qui est l' émetteur d' une des opérations marquantes de ces derniers jours , a levé pour 400 millions d' écus pour une durée de quinze ans et son opération ne lui coûtera en tout que 8 , 54 % l' an .</text>
+            <annotationSet status="MANUAL" ID="23798">
+                <layer rank="1" name="FE">
+                    <label end="177" start="175" name="Spender"/>
+                    <label end="89" start="6" name="Spender"/>
+                    <label end="212" start="199" name="Rate"/>
+                    <label end="170" start="158" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="185" start="179" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20070">
+            <text>Un prêt bancaire en francs hexagonaux aux conditions pratiquées la semaine passée à Paris lui aurait coûté beaucoup plus cher , la différence étant de l' ordre de 0 , 9 % à 1 % .</text>
+            <annotationSet status="MANUAL" ID="23807">
+                <layer rank="1" name="FE">
+                    <label end="124" start="107" name="Money"/>
+                    <label end="92" start="90" name="Spender"/>
+                    <label end="88" start="0" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20990">
+            <text>Mais , à l' inverse , actuellement retirés du chômage , ils ne coûtent rien en allocations pendant encore quelques mois ...</text>
+            <annotationSet status="MANUAL" ID="24525">
+                <layer rank="1" name="FE">
+                    <label end="89" start="79" name="Way_of_expense"/>
+                    <label end="74" start="71" name="Money"/>
+                    <label end="58" start="56" name="Cause_of_expense"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21182">
+            <text>A la pompe , le litre d' essence , subventionnée à 95 % par l' Etat fédéral , ne coûte que 0 , 70 naira ( environ 15 centimes français ) .</text>
+            <annotationSet status="MANUAL" ID="24643">
+                <layer rank="1" name="FE">
+                    <label end="135" start="91" name="Money"/>
+                    <label end="74" start="13" name="Goods"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21198">
+            <text>Car dans les grandes villes du Sud , l' essence pas chère est l' ultime " privilège " auquel s' accrochent une classe moyenne en plein désarroi ( une voiture neuve de modèle courant coûte vingt ans du salaire d' un assistant d' université ) et des masses urbaines au bord de la révolte .</text>
+            <annotationSet status="MANUAL" ID="24651">
+                <layer rank="1" name="FE">
+                    <label end="237" start="188" name="Money"/>
+                    <label end="180" start="146" name="Goods"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="186" start="182" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21202">
+            <text>L' an dernier , le voyage m' a coûté 100 nairas par personne , cette année je devrais déjà débourser quatre fois plus cher !</text>
+            <annotationSet status="MANUAL" ID="24655">
+                <layer rank="1" name="FE">
+                    <label end="59" start="37" name="Rate"/>
+                    <label end="24" start="16" name="Goods"/>
+                    <label end="27" start="26" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21246">
+            <text>Au niveau du service rendu , tout d' abord : le service public se dégrade , le " client " est moins bien traité que ne l' était l' " usager " , et savoir que tout ça coûtera moins cher à l' Etat ( c' est - à - dire à nous - mêmes ) nous laisse complètement froids .</text>
+            <annotationSet status="MANUAL" ID="24684">
+                <layer rank="1" name="FE">
+                    <label end="183" start="174" name="Money"/>
+                    <label end="230" start="187" name="Spender"/>
+                    <label end="164" start="158" name="Cause_of_expense"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="172" start="166" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21274">
+            <text>Les étudiants , qui n' avaient droit quasiment à aucune aide au logement , ont été les grands bénéficiaires de cette extension : on estime que leur intégration a coûté 1 , 2 milliard de francs en 1992 alors même que la montée en régime n' était pas achevée .</text>
+            <annotationSet status="MANUAL" ID="24704">
+                <layer rank="1" name="FE">
+                    <label end="191" start="168" name="Money"/>
+                    <label end="158" start="143" name="Cause_of_expense"/>
+                    <label itype="UNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

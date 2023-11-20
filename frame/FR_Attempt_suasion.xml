@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Attempt_suasion" ID="10089" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; expresses through language their wish for the &lt;fen&gt;Cognizer&lt;/fen&gt; to change their stance about some topic. This might mean to believe that a certain &lt;fen&gt;True_content&lt;/fen&gt; is true, or that some &lt;fen&gt;Legitimate_content&lt;/fen&gt; is legitimate, or that they should perform some &lt;fen&gt;Action&lt;/fen&gt;. There is no implication that the &lt;fen&gt;Cognizer&lt;/fen&gt; ends up believing in the truth of the &lt;fen&gt;True_content&lt;/fen&gt;, legitimacy of the &lt;fen&gt;Legitimate_content&lt;/fen&gt;, nor forming an intention to act, let alone act.
+&lt;/def-root&gt;</definition>
+    <semType name="Non-Lexical Frame" ID="16"/>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" 
+cDate="03/02/2001 09:55:37 PST Fri" abbrev="TC" name="True_content" ID="413">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; tries for the &lt;fen&gt;Addressee&lt;/fen&gt; to believe that the &lt;fen&gt;True_content&lt;/fen&gt; is true.&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+        <excludesFE name="Legitimate_content" ID="10413"/>
+        <excludesFE name="Action" ID="10414"/>
+    </FE>
+        <FE bgColor="00bfff" fgColor="FFFFFF" coreType="Core" cBy="605" 
+cDate="03/02/2001 09:55:37 PST Fri" abbrev="LgtC" name="Legitimate_content" ID="10413">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; tries for the &lt;fen&gt;Addressee&lt;/fen&gt; to believe that the &lt;fen&gt;Legitimate_content&lt;/fen&gt; is legitimate.&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+        <excludesFE name="Action" ID="10414"/>
+        <excludesFE name="True_content" ID="413"/>
+    </FE>
+        <FE bgColor="8000ff" fgColor="FFFFFF" coreType="Core" cBy="605" 
+cDate="03/02/2001 09:55:37 PST Fri" abbrev="Act" name="Action" ID="10414">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Persuader&lt;/fen&gt; tries for the &lt;fen&gt;Addressee&lt;/fen&gt; to intend to perform the &lt;fen&gt;Action&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Intentional_act" ID="181"/>
+        <excludesFE name="True_content" ID="413"/>
+        <excludesFE name="Legitimate_content" ID="10413"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="145" cDate="02/26/2001 02:45:59 PST Mon" abbrev="Cog" name="Cognizer" ID="409">
+        <definition>&lt;def-root&gt;The person that the &lt;fen&gt;Persuader&lt;/fen&gt; seeks to influence to act or hold an opinion or judgment.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="145" cDate="02/26/2001 02:48:14 PST Mon" abbrev="Spkr" name="Persuader" ID="410">
+        <definition>&lt;def-root&gt;The person who intends through the use of language or otherwise to get another person to act or form an opinion on the &lt;fen&gt;State_of_affairs&lt;/fen&gt;'s veracity or legitimacy.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+     <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/08/2001 02:42:22 PST Thu" abbrev="Text" name="Medium" ID="427">
+        <definition>&lt;def-root&gt;The written or spoken material that contains a message that potentially influences the &lt;fen&gt;Addressee&lt;/fen&gt; towards the &lt;fen&gt;State_of_affairs&lt;/fen&gt;.
+        &lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Persuader" ID="410"/>
+        <memberFE name="Medium" ID="427"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Telling</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Attempt_suasion.legitimacy</relatedFrame>
+        <relatedFrame>FR_Attempt_suasion.to_do</relatedFrame>
+        <relatedFrame>FR_Attempt_suasion.veracity</relatedFrame>
+        <relatedFrame>FR_Attempt_supported_suasion</relatedFrame>
+    </frameRelation>
+</frame>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="citer.v" ID="2067" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="7" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Medium"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="7107"/>
+                <annoSet ID="22434"/>
+                <annoSet ID="22470"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Medium"/>
+                <annoSet ID="12629"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Message"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="2322"/>
+                <annoSet ID="7107"/>
+                <annoSet ID="12629"/>
+                <annoSet ID="20431"/>
+                <annoSet ID="21834"/>
+                <annoSet ID="22434"/>
+                <annoSet ID="22470"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2322"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="20431"/>
+                <annoSet ID="21834"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1892">
+            <text>Un montant qui notamment n' est jamais cité par la Banque européenne d' investissement , qui est mentionné plus tard par le Président de la Commission Prodi et dont on ne sait pas encore , du moins à mon avis , comment il sera déboursé l' année prochaine .</text>
+            <annotationSet status="MANUAL" ID="2322">
+                <layer rank="1" name="FE">
+                    <label end="255" start="0" name="Message"/>
+                    <label end="13" start="11" name="Message"/>
+                    <label end="85" start="48" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4943">
+            <text>Mais diverses rumeurs citaient une éventuelle participation du Crédit lyonnais , de M. Jérôme Seydoux , voire de la Compagnie luxembourgeoise de télédiffusion ( CLT ) , pourtant déjà actionnaire de M 6 .</text>
+            <annotationSet status="MANUAL" ID="7107">
+                <layer rank="1" name="FE">
+                    <label end="200" start="31" name="Message"/>
+                    <label end="20" start="5" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8845">
+            <text>On pourrait discuter sinon les chiffres , du moins les commentaires sur l' utilisation des sommes citées .</text>
+            <annotationSet status="MANUAL" ID="12629">
+                <layer rank="1" name="FE">
+                    <label end="96" start="91" name="Message"/>
+                    <label itype="DNI" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16268">
+            <text>Les chiffres qui viennent d' être cités diffèrent , certes , du communiqué officiel de la banque de France , selon lequel le poste 2 de son bilan , " disponibilités à vue sur l' étranger " , est revenu de 97 , 447 milliards de francs à 88 , 08 milliards de francs entre le 10 et le 17 décembre 1992 , en diminution de 9 , 39 milliards .</text>
+            <annotationSet status="MANUAL" ID="20431">
+                <layer rank="1" name="FE">
+                    <label end="15" start="13" name="Message"/>
+                    <label end="38" start="0" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17764">
+            <text>Citons - en quelques - unes : comment réglera -t-on la question du droit de vote au sein du conseil de la banque centrale européenne ?</text>
+            <annotationSet status="MANUAL" ID="21834">
+                <layer rank="1" name="FE">
+                    <label end="131" start="28" name="Message"/>
+                    <label end="26" start="9" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18330">
+            <text>Faisant référence à un éditorial et à un article publiés récemment dans l' organe central du PCF ( Le Monde du 9 janvier ) dans lesquels , écrit l' ancien ministre d' état , " mon nom est cité à deux reprises en liaison avec les attaques dont le parti , sa direction , et plus particulièrement Georges marchais , sont l' objet en ce moment " , Mr Fiterman " proteste avec émotion et indignation contre ce qui apparaît à l' évidence , même si le procédé utilisé est oblique , comme une tentative d' accréditer l' idée que je serais partie prenante de cette campagne " .</text>
+            <annotationSet status="MANUAL" ID="22434">
+                <layer rank="1" name="FE">
+                    <label end="182" start="176" name="Message"/>
+                    <label end="47" start="20" name="Medium"/>
+                    <label end="135" start="128" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18340">
+            <text>Charles Fiterman - son nom est cité sept fois dans cette réponse - , partant des articles de L' Humanité , considère que le danger " serait de retomber dans des comportements dont le mouvement communiste ne connaît que trop les graves conséquences " .</text>
+            <annotationSet status="MANUAL" ID="22470">
+                <layer rank="1" name="FE">
+                    <label end="25" start="19" name="Message"/>
+                    <label end="63" start="51" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

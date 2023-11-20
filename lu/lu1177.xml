@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="influence.n" ID="1177" frame="FR_Influence_of_event_on_cognizer-Subjective_influence" frameID="10035" totalAnnotated="14" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="sit" name="Situation"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ent" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="act" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="beh" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Action"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Activity"/>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Cognizer"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="3844"/>
+                <annoSet ID="14030"/>
+                <annoSet ID="18453"/>
+                <annoSet ID="18482"/>
+                <annoSet ID="20051"/>
+                <annoSet ID="21433"/>
+                <annoSet ID="21436"/>
+                <annoSet ID="22321"/>
+            </pattern>
+            <pattern total="6">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="7861"/>
+                <annoSet ID="14265"/>
+                <annoSet ID="22014"/>
+                <annoSet ID="22159"/>
+                <annoSet ID="24301"/>
+                <annoSet ID="24312"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="14">
+            <FE name="Entity"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Entity"/>
+                <annoSet ID="3844"/>
+                <annoSet ID="14030"/>
+                <annoSet ID="14265"/>
+                <annoSet ID="18482"/>
+                <annoSet ID="20051"/>
+                <annoSet ID="21433"/>
+                <annoSet ID="22014"/>
+                <annoSet ID="22321"/>
+                <annoSet ID="24301"/>
+                <annoSet ID="24312"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Entity"/>
+                <annoSet ID="7861"/>
+                <annoSet ID="18453"/>
+                <annoSet ID="21436"/>
+                <annoSet ID="22159"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Situation"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2958">
+            <text>Iskandar Safa , ainsi que son frère , avait à l' époque permis d' identifier et de mieux comprendre l' influence de certains dignitaires iraniens sur les ravisseurs libanais , et aurait été rémunéré pour ce travail .</text>
+            <annotationSet status="MANUAL" ID="3844">
+                <layer rank="1" name="FE">
+                    <label end="172" start="150" name="Cognizer"/>
+                    <label end="144" start="116" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="103" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5418">
+            <text>Si le petit jeu des luttes d' influence et des batailles de coteries n' a pas été absent des palais ministériels , jusqu' à l' arbitrage final rendu par M. Pierre Bérégovoy ou même souvent par le chef de l' Etat , la logique économique semble bien avoir été plus forte que la logique politique .</text>
+            <annotationSet status="MANUAL" ID="7861">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9982">
+            <text>Elle traduit , primo , l' influence que les grandes nations exercent sur les institutions nationales ou internationales chargées d' accomplir objectivement leurs travaux et , secundo , l' inadaptation des méthodes de calcul macro- économiques à une situation comme celle que nous connaissons aujourd' hui .</text>
+            <annotationSet status="MANUAL" ID="14030">
+                <layer rank="1" name="FE">
+                    <label end="168" start="73" name="Cognizer"/>
+                    <label end="58" start="40" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10146">
+            <text>Les circonstances sont particulièrement douloureuses pour M. Delort puisqu' il avait lui - même mis toute son influence et son énergie pour aider M. Pinault à reprendre Le Printemps lorsque les familles suisses Nordmann et Maus mirent en vente leurs actions , après plusieurs mois de conflits et d' atermoiements , fin 1991 .</text>
+            <annotationSet status="MANUAL" ID="14265">
+                <layer rank="1" name="FE">
+                    <label end="108" start="106" name="Entity"/>
+                    <label end="66" start="58" name="Entity"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14122">
+            <text>Son indépendance doit la protéger de toute influence tendant à la faire diverger de son unique objectif .</text>
+            <annotationSet status="MANUAL" ID="18453">
+                <layer rank="1" name="FE">
+                    <label end="23" start="22" name="Cognizer"/>
+                    <label itype="UNI" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14142">
+            <text>Les influences des lobbies inflationnistes pourront s' exercer d' autant plus facilement que s' imposera la conception française de l' indépendance de la Banque centrale européenne .</text>
+            <annotationSet status="MANUAL" ID="18482">
+                <layer rank="1" name="FE">
+                    <label end="179" start="151" name="Cognizer"/>
+                    <label end="41" start="19" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15879">
+            <text>Cependant , ces temps derniers , on entendait dire qu' il se plaignait : le président ne l' écoutait plus ou pas assez , les ministres courtisans gagnaient en influence , les informations apportées " en direct " par le fort zélé directeur de la DST , M. Jacques Fournet , lui échappaient parfois .</text>
+            <annotationSet status="MANUAL" ID="20051">
+                <layer rank="1" name="FE">
+                    <label end="84" start="73" name="Cognizer"/>
+                    <label end="144" start="121" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17368">
+            <text>Ce qui nous vaut une analyse décapante de l' activité des journalistes , coincés entre les impératifs de la logique commerciale ( influence des annonceurs , importance de l' audience ) et ceux de l' information proprement dite .</text>
+            <annotationSet status="MANUAL" ID="21433">
+                <layer rank="1" name="FE">
+                    <label end="128" start="58" name="Cognizer"/>
+                    <label end="225" start="183" name="Cognizer"/>
+                    <label end="153" start="144" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="138" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17370">
+            <text>Loin d' être vierges de toute influence , les journalistes sont soumis à un conflit entre les idéaux de la profession et les finalités du système : ce dernier vise , selon Michel Mathien , à assurer son autoconservation et favorise une certaine orthodoxie des contenus .</text>
+            <annotationSet status="MANUAL" ID="21436">
+                <layer rank="1" name="FE">
+                    <label end="57" start="42" name="Cognizer"/>
+                    <label itype="UNI" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17938">
+            <text>Il serait tentant de dire que les Balkans sont redevenus les Balkans si l' agitation ne débordait pas à ce point leurs frontières traditionnelles : c' est toute la zone d' influence soviétique et l' URSS elle - même qui se trouvent prises dans des énormes remous .</text>
+            <annotationSet status="MANUAL" ID="22014">
+                <layer rank="1" name="FE">
+                    <label end="191" start="182" name="Entity"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="180" start="172" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18132">
+            <text>Pour que son conseil d' administration ( Board ) " commence à ressembler à l' organe de décision très influent qu' il est devenu " dix premières années de tâtonnements , de retours en arrière , de luttes d' influence ont été nécessaires , comme le rappelle une étude publiée sur le sujet en avril 1989 , par le Fédéral Reserve Bulletin de Washington sous le titre , " The establishment and evolution of the Federal Reserve Board : 1913 - 1923 " .</text>
+            <annotationSet status="MANUAL" ID="22159">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="215" start="207" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18265">
+            <text>L' absence de synthèse préalable au congrès ne faisait plus de doute depuis que Mr François Mitterrand avait déclaré , dans un entretien accordé à l' hebdomadaire du PS , Vendredi , que Mr Fabius était dans son droit en souhaitant mesurer son influence dans le vote des militants ( Le Monde du 12 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="22321">
+                <layer rank="1" name="FE">
+                    <label end="278" start="270" name="Cognizer"/>
+                    <label end="194" start="186" name="Entity"/>
+                    <label end="241" start="239" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="251" start="243" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20674">
+            <text>La perte d' influence de la CGT se vérifie en Seine - Maritime , y compris dans ses bastions du Havre ( moins 2 % ) et surtout d' Elbeuf ( moins 8 % ) , alors que la CFDT recule seulement à Rouen .</text>
+            <annotationSet status="MANUAL" ID="24301">
+                <layer rank="1" name="FE">
+                    <label end="30" start="25" name="Entity"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20701">
+            <text>La CGT subit une nouvelle érosion de son influence , peut - être en raison de la baisse de l' emploi industriel .</text>
+            <annotationSet status="MANUAL" ID="24312">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Entity"/>
+                    <label end="39" start="37" name="Entity"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

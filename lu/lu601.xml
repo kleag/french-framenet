@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="symptôme.n" ID="601" frame="Evidence" frameID="25" totalAnnotated="23" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Proposition"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="805"/>
+                <annoSet ID="1093"/>
+                <annoSet ID="1141"/>
+                <annoSet ID="1238"/>
+                <annoSet ID="1414"/>
+                <annoSet ID="1455"/>
+                <annoSet ID="1484"/>
+                <annoSet ID="1490"/>
+                <annoSet ID="1539"/>
+                <annoSet ID="17182"/>
+                <annoSet ID="19011"/>
+                <annoSet ID="24641"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Proposition"/>
+                <annoSet ID="1265"/>
+                <annoSet ID="1266"/>
+                <annoSet ID="1268"/>
+                <annoSet ID="1270"/>
+                <annoSet ID="1272"/>
+                <annoSet ID="1275"/>
+                <annoSet ID="1470"/>
+                <annoSet ID="1479"/>
+                <annoSet ID="1496"/>
+                <annoSet ID="17184"/>
+                <annoSet ID="24096"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="23">
+            <FE name="Support"/>
+            <pattern total="23">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="805"/>
+                <annoSet ID="1093"/>
+                <annoSet ID="1141"/>
+                <annoSet ID="1238"/>
+                <annoSet ID="1265"/>
+                <annoSet ID="1266"/>
+                <annoSet ID="1268"/>
+                <annoSet ID="1270"/>
+                <annoSet ID="1272"/>
+                <annoSet ID="1275"/>
+                <annoSet ID="1414"/>
+                <annoSet ID="1455"/>
+                <annoSet ID="1470"/>
+                <annoSet ID="1479"/>
+                <annoSet ID="1484"/>
+                <annoSet ID="1490"/>
+                <annoSet ID="1496"/>
+                <annoSet ID="1539"/>
+                <annoSet ID="17182"/>
+                <annoSet ID="17184"/>
+                <annoSet ID="19011"/>
+                <annoSet ID="24096"/>
+                <annoSet ID="24641"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="680">
+            <text>Il convient de surveiller attentivement que les patients ne présentent pas de symptômes et de signes de saignement pendant le traitement , notamment si la bivalirudine est combinée à un autre anticoagulant ( voir Section 4.5 ) .</text>
+            <annotationSet status="MANUAL" ID="805">
+                <layer rank="1" name="FE">
+                    <label end="113" start="75" name="Support"/>
+                    <label end="113" start="104" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1045">
+            <text>Symptômes et instructions en cas de surdosage</text>
+            <annotationSet status="MANUAL" ID="1093">
+                <layer rank="1" name="FE">
+                    <label end="44" start="0" name="Support"/>
+                    <label end="44" start="36" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1118">
+            <text>L' incidence des effets indésirables , tels que fièvre , douleurs musculaires , symptômes pseudo- grippaux , douleurs articulaires et céphalées , survenant dans les trois jours suivant la perfusion , peut être diminuée en administrant du paracétamol ou de l' ibuprofène ( médicaments anti- inflammatoires ) peu après la perfusion d' Aclasta .</text>
+            <annotationSet status="MANUAL" ID="1141">
+                <layer rank="1" name="FE">
+                    <label end="105" start="80" name="Support"/>
+                    <label end="105" start="98" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="88" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1218">
+            <text>Les patients doivent être informés sur les symptômes caractérisant l' hypocalcémie et faire l' objet d' une surveillance clinique appropriée pendant la période à risque .</text>
+            <annotationSet status="MANUAL" ID="1238">
+                <layer rank="1" name="FE">
+                    <label end="81" start="39" name="Support"/>
+                    <label end="81" start="67" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1246">
+            <text>Le pourcentage global de patients qui ont présenté des symptômes survenant après l' administration était de respectivement 44,7 % , 16,7 % et 10,2 % après la première , deuxième et troisième perfusion respectivement .</text>
+            <annotationSet status="MANUAL" ID="1265">
+                <layer rank="1" name="FE">
+                    <label end="97" start="51" name="Support"/>
+                    <label itype="UNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1247">
+            <text>L' incidence individuelle de ces symptômes après la première administration était : fièvre ( 17,1 % ) , myalgie ( 7,8 % ) , syndrome pseudo- grippal ( 6,7 % ) , arthralgie ( 4,8 % ) et céphalée ( 5,1 % ) .</text>
+            <annotationSet status="MANUAL" ID="1266">
+                <layer rank="1" name="FE">
+                    <label end="41" start="29" name="Support"/>
+                    <label itype="UNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1248">
+            <text>L' incidence de ces symptômes a diminué nettement avec les doses sucessives d' Aclasta .</text>
+            <annotationSet status="MANUAL" ID="1268">
+                <layer rank="1" name="FE">
+                    <label end="28" start="16" name="Support"/>
+                    <label itype="UNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1249">
+            <text>La majorité de ces symptômes est survenu dans les trois premiers jours suivant l' administration d' Aclasta , a été d' intensité légère à modérée et a disparu dans les trois jours suivant leur survenue .</text>
+            <annotationSet status="MANUAL" ID="1270">
+                <layer rank="1" name="FE">
+                    <label end="27" start="15" name="Support"/>
+                    <label itype="UNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1250">
+            <text>Le pourcentage de patients présentant des symptômes après l' injection était respectivement de 19,5 % , 10,4 % , 10,7 % après la première , deuxième et troisième perfusion , dans une étude de plus petite taille où le traitement symptomatique décrit ci-dessous avait été utilisé .</text>
+            <annotationSet status="MANUAL" ID="1272">
+                <layer rank="1" name="FE">
+                    <label end="50" start="38" name="Support"/>
+                    <label itype="UNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1251">
+            <text>L' incidence des symptômes survenant dans les trois premiers jours suivant l' administration d' Aclasta peut être diminuée en administrant du paracétamol ou de l' ibuprofène peu après l' administration d' Aclasta ( voir rubrique 4.2 ) .</text>
+            <annotationSet status="MANUAL" ID="1275">
+                <layer rank="1" name="FE">
+                    <label end="102" start="17" name="Support"/>
+                    <label itype="UNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1408">
+            <text>De nombreux patients atteints d' ostéoporose n' ont aucun symptôme , mais ils présentent néanmoins un risque de fracture osseuse car l' ostéoporose a fragilisé leurs os .</text>
+            <annotationSet status="MANUAL" ID="1414">
+                <layer rank="1" name="FE">
+                    <label end="65" start="52" name="Support"/>
+                    <label end="43" start="33" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1461">
+            <text>Votre médecin vous informera des symptômes liés à l' hypocalcémie .</text>
+            <annotationSet status="MANUAL" ID="1455">
+                <layer rank="1" name="FE">
+                    <label end="64" start="33" name="Support"/>
+                    <label end="64" start="50" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1472">
+            <text>Les symptômes sont généralement légers à modérés et disparaissent dans les trois jours .</text>
+            <annotationSet status="MANUAL" ID="1470">
+                <layer rank="1" name="FE">
+                    <label end="12" start="0" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1476">
+            <text>Il n' est pas clairement établi à ce jour qu' Aclasta entraîne ces irrégularités du rythme cardiaque mais en cas de survenue des ces symptômes après avoir reçu Aclasta vous devez en faire part à votre médecin .</text>
+            <annotationSet status="MANUAL" ID="1479">
+                <layer rank="1" name="FE">
+                    <label end="141" start="129" name="Support"/>
+                    <label itype="UNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1481">
+            <text>Chez les patients atteints de la maladie de Paget : symptômes liés à un faible taux de calcium dans le sang , tels que spasmes musculaires , engourdissements ou sensation de fourmillements , particulièrement autour de la bouche .</text>
+            <annotationSet status="MANUAL" ID="1484">
+                <layer rank="1" name="FE">
+                    <label end="226" start="52" name="Support"/>
+                    <label end="106" start="69" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1483">
+            <text>Symptômes pseudo- grippal , insomnie , fatigue , sensations de fourmillements ou de picotements , somnolence , tremblements , perte de connaissance temporaire , troubles du goût , diarrhée , indigestion , douleurs abdominales , bouche sèche , inflammation de l' oesophage , mal de dent , douleurs articulaires , gonflement articulaire , raideurs , troubles du comportement alimentaire , rougeurs , démangeaisons et douleurs au niveau des yeux , douleur thoracique , augmentation de la pression artérielle , bouffées congestives , difficultés respiratoires , éruption cutanée , transpiration , démangeaisons , rougeur de la peau , miction fréquente , augmentation transitoire des taux sériques de créatinine , gonflement des tissus et soif .</text>
+            <annotationSet status="MANUAL" ID="1490">
+                <layer rank="1" name="FE">
+                    <label end="24" start="0" name="Support"/>
+                    <label end="24" start="18" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1489">
+            <text>Prévenez votre médecin ou votre dentiste si vous présentez de tels symptômes .</text>
+            <annotationSet status="MANUAL" ID="1496">
+                <layer rank="1" name="FE">
+                    <label end="75" start="59" name="Support"/>
+                    <label itype="UNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="67" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1526">
+            <text>Les patients doivent être informés des symptômes d' une hypocalcémie et faire l' objet d' une surveillance clinique appropriée pendant la période à risque .</text>
+            <annotationSet status="MANUAL" ID="1539">
+                <layer rank="1" name="FE">
+                    <label end="67" start="39" name="Support"/>
+                    <label end="67" start="52" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12820">
+            <text>Certains parlaient même de veillée d' armes , mettant en avant la tension qui règne sur les taux d' intérêt à court terme , symptôme de fièvre tout à fait prémonitoire ( voir en rubrique Marché monétaire et obligataire ) .</text>
+            <annotationSet status="MANUAL" ID="17182">
+                <layer rank="1" name="FE">
+                    <label end="166" start="124" name="Support"/>
+                    <label end="141" start="136" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12821">
+            <text>Un autre symptôme est la poursuite du drainage des réserves nettes en devises de la Banque de France .</text>
+            <annotationSet status="MANUAL" ID="17184">
+                <layer rank="1" name="FE">
+                    <label end="99" start="22" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14708">
+            <text>Du nord au sud et d' est en ouest de l' Europe ( à l' exception du Royaume - Uni , rescapé depuis peu ) émergent les symptômes d' une crise parmi les plus graves de l' après - guerre .</text>
+            <annotationSet status="MANUAL" ID="19011">
+                <layer rank="1" name="FE">
+                    <label end="181" start="113" name="Support"/>
+                    <label end="181" start="130" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20376">
+            <text>" syndrome : association de plusieurs symptômes , signes ou anomalies (...) [ qui ] traduit l' atteinte d' un organe ou d' un système bien défini .</text>
+            <annotationSet status="MANUAL" ID="24096">
+                <layer rank="1" name="FE">
+                    <label end="68" start="28" name="Support"/>
+                    <label itype="UNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21179">
+            <text>C' est le monde à l' envers et le symptôme le plus criant des distorsions qui affectent l' économie du " géant de l' Afrique " : près de 90 millions d' âmes , un potentiel énorme mais dilapidé par la corruption , un revenu par habitant qui est tombé en dix ans de 1 000 à 250 dollars (1) .</text>
+            <annotationSet status="MANUAL" ID="24641">
+                <layer rank="1" name="FE">
+                    <label end="125" start="31" name="Support"/>
+                    <label end="125" start="62" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

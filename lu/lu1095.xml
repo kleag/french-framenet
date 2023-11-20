@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="formulation.n" ID="1095" frame="FR_Encoding" frameID="10028" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD7C" type="Peripheral" abbrev="Formulation" name="Formulation"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="con" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="8804"/>
+                <annoSet ID="21846"/>
+                <annoSet ID="23336"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Formulation"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="21846"/>
+                <annoSet ID="23336"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="8804"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5940">
+            <text>Dans un second temps , le débat , mené entre les acteurs d' octobre à décembre , devrait aboutir à la fin de l' année à la rédaction d' une synthèse finale et à la formulation de la position française .</text>
+            <annotationSet status="MANUAL" ID="8804">
+                <layer rank="1" name="FE">
+                    <label end="199" start="179" name="Content"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="174" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17774">
+            <text>Par le renforcement de la collaboration axée sur l' objectif de stabilité des prix , par la formulation d' avis adressés aux gouvernements et par sa contribution d' expert à la conférence intergouvernementale , le comité pourra promouvoir le processus de création de l' union économique et monétaire , qui est à mon avis la seule solution envisageable .</text>
+            <annotationSet status="MANUAL" ID="21846">
+                <layer rank="1" name="FE">
+                    <label end="137" start="107" name="Content"/>
+                    <label end="219" start="211" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19377">
+            <text>Il a légiféré par décrets , entretenu l' ambiguïté sur ses intentions dans le contexte des élections libres au moment où beaucoup le soupçonnaient de vouloir " confisquer la révolution " , multiplié les formulations vagues , et s' est montré incapable de rassurer ceux qui trouvaient que trop de dignitaires de l' ancien régime , encore là , risquaient de transformer " le Front de salut national en Front de salut de la nomenklatura " .</text>
+            <annotationSet status="MANUAL" ID="23336">
+                <layer rank="1" name="FE">
+                    <label end="221" start="199" name="Content"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="214" start="203" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

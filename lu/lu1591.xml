@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="raconter.v" ID="1591" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="19" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Addressee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="546"/>
+                <annoSet ID="548"/>
+                <annoSet ID="23114"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="2848"/>
+                <annoSet ID="3721"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="19">
+            <FE name="Message"/>
+            <pattern total="19">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="535"/>
+                <annoSet ID="546"/>
+                <annoSet ID="548"/>
+                <annoSet ID="2848"/>
+                <annoSet ID="3721"/>
+                <annoSet ID="5652"/>
+                <annoSet ID="7619"/>
+                <annoSet ID="13147"/>
+                <annoSet ID="13456"/>
+                <annoSet ID="15061"/>
+                <annoSet ID="19347"/>
+                <annoSet ID="19376"/>
+                <annoSet ID="19776"/>
+                <annoSet ID="19786"/>
+                <annoSet ID="23096"/>
+                <annoSet ID="23112"/>
+                <annoSet ID="23114"/>
+                <annoSet ID="23487"/>
+                <annoSet ID="23502"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="18">
+            <FE name="Speaker"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="535"/>
+                <annoSet ID="546"/>
+                <annoSet ID="548"/>
+                <annoSet ID="3721"/>
+                <annoSet ID="5652"/>
+                <annoSet ID="7619"/>
+                <annoSet ID="13147"/>
+                <annoSet ID="13456"/>
+                <annoSet ID="15061"/>
+                <annoSet ID="19347"/>
+                <annoSet ID="19376"/>
+                <annoSet ID="19776"/>
+                <annoSet ID="19786"/>
+                <annoSet ID="23096"/>
+                <annoSet ID="23114"/>
+                <annoSet ID="23487"/>
+                <annoSet ID="23502"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="23112"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="423">
+            <text>Afin de raconter l' histoire qu' ils ont découverte , les petits et moyens de la classe de Chantal Hetzel , directrice , ont rédigé ce texte eux-mêmes .</text>
+            <annotationSet status="MANUAL" ID="535">
+                <layer rank="1" name="FE">
+                    <label end="117" start="54" name="Message"/>
+                    <label end="50" start="17" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="435">
+            <text>Arturo décide alors de rentrer chez lui pour raconter à ses amis toutes ses aventures .</text>
+            <annotationSet status="MANUAL" ID="546">
+                <layer rank="1" name="FE">
+                    <label end="84" start="65" name="Message"/>
+                    <label end="63" start="56" name="Addressee"/>
+                    <label end="58" start="56" name="Speaker"/>
+                    <label end="5" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="438">
+            <text>Tous en avaient à raconter aux parents à l' heure du déjeuner .</text>
+            <annotationSet status="MANUAL" ID="548">
+                <layer rank="1" name="FE">
+                    <label end="6" start="5" name="Message"/>
+                    <label end="37" start="31" name="Addressee"/>
+                    <label end="3" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2148">
+            <text>Un livre , Pour l' honneur de Théo et des caporaux de Souain , écrit par Jacqueline Laisné , l' institutrice qui prit la suite de Blanche Maupas dans son école , raconte également cette histoire .</text>
+            <annotationSet status="MANUAL" ID="2848">
+                <layer rank="1" name="FE">
+                    <label end="193" start="180" name="Message"/>
+                    <label end="7" start="0" name="Medium"/>
+                    <label end="59" start="11" name="Medium"/>
+                    <label end="158" start="63" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="168" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2843">
+            <text>Il y racontait notamment avoir remis peronnellement des fonds en espèces en 1986 à Jacques Chirac en présence de Michel Roussin .</text>
+            <annotationSet status="MANUAL" ID="3721">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Message"/>
+                    <label end="126" start="25" name="Message"/>
+                    <label end="3" start="3" name="Medium"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4063">
+            <text>" nous lui devons ... Navarro , raconte -t-il .</text>
+            <annotationSet status="MANUAL" ID="5652">
+                <layer rank="1" name="FE">
+                    <label end="28" start="0" name="Message"/>
+                    <label end="44" start="40" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5252">
+            <text>" jusqu' à présent , lors des rachats d' entreprise , on assistait à des parties de poker menteur , ici les coups de poignard n' ont pas manqué " , racontait un acteur de la négociation pour décrire l' ambiance tendue des discussions .</text>
+            <annotationSet status="MANUAL" ID="7619">
+                <layer rank="1" name="FE">
+                    <label end="146" start="0" name="Message"/>
+                    <label end="184" start="158" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9225">
+            <text>" Ce marché particulier a démarré à la fin des années 70 , raconte Francis Werner .</text>
+            <annotationSet status="MANUAL" ID="13147">
+                <layer rank="1" name="FE">
+                    <label end="57" start="0" name="Message"/>
+                    <label end="80" start="67" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9524">
+            <text>" Quand je suis arrivé , raconte ce dernier , l' entreprise était surnommée la luciole , parce que ses hauts fourneaux s' allumaient et s' éteignaient au gré de grèves à répétition .</text>
+            <annotationSet status="MANUAL" ID="13456">
+                <layer rank="1" name="FE">
+                    <label end="23" start="0" name="Message"/>
+                    <label end="181" start="44" name="Message"/>
+                    <label end="42" start="33" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10809">
+            <text>" avec évidence mais discrétion " , raconte l' un des participants à ce pugilat , les allemands font ainsi savoir aux britanniques qu' une dévaluation de la livre est , à leurs yeux , indispensable .</text>
+            <annotationSet status="MANUAL" ID="15061">
+                <layer rank="1" name="FE">
+                    <label end="34" start="0" name="Message"/>
+                    <label end="198" start="80" name="Message"/>
+                    <label end="78" start="44" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15085">
+            <text>" Nous sortons quotidiennement 6 000 mètres cubes d' huile et 18 000 mètres cubes d' eau " , raconte Jean - François Duhot .</text>
+            <annotationSet status="MANUAL" ID="19347">
+                <layer rank="1" name="FE">
+                    <label end="89" start="0" name="Message"/>
+                    <label end="121" start="101" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15127">
+            <text>" Ce projet a connu des hauts et des bas et a été relancé depuis 1986 " , raconte Maurice Comtet , directeur général d' Elf au Nigeria .</text>
+            <annotationSet status="MANUAL" ID="19376">
+                <layer rank="1" name="FE">
+                    <label end="70" start="0" name="Message"/>
+                    <label end="133" start="82" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15536">
+            <text>" Ce qui compte , raconte un directeur financier en train de changer de situation , c' est le niveau de vie qu' on a et la somme globale qu' on touche .</text>
+            <annotationSet status="MANUAL" ID="19776">
+                <layer rank="1" name="FE">
+                    <label end="16" start="0" name="Message"/>
+                    <label end="151" start="82" name="Message"/>
+                    <label end="80" start="26" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15550">
+            <text>" c' est en ces termes que Patrice Lucas raconte sa récente expérience .</text>
+            <annotationSet status="MANUAL" ID="19786">
+                <layer rank="1" name="FE">
+                    <label end="69" start="49" name="Message"/>
+                    <label end="39" start="27" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19049">
+            <text>Nous avons réussi à glisser la Lada - Poch dans une saignée de 3 mètres de large , raconte Christian Tarin .</text>
+            <annotationSet status="MANUAL" ID="23096">
+                <layer rank="1" name="FE">
+                    <label end="79" start="0" name="Message"/>
+                    <label end="105" start="91" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19092">
+            <text>La plus vieille histoire du monde , racontée des milliards de fois , misérable et sublime .</text>
+            <annotationSet status="MANUAL" ID="23112">
+                <layer rank="1" name="FE">
+                    <label end="34" start="0" name="Message"/>
+                    <label end="90" start="67" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19093">
+            <text>Mais lorsqu' elle nous est racontée avec l' intelligence , l' émotion , la simplicité de Joëlle bouvier et Régis Obadia dans ce Welcome to Paradise , il n' en est pas qui nous touche davantage .</text>
+            <annotationSet status="MANUAL" ID="23114">
+                <layer rank="1" name="FE">
+                    <label end="16" start="13" name="Message"/>
+                    <label end="21" start="18" name="Addressee"/>
+                    <label end="118" start="89" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19600">
+            <text>L' erreur de jugement , peut - être volontaire , est en tout cas totale , puisque , avec la privatisation de la première chaîne en 1987 , comme le raconte Mme Dagnaud , " la volonté de s' adapter aux goûts et habitudes du public s' affirme bien davantage .</text>
+            <annotationSet status="MANUAL" ID="23487">
+                <layer rank="1" name="FE">
+                    <label end="134" start="84" name="Message"/>
+                    <label end="253" start="171" name="Message"/>
+                    <label end="145" start="144" name="Message"/>
+                    <label end="165" start="155" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="153" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19621">
+            <text>" Si vous voulez coproduire aisément une fiction avec les gens de TF 1 , raconte un producteur , évitez de leur soumettre l' histoire d' une famille immigrée .</text>
+            <annotationSet status="MANUAL" ID="23502">
+                <layer rank="1" name="FE">
+                    <label end="71" start="0" name="Message"/>
+                    <label end="158" start="95" name="Message"/>
+                    <label end="93" start="81" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

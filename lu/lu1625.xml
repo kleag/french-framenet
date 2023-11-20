@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="décider.v" ID="1625" frame="FR_Suasion.to_do" frameID="10058" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Action" name="Action"/>
+            <FE fgColor="006400" bgColor="FFFF00" type="Core" abbrev="Text" name="Text"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="15261"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="15261"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Persuader"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="15261"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Text"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15832">
+            <text>Aux prises avec des excédents d' électricité - une " avance à l' allumage " de quelques années - et poussée par son président , EDF a su offrir des tarifs sur mesure pour décider le groupe d' aluminium à préférer la France plutôt que l' étranger .</text>
+            <annotationSet status="MANUAL" ID="15261">
+                <layer rank="1" name="FE">
+                    <label end="244" start="204" name="Action"/>
+                    <label end="200" start="179" name="Cognizer"/>
+                    <label end="130" start="128" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="177" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

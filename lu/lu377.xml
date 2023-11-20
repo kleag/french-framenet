@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="rétorquer.v" ID="377" frame="Communication_response" frameID="42" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="7CCD73" type="Peripheral" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Trig" name="Trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="23780"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="3830"/>
+                <annoSet ID="8027"/>
+                <annoSet ID="10570"/>
+                <annoSet ID="11386"/>
+                <annoSet ID="14362"/>
+                <annoSet ID="19608"/>
+                <annoSet ID="20197"/>
+                <annoSet ID="23522"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Message"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="3830"/>
+                <annoSet ID="8027"/>
+                <annoSet ID="10570"/>
+                <annoSet ID="11386"/>
+                <annoSet ID="14362"/>
+                <annoSet ID="19608"/>
+                <annoSet ID="20197"/>
+                <annoSet ID="23522"/>
+                <annoSet ID="23780"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Speaker"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="3830"/>
+                <annoSet ID="8027"/>
+                <annoSet ID="10570"/>
+                <annoSet ID="11386"/>
+                <annoSet ID="14362"/>
+                <annoSet ID="19608"/>
+                <annoSet ID="20197"/>
+                <annoSet ID="23522"/>
+                <annoSet ID="23780"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Trigger"/>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="3830"/>
+                <annoSet ID="8027"/>
+                <annoSet ID="10570"/>
+                <annoSet ID="11386"/>
+                <annoSet ID="14362"/>
+                <annoSet ID="19608"/>
+                <annoSet ID="20197"/>
+                <annoSet ID="23522"/>
+                <annoSet ID="23780"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2951">
+            <text>Les dirigeants de l' époque ainsi que les otages libérés rétorquent qu' il n' y a pas eu de paiement de rançon .</text>
+            <annotationSet status="MANUAL" ID="3830">
+                <layer rank="1" name="FE">
+                    <label end="109" start="72" name="Message"/>
+                    <label end="55" start="0" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5522">
+            <text>Une région atypique , rétorqueront leurs détracteurs ... Dans laquelle habitent quand même dix millions de personnes , soit presque un Français sur cinq !</text>
+            <annotationSet status="MANUAL" ID="8027">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Message"/>
+                    <label end="51" start="35" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7161">
+            <text>Chez Autoliv Klippan , filiale du groupe suédois Electrolux , un des fabricants d' eurobag , on rétorque que celui - ci provoque moins de fumées lors de son déclenchement et qu' il est moins traumatisant .</text>
+            <annotationSet status="MANUAL" ID="10570">
+                <layer rank="1" name="FE">
+                    <label end="172" start="109" name="Message"/>
+                    <label end="202" start="178" name="Message"/>
+                    <label end="94" start="93" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7882">
+            <text>Problèmes de nantis , rétorqueront les autres compagnies , moins chanceuses qu' Elf et , surtout , que Shell .</text>
+            <annotationSet status="MANUAL" ID="11386">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Message"/>
+                    <label end="107" start="35" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10219">
+            <text>A la CGT , on rétorque que le passif du comité d' établissement - y compris le non- versement des cotisations sociales - est " le résultat des suppressions massives d' effectifs " intervenues à l' usine de Billancourt .</text>
+            <annotationSet status="MANUAL" ID="14362">
+                <layer rank="1" name="FE">
+                    <label end="216" start="27" name="Message"/>
+                    <label end="12" start="11" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15347">
+            <text>Non , rétorquent le Comité interprofessionnel du vin de Champagne ( CIVC ) et l' Institut national des appelations d' origine ( INAO ) , décidés à assigner conjointement en justice , mardi 8 juin , la société Yves Saint Laurent .</text>
+            <annotationSet status="MANUAL" ID="19608">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Message"/>
+                    <label end="226" start="17" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16020">
+            <text>" le paysage industriel a changé en dix ans " , rétorque -t-on au ministère de l' industrie et du commerce extérieur , en soulignant l' important mouvement de concentration de l' électroménager en Europe .</text>
+            <annotationSet status="MANUAL" ID="20197">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Message"/>
+                    <label end="61" start="57" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19642">
+            <text>Pourquoi y en aurait -il ? rétorque le professionnel .</text>
+            <annotationSet status="MANUAL" ID="23522">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Message"/>
+                    <label end="51" start="36" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="DNI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="34" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20029">
+            <text>Les plus savants me rétorqueront que les physiciens ne savent pas vraiment non plus ce que sont une masse et une force .</text>
+            <annotationSet status="MANUAL" ID="23780">
+                <layer rank="1" name="FE">
+                    <label end="117" start="37" name="Message"/>
+                    <label end="18" start="17" name="Addressee"/>
+                    <label end="15" start="0" name="Speaker"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

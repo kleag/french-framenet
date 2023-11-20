@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="réagir.v" ID="2441" frame="Response" frameID="1302" totalAnnotated="25" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core-Unexpressed" abbrev="res" name="Response"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="res_e" name="Responding_entity"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="tri" name="Trigger"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="age" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="stt" name="Sentient_trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="25">
+            <FE name="Agent"/>
+            <pattern total="22">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="1747"/>
+                <annoSet ID="2267"/>
+                <annoSet ID="6112"/>
+                <annoSet ID="6457"/>
+                <annoSet ID="7710"/>
+                <annoSet ID="8515"/>
+                <annoSet ID="9562"/>
+                <annoSet ID="14560"/>
+                <annoSet ID="16157"/>
+                <annoSet ID="16973"/>
+                <annoSet ID="17106"/>
+                <annoSet ID="18980"/>
+                <annoSet ID="20397"/>
+                <annoSet ID="20655"/>
+                <annoSet ID="21262"/>
+                <annoSet ID="22399"/>
+                <annoSet ID="22416"/>
+                <annoSet ID="22497"/>
+                <annoSet ID="22502"/>
+                <annoSet ID="23757"/>
+                <annoSet ID="24256"/>
+                <annoSet ID="24800"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="2694"/>
+                <annoSet ID="16253"/>
+                <annoSet ID="19554"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responding_entity"/>
+        </FERealization>
+        <FERealization total="25">
+            <FE name="Response"/>
+            <pattern total="24">
+                <valenceUnit PT="filled" FE="Response"/>
+                <annoSet ID="1747"/>
+                <annoSet ID="2267"/>
+                <annoSet ID="2694"/>
+                <annoSet ID="6112"/>
+                <annoSet ID="6457"/>
+                <annoSet ID="7710"/>
+                <annoSet ID="8515"/>
+                <annoSet ID="9562"/>
+                <annoSet ID="14560"/>
+                <annoSet ID="16157"/>
+                <annoSet ID="16253"/>
+                <annoSet ID="16973"/>
+                <annoSet ID="17106"/>
+                <annoSet ID="18980"/>
+                <annoSet ID="19554"/>
+                <annoSet ID="20397"/>
+                <annoSet ID="20655"/>
+                <annoSet ID="22399"/>
+                <annoSet ID="22416"/>
+                <annoSet ID="22497"/>
+                <annoSet ID="22502"/>
+                <annoSet ID="23757"/>
+                <annoSet ID="24256"/>
+                <annoSet ID="24800"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Response"/>
+                <annoSet ID="21262"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Sentient_trigger"/>
+        </FERealization>
+        <FERealization total="25">
+            <FE name="Trigger"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Trigger"/>
+                <annoSet ID="1747"/>
+                <annoSet ID="2694"/>
+                <annoSet ID="6112"/>
+                <annoSet ID="6457"/>
+                <annoSet ID="7710"/>
+                <annoSet ID="8515"/>
+                <annoSet ID="14560"/>
+                <annoSet ID="16157"/>
+                <annoSet ID="16253"/>
+                <annoSet ID="16973"/>
+                <annoSet ID="17106"/>
+                <annoSet ID="20397"/>
+                <annoSet ID="22399"/>
+                <annoSet ID="22502"/>
+                <annoSet ID="24256"/>
+                <annoSet ID="24800"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="2267"/>
+                <annoSet ID="9562"/>
+                <annoSet ID="18980"/>
+                <annoSet ID="19554"/>
+                <annoSet ID="20655"/>
+                <annoSet ID="21262"/>
+                <annoSet ID="22416"/>
+                <annoSet ID="22497"/>
+                <annoSet ID="23757"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1639">
+            <text>Si les représentants du Conseil avaient un fils , un frère ou un père dans les prisons serbes , ils réagiraient plus vite , croyez -moi !</text>
+            <annotationSet status="MANUAL" ID="1747">
+                <layer rank="1" name="FE">
+                    <label end="92" start="3" name="Trigger"/>
+                    <label end="110" start="100" name="Response"/>
+                    <label end="30" start="3" name="Agent"/>
+                    <label end="98" start="96" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1869">
+            <text>Alors , bien sûr , nous devons réagir , et vite , et nous savons trop bien , hélas , que le prix de nos atermoiements et de nos retards se paie en vies humaines .</text>
+            <annotationSet status="MANUAL" ID="2267">
+                <layer rank="1" name="FE">
+                    <label end="36" start="31" name="Response"/>
+                    <label end="22" start="19" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2058">
+            <text>Parce que ce rapport indique à plusieurs reprises qu' il faut contrôler , qu' il faut réagir au vieillissement de la population - le nombre de personnes âgées ne cesse d' augmenter et cette situation rend difficile le soutien des systèmes de pension - , qu' il faut se montrer vigilants et inviter les États membres à dépenser toujours moins d' argent pour le paiement des pensions des personnes âgées .</text>
+            <annotationSet status="MANUAL" ID="2694">
+                <layer rank="1" name="FE">
+                    <label end="126" start="96" name="Trigger"/>
+                    <label end="91" start="86" name="Response"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4354">
+            <text>Les constructeurs ont réagi à cette phase de ralentissement des ventes en reprenant l' offensive .</text>
+            <annotationSet status="MANUAL" ID="6112">
+                <layer rank="1" name="FE">
+                    <label end="69" start="30" name="Trigger"/>
+                    <label end="95" start="74" name="Response"/>
+                    <label end="16" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4572">
+            <text>Et puis l' enfant sait zapper ; jouer , dès deux ans , du magnétoscope et réagir aux sollicitations diverses de programmes interactifs : certaines notes de téléphone ou de Minitel en témoignent , tout comme l' affluence du courrier de participation aux concours , votes , ou programmes de dédicaces .</text>
+            <annotationSet status="MANUAL" ID="6457">
+                <layer rank="1" name="FE">
+                    <label end="133" start="85" name="Trigger"/>
+                    <label end="79" start="74" name="Response"/>
+                    <label end="16" start="8" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5316">
+            <text>Réagissant à cette décision judiciaire , l' union européenne de CIC - qui a depuis absorbé la BUE - entend faire appel .</text>
+            <annotationSet status="MANUAL" ID="7710">
+                <layer rank="1" name="FE">
+                    <label end="37" start="13" name="Trigger"/>
+                    <label end="117" start="100" name="Response"/>
+                    <label end="98" start="41" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5787">
+            <text>il y a enfin tous les produits qui se targuent de l' épithète naturel , comme ce Lion d' or de la catégorie électronique grand public , obtenu par une agence hollandaise , où une grue ( l' animal ) interloquée réagit face à une enceinte acoustique Sony qui reproduit ses cris .</text>
+            <annotationSet status="MANUAL" ID="8515">
+                <layer rank="1" name="FE">
+                    <label end="274" start="224" name="Trigger"/>
+                    <label end="215" start="210" name="Response"/>
+                    <label end="208" start="175" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="215" start="210" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6394">
+            <text>La Réserve fédérale , déjà adjurée , par ce même président , d' assouplir sa politique , réagissait au quart de tour en abaissant , aussitôt , son taux d' escompte d' un demi - point , à 3 % , au plus bas depuis 1964 et la septième diminution depuis la fin de 1990 .</text>
+            <annotationSet status="MANUAL" ID="9562">
+                <layer rank="1" name="FE">
+                    <label end="263" start="120" name="Response"/>
+                    <label end="85" start="0" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10382">
+            <text>Le CNPF a réagi négativement au vote , par l' Assemblée nationale , d' une disposition obligeant les entreprises à prévoir , dans les plans sociaux , des mesures tendant au reclassement des salariés ( le Monde du 23 décembre ) .</text>
+            <annotationSet status="MANUAL" ID="14560">
+                <layer rank="1" name="FE">
+                    <label end="197" start="32" name="Trigger"/>
+                    <label end="27" start="16" name="Response"/>
+                    <label end="6" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11787">
+            <text>" Zenith Data Systems en a été informée officiellement la veille de Noël , expliquait , lundi 28 décembre , un porte - parole de Bull , mais on attendait les justifications de cette décision le 4 janvier pour réagir .</text>
+            <annotationSet status="MANUAL" ID="16157">
+                <layer rank="1" name="FE">
+                    <label end="189" start="154" name="Trigger"/>
+                    <label end="214" start="209" name="Response"/>
+                    <label end="142" start="141" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="214" start="209" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11918">
+            <text>Longue journée pour M. Jean - Luc Lagardère : les assemblées générales de Matra et Hachette , réunies successivement mardi 29 décembre à la Cité des sciences de La Villette , ont entériné à une écrasante majorité ( plus de 99 % ) la fusion des deux sociétés qu' il dirige , annoncée en mai pour réagir au désastre de La Cinq ( le Monde des 7 mai et 1 octobre ) .</text>
+            <annotationSet status="MANUAL" ID="16253">
+                <layer rank="1" name="FE">
+                    <label end="323" start="305" name="Trigger"/>
+                    <label end="300" start="295" name="Response"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="300" start="295" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12624">
+            <text>Air France a réagi un peu plus tard à cette offensive .</text>
+            <annotationSet status="MANUAL" ID="16973">
+                <layer rank="1" name="FE">
+                    <label end="52" start="38" name="Trigger"/>
+                    <label end="17" start="13" name="Response"/>
+                    <label end="9" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12734">
+            <text>D' une part , les services publics de chaque pays réagissent pour s' adapter à la nouvelle donne .</text>
+            <annotationSet status="MANUAL" ID="17106">
+                <layer rank="1" name="FE">
+                    <label end="95" start="79" name="Trigger"/>
+                    <label end="59" start="50" name="Response"/>
+                    <label end="48" start="14" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14658">
+            <text>Les autres sont donc contraints de réagir et de délocaliser à leur tour .</text>
+            <annotationSet status="MANUAL" ID="18980">
+                <layer rank="1" name="FE">
+                    <label end="70" start="48" name="Response"/>
+                    <label end="9" start="0" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15288">
+            <text>" Nous devons passer un cap douloureux sans toutefois perdre de vue " les objectifs essentiels , dont ceux de la formation , et c' est pourquoi " il faut amener les gens à maintenir leurs efforts " , continue M. Guillen qui propose de réagir " calmement " et , surtout , " de ne pas tout jeter par dessus bord " .</text>
+            <annotationSet status="MANUAL" ID="19554">
+                <layer rank="1" name="FE">
+                    <label end="254" start="235" name="Response"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="240" start="235" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16236">
+            <text>Les actionnaires d' Euronews ont réagi , face à cette mauvaise surprise .</text>
+            <annotationSet status="MANUAL" ID="20397">
+                <layer rank="1" name="FE">
+                    <label end="70" start="48" name="Trigger"/>
+                    <label end="37" start="33" name="Response"/>
+                    <label end="27" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16453">
+            <text>Réagissant rapidement pour redresser leurs ventes , Hürriyet acheta les droits de l' encyclopédie Britannica pour enfants , alors que Milliyet libérait toute sa " une " le 27 novembre pour annoncer en grandes lettres sur fond rouge " le plus important événement culturel du siècle " , la distribution du Grand Larousse , une version plus récente que l' encyclopédie imprimée par Sabah sur du papier de qualité inférieure .</text>
+            <annotationSet status="MANUAL" ID="20655">
+                <layer rank="1" name="FE">
+                    <label end="48" start="0" name="Response"/>
+                    <label end="59" start="52" name="Agent"/>
+                    <label end="141" start="134" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17141">
+            <text>Il ne doit pas perdre son sang - froid , ni réagir comme les chinois , place Tiananmen .</text>
+            <annotationSet status="MANUAL" ID="21262">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="ENI" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18301">
+            <text>Son porte - parole Mr Jacques Roseau , a annoncé cette évolution en réagissant aux voeux de Nouvel An de Mr François Mitterrand .</text>
+            <annotationSet status="MANUAL" ID="22399">
+                <layer rank="1" name="FE">
+                    <label end="126" start="83" name="Trigger"/>
+                    <label end="126" start="68" name="Response"/>
+                    <label end="35" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18316">
+            <text>Dans une interview publiée , samedi , par le Figaro , Mr Juppé réagit sur un ton plus modéré que celui de ses premières répliques en demeurant toutefois très ferme : " En me désignant à la vindicte publique on cherche à me déstabiliser , mais également à déstabiliser Jacques Chirac .</text>
+            <annotationSet status="MANUAL" ID="22416">
+                <layer rank="1" name="FE">
+                    <label end="68" start="63" name="Response"/>
+                    <label end="61" start="54" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18370">
+            <text>Déphasé , par rapport à son glorieux passé gaulliste , son état - major a réagi de façon épidermique , à la manière d' une garde bonapartiste , alors que l' initiative prise par Charles Pasqua et Philippe Séguin apparaît des plus banales au regard des pratiques courantes dans n' importe quel autre parti , à l' exception , toujours , du Parti communiste .</text>
+            <annotationSet status="MANUAL" ID="22497">
+                <layer rank="1" name="FE">
+                    <label end="99" start="74" name="Response"/>
+                    <label end="70" start="55" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="78" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18372">
+            <text>Si , lorsqu' ils étalent leurs divergences , les dirigeants socialistes réagissaient avec la même violence verbale que celle qui a été opposée par le carré chiraquien à Charles Pasqua et à Philippe Séguin , il y a longtemps , par exemple , pour ne parler que du présent , que Laurent Fabius et Lionel Jospin en seraient venus aux mains .</text>
+            <annotationSet status="MANUAL" ID="22502">
+                <layer rank="1" name="FE">
+                    <label end="41" start="13" name="Trigger"/>
+                    <label end="203" start="90" name="Response"/>
+                    <label end="70" start="45" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20017">
+            <text>Tout indique , d' un autre côté , que les risques de dérapage sont actuellement suffisamment graves en Allemagne ( à cause , notamment , de la démagogie du gouvernement Kohl et des syndicats ouest - allemands fraîchement installés à l' Est ) pour qu' on laisse la Bundesbank réagir pendant qu' il en est , peut - être , encore temps .</text>
+            <annotationSet status="MANUAL" ID="23757">
+                <layer rank="1" name="FE">
+                    <label end="280" start="275" name="Response"/>
+                    <label end="273" start="261" name="Agent"/>
+                    <label itype="DNI" name="Trigger"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="280" start="275" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20556">
+            <text>Les actionnaires réagissaient ainsi négativement au prix retenu pour l' augmentation de capital qu' ils jugent trop bas par rapport aux récents cours de Bourse .</text>
+            <annotationSet status="MANUAL" ID="24256">
+                <layer rank="1" name="FE">
+                    <label end="158" start="52" name="Trigger"/>
+                    <label end="28" start="17" name="Response"/>
+                    <label end="47" start="36" name="Response"/>
+                    <label end="15" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21407">
+            <text>Comment avez -vous réagi à cette annonce ?</text>
+            <annotationSet status="MANUAL" ID="24800">
+                <layer rank="1" name="FE">
+                    <label end="39" start="27" name="Trigger"/>
+                    <label end="23" start="19" name="Response"/>
+                    <label end="17" start="13" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

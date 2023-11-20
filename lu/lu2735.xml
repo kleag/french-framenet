@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="à l'appel de.prep" ID="2735" frame="FR_Attempt_suasion.to_do" frameID="10004" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Persuader"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Action"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="4971"/>
+                <annoSet ID="6079"/>
+                <annoSet ID="7520"/>
+                <annoSet ID="16763"/>
+                <annoSet ID="18993"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="4971"/>
+                <annoSet ID="7520"/>
+                <annoSet ID="16763"/>
+                <annoSet ID="18993"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="6079"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Persuader"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Persuader"/>
+                <annoSet ID="4971"/>
+                <annoSet ID="6079"/>
+                <annoSet ID="7520"/>
+                <annoSet ID="16763"/>
+                <annoSet ID="18993"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3653">
+            <text>- A peine terminé le réveillon , les dockers ont entamé , jeudi 2 janvier , leur onzième action de grève en moins de trois mois , à l' appel de la CGT , pour protester contre le projet de réforme de leur statut .</text>
+            <annotationSet status="MANUAL" ID="4971">
+                <layer rank="1" name="FE">
+                    <label end="128" start="0" name="Action"/>
+                    <label end="211" start="151" name="Action"/>
+                    <label end="43" start="33" name="Cognizer"/>
+                    <label end="149" start="144" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="142" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4336">
+            <text>La diffusion des prévisions météorologiques était fortement perturbée , mardi 7 janvier , par le mouvement de grève nationale de trente - six heures déclenché la veille au soir , à l' appel des délégués CGT , CFDT et FO du personnel technique de Météo - France .</text>
+            <annotationSet status="MANUAL" ID="6079">
+                <layer rank="1" name="FE">
+                    <label end="177" start="94" name="Action"/>
+                    <label end="259" start="220" name="Action"/>
+                    <label end="259" start="194" name="Persuader"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="192" start="179" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5185">
+            <text>Les agriculteurs se sont largement mobilisés , mardi 30 juin , à l' appel de la FNSEA et du CNJA , pour exprimer leurs craintes à propos des effets de la réforme de la politique agricole commune ( PAC ) , en organisant dans la quasi- totalité des régions des barrages de routes - souvent en même temps que les camionneurs - ou de voies ferrées , des manifestations , ou le blocage du centre de certaines villes .</text>
+            <annotationSet status="MANUAL" ID="7520">
+                <layer rank="1" name="FE">
+                    <label end="61" start="0" name="Action"/>
+                    <label end="411" start="97" name="Action"/>
+                    <label end="15" start="0" name="Cognizer"/>
+                    <label end="87" start="77" name="Persuader"/>
+                    <label end="95" start="92" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12426">
+            <text>Après la trêve des fêtes , tous se retrouveront à l' appel du chancelier Kohl pour définir en commun un " pacte de solidarité " .</text>
+            <annotationSet status="MANUAL" ID="16763">
+                <layer rank="1" name="FE">
+                    <label end="46" start="0" name="Action"/>
+                    <label end="128" start="78" name="Action"/>
+                    <label end="30" start="27" name="Cognizer"/>
+                    <label end="76" start="62" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14682">
+            <text>- Syndicats : pour la première fois trois mille petits patrons défilent à l' appel de leurs organisations représentatives , défilé qui sera suivi , le 5 , par la manifestation à Paris de 20 000 artisans , commerçants et petits patrons , lesquels se heurteront aux forces de l' ordre .</text>
+            <annotationSet status="MANUAL" ID="18993">
+                <layer rank="1" name="FE">
+                    <label end="70" start="14" name="Action"/>
+                    <label end="61" start="36" name="Cognizer"/>
+                    <label end="120" start="86" name="Persuader"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

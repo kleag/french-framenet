@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="démarrer.v" ID="901" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Cause"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="13381"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="17817"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Effect"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="13381"/>
+                <annoSet ID="17817"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="9474">
+            <text>Un peu moins d' un an après cette décision , la commercialisation des automobiles coréennes démarre en France .</text>
+            <annotationSet status="MANUAL" ID="13381">
+                <layer rank="1" name="FE">
+                    <label end="41" start="28" name="Cause"/>
+                    <label end="90" start="45" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="98" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13500">
+            <text>Enfin la libéralisation économique a du mal à démarrer dans un pays encore soumis à un régime totalitaire .</text>
+            <annotationSet status="MANUAL" ID="17817">
+                <layer rank="1" name="FE">
+                    <label end="33" start="6" name="Effect"/>
+                    <label itype="UNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14182">
+            <text>Une entreprise de conditionnement , France - Maîtrise , serait d' accord pour démarrer une entreprise d' insertion sur la commune .</text>
+            <annotationSet status="MANUAL" ID="18525">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

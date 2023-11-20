@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="affirmation.n" ID="1517" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Message"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="11464"/>
+                <annoSet ID="16917"/>
+                <annoSet ID="18396"/>
+                <annoSet ID="22965"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Message"/>
+                <annoSet ID="18366"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="11464"/>
+                <annoSet ID="16917"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="18366"/>
+                <annoSet ID="18396"/>
+                <annoSet ID="22965"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="1888"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1721">
+            <text>Les droits de l' homme constituent un sujet qui se prête à des affirmations de principe faciles et générales et qui risque souvent d' être considéré comme une aumône commode et utile .</text>
+            <annotationSet status="MANUAL" ID="1888">
+                <layer rank="1" name="FE">
+                    <label end="46" start="44" name="Topic"/>
+                    <label end="57" start="35" name="Topic"/>
+                    <label end="181" start="109" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="63" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7931">
+            <text>Non satisfaite en quantité , la demande ne l' est pas non plus en qualité : " Contrairement aux affirmations officielles , la surface de nos logements est trop faible . "</text>
+            <annotationSet status="MANUAL" ID="11464">
+                <layer rank="1" name="FE">
+                    <label end="119" start="96" name="Message"/>
+                    <label end="119" start="109" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12543">
+            <text>" Prudente , la juridiction fédérale précise " qu' elle ne met pas forcément en cause l' affirmation de l' US Air Force selon laquelle l' offre de ZDS est la meilleure possible .</text>
+            <annotationSet status="MANUAL" ID="16917">
+                <layer rank="1" name="FE">
+                    <label end="175" start="135" name="Message"/>
+                    <label end="175" start="86" name="Message"/>
+                    <label end="118" start="104" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="89" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14039">
+            <text>La sécurité des approvisionnements des Douze , hormis quelques rares métaux des régions australes ( le platine ) ne passe guère par l' Afrique , et la surproduction mondiale , aggravée par les ventes à tout va de l' ex- Union soviétique , affaiblit encore cette affirmation .</text>
+            <annotationSet status="MANUAL" ID="18366">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Message"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="272" start="262" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14064">
+            <text>Plus décourageante encore est l' affirmation qu' il n' y a pas de " remède économique propre à la France " .</text>
+            <annotationSet status="MANUAL" ID="18396">
+                <layer rank="1" name="FE">
+                    <label end="105" start="49" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18892">
+            <text>Une affirmation que les juges démentiront quand , le 30 avril 1949 , ils décideront le classement pur et simple de la procédure entamée dès la Libération .</text>
+            <annotationSet status="MANUAL" ID="22965">
+                <layer rank="1" name="FE">
+                    <label end="154" start="0" name="Message"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

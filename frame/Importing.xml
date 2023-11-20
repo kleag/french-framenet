@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Importing" ID="1567" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;An &lt;fen&gt;Importer&lt;/fen&gt; receives &lt;fen&gt;Goods&lt;/fen&gt; from an &lt;fen&gt;Exporting_area&lt;/fen&gt;, across a boundary or border to a different area, the &lt;fen&gt;Importing_area&lt;/fen&gt;.  The &lt;fen&gt;Path&lt;/fen&gt; along which the &lt;fen&gt;Goods&lt;/fen&gt; pass may also be indicated. 
+
+&lt;ex&gt;&lt;fex name="Importer"&gt;The U.S.&lt;/fex&gt; &lt;t&gt;imported&lt;/t&gt; &lt;fex name="Goods"&gt;some wheat&lt;/fex&gt; &lt;fex name="Time"&gt;in the period&lt;/fex&gt;, although it exported about ten times as much.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="Importer"&gt;We&lt;/fex&gt; &lt;t&gt;import&lt;/t&gt; &lt;fex name="Goods"&gt;most of the Tahitian seashells&lt;/fex&gt; &lt;fex name="Path"&gt;through Japan&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;&lt;t&gt;Importation&lt;/t&gt; &lt;fex name="Goods"&gt;of wildlife&lt;/fex&gt; has gotten more difficult. &lt;fex name="Importer"&gt;INI&lt;/fex&gt; &lt;fex name="Importing_area"&gt;INI&lt;/fex&gt; &lt;fex name="Exporting_area"&gt;INI&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="07/15/2005 04:42:46 PDT Fri" abbrev="Agt" name="Importer" ID="8540">
+        <definition>&lt;def-root&gt;The conscious entity, generally a person, that brings the &lt;fen&gt;Goods&lt;/fen&gt; into the &lt;fen&gt;Importing_area&lt;/fen&gt;.  
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="07/15/2005 04:42:46 PDT Fri" abbrev="Goods" name="Goods" ID="8544">
+        <definition>&lt;def-root&gt;The items of value whose location is changing.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="07/15/2005 04:42:46 PDT Fri" abbrev="Goal" name="Importing_area" ID="8549">
+        <definition>&lt;def-root&gt;The FE &lt;fen&gt;Importing_area&lt;/fen&gt; is the place that the &lt;fen&gt;Goods&lt;/fen&gt; end up as a result of motion.
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="07/15/2005 04:42:46 PDT Fri" abbrev="Src" name="Exporting_area" ID="8551">
+        <definition>&lt;def-root&gt;The place where the &lt;fen&gt;Goods&lt;/fen&gt; are initially, before the being moved.
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses">
+        <relatedFrame>Import_export</relatedFrame>
+        <relatedFrame>Commerce_buy</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Used by"/>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="n" name="import.n" ID="1885" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101018" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="importation.n" ID="1886" nbocc="79" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="79"/>
+        <otherlexUnit framename="Other_sense" ID="101019" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="importer.v" ID="1887" nbocc="41" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="31"/>
+        <otherlexUnit framename="Other_sense" ID="101020" annotatedsent="11"/>
+    </lexUnit>
+</frame>

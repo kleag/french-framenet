@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="voir d'un mauvais oeil.v" ID="882" frame="FR_Being_in_favor_of" frameID="10007" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="8821"/>
+                <annoSet ID="9804"/>
+                <annoSet ID="14706"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="8821"/>
+                <annoSet ID="14706"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Side"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Side"/>
+                <annoSet ID="9804"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5949">
+            <text>D' un autre côté , certains Etats membres pourraient voir d' un mauvais oeil le surcoût engendré par une amélioration de leurs services nationaux .</text>
+            <annotationSet status="MANUAL" ID="8821">
+                <layer rank="1" name="FE">
+                    <label end="144" start="77" name="Content"/>
+                    <label end="40" start="19" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="75" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6568">
+            <text>Fini le temps où les Français voyaient d' un mauvais oeil les " multinationales " qui dans le secret et l' anonymat décident de tout et " éventrent l' économie française " , comme le disaient les socialistes d' avant 1981 .</text>
+            <annotationSet status="MANUAL" ID="9804">
+                <layer rank="1" name="FE">
+                    <label end="28" start="17" name="Cognizer"/>
+                    <label end="220" start="58" name="Side"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10504">
+            <text>Les grandes compagnies américaines voyaient d' un mauvais oeil l' incursion du britannique sur leur territoire et demandaient , en contrepartie , l' assouplissement de l' accord bilatéral de 1977 entre les deux pays qui limite la concurrence américaine sur le territoire de la Grande - Bretagne .</text>
+            <annotationSet status="MANUAL" ID="14706">
+                <layer rank="1" name="FE">
+                    <label end="109" start="63" name="Content"/>
+                    <label end="33" start="0" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="professer.v" ID="1587" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Message"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="24636"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="19673"/>
+                <annoSet ID="24636"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="23774"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Topic"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="19673"/>
+                <annoSet ID="23774"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="15421">
+            <text>Il professe donc un libéralisme n' ayant pas grand - chose à voir avec celui , par exemple , de Margaret Thatcher .</text>
+            <annotationSet status="MANUAL" ID="19673">
+                <layer rank="1" name="FE">
+                    <label end="112" start="17" name="Topic"/>
+                    <label end="1" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20025">
+            <text>Mais , quand on se rappelle la conviction avec laquelle les idées aujourd' hui rejetées étaient professées , on ne peut s' empêcher de se poser la question : quels sont les thèmes développés aujourd' hui avec une assurance apparemment aussi affirmée ( l' arrogance en moins ) dont on est en droit de se méfier ?</text>
+            <annotationSet status="MANUAL" ID="23774">
+                <layer rank="1" name="FE">
+                    <label end="86" start="56" name="Topic"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21175">
+            <text>" Le Nigeria est le pays des miracles , professe une Américaine qui y travaille depuis trente ans .</text>
+            <annotationSet status="MANUAL" ID="24636">
+                <layer rank="1" name="FE">
+                    <label end="38" start="0" name="Message"/>
+                    <label end="96" start="49" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

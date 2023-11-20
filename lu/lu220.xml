@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="issue.n" ID="220" frame="Causation" frameID="5" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Cause"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="4315"/>
+                <annoSet ID="5549"/>
+                <annoSet ID="9963"/>
+                <annoSet ID="13462"/>
+                <annoSet ID="16777"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="17860"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Effect"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="4315"/>
+                <annoSet ID="5549"/>
+                <annoSet ID="9963"/>
+                <annoSet ID="13462"/>
+                <annoSet ID="16777"/>
+                <annoSet ID="17860"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3278">
+            <text>Ils écoutent les explications du PDG , sur l' intransigeance du CSA qui ne laissait d' autre issue que le dépôt de bilan , sur la procédure qui va être suivie , sur la prochaine nomination d' un administrateur judiciaire .</text>
+            <annotationSet status="MANUAL" ID="4315">
+                <layer rank="1" name="FE">
+                    <label end="82" start="43" name="Cause"/>
+                    <label end="119" start="103" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3997">
+            <text>Un tel désaccord au sein du gouvernement laisse mal augurer du sort des accords salariaux , dont l' issue est susceptible d' influencer la tenue du mark et l' attitude de la Bundesbank .</text>
+            <annotationSet status="MANUAL" ID="5549">
+                <layer rank="1" name="FE">
+                    <label end="183" start="72" name="Cause"/>
+                    <label end="95" start="92" name="Cause"/>
+                    <label end="104" start="97" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="104" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6686">
+            <text>Il est difficile d' en prévoir l' issue ainsi que les conséquences économiques .</text>
+            <annotationSet status="MANUAL" ID="9963">
+                <layer rank="1" name="FE">
+                    <label end="21" start="20" name="Cause"/>
+                    <label end="38" start="31" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9526">
+            <text>Son annonce a provoqué une grève de 32 jours en juillet - août 1990 , la plus longue de l' histoire de l' entreprise , pour une issue traumatisante : la direction n' a fait aucune concession et avait retenu les journées de grève sur les salaires et les congés .</text>
+            <annotationSet status="MANUAL" ID="13462">
+                <layer rank="1" name="FE">
+                    <label end="43" start="23" name="Cause"/>
+                    <label end="146" start="124" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="128" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12441">
+            <text>Au sein de l' ARRCO , qui régit les retraites complémentaires des salariés du secteur privé , l' augmentation de la valeur du point dépend de l' issue des négociations , toujours en cours , sur le renouvellement des " paramètres " de fonctionnement de ce régime .</text>
+            <annotationSet status="MANUAL" ID="16777">
+                <layer rank="1" name="FE">
+                    <label end="260" start="155" name="Cause"/>
+                    <label end="260" start="142" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13530">
+            <text>L' issue la plus probable est la mise en jachère des moins bonnes terres avec , à la clef , concentration accrue des moyens de production sur les meilleures .</text>
+            <annotationSet status="MANUAL" ID="17860">
+                <layer rank="1" name="FE">
+                    <label end="71" start="30" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

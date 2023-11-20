@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prévenir.v" ID="2627" frame="Preventing" frameID="516" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Pre" name="Preventing_cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Event" name="Event"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Age" name="Agent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Agent"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="717"/>
+                <annoSet ID="5817"/>
+                <annoSet ID="5873"/>
+                <annoSet ID="13957"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Event"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Event"/>
+                <annoSet ID="437"/>
+                <annoSet ID="707"/>
+                <annoSet ID="709"/>
+                <annoSet ID="717"/>
+                <annoSet ID="729"/>
+                <annoSet ID="736"/>
+                <annoSet ID="1453"/>
+                <annoSet ID="5817"/>
+                <annoSet ID="5873"/>
+                <annoSet ID="13957"/>
+                <annoSet ID="20725"/>
+                <annoSet ID="21075"/>
+                <annoSet ID="21646"/>
+                <annoSet ID="22178"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Event"/>
+                <annoSet ID="2545"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Preventing_cause"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Preventing_cause"/>
+                <annoSet ID="707"/>
+                <annoSet ID="709"/>
+                <annoSet ID="717"/>
+                <annoSet ID="729"/>
+                <annoSet ID="736"/>
+                <annoSet ID="1453"/>
+                <annoSet ID="5873"/>
+                <annoSet ID="21075"/>
+                <annoSet ID="21646"/>
+                <annoSet ID="22178"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Preventing_cause"/>
+                <annoSet ID="437"/>
+                <annoSet ID="2545"/>
+                <annoSet ID="20725"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="336">
+            <text>Pour éviter une reprise du feu mais aussi pour prévenir des actes malveillants " constatait Martial Bourquin .</text>
+            <annotationSet status="MANUAL" ID="437">
+                <layer rank="1" name="FE">
+                    <label end="77" start="56" name="Event"/>
+                    <label itype="DNI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="539">
+            <text>Il est utilisé en conjonction avec de l' aspirine et du clopidogel ( médicaments contribuant à prévenir les caillots sanguins ) chez les patients sur le point de subir un traitement pour leur SCA , comme un traitement médicamenteux , subissant une angioplastie ou un pontage coronarien .</text>
+            <annotationSet status="MANUAL" ID="707">
+                <layer rank="1" name="FE">
+                    <label end="124" start="104" name="Event"/>
+                    <label end="93" start="69" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="541">
+            <text>Angiox est aussi utilisé pour prévenir la formation de caillots sanguins chez les patients qui vont subir une ICP .</text>
+            <annotationSet status="MANUAL" ID="709">
+                <layer rank="1" name="FE">
+                    <label end="112" start="39" name="Event"/>
+                    <label end="5" start="0" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="549">
+            <text>Lorsqu' il est utilisé pour prévenir la formation de caillots sanguins chez les patients subissant une ICP , une dose plus élevée d' Angiox est utilisée , et la perfusion peut être poursuivie jusqu' à quatre heures après la procédure .</text>
+            <annotationSet status="MANUAL" ID="717">
+                <layer rank="1" name="FE">
+                    <label end="9" start="8" name="Preventing_cause"/>
+                    <label end="138" start="133" name="Agent"/>
+                    <label end="105" start="37" name="Event"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="564">
+            <text>Pour le traitement des SCA , l' étude principale a porté sur près de 14 000 patients et a comparé l' efficacité de Angiox , pris seul ou avec un inhibiteur de la glycoprotéine IIb/IIIa ( inhibiteur de GP , un autre type de médicament contribuant à prévenir la formation de caillots ) , avec le traitement standard en combinaison avec de l' héparine ( un autre anticoagulant ) et un inhibiteur de GP .</text>
+            <annotationSet status="MANUAL" ID="729">
+                <layer rank="1" name="FE">
+                    <label end="280" start="257" name="Event"/>
+                    <label end="246" start="223" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="255" start="248" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="572">
+            <text>Lorsqu' il a été utilisé pour le traitement de SCA , Angiox , administré avec ou sans inhibiteur de GP , a été aussi efficace que le traitement standard pour prévenir l' apparition globale de nouveaux événements ( décès , crises cardiaques ou revascularisations ) après 30 jours et après un an .</text>
+            <annotationSet status="MANUAL" ID="736">
+                <layer rank="1" name="FE">
+                    <label end="292" start="167" name="Event"/>
+                    <label end="101" start="53" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1460">
+            <text>Il est important de suivre attentivement son conseil afin de prévenir une trop grande diminution de la calcémie ( taux de calcium dans le sang ) au cours de la période suivant la perfusion .</text>
+            <annotationSet status="MANUAL" ID="1453">
+                <layer rank="1" name="FE">
+                    <label end="143" start="70" name="Event"/>
+                    <label end="59" start="20" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1983">
+            <text>Monsieur le Président , chers collègues , Madame le rapporteur , comme dit le proverbe : mieux vaut prévenir que guérir .</text>
+            <annotationSet status="MANUAL" ID="2545">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Event"/>
+                    <label itype="UNI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4155">
+            <text>C' est le rôle de l' Etat , amplement souligné par Keynes mais aussi par certains de ses prédécesseurs , que de rétablir la confiance lors d' une récession et de prévenir ainsi des enchaînements cumulatifs à la baisse .</text>
+            <annotationSet status="MANUAL" ID="5817">
+                <layer rank="1" name="FE">
+                    <label end="216" start="177" name="Event"/>
+                    <label end="24" start="18" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="169" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4184">
+            <text>Le financement monétaire de la part automatique du déficit serait par définition une mesure temporaire ; car , en phase de haute conjoncture , l' Etat devrait utiliser son excédent pour rembourser les prêts et contribuer à prévenir la surchauffe en réduisant la liquidité .</text>
+            <annotationSet status="MANUAL" ID="5873">
+                <layer rank="1" name="FE">
+                    <label end="270" start="249" name="Preventing_cause"/>
+                    <label end="149" start="143" name="Agent"/>
+                    <label end="244" start="232" name="Event"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="230" start="223" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9930">
+            <text>Si nous voulons prévenir une déchirure du corps social et corrélativement une rupture dans l' aménagement du territoire , nous avons le droit d' alléger courageusement les charges fiscales et sociales qui pèsent sur les activités marchandes réalisées sur notre propre territoire .</text>
+            <annotationSet status="MANUAL" ID="13957">
+                <layer rank="1" name="FE">
+                    <label end="118" start="25" name="Event"/>
+                    <label end="6" start="3" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16548">
+            <text>Officiellement justifié par les nécessités de prévenir la résurgence du fascisme , son projet avait provoqué une levée de boucliers à la fois parmi l' opposition et chez ses partenaires de la coalition gouvernementale .</text>
+            <annotationSet status="MANUAL" ID="20725">
+                <layer rank="1" name="FE">
+                    <label end="79" start="55" name="Event"/>
+                    <label itype="ENI" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16959">
+            <text>Le ministre d' état , ministre des affaires étrangères , a présenté au conseil des ministres un projet de loi autorisant l' approbation d' une convention entre le gouvernement de la république française et le gouvernement de la république italienne en vue d' éviter les doubles impositions en matière d' impôts sur le revenu et sur la fortune , et de prévenir l' évasion de la fraude fiscale .</text>
+            <annotationSet status="MANUAL" ID="21075">
+                <layer rank="1" name="FE">
+                    <label end="390" start="360" name="Event"/>
+                    <label end="247" start="93" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="358" start="351" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17594">
+            <text>Pour prévenir d' éventuelles fuites , le rapport recommande alors certains principes de confidentialité .</text>
+            <annotationSet status="MANUAL" ID="21646">
+                <layer rank="1" name="FE">
+                    <label end="34" start="14" name="Event"/>
+                    <label end="102" start="66" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18149">
+            <text>Non seulement le système de Réserve fédérale n' avait pu prévenir la catastrophe , mais la plupart des économistes s' accordent pour penser qu' il a beaucoup contribué , par des décisions intempestives , à la déclencher .</text>
+            <annotationSet status="MANUAL" ID="22178">
+                <layer rank="1" name="FE">
+                    <label end="79" start="66" name="Event"/>
+                    <label end="43" start="14" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

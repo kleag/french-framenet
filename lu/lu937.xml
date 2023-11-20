@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="dialogue.n" ID="937" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="18" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Interlocutor_1"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Interlocutor_1"/>
+                <annoSet ID="7145"/>
+                <annoSet ID="24857"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Interlocutor_2"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Interlocutor_2"/>
+                <annoSet ID="5068"/>
+                <annoSet ID="7145"/>
+                <annoSet ID="24857"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Interlocutors"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="7722"/>
+                <annoSet ID="9613"/>
+                <annoSet ID="20499"/>
+                <annoSet ID="22387"/>
+                <annoSet ID="23159"/>
+                <annoSet ID="24164"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Interlocutors"/>
+                <annoSet ID="21536"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="7145"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Message"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="168"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="139">
+            <text>Dans un premier temps , ils ont étudié les dialogues du livre et en ont extrait quelques-uns pour mieux les mettre en scène .</text>
+            <annotationSet status="MANUAL" ID="168">
+                <layer rank="1" name="FE">
+                    <label end="60" start="39" name="Message"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3722">
+            <text>- dialogue avec les organisations syndicales .</text>
+            <annotationSet status="MANUAL" ID="5068">
+                <layer rank="1" name="FE">
+                    <label end="43" start="16" name="Interlocutor_2"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="2" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4963">
+            <text>La CGT a estimé , mercredi 15 janvier , que " le dialogue n' était pas rompu " avec les pouvoirs publics sur le dossier de la réforme du statut des dockers , mais elle maintient ses mots d' ordre de grève de quarante - huit heures toutes les semaines pour s' opposer au projet gouvernemental .</text>
+            <annotationSet status="MANUAL" ID="7145">
+                <layer rank="1" name="FE">
+                    <label end="154" start="109" name="Topic"/>
+                    <label end="103" start="84" name="Interlocutor_2"/>
+                    <label end="5" start="0" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5324">
+            <text>Il y a en effet bien longtemps que ce dialogue tripartite , tel que l' avait conçu Harold Macmillan en 1962 , était devenu un dialogue de sourds .</text>
+            <annotationSet status="MANUAL" ID="7722">
+                <layer rank="1" name="FE">
+                    <label end="56" start="47" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6137">
+            <text>Avant l' ouverture à Bruxelles du sommet du dialogue social européen , les partenaires sociaux affirment leur attachement à " la promotion d' une Europe facteur de progrès et de prospérité économique et sociale , constituant une zone de stabilité et de référence dans le monde " .</text>
+            <annotationSet status="MANUAL" ID="9125">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6428">
+            <text>On redoutait l' éventualité de grèves dans les mines de platine , les responsables syndicaux ayant lancé un mot d' ordre pour le 3 août si le dialogue ne reprenait pas entre les parties prenantes .</text>
+            <annotationSet status="MANUAL" ID="9613">
+                <layer rank="1" name="FE">
+                    <label end="194" start="174" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="142" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7041">
+            <text>Le mouvement de blocage des routes par les transporteurs routiers est une nouvelle occasion de vérifier l' inefficacité des " corps intermédiaires " , ces organisations sans lesquelles concertation et dialogue social ne peuvent guère dépasser le stade de la bonne intention .</text>
+            <annotationSet status="MANUAL" ID="10437">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="208" start="201" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7046">
+            <text>Conscientes que le dialogue social est la condition essentielle de leur efficacité , certaines entreprises en sont réduites à tenter de le revitaliser en instaurant des formules de " chèque syndical " ...</text>
+            <annotationSet status="MANUAL" ID="10442">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7052">
+            <text>Dans ces conditions , les plaidoyers rituels en faveur du dialogue social risquent encore d' apparaître comme un exercice de style gratuit .</text>
+            <annotationSet status="MANUAL" ID="10448">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8461">
+            <text>Le dialogue social est intégré dans les rouages profonds de la cogestion allemande .</text>
+            <annotationSet status="MANUAL" ID="12075">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10970">
+            <text>L' " accord à vivre " , instrument de dialogue social autant que de productivité ( à Douai , on arrête la production au milieu de la journée pendant vingt minutes une fois par mois pour discuter des problèmes d' organisation du travail ) , n' a pourtant pas résolu tous les conflits .</text>
+            <annotationSet status="MANUAL" ID="15222">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16328">
+            <text>Les dockers CGT du port de Marseille - Fos et leurs employeurs ont renoué le dialogue sous l' égide du président de la chambre de commerce et d' industrie , M. Henri Roux - Alezais , qui juge les résultats déjà obtenus " très positifs " .</text>
+            <annotationSet status="MANUAL" ID="20499">
+                <layer rank="1" name="FE">
+                    <label end="61" start="0" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17489">
+            <text>Lors de leur fronde estivale , les gendarmes avaient été nombreux à exprimer de critiques sur le manque de dialogue à l' intérieur de l' institution et plus spécialement au sein de la gendarmerie départementale ( près de 50 000 officiers et sous - officiers ) , où la dispersion géographique des unités , la faiblesse numérique de l' encadrement , les mutations trop fréquentes et la multiplicité des tâches rendent difficile l' exercice du commandement .</text>
+            <annotationSet status="MANUAL" ID="21536">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="107" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18294">
+            <text>Le premier secrétaire a souhaité que , " puisque débat il doit y avoir , ce soit un grand débat d' orientation générale digne de notre tradition de dialogue et du respect que nous devons à nos militants " .</text>
+            <annotationSet status="MANUAL" ID="22387">
+                <layer rank="1" name="FE">
+                    <label end="133" start="129" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19167">
+            <text>Ce dernier entend promouvoir un dialogue israélo- palestinien , mais n' a pas caché , la semaine passée , qu' il était las devant le peu de succès remporté et l' impossibilité de se mettre d' accord avec Mr Shamir sur la composition d' une délégation palestinienne .</text>
+            <annotationSet status="MANUAL" ID="23159">
+                <layer rank="1" name="FE">
+                    <label end="60" start="41" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20455">
+            <text>Les rapports instaurés par la communauté européenne avec les soixante - neuf Etats ACP ( d' Afrique subsaharienne pour l' essentiel ) peuvent , certes , avoir valeur de symbole en matière de dialogue Nord - Sud .</text>
+            <annotationSet status="MANUAL" ID="24164">
+                <layer rank="1" name="FE">
+                    <label end="209" start="200" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="191" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21466">
+            <text>Il y a au sein du groupe un climat de dialogue social qui est un atout essentiel , notamment en période de difficultés .</text>
+            <annotationSet status="MANUAL" ID="24835">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21504">
+            <text>Nous souhaitons mener le dialogue avec le ministère de la défense .</text>
+            <annotationSet status="MANUAL" ID="24857">
+                <layer rank="1" name="FE">
+                    <label end="64" start="39" name="Interlocutor_2"/>
+                    <label end="3" start="0" name="Interlocutor_1"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

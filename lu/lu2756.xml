@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'inspirer.v" ID="2756" frame="FR_Influence_of_event_on_cognizer-Subjective_influence" frameID="10035" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="sit" name="Situation"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="ent" name="Entity"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="act" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="beh" name="Activity"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Action"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="14146"/>
+                <annoSet ID="22724"/>
+            </pattern>
+            <pattern total="7">
+                <valenceUnit PT="null instantiation" FE="Action"/>
+                <annoSet ID="5892"/>
+                <annoSet ID="10540"/>
+                <annoSet ID="13358"/>
+                <annoSet ID="19309"/>
+                <annoSet ID="21759"/>
+                <annoSet ID="22262"/>
+                <annoSet ID="23247"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Activity"/>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Activity"/>
+                <annoSet ID="5892"/>
+                <annoSet ID="10540"/>
+                <annoSet ID="19309"/>
+                <annoSet ID="21759"/>
+                <annoSet ID="22262"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Cognizer"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="10540"/>
+                <annoSet ID="13358"/>
+                <annoSet ID="14146"/>
+                <annoSet ID="19309"/>
+                <annoSet ID="22262"/>
+                <annoSet ID="22724"/>
+                <annoSet ID="23247"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="5892"/>
+                <annoSet ID="21759"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Entity"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Entity"/>
+                <annoSet ID="5892"/>
+                <annoSet ID="10540"/>
+                <annoSet ID="13358"/>
+                <annoSet ID="14146"/>
+                <annoSet ID="19309"/>
+                <annoSet ID="21759"/>
+                <annoSet ID="22262"/>
+                <annoSet ID="22724"/>
+                <annoSet ID="23247"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Situation"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Situation"/>
+                <annoSet ID="5892"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4193">
+            <text>Parmi les différents types d' adaptation choisis par les pays développés , qui comportent plus ou moins de solutions " libérales " ( montée en charge des assurances , recours croissant à la capitalisation ) , inutile de chercher un modèle dont il serait possible de s' inspirer .</text>
+            <annotationSet status="MANUAL" ID="5892">
+                <layer rank="1" name="FE">
+                    <label end="264" start="229" name="Entity"/>
+                    <label itype="UNI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Situation"/>
+                    <label itype="UNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="276" start="266" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7138">
+            <text>Ce roman n' ayant pas marqué la littérature française , nous semble -t-il , on ne voit pas Dumas fils s' y plonger avec délectation , pour s' en inspirer ensuite ...</text>
+            <annotationSet status="MANUAL" ID="10540">
+                <layer rank="1" name="FE">
+                    <label end="100" start="91" name="Cognizer"/>
+                    <label end="7" start="0" name="Entity"/>
+                    <label end="143" start="142" name="Entity"/>
+                    <label itype="UNI" name="Action"/>
+                    <label itype="UNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="139" name="Target"/>
+                    <label end="152" start="145" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9458">
+            <text>" Le gouvernement britannique pourrait s' inspirer de l' exemple français " , notait le Financial Times ( 3 novembre 1992 ) au lendemain de l' annonce à Londres d' un plan de licenciement de 30 000 " gueules noires " et la fermeture de trente et un des cinquante puits encore en activité .</text>
+            <annotationSet status="MANUAL" ID="13358">
+                <layer rank="1" name="FE">
+                    <label end="28" start="2" name="Cognizer"/>
+                    <label end="74" start="54" name="Entity"/>
+                    <label itype="ENI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="49" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10074">
+            <text>Dans chaque cas , l' objectif du ou des propriétaires est le même : être plus proche des commandes en s' inspirant du principe selon lequel on gère mieux ses propres biens que ceux des autres .</text>
+            <annotationSet status="MANUAL" ID="14146">
+                <layer rank="1" name="FE">
+                    <label end="97" start="68" name="Action"/>
+                    <label end="52" start="40" name="Cognizer"/>
+                    <label end="190" start="118" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="113" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15038">
+            <text>Ses redoutables concurrents se sont inspirés de ses crèmes hydratantes au cacao de Polynésie ou des savons de pamplemousse du Sri - Lanka mais en les faisant fabriquer meilleur marché .</text>
+            <annotationSet status="MANUAL" ID="19309">
+                <layer rank="1" name="FE">
+                    <label end="26" start="0" name="Cognizer"/>
+                    <label end="91" start="48" name="Entity"/>
+                    <label end="136" start="100" name="Entity"/>
+                    <label itype="UNI" name="Action"/>
+                    <label itype="UNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="28" name="Target"/>
+                    <label end="43" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17715">
+            <text>Ces instruments doivent être adaptés au fonctionnement du marché , car c' est seulement en s' en inspirant , et non pas en le perturbant ou en le faussant malencontreusement , qu' ils seront efficaces .</text>
+            <annotationSet status="MANUAL" ID="21759">
+                <layer rank="1" name="FE">
+                    <label end="95" start="94" name="Entity"/>
+                    <label end="63" start="40" name="Entity"/>
+                    <label itype="UNI" name="Action"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="91" name="Target"/>
+                    <label end="105" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18225">
+            <text>L' on pourrait dans ce sens s' inspirer des pays voisins , et notamment des exemples britannique et néerlandais .</text>
+            <annotationSet status="MANUAL" ID="22262">
+                <layer rank="1" name="FE">
+                    <label end="4" start="0" name="Cognizer"/>
+                    <label end="70" start="44" name="Entity"/>
+                    <label end="110" start="76" name="Entity"/>
+                    <label itype="UNI" name="Action"/>
+                    <label itype="UNI" name="Activity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18606">
+            <text>" Les nationalistes lituaniens s' inspirent désormais ouvertement de l' exemple des bouleversements démocratiques dans les pays de l' est pour poursuivre leur action .</text>
+            <annotationSet status="MANUAL" ID="22724">
+                <layer rank="1" name="FE">
+                    <label end="164" start="143" name="Action"/>
+                    <label end="29" start="2" name="Cognizer"/>
+                    <label end="136" start="69" name="Entity"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19275">
+            <text>Non seulement il copie l' histoire , mais il s' inspire de créations beaucoup trop récentes ( Dubreuil , Pucci Di Rossi , Garouste et Bonetti ) .</text>
+            <annotationSet status="MANUAL" ID="23247">
+                <layer rank="1" name="FE">
+                    <label end="43" start="42" name="Cognizer"/>
+                    <label end="142" start="59" name="Entity"/>
+                    <label itype="ENI" name="Action"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="54" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'entendre.v" ID="1312" frame="FR_Make_agreement_on_assessment" frameID="10040" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cogs" name="Cognizers"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="cog1" name="Cognizer_1"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cog2" name="Cognizer_2"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="opi" name="Opinion"/>
+            <FE fgColor="000000" bgColor="d0d0d0" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Cognizer_2"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Cognizers"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizers"/>
+                <annoSet ID="7444"/>
+                <annoSet ID="15253"/>
+                <annoSet ID="22339"/>
+                <annoSet ID="22779"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizers"/>
+                <annoSet ID="5763"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Opinion"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Opinion"/>
+                <annoSet ID="7444"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Topic"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="5763"/>
+                <annoSet ID="15253"/>
+                <annoSet ID="22339"/>
+                <annoSet ID="22779"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4123">
+            <text>Pour bien comprendre ce qui se passe durant une récession , il faut d' abord s' entendre sur ce qui l' a motivée .</text>
+            <annotationSet status="MANUAL" ID="5763">
+                <layer rank="1" name="FE">
+                    <label end="111" start="93" name="Topic"/>
+                    <label itype="UNI" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5145">
+            <text>S' ils ne parviennent pas à s' entendre sur un texte satisfaisant , quelle sera votre attitude ?</text>
+            <annotationSet status="MANUAL" ID="7444">
+                <layer rank="1" name="FE">
+                    <label end="5" start="3" name="Cognizers"/>
+                    <label end="64" start="44" name="Opinion"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10995">
+            <text>De surcroît , producteurs et consommateurs ne parviennent pas à s' entendre sur une fourchette de prix .</text>
+            <annotationSet status="MANUAL" ID="15253">
+                <layer rank="1" name="FE">
+                    <label end="101" start="80" name="Topic"/>
+                    <label end="41" start="14" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="64" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18273">
+            <text>La discussion s' est engagée tard dans la soirée de vendredi , et elle s' est prolongée jusqu' à 2h30 du matin entre , d' une part , MM Mauroy , Jospin , Emmanuelli ( numéro deux du PS ) , Delebarre , Nallet et , d' autre part , MM Mermaz , Laignel , Estier , Mexandeau , Mme Véronique Neiertz et Mr Claude Fleutiaux , pour s' entendre sur les grandes lignes d' un texte commun , sur l' ordre de présentation de la liste des candidats au comité directeur , qui y sera annexée , et sur des propositions communes de rénovation du fonctionnement du parti .</text>
+            <annotationSet status="MANUAL" ID="22339">
+                <layer rank="1" name="FE">
+                    <label end="378" start="340" name="Topic"/>
+                    <label end="479" start="384" name="Topic"/>
+                    <label end="550" start="485" name="Topic"/>
+                    <label end="129" start="119" name="Cognizers"/>
+                    <label end="315" start="133" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="334" start="324" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18666">
+            <text>Mais les Occidentaux ne cachent pas qu' ils ont eux - mêmes des problèmes pour s' entendre entre eux sur ce qu' est un hélicoptère de combat ...</text>
+            <annotationSet status="MANUAL" ID="22779">
+                <layer rank="1" name="FE">
+                    <label end="139" start="105" name="Topic"/>
+                    <label end="19" start="5" name="Cognizers"/>
+                    <label end="42" start="40" name="Cognizers"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

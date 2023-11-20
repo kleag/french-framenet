@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Make_possible_to_do" ID="2011" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Causality">
+    <definition>&lt;def-root&gt;An &lt;fen&gt;Enablement&lt;/fen&gt; provides the circumstances for an &lt;fen&gt;Enabled_action&lt;/fen&gt; to occur. 
+
+&lt;ex&gt;&lt;fex name="Enablement"&gt;Technology&lt;/fex&gt; has &lt;t&gt;permitted&lt;/t&gt; &lt;fex name="Enabled_action"&gt;firms&lt;/fex&gt; &lt;fex name="Enabled_action"&gt;to link together more closely&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Enablement"&gt;Any membrane&lt;/fex&gt; &lt;fex name="Enablement"&gt;which&lt;/fex&gt; will &lt;t&gt;permit&lt;/t&gt; &lt;fex name="Enabled_action"&gt;the passage of oxygen&lt;/fex&gt; will also permit the passage of water .&lt;/ex&gt;
+
+&lt;ex&gt;Unlike DOS , &lt;fex name="Enablement"&gt;Windows&lt;/fex&gt; &lt;t&gt;lets&lt;/t&gt; &lt;fex name="Enabled_action"&gt;you&lt;/fex&gt; &lt;fex name="Enabled_action"&gt;get on with something else&lt;/fex&gt; &lt;fex name="Time"&gt;when sending a fax&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Enablement"&gt;Liberalization&lt;/fex&gt; &lt;t&gt;allows&lt;/t&gt; &lt;fex name="Enabled_action"&gt;easier entry into particular markets&lt;/fex&gt; .&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Enablement"&gt;Mesh&lt;/fex&gt; &lt;t&gt;allows&lt;/t&gt; &lt;fex name="Enabled_action"&gt;the water&lt;/fex&gt; &lt;fex name="Enabled_action"&gt;to circulate normally through the aquarium&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="361" cDate="02/08/2008 04:08:19 PST Fri" abbrev="All" name="Enabled_action" ID="12171">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Enabled_action&lt;/fen&gt; is that which depends on the &lt;fen&gt;Enablement&lt;/fen&gt; in order to be possible to occur.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="361" cDate="02/08/2008 04:16:49 PST Fri" abbrev="llo" name="Enablement" ID="12172">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Enablement&lt;/fen&gt; is the physcial entity or state of affairs that, through its existence, makes possible the &lt;fen&gt;Enabled_action&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Contingency-Objective_influence</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="autoriser.v" ID="2613" nbocc="80" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="100206" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="1873" annotatedsent="65"/>
+    </lexUnit>
+    <lexUnit POS="n" name="condition.n" ID="175" nbocc="158" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="26"/>
+        <otherlexUnit framename="Other_sense" ID="100385" annotatedsent="75"/>
+    </lexUnit>
+    <lexUnit POS="v" name="permettre.v" ID="2614" nbocc="383" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="89"/>
+        <otherlexUnit framename="Other_sense" ID="101366" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="1883" annotatedsent="13"/>
+    </lexUnit>
+</frame>

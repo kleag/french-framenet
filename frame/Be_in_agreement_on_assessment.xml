@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Be_in_agreement_on_assessment" ID="1496" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;The &lt;fen&gt;Cognizers&lt;/fen&gt; have a similarity (or dissimilarity) in their &lt;fen&gt;Opinion&lt;/fen&gt;. The &lt;fen&gt;Cognizers&lt;/fen&gt; may be expressed separately, with &lt;fen&gt;Cognizer_2&lt;/fen&gt; being the basis for establishing the &lt;fen&gt;Opinion&lt;/fen&gt; of &lt;fen&gt;Cognizer_1&lt;/fen&gt;.  Rather than a specific &lt;fen&gt;Opinion&lt;/fen&gt;, a phenomenon about which a similar or differing &lt;fen&gt;Opinion&lt;/fen&gt; is held, the &lt;fen&gt;Topic&lt;/fen&gt;, may be specified. 
+<!-- A specific &lt;fen&gt;Opinion&lt;/fen&gt; may also go unmentioned when the &lt;fen&gt;Opinion&lt;/fen&gt;s of the &lt;fen&gt;Cognizers&lt;/fen&gt; are understood as answers to a &lt;fen&gt;Question&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="Cognizers"&gt;Dr. Gerry and Mr. Pond&lt;/fex&gt; &lt;t&gt;agree&lt;/t&gt; &lt;fex name="Question"&gt;in their impressions&lt;/fex&gt;.&lt;/ex&gt;
+-->
+
+&lt;ex&gt; &lt;fex name="Cognizers"&gt;This copyeditor and I&lt;/fex&gt; &lt;fex name="Degree"&gt;mostly&lt;/fex&gt; &lt;t&gt;see&lt;/t&gt; &lt;t&gt;eye&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; &lt;t&gt;eye&lt;/t&gt; &lt;fex name="Topic"&gt;on things&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;fex name="Cognizer_1"&gt;I&lt;/fex&gt; &lt;t&gt;agree&lt;/t&gt; &lt;fex name="cog2"&gt;with you&lt;/fex&gt; &lt;fex name="Opinion"&gt;that everything should be monitored to keep the person from wasting time and protecting the interests of the company&lt;/fex&gt;.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;FR_Make_agreement_on_assessment&lt;/frframe&gt;: FR_Make_agreement_on_assessment is inchoative of Be_in_agreement_on_assessment.
+
+
+ &lt;ex&gt; &lt;/ex&gt;
+    ≠ &lt;frframe&gt;Be_in_agreement_on_action&lt;/frframe&gt;: Be_in_agreement_on_assessment is about Cognizers having a similar opinion (about some content, the Topic) whereas Be_in_agreement_on_action is about Parties having an agreement binding them to an Obligation.
+
+&lt;ex&gt;&lt;/ex&gt;
+
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt;: 
+&lt;ex&gt;&lt;/ex&gt;
+We do not use the Question FE which is difficult to distinguish from the Topic FE.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:07 PDT Thu" abbrev="cogs" name="Cognizers" ID="8177">
+        <definition>&lt;def-root&gt;This FE marks constituents that express the set of &lt;fen&gt;Cognizers&lt;/fen&gt; whose similarity of opinion is at issue. 
+
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Cognizer_1" ID="8178"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="cog1" name="Cognizer_1" ID="8178">
+        <definition>&lt;def-root&gt;When there is an asymmetry, &lt;fen&gt;Cognizer_1&lt;/fen&gt; is the individual characterized by their similarity in opinion to &lt;fen&gt;Cognizer_2&lt;/fen&gt;, whose opinion is assumed to be known.  &lt;fen&gt;Cognizer_1&lt;/fen&gt; is often an external argument.
+&lt;/def-root&gt;</definition>
+        <requiresFE name="Cognizer_2" ID="8179"/>
+        <excludesFE name="Cognizers" ID="8177"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:08 PDT Thu" abbrev="cog2" name="Cognizer_2" ID="8179">
+        <definition>&lt;def-root&gt;When the &lt;fen&gt;Cognizers&lt;/fen&gt; are expressed separately, &lt;fen&gt;Cognizer_2&lt;/fen&gt; is the one whose opinion is assumed to be known; it serves as a basis for establishing the opinion of &lt;fen&gt;Cognizer_1&lt;/fen&gt;.
+&lt;/def-root&gt;</definition>
+        <requiresFE name="Cognizer_1" ID="8178"/>
+        <excludesFE name="Cognizers" ID="8177"/>
+    </FE>
+<!--    <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:14:09 PDT Thu" abbrev="que" name="Question" ID="8180">
+        <definition>&lt;def-root&gt;This FE denotes an implicit question in response to which the &lt;fen&gt;Cognizers&lt;/fen&gt; give their &lt;fen&gt;Opinion&lt;/fen&gt;s, which are then assessed for their similarity.  The &lt;fen&gt;Question&lt;/fen&gt; may concern the identitiy of a particular entity, as in the first example below, or it may be of the yes/no-type, as in the second example below.
+
+
+&lt;ex&gt;I think we &lt;t&gt;see&lt;/t&gt; &lt;t&gt;eye&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; &lt;t&gt;eye&lt;/t&gt; &lt;fex name="que"&gt;in our ultimate goal&lt;/fex&gt;, which is that we want to see a democratic Serbia.&lt;/ex&gt;
+
+
+&lt;ex&gt;&lt;fex name="Cognizers"&gt;Almost all anarchists&lt;/fex&gt;, in contrast, would &lt;t&gt;agree&lt;/t&gt; &lt;fex name="que"&gt;in their condemnation of warfare, ie, violent conflict between governments&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Topic" ID="8188"/>
+    </FE>
+-->
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="06/16/2005 05:47:30 PDT Thu" abbrev="opi" name="Opinion" ID="8187">
+        <definition>&lt;def-root&gt;A state of affairs believed by the &lt;fen&gt;Cognizers&lt;/fen&gt;.
+
+&lt;ex&gt;We &lt;t&gt;agree&lt;/t&gt; &lt;fex name="opi"&gt;that babies should not be dropped from helicopters&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+<!--        <excludesFE name="Question" ID="8180"/>-->
+    </FE>
+    <FE bgColor="d0d0d0" fgColor="000000" coreType="Core" cBy="605" cDate="06/16/2005 05:52:24 PDT Thu" abbrev="top" name="Topic" ID="8188">
+        <definition>&lt;def-root&gt;A phenomenon that the &lt;fen&gt;Cognizers&lt;/fen&gt; are considering with respect to their &lt;fen&gt;Opinion&lt;/fen&gt;
+
+&lt;ex&gt;I think we &lt;t&gt;see&lt;/t&gt; &lt;t&gt;eye&lt;/t&gt; &lt;t&gt;to&lt;/t&gt; &lt;t&gt;eye&lt;/t&gt; &lt;fex name="Topic"&gt;in our ultimate goal&lt;/fex&gt;, which is that we want to see a democratic Serbia.&lt;/ex&gt;
+
+.&lt;/def-root&gt;</definition>
+<!--        <excludesFE name="Question" ID="8180"/>-->
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Opinion" ID="8187"/>
+        <memberFE name="Topic" ID="8188"/>
+    </FEcoreSet>
+    <frameRelation type="Caused by">
+        <relatedFrame>FR_Make_agreement_on_assessment</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Be_in_agreement</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Communicated by">
+        <relatedFrame>Quarreling</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="accord.n" ID="84" nbocc="292" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100015" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="2702" annotatedsent="2"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="68" annotatedsent="104"/>
+    </lexUnit>
+    <lexUnit POS="n" name="convergence.n" ID="86" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100445" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="converger.v" ID="87" nbocc="1" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="d'accord.adv" ID="88" nbocc="18" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="2602" annotatedsent="3"/>
+        <otherlexUnit framename="Other_sense" ID="100502" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="870" annotatedsent="2"/>
+        <otherlexUnit framename="Willingness" ID="2582" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="75" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="différend.n" ID="2719" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="divergence.n" ID="89" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="100596" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="diverger.v" ID="90" nbocc="2" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="a" name="divisé.a" ID="91" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100598" annotatedsent="11"/>
+    </lexUnit>
+    <lexUnit POS="n" name="désaccord.n" ID="92" nbocc="12" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="100727" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="872" annotatedsent="4"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="77" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="en désaccord.adv" ID="93" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="100770" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="873" annotatedsent="2"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="78" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="entente.n" ID="94" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="opposition.n" ID="95" nbocc="64" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101303" annotatedsent="45"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="1639" annotatedsent="21"/>
+    </lexUnit>
+    <lexUnit POS="a" name="opposé.a" ID="2758" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101304" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="875" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'accorder.v" ID="96" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="101695" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Make_agreement_on_assessment" ID="1311" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="82" annotatedsent="1"/>
+        <otherlexUnit framename="Make_agreement_on_action" ID="2010" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'entendre.v" ID="97" nbocc="15" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101714" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Make_agreement_on_assessment" ID="1312" annotatedsent="5"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="2601" annotatedsent="1"/>
+        <otherlexUnit framename="Make_agreement_on_action" ID="2013" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'harmoniser.v" ID="98" nbocc="0" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'opposer.v" ID="99" nbocc="34" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101723" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1640" annotatedsent="27"/>
+    </lexUnit>
+    <lexUnit POS="a" name="unanime.a" ID="100" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101952" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="2757" annotatedsent="3"/>
+    </lexUnit>
+</frame>

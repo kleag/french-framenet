@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="impliquer.v" ID="565" frame="Evidence" frameID="25" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposition"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="13989"/>
+                <annoSet ID="15223"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Support"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="13989"/>
+                <annoSet ID="15223"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="9958">
+            <text>Sa définition de la conjoncture - " étude des phénomènes réversibles dans le domaine économique " - impliquait de réserver à d' autres travaux les aspects de développement irréversible des sociétés .</text>
+            <annotationSet status="MANUAL" ID="13989">
+                <layer rank="1" name="FE">
+                    <label end="94" start="0" name="Support"/>
+                    <label end="196" start="114" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10971">
+            <text>Certaines usines , notamment celles de le Mans et de Cléon - dont la longue grève , à l' automne 1991 , désorganisa pendant plusieurs semaines l' activité de l' entreprise , - paraissent plus difficilement adhérer à cette nouvelle donne qui n' implique pas qu' une amélioration des compétences sera automatiquement suivie d' une promotion salariale et donne parfois naissance à une langue de bois frisant le ridicule autour du culte du " management participatif et délégatif " .</text>
+            <annotationSet status="MANUAL" ID="15223">
+                <layer rank="1" name="FE">
+                    <label end="239" start="237" name="Support"/>
+                    <label end="235" start="216" name="Support"/>
+                    <label end="347" start="261" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="251" start="244" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="NA" name="All annotations of frame Regard" ID="Regard" frame="Regard" frameID="1400" totalAnnotated="19" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="eva" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Peripheral" abbrev="rea" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="rol" name="Role"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="jud" name="Judgment"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="19">
+            <FE name="Cognizer"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2448"/>
+                <annoSet ID="7941"/>
+                <annoSet ID="10656"/>
+                <annoSet ID="12621"/>
+                <annoSet ID="12622"/>
+                <annoSet ID="21748"/>
+                <annoSet ID="23031"/>
+                <annoSet ID="23523"/>
+                <annoSet ID="24266"/>
+                <annoSet ID="6467"/>
+            </pattern>
+            <pattern total="9">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="19925"/>
+                <annoSet ID="23035"/>
+                <annoSet ID="7885"/>
+                <annoSet ID="7906"/>
+                <annoSet ID="7976"/>
+                <annoSet ID="19559"/>
+                <annoSet ID="21405"/>
+                <annoSet ID="21407"/>
+                <annoSet ID="21409"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="19">
+            <FE name="Evaluee"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="2448"/>
+                <annoSet ID="10656"/>
+                <annoSet ID="12621"/>
+                <annoSet ID="12622"/>
+                <annoSet ID="19925"/>
+                <annoSet ID="21748"/>
+                <annoSet ID="23523"/>
+                <annoSet ID="24266"/>
+                <annoSet ID="6467"/>
+                <annoSet ID="7885"/>
+                <annoSet ID="7906"/>
+                <annoSet ID="7976"/>
+                <annoSet ID="19559"/>
+                <annoSet ID="21405"/>
+                <annoSet ID="21407"/>
+                <annoSet ID="21409"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Evaluee"/>
+                <annoSet ID="7941"/>
+                <annoSet ID="23031"/>
+                <annoSet ID="23035"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="19">
+            <FE name="Judgment"/>
+            <pattern total="16">
+                <valenceUnit PT="filled" FE="Judgment"/>
+                <annoSet ID="2448"/>
+                <annoSet ID="7941"/>
+                <annoSet ID="10656"/>
+                <annoSet ID="12621"/>
+                <annoSet ID="12622"/>
+                <annoSet ID="19925"/>
+                <annoSet ID="21748"/>
+                <annoSet ID="23031"/>
+                <annoSet ID="23035"/>
+                <annoSet ID="23523"/>
+                <annoSet ID="24266"/>
+                <annoSet ID="6467"/>
+                <annoSet ID="7976"/>
+                <annoSet ID="21405"/>
+                <annoSet ID="21407"/>
+                <annoSet ID="21409"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Judgment"/>
+                <annoSet ID="7885"/>
+                <annoSet ID="7906"/>
+                <annoSet ID="19559"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1943">
+            <text>Toutefois , je me vois dans l' impossibilité de porter un jugement sur le style et le choix des mots m' amenant à émettre des censures , car alors je devrais le faire pour chaque exposé des motifs .</text>
+            <annotationSet status="MANUAL" ID="2448">
+                <layer rank="1" name="FE">
+                    <label end="13" start="12" name="Cognizer"/>
+                    <label end="133" start="55" name="Judgment"/>
+                    <label end="133" start="71" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5461">
+            <text>A l' heure où le gouvernement s' est résolu à des privatisations partielles , ce qui supposera de s' en remettre aussi au jugement des nouveaux actionnaires , où le Parti socialiste évoque dans son contrat de législature des éventuelles nationalisations , mais surtout des vraies privatisations , le maintien de la règle du mandat de trois ans demeure anachronique .</text>
+            <annotationSet status="MANUAL" ID="7941">
+                <layer rank="1" name="FE">
+                    <label end="155" start="135" name="Cognizer"/>
+                    <label end="155" start="122" name="Judgment"/>
+                    <label itype="ENI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7250">
+            <text>Les magistrats de la Cour des comptes , dans le rapport annuel 1992 ( le Monde du 26 juin ) , portent un jugement très sévère sur la création en 1987 par La Poste de la filiale spécialisée Sécuripost .</text>
+            <annotationSet status="MANUAL" ID="10656">
+                <layer rank="1" name="FE">
+                    <label end="36" start="0" name="Cognizer"/>
+                    <label end="124" start="102" name="Judgment"/>
+                    <label end="198" start="130" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="112" start="105" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8843">
+            <text>Le rapport de la cour des comptes sur les théâtres du Vieux - Colombier et de la gaîté - lyrique amalgame les remarques sur une mauvaise utilisation des deniers publics et des jugements de valeur sur le bien - fondé de l' utilisation de ces salles , jugements qui visiblement excèdent la compétence des auteurs du rapport .</text>
+            <annotationSet status="MANUAL" ID="12621">
+                <layer rank="1" name="FE">
+                    <label end="32" start="14" name="Cognizer"/>
+                    <label end="320" start="250" name="Judgment"/>
+                    <label end="246" start="200" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="258" start="250" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8843">
+            <text>Le rapport de la cour des comptes sur les théâtres du Vieux - Colombier et de la gaîté - lyrique amalgame les remarques sur une mauvaise utilisation des deniers publics et des jugements de valeur sur le bien - fondé de l' utilisation de ces salles , jugements qui visiblement excèdent la compétence des auteurs du rapport .</text>
+            <annotationSet status="MANUAL" ID="12622">
+                <layer rank="1" name="FE">
+                    <label end="32" start="14" name="Cognizer"/>
+                    <label end="320" start="172" name="Judgment"/>
+                    <label end="246" start="200" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="184" start="176" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15745">
+            <text>Le jugement positif sur la tolérance entre salariés décroît en fonction de la tranche de salaire et du niveau d' études .</text>
+            <annotationSet status="MANUAL" ID="19925">
+                <layer rank="1" name="FE">
+                    <label end="50" start="0" name="Judgment"/>
+                    <label end="50" start="24" name="Evaluee"/>
+                    <label itype="DNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17708">
+            <text>Ils devraient en outre , cela va en quelque sorte de soi , être d' éminents spécialistes et ainsi être capables d' émettre un jugement impartial et objectif sur les questions abordées .</text>
+            <annotationSet status="MANUAL" ID="21748">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Cognizer"/>
+                    <label end="182" start="123" name="Judgment"/>
+                    <label end="182" start="161" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="133" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18979">
+            <text>Le gouvernement , écrit Combat , a porté un jugement moral qui est sans aucun recours .</text>
+            <annotationSet status="MANUAL" ID="23031">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Cognizer"/>
+                    <label end="84" start="41" name="Judgment"/>
+                    <label itype="ENI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18980">
+            <text>La nationalisation qui surviendra ne sera donc pas la conséquence d' un jugement , mais de la raison d' état .</text>
+            <annotationSet status="MANUAL" ID="23035">
+                <layer rank="1" name="FE">
+                    <label end="79" start="69" name="Judgment"/>
+                    <label itype="DNI" name="Cognizer"/>
+                    <label itype="ENI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19648">
+            <text>Pour les professionnels , le seul jugement vrai sur la télévision est porté par ceux qui la consomment .</text>
+            <annotationSet status="MANUAL" ID="23523">
+                <layer rank="1" name="FE">
+                    <label end="101" start="80" name="Cognizer"/>
+                    <label end="64" start="26" name="Judgment"/>
+                    <label end="64" start="52" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20568">
+            <text>Les jugements négatifs d' analystes financiers révisant à la baisse leurs prévisions de résultat sur BIS ont entraîné une chute du groupe de travail temporaire ( - 20 % ) .</text>
+            <annotationSet status="MANUAL" ID="24266">
+                <layer rank="1" name="FE">
+                    <label end="103" start="26" name="Cognizer"/>
+                    <label end="103" start="0" name="Judgment"/>
+                    <label end="103" start="88" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4575">
+            <text>" Encore faudrait -il que les adultes prennent le temps de pénétrer dans leur univers , s' intéressent aux personnages idéalisés , rassurent quand il y a lieu , expliquent , admirent " , estime Anne - Marie Meisonnier qui juge sévèrement la démission des parents et leur parfaite ignorance de l' univers des enfants construit par la télé .</text>
+            <annotationSet status="MANUAL" ID="6467">
+                <layer rank="1" name="FE">
+                    <label end="336" start="194" name="Cognizer"/>
+                    <label end="220" start="218" name="Cognizer"/>
+                    <label end="236" start="227" name="Judgment"/>
+                    <label end="336" start="238" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="225" start="222" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5428">
+            <text>Elle confirme surtout une évolution de la perception du rôle de l' entreprise et de ses dirigeants - vus il y a onze ans comme autant des lieux de résistance à la volonté de changement , jugés davantage aujourd' hui en raison de leur stratégie , de leur efficacité et de leur compétitivité .</text>
+            <annotationSet status="MANUAL" ID="7885">
+                <layer rank="1" name="FE">
+                    <label end="79" start="64" name="Evaluee"/>
+                    <label end="97" start="84" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Judgment"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="191" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5444">
+            <text>M. Gomez , engagé lui aussi dans une difficile mutation , a -t-il été jugé sur les mêmes critères ?</text>
+            <annotationSet status="MANUAL" ID="7906">
+                <layer rank="1" name="FE">
+                    <label end="54" start="0" name="Evaluee"/>
+                    <label end="64" start="60" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Judgment"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5478">
+            <text>Le départ de M. Moulard , dont le professionnalisme n' est pas en cause ( il a , en vingt - huit mois , réussi à réduire de 25 % , sans licenciements , des effectifs excédentaires ) , est sévèrement jugé à Lyon , où l'on dénonce une " agression " de Paris .</text>
+            <annotationSet status="MANUAL" ID="7976">
+                <layer rank="1" name="FE">
+                    <label end="197" start="188" name="Judgment"/>
+                    <label end="180" start="0" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="199" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15291">
+            <text>Par exemple , un texte sévère d' UIMM actualités , daté du 25 mai , ne peut pas être utilisé pour juger d' une réunion du 7 juin , à l' époque non programmée .</text>
+            <annotationSet status="MANUAL" ID="19559">
+                <layer rank="1" name="FE">
+                    <label end="156" start="107" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="UNI" name="Judgment"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17337">
+            <text>Que penser d' une société qui admet des universités dans un tel état de délabrement contre les efforts , et souvent les succès , de ses personnels ?</text>
+            <annotationSet status="MANUAL" ID="21405">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Judgment"/>
+                    <label end="145" start="14" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17338">
+            <text>Que penser d' une société dont les " formations d' élite " supposées former des ingénieurs d' haut niveau ou de production nous pourvoient en financiers , gestionnaires ?</text>
+            <annotationSet status="MANUAL" ID="21407">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Judgment"/>
+                    <label end="167" start="14" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17340">
+            <text>Que penser d' une société dont les formations technologiques supérieures acceptent si mal les bacheliers du technique ?</text>
+            <annotationSet status="MANUAL" ID="21409">
+                <layer rank="1" name="FE">
+                    <label end="2" start="0" name="Judgment"/>
+                    <label end="116" start="14" name="Evaluee"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

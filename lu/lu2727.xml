@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="tirer conséquence.v" ID="2727" frame="Coming_to_believe" frameID="23" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Mns" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="2377"/>
+                <annoSet ID="8347"/>
+                <annoSet ID="17630"/>
+                <annoSet ID="20532"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Content"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="2377"/>
+                <annoSet ID="8347"/>
+                <annoSet ID="17630"/>
+                <annoSet ID="20532"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Evidence"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Evidence"/>
+                <annoSet ID="2377"/>
+                <annoSet ID="8347"/>
+                <annoSet ID="17630"/>
+                <annoSet ID="20532"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Means"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1933">
+            <text>La Finlande et le Royaume-Uni en ont tiré des conséquences et ont instauré une autorité prudentielle unique pour tout le secteur .</text>
+            <annotationSet status="MANUAL" ID="2377">
+                <layer rank="1" name="FE">
+                    <label end="57" start="42" name="Content"/>
+                    <label end="28" start="0" name="Cognizer"/>
+                    <label end="31" start="30" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="37" name="Target"/>
+                    <label end="57" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5731">
+            <text>Pour s' être trompé en sous - estimant grandement les dépenses de l' Est - on a fêté le 1 juillet le deuxième anniversaire de l' unification économique et monétaire - et pour n' en avoir pas tiré plus tôt les conséquences , le gouvernement de Bonn a accumulé des déficits budgétaires : 110 milliards de marks ( 1 ) en 1991 et 130 milliards attendus pour cette année d' après les chiffres de la Bundesbank .</text>
+            <annotationSet status="MANUAL" ID="8347">
+                <layer rank="1" name="FE">
+                    <label end="220" start="205" name="Content"/>
+                    <label end="246" start="224" name="Cognizer"/>
+                    <label end="179" start="178" name="Evidence"/>
+                    <label end="165" start="5" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="191" name="Target"/>
+                    <label end="220" start="209" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13528">
+            <text>Si on voulait vraiment tirer les conséquences du caractère " multifonctionnel " du métier de paysan , mieux vaudrait les enrôler comme auxiliaires de l' administration des eaux et forêts un ou deux jours par semaine .</text>
+            <annotationSet status="MANUAL" ID="17630">
+                <layer rank="1" name="FE">
+                    <label end="98" start="29" name="Content"/>
+                    <label end="4" start="3" name="Cognizer"/>
+                    <label end="98" start="49" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="23" name="Target"/>
+                    <label end="44" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16584">
+            <text>Le chancelier Kohl , qui a maintenu sa rencontre prévue avec le premier ministre est - allemand , en a tiré les conséquences ( le Monde du 12 janvier ) .</text>
+            <annotationSet status="MANUAL" ID="20532">
+                <layer rank="1" name="FE">
+                    <label end="123" start="108" name="Content"/>
+                    <label end="94" start="0" name="Cognizer"/>
+                    <label end="99" start="98" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="103" name="Target"/>
+                    <label end="123" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

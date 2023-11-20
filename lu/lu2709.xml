@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="compte-rendu.n" ID="2709" frame="Summarizing" frameID="1722" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="com" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sta" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="sum" name="Summary"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Communicator"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="3784"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="State_of_affairs"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="State_of_affairs"/>
+                <annoSet ID="3784"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Summary"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2900">
+            <text>Au printemps 2006 , le scandale éclate suite à la publication dans la presse italienne ( La Gazzetta dello Sport et Il Corriere della Sera ) de compte-rendus d' écoutes téléphoniques ordonnées par la justice deux ans plus tôt .</text>
+            <annotationSet status="MANUAL" ID="3784">
+                <layer rank="1" name="FE">
+                    <label end="224" start="144" name="Medium"/>
+                    <label end="224" start="161" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="144" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

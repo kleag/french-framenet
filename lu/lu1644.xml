@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="refus.n" ID="1644" frame="FR_Taking_sides" frameID="10060" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sid" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="11719"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="17264"/>
+                <annoSet ID="22396"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="22396"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Content"/>
+                <annoSet ID="11719"/>
+                <annoSet ID="17264"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8136">
+            <text>Face à ce vaste front du refus politique et parlementaire , les seuls véritables alliés de Thomson - CSF étaient sur le terrain .</text>
+            <annotationSet status="MANUAL" ID="11719">
+                <layer rank="1" name="FE">
+                    <label end="56" start="31" name="Cognizer"/>
+                    <label itype="DNI" name="Content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12927">
+            <text>Le refus provient surtout des femmes au foyer et des rentiers ( 73 % " contre " ) et des couches les moins aisées de la population ( entre 70 et 73 % " contre " ) .</text>
+            <annotationSet status="MANUAL" ID="17264">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="7" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18299">
+            <text>Il a observé , d' autre part , que " parti et gouvernement n' agissent pas selon le même horizon " et que les socialistes doivent proposer une nouvelle étape sociale , de même qu' approfondir leurs réflexions sur les problèmes de société que constituent l' abstention et le refus de la politique , le débat sur la laïcité et l' intégration des immigrés .</text>
+            <annotationSet status="MANUAL" ID="22396">
+                <layer rank="1" name="FE">
+                    <label end="294" start="283" name="Content"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="278" start="274" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

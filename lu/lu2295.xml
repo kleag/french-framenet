@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="mobile.n" ID="2295" frame="FR_Reason" frameID="10083" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="21678"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="21678"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="State_of_Affairs"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="21678"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="17641">
+            <text>Mardi dans la nuit , les enquêteurs du SRPJ n' avaient toujours pas établi le mobile exact de cette tentative d' assassinat qui s' ajoute à la longue série des règlements de comptes enregistrés depuis plusieurs mois au sein du milieu marseillais .</text>
+            <annotationSet status="MANUAL" ID="21678">
+                <layer rank="1" name="FE">
+                    <label end="244" start="94" name="Action"/>
+                    <label end="244" start="75" name="State_of_Affairs"/>
+                    <label itype="DNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

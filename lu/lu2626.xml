@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="interdire.v" ID="2626" frame="Preventing" frameID="516" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Pre" name="Preventing_cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Event" name="Event"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Age" name="Agent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Agent"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="5868"/>
+                <annoSet ID="11519"/>
+                <annoSet ID="14016"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Event"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Event"/>
+                <annoSet ID="4049"/>
+                <annoSet ID="5868"/>
+                <annoSet ID="8538"/>
+                <annoSet ID="10062"/>
+                <annoSet ID="10820"/>
+                <annoSet ID="11474"/>
+                <annoSet ID="11519"/>
+                <annoSet ID="14016"/>
+                <annoSet ID="23480"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Preventing_cause"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Preventing_cause"/>
+                <annoSet ID="4049"/>
+                <annoSet ID="8538"/>
+                <annoSet ID="10062"/>
+                <annoSet ID="10820"/>
+                <annoSet ID="11474"/>
+                <annoSet ID="23480"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3148">
+            <text>Les possibilités restreintes de diversification qui leur sont offertes interdisent la mise en oeuvre de tels projets " , indique l' APCCA , dans un communiqué .</text>
+            <annotationSet status="MANUAL" ID="4049">
+                <layer rank="1" name="FE">
+                    <label end="115" start="83" name="Event"/>
+                    <label end="69" start="0" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4179">
+            <text>L' Etat français s' est interdit depuis 1986 de faire appel aux banques pour des raisons structurelles ( encouragement à l' épargne longue , création d' un marché monétaire large ) et désinflationnistes ( réduction de la part des actifs les plus mobilisables ) .</text>
+            <annotationSet status="MANUAL" ID="5868">
+                <layer rank="1" name="FE">
+                    <label end="18" start="17" name="Event"/>
+                    <label end="70" start="48" name="Event"/>
+                    <label end="15" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5803">
+            <text>Quand l' inflation devient faible , comme c' est le cas , le poids relatif de l' ancienneté interdit toute souplesse dans la politique salariale et empêche une autre distribution de la masse salariale .</text>
+            <annotationSet status="MANUAL" ID="8538">
+                <layer rank="1" name="FE">
+                    <label end="143" start="101" name="Event"/>
+                    <label end="90" start="58" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6763">
+            <text>Syndicat et directions sont intéressés à cette centralisation et à cette coordination des négociations : celles - ci limitent la concurrence entre firmes , interdisent aux directions de faire pression sur les salariés de telle ou telle usine , découragent toute revendication salariale isolée entre les discussions triennales des accords .</text>
+            <annotationSet status="MANUAL" ID="10062">
+                <layer rank="1" name="FE">
+                    <label end="181" start="172" name="Event"/>
+                    <label end="240" start="186" name="Event"/>
+                    <label end="115" start="105" name="Preventing_cause"/>
+                    <label end="63" start="41" name="Preventing_cause"/>
+                    <label end="101" start="67" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="156" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7359">
+            <text>Avez -vous remarqué que le téléphone , toujours situé à la tête du lit - ce qui prouve une délicate attention pour les réveils ultra- matinaux - n' a pour ainsi dire pas de fil , ce qui vous interdit de le poser sur la table bureau ?</text>
+            <annotationSet status="MANUAL" ID="10820">
+                <layer rank="1" name="FE">
+                    <label end="230" start="203" name="Event"/>
+                    <label end="175" start="24" name="Preventing_cause"/>
+                    <label end="184" start="182" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="191" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7932">
+            <text>Et de dénoncer quatre " inadaptations " : celle des plafonds de ressources qui interdisent l' accès des HLM aux ménages : moins de 30 % des petits ménages ( deux à trois personnes ) peuvent accéder au parc social en Ile - de - France et le récent relèvement des plafonds dans la région est un " nouveau bricolage non relié à une doctrine d' ensemble " ; celle des produits ( répondant aux jolis noms de PLA , PLI , PLS , PAP et FGAS ... ) dont certains " réputés nouveaux répondent à des conditions de marché déjà dépassées " ; celle des prix de référence moyens auxquels doivent satisfaire les HLM , qui " sont à ce point écartés de la réalité qu' ils laissent un trou d' au moins 150 000 francs par logement " ; celle des loyers , enfin : l' organisation n' hésite pas à qualifier d' " appareil orthopédique " les contraintes qui pèsent sur eux , tandis que l' écart s' aggrave avec les loyers privés ( 33 francs en PLA contre une moyenne de 90 et 110 francs le mètre carré habitable ) .</text>
+            <annotationSet status="MANUAL" ID="11474">
+                <layer rank="1" name="FE">
+                    <label end="118" start="91" name="Event"/>
+                    <label end="118" start="52" name="Preventing_cause"/>
+                    <label end="77" start="75" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7983">
+            <text>" On ne s' interdit pas d' instruire à différents niveaux d' encadrement des jeunes ou des moins jeunes ayant eu une expérience dans d' autres chaînes " , indique Guy Rosès .</text>
+            <annotationSet status="MANUAL" ID="11519">
+                <layer rank="1" name="FE">
+                    <label end="9" start="8" name="Event"/>
+                    <label end="151" start="27" name="Event"/>
+                    <label end="3" start="2" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9970">
+            <text>A ceux - là , Kondratieff objecte qu' ils s' interdisent par définition toute démarche scientifique , où la recherche de régularités est prioritaire .</text>
+            <annotationSet status="MANUAL" ID="14016">
+                <layer rank="1" name="FE">
+                    <label end="43" start="42" name="Event"/>
+                    <label end="147" start="72" name="Event"/>
+                    <label end="40" start="38" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19588">
+            <text>Faite pour être vue au deuxième ou au troisième degré , " Dim Dam Dom " avait un positionnement qui lui interdirait aujourd' hui le 20h30 et la repousserait en fin de soirée .</text>
+            <annotationSet status="MANUAL" ID="23480">
+                <layer rank="1" name="FE">
+                    <label end="172" start="116" name="Event"/>
+                    <label end="94" start="56" name="Preventing_cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="114" start="104" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

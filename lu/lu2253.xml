@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se disputer.v" ID="2253" frame="Quarreling" frameID="710" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Args" name="Arguers"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Arg1" name="Arguer1"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Arg2" name="Arguer2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Iss" name="Issue"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Arguer1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Arguer2"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Arguers"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Arguers"/>
+                <annoSet ID="21692"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Issue"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Issue"/>
+                <annoSet ID="21692"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="17657">
+            <text>En outre , deux communes qui ne sont pas membres du syndicat - Nistos et Saracolin - se disputent devant le tribunal administratif le terrain sur lequel ont été tracées les pistes .</text>
+            <annotationSet status="MANUAL" ID="21692">
+                <layer rank="1" name="FE">
+                    <label end="83" start="11" name="Arguers"/>
+                    <label end="178" start="131" name="Issue"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="96" start="85" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

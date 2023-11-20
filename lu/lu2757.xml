@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="unanime.a" ID="2757" frame="Be_in_agreement_on_action" frameID="1380" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="par1" name="Party_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="par2" name="Party_2"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="obl" name="Obligation"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="pars" name="Parties"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Obligation"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Obligation"/>
+                <annoSet ID="21063"/>
+                <annoSet ID="21461"/>
+                <annoSet ID="22972"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Parties"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Parties"/>
+                <annoSet ID="21063"/>
+                <annoSet ID="21461"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Parties"/>
+                <annoSet ID="22972"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Party_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Party_2"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="16947">
+            <text>Aussi bien au comité central d' entreprise qu' au conseil d' administration d' Air France , les voix ont été quasiment unanimes pour se féliciter de l' accord Air France - Chargeurs .</text>
+            <annotationSet status="MANUAL" ID="21063">
+                <layer rank="1" name="FE">
+                    <label end="180" start="133" name="Obligation"/>
+                    <label end="99" start="92" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="119" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17396">
+            <text>Unanime pour entourer d' un respect non feint une Constitution qui avait fait la preuve de sa solidité au travers d' une double alternance , la classe politique avançait bien quelques propositions de réformes , mais sans remettre fondamentalement en cause les piliers du régime .</text>
+            <annotationSet status="MANUAL" ID="21461">
+                <layer rank="1" name="FE">
+                    <label end="137" start="13" name="Obligation"/>
+                    <label end="159" start="141" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="6" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18902">
+            <text>" Remettre la France au travail " , tel est donc le voeu unanime .</text>
+            <annotationSet status="MANUAL" ID="22972">
+                <layer rank="1" name="FE">
+                    <label end="55" start="49" name="Obligation"/>
+                    <label itype="ENI" name="Parties"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

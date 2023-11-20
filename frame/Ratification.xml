@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Ratification" ID="1351" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Ratifier&lt;/fen&gt; responds to a &lt;fen&gt;Proposal&lt;/fen&gt; constructed by another party to make it binding over the &lt;fen&gt;Ratifier&lt;/fen&gt;'s jurisdiction or constituency.
+
+&lt;ex&gt;The &lt;t&gt;ratification&lt;/t&gt; &lt;fex name="Proposal"&gt;of the Kyoto protocol&lt;/fex&gt; has been a long, hard slog.&lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="rat"&gt;The US&lt;/fex&gt; is considering &lt;t&gt;ratifying&lt;/t&gt; &lt;fex name="pro"&gt;the cybercrime treaty&lt;/fex&gt;. &lt;/ex&gt;
+&lt;ex&gt;&lt;fex name="rat"&gt;The Malaysian government&lt;/fex&gt; will &lt;t&gt;ratify&lt;/t&gt; &lt;fex name="pro"&gt;the UN's anti-smoking programme&lt;/fex&gt; by the end of the year. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/23/2005 03:08:09 PST Wed" abbrev="rat" name="Ratifier" ID="7653">
+        <definition>&lt;def-root&gt;The individual or body that confirms a Proposal negotiated or created by another party, causing it to become binding in a jurisdiction represented by the &lt;fen&gt;Ratifier&lt;/fen&gt;.  In the case of direct democratic ratification, the jurisdiction and the &lt;fen&gt;Ratifier&lt;/fen&gt; are the same.
+
+&lt;ex&gt;If &lt;fex name="rat"&gt;we&lt;/fex&gt; &lt;t&gt;ratify&lt;/t&gt; Management 's plan , we 'll have to take a drug test every week !&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="03/23/2005 03:08:09 PST Wed" abbrev="pro" name="Proposal" ID="7655">
+        <definition>&lt;def-root&gt;The idea or course of action proposed by another individual or body which the &lt;fen&gt;Ratifier&lt;/fen&gt; endorses and makes binding.
+
+&lt;ex&gt;President Aleksander Kwasniewski &lt;t&gt;ratified&lt;/t&gt; &lt;fex name="pro"&gt;protocols to the Europol Convention&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Expressing_decision</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="acceptation.n" ID="2263" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="780" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="729" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="100011" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1632" annotatedsent="6"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2422" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="accepter.v" ID="2264" nbocc="97" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="781" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act" ID="730" annotatedsent="41"/>
+        <otherlexUnit framename="Other_sense" ID="100012" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1633" annotatedsent="33"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2423" annotatedsent="11"/>
+    </lexUnit>
+    <lexUnit POS="n" name="approbation.n" ID="2265" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="100116" annotatedsent="0"/>
+        <otherlexUnit framename="Judgment" ID="1635" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="approuver.v" ID="2266" nbocc="44" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="39"/>
+        <otherlexUnit framename="Other_sense" ID="100119" annotatedsent="0"/>
+        <otherlexUnit framename="Judgment" ID="1636" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Judgment_communication" ID="2697" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="avaliser.v" ID="2617" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="100212" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="confirmation.n" ID="2621" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="100391" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="2639" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Expressing_truth_of_proposition" ID="1539" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="v" name="confirmer.v" ID="2620" nbocc="103" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="5"/>
+        <otherlexUnit framename="Other_sense" ID="100392" annotatedsent="16"/>
+        <otherlexUnit framename="Evidence" ID="538" annotatedsent="27"/>
+        <otherlexUnit framename="FR_Expressing_truth_of_proposition" ID="1540" annotatedsent="46"/>
+    </lexUnit>
+    <lexUnit POS="n" name="entérinement.n" ID="2267" nbocc="0" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="entériner.v" ID="2268" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="10"/>
+        <otherlexUnit framename="Other_sense" ID="100819" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="561" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="invalidation.n" ID="2269" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="invalider.v" ID="2270" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101111" annotatedsent="0"/>
+        <otherlexUnit framename="Evidence" ID="571" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="promulgation.n" ID="2271" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101457" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="promulguer.v" ID="2272" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101458" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="validation.n" ID="2273" nbocc="1" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101954" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="604" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="valider.v" ID="2274" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101955" annotatedsent="1"/>
+        <otherlexUnit framename="Evidence" ID="605" annotatedsent="0"/>
+    </lexUnit>
+</frame>

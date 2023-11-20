@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Agree_or_refuse_to_act" ID="10002" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Cognizer&lt;/fen&gt; either agrees to or refuses to engage in a &lt;fen&gt;Proposed_action&lt;/fen&gt;. He either thinks this agreement/refusal or communicates it to an interlocutor who might or might not be the person who proposed the &lt;fen&gt;Proposed_action&lt;/fen&gt; (note though that neither the addressee nor the proposer can be realized locally).
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Distinctions with other frames&lt;/asf&gt;:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠ &lt;frframe&gt;Willingness&lt;/frframe&gt;: in the Willingness frame, the Cognizer would engage in an Activity if prompted to do so, whereas FR_Agree_or_refuse_to_act is the situation in which the Cognizer communicates their willingness to engage in a Proposed_action.
+
+        &lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : corresponds to Agree_or_refuse_to_act, in which the Interlocutor is no longer a Core frame element (although it can be conceptually present) since no LUs in that frame subcategorize for it. Also, the Interlocutor and the entity who proposed the &lt;fen&gt;Proposed_action&lt;/fen&gt; could be different. Finally, the agreement/refusal could theoretically be purely interior, not communicated (as in "I think he refuses to mourn").
+        &lt;ex&gt;&lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/01/2005 04:44:44 PDT Thu" abbrev="cog" name="Cognizer" ID="9043">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the person to whom a particular action has been proposed and who responds to the request or offer made.
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="09/01/2005 04:44:46 PDT Thu" abbrev="pro" name="Proposed_action" ID="9046">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Proposed_action&lt;/fen&gt; is an action that the &lt;fen&gt;Speaker&lt;/fen&gt; would perform if they were to accept or refuse the request or offer.&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Communicates">
+        <relatedFrame>Willingness</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Agree_or_refuse_to_act_in_favor_of</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Agree_or_refuse_to_act</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="acceptation.n" ID="729" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="780" annotatedsent="0"/>
+        <otherlexUnit framename="Other_sense" ID="100011" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1632" annotatedsent="6"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2422" annotatedsent="0"/>
+        <otherlexUnit framename="Ratification" ID="2263" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="accepter.v" ID="730" nbocc="97" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="41"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="781" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="100012" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1633" annotatedsent="33"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2423" annotatedsent="11"/>
+        <otherlexUnit framename="Ratification" ID="2264" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="admettre.v" ID="731" nbocc="44" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="FR_Awareness-Certainty-Opinion" ID="782" annotatedsent="13"/>
+        <otherlexUnit framename="Other_sense" ID="100038" annotatedsent="8"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1514" annotatedsent="15"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="1634" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="n" name="consentement.n" ID="732" nbocc="1" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100405" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="1874" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2589" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="consentir.v" ID="733" nbocc="20" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100406" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="1875" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2590" annotatedsent="14"/>
+    </lexUnit>
+    <lexUnit POS="adv" name="d'accord.adv" ID="2602" nbocc="18" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100502" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_assessment" ID="88" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Being_in_favor_of" ID="870" annotatedsent="2"/>
+        <otherlexUnit framename="Willingness" ID="2582" annotatedsent="0"/>
+        <otherlexUnit framename="Be_in_agreement_on_action" ID="75" annotatedsent="3"/>
+    </lexUnit>
+    <lexUnit POS="n" name="refus.n" ID="734" nbocc="37" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="28"/>
+        <otherlexUnit framename="Other_sense" ID="101579" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1644" annotatedsent="3"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="429" annotatedsent="1"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2425" annotatedsent="6"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2591" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="refuser.v" ID="735" nbocc="99" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="47"/>
+        <otherlexUnit framename="Other_sense" ID="101580" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1645" annotatedsent="18"/>
+        <otherlexUnit framename="FR_Grant_permission-Permitting" ID="430" annotatedsent="3"/>
+        <otherlexUnit framename="Respond_to_proposal" ID="2426" annotatedsent="8"/>
+        <otherlexUnit framename="FR_Agree_or_refuse_to_act_in_favor_of" ID="2592" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="récuser.v" ID="736" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101662" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Taking_sides" ID="1649" annotatedsent="1"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="rapporter.v" ID="1594" frame="FR_Statement-manner-noise" frameID="10056" totalAnnotated="31" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Msg" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="10542"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Medium"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="818"/>
+                <annoSet ID="868"/>
+                <annoSet ID="895"/>
+                <annoSet ID="3130"/>
+                <annoSet ID="3133"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="30">
+            <FE name="Message"/>
+            <pattern total="30">
+                <valenceUnit PT="filled" FE="Message"/>
+                <annoSet ID="818"/>
+                <annoSet ID="854"/>
+                <annoSet ID="855"/>
+                <annoSet ID="868"/>
+                <annoSet ID="880"/>
+                <annoSet ID="881"/>
+                <annoSet ID="885"/>
+                <annoSet ID="888"/>
+                <annoSet ID="890"/>
+                <annoSet ID="894"/>
+                <annoSet ID="895"/>
+                <annoSet ID="1241"/>
+                <annoSet ID="1242"/>
+                <annoSet ID="1245"/>
+                <annoSet ID="1285"/>
+                <annoSet ID="1318"/>
+                <annoSet ID="1495"/>
+                <annoSet ID="1499"/>
+                <annoSet ID="3130"/>
+                <annoSet ID="3133"/>
+                <annoSet ID="10542"/>
+                <annoSet ID="11045"/>
+                <annoSet ID="13014"/>
+                <annoSet ID="15957"/>
+                <annoSet ID="16118"/>
+                <annoSet ID="16590"/>
+                <annoSet ID="21380"/>
+                <annoSet ID="22760"/>
+                <annoSet ID="22997"/>
+                <annoSet ID="23150"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="32">
+            <FE name="Speaker"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="825"/>
+                <annoSet ID="11045"/>
+                <annoSet ID="13014"/>
+                <annoSet ID="15957"/>
+                <annoSet ID="16118"/>
+                <annoSet ID="16590"/>
+                <annoSet ID="21380"/>
+                <annoSet ID="22760"/>
+                <annoSet ID="22997"/>
+                <annoSet ID="23150"/>
+            </pattern>
+            <pattern total="22">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="818"/>
+                <annoSet ID="825"/>
+                <annoSet ID="854"/>
+                <annoSet ID="855"/>
+                <annoSet ID="868"/>
+                <annoSet ID="880"/>
+                <annoSet ID="881"/>
+                <annoSet ID="885"/>
+                <annoSet ID="888"/>
+                <annoSet ID="890"/>
+                <annoSet ID="894"/>
+                <annoSet ID="895"/>
+                <annoSet ID="1241"/>
+                <annoSet ID="1242"/>
+                <annoSet ID="1245"/>
+                <annoSet ID="1285"/>
+                <annoSet ID="1318"/>
+                <annoSet ID="1495"/>
+                <annoSet ID="1499"/>
+                <annoSet ID="3130"/>
+                <annoSet ID="3133"/>
+                <annoSet ID="10542"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="689">
+            <text>des réactions d' hypersensibilité de type allergique ont été peu fréquemment rapportées dans les études cliniques .</text>
+            <annotationSet status="MANUAL" ID="818">
+                <layer rank="1" name="FE">
+                    <label end="51" start="0" name="Message"/>
+                    <label end="112" start="93" name="Medium"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="693">
+            <text>Des réactions anaphylactiques , y compris un choc anaphylactique fatal , ont été rapportées très rarement dans l' expérience post-commercialisation ( voir rubrique 4.8 ) .</text>
+            <annotationSet status="MANUAL" ID="825">
+                <layer rank="1" name="FE">
+                    <label end="69" start="0" name="Speaker"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="723">
+            <text>Des saignements mineurs ont été rapportés de façon très fréquente ( 1/10 ) et les saignements majeurs de façon fréquente ( 1/100 et &lt; 1/10 ) .</text>
+            <annotationSet status="MANUAL" ID="854">
+                <layer rank="1" name="FE">
+                    <label end="100" start="78" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="723">
+            <text>Des saignements mineurs ont été rapportés de façon très fréquente ( 1/10 ) et les saignements majeurs de façon fréquente ( 1/100 et &lt; 1/10 ) .</text>
+            <annotationSet status="MANUAL" ID="855">
+                <layer rank="1" name="FE">
+                    <label end="22" start="0" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="754">
+            <text>Dans l' étude ACUITY , des cas de thrombocytopénie ont été rapportés chez 10 patients traités à la bivalirudine ( 0,1 % ) .</text>
+            <annotationSet status="MANUAL" ID="868">
+                <layer rank="1" name="FE">
+                    <label end="49" start="23" name="Message"/>
+                    <label end="120" start="69" name="Message"/>
+                    <label end="19" start="5" name="Medium"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="780">
+            <text>Des saignements mineurs ont été rapportés de façon très fréquente ( 1/10 ) et les saignements majeurs de façon fréquente ( 1/100 et &lt; 1/10 ) .</text>
+            <annotationSet status="MANUAL" ID="880">
+                <layer rank="1" name="FE">
+                    <label end="100" start="78" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="780">
+            <text>Des saignements mineurs ont été rapportés de façon très fréquente ( 1/10 ) et les saignements majeurs de façon fréquente ( 1/100 et &lt; 1/10 ) .</text>
+            <annotationSet status="MANUAL" ID="881">
+                <layer rank="1" name="FE">
+                    <label end="22" start="0" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="40" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="799">
+            <text>Les réactions indésirables qui ont été rapportées à partir d' une importante expérience post-commercialisation et qui n' ont pas été mentionnées ci-dessus sont résumées par classes des systèmes d' organes dans le tableau 6 .</text>
+            <annotationSet status="MANUAL" ID="885">
+                <layer rank="1" name="FE">
+                    <label end="153" start="0" name="Message"/>
+                    <label end="29" start="27" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="800">
+            <text>Des saignements graves , pouvant être fatals , ont été rapportés au cours de l' expérience post-commercialisation de la bivalirudine .</text>
+            <annotationSet status="MANUAL" ID="888">
+                <layer rank="1" name="FE">
+                    <label end="43" start="0" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="802">
+            <text>Effets indésirables post-commercialisation rapportées avec la bivalirudine</text>
+            <annotationSet status="MANUAL" ID="890">
+                <layer rank="1" name="FE">
+                    <label end="41" start="0" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="52" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="809">
+            <text>Des cas de surdosage correspondants à 10 fois la dose recommandée ont été rapportés dans les études cliniques , Des bolus de bivalirudine , allant jusqu' à 7,5 mg / kg , ont également été administrés sans qu' il ne soit rapporté de saignement associé ni d' autres événements indésirables .</text>
+            <annotationSet status="MANUAL" ID="894">
+                <layer rank="1" name="FE">
+                    <label end="286" start="229" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="227" start="220" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="809">
+            <text>Des cas de surdosage correspondants à 10 fois la dose recommandée ont été rapportés dans les études cliniques , Des bolus de bivalirudine , allant jusqu' à 7,5 mg / kg , ont également été administrés sans qu' il ne soit rapporté de saignement associé ni d' autres événements indésirables .</text>
+            <annotationSet status="MANUAL" ID="895">
+                <layer rank="1" name="FE">
+                    <label end="64" start="0" name="Message"/>
+                    <label end="108" start="89" name="Medium"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="82" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1220">
+            <text>Des douleurs osseuses , articulaires et / ou musculaires sévères et parfois invalidantes ont été rarement rapportées chez les patients traités par des bisphosphonates , y compris Aclasta .</text>
+            <annotationSet status="MANUAL" ID="1241">
+                <layer rank="1" name="FE">
+                    <label end="87" start="0" name="Message"/>
+                    <label end="185" start="117" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1224">
+            <text>Une ostéonécrose de la mâchoire a été rapportée principalement chez des patients atteints d' un cancer et traités notamment par des bisphosphonates , y compris l' acide zolédronique .</text>
+            <annotationSet status="MANUAL" ID="1242">
+                <layer rank="1" name="FE">
+                    <label end="30" start="0" name="Message"/>
+                    <label end="180" start="63" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="38" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1226">
+            <text>La majorité des cas rapportés ont été associés à des interventions dentaires telles qu' une extraction dentaire .</text>
+            <annotationSet status="MANUAL" ID="1245">
+                <layer rank="1" name="FE">
+                    <label end="18" start="0" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="20" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1256">
+            <text>L' incidence globale des fibrillations auriculaires rapportées comme événement indésirable grave était de 1,3 % pour le groupe Aclasta et de 0,8 % pour le groupe placebo .</text>
+            <annotationSet status="MANUAL" ID="1285">
+                <layer rank="1" name="FE">
+                    <label end="50" start="25" name="Message"/>
+                    <label end="95" start="69" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1283">
+            <text>Des cas d' ostéonécrose ( principalement de la mâchoire ) ont été peu fréquemment rapportés , principalement chez des patients atteints d' un cancer et traités par bisphosphonates , dont l' acide zolédronique .</text>
+            <annotationSet status="MANUAL" ID="1318">
+                <layer rank="1" name="FE">
+                    <label end="56" start="0" name="Message"/>
+                    <label end="207" start="94" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1488">
+            <text>Des douleurs persistantes et / ou des plaies qui ne guérissent pas au niveau de la bouche ou de la mâchoire ont été rapportées chez des patients traités avec des bisphosphonates pour d' autres maladies .</text>
+            <annotationSet status="MANUAL" ID="1495">
+                <layer rank="1" name="FE">
+                    <label end="106" start="0" name="Message"/>
+                    <label end="200" start="127" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="125" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1490">
+            <text>Des réactions allergiques ont été rapportées , incluant de rares cas de difficultés respiratoires , d' urticaire et d' oedèmes de Quincke ( tel un gonflement du visage , de la langue ou du cou ) .</text>
+            <annotationSet status="MANUAL" ID="1499">
+                <layer rank="1" name="FE">
+                    <label end="24" start="0" name="Message"/>
+                    <label end="193" start="47" name="Message"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="34" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2399">
+            <text>Les fiches ne se contentent pas de rapporter uniquement des faits comme en témoignent les appelations de " clérical cléricalisant " , " cléricafard " , " cléricanaille " , " calotin pur-sang " , " jésuitard " , " grand avaleur de bon Dieu " , " vieille peau fermée à nos idées " , " rallié à la République , n' en porte pas moins un nom à particule " .</text>
+            <annotationSet status="MANUAL" ID="3130">
+                <layer rank="1" name="FE">
+                    <label end="64" start="56" name="Message"/>
+                    <label end="9" start="0" name="Medium"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2400">
+            <text>Les fiches rapportent aussi la vie privé ou familiale des officiers : " Suit les processions en civil " , " a assisté à la messe de première communion de sa fille " , " Membre de la Société Saint-Vincent-de-Paul " , " A ses enfants dans une jésuitière " , " Reçoit La Croix chez lui " , " A qualifié les maçons et les républicains de canailles , de voleurs et de traîtres " , " richissime " , " a une femme très fortunée " , " Vit maritalement avec une femme arabe " , " A reçu la bénédiction du pape à son mariage par télégramme " .</text>
+            <annotationSet status="MANUAL" ID="3133">
+                <layer rank="1" name="FE">
+                    <label end="66" start="28" name="Message"/>
+                    <label end="9" start="0" name="Medium"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7139">
+            <text>On a d' ailleurs avancé que ce propos , réellement tenu par Montrond , aurait été rapporté à Mme de Girardin , qui l' aurait alors intégré à son texte .</text>
+            <annotationSet status="MANUAL" ID="10542">
+                <layer rank="1" name="FE">
+                    <label end="67" start="28" name="Message"/>
+                    <label end="149" start="93" name="Addressee"/>
+                    <label itype="UNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7597">
+            <text>" La France , a déclaré M. Dumas - dont les propos étaient rapportés par le porte - parole du gouvernement , M. Martin Malvy - souhaite que le Danemark trouve le moyen de rejoindre l' Union européenne avant la date du 31 décembre 1992 .</text>
+            <annotationSet status="MANUAL" ID="11045">
+                <layer rank="1" name="FE">
+                    <label end="49" start="40" name="Message"/>
+                    <label end="123" start="73" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9091">
+            <text>" La Russie achète quelque 2 millions de tonnes de blé meunier à la CEE , au titre d' un crédit de la Communauté qui doit être finalisé sous peu " , rapporte encore le CIB .</text>
+            <annotationSet status="MANUAL" ID="13014">
+                <layer rank="1" name="FE">
+                    <label end="147" start="0" name="Message"/>
+                    <label end="170" start="165" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="156" start="149" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11587">
+            <text>Le directeur général du Fonds monétaire international ( FMI ) , M. Michel Camdessus , se rendra , mercredi 30 décembre , en Algérie pour y rencontrer le premier ministre , M. Abdessalam Belaïd , et les responsables économiques du pays , a rapporté lundi 28 décembre l' agence algérienne APS .</text>
+            <annotationSet status="MANUAL" ID="15957">
+                <layer rank="1" name="FE">
+                    <label end="233" start="0" name="Message"/>
+                    <label end="289" start="266" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="246" start="239" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11756">
+            <text>La Chine procédera à 100 000 suppressions d' emplois dans ses mines de charbon en 1993 , dont 30 000 licenciements , rapporte , lundi 28 décembre , le quotidien China Daily .</text>
+            <annotationSet status="MANUAL" ID="16118">
+                <layer rank="1" name="FE">
+                    <label end="113" start="0" name="Message"/>
+                    <label end="171" start="148" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="124" start="117" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12243">
+            <text>Près de 63 000 entreprises ont sombré pendant l' année écoulée ( + 31 % par rapport à 1991 ) , pour la plupart de petite taille , a rapporté le cabinet d' information financière Dun and Bradstreet .</text>
+            <annotationSet status="MANUAL" ID="16590">
+                <layer rank="1" name="FE">
+                    <label end="126" start="0" name="Message"/>
+                    <label end="195" start="141" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17305">
+            <text>De nombreuses familles ont trouvé refuge dans les cités militaires de la garnison de Bakou mais " ces cités , rapporte le quotidien du gouvernement , sont parfois bloquées par les extrémistes ( qui ) menacent les militaires de représailles pour avoir aidé les Arméniens " .</text>
+            <annotationSet status="MANUAL" ID="21380">
+                <layer rank="1" name="FE">
+                    <label end="106" start="96" name="Message"/>
+                    <label end="270" start="148" name="Message"/>
+                    <label end="146" start="119" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="117" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18651">
+            <text>L' agence rapporte également qu' à Lenkoran , où la radio a été occupée , de même que d' autres bâtiments officiels , " tout le pouvoir est passé aux mains du front populaire " et que la situation s' aggrave aussi dans la ville proche de Jalilabad , qui s' était déjà insurgée en décembre dernier .</text>
+            <annotationSet status="MANUAL" ID="22760">
+                <layer rank="1" name="FE">
+                    <label end="175" start="33" name="Message"/>
+                    <label end="8" start="0" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18932">
+            <text>Sa réponse , rapportée par René de Peyrecave , fut affirmative , parce qu' elle " s' estimait responsable du personnel , du matériel et d' une marque qui a contribué au renom de la France à l' étranger " , et qu' elle " craignait d' être dépossédée au profit d' usines actives " .</text>
+            <annotationSet status="MANUAL" ID="22997">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Message"/>
+                    <label end="43" start="27" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19161">
+            <text>Mr Shamir , dont les propos sont rapportés par la presse , a souligné que cette " grande immigration ( nécessitait ) un Grand Israël " : " nous avons besoin d' espace pour héberger tous ces gens " , a -t-il ajouté .</text>
+            <annotationSet status="MANUAL" ID="23150">
+                <layer rank="1" name="FE">
+                    <label end="26" start="17" name="Message"/>
+                    <label end="55" start="47" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

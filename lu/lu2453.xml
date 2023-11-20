@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="confier.v" ID="2453" frame="Reveal_secret" frameID="1146" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="inf" name="Information"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="3224"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Information"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Information"/>
+                <annoSet ID="418"/>
+                <annoSet ID="465"/>
+                <annoSet ID="3224"/>
+                <annoSet ID="11252"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="418"/>
+                <annoSet ID="465"/>
+                <annoSet ID="3224"/>
+                <annoSet ID="11252"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="328">
+            <text>" Si cela continue , je vais ouvrir une salle municipale " confiait le premier magistrat .</text>
+            <annotationSet status="MANUAL" ID="418">
+                <layer rank="1" name="FE">
+                    <label end="57" start="0" name="Information"/>
+                    <label end="87" start="68" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="59" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="353">
+            <text>" Près de trente ans après le combat mené par Françoise Giroud , il est paradoxal de devoir tirer la sonnette d' alarme " , confie la députée de Moselle en rendant hommage à celle qui fut secrétaire d' Etat à la Condition féminine .</text>
+            <annotationSet status="MANUAL" ID="465">
+                <layer rank="1" name="FE">
+                    <label end="122" start="0" name="Information"/>
+                    <label end="151" start="131" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="129" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2451">
+            <text>Soumis à l' " autorisation de transfert " du 17 septembre 1991 de la part de la direction générale des douanes du ministère du Budget , alors dirigé par le socialiste Michel Charasse , les " rémunérations " consenties se montèrent à près de 3 milliards de francs pour le réseau A et à quelque 80 millions de francs pour le réseau B , selon les informations confiées en 1998 à la brigade financière par l' ancien directeur de Thomson pour l' Asie , Alain Fribourg .</text>
+            <annotationSet status="MANUAL" ID="3224">
+                <layer rank="1" name="FE">
+                    <label end="355" start="340" name="Information"/>
+                    <label end="396" start="376" name="Addressee"/>
+                    <label end="461" start="402" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="364" start="357" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7771">
+            <text>Son rêve : une 505 , le must en matière de réussite sociale ; et - finit -il par confier - le meilleur moyen , pour un célibataire de trente - cinq ans , de trouver chaussure à son pied .</text>
+            <annotationSet status="MANUAL" ID="11252">
+                <layer rank="1" name="FE">
+                    <label end="184" start="91" name="Information"/>
+                    <label end="75" start="73" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="81" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9510">
+            <text>Chez Sonauto , dont la campagne de publicité évite toute agressivité , on avoue que les prévisions de vente sont volontairement sous - estimées ; chez France Motors , on envisage dès 1994 de commercialiser aussi des voitures du tourisme Kia ( la berline Sephia et 4 4 Sportage ) : " En partant de la " niche " qu' est le fourgon , nous espérons pouvoir développer une gamme complète d' ici trois ou quatre ans " , confie Jean Prêtre .</text>
+            <annotationSet status="MANUAL" ID="13430">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="419" start="414" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

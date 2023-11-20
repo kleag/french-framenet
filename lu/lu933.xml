@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="communiquer.v" ID="933" frame="FR_Chatting-Discussion" frameID="10010" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Intlc_1" name="Interlocutor_1"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Intlc_2" name="Interlocutor_2"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Intlc_s" name="Interlocutors"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="#FF1493" bgColor="FFFFFF" type="unk" abbrev="unk" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Interlocutor_1"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Interlocutor_2"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Interlocutors"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Interlocutors"/>
+                <annoSet ID="19922"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10960">
+            <text>Vingt minutes pour communiquer</text>
+            <annotationSet status="MANUAL" ID="15209">
+                <layer rank="1" name="FE">
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15743">
+            <text>On y apprend que les salariés français ( 82 , 4 % ) ont le sentiment de travailler dans une entreprise plutôt tolérante où ils estiment ( 62 , 9 % ) pouvoir communiquer facilement entre eux .</text>
+            <annotationSet status="MANUAL" ID="19922">
+                <layer rank="1" name="FE">
+                    <label end="125" start="123" name="Interlocutors"/>
+                    <label end="50" start="17" name="Interlocutors"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="influence.n" ID="997" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Dependent"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="11661"/>
+                <annoSet ID="21467"/>
+                <annoSet ID="21561"/>
+                <annoSet ID="22829"/>
+            </pattern>
+            <pattern total="5">
+                <valenceUnit PT="null instantiation" FE="Dependent"/>
+                <annoSet ID="9702"/>
+                <annoSet ID="9705"/>
+                <annoSet ID="9714"/>
+                <annoSet ID="19834"/>
+                <annoSet ID="22212"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Influencer"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="9702"/>
+                <annoSet ID="11661"/>
+                <annoSet ID="19834"/>
+                <annoSet ID="21467"/>
+                <annoSet ID="21561"/>
+                <annoSet ID="22212"/>
+                <annoSet ID="22829"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Influencer"/>
+                <annoSet ID="9705"/>
+                <annoSet ID="9714"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="6493">
+            <text>Mais , en dénonçant avec un certain agacement la " french mafia " , nos confrères étrangers ne rendent -ils pas indirectement hommage à une nouvelle forme d' influence française ?</text>
+            <annotationSet status="MANUAL" ID="9702">
+                <layer rank="1" name="FE">
+                    <label end="176" start="168" name="Influencer"/>
+                    <label itype="ENI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="166" start="158" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6494">
+            <text>Et cette influence pourrait -elle pareillement se manifester si notre pays connaissait les graves difficultés que traverse l' Italie par exemple ?</text>
+            <annotationSet status="MANUAL" ID="9705">
+                <layer rank="1" name="FE">
+                    <label itype="ENI" name="Dependent"/>
+                    <label itype="DNI" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="17" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6497">
+            <text>La " french mafia " semble donc bien traduire une nouvelle forme d' influence , moins idéologique que par le passé , davantage fondée sur la bonne réputation du pays en matière économique et financière .</text>
+            <annotationSet status="MANUAL" ID="9714">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Dependent"/>
+                    <label itype="DNI" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8112">
+            <text>POUR mesurer l' évolution , il convient enfin de se référer à une étude réalisée par le CEREQ ( Centre d' études et de recherche sur les qualifications ) qui examine le chemin parcouru ces dernières années par les métiers de l' hôtellerie et de la restauration , essentiellement sous l' influence structurante des grands groupes .</text>
+            <annotationSet status="MANUAL" ID="11661">
+                <layer rank="1" name="FE">
+                    <label end="259" start="210" name="Dependent"/>
+                    <label end="327" start="314" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="295" start="287" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15632">
+            <text>Se manifeste alors l' influence de la rationalité de l' entreprise par rapport à la pédagogie .</text>
+            <annotationSet status="MANUAL" ID="19834">
+                <layer rank="1" name="FE">
+                    <label end="65" start="35" name="Influencer"/>
+                    <label itype="UNI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17398">
+            <text>On avançait une série de remèdes contre les " maladies " dont souffre le Parlement : l' absentéisme , le caractère très réduit de l' influence parlementaire dans l' élaboration des lois et l' évacuation progressive de ses pouvoirs vers l' exécutif , les partis ou les cabinets ministériels (9) .</text>
+            <annotationSet status="MANUAL" ID="21467">
+                <layer rank="1" name="FE">
+                    <label end="292" start="162" name="Dependent"/>
+                    <label end="155" start="143" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="141" start="133" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17517">
+            <text>Le savant cherchait toujours à dégager rapports et influences entre ce que tout semblait séparer : apologétique musulmane et atomisme indien , ou pensée juive et scolastique médiévale .</text>
+            <annotationSet status="MANUAL" ID="21561">
+                <layer rank="1" name="FE">
+                    <label end="182" start="68" name="Dependent"/>
+                    <label end="182" start="68" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="60" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18181">
+            <text>Quelle sera dans l' avenir l' influence de l' Europe si elle parvient à accorder ses violons ?</text>
+            <annotationSet status="MANUAL" ID="22212">
+                <layer rank="1" name="FE">
+                    <label end="51" start="43" name="Influencer"/>
+                    <label itype="UNI" name="Dependent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18718">
+            <text>Ce principe avait été écorné sous l' influence des idées libérales et de la poussée d' UTA et d' Air Inter , qui souhaitaient se développer en dehors des territoires où elles étaient enfermées .</text>
+            <annotationSet status="MANUAL" ID="22829">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Dependent"/>
+                    <label end="191" start="51" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

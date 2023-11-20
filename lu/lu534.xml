@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="aussi.adv" ID="534" frame="Evidence" frameID="25" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Proposition"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="2593"/>
+                <annoSet ID="4900"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Support"/>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Support"/>
+                <annoSet ID="2593"/>
+                <annoSet ID="4900"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2009">
+            <text>Aussi , je voudrais renforcer la Commission dans son opinion .</text>
+            <annotationSet status="MANUAL" ID="2593">
+                <layer rank="1" name="FE">
+                    <label end="61" start="6" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3621">
+            <text>Aussi tenons -nous à mettre en garde les petits porteurs d' actions Hachette , qui risquent , un jour de se rendre compte que , pour M. Lagardère , les promesses ne semblent engager que ceux qui les reçoivent . "</text>
+            <annotationSet status="MANUAL" ID="4900">
+                <layer rank="1" name="FE">
+                    <label end="211" start="6" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

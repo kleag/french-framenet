@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Expressing_stance" ID="10094" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Speaker&lt;/fen&gt; expresses through language a personal stance as to the veracity of some &lt;fen&gt;True_content&lt;/fen&gt;, the legitimacy of some &lt;fen&gt;Legitimate_content&lt;/fen&gt;, or as to the advisability of performing some &lt;fen&gt;Action&lt;/fen&gt;.
+    
+     &lt;ex&gt; &lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : New in ASFALDA. 
+
+&lt;/def-root&gt;</definition>
+    <semType name="Non-Lexical Frame" ID="16"/>
+
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:51 PST Wed" abbrev="Spkr" name="Speaker" ID="83">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the person who expresses their stance. &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+        <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:11:52 PST Wed" abbrev="TC" name="True_content" ID="84">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;True_content&lt;/fen&gt; is the content the &lt;fen&gt;Cognizer&lt;/fen&gt; expresses they believe is true.&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+        <excludesFE name="Legitimate_content" ID="10413"/>
+        <excludesFE name="Action" ID="413"/>
+    </FE>
+        <FE bgColor="00bfff" fgColor="FFFFFF" coreType="Core" cBy="605" 
+cDate="03/02/2001 09:55:37 PST Fri" abbrev="LgtC" name="Legitimate_content" ID="10413">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Legitimate_content&lt;/fen&gt; is the content the &lt;fen&gt;Cognizer&lt;/fen&gt; expresses they believe is legitimate.&lt;/def-root&gt;</definition>
+        <semType name="Content" ID="55"/>
+        <excludesFE name="Action" ID="413"/>
+        <excludesFE name="True_content" ID="84"/>
+    </FE>
+        <FE bgColor="8000ff" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="03/02/2001 09:55:37 PST Fri" abbrev="Action" name="Action" ID="413">
+        <definition>&lt;def-root&gt;The action whose advisability the &lt;fen&gt;Cognizer&lt;/fen&gt; expresses a stance on.&lt;/def-root&gt;</definition>
+        <semType name="Human_act" ID="69"/>
+        <excludesFE name="True_content" ID="84"/>
+        <excludesFE name="Legitimate_content" ID="10413"/>
+    </FE>
+    <frameRelation type="Communicates">
+        <relatedFrame>FR_Personal_stance</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Expressing_truth_of_proposition</relatedFrame>
+        <relatedFrame>FR_Taking_sides</relatedFrame>
+    </frameRelation>
+</frame>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="raison.n" ID="589" frame="Evidence" frameID="25" totalAnnotated="11" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Proposition"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="4893"/>
+                <annoSet ID="5454"/>
+                <annoSet ID="9089"/>
+                <annoSet ID="15441"/>
+                <annoSet ID="17312"/>
+                <annoSet ID="18627"/>
+                <annoSet ID="18727"/>
+                <annoSet ID="21735"/>
+                <annoSet ID="22127"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Proposition"/>
+                <annoSet ID="9637"/>
+                <annoSet ID="20865"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Support"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="4893"/>
+                <annoSet ID="5454"/>
+                <annoSet ID="9089"/>
+                <annoSet ID="9637"/>
+                <annoSet ID="15441"/>
+                <annoSet ID="17312"/>
+                <annoSet ID="18627"/>
+                <annoSet ID="18727"/>
+                <annoSet ID="20865"/>
+                <annoSet ID="21735"/>
+                <annoSet ID="22127"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3620">
+            <text>" au vu des promesses faites aux salariés de la Cinq et à leurs familles , il y a un an , et du non- respect flagrant de ses engagements moraux , écrit -il , la CFTC Bourse estime qu' une entreprise qui a si peu de parole vis - à - vis de ses proches collaborateurs n' a aucune raison d' en avoir plus vis - à - vis de ses actionnaires .</text>
+            <annotationSet status="MANUAL" ID="4893">
+                <layer rank="1" name="FE">
+                    <label end="264" start="199" name="Support"/>
+                    <label end="269" start="184" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="283" start="278" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3947">
+            <text>Il écrivait en début de semaine : " Au vu des promesses faites aux salariés de la Cinq et à leur famille , il y a un an , et du non- respect de ces engagements moraux , la CFTC Bourse estime qu' une entreprise qui a si peu de parole vis - à - vis de ses proches collaborateurs n' a aucune raison d' en avoir plus vis - à - vis de ses actionnaires ... "</text>
+            <annotationSet status="MANUAL" ID="5454">
+                <layer rank="1" name="FE">
+                    <label end="275" start="210" name="Support"/>
+                    <label end="280" start="195" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="294" start="289" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6115">
+            <text>Et ce , pour des raisons .</text>
+            <annotationSet status="MANUAL" ID="9089">
+                <layer rank="1" name="FE">
+                    <label end="23" start="13" name="Support"/>
+                    <label end="4" start="3" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6443">
+            <text>Pour une raison simple : c' est le 1 janvier 1993 qu' entrera en vigueur la réglementation antipollution sur tous les véhicules de plus de 1 400 cm³ dans la Communauté .</text>
+            <annotationSet status="MANUAL" ID="9637">
+                <layer rank="1" name="FE">
+                    <label end="166" start="25" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11163">
+            <text>Si , à la date dite , à peu près tous avaient eu un entretien ( plus d' 1 million ) à l' Agence pour l' emploi , la baisse ne fut que de 56 000 , pour une raison simple : les 768 000 qui avaient pu sortir en dix mois avaient été immédiatement remplacés par 770 000 autres qui avaient atteint leur treizième mois de chômage pendant le même temps ...</text>
+            <annotationSet status="MANUAL" ID="15441">
+                <layer rank="1" name="FE">
+                    <label end="343" start="171" name="Support"/>
+                    <label end="149" start="0" name="Proposition"/>
+                    <label end="347" start="169" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12967">
+            <text>Pour toutes ces raisons , le terrain des " acquis sociaux " n' est peut - être pas celui sur lequel ils seront demain les mieux placés .</text>
+            <annotationSet status="MANUAL" ID="17312">
+                <layer rank="1" name="FE">
+                    <label end="22" start="5" name="Support"/>
+                    <label end="3" start="0" name="Proposition"/>
+                    <label end="135" start="24" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14312">
+            <text>" Il n' y a pas de raison que ce texte ait un effet d' entraînement " , estimait -on , mardi , du côté français .</text>
+            <annotationSet status="MANUAL" ID="18627">
+                <layer rank="1" name="FE">
+                    <label end="66" start="16" name="Support"/>
+                    <label end="66" start="30" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14420">
+            <text>" Partout , sur tous les continents , les aires de la production agricole gagnent les zones littorales , les grands noeuds de communication - en particulier les zones portuaires - et les zones de consommation : il n' y a aucune raison que la France , par un inexplicable miracle , puisse y échapper sans prendre des mesures appropriées ( 1 ) . "</text>
+            <annotationSet status="MANUAL" ID="18727">
+                <layer rank="1" name="FE">
+                    <label end="233" start="221" name="Support"/>
+                    <label end="334" start="239" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="233" start="228" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16693">
+            <text>- Mais en dehors de ces raisons économiques ou philosophiques , il y a la réalité : les étudiants sont à notre porte .</text>
+            <annotationSet status="MANUAL" ID="20865">
+                <layer rank="1" name="FE">
+                    <label end="60" start="20" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17693">
+            <text>Pour des raisons pratiques , un système de banques centrales moderne et efficace ne doit pas être dépendant des instructions ni soumis aux pressions émanant des gouvernements nationaux et des institutions européennes .</text>
+            <annotationSet status="MANUAL" ID="21735">
+                <layer rank="1" name="FE">
+                    <label end="25" start="5" name="Support"/>
+                    <label end="3" start="0" name="Proposition"/>
+                    <label end="217" start="27" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18079">
+            <text>Rendre nos frontières étanches ne serait pas une mince affaire pour plusieurs raisons .</text>
+            <annotationSet status="MANUAL" ID="22127">
+                <layer rank="1" name="FE">
+                    <label end="84" start="68" name="Support"/>
+                    <label end="66" start="0" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="78" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

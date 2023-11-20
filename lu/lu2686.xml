@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="discrédit.n" ID="2686" frame="FR_Judgment_communication" frameID="10080" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Communicator"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="18280"/>
+                <annoSet ID="24327"/>
+                <annoSet ID="24348"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Evaluee"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="18280"/>
+                <annoSet ID="24327"/>
+                <annoSet ID="24348"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="13955">
+            <text>Les entreprises soucieuses de leur image de marque risquent aussi le discrédit , puisque , en plus de la publicité faite à tout procès , une peine entraîne " l' affichage de la décision prononcée ou la diffusion de celle - ci , soit par la presse écrite , soit par tout moyen de communication audiovisuelle " .</text>
+            <annotationSet status="MANUAL" ID="18280">
+                <layer rank="1" name="FE">
+                    <label end="49" start="0" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="77" start="69" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20713">
+            <text>" La CGT , bien qu' en baisse par rapport à 1987 , reste toujours et largement le premier syndicat du pays " , souligne le secrétaire général , qui reprend la thèse de " l' abstention forcée " et " rejette toutes les tentatives d' utiliser cette réalité dans un but de discrédit de l' institution prud' homale " .</text>
+            <annotationSet status="MANUAL" ID="24327">
+                <layer rank="1" name="FE">
+                    <label end="308" start="282" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="277" start="269" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20745">
+            <text>Le secrétaire général de la CGT , qui avait fait état " d' un accroissement sensible des difficultés dans l' organisation du scrutin " , a affirmé que le taux d' abstention " ne saurait être interprété comme un désintérêt à l' égard des prud' hommes ni comme l' expression d' un discrédit à l' égard des organisations syndicales " .</text>
+            <annotationSet status="MANUAL" ID="24348">
+                <layer rank="1" name="FE">
+                    <label end="327" start="304" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="287" start="279" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

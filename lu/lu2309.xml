@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="vu que.conj" ID="2309" frame="FR_Reason" frameID="10083" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Action"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="State_of_Affairs"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Action"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="2124"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="2124"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="State_of_Affairs"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="State_of_Affairs"/>
+                <annoSet ID="2124"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1809">
+            <text>Je suis contraint de vous redemander d' intervenir , à vous et à la Commission , pour que ce procès se déroule dans le respect total des droits de l' homme , pour qu' on ne condamne pas à mort treize personnes sans connaître tous les tenants et aboutissants , vu que cette Assemblée s' est exprimée à plus d' une reprise contre la peine capitale .</text>
+            <annotationSet status="MANUAL" ID="2124">
+                <layer rank="1" name="FE">
+                    <label end="77" start="21" name="Action"/>
+                    <label end="344" start="267" name="State_of_Affairs"/>
+                    <label end="1" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="265" start="260" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Carry_goods" ID="1850" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;A Distributor sells, lends, or otherwise distributes a class of Goods. In the prototypical case, the Distributor is a retailer who generally keeps some type of Goods on site for the purpose of selling it to a buyer. Extensions include lending Goods (e.g., libraries, movie rental outlets), organization-internal distribution (as in a hospital), or other non-commercial distribution centers. The Goods are constrained to be a type of item (e.g., &lt;ment&gt;canned goods&lt;/ment&gt;, &lt;ment&gt;antique dressers&lt;/ment&gt;) rather than a particular or unique item (e.g., &lt;ment&gt;Smith's last self-portrait&lt;/ment&gt;, &lt;ment&gt;that guitar I saw here last week&lt;/ment&gt;). Note that a Distributor may &lt;ment&gt;carry&lt;/ment&gt; some particular goods, but may not have it &lt;ment&gt;on hand&lt;/ment&gt; at that exact moment.&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="11/22/2006 05:08:34 PST Wed" abbrev="dis" name="Distributor" ID="10849">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Distributor&lt;/fen&gt; maintains a store of &lt;fen&gt;Goods&lt;/fen&gt; for the purpose of selling or otherwise distributing them.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="618" cDate="11/22/2006 05:09:00 PST Wed" abbrev="goo" name="Goods" ID="10850">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Goods&lt;/fen&gt; are kept on hand and distributed by the &lt;fen&gt;Distributor&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Inherits from"/>
+    <frameRelation type="Is Inherited by"/>
+    <frameRelation type="Perspective on"/>
+    <frameRelation type="Is Perspectivized in"/>
+    <frameRelation type="Uses">
+        <relatedFrame>Storing</relatedFrame>
+        <relatedFrame>Commerce_sell</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Used by"/>
+    <frameRelation type="Subframe of"/>
+    <frameRelation type="Has Subframe(s)"/>
+    <frameRelation type="Precedes"/>
+    <frameRelation type="Is Preceded by"/>
+    <frameRelation type="Is Inchoative of"/>
+    <frameRelation type="Is Causative of"/>
+    <frameRelation type="See also"/>
+    <lexUnit POS="v" name="colporter.v" ID="137" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="commercialisation.n" ID="138" nbocc="23" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="23"/>
+        <otherlexUnit framename="Other_sense" ID="100360" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="commercialiser.v" ID="139" nbocc="25" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="25"/>
+        <otherlexUnit framename="Other_sense" ID="100361" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="diffuser.v" ID="140" nbocc="50" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="diffusion.n" ID="141" nbocc="35" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="distribuer.v" ID="142" nbocc="35" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="11"/>
+        <otherlexUnit framename="Other_sense" ID="100591" annotatedsent="25"/>
+    </lexUnit>
+    <lexUnit POS="n" name="distribution.n" ID="143" nbocc="76" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="69"/>
+        <otherlexUnit framename="Other_sense" ID="100592" annotatedsent="17"/>
+    </lexUnit>
+</frame>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="renonciation.n" ID="2612" frame="FR_Renunciation" frameID="10077" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="spe" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="evt" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Benefit" name="Benefit"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Benefit"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="23200"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Eventuality"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="23200"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="19203">
+            <text>Mr Sarre y voit le signe de la renonciation de la Ville de Paris à user de son droit de préemption chaque fois qu' elle le pourrait et du désintérêt de la Mairie pour l' achat de terrains qui accueilleraient des logements pour des personnes à revenu modeste .</text>
+            <annotationSet status="MANUAL" ID="23200">
+                <layer rank="1" name="FE">
+                    <label end="63" start="47" name="Cognizer"/>
+                    <label end="63" start="47" name="Eventuality"/>
+                    <label end="130" start="67" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

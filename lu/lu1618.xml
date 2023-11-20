@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="témoigner.v" ID="1618" frame="FR_Speak_on_topic" frameID="10054" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Speaker"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2763"/>
+                <annoSet ID="2875"/>
+                <annoSet ID="2895"/>
+                <annoSet ID="2964"/>
+                <annoSet ID="3361"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="3361"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Topic"/>
+                <annoSet ID="2763"/>
+                <annoSet ID="2875"/>
+                <annoSet ID="2895"/>
+                <annoSet ID="2964"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2086">
+            <text>Selon l' article 46 ( 2 ) de la loi fondamentale de la république fédérale , les députés du Bundestag ne peuvent pas être appelés à témoigner ou être arrêtés pour une infraction , sauf si le Bundestag en donne la permission , à moins qu' ils ne soient arrêtés en flagrant délit ou le jour suivant le délit .</text>
+            <annotationSet status="MANUAL" ID="2763">
+                <layer rank="1" name="FE">
+                    <label end="100" start="77" name="Speaker"/>
+                    <label itype="UNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2184">
+            <text>Une jeune femme témoigne , les larmes au yeux , devant le congrès américain .</text>
+            <annotationSet status="MANUAL" ID="2875">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Speaker"/>
+                    <label itype="DNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2205">
+            <text>Il est surprenant que le congrès américain n' ait pas fait une enquête préalable sur l' identité de la jeune fille avant de la laisser " témoigner " devant leur assemblée .</text>
+            <annotationSet status="MANUAL" ID="2895">
+                <layer rank="1" name="FE">
+                    <label end="113" start="100" name="Speaker"/>
+                    <label end="125" start="124" name="Speaker"/>
+                    <label itype="DNI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2263">
+            <text>Quelques personnes pourront échapper à ce destin tragique , et viendront témoigner .</text>
+            <annotationSet status="MANUAL" ID="2964">
+                <layer rank="1" name="FE">
+                    <label end="17" start="0" name="Speaker"/>
+                    <label itype="ENI" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="73" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2532">
+            <text>- Frégates de Taïwan : l' ancien directeur adjoint de la Société générale à Taïwan témoigne , Sud Ouest , 13 mars 2002</text>
+            <annotationSet status="MANUAL" ID="3361">
+                <layer rank="1" name="FE">
+                    <label end="19" start="2" name="Topic"/>
+                    <label end="81" start="23" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

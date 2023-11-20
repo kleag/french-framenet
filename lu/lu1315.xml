@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="dire.v" ID="1315" frame="FR_Making_speech" frameID="10041" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="8070FF" type="Core" abbrev="" name="Speech"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Speaker"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2170"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Speech"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Speech"/>
+                <annoSet ID="2170"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="3540">
+            <text>d' où la politique officiellement mise en oeuvre depuis peu par le gouvernement - à laquelle se sont résignées à adhérer l' ensemble des forces politiques - qu' on nomme pudiquement " la mobilité " , c' est - à - dire une " émigration organisée " vers la métropole qui n' ose pas dire son nom .</text>
+            <annotationSet status="MANUAL" ID="2170">
+                <layer rank="1" name="FE">
+                    <label end="291" start="218" name="Speaker"/>
+                    <label end="267" start="265" name="Speaker"/>
+                    <label end="291" start="285" name="Speech"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="283" start="280" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

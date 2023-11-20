@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="amorcer.v" ID="891" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Actor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="10760"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Cause"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="9518"/>
+                <annoSet ID="14794"/>
+                <annoSet ID="23239"/>
+                <annoSet ID="24805"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="8566"/>
+                <annoSet ID="12887"/>
+                <annoSet ID="13745"/>
+                <annoSet ID="22303"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Effect"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="8566"/>
+                <annoSet ID="9518"/>
+                <annoSet ID="10760"/>
+                <annoSet ID="12887"/>
+                <annoSet ID="13745"/>
+                <annoSet ID="14794"/>
+                <annoSet ID="22303"/>
+                <annoSet ID="23239"/>
+                <annoSet ID="24805"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5819">
+            <text>Ainsi , une nouvelle dynamique sera amorcée qui , ensuite , pourra s' appuyer sur une habile politique de mobilité interne , telle que Thomson la définit pour gérer le devenir professionnel de ses salariés , ou peut prendre la forme d' une prime de formation - qualification , qui fait jouer un rôle moteur à l' effort pour se qualifier .</text>
+            <annotationSet status="MANUAL" ID="8566">
+                <layer rank="1" name="FE">
+                    <label end="29" start="8" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6366">
+            <text>Ce recentrage s' est amorcé de manière spectaculaire , début mai , lorsque le groupe de la rue d' Antin a cédé sa participation majoritaire dans les ciments français à l' italien Italcementi .</text>
+            <annotationSet status="MANUAL" ID="9518">
+                <layer rank="1" name="FE">
+                    <label end="189" start="75" name="Cause"/>
+                    <label end="12" start="0" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7321">
+            <text>Amorcée au début de l' année à l' instigation de la compagnie aérienne néerlandaise KLM , la réorganisation du transporteur français Air Littoral va être intensifiée et prendra plus de temps que prévu .</text>
+            <annotationSet status="MANUAL" ID="10760">
+                <layer rank="1" name="FE">
+                    <label end="144" start="90" name="Effect"/>
+                    <label end="86" start="49" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="6" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9000">
+            <text>Elle doit cependant faire face à l' exaspération de ses populations alors même que les réformes sont à peine amorcées .</text>
+            <annotationSet status="MANUAL" ID="12887">
+                <layer rank="1" name="FE">
+                    <label end="94" start="83" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="116" start="109" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9769">
+            <text>Quant aux actions de la CEE , amorcées depuis plus longtemps , elles sont loin de produire tous les effets attendus : ainsi , une mission de parlementaires européens constatait en septembre dernier que la moitié seulement du plan d' assistance technique prévu pour 1991 avait été concrétisée .</text>
+            <annotationSet status="MANUAL" ID="13745">
+                <layer rank="1" name="FE">
+                    <label end="28" start="10" name="Effect"/>
+                    <label itype="ENI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10579">
+            <text>Pour le groupe de presse Excelsior Publications , présidé par M. Paul Dupuy , le rachat de Biba offre l' opportunité de renforcer son secteur " presse féminine " amorcé il y a cinq ans avec le rachat de vingt ans au groupe média .</text>
+            <annotationSet status="MANUAL" ID="14794">
+                <layer rank="1" name="FE">
+                    <label end="227" start="190" name="Cause"/>
+                    <label end="160" start="130" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18254">
+            <text>Certes , ces bouleversements étaient à peine amorcés quand s' est engagée la préparation du congrès de Rennes .</text>
+            <annotationSet status="MANUAL" ID="22303">
+                <layer rank="1" name="FE">
+                    <label end="27" start="9" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19255">
+            <text>Hachette poursuit ainsi le développement de son implantation dans la péninsule ibérique , amorcé il y a six ans par le rachat de l' hebdomadaire de programmes de télévision Teleprograma , passé depuis d' une diffusion de 700000 exemplaires à 1 , 1 million .</text>
+            <annotationSet status="MANUAL" ID="23239">
+                <layer rank="1" name="FE">
+                    <label end="254" start="116" name="Cause"/>
+                    <label end="88" start="24" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="90" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21410">
+            <text>Je rappelle aussi qu' en ayant accueilli pour 20 % dans notre tour de table le Crédit lyonnais , promis lui aussi à la privatisation , le mouvement est amorcé .</text>
+            <annotationSet status="MANUAL" ID="24805">
+                <layer rank="1" name="FE">
+                    <label end="131" start="25" name="Cause"/>
+                    <label end="146" start="135" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="152" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

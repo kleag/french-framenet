@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="permettre.v" ID="1883" frame="FR_Grant_permission-Permitting" frameID="10068" totalAnnotated="13" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Gro" name="Grantor"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Prin" name="Principle"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Gre" name="Grantee"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="Act" name="Action"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="13">
+            <FE name="Action"/>
+            <pattern total="13">
+                <valenceUnit PT="filled" FE="Action"/>
+                <annoSet ID="1672"/>
+                <annoSet ID="2157"/>
+                <annoSet ID="2634"/>
+                <annoSet ID="2646"/>
+                <annoSet ID="3571"/>
+                <annoSet ID="3847"/>
+                <annoSet ID="6132"/>
+                <annoSet ID="6502"/>
+                <annoSet ID="6625"/>
+                <annoSet ID="8158"/>
+                <annoSet ID="8198"/>
+                <annoSet ID="8199"/>
+                <annoSet ID="8269"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="13">
+            <FE name="Grantee"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Grantee"/>
+                <annoSet ID="2157"/>
+                <annoSet ID="2634"/>
+                <annoSet ID="2646"/>
+                <annoSet ID="3571"/>
+                <annoSet ID="6132"/>
+                <annoSet ID="6625"/>
+                <annoSet ID="8198"/>
+                <annoSet ID="8199"/>
+                <annoSet ID="8269"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Grantee"/>
+                <annoSet ID="1672"/>
+                <annoSet ID="3847"/>
+                <annoSet ID="6502"/>
+                <annoSet ID="8158"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Grantor"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Grantor"/>
+                <annoSet ID="2157"/>
+                <annoSet ID="2634"/>
+                <annoSet ID="2646"/>
+                <annoSet ID="3571"/>
+                <annoSet ID="3847"/>
+                <annoSet ID="6625"/>
+                <annoSet ID="8198"/>
+                <annoSet ID="8269"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Principle"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Principle"/>
+                <annoSet ID="1672"/>
+                <annoSet ID="6132"/>
+                <annoSet ID="6502"/>
+                <annoSet ID="8158"/>
+                <annoSet ID="8199"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1592">
+            <text>Aux États-Unis , le traité de l' OMPI est déjà entré en vigueur au moyen du Digital Millenium Corporate Act et cette mesure législative a permis de sauvegarder l' équilibre délicat de l' OMPI .</text>
+            <annotationSet status="MANUAL" ID="1672">
+                <layer rank="1" name="FE">
+                    <label end="190" start="148" name="Action"/>
+                    <label end="134" start="111" name="Principle"/>
+                    <label itype="ENI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="138" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1816">
+            <text>Pour le second point , si je peux me permettre de répondre à côté de la question , l' histoire de ces cinquante dernières années n' indique pas que des institutions comme la Commission représentent habituellement un problème à cet égard .</text>
+            <annotationSet status="MANUAL" ID="2157">
+                <layer rank="1" name="FE">
+                    <label end="79" start="50" name="Action"/>
+                    <label end="27" start="26" name="Grantee"/>
+                    <label end="27" start="26" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="37" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2035">
+            <text>J' ai noté , Monsieur le Président , que vous avez parlé de " notre anniversaire commun " , et permettez -moi de vous dire que nous avons été très sensibles à cette évocation .</text>
+            <annotationSet status="MANUAL" ID="2634">
+                <layer rank="1" name="FE">
+                    <label end="173" start="113" name="Action"/>
+                    <label end="108" start="105" name="Grantee"/>
+                    <label end="116" start="113" name="Grantor"/>
+                    <label end="33" start="13" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="95" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2039">
+            <text>Permettez -moi enfin de vous dire que notre Parlement s' est , je crois , très largement retrouvé dans les propos que vous avez tenus .</text>
+            <annotationSet status="MANUAL" ID="2646">
+                <layer rank="1" name="FE">
+                    <label end="132" start="24" name="Action"/>
+                    <label end="13" start="10" name="Grantee"/>
+                    <label end="27" start="24" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2739">
+            <text>- 29 septembre 1994 : Mise en examen et incarcération de Jean-Claude Méry , membre du comité exécutif du RPR et responsable de bureaux d' études soupçonné d' avoir bénéficié de fausses factures et d' avoir permis à Francis Poullain d' obtenir des marchés auprès des HLM des Hauts-de-Seine et HLM de Paris .</text>
+            <annotationSet status="MANUAL" ID="3571">
+                <layer rank="1" name="FE">
+                    <label end="303" start="235" name="Action"/>
+                    <label end="230" start="215" name="Grantee"/>
+                    <label end="198" start="57" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="211" start="206" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2958">
+            <text>Iskandar Safa , ainsi que son frère , avait à l' époque permis d' identifier et de mieux comprendre l' influence de certains dignitaires iraniens sur les ravisseurs libanais , et aurait été rémunéré pour ce travail .</text>
+            <annotationSet status="MANUAL" ID="3847">
+                <layer rank="1" name="FE">
+                    <label end="78" start="66" name="Action"/>
+                    <label end="172" start="83" name="Action"/>
+                    <label end="34" start="0" name="Grantor"/>
+                    <label itype="ENI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="56" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4363">
+            <text>Le journal officiel a publié le 31 décembre 1991 , dans la loi de finances rectificative , l' article qui permet aux particuliers de déduire de leurs impôts , à verser en 1993 , 50 % des sommes dépensées dans la limite de 25 000 F , soit un maximum de 12 500 F.</text>
+            <annotationSet status="MANUAL" ID="6132">
+                <layer rank="1" name="FE">
+                    <label end="260" start="133" name="Action"/>
+                    <label end="128" start="117" name="Grantee"/>
+                    <label end="104" start="102" name="Principle"/>
+                    <label end="260" start="91" name="Principle"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4609">
+            <text>Si la loi ne permet pas de regroupement , il faut convaincre le législateur de changer la loi .</text>
+            <annotationSet status="MANUAL" ID="6502">
+                <layer rank="1" name="FE">
+                    <label end="38" start="24" name="Action"/>
+                    <label end="8" start="3" name="Principle"/>
+                    <label itype="ENI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4701">
+            <text>La Haute Cour de Londres avait repoussé deux fois sa décision , en juillet et en décembre 1991 , pour permettre aux parties concernées ( en particulier l' émirat d' Abou Dhabi , qui détient 77 , 4 % du capital ) d' étudier un plan de redressement .</text>
+            <annotationSet status="MANUAL" ID="6625">
+                <layer rank="1" name="FE">
+                    <label end="245" start="215" name="Action"/>
+                    <label end="208" start="116" name="Grantee"/>
+                    <label end="23" start="0" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="102" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5585">
+            <text>Cette mesure , qui pourrait être appliquée dans les prochaines semaines , permettrait d' économiser quelque 4 milliards de francs .</text>
+            <annotationSet status="MANUAL" ID="8158">
+                <layer rank="1" name="FE">
+                    <label end="128" start="89" name="Action"/>
+                    <label end="70" start="0" name="Principle"/>
+                    <label itype="ENI" name="Grantee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5607">
+            <text>ce fut le cas notamment lorsqu' il s' est agi de favoriser la transformation du secteur des machines - outils , point fort encore aujourd' hui de l' industrie italienne , où une batterie de lois réévaluées en 1987 , a permis , par exemple , aux PME intéressées d' acheter en bénéficiant de dégrèvements fiscaux appréciables , tandis que des mesures de crédit réduit permettaient d' accorder des prêts subventionnés pour les extensions d' entreprise .</text>
+            <annotationSet status="MANUAL" ID="8198">
+                <layer rank="1" name="FE">
+                    <label end="447" start="382" name="Action"/>
+                    <label end="447" start="438" name="Grantee"/>
+                    <label end="364" start="337" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="377" start="366" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5607">
+            <text>ce fut le cas notamment lorsqu' il s' est agi de favoriser la transformation du secteur des machines - outils , point fort encore aujourd' hui de l' industrie italienne , où une batterie de lois réévaluées en 1987 , a permis , par exemple , aux PME intéressées d' acheter en bénéficiant de dégrèvements fiscaux appréciables , tandis que des mesures de crédit réduit permettaient d' accorder des prêts subventionnés pour les extensions d' entreprise .</text>
+            <annotationSet status="MANUAL" ID="8199">
+                <layer rank="1" name="FE">
+                    <label end="322" start="264" name="Action"/>
+                    <label end="259" start="245" name="Grantee"/>
+                    <label end="212" start="174" name="Principle"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="223" start="218" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5643">
+            <text>Fiat , elle - même dans le point de mire des constructeurs japonais , vient de fermer une usine à Chivasso et joue à fond de la cassa integrazione , qui lui a déjà permis de se remonter dans la crise des années 70 ; quant à l' autre géant blessé , Olivetti , son président M. Carlo De Benedetti était assez heureux l' autre semaine à Rome d' expliquer que " faire tourner une entreprise qui a dû réduire ses effectifs d' un quart n' était pas facile " et que , en dépit de ce handicap , Olivetti , bien que n' allant encore pas très bien , " se comportait , en tout cas bien mieux que ses concurrents américains " .</text>
+            <annotationSet status="MANUAL" ID="8269">
+                <layer rank="1" name="FE">
+                    <label end="212" start="174" name="Action"/>
+                    <label end="155" start="153" name="Grantee"/>
+                    <label end="3" start="0" name="Grantee"/>
+                    <label end="151" start="149" name="Grantor"/>
+                    <label end="212" start="125" name="Grantor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="169" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="classement.n" ID="148" frame="Categorization" frameID="21" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Item" name="Item"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="Cat" name="Category"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Crit" name="Criteria"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Category"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Category"/>
+                <annoSet ID="192"/>
+                <annoSet ID="6822"/>
+                <annoSet ID="12019"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Category"/>
+                <annoSet ID="184"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cognizer"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="184"/>
+                <annoSet ID="192"/>
+                <annoSet ID="6822"/>
+                <annoSet ID="12019"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Criteria"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Item"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Item"/>
+                <annoSet ID="184"/>
+                <annoSet ID="192"/>
+                <annoSet ID="6822"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Item"/>
+                <annoSet ID="12019"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="153">
+            <text>Plus simplement , les hasards du calendrier du Comité départemental d' action touristique a fait coïncider la promotion de l' Office de tourisme avec le nouveau classement de l' hôtel-restaurant Le Relais à Arc-et-Senans .</text>
+            <annotationSet status="MANUAL" ID="184">
+                <layer rank="1" name="FE">
+                    <label end="219" start="175" name="Item"/>
+                    <label itype="ENI" name="Category"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="170" start="161" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="158">
+            <text>Deux étoiles aussi , c' est le nouveau classement de l' Office de tourisme d' Arc-et-Senans qui prend ainsi sa place dans la cour des grands , juste derrière les offices de Besançon et Montbéliard .</text>
+            <annotationSet status="MANUAL" ID="192">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Category"/>
+                    <label end="195" start="53" name="Item"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4793">
+            <text>Déjà , une politique d' inventaire menée dans dix régions littorales et fluviales a débouché sur le classement de trente - deux bateaux comme monuments historiques .</text>
+            <annotationSet status="MANUAL" ID="6822">
+                <layer rank="1" name="FE">
+                    <label end="162" start="142" name="Category"/>
+                    <label end="134" start="114" name="Item"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8416">
+            <text>Les classements de ce type sont bannis au profit d' une hiérarchie plus progressive et sans frontières fermées .</text>
+            <annotationSet status="MANUAL" ID="12019">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Category"/>
+                    <label itype="UNI" name="Cognizer"/>
+                    <label itype="ENI" name="Item"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

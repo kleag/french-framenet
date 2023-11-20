@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Influence_of_event_on_cognizer-Subjective_influence" ID="10035" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions">
+    <definition>&lt;def-root&gt;A &lt;fen&gt;Situation&lt;/fen&gt; or an &lt;fen&gt;Entity&lt;/fen&gt; has an influence on a &lt;fen&gt;Cognizer&lt;/fen&gt;'s volition: it may be manifested in the &lt;fen&gt;Cognizer&lt;/fen&gt;'s engaging in an &lt;fen&gt;Action&lt;/fen&gt; as a consequence of the influence; or the &lt;fen&gt;Cognizer&lt;/fen&gt; may be influenced in how they carry out an &lt;fen&gt;Activity&lt;/fen&gt; that they might be engaged in already. The influence is NOT a change in emotional state (covered by the Experiencer_obj frame).
+&lt;ex&gt;&lt;/ex&gt;
+
+The  mediation of the &lt;fen&gt;Cognizer&lt;/fen&gt;'s psyche distinguishes this frame from the Objective_influence frame, where dependent events occur automatically given the appropriate kind of influencing force. In this frame, by contrast, a &lt;fen&gt;Cognizer&lt;/fen&gt; may perceive an influence yet not respond to it in any way.
+
+&lt;ex&gt; &lt;fex name="ent"&gt;These works&lt;/fex&gt; had a profound effect and &lt;t&gt;influenced&lt;/t&gt; &lt;fex name="cog"&gt;her&lt;/fex&gt; &lt;fex name="beh"&gt;in the creation of a successful series capturing this sun-drenched region&lt;/fex&gt;.&lt;/ex&gt;
+&lt;ex&gt;I'm sure if I asked Mattel &lt;fex name="sit"&gt;what&lt;/fex&gt; &lt;t&gt;inspired&lt;/t&gt; &lt;fex name="pro"&gt;this car&lt;/fex&gt; I would be told it's an original design, and not supposed to represent any actual car.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+    ≠ &lt;frframe&gt;FR_Attempt_suasion.to_do&lt;/frframe&gt;: in FR_Attempt_suasion.to_do, a sentient being voluntarily seeks to convince (FR_Attempt_suasion.to_do) the Cognizer to engage in an Action. With FR_Influence_of_event_on_cognizer-Subjective_influence, the Cognizer undergoes an influence pushing them toward a course of Action or an Activity modification. The Cognizer is necessarily influenced, pushed toward the course of Action or change in Activity, but might end up not performing said Action.
+   
+   &lt;ex&gt;&lt;/ex&gt;
+ 
+        ≠ &lt;frframe&gt;FR_Cognizer_affecting.to_do&lt;/frframe&gt;: in FR_Cognizer_affecting.to_do, an eventuality or entity causes the Cognizer to perform some Action. With FR_Influence_of_event_on_cognizer-Subjective_influence, the Cognizer undergoes an influence that pushes them toward a course of Action, but might end up not performing said Action.
+        
+
+
+&lt;ex&gt;&lt;/ex&gt;
+ ≠ &lt;frframe&gt;FR_Contingency-Objective_influence&lt;/frframe&gt;: In FR_Contingency-Objective_influence, the influence impacts anything but a Cognizer (but it can be an action performed by a Cognizer).
+
+&lt;ex&gt;&lt;/ex&gt;
+ ≠ &lt;frframe&gt;Experiencer_obj&lt;/frframe&gt;: Experiencer_obj describes cases in which the influence concerns some emotional state of the Cognizer. LUs which might fit into FR_Influence_of_event_on_cognizer-Subjective_influence's definition but do not allow for an Action or Activity to be locally realized evoke Experiencer_obj.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : this frame results from the merging of fndata-1.5's Subjective_influence and Influence_of_event_on_cognizer. Cognizer FEs of both frames are merged, and the same goes for the FEs Action and Situation. Subjective_influence's Behavior and Influence_of_event_on_cognizer's Activity are merged into Activity, Subjective_influence's Entity and Influence_of_event_on_cognizer's Protagonist are merged into Entity, and Subjective_influence's Agent and Product don't exist in this frame.
+
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="04/22/2004 03:24:29 PDT Thu" abbrev="cog" name="Cognizer" ID="6311">
+        <definition>&lt;def-root&gt;The person who is influenced by the &lt;fen&gt;Situation&lt;/fen&gt; or &lt;fen&gt;Entity&lt;/fen&gt;, whose mind is moved in the direction of change.
+
+
+&lt;ex&gt;George Gilder would run with this idea later in writing the New Testament of supply-side economics that &lt;t&gt;influenced&lt;/t&gt; &lt;fex name="cog"&gt;Reagan&lt;/fex&gt;. &lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="2E8B57" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="04/22/2004 03:25:25 PDT Thu" abbrev="sit" name="Situation" ID="6312">
+        <definition>&lt;def-root&gt;A state of affairs--- which can be an event, state or conditions---that has an influence on the &lt;fen&gt;Cognizer&lt;/fen&gt;.
+
+
+&lt;ex&gt;&lt;fex name="sit"&gt;The balmy temperatures&lt;/fex&gt; &lt;t&gt;inspired&lt;/t&gt; me to write a poem on the advent of spring.&lt;/ex&gt;
+&lt;ex&gt;Hecker said that although &lt;fex name="sit"&gt;the sheer age of the building&lt;/fex&gt; &lt;t&gt;inspired&lt;/t&gt; him to preserve its heritage aspects he also designed its interiors around the ·clean and fresh· mood of Queensland.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <excludesFE name="Entity" ID="6313"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="04/22/2004 03:26:21 PDT Thu" abbrev="ent" name="Entity" ID="6313">
+        <definition>&lt;def-root&gt;A person or thing that has an influence on the &lt;fen&gt;Cognizer&lt;/fen&gt;.
+
+&lt;ex&gt;&lt;fex name="ent"&gt;The painting&lt;/fex&gt; &lt;t&gt;inspired&lt;/t&gt; me to take a risk and use the intense green for the sky.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+	    <excludesFE name="Situation" ID="6312"/>
+    </FE>
+    <FE bgColor="FFA500" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="04/22/2004 03:42:46 PDT Thu" abbrev="act" name="Action" ID="6314">
+        <definition>&lt;def-root&gt;An Action that the &lt;fen&gt;Cognizer&lt;/fen&gt; decides to carry out as a consequence of the influence of a &lt;fen&gt;Situation&lt;/fen&gt; or &lt;fen&gt;Entity&lt;/fen&gt;.
+
+&lt;ex&gt;What factors &lt;t&gt;influenced&lt;/t&gt; Nixon &lt;fex name="act"&gt;to issue the doctrine&lt;/fex&gt;?&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <excludesFE name="Activity" ID="6315"/>
+    </FE>
+    <FE bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="04/22/2004 03:43:59 PDT Thu" abbrev="beh" name="Activity" ID="6315">
+        <definition>&lt;def-root&gt;An &lt;fen&gt;Activity&lt;/fen&gt; that the &lt;fen&gt;Cognizer&lt;/fen&gt; might be engaged in independently but whose execution is subsequently influenced by the &lt;fen&gt;Situation&lt;/fen&gt; or &lt;fen&gt;Entity&lt;/fen&gt;.
+
+&lt;ex&gt;Attention will also be paid to St. Paul , what &lt;t&gt;influenced&lt;/t&gt; him &lt;fex name="beh"&gt;in his thinking&lt;/fex&gt; and what he wrote in his letters about sex, sexuality, men and women&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <excludesFE name="Action" ID="6314"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Action" ID="6314"/>
+        <memberFE name="Activity" ID="6315"/>
+        <memberFE name="Cognizer" ID="6311"/>
+    </FEcoreSet>
+    <frameRelation type="Relation to FN1.5: Is Merged from">
+        <relatedFrame>Influence_of_event_on_cognizer</relatedFrame>
+        <relatedFrame>Subjective_influence</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="convier.v" ID="1162" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100452" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="759" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="disposer.v" ID="1163" nbocc="93" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100580" annotatedsent="87"/>
+    </lexUnit>
+    <lexUnit POS="v" name="décourager.v" ID="1164" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="6"/>
+        <otherlexUnit framename="Other_sense" ID="100662" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="761" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="n" name="encouragement.n" ID="1165" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100793" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="763" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2607" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="encourager.v" ID="1166" nbocc="41" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="100794" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="764" annotatedsent="15"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2608" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="engager.v" ID="1169" nbocc="135" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100799" annotatedsent="59"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2779" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="entraînement.n" ID="1170" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100812" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="entraîner.v" ID="1171" nbocc="80" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="100813" annotatedsent="7"/>
+        <otherlexUnit framename="Causation" ID="208" annotatedsent="73"/>
+    </lexUnit>
+    <lexUnit POS="n" name="incitation.n" ID="1174" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101041" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="767" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="inciter.v" ID="1175" nbocc="48" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="40"/>
+        <otherlexUnit framename="Other_sense" ID="101042" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="768" annotatedsent="7"/>
+    </lexUnit>
+    <lexUnit POS="v" name="incliner.v" ID="1176" nbocc="3" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="influence.n" ID="1177" nbocc="31" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="Other_sense" ID="101063" annotatedsent="9"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="997" annotatedsent="9"/>
+    </lexUnit>
+    <lexUnit POS="v" name="influencer.v" ID="1178" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101064" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="998" annotatedsent="10"/>
+    </lexUnit>
+    <lexUnit POS="a" name="influençable.a" ID="1179" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101065" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="inspiration.n" ID="1180" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101088" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="inspirer.v" ID="1181" nbocc="28" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101089" annotatedsent="10"/>
+        <otherlexUnit framename="FR_Reason" ID="2294" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="inviter.v" ID="1182" nbocc="22" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101116" annotatedsent="4"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="770" annotatedsent="16"/>
+    </lexUnit>
+    <lexUnit POS="n" name="motivation.n" ID="1184" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101245" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Reason" ID="2297" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="motiver.v" ID="1185" nbocc="10" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101246" annotatedsent="3"/>
+        <otherlexUnit framename="Causation" ID="226" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Reason" ID="2298" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="pousser.v" ID="1186" nbocc="38" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="15"/>
+        <otherlexUnit framename="Other_sense" ID="101414" annotatedsent="18"/>
+        <otherlexUnit framename="FR_Attempt_suasion.to_do" ID="771" annotatedsent="5"/>
+    </lexUnit>
+    <lexUnit POS="v" name="s'inspirer.v" ID="2756" nbocc="11" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101721" annotatedsent="2"/>
+        <otherlexUnit framename="FR_Reason" ID="2304" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="stimulation.n" ID="1188" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101863" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="2658" annotatedsent="4"/>
+    </lexUnit>
+    <lexUnit POS="v" name="stimuler.v" ID="1189" nbocc="16" inhib_in_lexicon="true" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101864" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Contingency-Objective_influence" ID="1005" annotatedsent="16"/>
+    </lexUnit>
+</frame>

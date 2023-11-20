@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="prier.v" ID="2392" frame="FR_Request" frameID="10082" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Requested_entity"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="4">
+            <FE name="Addressee"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="6078"/>
+                <annoSet ID="6090"/>
+                <annoSet ID="22493"/>
+                <annoSet ID="23044"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Eventuality"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Eventuality"/>
+                <annoSet ID="6078"/>
+                <annoSet ID="6090"/>
+                <annoSet ID="22493"/>
+                <annoSet ID="23044"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Medium"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="23044"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Requested_entity"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Speaker"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="6078"/>
+                <annoSet ID="6090"/>
+                <annoSet ID="22493"/>
+                <annoSet ID="23044"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4335">
+            <text>Nous prions les cinéastes et tous nos lecteurs de bien vouloir nous en excuser .</text>
+            <annotationSet status="MANUAL" ID="6078">
+                <layer rank="1" name="FE">
+                    <label end="45" start="12" name="Addressee"/>
+                    <label end="3" start="0" name="Speaker"/>
+                    <label end="45" start="12" name="Eventuality"/>
+                    <label end="77" start="50" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4340">
+            <text>Nous prions nos lecteurs de bien vouloir nous excuser . ]</text>
+            <annotationSet status="MANUAL" ID="6090">
+                <layer rank="1" name="FE">
+                    <label end="23" start="12" name="Addressee"/>
+                    <label end="3" start="0" name="Speaker"/>
+                    <label end="23" start="12" name="Eventuality"/>
+                    <label end="52" start="28" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="5" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18368">
+            <text>Et , parmi eux , personne n' aurait songé à se plaindre de voir les héritiers du général de Gaulle pratiquer , dans le fonctionnement de leur nouveau mouvement , le centralisme démocratique cher aux communistes : les " compagnons " , comme les " camarades " , étaient priés de s' abstenir de tout état d' âme .</text>
+            <annotationSet status="MANUAL" ID="22493">
+                <layer rank="1" name="FE">
+                    <label end="256" start="213" name="Addressee"/>
+                    <label end="97" start="64" name="Speaker"/>
+                    <label end="256" start="213" name="Eventuality"/>
+                    <label end="307" start="277" name="Eventuality"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="272" start="268" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18988">
+            <text>Arrivé le 9 janvier à Damas , l' avocat a cherché , en vain , à faire parvenir au président Hafez el Assad une lettre le priant de livrer à la justice française ou allemande l' ancien bras droit d' Eichmann durant la seconde guerre mondiale .</text>
+            <annotationSet status="MANUAL" ID="23044">
+                <layer rank="1" name="FE">
+                    <label end="116" start="107" name="Medium"/>
+                    <label end="38" start="30" name="Speaker"/>
+                    <label end="119" start="118" name="Eventuality"/>
+                    <label end="239" start="131" name="Eventuality"/>
+                    <label end="119" start="118" name="Addressee"/>
+                    <label end="105" start="82" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="126" start="121" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

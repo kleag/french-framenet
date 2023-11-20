@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="riposte.n" ID="2438" frame="Response" frameID="1302" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core-Unexpressed" abbrev="res" name="Response"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="res_e" name="Responding_entity"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="tri" name="Trigger"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="age" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="stt" name="Sentient_trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="15020"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="14240"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responding_entity"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Response"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Response"/>
+                <annoSet ID="15020"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Response"/>
+                <annoSet ID="14240"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Sentient_trigger"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Trigger"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Trigger"/>
+                <annoSet ID="15020"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Trigger"/>
+                <annoSet ID="14240"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="10135">
+            <text>Immédiatement , la riposte est venue de l' autre côté du Pacifique .</text>
+            <annotationSet status="MANUAL" ID="14240">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Trigger"/>
+                    <label itype="UNI" name="Response"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10760">
+            <text>Usant d' un langage codé , le ministre vient en fait d' arrêter , avec son interlocuteur , Jean - Claude Trichet , resté à Washington , la riposte pour mettre à bas la spéculation contre le franc .</text>
+            <annotationSet status="MANUAL" ID="15020">
+                <layer rank="1" name="FE">
+                    <label end="194" start="165" name="Trigger"/>
+                    <label end="145" start="136" name="Response"/>
+                    <label end="37" start="27" name="Agent"/>
+                    <label end="132" start="71" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="145" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

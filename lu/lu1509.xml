@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="dépenser.v" ID="1509" frame="FR_Spending" frameID="10055" totalAnnotated="17" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Byr" name="Spender"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Slr" name="Seller"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="Rate" name="Rate"/>
+            <FE fgColor="FFFFFF" bgColor="FF69B4" type="Peripheral" abbrev="Woe" name="Way_of_expense"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Peripheral" abbrev="Unit" name="Unit"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Purp" name="Purpose"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Causex" name="Cause_of_expense"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cause_of_expense"/>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Goods"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="10896"/>
+                <annoSet ID="11104"/>
+                <annoSet ID="11105"/>
+            </pattern>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Goods"/>
+                <annoSet ID="7745"/>
+                <annoSet ID="7747"/>
+                <annoSet ID="16122"/>
+                <annoSet ID="20213"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Money"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="2691"/>
+                <annoSet ID="6131"/>
+                <annoSet ID="6900"/>
+                <annoSet ID="6901"/>
+                <annoSet ID="6902"/>
+                <annoSet ID="7745"/>
+                <annoSet ID="7747"/>
+                <annoSet ID="7958"/>
+                <annoSet ID="10896"/>
+                <annoSet ID="11403"/>
+                <annoSet ID="15104"/>
+                <annoSet ID="16122"/>
+                <annoSet ID="17415"/>
+                <annoSet ID="24718"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="11104"/>
+                <annoSet ID="11105"/>
+                <annoSet ID="20213"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Purpose"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Purpose"/>
+                <annoSet ID="2691"/>
+                <annoSet ID="7747"/>
+                <annoSet ID="11403"/>
+                <annoSet ID="16122"/>
+            </pattern>
+            <pattern total="11">
+                <valenceUnit PT="null instantiation" FE="Purpose"/>
+                <annoSet ID="6131"/>
+                <annoSet ID="6900"/>
+                <annoSet ID="6901"/>
+                <annoSet ID="6902"/>
+                <annoSet ID="7745"/>
+                <annoSet ID="7958"/>
+                <annoSet ID="10896"/>
+                <annoSet ID="15104"/>
+                <annoSet ID="17415"/>
+                <annoSet ID="20213"/>
+                <annoSet ID="24718"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Rate"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Seller"/>
+        </FERealization>
+        <FERealization total="17">
+            <FE name="Spender"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Spender"/>
+                <annoSet ID="2691"/>
+                <annoSet ID="6131"/>
+                <annoSet ID="6900"/>
+                <annoSet ID="6901"/>
+                <annoSet ID="6902"/>
+                <annoSet ID="7745"/>
+                <annoSet ID="7747"/>
+                <annoSet ID="7958"/>
+                <annoSet ID="10896"/>
+                <annoSet ID="11104"/>
+                <annoSet ID="11105"/>
+                <annoSet ID="15104"/>
+                <annoSet ID="16122"/>
+                <annoSet ID="20213"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Spender"/>
+                <annoSet ID="11403"/>
+                <annoSet ID="17415"/>
+                <annoSet ID="24718"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Unit"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Way_of_expense"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2058">
+            <text>Parce que ce rapport indique à plusieurs reprises qu' il faut contrôler , qu' il faut réagir au vieillissement de la population - le nombre de personnes âgées ne cesse d' augmenter et cette situation rend difficile le soutien des systèmes de pension - , qu' il faut se montrer vigilants et inviter les États membres à dépenser toujours moins d' argent pour le paiement des pensions des personnes âgées .</text>
+            <annotationSet status="MANUAL" ID="2691">
+                <layer rank="1" name="FE">
+                    <label end="350" start="327" name="Money"/>
+                    <label end="314" start="298" name="Spender"/>
+                    <label end="400" start="357" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="325" start="318" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4363">
+            <text>Le journal officiel a publié le 31 décembre 1991 , dans la loi de finances rectificative , l' article qui permet aux particuliers de déduire de leurs impôts , à verser en 1993 , 50 % des sommes dépensées dans la limite de 25 000 F , soit un maximum de 12 500 F.</text>
+            <annotationSet status="MANUAL" ID="6131">
+                <layer rank="1" name="FE">
+                    <label end="192" start="187" name="Money"/>
+                    <label end="128" start="117" name="Spender"/>
+                    <label end="148" start="144" name="Spender"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="194" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4839">
+            <text>Alors que les Français dépensaient 69 , 5 milliards de francs à l' étranger , les étrangers dépensaient 120 milliards en France ( 110 milliards en 1990 ) .</text>
+            <annotationSet status="MANUAL" ID="6900">
+                <layer rank="1" name="FE">
+                    <label end="60" start="35" name="Money"/>
+                    <label end="21" start="10" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4839">
+            <text>Alors que les Français dépensaient 69 , 5 milliards de francs à l' étranger , les étrangers dépensaient 120 milliards en France ( 110 milliards en 1990 ) .</text>
+            <annotationSet status="MANUAL" ID="6901">
+                <layer rank="1" name="FE">
+                    <label end="142" start="130" name="Money"/>
+                    <label end="90" start="78" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4839">
+            <text>Alors que les Français dépensaient 69 , 5 milliards de francs à l' étranger , les étrangers dépensaient 120 milliards en France ( 110 milliards en 1990 ) .</text>
+            <annotationSet status="MANUAL" ID="6902">
+                <layer rank="1" name="FE">
+                    <label end="116" start="104" name="Money"/>
+                    <label end="90" start="78" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5333">
+            <text>Pendant la période pré- électorale , le vieux dogme " thatchérien " du " on ne dépense que ce que l'on possède " a été sérieusement mis entre parenthèses .</text>
+            <annotationSet status="MANUAL" ID="7745">
+                <layer rank="1" name="FE">
+                    <label end="111" start="91" name="Money"/>
+                    <label end="74" start="73" name="Spender"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="79" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5334">
+            <text>Le gouvernement par exemple a dépensé beaucoup d' argent pour réduire les très impopulaires listes d' attente dans les hôpitaux publics du NHS ( service national de santé ) : des nombreux malades ont ainsi pu se faire soigner auprès des médecins privés .</text>
+            <annotationSet status="MANUAL" ID="7747">
+                <layer rank="1" name="FE">
+                    <label end="55" start="38" name="Money"/>
+                    <label end="14" start="0" name="Spender"/>
+                    <label end="171" start="62" name="Purpose"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="30" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5471">
+            <text>Dans un entretien publié mercredi 1 juillet par la Croix , M. Jacques Chirac , président du RPR , accuse les socialistes de " s' acharner à contrôler de manière autoritaire le volume de la consommation médicale , alors que les Français doivent être libres de dépenser le fruit de leurs efforts " .</text>
+            <annotationSet status="MANUAL" ID="7958">
+                <layer rank="1" name="FE">
+                    <label end="294" start="268" name="Money"/>
+                    <label end="234" start="223" name="Spender"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="266" start="259" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7433">
+            <text>A travers le Programme de solidarité nationale ( Pronasol ) , le gouvernement a dépensé près de 3 milliards de dollars en infrastructures rurales , écoles , routes , installations d' eau potable .</text>
+            <annotationSet status="MANUAL" ID="10896">
+                <layer rank="1" name="FE">
+                    <label end="117" start="88" name="Money"/>
+                    <label end="76" start="62" name="Spender"/>
+                    <label end="193" start="122" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="86" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7650">
+            <text>Il en conclut que l' ouvrier américain dépense plus pour son logement , à peu près la même chose pour la nourriture et l' habillement .</text>
+            <annotationSet status="MANUAL" ID="11104">
+                <layer rank="1" name="FE">
+                    <label end="37" start="18" name="Spender"/>
+                    <label end="132" start="102" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7650">
+            <text>Il en conclut que l' ouvrier américain dépense plus pour son logement , à peu près la même chose pour la nourriture et l' habillement .</text>
+            <annotationSet status="MANUAL" ID="11105">
+                <layer rank="1" name="FE">
+                    <label end="37" start="18" name="Spender"/>
+                    <label end="68" start="57" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="39" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7899">
+            <text>Déjà l' an dernier , l' essentiel des sommes prévues pour l' exploration - production dans l' ex- Union soviétique avaient pu être dépensées .</text>
+            <annotationSet status="MANUAL" ID="11403">
+                <layer rank="1" name="FE">
+                    <label end="113" start="21" name="Money"/>
+                    <label end="113" start="58" name="Purpose"/>
+                    <label itype="DNI" name="Spender"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="139" start="131" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10870">
+            <text>La première n' a pas encore avoué les sommes dépensées alors .</text>
+            <annotationSet status="MANUAL" ID="15104">
+                <layer rank="1" name="FE">
+                    <label end="43" start="34" name="Money"/>
+                    <label end="10" start="0" name="Spender"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11760">
+            <text>La CNCC , la plus importante entreprise du pays , qui emploie trois millions de personnes , a enregistré des " pertes énormes durant des décennies " et l' Etat a dépensé des milliards de dollars pour soutenir cette industrie déficitaire .</text>
+            <annotationSet status="MANUAL" ID="16122">
+                <layer rank="1" name="FE">
+                    <label end="193" start="170" name="Money"/>
+                    <label end="158" start="152" name="Spender"/>
+                    <label end="235" start="200" name="Purpose"/>
+                    <label itype="UNI" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="168" start="162" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13046">
+            <text>On n' en compte plus que 248000 , en recul de 18 % , pour lesquels 33 milliards de francs ont été dépensés , soit 15 % de moins qu' en 1990 .</text>
+            <annotationSet status="MANUAL" ID="17415">
+                <layer rank="1" name="FE">
+                    <label end="88" start="67" name="Money"/>
+                    <label itype="ENI" name="Spender"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="105" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16045">
+            <text>Le crédit agricole de la Dordogne a en effet recours à la technique dite de " segmentation comportementale " : les clients de la banque , sans en être informés , sont codés et répertoriés en fonction de leurs revenus , du sérieux avec lequel ils gèrent leur compte , de leur capacité à économiser ou à dépenser , des incidents de paiement qu' ils ont pu connaître ...</text>
+            <annotationSet status="MANUAL" ID="20213">
+                <layer rank="1" name="FE">
+                    <label end="273" start="270" name="Spender"/>
+                    <label end="134" start="111" name="Spender"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Goods"/>
+                    <label itype="UNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="309" start="302" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21289">
+            <text>Alors que 800 millions avaient été budgétés pour 1992 , ce sont plus de 2 milliards qui ont été dépensés ...</text>
+            <annotationSet status="MANUAL" ID="24718">
+                <layer rank="1" name="FE">
+                    <label end="82" start="64" name="Money"/>
+                    <label end="86" start="84" name="Money"/>
+                    <label itype="DNI" name="Spender"/>
+                    <label itype="DNI" name="Purpose"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="103" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

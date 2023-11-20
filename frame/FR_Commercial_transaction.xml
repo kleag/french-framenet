@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Commercial_transaction" ID="10098" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;These are words that describe basic commercial transactions involving a &lt;fen&gt;Buyer&lt;/fen&gt; and a &lt;fen&gt;Seller&lt;/fen&gt; who exchange &lt;fen&gt;Money&lt;/fen&gt; and &lt;fen&gt;Goods&lt;/fen&gt;.  The individual words vary in the frame element realization patterns.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; : Commercial_transaction with FE modifications: the LUs in this frame do not syntactically mark which of the participants is the Seller and which is the Buyer, hence these FEs were replaced with Participant_1, Participant_2 and Participants.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="8181F7" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="P1" name="Participant_1" ID="1387">
+        <definition>&lt;def-root&gt;The participant in a commercial transaction that is encoded as the subject of an active-form sentence or as a by-PP in a passive.
+        &lt;ex&gt;&lt;fex name="P1"&gt;L'amiral Miaoulis&lt;/fex&gt; a forcé le blocus de Nelson pour &lt;t&gt;commercer&lt;/t&gt; avec Marseille.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <excludesFE name="Participants" ID="1389"/>
+    </FE>
+    <FE bgColor="088A85" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="P2" name="Participant_2" ID="1388">
+        <definition>&lt;def-root&gt;The participant in a commercial transaction that is coded in a with-PP
+        &lt;ex&gt;L'amiral Miaoulis a forcé le blocus de Nelson pour &lt;t&gt;commercer&lt;/t&gt; avec &lt;fex name="P2"&gt;Marseille&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+         <excludesFE name="Participants" ID="1389"/>
+    </FE>
+    <FE bgColor="DBA901" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="Ps" name="Participants" ID="1389">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Participants&lt;/fen&gt; are exchanging &lt;fen&gt;Money&lt;/fen&gt; for &lt;fen&gt;Goods&lt;/fen&gt;, the information about who originally had the &lt;fen&gt;Goods&lt;/fen&gt; and the &lt;fen&gt;Money&lt;/fen&gt; is not known.&lt;/def-root&gt;</definition>
+         <excludesFE name="Participant_1" ID="1387"/>
+         <excludesFE name="Participant_2" ID="1388"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="Gds" name="Goods" ID="1381">
+        <definition>&lt;def-root&gt;The FE Goods is anything (including labor or time, for example) which is exchanged for Money in a transaction.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="9F79EE" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="Mny" name="Money" ID="1383">
+        <definition>&lt;def-root&gt;Money is the thing given in exchange for Goods in a transaction.
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="Rate" name="Rate" ID="1384">
+        <definition>&lt;def-root&gt;Price or payment per unit of Goods.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 01:38:11 PDT Mon" abbrev="Unit" name="Unit" ID="1386">
+        <definition>&lt;def-root&gt;The Unit of measure of the Goods according to which the exchange value of the Goods (or services) is set.
+Generally, it occurs in a &lt;ment&gt;by&lt;/ment&gt;-PP. &lt;/def-root&gt;</definition>
+    </FE>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Commerce_goods-transfer</relatedFrame>
+        <relatedFrame>Commerce_money-transfer</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Relation to FN1.5: Is Close to">
+        <relatedFrame>Commercial_transaction</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Subframe of">
+        <relatedFrame>FR_Commerce_scenario</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="transaction.n" ID="347" nbocc="74" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="74"/>
+        <otherlexUnit framename="Other_sense" ID="101936" annotatedsent="0"/>
+    </lexUnit>
+</frame>

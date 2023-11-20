@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="dénoncer.v" ID="1934" frame="FR_Judgment_communication" frameID="10080" totalAnnotated="55" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Addressee"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="21915"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="53">
+            <FE name="Communicator"/>
+            <pattern total="50">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="449"/>
+                <annoSet ID="2399"/>
+                <annoSet ID="5649"/>
+                <annoSet ID="6082"/>
+                <annoSet ID="6340"/>
+                <annoSet ID="6720"/>
+                <annoSet ID="7848"/>
+                <annoSet ID="7967"/>
+                <annoSet ID="7975"/>
+                <annoSet ID="9054"/>
+                <annoSet ID="9704"/>
+                <annoSet ID="9826"/>
+                <annoSet ID="9913"/>
+                <annoSet ID="10875"/>
+                <annoSet ID="11932"/>
+                <annoSet ID="11953"/>
+                <annoSet ID="12735"/>
+                <annoSet ID="14351"/>
+                <annoSet ID="14681"/>
+                <annoSet ID="14685"/>
+                <annoSet ID="15125"/>
+                <annoSet ID="15913"/>
+                <annoSet ID="16086"/>
+                <annoSet ID="16318"/>
+                <annoSet ID="16353"/>
+                <annoSet ID="16534"/>
+                <annoSet ID="16769"/>
+                <annoSet ID="17006"/>
+                <annoSet ID="18430"/>
+                <annoSet ID="19264"/>
+                <annoSet ID="19498"/>
+                <annoSet ID="20168"/>
+                <annoSet ID="21455"/>
+                <annoSet ID="21480"/>
+                <annoSet ID="21906"/>
+                <annoSet ID="21915"/>
+                <annoSet ID="22655"/>
+                <annoSet ID="22746"/>
+                <annoSet ID="23131"/>
+                <annoSet ID="23135"/>
+                <annoSet ID="23287"/>
+                <annoSet ID="23342"/>
+                <annoSet ID="23415"/>
+                <annoSet ID="23497"/>
+                <annoSet ID="23512"/>
+                <annoSet ID="23912"/>
+                <annoSet ID="24340"/>
+                <annoSet ID="24367"/>
+                <annoSet ID="24401"/>
+                <annoSet ID="24896"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="3907"/>
+                <annoSet ID="11206"/>
+                <annoSet ID="11473"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="55">
+            <FE name="Evaluee"/>
+            <pattern total="54">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="449"/>
+                <annoSet ID="2399"/>
+                <annoSet ID="3038"/>
+                <annoSet ID="3907"/>
+                <annoSet ID="5649"/>
+                <annoSet ID="6082"/>
+                <annoSet ID="6340"/>
+                <annoSet ID="6720"/>
+                <annoSet ID="7848"/>
+                <annoSet ID="7967"/>
+                <annoSet ID="7975"/>
+                <annoSet ID="8516"/>
+                <annoSet ID="9054"/>
+                <annoSet ID="9704"/>
+                <annoSet ID="9826"/>
+                <annoSet ID="9913"/>
+                <annoSet ID="10875"/>
+                <annoSet ID="11206"/>
+                <annoSet ID="11473"/>
+                <annoSet ID="11932"/>
+                <annoSet ID="11953"/>
+                <annoSet ID="12735"/>
+                <annoSet ID="14351"/>
+                <annoSet ID="14681"/>
+                <annoSet ID="14685"/>
+                <annoSet ID="15125"/>
+                <annoSet ID="15913"/>
+                <annoSet ID="16086"/>
+                <annoSet ID="16353"/>
+                <annoSet ID="16534"/>
+                <annoSet ID="16769"/>
+                <annoSet ID="17006"/>
+                <annoSet ID="18430"/>
+                <annoSet ID="19264"/>
+                <annoSet ID="19498"/>
+                <annoSet ID="20168"/>
+                <annoSet ID="21455"/>
+                <annoSet ID="21480"/>
+                <annoSet ID="21906"/>
+                <annoSet ID="21915"/>
+                <annoSet ID="22655"/>
+                <annoSet ID="22746"/>
+                <annoSet ID="23131"/>
+                <annoSet ID="23135"/>
+                <annoSet ID="23287"/>
+                <annoSet ID="23342"/>
+                <annoSet ID="23415"/>
+                <annoSet ID="23497"/>
+                <annoSet ID="23512"/>
+                <annoSet ID="23912"/>
+                <annoSet ID="24340"/>
+                <annoSet ID="24367"/>
+                <annoSet ID="24401"/>
+                <annoSet ID="24896"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Evaluee"/>
+                <annoSet ID="16318"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Medium"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="3038"/>
+                <annoSet ID="8516"/>
+                <annoSet ID="15913"/>
+                <annoSet ID="21906"/>
+                <annoSet ID="23131"/>
+                <annoSet ID="23415"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="11">
+            <FE name="Reason"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="3907"/>
+                <annoSet ID="6082"/>
+                <annoSet ID="12735"/>
+                <annoSet ID="14681"/>
+                <annoSet ID="15125"/>
+                <annoSet ID="16086"/>
+                <annoSet ID="16353"/>
+                <annoSet ID="16769"/>
+                <annoSet ID="19264"/>
+                <annoSet ID="19498"/>
+                <annoSet ID="21480"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="345">
+            <text>La France a dénoncé hier des violations des droits de l' Homme dans l' ouest de la Côte d' Ivoire , tandis que les acteurs de la crise ivoirienne ont entamé à Marcoussis , près de Paris , la deuxième phase de leurs négociations .</text>
+            <annotationSet status="MANUAL" ID="449">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Communicator"/>
+                    <label end="96" start="25" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1928">
+            <text>John Kenneth Galbraith a dénoncé l' illusion selon laquelle argent et intelligence seraient des facteurs liés .</text>
+            <annotationSet status="MANUAL" ID="2399">
+                <layer rank="1" name="FE">
+                    <label end="21" start="0" name="Communicator"/>
+                    <label end="108" start="33" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2345">
+            <text>- 4 janvier 1989 : Quelques semaines avant les élections municipales de 1989 , l' hebdomadaire le Canard enchaîné publie un article dénonçant des inscriptions illégales à Paris d' électeurs n' y résidant pas .</text>
+            <annotationSet status="MANUAL" ID="3038">
+                <layer rank="1" name="FE">
+                    <label end="130" start="121" name="Medium"/>
+                    <label end="206" start="142" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="132" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3008">
+            <text>Plusieurs clichés de ce photographe sont particulièrement dénoncées au début du mois d' août 2006 , comme ayant subi d' importantes retouches ou des mises en scène [ 2 ] .</text>
+            <annotationSet status="MANUAL" ID="3907">
+                <layer rank="1" name="FE">
+                    <label end="34" start="0" name="Reason"/>
+                    <label end="162" start="106" name="Reason"/>
+                    <label end="34" start="0" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="66" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4060">
+            <text>Ce véritable inventaire à la Prévert pour le béotien fit scandale auprès d' auteurs prompts à dénoncer l' intolérable atteinte à leur liberté de création .</text>
+            <annotationSet status="MANUAL" ID="5649">
+                <layer rank="1" name="FE">
+                    <label end="92" start="76" name="Communicator"/>
+                    <label end="152" start="103" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="101" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4337">
+            <text>Par cette action , ces derniers veulent dénoncer la baisse des effectifs qui se traduit , affirment -ils , par " l' abandon de certaines tâches et le recours à la sous - traitance " .</text>
+            <annotationSet status="MANUAL" ID="6082">
+                <layer rank="1" name="FE">
+                    <label end="30" start="19" name="Communicator"/>
+                    <label end="180" start="73" name="Reason"/>
+                    <label end="178" start="49" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="40" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4485">
+            <text>Les autorités boursières participèrent alors indirectement à ce mouvement en dénonçant à grand bruit le " flou " entourant l' actionnariat de Perrier avant finalement de passer l' éponge .</text>
+            <annotationSet status="MANUAL" ID="6340">
+                <layer rank="1" name="FE">
+                    <label end="23" start="0" name="Communicator"/>
+                    <label end="148" start="101" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4735">
+            <text>M. Jean - Yves Chamard , porte parole de l' opposition RPR - UDF - UDC pour les affaires sociales , dénonce une " nouvelle dérobade du gouvernement " et considère qu' il " apparaît certain que rien ne sera fait " pour assurer l' avenir des retraites .</text>
+            <annotationSet status="MANUAL" ID="6720">
+                <layer rank="1" name="FE">
+                    <label end="96" start="0" name="Communicator"/>
+                    <label end="148" start="108" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="106" start="100" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5412">
+            <text>Ils étaient montrés du doigt par les écologistes qui dénonçaient leurs exigences en matière de créations d' autoroutes .</text>
+            <annotationSet status="MANUAL" ID="7848">
+                <layer rank="1" name="FE">
+                    <label end="51" start="49" name="Communicator"/>
+                    <label end="117" start="33" name="Communicator"/>
+                    <label end="117" start="65" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5473">
+            <text>En revanche , la CFDT dénonce une " capitulation " .</text>
+            <annotationSet status="MANUAL" ID="7967">
+                <layer rank="1" name="FE">
+                    <label end="20" start="14" name="Communicator"/>
+                    <label end="49" start="30" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5478">
+            <text>Le départ de M. Moulard , dont le professionnalisme n' est pas en cause ( il a , en vingt - huit mois , réussi à réduire de 25 % , sans licenciements , des effectifs excédentaires ) , est sévèrement jugé à Lyon , où l'on dénonce une " agression " de Paris .</text>
+            <annotationSet status="MANUAL" ID="7975">
+                <layer rank="1" name="FE">
+                    <label end="219" start="216" name="Communicator"/>
+                    <label end="254" start="229" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="227" start="221" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5789">
+            <text>Les Anglais font traditionnellement merveille dans ce genre , avec par exemple trois savoureux films pour l' ITC ( l' équivalent britannique du CSA ) qui dénoncent la pollution ... publicitaire .</text>
+            <annotationSet status="MANUAL" ID="8516">
+                <layer rank="1" name="FE">
+                    <label end="152" start="150" name="Medium"/>
+                    <label end="192" start="79" name="Medium"/>
+                    <label end="192" start="164" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="162" start="154" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6097">
+            <text>Outre les difficultés de financement et de formation , elle a dénoncé l' " engrenage implacable " qui touche les plus démunis : " sans logement , pas de travail , sans travail pas de ressources , sans ressources pas de logement " , a -t-elle déclaré .</text>
+            <annotationSet status="MANUAL" ID="9054">
+                <layer rank="1" name="FE">
+                    <label end="58" start="55" name="Communicator"/>
+                    <label end="124" start="70" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="68" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6493">
+            <text>Mais , en dénonçant avec un certain agacement la " french mafia " , nos confrères étrangers ne rendent -ils pas indirectement hommage à une nouvelle forme d' influence française ?</text>
+            <annotationSet status="MANUAL" ID="9704">
+                <layer rank="1" name="FE">
+                    <label end="90" start="68" name="Communicator"/>
+                    <label end="64" start="46" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6588">
+            <text>Pour sa part , le Syndicat national des journalistes dénonce " ce recentrage effectué sans concertation " , s' inquiète du fait que la Picardie " ne dispose plus d' un média régional " et a décidé le 2 juillet " de déposer un préavis de grève à durée illimitée à dater du 7 septembre à minuit " .</text>
+            <annotationSet status="MANUAL" ID="9826">
+                <layer rank="1" name="FE">
+                    <label end="51" start="15" name="Communicator"/>
+                    <label end="104" start="61" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="53" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6650">
+            <text>La formation d' une coordination rurale contre la réforme de la politique agricole commune de la CEE , depuis la fin de 1991 , lui porte un deuxième coup : c' est notamment au sein de la FNSEA qu' elle a recruté les partisans du " blocus de Paris " , qui dénoncent la " mollesse " de l' organisation et sa " connivence " avec les pouvoirs publics à travers la cogestion de la politique agricole .</text>
+            <annotationSet status="MANUAL" ID="9913">
+                <layer rank="1" name="FE">
+                    <label end="253" start="251" name="Communicator"/>
+                    <label end="393" start="212" name="Communicator"/>
+                    <label end="393" start="265" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="263" start="255" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7413">
+            <text>L' opposition dénonçait une situation où les caciques politiques s' étaient substitués aux caciques féodaux d' avant 1910 .</text>
+            <annotationSet status="MANUAL" ID="10875">
+                <layer rank="1" name="FE">
+                    <label end="12" start="0" name="Communicator"/>
+                    <label end="120" start="24" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="22" start="14" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7734">
+            <text>Pour le reste , il y a une certaine hypocrisie à dénoncer le faux - semblant du marché international .</text>
+            <annotationSet status="MANUAL" ID="11206">
+                <layer rank="1" name="FE">
+                    <label end="99" start="58" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="56" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7932">
+            <text>Et de dénoncer quatre " inadaptations " : celle des plafonds de ressources qui interdisent l' accès des HLM aux ménages : moins de 30 % des petits ménages ( deux à trois personnes ) peuvent accéder au parc social en Ile - de - France et le récent relèvement des plafonds dans la région est un " nouveau bricolage non relié à une doctrine d' ensemble " ; celle des produits ( répondant aux jolis noms de PLA , PLI , PLS , PAP et FGAS ... ) dont certains " réputés nouveaux répondent à des conditions de marché déjà dépassées " ; celle des prix de référence moyens auxquels doivent satisfaire les HLM , qui " sont à ce point écartés de la réalité qu' ils laissent un trou d' au moins 150 000 francs par logement " ; celle des loyers , enfin : l' organisation n' hésite pas à qualifier d' " appareil orthopédique " les contraintes qui pèsent sur eux , tandis que l' écart s' aggrave avec les loyers privés ( 33 francs en PLA contre une moyenne de 90 et 110 francs le mètre carré habitable ) .</text>
+            <annotationSet status="MANUAL" ID="11473">
+                <layer rank="1" name="FE">
+                    <label end="38" start="15" name="Evaluee"/>
+                    <label itype="DNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8316">
+            <text>Première étape : les hôteliers ont dénoncé les accords d' entreprise , notamment ceux concernant les indemnités de licenciement , qui pouvaient atteindre trois à quatre semaines de salaire par année d' ancienneté .</text>
+            <annotationSet status="MANUAL" ID="11932">
+                <layer rank="1" name="FE">
+                    <label end="29" start="17" name="Communicator"/>
+                    <label end="211" start="43" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8331">
+            <text>Ailleurs , les salariés dénoncent d' autres pratiques destinées à réduire au minimum les futures rémunérations au fixe .</text>
+            <annotationSet status="MANUAL" ID="11953">
+                <layer rank="1" name="FE">
+                    <label end="22" start="11" name="Communicator"/>
+                    <label end="117" start="34" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="32" start="24" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8909">
+            <text>En revanche , la CGT dénonce un texte qu' elle juge " décrédibilisé par le manque de moyens " .</text>
+            <annotationSet status="MANUAL" ID="12735">
+                <layer rank="1" name="FE">
+                    <label end="19" start="14" name="Communicator"/>
+                    <label end="92" start="29" name="Reason"/>
+                    <label end="92" start="29" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10212">
+            <text>Dénonçant " la gestion désastreuse " de la CGT , les syndicats CFDT , FO , CFE - CGC et CFTC , majoritaires depuis 1991 chez Renault , redoutent que ces estimations ne soient largement en deçà de la réalité .</text>
+            <annotationSet status="MANUAL" ID="14351">
+                <layer rank="1" name="FE">
+                    <label end="133" start="49" name="Communicator"/>
+                    <label end="45" start="12" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10481">
+            <text>Pourfendeur de tous les gâchis publics , ce haut fonctionnaire socialiste ( il adhère au PS en 1978 ) se fera connaître en 1979 dans la gauche ascendante par un rapport " secret " sur les aides de l' Etat à l' industrie où déjà il dénonce l' inefficacité des dépenses publiques exclusivement orientées vers quelques grands groupes industriels .</text>
+            <annotationSet status="MANUAL" ID="14681">
+                <layer rank="1" name="FE">
+                    <label end="229" start="228" name="Communicator"/>
+                    <label end="72" start="41" name="Communicator"/>
+                    <label end="341" start="259" name="Reason"/>
+                    <label end="341" start="239" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="237" start="231" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10486">
+            <text>Pendant la cohabitation , entre 1986 et 1988 , ce militant acharné anime , depuis son bureau , le combat contre les " noyaux durs " mis en place par M. Edouard Balladur à l' occasion des privatisations et dénonce tous les projets de la droite , dont la suppression - " obscène " ( c' est l' un de ses mots ) - de l' impôt sur la fortune .</text>
+            <annotationSet status="MANUAL" ID="14685">
+                <layer rank="1" name="FE">
+                    <label end="65" start="47" name="Communicator"/>
+                    <label end="335" start="213" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="211" start="205" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10893">
+            <text>Dans son dernier mémorandum intitulé il y a trop de tas de ferraille qui naviguent de par le monde , la Chambre syndicale des constructeurs de navires dénonce le nombre excessif de bâtiments qui ne respectent pas les normes réglementaires internationales de sécurité .</text>
+            <annotationSet status="MANUAL" ID="15125">
+                <layer rank="1" name="FE">
+                    <label end="149" start="101" name="Communicator"/>
+                    <label end="265" start="159" name="Reason"/>
+                    <label end="265" start="159" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11555">
+            <text>Les déclarations du président élu Bill Clinton dimanche sur le transport aérien ( le Monde du 29 décembre ) - dénonçant l' ultralibéralisme de Reagan et Bush dans ce domaine - et l' annonce , pratiquement simultanée , de l' abandon par British Airways de son projet d' acquisition de US Air sont d' autres signes de cette montée du protectionnisme .</text>
+            <annotationSet status="MANUAL" ID="15913">
+                <layer rank="1" name="FE">
+                    <label end="45" start="20" name="Communicator"/>
+                    <label end="108" start="0" name="Medium"/>
+                    <label end="289" start="174" name="Medium"/>
+                    <label end="172" start="120" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11715">
+            <text>Et il dénoncera ces vils spéculateurs - " ces agiotateurs " , comme il dira - qui ont joué , à tort , contre le franc .</text>
+            <annotationSet status="MANUAL" ID="16086">
+                <layer rank="1" name="FE">
+                    <label end="4" start="3" name="Communicator"/>
+                    <label end="116" start="78" name="Reason"/>
+                    <label end="116" start="16" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11997">
+            <text>Fin novembre , M. Johann Wilhelm Gaddum , membre du directoire de la Bundesbank , dénonçait :</text>
+            <annotationSet status="MANUAL" ID="16318">
+                <layer rank="1" name="FE">
+                    <label end="78" start="15" name="Communicator"/>
+                    <label itype="UNI" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="90" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12043">
+            <text>Cette publicité par trop incivique a été dénoncée par M. Waigel , mais les banques l' assument pleinement , au nom de la liberté de circulation des capitaux en Europe .</text>
+            <annotationSet status="MANUAL" ID="16353">
+                <layer rank="1" name="FE">
+                    <label end="62" start="54" name="Communicator"/>
+                    <label end="33" start="0" name="Reason"/>
+                    <label end="33" start="0" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="48" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12201">
+            <text>Pour une fois solidaires , producteurs et consommateurs européens dénoncent d' une même voix l' atteinte portée à la liberté de circulation .</text>
+            <annotationSet status="MANUAL" ID="16534">
+                <layer rank="1" name="FE">
+                    <label end="64" start="27" name="Communicator"/>
+                    <label end="138" start="93" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="74" start="66" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12430">
+            <text>D' autre part , la Commission a dénoncé , mercredi 30 décembre , trois sociétés étrangères - une néerlandaise et deux allemandes - qui exercent en France du démarchage sur des produits financiers .</text>
+            <annotationSet status="MANUAL" ID="16769">
+                <layer rank="1" name="FE">
+                    <label end="28" start="16" name="Communicator"/>
+                    <label end="194" start="131" name="Reason"/>
+                    <label end="194" start="65" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="38" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12658">
+            <text>Si cette caricature est parfois dénoncée dans les entreprises , l' image qui ressort d' une enquête menée entre août et octobre par le cabinet de conseil Deloitte et Touche reflète des réalités plus terre - à - terre .</text>
+            <annotationSet status="MANUAL" ID="17006">
+                <layer rank="1" name="FE">
+                    <label end="60" start="46" name="Communicator"/>
+                    <label end="18" start="3" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="39" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14100">
+            <text>On ne peut , à proprement parler , dénoncer le chômage que par référence à un marché de l' emploi où , temporairement ou pour une période indéfinie , certains ne trouvent pas leur place ( 1 ) .</text>
+            <annotationSet status="MANUAL" ID="18430">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Communicator"/>
+                    <label end="53" start="44" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14980">
+            <text>Jean Peylevade , président de l' UAP , a dénoncé les avantages dont bénéficie l' épargne courte , qui " n' apporte pas un sou de fonds propres et , donc , de puissance à l' économie française " .</text>
+            <annotationSet status="MANUAL" ID="19264">
+                <layer rank="1" name="FE">
+                    <label end="35" start="0" name="Communicator"/>
+                    <label end="192" start="98" name="Reason"/>
+                    <label end="192" start="49" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="47" start="41" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15237">
+            <text>Michel Giraud , ministre du travail , avait dénoncé cette " décision inacceptable</text>
+            <annotationSet status="MANUAL" ID="19498">
+                <layer rank="1" name="FE">
+                    <label end="34" start="0" name="Communicator"/>
+                    <label end="80" start="52" name="Reason"/>
+                    <label end="80" start="52" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16002">
+            <text>Pour la fédération CGT de l' énergie , qui " dénonce la mainmise de l' Elysée " , la " nomination [ de M. Ménage ] s' apparente à une volonté de reprise en main " .</text>
+            <annotationSet status="MANUAL" ID="20168">
+                <layer rank="1" name="FE">
+                    <label end="41" start="39" name="Communicator"/>
+                    <label end="78" start="5" name="Communicator"/>
+                    <label end="78" start="53" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="45" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17384">
+            <text>En dénonçant la dramatique inadéquation entre le programme affiché de modernisation et la décomposition bureaucratique , on met à nu la crise fondamentale du communisme contemporain : le vide idéologique d' un parti paralysé par la corruption et la balkanisation .</text>
+            <annotationSet status="MANUAL" ID="21455">
+                <layer rank="1" name="FE">
+                    <label end="122" start="121" name="Communicator"/>
+                    <label end="117" start="13" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17402">
+            <text>Dénonçant une présidentialisation qui a remis en question le caractère parlementaire de nos institutions , d' aucuns suggèrent de " rééquilibrer les pouvoirs " par la suppression pure et simple du principe et des procédures de responsabilité devant l' assemblée nationale et , par voie de conséquence , la fin du droit de dissolution (11) .</text>
+            <annotationSet status="MANUAL" ID="21480">
+                <layer rank="1" name="FE">
+                    <label end="115" start="107" name="Communicator"/>
+                    <label end="103" start="34" name="Reason"/>
+                    <label end="103" start="10" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17829">
+            <text>C' est là un effet de la fièvre architecturale qui secoue le pays depuis les interventions du prince Charles , dénonçant les " horreurs " de la modernité , et qui ne semble pouvoir se calmer qu' à grands coups de rappels historiques .</text>
+            <annotationSet status="MANUAL" ID="21906">
+                <layer rank="1" name="FE">
+                    <label end="107" start="94" name="Communicator"/>
+                    <label end="107" start="73" name="Medium"/>
+                    <label end="152" start="121" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="119" start="111" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17836">
+            <text>Connu pour son parler franc , l' amiral Lefebvre avait déjà , en septembre 1988 ( le Monde du 16 septembre 1988 ) , dénoncé , devant des députés membres de la commission de la défense , les difficultés de la marine , en matière de gestion de son personnel , de renouvellement de la flotte et d' entretien des navires et du parc aérien de l' aéronautique navale .</text>
+            <annotationSet status="MANUAL" ID="21915">
+                <layer rank="1" name="FE">
+                    <label end="47" start="30" name="Communicator"/>
+                    <label end="182" start="133" name="Addressee"/>
+                    <label end="359" start="186" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18554">
+            <text>À UTA , en revanche , les syndicats , reçus par leur PDG vendredi , dénoncent avec " indignation " le manque de concertation .</text>
+            <annotationSet status="MANUAL" ID="22655">
+                <layer rank="1" name="FE">
+                    <label end="66" start="22" name="Communicator"/>
+                    <label end="123" start="99" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="68" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18628">
+            <text>Les conservateurs , nettement sur l' offensive à l' approche des élections locales , ne vont pas manquer de dénoncer les atteintes à l' unité du pays .</text>
+            <annotationSet status="MANUAL" ID="22746">
+                <layer rank="1" name="FE">
+                    <label end="83" start="0" name="Communicator"/>
+                    <label end="148" start="117" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="115" start="108" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19144">
+            <text>L' organisation égyptienne des droits de l' homme a dénoncé , dans un rapport distribué dimanche 14 janvier , la généralisation de la torture au cours des quatre dernières années , période où le général Zaki Badr était ministre de l' intérieur .</text>
+            <annotationSet status="MANUAL" ID="23131">
+                <layer rank="1" name="FE">
+                    <label end="48" start="0" name="Communicator"/>
+                    <label end="106" start="67" name="Medium"/>
+                    <label end="242" start="110" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19147">
+            <text>L' organisation avait déjà dénoncé la pratique de la torture en août dernier .</text>
+            <annotationSet status="MANUAL" ID="23135">
+                <layer rank="1" name="FE">
+                    <label end="14" start="0" name="Communicator"/>
+                    <label end="59" start="35" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="33" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19326">
+            <text>Un rassemblement a été organisé , dimanche 14 janvier à Oran , pour protester contre l' intervention des forces de l' ordre la semaine dernière contre des étudiants qui manifestaient pour dénoncer la réduction de leurs bourses d' étude décidée récemment par les autorités .</text>
+            <annotationSet status="MANUAL" ID="23287">
+                <layer rank="1" name="FE">
+                    <label end="167" start="165" name="Communicator"/>
+                    <label end="270" start="151" name="Communicator"/>
+                    <label end="270" start="197" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="195" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19382">
+            <text>L' ancien rapporteur de la commission des droits de l' homme des nations unies , qui a eu les pires ennuis pour avoir tenté d' en dénoncer les violations dans son pays , y est accusé d' avoir été colonel de la Securitate - il reconnaît avoir dirigé " moins d' un an " l' école du ministère de l' intérieur , en 1964 - 1965 , - d' avoir tué une personne dans un accident de voiture , d' avoir plagié des travaux universitaires et de s' être découvert dissident lorsqu' on lui refusa de sortir de Roumanie pour aller " toucher des devises " .</text>
+            <annotationSet status="MANUAL" ID="23342">
+                <layer rank="1" name="FE">
+                    <label end="83" start="81" name="Communicator"/>
+                    <label end="166" start="0" name="Communicator"/>
+                    <label end="128" start="127" name="Evaluee"/>
+                    <label end="166" start="139" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="137" start="130" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19491">
+            <text>Enfin , la diffusion de thèses sur le développement social , économique et culturel , prônées par l' organisation clandestine dans son " avant - projet de société pour la Corse " indique que l' ex- FLNC a adapté une réplique évolutive à " la méthode de saupoudrage de réformettes " qu' il a souvent dénoncée par tracts .</text>
+            <annotationSet status="MANUAL" ID="23415">
+                <layer rank="1" name="FE">
+                    <label end="287" start="286" name="Communicator"/>
+                    <label end="201" start="191" name="Communicator"/>
+                    <label end="317" start="312" name="Medium"/>
+                    <label end="284" start="282" name="Evaluee"/>
+                    <label end="280" start="237" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="306" start="299" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19613">
+            <text>" La clochardisation des sujets Ils sont nombreux à dénoncer la clochardisation des sujets , la paupérisation des tournages , ou à refuser de réaliser le " polar torride " proposé par Banco production , une filiale de TF 1 .</text>
+            <annotationSet status="MANUAL" ID="23497">
+                <layer rank="1" name="FE">
+                    <label end="34" start="32" name="Communicator"/>
+                    <label end="122" start="61" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="59" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19635">
+            <text>" Tous les responsables des chaînes se retrouvent pour dénoncer le manque de sujets et la pénurie de bons auteurs , pour s' emporter contre une réglementation qui demande à une télévision de diffuser quatre - vingts téléfilms nouveaux par an ( trois cents heures originales ) que le " marché " français de la création ne permet pas .</text>
+            <annotationSet status="MANUAL" ID="23512">
+                <layer rank="1" name="FE">
+                    <label end="34" start="2" name="Communicator"/>
+                    <label end="112" start="64" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="62" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20173">
+            <text>" Dénonçant le danger de voir les Etats - Unis se transformer en colonie du Japon , M. Iacocca a estimé qu' il fallait utiliser les leviers dont disposent les Etats - Unis car , " sans pression , le Japon ne bougera pas d' un pouce .</text>
+            <annotationSet status="MANUAL" ID="23912">
+                <layer rank="1" name="FE">
+                    <label end="93" start="84" name="Communicator"/>
+                    <label end="80" start="12" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="2" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20733">
+            <text>Encore un de ces dysfonctionnements dénoncés par la CGT ?</text>
+            <annotationSet status="MANUAL" ID="24340">
+                <layer rank="1" name="FE">
+                    <label end="54" start="49" name="Communicator"/>
+                    <label end="34" start="7" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20757">
+            <text>Il avait dénoncé " des petites opérations de manipulation " , évoqué de " nombreuses difficultés administratives constatées en cours de journée " et déploré que " le corps électoral [ n' ait ] pas été encouragé à s' exprimer " , du fait du " manque de publicité donné à cette consultation par les médias nationaux " .</text>
+            <annotationSet status="MANUAL" ID="24367">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Communicator"/>
+                    <label end="58" start="17" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="9" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20820">
+            <text>Même en dénonçant , comme à chaque consultation sociale , les irrégularités et les anomalies , qui , comme à chaque fois , n' ont pas manqué , même en s' en prenant à l' indifférence des médias , les syndicats ne peuvent trouver que de bien minces et bien relatives consolations dans le verdict des urnes du 9 décembre .</text>
+            <annotationSet status="MANUAL" ID="24401">
+                <layer rank="1" name="FE">
+                    <label end="208" start="196" name="Communicator"/>
+                    <label end="139" start="58" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21562">
+            <text>- MANIFESTATIONS : Le 13 à Nantes , les professionnels de la filière bois manifestent pour protester contre la concurrence des importations scandinaves ; le 14 , à Paris , 10 000 salariés et patrons de l' industrie de l' habillement défilent ensemble pour dénoncer les excès du libre - échange ( 16.17 , 18 ) .</text>
+            <annotationSet status="MANUAL" ID="24896">
+                <layer rank="1" name="FE">
+                    <label end="231" start="172" name="Communicator"/>
+                    <label end="292" start="265" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="263" start="256" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

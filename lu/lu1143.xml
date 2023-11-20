@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="paiement.n" ID="1143" frame="FR_Giving_money" frameID="10032" totalAnnotated="51" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Gvr" name="Giver"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Mny" name="Money"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Rec" name="Recipient"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Gds" name="Goods"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="51">
+            <FE name="Giver"/>
+            <pattern total="26">
+                <valenceUnit PT="filled" FE="Giver"/>
+                <annoSet ID="1900"/>
+                <annoSet ID="2567"/>
+                <annoSet ID="2666"/>
+                <annoSet ID="2982"/>
+                <annoSet ID="3134"/>
+                <annoSet ID="3136"/>
+                <annoSet ID="4601"/>
+                <annoSet ID="7419"/>
+                <annoSet ID="9028"/>
+                <annoSet ID="9951"/>
+                <annoSet ID="10070"/>
+                <annoSet ID="10592"/>
+                <annoSet ID="10834"/>
+                <annoSet ID="11030"/>
+                <annoSet ID="11031"/>
+                <annoSet ID="11032"/>
+                <annoSet ID="12269"/>
+                <annoSet ID="13035"/>
+                <annoSet ID="13830"/>
+                <annoSet ID="13846"/>
+                <annoSet ID="13971"/>
+                <annoSet ID="13972"/>
+                <annoSet ID="14010"/>
+                <annoSet ID="16406"/>
+                <annoSet ID="16487"/>
+                <annoSet ID="16715"/>
+            </pattern>
+            <pattern total="25">
+                <valenceUnit PT="null instantiation" FE="Giver"/>
+                <annoSet ID="2650"/>
+                <annoSet ID="2651"/>
+                <annoSet ID="2654"/>
+                <annoSet ID="2919"/>
+                <annoSet ID="3432"/>
+                <annoSet ID="3575"/>
+                <annoSet ID="4604"/>
+                <annoSet ID="4610"/>
+                <annoSet ID="4613"/>
+                <annoSet ID="4614"/>
+                <annoSet ID="5429"/>
+                <annoSet ID="6975"/>
+                <annoSet ID="8300"/>
+                <annoSet ID="8473"/>
+                <annoSet ID="9354"/>
+                <annoSet ID="9363"/>
+                <annoSet ID="10398"/>
+                <annoSet ID="10594"/>
+                <annoSet ID="11034"/>
+                <annoSet ID="11349"/>
+                <annoSet ID="13286"/>
+                <annoSet ID="13998"/>
+                <annoSet ID="14012"/>
+                <annoSet ID="15186"/>
+                <annoSet ID="16495"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Goods"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Goods"/>
+                <annoSet ID="9028"/>
+                <annoSet ID="15186"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="48">
+            <FE name="Money"/>
+            <pattern total="17">
+                <valenceUnit PT="filled" FE="Money"/>
+                <annoSet ID="1900"/>
+                <annoSet ID="2567"/>
+                <annoSet ID="2650"/>
+                <annoSet ID="2651"/>
+                <annoSet ID="2654"/>
+                <annoSet ID="2666"/>
+                <annoSet ID="3134"/>
+                <annoSet ID="3136"/>
+                <annoSet ID="4601"/>
+                <annoSet ID="4604"/>
+                <annoSet ID="6975"/>
+                <annoSet ID="7419"/>
+                <annoSet ID="8473"/>
+                <annoSet ID="9354"/>
+                <annoSet ID="9363"/>
+                <annoSet ID="10398"/>
+                <annoSet ID="10594"/>
+            </pattern>
+            <pattern total="31">
+                <valenceUnit PT="null instantiation" FE="Money"/>
+                <annoSet ID="2919"/>
+                <annoSet ID="2982"/>
+                <annoSet ID="3432"/>
+                <annoSet ID="3575"/>
+                <annoSet ID="4610"/>
+                <annoSet ID="4613"/>
+                <annoSet ID="4614"/>
+                <annoSet ID="5429"/>
+                <annoSet ID="8300"/>
+                <annoSet ID="9028"/>
+                <annoSet ID="9951"/>
+                <annoSet ID="10070"/>
+                <annoSet ID="10592"/>
+                <annoSet ID="10834"/>
+                <annoSet ID="11030"/>
+                <annoSet ID="11032"/>
+                <annoSet ID="11034"/>
+                <annoSet ID="11349"/>
+                <annoSet ID="12269"/>
+                <annoSet ID="13286"/>
+                <annoSet ID="13830"/>
+                <annoSet ID="13846"/>
+                <annoSet ID="13972"/>
+                <annoSet ID="13998"/>
+                <annoSet ID="14010"/>
+                <annoSet ID="14012"/>
+                <annoSet ID="15186"/>
+                <annoSet ID="16406"/>
+                <annoSet ID="16487"/>
+                <annoSet ID="16495"/>
+                <annoSet ID="16715"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="51">
+            <FE name="Recipient"/>
+            <pattern total="11">
+                <valenceUnit PT="filled" FE="Recipient"/>
+                <annoSet ID="1900"/>
+                <annoSet ID="5429"/>
+                <annoSet ID="8473"/>
+                <annoSet ID="9363"/>
+                <annoSet ID="11030"/>
+                <annoSet ID="11031"/>
+                <annoSet ID="11032"/>
+                <annoSet ID="13035"/>
+                <annoSet ID="13971"/>
+                <annoSet ID="13972"/>
+                <annoSet ID="16487"/>
+            </pattern>
+            <pattern total="40">
+                <valenceUnit PT="null instantiation" FE="Recipient"/>
+                <annoSet ID="2567"/>
+                <annoSet ID="2650"/>
+                <annoSet ID="2651"/>
+                <annoSet ID="2654"/>
+                <annoSet ID="2666"/>
+                <annoSet ID="2919"/>
+                <annoSet ID="2982"/>
+                <annoSet ID="3134"/>
+                <annoSet ID="3136"/>
+                <annoSet ID="3432"/>
+                <annoSet ID="3575"/>
+                <annoSet ID="4601"/>
+                <annoSet ID="4604"/>
+                <annoSet ID="4610"/>
+                <annoSet ID="4613"/>
+                <annoSet ID="4614"/>
+                <annoSet ID="6975"/>
+                <annoSet ID="7419"/>
+                <annoSet ID="8300"/>
+                <annoSet ID="9028"/>
+                <annoSet ID="9354"/>
+                <annoSet ID="9951"/>
+                <annoSet ID="10070"/>
+                <annoSet ID="10398"/>
+                <annoSet ID="10592"/>
+                <annoSet ID="10594"/>
+                <annoSet ID="10834"/>
+                <annoSet ID="11034"/>
+                <annoSet ID="11349"/>
+                <annoSet ID="12269"/>
+                <annoSet ID="13286"/>
+                <annoSet ID="13830"/>
+                <annoSet ID="13846"/>
+                <annoSet ID="13998"/>
+                <annoSet ID="14010"/>
+                <annoSet ID="14012"/>
+                <annoSet ID="15186"/>
+                <annoSet ID="16406"/>
+                <annoSet ID="16495"/>
+                <annoSet ID="16715"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2058">
+            <text>Parce_que ce rapport indique à plusieurs reprises qu' il faut contrôler , qu' il faut réagir au vieillissement de la population - le nombre de personnes âgées ne cesse d' augmenter et cette situation rend difficile le soutien des systèmes de pension - , qu' il faut se montrer vigilants et inviter les États membres à dépenser toujours moins d' argent pour le paiement des pensions des personnes âgées .</text>
+            <annotationSet status="MANUAL" ID="1900">
+                <layer rank="1" name="FE">
+                    <label end="400" start="373" name="Money"/>
+                    <label end="400" start="386" name="Recipient"/>
+                    <label end="314" start="298" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="367" start="360" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2815">
+            <text>Le dirigeant de la Somatem , lui , avait confirmé , sur procès-verbal , que ce marché devait entraîner " le versement d' une commission d' entre 1 % et 5 % du montant du marché , dont le paiement devait s' effectuer à_l'_étranger " .</text>
+            <annotationSet status="MANUAL" ID="2567">
+                <layer rank="1" name="FE">
+                    <label end="228" start="121" name="Money"/>
+                    <label end="182" start="179" name="Money"/>
+                    <label end="25" start="16" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="187" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2950">
+            <text>Le 13 janvier 2002 , à quelques semaines des élections présidentielles , une note de la DST , mystérieusement rendue publique ( après un article de L' Est républicain ) , indique que la libération des otages français au Liban ( 1985-1988 ) avait fait l' objet d' un paiement de rançon , ainsi_que d' un système de " rétro- commissions " qui aurait profité à Jean-Charles Marchiani et Charles Pasqua .</text>
+            <annotationSet status="MANUAL" ID="2650">
+                <layer rank="1" name="FE">
+                    <label end="283" start="278" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="273" start="266" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2951">
+            <text>Les dirigeants de l' époque ainsi_que les otages libérés rétorquent qu' il n' y a pas eu de paiement de rançon .</text>
+            <annotationSet status="MANUAL" ID="2651">
+                <layer rank="1" name="FE">
+                    <label end="109" start="104" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="99" start="92" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2954">
+            <text>Cette note - qui est à l' origine d' une information judiciaire ouverte et confiée à la juge d' instruction Isabelle Prévost-Desprez - ne s' attarde pas réellement sur le paiement d' une hypothétique rançon , mais détaille plutôt un système de " rétro- commissions " qui y serait lié .</text>
+            <annotationSet status="MANUAL" ID="2654">
+                <layer rank="1" name="FE">
+                    <label end="205" start="183" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="171" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2960">
+            <text>Cette défense est assez intelligente , car c' est l' État français lui-même qui lui fournit son alibi , en assurant qu' il n' y a eu à aucun moment paiement d' une rançon .</text>
+            <annotationSet status="MANUAL" ID="2666">
+                <layer rank="1" name="FE">
+                    <label end="169" start="160" name="Money"/>
+                    <label end="74" start="50" name="Giver"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="155" start="148" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3240">
+            <text>La cessation de paiement constatée , le tribunal de commerce nomme un administrateur judiciaire , qui doit évaluer les dettes - alors gelées - et proposer soit un plan de continuation , soit la liquidation judiciaire .</text>
+            <annotationSet status="MANUAL" ID="2919">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3273">
+            <text>Le tribunal de commerce de Paris devrait nommer , vendredi 3 janvier , un administrateur judiciaire pour la Cinq , en état de cessation de paiement .</text>
+            <annotationSet status="MANUAL" ID="2982">
+                <layer rank="1" name="FE">
+                    <label end="146" start="105" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="146" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3415">
+            <text>Les conducteurs qui ne seront pas en mesure de présenter les vignettes attestant de ces contrôles seront passibles d' une amende forfaitaire de 900 francs ( minorée à 600 francs en cas de paiement immédiat et majorée à 2 500 francs en cas de non- paiement ) .</text>
+            <annotationSet status="MANUAL" ID="3134">
+                <layer rank="1" name="FE">
+                    <label end="256" start="118" name="Money"/>
+                    <label end="96" start="0" name="Giver"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="254" start="247" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3415">
+            <text>Les conducteurs qui ne seront pas en mesure de présenter les vignettes attestant de ces contrôles seront passibles d' une amende forfaitaire de 900 francs ( minorée à 600 francs en cas de paiement immédiat et majorée à 2 500 francs en cas de non- paiement ) .</text>
+            <annotationSet status="MANUAL" ID="3136">
+                <layer rank="1" name="FE">
+                    <label end="256" start="118" name="Money"/>
+                    <label end="96" start="0" name="Giver"/>
+                    <label itype="ENI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="195" start="188" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3641">
+            <text>Ce décalage , appelé " inversion " par les économistes , est le plus important constaté depuis le début des années 80 et reflète le divorce entre le rendement de l' argent à court terme , déterminé par les banques centrales , et celui de l' argent à long terme ( 10 ans minimum ) le seul " juge de paix " aux yeux des milieux financiers , puisqu' il tient compte d' éléments objectifs tels que le rythme de l' inflation , la balance des paiements et le déficit budgétaire , domaines dans lesquels la France est devenue remarquablement performante .</text>
+            <annotationSet status="MANUAL" ID="3432">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="445" start="437" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3771">
+            <text>Nexus Payment opère surtout dans le domaine de la monétique , un marché très développé au Royaume - Uni et qui , selon le PDG de Sligos , M. Gérard Bauvin , pourrait connaître un nouvel essor avec l' introduction des cartes de débit ( à la différence des Français , les Britanniques utilisent massivement les cartes de crédit et relativement peu encore les cartes de paiement à débit différé ou immédiat ) .</text>
+            <annotationSet status="MANUAL" ID="3575">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="374" start="367" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4711">
+            <text>Après avoir suspendu en décembre , pour un trimestre , le remboursement du principal de la dette extérieure soviétique - estimée à 65 milliards de dollars , - la Russie va en suspendre aussi le paiement des intérêts ?</text>
+            <annotationSet status="MANUAL" ID="4601">
+                <layer rank="1" name="FE">
+                    <label end="214" start="207" name="Money"/>
+                    <label end="167" start="159" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="201" start="194" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4713">
+            <text>Ces responsables ont indiqué au pool bancaire occidental conduit par la Deutsche bank , le Crédit lyonnais et l' Industrial bank of Japan qu' ils " pourraient interrompre temporairement le paiement des intérêts " de la dette .</text>
+            <annotationSet status="MANUAL" ID="4604">
+                <layer rank="1" name="FE">
+                    <label end="223" start="202" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="196" start="189" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4716">
+            <text>Mais ce mécanisme nouveau ne fonctionne pas encore suffisamment pour que les paiements immédiats soient assurés .</text>
+            <annotationSet status="MANUAL" ID="4610">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="85" start="77" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4717">
+            <text>A Moscou , M. Georges Matuikhin , gouverneur de la banque centrale russe , a confirmé l' éventualité d' une suspension des paiements , précisant par ailleurs qu' il préférerait négocier un allongement de leur durée plutôt qu' une suspension de ces paiements .</text>
+            <annotationSet status="MANUAL" ID="4613">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4717">
+            <text>A Moscou , M. Georges Matuikhin , gouverneur de la banque centrale russe , a confirmé l' éventualité d' une suspension des paiements , précisant par ailleurs qu' il préférerait négocier un allongement de leur durée plutôt qu' une suspension de ces paiements .</text>
+            <annotationSet status="MANUAL" ID="4614">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="256" start="248" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5409">
+            <text>Les acteurs économiques sont en train de prendre conscience que le " tout camion " est extrêmement dangereux , car les professionnels de la route n' en finissent pas de barrer les routes : contre les délais de paiement et les bas prix pratiqués à l' automne 1991 ; contre le permis à points menaçant , selon eux , de leur retirer leur outil de travail aujourd' hui .</text>
+            <annotationSet status="MANUAL" ID="5429">
+                <layer rank="1" name="FE">
+                    <label end="144" start="115" name="Recipient"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="217" start="210" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6766">
+            <text>La récession des ventes en 1979 - 1982 puis en 1991 et la pression japonaise ont entraîné quelques modifications - indexation de l' évolution des revenus sur les performances de l' entreprise , fixation des modalités de licenciement et de réembauches , paiements d' allocation - chômage , etc. - mais n' ont pas modifié la coordination et surtout la centralisation des accords et des négociations , avec des règles détaillées envisageant toutes les situations .</text>
+            <annotationSet status="MANUAL" ID="6975">
+                <layer rank="1" name="FE">
+                    <label end="285" start="266" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="261" start="253" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7292">
+            <text>Ces derniers jours , la cotation d' Asko a été suspendue , la direction voulant éviter une nouvelle chute à l' annonce , jeudi 2 juillet , de non- paiement d' un dividende au titre de l' exercice 1991 .</text>
+            <annotationSet status="MANUAL" ID="7419">
+                <layer rank="1" name="FE">
+                    <label end="199" start="159" name="Money"/>
+                    <label end="39" start="36" name="Giver"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="154" start="147" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8340">
+            <text>La CFDT , quant à elle , se dit consciente que le paiement au pourcentage va disparaître .</text>
+            <annotationSet status="MANUAL" ID="8300">
+                <layer rank="1" name="FE">
+                    <label itype="DNI" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="50" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8577">
+            <text>Hanson , qui avait acquis la totalité du groupe de construction Beazer en décembre 1991 , recevra 43 millions de livres en paiement comptant , 9 , 8 millions de livres en actions préférentielles de 5 % et une participation de 10 % dans Kier group .</text>
+            <annotationSet status="MANUAL" ID="8473">
+                <layer rank="1" name="FE">
+                    <label end="118" start="98" name="Money"/>
+                    <label end="86" start="0" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="130" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9087">
+            <text>Encore ces crédits font -ils l' objet de remises en question incessantes , la Russie ayant accumulé des arriérés de paiement sur d' anciennes créances céréalières .</text>
+            <annotationSet status="MANUAL" ID="9028">
+                <layer rank="1" name="FE">
+                    <label end="161" start="151" name="Goods"/>
+                    <label end="83" start="75" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="123" start="116" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9521">
+            <text>Enfin le mode de paiement a été modifié , 30 % du prix devant être versé en cash , et pas seulement en titres de la dette .</text>
+            <annotationSet status="MANUAL" ID="9354">
+                <layer rank="1" name="FE">
+                    <label end="53" start="50" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="9529">
+            <text>Les arriérés de paiement sur les primes et le treizième mois , qui représentaient l' équivalent de huit mois de salaire du personnel ont été épongés rapidement .</text>
+            <annotationSet status="MANUAL" ID="9363">
+                <layer rank="1" name="FE">
+                    <label end="59" start="29" name="Money"/>
+                    <label end="131" start="123" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10170">
+            <text>- Le Koweït et l' Espagne sont tombés d' accord pour trouver une solution à l' affaire du groupe Torras , filiale de KIO ( Kuweit investment Office ) et fer de lance des investissements koweïtiens dans la péninsule ibérique , récemment mis en cessation de paiement .</text>
+            <annotationSet status="MANUAL" ID="9951">
+                <layer rank="1" name="FE">
+                    <label end="263" start="90" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="263" start="256" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10319">
+            <text>Selon les magistrats chambériens , il est toujours possible de convoquer une assemblée générale ou de coopter de nouveaux dirigeants , lorsqu' une société n' est pas en état de cessation de paiements .</text>
+            <annotationSet status="MANUAL" ID="10070">
+                <layer rank="1" name="FE">
+                    <label end="153" start="143" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="198" start="190" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10716">
+            <text>Elle veut encourager son utilisation à travers la Communauté , notamment par le paiement des salaires et des frais de voyage .</text>
+            <annotationSet status="MANUAL" ID="10398">
+                <layer rank="1" name="FE">
+                    <label end="103" start="93" name="Money"/>
+                    <label end="123" start="109" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11030">
+            <text>Dix ans après la crise de la dette , marquée par la cessation de paiements du Mexique , en août 1982 , la situation financière du monde en développement est plus contrastée que jamais .</text>
+            <annotationSet status="MANUAL" ID="10592">
+                <layer rank="1" name="FE">
+                    <label end="84" start="78" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="73" start="65" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11035">
+            <text>De même , les différents ratios mesurant le poids de la dette sont restés stables : le rapport entre son service ( paiement des intérêts et remboursement du capital ) et les exportations annuelles est même revenu de 21 % en 1991 à 19 % en 1992 .</text>
+            <annotationSet status="MANUAL" ID="10594">
+                <layer rank="1" name="FE">
+                    <label end="135" start="128" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="122" start="115" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11352">
+            <text>Le deuxième assureur danois , Hafnia , et le premier assureur norvégien , Uni Storebrand , ont été déclarés en cessation de paiement en raison de crise de liquidités .</text>
+            <annotationSet status="MANUAL" ID="10834">
+                <layer rank="1" name="FE">
+                    <label end="87" start="0" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11589">
+            <text>En contrepartie d' un ambitieux programme de réformes économiques et monétaires portant notamment sur une dévaluation du dinar de 22 % , une libéralisation du commerce extérieur et une ouverture accrue au capital étranger , le FMI avait octroyé à Alger un crédit stand - by de 400 millions de dollars ( 2 , 2 milliards de francs ) pour soutenir sa balance des paiements .</text>
+            <annotationSet status="MANUAL" ID="11030">
+                <layer rank="1" name="FE">
+                    <label end="346" start="345" name="Recipient"/>
+                    <label end="251" start="247" name="Recipient"/>
+                    <label end="251" start="247" name="Giver"/>
+                    <label end="346" start="345" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="368" start="360" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11595">
+            <text>JAPON Balance des paiements : + 48 % en un an .</text>
+            <annotationSet status="MANUAL" ID="11031">
+                <layer rank="1" name="FE">
+                    <label end="4" start="0" name="Recipient"/>
+                    <label end="4" start="0" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="18" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11596">
+            <text>- L' excédent de la balance japonaise des paiements courants a dépassé , pour la première fois en novembre , la barre de 100 milliards de dollars , pour s' élever à 100 , 62 milliards , soit une hausse de 48 % par rapport à novembre 1991 .</text>
+            <annotationSet status="MANUAL" ID="11032">
+                <layer rank="1" name="FE">
+                    <label end="36" start="28" name="Recipient"/>
+                    <label end="36" start="28" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11597">
+            <text>L' année 1992 va donc témoigner d' un nouveau record de l' excédent des paiements courants ( qui inclut , outre le solde commercial , celui des services et les transferts unilatéraux ) , après celui de 87 milliards enregistré en 1987 .</text>
+            <annotationSet status="MANUAL" ID="11034">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="72" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12128">
+            <text>Quant aux déficits publics annuels , constamment supérieurs à 9 % du PIB depuis le début des années 80 , ils ont longtemps été sans effets marquants sur la balance des paiements , ayant été " masqués par les entrées des capitaux attirés par des taux d' intérêt plus élevés que dans les pays voisins " , note une récente étude ( 2 ) de l' Observatoire français des conjonctures économiques ( OFCE ) .</text>
+            <annotationSet status="MANUAL" ID="11349">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="176" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13522">
+            <text>Selon ce dernier modèle fonctionne le système dit des deficiency payments ( paiements compensatoires ) appliqué de façon plus ou moins " pure " par la Grande - Bretagne jusqu' à son adhésion à la CEE et , aujourd' hui encore , par les Etats - Unis .</text>
+            <annotationSet status="MANUAL" ID="12269">
+                <layer rank="1" name="FE">
+                    <label end="167" start="148" name="Giver"/>
+                    <label end="201" start="200" name="Giver"/>
+                    <label end="246" start="231" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="84" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14684">
+            <text>- Emprunt CEE : la France , dans le cadre du plan d' austérité annoncé par le gouvernement de Jacques Delors , obtient de la CEE un prêt de 4 milliards d' écus ( 27 milliards de francs ) afin de combler le déficit de sa balance des paiements .</text>
+            <annotationSet status="MANUAL" ID="13035">
+                <layer rank="1" name="FE">
+                    <label end="218" start="217" name="Recipient"/>
+                    <label end="24" start="16" name="Recipient"/>
+                    <label end="218" start="217" name="Giver"/>
+                    <label end="24" start="16" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="240" start="232" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="15147">
+            <text>Une situation de déflation peut se créer spontanément quand les prix baissent , notamment ceux des actifs ( mobiliers et immobiliers ) , quand les revenus diminuent et que le stock des moyens de paiement se contracte .</text>
+            <annotationSet status="MANUAL" ID="13286">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="202" start="195" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16045">
+            <text>Le crédit agricole de la Dordogne a en effet recours à la technique dite de " segmentation comportementale " : les clients de la banque , sans en être informés , sont codés et répertoriés en fonction de leurs revenus , du sérieux avec lequel ils gèrent leur compte , de leur capacité à économiser ou à dépenser , des incidents de paiement qu' ils ont pu connaître ...</text>
+            <annotationSet status="MANUAL" ID="13830">
+                <layer rank="1" name="FE">
+                    <label end="134" start="111" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="337" start="330" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16063">
+            <text>Cette procédure vise à éviter le dépôt de bilan aux sociétés qui , sans être en cessation de paiement , sont lourdement endettées et cherchent un moratoire ou un plan de rééchelonnement des dettes en accord avec leurs créanciers .</text>
+            <annotationSet status="MANUAL" ID="13846">
+                <layer rank="1" name="FE">
+                    <label end="63" start="61" name="Giver"/>
+                    <label end="227" start="52" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="100" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16256">
+            <text>ITALIE balance des paiements : excédent de 3 330 milliards de lires en novembre .</text>
+            <annotationSet status="MANUAL" ID="13971">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Recipient"/>
+                    <label end="5" start="0" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="27" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16257">
+            <text>- la balance des paiements italienne a enregistré un excédent de 3 330 milliards de lires ( 12 , 7 milliards de francs ) en novembre , contre un déficit de 3 757 milliards de lires en novembre 1991 , selon les chiffres publiés jeudi 24 décembre par l' Institut central de statistiques .</text>
+            <annotationSet status="MANUAL" ID="13972">
+                <layer rank="1" name="FE">
+                    <label end="35" start="27" name="Recipient"/>
+                    <label end="35" start="27" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="17" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16294">
+            <text>La balance des paiements , excédentaire en 1987 , sera déficitaire et les faillites des petites et moyennes entreprises se multiplient .</text>
+            <annotationSet status="MANUAL" ID="13998">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Rate"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="23" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16301">
+            <text>Il s' est fait durement sentir pour les entreprises , déjà touchées par le rétrécissement de leurs marges , qui ont eu plus de difficultés à se financer , en particulier les petites et moyennes entreprises dont beaucoup se sont trouvées en situation de rupture de paiement ( 9 500 entre janvier et novembre ) .</text>
+            <annotationSet status="MANUAL" ID="14010">
+                <layer rank="1" name="FE">
+                    <label end="218" start="211" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="271" start="264" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16303">
+            <text>Cette politique de refroidissement a porté ses fruits : en novembre , le rythme officiel de l' inflation est tombé à 4 , 5 % et le déficit de la balance des paiements courants a été réduit de moitié - il ne devrait pas dépasser 4 milliards de dollars sur l' ensemble de l' année 1992 .</text>
+            <annotationSet status="MANUAL" ID="14012">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="DNI" name="Recipient"/>
+                    <label itype="DNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="165" start="157" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18220">
+            <text>Ou que les espaces naturels puissent , eux aussi , faire l' objet de dations en paiement ?</text>
+            <annotationSet status="MANUAL" ID="15186">
+                <layer rank="1" name="FE">
+                    <label end="26" start="7" name="Goods"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="87" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20407">
+            <text>Quant aux producteurs , qui sont parmi les plus touchés par la cessation de paiement de la Cinq , certains échafaudent une chaîne de " second marché " rediffusant fictions européennes et françaises .</text>
+            <annotationSet status="MANUAL" ID="16406">
+                <layer rank="1" name="FE">
+                    <label end="94" start="88" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="76" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20542">
+            <text>Alors que le président Bush commençait son voyage en Asie étaient publiées les plus récentes estimations sur les résultats de la balance des paiements du Japon : un excédent record , qui pourrait atteindre 100 milliards de dollars , imputable , disent les statistiques , à concurrence d' environ la moitié , aux échanges commerciaux avec les Etats - Unis .</text>
+            <annotationSet status="MANUAL" ID="16487">
+                <layer rank="1" name="FE">
+                    <label end="158" start="154" name="Recipient"/>
+                    <label end="158" start="154" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="149" start="141" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20545">
+            <text>On y voit la cause de la plupart de nos maux , à commencer , précisément , par les déséquilibres de balance des paiements .</text>
+            <annotationSet status="MANUAL" ID="16495">
+                <layer rank="1" name="FE">
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Rate"/>
+                    <label itype="UNI" name="Recipient"/>
+                    <label itype="UNI" name="Giver"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="112" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21081">
+            <text>En juin 1991 , quand Narasimha Rao arrive au pouvoir , l' Inde se trouve pratiquement en état de cessation de paiements et l' Etat ne dispose que de quelques semaines de réserves en devises .</text>
+            <annotationSet status="MANUAL" ID="16715">
+                <layer rank="1" name="FE">
+                    <label end="61" start="55" name="Giver"/>
+                    <label itype="UNI" name="Money"/>
+                    <label itype="UNI" name="Recipient"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="110" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

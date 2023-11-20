@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se décider.v" ID="418" frame="FR_Deciding" frameID="10017" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Dec" name="Decision"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Text" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="5">
+            <FE name="Cognizer"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="13886"/>
+                <annoSet ID="14801"/>
+                <annoSet ID="20403"/>
+                <annoSet ID="21447"/>
+                <annoSet ID="22875"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Decision"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Decision"/>
+                <annoSet ID="14801"/>
+                <annoSet ID="20403"/>
+                <annoSet ID="21447"/>
+                <annoSet ID="22875"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Decision"/>
+                <annoSet ID="13886"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="9872">
+            <text>Les chefs d' entreprise , face aux incertitudes que cette dispersion des prix crée , ne peuvent plus se décider en faisant des calculs prévisionnels sérieux , d' autant moins qu' ils pressentent que l' inflation s' accompagnera tôt ou tard , mais à une date et avec une ampleur imprévisibles , d' une baisse de la valeur de la monnaie sur le marché des changes , donc d' une hausse des prix de leurs fournitures importées .</text>
+            <annotationSet status="MANUAL" ID="13886">
+                <layer rank="1" name="FE">
+                    <label end="22" start="0" name="Cognizer"/>
+                    <label itype="ENI" name="Decision"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10586">
+            <text>Mme Sampermans s' est finalement décidée à vendre Biba , son développement étant handicapé par son isolement de journal féminin dans le groupe .</text>
+            <annotationSet status="MANUAL" ID="14801">
+                <layer rank="1" name="FE">
+                    <label end="13" start="0" name="Cognizer"/>
+                    <label end="13" start="0" name="Decision"/>
+                    <label end="53" start="43" name="Decision"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="16" start="15" name="Target"/>
+                    <label end="39" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16242">
+            <text>Le contingent d' actions ( 38 % du capital ) qui avait été réservé pour permettre l' entrée ultérieure d' actionnaires allemands et britanniques " reste disponible pour d' autres membres de l' Union européenne de radiodiffusion ( UER ) " , car les services publics d' Allemagne et du Royaume - Uni ne se sont toujours pas décidés à souscrire ( 1 ) .</text>
+            <annotationSet status="MANUAL" ID="20403">
+                <layer rank="1" name="FE">
+                    <label end="296" start="244" name="Cognizer"/>
+                    <label end="296" start="244" name="Decision"/>
+                    <label end="340" start="332" name="Decision"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="302" start="301" name="Target"/>
+                    <label end="328" start="322" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17378">
+            <text>Après avoir rappelé que la Chine , depuis 1950 , a successivement suivi l' URSS pour assurer sa sécurité - fût - ce au prix de son indépendance , - puis voulu récupérer son autonomie par le rêve romantique des grands bonds en avant - fût - ce au prix d' un formidable recul économique , - pour se décider enfin à s' ouvrir à l' Ouest afin d' affirmer sa triple spécificité d' Etat socialiste , de pays sous - développé et de grande puissance , François Joyaux essaie de scruter l' avenir à la lumière de Tiananmen (3) .</text>
+            <annotationSet status="MANUAL" ID="21447">
+                <layer rank="1" name="FE">
+                    <label end="31" start="24" name="Cognizer"/>
+                    <label end="31" start="24" name="Decision"/>
+                    <label end="440" start="313" name="Decision"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="303" start="294" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18777">
+            <text>La situation risque en fait de demeurer incertaine jusqu' à ce que l' un d' entre eux se décide à concrétiser ses plans .</text>
+            <annotationSet status="MANUAL" ID="22875">
+                <layer rank="1" name="FE">
+                    <label end="84" start="67" name="Cognizer"/>
+                    <label end="84" start="67" name="Decision"/>
+                    <label end="118" start="98" name="Decision"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="86" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

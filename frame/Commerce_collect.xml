@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Commerce_collect" ID="210" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;Subframe of Commerce_money-transfer in which the Seller comes to have the Money.
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;ASFALDA French FrameNet comment&lt;/asf&gt;: Added FR_Getting_money as a super-frame of this frame, for the LUs which do not necessarily imply a commercial transaction.
+
+&lt;/def-root&gt;</definition>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Byr" name="Buyer" ID="1692">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Buyer&lt;/fen&gt; wants the &lt;fen&gt;Goods&lt;/fen&gt; and offers &lt;fen&gt;Money&lt;/fen&gt; to a &lt;fen&gt;Seller&lt;/fen&gt; in exchange for them.
+&lt;ex&gt;&lt;fex name="Byr"&gt;Lee&lt;/fex&gt; was &lt;t&gt;charged&lt;/t&gt; $100 for dry-cleaning&lt;/ex&gt;&lt;/def-root&gt;</definition>
+        <semType name="Source" ID="151"/>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Gds" name="Goods" ID="1693">
+        <definition>&lt;def-root&gt;The FE Goods is anything (including labor or time, for example) which is exchanged for Money in a transaction. 
+&lt;ex&gt;Lee was &lt;t&gt;charged&lt;/t&gt; $100 &lt;fex name="Gds"&gt;for dry-cleaning&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Mny" name="Money" ID="1695">
+        <definition>&lt;def-root&gt;Money is the thing given in exchange for Goods in a transaction.
+&lt;ex&gt;Lee was &lt;t&gt;billed&lt;/t&gt; &lt;fex name="Mny"&gt;$100&lt;/fex&gt; for dry-cleaning&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Rate" name="Rate" ID="1696">
+        <definition>&lt;def-root&gt;In isome cases, price or payment is described per unit of Goods.
+&lt;ex&gt;The cleaner &lt;t&gt;charges&lt;/t&gt; &lt;fex name="Rate"&gt;forty dollers per hour&lt;/fex&gt; for his services.&lt;/ex&gt;
+&lt;ex&gt;The cleaner &lt;t&gt;charged&lt;/t&gt; us &lt;fex name="Rate"&gt;at forty dollars per hour&lt;/fex&gt;.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Unit" name="Unit" ID="1698">
+        <definition>&lt;def-root&gt;This FE is any unit in which goods or services can be measured.
+Generally, it occurs in a &lt;ment&gt;by&lt;/ment&gt;-PP. 
+&lt;ex&gt;I &lt;t&gt;bill&lt;/t&gt; for etiquette lessons &lt;fex name="Unit"&gt;by the hour&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 07:51:24 PDT Tue" abbrev="Slr" name="Seller" ID="1697">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Seller&lt;/fen&gt; has possession of the &lt;fen&gt;Goods&lt;/fen&gt; and exchanges them for &lt;fen&gt;Money&lt;/fen&gt; from a &lt;fen&gt;Buyer&lt;/fen&gt;.
+&lt;ex&gt;&lt;fex name="Slr"&gt;The Hotel Carlyle in New York&lt;/fex&gt; is rumored to &lt;t&gt;charge&lt;/t&gt; $80,000 a night for some of its rooms.&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Rate" ID="1696"/>
+        <memberFE name="Money" ID="1695"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Getting_money</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Perspective on">
+        <relatedFrame>Commerce_money-transfer</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="facturation.n" ID="300" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100872" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="facturer.v" ID="301" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="100873" annotatedsent="0"/>
+    </lexUnit>
+</frame>

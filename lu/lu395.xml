@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="se lamenter.v" ID="395" frame="Complaining" frameID="1621" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cmplnr" name="Complainer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="com" name="Complaint"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Medium" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Complainer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Complainer"/>
+                <annoSet ID="24653"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Complaint"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Complaint"/>
+                <annoSet ID="24653"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Topic"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Topic"/>
+                <annoSet ID="19156"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="14875">
+            <text>Au lieu de se lamenter indéfiniment sur la prétendue aberration du chômage dans nos sociétés dites développées et civilisées , il serait peut - être plus pertinent , et en tout cas moins hypocrite , de chercher ce qu' il peut avoir de rationnel .</text>
+            <annotationSet status="MANUAL" ID="19156">
+                <layer rank="1" name="FE">
+                    <label end="123" start="40" name="Topic"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21201">
+            <text>" Comment aller voir ma famille au village si les tarifs doivent encore tripler ? se lamente Matthew , un employé de Lagos originaire du Sud - Est .</text>
+            <annotationSet status="MANUAL" ID="24653">
+                <layer rank="1" name="FE">
+                    <label end="80" start="0" name="Complaint"/>
+                    <label end="145" start="93" name="Complainer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="91" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

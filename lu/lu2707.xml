@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="résumé.n" ID="2707" frame="Summarizing" frameID="1722" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="com" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="sta" name="State_of_affairs"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Peripheral" abbrev="sum" name="Summary"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Communicator"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="17440"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Medium"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="686"/>
+                <annoSet ID="688"/>
+                <annoSet ID="721"/>
+                <annoSet ID="757"/>
+                <annoSet ID="759"/>
+                <annoSet ID="1019"/>
+                <annoSet ID="1186"/>
+                <annoSet ID="3979"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="State_of_affairs"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="State_of_affairs"/>
+                <annoSet ID="686"/>
+                <annoSet ID="688"/>
+                <annoSet ID="721"/>
+                <annoSet ID="759"/>
+                <annoSet ID="1019"/>
+                <annoSet ID="17440"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="State_of_affairs"/>
+                <annoSet ID="757"/>
+                <annoSet ID="1186"/>
+                <annoSet ID="3979"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Summary"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="529">
+            <text>Résumé EPAR à l' intention du public</text>
+            <annotationSet status="MANUAL" ID="686">
+                <layer rank="1" name="FE">
+                    <label end="35" start="0" name="Medium"/>
+                    <label end="10" start="7" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="530">
+            <text>Ce document est un résumé du rapport européen public d' évaluation ( EPAR ) .</text>
+            <annotationSet status="MANUAL" ID="688">
+                <layer rank="1" name="FE">
+                    <label end="74" start="16" name="Medium"/>
+                    <label end="74" start="29" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="552">
+            <text>Pour plus d' informations , voir le résumé des caractéristiques du produit ( également inclus dans l' EPAR ) .</text>
+            <annotationSet status="MANUAL" ID="721">
+                <layer rank="1" name="FE">
+                    <label end="107" start="33" name="Medium"/>
+                    <label end="73" start="47" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="41" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="588">
+            <text>Dernière mise à jour du présent résumé :</text>
+            <annotationSet status="MANUAL" ID="757">
+                <layer rank="1" name="FE">
+                    <label end="37" start="24" name="Medium"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="607">
+            <text>RESUME DES CARACTERISTIQUES DU PRODUIT</text>
+            <annotationSet status="MANUAL" ID="759">
+                <layer rank="1" name="FE">
+                    <label end="37" start="0" name="Medium"/>
+                    <label end="37" start="11" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="931">
+            <text>Médicament soumis à prescription médicale restreinte ( voir Annexe I : Résumé des Caractéristiques du Produit , 4.2 ) .</text>
+            <annotationSet status="MANUAL" ID="1019">
+                <layer rank="1" name="FE">
+                    <label end="108" start="71" name="Medium"/>
+                    <label end="108" start="82" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="76" start="71" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1161">
+            <text>Dernière mise à jour du présent résumé : 09-2008 .</text>
+            <annotationSet status="MANUAL" ID="1186">
+                <layer rank="1" name="FE">
+                    <label end="37" start="24" name="Medium"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="37" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3095">
+            <text>- dernier résumé : l' " Affaire des piastres "</text>
+            <annotationSet status="MANUAL" ID="3979">
+                <layer rank="1" name="FE">
+                    <label end="45" start="0" name="Medium"/>
+                    <label itype="DNI" name="State_of_affairs"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13070">
+            <text>La variété de ses contributions et les domaines et problèmes très divers qu' il a abordés , rendent difficile le résumé d' une oeuvre qui s' étend sur plus d' un demi - siècle .</text>
+            <annotationSet status="MANUAL" ID="17440">
+                <layer rank="1" name="FE">
+                    <label end="174" start="123" name="State_of_affairs"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="118" start="113" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

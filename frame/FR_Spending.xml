@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Spending" ID="10055" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Commercial_transactions">
+    <definition>&lt;def-root&gt;This frame involves a &lt;fen&gt;Spender&lt;/fen&gt; paying &lt;fen&gt;Money&lt;/fen&gt;, possibly either in order to accomplish a &lt;fen&gt;Purpose&lt;/fen&gt;, get some &lt;fen&gt;Goods&lt;/fen&gt;, or because of a certain &lt;fen&gt;Cause_of_expense&lt;/fen&gt;. For some LUs, the origin of the expense is expressed as the worker providing labor instead of the goods (FR: frais de vétérinaire), hence the &lt;fen&gt;Seller&lt;/fen&gt; FE.
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;&lt;/ex&gt;
+
+≠  &lt;frframe&gt;FR_Giving_money&lt;/frframe&gt; : in the FR_Spending, the &lt;fen&gt;Recipient&lt;/fen&gt; cannot be locally expressed.
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; New in ASFALDA.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="00008B" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Byr" name="Spender" ID="1409">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Spender&lt;/fen&gt; has the &lt;fen&gt;Money&lt;/fen&gt; and wants to obtain the &lt;fen&gt;Goods&lt;/fen&gt;, or wants the &lt;fen&gt;Purpose&lt;/fen&gt; to be accomplished.
+&lt;ex&gt;FR-EX: &lt;fex name="Byr"&gt;Les Français&lt;/fex&gt; &lt;t&gt;dépensaient&lt;/t&gt; 69,5 milliards de francs à l'étranger&lt;/ex&gt;
+        &lt;ex&gt;FR-EX: &lt;fex name="Cause_of_expense"&gt;L'intégration des étudiants&lt;/fex&gt; a &lt;t&gt;coûté&lt;/t&gt; &lt;fex name="Money"&gt;1,2 milliards&lt;/fex&gt; à &lt;fex name="Spender"&gt;l'Etat&lt;/fex&gt; en 1992. &lt;/ex&gt;
+
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Gds" name="Goods" ID="1410">
+        <definition>&lt;def-root&gt;The FE Goods is anything (including labor or time, for example) which is exchanged for Money in a transaction. 
+&lt;ex&gt;FR-EX: Le gouvernement a &lt;t&gt;dépensé&lt;/t&gt; près de 3 milliards de dollars en &lt;fex name="Gds"&gt;infrastructures rurales&lt;/fex&gt;&lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Mny" name="Money" ID="1412">
+        <definition>&lt;def-root&gt;Money is what is spent, potentially in order to accomplish the &lt;fen&gt;Purpose&lt;/fen&gt; or acquire the &lt;fen&gt;Goods&lt;/fen&gt;.
+&lt;ex&gt;FR-EX: Les Français &lt;t&gt;dépensaient&lt;/t&gt; &lt;fex name="Money"&gt;69,5 milliards de francs&lt;/fex&gt; à l'étranger&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="808080" fgColor="FFFFFF" coreType="Core" cBy="296" cDate="07/16/2001 01:49:09 PDT Mon" abbrev="Slr" name="Seller" ID="1394">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Seller&lt;/fen&gt; has possession of the &lt;fen&gt;Goods&lt;/fen&gt; and exchanges them for &lt;fen&gt;Money&lt;/fen&gt; from a &lt;fen&gt;Buyer&lt;/fen&gt;.
+&lt;ex&gt;FR-EX: Les &lt;t&gt;frais&lt;/t&gt; de &lt;fex name="Seller"&gt;notaire&lt;/fex&gt; sont élevés.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+        <semType name="Source" ID="151"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Rate" name="Rate" ID="1413">
+        <definition>&lt;def-root&gt;In some cases, price or payment is described per unit of Goods.
+&lt;ex&gt;FR-EX:Sam &lt;t&gt;dépense&lt;/t&gt; &lt;fex name="Rate"&gt;300 euros par mois&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="FF69B4" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Woe" name="Way_of_expense" ID="1412">
+        <definition>&lt;def-root&gt;This FE characterizes what the &lt;fen&gt;Money&lt;/fen&gt; is (currency or some metaphorical indication of what is spent).
+&lt;ex&gt;FR-EX: Les Français &lt;t&gt;dépensaient&lt;/t&gt; &lt;fex name="Money"&gt;69,5 milliards&lt;/fex&gt; en &lt;fex name="Way_of_expense"&gt;francs&lt;/fex&gt;.&lt;/ex&gt;
+&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="A52A2A" fgColor="FFFFFF" coreType="Peripheral" cBy="296" cDate="07/16/2001 03:35:24 PDT Mon" abbrev="Unit" name="Unit" ID="1415">
+        <definition>&lt;def-root&gt;This FE is any unit in which goods or services can be measured.
+Generally, it occurs in a &lt;ment&gt;by&lt;/ment&gt;-PP. 
+&lt;ex&gt;Bob &lt;t&gt;pays&lt;/t&gt; for peppers &lt;fex name="Unit"&gt;by the pound&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 08:30:02 PDT Tue" abbrev="Purp" name="Purpose" ID="1729">
+        <definition>&lt;def-root&gt;The purpose meant to be accomplished with the &lt;fen&gt;Spender&lt;/fen&gt;'s &lt;fen&gt;Money&lt;/fen&gt;.
+        &lt;ex&gt;FR-EX: Le gouvernement a &lt;t&gt;dépensé&lt;/t&gt; beaucoup d' argent pour &lt;fex name="Purpose"&gt;réduire les très impopulaires listes d'attente&lt;/fex&gt;. &lt;/ex&gt;&lt;/def-root&gt;
+        &lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="664" cDate="08/21/2001 08:30:02 PDT Tue" abbrev="Causex" name="Cause_of_expense" ID="1730">
+        <definition>&lt;def-root&gt;The situation that causes the &lt;fen&gt;Spender&lt;/fen&gt; spending some &lt;fen&gt;Money&lt;/fen&gt;.
+        &lt;ex&gt;FR-EX: &lt;fex name="Cause_of_expense"&gt;L'avantage fiscal accordé&lt;/fex&gt; &lt;t&gt;coûtera&lt;/t&gt; 3 milliards. &lt;/ex&gt;&lt;/def-root&gt;
+        &lt;/def-root&gt;</definition>
+        <semType name="State_of_affairs" ID="177"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Rate" ID="1413"/>
+        <memberFE name="Money" ID="1412"/>
+    </FEcoreSet>
+     <FEcoreSet>
+        <memberFE name="Goods" ID="1410"/>
+        <memberFE name="Purpose" ID="1729"/>
+        <memberFE name="Cause_of_expense" ID="1730"/>
+        <memberFE name="Seller" ID="1730"/>
+    </FEcoreSet>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>FR_Giving_money</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="n" name="coût.n" ID="1504" nbocc="145" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="101"/>
+        <otherlexUnit framename="Other_sense" ID="100476" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="coûter.v" ID="1505" nbocc="42" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="42"/>
+        <otherlexUnit framename="Other_sense" ID="100477" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="déboursement.n" ID="1506" nbocc="0" inhib_in_lexicon="false" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="débourser.v" ID="1507" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100638" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="dépense.n" ID="1508" nbocc="112" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="112"/>
+        <otherlexUnit framename="Other_sense" ID="100715" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="dépenser.v" ID="1509" nbocc="17" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="17"/>
+        <otherlexUnit framename="Other_sense" ID="100716" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="en coûter.v" ID="1510" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="100766" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="frais.n" ID="1511" nbocc="51" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="39"/>
+        <otherlexUnit framename="Other_sense" ID="100912" annotatedsent="27"/>
+    </lexUnit>
+    <lexUnit POS="n" name="surcoût.n" ID="1512" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="8"/>
+        <otherlexUnit framename="Other_sense" ID="101895" annotatedsent="0"/>
+    </lexUnit>
+</frame>

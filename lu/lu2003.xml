@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="reprocher.v" ID="2003" frame="Judgment_direct_address" frameID="711" totalAnnotated="15" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Communicator"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FF00FF" type="Core" abbrev="" name="Expressor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="15">
+            <FE name="Addressee"/>
+            <pattern total="14">
+                <valenceUnit PT="filled" FE="Addressee"/>
+                <annoSet ID="447"/>
+                <annoSet ID="3183"/>
+                <annoSet ID="3575"/>
+                <annoSet ID="5077"/>
+                <annoSet ID="6645"/>
+                <annoSet ID="7497"/>
+                <annoSet ID="8677"/>
+                <annoSet ID="8979"/>
+                <annoSet ID="14381"/>
+                <annoSet ID="15152"/>
+                <annoSet ID="17405"/>
+                <annoSet ID="18494"/>
+                <annoSet ID="21224"/>
+                <annoSet ID="24773"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Addressee"/>
+                <annoSet ID="12628"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Communicator"/>
+            <pattern total="12">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="3183"/>
+                <annoSet ID="3575"/>
+                <annoSet ID="5077"/>
+                <annoSet ID="6645"/>
+                <annoSet ID="7497"/>
+                <annoSet ID="8677"/>
+                <annoSet ID="8979"/>
+                <annoSet ID="14381"/>
+                <annoSet ID="15152"/>
+                <annoSet ID="17405"/>
+                <annoSet ID="21224"/>
+                <annoSet ID="24773"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="447"/>
+                <annoSet ID="12628"/>
+                <annoSet ID="18494"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="15">
+            <FE name="Reason"/>
+            <pattern total="15">
+                <valenceUnit PT="filled" FE="Reason"/>
+                <annoSet ID="447"/>
+                <annoSet ID="3183"/>
+                <annoSet ID="3575"/>
+                <annoSet ID="5077"/>
+                <annoSet ID="6645"/>
+                <annoSet ID="7497"/>
+                <annoSet ID="8677"/>
+                <annoSet ID="8979"/>
+                <annoSet ID="12628"/>
+                <annoSet ID="14381"/>
+                <annoSet ID="15152"/>
+                <annoSet ID="17405"/>
+                <annoSet ID="18494"/>
+                <annoSet ID="21224"/>
+                <annoSet ID="24773"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="342">
+            <text>Il devrait comparaître dans les prochains jours pour indiquer s' il plaide coupable ou non coupable des faits qui lui sont reprochés .</text>
+            <annotationSet status="MANUAL" ID="447">
+                <layer rank="1" name="FE">
+                    <label end="112" start="110" name="Reason"/>
+                    <label end="131" start="104" name="Reason"/>
+                    <label end="116" start="114" name="Addressee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="131" start="123" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2419">
+            <text>Son refus brutal et assez méprisant sera sanctionné par une stagnation de sa carrière qu' il reprochera durablement à la maçonnerie , qu' il considérera désormais comme une association néfaste de lobbyistes fanatiques ou douteux .</text>
+            <annotationSet status="MANUAL" ID="3183">
+                <layer rank="1" name="FE">
+                    <label end="91" start="90" name="Communicator"/>
+                    <label end="227" start="56" name="Reason"/>
+                    <label end="88" start="86" name="Reason"/>
+                    <label end="227" start="118" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="102" start="93" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2741">
+            <text>Selon Le Monde du 25 janvier 2006 , on lui reproche d' avoir perçu près de 40 millions de francs en trois ans , en échange d' informations livrées aux entreprises sur les marchés de l' OPAC .</text>
+            <annotationSet status="MANUAL" ID="3575">
+                <layer rank="1" name="FE">
+                    <label end="37" start="36" name="Communicator"/>
+                    <label end="41" start="39" name="Reason"/>
+                    <label end="188" start="55" name="Reason"/>
+                    <label end="41" start="39" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="50" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3728">
+            <text>Oui , une banque se doit de prendre des risques : on leur reproche assez leur timidité , leurs prises de garantie multiples , quand l' emploi est en jeu .</text>
+            <annotationSet status="MANUAL" ID="5077">
+                <layer rank="1" name="FE">
+                    <label end="51" start="50" name="Communicator"/>
+                    <label end="85" start="73" name="Reason"/>
+                    <label end="122" start="89" name="Reason"/>
+                    <label end="56" start="53" name="Addressee"/>
+                    <label end="15" start="6" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4709">
+            <text>La COB reproche aussi aux anciens dirigeants de VEV d' avoir cédé des titres d' autocontrôle peu avant la suspension de la cotation et d' avoir inscrit dans les comptes une plus - value fictive .</text>
+            <annotationSet status="MANUAL" ID="6645">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Communicator"/>
+                    <label end="50" start="26" name="Reason"/>
+                    <label end="133" start="55" name="Reason"/>
+                    <label end="192" start="138" name="Reason"/>
+                    <label end="50" start="26" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5174">
+            <text>On lui reproche de ne pas avoir assez l' état d' esprit de la banque commerciale , et de colonne vertébrale pour se battre efficacement contre l' extérieur .</text>
+            <annotationSet status="MANUAL" ID="7497">
+                <layer rank="1" name="FE">
+                    <label end="1" start="0" name="Communicator"/>
+                    <label end="5" start="3" name="Reason"/>
+                    <label end="154" start="19" name="Reason"/>
+                    <label end="5" start="3" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5874">
+            <text>Mais ses électeurs sont de plus en plus nombreux à lui reprocher cette attitude de patricien qui le tient si éloigné des nouvelles réalités de leur vie quotidienne : des jeunes diplômés de prestigieuses universités américaines qui ne trouvent pas d' emploi , un système éducatif lamentable dans les écoles publiques , qui fait que 80 % des candidats à l' embauche sont refusés faute de savoir écrire convenablement un curriculum vitae , un triplement en vingt ans du nombre d' enfants vivant avec un seul parent , un record mondial en termes de personnes sous les verrous ( 1 , 15 million , qui coûtent chacune 20 000 dollars par an ) , des villes délabrées et où l' apartheid racial et social est la seule règle de survie , la constitution d' une under - class ouverte à tous les maux aux côtés d' une classe moyenne paupérisée , une population agricole qui a chuté de 50 % en vingt ans , la violence par les armes à feu , reconnue " épidémie " et " urgence publique " pour l' association des médecins américains , six millions d' enfant de 14 à 18 ans qui travaillent dans l' illégalité la plus complète , un fossé grandissant entre les Américains les plus riches qui ont vu leurs revenus augmenter de 32 % en dix ans tandis que les plus pauvres ont vu les leurs chuter de 13 % , et pour finir - un comble ! Des patrons contraints de diminuer leurs salaires devant la grogne de leurs actionnaires et de leurs salariés qui les accusent d' incompétence .</text>
+            <annotationSet status="MANUAL" ID="8677">
+                <layer rank="1" name="FE">
+                    <label end="17" start="5" name="Communicator"/>
+                    <label end="162" start="65" name="Reason"/>
+                    <label end="53" start="51" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="63" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6049">
+            <text>De leur côté , les professionnels espagnols , qui pratiquent la pêche au chalut , s' opposaient à l' utilisation par la flotte française des filets dits " pélagiques " ( c' est - à - dire entre deux eaux ) interdits en Espagne et auxquels ils reprochent de faire des ravages dans la faune .</text>
+            <annotationSet status="MANUAL" ID="8979">
+                <layer rank="1" name="FE">
+                    <label end="241" start="239" name="Communicator"/>
+                    <label end="237" start="230" name="Reason"/>
+                    <label end="287" start="257" name="Reason"/>
+                    <label end="237" start="230" name="Addressee"/>
+                    <label end="228" start="141" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="252" start="243" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8844">
+            <text>Pour le Vieux - Colombier , il est reproché des projets successifs contradictoires : école dirigée par Giorgio Strehler , seconde salle de la Comédie - Française ... et aussi des conditions critiquables d' acquisition , un montage juridique complexe , des travaux de plus en plus coûteux : 64 , 5 millions de francs , dont 15 pour l' acquisition , 36 pour les travaux , plus 13 , 5 pour le fonctionnement , dont 7 pour les dépenses artistiques .</text>
+            <annotationSet status="MANUAL" ID="12628">
+                <layer rank="1" name="FE">
+                    <label end="442" start="44" name="Reason"/>
+                    <label itype="DNI" name="Communicator"/>
+                    <label itype="ENI" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="42" start="35" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10231">
+            <text>Le Canada reprochait aux navires communautaires de surexploiter ces stocks , notamment de cabillaud , ce qui aboutissait à leur raréfaction dans les eaux canadiennes .</text>
+            <annotationSet status="MANUAL" ID="14381">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Communicator"/>
+                    <label end="46" start="25" name="Reason"/>
+                    <label end="98" start="51" name="Reason"/>
+                    <label end="46" start="25" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10915">
+            <text>Si l'on reproche parfois aux banquiers français de ne pas savoir prendre de risques , le Lyonnais semble ne pas mériter cette critique : en l' espace de quatre ans , il aura acquis pour plus de 13 milliards de francs six banques de taille importante en Italie , en Espagne , en Angleterre , et la dernière en Allemagne , la Bf.G , officiellement le 23 décembre .</text>
+            <annotationSet status="MANUAL" ID="15152">
+                <layer rank="1" name="FE">
+                    <label end="6" start="3" name="Communicator"/>
+                    <label end="46" start="29" name="Reason"/>
+                    <label end="82" start="51" name="Reason"/>
+                    <label end="46" start="29" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13039">
+            <text>Elles reprochent aux compagnies d' assurances de vouloir ainsi faire payer aux consommateurs la chute du rendement de leurs placements financiers et leurs difficultés dans l' immobilier .</text>
+            <annotationSet status="MANUAL" ID="17405">
+                <layer rank="1" name="FE">
+                    <label end="4" start="0" name="Communicator"/>
+                    <label end="44" start="21" name="Reason"/>
+                    <label end="184" start="49" name="Reason"/>
+                    <label end="44" start="21" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="6" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14151">
+            <text>Quant à Jacques Delors , resté fidèle à son rôle en ne s' opposant pas au veto de la Commission concernant la reprise de Havilland , il se vit reprocher en cette occasion et en d' autres de ne pas avoir défendu les intérêts français .</text>
+            <annotationSet status="MANUAL" ID="18494">
+                <layer rank="1" name="FE">
+                    <label end="134" start="133" name="Reason"/>
+                    <label end="231" start="190" name="Reason"/>
+                    <label end="134" start="133" name="Addressee"/>
+                    <label end="131" start="8" name="Addressee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="151" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17103">
+            <text>Au point que certains reprochent aux juristes d' assurer de cette manière la pérennité de leur activité . .</text>
+            <annotationSet status="MANUAL" ID="21224">
+                <layer rank="1" name="FE">
+                    <label end="20" start="13" name="Communicator"/>
+                    <label end="44" start="37" name="Reason"/>
+                    <label end="104" start="49" name="Reason"/>
+                    <label end="44" start="37" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21382">
+            <text>En revanche , il a reproché aux agriculteurs portugais d' être " incapables " de fournir les quelque 100 000 tonnes de pommes de terre nécessaires à l' usine .</text>
+            <annotationSet status="MANUAL" ID="24773">
+                <layer rank="1" name="FE">
+                    <label end="15" start="14" name="Communicator"/>
+                    <label end="53" start="32" name="Reason"/>
+                    <label end="156" start="58" name="Reason"/>
+                    <label end="53" start="32" name="Addressee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="26" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

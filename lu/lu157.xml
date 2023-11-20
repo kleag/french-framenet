@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="alors.adv" ID="157" frame="Causation" frameID="5" totalAnnotated="4" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Cause"/>
+            <pattern total="4">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="351"/>
+                <annoSet ID="575"/>
+                <annoSet ID="2802"/>
+                <annoSet ID="6211"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="4">
+            <FE name="Effect"/>
+            <pattern total="4">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="351"/>
+                <annoSet ID="575"/>
+                <annoSet ID="2802"/>
+                <annoSet ID="6211"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="276">
+            <text>Alors le tribunal lui avait accordé un ultime délai : fin janvier , avec l' échec que l' on sait .</text>
+            <annotationSet status="MANUAL" ID="351">
+                <layer rank="1" name="FE">
+                    <label end="97" start="6" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="4" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="451">
+            <text>Il fera alors l' objet d' un nouvel appel d' offres .</text>
+            <annotationSet status="MANUAL" ID="575">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Effect"/>
+                    <label end="52" start="14" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="12" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2115">
+            <text>Le capitaine Equilbey , commandant de la compagnie , est alors tenu de transmettre à ses supérieurs une liste portant les noms de 6 caporaux et de 18 hommes de troupe , choisis parmi les plus jeunes , à raison de deux par escouade .</text>
+            <annotationSet status="MANUAL" ID="2802">
+                <layer rank="1" name="FE">
+                    <label end="55" start="0" name="Effect"/>
+                    <label end="231" start="63" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="61" start="57" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4413">
+            <text>Nous avons alors pris le parti de procéder à des négociations bilatérales avec RVI .</text>
+            <annotationSet status="MANUAL" ID="6211">
+                <layer rank="1" name="FE">
+                    <label end="9" start="0" name="Effect"/>
+                    <label end="83" start="17" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

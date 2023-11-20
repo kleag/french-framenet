@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="c'est que.conj" ID="535" frame="Evidence" frameID="25" totalAnnotated="5" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Sup" name="Support"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Prp" name="Proposition"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="cog" name="Cognizer"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Cognizer"/>
+        </FERealization>
+        <FERealization total="5">
+            <FE name="Proposition"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Proposition"/>
+                <annoSet ID="7552"/>
+                <annoSet ID="7919"/>
+                <annoSet ID="8961"/>
+            </pattern>
+            <pattern total="2">
+                <valenceUnit PT="null instantiation" FE="Proposition"/>
+                <annoSet ID="4989"/>
+                <annoSet ID="6606"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Support"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Support"/>
+                <annoSet ID="4989"/>
+                <annoSet ID="6606"/>
+                <annoSet ID="7552"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Support"/>
+                <annoSet ID="6606"/>
+                <annoSet ID="7919"/>
+                <annoSet ID="8961"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="4557">
+            <text>C' est qu' il faut ratisser large !</text>
+            <annotationSet status="MANUAL" ID="4989">
+                <layer rank="1" name="FE">
+                    <label end="32" start="11" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5801">
+            <text>C' est qu' on ne porte pas impunément atteinte à des tabous .</text>
+            <annotationSet status="MANUAL" ID="6606">
+                <layer rank="1" name="FE">
+                    <label end="58" start="11" name="Support"/>
+                    <label itype="DNI" name="Support"/>
+                    <label itype="DNI" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6550">
+            <text>Si la France produit plus et mieux dans des entreprises plus prospères , si ses prix augmentent maintenant plutôt moins vite qu' à l' étranger , si le franc est devenu une monnaie solide , c' est bien la preuve qu' un ensemble de croyances , d' habitudes , de raisonnements ont disparu .</text>
+            <annotationSet status="MANUAL" ID="7552">
+                <layer rank="1" name="FE">
+                    <label end="69" start="3" name="Support"/>
+                    <label end="141" start="76" name="Support"/>
+                    <label end="185" start="148" name="Support"/>
+                    <label end="284" start="215" name="Proposition"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="194" start="189" name="Target"/>
+                    <label end="213" start="211" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6886">
+            <text>C' est dire que les parités actuelles franc / mark peuvent être considérées comme adéquates , et qu' il vaut mieux ne pas y toucher .</text>
+            <annotationSet status="MANUAL" ID="7919">
+                <layer rank="1" name="FE">
+                    <label end="90" start="16" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                    <label end="14" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8069">
+            <text>C' est dire que la formation initiale , dans la profession , revêt toute son importance .</text>
+            <annotationSet status="MANUAL" ID="8961">
+                <layer rank="1" name="FE">
+                    <label end="86" start="16" name="Proposition"/>
+                    <label itype="DNI" name="Support"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="5" start="0" name="Target"/>
+                    <label end="14" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

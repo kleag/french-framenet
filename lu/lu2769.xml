@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="sous l'effet de.prep" ID="2769" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="1" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Dependent"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="11639"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Influencer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="11639"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="8094">
+            <text>Depuis quelques années , le secteur du tourisme vit sous l' effet de sa modernisation et il est clair que le mouvement ne va pas cesser de s' accélérer .</text>
+            <annotationSet status="MANUAL" ID="11639">
+                <layer rank="1" name="FE">
+                    <label end="84" start="69" name="Dependent"/>
+                    <label end="46" start="25" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="52" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

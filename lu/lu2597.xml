@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="CONJ" name="pour que.conj" ID="2597" frame="FR_Means_for_purpose" frameID="10049" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Goal"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="7280"/>
+                <annoSet ID="7295"/>
+                <annoSet ID="10336"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Means"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Means"/>
+                <annoSet ID="7280"/>
+                <annoSet ID="7295"/>
+                <annoSet ID="10336"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5054">
+            <text>Parfois aussi , vous l' aviez " mensualisée " pour que la somme soit chaque mois identique .</text>
+            <annotationSet status="MANUAL" ID="7280">
+                <layer rank="1" name="FE">
+                    <label end="89" start="55" name="Goal"/>
+                    <label end="44" start="16" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="46" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5059">
+            <text>Là , il a fallu l' ajouter d' un côté , la déduire de l' autre , et il a fallu aussi changer de bloc de bulletins de salaire , pour qu' ils soient conformes aux nouvelles règles .</text>
+            <annotationSet status="MANUAL" ID="7295">
+                <layer rank="1" name="FE">
+                    <label end="176" start="136" name="Goal"/>
+                    <label end="125" start="85" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="127" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6977">
+            <text>Dans son programme , elle préconise notamment un système de double prix des produits agricoles : un prix de marché établi sur la base du coût de production pour les zones les plus favorisées ; un " complément pour les régions défavorisées " , financé par le Ministère de l' agriculture , mais " plafonné " pour que les agriculteurs ne produisent pas trop .</text>
+            <annotationSet status="MANUAL" ID="10336">
+                <layer rank="1" name="FE">
+                    <label end="353" start="315" name="Goal"/>
+                    <label end="304" start="293" name="Means"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="313" start="306" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

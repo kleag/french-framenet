@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="deviner.v" ID="280" frame="Coming_to_believe" frameID="23" totalAnnotated="3" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Core" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cont" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Mns" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="3">
+            <FE name="Cognizer"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="21699"/>
+                <annoSet ID="22520"/>
+                <annoSet ID="22541"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Content"/>
+            <pattern total="3">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="21699"/>
+                <annoSet ID="22520"/>
+                <annoSet ID="22541"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="3">
+            <FE name="Evidence"/>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Evidence"/>
+                <annoSet ID="21699"/>
+                <annoSet ID="22520"/>
+                <annoSet ID="22541"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Means"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="17661">
+            <text>On devine l' embarras du premier ministre .</text>
+            <annotationSet status="MANUAL" ID="21699">
+                <layer rank="1" name="FE">
+                    <label end="40" start="10" name="Content"/>
+                    <label end="1" start="0" name="Cognizer"/>
+                    <label itype="UNI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18389">
+            <text>Ces questions ne sont posées que pour relativiser , raisonnablement , la propension à privilégier l' importance des changements que l' on vit ou que l' on devine , réaction bien humaine puisque les précédents sont devenus des acquis et que les futurs , non encore discernables , n' inquiètent pas .</text>
+            <annotationSet status="MANUAL" ID="22520">
+                <layer rank="1" name="FE">
+                    <label end="147" start="145" name="Content"/>
+                    <label end="160" start="116" name="Content"/>
+                    <label end="153" start="149" name="Cognizer"/>
+                    <label itype="UNI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="160" start="155" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18407">
+            <text>À ce stade de la prospective intervient , on le devine , l' action proprement politique , soit pour aider au succès de l' un ou l' autre ensemble , soit pour contenir les dangers bien réels de cette neuvième forme de l' ordre marchand : dangers de guerre à la périphérie , menaces pour l' espèce humaine si la logique du système fait marchandise de tout , en particulier de la nature et de l' homme potentiellement reproductible en série , comme un objet .</text>
+            <annotationSet status="MANUAL" ID="22541">
+                <layer rank="1" name="FE">
+                    <label end="38" start="0" name="Content"/>
+                    <label end="86" start="57" name="Content"/>
+                    <label end="46" start="45" name="Content"/>
+                    <label end="43" start="42" name="Cognizer"/>
+                    <label itype="UNI" name="Evidence"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="48" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

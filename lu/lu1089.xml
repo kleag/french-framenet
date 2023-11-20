@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="reconnaître.v" ID="1089" frame="FR_Expressing_decision" frameID="10027" totalAnnotated="13" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Dec" name="Decision"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="OffE" name="Official_entity"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="Med" name="Medium"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Decision"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Decision"/>
+                <annoSet ID="2975"/>
+                <annoSet ID="3752"/>
+                <annoSet ID="3758"/>
+                <annoSet ID="22113"/>
+                <annoSet ID="22821"/>
+                <annoSet ID="24421"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Medium"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Medium"/>
+                <annoSet ID="2975"/>
+                <annoSet ID="24421"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Official_entity"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Official_entity"/>
+                <annoSet ID="16771"/>
+                <annoSet ID="21618"/>
+                <annoSet ID="21663"/>
+                <annoSet ID="22568"/>
+                <annoSet ID="23167"/>
+                <annoSet ID="23176"/>
+                <annoSet ID="24689"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Speaker"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="16771"/>
+                <annoSet ID="21618"/>
+                <annoSet ID="21663"/>
+                <annoSet ID="22568"/>
+                <annoSet ID="23167"/>
+                <annoSet ID="23176"/>
+                <annoSet ID="24689"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Speaker"/>
+                <annoSet ID="3758"/>
+                <annoSet ID="22113"/>
+                <annoSet ID="22821"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2272">
+            <text>Le verdict reconnaîtra coupables plusieurs dirigeants , accompagné de différentes condamnations .</text>
+            <annotationSet status="MANUAL" ID="2975">
+                <layer rank="1" name="FE">
+                    <label end="52" start="23" name="Decision"/>
+                    <label end="9" start="0" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="21" start="11" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2870">
+            <text>- Michel Roussin , reconnu coupable de complicité et recel de corruption , a été condamné à 4 ans de prison avec sursis et une amende de 50 000 euros .</text>
+            <annotationSet status="MANUAL" ID="3752">
+                <layer rank="1" name="FE">
+                    <label end="73" start="2" name="Decision"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="25" start="19" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2876">
+            <text>- Louise-Yvonne Casetta , trésorière occulte du RPR , a été reconnue coupable de complicité et recel de corruption , et a été condamnée à 20 mois de prison avec sursis et 10 000 euros d' amende .</text>
+            <annotationSet status="MANUAL" ID="3758">
+                <layer rank="1" name="FE">
+                    <label end="52" start="2" name="Decision"/>
+                    <label end="113" start="69" name="Decision"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="67" start="60" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12431">
+            <text>La COB rappelle que le public français ne peut être sollicité pour des opérations sur des titres étrangers que " lorsque les marchés concernés ont été reconnus par le ministre de l' économie et des finances après avis de la COB</text>
+            <annotationSet status="MANUAL" ID="16771">
+                <layer rank="1" name="FE">
+                    <label end="141" start="121" name="Official_entity"/>
+                    <label end="205" start="164" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="158" start="151" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17569">
+            <text>Mr Fitzwater a rappelé mardi que Washington était favorable de l' autodétermination de ces républiques et n' avait jamais reconnu leur incorporation à l' Union soviétique en 1940 .</text>
+            <annotationSet status="MANUAL" ID="21618">
+                <layer rank="1" name="FE">
+                    <label end="177" start="130" name="Official_entity"/>
+                    <label end="42" start="33" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="128" start="122" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17619">
+            <text>C' est la nomination annoncée jeudi dernier par le gouvernement de Mr Selim Hoss , reconnu par la France mais dont le général Aoun conteste la légitimité , d' un nouvel ambassadeur à Paris , Mr Johnny Abdo , précédemment ambassadeur à Berne , qui a déclenché cette action d' occupation .</text>
+            <annotationSet status="MANUAL" ID="21663">
+                <layer rank="1" name="FE">
+                    <label end="81" start="67" name="Official_entity"/>
+                    <label end="152" start="105" name="Official_entity"/>
+                    <label end="103" start="95" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="89" start="83" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18061">
+            <text>Réjouissons -nous que les salariés de la communauté européenne se soient vu ainsi reconnaître un ensemble de garanties qui n' a pas d' équivalent dans le monde .</text>
+            <annotationSet status="MANUAL" ID="22113">
+                <layer rank="1" name="FE">
+                    <label end="61" start="22" name="Decision"/>
+                    <label end="158" start="94" name="Decision"/>
+                    <label itype="DNI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="92" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18430">
+            <text>Tandis que la plupart des pays reconnaissent les nouvelles autorités et que les initiatives d' aide humanitaire se multiplient , venant en particulier de France , le nouveau pouvoir se met en place .</text>
+            <annotationSet status="MANUAL" ID="22568">
+                <layer rank="1" name="FE">
+                    <label end="67" start="45" name="Official_entity"/>
+                    <label end="29" start="11" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="43" start="31" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18705">
+            <text>S' ils sont reconnus coupables , ils risquent chacun vingt - cinq ans de prison et 750 000 dollars d' amende , a précisé le FBI .</text>
+            <annotationSet status="MANUAL" ID="22821">
+                <layer rank="1" name="FE">
+                    <label end="5" start="3" name="Decision"/>
+                    <label end="29" start="21" name="Decision"/>
+                    <label itype="ENI" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="19" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19170">
+            <text>" Nous regrettons que le gouvernement français ait reconnu " le président Elias Hraoui , a -t-il dit .</text>
+            <annotationSet status="MANUAL" ID="23167">
+                <layer rank="1" name="FE">
+                    <label end="85" start="61" name="Official_entity"/>
+                    <label end="45" start="22" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="57" start="51" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19173">
+            <text>Les partisans du général Aoun occupent , depuis jeudi , les locaux de l' ambassade pour protester contre un mouvement diplomatique décidé par le gouvernement de Mr Salim Hoss , que le général Aoun refuse de reconnaître .</text>
+            <annotationSet status="MANUAL" ID="23176">
+                <layer rank="1" name="FE">
+                    <label end="205" start="142" name="Official_entity"/>
+                    <label end="195" start="181" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="217" start="207" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20844">
+            <text>Si les cheminots entendaient par leur mouvement contester une décision de justice reconnaissant la culpabilité d' un des leurs dans un accident aussi meurtrier , on pourrait légitimement s' indigner .</text>
+            <annotationSet status="MANUAL" ID="24421">
+                <layer rank="1" name="FE">
+                    <label end="125" start="96" name="Decision"/>
+                    <label end="80" start="58" name="Medium"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="94" start="82" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="21253">
+            <text>Mais on se dit rapidement , ensuite , que ce mot recoupe alors sans nécessité le français déréglementation , seul terme que reconnaissent en français le Dictionnaire Robert et Collins du management ainsi que les Petit et Grand Robert .</text>
+            <annotationSet status="MANUAL" ID="24689">
+                <layer rank="1" name="FE">
+                    <label end="118" start="109" name="Official_entity"/>
+                    <label end="232" start="150" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="136" start="124" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

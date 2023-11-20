@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="incidence.n" ID="996" frame="FR_Contingency-Objective_influence" frameID="10015" totalAnnotated="6" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="inf" name="Influencer"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="dep" name="Dependent"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="6">
+            <FE name="Dependent"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Dependent"/>
+                <annoSet ID="7785"/>
+                <annoSet ID="18858"/>
+                <annoSet ID="21426"/>
+                <annoSet ID="21637"/>
+                <annoSet ID="21815"/>
+                <annoSet ID="21820"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="6">
+            <FE name="Influencer"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Influencer"/>
+                <annoSet ID="7785"/>
+                <annoSet ID="18858"/>
+                <annoSet ID="21426"/>
+                <annoSet ID="21637"/>
+                <annoSet ID="21815"/>
+                <annoSet ID="21820"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5371">
+            <text>Les industriels britanniques mesurent mieux l' incidence de la formation sur la productivité .</text>
+            <annotationSet status="MANUAL" ID="7785">
+                <layer rank="1" name="FE">
+                    <label end="91" start="77" name="Dependent"/>
+                    <label end="71" start="60" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="55" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14551">
+            <text>Enfin , la CFTC s' inquiète de mesures qui " risquent à nouveau de n' être que des subventions favorisant la précarité , sans incidence notable sur le chômage " .</text>
+            <annotationSet status="MANUAL" ID="18858">
+                <layer rank="1" name="FE">
+                    <label end="157" start="148" name="Dependent"/>
+                    <label end="124" start="79" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="134" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17361">
+            <text>La plupart des recherches sur les entreprises de presse ont , jusqu' à présent , eu tendance à privilégier l' étude de leur environnement technique et économique : incidence des nouvelles technologies sur les rédactions , poids des groupes multimédias sur la confection de l' information ...</text>
+            <annotationSet status="MANUAL" ID="21426">
+                <layer rank="1" name="FE">
+                    <label end="218" start="205" name="Dependent"/>
+                    <label end="199" start="178" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="172" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17588">
+            <text>Une information privilégiée est " non publique , précise , significative et susceptible , si elle était rendue publique , d' avoir une incidence sur le cours de la valeur concernée " .</text>
+            <annotationSet status="MANUAL" ID="21637">
+                <layer rank="1" name="FE">
+                    <label end="179" start="149" name="Dependent"/>
+                    <label end="26" start="0" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="143" start="135" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17752">
+            <text>Il conviendrait d' appliquer ici le principe de la subsidiarité , en vertu duquel seules les missions ne pouvant être remplies de façon satisfaisante à l' échelon national devraient être transférées à l' institution communautaire , dans la mesure où cela n' a pas d' incidence sur les impératifs découlant de la mise en oeuvre d' une politique monétaire commune " d' un seul tenant " .</text>
+            <annotationSet status="MANUAL" ID="21815">
+                <layer rank="1" name="FE">
+                    <label end="382" start="281" name="Dependent"/>
+                    <label end="253" start="250" name="Influencer"/>
+                    <label end="382" start="19" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="275" start="267" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17754">
+            <text>Cela vaut également pour les décisions d' achat ou de vente de monnaies tierces ( de dollars en particulier ) , car ces opérations ont une incidence directe sur la liquidité et la masse monétaire .</text>
+            <annotationSet status="MANUAL" ID="21820">
+                <layer rank="1" name="FE">
+                    <label end="194" start="161" name="Dependent"/>
+                    <label end="129" start="116" name="Influencer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="147" start="139" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="parler.v" ID="2751" frame="FR_Purpose" frameID="10070" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="" name="Goal"/>
+            <FE fgColor="FFFFFF" bgColor="9400D3" type="Core" abbrev="" name="Means"/>
+            <FE fgColor="FFFFFF" bgColor="0099CC" type="Core" abbrev="med" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="FFA500" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Agent"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Agent"/>
+                <annoSet ID="7998"/>
+                <annoSet ID="15004"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Goal"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Goal"/>
+                <annoSet ID="7998"/>
+                <annoSet ID="15004"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Means"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="5503">
+            <text>Les gars sur les tracteurs parlaient d' aller chercher les fusils .</text>
+            <annotationSet status="MANUAL" ID="7998">
+                <layer rank="1" name="FE">
+                    <label end="64" start="40" name="Goal"/>
+                    <label end="25" start="0" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10743">
+            <text>Le Buy American Act , par exemple - que les américains ne parlent pas de moduler , - " incite " les transformateurs à s' approvisionner uniquement sur le marché national pour les métaux jugés " vitaux pour l' industrie américaine " .</text>
+            <annotationSet status="MANUAL" ID="15004">
+                <layer rank="1" name="FE">
+                    <label end="79" start="73" name="Goal"/>
+                    <label end="53" start="40" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="64" start="58" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

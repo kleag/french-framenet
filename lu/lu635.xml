@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="A" name="inattendu.a" ID="635" frame="FR_Expectation" frameID="10025" totalAnnotated="10" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Phen" name="Phenomenon"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="tim" name="Time_of_Eventuality"/>
+            <FE fgColor="FFFFFF" bgColor="006400" type="Peripheral" abbrev="Evid" name="Evidence"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="9">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="20525"/>
+            </pattern>
+            <pattern total="8">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="15028"/>
+                <annoSet ID="16233"/>
+                <annoSet ID="17898"/>
+                <annoSet ID="18892"/>
+                <annoSet ID="20389"/>
+                <annoSet ID="22032"/>
+                <annoSet ID="22089"/>
+                <annoSet ID="24442"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Evidence"/>
+        </FERealization>
+        <FERealization total="10">
+            <FE name="Phenomenon"/>
+            <pattern total="10">
+                <valenceUnit PT="filled" FE="Phenomenon"/>
+                <annoSet ID="3424"/>
+                <annoSet ID="15028"/>
+                <annoSet ID="16233"/>
+                <annoSet ID="17898"/>
+                <annoSet ID="18892"/>
+                <annoSet ID="20389"/>
+                <annoSet ID="20525"/>
+                <annoSet ID="22032"/>
+                <annoSet ID="22089"/>
+                <annoSet ID="24442"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Time_of_Eventuality"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2566">
+            <text>- De 2004 à 2006 s' est développée une extension inattendue de cette affaire .</text>
+            <annotationSet status="MANUAL" ID="3424">
+                <layer rank="1" name="FE">
+                    <label end="47" start="35" name="Phenomenon"/>
+                    <label end="75" start="60" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="49" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10776">
+            <text>Et tout d' un coup , vendredi 28 août en fin de journée , après la fermeture des marchés , un éclair inattendu explose .</text>
+            <annotationSet status="MANUAL" ID="15028">
+                <layer rank="1" name="FE">
+                    <label end="99" start="91" name="Phenomenon"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="101" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11883">
+            <text>Après avoir réclamé sans grand succès auprès des pouvoirs publics des mesures pour faire face à la crise de l' immobilier , les banquiers viennent de recevoir le renfort inattendu de la Commission bancaire .</text>
+            <annotationSet status="MANUAL" ID="16233">
+                <layer rank="1" name="FE">
+                    <label end="168" start="159" name="Phenomenon"/>
+                    <label end="204" start="180" name="Phenomenon"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="178" start="170" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="13574">
+            <text>Sans oublier quelques inattendus comme Joseph Staline , qui a commencé sa " carrière " comme leader syndical à Bakou , le premier centre pétrolier russe , et ... George Bush , d' abord président de la compagnie Zapata Off - Shore avant de devenir président des Etats - Unis !</text>
+            <annotationSet status="MANUAL" ID="17898">
+                <layer rank="1" name="FE">
+                    <label end="31" start="13" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="22" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14581">
+            <text>Un coin de voile a été levé , mercredi 2 juin , sur la mesure la plus inattendue présentée en conseil des ministres , la compensation salariale par l' Etat de baisses de salaires qui interviendraient dans les entreprises pour éviter des licenciements .</text>
+            <annotationSet status="MANUAL" ID="18892">
+                <layer rank="1" name="FE">
+                    <label end="60" start="52" name="Phenomenon"/>
+                    <label end="249" start="81" name="Phenomenon"/>
+                    <label itype="ENI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="79" start="70" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16230">
+            <text>Alors qu' elle doit commencer ses émissions le 1 janvier 1993 , à 15h30 , la chaîne d' informations en continu Euronews , diffusée en cinq langues depuis Lyon ( le Monde Radio - télévision daté 12 - 13 juillet ) , a rencontré des difficultés inattendues .</text>
+            <annotationSet status="MANUAL" ID="20389">
+                <layer rank="1" name="FE">
+                    <label end="240" start="226" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="252" start="242" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="16350">
+            <text>Ne devrions -nous pas faire tout notre possible pour ouvrir les portes , conformément à une vieille tradition polonaise qui veut qu' on fasse une place à un invité inattendu ? " , a ajouté le pape .</text>
+            <annotationSet status="MANUAL" ID="20525">
+                <layer rank="1" name="FE">
+                    <label end="134" start="133" name="Cognizer"/>
+                    <label end="162" start="154" name="Phenomenon"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="172" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17960">
+            <text>" Il s' attira une réplique aussi brève qu' inattendue : " Par la guerre ...</text>
+            <annotationSet status="MANUAL" ID="22032">
+                <layer rank="1" name="FE">
+                    <label end="38" start="15" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="44" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18042">
+            <text>Avec les marées noires et la peur de la pollution , cette seconde exception a pris une importance inattendue .</text>
+            <annotationSet status="MANUAL" ID="22089">
+                <layer rank="1" name="FE">
+                    <label end="96" start="83" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="107" start="98" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20887">
+            <text>Le tout - info de France - info s' est imposé , en cinq ans , comme la cinquième radio française ( la troisième à Paris ) , tandis que solo Musica italiana , qui diffuse uniquement de la musique nationale , connaît en Italie un succès inattendu , derrière les deux radios publiques de la RAI .</text>
+            <annotationSet status="MANUAL" ID="24442">
+                <layer rank="1" name="FE">
+                    <label end="233" start="225" name="Phenomenon"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="243" start="235" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

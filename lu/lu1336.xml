@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="oubli.n" ID="1336" frame="FR_Memory-Remembering_experience-Remembering_information" frameID="10043" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="cog" name="Cognizer"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="men" name="Mental_content"/>
+            <FE fgColor="FFFFFF" bgColor="0099FF" type="Core" abbrev="sal" name="Salient_entity"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="top" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Cognizer"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Cognizer"/>
+                <annoSet ID="3301"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Cognizer"/>
+                <annoSet ID="15311"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Mental_content"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Mental_content"/>
+                <annoSet ID="3301"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="1">
+            <FE name="Salient_entity"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Salient_entity"/>
+                <annoSet ID="15311"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="2498">
+            <text>Cet oubli est peut-être dû aux menaces de mort explicites qu' elle reçut alors de la part d' officiers supérieurs français , peu avant le suicide de son propre mari .</text>
+            <annotationSet status="MANUAL" ID="3301">
+                <layer rank="1" name="FE">
+                    <label end="65" start="62" name="Cognizer"/>
+                    <label end="8" start="0" name="Mental_content"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="8" start="4" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11058">
+            <text>La Coordination rurale a tenté , à grand renfort médiatique , de bloquer les accès de la capitale le 22 juin ; mais l' opération n' a guère réussi et ce groupe syndical dissident est retombé dans un quasi- oubli .</text>
+            <annotationSet status="MANUAL" ID="15311">
+                <layer rank="1" name="FE">
+                    <label end="177" start="150" name="Salient_entity"/>
+                    <label itype="UNI" name="Cognizer"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="210" start="206" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="N" name="hommage.n" ID="1949" frame="FR_Judgment_communication" frameID="10080" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Peripheral" abbrev="Add" name="Addressee"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Com" name="Communicator"/>
+            <FE fgColor="000000" bgColor="FFFF00" type="Core" abbrev="Medium" name="Medium"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core" abbrev="Top" name="Topic"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Eval" name="Evaluee"/>
+            <FE fgColor="FFFFFF" bgColor="A52A2A" type="Core" abbrev="Exr" name="Expressor"/>
+            <FE fgColor="FFFFFF" bgColor="00008B" type="Core" abbrev="Reas" name="Reason"/>
+            <FE fgColor="FFFFFF" bgColor="8080FF" type="Core" abbrev="" name="Message"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Peripheral" abbrev="Role" name="Role"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Addressee"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Communicator"/>
+            <pattern total="6">
+                <valenceUnit PT="filled" FE="Communicator"/>
+                <annoSet ID="463"/>
+                <annoSet ID="9703"/>
+                <annoSet ID="12688"/>
+                <annoSet ID="21137"/>
+                <annoSet ID="23316"/>
+                <annoSet ID="24450"/>
+            </pattern>
+            <pattern total="3">
+                <valenceUnit PT="null instantiation" FE="Communicator"/>
+                <annoSet ID="21513"/>
+                <annoSet ID="22515"/>
+                <annoSet ID="22620"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Evaluee"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Evaluee"/>
+                <annoSet ID="463"/>
+                <annoSet ID="9703"/>
+                <annoSet ID="12688"/>
+                <annoSet ID="21137"/>
+                <annoSet ID="21513"/>
+                <annoSet ID="22515"/>
+                <annoSet ID="22620"/>
+                <annoSet ID="23316"/>
+                <annoSet ID="24450"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Expressor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Medium"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Message"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Reason"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Role"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="353">
+            <text>" Près de trente ans après le combat mené par Françoise Giroud , il est paradoxal de devoir tirer la sonnette d' alarme " , confie la députée de Moselle en rendant hommage à celle qui fut secrétaire d' Etat à la Condition féminine .</text>
+            <annotationSet status="MANUAL" ID="463">
+                <layer rank="1" name="FE">
+                    <label end="151" start="131" name="Communicator"/>
+                    <label end="229" start="174" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="170" start="164" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6493">
+            <text>Mais , en dénonçant avec un certain agacement la " french mafia " , nos confrères étrangers ne rendent -ils pas indirectement hommage à une nouvelle forme d' influence française ?</text>
+            <annotationSet status="MANUAL" ID="9703">
+                <layer rank="1" name="FE">
+                    <label end="106" start="103" name="Communicator"/>
+                    <label end="90" start="68" name="Communicator"/>
+                    <label end="176" start="136" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="132" start="126" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8879">
+            <text>Réunis en congrès fédéral , lundi , les premiers lui ont rendu un vibrant hommage , par l' intermédiaire de M. François Bernardini , premier secrétaire du PS des Bouches - du - Rhône .</text>
+            <annotationSet status="MANUAL" ID="12688">
+                <layer rank="1" name="FE">
+                    <label end="47" start="36" name="Communicator"/>
+                    <label end="51" start="49" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="80" start="74" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17016">
+            <text>Un hommage international de première grandeur doit être rendu à la nouvelle Roumanie et à son peuple .</text>
+            <annotationSet status="MANUAL" ID="21137">
+                <layer rank="1" name="FE">
+                    <label end="23" start="11" name="Communicator"/>
+                    <label end="86" start="64" name="Evaluee"/>
+                    <label end="99" start="90" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="9" start="3" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="17454">
+            <text>Le nouvel immeuble porte le nom de Sirius , en hommage à Hubert Beuve - Méry , fondateur de Le Monde , qui signait ses éditoriaux de ce pseudonyme .</text>
+            <annotationSet status="MANUAL" ID="21513">
+                <layer rank="1" name="FE">
+                    <label end="145" start="57" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="53" start="47" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18386">
+            <text>En attendant de voir une rétrospective de son oeuvre à Paris , c' est à Reims qu' il faut aller pour apprécier l' hommage qui lui est rendu .</text>
+            <annotationSet status="MANUAL" ID="22515">
+                <layer rank="1" name="FE">
+                    <label end="128" start="126" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="120" start="114" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18512">
+            <text>Cette annonce ainsi que la promesse d' organiser un référendum le 28 janvier prochain sur le rétablissement éventuel de la peine de mort sont intervenues à la suite d' une journée de folie qui aurait dû en principe être consacrée à rendre hommage à la mémoire des victimes de la révolution roumaine .</text>
+            <annotationSet status="MANUAL" ID="22620">
+                <layer rank="1" name="FE">
+                    <label end="297" start="249" name="Evaluee"/>
+                    <label itype="UNI" name="Communicator"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="245" start="239" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="19367">
+            <text>Déjà , dans la nuit , le premier ministre , Mr Petre Roman , avait réussi à mettre fin à la manifestation en prenant la tête , non sans un certain courage , d' un cortège dont il décida qu' il devait aller rendre un dernier hommage aux martyrs de la révolution , place de l' université .</text>
+            <annotationSet status="MANUAL" ID="23316">
+                <layer rank="1" name="FE">
+                    <label end="191" start="190" name="Communicator"/>
+                    <label end="57" start="44" name="Communicator"/>
+                    <label end="259" start="236" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="230" start="224" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="20902">
+            <text>M. Jean - Noël Jeanneney , secrétaire d' Etat à la communication , a rendu hommage au Conseil supérieur de l' audiovisuel , qui , " en créant des comités radiophoniques en région , a su pacifier la bande FM et installer la loi républicaine " .</text>
+            <annotationSet status="MANUAL" ID="24450">
+                <layer rank="1" name="FE">
+                    <label end="63" start="0" name="Communicator"/>
+                    <label end="240" start="86" name="Evaluee"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="81" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="ADV" name="donc.adv" ID="196" frame="Causation" frameID="5" totalAnnotated="28" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Peripheral" abbrev="Affected" name="Affected"/>
+            <FE fgColor="FFFFFF" bgColor="1E90FF" type="Core" abbrev="act" name="Actor"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Effect" name="Effect"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="0">
+            <FE name="Actor"/>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Affected"/>
+        </FERealization>
+        <FERealization total="28">
+            <FE name="Cause"/>
+            <pattern total="5">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="3955"/>
+                <annoSet ID="4420"/>
+                <annoSet ID="5026"/>
+                <annoSet ID="5591"/>
+                <annoSet ID="8087"/>
+            </pattern>
+            <pattern total="23">
+                <valenceUnit PT="null instantiation" FE="Cause"/>
+                <annoSet ID="478"/>
+                <annoSet ID="485"/>
+                <annoSet ID="584"/>
+                <annoSet ID="618"/>
+                <annoSet ID="1576"/>
+                <annoSet ID="1688"/>
+                <annoSet ID="2064"/>
+                <annoSet ID="2076"/>
+                <annoSet ID="2325"/>
+                <annoSet ID="4601"/>
+                <annoSet ID="4939"/>
+                <annoSet ID="5901"/>
+                <annoSet ID="7355"/>
+                <annoSet ID="7453"/>
+                <annoSet ID="7507"/>
+                <annoSet ID="7585"/>
+                <annoSet ID="8129"/>
+                <annoSet ID="8832"/>
+                <annoSet ID="9299"/>
+                <annoSet ID="9467"/>
+                <annoSet ID="9799"/>
+                <annoSet ID="9811"/>
+                <annoSet ID="10420"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="28">
+            <FE name="Effect"/>
+            <pattern total="28">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="478"/>
+                <annoSet ID="485"/>
+                <annoSet ID="584"/>
+                <annoSet ID="618"/>
+                <annoSet ID="1576"/>
+                <annoSet ID="1688"/>
+                <annoSet ID="2064"/>
+                <annoSet ID="2076"/>
+                <annoSet ID="2325"/>
+                <annoSet ID="3955"/>
+                <annoSet ID="4420"/>
+                <annoSet ID="4601"/>
+                <annoSet ID="4939"/>
+                <annoSet ID="5026"/>
+                <annoSet ID="5591"/>
+                <annoSet ID="5901"/>
+                <annoSet ID="7355"/>
+                <annoSet ID="7453"/>
+                <annoSet ID="7507"/>
+                <annoSet ID="7585"/>
+                <annoSet ID="8087"/>
+                <annoSet ID="8129"/>
+                <annoSet ID="8832"/>
+                <annoSet ID="9299"/>
+                <annoSet ID="9467"/>
+                <annoSet ID="9799"/>
+                <annoSet ID="9811"/>
+                <annoSet ID="10420"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="363">
+            <text>Ces partis recevront donc en moins , chaque année , respectivement 118.385 euros , 1,5 millions d' euros , 4 millions d' euros et 625.000 euros .</text>
+            <annotationSet status="MANUAL" ID="478">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Effect"/>
+                    <label end="144" start="26" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="372">
+            <text>La députée de Moselle mène donc campagne .</text>
+            <annotationSet status="MANUAL" ID="485">
+                <layer rank="1" name="FE">
+                    <label end="25" start="0" name="Effect"/>
+                    <label end="41" start="32" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="27" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="457">
+            <text>Il sera donc limité de mars à octobre à raison d' un passage par mois .</text>
+            <annotationSet status="MANUAL" ID="584">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Effect"/>
+                    <label end="70" start="13" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="476">
+            <text>Je fais donc confiance aux maximum de joueurs qui l' ont atteint cette saison .</text>
+            <annotationSet status="MANUAL" ID="618">
+                <layer rank="1" name="FE">
+                    <label end="6" start="0" name="Effect"/>
+                    <label end="78" start="13" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="11" start="8" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1549">
+            <text>Notre groupe les approuvera donc .</text>
+            <annotationSet status="MANUAL" ID="1576">
+                <layer rank="1" name="FE">
+                    <label end="26" start="0" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="31" start="28" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1599">
+            <text>En tant que remarque isolée , je voudrais donc remercier Mme Cederschiöld du fait qu' elle ait clarifié par exemple la notion desdites copies temporaires dans son avis .</text>
+            <annotationSet status="MANUAL" ID="1688">
+                <layer rank="1" name="FE">
+                    <label end="40" start="0" name="Effect"/>
+                    <label end="168" start="47" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="45" start="42" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1786">
+            <text>Notre résolution appelle donc à mettre fin à cette situation .</text>
+            <annotationSet status="MANUAL" ID="2064">
+                <layer rank="1" name="FE">
+                    <label end="23" start="0" name="Effect"/>
+                    <label end="61" start="30" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="28" start="25" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1790">
+            <text>Nous proposons donc de reporter ce débat au mois d' avril .</text>
+            <annotationSet status="MANUAL" ID="2076">
+                <layer rank="1" name="FE">
+                    <label end="13" start="0" name="Effect"/>
+                    <label end="58" start="20" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1893">
+            <text>La question que je pose au commissaire est donc de savoir comment les choses se présentent pour la première année , l' an 2001 .</text>
+            <annotationSet status="MANUAL" ID="2325">
+                <layer rank="1" name="FE">
+                    <label end="41" start="0" name="Effect"/>
+                    <label end="127" start="48" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3066">
+            <text>L' affaire fut mise à jour en 1950 , mais ne suscita qu' un intérêt limité chez les parlementaires , jusqu' en 1952-1953 où l' on se rendit compte que le Viet Minh en profitait également , et qu' une partie des armes tournées contre les soldats français ( y compris tiralleurs sénégalais et marocains ) avaient donc été acquises grâce à ce trafic entretenu par l' avidité de certains .</text>
+            <annotationSet status="MANUAL" ID="3955">
+                <layer rank="1" name="FE">
+                    <label end="185" start="151" name="Cause"/>
+                    <label end="309" start="196" name="Effect"/>
+                    <label end="382" start="316" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="314" start="311" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3348">
+            <text>Jeudi 2 janvier , donc , les prix de la majorité des biens et des services , vendus en gros ou au détail , devaient être libérés et vont donc subir de très fortes augmentations .</text>
+            <annotationSet status="MANUAL" ID="4420">
+                <layer rank="1" name="FE">
+                    <label end="127" start="25" name="Cause"/>
+                    <label end="103" start="25" name="Effect"/>
+                    <label end="175" start="142" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="140" start="137" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3457">
+            <text>C' est donc avec une très grande impatience que la communauté financière américaine attend le traditionnel message sur l' état de l' Union , fin janvier .</text>
+            <annotationSet status="MANUAL" ID="4601">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Effect"/>
+                    <label end="153" start="12" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3639">
+            <text>Ces milieux financiers estiment donc qu' au cours de l' année 1992 , à la fin du premier semestre ou au cours du second , les rendements des obligations françaises seront plus bas qu' aujourd' hui , même si la banque fédérale d' Allemagne maintient sa politique restrictive ou , éventuellement , la durcit .</text>
+            <annotationSet status="MANUAL" ID="4939">
+                <layer rank="1" name="FE">
+                    <label end="30" start="0" name="Effect"/>
+                    <label end="306" start="37" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="35" start="32" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3690">
+            <text>A moins qu' une accélération dans les prochaines semaines ne vienne inverser la tendance , et donc l' explication , on peut trouver plusieurs raisons à cette situation .</text>
+            <annotationSet status="MANUAL" ID="5026">
+                <layer rank="1" name="FE">
+                    <label end="87" start="12" name="Cause"/>
+                    <label end="75" start="12" name="Effect"/>
+                    <label end="112" start="99" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="97" start="94" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4019">
+            <text>Ils considèrent , à juste titre , que les possibilités de gains en capital sur les obligations européennes sont assez substantielles , en Europe , par rapport aux Etats - Unis , où elles deviennent problématiques à l' heure actuelle , avec un risque de remontée des rendements ultérieurement , donc de baisse des cours .</text>
+            <annotationSet status="MANUAL" ID="5591">
+                <layer rank="1" name="FE">
+                    <label end="275" start="253" name="Cause"/>
+                    <label end="317" start="302" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="297" start="294" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4198">
+            <text>Cet organisme , chargé du fonctionnement des marchés , attend donc prochainement une déclaration d' " action de concert " de la part d' Ominco , Exor et Saint Louis .</text>
+            <annotationSet status="MANUAL" ID="5901">
+                <layer rank="1" name="FE">
+                    <label end="60" start="0" name="Effect"/>
+                    <label end="165" start="67" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5096">
+            <text>Tout un dispositif a donc été imaginé pour que chacun puisse connaître à tout moment les postes disponibles dans les sociétés du groupe et la personne à joindre pour un premier contact confidentiel .</text>
+            <annotationSet status="MANUAL" ID="7355">
+                <layer rank="1" name="FE">
+                    <label end="19" start="0" name="Effect"/>
+                    <label end="198" start="26" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="24" start="21" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5150">
+            <text>Je compte donc reprendre l' initiative en réunissant tous les protagonistes et en leur demandant de prendre leurs responsabilités afin de s' engager clairement dans cette voie : il faut qu' ils clarifient leurs positions , qu' ils fortifient leurs signatures et qu' ils expliquent l' accord à leurs mandants .</text>
+            <annotationSet status="MANUAL" ID="7453">
+                <layer rank="1" name="FE">
+                    <label end="8" start="0" name="Effect"/>
+                    <label end="308" start="15" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="13" start="10" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5179">
+            <text>Le problème de la succession est donc renvoyé à janvier 1994 .</text>
+            <annotationSet status="MANUAL" ID="7507">
+                <layer rank="1" name="FE">
+                    <label end="31" start="0" name="Effect"/>
+                    <label end="61" start="38" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="36" start="33" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5234">
+            <text>Le conseil d' administration , composé de notables , confiait donc la direction générale de l' entreprise à des hauts fonctionnaires connus pour leurs relations avec Bruxelles .</text>
+            <annotationSet status="MANUAL" ID="7585">
+                <layer rank="1" name="FE">
+                    <label end="60" start="0" name="Effect"/>
+                    <label end="176" start="67" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="65" start="62" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5553">
+            <text>Acteur moyen de l' industrie des télécommunications et donc courant le risque d' être marginalisée , Matra Communication , filiale spécialisée du groupe Matra , a décidé de nouer une alliance avec le géant canadien Northern Telecom , numéro quatre du secteur .</text>
+            <annotationSet status="MANUAL" ID="8087">
+                <layer rank="1" name="FE">
+                    <label end="50" start="0" name="Cause"/>
+                    <label end="157" start="101" name="Cause"/>
+                    <label end="97" start="60" name="Effect"/>
+                    <label end="157" start="101" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="58" start="55" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5573">
+            <text>Le gouvernement se résout donc à renvoyer la balle dans le camp de partenaires qui ont amplement fait la preuve de leur incapacité à gérer le système de santé .</text>
+            <annotationSet status="MANUAL" ID="8129">
+                <layer rank="1" name="FE">
+                    <label end="24" start="0" name="Effect"/>
+                    <label end="159" start="31" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="29" start="26" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5962">
+            <text>Nous cherchons donc à développer une stratégie globale en matière énergétique dans laquelle le nucléaire aurait sa part .</text>
+            <annotationSet status="MANUAL" ID="8832">
+                <layer rank="1" name="FE">
+                    <label end="13" start="0" name="Effect"/>
+                    <label end="120" start="20" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="18" start="15" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6236">
+            <text>Elle annule donc l' amende infligée et la mesure demandant un rapport sur le secteur à la direction de la concurrence dans un délai de deux ans .</text>
+            <annotationSet status="MANUAL" ID="9299">
+                <layer rank="1" name="FE">
+                    <label end="10" start="0" name="Effect"/>
+                    <label end="144" start="17" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="15" start="12" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6336">
+            <text>La place française , qui avait connu une embellie la semaine précédente , vient donc de renouer avec la baisse amorcée depuis la fin du mois de mai .</text>
+            <annotationSet status="MANUAL" ID="9467">
+                <layer rank="1" name="FE">
+                    <label end="78" start="0" name="Effect"/>
+                    <label end="148" start="85" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="80" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6564">
+            <text>C' est donc une France profondément transformée qui se présente au sommet de Munich , une France ouverte sur l' extérieur , qui , sans états d' âme , investit massivement hors de ses frontières , au risque même de déséquilibrer sa balance des capitaux à long terme .</text>
+            <annotationSet status="MANUAL" ID="9799">
+                <layer rank="1" name="FE">
+                    <label end="5" start="0" name="Effect"/>
+                    <label end="265" start="12" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="10" start="7" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6578">
+            <text>Dès le 1 janvier 1993 , cette organisation basée à Genève , qui gère notamment l' eurovision , regroupera donc l' ensemble des diffuseurs publics du continent et du pourtour méditerranéen .</text>
+            <annotationSet status="MANUAL" ID="9811">
+                <layer rank="1" name="FE">
+                    <label end="104" start="0" name="Effect"/>
+                    <label end="188" start="111" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="109" start="106" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="7032">
+            <text>Les ministres en charge de l' économie ont donc publié une directive qui bloque immédiatement les prix contrôlés des transports et des services publics alors qu' il faudra attendre la réunion du conseil des ministres , en fin de semaine , pour connaître concrètement les sacrifices qui seront demandés aux Italiens .</text>
+            <annotationSet status="MANUAL" ID="10420">
+                <layer rank="1" name="FE">
+                    <label end="41" start="0" name="Effect"/>
+                    <label end="315" start="48" name="Effect"/>
+                    <label itype="DNI" name="Cause"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="46" start="43" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

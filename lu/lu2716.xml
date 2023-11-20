@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="PREP" name="à la demande de.prep" ID="2716" frame="Response" frameID="1302" totalAnnotated="9" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="800080" type="Core-Unexpressed" abbrev="res" name="Response"/>
+            <FE fgColor="FFFFFF" bgColor="2E8B57" type="Core" abbrev="res_e" name="Responding_entity"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="tri" name="Trigger"/>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="age" name="Agent"/>
+            <FE fgColor="FFFFFF" bgColor="808080" type="Core" abbrev="stt" name="Sentient_trigger"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Agent"/>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Agent"/>
+                <annoSet ID="2084"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Responding_entity"/>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Response"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Response"/>
+                <annoSet ID="2120"/>
+                <annoSet ID="3500"/>
+                <annoSet ID="6512"/>
+                <annoSet ID="12282"/>
+                <annoSet ID="14248"/>
+                <annoSet ID="14851"/>
+                <annoSet ID="15946"/>
+                <annoSet ID="16518"/>
+            </pattern>
+            <pattern total="1">
+                <valenceUnit PT="null instantiation" FE="Response"/>
+                <annoSet ID="2084"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="9">
+            <FE name="Sentient_trigger"/>
+            <pattern total="9">
+                <valenceUnit PT="filled" FE="Sentient_trigger"/>
+                <annoSet ID="2084"/>
+                <annoSet ID="2120"/>
+                <annoSet ID="3500"/>
+                <annoSet ID="6512"/>
+                <annoSet ID="12282"/>
+                <annoSet ID="14248"/>
+                <annoSet ID="14851"/>
+                <annoSet ID="15946"/>
+                <annoSet ID="16518"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Trigger"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1793">
+            <text>Puis -je savoir à la demande de qui et pour quels motifs ?</text>
+            <annotationSet status="MANUAL" ID="2084">
+                <layer rank="1" name="FE">
+                    <label end="34" start="32" name="Sentient_trigger"/>
+                    <label itype="DNI" name="Response"/>
+                    <label itype="UNI" name="Agent"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="16" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1807">
+            <text>Je sais , Madame la Présidente , que vous êtes déjà intervenue pour solliciter la présence au procès d' une délégation du Parlement européen , à la demande de certains députés .</text>
+            <annotationSet status="MANUAL" ID="2120">
+                <layer rank="1" name="FE">
+                    <label end="174" start="159" name="Sentient_trigger"/>
+                    <label end="141" start="37" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="157" start="143" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="2672">
+            <text>à la demande du Conseil supérieur de la magistrature , saisi par le président François Mitterrand , le juge Halphen est dessaisi du volet Hauts-de-Seine de l' affaire , confié aux juges Philippe Vandingenen et Serge Portelli , mais conserve le volet parisien .</text>
+            <annotationSet status="MANUAL" ID="3500">
+                <layer rank="1" name="FE">
+                    <label end="96" start="16" name="Sentient_trigger"/>
+                    <label end="223" start="100" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="4616">
+            <text>Selon le cinquième sondage annuel sur la crédibilité des médias réalisé fin 1991 par la SOFRES , à la demande de la Croix , Télérama et Médiaspouvoirs ( 1 ) , 71 % des personnes interrogées s' intéressent aux informations ( ils étaient 62 % en octobre 1987 ) .</text>
+            <annotationSet status="MANUAL" ID="6512">
+                <layer rank="1" name="FE">
+                    <label end="149" start="113" name="Sentient_trigger"/>
+                    <label end="95" start="6" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="111" start="97" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="8619">
+            <text>A la demande de M. Dominique Strauss - Kahn , ministre de l' industrie , la direction a annoncé qu' elle intégrerait ainsi momentanément , selon cette formule , 3000 personnes , jeunes en difficulté ou adultes chômeurs de longue durée .</text>
+            <annotationSet status="MANUAL" ID="12282">
+                <layer rank="1" name="FE">
+                    <label end="69" start="16" name="Sentient_trigger"/>
+                    <label end="235" start="71" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10140">
+            <text>Cette décision a été prise à l' occasion d' une réunion du conseil de surveillance du groupe et à la demande de M. François Pinault .</text>
+            <annotationSet status="MANUAL" ID="14248">
+                <layer rank="1" name="FE">
+                    <label end="130" start="112" name="Sentient_trigger"/>
+                    <label end="25" start="0" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="110" start="96" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="10621">
+            <text>Sur le second marché , conformément à la demande des autorités boursières , les ciments français et Paribas ont déposé une OPA sur la totalité des actions du groupe de travaux publics Guintoli dont ils avaient franchi sans prévenir la barre des 33 % du capital en 1990 .</text>
+            <annotationSet status="MANUAL" ID="14851">
+                <layer rank="1" name="FE">
+                    <label end="72" start="53" name="Sentient_trigger"/>
+                    <label end="19" start="0" name="Response"/>
+                    <label end="267" start="76" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="51" start="36" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11582">
+            <text>A la demande du Parti social - démocrate ( SPD ) , la commission économique du Bundestag ( Chambre basse du Parlement ) va tenir début janvier une réunion extraordinaire pour étudier si le ministre de l' économie , M. Jürgen Mllemann , a utilisé sa position au sein du gouvernement pour promouvoir des intérêts privés , a indiqué lundi 28 décembre un porte - parole du Bundestag .</text>
+            <annotationSet status="MANUAL" ID="15946">
+                <layer rank="1" name="FE">
+                    <label end="47" start="16" name="Sentient_trigger"/>
+                    <label end="316" start="51" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="12187">
+            <text>A la demande du président du tribunal de commerce , M. Jean - Luc Chatain , M. Jean - Albert Corrand , ancien directeur général du comité d' organisation des Jeux olympiques d' Albertville ( COJO ) , a accepté " de procéder à un examen immédiat des chances de redressement de l' entreprise " .</text>
+            <annotationSet status="MANUAL" ID="16518">
+                <layer rank="1" name="FE">
+                    <label end="72" start="16" name="Sentient_trigger"/>
+                    <label end="292" start="74" name="Response"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="14" start="0" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

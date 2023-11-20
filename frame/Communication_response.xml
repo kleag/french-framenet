@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="Communication_response" ID="42" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Verbal_communication">
+    <definition>&lt;def-root&gt;This frame deals with communicating a reply or response to some prior communication or action.
+	&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:04 PST Wed" abbrev="Spkr" name="Speaker" ID="177">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Speaker&lt;/fen&gt; is the sentient entity that communicates the reply or response. It is expressed as the External Argument of predicative uses of a &lt;t&gt;Target&lt;/t&gt; verb or as the Genitive modifier of a &lt;t&gt;Target&lt;/t&gt; noun: &lt;ex&gt;&lt;fex name="Spkr"&gt;Sue&lt;/fex&gt; &lt;t&gt;responded&lt;/t&gt; to the objection convincingly.&lt;/ex&gt; &lt;ex&gt;&lt;fex name="Spkr"&gt;Sue&lt;/fex&gt; gave a convincing &lt;t&gt;response&lt;/t&gt;.&lt;/ex&gt; &lt;ex&gt;&lt;fex name="Spkr"&gt;Sue's&lt;/fex&gt; &lt;t&gt;response&lt;/t&gt; was convincing.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:04 PST Wed" abbrev="Add" name="Addressee" ID="178">
+        <definition>&lt;def-root&gt;This is the person to whom the response is communicated.  When expressed, this FE occurs as the direct object of a &lt;t&gt;Target&lt;/t&gt; verb, or in a prepositional phrase introduced by "to": &lt;ex&gt;Sue &lt;t&gt;answered&lt;/t&gt; &lt;fex name="Add"&gt;Bob&lt;/fex&gt; immediately.&lt;/ex&gt; &lt;ex&gt;Sue &lt;t&gt;responded&lt;/t&gt; &lt;fex name="Add"&gt;to Bob&lt;/fex&gt; immediately.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:04 PST Wed" abbrev="Msg" name="Message" ID="179">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Message&lt;/fen&gt; is the FE that identifies the content of what the &lt;fen&gt;Speaker&lt;/fen&gt; is communicating to the &lt;fen&gt;Addressee&lt;/fen&gt;. It can be expressed as a direct quote or a clause.&lt;ex&gt;&lt;fex name="Msg"&gt;"I can't help you,"&lt;/fex&gt; Sue &lt;t&gt;answered&lt;/t&gt;.&lt;/ex&gt;&lt;ex&gt;Sue &lt;t&gt;replied&lt;/t&gt; &lt;fex name="Msg"&gt;that she couldn't help&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+        <semType name="Message" ID="56"/>
+    </FE>
+    <FE bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:04 PST Wed" abbrev="Top" name="Topic" ID="180">
+        <definition>&lt;def-root&gt;&lt;fen&gt;Topic&lt;/fen&gt; occurs quite rarely in this frame and usually only as a PP Complement of a noun &lt;t&gt;Target&lt;/t&gt;:&lt;ex&gt;My boss still hasn't given me an &lt;t&gt;answer&lt;/t&gt; &lt;fex name="Top"&gt;about a promotion&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="7CCD73" fgColor="FFFFFF" coreType="Peripheral" cBy="731" cDate="02/07/2001 04:12:04 PST Wed" abbrev="Medium" name="Medium" ID="181">
+        <definition>&lt;def-root&gt;As with &lt;fen&gt;Medium&lt;/fen&gt; in other Communication frames, the physical entity or channel used to communicate can be expressed, usually as a PP Complement headed by "on" or "in":&lt;ex&gt;Sue &lt;t&gt;responded&lt;/t&gt; to my question &lt;fex name="Medium"&gt;on the telephone&lt;/fex&gt;.&lt;/ex&gt;&lt;ex&gt;Sue &lt;t&gt;replied&lt;/t&gt; &lt;fex name="Medium"&gt;in writing&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="731" cDate="02/07/2001 04:12:04 PST Wed" abbrev="Trig" name="Trigger" ID="182">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Trigger&lt;/fen&gt; is the prior communication or action to which a response is given. It can occur as an NP Object or a PP Complement.&lt;ex&gt;Sue &lt;t&gt;answered&lt;/t&gt; &lt;fex name="Trig"&gt;the question&lt;/fex&gt;.&lt;/ex&gt;&lt;ex&gt;Sue &lt;t&gt;responded&lt;/t&gt; &lt;fex name="Trig"&gt;to the questionnaire&lt;/fex&gt;.&lt;/ex&gt; &lt;/def-root&gt;</definition>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Message" ID="179"/>
+        <memberFE name="Topic" ID="180"/>
+    </FEcoreSet>
+    <frameRelation type="Inherits from">
+        <relatedFrame>FR_Telling</relatedFrame>
+        <relatedFrame>Response</relatedFrame>
+    </frameRelation>
+    <frameRelation type="Is Inherited by">
+        <relatedFrame>Respond_to_proposal</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="objecter.v" ID="368" nbocc="4" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="4"/>
+        <otherlexUnit framename="Other_sense" ID="101285" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="objection.n" ID="369" nbocc="2" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101288" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="opposer.v" ID="370" nbocc="65" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101302" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="n" name="riposte.n" ID="371" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="1"/>
+        <otherlexUnit framename="Other_sense" ID="101633" annotatedsent="0"/>
+        <otherlexUnit framename="Response" ID="2438" annotatedsent="2"/>
+    </lexUnit>
+    <lexUnit POS="v" name="riposter.v" ID="372" nbocc="1" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Other_sense" ID="101634" annotatedsent="0"/>
+        <otherlexUnit framename="Response" ID="2439" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="n" name="réplique.n" ID="373" nbocc="5" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="2"/>
+        <otherlexUnit framename="Other_sense" ID="101673" annotatedsent="1"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="2767" annotatedsent="2"/>
+        <otherlexUnit framename="Response" ID="2443" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="répliquer.v" ID="374" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101674" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Request" ID="2403" annotatedsent="0"/>
+        <otherlexUnit framename="Response" ID="2444" annotatedsent="1"/>
+    </lexUnit>
+    <lexUnit POS="v" name="répondre.v" ID="375" nbocc="84" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="26"/>
+        <otherlexUnit framename="Other_sense" ID="101675" annotatedsent="17"/>
+        <otherlexUnit framename="FR_Request" ID="2404" annotatedsent="0"/>
+        <otherlexUnit framename="Response" ID="2445" annotatedsent="42"/>
+    </lexUnit>
+    <lexUnit POS="n" name="réponse.n" ID="376" nbocc="73" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="51"/>
+        <otherlexUnit framename="Other_sense" ID="101676" annotatedsent="0"/>
+        <otherlexUnit framename="Response" ID="2446" annotatedsent="22"/>
+    </lexUnit>
+    <lexUnit POS="v" name="rétorquer.v" ID="377" nbocc="9" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="101689" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Request" ID="2406" annotatedsent="0"/>
+    </lexUnit>
+</frame>

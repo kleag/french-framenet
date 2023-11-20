@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<frame name="FR_Attributing_cause" ID="10005" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" domains="Cognitive_positions,Verbal_communication,Causality">
+    <definition>&lt;def-root&gt;An &lt;fen&gt;Attributor&lt;/fen&gt; either explains a &lt;fen&gt;Known_state_of_affairs&lt;/fen&gt; by providing a &lt;fen&gt;Cause&lt;/fen&gt; or presents a &lt;fen&gt;Responsible_party&lt;/fen&gt; as being responsible for the &lt;fen&gt;Known_state_of_affairs&lt;/fen&gt;. The latter possibility is only possible for some of the LUs of this frame (all except "expliquer"). This may be done verbally, or it may be part of the &lt;fen&gt;Attributor&lt;/fen&gt;'s internal world view.  
+
+&lt;ex&gt;&lt;/ex&gt;
+Distinctions with other frames:
+&lt;ex&gt;≠ &lt;frframe&gt;Explaining_the_facts&lt;/frframe&gt;: in the latter, the LUs present the Cause as an explanation for the State_of_affairs, without any local realization of the Attributor. &lt;/ex&gt;
+&lt;ex&gt;≠ &lt;frframe&gt;FR_Justifying&lt;/frframe&gt;: In FR_Attributing_cause, the Attributor supplies what they present as a CAUSE for a Known_state_of_affair whereas in FR_Justifying, what the Communicator states is a reason for viewing the State_of_affair or Act they might be responsible for as LEGITIMATE.&lt;/ex&gt;
+
+&lt;ex&gt;&lt;/ex&gt;
+&lt;asf&gt;Relation to fndata-1.5&lt;/asf&gt; New in ASFALDA.
+&lt;/def-root&gt;</definition>
+    <FE bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="05/24/2005 10:51:06 PDT Tue" abbrev="cfac" name="Cause" ID="8025">
+        <definition>&lt;def-root&gt;A fact the Attributor presents as connected by a chain of reasoning to the Known_state_of_affairs.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="05/24/2005 10:51:10 PDT Tue" abbrev="ksta" name="Known_state_of_affairs" ID="8026">
+        <definition>&lt;def-root&gt;A fact whose cause is under consideration.&lt;/def-root&gt;</definition>
+    </FE>
+    <FE bgColor="008000" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="05/24/2005 10:51:11 PDT Tue" abbrev="exp" name="Attributor" ID="8033">
+        <definition>&lt;def-root&gt;The individual presenting the &lt;fen&gt;Cause&lt;/fen&gt; as an explanation for the &lt;fen&gt;Known_state_of_affairs&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FE bgColor="00BFFF" fgColor="FFFFFF" coreType="Core" cBy="605" cDate="05/24/2005 10:51:11 PDT Tue" abbrev="resp" name="Responsible_party" ID="8034">
+        <definition>&lt;def-root&gt;The party presented by the &lt;fen&gt;Attributor&lt;/fen&gt; as responsible for the &lt;fen&gt;Known_state_of_affairs&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </FE>
+    <FEcoreSet>
+        <memberFE name="Responsible_party" ID="8034"/>
+        <memberFE name="Cause" ID="8025"/>
+    </FEcoreSet>
+    <frameRelation type="Is Attributive of">
+        <relatedFrame>Explaining_the_facts</relatedFrame>
+    </frameRelation>
+    <lexUnit POS="v" name="attribuer.v" ID="1138" nbocc="44" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="9"/>
+        <otherlexUnit framename="Other_sense" ID="100159" annotatedsent="35"/>
+    </lexUnit>
+    <lexUnit POS="n" name="attribution.n" ID="1139" nbocc="16" inhib_in_lexicon="true" lemma_is_annotated="false">
+        <sentenceCount annotated="0"/>
+    </lexUnit>
+    <lexUnit POS="n" name="explication.n" ID="1133" nbocc="16" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="0"/>
+        <otherlexUnit framename="Quarreling" ID="2242" annotatedsent="1"/>
+        <otherlexUnit framename="Other_sense" ID="100852" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1559" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1479" annotatedsent="9"/>
+        <otherlexUnit framename="Explaining_the_facts" ID="688" annotatedsent="6"/>
+    </lexUnit>
+    <lexUnit POS="v" name="expliquer.v" ID="1134" nbocc="213" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="14"/>
+        <otherlexUnit framename="Other_sense" ID="100853" annotatedsent="0"/>
+        <otherlexUnit framename="FR_Statement-manner-noise" ID="1560" annotatedsent="59"/>
+        <otherlexUnit framename="FR_Speak_on_topic" ID="1480" annotatedsent="11"/>
+        <otherlexUnit framename="Explaining_the_facts" ID="689" annotatedsent="17"/>
+    </lexUnit>
+    <lexUnit POS="a" name="imputable.a" ID="1137" nbocc="8" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="8"/>
+        <otherlexUnit framename="Other_sense" ID="101030" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="imputer.v" ID="1136" nbocc="7" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="7"/>
+        <otherlexUnit framename="Other_sense" ID="101031" annotatedsent="0"/>
+    </lexUnit>
+    <lexUnit POS="v" name="justifier.v" ID="1135" nbocc="54" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101145" annotatedsent="7"/>
+        <otherlexUnit framename="FR_Justifying" ID="1203" annotatedsent="28"/>
+        <otherlexUnit framename="FR_Deserving" ID="1059" annotatedsent="12"/>
+    </lexUnit>
+    <lexUnit POS="v" name="mettre sur le compte de.v" ID="1140" nbocc="3" inhib_in_lexicon="false" lemma_is_annotated="true">
+        <sentenceCount annotated="3"/>
+        <otherlexUnit framename="Other_sense" ID="101225" annotatedsent="0"/>
+    </lexUnit>
+</frame>

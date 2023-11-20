@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="engendrer.v" ID="902" frame="FR_Cause_to_start-Launch_process" frameID="10009" totalAnnotated="8" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="FF0000" type="Core" abbrev="Cause" name="Cause"/>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="Effect" name="Effect"/>
+            <FE fgColor="FFFFFF" bgColor="F000F0" type="Core" abbrev="" name="Actor"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="1">
+            <FE name="Actor"/>
+            <pattern total="1">
+                <valenceUnit PT="filled" FE="Actor"/>
+                <annoSet ID="2401"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="7">
+            <FE name="Cause"/>
+            <pattern total="7">
+                <valenceUnit PT="filled" FE="Cause"/>
+                <annoSet ID="2099"/>
+                <annoSet ID="4853"/>
+                <annoSet ID="8598"/>
+                <annoSet ID="8823"/>
+                <annoSet ID="10270"/>
+                <annoSet ID="18450"/>
+                <annoSet ID="22260"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="8">
+            <FE name="Effect"/>
+            <pattern total="8">
+                <valenceUnit PT="filled" FE="Effect"/>
+                <annoSet ID="2099"/>
+                <annoSet ID="2401"/>
+                <annoSet ID="4853"/>
+                <annoSet ID="8598"/>
+                <annoSet ID="8823"/>
+                <annoSet ID="10270"/>
+                <annoSet ID="18450"/>
+                <annoSet ID="22260"/>
+            </pattern>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1800">
+            <text>À tout le moins , ceci engendre un manque de transparence .</text>
+            <annotationSet status="MANUAL" ID="2099">
+                <layer rank="1" name="FE">
+                    <label end="21" start="18" name="Cause"/>
+                    <label end="56" start="32" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="1929">
+            <text>L' appât du gain est tel que le monde financier a tendance à engendrer une euphorie collective tournant souvent à la crise financière .</text>
+            <annotationSet status="MANUAL" ID="2401">
+                <layer rank="1" name="FE">
+                    <label end="132" start="71" name="Effect"/>
+                    <label end="46" start="29" name="Actor"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="69" start="61" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="3597">
+            <text>Son activité engendre donc des flux financiers permanents .</text>
+            <annotationSet status="MANUAL" ID="4853">
+                <layer rank="1" name="FE">
+                    <label end="11" start="0" name="Cause"/>
+                    <label end="56" start="27" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="20" start="13" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5838">
+            <text>La récession , qui de juillet 1990 à décembre 1991 a frappé l' économie , a été plus sévère que prévu , ne serait -ce que par le nombre de chômeurs qu' elle a engendrés ( 2 , 2 millions au lieu des 1 , 6 million initialement avancés ) mais le président Bush ne doit pas se faire accuser pour autant d' afficher le bilan économique le plus catastrophique depuis Harry Truman ( 1945 -1953 ) .</text>
+            <annotationSet status="MANUAL" ID="8598">
+                <layer rank="1" name="FE">
+                    <label end="155" start="152" name="Cause"/>
+                    <label end="70" start="0" name="Cause"/>
+                    <label end="150" start="148" name="Effect"/>
+                    <label end="146" start="126" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="167" start="159" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="5949">
+            <text>D' un autre côté , certains Etats membres pourraient voir d' un mauvais oeil le surcoût engendré par une amélioration de leurs services nationaux .</text>
+            <annotationSet status="MANUAL" ID="8823">
+                <layer rank="1" name="FE">
+                    <label end="144" start="101" name="Cause"/>
+                    <label end="86" start="77" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="95" start="88" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="6915">
+            <text>La crise des années 30 engendre une flambée du corporatisme .</text>
+            <annotationSet status="MANUAL" ID="10270">
+                <layer rank="1" name="FE">
+                    <label end="21" start="0" name="Cause"/>
+                    <label end="58" start="32" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="30" start="23" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="14120">
+            <text>Aujourd' hui , il semble acquis que si une politique trop restrictive peut engendrer des crises telles que celle qui s' est développée au cours des années 30 à partir des Etats - Unis , une politique active , dite souvent " de relance " , n' est susceptible de déboucher que sur l' accélération de l' inflation , telle que nous l' avons connue jusqu' en 1983 .</text>
+            <annotationSet status="MANUAL" ID="18450">
+                <layer rank="1" name="FE">
+                    <label end="68" start="39" name="Cause"/>
+                    <label end="182" start="85" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="83" start="75" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="18223">
+            <text>De même , une entorse au principe de neutralité de la TVA permettrait de moduler son taux pour les différentes ressources naturelles selon leur rareté ou les nuisances engendrées par leur utilisation .</text>
+            <annotationSet status="MANUAL" ID="22260">
+                <layer rank="1" name="FE">
+                    <label end="198" start="183" name="Cause"/>
+                    <label end="166" start="154" name="Effect"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="177" start="168" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="lexUnit.xsl"?>
+<lexUnit POS="V" name="s'exprimer.v" ID="2711" frame="FR_Expressing_side" frameID="10029" totalAnnotated="2" xsi:schemaLocation="../schema/lexUnit.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <header>
+        <frame>
+            <FE fgColor="FFFFFF" bgColor="0000FF" type="Core" abbrev="" name="Polarity"/>
+            <FE fgColor="FFFFFF" bgColor="00BFFF" type="Core" abbrev="" name="Content"/>
+            <FE fgColor="FFFFFF" bgColor="9F79EE" type="Core" abbrev="" name="Side"/>
+            <FE fgColor="FFFFFF" bgColor="008000" type="Core" abbrev="Spkr" name="Speaker"/>
+            <FE fgColor="000000" bgColor="FF0000" type="Core" abbrev="" name="Topic"/>
+        </frame>
+    </header>
+    <lexeme POS="V" name="expect"/>
+    <valences>
+        <FERealization total="2">
+            <FE name="Content"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Content"/>
+                <annoSet ID="2127"/>
+                <annoSet ID="16004"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Polarity"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Polarity"/>
+                <annoSet ID="2127"/>
+                <annoSet ID="16004"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Side"/>
+        </FERealization>
+        <FERealization total="2">
+            <FE name="Speaker"/>
+            <pattern total="2">
+                <valenceUnit PT="filled" FE="Speaker"/>
+                <annoSet ID="2127"/>
+                <annoSet ID="16004"/>
+            </pattern>
+        </FERealization>
+        <FERealization total="0">
+            <FE name="Topic"/>
+        </FERealization>
+    </valences>
+    <subCorpus>
+        <sentence ID="1809">
+            <text>Je suis contraint de vous redemander d' intervenir , à vous et à la Commission , pour que ce procès se déroule dans le respect total des droits de l' homme , pour qu' on ne condamne pas à mort treize personnes sans connaître tous les tenants et aboutissants , vu que cette Assemblée s' est exprimée à plus d' une reprise contre la peine capitale .</text>
+            <annotationSet status="MANUAL" ID="2127">
+                <layer rank="1" name="FE">
+                    <label end="326" start="321" name="Polarity"/>
+                    <label end="344" start="328" name="Content"/>
+                    <label end="281" start="267" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="284" start="283" name="Target"/>
+                    <label end="297" start="290" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+        <sentence ID="11631">
+            <text>Ainsi , le vice- président de la Bundesbank , M. Hans Tietmeyer , s' est félicité , dans une interview accordée au Quotidien de Paris lundi 28 décembre , que " le gouvernement français , mais aussi les leaders de l' opposition , comme Edouard Balladur et Valéry Giscard d' Estaing , se soient clairement exprimés pour la poursuite de la politique du franc fort et du maintien de la parité entre la devise française et le deutschemark " .</text>
+            <annotationSet status="MANUAL" ID="16004">
+                <layer rank="1" name="FE">
+                    <label end="316" start="313" name="Polarity"/>
+                    <label end="432" start="318" name="Content"/>
+                    <label end="279" start="160" name="Speaker"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label end="284" start="283" name="Target"/>
+                    <label end="311" start="304" name="Target"/>
+                </layer>
+            </annotationSet>
+        </sentence>
+    </subCorpus>
+</lexUnit>
